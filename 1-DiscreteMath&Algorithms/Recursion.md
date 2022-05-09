@@ -33,7 +33,7 @@ func Sum(int n) {
 
 >T(n) = T(n-1) + 1 = T(n-2) + 1 + 1 = T(n-2) + 2 
 >T(n) = T(n-2) + 2 = T(n-3) + 1 + 2 = T(n-3) + 3
->T(n) = T(n-k) + kdd
+>T(n) = T(n-k) + k
 
 > n-k=1 means k=n-1  with k being recursive calls
 
@@ -60,6 +60,7 @@ func Sum(int n) {
 - A method of determining the time compelxity of recursive algorithm given that certain conditions are met, the general formula for this is:
 
 >![[Pasted image 20220505190349.png]]
+>![[Pasted image 20220509141400.png]]
 
 - The theorem can **only** be used if:
 

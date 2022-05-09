@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1-PrinciplesOfEconomics/Money_demand.md",
+            "file": "0-ProgrammingLanguages/Java.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "money",
+                "query": "java",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-PrinciplesOfEconomics/Money_demand.md",
+                "file": "0-ProgrammingLanguages/Java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,15 +114,15 @@
   },
   "active": "3bed3f13055b3d7c",
   "lastOpenFiles": [
-    "1-PrinciplesOfEconomics/Money_demand.md",
+    "0-ProgrammingLanguages/Java.md",
     "1-DiscreteMath&Algorithms/Recursion.md",
+    "1-DiscreteMath&Algorithms/Search_algorithms.md",
+    "1-DiscreteMath&Algorithms/DataStorage&Retrieval.md",
+    "1-PrinciplesOfEconomics/Money_demand.md",
     "0-MachineLearning/0-CoursesPart1/MachineLearning/Recommender_systems.md",
     "1-DiscreteMath&Algorithms/ComplexityAnalysis/Omega&Theta_Notation.md",
     "1-DiscreteMath&Algorithms/Graphs/Graphs.md",
     "0-ProgrammingLanguages/Core_concepts/Sorting_algorithms.md",
-    "1-DiscreteMath&Algorithms/Hash_tables.md",
-    "1-DiscreteMath&Algorithms/Graphs/Graph_transversal.md",
-    "1-DiscreteMath&Algorithms/Graphs/Tree_ADT.md",
-    "1-DiscreteMath&Algorithms/Graphs/Tree_algorithms.md"
+    "1-DiscreteMath&Algorithms/Hash_tables.md"
   ]
 }
