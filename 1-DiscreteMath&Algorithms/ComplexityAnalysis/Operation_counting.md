@@ -31,7 +31,7 @@
 >![[Pasted image 20220124122929.png]]
 
 ## Operations: min function 
-- Example of different best and worst case
+- Example of different best and worst case complexities
 - worst case (no smaller number than that at index 0)
 >![[Pasted image 20220124123404.png]]
 - best case (smallest number every iteration)
