@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux/General_commands.md",
-            "mode": "source",
+            "file": "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/CNN_architecture.md",
+            "mode": "preview",
             "source": true
           }
         }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/General_commands.md",
+                "file": "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/CNN_architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +113,8 @@
   },
   "active": "3bed3f13055b3d7c",
   "lastOpenFiles": [
+    "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/CNN_architecture.md",
+    "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/CNN_features.md",
     "Linux/General_commands.md",
     "1-DiscreteMath&Algorithms/ComplexityAnalysis/Operation_counting.md",
     "1-DiscreteMath&Algorithms/ComplexityAnalysis/Complex_bigO.md",
@@ -120,8 +122,6 @@
     "1-DiscreteMath&Algorithms/Recursion.md",
     "1-DiscreteMath&Algorithms/Search_algorithms.md",
     "1-DiscreteMath&Algorithms/DataStorage&Retrieval.md",
-    "1-PrinciplesOfEconomics/Money_demand.md",
-    "0-MachineLearning/0-CoursesPart1/MachineLearning/Recommender_systems.md",
-    "1-DiscreteMath&Algorithms/ComplexityAnalysis/Omega&Theta_Notation.md"
+    "1-PrinciplesOfEconomics/Money_demand.md"
   ]
 }
