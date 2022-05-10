@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/CNN_architecture.md",
+            "file": "0-ProgrammingLanguages/MIPS/MIPS_programBasics.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "java",
+                "query": "syscal",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/CNN_architecture.md",
+                "file": "0-ProgrammingLanguages/MIPS/MIPS_programBasics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,15 +114,15 @@
   },
   "active": "3bed3f13055b3d7c",
   "lastOpenFiles": [
-    "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/CNN_architecture.md",
-    "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/CNN_features.md",
-    "Linux/General_commands.md",
-    "1-DiscreteMath&Algorithms/ComplexityAnalysis/Operation_counting.md",
-    "1-DiscreteMath&Algorithms/ComplexityAnalysis/Complex_bigO.md",
-    "0-ProgrammingLanguages/Java.md",
-    "1-DiscreteMath&Algorithms/Recursion.md",
-    "1-DiscreteMath&Algorithms/Search_algorithms.md",
-    "1-DiscreteMath&Algorithms/DataStorage&Retrieval.md",
-    "1-PrinciplesOfEconomics/Money_demand.md"
+    "0-ProgrammingLanguages/MIPS/MIPS_programBasics.md",
+    "0-MachineLearning/0-GeneralConcepts/ML_tuning/Train_distributions.md",
+    "0-MachineLearning/0-GeneralConcepts/ML_tuning/Multi-Task_learning.md",
+    "0-MachineLearning/0-GeneralConcepts/ML_tuning/ML_model_tuning.md",
+    "0-MachineLearning/0-GeneralConcepts/ML_tuning/Human_level_performance.md",
+    "0-MachineLearning/0-GeneralConcepts/ML_tuning/Evaluation_metrics.md",
+    "0-MachineLearning/0-GeneralConcepts/ML_tuning/Error_analysis.md",
+    "0-MachineLearning/0-GeneralConcepts/ML_tuning/End_to_end_learning.md",
+    "0-MachineLearning/0-GeneralConcepts/DataProcessing/Batch_normalization.md",
+    "0-MachineLearning/0-CoursesPart1/MachineLearning/Diagnosing_learning_curves.md"
   ]
 }
