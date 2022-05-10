@@ -6,3 +6,10 @@
 >![[Pasted image 20211127115627.png]]
 ## Inputs
 >![[Pasted image 20211127120010.png]]
+
+# GET and POST
+# GET 
+- Parameters are made part of the url
+
+# POST 
+- Parameters are not saved in browser history 
