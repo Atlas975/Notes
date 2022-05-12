@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1-DiscreteMath&Algorithms/Retrieval_methods.md",
-            "mode": "source",
+            "file": "1-DiscreteMath&Algorithms/PredicateLogic/Hash_functions.md",
+            "mode": "preview",
             "source": true
           }
         }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-DiscreteMath&Algorithms/Retrieval_methods.md",
+                "file": "1-DiscreteMath&Algorithms/PredicateLogic/Hash_functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +114,15 @@
   },
   "active": "3bed3f13055b3d7c",
   "lastOpenFiles": [
-    "1-DiscreteMath&Algorithms/Retrieval_methods.md",
-    "0-ProgrammingLanguages/SQL.md",
-    "0-ProgrammingLanguages/HTML.md",
-    "0-ProgrammingLanguages/MIPS/MIPS_programBasics.md",
-    "0-MachineLearning/0-GeneralConcepts/ML_tuning/Train_distributions.md",
-    "0-MachineLearning/0-GeneralConcepts/ML_tuning/Multi-Task_learning.md",
-    "0-MachineLearning/0-GeneralConcepts/ML_tuning/ML_model_tuning.md",
-    "0-MachineLearning/0-GeneralConcepts/ML_tuning/Human_level_performance.md",
-    "0-MachineLearning/0-GeneralConcepts/ML_tuning/Evaluation_metrics.md",
-    "0-MachineLearning/0-GeneralConcepts/ML_tuning/Error_analysis.md"
+    "1-DiscreteMath&Algorithms/PredicateLogic/Hash_functions.md",
+    "1-DiscreteMath&Algorithms/Data_retrieval.md",
+    "1-DiscreteMath&Algorithms/Search_algorithms.md",
+    "1-DiscreteMath&Algorithms/Relations.md",
+    "1-DiscreteMath&Algorithms/Recursion.md",
+    "1-DiscreteMath&Algorithms/Records.md",
+    "1-DiscreteMath&Algorithms/Proposition_types&replace.md",
+    "1-DiscreteMath&Algorithms/Pointers&memory.md",
+    "1-DiscreteMath&Algorithms/Ordered_pairs.md",
+    "1-DiscreteMath&Algorithms/Hash_tables.md"
   ]
 }
