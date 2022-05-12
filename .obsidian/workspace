@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-ProgrammingLanguages/SQL.md",
-            "mode": "preview",
+            "file": "1-DiscreteMath&Algorithms/Retrieval_methods.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -57,12 +57,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 326.5
+    "width": 326.5,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-ProgrammingLanguages/SQL.md",
+                "file": "1-DiscreteMath&Algorithms/Retrieval_methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +114,7 @@
   },
   "active": "3bed3f13055b3d7c",
   "lastOpenFiles": [
+    "1-DiscreteMath&Algorithms/Retrieval_methods.md",
     "0-ProgrammingLanguages/SQL.md",
     "0-ProgrammingLanguages/HTML.md",
     "0-ProgrammingLanguages/MIPS/MIPS_programBasics.md",
@@ -122,7 +123,6 @@
     "0-MachineLearning/0-GeneralConcepts/ML_tuning/ML_model_tuning.md",
     "0-MachineLearning/0-GeneralConcepts/ML_tuning/Human_level_performance.md",
     "0-MachineLearning/0-GeneralConcepts/ML_tuning/Evaluation_metrics.md",
-    "0-MachineLearning/0-GeneralConcepts/ML_tuning/Error_analysis.md",
-    "0-MachineLearning/0-GeneralConcepts/ML_tuning/End_to_end_learning.md"
+    "0-MachineLearning/0-GeneralConcepts/ML_tuning/Error_analysis.md"
   ]
 }
