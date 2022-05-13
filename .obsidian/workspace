@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1-DiscreteMath&Algorithms/PredicateLogic/Hash_functions.md",
+            "file": "1-DigitalSystems/Building_memory.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sql",
+                "query": "slave",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,12 +57,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 326.5,
-    "collapsed": true
+    "width": 326.5
   },
   "right": {
     "id": "441e4249d5592193",
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-DiscreteMath&Algorithms/PredicateLogic/Hash_functions.md",
+                "file": "1-DigitalSystems/Building_memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +114,15 @@
   },
   "active": "3bed3f13055b3d7c",
   "lastOpenFiles": [
+    "1-DigitalSystems/Building_memory.md",
+    "1-DigitalSystems/Computer_arithmatic.md",
+    "1-DigitalSystems/Volatile_memory.md",
+    "0-MachineLearning/0-GeneralConcepts/Log_odds.md",
+    "2-Linux/General_commands.md",
+    "0-ProgrammingLanguages/SQL.md",
     "1-DiscreteMath&Algorithms/PredicateLogic/Hash_functions.md",
     "1-DiscreteMath&Algorithms/Data_retrieval.md",
     "1-DiscreteMath&Algorithms/Search_algorithms.md",
-    "1-DiscreteMath&Algorithms/Relations.md",
-    "1-DiscreteMath&Algorithms/Recursion.md",
-    "1-DiscreteMath&Algorithms/Records.md",
-    "1-DiscreteMath&Algorithms/Proposition_types&replace.md",
-    "1-DiscreteMath&Algorithms/Pointers&memory.md",
-    "1-DiscreteMath&Algorithms/Ordered_pairs.md",
-    "1-DiscreteMath&Algorithms/Hash_tables.md"
+    "1-DiscreteMath&Algorithms/Relations.md"
   ]
 }
