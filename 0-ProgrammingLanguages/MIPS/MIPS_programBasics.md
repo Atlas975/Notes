@@ -17,3 +17,9 @@
 - Syscall service numbers:
 >![[Pasted image 20220125111955.png]]
 >![[Pasted image 20220130170223.png]]
+
+# MIPS operations
+>![[Pasted image 20220515200017.png]]
+
+# MIPS opcode
+>![[Pasted image 20220515195933.png]]

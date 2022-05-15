@@ -20,7 +20,7 @@
       "modifiers": [
         "Mod"
       ],
-      "key": "."
+      "key": "B"
     }
   ],
   "editor:toggle-bullet-list": [
@@ -32,5 +32,14 @@
       "key": "P"
     }
   ],
-  "obsidian-autocomplete-plugin:autocomplete-toggle": []
+  "obsidian-autocomplete-plugin:autocomplete-toggle": [],
+  "editor:toggle-bold": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
+    }
+  ]
 }
