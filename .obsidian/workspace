@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-ProgrammingLanguages/MIPS/MIPS_introduction.md",
+            "file": "00-AdilGeneral/tempNote.md",
             "mode": "preview",
             "source": true
           }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5,
-    "collapsed": true
+    "width": 326.5
   },
   "right": {
     "id": "441e4249d5592193",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-ProgrammingLanguages/MIPS/MIPS_introduction.md",
+                "file": "00-AdilGeneral/tempNote.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +113,7 @@
   },
   "active": "3bed3f13055b3d7c",
   "lastOpenFiles": [
+    "00-AdilGeneral/tempNote.md",
     "0-ProgrammingLanguages/MIPS/MIPS_introduction.md",
     "0-ProgrammingLanguages/MIPS/MIPS_IO.md",
     "0-ProgrammingLanguages/MIPS/MIPS_programBasics.md",
@@ -122,7 +122,6 @@
     "1-DigitalSystems/Computer_arithmatic.md",
     "0-ProgrammingLanguages/MIPS/MIPS_OS.md",
     "0-ProgrammingLanguages/MIPS/MIPS_examplePrograms.md",
-    "0-ProgrammingLanguages/MIPS/Byte_coding.md",
-    "1-DigitalSystems/InstructionSet_architecture.md"
+    "0-ProgrammingLanguages/MIPS/Byte_coding.md"
   ]
 }
