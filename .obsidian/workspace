@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-ProgrammingLanguages/MIPS/Byte_coding.md",
+            "file": "0-ProgrammingLanguages/MIPS/MIPS_introduction.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "frictio",
+                "query": "hex",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5
+    "width": 326.5,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-ProgrammingLanguages/MIPS/Byte_coding.md",
+                "file": "0-ProgrammingLanguages/MIPS/MIPS_introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,15 +114,15 @@
   },
   "active": "3bed3f13055b3d7c",
   "lastOpenFiles": [
-    "0-ProgrammingLanguages/MIPS/Byte_coding.md",
     "0-ProgrammingLanguages/MIPS/MIPS_introduction.md",
-    "1-PrinciplesOfEconomics/Unemployment.md",
-    "1-PrinciplesOfEconomics/Macroeconomics_fundementals.md",
-    "1-PrinciplesOfEconomics/GDP.md",
-    "0-MachineLearning/0-CoursesPart2/StatisticalLearning_book/TreeBased_modeling.md",
-    "1-DigitalSystems/ALU_building.md",
-    "1-DigitalSystems/Binary_logic.md",
-    "1-DigitalSystems/Bit_masks.md",
-    "1-DigitalSystems/Building_memory.md"
+    "0-ProgrammingLanguages/MIPS/MIPS_IO.md",
+    "0-ProgrammingLanguages/MIPS/MIPS_programBasics.md",
+    "0-ProgrammingLanguages/HTML.md",
+    "1-DigitalSystems/Combinatorial&Sequential_Logic.md",
+    "1-DigitalSystems/Computer_arithmatic.md",
+    "0-ProgrammingLanguages/MIPS/MIPS_OS.md",
+    "0-ProgrammingLanguages/MIPS/MIPS_examplePrograms.md",
+    "0-ProgrammingLanguages/MIPS/Byte_coding.md",
+    "1-DigitalSystems/InstructionSet_architecture.md"
   ]
 }
