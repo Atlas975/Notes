@@ -67,6 +67,10 @@ building a max heap starts from the furthest down parent node in this case 5 and
 in this case 4 is chosen
 
 # Tree sort 
+- Inserts all items in a binary tree using less / greater than comparisons to determine the branch to insert to.
+- Once all items are inserted, in order traversal is used to retrieve items in a sorted list. Worst case occurs in both sorted and reverse sorted lists, algorithm is also not in place
+
+>![[Pasted image 20220519135523.png]]
 
 # Radix / bucket sort
 - Involves the concept of buckets rather than comparison through the use of repeatedly using the radix, most effective when there are a small number of keys (10 digits long is better than 100 digits)
