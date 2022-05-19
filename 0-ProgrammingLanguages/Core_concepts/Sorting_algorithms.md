@@ -59,13 +59,14 @@ building a max heap starts from the furthest down parent node in this case 5 and
 - At the end of an iteration the pivot should be in its correct final position with all elements in front being larger and all elements behind being smaller
 
 >![[Pasted image 20220329133844.png|200|400]]
->![[Pasted image 20220325123057.png]]
+>![[Pasted image 20220519013805.png]]
 ## Median of three partition method
-- Selects the first middle and last element of the array, these are then sorted properly before the middle item is chosen as the pivot
-
+- Selects the first middle and last element of the array, these are then sorted properly before the middle item is chosen as the pivot 
 
 >![[Pasted image 20220329134709.png]]
 in this case 4 is chosen
+
+# Tree sort 
 
 # Radix / bucket sort
 - Involves the concept of buckets rather than comparison through the use of repeatedly using the radix, most effective when there are a small number of keys (10 digits long is better than 100 digits)
@@ -73,7 +74,7 @@ in this case 4 is chosen
 - Example LSD radix sort:
 >![[Pasted image 20220331234442.png]]
 # Common sorting algorithm time complexity
->![[Pasted image 20220321114009.png]]
+>![[Pasted image 20220519014130.png]]
 inplace means the algorithm only uses the data structure its given in the sorting process 
 
 
