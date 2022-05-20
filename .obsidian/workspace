@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-ProgrammingLanguages/Core_concepts/Sorting_algorithms.md",
+            "file": "00-AdilGeneral/tempNote.md",
             "mode": "preview",
             "source": true
           }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5,
-    "collapsed": true
+    "width": 326.5
   },
   "right": {
     "id": "441e4249d5592193",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-ProgrammingLanguages/Core_concepts/Sorting_algorithms.md",
+                "file": "00-AdilGeneral/tempNote.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +113,7 @@
   },
   "active": "3bed3f13055b3d7c",
   "lastOpenFiles": [
+    "00-AdilGeneral/tempNote.md",
     "0-ProgrammingLanguages/Core_concepts/Sorting_algorithms.md",
     "1-DiscreteMath&Algorithms/Functions_types.md",
     "0-MachineLearning/0-GeneralConcepts/ML_tuning/Multi-Task_learning.md",
@@ -122,7 +122,6 @@
     "0-MachineLearning/0-CoursesPart1/MathForML_course/LinearAlgebra/Reflecting on a plane.md",
     "1-PrinciplesOfEconomics/Choice_under_risk&uncertainty.md",
     "0-ProgrammingLanguages/SQL.md",
-    "1-PrinciplesOfEconomics/Banking_systems.md",
-    "0-MachineLearning/0-CoursesPart1/MathForML_course/PCA/PCA_HighDimensions.md"
+    "1-PrinciplesOfEconomics/Banking_systems.md"
   ]
 }
