@@ -17,7 +17,11 @@ Collections.shuffle(Arrays.asList(array))
 - Example 
  >![[Pasted image 20220131153824.png]]
  Documentation creation command:
- >javadoc –d doc *.java 
+ 
+ ```
+  javadoc –d doc *.java 
+```
+
  
  # Pausing program
 ```
