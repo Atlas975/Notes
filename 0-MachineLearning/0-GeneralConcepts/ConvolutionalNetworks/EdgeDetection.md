@@ -23,7 +23,3 @@
 >![[Pasted image 20220424174416.png]]
 each value in the filter is treated as a trainable parameter
 
-
-```
-print('hello')
-```

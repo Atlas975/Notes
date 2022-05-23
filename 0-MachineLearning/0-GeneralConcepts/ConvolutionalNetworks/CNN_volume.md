@@ -9,4 +9,5 @@
 >![[Pasted image 20220424215318.png]]
 
 ## Applying multiple filters 
+- While multiple convolutions flatten an image, multiple filters can be applied as well resulting in a stack
 >![[Pasted image 20220424220118.png]]
