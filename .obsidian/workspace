@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "0-ProgrammingLanguages/Rust/Rust_tuples.md",
-            "mode": "source",
+            "mode": "preview",
             "source": true
           }
         }
@@ -114,8 +114,8 @@
   "active": "3bed3f13055b3d7c",
   "lastOpenFiles": [
     "0-ProgrammingLanguages/Rust/Rust_tuples.md",
-    "0-ProgrammingLanguages/Rust/Rust_basics.md",
     "0-ProgrammingLanguages/Rust/Rust_types.md",
+    "0-ProgrammingLanguages/Rust/Rust_basics.md",
     "0-ProgrammingLanguages/Rust/Rust_placeholders.md",
     "0-ProgrammingLanguages/Rust/Rust_cargo.md",
     "0-ProgrammingLanguages/Rust/Rust_macros.md",
