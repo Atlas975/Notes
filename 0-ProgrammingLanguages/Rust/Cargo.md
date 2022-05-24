@@ -12,7 +12,11 @@ cargo new helloWorld
 cargo run
 ```
 
-
+## Cargo CLI arguments
+- Arguments can be passed on the command line for a rust program by appending arguments after cargo run 
+```
+cargo run 42
+```
 ## Cargo clean
 - Binary files can be cleaned up via
 ```
