@@ -34,3 +34,8 @@ println!("Number : 10 \nBinary:{:b} Hexadecimal:{:x} Octal:{:o}", 10, 10, 10);
 
 }
 ```
+
+## Array printing
+```
+println!("Array: {:?}", arr);
+```
