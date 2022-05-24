@@ -41,5 +41,7 @@
       ],
       "key": "B"
     }
-  ]
+  ],
+  "editor:toggle-code": [],
+  "editor:toggle-blockquote": []
 }
