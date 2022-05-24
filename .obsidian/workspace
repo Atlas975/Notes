@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-ProgrammingLanguages/SQL.md",
+            "file": "0-ProgrammingLanguages/Rust/Rust_basics.md",
             "mode": "preview",
             "source": true
           }
@@ -57,8 +57,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-ProgrammingLanguages/SQL.md",
+                "file": "0-ProgrammingLanguages/Rust/Rust_basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +113,15 @@
   },
   "active": "3bed3f13055b3d7c",
   "lastOpenFiles": [
+    "0-ProgrammingLanguages/Rust/Rust_basics.md",
+    "0-ProgrammingLanguages/Rust/Cargo.md",
+    "0-ProgrammingLanguages/Rust/Assertions.md",
+    "00-AdilGeneral/General.md",
     "0-ProgrammingLanguages/SQL.md",
     "1-InformationSystems/DBMS.md",
     "1-InformationSystems/Databases.md",
     "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/CNN_volume.md",
     "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/EdgeDetection.md",
-    "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/Pooling.md",
-    "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/StridedConvolutions.md",
-    "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/Padding.md",
-    "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/CNN_features.md",
-    "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/CNN_architecture.md"
+    "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/Pooling.md"
   ]
 }
