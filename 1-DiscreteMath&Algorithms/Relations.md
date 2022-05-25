@@ -44,7 +44,7 @@
 
 | <2,2><2,4>  | Needs <2,4> to be transitive  |
 | ----------- | ----------------------------- |
-| <2,4>,<2,7> | Needs  <2,2> to be transitive |
+| <2,4>,<2,7> | Needs  <2,7> to be transitive |
 | <2,7><4,7>  | Needs  <2,7> to be transitive |
                              
 ## Irreflexivity

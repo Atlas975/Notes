@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1-DiscreteMath&Algorithms/Sets.md",
+            "file": "1-DiscreteMath&Algorithms/Relations.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "subset",
+                "query": "reflexi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-DiscreteMath&Algorithms/Sets.md",
+                "file": "1-DiscreteMath&Algorithms/Relations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +114,7 @@
   },
   "active": "3bed3f13055b3d7c",
   "lastOpenFiles": [
+    "1-DiscreteMath&Algorithms/Relations.md",
     "1-DiscreteMath&Algorithms/Sets.md",
     "1-DiscreteMath&Algorithms/Functions_types.md",
     "0-ProgrammingLanguages/Core_concepts/Sorting_algorithms.md",
@@ -122,7 +123,6 @@
     "0-ProgrammingLanguages/Rust/Rust_basics.md",
     "0-ProgrammingLanguages/Rust/Rust_placeholders.md",
     "0-ProgrammingLanguages/Rust/Rust_cargo.md",
-    "0-ProgrammingLanguages/Rust/Rust_macros.md",
-    "0-ProgrammingLanguages/Rust/Rust_arrays.md"
+    "0-ProgrammingLanguages/Rust/Rust_macros.md"
   ]
 }
