@@ -1,4 +1,3 @@
-
 # Set properties
 1. No duplicates
 2. Unordered
@@ -64,8 +63,12 @@ R = the set of real numbers
 ## Not subset
 - A is not a subset of B if there is at least one element in A which is not in B 
 - Written: A ⊈ B
+## Proper subset 
+- A subset of A that is also not equal to A 
+- Written as b ∈ A
 
-## Proper subset
+![[Pasted image 20220525180924.png]]
+## Proper superset
 - **Atleast** one element in B that isn't in A
 - Written B ⊃ A
 
