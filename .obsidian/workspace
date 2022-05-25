@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3bed3f13055b3d7c",
+        "id": "474d8146c64ed1a7",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "1-DiscreteMath&Algorithms/Relations.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -40,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "reflexi",
+                "query": "injecti",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,8 +53,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -78,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-DiscreteMath&Algorithms/Relations.md",
+                "file": "00-Attachments/PastPapers/2016_SCC160_Questions.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,17 +107,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3bed3f13055b3d7c",
+  "active": "474d8146c64ed1a7",
   "lastOpenFiles": [
+    "00-Attachments/PastPapers/2016_SCC160_Questions.pdf",
+    "0-ProgrammingLanguages/Core_concepts/OOP_principles.md",
+    "0-ProgrammingLanguages/Core_concepts/Untitled.md",
+    "0-ProgrammingLanguages/Core_concepts/Sorting_algorithms.md",
+    "1-DiscreteMath&Algorithms/Functions_types.md",
+    "1-DiscreteMath&Algorithms/Functions.md",
     "1-DiscreteMath&Algorithms/Relations.md",
     "1-DiscreteMath&Algorithms/Sets.md",
-    "1-DiscreteMath&Algorithms/Functions_types.md",
-    "0-ProgrammingLanguages/Core_concepts/Sorting_algorithms.md",
     "0-ProgrammingLanguages/Rust/Rust_tuples.md",
-    "0-ProgrammingLanguages/Rust/Rust_types.md",
-    "0-ProgrammingLanguages/Rust/Rust_basics.md",
-    "0-ProgrammingLanguages/Rust/Rust_placeholders.md",
-    "0-ProgrammingLanguages/Rust/Rust_cargo.md",
-    "0-ProgrammingLanguages/Rust/Rust_macros.md"
+    "0-ProgrammingLanguages/Rust/Rust_types.md"
   ]
 }
