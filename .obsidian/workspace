@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-ProgrammingLanguages/Rust/Rust_tuples.md",
+            "file": "0-ProgrammingLanguages/Core_concepts/Sorting_algorithms.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sql",
+                "query": "quick",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,11 +57,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 326.5
+    "width": 326.5,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -77,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-ProgrammingLanguages/Rust/Rust_tuples.md",
+                "file": "0-ProgrammingLanguages/Core_concepts/Sorting_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +115,7 @@
   },
   "active": "3bed3f13055b3d7c",
   "lastOpenFiles": [
+    "0-ProgrammingLanguages/Core_concepts/Sorting_algorithms.md",
     "0-ProgrammingLanguages/Rust/Rust_tuples.md",
     "0-ProgrammingLanguages/Rust/Rust_types.md",
     "0-ProgrammingLanguages/Rust/Rust_basics.md",
@@ -121,7 +124,6 @@
     "0-ProgrammingLanguages/Rust/Rust_macros.md",
     "0-ProgrammingLanguages/Rust/Rust_arrays.md",
     "0-ProgrammingLanguages/Rust/Rust_assertions.md",
-    "00-AdilGeneral/General.md",
-    "0-ProgrammingLanguages/SQL.md"
+    "00-AdilGeneral/General.md"
   ]
 }
