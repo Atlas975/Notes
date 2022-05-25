@@ -7,3 +7,9 @@
 # Encapsulation
 - The idea of bundling data and methods together to work as one unit, this acts as a layer of abstraction that hides the internal procedures of a class
 >![[Pasted image 20220525212148.png]]
+
+# Functions 
+- Usage beneifts include
+1. Reusability
+2. Modular design, making code easy to mainatain
+3. Improved readability 
