@@ -1,8 +1,6 @@
 # Memory structure
 ![[Pasted image 20211116110439.png]]
-# 
-
-## Note a NAND gate is only 0 if both inputs = 1
+- Note a NAND gate is only 0 if both inputs = 1
 # Clocked D flip flop
 - The latch is what decides weather or not an input is accepted
 >![[Pasted image 20211116104526.png|400|500]]
