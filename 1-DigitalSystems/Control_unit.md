@@ -26,7 +26,8 @@
 1. Finite state machine: hard wired sequential logic built in NAND gates. High performance but expensive.
 2. Microcode: sequence of micro-instructions, lower performance but more flexible, easy to add new instruction
 # Pipelining
-- Way to speed up FDE cycle, executes more than 1 instruction at the same time. 
+- Way to speed up FDE cycle, executes more than 1 instruction at the same time. Splits each instruction into several simpler stages, each of which is executed in one clock cycle, instructions at different stages are fed through overlapped, increasing overall throughput
+- Each instruction takes several cycles to pass through the pipeline completely, keeping overall instruction execution time the same.
 >![[Pasted image 20211117202947.png]]
 - Allows more than one instruction to be executed at the same time.
 >![[Pasted image 20211117203157.png]]

@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "474d8146c64ed1a7",
+        "id": "71c6c1f31e81f8fc",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1-DigitalSystems/DigitalSystem_design.md",
+            "file": "0-ProgrammingLanguages/SQL.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "karn",
+                "query": "sql",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-DigitalSystems/DigitalSystem_design.md",
+                "file": "0-ProgrammingLanguages/SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,17 +112,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "474d8146c64ed1a7",
+  "active": "71c6c1f31e81f8fc",
   "lastOpenFiles": [
-    "1-DigitalSystems/DigitalSystem_design.md",
+    "0-ProgrammingLanguages/SQL.md",
+    "1-InformationSystems/Databases.md",
+    "1-InformationSystems/DBMS.md",
+    "1-DigitalSystems/Computer_architecture.md",
     "1-DigitalSystems/Computer_arithmatic.md",
     "1-DigitalSystems/Control_unit.md",
     "1-DigitalSystems/Computer_data.md",
-    "1-DigitalSystems/Combinatorial&Sequential_Logic.md",
-    "1-DigitalSystems/C_preprocessor.md",
-    "1-DigitalSystems/Building_memory.md",
-    "1-DigitalSystems/Bit_masks.md",
-    "1-DigitalSystems/Binary_logic.md",
-    "1-DigitalSystems/ALU_building.md"
+    "1-DigitalSystems/DigitalSystem_design.md",
+    "1-DigitalSystems/Input_output_streams.md",
+    "1-DigitalSystems/InstructionSet_architecture.md"
   ]
 }
