@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1-DigitalSystems/Control_unit.md",
+            "file": "1-DigitalSystems/DigitalSystem_design.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "injecti",
+                "query": "karn",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-DigitalSystems/Control_unit.md",
+                "file": "1-DigitalSystems/DigitalSystem_design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,15 +114,15 @@
   },
   "active": "474d8146c64ed1a7",
   "lastOpenFiles": [
+    "1-DigitalSystems/DigitalSystem_design.md",
+    "1-DigitalSystems/Computer_arithmatic.md",
     "1-DigitalSystems/Control_unit.md",
     "1-DigitalSystems/Computer_data.md",
-    "1-DigitalSystems/Computer_arithmatic.md",
     "1-DigitalSystems/Combinatorial&Sequential_Logic.md",
     "1-DigitalSystems/C_preprocessor.md",
     "1-DigitalSystems/Building_memory.md",
     "1-DigitalSystems/Bit_masks.md",
     "1-DigitalSystems/Binary_logic.md",
-    "1-DigitalSystems/ALU_building.md",
-    "0-ProgrammingLanguages/Java.md"
+    "1-DigitalSystems/ALU_building.md"
   ]
 }

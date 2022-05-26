@@ -33,5 +33,6 @@
 - Can be simplified as:
 > B' + A'C'
 ## Wrap around
+- (Also: note that Karnaugh maps “wrap” left-to-right and top-to-bottom)
 - Wrapping around corners is also possible
 ![[Pasted image 20211103140702.png|500|500]]
