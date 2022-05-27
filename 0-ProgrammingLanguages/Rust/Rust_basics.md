@@ -43,3 +43,19 @@ outer variable: 112
 
 # Rust operators
 >![[Pasted image 20220527021927.png]]
+
+# Rust casting
+>![[Pasted image 20220527022740.png]]
+``` rust
+fn main() {
+
+	let a = 15;
+	
+	let b = (a as f64) / 2.0;
+	
+	println!("a: {}", a);
+	
+	println!("b: {}", b);
+
+}
+```
