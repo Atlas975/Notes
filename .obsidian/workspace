@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-ProgrammingLanguages/SQL.md",
+            "file": "0-ProgrammingLanguages/Rust/Rust_tuples.md",
             "mode": "preview",
             "source": true
           }
@@ -57,8 +57,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-ProgrammingLanguages/SQL.md",
+                "file": "0-ProgrammingLanguages/Rust/Rust_tuples.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +113,15 @@
   },
   "active": "71c6c1f31e81f8fc",
   "lastOpenFiles": [
-    "0-ProgrammingLanguages/SQL.md",
-    "1-InformationSystems/Databases.md",
-    "1-InformationSystems/DBMS.md",
-    "1-DigitalSystems/Computer_architecture.md",
-    "1-DigitalSystems/Computer_arithmatic.md",
-    "1-DigitalSystems/Control_unit.md",
-    "1-DigitalSystems/Computer_data.md",
-    "1-DigitalSystems/DigitalSystem_design.md",
-    "1-DigitalSystems/Input_output_streams.md",
-    "1-DigitalSystems/InstructionSet_architecture.md"
+    "0-ProgrammingLanguages/Rust/Rust_tuples.md",
+    "0-ProgrammingLanguages/Rust/Rust_types.md",
+    "0-ProgrammingLanguages/Rust/Rust_placeholders.md",
+    "0-ProgrammingLanguages/Rust/Rust_macros.md",
+    "0-ProgrammingLanguages/Rust/Rust_cargo.md",
+    "0-ProgrammingLanguages/Rust/Rust_basics.md",
+    "0-ProgrammingLanguages/Rust/Rust_assertions.md",
+    "0-ProgrammingLanguages/MIPS/MIPS_introduction.md",
+    "0-ProgrammingLanguages/MIPS/MIPS_examplePrograms.md",
+    "0-ProgrammingLanguages/MIPS/MIPS_errorHandling.md"
   ]
 }
