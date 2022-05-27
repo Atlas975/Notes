@@ -59,7 +59,7 @@ fn main() {
 }
 ```
 
-# Match statement 
+# Match statement (case statements)
 >![[Pasted image 20220527144424.png]]
 
 # Operation precedence 
