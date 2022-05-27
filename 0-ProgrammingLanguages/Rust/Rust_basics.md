@@ -43,8 +43,6 @@ outer variable: 112
 
 # Rust operators
 >![[Pasted image 20220527021927.png]]
-
-
 # Rust casting
 >![[Pasted image 20220527022740.png]]
 ``` rust
@@ -60,6 +58,9 @@ fn main() {
 
 }
 ```
+
+# Match statement 
+>![[Pasted image 20220527144424.png]]
 
 # Operation precedence 
 >![[Pasted image 20220527123353.png]]
