@@ -33,11 +33,11 @@
     --text-normal:                var(--light2);
     --text-faint:                 var(--light0);
     --text-muted:                 var(--light1);
-    --text-title-h1:              var(--light2);
-    --text-title-h2:              var(--light2);
-    --text-title-h3:              var(--light2);
-    --text-title-h4:              var(--light2);
-    --text-title-h5:              var(--light2);
+    --text-title-h1:              var(--frost1);
+    --text-title-h2:              var(--frost0);
+    --text-title-h3:              var(--frost3);
+    --text-title-h4:              var(--purple);
+    --text-title-h5:              var(--green);
     --text-link:                  var(--frost0);
     --text-a:                     var(--frost3);
     --text-a-hover:               var(--frost2);
