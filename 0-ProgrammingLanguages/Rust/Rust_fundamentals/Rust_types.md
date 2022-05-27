@@ -29,6 +29,7 @@ let str_1:&str = "Rust Programming";
 
 # Rust arrays 
 >![[Pasted image 20220524154627.png]]
+
 ## Array slicing 
 ```
 fn main() {

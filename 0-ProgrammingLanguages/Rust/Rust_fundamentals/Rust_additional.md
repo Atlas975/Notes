@@ -1,10 +1,13 @@
-# Rust advanced
+# Rust additional
+
 ## Shorthand if
 >![[Pasted image 20220527143636.png]]
 - Example 
 ```
 let y: bool = if x == "Rust" { true } else { false };
 ```
+
+fundamentals 
 
 ## if let 
 >![[Pasted image 20220527144004.png]]
