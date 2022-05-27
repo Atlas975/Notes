@@ -38,7 +38,7 @@ fn main() {
 ```
 
 ## Dereferencing mutable borrow
-- 
+- Dereferencing can be performed by using the star operator much like C
 
 >![[Pasted image 20220527081553.png]]
 >![[Pasted image 20220527082056.png]]
