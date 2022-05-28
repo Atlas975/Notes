@@ -21,7 +21,7 @@
 - Its important to implement feature scaling before as large parameters like the size in feet can hold large influence on the prediction.
 >![[Pasted image 20220205161028.png]]
 # Math behind margin classifiers
-[[Vectors#Vector projection]]
+[[0-MachineLearning/0-CoursesPart1/MathForML_course/LinearAlgebra/Vectors#Vector projection]]
 >![[Pasted image 20220205123055.png]]
 >![[Pasted image 20220205151410.png]]
 >![[Pasted image 20220205130023.png]]
