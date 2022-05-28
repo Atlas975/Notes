@@ -23,3 +23,27 @@ match my_vec.get(9) {
 
 # Rust vector methods 
 >![[Pasted image 20220528160639.png]]
+
+
+# Iterating over vectors 
+```
+// define a vector of size 5
+
+let my_vec = vec![1, 2, 3];
+
+// using loop
+
+let mut index = 0;
+
+for i in my_vec.iter(){ // it works even if .iter() is not written
+
+	println!("Element at index {}:{} ", index, i);
+	index = index + 1;
+	
+}
+```
+```
+Element at index 0:1 
+Element at index 1:2 
+Element at index 2:3
+```
