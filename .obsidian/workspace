@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_functions.md",
-            "mode": "preview",
+            "file": "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_strings.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sql",
+                "query": "match",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_functions.md",
+                "file": "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_strings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,15 +113,15 @@
   },
   "active": "e5550cdda42515b8",
   "lastOpenFiles": [
-    "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_functions.md",
+    "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_strings.md",
     "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_basics.md",
     "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_types.md",
-    "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_loops.md",
-    "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_additional.md",
-    "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_borrowing.md",
-    "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_placeholders.md",
-    "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_macros.md",
     "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_constants.md",
+    "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_functions.md",
+    "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_loops.md",
+    "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_macros.md",
+    "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_placeholders.md",
+    "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_borrowing.md",
     "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_assertions.md"
   ]
 }
