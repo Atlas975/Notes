@@ -65,6 +65,9 @@ This is a beginner course: Rust 132
 
  >![[Pasted image 20220528195514.png]]
  a non-static method must still be decalared 
+ - Invoking a static method:
+ 
+ >![[Pasted image 20220528201425.png]]
 
 - Static method examples:
 ```rust
