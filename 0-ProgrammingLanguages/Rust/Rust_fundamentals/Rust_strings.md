@@ -25,4 +25,5 @@
 ```
 myWord.trim();  // remove whitespace 
 myWord.capacity(); // prints number of bytes in a string
+myWord.contains(subtr); // returns true if substring is in word
 ```
