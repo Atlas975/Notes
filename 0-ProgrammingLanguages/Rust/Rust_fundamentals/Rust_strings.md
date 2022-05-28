@@ -10,8 +10,19 @@
 >![[Pasted image 20220528133531.png]]
 ## String objects 
 - Creating an actual mutable string object can be done in multiple ways
+1. Converting a string literal into an object 
 
+>![[Pasted image 20220528135446.png]]
+
+2. Instantiate a string object 
+
+>![[Pasted image 20220528135425.png]]
+
+3. Create string object from empty string 
+
+>![[Pasted image 20220528135041.png]]
 # Rust string method
 ```
 myWord.trim();  // remove whitespace 
+myWord.capacity(); // prints number of bytes in a string
 ```
