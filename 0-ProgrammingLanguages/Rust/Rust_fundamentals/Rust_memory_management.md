@@ -27,4 +27,7 @@
 ## Rules of [[Rust_borrowing]] 
 1. There can be either one mutable borrow or any number of immutable borrows within the same scope 
 2. References must always be valids
-3. 
+
+
+# Rust lifetimes
+- Referencing a resource after its deallocation (also known as a dangling pointer)
