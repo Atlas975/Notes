@@ -1,4 +1,4 @@
-# Cargo 
+# Cargo basics
 ## Cargo create package
 - Create a new crate using:
 ```
@@ -27,3 +27,4 @@ cargo clean
 ```
 cargo test
 ```
+
