@@ -30,5 +30,37 @@
 
 
 # Rust lifetimes
-- Lifetimes describe the scope that a reference is valid for
-- Referencing a resource after its deallocation (also known as a dangling pointer) results in an error that can only be handled through the use of 
+- Lifetimes describe the scope that a reference is valid for, referencing a resource after its deallocation (also known as a dangling pointer) results in an error 
+- Lifetime annotations exist to help with this
+
+>![[Pasted image 20220529194658.png]]
+- Example usage 
+```rust
+struct Course{
+	name: String,
+	id : i32,
+}
+
+fn get_course<'a> (c1: &'a Course, c2: &'a Course) -> &'a Course {
+	if c1.name == "Rust" {
+		c1
+	}
+	else {
+		c2
+	}
+}
+
+fn main(){
+	let c1: Course = Course {
+		name : String::from("Rust"),
+		id:101,
+	};
+	
+	let c2: Course = Course {
+		name : String::from("C++"),
+		id:101,
+	};
+	
+	get_course(&c1, &c2);
+}
+```
