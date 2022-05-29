@@ -6,7 +6,6 @@
 
 >![[Pasted image 20220527074834.png]]
 >![[Pasted image 20220527074911.png]]
-
 - Example code of both borrowing methods
 ```
 fn main() {

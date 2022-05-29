@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_memory_management.md",
-            "mode": "preview",
+            "mode": "source",
             "source": true
           }
         }
@@ -114,13 +114,13 @@
   "active": "e400b3b88bb6885d",
   "lastOpenFiles": [
     "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_memory_management.md",
+    "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_borrowing.md",
     "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_enums.md",
     "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_cargo.md",
     "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_constants.md",
     "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_structs.md",
     "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_methods.md",
     "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_types.md",
-    "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_borrowing.md",
     "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_vectors.md",
     "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_tuples.md"
   ]

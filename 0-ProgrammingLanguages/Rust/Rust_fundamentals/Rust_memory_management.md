@@ -23,3 +23,7 @@
 
 >![[Pasted image 20220529152530.png]]
 - To create a copy instead of transferring ownership, the copy() function can be used
+
+## Rules of [[Rust_borrowing]] 
+1. There can be either one mutable borrow or any number of immutable borrows within the same scope 
+2. References must always be valid
