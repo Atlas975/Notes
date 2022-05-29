@@ -180,3 +180,95 @@ fn main() {
 Move in horizontal direction 
 Move in vertical direction
 ```
+
+# Enums with structs 
+```rust
+// make this `enum` printable with `fmt::Debug`.
+
+#[derive(Debug)]
+
+//define an enum
+
+enum KnightMove{
+
+	Horizontal, Vertical
+
+}
+
+#[derive(Debug)]
+
+// make this `struct` print values of type `enum` with `fmt::Debug`.
+
+struct Player {
+	
+	color:String,
+	
+	knight:KnightMove
+
+}
+
+fn main() {
+
+	// instance 1
+		
+	let p1 = Player{
+		
+		color:String::from("black"),
+		
+		knight:KnightMove::Horizontal
+
+	};
+
+	// instance 2
+	
+	let p2 = Player{
+	
+		color:String::from("white"),
+		
+		knight:KnightMove::Vertical
+	
+	};
+
+	println!("{:?}", p1);
+	
+	println!("{:?}", p2);
+
+}
+```
+```
+Player { color: "black", knight: Horizontal } Player { color: "white", knight: Vertical }
+```
+
+# Enum options 
+- A built in enum type, consists of variants some and none, these are useful when a return value is none , a variable value is optional or an out of bounds exception needs to be displayed.
+- Some(T) returns a value T, None returns no value
+
+>![[Pasted image 20220529142438.png]]
+- Example return value is none 
+```rust
+fn main() {
+
+	println!("{:?}", learn_lang("Rust"));
+	
+	println!("{:?}", learn_lang("Python"));
+
+}
+
+fn learn_lang(my_lang:&str)-> Option<bool> {
+	
+	if my_lang == "Rust" {
+		
+		Some(true)
+		
+		} else {
+		
+		None
+	
+	}
+
+}
+```
+```
+Some(true) 
+None
+```
