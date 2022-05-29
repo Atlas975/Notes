@@ -30,4 +30,5 @@
 
 
 # Rust lifetimes
-- Referencing a resource after its deallocation (also known as a dangling pointer)
+- Lifetimes describe the scope that a reference is valid for
+- Referencing a resource after its deallocation (also known as a dangling pointer) results in an error that can only be handled through the use of 
