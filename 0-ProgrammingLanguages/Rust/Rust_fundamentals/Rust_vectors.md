@@ -118,3 +118,4 @@ println!("Slice of the vector : {:?}",slice);
 ```
 Slice of the vector : [3, 4]
 ```
+

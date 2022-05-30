@@ -49,3 +49,7 @@ fn longest<'a>(x: &a' str, y: &str)-> &'a str{
 	x
 }
 ```
+- Example with multiple lifetimes 
+```rust
+fn fun_name<'a , 'b>(x: & 'a i32 , y: & 'b i32) 
+```
