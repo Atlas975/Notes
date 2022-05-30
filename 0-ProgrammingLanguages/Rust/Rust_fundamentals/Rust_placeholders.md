@@ -1,6 +1,6 @@
 # Placeholders
 ## Standard placeholder
-```
+```rust
 fn main() {
 
 println!("{} is a {} company", "Educative", "Software");
@@ -9,7 +9,7 @@ println!("{} is a {} company", "Educative", "Software");
 ```
 
 ## Positional placeholder
-```
+```rust
 fn main() {
 
 println!("Enhance your coding skills from {0} courses. {0} courses are very {1}", "Educative", "interactive");
@@ -18,7 +18,7 @@ println!("Enhance your coding skills from {0} courses. {0} courses are very {1}"
 ```
 
 ## Named placeholder
-```
+```rust
 fn main() {
 
 println!("{company} provides {kind} courses", company = "Educative", kind = "interactive");
@@ -27,7 +27,7 @@ println!("{company} provides {kind} courses", company = "Educative", kind = "int
 ```
 
 ## binary / hex / octal placeholder 
-```
+```rust
 fn main() {
 
 println!("Number : 10 \nBinary:{:b} Hexadecimal:{:x} Octal:{:o}", 10, 10, 10);
@@ -36,6 +36,6 @@ println!("Number : 10 \nBinary:{:b} Hexadecimal:{:x} Octal:{:o}", 10, 10, 10);
 ```
 
 ## Array printing
-```
+```rust
 println!("Array: {:?}", arr);
 ```

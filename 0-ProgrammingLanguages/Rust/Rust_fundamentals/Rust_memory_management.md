@@ -26,41 +26,26 @@
 
 ## Rules of [[Rust_borrowing]] 
 1. There can be either one mutable borrow or any number of immutable borrows within the same scope 
-2. References must always be valids
+2. References must always be valid
 
 
 # Rust lifetimes
-- Lifetimes describe the scope that a reference is valid for, referencing a resource after its deallocation (also known as a dangling pointer) results in an error 
-- Lifetime annotations exist to help with this
-
+- Lifetimes describe the scope that a reference is valid for, referencing a resource after its deallocation (also known as a dangling pointer) results in an error preventing compilation
+- Lifetime annotations exist to help prevent this by explicitly marking the lifetimes of a variable
 >![[Pasted image 20220529194658.png]]
-- Example usage 
+- Example usage, establishes a relationship between x, y and the return value. This being that the lifetime of the returned reference will be the same as the smallest lifetime of its arguments
 ```rust
-struct Course{
-	name: String,
-	id : i32,
-}
-
-fn get_course<'a> (c1: &'a Course, c2: &'a Course) -> &'a Course {
-	if c1.name == "Rust" {
-		c1
-	}
-	else {
-		c2
+fn longest<'a>(x: & `a str, y: &'a str)-> &'a str{
+	if x.len()>y.len(){
+		x
+	} else{
+		y
 	}
 }
-
-fn main(){
-	let c1: Course = Course {
-		name : String::from("Rust"),
-		id:101,
-	};
-	
-	let c2: Course = Course {
-		name : String::from("C++"),
-		id:101,
-	};
-	
-	get_course(&c1, &c2);
+```
+- Example with no lifetime dependency on y
+```rust
+fn longest<'a>(x: &a' str, y: &str)-> &'a str{
+	x
 }
 ```
