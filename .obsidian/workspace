@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "match",
+                "query": "clone",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,6 +114,7 @@
   "active": "e400b3b88bb6885d",
   "lastOpenFiles": [
     "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_enums.md",
+    "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_strings.md",
     "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_memory_management.md",
     "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_vectors.md",
     "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_placeholders.md",
@@ -121,7 +122,6 @@
     "1-DigitalSystems/Bit_masks.md",
     "1-DigitalSystems/Building_memory.md",
     "1-InformationSystems/Piracy_&_SoftwareProtection.md",
-    "1-InformationSystems/DBMS.md",
-    "1-InformationSystems/Data_communication.md"
+    "1-InformationSystems/DBMS.md"
   ]
 }

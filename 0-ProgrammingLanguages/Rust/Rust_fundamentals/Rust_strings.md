@@ -22,7 +22,7 @@
 
 >![[Pasted image 20220528135041.png]]
 # Rust string method
-```
+```rust
 myWord.trim();  // remove whitespace 
 myWord.capacity(); // prints number of bytes in a string
 myWord.contains(subtr); // returns true if substring is in word
@@ -30,7 +30,7 @@ myWord.replace(substrOld,substrrNew);
 ```
 
 # Rust pushing new characters
-```
+```rust
 // define a String object
 
 let mut course = String::from("Rus");

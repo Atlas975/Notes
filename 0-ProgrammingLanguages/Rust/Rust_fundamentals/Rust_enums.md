@@ -273,7 +273,7 @@ Some(true)
 None
 ```
 
-- Being able to return none allows for exceptions to be handled 
+- Being use of sep
 ```rust
 //declare a struct
 
