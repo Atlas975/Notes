@@ -273,7 +273,7 @@ Some(true)
 None
 ```
 
-- Being use of sep
+- Example use of None return 
 ```rust
 //declare a struct
 
@@ -322,4 +322,48 @@ println!("Name:{}, Level:{} ,code: {}", course2.name, course2.level.unwrap_or("N
 ```
 Name:Rust, Level:beginner ,code: 130 
 Name:Javascript, Level:No level defined! ,code: 122
+```
+
+- Custom options message
+```rust
+fn main() {
+	
+	// define a variable
+	
+	let str = String :: from("Educative");
+	
+	// define the index value to be found
+	
+	let index = 12;
+	
+	lookup(str, index);
+	
+	lookup("edu".to_string(),2);
+
+}
+
+fn lookup(str: String, index: usize) {
+
+	let matched_index = match str.chars().nth(index){
+	
+		// execute if match found print the value at specified index
+		
+		Some(c)=>c.to_string(),
+		
+		// execute if value not found
+		
+		None=>"No character at given index".to_string()
+	
+	};
+	
+	println!("{}", matched_index);
+
+}
+```
+```
+  
+1.1s
+
+No character at given index 
+u
 ```
