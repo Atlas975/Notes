@@ -53,3 +53,8 @@ fn longest<'a>(x: &a' str, y: &str)-> &'a str{
 ```rust
 fn fun_name<'a , 'b>(x: & 'a i32 , y: & 'b i32) 
 ```
+
+## Lifetime elison
+- Describes the rules that code needs to follow in order to ommit the lifetime marker , some of these incldue 
+
+>![[Pasted image 20220530154301.png]]
