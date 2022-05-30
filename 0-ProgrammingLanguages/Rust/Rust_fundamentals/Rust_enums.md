@@ -348,7 +348,7 @@ fn lookup(str: String, index: usize) {
 	
 		// execute if match found print the value at specified index
 		
-		Some(c)=>c.to_string(),
+		Some(c)=>format!("{} {}","Character is: ",c),
 		
 		// execute if value not found
 		
@@ -361,9 +361,59 @@ fn lookup(str: String, index: usize) {
 }
 ```
 ```
-  
-1.1s
-
 No character at given index 
-u
+Character is: u
+```
+- Rust also features built in methods to check if return type is set to some or none 
+
+>is_some()
+>is_none()
+```rust
+fn print(my_val: Option<&str>){
+	if my_val.is_some(){ // check if the value is equal to some value
+	
+		println!("my_val is equal to some value");
+	
+	}
+
+	else{
+	
+		println!("my_val is equal to none");
+	
+	}
+}
+```
+
+# Enum result 
+- Instead of some or none , enum results return success or error statements 
+
+>![[Pasted image 20220530165056.png]] 
+>![[Pasted image 20220530165157.png]]
+- Standard example:
+```rust
+fn main() {
+
+	println!("{:?}", divisible_by_3(6)); // invoke function by passing a number 6
+	
+	println!("{:?}", divisible_by_3(2)); // invoke function by passing a number 2
+
+}
+
+fn divisible_by_3(i:i32)->Result<String,String> {
+
+	if i % 3 == 0 { // if number mod 3 equals 0
+	
+		Ok("Given number is divisible by 3".to_string()) // return this statement
+	
+	} else { // if if number mod 3 is not equals 0
+	
+		Err("Given number is not divisible by 3".to_string()) // return this statement
+	
+	}
+
+}
+```
+```
+Ok("Given number is divisible by 3") 
+Err("Given number is not divisible by 3")
 ```
