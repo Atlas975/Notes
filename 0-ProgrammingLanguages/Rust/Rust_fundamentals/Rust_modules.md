@@ -101,3 +101,37 @@ mod outer_module {
 - Using mod for implicit declaration
 
 >![[Pasted image 20220531102705.png]]
+
+- The general format for accessing nested modules is:
+
+>![[Pasted image 20220531121030.png]]
+
+- This concept can also be used to shorten enum input 
+
+```rust 
+enum KnightMove{
+
+	Horizontal,Vertical
+
+}
+
+  
+
+use KnightMove::*; // use of globe operator
+
+fn main() {
+
+	// use enum
+	
+	let horizontal_move = Horizontal; // Horizontal is shortcut for KnightMove::Horizontal
+	
+	let vertical_move = Vertical; // Vertical is shortcut for KnightMove::Vertical
+	
+	// print the enum values
+	
+	println!("{:?}", horizontal_move);
+	
+	println!("{:?}", vertical_move);
+
+}
+```
