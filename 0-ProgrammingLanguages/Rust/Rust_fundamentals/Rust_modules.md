@@ -52,3 +52,52 @@ fn main() {
 
 }
 ```
+
+- Functions that are one layer out of scope can be accessed using the super keyword:
+``` rust
+// main function
+
+fn main() {
+
+	println!("Let's go inside the module");
+	
+	outer_module::inner_module::my_public_function();
+
+}
+
+// declare a module
+
+mod outer_module {
+
+// function within outer module
+
+	fn my_private_function() {
+	
+		println!("Hi, I got into the private function of outer module");
+	
+	}
+	
+	// declare a nested module
+	
+	pub mod inner_module {
+	
+	// function within nested module
+	
+		pub fn my_public_function() {
+		
+			println!("Hi, I got into the public function of inner module");
+			
+			println!("I'll invoke private function of outer module");
+			
+			super::my_private_function();
+		
+		}
+	
+	}
+
+}
+```
+
+- Using mod for implicit declaration
+
+>![[Pasted image 20220531102705.png]]
