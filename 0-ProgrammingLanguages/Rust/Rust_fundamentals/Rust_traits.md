@@ -86,6 +86,37 @@ impl Area for Rectangle {
 ```
 
 # Trait generics 
-- Generics allow for a data type to be inferred at run time by the compiler 
->![[Pasted image 20220530175715.png]]
+- Generics allow for a data type to be inferred at run time by the compiler, this 
 
+>![[Pasted image 20220530175715.png]]
+- Example generic function
+```rust
+fn main(){
+
+	println!("- Passing a string literal");
+	
+	concatenate(" Rust ", " Programming ");
+	
+	println!("- Passing an integer");
+	
+	concatenate(10 as i32, 1 as i32);
+
+}
+
+use std::fmt::Display;
+
+fn concatenate<T:Display>(t:T, s:T){
+
+	let result = format!("{}{}", t , s);
+	
+	println!("{}", result);
+
+}
+```
+```
+- Passing a string literal 
+Rust Programming 
+- Passing an integer 
+101
+```
+- The same can be done for data types such as vectors, structs and enums, arrays however need a datatype specified
