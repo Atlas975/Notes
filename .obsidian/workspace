@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_traits.md",
-            "mode": "preview",
+            "file": "0-MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "self",
+                "query": "argma",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_traits.md",
+                "file": "0-MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +114,7 @@
   },
   "active": "e400b3b88bb6885d",
   "lastOpenFiles": [
+    "0-MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
     "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_traits.md",
     "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_cargo.md",
     "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_enums.md",
@@ -121,7 +123,6 @@
     "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_modules.md",
     "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_placeholders.md",
     "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_strings.md",
-    "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_vectors.md",
-    "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_borrowing.md"
+    "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_vectors.md"
   ]
 }

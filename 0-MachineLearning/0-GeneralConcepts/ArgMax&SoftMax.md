@@ -48,3 +48,4 @@ dont put a lot of trust in these predicted probabilities
 - Softmax generalizes to logistic regression just for N number of classes, meaning when N=2 this is the same as [[Logistic_regression]] 
 
 >![[Pasted image 20220418110006.png]]
+
