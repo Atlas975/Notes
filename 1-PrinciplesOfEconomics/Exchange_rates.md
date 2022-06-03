@@ -39,4 +39,15 @@
 - Strong currencies reduce net exports
 
  # Long run exchange rate determinants 
+ ## The law of one price
  - **The law of one price** states that if transportation costs are negligible to low, the price of a traded commodity must be similar in all locations
+- This law also implies that real exchange rates prevail in the long run
+>Suppose wheat in Sydney was half the price of wheat in Mumbai 
+>1. Buy wheat in Sydney, increasing demand and price 
+>2. Sell wheat in Mumbai, increasing supply and decreasing the price
+
+## Purchasing power parity
+- The theory that nominal exchange rates are determined as necessary for the one price law to hold, in the long run countries with high inflation tend to have currencies that depreciate 
+- This does not apply as well in the short run or if lots of goods are not traded internationally / not standardized
+- Purchasing power parity example 
+>![[Pasted image 20220603151015.png]]
