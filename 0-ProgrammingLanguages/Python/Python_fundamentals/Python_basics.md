@@ -7,7 +7,10 @@
 # List comprehension 
 
 - Example all evens:
->arr=[i for i in range(100) if i % 2 == 0]
+```python
+arr=[i for i in range(100) if i % 2 == 0]
+print(arr)
+```
 - Boolean example:
 >![[Pasted image 20220211134837.png]]
 - Dictionary comprehension
@@ -28,14 +31,16 @@ eggs = 32
 
 # Try/Except
 - Python exaple:
->number=input()
+```python
+number=input()
 try:
-if int(number)>0:
-print("positive")
-else:
-print("Negative")
-except ValueError:
-print("That is not a number")
+	if int(number)>0:
+		print("positive")
+	else:
+		print("Negative")
+	except ValueError:
+		print("That is not a number")
+```
 
 # Dictionaries methods
 ## values()

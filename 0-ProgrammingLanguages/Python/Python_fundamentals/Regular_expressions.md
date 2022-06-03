@@ -1,8 +1,11 @@
 # Regular expressions
 - Example, prints first occurrence:
->import re
+```python
+import re
 phoneNumReg=re.compile(r'\d\d\d-\d\d\d\-\d\d\d')
 mo=phoneNumReg.search('Call me 415-555-321')
+print(mo)
+```
 >print (mo.group())
 ## findall()
 - Replace search(), returns all occurrences in a list

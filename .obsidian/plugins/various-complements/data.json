@@ -37,5 +37,15 @@
   "enableFrontMatterComplement": true,
   "frontMatterComplementMatchStrategy": "inherit",
   "insertCommaAfterFrontMatterCompletion": false,
-  "showLogAboutPerformanceInConsole": false
+  "showLogAboutPerformanceInConsole": false,
+  "selectionHistoryTree": {
+    "Python": {
+      "Python": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1654289089243
+        }
+      }
+    }
+  }
 }

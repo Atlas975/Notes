@@ -1,10 +1,11 @@
 [[Python_basics#Dictionaries methods]]
 # Count letters
-```message="It was a bright cold day in April"
+```python
+message="It was a bright cold day in April"
 count={}
 for character in message.upper():
-count.setdefault(character,0)
-count[character]=count[character]+1
+	count.setdefault(character,0)
+	count[character]=count[character]+1
 print(count)
 ```
 

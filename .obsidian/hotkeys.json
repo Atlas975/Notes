@@ -42,6 +42,20 @@
       "key": "B"
     }
   ],
-  "editor:toggle-code": [],
-  "editor:toggle-blockquote": []
+  "editor:toggle-code": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "`"
+    }
+  ],
+  "editor:toggle-blockquote": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "."
+    }
+  ]
 }

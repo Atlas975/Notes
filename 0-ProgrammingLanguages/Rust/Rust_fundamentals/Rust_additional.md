@@ -12,7 +12,7 @@ fundamentals
 ## if let 
 >![[Pasted image 20220527144004.png]]
 - Example 
-```
+```rust
 // define a scrutinee expression
 
 let course = ("Rust", "beginner","course");
