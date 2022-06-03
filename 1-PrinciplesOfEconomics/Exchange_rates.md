@@ -72,3 +72,15 @@
 ## Monetary policy effects on the dollar 
 >![[Pasted image 20220603153832.png]]
 >![[Pasted image 20220603153911.png]]
+
+
+# Fixed exchange rates 
+- Most large industrial countries use a fixed exchanged rate, these greatly reduce the effect of monetary policy on exchange rate
+- For a fixed exchange rate to be established, a government,  states the value of its currency relative to another major currency. The government then attempts to maintain it at this fixed level
+- In a fixed exchange rate system the following terms arise
+- Devaluation: reduction in official value of a currency (in fixed system)
+- Revaluation: increase in the official value of a currency (in fixed system)
+## Response to overvalued currency
+- Devalue the currency
+- Impose trade barriers
+- Purchase the currency

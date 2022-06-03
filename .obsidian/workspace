@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-Linux/LinuxFilesystem.md",
-            "mode": "preview",
+            "file": "1-PrinciplesOfEconomics/Exchange_rates.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-Linux/LinuxFilesystem.md",
+                "file": "1-PrinciplesOfEconomics/Exchange_rates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,9 +113,9 @@
   },
   "active": "e400b3b88bb6885d",
   "lastOpenFiles": [
+    "1-PrinciplesOfEconomics/Exchange_rates.md",
     "2-Linux/LinuxFilesystem.md",
     "2-Linux/OperatingSystemBasics.md",
-    "1-PrinciplesOfEconomics/Exchange_rates.md",
     "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/StridedConvolutions.md",
     "0-MachineLearning/0-GeneralConcepts/Eigenthings.md",
     "0-MachineLearning/0-CoursesPart1/MathForML_course/LinearAlgebra/Eigen-things.md",
