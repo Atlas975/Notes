@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-MachineLearning/0-GeneralConcepts/Eigenthings.md",
-            "mode": "preview",
+            "file": "1-PrinciplesOfEconomics/Exchange_rates.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-MachineLearning/0-GeneralConcepts/Eigenthings.md",
+                "file": "1-PrinciplesOfEconomics/Exchange_rates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,15 +113,15 @@
   },
   "active": "e400b3b88bb6885d",
   "lastOpenFiles": [
+    "1-PrinciplesOfEconomics/Exchange_rates.md",
+    "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/StridedConvolutions.md",
     "0-MachineLearning/0-GeneralConcepts/Eigenthings.md",
     "0-MachineLearning/0-CoursesPart1/MathForML_course/LinearAlgebra/Eigen-things.md",
-    "1-PrinciplesOfEconomics/Exchange_rates.md",
     "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/CNN_architecture.md",
     "0-MachineLearning/0-CoursesPart1/MathForML_course/Calculus/Neural_networks.md",
     "0-MachineLearning/0-CoursesPart1/MathForML_course/Calculus/Jacobian.md",
     "0-MachineLearning/0-GeneralConcepts/GradientDescent/Gradient_descent_momentum.md",
     "0-MachineLearning/0-GeneralConcepts/GradientDescent/RMS_prop.md",
-    "0-MachineLearning/0-GeneralConcepts/GradientDescent/Adams_algorithm.md",
-    "0-ProgrammingLanguages/Python/Python_fundamentals/Args_Kwargs.md"
+    "0-MachineLearning/0-GeneralConcepts/GradientDescent/Adams_algorithm.md"
   ]
 }
