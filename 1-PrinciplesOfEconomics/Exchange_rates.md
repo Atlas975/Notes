@@ -73,14 +73,32 @@
 >![[Pasted image 20220603153832.png]]
 >![[Pasted image 20220603153911.png]]
 
-
 # Fixed exchange rates 
 - Most large industrial countries use a fixed exchanged rate, these greatly reduce the effect of monetary policy on exchange rate
 - For a fixed exchange rate to be established, a government,  states the value of its currency relative to another major currency. The government then attempts to maintain it at this fixed level
 - In a fixed exchange rate system the following terms arise
 - Devaluation: reduction in official value of a currency (in fixed system)
 - Revaluation: increase in the official value of a currency (in fixed system)
+- Example overvaluation and finding equalibrium
+>![[Pasted image 20220603164312.png]]
+>![[Pasted image 20220603164337.png]]
+>![[Pasted image 20220603164508.png]]
 ## Response to overvalued currency
 - Devalue the currency
 - Impose trade barriers
 - Purchase the currency
+## Maintaining overvalued exchange rates 
+- To purchase its own currency and maintain an overvalued exchange rate a country must hold international reserves.
+- Balance of payment deficits occurs when a country has a net decline in international reserves over a year 
+- Balance of payment surplus occurs when a country has a net increase in international reserves over a year
+- Fixed rates force the central bank to choose between defending the currency and stabilizing the economy 
+
+# Flexible exchange rates 
+- Flexible exchange rates strengthen the effect of monetary policy
+- This can be beneficial for small economies, Argentina was able to fight hyper inflation by valuing its peso on bar with the US dollar, inflation quickly decreased thereafter
+
+ # Flexible vs fixed exchange rates 
+ - Fixed provides predictability and stability in foreign transactions as well as some level of certainty for the future of the currencies
+ - Fixed rates don't last forever as sudden unforeseen changes are still possible
+ - Predicting long term exchange rates is difficult in both scenarios
+## Speculative attacks
