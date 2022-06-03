@@ -51,3 +51,24 @@
 - This does not apply as well in the short run or if lots of goods are not traded internationally / not standardized
 - Purchasing power parity example 
 >![[Pasted image 20220603151015.png]]
+
+
+# Dollar supply and demand 
+>![[Pasted image 20220603152302.png]]
+>![[Pasted image 20220603153049.png]]
+>![[Pasted image 20220603153151.png]]
+## Supply of dollars 
+- Anyone who holds dollars is a supplier eg US household
+- Supply curve has positive slope, More foreign currency per dollar = larger quantity of dollars supplied 
+- Dollar Appreciation = increase in supply of dollars 
+- Supply of dollars for other currencies is also determined by the preference for foreign goods, the stronger the preference, the greater the amount of dollars supplied
+- Higher foreign GDP = greater dollar demand 
+- Real interest in foreign assets decreases or real interest on US assets is higher  = greater dollar supply
+## Demand of dollars 
+- Anyone who holds a foriegn currency can demand dollars 
+- Demand curve has negative slope, More foreign currency per dollars = less demand for the dollar
+- Dollar appreciation = decrease in demand for dollars
+
+## Monetary policy effects on the dollar 
+>![[Pasted image 20220603153832.png]]
+>![[Pasted image 20220603153911.png]]
