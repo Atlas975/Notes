@@ -14,3 +14,4 @@
 
 ## Quick method of computing Eigenvalues
 >![[Pasted image 20220301073149.png]]
+where m is the mean and p is ad - bc
