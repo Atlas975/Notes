@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1-PrinciplesOfEconomics/Exchange_rates.md",
+            "file": "1-PrinciplesOfEconomics/Aggregate_demand&supply.md",
             "mode": "source",
             "source": true
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-PrinciplesOfEconomics/Exchange_rates.md",
+                "file": "1-PrinciplesOfEconomics/Aggregate_demand&supply.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,15 +113,15 @@
   },
   "active": "e400b3b88bb6885d",
   "lastOpenFiles": [
-    "1-PrinciplesOfEconomics/Exchange_rates.md",
-    "2-Linux/LinuxFilesystem.md",
-    "2-Linux/OperatingSystemBasics.md",
-    "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/StridedConvolutions.md",
-    "0-MachineLearning/0-GeneralConcepts/Eigenthings.md",
-    "0-MachineLearning/0-CoursesPart1/MathForML_course/LinearAlgebra/Eigen-things.md",
-    "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/CNN_architecture.md",
-    "0-MachineLearning/0-CoursesPart1/MathForML_course/Calculus/Neural_networks.md",
-    "0-MachineLearning/0-CoursesPart1/MathForML_course/Calculus/Jacobian.md",
-    "0-MachineLearning/0-GeneralConcepts/GradientDescent/Gradient_descent_momentum.md"
+    "1-PrinciplesOfEconomics/Aggregate_demand&supply.md",
+    "1-PrinciplesOfEconomics/Assets_vs_liabilities.md",
+    "1-PrinciplesOfEconomics/Monopoly_basic.md",
+    "1-PrinciplesOfEconomics/Optimal_consumption.md",
+    "1-PrinciplesOfEconomics/Perfect_competition.md",
+    "1-PrinciplesOfEconomics/Producer_theory.md",
+    "1-PrinciplesOfEconomics/Public&Common_goods.md",
+    "1-PrinciplesOfEconomics/Short_term_fluctuations.md",
+    "1-PrinciplesOfEconomics/SocialSystems.md",
+    "1-PrinciplesOfEconomics/Types_Of_Costs.md"
   ]
 }

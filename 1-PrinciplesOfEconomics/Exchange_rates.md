@@ -2,6 +2,8 @@
 - Purchasing goods abroad requires converting local currency to foreign one, this makes the purchasing power and by extension the exchange rates important.
 - Exchange rates measure the rate of conversion and are usually set by the foreign exchange market. These rates are determined by supply and demand and effect the value of imported goods and financial investments
 
+>![[Pasted image 20220603170603.png]]
+
  ## Nominal exchange rates 
  - Rate at which two currencies can be exchanged for one another, example:
  
@@ -74,7 +76,7 @@
 >![[Pasted image 20220603153911.png]]
 
 # Fixed exchange rates 
-- Most large industrial countries use a fixed exchanged rate, these greatly reduce the effect of monetary policy on exchange rate
+- Most large industrial countries use a fixed exchanged rate, these greatly reduce the effect of monetary policy on exchange rate, fixed rates promote international trade
 - For a fixed exchange rate to be established, a government,  states the value of its currency relative to another major currency. The government then attempts to maintain it at this fixed level
 - In a fixed exchange rate system the following terms arise
 - Devaluation: reduction in official value of a currency (in fixed system)
@@ -101,4 +103,17 @@
  - Fixed provides predictability and stability in foreign transactions as well as some level of certainty for the future of the currencies
  - Fixed rates don't last forever as sudden unforeseen changes are still possible
  - Predicting long term exchange rates is difficult in both scenarios
+ - If monetary policy is used to set the fundamental value of an exchange rate equal to the official value, its no longer available for stabilizing the domestic economy, this conflict is most  severe under a speculative attack
 ## Speculative attacks
+- A massive selling of domestic currency assets by financial investors, reducing the demand for a foreign currency and thus its value
+- A speculative attack on the peso 
+
+>![[Pasted image 20220603170235.png]]
+
+- Tightening of monetary policy reduces over valuation 
+
+>![[Pasted image 20220603170312.png]]
+
+### The Euro 
+- Countries with a single currency must have a common monetary policy, countries sacrifice some control to be part of the euro which is controlled by the central European bank.
+- As economic conditions vary in countries, the central bank cannot respond to each of them
