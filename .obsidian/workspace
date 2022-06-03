@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1-PrinciplesOfEconomics/Aggregate_demand&supply.md",
-            "mode": "source",
+            "file": "1-PrinciplesOfEconomics/Kuznets_curve.md",
+            "mode": "preview",
             "source": true
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "eigen",
+                "query": "fed",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-PrinciplesOfEconomics/Aggregate_demand&supply.md",
+                "file": "1-PrinciplesOfEconomics/Kuznets_curve.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,15 +113,15 @@
   },
   "active": "e400b3b88bb6885d",
   "lastOpenFiles": [
+    "1-PrinciplesOfEconomics/Kuznets_curve.md",
+    "1-PrinciplesOfEconomics/Keynesian_model.md",
+    "1-PrinciplesOfEconomics/Econ_fundementals.md",
+    "1-PrinciplesOfEconomics/Econ_math.md",
+    "1-PrinciplesOfEconomics/Money_demand.md",
     "1-PrinciplesOfEconomics/Aggregate_demand&supply.md",
     "1-PrinciplesOfEconomics/Assets_vs_liabilities.md",
     "1-PrinciplesOfEconomics/Monopoly_basic.md",
     "1-PrinciplesOfEconomics/Optimal_consumption.md",
-    "1-PrinciplesOfEconomics/Perfect_competition.md",
-    "1-PrinciplesOfEconomics/Producer_theory.md",
-    "1-PrinciplesOfEconomics/Public&Common_goods.md",
-    "1-PrinciplesOfEconomics/Short_term_fluctuations.md",
-    "1-PrinciplesOfEconomics/SocialSystems.md",
-    "1-PrinciplesOfEconomics/Types_Of_Costs.md"
+    "1-PrinciplesOfEconomics/Perfect_competition.md"
   ]
 }
