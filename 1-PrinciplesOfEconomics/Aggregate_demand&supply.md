@@ -4,6 +4,8 @@
 - Increases in inflation reduce this planned spending so aggregate demand also slopes downwards
 - The [[Keynesian_model]] assumes output adjusts to meet demand at preset prices , it does not explain the behavior of inflation
 
+>![[Pasted image 20220604133536.png]]
+
 ## Why aggregate demand slopes downwards 
 - Distributional effects: inflation hurts lower incomes, since these people typically spend more output (Y) typically drops as well
 - Uncertainty: inflation causes people to spend less when there's uncertainty regarding prices
@@ -42,5 +44,19 @@
 # Self correcting economy 
 - Economies self-correct in the long run
 - The keynesian model does not account for a self correcting system and instead concentrates on the short-run with no price adjustment 
-## Fast self correcting 
-- Fiscal and monetary 
+- Fiscal and monetary policy are most useful when attempting to eliminate large output gaps
+## Slow self correcting 
+- Fiscal and monetary policy can help stabilize the economy
+## Fast self correcting
+- Fiscal and monetary policy are not effective and may destabilize the economy
+## Military spending 
+>![[Pasted image 20220604132436.png|400|400]]
+
+# Inflation / potential output shock 
+- A sudden change in the normal behavior of inflation, unrelated to the national output gap
+
+>![[Pasted image 20220604133046.png|400|400]]
+
+- A sudden shock to output can both reduce supply and increase inflation
+
+>![[Pasted image 20220604133210.png|400|400]]
