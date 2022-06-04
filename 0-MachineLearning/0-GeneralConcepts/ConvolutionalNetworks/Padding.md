@@ -8,8 +8,8 @@
 padding of 1 example
 
 # Valid and Same convolutions
-- Valid convolutions have no padding applied 
-- Same convolutions pad so that output size = input size
+> - Valid convolutions have no padding applied 
+> - Same convolutions pad so that output size = input size
 
 >![[Pasted image 20220424193624.png]]
 

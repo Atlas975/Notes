@@ -57,5 +57,22 @@
       ],
       "key": "."
     }
+  ],
+  "hotkeysplus-obsidian:toggle-block-quote": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "."
+    }
+  ],
+  "switcher:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Tab"
+    }
   ]
 }

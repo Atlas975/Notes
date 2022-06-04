@@ -10,5 +10,7 @@
   "execute-code",
   "obsidian-auto-split",
   "obsidian-jupyter",
-  "obsidian-latex-suite"
+  "obsidian-latex-suite",
+  "obsidian-admonition",
+  "hotkeysplus-obsidian"
 ]
