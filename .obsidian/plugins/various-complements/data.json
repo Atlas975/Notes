@@ -46,6 +46,22 @@
           "lastUpdated": 1654289089243
         }
       }
+    },
+    "Exchange_rates": {
+      "Exchange_rates": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1654342544704
+        }
+      }
+    },
+    "prices": {
+      "prices": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1654342650737
+        }
+      }
     }
   }
 }

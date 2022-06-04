@@ -25,11 +25,18 @@
 - Cost of inflation
 > ![[Pasted image 20220209183023.png]]
 - **Overall a low and stable inflation rate is ideal for long term investment**
+## Inflation can be caused
+- Three factors can increase the inflation rate 
+1. Output gap 
+2. Inflation shock 
+3. Shock to potential output 
+>![[Pasted image 20220604124338.png]]
 # Adjusting for inflation
 - Nominal quantity measures in terms of real dollar value
 - Real quantity measures in physical terms (quantity)
 - Values over time are compared in nominal quantity
 - Example inflation adjusting
+
 >![[Pasted image 20220209161516.png]]
 
 ## Real wages

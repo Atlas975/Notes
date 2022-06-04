@@ -50,14 +50,6 @@
       "key": "`"
     }
   ],
-  "editor:toggle-blockquote": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "."
-    }
-  ],
   "hotkeysplus-obsidian:toggle-block-quote": [
     {
       "modifiers": [
@@ -75,7 +67,7 @@
       "key": "Tab"
     }
   ],
-  "obsidian-latex-suite:latex-suite-box-equation": [
+  "editor:insert-wikilink": [
     {
       "modifiers": [
         "Mod"
@@ -83,12 +75,21 @@
       "key": "L"
     }
   ],
-  "editor:insert-wikilink": [
+  "editor:toggle-blockquote": [
     {
       "modifiers": [
         "Mod"
       ],
-      "key": ";"
+      "key": "Q"
+    }
+  ],
+  "editor:toggle-highlight": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "H"
     }
   ]
 }
