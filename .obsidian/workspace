@@ -110,13 +110,13 @@
   "lastOpenFiles": [
     "Untitled.md",
     "00-Attachments/Templates/template01.md",
+    "test.md",
+    "Untitled 1.md",
     "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/Padding.md",
     "00-Core/Dataview/NoteTable.md",
     "00-Core/TempNotes/General.md",
-    "Untitled 1.md",
     "0-ProgrammingLanguages/C/C_basics.md",
     "0-ProgrammingLanguages/Rust/Untitled.md",
-    "<% tp.date.now(\"YYYY-MM-DD\", 1) %>.md",
-    "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_types.md"
+    "<% tp.date.now(\"YYYY-MM-DD\", 1) %>.md"
   ]
 }
