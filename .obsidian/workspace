@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "88dd024f6a758e7c",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "0-ProgrammingLanguages/SQL.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
         "id": "7f8dcb3020db6904",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-ProgrammingLanguages/SQL.md",
+            "file": "1-DigitalSystems/Computer_arithmatic.md",
             "mode": "preview",
             "source": true
           }
@@ -52,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "join",
+                "query": "ieee",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-ProgrammingLanguages/SQL.md",
+                "file": "1-DigitalSystems/Computer_arithmatic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,17 +112,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "88dd024f6a758e7c",
+  "active": "7f8dcb3020db6904",
   "lastOpenFiles": [
+    "1-DigitalSystems/Computer_arithmatic.md",
     "0-ProgrammingLanguages/SQL.md",
+    "1-DigitalSystems/Bit_masks.md",
+    "1-DigitalSystems/C_preprocessor.md",
+    "1-PrinciplesOfEconomics/Assets_vs_liabilities.md",
+    "1-PrinciplesOfEconomics/Keynesian_model.md",
+    "1-PrinciplesOfEconomics/Perfect_competition.md",
     "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/CNN_architecture.md",
     "1-DigitalSystems/ALU_building.md",
-    "1-DiscreteMath&Algorithms/Algorithm_fundamentals.md",
-    "0-MachineLearning/0-GeneralConcepts/Albelian_group.md",
-    "1-DigitalSystems/DigitalSystem_design.md",
-    "1-DigitalSystems/Binary_logic.md",
-    "1-DiscreteMath&Algorithms/PredicateLogic/Predicate_logic_quantifiers.md",
-    "1-DiscreteMath&Algorithms/Proposition_types&replace.md",
-    "1-DigitalSystems/Control_unit.md"
+    "1-DiscreteMath&Algorithms/Algorithm_fundamentals.md"
   ]
 }

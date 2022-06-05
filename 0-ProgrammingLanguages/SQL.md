@@ -7,7 +7,9 @@
 
 ## GROUP BY
 - Allows the separation of aggregate functions
->SELECT region, AVG(students) FROM unis GROUP BY region;
+```sql
+SELECT region, AVG(students) FROM unis GROUP BY region;
+```
 
 ## HAVING
 - Unlike where, the having clause can filter by aggregate functions
