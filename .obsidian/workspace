@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "00-Attachments/Templates/template01.md",
+            "file": "0-ProgrammingLanguages/SQL.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ieee",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,11 +57,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 326.5
+    "width": 326.5,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -77,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Attachments/Templates/template01.md",
+                "file": "0-ProgrammingLanguages/SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +115,8 @@
   },
   "active": "4a223981fe821628",
   "lastOpenFiles": [
+    "0-ProgrammingLanguages/SQL.md",
+    "0-MachineLearning/0-GeneralConcepts/Entropy.md",
     "00-Attachments/Templates/template01.md",
     "Untitled.md",
     "test.md",
@@ -120,8 +124,6 @@
     "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/Padding.md",
     "00-Core/Dataview/NoteTable.md",
     "00-Core/TempNotes/General.md",
-    "0-ProgrammingLanguages/C/C_basics.md",
-    "0-ProgrammingLanguages/Rust/Untitled.md",
-    "<% tp.date.now(\"YYYY-MM-DD\", 1) %>.md"
+    "0-ProgrammingLanguages/C/C_basics.md"
   ]
 }

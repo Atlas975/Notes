@@ -27,6 +27,62 @@ PRIMARY KEY(id)
 );
 
 # Keys
+##### Example 3 linked tables schema
+
+>![[Pasted image 20220605203338.png]]
+```sql
+#note foreign key syntax can vary, current is for mySQL
+CREATE TABLE Airlines (
+  `aid` INTEGER PRIMARY KEY,
+  `name` VARCHAR(9),
+  `founded` DATETIME
+);
+
+INSERT INTO Airlines
+  (`aid`, `name`, `founded`)
+VALUES
+  ('1', 'Swiss', '2002-03-31'),
+  ('2', 'United', '1926-04-06'),
+  ('3', 'Lufthansa', '1953-01-06'),
+  ('4', 'Austrian', '1957-09-30'),
+  ('5', 'Aegean', '1999-05-28');
+  
+  
+CREATE TABLE Planes (
+  `pid` INTEGER PRIMARY KEY,
+  `type` VARCHAR(20),
+  `seats` INTEGER
+);
+
+INSERT INTO Planes
+  (`pid`, `type`, `seats`)
+VALUES
+  ('1', 'Airbus A340-300','291'),
+  ('2','Airbus A330-300','236'),
+  ('3', 'Boeing 777-300ER','340'),
+  ('4', 'Bombardier CS100', '125'),
+  ('5', 'ATR 72-600', '70');
+  
+  
+CREATE TABLE Fleets (
+  `aid` INTEGER,
+  `pid` INTEGER,
+  `number` INTEGER,
+  FOREIGN KEY(`aid`) REFERENCES Airlines(`aid`),
+  FOREIGN KEY(`pid`) REFERENCES Planes(`pid`)
+);
+
+INSERT INTO Fleets
+  (`aid`, `pid`, `number`)
+VALUES
+  ('1', '2', '3'),
+  ('1', '3', '2'),
+  ('2', '2', '7'),
+  ('3', '3', '4'),
+  ('4', '2', '10'),
+  ('4', '4', '2'),
+  ('5', '5', '4');
+```
 - Primary keys (eg ID) uniquely identify tuples in a relation (ensuring data integrity)
 - Foreign keys (eg Names) cross-reference data between tables.
 
