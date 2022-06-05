@@ -6,7 +6,9 @@
 ## Logic gate symbols
 >![[Pasted image 20211115230156.png]]
 - Circles at the end indicate inversion
-#### Note any binary logic circuit can be built entirely from just NAND and NOR gates
+
+# NAND  / NOR gate building 
+- Note any binary logic circuit can be built entirely from just NAND and NOR gates
 >![[Pasted image 20211031134656.png|550|450]]
 # Boolean algebra fundamentals
 ![[Pasted image 20211031135124.png]]
