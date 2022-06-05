@@ -1,2 +1,3 @@
-Link: [[]]
-Date: 
+
+Date: {{date}}  Time: {{time}}
+# {{title}}
