@@ -1,3 +1,7 @@
 
-Date: {{date}}  Time: {{time}}
+**Link [[Null]]   Date: {{date}}  Time: {{time}}** 
+
+---
 # {{title}}
+
+

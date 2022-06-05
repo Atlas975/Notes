@@ -101,5 +101,14 @@
       "key": "V"
     }
   ],
-  "insert-current-time": []
+  "insert-current-time": [],
+  "editor:open-search-replace": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ]
 }
