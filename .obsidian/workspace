@@ -9,7 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1-DigitalSystems/DigitalSystem_design.md",
+            "file": "0-ProgrammingLanguages/SQL.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "7f8dcb3020db6904",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "0-ProgrammingLanguages/SQL.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "karna",
+                "query": "join",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-DigitalSystems/DigitalSystem_design.md",
+                "file": "0-ProgrammingLanguages/SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +126,15 @@
   },
   "active": "88dd024f6a758e7c",
   "lastOpenFiles": [
+    "0-ProgrammingLanguages/SQL.md",
+    "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/CNN_architecture.md",
+    "1-DigitalSystems/ALU_building.md",
+    "1-DiscreteMath&Algorithms/Algorithm_fundamentals.md",
+    "0-MachineLearning/0-GeneralConcepts/Albelian_group.md",
     "1-DigitalSystems/DigitalSystem_design.md",
     "1-DigitalSystems/Binary_logic.md",
-    "1-DigitalSystems/ALU_building.md",
-    "1-DigitalSystems/Control_unit.md",
-    "1-DigitalSystems/Building_memory.md",
-    "1-PrinciplesOfEconomics/Aggregate_demand&supply.md",
-    "1-PrinciplesOfEconomics/CPI&Inflation.md",
-    "00-Core/TempNotes/General.md",
-    "00-Core/Dataview/NoteTable.md",
-    "00-Core/Dataview/NoteList.md"
+    "1-DiscreteMath&Algorithms/PredicateLogic/Predicate_logic_quantifiers.md",
+    "1-DiscreteMath&Algorithms/Proposition_types&replace.md",
+    "1-DigitalSystems/Control_unit.md"
   ]
 }

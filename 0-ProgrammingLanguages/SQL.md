@@ -1,5 +1,6 @@
 # Order of operations
 >![[Pasted image 20211112105450.png]]
+>![[Pasted image 20220605145618.png]]
 **Note that using AND will return results with 0, WHERE filters results down completely, ignoring nulls and 0s.**
 # Aggregate functions
 >![[Pasted image 20211112110620.png]]
