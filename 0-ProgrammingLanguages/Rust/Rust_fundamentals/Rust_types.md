@@ -2,7 +2,7 @@
 ## Integer types 
 >![[Pasted image 20220524150808.png]]
 
-## Floating point types 
+## Floating point types
 >![[Pasted image 20220524150933.png]]
 
 ## Boolean type 

@@ -91,5 +91,15 @@
       ],
       "key": "H"
     }
-  ]
+  ],
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "V"
+    }
+  ],
+  "insert-current-time": []
 }
