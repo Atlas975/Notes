@@ -28,7 +28,7 @@ cargo clean
 cargo test
 ```
 
-##Cargo fmt
+## Cargo fmt
 - Formats rust code
 ```
 cargo fmt 
