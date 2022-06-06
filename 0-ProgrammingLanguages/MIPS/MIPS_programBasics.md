@@ -23,3 +23,4 @@
 
 # MIPS opcode
 >![[Pasted image 20220515195933.png]]
+>![[Pasted image 20220606154939.png]]
