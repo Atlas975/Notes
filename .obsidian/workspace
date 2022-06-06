@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-ProgrammingLanguages/SQL.md",
+            "file": "1-DigitalSystems/Binary_logic.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "order by",
+                "query": "boolean law",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-ProgrammingLanguages/SQL.md",
+                "file": "1-DigitalSystems/Binary_logic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +114,8 @@
   },
   "active": "4a223981fe821628",
   "lastOpenFiles": [
+    "1-DigitalSystems/Binary_logic.md",
+    "1-DiscreteMath&Algorithms/PredicateLogic/Predicate_logic_quantifiers.md",
     "0-ProgrammingLanguages/SQL.md",
     "00-Core/InstallHelpers/vscode.md",
     "00-Core/TempNotes/General.md",
@@ -121,8 +123,6 @@
     "00-Attachments/Templates/template01.md",
     "Untitled.md",
     "test.md",
-    "Untitled 1.md",
-    "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/Padding.md",
-    "00-Core/Dataview/NoteTable.md"
+    "Untitled 1.md"
   ]
 }

@@ -10,7 +10,7 @@
 # NAND  / NOR gate building 
 - Note any binary logic circuit can be built entirely from just NAND and NOR gates
 >![[Pasted image 20211031134656.png|550|450]]
-# Boolean algebra fundamentals
+# Boolean laws
 ![[Pasted image 20211031135124.png]]
 
 ## Proof of absorption by perfect induction
