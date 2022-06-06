@@ -1,3 +1,9 @@
+# Alias 
+- Add these to .zshrc to 
+
+
+
+
 # cd
 - Change directory
 ## cd / 
@@ -67,10 +73,6 @@ to execute:
 - Allows text file editing on command line
 > nano file1.txt
 - ctrl o to overwrite file
-
-# py.exe 
-- Compiles python scripts
-> py.exe anyFile.py
 
 # Fun command
 - Train animation
