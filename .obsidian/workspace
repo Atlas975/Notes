@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "boolean law",
+                "query": "boolean",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,8 +57,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
