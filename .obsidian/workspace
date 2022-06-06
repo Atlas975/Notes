@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_cargo.md",
+            "file": "2-Linux/AliasShortcuts.md",
             "mode": "source",
             "source": true
           }
@@ -21,8 +21,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-Linux/AliasShortcuts.md",
-            "mode": "preview",
+            "file": "0-ProgrammingLanguages/Java.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -123,9 +123,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "206f6947cd974d89",
+  "active": "41912f68a56bc973",
   "lastOpenFiles": [
     "2-Linux/AliasShortcuts.md",
+    "0-ProgrammingLanguages/Java.md",
     "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_cargo.md",
     "0-ProgrammingLanguages/C/C_basics.md",
     "0-ProgrammingLanguages/Rust/Untitled.md",
@@ -133,7 +134,6 @@
     "2-Linux/LinuxFilesystem.md",
     "2-Linux/General_commands.md",
     "2-Linux/OperatingSystemBasics.md",
-    "2-Linux/Shell.md",
-    "1-DiscreteMath&Algorithms/Functions_types.md"
+    "2-Linux/Shell.md"
   ]
 }
