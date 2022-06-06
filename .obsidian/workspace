@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sql grou",
+                "query": "order by",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
