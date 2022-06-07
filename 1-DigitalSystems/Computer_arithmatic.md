@@ -1,7 +1,7 @@
 # Binary
 - The binary system is needed as it's simple to design circuitry with only two states (on and off)
 - Binary to decimal conversion, remainder method (go reverse):
-![[Pasted image 20211104174259.png|500|500]]
+> ![[Pasted image 20211104174259.png|500|500]]
 - Worked binary example, fixed point binary:
 >![[Pasted image 20211031113429.png]]
 - If an arithmetic overflow error occurs in binary operations, ignore the most significant bit.
