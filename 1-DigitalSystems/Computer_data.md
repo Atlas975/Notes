@@ -50,4 +50,4 @@
 - One solution to extend range (length of number being represented) is to trade in precision (how close decoded number is to actual value)
 - This comes in the form of rounding, in many cases an rough value is sufficient.
 >![[Pasted image 20211031103629.png|500|500]]
-### An overflow tag is a special piece of hardware used  to indicate potential overflow error
+#### An overflow tag is a special piece of hardware used  to indicate potential overflow error

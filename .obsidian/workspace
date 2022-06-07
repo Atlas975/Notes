@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1-InformationSystems/DBMS.md",
-            "mode": "source",
+            "file": "1-DigitalSystems/DigitalSystem_design.md",
+            "mode": "preview",
             "source": true
           }
         }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-InformationSystems/DBMS.md",
+                "file": "1-DigitalSystems/DigitalSystem_design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,15 +113,15 @@
   },
   "active": "41912f68a56bc973",
   "lastOpenFiles": [
-    "1-InformationSystems/DBMS.md",
-    "1-InformationSystems/Data_communication.md",
+    "1-DigitalSystems/DigitalSystem_design.md",
+    "1-DigitalSystems/Computer_architecture.md",
+    "1-DigitalSystems/Control_unit.md",
+    "1-DigitalSystems/Binary_logic.md",
+    "1-DigitalSystems/Bit_masks.md",
+    "1-DigitalSystems/Building_memory.md",
     "1-DigitalSystems/Structs&unions.md",
-    "1-DigitalSystems/Memory_layout.md",
-    "1-DigitalSystems/Volatile_memory.md",
-    "1-DigitalSystems/Input_output_system.md",
     "1-DigitalSystems/InstructionSet_architecture.md",
-    "1-DigitalSystems/Input_output_streams.md",
-    "1-DigitalSystems/Computer_arithmatic.md",
-    "1-DigitalSystems/Computer_data.md"
+    "1-DigitalSystems/Inline_assembly.md",
+    "1-DigitalSystems/Function_pointers.md"
   ]
 }
