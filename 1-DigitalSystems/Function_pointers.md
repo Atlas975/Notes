@@ -1,4 +1,5 @@
 # Function pointers
+[[C_basics]]
 >![[Pasted image 20220315141910.png]]
 
 - Assigning function pointers
