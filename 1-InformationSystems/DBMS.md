@@ -15,7 +15,7 @@
 ## 2. Data manipulation language (DML)
 - Ability to manipulate data (insert,delete,update,select)
 ## 3. Data control language (DCL)
-- Control data privleges (access rights)
+- Control data privleges (access rights), used to control access to data stored in a DB
 
 # ANSI-SPARC Architecture
 ## ANSI
