@@ -1,4 +1,4 @@
-e# MIPS basics
+# MIPS basics
 - No variables, just registers + memory
 - Essential for embedded programs
 - Stands for Microprocessor without interlocked pipeline systems
@@ -77,9 +77,17 @@ e# MIPS basics
 # Preserved vs unpreserved registers
 >![[Pasted image 20220118142730.png]]
 
-## Register spilling
-- Registers m
+## MIPS stack movement
+>![[Pasted image 20220608134513.png]]
+>![[Pasted image 20220608134645.png]]
 
+- To store a register on the stack the following can be done, note the de-increment of the stack pointer
+```c
+add $sp, $sp, -4
+sw $t0, $sp
+```
+
+>![[Pasted image 20220608135106.png]]
 # C to MIPS
 - For loop
 >![[Pasted image 20211209152148.png]]
