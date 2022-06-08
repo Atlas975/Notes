@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1-DigitalSystems/Data_fundementals.md",
+            "file": "0-ProgrammingLanguages/C/C_basics.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "exception",
+                "query": "fetch dec",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-DigitalSystems/Data_fundementals.md",
+                "file": "0-ProgrammingLanguages/C/C_basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,15 +113,15 @@
   },
   "active": "41912f68a56bc973",
   "lastOpenFiles": [
-    "1-DigitalSystems/Data_fundementals.md",
-    "1-DigitalSystems/Computer_data.md",
+    "0-ProgrammingLanguages/C/C_basics.md",
+    "1-DigitalSystems/Function_pointers.md",
     "1-DigitalSystems/Structs&unions.md",
-    "0-ProgrammingLanguages/MIPS/MIPS_errorHandling.md",
-    "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_strings.md",
-    "0-ProgrammingLanguages/Rust/Rust_fundamentals/Rust_basics.md",
+    "1-DigitalSystems/Memory_layout.md",
+    "1-DigitalSystems/ALU_building.md",
+    "1-DigitalSystems/Binary_logic.md",
     "1-DigitalSystems/C_preprocessor.md",
     "1-DigitalSystems/Combinatorial&Sequential_Logic.md",
-    "1-DigitalSystems/Computer_architecture.md",
+    "1-DigitalSystems/Computer_arithmatic.md",
     "1-DigitalSystems/Control_unit.md"
   ]
 }
