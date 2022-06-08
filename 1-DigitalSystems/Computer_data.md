@@ -42,7 +42,7 @@
 >![[Pasted image 20211031122317.png|300|300]]
 - Ignoring the carry, this also works with arithmetic by adding, meaning separate hardware for subtraction isn't needed.
 >![[Pasted image 20211031122700.png|400|400]]  
-# Fractions representation
+## Fraction representation
 - Can be done by reserving columns for fractions
 >![[Pasted image 20211031102625.png]]
 - Rapidly depletes columns
@@ -50,4 +50,4 @@
 - One solution to extend range (length of number being represented) is to trade in precision (how close decoded number is to actual value)
 - This comes in the form of rounding, in many cases an rough value is sufficient.
 >![[Pasted image 20211031103629.png|500|500]]
-#### An overflow tag is a special piece of hardware used  to indicate potential overflow error
+ An overflow tag is a special piece of hardware used  to indicate potential overflow error
