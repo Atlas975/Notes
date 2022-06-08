@@ -72,6 +72,13 @@
 >![[Pasted image 20211207141329.png]]
 - Data is represented by [[Volatile_memory#Big-endian]] type structure
 
+## MIPS load word instruction logic 
+>![[Pasted image 20220608140101.png]]
+
+
+## MIPS store word instruction logic 
+>![[Pasted image 20220608140521.png]]
+
 # Main memory types
 >![[Pasted image 20211209150808.png]]
 # Preserved vs unpreserved registers

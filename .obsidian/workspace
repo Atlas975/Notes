@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "41912f68a56bc973",
+        "id": "61ea2977c0d5c433",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -111,17 +111,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "41912f68a56bc973",
+  "active": "61ea2977c0d5c433",
   "lastOpenFiles": [
     "0-ProgrammingLanguages/MIPS/MIPS_introduction.md",
+    "0-ProgrammingLanguages/MIPS/MIPS_programBasics.md",
+    "0-ProgrammingLanguages/MIPS/MIPS_OS.md",
     "0-ProgrammingLanguages/MIPS/MI.md",
     "0-ProgrammingLanguages/C/C_basics.md",
-    "0-ProgrammingLanguages/MIPS/MIPS_programBasics.md",
     "1-DigitalSystems/Data_fundementals.md",
     "1-DigitalSystems/Function_pointers.md",
     "1-DigitalSystems/Structs&unions.md",
     "1-DigitalSystems/Memory_layout.md",
-    "1-DigitalSystems/ALU_building.md",
-    "1-DigitalSystems/Binary_logic.md"
+    "1-DigitalSystems/ALU_building.md"
   ]
 }
