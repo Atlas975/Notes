@@ -77,6 +77,9 @@ e# MIPS basics
 # Preserved vs unpreserved registers
 >![[Pasted image 20220118142730.png]]
 
+## Register spilling
+- Registers m
+
 # C to MIPS
 - For loop
 >![[Pasted image 20211209152148.png]]
