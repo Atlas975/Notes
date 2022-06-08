@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-ProgrammingLanguages/C/C_basics.md",
+            "file": "0-ProgrammingLanguages/MIPS/MIPS_programBasics.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fetch dec",
+                "query": "exception",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-ProgrammingLanguages/C/C_basics.md",
+                "file": "0-ProgrammingLanguages/MIPS/MIPS_programBasics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +113,8 @@
   },
   "active": "41912f68a56bc973",
   "lastOpenFiles": [
+    "0-ProgrammingLanguages/MIPS/MIPS_programBasics.md",
+    "1-DigitalSystems/Data_fundementals.md",
     "0-ProgrammingLanguages/C/C_basics.md",
     "1-DigitalSystems/Function_pointers.md",
     "1-DigitalSystems/Structs&unions.md",
@@ -120,8 +122,6 @@
     "1-DigitalSystems/ALU_building.md",
     "1-DigitalSystems/Binary_logic.md",
     "1-DigitalSystems/C_preprocessor.md",
-    "1-DigitalSystems/Combinatorial&Sequential_Logic.md",
-    "1-DigitalSystems/Computer_arithmatic.md",
-    "1-DigitalSystems/Control_unit.md"
+    "1-DigitalSystems/Combinatorial&Sequential_Logic.md"
   ]
 }

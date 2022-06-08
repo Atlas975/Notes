@@ -12,6 +12,7 @@
 >![[Pasted image 20220125113609.png]]
 
 # MIPS syscall
+- Triggers a system call exception [[MIPS_errorHandling]] that requests a service from the operating system using the service number that can be passed into register $v0. It then retrieves a return result from the result registers
 - Execution
 >![[Pasted image 20220125111510.png]]
 - Syscall service numbers:

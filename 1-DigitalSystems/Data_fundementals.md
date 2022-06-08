@@ -40,3 +40,6 @@ struct student {  // struct is 12 bytes (allignment disabled)
 ```
 > ![[Pasted image 20220608082333.png]]
 
+
+
+
