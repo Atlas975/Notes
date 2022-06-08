@@ -1,4 +1,4 @@
-# Definition
+# Computer architecture 
 - Describes the aspects of hardware required for a computer system to operate.
 # Von Neumman architecture 
 - Largely what modern computers are based on.
@@ -21,9 +21,24 @@
 # Speed limiting factors 
 - Moore's law (density limitations of transistors approaching atom size) 
 - Power limitations: heat problems arise as clock rate increases. 
-# Solutions
+## Solutions to speed limiting factors
 - Multi-core processors
 
 ![[Pasted image 20211031003159.png|500|500]]
 
 - Clustering: linking multiple computers together using high speed networks.
+
+
+# RISC and CISC architecture 
+## Reduced instruction set computing
+- Utilizes a small, optimized set of instructions with a focus on software.
+- Instructions under this architecture are simple and standardized
+- Heavy use of RAM which can result in bottlenecks when working with limited RAM
+- Instructions are executed in single cycles
+## Complex instruction set computing 
+- Utilizes a larger set of instructions with a focus on hardware
+- Complex variable length instructions 
+- More efficient ram usage 
+- Instructions can take several cycles 
+
+

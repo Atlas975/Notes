@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "61ea2977c0d5c433",
+        "id": "798628ba7d81a9d1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-ProgrammingLanguages/MIPS/MIPS_introduction.md",
+            "file": "1-DigitalSystems/Binary_logic.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "constant",
+                "query": "boolean",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-ProgrammingLanguages/MIPS/MIPS_introduction.md",
+                "file": "1-DigitalSystems/Binary_logic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,17 +112,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "61ea2977c0d5c433",
+  "active": "798628ba7d81a9d1",
   "lastOpenFiles": [
-    "0-ProgrammingLanguages/MIPS/MIPS_introduction.md",
+    "1-DigitalSystems/Binary_logic.md",
+    "1-DigitalSystems/Computer_architecture.md",
     "0-ProgrammingLanguages/MIPS/MIPS_programBasics.md",
-    "0-ProgrammingLanguages/MIPS/MIPS_OS.md",
-    "0-ProgrammingLanguages/MIPS/MI.md",
-    "0-ProgrammingLanguages/C/C_basics.md",
+    "0-ProgrammingLanguages/MIPS/MIPS_introduction.md",
+    "1-DiscreteMath&Algorithms/Proposition_types&replace.md",
+    "1-DiscreteMath&Algorithms/PredicateLogic/Predicate_logic_quantifiers.md",
+    "1-DigitalSystems/DigitalSystem_design.md",
     "1-DigitalSystems/Data_fundementals.md",
-    "1-DigitalSystems/Function_pointers.md",
-    "1-DigitalSystems/Structs&unions.md",
-    "1-DigitalSystems/Memory_layout.md",
-    "1-DigitalSystems/ALU_building.md"
+    "1-DiscreteMath&Algorithms/ADTs_vs_DataStructs.md",
+    "0-ProgrammingLanguages/MIPS/MIPS_OS.md"
   ]
 }
