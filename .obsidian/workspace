@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "798628ba7d81a9d1",
+        "id": "930d8bcb6d82b354",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-ProgrammingLanguages/MIPS/MIPS_programBasics.md",
-            "mode": "preview",
+            "file": "0-ProgrammingLanguages/SQL.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "jal",
+                "query": "sql extract",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-ProgrammingLanguages/MIPS/MIPS_programBasics.md",
+                "file": "0-ProgrammingLanguages/SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,17 +112,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "798628ba7d81a9d1",
+  "active": "930d8bcb6d82b354",
   "lastOpenFiles": [
-    "0-ProgrammingLanguages/MIPS/MIPS_programBasics.md",
-    "0-ProgrammingLanguages/MIPS/MIPS_OS.md",
-    "0-ProgrammingLanguages/MIPS/MIPS_IO.md",
-    "0-ProgrammingLanguages/MIPS/Byte_coding.md",
-    "1-DigitalSystems/InstructionSet_architecture.md",
-    "0-ProgrammingLanguages/MIPS/MIPS_introduction.md",
+    "0-ProgrammingLanguages/SQL.md",
+    "1-DigitalSystems/Data_fundementals.md",
+    "1-DigitalSystems/Structs&unions.md",
+    "1-DigitalSystems/C_preprocessor.md",
     "0-ProgrammingLanguages/MIPS/MIPS_examplePrograms.md",
+    "0-ProgrammingLanguages/MIPS/MIPS_introduction.md",
+    "0-ProgrammingLanguages/MIPS/MIPS_programBasics.md",
     "1-DigitalSystems/Binary_logic.md",
-    "1-DigitalSystems/Computer_architecture.md",
-    "1-DiscreteMath&Algorithms/Proposition_types&replace.md"
+    "2-Linux/OperatingSystemBasics.md",
+    "1-DigitalSystems/Input_output_system.md"
   ]
 }

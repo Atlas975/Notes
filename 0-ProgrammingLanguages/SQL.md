@@ -162,7 +162,7 @@ WHERE City LIKE 'L_n_on';
 - Allows for a specific format of a date to be extracted from the **date** data type
 >![[Pasted image 20220216095901.png]]
 - Example:
-```
+```sql
 SELECT EXTRACT(WEEK FROM "2017-06-15");
 ```
 >output:24
@@ -234,7 +234,7 @@ SELECT EXTRACT(WEEK FROM "2017-06-15");
 - A method of creating temporary tables in order to help debug code
 >![[Pasted image 20220212162636.png]]
 - Complex example
-```
+```q;
                WITH RelevantRides AS
                (
                    SELECT EXTRACT(HOUR FROM trip_start_timestamp) AS hour_of_day,trip_miles,trip_seconds
