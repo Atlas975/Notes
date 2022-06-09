@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-ProgrammingLanguages/SQL.md",
-            "mode": "source",
+            "file": "1-PrinciplesOfEconomics/Keynesian_model.md",
+            "mode": "preview",
             "source": true
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sql extract",
+                "query": "le",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,8 +57,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-ProgrammingLanguages/SQL.md",
+                "file": "1-PrinciplesOfEconomics/Keynesian_model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +113,7 @@
   },
   "active": "930d8bcb6d82b354",
   "lastOpenFiles": [
+    "1-PrinciplesOfEconomics/Keynesian_model.md",
     "0-ProgrammingLanguages/SQL.md",
     "1-DigitalSystems/Data_fundementals.md",
     "1-DigitalSystems/Structs&unions.md",
@@ -122,7 +122,6 @@
     "0-ProgrammingLanguages/MIPS/MIPS_introduction.md",
     "0-ProgrammingLanguages/MIPS/MIPS_programBasics.md",
     "1-DigitalSystems/Binary_logic.md",
-    "2-Linux/OperatingSystemBasics.md",
-    "1-DigitalSystems/Input_output_system.md"
+    "2-Linux/OperatingSystemBasics.md"
   ]
 }
