@@ -10,12 +10,12 @@
 # Recursive time complexity
 - There are multiple methods for computing the time complexity  / number of operations of a recursive algorithm 
 - Using the following function as an example:
-```
-func Sum(int n) {
+```c
+int Sum(int n) {
 	if (n==1){
 		return 1
 	}
-	return n + sum(n-1)
+	return n + Sum(n-1)
 }
 ```
 
