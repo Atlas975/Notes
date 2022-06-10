@@ -86,6 +86,14 @@
           "lastUpdated": 1654702527143
         }
       }
+    },
+    "constraint": {
+      "constraint": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1654849331436
+        }
+      }
     }
   }
 }

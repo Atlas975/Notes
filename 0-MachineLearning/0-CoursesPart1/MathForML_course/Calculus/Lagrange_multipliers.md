@@ -9,6 +9,13 @@
 >![[Pasted image 20211228232728.png]]
 - Good example:
 >https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/constrained-optimization/a/lagrange-multipliers-examples
+
+- Econ example: budget constraint 
+$$R(h,s)=200h^\frac{1}{2}s^\frac{1}{3}$$
+$$ \text{budget is \$20000} $$
+$$ \text{hours are \$20} $$
+$$ \text{ste^{ l }
+
 - Econ example:
 1. 
 >![[Pasted image 20220125170944.png]]
