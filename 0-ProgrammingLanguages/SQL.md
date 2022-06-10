@@ -217,7 +217,17 @@ SELECT EXTRACT(WEEK FROM "2017-06-15");
 >![[Pasted image 20220123213642.png]]
 
 # SQL CONCAT
->![[Pasted image 20220123213810.png]]
+```sql
+SELECT p.patient_id,CONCAT(
+  CAST(p.patient_id AS STRING),
+  CAST(LEN(p.last_name) AS STRING),
+  CAST(YEAR(p.birth_date) AS STRING)
+  ) AS temp_password
+FROM patients as p
+JOIN admissions AS a
+ON p.patient_id=a.patient_id
+GROUP BY p.patient
+```
 
 # SQL COALESCE
 - Alternative to IS NULL
