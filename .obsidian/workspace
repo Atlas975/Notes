@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-MachineLearning/0-CoursesPart1/MathForML_course/Calculus/Lagrange_multipliers.md",
+            "file": "1-DiscreteMath&Algorithms/ComplexityAnalysis/Big-O_notation.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lagra",
+                "query": "o(n)",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,8 +57,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-MachineLearning/0-CoursesPart1/MathForML_course/Calculus/Lagrange_multipliers.md",
+                "file": "1-DiscreteMath&Algorithms/ComplexityAnalysis/Big-O_notation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +113,15 @@
   },
   "active": "930d8bcb6d82b354",
   "lastOpenFiles": [
-    "0-MachineLearning/0-CoursesPart1/MathForML_course/Calculus/Lagrange_multipliers.md",
-    "0-ProgrammingLanguages/SQL.md",
-    "1-PrinciplesOfEconomics/Unemployment.md",
-    "1-PrinciplesOfEconomics/Solow_growth_model.md",
-    "1-PrinciplesOfEconomics/Producer_theory.md",
-    "1-PrinciplesOfEconomics/Perfect_competition.md",
-    "1-PrinciplesOfEconomics/Optimal_consumption.md",
-    "1-PrinciplesOfEconomics/Oligopoly.md",
-    "1-PrinciplesOfEconomics/Money_demand.md",
-    "1-PrinciplesOfEconomics/Labor_marketTrends.md"
+    "1-DiscreteMath&Algorithms/ComplexityAnalysis/Big-O_notation.md",
+    "1-DiscreteMath&Algorithms/Abstract_data_types.md",
+    "1-DiscreteMath&Algorithms/Graphs/Tree_ADT.md",
+    "1-DiscreteMath&Algorithms/Search_algorithms.md",
+    "1-DiscreteMath&Algorithms/Proposition_types&replace.md",
+    "1-InformationSystems/DBMS.md",
+    "1-InformationSystems/Databases.md",
+    "1-PrinciplesOfEconomics/Efficency.md",
+    "1-PrinciplesOfEconomics/Elasticity.md",
+    "1-PrinciplesOfEconomics/Econ_fundementals.md"
   ]
 }
