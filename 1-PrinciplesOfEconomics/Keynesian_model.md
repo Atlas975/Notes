@@ -20,3 +20,5 @@ arr=[1,2,3]
 print(arr)
 
 ```
+
+This is a typing test to see how fast i can type an econ paper, not very fast i suppose but it might save me time from scanning, maybe if i 
