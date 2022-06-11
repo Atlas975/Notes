@@ -1,4 +1,5 @@
 # Tree algorithms
+[[Tree_ADT]]
 - Unlike graphs, keeping track of previous nodes isn't necessary making the traversal process much more straightforward
 >![[Pasted image 20220317121418.png]]
 # Breadth-first tree search

@@ -1,4 +1,5 @@
 # Neural Network intuition
+[[Graphs]]
 > W (weights) correspond to how strong a connection from one neuron to another is
 
 > A (activation function) squishes the results of the weights and inputs so that the result is a value ranging between 0 and 1.

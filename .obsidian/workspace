@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1-PrinciplesOfEconomics/Keynesian_model.md",
-            "mode": "source",
+            "file": "1-InformationSystems/Protocol_layering.md",
+            "mode": "preview",
             "source": true
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pae",
+                "query": "network",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,8 +57,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-PrinciplesOfEconomics/Keynesian_model.md",
+                "file": "1-InformationSystems/Protocol_layering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +113,15 @@
   },
   "active": "930d8bcb6d82b354",
   "lastOpenFiles": [
-    "1-PrinciplesOfEconomics/Keynesian_model.md",
-    "0-MachineLearning/0-CoursesPart1/MathForML_course/Calculus/Lagrange_multipliers.md",
-    "1-PrinciplesOfEconomics/GameTheory_models.md",
-    "1-PrinciplesOfEconomics/Game_theory.md",
-    "1-PrinciplesOfEconomics/Producer_theory.md",
-    "1-PrinciplesOfEconomics/Consumer_theory.md",
-    "1-PrinciplesOfEconomics/Elasticity.md",
-    "1-PrinciplesOfEconomics/CPI&Inflation.md",
-    "1-DiscreteMath&Algorithms/Recursion.md",
-    "1-PrinciplesOfEconomics/Optimal_consumption.md"
+    "1-InformationSystems/Protocol_layering.md",
+    "1-InformationSystems/Network_basics.md",
+    "1-InformationSystems/Malware.md",
+    "1-InformationSystems/Innovation practice.md",
+    "1-InformationSystems/DBMS.md",
+    "1-InformationSystems/Databases.md",
+    "1-InformationSystems/Information_systems.md",
+    "1-DiscreteMath&Algorithms/ComplexityAnalysis/Omega&Theta_Notation.md",
+    "1-DiscreteMath&Algorithms/PredicateLogic/Predicate_logic_quantifiers.md",
+    "1-DiscreteMath&Algorithms/PredicateLogic/Hash_functions.md"
   ]
 }

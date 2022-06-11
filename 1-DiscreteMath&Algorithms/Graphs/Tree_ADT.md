@@ -1,4 +1,5 @@
 # Tree data type
+[[Graphs]]
 - Every tree is a graph but not vise versa
 - A tree is a connected acylic graph (no loop)
 - Consists of the root, internal nodes and leaf nodes

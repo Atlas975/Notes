@@ -1,4 +1,5 @@
 # Graph transversal
+[[Graphs]]
 - Two core methods of traversal, depth-first and breadth-first
 - Both have challenges in the way loops are dealt with in a way that traversal isn't endless
 
