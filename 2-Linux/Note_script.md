@@ -1,3 +1,0 @@
-```bash
-cd Dropbox; ls
-```

@@ -26,5 +26,4 @@
 - Space complexity is usually not considered as most modern devices have enough memory, time complexity is still important
 
 # Sequences formulae
->![[Pasted image 20220126144429.png]]
->![[Pasted image 20220126144515.png]]
+>!![[Pasted image 20220612135924.png]]
