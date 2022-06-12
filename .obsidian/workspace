@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "7df559fa311285a2",
+        "id": "ea7694f11055abe5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DiscreteMath&Algorithms/Relations.md",
+            "file": "DiscreteMath&Algorithms/Functions_types.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "reflex",
+                "query": "injective",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMath&Algorithms/Relations.md",
+                "file": "DiscreteMath&Algorithms/Functions_types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,17 +112,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7df559fa311285a2",
+  "active": "ea7694f11055abe5",
   "lastOpenFiles": [
+    "DiscreteMath&Algorithms/Functions_types.md",
+    "DiscreteMath&Algorithms/Functions.md",
+    "0-MachineLearning/0-GeneralConcepts/Cross_entropy.md",
+    "00-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",
     "DiscreteMath&Algorithms/Relations.md",
     "DiscreteMath&Algorithms/Sets.md",
     "DiscreteMath&Algorithms/Algorithm_fundamentals.md",
-    "DiscreteMath&Algorithms/Functions.md",
-    "DiscreteMath&Algorithms/Functions_types.md",
     "DigitalSystems/Structs_unions.md",
     "DiscreteMath&Algorithms/ADTs_vs_DataStructs.md",
-    "2-Linux/Note_script.md",
-    "Linux/OperatingSystemBasics.md",
-    "2-Linux/Shell.md"
+    "2-Linux/Note_script.md"
   ]
 }

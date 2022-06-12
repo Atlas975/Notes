@@ -1,4 +1,4 @@
-# Properties
+# Function Properties
 - The input is the domain of the function (all input elements)
 - The outputs are the co-domain of the function (all possible output elements)
 
@@ -8,7 +8,7 @@
 - It can also be said that a is the pre-image of b under f with b being the image of a under f
 **Multiple inputs to the same output is fine, multiple outputs to same input is not**
 
-# Arithmetic rules
+# Function arithmetic rules
 ![[Pasted image 20211028234622.png]]
 
 ## Addition
