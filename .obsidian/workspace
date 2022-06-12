@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "930d8bcb6d82b354",
+        "id": "7df559fa311285a2",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1-InformationSystems/Protocol_layering.md",
+            "file": "1-DiscreteMath&Algorithms/Cartesian_product.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "network",
+                "query": "carte",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-InformationSystems/Protocol_layering.md",
+                "file": "1-DiscreteMath&Algorithms/Cartesian_product.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,17 +112,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "930d8bcb6d82b354",
+  "active": "7df559fa311285a2",
   "lastOpenFiles": [
-    "1-InformationSystems/Protocol_layering.md",
-    "1-InformationSystems/Network_basics.md",
-    "1-InformationSystems/Malware.md",
-    "1-InformationSystems/Innovation practice.md",
-    "1-InformationSystems/DBMS.md",
-    "1-InformationSystems/Databases.md",
-    "1-InformationSystems/Information_systems.md",
-    "1-DiscreteMath&Algorithms/ComplexityAnalysis/Omega&Theta_Notation.md",
-    "1-DiscreteMath&Algorithms/PredicateLogic/Predicate_logic_quantifiers.md",
-    "1-DiscreteMath&Algorithms/PredicateLogic/Hash_functions.md"
+    "1-DiscreteMath&Algorithms/Cartesian_product.md",
+    "1-DiscreteMath&Algorithms/Vector_DataType.md",
+    "1-DigitalSystems/Structs_unions.md",
+    "1-DiscreteMath&Algorithms/Implementing_vectors.md",
+    "1-DiscreteMath&Algorithms/ADTs_vs_DataStructs.md",
+    "1-DiscreteMath&Algorithms/Inverse_functions.md",
+    "1-DiscreteMath&Algorithms/Ordered_pairs.md",
+    "00-Attachments/Images/SCC120 Workshop1 Sets Worked Solutions.pdf",
+    "1-DiscreteMath&Algorithms/Sets.md",
+    "1-InformationSystems/Liability.md"
   ]
 }
