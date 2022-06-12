@@ -1,6 +1,6 @@
 # Cartesian product	
 [[Sets]]
-- Note that the cart
+- Note that the Cartesian  product also creates a set 
 - Result of ordered pair:
 
 >![[Pasted image 20211028194010.png]]

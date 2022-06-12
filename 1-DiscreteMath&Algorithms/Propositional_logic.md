@@ -1,7 +1,9 @@
 # Definition
 - Statements that can be either true or false but never both.
+
 > ![[Pasted image 20211101133540.png|500]]
 - Notation
+
 >![[Pasted image 20211101133802.png|500|500]]
 - Propositions are usually represented by an upper case letter.
 # Types of propositions

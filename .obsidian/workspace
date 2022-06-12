@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1-DiscreteMath&Algorithms/Cartesian_product.md",
+            "file": "1-DiscreteMath&Algorithms/Propositional_logic.md",
             "mode": "preview",
             "source": true
           }
@@ -57,8 +57,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-DiscreteMath&Algorithms/Cartesian_product.md",
+                "file": "1-DiscreteMath&Algorithms/Propositional_logic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +113,15 @@
   },
   "active": "7df559fa311285a2",
   "lastOpenFiles": [
+    "1-DiscreteMath&Algorithms/Propositional_logic.md",
+    "1-DiscreteMath&Algorithms/PredicateLogic/Predicate_logic_quantifiers.md",
+    "1-DiscreteMath&Algorithms/Data_retrieval.md",
     "1-DiscreteMath&Algorithms/Cartesian_product.md",
+    "1-DiscreteMath&Algorithms/Arrays.md",
+    "1-DiscreteMath&Algorithms/ADTs_vs_DataStructs.md",
     "1-DiscreteMath&Algorithms/Vector_DataType.md",
     "1-DigitalSystems/Structs_unions.md",
     "1-DiscreteMath&Algorithms/Implementing_vectors.md",
-    "1-DiscreteMath&Algorithms/ADTs_vs_DataStructs.md",
-    "1-DiscreteMath&Algorithms/Inverse_functions.md",
-    "1-DiscreteMath&Algorithms/Ordered_pairs.md",
-    "00-Attachments/Images/SCC120 Workshop1 Sets Worked Solutions.pdf",
-    "1-DiscreteMath&Algorithms/Sets.md",
-    "1-InformationSystems/Liability.md"
+    "1-DiscreteMath&Algorithms/Inverse_functions.md"
   ]
 }
