@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DiscreteMath&Algorithms/Sets.md",
+            "file": "DiscreteMath&Algorithms/Relations.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "superset",
+                "query": "reflex",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMath&Algorithms/Sets.md",
+                "file": "DiscreteMath&Algorithms/Relations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +114,7 @@
   },
   "active": "7df559fa311285a2",
   "lastOpenFiles": [
+    "DiscreteMath&Algorithms/Relations.md",
     "DiscreteMath&Algorithms/Sets.md",
     "DiscreteMath&Algorithms/Algorithm_fundamentals.md",
     "DiscreteMath&Algorithms/Functions.md",
@@ -122,7 +123,6 @@
     "DiscreteMath&Algorithms/ADTs_vs_DataStructs.md",
     "2-Linux/Note_script.md",
     "Linux/OperatingSystemBasics.md",
-    "2-Linux/Shell.md",
-    "PrinciplesOfEconomics/Unemployment.md"
+    "2-Linux/Shell.md"
   ]
 }
