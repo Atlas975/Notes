@@ -37,22 +37,22 @@ R = the set of real numbers
 
 # Types of sets
 ## Empty
-![[Pasted image 20211028194249.png|500]]
+> ![[Pasted image 20211028194249.png|500]]
 
 ## Disjoint 
-![[Pasted image 20211028194357.png|500]]
+> ![[Pasted image 20211028194357.png|500]]
 
 ## Equal
-![[Pasted image 20211028194444.png|500]]
+> ![[Pasted image 20211028194444.png|500]]
 
 ## Not equal
-![[Pasted image 20211028194522.png|500]]
+> ![[Pasted image 20211028194522.png|500]]
 
 ## Sets of sets
-![[Pasted image 20211028194703.png|500]]
+> ![[Pasted image 20211028194703.png|500]]
 
 ## Cardinality
-![[Pasted image 20211028194846.png|500]]
+> ![[Pasted image 20211028194846.png|500]]
 
 # Subsets 
 ## Standard subset
@@ -67,12 +67,12 @@ R = the set of real numbers
 - A subset of A that is also not equal to A 
 - Written as b ∈ A
 
-![[Pasted image 20220525180924.png]]
+> ![[Pasted image 20220525180924.png]]
 ## Proper superset
 - **Atleast** one element in B that isn't in A
 - Written B ⊃ A
 
-![[Pasted image 20211028195817.png]]
+> ![[Pasted image 20211028195817.png]]
 
 # Universal set
 - Represents all relevant data:
@@ -82,12 +82,13 @@ R = the set of real numbers
 • U = {red, orange, yellow, green, blue, indigo, violet}
 - Represented by a rectangle: 
 
-![[Pasted image 20211028205420.png|500]]
+> ![[Pasted image 20211028205420.png|500]]
 
 ## Complement set
 - Difference between universal and a certain set
 - Written: comp(A) = U – A     OR    A'
 - Example:
-![[Pasted image 20211028205940.png|500]]
+
+> ![[Pasted image 20211028205940.png|500]]
 # Work
 [[SCC120 Workshop1 Sets Worked Solutions.pdf]]

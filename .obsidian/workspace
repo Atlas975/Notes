@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DiscreteMath&Algorithms/Algorithm_fundamentals.md",
+            "file": "DiscreteMath&Algorithms/Sets.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sequence",
+                "query": "superset",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMath&Algorithms/Algorithm_fundamentals.md",
+                "file": "DiscreteMath&Algorithms/Sets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +114,7 @@
   },
   "active": "7df559fa311285a2",
   "lastOpenFiles": [
+    "DiscreteMath&Algorithms/Sets.md",
     "DiscreteMath&Algorithms/Algorithm_fundamentals.md",
     "DiscreteMath&Algorithms/Functions.md",
     "DiscreteMath&Algorithms/Functions_types.md",
@@ -121,7 +123,6 @@
     "2-Linux/Note_script.md",
     "Linux/OperatingSystemBasics.md",
     "2-Linux/Shell.md",
-    "PrinciplesOfEconomics/Unemployment.md",
-    "Linux/General_commands.md"
+    "PrinciplesOfEconomics/Unemployment.md"
   ]
 }
