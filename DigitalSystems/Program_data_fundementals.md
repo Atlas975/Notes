@@ -1,5 +1,4 @@
 # Data size 
-
 ## Data type sizes 
 >![[Pasted image 20220607214052.png]]
 note that null terminated langauges like c will allocate 2 bytes for a char to include the null byte, does not apply to langauges like rust where a single byte will be allocated instead. This additional byte is also not counted in the sizeof() function 
@@ -41,5 +40,28 @@ struct student {  // struct is 12 bytes (allignment disabled)
 > ![[Pasted image 20220608082333.png]]
 
 
+# Program memory
+- When a program is loaded it can be taught of as having two sections, **data & instructions**
+- Note that a function calls are handled using a stack structure
+## Main variable types
+- Global
+- Local
+- Pointer
 
+# Memory distribution
+- Consists of the stack, heap, static data and code, each of which handles different aspects of a program
 
+>![[Pasted image 20211216140228.png]] 
+
+# Array memory mapping 
+## Row Major mapping:
+- Memory is linear, for 2D arrays this means that an array is completed before the next array is stored
+>![[Pasted image 20211216140607.png|400|400]]
+>![[Pasted image 20211216140725.png|400|400]]
+## Linked mapping 
+- A header array holds pointers to all individual rows
+- Does not involve multiplication for direct access, making access faster
+- Extra space is needed for mapping 
+>![[Pasted image 20211216150411.png|400|400]]
+- For 3D arrays
+>![[Pasted image 20211216150601.png|400|400]]
