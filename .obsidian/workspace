@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DiscreteMath&Algorithms/AverageCase&TimeGrowth.md",
+            "file": "0-ProgrammingLanguages/Core_concepts/Sorting_algorithms.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "time complexity",
+                "query": "insertion",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMath&Algorithms/AverageCase&TimeGrowth.md",
+                "file": "0-ProgrammingLanguages/Core_concepts/Sorting_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +114,15 @@
   },
   "active": "e573871de184ff99",
   "lastOpenFiles": [
-    "DiscreteMath&Algorithms/AverageCase&TimeGrowth.md",
+    "0-ProgrammingLanguages/Core_concepts/Sorting_algorithms.md",
     "DiscreteMath&Algorithms/ComplexityAnalysis/Time_complexity.md",
+    "DiscreteMath&Algorithms/Search_algorithms.md",
+    "DiscreteMath&Algorithms/ComplexityAnalysis/Omega&Theta_Notation.md",
+    "0-MachineLearning/0-CoursesPart2/DeepLearningCourse/DL_Course_notation.md",
+    "DiscreteMath&Algorithms/AverageCase&TimeGrowth.md",
     "DiscreteMath&Algorithms/ComplexityAnalysis/Big-O_notation.md",
     "DigitalSystems/Program_data_fundementals.md",
     "DiscreteMath&Algorithms/Memory_management.md",
-    "DiscreteMath&Algorithms/Ordered_pairs.md",
-    "DiscreteMath&Algorithms/DataStorage&Retrieval.md",
-    "DiscreteMath&Algorithms/Data_retrieval.md",
-    "DiscreteMath&Algorithms/Functions_types.md",
-    "0-ProgrammingLanguages/Core_concepts/Sorting_algorithms.md"
+    "DiscreteMath&Algorithms/Ordered_pairs.md"
   ]
 }
