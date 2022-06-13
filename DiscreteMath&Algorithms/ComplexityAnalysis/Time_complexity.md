@@ -1,6 +1,6 @@
-# Time complexity
-- Algorithmic time complexity is an important fact
-
+# Time complexity 
+## Time complexity scale 
+>![[Pasted image 20220201151502.png]]
 ## Sort algorithm time complexity
 > ![[Pasted image 20220612171916.png]]
 
