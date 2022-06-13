@@ -9,7 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DiscreteMath&Algorithms/ComplexityAnalysis/Time_complexity.md",
+            "file": "DiscreteMath&Algorithms/Memory_management.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "e573871de184ff99",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "DigitalSystems/Data_fundementals.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sort",
+                "query": "data fundeme",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +69,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMath&Algorithms/ComplexityAnalysis/Time_complexity.md",
+                "file": "DigitalSystems/Data_fundementals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,17 +124,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e6dc42f78ebd8a9f",
+  "active": "e573871de184ff99",
   "lastOpenFiles": [
+    "DigitalSystems/Data_fundementals.md",
+    "DiscreteMath&Algorithms/Memory_management.md",
+    "DiscreteMath&Algorithms/Ordered_pairs.md",
+    "DiscreteMath&Algorithms/AverageCase&TimeGrowth.md",
+    "DiscreteMath&Algorithms/DataStorage&Retrieval.md",
+    "DiscreteMath&Algorithms/Data_retrieval.md",
+    "DiscreteMath&Algorithms/Functions_types.md",
     "DiscreteMath&Algorithms/ComplexityAnalysis/Time_complexity.md",
     "0-ProgrammingLanguages/Core_concepts/Sorting_algorithms.md",
-    "DiscreteMath&Algorithms/Search_algorithms.md",
-    "DiscreteMath&Algorithms/ComplexityAnalysis/Operation_counting.md",
-    "DiscreteMath&Algorithms/ComplexityAnalysis/Big-O_notation.md",
-    "DiscreteMath&Algorithms/ComplexityAnalysis/Complex_bigO.md",
-    "DiscreteMath&Algorithms/Propositional_logic.md",
-    "DiscreteMath&Algorithms/Functions_types.md",
-    "DiscreteMath&Algorithms/Sets.md",
-    "DiscreteMath&Algorithms/Functions.md"
+    "DiscreteMath&Algorithms/Search_algorithms.md"
   ]
 }

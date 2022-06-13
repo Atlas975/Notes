@@ -10,7 +10,7 @@
 - Int : 4 bytes
 - Char: 1 byte
 - String: char size + 1 for null byte
-# C Memory management
+# Memory distribution
 - Consists of the stack, heap, static data and code
 >![[Pasted image 20211216140228.png]] 
 # Memory mapping in arrays
