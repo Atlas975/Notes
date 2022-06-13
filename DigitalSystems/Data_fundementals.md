@@ -1,7 +1,7 @@
 # Data size 
 ## Data type sizes 
 >![[Pasted image 20220607214052.png]]
-note that null terminated langauges like c will allocate 2 bytes for a char to include the null byte, does not apply to langauges like rust where a single byte will be allocated instead. This additional byte is also not counted in the sizeof() function 
+note that null terminated langauges like c will allocate an additional byte for strings to include the null byte
 ## Data scale 
 > ![[Pasted image 20220607213658.png]]
 
@@ -42,7 +42,7 @@ struct student {  // struct is 12 bytes (allignment disabled)
 
 # Program memory
 - When a program is loaded it can be taught of as having two sections, **data & instructions**
-- Note that a function calls are handled using a stack structure
+- Note that a function call are handled using a stack structure
 ## Main variable types
 - Global
 - Local

@@ -1,5 +1,5 @@
 # Structs and unions 
-[[C_basics]] [[Program_data_fundementals]]
+[[C_basics]] [[Data_fundementals]]
 - A structure contains an ordered group of data objects
 - Each data object in a structure is called a member
 - A union is similar except all data objects start in the same memory location
