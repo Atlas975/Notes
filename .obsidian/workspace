@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-ProgrammingLanguages/Core_concepts/Sorting_algorithms.md",
+            "file": "DiscreteMath&Algorithms/Search_algorithms.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "quicksor",
+                "query": "search",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-ProgrammingLanguages/Core_concepts/Sorting_algorithms.md",
+                "file": "DiscreteMath&Algorithms/Search_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,10 +114,10 @@
   },
   "active": "e573871de184ff99",
   "lastOpenFiles": [
+    "DiscreteMath&Algorithms/Search_algorithms.md",
     "0-ProgrammingLanguages/Core_concepts/Sorting_algorithms.md",
     "DiscreteMath&Algorithms/Graphs/Tree_algorithms.md",
     "DiscreteMath&Algorithms/ComplexityAnalysis/Time_complexity.md",
-    "DiscreteMath&Algorithms/Search_algorithms.md",
     "DiscreteMath&Algorithms/ComplexityAnalysis/Omega&Theta_Notation.md",
     "0-MachineLearning/0-CoursesPart2/DeepLearningCourse/DL_Course_notation.md",
     "DiscreteMath&Algorithms/AverageCase&TimeGrowth.md",
