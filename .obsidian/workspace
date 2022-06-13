@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "insertion",
+                "query": "quicksor",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,6 +115,7 @@
   "active": "e573871de184ff99",
   "lastOpenFiles": [
     "0-ProgrammingLanguages/Core_concepts/Sorting_algorithms.md",
+    "DiscreteMath&Algorithms/Graphs/Tree_algorithms.md",
     "DiscreteMath&Algorithms/ComplexityAnalysis/Time_complexity.md",
     "DiscreteMath&Algorithms/Search_algorithms.md",
     "DiscreteMath&Algorithms/ComplexityAnalysis/Omega&Theta_Notation.md",
@@ -122,7 +123,6 @@
     "DiscreteMath&Algorithms/AverageCase&TimeGrowth.md",
     "DiscreteMath&Algorithms/ComplexityAnalysis/Big-O_notation.md",
     "DigitalSystems/Program_data_fundementals.md",
-    "DiscreteMath&Algorithms/Memory_management.md",
-    "DiscreteMath&Algorithms/Ordered_pairs.md"
+    "DiscreteMath&Algorithms/Memory_management.md"
   ]
 }

@@ -58,7 +58,8 @@ building a max heap starts from the furthest down parent node in this case 5 and
 4. Pick median
 - At the end of an iteration the pivot should be in its correct final position with all elements in front being larger and all elements behind being smaller
 
->![[Pasted image 20220329133844.png|200|400]]
+>approach 1![[Pasted image 20220613114902.png]]
+>approach 2![[Pasted image 20220329133844.png|200|400]]
 >![[Pasted image 20220519013805.png]]
 ## Median of three partition method
 - Selects the first middle and last element of the array, these are then sorted properly before the middle item is chosen as the pivot 
