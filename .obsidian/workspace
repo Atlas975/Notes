@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "complexity",
+                "query": "time complexity",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,8 +115,8 @@
   "active": "e573871de184ff99",
   "lastOpenFiles": [
     "DiscreteMath&Algorithms/AverageCase&TimeGrowth.md",
-    "DiscreteMath&Algorithms/ComplexityAnalysis/Big-O_notation.md",
     "DiscreteMath&Algorithms/ComplexityAnalysis/Time_complexity.md",
+    "DiscreteMath&Algorithms/ComplexityAnalysis/Big-O_notation.md",
     "DigitalSystems/Program_data_fundementals.md",
     "DiscreteMath&Algorithms/Memory_management.md",
     "DiscreteMath&Algorithms/Ordered_pairs.md",

@@ -1,6 +1,6 @@
 # Time complexity 
 ## Time complexity scale 
->![[Pasted image 20220201151502.png]]
+>![[Pasted image 20220201151320.png]]
 ## Sort algorithm time complexity
 > ![[Pasted image 20220612171916.png]]
 
