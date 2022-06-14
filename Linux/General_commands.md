@@ -1,9 +1,3 @@
-# Alias 
-- Add these to .zshrc to 
-
-
-
-
 # cd
 - Change directory
 ## cd / 

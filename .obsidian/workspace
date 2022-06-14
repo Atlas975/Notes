@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux/AliasShortcuts.md",
-            "mode": "source",
+            "file": "DigitalSystems/Data_fundementals.md",
+            "mode": "preview",
             "source": true
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "theta",
+                "query": "data_fun",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/AliasShortcuts.md",
+                "file": "DigitalSystems/Data_fundementals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,15 +114,15 @@
   },
   "active": "42dc5d236d7f8803",
   "lastOpenFiles": [
-    "Linux/AliasShortcuts.md",
-    "Linux/General_commands.md",
-    "Linux/LinuxFilesystem.md",
+    "DigitalSystems/Data_fundementals.md",
     "Linux/OperatingSystemBasics.md",
+    "Linux/LinuxFilesystem.md",
+    "Linux/General_commands.md",
+    "Linux/AliasShortcuts.md",
     "0-MachineLearning/0-CoursesPart1/MachineLearning/Recommender_systems.md",
     "DiscreteMath&Algorithms/ComplexityAnalysis/Omega&Theta_Notation.md",
     "DiscreteMath&Algorithms/ComplexityAnalysis/Time_complexity.md",
     "DiscreteMath&Algorithms/Algorithm_fundamentals.md",
-    "0-ProgrammingLanguages/Core_concepts/Sorting_algorithms.md",
-    "DiscreteMath&Algorithms/GraphStructure/Tree_ADT.md"
+    "0-ProgrammingLanguages/Core_concepts/Sorting_algorithms.md"
   ]
 }
