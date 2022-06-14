@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DiscreteMath&Algorithms/GraphStructure/Tree_ADT.md",
-            "mode": "preview",
+            "file": "Linux/AliasShortcuts.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "balanced",
+                "query": "theta",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,8 +57,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMath&Algorithms/GraphStructure/Tree_ADT.md",
+                "file": "Linux/AliasShortcuts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +113,15 @@
   },
   "active": "42dc5d236d7f8803",
   "lastOpenFiles": [
-    "DiscreteMath&Algorithms/GraphStructure/Tree_ADT.md",
-    "DiscreteMath&Algorithms/Abstract_data_types.md",
+    "Linux/AliasShortcuts.md",
+    "Linux/General_commands.md",
+    "Linux/LinuxFilesystem.md",
+    "Linux/OperatingSystemBasics.md",
+    "0-MachineLearning/0-CoursesPart1/MachineLearning/Recommender_systems.md",
+    "DiscreteMath&Algorithms/ComplexityAnalysis/Omega&Theta_Notation.md",
+    "DiscreteMath&Algorithms/ComplexityAnalysis/Time_complexity.md",
+    "DiscreteMath&Algorithms/Algorithm_fundamentals.md",
     "0-ProgrammingLanguages/Core_concepts/Sorting_algorithms.md",
-    "DiscreteMath&Algorithms/PredicateLogic/Predicate_logic_fundementals.md",
-    "DiscreteMath&Algorithms/PredicateLogic/Predicate_logic_quantifiers.md",
-    "DiscreteMath&Algorithms/PredicateLogic/Hash_functions.md",
-    "DiscreteMath&Algorithms/Propositional_logic.md",
-    "DiscreteMath&Algorithms/Proposition_types&replace.md",
-    "DiscreteMath&Algorithms/Functions.md",
-    "DiscreteMath&Algorithms/Inverse_functions.md"
+    "DiscreteMath&Algorithms/GraphStructure/Tree_ADT.md"
   ]
 }

@@ -8,7 +8,6 @@ gitTotal() {
     git push
 }
 alias mgit=gitTotal;
-alias agit=git add .; git commit -m "auto commit";git push; 
 alias farbros="conda activate /home/adilw/anaconda3/envs/farbros";
 alias home="/home/adilw/";
 alias trim="conda deactivate;clear";
