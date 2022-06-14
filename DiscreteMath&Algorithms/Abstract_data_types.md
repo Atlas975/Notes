@@ -23,6 +23,7 @@
 # Stack
 - Works on a first in last out principle (FILO)
 - Use of stack include: function call stacks in a running program, navigating a maze, reversing a list
+
 ## Stack API
 >void push(item)  
 item pop()  
@@ -42,6 +43,10 @@ item peek()
 - Java will compile if going index out of bounds but will give an exception, C does not care.
 - Some languages such as pascal allow for incrementing from a different lower bound, eg 5-10 with 5 corresponding to whats usually index 0
 >ageCounts : array [18 .. 65] of integer;
+
+
+# Min and max heap 
+>![[Pasted image 20220614092249.png]]
 
 # Strings
 - Strings can be seen as a 1D array of characters. Characters literals (AKA letters) are encoded in ASCII.

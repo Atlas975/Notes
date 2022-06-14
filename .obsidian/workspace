@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DiscreteMath&Algorithms/Functions.md",
+            "file": "DiscreteMath&Algorithms/GraphStructure/Tree_ADT.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "functions",
+                "query": "balanced",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMath&Algorithms/Functions.md",
+                "file": "DiscreteMath&Algorithms/GraphStructure/Tree_ADT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +114,15 @@
   },
   "active": "42dc5d236d7f8803",
   "lastOpenFiles": [
+    "DiscreteMath&Algorithms/GraphStructure/Tree_ADT.md",
+    "DiscreteMath&Algorithms/Abstract_data_types.md",
+    "0-ProgrammingLanguages/Core_concepts/Sorting_algorithms.md",
+    "DiscreteMath&Algorithms/PredicateLogic/Predicate_logic_fundementals.md",
+    "DiscreteMath&Algorithms/PredicateLogic/Predicate_logic_quantifiers.md",
+    "DiscreteMath&Algorithms/PredicateLogic/Hash_functions.md",
+    "DiscreteMath&Algorithms/Propositional_logic.md",
+    "DiscreteMath&Algorithms/Proposition_types&replace.md",
     "DiscreteMath&Algorithms/Functions.md",
-    "DiscreteMath&Algorithms/Inverse_functions.md",
-    "InformationSystems/Intellectual_property.md",
-    "InformationSystems/Databases.md",
-    "DiscreteMath&Algorithms/Functions_types.md",
-    "DigitalSystems/Data_fundementals.md",
-    "InformationSystems/Data_communication.md",
-    "0-MachineLearning/0-CoursesPart1/DataAnalytics/Data_presentation.md",
-    "0-MachineLearning/0-GeneralConcepts/DataProcessing/Data_leakage.md",
-    "0-MachineLearning/0-CoursesPart1/DataAnalytics/Data_integrity.md"
+    "DiscreteMath&Algorithms/Inverse_functions.md"
   ]
 }
