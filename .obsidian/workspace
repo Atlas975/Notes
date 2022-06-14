@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DiscreteMath&Algorithms/GraphStructure/Graphs.md",
+            "file": "DigitalSystems/Data_fundementals.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "memory",
+                "query": "data_",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMath&Algorithms/GraphStructure/Graphs.md",
+                "file": "DigitalSystems/Data_fundementals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,15 +114,15 @@
   },
   "active": "e573871de184ff99",
   "lastOpenFiles": [
+    "DigitalSystems/Data_fundementals.md",
+    "InformationSystems/Data_communication.md",
+    "0-MachineLearning/0-CoursesPart1/DataAnalytics/Data_presentation.md",
+    "0-MachineLearning/0-GeneralConcepts/DataProcessing/Data_leakage.md",
+    "0-MachineLearning/0-CoursesPart1/DataAnalytics/Data_integrity.md",
+    "0-MachineLearning/0-CoursesPart1/MachineLearning/Large_data_ML.md",
     "DiscreteMath&Algorithms/GraphStructure/Graphs.md",
     "DiscreteMath&Algorithms/GraphStructure/Tree_ADT.md",
     "DiscreteMath&Algorithms/PredicateLogic/Predicate_logic_quantifiers.md",
-    "DiscreteMath&Algorithms/Graphs/Tree_algorithms.md",
-    "DiscreteMath&Algorithms/Graphs/Graph_transversal.md",
-    "DigitalSystems/Data_fundementals.md",
-    "DigitalSystems/Structs_unions.md",
-    "DigitalSystems/Memory_layout.md",
-    "DiscreteMath&Algorithms/AverageCase&TimeGrowth.md",
-    "DiscreteMath&Algorithms/Arrays.md"
+    "DiscreteMath&Algorithms/Graphs/Tree_algorithms.md"
   ]
 }

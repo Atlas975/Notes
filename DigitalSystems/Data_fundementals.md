@@ -5,7 +5,7 @@ note that null terminated langauges like c will allocate an additional byte for 
 ## Data scale 
 > ![[Pasted image 20220607213658.png]]
 
-## Data reading 
+## Data allignment 
 - Data is read and written through chunks, a chunk is a 4 byte word on a 32 bit system, 
 - **Data alignment** is used to preserve FDE performance, therefore data is put at a memory offset equal to the largest datatype in a struct, using padding when necessary 
 - Note that unions will only allocate the size of its largest member
@@ -30,7 +30,7 @@ struct student {  // struct is 16 bytes (8 byte alligned)
 -   Any **pointer** (four bytes) will be 4-byte aligned. (e.g.: char\*, int\*)
 
 ## Alignment problems 
-- Alignment of structs can also cause problems , namely difference in architecture when data is stored or transmitted. The packed attribute helps solve this 
+- Alignment of structs can also problems between different devices, namely the difference in architecture when data is stored or transmitted. The packed attribute helps solve this 
 ```c
 struct student {  // struct is 12 bytes (allignment disabled)
 	char *name;   // pointer is 8 bytes 
