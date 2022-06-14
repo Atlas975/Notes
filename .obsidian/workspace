@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "d2fcf732b6482ae1",
+        "id": "42dc5d236d7f8803",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "InformationSystems/Databases.md",
+            "file": "DiscreteMath&Algorithms/Functions.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "domain",
+                "query": "functions",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InformationSystems/Databases.md",
+                "file": "DiscreteMath&Algorithms/Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,17 +112,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d2fcf732b6482ae1",
+  "active": "42dc5d236d7f8803",
   "lastOpenFiles": [
-    "InformationSystems/Databases.md",
     "DiscreteMath&Algorithms/Functions.md",
+    "DiscreteMath&Algorithms/Inverse_functions.md",
+    "InformationSystems/Intellectual_property.md",
+    "InformationSystems/Databases.md",
     "DiscreteMath&Algorithms/Functions_types.md",
     "DigitalSystems/Data_fundementals.md",
     "InformationSystems/Data_communication.md",
     "0-MachineLearning/0-CoursesPart1/DataAnalytics/Data_presentation.md",
     "0-MachineLearning/0-GeneralConcepts/DataProcessing/Data_leakage.md",
-    "0-MachineLearning/0-CoursesPart1/DataAnalytics/Data_integrity.md",
-    "0-MachineLearning/0-CoursesPart1/MachineLearning/Large_data_ML.md",
-    "DiscreteMath&Algorithms/GraphStructure/Graphs.md"
+    "0-MachineLearning/0-CoursesPart1/DataAnalytics/Data_integrity.md"
   ]
 }

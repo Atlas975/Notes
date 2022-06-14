@@ -50,10 +50,22 @@ when y=5 , x=3/5 not an integer so y=5 has no mapping
 - Every y is mapped to only 1 x
 - Assume f(x)=f(y)
 - Example of non injective (R -> R):
->$$ x^2=y^2$$
+$$ x^2=y^2$$
 $$x=\mp y$$
-therefore x isn't guaranteed to map to equal y (x=y) therefore the function is injective 
+therefore x isn't guaranteed to map to equal y (x=y) therefore the function is not injective 
 
 # Bijective 
 - If functions both injective and surjective it can be classified as Bijective.
 - All functions that have an inverse are Bijective.
+
+# Set inverse
+>![[Pasted image 20211031231048.png|500|500]]
+# Algebraic inverse
+- Reverse operations
+$$ y=4x -\to y^{-1}=\frac{x}{4}$$
+# Inverse rules
+- Each y **MUST** map to a unique x to have an inverse as the inverse is also a function.
+- Therefore not every function has an inverse
+- Example
+$$ f(x)=x^2$$
+- y cannot map to both -2 and 2
