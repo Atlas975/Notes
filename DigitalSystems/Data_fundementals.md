@@ -1,7 +1,7 @@
 # Data size 
 ## Data type sizes 
 >![[Pasted image 20220607214052.png]]
-note that null terminated langauges like c will allocate an additional byte for strings to include the null byte
+note that null terminated langauges like c will allocate an additional byte for strings to include a null character
 ## Data scale 
 > ![[Pasted image 20220607213658.png]]
 
@@ -30,7 +30,7 @@ struct student {  // struct is 16 bytes (8 byte alligned)
 -   Any **pointer** (four bytes) will be 4-byte aligned. (e.g.: char\*, int\*)
 
 ## Alignment problems 
-- Alignment of structs can also problems between different devices, namely the difference in architecture when data is stored or transmitted. The packed attribute helps solve this 
+- Data alignment can be problematic between different devices, namely the difference in architecture when data is stored or transmitted. The packed attribute helps solve this 
 ```c
 struct student {  // struct is 12 bytes (allignment disabled)
 	char *name;   // pointer is 8 bytes 

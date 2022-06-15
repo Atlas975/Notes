@@ -115,14 +115,14 @@
   "active": "42dc5d236d7f8803",
   "lastOpenFiles": [
     "DigitalSystems/Data_fundementals.md",
+    "DigitalSystems/Structs_unions.md",
+    "0-ProgrammingLanguages/C/C_basics.md",
     "Linux/OperatingSystemBasics.md",
     "Linux/LinuxFilesystem.md",
     "Linux/General_commands.md",
     "Linux/AliasShortcuts.md",
     "0-MachineLearning/0-CoursesPart1/MachineLearning/Recommender_systems.md",
     "DiscreteMath&Algorithms/ComplexityAnalysis/Omega&Theta_Notation.md",
-    "DiscreteMath&Algorithms/ComplexityAnalysis/Time_complexity.md",
-    "DiscreteMath&Algorithms/Algorithm_fundamentals.md",
-    "0-ProgrammingLanguages/Core_concepts/Sorting_algorithms.md"
+    "DiscreteMath&Algorithms/ComplexityAnalysis/Time_complexity.md"
   ]
 }
