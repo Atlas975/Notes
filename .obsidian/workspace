@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "InformationSystems/Privacy_&_DataProtection.md",
+            "file": "InformationSystems/Malware.md",
             "mode": "preview",
             "source": true
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InformationSystems/Privacy_&_DataProtection.md",
+                "file": "InformationSystems/Malware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,15 +113,15 @@
   },
   "active": "18a74a048e8f6389",
   "lastOpenFiles": [
+    "InformationSystems/Malware.md",
+    "InformationSystems/Databases.md",
     "InformationSystems/Privacy_&_DataProtection.md",
     "InformationSystems/Professional_issues_in_computing.md",
     "InformationSystems/Piracy_&_SoftwareProtection.md",
     "InformationSystems/Types_of_data.md",
     "InformationSystems/Intellectual_property.md",
-    "InformationSystems/Databases.md",
     "InformationSystems/DBMS.md",
     "InformationSystems/Information_systems.md",
-    "InformationSystems/System_failure&dependability.md",
-    "InformationSystems/Protocol_layering.md"
+    "InformationSystems/System_failure&dependability.md"
   ]
 }

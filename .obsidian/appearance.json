@@ -1,9 +1,9 @@
 {
-  "baseFontSize": 18,
+  "baseFontSize": 16,
   "cssTheme": "Obsidian Nord Enhanced",
-  "textFontFamily": "Calibri,Roboto",
-  "monospaceFontFamily": "Roboto Mono",
+  "textFontFamily": "Roboto,Calibri,JetBrains Mono",
+  "monospaceFontFamily": "JetBrains Mono,Roboto Mono",
   "theme": "obsidian",
-  "interfaceFontFamily": "Roboto",
+  "interfaceFontFamily": "Roboto,JetBrains Mono",
   "baseFontSizeAction": false
 }
