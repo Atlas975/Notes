@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "InformationSystems/Understanding_users.md",
-            "mode": "preview",
+            "file": "Linux/AliasShortcuts.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InformationSystems/Understanding_users.md",
+                "file": "Linux/AliasShortcuts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +113,7 @@
   },
   "active": "95a7ea466475e75b",
   "lastOpenFiles": [
+    "Linux/AliasShortcuts.md",
     "InformationSystems/Understanding_users.md",
     "InformationSystems/Types_of_data.md",
     "InformationSystems/System_failure&dependability.md",
@@ -121,7 +122,6 @@
     "InformationSystems/Ineternet&web.md",
     "InformationSystems/Information_systems.md",
     "InformationSystems/Databases.md",
-    "00-Attachments/Images/Pasted image 20211029225711.png",
-    "InformationSystems/Usability.md"
+    "00-Attachments/Images/Pasted image 20211029225711.png"
   ]
 }
