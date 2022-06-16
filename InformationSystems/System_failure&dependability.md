@@ -1,5 +1,6 @@
 # System core processes
 >![[Pasted image 20220215090950.png]]
+
 **Titanic example**
 1. Technical: lack of lifeboats on the titanic 
 2. People,knowledge,processes: poor process for communicating back home and to passengers about the disaster

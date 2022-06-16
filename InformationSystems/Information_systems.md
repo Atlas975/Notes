@@ -1,7 +1,9 @@
-# Definition
+
+
+# Information systems 
 - Information systems is the study of complementary networks of hardware and software used to collect/process/store and distribute data
 - Example: OLTP (online transactions processing system)
-# Views, what is an information system 
+# Information system views
 ## Technology view
 - Emphasizes technology and its importance in organizations. Understanding of hardware, software and networks in terms of their efficiency of use.
 ## Social view
@@ -12,10 +14,10 @@
 - Emphasizes activities, how work flow can be best optimized by technology support. 
 # 5 component framework
 ## airline example
-![[Pasted image 20211029225006.png|500]]
+> ![[Pasted image 20211029225006.png]]
 #### Multiple frameworks exist but this is common to all information systems in some way. 
 
-# Automation and difficulty of change 
-![[Pasted image 20211029225711.png|700]]
+ # Automation and difficulty of change 
+> ![[Pasted image 20211029225711.png]]
 
 
