@@ -17,6 +17,9 @@
 > ![[Pasted image 20211029225006.png]]
 #### Multiple frameworks exist but this is common to all information systems in some way. 
 
+## Alternate model 
+>![[Pasted image 20220617131640.png]]
+
  # Automation and difficulty of change 
 > ![[Pasted image 20211029225711.png]]
 

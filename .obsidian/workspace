@@ -7,11 +7,9 @@
         "id": "95a7ea466475e75b",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "pdf",
           "state": {
-            "file": "Scraping/Regular_expressions.md",
-            "mode": "preview",
-            "source": true
+            "file": "00-Attachments/Images/SCC130 Home work 4 SOLUTIONS 2021-2022.pdf"
           }
         }
       }
@@ -77,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Scraping/Regular_expressions.md",
+                "file": "00-Attachments/Images/SCC130 Home work 4 SOLUTIONS 2021-2022.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,15 +111,15 @@
   },
   "active": "95a7ea466475e75b",
   "lastOpenFiles": [
+    "00-Attachments/Images/SCC130 Home work 4 SOLUTIONS 2021-2022.pdf",
+    "InformationSystems/Protocol_layering.md",
+    "InformationSystems/Information_systems.md",
+    "DiscreteMath&Algorithms/GraphStructure/Tree_ADT.md",
     "Scraping/Regular_expressions.md",
     "DiscreteMath&Algorithms/Sets.md",
     "DiscreteMath&Algorithms/Propositional_logic.md",
     "DiscreteMath&Algorithms/Arrays.md",
     "DiscreteMath&Algorithms/Abstract_data_types.md",
-    "DiscreteMath&Algorithms/PredicateLogic/Hash_functions.md",
-    "DiscreteMath&Algorithms/PredicateLogic/Predicate_logic_quantifiers.md",
-    "DiscreteMath&Algorithms/PredicateLogic/Predicate_logic_fundementals.md",
-    "DiscreteMath&Algorithms/GraphStructure/Graphs.md",
-    "DiscreteMath&Algorithms/GraphStructure/Tree_ADT.md"
+    "DiscreteMath&Algorithms/PredicateLogic/Hash_functions.md"
   ]
 }
