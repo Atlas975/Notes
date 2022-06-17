@@ -10,19 +10,19 @@
 # Sampling 
 - Sampling of signals is done at twice the bandwidth
 - Min of two readings per cycle needed to reconstruct signal.
-![[Pasted image 20211030000108.png|500]]
-![[Pasted image 20211030000156.png|500]]
+> ![[Pasted image 20211030000108.png|500]]
+> ![[Pasted image 20211030000156.png|500]]
 - Therefore needs transmission bandwidth that accommodates 48 kbps 
 # Network categories
-![[Pasted image 20211030000759.png|500]]
+> ![[Pasted image 20211030000759.png|500]]
 
 # LAN
 - These can have multiple layouts
-![[Pasted image 20211030162605.png|500]]
-![[Pasted image 20211030163214.png|500]]
+> ![[Pasted image 20211030162605.png|500]]
+> ![[Pasted image 20211030163214.png|500]]
 # Point to point WAN / Internetworks
 - Private WAN used for private communication in an organization
-![[Pasted image 20211030163447.png]]
+> ![[Pasted image 20211030163447.png]]
 
 # Heterogeneous network
 - More representative of modern networks, consisting of multiple types of networks.
@@ -32,7 +32,7 @@
 - Some lead to end device like a phone while others used for routing data.
 - Less wasteful then having constant connections (point to point)
 - Timeliness is important, if acknowledgment  isn't received soon enough a packet is dropped
-![[Pasted image 20211030163652.png|500]]
+> ![[Pasted image 20211030163652.png|500]]
 
 ## Switches
 - Connect devices together
@@ -55,6 +55,6 @@
 - Circuit switching allows for data to be delivered with minimum delay, better timeliness.
 
 # Homework
-[[Home work 3 SOLUTIONS 2021-2022.pdf]]
+> [[Home work 3 SOLUTIONS 2021-2022.pdf]]
 
 

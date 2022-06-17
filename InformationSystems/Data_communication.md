@@ -1,6 +1,3 @@
-# Moore's law
-- The density of transistors in an area double every two years.
-- This led to exponential growth in computing and storage space as well as a reduction in a shift in the price performance ratio
 
 # Data communication systems
 - Exchange of data between devices along a transmission medium.

@@ -21,6 +21,11 @@
 # Speed limiting factors 
 - Moore's law (density limitations of transistors approaching atom size) 
 - Power limitations: heat problems arise as clock rate increases. 
+
+## Moore's law
+- The density of transistors in an area double every two years.
+- This led to exponential growth in computing and storage space as well as a reduction in a shift in the price performance ratio 
+
 ## Solutions to speed limiting factors
 - Multi-core processors
 
