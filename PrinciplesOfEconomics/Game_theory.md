@@ -32,4 +32,50 @@
 >![[Pasted image 20211130124757.png]]
 - This is known as a prisoners dilemma, both players cooperating would be best overall but both players being rational results in both of them defecting
 
-	
+
+# Iterated dominance
+- Method of deriving Nash equilibrium by removing columns that are inertly worse
+>![[Pasted image 20211201101355.png]]
+- Example of two Nash equilibrium 
+>![[Pasted image 20211201102627.png]]
+
+# Infinitely repeated games
+
+- Strategies:
+>![[Pasted image 20211201103938.png]]
+## Matching pennies 
+- Games with no Nash equilibrium
+## One shot games
+- An interaction happens just one
+## Repeated games
+- An interaction happens many times
+## Social planners
+- Will always pick best combined payoff
+
+## Cournot model
+- Market where firms choose output levels
+- If its given how much another firm will output, this model will know how to maximize profits.
+### Reaction function
+- The best response of a player given another players output
+>![[Pasted image 20211209154649.png]]
+- The function tells us the best output quantity in response to player 2s output
+- Function with both
+>![[Pasted image 20211209155719.png]]
+
+## Algebraic Nash equilibrium 
+- Examples:
+>![[Pasted image 20211209160415.png]]
+
+## Bertrand model 
+- A market where firms decide on price	
+- Consumers will flock to whatever firm has the lowest price in this model.
+- This is not the case in real life where consumers can distinguish between products
+
+## Monopolistic competition
+- In this condition, consumers CAN differentiate between competing products.
+
+## Sources of market power
+>![[Pasted image 20211209162610.png]]
+
+# Market structures
+>![[Pasted image 20211209162704.png]]

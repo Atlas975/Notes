@@ -51,6 +51,3 @@ The price of coke in terms of pizza here is 9- 3 pizza
 - Slope gives marginal cost of one good in terms of another
 # Change income/prices
 >![[Pasted image 20211102123325.png]]
-
-# Work
-[[ECON102 Week4 Workshop Solution.pdf]]
