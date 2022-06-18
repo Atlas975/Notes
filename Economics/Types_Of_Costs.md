@@ -1,7 +1,7 @@
 # Total cost
 >![[Pasted image 20211124101206.png]]
 
-# Average cost (Total cost / q)
+Average cost (Total cost / q)
 # Marginal cost (Deriv Total cost)
 # Marginal vs Average (econ of scale)
 - Marginal cost must always cross lowest point of average cost

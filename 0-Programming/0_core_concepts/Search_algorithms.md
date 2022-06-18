@@ -12,10 +12,3 @@
 # Binary search
 >![[Pasted image 20220217122641.png]]
 >![[Pasted image 20220217122747.png]]
-## Algorithm
->![[Pasted image 20220217123141.png]]
-## Complexity
->O(log2(N))
-- Worst case deriving
-
->![[Pasted image 20220509124145.png]]

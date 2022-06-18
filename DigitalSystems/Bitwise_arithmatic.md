@@ -1,3 +1,6 @@
+# Bitwise operators
+>![[Pasted image 20220618160514.png]]
+
 # Bit masks
 - Used to access specific bits in a given bytcode, note a shift is still typically needed in most cases to extract the appropriate value
 ## AND bitmask
@@ -20,3 +23,4 @@ y:      01010111
 
 x | y:  11011111
 ```
+

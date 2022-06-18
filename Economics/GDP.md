@@ -61,3 +61,10 @@
 - Allows for changes in the basket of goods to be accounted for in inflation. For instance substitution and change in quality of goods 
 >![[Pasted image 20220209182420.png]]
 - Its also important to distinguish between inflation in one good and overall inflation, to counteract overall inflation the government can use fiscal and monetary polices  
+
+# Zuznets curve
+- An inverse relationship between economic growth and inequality
+- Inequality increases as investment creates a wealthy class
+- Influx of labor keeps wages low.
+- Increased education and democracy lowers inequality.
+>![[Pasted image 20220207104102.png]]

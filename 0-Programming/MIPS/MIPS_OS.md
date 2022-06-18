@@ -6,3 +6,7 @@
 >![[Pasted image 20220215141116.png]]
 - Scheduling example:
 >![[Pasted image 20220215141419.png]]
+
+
+# MIPS keyboard input
+>![[Pasted image 20220215112639.png]]

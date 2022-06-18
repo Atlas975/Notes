@@ -1,5 +1,5 @@
 # Binary relations
-![[Pasted image 20211028214149.png]]
+> ![[Pasted image 20211028214149.png]]
 - Relations are a subset of Cartesian products
 - Example:
 >Let A={1,2} and B={1,3} List the ordered pairs in the relation R from A to B where <a,b> E R if b>a 
@@ -59,7 +59,5 @@
 
 ![[Pasted image 20211028234059.png|500]]
 
-# Work
 
-[[SCC 120 Workshop 2 Relations Worked Solutions.pdf]]
 

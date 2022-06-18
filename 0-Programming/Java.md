@@ -1,13 +1,10 @@
-# Run on Terminal
-[[Linux]]
-```
+# Run on Terminal 
+[[Linux_usage]]
+```bash
 javac anyFile.java
 java anyFile.java
 ```
-- to compile all
-```
-javac *.java
-```
+
 # Shuffle Array
 ```
 Collections.shuffle(Arrays.asList(array))
@@ -15,6 +12,7 @@ Collections.shuffle(Arrays.asList(array))
 # Javadoc
 - Common method of java documentation
 - Example 
+
  >![[Pasted image 20220131153824.png]]
  Documentation creation command:
  

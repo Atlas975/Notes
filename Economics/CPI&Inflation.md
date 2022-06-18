@@ -74,5 +74,5 @@
 
 # Money value
 ```
-real money value = - inflation
+real money value -= inflation
 ```

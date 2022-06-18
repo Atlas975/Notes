@@ -1,4 +1,4 @@
-# Tree abstract data type
+# Trees
 [[Graphs]]
 - Every tree is a graph but not vise versa
 - A tree is a connected acylic graph (no loop)
@@ -26,7 +26,7 @@ void move_node(n, m)
 item[] get_children(n)
 
 # Tree algorithms
-[[Tree_ADT]]
+[[Trees]]
 - Unlike graphs, keeping track of previous nodes isn't necessary making the traversal process much more straightforward
 >![[Pasted image 20220317121418.png]]
 # Breadth-first tree search

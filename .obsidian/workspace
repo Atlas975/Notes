@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "ccdab9ef1ba02200",
+        "id": "ca016c6a72aab05e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "PrinciplesOfEconomics/Labour_markets.md",
+            "file": "InformationSystems/Innovation_practice.md",
             "mode": "preview",
             "source": true
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PrinciplesOfEconomics/Labour_markets.md",
+                "file": "InformationSystems/Innovation_practice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,17 +111,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ccdab9ef1ba02200",
+  "active": "ca016c6a72aab05e",
   "lastOpenFiles": [
-    "PrinciplesOfEconomics/Labour_markets.md",
-    "PrinciplesOfEconomics/Labor_marketTrends.md",
-    "PrinciplesOfEconomics/Markets.md",
-    "PrinciplesOfEconomics/Keynesian_model.md",
-    "PrinciplesOfEconomics/Kuznets_curve.md",
-    "PrinciplesOfEconomics/International_trade.md",
-    "PrinciplesOfEconomics/Imperfect_competition.md",
-    "PrinciplesOfEconomics/Growth_in_LivingStandards.md",
-    "PrinciplesOfEconomics/GDP.md",
-    "PrinciplesOfEconomics/Game_theory.md"
+    "InformationSystems/Innovation_practice.md",
+    "InformationSystems/Intellectual_property.md",
+    "InformationSystems/Liability.md",
+    "0-MachineLearning/0-CoursesPart1/DataAnalytics/Data_integrity.md",
+    "0-Programming/0_core_concepts/Search_algorithms.md",
+    "DiscreteMath&Algorithms/Sets.md",
+    "DiscreteMath&Algorithms/Relations.md",
+    "DiscreteMath&Algorithms/Records.md",
+    "DiscreteMath&Algorithms/Propositional_logic.md",
+    "DiscreteMath&Algorithms/Predicate_logic.md"
   ]
 }

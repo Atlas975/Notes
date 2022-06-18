@@ -58,9 +58,8 @@ building a max heap starts from the furthest down parent node in this case 5 and
 4. Pick median
 - At the end of an iteration the pivot should be in its correct final position with all elements in front being larger and all elements behind being smaller
 
->approach 1![[Pasted image 20220613114902.png]]
->approach 2![[Pasted image 20220329133844.png|200|400]]
->![[Pasted image 20220519013805.png]]
+>![[Pasted image 20220613114902.png]]
+
 ## Median of three partition method
 - Selects the first middle and last element of the array, these are then sorted properly before the middle item is chosen as the pivot 
 
@@ -77,6 +76,7 @@ in this case 4 is chosen
 - Involves the concept of buckets rather than comparison through the use of repeatedly using the radix, most effective when there are a small number of keys (10 digits long is better than 100 digits)
 - Works by comparing each digit one at a time resulting in a sorted list upon the final iteration
 - Example LSD radix sort:
+
 >![[Pasted image 20220331234442.png]]
 # Common sorting algorithm time complexity
 >![[Pasted image 20220519014130.png]]

@@ -95,10 +95,10 @@
   "workspace:split-vertical": [
     {
       "modifiers": [
-        "Mod",
+        "Alt",
         "Shift"
       ],
-      "key": "V"
+      "key": "Q"
     }
   ],
   "insert-current-time": [],
