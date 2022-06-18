@@ -41,3 +41,9 @@
 - **Data independence** describes hiding implementation from other layers
 - Physical data indepence: hardware change does not effect relation structure
 - Logical data indepence: conceptual scheme can be changed without effecting external shema.
+
+## Data relations 
+[[SQL]]
+- There are 3 different types of relations in the database: **one-to-one**. **one-to-many, and**. **many-to-man**
+
+>![[Pasted image 20220618083239.png]]
