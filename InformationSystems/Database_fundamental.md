@@ -82,7 +82,7 @@
 - Logical data indepence: conceptual scheme can be changed without effecting external shema.
 
 ## Data relations 
-[[SQL]]
+[[SQL_language]]
 - There are 3 different types of relations in the database: **one-to-one**. **one-to-many, and**. **many-to-man**
 
 >![[Pasted image 20220618083239.png]]

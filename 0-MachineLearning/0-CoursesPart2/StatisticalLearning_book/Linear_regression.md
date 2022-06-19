@@ -1,6 +1,6 @@
 # Linear regression
 - A model that assumes a linear relationship between a variable x and y
->ˆy = ˆβ0 + ˆβ1 x,
+$$ˆy = ˆβ0 + ˆβ1 x$$
 - Other things to consider include
 1. Strength of relationship
 2. How large is the association of x and y for an increase in x
@@ -17,7 +17,7 @@
 >![[Pasted image 20220226154716.png]]
 
 # Accuracy of estimates 
->Y = β0 + β1 X + ε.
+$$Y = β0 + β1 X + ε.$$
 - We typically assume the error term is independent of X as in it does not change as it increases
 - Here the blue line represents the relationship found using a subset sample of the data
 >![[Pasted image 20220226155514.png]]
@@ -44,8 +44,8 @@
 # F statistic
 - The hypothesis test is computed using the F statistic:
 
-> TSS = sum((y i −  ̄y)^2)
-> RSS =sum((y i − ˆy i )^2)
+$$TSS = sum((y i −  ̄y)^2)$$
+$$RSS =sum((y i − ˆy i )^2)$$
 > p = number of predictors
 > ![[Pasted image 20220311215625.png]]
 > ![[Pasted image 20220311215812.png]]

@@ -1,10 +1,9 @@
 # De Morgan's law 
 - A set of transformations used to convert the intersection / union of a set [[Sets]] into its complement
 - Multiple use cases in boolean algebra, also essential in simplifying logic circuits
-- Basic pattern involves:
-1. NOT overall expression
-2. NOT sub-expressions
-3. Flipping OR to AND / vise-versa
+- Proof:
+
+>![[Pasted image 20220620000841.png]]
 
 > example![[Pasted image 20211103113707.png]]
 

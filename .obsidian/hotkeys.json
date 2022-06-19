@@ -128,5 +128,15 @@
       ],
       "key": "ArrowDown"
     }
+  ],
+  "obsidian-latex-suite:latex-suite-box-equation": [],
+  "obsidian-latex-suite:latex-suite-select-equation": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "L"
+    }
   ]
 }
