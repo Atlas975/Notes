@@ -14,3 +14,4 @@
 >![[Pasted image 20211212153005.png]]
 - Reciprocal rule:
 >![[Pasted image 20211217120416.png]]
+

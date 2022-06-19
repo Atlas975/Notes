@@ -1,3 +1,7 @@
+
+
+# SQL 
+#Databases 
 # Order of operations
 >![[Pasted image 20211112105450.png]]
 >![[Pasted image 20220605145618.png]]

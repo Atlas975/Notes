@@ -72,7 +72,7 @@ Value of *ip variable: 20
 - Passing memory addresses allows methods to edit variables on a global scale. 
 - Pointer values eliminate duplicate memory, a pointer can be used to point to a variable for every reference. This is not the case with regular variables where duplicate memory is needed for every copy. 
 
-> #p is what can print pointer address
+> %p is what can print pointer address
 # String functions
 >![[Pasted image 20211126122507.png]]
 

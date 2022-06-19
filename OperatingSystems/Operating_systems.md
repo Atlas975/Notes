@@ -1,4 +1,5 @@
-# Operating system basics
+# Operating systems
+#OperatingSystems
 - A typical linux distribution would consist of 
 1. Linux Kernal 
 2. GNU tools (gcc, gdb) and libararies

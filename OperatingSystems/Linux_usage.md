@@ -1,8 +1,6 @@
 # Linux usage 
-[[Operating_system]]
-
+#OperatingSystems [[Operating_systems]]
 ## Linux filesystem 
-
 >![[Pasted image 20220618155352.png]]
 >![[Pasted image 20220426161528.png]]
 

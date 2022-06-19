@@ -198,6 +198,22 @@
           "lastUpdated": 1655565538879
         }
       }
+    },
+    "Data_fundementals": {
+      "Data_fundementals": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1655627951963
+        }
+      }
+    },
+    "SQL": {
+      "SQL": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1655628313865
+        }
+      }
     }
   }
 }

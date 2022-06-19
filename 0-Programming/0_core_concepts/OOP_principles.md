@@ -5,8 +5,9 @@
 - Composition involves referencing one or more classes through the use of instance variables, allowing for code to be repurposed for other scenarios 
 
 # Encapsulation
-- The idea of bundling data and methods together to work as one unit, this acts as a layer of abstraction that hides the internal procedures of a class
 >![[Pasted image 20220525212148.png]]
+- In OOP, this involves grouping data and its operators in a single unit making programming much more secure.
+- Good encapsulation completely hides how data is stored from the users, giving users only an abstract view of how it works.
 
 # Functions 
 - Usage beneifts include

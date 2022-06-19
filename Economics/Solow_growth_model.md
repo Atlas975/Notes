@@ -1,3 +1,5 @@
+# Growth model
+
 # Solow growth model
 - The growth model can summarized by the function as
 > total output (Y) = F (physical labor, capital)

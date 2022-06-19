@@ -1,12 +1,27 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "lin",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": true,
-  "showOrphans": true,
+  "hideUnresolved": false,
+  "showOrphans": false,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "tag:#Databases",
+      "color": {
+        "a": 1,
+        "rgb": 6193580
+      }
+    },
+    {
+      "query": "tag:#OperatingSystems",
+      "color": {
+        "a": 1,
+        "rgb": 11833005
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -17,6 +32,6 @@
   "repelStrength": 17.4336715979949,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.13639036508230273,
+  "scale": 0.2876443238925815,
   "close": false
 }
