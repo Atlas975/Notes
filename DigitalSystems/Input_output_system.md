@@ -6,7 +6,7 @@
 ## Speed
 - Usually mechanical, making them slower than the CPU potentially slowing it down.
 - Any difference in performance can be a problem, wasting CPU clock cycles.
-## Diverse diversity
+## Device diversity
 1. Different access modes such as read/write
 2. Accessed by either a single byte or a stream of bytes.
 3. Random access like a disk or sequential access like a tape.

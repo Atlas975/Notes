@@ -187,7 +187,7 @@ OR
 - Pauses ouput console until key press
 
 # Structs and unions 
-[[C_language]] [[Data_fundementals]]
+[[C_language]] [[Computer_memory]]
 - A structure contains an ordered group of data objects
 - Each data object in a structure is called a member
 - A union is similar except all data objects start in the same memory location
@@ -213,7 +213,7 @@ OR
 ## Example of records in C
 >![[Pasted image 20211202122712.png]]
 
-[[C_basics#MALLOC]] can be used to allocate space for a new record
+Malloc can be used to allocate space for a new record
 ## Creating new record instance
 >![[Pasted image 20211203235040.png]]
 

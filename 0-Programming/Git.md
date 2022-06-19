@@ -3,7 +3,7 @@
 >git config --global user.name "Adil Wazeer"
 > git config user.name
 ## Email
->git config --global user.email "adilw2002@gmail.com"
+>git config --global user.email "name@gmail.com"
 git config user.email
 - Repositories have separate history in different folders. The git repo is also part of children folders in the parent folder.
 - Must NOT initialize a repo inside a repo, use git status first

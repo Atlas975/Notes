@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "727b90be6cbfb2a5",
+        "id": "b1c8f3a0e63f54df",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DigitalSystems/Data_fundementals.md",
+            "file": "DigitalSystems/InstructionSet_architecture.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "retrieval",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,13 +77,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DigitalSystems/Data_fundementals.md",
+                "file": "DigitalSystems/InstructionSet_architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -108,20 +108,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "727b90be6cbfb2a5",
+  "active": "b1c8f3a0e63f54df",
   "lastOpenFiles": [
-    "DigitalSystems/Data_fundementals.md",
-    "DigitalSystems/Building_memory.md",
-    "DigitalSystems/Boolean_logic.md",
-    "0-Programming/C_language.md",
-    "DigitalSystems/Computer_data.md",
-    "DigitalSystems/Control_unit.md",
     "DigitalSystems/InstructionSet_architecture.md",
-    "DigitalSystems/Volatile_memory.md",
+    "DigitalSystems/Computer_architecture.md",
+    "DigitalSystems/DigitalSystem_design.md",
+    "DigitalSystems/Combinatorial&Sequential_Logic.md",
+    "DigitalSystems/ALU_building.md",
+    "DigitalSystems/Bitwise_arithmatic.md",
     "DigitalSystems/Inline_assembly.md",
-    "Economics/SocialSystems.md"
+    "DigitalSystems/Computer_data.md",
+    "DigitalSystems/Boolean_logic.md",
+    "DigitalSystems/Input_output_system.md"
   ]
 }

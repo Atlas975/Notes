@@ -16,3 +16,27 @@
 ## Proof of absorption by perfect induction
 ![[Pasted image 20211031135427.png]]
 
+# Karnaugh map
+- A grid where each square represents a input combination.
+- Note the sequence of negation is important, follow this for ALL Karnaugh maps:
+> ![[Pasted image 20211103114544.png]]
+## Using a Karnaugh map
+1. Pick template of required number of inputs
+2. Look for rectangular groups of 1's , few groups that are large in size are best.
+- Groups must contain 2^n cells (2,4,8,16..)
+>![[Pasted image 20211103134236.png]]
+- Each group corresponds to the number of terms there will be.
+- List the unchanged terms:
+>![[Pasted image 20211103134331.png]]
+# Decoder function
+- Example: detects 0,1,2,4,5 in binary
+> ![[Pasted image 20211103135038.png|500|500]]
+- Becomes:
+> ![[Pasted image 20211103135234.png|500|500]]
+> ![[Pasted image 20211103135401.png|500|500]]
+- Can be simplified as:
+$$ B' + A'C'$$
+## Map wrap around
+- (Also: note that Karnaugh maps “wrap” left-to-right and top-to-bottom)
+
+> ![[Pasted image 20211103140702.png|500|500]]
