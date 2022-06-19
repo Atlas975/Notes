@@ -79,3 +79,80 @@
 
 # Market structures
 >![[Pasted image 20211209162704.png]]
+
+# Perfect competition
+## Assumptions
+- Market has many buyers and sellers
+- Firms produce identical outputs so no individual firm can control price.
+- No barriers to enter or exit market.
+- This means consumers can easily switch products if prices increase
+
+## Profit maximization
+> Marginal revenue = Marginal cost
+
+## Revenues
+![[Pasted image 20211115104011.png]]
+
+#### Note marginal is always the derivative 
+## Graphically 
+![[Pasted image 20211115104610.png]]
+# Perfect competition profit
+> Profit = Marginal Cost
+
+>![[Pasted image 20211117114902.png]]
+>![[Pasted image 20211117114934.png]]
+
+# Shutdown condition
+>![[Pasted image 20211117115200.png]]
+
+# Industry supply curve
+>![[Pasted image 20211117174332.png]]
+
+# Perfect competition
+## Assumptions
+- Market has many buyers and sellers
+- Firms produce identical outputs so no individual firm can control price.
+- No barriers to enter or exit market.
+- This means consumers can easily switch products if prices increase
+
+## Profit maximization
+> Marginal revenue = Marginal cost
+
+## Revenues
+![[Pasted image 20211115104011.png]]
+
+#### Note marginal is always the derivative 
+## Graphically 
+![[Pasted image 20211115104610.png]]
+# Perfect competition profit
+> Profit = Marginal Cost
+
+>![[Pasted image 20211117114902.png]]
+>![[Pasted image 20211117114934.png]]
+
+# Shutdown condition
+>![[Pasted image 20211117115200.png]]
+
+# Industry supply curve
+>![[Pasted image 20211117174332.png]]
+
+# Monopoly characteristics
+- Monopoly have small consumer surplus but large producer surplus. Otherwise there is no producer surplus
+
+## Price discrimination 
+- There are multiple types of price discrimination
+>![[Pasted image 20211124104845.png]]
+
+# Oligopoly
+- A market with many buyers but few sellers
+## Cartel
+- A group of market participants who collude to improve profits and dominate the market, often illegal
+- Proof of cartel instability
+>![[Pasted image 20211207122439.png|300|400]]
+>![[Pasted image 20211207122709.png|300|400]]
+- When accounting for actions, a normal form table doesen't account for the order of decisions, this can be accounted for by a tree
+>![[Pasted image 20211207123851.png]]
+
+
+# Types of imperfect competition
+![[Pasted image 20211123121837.png]]

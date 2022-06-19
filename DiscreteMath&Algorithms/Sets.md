@@ -1,3 +1,5 @@
+#DiscreteMath
+
 # Set properties
 1. No duplicates
 2. Unordered

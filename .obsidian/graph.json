@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "lin",
+  "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -20,18 +20,25 @@
         "a": 1,
         "rgb": 11833005
       }
+    },
+    {
+      "query": "tag:#DiscreteMath",
+      "color": {
+        "a": 1,
+        "rgb": 12542314
+      }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 1.30388189265191,
+  "lineSizeMultiplier": 1.45725027509475,
   "collapse-forces": false,
   "centerStrength": 0.518713248970312,
   "repelStrength": 17.4336715979949,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.2876443238925815,
+  "scale": 0.09373445902301046,
   "close": false
 }

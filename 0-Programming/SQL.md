@@ -130,7 +130,7 @@ WHERE Price BETWEEN 10 AND 20;
 # Joins 
 [[Sets]]
 >![[Pasted image 20220120173210.png]]
-- Joining two tables without a filter will return the [[Cartesian_product]] of the two tables. An example of filtering without joins:
+- Joining two tables without a filter will return the [[Sets#Cartesian product]] of the two tables. An example of filtering without joins:
 >![[Pasted image 20211127172815.png]]
 - Natural join example:
 >![[Pasted image 20211127181622.png]]

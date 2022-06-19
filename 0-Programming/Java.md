@@ -1,5 +1,4 @@
 # Run on Terminal 
-[[Linux_usage]]
 ```bash
 javac anyFile.java
 java anyFile.java

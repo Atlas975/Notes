@@ -46,5 +46,3 @@
 >![[Pasted image 20211115102403.png]]
 # Economies of scale
 ![[Pasted image 20211115102634.png]]
-# Work
-[[ECON102 Week5 Workshop Solution.pdf]]

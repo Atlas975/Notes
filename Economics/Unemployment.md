@@ -42,3 +42,6 @@
 
 # Unemployment cycle
 >![[Pasted image 20220323220319.png]]
+
+
+

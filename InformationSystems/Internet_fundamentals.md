@@ -1,5 +1,3 @@
-
-
 # Internet
 - A network of interconnected set of computers(host)
 

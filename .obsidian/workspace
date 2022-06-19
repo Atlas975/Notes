@@ -4,12 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "90d68af6d419864e",
+        "id": "882c365838a802bc",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
-        }
+          "type": "markdown",
+          "state": {
+            "file": "Economics/Producer_theory.md",
+            "mode": "source",
+            "source": true
+          }
+        },
+        "group": "dbc13e45aac526d5"
+      },
+      {
+        "id": "f269892652e8ee1c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Economics/Producer_theory.md",
+            "mode": "source",
+            "source": true
+          }
+        },
+        "group": "dbc13e45aac526d5"
       }
     ],
     "direction": "vertical"
@@ -36,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "encap",
+                "query": "carte",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,6 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Economics/Producer_theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,17 +125,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "90d68af6d419864e",
+  "active": "882c365838a802bc",
   "lastOpenFiles": [
-    "OperatingSystems/Operating_systems.md",
-    "OperatingSystems/Linux_usage.md",
-    "0-Programming/SQL.md",
-    "InformationSystems/Database_fundamental.md",
-    "0-Programming/0_core_concepts/Search_algorithms.md",
-    "0-Programming/0_core_concepts/OOP_principles.md",
-    "DiscreteMath&Algorithms/Abstract_data_types.md",
-    "InformationSystems/Malware.md",
+    "Economics/Producer_theory.md",
     "Economics/Markets.md",
-    "Economics/Money.md"
+    "Economics/Microeconomics.md",
+    "Economics/Economic_growth.md",
+    "Economics/Aggregate_demand&supply.md",
+    "Economics/Macroeconomics.md",
+    "Economics/Growth_models.md",
+    "Economics/Imperfect_competition.md",
+    "Economics/Growth_in_LivingStandards.md",
+    "Economics/Consumer_theory.md"
   ]
 }

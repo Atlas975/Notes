@@ -24,7 +24,6 @@ social identify of that person"
 - A local shared object containing a piece of data stored on a users computer
 - Intended to improve browser experience by remembering information about the user when they visit said site again 
 
-
 # Data protection act
 1. Personal data shall be processed fairly and lawfully
 >![[Pasted image 20220228231740.png]]

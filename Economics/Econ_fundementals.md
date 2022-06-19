@@ -34,7 +34,18 @@ Not thinking at the margin (the benefit for each unit)
 ![[Pasted image 20211029112149.png]]
 
 
+# Total cost
+>![[Pasted image 20211124101206.png]]
 
+> Average cost (Total cost / q)
+>  Marginal cost (Deriv Total cost)
+> Marginal vs Average (econ of scale)
+> Marginal cost must always cross lowest point of average cost
+>![[Pasted image 20211124101713.png|500|500]]
+
+# Profit maximization
+- The gap is the profit
+>![[Pasted image 20211124101912.png]]
 
 # Assets vs liabilities
 -**Assets are the items you own that can provide future economic benefit.** **Liabilities are what you owe other parties**. In short, assets put money in your pocket, and liabilities take money out

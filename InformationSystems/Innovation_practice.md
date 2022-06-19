@@ -1,3 +1,4 @@
+
 # Adobes kickbox 
 >![[Pasted image 20220201091639.png]]
 1. Inception: why are we doing this, what do we want to innovate
