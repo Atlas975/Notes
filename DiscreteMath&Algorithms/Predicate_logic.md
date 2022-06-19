@@ -46,8 +46,7 @@
 
 >![[Pasted image 20220425201209.png]]
 
-# De Morgan's quantifier law
->![[Pasted image 20220425201453.png]]
+[[De_Morgans_law#De Morgan's law#De Morgan's quantifier law]]
 
 ## Precedence 
 >![[Pasted image 20220425201608.png]]

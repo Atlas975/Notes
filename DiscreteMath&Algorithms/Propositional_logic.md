@@ -69,8 +69,7 @@
 - Also known as logically equivalent. 
 > ![[Pasted image 20211108191602.png|250|250]] 
 
-# De Morgans law - logic gates
-> ![[Pasted image 20211108191956.png]]
+[[De_Morgans_law#De Morgan's quantifier law]]
 
 # Replacement laws
 ## Absorption

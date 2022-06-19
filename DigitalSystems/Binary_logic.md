@@ -16,8 +16,3 @@
 ## Proof of absorption by perfect induction
 ![[Pasted image 20211031135427.png]]
 
-# De Morgans law
-- With an expression that contains sub-expressions that use AND/OR, it can be re-stated by using the following procedure.
-1. NOT overall expression
-2. NOT sub-expressions
-3. Flipping OR to AND / vise-versa

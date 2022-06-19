@@ -222,6 +222,22 @@
           "lastUpdated": 1655631864455
         }
       }
+    },
+    "De_Morgans_law": {
+      "De_Morgans_law": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1655642494201
+        }
+      }
+    },
+    "complement": {
+      "complement": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1655642897398
+        }
+      }
     }
   }
 }
