@@ -27,6 +27,13 @@
         "a": 1,
         "rgb": 12542314
       }
+    },
+    {
+      "query": "tag:#Economics",
+      "color": {
+        "a": 1,
+        "rgb": 10731148
+      }
     }
   ],
   "collapse-display": false,
@@ -39,6 +46,6 @@
   "repelStrength": 17.4336715979949,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.09373445902301046,
+  "scale": 0.4912532559771227,
   "close": false
 }

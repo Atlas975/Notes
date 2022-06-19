@@ -1,3 +1,5 @@
+
+[[Abstract_data_types]]
 # Graphs
 - Graphs are made up of nodes and edges
 - Nodes are sometimes called vertices and edges are sometimes called arcs.

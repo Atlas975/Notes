@@ -12,7 +12,7 @@
 >![[Pasted image 20220201134628.png]]
 # Evaluating probability of outcome
 >![[Pasted image 20220201135555.png]]
-# Time complexity
+## Average time complexity
 >![[Pasted image 20220131123412.png]]
 >![[Pasted image 20220131123432.png]]
 ## Time growth

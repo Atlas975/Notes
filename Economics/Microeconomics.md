@@ -1,3 +1,5 @@
+#Economics 
+[[Game_theory]]
 # Elasticity definition
 - measures how sensitive consumers are to price change. 
 - An elasticity of 2/3 would mean a 1% increase in price leads to a 2/3% decrease in demand

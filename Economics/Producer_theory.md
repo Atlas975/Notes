@@ -1,3 +1,6 @@
+#Economics 
+[[Microeconomics]]
+[[Macroeconomics]]
 # Producer goal
 - Maximize profits minimize costs
 - This assumes the firm produces one good

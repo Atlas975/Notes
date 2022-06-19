@@ -1,3 +1,6 @@
+
+[[Search_algorithms]]
+[[Sorting_algorithms]]
 # What is an Algorithm
 - An effective method of solving a problem
 - It must except an input, terminate and produce the correct solution

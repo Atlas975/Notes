@@ -1,3 +1,7 @@
+#Economics 
+[[Macroeconomics]]
+[[Microeconomics]]
+
 # Principles
 ## Scarcity principle
 - Having more of one thing means less of something else

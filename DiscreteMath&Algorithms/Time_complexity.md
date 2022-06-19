@@ -1,3 +1,17 @@
+# Time complexity 
+## Sort algorithm time complexity
+> ![[Pasted image 20220612171916.png]]
+
+
+## Search algorithm time complexity 
+>
+>![[Pasted image 20220325120953.png]]
+>![[Pasted image 20220325121014.png]]
+
+# Time complexity scale 
+>![[Pasted image 20220201151320.png]]
+
+
 # Operations counting
 >![[Pasted image 20220120124709.png]]
 ## Experimental approach 
@@ -18,7 +32,7 @@
 - Array access requires 5 operations for array access over C's 2
 
 # Operation counting examples
-# Linear execution times
+## Linear execution times
 ## Operations: average function 
 >![[Pasted image 20220124121824.png]]
 >![[Pasted image 20220124121857.png]]
@@ -52,7 +66,7 @@
 >![[Pasted image 20220126132613.png]]
 >![[Pasted image 20220126132629.png]]
 
-# Logarithmic execution times 
+## Logarithmic execution times 
 ## Operations: log2
 >![[Pasted image 20220124162629.png]]
 >![[Pasted image 20220124162659.png]]
@@ -60,7 +74,7 @@
 >![[Pasted image 20220124163032.png]]
 >![[Pasted image 20220124163058.png]]
 
-# Quadratic execution times
+## Quadratic execution times
 ### Operations: square of num
 >![[Pasted image 20220126125232.png]]
 >![[Pasted image 20220126125453.png]]
@@ -75,4 +89,30 @@ N(3N+2)+2N+2+1
 >![[Pasted image 20220126130347.png]]
 >![[Pasted image 20220126131118.png]]
 
+
+# Average case
+- Only N needs to be replaced
+- Average case assumes N is in the array
+[[Algorithm_fundamentals#Sequences formulae]]
+>![[Pasted image 20220131121809.png]]
+>![[Pasted image 20220131121821.png]]
+>![[Pasted image 20220131140717.png]]
+>![[Pasted image 20220131141108.png]]
+>![[Pasted image 20220131121839.png]]
+- Calculating both average cases:
+>![[Pasted image 20220201135705.png]]
+>![[Pasted image 20220201134628.png]]
+# Evaluating probability of outcome
+>![[Pasted image 20220201135555.png]]
+## Average time complexity
+>![[Pasted image 20220131123412.png]]
+>![[Pasted image 20220131123432.png]]
+## Time growth
+>![[Pasted image 20220131123521.png]]
+- Function growth table
+>![[Pasted image 20220131123632.png]]
+## Graphical time growth
+>![[Pasted image 20220131123717.png]]
+>![[Pasted image 20220131123923.png]]
+>![[Pasted image 20220131124009.png]]
 

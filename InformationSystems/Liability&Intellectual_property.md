@@ -1,4 +1,4 @@
-
+[[Consumer_theory]]
 # Liability 
 - The consumer protection act (CPA) imposes liability on defective products, it applies to hardware but not software as this is considered as providing a service
 

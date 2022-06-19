@@ -1,3 +1,6 @@
+#Economics 
+[[Microeconomics]]
+[[Consumer_theory]]
 # Capitalism
 - Private ownership of productive assets
 - Two types

@@ -1,5 +1,5 @@
 
-**Link [[Null]]   Date: {{date}}  Time: {{time}} **
+**Date: {{date}}  Time: {{time}} **
 Tag #
 
 ---

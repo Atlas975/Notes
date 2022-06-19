@@ -1,3 +1,6 @@
+#Economics
+[[Microeconomics]]
+
 # Consumption bundle
 - Complete list of quantities available of all goods.
 - Example: 

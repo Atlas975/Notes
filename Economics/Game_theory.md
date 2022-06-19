@@ -1,3 +1,8 @@
+
+[[Microeconomics]]
+[[Macroeconomics]]
+[[Markets]]
+#Economics 
 # Game theory
 - The study of strategic situations, there are two types
 - Games are mathematical models used to study strategic interaction between rational decision makers. 

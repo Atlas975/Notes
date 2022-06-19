@@ -1,3 +1,4 @@
+[[Sets]][[Functions]][[OOP_principles]]
 # ADT
 
 - An ADT only defines what operations are performed not how they're implemented.
@@ -9,10 +10,6 @@
 - Abstract data types is both the data structure and the procedures/functions that manipulate the data.
 >![[Pasted image 20211115121905.png]]
 
-# Encapsulation 
->![[Pasted image 20211115120906.png]]
-- In OOP, this involves grouping data and its operators in a single unit making programming much more secure.
-- Good encapsulation completely hides how data is stored from the users, giving users only an abstract view of how it works.
 # Queue
 - Works on a first in first out principle (FIFO)
 - It is an ordered collection of items where items are added on the rear and removed at the front
@@ -31,7 +28,7 @@ item peek()
 # Priority queue
 - Adds another level of complexity to queues where the priority of an item can override its position
 - In this case the queue mains a set of queues for each priority, where the first item in each priority is kept in front
-## Challenges
+## Starvation problem
 - Starvation: too many elements in a higher priority means lower priority queues never get accessed
 # Programming application
 - C does not offer encapsulation, Java does (everything is a class due to OOP)

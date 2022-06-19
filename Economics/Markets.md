@@ -1,3 +1,4 @@
+#Economics 
 # The market 
 > ![[Pasted image 20211029112402.png]]
 

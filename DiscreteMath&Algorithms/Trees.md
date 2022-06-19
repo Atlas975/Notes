@@ -1,3 +1,4 @@
+[[Abstract_data_types]]
 # Trees
 [[Graphs]]
 - Every tree is a graph but not vise versa

@@ -1,3 +1,7 @@
+
+#Economics 
+[[Macroeconomics]]
+[[Markets]]
 # Banking systems
 - Bank reserves are cash or similar assets held by banks to meet withdrawal requests and payments, the cash in banks vaults isn't part of money supply
 - A 100% reserve banking system means banks hold 100% of their deposits

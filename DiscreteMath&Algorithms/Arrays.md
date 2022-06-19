@@ -1,3 +1,4 @@
+[[Abstract_data_types]]
 # Array pros
 - A single name can be used to represent multiple data types
 - Index positions can be used to quickly access values stored at different positions, faster than sequential searching.
