@@ -24,7 +24,6 @@
 - Stores data and returns data to logic tier.
 - Data stored in DBMS, all database functions are handled here. 
 
-
 # Protocols
 - The rules the sender, receiver and devices need to follow for effective data communication.
 - Part of transport layer.
@@ -51,9 +50,9 @@ in this case one must talk the other listen.
 - Hierarchical, each upper layer depends on service from previous layer. 
 
 # OSI model
-![[Pasted image 20211105235648.png|200|200]]
+> ![[Pasted image 20211105235648.png|200|200]]
 ## Example layer involvement:
-![[Pasted image 20211105235208.png]]
+> ![[Pasted image 20211105235208.png]]
 
 # 5 layer network model explained:
 ## Application

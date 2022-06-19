@@ -5,21 +5,21 @@
 > ![[Pasted image 20211108184719.png|500|500]]
 - During binary addition, the ALU can solve an overflow error by dividing a function into 2 separate functions:
 # Half adder
-![[Pasted image 20211108185340.png|500|500]]  
+> ![[Pasted image 20211108185340.png|500|500]]  
 #### Note these are also AND , XOR gates
 - These separate functions can also be represented by a logic gates:
-![[Pasted image 20211108185514.png|500|500]]
+> ![[Pasted image 20211108185514.png|500|500]]
 ## Half adder with expanded XOR
-![[Pasted image 20211109111635.png|500|500]]
+> ![[Pasted image 20211109111635.png|500|500]]
 ## Full adder
-![[Pasted image 20211109112335.png|500|500]]
-![[Pasted image 20211129235449.png|600|600]]
+> ![[Pasted image 20211109112335.png|500|500]]
+> ![[Pasted image 20211129235449.png|600|600]]
 - Note that C_Out is high whenever theres 2 or more inputs, the sum is high only if there are an odd number of inputs
 - This can also be done with NAND gates
 ## Proof by perfect induction
-![[Pasted image 20211109112833.png|600|600]]
+> ![[Pasted image 20211109112833.png|600|600]]
 ## Multi-stage full adder
->![[Pasted image 20211109113046.png|500|500]]
+> ![[Pasted image 20211109113046.png|500|500]]
 # Data buses
 - A computer system that takes data from one component to another.
 # Address buses

@@ -1,4 +1,4 @@
-[[Python_basics#Dictionaries methods]]
+[[Python_language#Dictionaries methods]]
 # Count letters
 ```python
 message="It was a bright cold day in April"

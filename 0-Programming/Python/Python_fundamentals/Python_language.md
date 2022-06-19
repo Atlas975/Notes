@@ -1,9 +1,3 @@
-# Useful method
->max()
->min()
->str() 
->int()
-
 # List comprehension 
 
 - Example all evens:
