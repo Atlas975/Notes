@@ -18,8 +18,8 @@
 >![[Pasted image 20211117201205.png]]
 
 # Fetch-Decode-Execute cycle traced
-![[Pasted image 20211117201703.png]]
-![[Pasted image 20211117201938.png]]
+> ![[Pasted image 20211117201703.png]]
+> ![[Pasted image 20211117201938.png]]
 
 # Control unit types
 - There are two types of control units:

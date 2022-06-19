@@ -23,7 +23,7 @@
 ## print statement
 - Example:
 >disp('hello');
-- Same print formatting as [[C_basics#Print formatting]]
+- Same print formatting as [[C_language#Print formatting]]
 > disp(sprintf('2 decimals: 0.2f', pi))      
 > **prints 3.14**
 ## ones matrix

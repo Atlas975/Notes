@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "f091955d7445519c",
+        "id": "727b90be6cbfb2a5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/Padding.md",
-            "mode": "preview",
+            "file": "InformationSystems/Internet_fundamentals.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "prop",
+                "query": "retrieval",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/Padding.md",
+                "file": "InformationSystems/Internet_fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,17 +111,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f091955d7445519c",
+  "active": "727b90be6cbfb2a5",
   "lastOpenFiles": [
-    "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/Padding.md",
-    "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/Pooling.md",
-    "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/CNN_architecture.md",
-    "DiscreteMath&Algorithms/Graphs.md",
-    "DiscreteMath&Algorithms/Propositional_logic.md",
+    "InformationSystems/Internet_fundamentals.md",
+    "Economics/SocialSystems.md",
+    "DiscreteMath&Algorithms/Abstract_data_types.md",
+    "DiscreteMath&Algorithms/Algorithm_fundamentals.md",
+    "DiscreteMath&Algorithms/AverageCase&TimeGrowth.md",
+    "DiscreteMath&Algorithms/Big-O_notation.md",
+    "DiscreteMath&Algorithms/DataStorage&Retrieval.md",
     "DiscreteMath&Algorithms/De_Morgans_law.md",
-    "DiscreteMath&Algorithms/Predicate_logic.md",
-    "DigitalSystems/DigitalSystem_design.md",
-    "DigitalSystems/Binary_logic.md",
-    "0-Programming/Rust/Rust_fundamentals/Rust_traits.md"
+    "DiscreteMath&Algorithms/Graphs.md",
+    "DigitalSystems/Data_fundementals.md"
   ]
 }

@@ -15,7 +15,7 @@ bool contains(key)
 
 
 # Hash functions
-- Converts typically a string based key into an integer that can be used for indexing [[Data_retrieval]]
+- Converts typically a string based key into an integer that can be used for indexing [[DataStorage&Retrieval]]
 - An advantage of using this over a method such as just taking the first letter for instance is that the bucket range isn't limited to 0-25
 - Collisions can be dealt with through chains and are typically few in number bringing the function close to its ideal complexity of O(1)
 - Example function, summing ascii values of first 4 letters of each input 

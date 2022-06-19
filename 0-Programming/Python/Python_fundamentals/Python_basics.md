@@ -62,4 +62,4 @@ try:
 >'Hello World!'[5] = ' '
 
 #### Python compilation 
-- Python is compiled in [[C_basics]]
+- Python is compiled in [[C_language]]

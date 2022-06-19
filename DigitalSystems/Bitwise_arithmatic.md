@@ -2,25 +2,25 @@
 >![[Pasted image 20220618160514.png]]
 
 # Bit masks
-- Used to access specific bits in a given bytcode, note a shift is still typically needed in most cases to extract the appropriate value
+- Used to access specific bits in a given bytcode, note a shift is still typically needed to extract the appropriate value
 ## AND bitmask
 
 ```c
-x:      10001101
+x:      11001001
 
-y:      01010111
+y:      00001111
 
-x & y:  00000101
+x & y:  00001001
 ```
 
 
 ## OR bitmask
 
 ```c
-x:      10001101
+x:      11110000
 
-y:      01010111
+y:      00001111
 
-x | y:  11011111
+x | y:  11111111
 ```
 

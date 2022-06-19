@@ -16,6 +16,18 @@
 - For handling arithmetic, early computers used decimal like us.	
 >![[Pasted image 20211031094523.png]]
 
+
+# Function pointers
+[[C_language]]
+>![[Pasted image 20220315141910.png]]
+
+- Assigning function pointers
+>![[Pasted image 20220315142345.png]]
+- Invoking function pointers
+>![[Pasted image 20220315142411.png]]
+- Usage
+>![[Pasted image 20220315142814.png]]
+
 # Limitations
 - Computers are restricted to a finite number of digits.
 - For instance, 5-bit numbers in decimal cant be stored in 4-bits
@@ -51,3 +63,5 @@
 - This comes in the form of rounding, in many cases an rough value is sufficient.
 >![[Pasted image 20211031103629.png|500|500]]
  An overflow tag is a special piece of hardware used  to indicate potential overflow error
+
+

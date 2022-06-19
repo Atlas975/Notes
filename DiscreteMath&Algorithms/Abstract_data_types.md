@@ -30,8 +30,6 @@ item peek()
 - In this case the queue mains a set of queues for each priority, where the first item in each priority is kept in front
 ## Starvation problem
 - Starvation: too many elements in a higher priority means lower priority queues never get accessed
-# Programming application
-- C does not offer encapsulation, Java does (everything is a class due to OOP)
 # Arrays
 >![[Pasted image 20211115123922.png|400|400]]
 - Arrays in C and Java

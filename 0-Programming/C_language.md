@@ -1,3 +1,10 @@
+# C language
+# Arrays 
+## size
+>int size=sizeof arr/sizeof arr[0];
+## passing arrays in functions
+-Example:
+> int *arr
 # Define constants
 ### Makes variables purpose more clear by assigning a meaningful name
 
@@ -15,12 +22,6 @@ for(int i=LOWER; i<=UPPER; i+=STEP){
  >printf("%20d %20d",45,54); 
  ### Limits digits after decimal point 
 >printf("%.2f %10.3f",6.294929491,3.24211); 
-# Arrays 
-## size
->int size=sizeof arr/sizeof arr[0];
-## passing arrays in functions
--Example:
-> int *arr
 # While loops
 ### Guaranteed to execute once
 >do {  
@@ -172,7 +173,7 @@ OR
 >free()
 
 # Records
-[[Records]]
+[[C_records]]
 
 # Switch case operator
 >![[Pasted image 20211207214353.png]]
@@ -184,3 +185,100 @@ OR
 
 # getch()
 - Pauses ouput console until key press
+
+# Structs and unions 
+[[C_language]] [[Data_fundementals]]
+- A structure contains an ordered group of data objects
+- Each data object in a structure is called a member
+- A union is similar except all data objects start in the same memory location
+- Unions can only represent the value of one of its members at a time
+## Vector implementation with structs 
+
+- Creating new vector block
+>![[Pasted image 20211206073714.png]]
+- Full vector creation
+>![[Pasted image 20211206073920.png]]
+## Unions
+- Union example:
+>![[Pasted image 20220315113934.png]]
+>![[Pasted image 20220315114002.png]]
+
+
+# Records 
+- A method of holding multiple properties, good for representing an entity eg the characteristics of a student. This is needed as C does not have encapsulation.
+- It is not homogeneous like an an array, it is heterogeneous
+- Components are called fields
+[[Relations]]
+>![[Pasted image 20211203172314.png]]
+## Example of records in C
+>![[Pasted image 20211202122712.png]]
+
+[[C_basics#MALLOC]] can be used to allocate space for a new record
+## Creating new record instance
+>![[Pasted image 20211203235040.png]]
+
+## Allocating variables in record
+>![[Pasted image 20211203235114.png]]
+- The record. format is also how a variable is accessed
+
+## Array of records
+- Records is a user defined type, as such an array of pointers to student records can be made:
+>![[Pasted image 20211203235434.png]]
+
+## Adapting to lack on encapsulation
+- Since attributes aren't hidden, a case statement can be used to address this:
+>![[Pasted image 20211203235641.png]]
+
+
+## Typedef
+- Method of naming structs removes the need to call the name struct node by naming it something like Node
+
+
+# C Preprocessor
+>![[Pasted image 20220308111017.png]]
+
+## Initial processing
+>![[Pasted image 20220308111501.png]]
+
+# Tokenization
+- Input C file converted into sequence of pre-processing tokens
+- These fall into classes:
+>• Identifier: any sequence of letters, digits, or underscores, begining  
+with a letter or underscore  
+• Number: any C integer and floating point constants (plus more)  
+• String literals: string/character constants and header file names
+- After this is done, code can be passed directly to the compiler
+
+# Preprocessing language features
+>• Inclusion of header files. F ile declarations; substituted in your  
+program.  
+• Macro expansion. abbreviations for C code fragments. The  
+preprocessor replaces macros with their definitions throughout the  
+program.  
+• Conditional compilation. Include or exclude code segments from  
+compilation based on various conditions.  
+• Diagnostics. You can detect problems at compile time and issue  
+errors or warnings.
+
+# Header files
+- The preprocessor scnas the include before continuing with the file
+>![[Pasted image 20220308114116.png]]
+
+# Macros
+## Function like macros
+>![[Pasted image 20220308114157.png]]
+
+## Undifined macros
+>![[Pasted image 20220308114441.png]]
+
+
+# Function pointers
+[[C_language]]
+>![[Pasted image 20220315141910.png]]
+
+- Assigning function pointers
+>![[Pasted image 20220315142345.png]]
+- Invoking function pointers
+>![[Pasted image 20220315142411.png]]
+- Usage
+>![[Pasted image 20220315142814.png]]

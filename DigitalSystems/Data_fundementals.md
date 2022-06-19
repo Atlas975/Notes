@@ -9,7 +9,7 @@ note that null terminated langauges like c will allocate an additional byte for 
 - Data is read and written through chunks, a chunk is a 4 byte word on a 32 bit system, 
 - **Data alignment** is used to preserve FDE performance, therefore data is put at a memory offset equal to the largest datatype in a struct, using padding when necessary 
 - Note that unions will only allocate the size of its largest member
-- Example with a C struct [[C_basics]]
+- Example with a C struct [[C_language]]
 ```c
 struct student {  // struct is 16 bytes (8 byte alligned)
 	char *name;   // pointer is 8 bytes
