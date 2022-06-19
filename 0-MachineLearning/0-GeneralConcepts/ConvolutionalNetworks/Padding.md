@@ -13,4 +13,5 @@ padding of 1 example
 
 >![[Pasted image 20220424193624.png]]
 
-> padding for same convolutions = (f-1) / 2
+- padding for same convolutions = 
+$$\frac{(f-1)} {2}$$
