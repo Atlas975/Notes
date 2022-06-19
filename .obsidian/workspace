@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "InformationSystems/Innovation_practice.md",
+            "file": "DiscreteMath&Algorithms/Algorithm_fundamentals.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dark ",
+                "query": "seq",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InformationSystems/Innovation_practice.md",
+                "file": "DiscreteMath&Algorithms/Algorithm_fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +114,7 @@
   },
   "active": "ca016c6a72aab05e",
   "lastOpenFiles": [
+    "DiscreteMath&Algorithms/Algorithm_fundamentals.md",
     "InformationSystems/Innovation_practice.md",
     "InformationSystems/Intellectual_property.md",
     "InformationSystems/Liability.md",
@@ -121,7 +123,6 @@
     "DiscreteMath&Algorithms/Sets.md",
     "DiscreteMath&Algorithms/Relations.md",
     "DiscreteMath&Algorithms/Records.md",
-    "DiscreteMath&Algorithms/Propositional_logic.md",
-    "DiscreteMath&Algorithms/Predicate_logic.md"
+    "DiscreteMath&Algorithms/Propositional_logic.md"
   ]
 }
