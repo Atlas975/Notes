@@ -172,9 +172,6 @@ OR
 - Used to release unused memory
 >free()
 
-# Records
-[[C_records]]
-
 # Switch case operator
 >![[Pasted image 20211207214353.png]]
 - Note that switch is only intended to compare integers and/or single chars

@@ -70,7 +70,7 @@
 # Accessing memory
 - Memory needs to be copied from the main memory and registers
 >![[Pasted image 20211207141329.png]]
-- Data is represented by [[Volatile_memory#Big-endian]] type structure
+- Data is represented by big endian type structure
 
 ## MIPS load word instruction logic 
 >![[Pasted image 20220608140101.png]]

@@ -13,9 +13,9 @@
 - This is an example of a 3 input logic circuit.
 
 
-# Combinatorial
+# Combinatorial logic
 - Output function is purely based on it's inputs. It does not matter what inputs came before that to lead to the output that would become the current input.
-# Sequential
+# Sequential logic 
 - Output is based on its inputs and on the sequence of past inputs.
 > Truth table representation:![[Pasted image 20211110132247.png]]
 > Logic circuit representation:![[Pasted image 20211110132359.png]]

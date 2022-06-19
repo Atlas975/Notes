@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DigitalSystems/InstructionSet_architecture.md",
-            "mode": "preview",
+            "file": "DiscreteMath&Algorithms/De_Morgans_law.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -77,13 +77,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DigitalSystems/InstructionSet_architecture.md",
+                "file": "DiscreteMath&Algorithms/De_Morgans_law.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
@@ -103,6 +103,16 @@
               "type": "graph-analysis",
               "state": {}
             }
+          },
+          {
+            "id": "f9b0d2190b3ff51e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "DiscreteMath&Algorithms/De_Morgans_law.md"
+              }
+            }
           }
         ]
       }
@@ -112,15 +122,15 @@
   },
   "active": "b1c8f3a0e63f54df",
   "lastOpenFiles": [
-    "DigitalSystems/InstructionSet_architecture.md",
-    "DigitalSystems/Computer_architecture.md",
+    "DiscreteMath&Algorithms/De_Morgans_law.md",
     "DigitalSystems/DigitalSystem_design.md",
-    "DigitalSystems/Combinatorial&Sequential_Logic.md",
-    "DigitalSystems/ALU_building.md",
-    "DigitalSystems/Bitwise_arithmatic.md",
-    "DigitalSystems/Inline_assembly.md",
-    "DigitalSystems/Computer_data.md",
+    "DigitalSystems/Input_output_system.md",
     "DigitalSystems/Boolean_logic.md",
-    "DigitalSystems/Input_output_system.md"
+    "DigitalSystems/Bitwise_arithmatic.md",
+    "DigitalSystems/ALU_building.md",
+    "Economics/Macroeconomics.md",
+    "Economics/GDP.md",
+    "InformationSystems/Malware.md",
+    "InformationSystems/Network_basics.md"
   ]
 }
