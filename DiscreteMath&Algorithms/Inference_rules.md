@@ -1,3 +1,4 @@
+#DiscreteMath  [[Predicate_logic]][[Propositional_logic]]
 # Logical reasoning
 - Example:
 > ![[Pasted image 20211107161636.png]]

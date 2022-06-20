@@ -1,3 +1,5 @@
+
+#Programming [[Time_complexity]]
 # Summation for operation counting
 - Example:
 >![[Pasted image 20220210121525.png]]

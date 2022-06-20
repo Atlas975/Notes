@@ -1,3 +1,4 @@
+#Algoritms_ADTs [[Time_complexity]]
 # Hash tables
 - Same concept as dictionaries in python and SQL relational tables
 - Main purpose is to provide direct lookup of items without their value, since the location is generated based off the hashes value, the location itself acts as an array in the case multiple items are tied to the same hash.

@@ -783,7 +783,6 @@ r1--name:oranges quantity:12 r2--name:mangoes quantity:13
 
 
 # Rust methods
-[[Rust_structs]]
 - Methods encapsulate functions specifically made for a given struct 
 - Created using the following blueprint:
 

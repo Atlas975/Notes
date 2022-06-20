@@ -1,3 +1,4 @@
+#DesignTheory [[Usability]][[Abstract_data_types]]
 # Composition vs inheritance
 >![[Pasted image 20220221093807.png]]
 

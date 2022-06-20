@@ -30,14 +30,20 @@ item peek()
 - In this case the queue mains a set of queues for each priority, where the first item in each priority is kept in front
 ## Starvation problem
 - Starvation: too many elements in a higher priority means lower priority queues never get accessed
-# Arrays
->![[Pasted image 20211115123922.png|400|400]]
-- Arrays in C and Java
->![[Pasted image 20211115123959.png|400|400]]
-- Java will compile if going index out of bounds but will give an exception, C does not care.
-- Some languages such as pascal allow for incrementing from a different lower bound, eg 5-10 with 5 corresponding to whats usually index 0
->ageCounts : array [18 .. 65] of integer;
 
+# Arrays 
+## Array pros
+- A single name can be used to represent multiple data types
+- Index positions can be used to quickly access values stored at different positions, faster than sequential searching.
+## Array cons
+- Arrays are of fixed size that can't be extended.
+- Inserting and deleting from arrays is difficult 
+
+## Method of direct access to array element
+>![[Pasted image 20211213185052.png]]
+- Visual example:
+
+>![[Pasted image 20211213185148.png]]
 
 # Min and max heap 
 >![[Pasted image 20220614092249.png]]

@@ -1,4 +1,4 @@
-
+#Algoritms_ADTs
 [[Abstract_data_types]]
 # Graphs
 - Graphs are made up of nodes and edges

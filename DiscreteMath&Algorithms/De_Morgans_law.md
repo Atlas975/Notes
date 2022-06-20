@@ -1,3 +1,4 @@
+#DiscreteMath [[Boolean_logic]][[Predicate_logic]][[Propositional_logic]]
 # De Morgan's law 
 - A set of transformations used to convert the intersection / union of a set [[Sets]] into its complement
 - Multiple use cases in boolean algebra, also essential in simplifying logic circuits

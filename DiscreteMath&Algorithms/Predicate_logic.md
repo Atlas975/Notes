@@ -1,3 +1,4 @@
+#DiscreteMath [[Propositional_logic]]
 # Predicate logic 
 - An extension of [[Propositional_logic]] that accounts for parts of propositions, links and quantifier
 - Allows sentences to be decomposed into smaller parts eliminating blackbox treatment

@@ -1,4 +1,4 @@
-[[Abstract_data_types]][[Time_complexity]][[Arrays]][[Sets]]
+[[Abstract_data_types]][[Time_complexity]][[Sets]]#Algoritms_ADTs 
 # Trees
 [[Graphs]]
 - Every tree is a graph but not vise versa

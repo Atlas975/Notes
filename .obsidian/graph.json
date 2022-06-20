@@ -50,10 +50,17 @@
       }
     },
     {
-      "query": "",
+      "query": "tag:#Algoritms_ADTs",
       "color": {
         "a": 1,
         "rgb": 11285900
+      }
+    },
+    {
+      "query": "tag: #Programming",
+      "color": {
+        "a": 1,
+        "rgb": 2579089
       }
     }
   ],
@@ -67,6 +74,6 @@
   "repelStrength": 17.4336715979949,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.390121059815603,
+  "scale": 0.2179662287805418,
   "close": false
 }

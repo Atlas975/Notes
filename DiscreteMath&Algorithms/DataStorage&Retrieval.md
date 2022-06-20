@@ -1,3 +1,5 @@
+
+#OperatingSystems [[Computer_memory]]
 # Data storage and retrieval
 - Fundamental operations include placing item in store and retrieving it
 - A general pattern is that is storage is quick retrieval is slow and vice versa
