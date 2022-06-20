@@ -11,15 +11,19 @@
   "insertAfterCompletion": true,
   "firstCharactersDisableSuggestions": ":/^",
   "showMatchStrategy": true,
+  "showComplementAutomatically": true,
   "showIndexingStatus": true,
   "descriptionOnSuggestion": "Short",
   "selectSuggestionKeys": "Enter",
   "additionalCycleThroughSuggestionsKeys": "None",
+  "disableUpDownKeysForCycleThroughSuggestionsKeys": false,
   "openSourceFileKey": "None",
   "propagateEsc": false,
   "enableCurrentFileComplement": true,
+  "currentFileMinNumberOfCharacters": 0,
   "onlyComplementEnglishOnCurrentFileComplement": false,
   "enableCurrentVaultComplement": false,
+  "currentVaultMinNumberOfCharacters": 0,
   "includeCurrentVaultPathPrefixPatterns": "",
   "excludeCurrentVaultPathPrefixPatterns": "",
   "includeCurrentVaultOnlyFilesUnderCurrentDirectory": false,
@@ -266,8 +270,24 @@
     "Error_analysis": {
       "Error_analysis": {
         "internalLink": {
+          "count": 2,
+          "lastUpdated": 1655728346037
+        }
+      }
+    },
+    "irreducible": {
+      "irreducible": {
+        "currentFile": {
           "count": 1,
-          "lastUpdated": 1655710174296
+          "lastUpdated": 1655726560704
+        }
+      }
+    },
+    "F_score": {
+      "F_score": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1655727764586
         }
       }
     }

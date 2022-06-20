@@ -38,3 +38,5 @@ capital A denotes batch descent
 >![[Pasted image 20220427012739.png]]
 >(5x5x3 + 1) x 8 = 608
 >(5x5x8 + 1) x 16 = 3216
+
+

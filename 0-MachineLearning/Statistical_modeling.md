@@ -1,36 +1,43 @@
-# Reducible & irreducible errors in predictions
 
->![[Pasted image 20220225154048.png]]
->![[Pasted image 20220225154246.png]]
-E acts as a upperbound to the level of accuracy of our prediction
+#StatisticalLearning
+# Statistical modeling
+
+## Reducible & irreducible errors in predictions
+> $$y=f(x)+\epsilon$$
+> $$\epsilon \text{ is the irreducible error, acts as un upper bounds to prediction accuracy }$$
+
 - When training, we normally dont care how well the model fits the training data, whats more important is that the predicted function correctly makes predictions with unseen data.
->![[Pasted image 20220225162328.png]]
 
-# Prediction & Inference
+## Prediction and Inference
 - Prediction: for instance a company only being interested in a response to an advertisement, not caring about relationship between variables
 - Inference: for instance a company trying to find out which media is associated with sales. This is an example of modeling for inference by trying to understand relationships
-- Prediction **AND** Inference:
->![[Pasted image 20220225154942.png]]
-**p: The number of predictors in a dataset**
-**n: The number of samples in a dataset**
-# Flexibility vs iterpretability tradeoff
+
+> $$p = \text{ number of predictor in a dataset}$$
+> $$m = \text{ number of samples in a dataset}$$
+
+## Flexibility vs iterpretability tradeoff
 - Flexibility describes how complex the model can be eg a quadratic function is more flexible than a linear one. Useful for pure prediction eg stock prices
 - Iterpretability describes how easy the model is to understand, making it easier to interpret how an individual predictor effects a response. Useful for inference eg sales factors 
+
 >![[Pasted image 20220225155757.png]]
 >![[Pasted image 20220225162903.png]]
 # Bias vs variance
 >![[Pasted image 20220225163602.png]]
 >![[Pasted image 20220306175135.png]]
 
-# Parametric vs non-parametric approaches
+## Parametric vs non-parametric approaches
 - A parametric approach reduces the problem of estimating f down to one of estimating a set of parameters because it assumes a form for f
 - A non-parametric approach does not assume a patricular form of f and so requires a very large sample to accurately estimate f
-- The advantages of a parametric approach to regression or classification are the simplifying of modeling f to a few parameters and not as many observations are required compared to a non-parametric approach
-- The disadvantages of a parametric approach to regression or classification are a potentially inaccurate estimate f if the form of f assumed is wrong or to overfit the observations if more flexible models are used
+- The advantages of a parametric approach to regression or classification are the simplifying of modeling f to a few parameters and with not as many observations being required when compared to a non-parametric approach
+- The disadvantages of a parametric approach to regression or classification are a potentially inaccurate estimate of f if the form of f assumed is wrong or to overfit the observations if more flexible models are used
 ## Tradeoff with flexibility
 >![[Pasted image 20220225163911.png]]
 # Automated clustering
-- Given n variables there are **p(p-1)/2** distinct clusters that can potentially be formed. When these can't easily be seen like with the below example, a method is needed to find these clusters for us.
+- The number of distinct clusters that can be formed with p number of predictors is:
+
+>$$\frac{p(p-1)}{2}$$
+- When these can't easily be seen like with the below example, a method is needed to find these clusters automatically
+
 >![[Pasted image 20220225161220.png]]
 
 # Clustering performance 

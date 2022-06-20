@@ -17,7 +17,7 @@ $$ˆy = ˆβ0 + ˆβ1 x$$
 >![[Pasted image 20220226154716.png]]
 
 # Accuracy of estimates 
-$$Y = β0 + β1 X + ε.$$
+$$Y = \beta0 + β1 X + ε.$$
 - We typically assume the error term is independent of X as in it does not change as it increases
 - Here the blue line represents the relationship found using a subset sample of the data
 >![[Pasted image 20220226155514.png]]

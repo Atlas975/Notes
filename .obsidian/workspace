@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "88548d30813df71f",
+        "id": "f8025758386d7fa0",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "00-Attachments/Templates/template01.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -36,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "arrays",
+                "query": "mse",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "00-Attachments/Templates/template01.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +109,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "00-Attachments/Templates/template01.md"
+              }
             }
           }
         ]
@@ -113,17 +120,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "88548d30813df71f",
+  "active": "f8025758386d7fa0",
   "lastOpenFiles": [
-    "OperatingSystems/Operating_systems.md",
-    "0-Programming/0_core_concepts/Sorting_algorithms.md",
-    "DiscreteMath&Algorithms/Abstract_data_types.md",
-    "DiscreteMath&Algorithms/Algorithm_fundamentals.md",
-    "DiscreteMath&Algorithms/Big-O_notation.md",
-    "DiscreteMath&Algorithms/Trees.md",
-    "DiscreteMath&Algorithms/Time_complexity.md",
-    "DiscreteMath&Algorithms/Relations.md",
-    "DiscreteMath&Algorithms/Propositional_logic.md",
-    "DiscreteMath&Algorithms/Inference_rules.md"
+    "00-Attachments/Templates/template01.md",
+    "0-MachineLearning/Untitled.md",
+    "Untitled.md",
+    "0-MachineLearning/Model_metrics.md",
+    "0-MachineLearning/Machine_learning_notation.md",
+    "0-MachineLearning/Logistic_regression.md",
+    "0-MachineLearning/Statistical_modeling.md",
+    "0-MachineLearning/Convolutional_networks.md",
+    "0-MachineLearning/Linear_regression.md",
+    "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/Pooling.md"
   ]
 }

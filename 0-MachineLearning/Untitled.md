@@ -1,6 +1,6 @@
 
 **Date: {{date}}  Time: {{time}} **
-==Tag #==
+Tag #
 
 ---
 # {{title}}
