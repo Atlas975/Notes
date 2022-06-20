@@ -1,6 +1,6 @@
 # Support vector machines
 - Similar base to logistic regression, involves finding a plane that can divide datasets
-- [[Logistic_regression#Alternative logistic regression view]]
+- [[0-MachineLearning/0-CoursesPart1/MachineLearning/Logistic_regression#Alternative logistic regression view]]
 >![[Pasted image 20220205093334.png]]
 - C corresponds to giving B a larger weight
 ## SVM hypothesis

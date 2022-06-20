@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "b1c8f3a0e63f54df",
+        "id": "1d731c5e72a87f68",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-MachineLearning/0-GeneralConcepts/Vectorization/Vectorized_logistic_regression.md",
+            "file": "0-MachineLearning/Logistic_regression.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "activat",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-MachineLearning/0-GeneralConcepts/Vectorization/Vectorized_logistic_regression.md",
+                "file": "0-MachineLearning/Logistic_regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-MachineLearning/0-GeneralConcepts/Vectorization/Vectorized_logistic_regression.md"
+                "file": "0-MachineLearning/Logistic_regression.md"
               }
             }
           }
@@ -118,20 +118,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "b1c8f3a0e63f54df",
+  "active": "1d731c5e72a87f68",
   "lastOpenFiles": [
-    "0-MachineLearning/0-GeneralConcepts/Vectorization/Vectorized_logistic_regression.md",
-    "0-MachineLearning/0-GeneralConcepts/Vectorization/Vectorized_backpropagation.md",
-    "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/Pooling.md",
-    "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/StridedConvolutions.md",
+    "0-MachineLearning/Logistic_regression.md",
     "0-MachineLearning/0-GeneralConcepts/NeuralNetworks/Activation_functions.md",
-    "0-MachineLearning/0-GeneralConcepts/NeuralNetworks/Backpropagation_math.md",
-    "0-MachineLearning/0-GeneralConcepts/NeuralNetworks/NeuralNetwork_intuition.md",
-    "0-MachineLearning/0-GeneralConcepts/NeuralNetworks/NeuralNetwork_fitting.md",
-    "0-MachineLearning/0-GeneralConcepts/Log_odds.md",
-    "0-MachineLearning/0-GeneralConcepts/Markov_chains.md"
+    "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/CNN_architecture.md",
+    "0-Programming/0_core_concepts/OOP_principles.md",
+    "0-MachineLearning/0-CoursesPart1/MachineLearning/Overfitting.md",
+    "0-MachineLearning/0-CoursesPart1/MachineLearning/Regularized_regression.md",
+    "0-MachineLearning/0-CoursesPart1/MachineLearning/Support_vector_machines.md",
+    "0-MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
+    "0-MachineLearning/0-CoursesPart2/DeepLearningCourse/BinaryClassification.md",
+    "0-MachineLearning/0-GeneralConcepts/Vectorization/Vectorized_logistic_regression.md"
   ]
 }
