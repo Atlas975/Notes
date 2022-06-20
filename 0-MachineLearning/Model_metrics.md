@@ -1,5 +1,11 @@
 
-[[Statistical_modeling]] #StatisticalLearning 
+
+# Model_metrics
+** 20-06-2022  16:21 **    
+#StatisticalLearning [[Statistical_modeling]]                      
+
+---
+
 # Mean squared error (MSE)
 > $$\text{MSE}=\frac{1}{m}\sum_{i=1}^{m}(y-\hat{y})^2$$
 
@@ -16,7 +22,7 @@
 >$$\text{MAE}=\frac{1}{m}\sum_{1}^{m}|y-\hat{y}| $$
 
 # Classification accuracy
-- Where the prediction is qualitative, the training error rate may be used to find the number of mistakes that made, can be summarized as:
+- Where the prediction is qualitative, the training error rate may be used to find the number of made, can be summarized as:
 
 > $$\frac{1}{m}\sum_{i=1}^{m}y\neq{\hat{y}}$$
 # F-score / F-statistic

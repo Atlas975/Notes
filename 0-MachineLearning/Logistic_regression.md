@@ -1,9 +1,16 @@
-# Logistic regression 
+
+
+
+# Logistic_regression
+** 20-06-2022  16:08 **    
+#StatisticalLearning [[Statistical_modeling]]
+___
+## Sigmoid function
 The logistic curve (sigmoid):
 > $$ h(x)=\frac{1}{1+ e^{-y}}$$
 - Converts input into range 0-1
 
-## Logistic regression gradient 
+## Sigmoid gradient 
 >$$ h(x)'=\frac{1}{1+e^{ -y } }(1-\frac{1}{1+ e^{-y}})$$
 
 # Logistic loss
