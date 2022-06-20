@@ -1,3 +1,4 @@
+#DesignTheory [[Liability&Intellectual_property]]
 # System core processes
 >![[Pasted image 20220215090950.png]]
 

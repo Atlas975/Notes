@@ -43,10 +43,17 @@
       }
     },
     {
-      "query": "tag:#SocialTheor",
+      "query": "tag:#DesignTheory",
       "color": {
         "a": 1,
         "rgb": 15453067
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 11285900
       }
     }
   ],
@@ -60,6 +67,6 @@
   "repelStrength": 17.4336715979949,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.4420732131950141,
+  "scale": 0.390121059815603,
   "close": false
 }

@@ -1,3 +1,4 @@
+#DesignTheory [[Usability]]
 # Privacy importance
 >![[Pasted image 20220228230158.png|400|400]]
 - Individuals seek to control the extent someone has access, this is known as the **zone of inaccessibility**

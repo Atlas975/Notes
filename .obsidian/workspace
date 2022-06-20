@@ -4,26 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b4b7d747e19ee569",
-        "type": "leaf",
-        "state": {
-          "type": "graph",
-          "state": {}
-        },
-        "group": "3df2e864d077c114"
-      },
-      {
-        "id": "e4a0c9e4a8ad4fea",
+        "id": "595b6344087aeaee",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "InformationSystems/Liability&Intellectual_property.md",
-            "mode": "preview",
+            "file": "0-MachineLearning/Logistic_regression.md",
+            "mode": "source",
             "source": true
           }
-        },
-        "group": "3df2e864d077c114"
+        }
       }
     ],
     "direction": "vertical"
@@ -50,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "regression",
+                "query": "regularized lo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "0-MachineLearning/Logistic_regression.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +109,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "0-MachineLearning/Logistic_regression.md"
+              }
             }
           }
         ]
@@ -128,17 +121,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b4b7d747e19ee569",
+  "active": "595b6344087aeaee",
   "lastOpenFiles": [
+    "0-MachineLearning/Logistic_regression.md",
+    "0-MachineLearning/0-CoursesPart1/MachineLearning/Regularized_regression.md",
+    "InformationSystems/Innovation_practice.md",
+    "0-MachineLearning/0-GeneralConcepts/NeuralNetworks/Activation_functions.md",
+    "InformationSystems/Database_fundamental.md",
+    "InformationSystems/Information_systems.md",
+    "InformationSystems/Internet_fundamentals.md",
     "InformationSystems/Liability&Intellectual_property.md",
-    "DiscreteMath&Algorithms/Functions.md",
-    "DiscreteMath&Algorithms/Algorithm_fundamentals.md",
-    "DiscreteMath&Algorithms/Abstract_data_types.md",
-    "DigitalSystems/InstructionSet_architecture.md",
-    "DigitalSystems/DigitalSystem_design.md",
-    "0-MachineLearning/0-GeneralConcepts/DataProcessing/Boosting.md",
-    "DigitalSystems/Boolean_logic.md",
-    "DigitalSystems/Computer_memory.md",
-    "DigitalSystems/Computer_architecture.md"
+    "InformationSystems/Malware.md",
+    "InformationSystems/Network_basics.md"
   ]
 }

@@ -1,3 +1,4 @@
+#OperatingSystems [[DigitalSystem_design]]
 # Bandwidth
 - In bits per second, refers to the speed of bit transmission a medium can accommodate.
 - In hertz, refers to the range of frequencies that a medium can allow to pass.
