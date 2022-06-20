@@ -1,6 +1,10 @@
 
-#StatisticalLearning
-# Statistical modeling
+
+# Statistical_modeling
+** 20-06-2022  17:41 **    
+#StatisticalLearning           
+
+---
 
 ## Reducible & irreducible errors in predictions
 > $$y=f(x)+\epsilon$$
