@@ -1,3 +1,5 @@
+
+
 # Operating systems
 #OperatingSystems
 - A typical linux distribution would consist of 
