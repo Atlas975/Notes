@@ -16,5 +16,10 @@
   "templater-obsidian",
   "obsidian-latex",
   "quick-latex",
-  "obsidian-math-plus"
+  "obsidian-math-plus",
+  "markdown-prettifier",
+  "obsidian-tabs",
+  "obsidian-image-toolkit",
+  "oz-clear-unused-images",
+  "open-vscode"
 ]

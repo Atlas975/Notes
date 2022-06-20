@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-MachineLearning/Machine_learning_notation.md",
+            "file": "0-MachineLearning/0-CoursesPart2/DeepLearningCourse/DL_Course_notation.md",
             "mode": "preview",
             "source": true
           }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-MachineLearning/Machine_learning_notation.md",
+                "file": "0-MachineLearning/0-CoursesPart2/DeepLearningCourse/DL_Course_notation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-MachineLearning/Machine_learning_notation.md"
+                "file": "0-MachineLearning/0-CoursesPart2/DeepLearningCourse/DL_Course_notation.md"
               }
             }
           }
@@ -123,6 +123,8 @@
   },
   "active": "18769d79aa122fee",
   "lastOpenFiles": [
+    "0-MachineLearning/0-CoursesPart2/DeepLearningCourse/DL_Course_notation.md",
+    "0-MachineLearning/0-CoursesPart2/DeepLearningCourse/Dropout_regularization.md",
     "0-MachineLearning/Machine_learning_notation.md",
     "0-MachineLearning/0-CoursesPart2/StatisticalLearning_book/TreeBased_modeling.md",
     "00-Attachments/Templates/generic.md",
@@ -130,8 +132,6 @@
     "0-MachineLearning/Model_metrics.md",
     "0-MachineLearning/Logistic_regression.md",
     "0-MachineLearning/Convolutional_networks.md",
-    "0-MachineLearning/0-GeneralConcepts/Bayes_theorem.md",
-    "0-MachineLearning/Linear_regression.md",
-    "0-MachineLearning/0-CoursesPart2/StatisticalLearning_book/Linear_regression.md"
+    "0-MachineLearning/0-GeneralConcepts/Bayes_theorem.md"
   ]
 }
