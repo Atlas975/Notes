@@ -4,30 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b6115f3f1407000a",
+        "id": "3fdb1f6b92f9e972",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-MachineLearning/Statistical_modeling.md",
+            "file": "0-MachineLearning/Machine_learning_notation.md",
             "mode": "preview",
             "source": true
           }
-        },
-        "group": "93c92ff16ebdfef1"
-      },
-      {
-        "id": "14b35ad73685dfd7",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "0-MachineLearning/Statistical_modeling.md",
-            "mode": "preview",
-            "source": true
-          }
-        },
-        "group": "93c92ff16ebdfef1"
+        }
       }
     ],
     "direction": "vertical"
@@ -77,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-MachineLearning/Statistical_modeling.md",
+                "file": "0-MachineLearning/Machine_learning_notation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-MachineLearning/Statistical_modeling.md"
+                "file": "0-MachineLearning/Machine_learning_notation.md"
               }
             }
           }
@@ -136,16 +122,16 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b6115f3f1407000a",
+  "active": "3fdb1f6b92f9e972",
   "lastOpenFiles": [
-    "0-MachineLearning/Statistical_modeling.md",
-    "0-MachineLearning/Model_metrics.md",
-    "0-MachineLearning/0-GeneralConcepts/Bayes_theorem.md",
     "0-MachineLearning/Machine_learning_notation.md",
     "0-MachineLearning/Logistic_regression.md",
+    "0-MachineLearning/Convolutional_networks.md",
+    "0-MachineLearning/Model_metrics.md",
+    "0-MachineLearning/Statistical_modeling.md",
+    "0-MachineLearning/0-GeneralConcepts/Bayes_theorem.md",
     "0-MachineLearning/Linear_regression.md",
     "0-MachineLearning/0-CoursesPart2/StatisticalLearning_book/Linear_regression.md",
-    "0-MachineLearning/Convolutional_networks.md",
     "0-MachineLearning/Oper.md",
     "DiscreteMath&Algorithms/Algorithm_fundamentals.md"
   ]
