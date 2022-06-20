@@ -21,5 +21,7 @@
   "obsidian-tabs",
   "obsidian-image-toolkit",
   "oz-clear-unused-images",
-  "open-vscode"
+  "open-vscode",
+  "obsidian-functionplot",
+  "cycle-through-panes"
 ]
