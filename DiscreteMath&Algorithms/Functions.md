@@ -1,4 +1,4 @@
-
+[[General_math]]
 #DiscreteMath 
 # Function Properties
 - The input is the domain of the function (all input elements)

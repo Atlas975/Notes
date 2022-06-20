@@ -115,15 +115,15 @@
   },
   "active": "88548d30813df71f",
   "lastOpenFiles": [
-    "DiscreteMath&Algorithms/Hashing.md",
-    "0-Programming/0_core_concepts/OOP_principles.md",
+    "OperatingSystems/Operating_systems.md",
     "0-Programming/0_core_concepts/Sorting_algorithms.md",
-    "0-Programming/0_core_concepts/Search_algorithms.md",
-    "0-MachineLearning/0-GeneralConcepts/DefiningAGroup.md",
-    "0-Programming/Rust/Rust_language.md",
-    "Rust_structs.md",
-    "DiscreteMath&Algorithms/Trees.md",
+    "DiscreteMath&Algorithms/Abstract_data_types.md",
     "DiscreteMath&Algorithms/Algorithm_fundamentals.md",
-    "DiscreteMath&Algorithms/Abstract_data_types.md"
+    "DiscreteMath&Algorithms/Big-O_notation.md",
+    "DiscreteMath&Algorithms/Trees.md",
+    "DiscreteMath&Algorithms/Time_complexity.md",
+    "DiscreteMath&Algorithms/Relations.md",
+    "DiscreteMath&Algorithms/Propositional_logic.md",
+    "DiscreteMath&Algorithms/Inference_rules.md"
   ]
 }
