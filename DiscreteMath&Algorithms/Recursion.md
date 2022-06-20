@@ -1,3 +1,5 @@
+[[Time_complexity]][[Computer_memory]]
+
 # Recursion
 - A method calling itself
 - Recursion order manipulation:

@@ -1,3 +1,4 @@
+#OperatingSystems [[Computer_memory]][[Operating_systems]]
 # Computer architecture 
 - Describes the aspects of hardware required for a computer system to operate.
 # Von Neumman architecture 

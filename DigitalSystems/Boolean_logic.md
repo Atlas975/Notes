@@ -1,3 +1,4 @@
+#DiscreteMath  [[Bitwise_arithmatic]][[Predicate_logic]]
 # Fundamental logic operators
 - AND, OR, NOT, XOR
 - Boolean logic is critical even at the lowest level of computer hardware,

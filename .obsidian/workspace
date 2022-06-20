@@ -4,16 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "1d731c5e72a87f68",
+        "id": "b4b7d747e19ee569",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        },
+        "group": "3df2e864d077c114"
+      },
+      {
+        "id": "e4a0c9e4a8ad4fea",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-MachineLearning/Logistic_regression.md",
+            "file": "InformationSystems/Liability&Intellectual_property.md",
             "mode": "preview",
             "source": true
           }
-        }
+        },
+        "group": "3df2e864d077c114"
       }
     ],
     "direction": "vertical"
@@ -40,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "activat",
+                "query": "regression",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,8 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-MachineLearning/Logistic_regression.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -109,28 +118,27 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "0-MachineLearning/Logistic_regression.md"
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "1d731c5e72a87f68",
+  "active": "b4b7d747e19ee569",
   "lastOpenFiles": [
-    "0-MachineLearning/Logistic_regression.md",
-    "0-MachineLearning/0-GeneralConcepts/NeuralNetworks/Activation_functions.md",
-    "0-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/CNN_architecture.md",
-    "0-Programming/0_core_concepts/OOP_principles.md",
-    "0-MachineLearning/0-CoursesPart1/MachineLearning/Overfitting.md",
-    "0-MachineLearning/0-CoursesPart1/MachineLearning/Regularized_regression.md",
-    "0-MachineLearning/0-CoursesPart1/MachineLearning/Support_vector_machines.md",
-    "0-MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
-    "0-MachineLearning/0-CoursesPart2/DeepLearningCourse/BinaryClassification.md",
-    "0-MachineLearning/0-GeneralConcepts/Vectorization/Vectorized_logistic_regression.md"
+    "InformationSystems/Liability&Intellectual_property.md",
+    "DiscreteMath&Algorithms/Functions.md",
+    "DiscreteMath&Algorithms/Algorithm_fundamentals.md",
+    "DiscreteMath&Algorithms/Abstract_data_types.md",
+    "DigitalSystems/InstructionSet_architecture.md",
+    "DigitalSystems/DigitalSystem_design.md",
+    "0-MachineLearning/0-GeneralConcepts/DataProcessing/Boosting.md",
+    "DigitalSystems/Boolean_logic.md",
+    "DigitalSystems/Computer_memory.md",
+    "DigitalSystems/Computer_architecture.md"
   ]
 }

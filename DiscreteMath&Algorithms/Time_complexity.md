@@ -1,3 +1,4 @@
+[[Algorithm_fundamentals]]
 # Time complexity 
 ## Sort algorithm time complexity
 > ![[Pasted image 20220612171916.png]]

@@ -1,3 +1,4 @@
+#OperatingSystems [[Input_output_system]][[InstructionSet_architecture]]
 # Multiplexer
 - A device that allows in several inputs and gives one output.
 >![[Pasted image 20211103110900.png]]

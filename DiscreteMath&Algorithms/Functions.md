@@ -1,3 +1,5 @@
+
+#DiscreteMath 
 # Function Properties
 - The input is the domain of the function (all input elements)
 - The outputs are the co-domain of the function (all possible output elements)

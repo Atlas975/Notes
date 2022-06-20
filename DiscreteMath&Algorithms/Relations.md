@@ -1,3 +1,4 @@
+#DiscreteMath [[Sets]]
 # Binary relations
 > ![[Pasted image 20211028214149.png]]
 - Relations are a subset of Cartesian products

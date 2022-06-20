@@ -1,3 +1,4 @@
+#OperatingSystems [[Computer_memory]]
 # Simplicity need
 - Computers need to be as simple as possible for scalability and cost
 - Hardware is focused on working with small positive whole numbers

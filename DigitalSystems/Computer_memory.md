@@ -1,4 +1,4 @@
-
+#OperatingSystems [[Bitwise_arithmatic]][[DigitalSystem_design]]
 
 # Memory structure
 > ![[Pasted image 20211116110439.png]]

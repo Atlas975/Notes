@@ -1,5 +1,6 @@
-# Big-O
 
+[[Time_complexity]]
+# Big-O
 - Function growth is usually described using big O
 >![[Pasted image 20220201150632.png]]
 - Main principle involves determining the upper boundary of run time 

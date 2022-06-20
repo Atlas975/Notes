@@ -25,7 +25,7 @@
       "query": "tag:#DiscreteMath",
       "color": {
         "a": 1,
-        "rgb": 12542314
+        "rgb": 9924833
       }
     },
     {
@@ -33,6 +33,20 @@
       "color": {
         "a": 1,
         "rgb": 10731148
+      }
+    },
+    {
+      "query": "tag:#StatisticalLearning",
+      "color": {
+        "a": 1,
+        "rgb": 9419963
+      }
+    },
+    {
+      "query": "tag:#SocialTheor",
+      "color": {
+        "a": 1,
+        "rgb": 15453067
       }
     }
   ],
@@ -46,6 +60,6 @@
   "repelStrength": 17.4336715979949,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.5501867266766521,
+  "scale": 0.4420732131950141,
   "close": false
 }
