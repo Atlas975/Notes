@@ -9,19 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-MachineLearning/0-CoursesPart1/MachineLearning/Regularized_regression.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "5bdc884a2a1d2e9d",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "0-MachineLearning/Logistic_regression.md",
+            "file": "00-Core/Dataview/NoteTable.md",
             "mode": "preview",
             "source": true
           }
@@ -89,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-MachineLearning/Logistic_regression.md",
+                "file": "00-Core/Dataview/NoteTable.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-MachineLearning/Logistic_regression.md"
+                "file": "00-Core/Dataview/NoteTable.md"
               }
             }
           }
@@ -133,17 +121,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5bdc884a2a1d2e9d",
+  "active": "88548d30813df71f",
   "lastOpenFiles": [
+    "00-Core/Dataview/NoteTable.md",
     "0-MachineLearning/Logistic_regression.md",
     "0-MachineLearning/Measuring_fit_quality.md",
     "0-MachineLearning/Machine_learning_notation.md",
-    "DigitalSystems/Computer_memory.md",
     "0-MachineLearning/0-CoursesPart1/MachineLearning/Regularized_regression.md",
-    "InformationSystems/Innovation_practice.md",
-    "0-MachineLearning/0-GeneralConcepts/NeuralNetworks/Activation_functions.md",
-    "InformationSystems/Database_fundamental.md",
-    "InformationSystems/Information_systems.md",
-    "InformationSystems/Internet_fundamentals.md"
+    "0-MachineLearning/0-CoursesPart1/MachineLearning/Overfitting.md",
+    "0-MachineLearning/0-CoursesPart1/DataAnalytics/DA_foundations.md",
+    "0-MachineLearning/0-CoursesPart1/MachineLearning/K-Means_algorithm.md",
+    "0-MachineLearning/0-CoursesPart1/DataAnalytics/Excel.md",
+    "DiscreteMath&Algorithms/AverageCase&TimeGrowth.md"
   ]
 }

@@ -37005,7 +37005,7 @@ var Outputter = class {
     this.stdoutText += text2;
     if (!this.stderrText && !this.stdoutText)
       return;
-    this.stdoutElem.setText(this.stdoutText);
+    this.stdoutElem.innerHTML = this.stdoutText;
     this.outputElement.style.display = "block";
     this.clearButton.style.display = "block";
   }
@@ -37061,6 +37061,7 @@ var SettingsTab = class extends import_obsidian.PluginSettingTab {
     const { containerEl } = this;
     containerEl.empty();
     containerEl.createEl("h2", { text: "Settings for the Code Execution Plugin." });
+    containerEl.createEl("h3", { text: "Timout Settings" });
     new import_obsidian.Setting(containerEl).setName("Timeout (in seconds)").setDesc("The time after which a program gets shut down automatically. This is to prevent infinite loops. ").addText((text2) => text2.setValue("" + this.plugin.settings.timeout / 1e3).onChange((value) => __async(this, null, function* () {
       if (Number(value) * 1e3) {
         console.log("Timeout set to: " + value);
@@ -37068,6 +37069,7 @@ var SettingsTab = class extends import_obsidian.PluginSettingTab {
       }
       yield this.plugin.saveSettings();
     })));
+    containerEl.createEl("h3", { text: "JavaScript / Node Settings" });
     new import_obsidian.Setting(containerEl).setName("Node path").addText((text2) => text2.setValue(this.plugin.settings.nodePath).onChange((value) => __async(this, null, function* () {
       this.plugin.settings.nodePath = value;
       console.log("Node path set to: " + value);
@@ -37078,6 +37080,7 @@ var SettingsTab = class extends import_obsidian.PluginSettingTab {
       console.log("Node args set to: " + value);
       yield this.plugin.saveSettings();
     })));
+    containerEl.createEl("h3", { text: "Python Settings" });
     new import_obsidian.Setting(containerEl).setName("Python path").setDesc("The path to your Python installation.").addText((text2) => text2.setValue(this.plugin.settings.pythonPath).onChange((value) => __async(this, null, function* () {
       this.plugin.settings.pythonPath = value;
       console.log("Python path set to: " + value);
@@ -37088,6 +37091,12 @@ var SettingsTab = class extends import_obsidian.PluginSettingTab {
       console.log("Python args set to: " + value);
       yield this.plugin.saveSettings();
     })));
+    new import_obsidian.Setting(containerEl).setName("Embed Python Plots").addToggle((toggle) => toggle.setValue(this.plugin.settings.pythonEmbedPlots).onChange((value) => __async(this, null, function* () {
+      this.plugin.settings.pythonEmbedPlots = value;
+      console.log(value ? "Embedding Plots into Notes." : "Not embedding Plots into Notes.");
+      yield this.plugin.saveSettings();
+    })));
+    containerEl.createEl("h3", { text: "Shell Settings" });
     new import_obsidian.Setting(containerEl).setName("Shell path").setDesc("The path to shell. Default is Bash but you can use any shell you want, e.g. bash, zsh, fish, ...").addText((text2) => text2.setValue(this.plugin.settings.shellPath).onChange((value) => __async(this, null, function* () {
       this.plugin.settings.shellPath = value;
       console.log("Shell path set to: " + value);
@@ -37103,6 +37112,7 @@ var SettingsTab = class extends import_obsidian.PluginSettingTab {
       console.log("Shell file extension set to: " + value);
       yield this.plugin.saveSettings();
     })));
+    containerEl.createEl("h3", { text: "Prolog Settings" });
     new import_obsidian.Setting(containerEl).setName("Prolog Answer Limit").setDesc("Maximal number of answers to be returned by the Prolog engine. This is to prevent creating too huge texts in the notebook.").addText((text2) => text2.setValue("" + this.plugin.settings.maxPrologAnswers).onChange((value) => __async(this, null, function* () {
       if (Number(value) * 1e3) {
         console.log("Answer limit set to: " + value);
@@ -37127,6 +37137,7 @@ var DEFAULT_SETTINGS = {
   nodeArgs: "",
   pythonPath: "python",
   pythonArgs: "",
+  pythonEmbedPlots: true,
   shellPath: "bash",
   shellArgs: "",
   shellFileExtension: "sh",
@@ -37140,6 +37151,12 @@ var ExecuteCodePlugin = class extends import_obsidian2.Plugin {
       this.addRunButtons(document.body);
       this.registerMarkdownPostProcessor((element, _context) => {
         this.addRunButtons(element);
+      });
+      supportedLanguages.forEach((l) => {
+        console.log(`registering renderer for ${l}`);
+        this.registerMarkdownCodeBlockProcessor(`run-${l}`, (src, el, _ctx) => __async(this, null, function* () {
+          yield import_obsidian2.MarkdownRenderer.renderMarkdown("```" + l + "\n" + src + "\n```", el, "", null);
+        }));
       });
     });
   }
@@ -37161,7 +37178,13 @@ var ExecuteCodePlugin = class extends import_obsidian2.Plugin {
         } else if (language.contains("language-python")) {
           button.addEventListener("click", () => {
             button.className = runButtonDisabledClass;
-            this.runCode(codeBlock.getText(), out, button, this.settings.pythonPath, this.settings.pythonArgs, "py");
+            let codeText = codeBlock.getText();
+            if (this.settings.pythonEmbedPlots) {
+              const showPlot = `import io; __obsidian_execute_code_temp_pyplot_var__=io.StringIO(); plt.plot(); plt.savefig(__obsidian_execute_code_temp_pyplot_var__, format='svg'); plt.close(); print(f"<div align=\\"center\\">{__obsidian_execute_code_temp_pyplot_var__.getvalue()}</div>");`;
+              codeText = codeText.replace(/plt\.show\(\);/g, showPlot);
+              codeText = codeText.replace(/plt\.show\(\)/g, showPlot + ";");
+            }
+            this.runCode(codeText, out, button, this.settings.pythonPath, this.settings.pythonArgs, "py");
           });
         } else if (language.contains("language-shell") || language.contains("language-bash")) {
           button.addEventListener("click", () => {
@@ -37226,22 +37249,6 @@ var ExecuteCodePlugin = class extends import_obsidian2.Plugin {
   }
   getTempFile(ext) {
     return `${os.tmpdir()}/temp_${Date.now()}.${ext}`;
-  }
-  runJavaScript(codeBlockContent, outputter, button) {
-    new import_obsidian2.Notice("Running...");
-    const tempFileName = this.getTempFile("js");
-    console.log(`${tempFileName}`);
-    fs.promises.writeFile(tempFileName, codeBlockContent).then(() => {
-      console.log(`Execute ${this.settings.nodePath} ${tempFileName}`);
-      const args = this.settings.nodeArgs ? this.settings.nodeArgs.split(" ") : [];
-      args.push(tempFileName);
-      console.log(this.settings.nodePath);
-      console.log(args);
-      const child = child_process.spawn(this.settings.nodePath, args);
-      this.handleChildOutput(child, outputter, button, tempFileName);
-    }).catch((err) => {
-      console.log("Error in 'Obsidian Execute Code' Plugin while executing: " + err);
-    });
   }
   runCode(codeBlockContent, outputter, button, cmd, cmdArgs, ext) {
     new import_obsidian2.Notice("Running...");

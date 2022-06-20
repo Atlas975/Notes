@@ -2,7 +2,7 @@
 # Machine learning notation
 
 $$y=\text{actual result}$$
-$$y'=\text{predicted outcome}$$
+$$\hat{y}=\text{predicted outcome}$$
 $$m = \text{number of observations}$$
 
 
