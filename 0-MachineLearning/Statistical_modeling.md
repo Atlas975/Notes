@@ -1,6 +1,6 @@
 # Statistical_modeling
 
-** 20-06-2022  17:41 **\
+** 20-06-2022  17:41 **
 #StatisticalLearning
 
 ---
@@ -17,7 +17,7 @@
 - Prediction: for instance a company only being interested in a response to an advertisement, not caring about relationship between variables
 - Inference: for instance a company trying to find out which media is associated with sales. This is an example of modeling for inference by trying to understand relationships
 
-> $p = \text{ number of predictor in a dataset}$
+> $p = \text{ number of predictors in a dataset}$
 > $m = \text{ number of samples in a dataset}$
 
 ## Flexibility vs iterpretability tradeoff
