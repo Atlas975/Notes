@@ -4,26 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4baec8b80c77df94",
-        "type": "leaf",
-        "state": {
-          "type": "graph",
-          "state": {}
-        },
-        "group": "b6339d652d0a8695"
-      },
-      {
         "id": "f6a0cf41e17335db",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-MachineLearning/Convolutional_networks.md",
-            "mode": "preview",
+            "file": "0-MachineLearning/Neural_.md",
+            "mode": "source",
             "source": true
           }
-        },
-        "group": "b6339d652d0a8695"
+        }
       }
     ],
     "direction": "vertical"
@@ -73,6 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "0-MachineLearning/Neural_.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +109,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "0-MachineLearning/Neural_.md"
+              }
             }
           }
         ]
@@ -128,8 +121,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4baec8b80c77df94",
+  "active": "f6a0cf41e17335db",
   "lastOpenFiles": [
+    "0-MachineLearning/Neural_.md",
     "0-MachineLearning/Convolutional_networks.md",
     "0-MachineLearning/Machine_learning_notation.md",
     "0-MachineLearning/Gradient_descent.md",
@@ -138,7 +132,6 @@
     "0-MachineLearning/Statistical_modeling.md",
     "0-MachineLearning/Model_metrics.md",
     "0-MachineLearning/Logistic_regression.md",
-    "0-MachineLearning/Linear_regression.md",
-    "0-MachineLearning/0-CoursesPart1/MachineLearning/Stochastic_gradient_descent.md"
+    "0-MachineLearning/Linear_regression.md"
   ]
 }
