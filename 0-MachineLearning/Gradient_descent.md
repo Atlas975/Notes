@@ -6,9 +6,10 @@ created: 2022-06-21 09:30
 
 - Generalized formula for gradient descent
 
-> $$J(\theta)=\frac{1}{m}\sum_{i=1}^{m} \mathcal{L} ({y,\hat{y}})$$
+> $J(\theta)=\frac{1}{m}\sum_{i=1}^{m} \mathcal{L} ({y,\hat{y}})$
 
 > ![[Pasted image 20220621092922.png]]
+> ![[Pasted image 20220621204846.png]]
 
 faster iteration = less precision
 # Mini-batch gradient descent
