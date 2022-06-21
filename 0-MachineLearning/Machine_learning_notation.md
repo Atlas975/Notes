@@ -6,8 +6,9 @@
 ---
 
 > $y=\text{actual result}$
-> $\hat{y}=\text{predicted outcome}$
+> $\hat{y}=\text{prediction}$
 > $m = \text{number of observations}$
+> $\theta=\text{parameter placeholder}$
 > $J(\theta)=\text{cost function}$
 > $\alpha=\text{learning rate}$
 

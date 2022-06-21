@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "b89c56ccee7d32e2",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "0-MachineLearning/0-GeneralConcepts/GradientDescent/RMS_prop.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
         "id": "44618bbf4951b1d0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-MachineLearning/Gradient_descent.md",
+            "file": "0-MachineLearning/Neural_networks.md",
             "mode": "preview",
             "source": true
           }
@@ -52,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "adam",
+                "query": "neural networks",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-MachineLearning/Gradient_descent.md",
+                "file": "0-MachineLearning/Neural_networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-MachineLearning/Gradient_descent.md"
+                "file": "0-MachineLearning/Neural_networks.md"
               }
             }
           }
@@ -135,15 +123,15 @@
   },
   "active": "44618bbf4951b1d0",
   "lastOpenFiles": [
-    "0-MachineLearning/Gradient_descent.md",
-    "0-MachineLearning/Convolutional_networks.md",
-    "0-MachineLearning/Machine_learning_notation.md",
-    "0-MachineLearning/Model_metrics.md",
     "0-MachineLearning/Neural_networks.md",
-    "0-MachineLearning/Statistical_modeling.md",
-    "0-MachineLearning/Linear_regression.md",
-    "0-MachineLearning/Logistic_regression.md",
-    "0-MachineLearning/0-GeneralConcepts/GradientDescent/Adams_algorithm.md",
-    "0-MachineLearning/0-GeneralConcepts/GradientDescent/Gradient_descent_momentum.md"
+    "0-MachineLearning/0-GeneralConcepts/TimeSeriesAnalysis/Exponentially_weighted_averages.md",
+    "0-MachineLearning/0-GeneralConcepts/DataProcessing/Batch_normalization.md",
+    "0-MachineLearning/0-GeneralConcepts/GradientDescent/Local_optima_neural_networks.md",
+    "0-MachineLearning/0-CoursesPart1/MachineLearning/Debugging_ML_algorithms.md",
+    "0-MachineLearning/Convolutional_networks.md",
+    "0-MachineLearning/0-GeneralConcepts/NeuralNetworks/Neural_Network_notation.md",
+    "0-MachineLearning/0-CoursesPart1/MathForML_course/Calculus/Neural_networks.md",
+    "0-MachineLearning/0-GeneralConcepts/Vectorization/Vectorized_backpropagation.md",
+    "0-MachineLearning/0-CoursesPart1/MachineLearning/Neural_networks.md"
   ]
 }
