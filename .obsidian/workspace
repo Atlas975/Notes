@@ -124,14 +124,14 @@
   "active": "44618bbf4951b1d0",
   "lastOpenFiles": [
     "0-MachineLearning/Neural_networks.md",
-    "0-MachineLearning/0-GeneralConcepts/TimeSeriesAnalysis/Exponentially_weighted_averages.md",
-    "0-MachineLearning/0-GeneralConcepts/DataProcessing/Batch_normalization.md",
-    "0-MachineLearning/0-GeneralConcepts/GradientDescent/Local_optima_neural_networks.md",
-    "0-MachineLearning/0-CoursesPart1/MachineLearning/Debugging_ML_algorithms.md",
-    "0-MachineLearning/Convolutional_networks.md",
-    "0-MachineLearning/0-GeneralConcepts/NeuralNetworks/Neural_Network_notation.md",
-    "0-MachineLearning/0-CoursesPart1/MathForML_course/Calculus/Neural_networks.md",
-    "0-MachineLearning/0-GeneralConcepts/Vectorization/Vectorized_backpropagation.md",
-    "0-MachineLearning/0-CoursesPart1/MachineLearning/Neural_networks.md"
+    "0-MachineLearning/Regularization.md",
+    "0-MachineLearning/Statistical_modeling.md",
+    "0-MachineLearning/Model_metrics.md",
+    "0-MachineLearning/Machine_learning_notation.md",
+    "0-MachineLearning/Gradient_descent.md",
+    "0-MachineLearning/Linear_regression.md",
+    "0-MachineLearning/Logistic_regression.md",
+    "0-MachineLearning/0-CoursesPart2/DeepLearningCourse/Dropout_regularization.md",
+    "0-MachineLearning/0-CoursesPart2/DeepLearningCourse/BinaryClassification.md"
   ]
 }
