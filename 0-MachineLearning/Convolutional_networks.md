@@ -22,3 +22,6 @@ created: 2022-06-21 15:00
 - Example of average and max pooling:
 
 >![[Pasted image 20220621153651.png]]
+
+
+$$dA \mathrel{+}= \sum _{h=0} ^{n_H} \sum_{w=0} ^{n_W} W_c \times dZ_{hw} \tag{1}$$
