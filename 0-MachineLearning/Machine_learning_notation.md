@@ -31,3 +31,8 @@
 > $w^{[l]}=(n^{[l]},n^{[l-1]})$
 > $b^{[l]}=(n^{[l]},1)$
 > $\text{where n denotes network shape}$
+
+## Convolutional network notation 
+> $n=\text{image dimensions}$
+> $f=\text{filter(kernal) dimensions}$
+> $p=\text{padding dimensions}$

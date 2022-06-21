@@ -1,0 +1,66 @@
+# Computer_vision
+
+created: 2022-06-21 10:01
+#MediaEncoding
+
+---
+
+- In image processing, a convolution is the process of transforming an image by applying a kernel to each pixel. A kernal in this context being a matrix of values whose size and values determine the transformation effect of the convolution process
+- A kernal is vital in compressing an image into an easier and less computationally expensive version of itself to operate on
+- Convolution Operation on a 7x7 matrix with a 3x3 kernel:
+
+> ![[Pasted image 20220621135608.png]]
+
+## Padding
+
+[[Machine_learning_notation#Machine_learning_notation#Convolutional network notation]]
+
+- Padding prevents information from the images edges from being lost, example of padding=1
+
+> ![[Pasted image 20220621141454.png]]
+
+- The padding required to have the input size equal output size (also known as a same convolution) can be found using:
+
+> $p=\frac{f-1}{n}$
+
+- Convolutions without padding are known as valid convolutions
+
+## Edge detection
+
+- Edges in images are typically represented by a transition from darker to lighter pixels, multiple filters such as the one below for vertical detection can be used to find specific edge types
+- Being able to detect lower level features like edges is the first step in training a CNN
+
+> ![[Pasted image 20220621135948.png]]
+
+note this filter can only detect light to dark transitions from left to right
+
+- Alternative edge detection approaches
+
+> ![[Pasted image 20220621140351.png]]
+
+## Strided convolutions
+
+- Describes the jump size after each convolution, larger strides further compress an image, strides that fall out of bounds are skipped to where the number of strides in any given dimension is equal to the floor of n/f
+
+> ![[Pasted image 20220621142807.png]]
+
+## Kernal output dimensions:
+
+- Valid convolution (no padding):
+
+> $$[n-f+1,n-f+1]$$
+
+- With padding
+
+> $$[n+2p-f+1,n+2p-f+1]$$
+
+- With strides larger than 1
+
+> $$\text{floor}(\left[ \frac{n+2p-f}{s}+1,\frac{n+2p-f}{s}+1 \right])$$
+
+
+# Convolutions over volume
+- Needed over RGB images (3 layers correspond to 3 channels for an image)
+- Filter and image channels must match 
+
+>![[Pasted image 20220621143813.png]]
