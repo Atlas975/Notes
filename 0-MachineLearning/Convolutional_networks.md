@@ -18,6 +18,7 @@ created: 2022-06-21 15:00
 
 # Pooling layers
 - Pooling layers offer another kind of image processing, operates the same way as a convolution but with a different output but with no filter values. These are a useful layer for collapsing a network
+- **Pooling layers keep the depth dimension of a volume**
 - Example of average and max pooling:
 
 >![[Pasted image 20220621153651.png]]

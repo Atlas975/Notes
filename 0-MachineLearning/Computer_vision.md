@@ -21,7 +21,7 @@ created: 2022-06-21 10:01
 
 - The padding required to have the input size equal output size (also known as a same convolution) can be found using:
 
-> $p=\frac{f-1}{n}$
+> $$p=\frac{f-1}{2}$$
 
 - Convolutions without padding are known as valid convolutions
 
