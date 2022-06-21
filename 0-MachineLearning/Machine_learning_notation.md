@@ -36,3 +36,4 @@
 > $n=\text{image dimensions}$
 > $f=\text{filter(kernal) dimensions}$
 > $p=\text{padding dimensions}$
+> $nc=\text{numbef of channels}$

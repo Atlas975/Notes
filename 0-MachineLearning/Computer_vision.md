@@ -32,7 +32,7 @@ created: 2022-06-21 10:01
 
 > ![[Pasted image 20220621135948.png]]
 
-note this filter can only detect light to dark transitions from left to right
+- note this filter can only detect light to dark transitions from left to right
 
 - Alternative edge detection approaches
 
@@ -54,13 +54,19 @@ note this filter can only detect light to dark transitions from left to right
 
 > $$[n+2p-f+1,n+2p-f+1]$$
 
-- With strides larger than 1
+- With increased stride size
 
 > $$\text{floor}(\left[ \frac{n+2p-f}{s}+1,\frac{n+2p-f}{s}+1 \right])$$
 
+- With multiple channels 
+
+> $$\text{floor}(\left[ \frac{n+2p-f}{s}+1,\frac{n+2p-f}{s}+1 \right])\times{nc}$$
+> $$\text{note that nc is the same as the number of filters}$$
 
 # Convolutions over volume
 - Needed over RGB images (3 layers correspond to 3 channels for an image)
-- Filter and image channels must match 
+- Filter and image channels must match, channels act as a 3rd dimension
+- Note that each filter compresses the image to one channel each
+- The number of filters denote the number  of output channels 
 
->![[Pasted image 20220621143813.png]]
+>![[Pasted image 20220621145255.png]]

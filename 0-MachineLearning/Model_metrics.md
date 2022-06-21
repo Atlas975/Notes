@@ -24,7 +24,7 @@
 # Classification accuracy
 - Where the prediction is qualitative, the training error rate may be used to find the number of made, can be summarized as:
 
-> $$\frac{1}{m}\sum_{i=1}^{m}y\neq{\hat{y}}$$
+> $$\text{Accuracy}=\frac{1}{m}\sum_{i=1}^{m}y\neq{\hat{y}}$$
 # F-score / F-statistic
 
 > $$\text{Precision}=\frac{\text{True positives}}{\text{True Positives}+\color{cyan}{\text{False positives}}}$$
