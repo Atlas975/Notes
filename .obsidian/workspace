@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-MachineLearning/Statistical_modeling.md",
+            "file": "0-MachineLearning/Machine_learning_notation.md",
             "mode": "preview",
             "source": true
           }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-MachineLearning/Statistical_modeling.md",
+                "file": "0-MachineLearning/Machine_learning_notation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-MachineLearning/Statistical_modeling.md"
+                "file": "0-MachineLearning/Machine_learning_notation.md"
               }
             }
           }
@@ -123,10 +123,10 @@
   },
   "active": "b1cd1db66f8aaa0d",
   "lastOpenFiles": [
+    "0-MachineLearning/Machine_learning_notation.md",
     "0-MachineLearning/Statistical_modeling.md",
     "0-Programming/SQL_language.md",
     "0-MachineLearning/0-GeneralConcepts/TimeSeriesAnalysis/Exponentially_weighted_averages.md",
-    "0-MachineLearning/Machine_learning_notation.md",
     "0-Programming/0_Scraping/Regular_expressions.md",
     "Untitled.md",
     "0-MachineLearning/0-CoursesPart1/MachineLearning/AI_BiasTypes.md",
