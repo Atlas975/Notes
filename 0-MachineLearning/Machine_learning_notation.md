@@ -8,6 +8,8 @@
 > $y=\text{actual result}$
 > $\hat{y}=\text{predicted outcome}$
 > $m = \text{number of observations}$
+> $J(\theta)=\text{cost function}$
+> $\alpha=\text{learning rate}$
 
 ## Neural network notation
 
@@ -21,9 +23,9 @@
 
 > $$a_{j}^{[i][t][k]}$$
 > $\text{Superscript i indicates layer, subscript j indicates neuron in layer vector }$
-> $\text{in batch descent t denotes batch number and k denotes example}$
+> $\text{parameters t to denote batch number and k to denotes example may also be present}$
 ### Parameter dimensions
 > $a^{[l]}=(n^{[l]},m)$
 > $w^{[l]}=(n^{[l]},n^{[l-1]})$
 > $b^{[l]}=(n^{[l]},1)$
-> $\text{where n represents the number of layers}$
+> $\text{where n denotes network shape}$

@@ -1,10 +1,16 @@
-# Gradient descent 
 
 
+# Gradient_descent
+created: 2022-06-21 09:30
+#StatisticalLearning 
 
 
+---
 
-# Mini-batch gradient descent 
 
+> ![[Pasted image 20220621092922.png]]
+faster iteration = less precision
 
-# Stochastic gradient descent 
+# Mini-batch gradient descent
+
+# Stochastic gradient descent
