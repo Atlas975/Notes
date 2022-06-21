@@ -7,5 +7,5 @@
   "updateHeader": true,
   "updateHeaderTemplate": "\ndate updated: \"{{date:YYYY-MM-DD HH:mm}}\" \n",
   "listItemIndent": "one",
-  "newlinesAroundHeadings": true
+  "newlinesAroundHeadings": false
 }

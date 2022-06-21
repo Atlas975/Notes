@@ -8,6 +8,7 @@
 > $y=\text{actual result}$
 > $\hat{y}=\text{prediction}$
 > $m = \text{number of observations}$
+> $\mathcal{L}=\text{loss }$
 > $\theta=\text{parameter placeholder}$
 > $J(\theta)=\text{cost function}$
 > $\alpha=\text{learning rate}$

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-MachineLearning/Convolutional_networks.md",
+            "file": "0-MachineLearning/Computer_vision.md",
             "mode": "preview",
             "source": true
           }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-MachineLearning/Convolutional_networks.md",
+                "file": "0-MachineLearning/Computer_vision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-MachineLearning/Convolutional_networks.md"
+                "file": "0-MachineLearning/Computer_vision.md"
               }
             }
           }
@@ -123,15 +123,15 @@
   },
   "active": "ce9f7d74c1099273",
   "lastOpenFiles": [
-    "0-MachineLearning/Convolutional_networks.md",
-    "0-MachineLearning/Machine_learning_notation.md",
     "0-MachineLearning/Computer_vision.md",
     "0-MachineLearning/Gradient_descent.md",
+    "0-MachineLearning/Convolutional_networks.md",
+    "0-MachineLearning/Machine_learning_notation.md",
     "0-MachineLearning/Model_metrics.md",
+    "0-MachineLearning/Linear_regression.md",
+    "0-MachineLearning/Logistic_regression.md",
     "0-MachineLearning/Regularization.md",
-    "0-MachineLearning/0-CoursesPart1/MachineLearning/Neural_networks(depreciated).md",
-    "0-MachineLearning/Neural_networks.md",
     "0-MachineLearning/Statistical_modeling.md",
-    "0-MachineLearning/Linear_regression.md"
+    "0-MachineLearning/Neural_networks.md"
   ]
 }
