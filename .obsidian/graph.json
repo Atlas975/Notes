@@ -62,6 +62,13 @@
         "a": 1,
         "rgb": 2579089
       }
+    },
+    {
+      "query": "tag: #MediaEncoding",
+      "color": {
+        "a": 1,
+        "rgb": 4923039
+      }
     }
   ],
   "collapse-display": false,
@@ -74,6 +81,6 @@
   "repelStrength": 17.4336715979949,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.22842822336864385,
+  "scale": 0.3456219396391752,
   "close": false
 }

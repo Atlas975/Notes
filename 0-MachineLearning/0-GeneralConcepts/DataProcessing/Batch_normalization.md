@@ -1,5 +1,5 @@
 # Batch normalization 
-- A method to make [[Neural_networks]]  both faster and more stable through the process of re-scaling, giving a mean of zero and a SDV of 1
+- A method to make [[0-MachineLearning/0-CoursesPart1/MachineLearning/Neural_networks]]  both faster and more stable through the process of re-scaling, giving a mean of zero and a SDV of 1
 - In practice this is usually done with mini-batches of the training set
 
 >![[Pasted image 20220416223811.png]]
