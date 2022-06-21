@@ -1,5 +1,5 @@
 {
   "ribbonIcon": true,
   "useURL": false,
-  "executeTemplate": "code /home/adilw/Dropbox/Adil_Notes"
+  "executeTemplate": "{{/home/adilw/Dropbox/Adil_Notes}}"
 }
