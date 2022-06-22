@@ -23,5 +23,7 @@
   "oz-clear-unused-images",
   "open-vscode",
   "obsidian-functionplot",
-  "cycle-through-panes"
+  "cycle-through-panes",
+  "obsidian-excalidraw-plugin",
+  "sliding-panes-obsidian"
 ]
