@@ -5,5 +5,5 @@
   "spellcheck": true,
   "alwaysUpdateLinks": true,
   "communityPluginSortOrder": "download",
-  "defaultViewMode": "preview"
+  "defaultViewMode": "source"
 }

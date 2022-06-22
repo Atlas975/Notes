@@ -1,5 +1,4 @@
 
-
 # SQL 
 #Databases 
 # Order of operations

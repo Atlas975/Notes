@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "e66a055ecf629385",
+        "id": "d840a3bf10471c29",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01-MachineLearning/Machine_learning_notation.md",
-            "mode": "preview",
+            "file": "02-OperatingSystems/Operating_systems.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "backpr",
+                "query": "tag:#Programming",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-MachineLearning/Machine_learning_notation.md",
+                "file": "02-OperatingSystems/Operating_systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-MachineLearning/Machine_learning_notation.md"
+                "file": "02-OperatingSystems/Operating_systems.md"
               }
             }
           }
@@ -121,17 +121,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e66a055ecf629385",
+  "active": "d840a3bf10471c29",
   "lastOpenFiles": [
-    "01-MachineLearning/Machine_learning_notation.md",
-    "01-MachineLearning/Computer_vision.md",
-    "01-MachineLearning/Regularization.md",
-    "01-MachineLearning/Convolutional_networks.md",
-    "01-MachineLearning/Logistic_regression.md",
+    "02-OperatingSystems/Operating_systems.md",
+    "Untitled.md",
+    "DiscreteMath&Algorithms/Recursion.md",
+    "01-MachineLearning/0-CoursesPart1/MachineLearning/Gradient_descent.md",
+    "01-MachineLearning/0-CoursesPart1/MachineLearning/Cieling_analysis.md",
     "00-TempNotes/0_TempNote1.md",
-    "00-TempNotes/General.md",
-    "00-TempNotes/Goals.md",
-    "00-TempNotes/0_TempNote2.md",
-    "XX-Attachments/Drawings/Drawing_06-22-15.11.11.excalidraw.md"
+    "01-MachineLearning/0-CoursesPart1/DataAnalytics/Excel.md",
+    "01-MachineLearning/0-CoursesPart1/MathForML_course/LinearAlgebra/Matrices.md",
+    "01-Programming/Rust/Rust_language.md",
+    "01-Programming/C_language.md"
   ]
 }

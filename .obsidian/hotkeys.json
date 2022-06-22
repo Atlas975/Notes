@@ -162,7 +162,7 @@
       "modifiers": [
         "Mod"
       ],
-      "key": "Tab"
+      "key": "S"
     }
   ],
   "cycle-through-panes:cycle-through-panes": [
@@ -170,7 +170,7 @@
       "modifiers": [
         "Mod"
       ],
-      "key": "1"
+      "key": "Tab"
     }
   ],
   "command-palette:open": [
@@ -197,6 +197,65 @@
         "Mod"
       ],
       "key": "A"
+    }
+  ],
+  "app:toggle-default-new-pane-mode": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "Q"
+    }
+  ],
+  "workspace:close-others": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "W"
+    }
+  ],
+  "cycle-through-panes:focus-on-last-active-pane": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "B"
+    }
+  ],
+  "editor:save-file": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "S"
+    }
+  ],
+  "editor:open-link-in-new-leaf": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
+    }
+  ],
+  "workspace:edit-file-title": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "H"
+    }
+  ],
+  "editor:rename-heading": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "H"
     }
   ]
 }
