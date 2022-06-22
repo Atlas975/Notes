@@ -4,13 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "d840a3bf10471c29",
+        "id": "ee821aa37db466ea",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "02-OperatingSystems/Operating_systems.md",
-            "mode": "source",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "915d0218f593e572",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "02-OperatingSystems/Linux_usage.md",
+            "mode": "preview",
             "source": true
           }
         }
@@ -63,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-OperatingSystems/Operating_systems.md",
+                "file": "02-OperatingSystems/Linux_usage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-OperatingSystems/Operating_systems.md"
+                "file": "02-OperatingSystems/Linux_usage.md"
               }
             }
           }
@@ -121,8 +133,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d840a3bf10471c29",
+  "active": "915d0218f593e572",
   "lastOpenFiles": [
+    "02-OperatingSystems/Linux_usage.md",
     "02-OperatingSystems/Operating_systems.md",
     "Untitled.md",
     "DiscreteMath&Algorithms/Recursion.md",
@@ -131,7 +144,6 @@
     "00-TempNotes/0_TempNote1.md",
     "01-MachineLearning/0-CoursesPart1/DataAnalytics/Excel.md",
     "01-MachineLearning/0-CoursesPart1/MathForML_course/LinearAlgebra/Matrices.md",
-    "01-Programming/Rust/Rust_language.md",
-    "01-Programming/C_language.md"
+    "01-Programming/Rust/Rust_language.md"
   ]
 }
