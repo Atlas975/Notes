@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "-TempNotes/0_TempNote1.md",
-            "mode": "source",
+            "file": "01-MachineLearning/Linear_regression.md",
+            "mode": "preview",
             "source": true
           }
         }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "-TempNotes/0_TempNote1.md",
+                "file": "01-MachineLearning/Linear_regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "-TempNotes/0_TempNote1.md"
+                "file": "01-MachineLearning/Linear_regression.md"
               }
             }
           }
@@ -123,15 +123,15 @@
   },
   "active": "f762c82c2cbbac81",
   "lastOpenFiles": [
-    "-TempNotes/0_TempNote1.md",
-    "-TempNotes/0_TempNote2.md",
-    "-TempNotes/Goals.md",
-    "-TempNotes/General.md",
-    "0-MachineLearning/Machine_learning_notation.md",
-    "0-MachineLearning/Logistic_regression.md",
-    "0-MachineLearning/Gradient_descent.md",
-    "0-MachineLearning/Neural_networks.md",
-    "0-MachineLearning/Linear_regression.md",
-    "0-MachineLearning/Computer_vision.md"
+    "01-MachineLearning/Linear_regression.md",
+    "DigitalSystems/Bitwise_arithmatic.md",
+    "InformationSystems/Database_fundamental.md",
+    "01-MachineLearning/Convolutional_networks.md",
+    "01-MachineLearning/Computer_vision.md",
+    "02-OperatingSystems/Linux_usage.md",
+    "DiscreteMath&Algorithms/Algorithm_fundamentals.md",
+    "DiscreteMath&Algorithms/Propositional_logic.md",
+    "00-TempNotes/0_TempNote1.md",
+    "00-TempNotes/0_TempNote2.md"
   ]
 }

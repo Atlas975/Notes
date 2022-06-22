@@ -6,7 +6,7 @@ $$ˆy = ˆβ0 + ˆβ1 x$$
 2. How large is the association of x and y for an increase in x
 3. How accurate are the models predictions
 4. Is the relationship truly linear
-5. Synergy [[0-MachineLearning/0-CoursesPart2/StatisticalLearning_book/Linear_regression#Interaction effect]]
+5. Synergy [[01-MachineLearning/0-CoursesPart2/StatisticalLearning_book/Linear_regression#Interaction effect]]
 >![[Pasted image 20220226154902.png]]
 
 ## Interaction effect

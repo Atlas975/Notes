@@ -45,7 +45,7 @@ dont put a lot of trust in these predicted probabilities
 >![[Pasted image 20220417213047.png]]
 
 # Softmax cost function and training
-- Softmax generalizes to logistic regression just for N number of classes, meaning when N=2 this is the same as [[0-MachineLearning/0-CoursesPart1/MachineLearning/Logistic_regression]] 
+- Softmax generalizes to logistic regression just for N number of classes, meaning when N=2 this is the same as [[01-MachineLearning/0-CoursesPart1/MachineLearning/Logistic_regression]] 
 
 >![[Pasted image 20220418110006.png]]
 

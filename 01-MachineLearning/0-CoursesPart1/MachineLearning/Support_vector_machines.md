@@ -1,6 +1,6 @@
 # Support vector machines
 - Similar base to logistic regression, involves finding a plane that can divide datasets
-- [[0-MachineLearning/0-CoursesPart1/MachineLearning/Logistic_regression#Alternative logistic regression view]]
+- [[01-MachineLearning/0-CoursesPart1/MachineLearning/Logistic_regression#Alternative logistic regression view]]
 >![[Pasted image 20220205093334.png]]
 - C corresponds to giving B a larger weight
 ## SVM hypothesis
@@ -21,7 +21,7 @@
 - Its important to implement feature scaling before as large parameters like the size in feet can hold large influence on the prediction.
 >![[Pasted image 20220205161028.png]]
 # Math behind margin classifiers
-[[0-MachineLearning/0-CoursesPart1/MathForML_course/LinearAlgebra/Vectors#Vector projection]]
+[[Vectors#Vector projection]]
 >![[Pasted image 20220205123055.png]]
 >![[Pasted image 20220205151410.png]]
 >![[Pasted image 20220205130023.png]]
