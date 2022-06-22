@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01-MachineLearning/Linear_regression.md",
-            "mode": "preview",
+            "file": "DiscreteMath&Algorithms/Hashing.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-MachineLearning/Linear_regression.md",
+                "file": "DiscreteMath&Algorithms/Hashing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-MachineLearning/Linear_regression.md"
+                "file": "DiscreteMath&Algorithms/Hashing.md"
               }
             }
           }
@@ -123,15 +123,15 @@
   },
   "active": "f762c82c2cbbac81",
   "lastOpenFiles": [
+    "DiscreteMath&Algorithms/Hashing.md",
+    "DiscreteMath&Algorithms/Functions.md",
+    "DiscreteMath&Algorithms/Big-O_notation.md",
+    "DiscreteMath&Algorithms/Algorithm_fundamentals.md",
+    "01-MachineLearning/Computer_vision.md",
+    "01-MachineLearning/Logistic_regression.md",
     "01-MachineLearning/Linear_regression.md",
     "DigitalSystems/Bitwise_arithmatic.md",
     "InformationSystems/Database_fundamental.md",
-    "01-MachineLearning/Convolutional_networks.md",
-    "01-MachineLearning/Computer_vision.md",
-    "02-OperatingSystems/Linux_usage.md",
-    "DiscreteMath&Algorithms/Algorithm_fundamentals.md",
-    "DiscreteMath&Algorithms/Propositional_logic.md",
-    "00-TempNotes/0_TempNote1.md",
-    "00-TempNotes/0_TempNote2.md"
+    "01-MachineLearning/Convolutional_networks.md"
   ]
 }
