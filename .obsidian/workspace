@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "5f29b5c609583102",
+        "id": "e66a055ecf629385",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "00-TempNotes/0_TempNote1.md",
+            "file": "01-MachineLearning/Machine_learning_notation.md",
             "mode": "preview",
             "source": true
           }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-TempNotes/0_TempNote1.md",
+                "file": "01-MachineLearning/Machine_learning_notation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5
+    "width": 237.5027313232422
   },
   "right": {
     "id": "441e4249d5592193",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-TempNotes/0_TempNote1.md"
+                "file": "01-MachineLearning/Machine_learning_notation.md"
               }
             }
           }
@@ -121,17 +121,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5f29b5c609583102",
+  "active": "e66a055ecf629385",
   "lastOpenFiles": [
+    "01-MachineLearning/Machine_learning_notation.md",
+    "01-MachineLearning/Computer_vision.md",
+    "01-MachineLearning/Regularization.md",
+    "01-MachineLearning/Convolutional_networks.md",
+    "01-MachineLearning/Logistic_regression.md",
     "00-TempNotes/0_TempNote1.md",
     "00-TempNotes/General.md",
     "00-TempNotes/Goals.md",
     "00-TempNotes/0_TempNote2.md",
-    "XX-Attachments/Drawings/Drawing_06-22-15.11.11.excalidraw.md",
-    "XX-Attachments/Drawings/Drawing_06-22 15.10.46.excalidraw.md",
-    "XX-Attachments/Drawings/Drawing_06-22 15.11.11.excalidraw.md",
-    "XX-Attachments/Drawings/Drawing 06-22 15.10.43.excalidraw.md",
-    "XX-Attachments/Drawings/Drawing 06-22 15.10.02.excalidraw.md",
-    "XX-Attachments/Drawings/Drawing 06-22 15.09.48.excalidraw.md"
+    "XX-Attachments/Drawings/Drawing_06-22-15.11.11.excalidraw.md"
   ]
 }
