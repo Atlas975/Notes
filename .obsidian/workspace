@@ -9,25 +9,11 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-MachineLearning/Gradient_descent.md",
+            "file": "0-MachineLearning/Computer_vision.md",
             "mode": "preview",
             "source": true
           }
-        },
-        "group": "5c1863ce9bed0c12"
-      },
-      {
-        "id": "f97846b3a3d63fbb",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "0-MachineLearning/Gradient_descent.md",
-            "mode": "preview",
-            "source": true
-          }
-        },
-        "group": "5c1863ce9bed0c12"
+        }
       }
     ],
     "direction": "vertical"
@@ -77,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-MachineLearning/Gradient_descent.md",
+                "file": "0-MachineLearning/Computer_vision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-MachineLearning/Gradient_descent.md"
+                "file": "0-MachineLearning/Computer_vision.md"
               }
             }
           }
@@ -137,15 +123,15 @@
   },
   "active": "f762c82c2cbbac81",
   "lastOpenFiles": [
-    "0-MachineLearning/Gradient_descent.md",
-    "0-MachineLearning/Neural_networks.md",
-    "0-MachineLearning/0-GeneralConcepts/Vectorization/Vectorized_backpropagation.md",
-    "0-MachineLearning/0-CoursesPart2/DeepLearningCourse/Regularization.md",
-    "0-MachineLearning/0-GeneralConcepts/NeuralNetworks/Backpropagation_math.md",
-    "0-MachineLearning/0-CoursesPart1/MachineLearning/Backpropagation.md",
-    "0-MachineLearning/0-GeneralConcepts/Vectorization/Vectorized_neural_network.md",
-    "0-MachineLearning/Convolutional_networks.md",
     "0-MachineLearning/Computer_vision.md",
-    "0-MachineLearning/Machine_learning_notation.md"
+    "0-MachineLearning/Convolutional_networks.md",
+    "0-MachineLearning/Gradient_descent.md",
+    "0-MachineLearning/Linear_regression.md",
+    "0-MachineLearning/Machine_learning_notation.md",
+    "0-MachineLearning/Model_metrics.md",
+    "0-MachineLearning/Neural_networks.md",
+    "0-MachineLearning/Regularization.md",
+    "0-MachineLearning/Statistical_modeling.md",
+    "0-MachineLearning/Logistic_regression.md"
   ]
 }
