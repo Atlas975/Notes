@@ -1,0 +1,12 @@
+{
+  "timeout": 10000,
+  "nodePath": "node",
+  "nodeArgs": "",
+  "pythonPath": "/home/adilw/anaconda3/envs/farbros/bin/python",
+  "pythonArgs": "",
+  "pythonEmbedPlots": true,
+  "shellPath": "bash",
+  "shellArgs": "",
+  "shellFileExtension": "sh",
+  "maxPrologAnswers": 15
+}
