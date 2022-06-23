@@ -40,3 +40,4 @@
 
 # Inference example
 > ![[Pasted image 20211107225947.png]]
+[[Relations]]
