@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01-MachineLearning/Statistical_modeling.md",
-            "mode": "preview",
+            "file": "00-TempNotes/0-Litnote.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-MachineLearning/Statistical_modeling.md",
+                "file": "00-TempNotes/0-Litnote.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-MachineLearning/Statistical_modeling.md"
+                "file": "00-TempNotes/0-Litnote.md"
               }
             }
           }
@@ -123,6 +123,7 @@
   },
   "active": "49bcdbbc096c268c",
   "lastOpenFiles": [
+    "00-TempNotes/0-Litnote.md",
     "01-MachineLearning/Statistical_modeling.md",
     "01-MachineLearning/Logistic_regression.md",
     "01-MachineLearning/Machine_learning_notation.md",
@@ -131,7 +132,6 @@
     "01-MachineLearning/Convolutional_networks.md",
     "01-MachineLearning/Computer_vision.md",
     "01-MachineLearning/Model_metrics.md",
-    "01-Programming/Rust/Rust_language.md",
-    "01-MachineLearning/Linear_regression.md"
+    "01-Programming/Rust/Rust_language.md"
   ]
 }
