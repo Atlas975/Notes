@@ -3,7 +3,7 @@
   "hasMigratedDailyNoteSettings": false,
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
-    "format": "D-",
+    "format": "DD-MM-YYYY",
     "template": "XX-Attachments/Templates/schedule.md",
     "folder": "00-Main",
     "enabled": true

@@ -4,12 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "3c6fabb70d158bf7",
+        "id": "af23089859ea2168",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "00-Main/23-06-2022.md"
+            "file": "01-MachineLearning/Computer_vision.md",
+            "mode": "preview",
+            "source": false
           }
         }
       }
@@ -61,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Main/23-06-2022.md",
+                "file": "01-MachineLearning/Computer_vision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Main/23-06-2022.md"
+                "file": "01-MachineLearning/Computer_vision.md"
               }
             }
           },
@@ -127,8 +129,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3c6fabb70d158bf7",
+  "active": "af23089859ea2168",
   "lastOpenFiles": [
+    "01-MachineLearning/Computer_vision.md",
+    "01-MachineLearning/Convolutional_networks.md",
     "00-Main/23-06-2022.md",
     "00-Main/0-Schedule.md",
     "XX-Attachments/Templates/schedule.md",
@@ -136,8 +140,6 @@
     "00-Main/Scrapnote.md",
     "DiscreteMath&Algorithms/Relations.md",
     "DiscreteMath&Algorithms/Inference_rules.md",
-    "DiscreteMath&Algorithms/Graphs.md",
-    "DiscreteMath&Algorithms/De_Morgans_law.md",
-    "DiscreteMath&Algorithms/DataStorage&Retrieval.md"
+    "DiscreteMath&Algorithms/Graphs.md"
   ]
 }
