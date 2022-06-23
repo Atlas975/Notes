@@ -63,6 +63,14 @@ created: 2022-06-21 10:01
 > $$\text{floor}(\left[ \frac{n+2p-f}{s}+1,\frac{n+2p-f}{s}+1 \right])\times{nc}$$
 > $$\text{note that nc is the same as the number of filters}$$
 
+
+# Pooling layers
+- Pooling layers offer another kind of image processing, operates the same way as a convolution but without a kernal with cell values. These are a useful layer for collapsing a network
+- **Pooling layers keep the depth dimension of a volume**
+- Example of average and max pooling:
+
+>![[Pasted image 20220621153651.png]]
+
 # Convolutions over volume
 - Needed over RGB images (3 layers correspond to 3 channels for an image)
 - Filter and image channels must match, channels act as a 3rd dimension
@@ -70,3 +78,5 @@ created: 2022-06-21 10:01
 - The number of filters denote the number  of output channels 
 
 >![[Pasted image 20220621145255.png]]
+
+
