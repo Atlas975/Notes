@@ -19,12 +19,12 @@ created: 2022-06-21 15:00
 - **Connection sparsity** in each layer means that each output depend on only a small number of inputs
 - Generally while going deeper in a CNN, height and width tend to decline while number of channels increases
 
-> $ n_{H},n_{W} \downarrow  \implies n_{C}\uparrow  $
+> $$n_{H},n_{W} \downarrow  \implies n_{C}\uparrow  $$
 # ResNets
 - Allows for activation's from one layer to be fed deeper into a network without going through intermediary layers. This allows for much deeper networks to be trained.
 - ResNets will typically use same convolutions to ensure the input and output have the same dimensions
 
-> $a^{l}\to a^{l+2}+\sum_{1}^{e} $
+> $$a^{l}\to a^{l+2}$$
 
 > ![[Pasted image 20220623124145.png]]
 ## ResNet benefits
