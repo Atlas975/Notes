@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "00-Main/0-Noteview.md",
-            "mode": "preview",
+            "file": "DiscreteMath&Algorithms/De_Morgans_law.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Main/0-Noteview.md",
+                "file": "DiscreteMath&Algorithms/De_Morgans_law.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Main/0-Noteview.md"
+                "file": "DiscreteMath&Algorithms/De_Morgans_law.md"
               }
             }
           }
@@ -123,15 +123,15 @@
   },
   "active": "42064872851520c4",
   "lastOpenFiles": [
+    "DiscreteMath&Algorithms/De_Morgans_law.md",
+    "DiscreteMath&Algorithms/DataStorage&Retrieval.md",
+    "InformationSystems/Liability&Intellectual_property.md",
+    "InformationSystems/Innovation_practice.md",
+    "00-Main/2-Litnote.md",
+    "00-Main/Scrapnote.md",
     "00-Main/0-Noteview.md",
     "00-Main/1-Litnote.md",
-    "00-Main/2-Litnote.md",
-    "00-Main/General.md",
     "Untitled Kanban.md",
-    "00-TempNotes/Goals.md",
-    "00-Main/InstallHelpers/vscode.md",
-    "DiscreteMath&Algorithms/Inference_rules.md",
-    "DiscreteMath&Algorithms/Relations.md",
-    "DiscreteMath&Algorithms/DataStorage&Retrieval.md"
+    "00-TempNotes/Goals.md"
   ]
 }
