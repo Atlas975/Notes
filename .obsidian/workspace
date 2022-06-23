@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "49bcdbbc096c268c",
+        "id": "b64eaf577cf49c9f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "00-TempNotes/0-Litnote.md",
-            "mode": "source",
+            "file": "01-MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
+            "mode": "preview",
             "source": true
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "c",
+                "query": "softmax",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-TempNotes/0-Litnote.md",
+                "file": "01-MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -74,7 +74,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-TempNotes/0-Litnote.md"
+                "file": "01-MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md"
               }
             }
           }
@@ -121,17 +122,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "49bcdbbc096c268c",
+  "active": "b64eaf577cf49c9f",
   "lastOpenFiles": [
+    "01-MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
+    "01-MachineLearning/Convolutional_networks.md",
+    "DiscreteMath&Algorithms/Abstract_data_types.md",
+    "OperatingSystems/Linux_usage.md",
+    "00-TempNotes/1-Litnote.md",
+    "00-TempNotes/General.md",
     "00-TempNotes/0-Litnote.md",
     "01-MachineLearning/Statistical_modeling.md",
     "01-MachineLearning/Logistic_regression.md",
-    "01-MachineLearning/Machine_learning_notation.md",
-    "01-MachineLearning/Neural_networks.md",
-    "01-MachineLearning/Regularization.md",
-    "01-MachineLearning/Convolutional_networks.md",
-    "01-MachineLearning/Computer_vision.md",
-    "01-MachineLearning/Model_metrics.md",
-    "01-Programming/Rust/Rust_language.md"
+    "01-MachineLearning/Machine_learning_notation.md"
   ]
 }

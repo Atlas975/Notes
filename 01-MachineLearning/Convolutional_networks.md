@@ -35,6 +35,9 @@ created: 2022-06-21 15:00
 # Inception networks
 > ![[Pasted image 20220623141826.png]]
 > ![[Pasted image 20220623142114.png]]
+> ![[Pasted image 20220623160809.png]]
+> ![[Pasted image 20220623161111.png]]additional softmax branches may also exist to attempt an early prediction of the output / use for debugging purposes
+
 # Classic CNN network architectures
 ## LeNet
 > ![[Pasted image 20220623115301.png]]

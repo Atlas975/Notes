@@ -1,5 +1,11 @@
-# Linux usage 
-#OperatingSystems [[Operating_systems]]
+
+# Linux_usage
+created: 2022-06-23 16:03
+#OperatingSystems
+
+---
+ 
+[[Operating_systems]]
 ## Linux filesystem 
 >![[Pasted image 20220618155352.png]]
 >![[Pasted image 20220426161528.png]]
