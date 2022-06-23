@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f3cf2d40c0446299",
+        "id": "e7e668cbf9e5ca85",
         "type": "leaf",
         "state": {
           "type": "kanban",
           "state": {
-            "file": "00-Main/0-Schedule.md"
+            "file": "XX-Attachments/Templates/schedule.md"
           }
         }
       }
@@ -61,7 +61,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Main/0-Schedule.md",
+                "file": "XX-Attachments/Templates/schedule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,8 +108,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Main/0-Schedule.md"
+                "file": "XX-Attachments/Templates/schedule.md"
               }
+            }
+          },
+          {
+            "id": "ba409dfb06ded0f2",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           }
         ]
@@ -119,16 +127,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f3cf2d40c0446299",
+  "active": "e7e668cbf9e5ca85",
   "lastOpenFiles": [
+    "XX-Attachments/Templates/schedule.md",
+    "00-Main/Untitled Kanban 1.md",
+    "00-Main/23-06-2022.md",
+    "00-Main/Scrapnote.md",
     "00-Main/0-Schedule.md",
     "DiscreteMath&Algorithms/Relations.md",
     "DiscreteMath&Algorithms/Inference_rules.md",
     "DiscreteMath&Algorithms/Graphs.md",
     "DiscreteMath&Algorithms/De_Morgans_law.md",
-    "DiscreteMath&Algorithms/DataStorage&Retrieval.md",
-    "InformationSystems/Liability&Intellectual_property.md",
-    "InformationSystems/Innovation_practice.md",
-    "00-Main/2-Litnote.md"
+    "DiscreteMath&Algorithms/DataStorage&Retrieval.md"
   ]
 }

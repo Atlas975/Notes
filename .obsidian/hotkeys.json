@@ -257,12 +257,21 @@
       "key": "/"
     }
   ],
-  "obsidian-kanban:create-new-kanban-board": [
+  "obsidian-kanban:create-new-kanban-board": [],
+  "obsidian-kanban:add-kanban-lane": [
     {
       "modifiers": [
         "Mod"
       ],
       "key": "1"
+    }
+  ],
+  "calendar:show-calendar-view": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "4"
     }
   ]
 }

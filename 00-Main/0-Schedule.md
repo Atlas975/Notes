@@ -9,10 +9,6 @@ kanban-plugin: basic
 - [x] week 2 lecures
 
 
-## Rust learn
-
-
-
 
 
 %% kanban:settings
