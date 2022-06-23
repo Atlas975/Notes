@@ -1,6 +1,6 @@
 {
   "legacyEditor": false,
-  "livePreview": false,
+  "livePreview": true,
   "attachmentFolderPath": "XX-Attachments/Images",
   "spellcheck": true,
   "alwaysUpdateLinks": true,

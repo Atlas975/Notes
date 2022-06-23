@@ -72,7 +72,7 @@
       "modifiers": [
         "Mod"
       ],
-      "key": "/"
+      "key": "Q"
     }
   ],
   "editor:toggle-highlight": [
@@ -254,7 +254,7 @@
       "modifiers": [
         "Mod"
       ],
-      "key": "Q"
+      "key": "/"
     }
   ]
 }

@@ -9,21 +9,21 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01-MachineLearning/Machine_learning_notation.md",
+            "file": "01-MachineLearning/Computer_vision.md",
             "mode": "preview",
-            "source": true
+            "source": false
           }
         }
       },
       {
-        "id": "1f7aeecb35bca162",
+        "id": "04442fb88fa79eca",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DiscreteMath&Algorithms/Functions.md",
+            "file": "01-MachineLearning/Convolutional_networks.md",
             "mode": "preview",
-            "source": true
+            "source": false
           }
         }
       }
@@ -75,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-MachineLearning/Machine_learning_notation.md",
+                "file": "01-MachineLearning/Convolutional_networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-MachineLearning/Machine_learning_notation.md"
+                "file": "01-MachineLearning/Convolutional_networks.md"
               }
             }
           }
@@ -133,17 +133,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "047a8eacbc9b3099",
+  "active": "04442fb88fa79eca",
   "lastOpenFiles": [
+    "01-MachineLearning/Convolutional_networks.md",
+    "01-MachineLearning/Computer_vision.md",
+    "01-MachineLearning/Gradient_descent.md",
     "01-MachineLearning/Machine_learning_notation.md",
     "01-MachineLearning/Model_metrics.md",
     "01-MachineLearning/Neural_networks.md",
     "OperatingSystems/Operating_systems.md",
     "OperatingSystems/Linux_usage.md",
     "DiscreteMath&Algorithms/Time_complexity.md",
-    "DiscreteMath&Algorithms/Big-O_notation.md",
-    "DiscreteMath&Algorithms/DataStorage&Retrieval.md",
-    "DiscreteMath&Algorithms/Graphs.md",
-    "DiscreteMath&Algorithms/Functions.md"
+    "DiscreteMath&Algorithms/Big-O_notation.md"
   ]
 }
