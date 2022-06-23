@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "e7e668cbf9e5ca85",
+        "id": "3c6fabb70d158bf7",
         "type": "leaf",
         "state": {
           "type": "kanban",
           "state": {
-            "file": "XX-Attachments/Templates/schedule.md"
+            "file": "00-Main/23-06-2022.md"
           }
         }
       }
@@ -61,7 +61,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "XX-Attachments/Templates/schedule.md",
+                "file": "00-Main/23-06-2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "XX-Attachments/Templates/schedule.md"
+                "file": "00-Main/23-06-2022.md"
               }
             }
           },
@@ -127,13 +127,13 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e7e668cbf9e5ca85",
+  "active": "3c6fabb70d158bf7",
   "lastOpenFiles": [
+    "00-Main/23-06-2022.md",
+    "00-Main/0-Schedule.md",
     "XX-Attachments/Templates/schedule.md",
     "00-Main/Untitled Kanban 1.md",
-    "00-Main/23-06-2022.md",
     "00-Main/Scrapnote.md",
-    "00-Main/0-Schedule.md",
     "DiscreteMath&Algorithms/Relations.md",
     "DiscreteMath&Algorithms/Inference_rules.md",
     "DiscreteMath&Algorithms/Graphs.md",
