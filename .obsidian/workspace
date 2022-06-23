@@ -19,12 +19,8 @@
         "id": "a112879984734a07",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "DiscreteMath&Algorithms/Abstract_data_types.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -75,7 +71,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Programming/Python/Numpy_library.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,9 +116,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "01-Programming/Python/Numpy_library.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -133,8 +126,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c8bd21a872a868b7",
+  "active": "a112879984734a07",
   "lastOpenFiles": [
+    "DiscreteMath&Algorithms/Abstract_data_types.md",
     "01-Programming/Python/Numpy_library.md",
     "01-Programming/Git.md",
     "01-Programming/Rust/Rust_language.md",
@@ -143,7 +137,6 @@
     "01-Programming/Matlab_language.md",
     "01-Programming/Rust/Rust_cargo.md",
     "01-Programming/R/R_basics.md",
-    "DigitalSystems/Computer_memory.md",
-    "DiscreteMath&Algorithms/Abstract_data_types.md"
+    "DigitalSystems/Computer_memory.md"
   ]
 }
