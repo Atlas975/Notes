@@ -75,4 +75,22 @@ created: 2022-06-21 10:01
 - The use of 1x1 convolutions can help drastically decrease computation cost, example with a 5x5 filter:
 
 > ![[Pasted image 20220623141826.png]]
-> ![[Pasted image 20220623142114.png]]the 1x1 convolutions might acts as a bottleneck in this scenario and reduces the amount of computations by 100.6 million
+> ![[Pasted image 20220623142114.png]]the 1x1 convolutions  acts as a bottleneck in this scenario and reduces the amount of computations by 100.6 million
+# Computation cost of convolution
+> $\text{Computation cost}=\text{number of filter params}\times \text{filter positions}\times \text{number of filters}$
+
+> ![[Pasted image 20220623224238.png]]
+## Depthwise convolutions
+- A method of reducing convolution computation cost, takes a two step approach to doing this
+
+> ![[Pasted image 20220623224944.png]]
+
+- Starts with a valid convolution with the same number of channels as original input
+
+> ![[Pasted image 20220623225049.png]]
+
+- Follow this with pointwise convolution utilizing a 1x1 convolution 
+
+>![[Pasted image 20220623225334.png]]
+
+- Adding this up, this method results in a computation cost of 672, far less than the standard convolution alternative of 2160. This reduction scales exponentially with more channels

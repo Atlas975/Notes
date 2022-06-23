@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01-MachineLearning/Computer_vision.md",
+            "file": "01-MachineLearning/Convolutional_networks.md",
             "mode": "preview",
             "source": false
           }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-MachineLearning/Computer_vision.md",
+                "file": "01-MachineLearning/Convolutional_networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-MachineLearning/Computer_vision.md"
+                "file": "01-MachineLearning/Convolutional_networks.md"
               }
             }
           },
@@ -131,8 +131,8 @@
   },
   "active": "af23089859ea2168",
   "lastOpenFiles": [
-    "01-MachineLearning/Computer_vision.md",
     "01-MachineLearning/Convolutional_networks.md",
+    "01-MachineLearning/Computer_vision.md",
     "00-Main/23-06-2022.md",
     "00-Main/0-Schedule.md",
     "XX-Attachments/Templates/schedule.md",
