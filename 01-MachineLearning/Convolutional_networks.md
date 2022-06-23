@@ -20,11 +20,24 @@ created: 2022-06-21 15:00
 - Generally while going deeper in a CNN, height and width tend to decline while number of channels increases
 
 > $ n_{H},n_{W} \downarrow  \implies n_{C}\uparrow  $
+# ResNets
+- Allows for activation's from one layer to be fed deeper into a network without going through intermediary layers. This allows for much deeper networks to be trained. 
+- ResNets will typically use same convolutions to ensure the input and output have the same dimensions 
+
+> $$a^{l}\to a^{l+2}$$
+
+> ![[Pasted image 20220623124145.png]]
+
+## ResNet benefits 
+- ResNets help solve the vanishing gradient problem that can arise from adding too much depth to a network (overfitting). This happens because the network has a much harder time training the network as it becomes less linear causing the training error to gradually increase
+- As a result of this deeper networks can be trained without the overfitting tradeoff\ 
+
+>![[Pasted image 20220623124954.png]]
+ 
 # Classic CNN network architectures
 ## LeNet
 > ![[Pasted image 20220623115301.png]]
 ## AlexNet
 > ![[Pasted image 20220623115413.png]]
-
-## VGG 
->![[Pasted image 20220623115645.png]]
+## VGG
+> ![[Pasted image 20220623115645.png]]
