@@ -89,8 +89,8 @@ created: 2022-06-21 10:01
 
 > ![[Pasted image 20220623225049.png]]
 
-- Follow this with pointwise convolution utilizing a 1x1 convolution 
+- Follow this with pointwise convolution utilizing a 1x1 convolution
 
->![[Pasted image 20220623225334.png]]
+> ![[Pasted image 20220623225334.png]]
 
 - Adding this up, this method results in a computation cost of 672, far less than the standard convolution alternative of 2160. This reduction scales exponentially with more channels
