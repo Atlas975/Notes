@@ -21,19 +21,20 @@ created: 2022-06-21 15:00
 
 > $ n_{H},n_{W} \downarrow  \implies n_{C}\uparrow  $
 # ResNets
-- Allows for activation's from one layer to be fed deeper into a network without going through intermediary layers. This allows for much deeper networks to be trained. 
-- ResNets will typically use same convolutions to ensure the input and output have the same dimensions 
+- Allows for activation's from one layer to be fed deeper into a network without going through intermediary layers. This allows for much deeper networks to be trained.
+- ResNets will typically use same convolutions to ensure the input and output have the same dimensions
 
-> $$a^{l}\to a^{l+2}$$
+> $a^{l}\to a^{l+2}+\sum_{1}^{e} $
 
 > ![[Pasted image 20220623124145.png]]
-
-## ResNet benefits 
+## ResNet benefits
 - ResNets help solve the vanishing gradient problem that can arise from adding too much depth to a network (overfitting). This happens because the network has a much harder time training the network as it becomes less linear causing the training error to gradually increase
-- As a result of this deeper networks can be trained without the overfitting tradeoff\ 
+- As a result of this deeper networks can be trained without the overfitting tradeoff\
 
->![[Pasted image 20220623124954.png]]
- 
+> ![[Pasted image 20220623124954.png]]
+# Inception networks
+> ![[Pasted image 20220623141826.png]]
+> ![[Pasted image 20220623142114.png]]
 # Classic CNN network architectures
 ## LeNet
 > ![[Pasted image 20220623115301.png]]

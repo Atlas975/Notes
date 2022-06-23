@@ -11,7 +11,7 @@
           "state": {
             "file": "01-MachineLearning/Convolutional_networks.md",
             "mode": "source",
-            "source": false
+            "source": true
           }
         }
       }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rust castin",
+                "query": "c",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,12 +74,12 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 237.5027313232422
+    "width": 237.5027313232422,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -125,14 +125,14 @@
   "active": "a45ac6224e263ff9",
   "lastOpenFiles": [
     "01-MachineLearning/Convolutional_networks.md",
+    "01-MachineLearning/Machine_learning_notation.md",
+    "01-Programming/Rust/Rust_language.md",
     "01-MachineLearning/Computer_vision.md",
     "01-MachineLearning/Linear_regression.md",
     "01-MachineLearning/Gradient_descent.md",
     "01-MachineLearning/Logistic_regression.md",
     "01-MachineLearning/Statistical_modeling.md",
     "01-MachineLearning/Regularization.md",
-    "01-MachineLearning/Model_metrics.md",
-    "01-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/CNN_architecture.md",
-    "01-MachineLearning/0-GeneralConcepts/ConvolutionalNetworks/CNN_volume.md"
+    "01-MachineLearning/Model_metrics.md"
   ]
 }
