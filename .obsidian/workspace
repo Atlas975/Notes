@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "74bdc9131294a5c4",
+        "id": "42064872851520c4",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "00-Main/NoteTable.md",
+            "file": "00-Main/0-Noteview.md",
             "mode": "preview",
             "source": false
           }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Main/NoteTable.md",
+                "file": "00-Main/0-Noteview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Main/NoteTable.md"
+                "file": "00-Main/0-Noteview.md"
               }
             }
           }
@@ -121,14 +121,14 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "74bdc9131294a5c4",
+  "active": "42064872851520c4",
   "lastOpenFiles": [
-    "00-Main/NoteTable.md",
+    "00-Main/0-Noteview.md",
+    "00-Main/1-Litnote.md",
+    "00-Main/2-Litnote.md",
+    "00-Main/General.md",
     "Untitled Kanban.md",
     "00-TempNotes/Goals.md",
-    "00-TempNotes/General.md",
-    "00-TempNotes/1-Litnote.md",
-    "00-TempNotes/0-Litnote.md",
     "00-Main/InstallHelpers/vscode.md",
     "DiscreteMath&Algorithms/Inference_rules.md",
     "DiscreteMath&Algorithms/Relations.md",
