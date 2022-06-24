@@ -9,7 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01-Programming/Python/Numpy_library.md",
+            "file": "01-MachineLearning/Machine_learning_notation.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "17779a62e8a3e897",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "01-MachineLearning/Regularization.md",
             "mode": "preview",
             "source": false
           }
@@ -65,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Programming/Python/Numpy_library.md",
+                "file": "00-Main/Projects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-Programming/Python/Numpy_library.md"
+                "file": "00-Main/Projects.md"
               }
             }
           },
@@ -139,17 +151,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "72ca2218b0626344",
+  "active": "6358b920120a326e",
   "lastOpenFiles": [
-    "01-Programming/Python/Numpy_library.md",
-    "01-Programming/Python/Pytorch_libarary.md",
     "00-Main/Projects.md",
-    "00-Main/23-06-2022.md",
+    "01-MachineLearning/Regularization.md",
     "01-MachineLearning/Machine_learning_notation.md",
-    "01-MachineLearning/Gradient_descent.md",
-    "00-Main/1-Litnote.md",
-    "DiscreteMath&Algorithms/Inference_rules.md",
-    "01-MachineLearning/0-CoursesPart1/MachineLearning/Gradient_descent.md",
-    "01-MachineLearning/0-CoursesPart1/MachineLearning/Kernals.md"
+    "00-Main/Scrapnote.md",
+    "01-Programming/Python/Pandas_library.md",
+    "01-Programming/Python/Seaborn_library.md",
+    "01-Programming/Python/Python_stats.md",
+    "01-Programming/Python/Python_language.md",
+    "01-Programming/Python/Matplotlib_library.md",
+    "01-Programming/Python/Numpy_library.md"
   ]
 }

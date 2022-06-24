@@ -11,6 +11,7 @@
 > $\theta=\text{parameter placeholder}$
 > $J(\theta)=\text{cost function}$
 > $\alpha=\text{learning rate}$
+> $\lambda=\text{regularization parameter}$
 
 ## Training notation 
 > $\text{epoch}=\text{one forward and backward pass over all training samples}$
@@ -37,4 +38,4 @@
 > $f=\text{filter(kernal) dimensions}$
 > $p=\text{padding dimensions}$
 > $s=\text{stride size}$
-> $nc=\text{number of channels}$
+> $n_{c}=\text{number of channels}$

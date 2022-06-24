@@ -14,6 +14,7 @@ kanban-plugin: basic
 - [ ] Deep learning specialization
 - [ ] Sequence Models course
 - [ ] Attempt first Kaggle competition
+- [ ] Rust project
 
 
 ## In-progress ✏️
