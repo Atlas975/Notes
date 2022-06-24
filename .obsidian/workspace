@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Main/Projects.md",
+                "file": "01-MachineLearning/Machine_learning_notation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Main/Projects.md"
+                "file": "01-MachineLearning/Machine_learning_notation.md"
               }
             }
           },
@@ -151,11 +151,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6358b920120a326e",
+  "active": "72ca2218b0626344",
   "lastOpenFiles": [
-    "00-Main/Projects.md",
-    "01-MachineLearning/Regularization.md",
     "01-MachineLearning/Machine_learning_notation.md",
+    "01-MachineLearning/Regularization.md",
+    "00-Main/Projects.md",
     "00-Main/Scrapnote.md",
     "01-Programming/Python/Pandas_library.md",
     "01-Programming/Python/Seaborn_library.md",
