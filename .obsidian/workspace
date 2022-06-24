@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DigitalSystems/DigitalSystem_design.md",
+            "file": "01-MachineLearning/Gradient_descent.md",
             "mode": "preview",
             "source": false
           }
@@ -50,20 +50,12 @@
             }
           },
           {
-            "id": "74a1d7b4722b06c3",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
             "id": "e23c00221c93b3b2",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DigitalSystems/DigitalSystem_design.md",
+                "file": "01-MachineLearning/Gradient_descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -72,6 +64,24 @@
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
+            }
+          },
+          {
+            "id": "f9b0d2190b3ff51e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01-MachineLearning/Gradient_descent.md"
+              }
+            }
+          },
+          {
+            "id": "74a1d7b4722b06c3",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
             }
           }
         ]
@@ -85,9 +95,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0724fb7f2ff3cfe7",
+        "id": "bd313b46553a0492",
         "type": "tabs",
         "children": [
+          {
+            "id": "ba409dfb06ded0f2",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
           {
             "id": "84daf507dc2e1a52",
             "type": "leaf",
@@ -103,43 +121,25 @@
               "type": "graph-analysis",
               "state": {}
             }
-          },
-          {
-            "id": "f9b0d2190b3ff51e",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "DigitalSystems/DigitalSystem_design.md"
-              }
-            }
-          },
-          {
-            "id": "ba409dfb06ded0f2",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "72ca2218b0626344",
   "lastOpenFiles": [
-    "DigitalSystems/DigitalSystem_design.md",
-    "00-Main/Projects.md",
-    "DigitalSystems/Computer_memory.md",
-    "01-MachineLearning/Convolutional_networks.md",
     "01-MachineLearning/Gradient_descent.md",
-    "01-MachineLearning/Logistic_regression.md",
-    "01-MachineLearning/Linear_regression.md",
-    "01-Programming/Python/Django_fundementals.md",
-    "00-Main/23-06-2022.md",
-    "00-Main/2-Litnote.md"
+    "00-Main/Projects.md",
+    "00-Main/1-Litnote.md",
+    "DiscreteMath&Algorithms/Inference_rules.md",
+    "01-MachineLearning/0-CoursesPart1/MachineLearning/Gradient_descent.md",
+    "01-MachineLearning/0-CoursesPart1/MachineLearning/Kernals.md",
+    "InformationSystems/System_failure&dependability.md",
+    "InformationSystems/Innovation_practice.md",
+    "01-MachineLearning/0-CoursesPart1/DataAnalytics/Data_collection.md",
+    "01-MachineLearning/0-GeneralConcepts/Support_vector_machines.md"
   ]
 }
