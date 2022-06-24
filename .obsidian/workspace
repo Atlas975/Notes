@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "379220c30aab0fed",
+        "id": "72ca2218b0626344",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01-Programming/Python/Python_language.md",
+            "file": "DigitalSystems/DigitalSystem_design.md",
             "mode": "preview",
             "source": false
           }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Programming/Python/Python_language.md",
+                "file": "DigitalSystems/DigitalSystem_design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -74,8 +74,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-Programming/Python/Python_language.md"
+                "file": "DigitalSystems/DigitalSystem_design.md"
               }
             }
           },
@@ -123,24 +122,24 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "379220c30aab0fed",
+  "active": "72ca2218b0626344",
   "lastOpenFiles": [
-    "01-Programming/Python/Python_language.md",
-    "OperatingSystems/Operating_systems.md",
+    "DigitalSystems/DigitalSystem_design.md",
+    "00-Main/Projects.md",
     "DigitalSystems/Computer_memory.md",
-    "01-MachineLearning/Computer_vision.md",
     "01-MachineLearning/Convolutional_networks.md",
+    "01-MachineLearning/Gradient_descent.md",
+    "01-MachineLearning/Logistic_regression.md",
+    "01-MachineLearning/Linear_regression.md",
+    "01-Programming/Python/Django_fundementals.md",
     "00-Main/23-06-2022.md",
-    "00-Main/0-Schedule.md",
-    "XX-Attachments/Templates/schedule.md",
-    "00-Main/Untitled Kanban 1.md",
-    "00-Main/Scrapnote.md"
+    "00-Main/2-Litnote.md"
   ]
 }
