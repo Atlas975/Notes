@@ -1,5 +1,4 @@
 # Machine_learning_notation
-
 ** 20-06-2022  17:32 **\
 #StatisticalLearning
 
@@ -13,17 +12,18 @@
 > $J(\theta)=\text{cost function}$
 > $\alpha=\text{learning rate}$
 
+## Training notation 
+> $\text{epoch}=\text{one forward and backward pass over all training samples}$
+> $\text{batch size}= \text{number of training samples in one forward and backward pass}$
+> $\text{number of iterations}= \text{num of passes, each pass being (batch size) number of samples}$
 ## Neural network notation
-
-
 > $w=\text{weights}$
 > $b=\text{bias}$
 > $a=\text{activation}$
 > $z=\text{output (activation of the next layer)}$
-> $\text{epoch}=\text{one iteration over entire training set}$
+
 
 ### parameter notation
-
 > $$a_{j}^{[i][t][k]}$$
 > $\text{Superscript i indicates layer, subscript j indicates neuron in layer vector }$
 > $\text{parameters t to denote batch number and k to denote example may also be present}$
@@ -32,8 +32,7 @@
 > $w^{[l]}=(n^{[l]},n^{[l-1]})$
 > $b^{[l]}=(n^{[l]},1)$
 > $\text{where n denotes network shape}$
-
-## Convolutional network notation 
+## Convolutional network notation
 > $n=\text{image dimensions}$
 > $f=\text{filter(kernal) dimensions}$
 > $p=\text{padding dimensions}$

@@ -7,11 +7,9 @@
         "id": "72ca2218b0626344",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "kanban",
           "state": {
-            "file": "01-MachineLearning/Gradient_descent.md",
-            "mode": "preview",
-            "source": false
+            "file": "00-Main/Projects.md"
           }
         }
       }
@@ -40,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "allig",
+                "query": "notation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -55,7 +53,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-MachineLearning/Gradient_descent.md",
+                "file": "00-Main/Projects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -72,7 +70,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-MachineLearning/Gradient_descent.md"
+                "file": "00-Main/Projects.md"
               }
             }
           },
@@ -131,15 +129,15 @@
   },
   "active": "72ca2218b0626344",
   "lastOpenFiles": [
-    "01-MachineLearning/Gradient_descent.md",
     "00-Main/Projects.md",
+    "01-MachineLearning/Machine_learning_notation.md",
+    "01-MachineLearning/Gradient_descent.md",
     "00-Main/1-Litnote.md",
     "DiscreteMath&Algorithms/Inference_rules.md",
     "01-MachineLearning/0-CoursesPart1/MachineLearning/Gradient_descent.md",
     "01-MachineLearning/0-CoursesPart1/MachineLearning/Kernals.md",
     "InformationSystems/System_failure&dependability.md",
     "InformationSystems/Innovation_practice.md",
-    "01-MachineLearning/0-CoursesPart1/DataAnalytics/Data_collection.md",
-    "01-MachineLearning/0-GeneralConcepts/Support_vector_machines.md"
+    "01-MachineLearning/0-CoursesPart1/DataAnalytics/Data_collection.md"
   ]
 }
