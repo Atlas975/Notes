@@ -35,11 +35,11 @@
 
 
 # Data size 
+## Data scale 
+> ![[Pasted image 20220607213658.png]]
 ## Data type sizes 
 >![[Pasted image 20220607214052.png]]
 note that null terminated langauges like c will allocate an additional byte for strings to include a null character
-## Data scale 
-> ![[Pasted image 20220607213658.png]]
 
 ## Data allignment 
 - Data is read and written through chunks, a chunk is a 4 byte word on a 32 bit system, 

@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "af23089859ea2168",
+        "id": "379220c30aab0fed",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01-MachineLearning/Convolutional_networks.md",
+            "file": "01-Programming/Python/Python_language.md",
             "mode": "preview",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "softmax",
+                "query": "allig",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-MachineLearning/Convolutional_networks.md",
+                "file": "01-Programming/Python/Python_language.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -74,7 +74,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-MachineLearning/Convolutional_networks.md"
+                "file": "01-Programming/Python/Python_language.md"
               }
             }
           },
@@ -129,17 +130,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "af23089859ea2168",
+  "active": "379220c30aab0fed",
   "lastOpenFiles": [
-    "01-MachineLearning/Convolutional_networks.md",
+    "01-Programming/Python/Python_language.md",
+    "OperatingSystems/Operating_systems.md",
+    "DigitalSystems/Computer_memory.md",
     "01-MachineLearning/Computer_vision.md",
+    "01-MachineLearning/Convolutional_networks.md",
     "00-Main/23-06-2022.md",
     "00-Main/0-Schedule.md",
     "XX-Attachments/Templates/schedule.md",
     "00-Main/Untitled Kanban 1.md",
-    "00-Main/Scrapnote.md",
-    "DiscreteMath&Algorithms/Relations.md",
-    "DiscreteMath&Algorithms/Inference_rules.md",
-    "DiscreteMath&Algorithms/Graphs.md"
+    "00-Main/Scrapnote.md"
   ]
 }
