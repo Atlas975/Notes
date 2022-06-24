@@ -7,6 +7,18 @@
         "id": "72ca2218b0626344",
         "type": "leaf",
         "state": {
+          "type": "markdown",
+          "state": {
+            "file": "01-Programming/Python/Numpy_library.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "6358b920120a326e",
+        "type": "leaf",
+        "state": {
           "type": "kanban",
           "state": {
             "file": "00-Main/Projects.md"
@@ -53,7 +65,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Main/Projects.md",
+                "file": "01-Programming/Python/Numpy_library.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -70,7 +82,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Main/Projects.md"
+                "file": "01-Programming/Python/Numpy_library.md"
               }
             }
           },
@@ -129,15 +141,15 @@
   },
   "active": "72ca2218b0626344",
   "lastOpenFiles": [
+    "01-Programming/Python/Numpy_library.md",
+    "01-Programming/Python/Pytorch_libarary.md",
     "00-Main/Projects.md",
+    "00-Main/23-06-2022.md",
     "01-MachineLearning/Machine_learning_notation.md",
     "01-MachineLearning/Gradient_descent.md",
     "00-Main/1-Litnote.md",
     "DiscreteMath&Algorithms/Inference_rules.md",
     "01-MachineLearning/0-CoursesPart1/MachineLearning/Gradient_descent.md",
-    "01-MachineLearning/0-CoursesPart1/MachineLearning/Kernals.md",
-    "InformationSystems/System_failure&dependability.md",
-    "InformationSystems/Innovation_practice.md",
-    "01-MachineLearning/0-CoursesPart1/DataAnalytics/Data_collection.md"
+    "01-MachineLearning/0-CoursesPart1/MachineLearning/Kernals.md"
   ]
 }

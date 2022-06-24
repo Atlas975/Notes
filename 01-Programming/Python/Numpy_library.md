@@ -3,8 +3,9 @@
 created: 2022-06-23 08:15
 #Programming 
 
-
 ---
+[Numpy docs](https://numpy.org/doc/)
+[[Numpy Handbook.pdf]]
 ## Numpy array functions
 ```python
 import numpy as np
