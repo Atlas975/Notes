@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01-MachineLearning/Machine_learning_notation.md",
+            "file": "01-MachineLearning/Computer_vision.md",
             "mode": "preview",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-MachineLearning/Machine_learning_notation.md",
+                "file": "01-MachineLearning/Computer_vision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-MachineLearning/Machine_learning_notation.md"
+                "file": "01-MachineLearning/Computer_vision.md"
               }
             }
           },
@@ -153,6 +153,8 @@
   },
   "active": "72ca2218b0626344",
   "lastOpenFiles": [
+    "01-MachineLearning/Computer_vision.md",
+    "01-MachineLearning/Convolutional_networks.md",
     "01-MachineLearning/Machine_learning_notation.md",
     "01-MachineLearning/Regularization.md",
     "00-Main/Projects.md",
@@ -160,8 +162,6 @@
     "01-Programming/Python/Pandas_library.md",
     "01-Programming/Python/Seaborn_library.md",
     "01-Programming/Python/Python_stats.md",
-    "01-Programming/Python/Python_language.md",
-    "01-Programming/Python/Matplotlib_library.md",
-    "01-Programming/Python/Numpy_library.md"
+    "01-Programming/Python/Python_language.md"
   ]
 }
