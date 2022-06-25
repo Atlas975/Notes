@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "OperatingSystems/Linux_usage.md",
-            "mode": "preview",
+            "file": "01-MachineLearning/Gradient_descent.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -65,7 +65,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Linux_usage.md",
+                "file": "01-MachineLearning/Gradient_descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,7 +82,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Linux_usage.md"
+                "file": "01-MachineLearning/Gradient_descent.md"
               }
             }
           },
@@ -141,15 +141,15 @@
   },
   "active": "17779a62e8a3e897",
   "lastOpenFiles": [
-    "OperatingSystems/Linux_usage.md",
-    "01-Programming/Python/Python_language.md",
-    "00-Main/Projects.md",
+    "01-MachineLearning/Gradient_descent.md",
     "01-MachineLearning/Convolutional_networks.md",
-    "01-MachineLearning/Regularization.md",
-    "00-Main/Scrapnote.md",
+    "01-MachineLearning/Logistic_regression.md",
     "01-MachineLearning/Computer_vision.md",
-    "01-MachineLearning/Machine_learning_notation.md",
+    "01-Programming/Python/Numpy_library.md",
+    "01-Programming/Python/Python_language.md",
     "01-Programming/Python/Pandas_library.md",
-    "01-Programming/Python/Seaborn_library.md"
+    "01-Programming/Python/Matplotlib_library.md",
+    "01-Programming/Python/Django_fundementals.md",
+    "DigitalSystems/Boolean_logic.md"
   ]
 }

@@ -13,7 +13,6 @@ created: 2022-06-23 16:03
 ## Linux filesystem permissions
 >![[Pasted image 20220426155019.png]]
 
-
 # cd
 - Change directory
 ## cd / 
