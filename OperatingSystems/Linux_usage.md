@@ -71,30 +71,58 @@ gitTotal() {
     git commit -m "$*"
     git push
 }
-alias mgit=gitTotal;
+alias pgit=gitTotal;
+gitAuto() {
+    git add .
+    git commit -m "Auto commit"
+    git push
+}
+alias agit=gitAuto;
+gitNew(){
+    git clone git@github.com:Atlas975/$*
+    cd $*
+    git remote set-url origin https://github.com/Atlas975/$*
+    clear
+    echo -e "cloned and linked repository\e[1;32m $*"
+}
+alias ngit=gitNew;
+alias cgit="git clone $*"
 newCode(){
     touch $*
     code $*
     clear
-    echo -e "created\e[1;32m $*\033[0m in \e[1;33m$(pwd | rev | cut -f1 -d'/' - | rev)\033[0m on\e[1;32m $(uname -sr  | cut -f1 -d'-')\033[0m"
+    echo -e "\e[0;34m$USER \033[0mcreated\e[1;32m $*\033[0m under \e[1;33m$(pwd | rev | cut -f1 -d'/' - | rev)\033[0m on\e[1;32m $(uname -sr  | cut -f1 -d'-')\033[0m"
 }
 alias ncode=newCode
-alias xclean="sudo rm -rf ~/.local/share/Trash/* || True && rm -rf ~/Downloads/*" 
+testCode(){
+   cd /home/adilw/Dropbox/Adil_Code/TempCode
+   rm $*
+   ncode $*
+}
+alias tmpcode=testCode
+alias xclean="sudo rm -rf ~/.local/share/Trash/* ; sudo rm -rf ~/Downloads/*"
 alias fedup="sudo dnf update && sudo dnf upgrade";
 alias farbros="conda activate /home/adilw/anaconda3/envs/farbros";
 alias orion="/home/adilw/Dropbox/Adil_Code/Orion; clear; farbros";
 alias notes="/home/adilw/Dropbox/Adil_Notes; clear";
 alias trim="conda deactivate;clear";
 alias home="/home/adilw/; trim; pfetch";
+alias qnote="nano /home/adilw/Dropbox/Adil_Notes/00-Main/1-Litnote.md"
 javaRun(){
-	javac *.java 
+	clear
+	javac *.java
 	java $*
 }
 alias mjav=javaRun;
 alias cjav="rm *.java";
-alias arus="cargo build; cargo fmt; cargo run";
-newCrate(){cargo new $*; cd $*/src; code main.rs}
+alias arus="clear; cargo fmt; cargo build; cargo run";
+newCrate(){
+	cargo new $*
+	cd $*/src;
+	clear
+	echo -e "\e[0;34m$USER \033[0mcreated\e[1;32m $*\033[0m under \e[1;33m$(pwd | rev | cut -f1 -d'/' - | rev)\033[0m on\e[1;32m $(uname -sr  | cut -f1 -d'-')\033[0m"
+	code main.rs
+}
 alias nrus=newCrate;
 newGCCRun(){gcc $*.c; $*}
-alias gcca=newGCCRun;
-```
+alias gcca=newGCCRun;```

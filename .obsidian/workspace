@@ -4,23 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "72ca2218b0626344",
-        "type": "leaf",
-        "state": {
-          "type": "kanban",
-          "state": {
-            "file": "00-Main/Projects.md"
-          }
-        }
-      },
-      {
         "id": "17779a62e8a3e897",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01-MachineLearning/Regularization.md",
-            "mode": "preview",
+            "file": "OperatingSystems/Linux_usage.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -60,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "notation",
+                "query": "python",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,7 +65,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Main/Projects.md",
+                "file": "OperatingSystems/Linux_usage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +82,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Main/Projects.md"
+                "file": "OperatingSystems/Linux_usage.md"
               }
             }
           },
@@ -108,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5027313232422,
-    "collapsed": true
+    "width": 237.5027313232422
   },
   "right": {
     "id": "441e4249d5592193",
@@ -150,17 +139,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6358b920120a326e",
+  "active": "17779a62e8a3e897",
   "lastOpenFiles": [
+    "OperatingSystems/Linux_usage.md",
+    "01-Programming/Python/Python_language.md",
     "00-Main/Projects.md",
+    "01-MachineLearning/Convolutional_networks.md",
     "01-MachineLearning/Regularization.md",
     "00-Main/Scrapnote.md",
-    "01-MachineLearning/Convolutional_networks.md",
     "01-MachineLearning/Computer_vision.md",
     "01-MachineLearning/Machine_learning_notation.md",
     "01-Programming/Python/Pandas_library.md",
-    "01-Programming/Python/Seaborn_library.md",
-    "01-Programming/Python/Python_stats.md",
-    "01-Programming/Python/Python_language.md"
+    "01-Programming/Python/Seaborn_library.md"
   ]
 }
