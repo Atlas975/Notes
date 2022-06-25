@@ -26,6 +26,10 @@ created: 2022-06-21 15:00
 
 > $a^{l}\to a^{l+2}$
 
+- This can be represented by
+
+> $$a^{[l+2]}=g(w^{[l+2]}(g(w^{[l+1]}a^{[l]}+b^{[L+1]})+b^{[l+2]}+a^{[l]})$$
+
 > ![[Pasted image 20220623124145.png]]
 ## ResNet benefits
 - ResNets help solve the vanishing gradient problem that can arise from adding too much depth to a network (overfitting). This happens because the network has a much harder time training the network as it becomes less linear causing the training error to gradually increase
@@ -35,7 +39,7 @@ created: 2022-06-21 15:00
 # Inception networks
 [[Computer_vision#1x1 convolutions]]
 
-- Inception layers allow for multiple convolutions of different types to be combined through the use of **same padding and 1x1 convolutions**, minimizing computation cost and allowing for multiple operations to be attempted and concatenated 
+- Inception layers allow for multiple convolutions of different types to be combined through the use of **same padding and 1x1 convolutions**, minimizing computation cost and allowing for multiple operations to be attempted and concatenated
 
 > ![[Pasted image 20220623164903.png]]
 > ![[Pasted image 20220623160809.png]]
@@ -47,7 +51,7 @@ created: 2022-06-21 15:00
 > ![[Pasted image 20220623115413.png]]
 ## VGG
 > ![[Pasted image 20220623115645.png]]
-
 ## MobileNet
 [[Computer_vision#Computation cost of convolution]]
+
 > ![[Pasted image 20220623230550.png]]the bottle neck block allows the network the learn a richer function in the depth wise portion, the pointwise convolutions helps project back down to a smaller set of values, keeping the activations small
