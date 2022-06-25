@@ -125,4 +125,6 @@ newCrate(){
 }
 alias nrus=newCrate;
 newGCCRun(){gcc $*.c; $*}
-alias gcca=newGCCRun;```
+alias gcca=newGCCRun;
+export PATH=$PATH:/home/adilw/Dropbox/Adil_Code/LinuxScripts
+```

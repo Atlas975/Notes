@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "OperatingSystems/Linux_usage.md",
-            "mode": "source",
+            "mode": "preview",
             "source": false
           }
         }
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "python",
+                "query": "linux",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
