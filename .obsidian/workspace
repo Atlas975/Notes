@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01-MachineLearning/Gradient_descent.md",
+            "file": "01-Programming/Python/Python_language.md",
             "mode": "source",
             "source": false
           }
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "linux",
+                "query": "args",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-MachineLearning/Gradient_descent.md",
+                "file": "01-Programming/Python/Python_language.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,7 +82,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-MachineLearning/Gradient_descent.md"
+                "file": "01-Programming/Python/Python_language.md"
               }
             }
           },
@@ -94,7 +94,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -141,12 +142,12 @@
   },
   "active": "17779a62e8a3e897",
   "lastOpenFiles": [
+    "01-Programming/Python/Python_language.md",
     "01-MachineLearning/Gradient_descent.md",
     "01-MachineLearning/Convolutional_networks.md",
     "01-MachineLearning/Logistic_regression.md",
     "01-MachineLearning/Computer_vision.md",
     "01-Programming/Python/Numpy_library.md",
-    "01-Programming/Python/Python_language.md",
     "01-Programming/Python/Pandas_library.md",
     "01-Programming/Python/Matplotlib_library.md",
     "01-Programming/Python/Django_fundementals.md",
