@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "args",
+                "query": "inher",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -143,6 +143,7 @@
   "active": "17779a62e8a3e897",
   "lastOpenFiles": [
     "01-Programming/Python/Python_language.md",
+    "01-Programming/0_Scraping/Regular_expressions.md",
     "01-MachineLearning/Gradient_descent.md",
     "01-MachineLearning/Convolutional_networks.md",
     "01-MachineLearning/Logistic_regression.md",
@@ -150,7 +151,6 @@
     "01-Programming/Python/Numpy_library.md",
     "01-Programming/Python/Pandas_library.md",
     "01-Programming/Python/Matplotlib_library.md",
-    "01-Programming/Python/Django_fundementals.md",
-    "DigitalSystems/Boolean_logic.md"
+    "01-Programming/Python/Django_fundementals.md"
   ]
 }
