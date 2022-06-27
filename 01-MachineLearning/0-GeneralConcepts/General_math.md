@@ -12,5 +12,3 @@
 
 # Vector algebra rules
 >![[Pasted image 20220130162348.png]]
-## Scaler multiplication
->![[Pasted image 20220130162601.png]]
