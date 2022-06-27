@@ -4,18 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "17779a62e8a3e897",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "01-Programming/Python/Python_language.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
         "id": "6358b920120a326e",
         "type": "leaf",
         "state": {
@@ -65,7 +53,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Programming/Python/Python_language.md",
+                "file": "00-Main/Projects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,7 +70,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-Programming/Python/Python_language.md"
+                "file": "00-Main/Projects.md"
               }
             }
           },
@@ -94,8 +82,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -140,8 +127,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "17779a62e8a3e897",
+  "active": "6358b920120a326e",
   "lastOpenFiles": [
+    "00-Main/Projects.md",
+    "00-Main/23-06-2022.md",
     "01-Programming/Python/Python_language.md",
     "01-Programming/0_Scraping/Regular_expressions.md",
     "01-MachineLearning/Gradient_descent.md",
@@ -149,8 +138,6 @@
     "01-MachineLearning/Logistic_regression.md",
     "01-MachineLearning/Computer_vision.md",
     "01-Programming/Python/Numpy_library.md",
-    "01-Programming/Python/Pandas_library.md",
-    "01-Programming/Python/Matplotlib_library.md",
-    "01-Programming/Python/Django_fundementals.md"
+    "01-Programming/Python/Pandas_library.md"
   ]
 }

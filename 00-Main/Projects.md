@@ -21,6 +21,7 @@ kanban-plugin: basic
 
 - [ ] Constitutional Networks course
 - [ ] Learn Pytorch fundamentals
+- [ ] News scraper
 
 
 ## Completed ✅
