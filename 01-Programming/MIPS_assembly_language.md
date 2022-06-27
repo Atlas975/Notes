@@ -1,4 +1,9 @@
-# MIPS basics
+
+# MIPS_assembly
+created: 2022-06-27 07:09
+#Programming 
+
+---
 - No variables, just registers + memory
 - Essential for embedded programs
 - Stands for Microprocessor without interlocked pipeline systems
@@ -95,6 +100,7 @@ sw $t0, $sp
 ```
 
 >![[Pasted image 20220608135106.png]]
+
 # C to MIPS
 - For loop
 >![[Pasted image 20211209152148.png]]
@@ -102,3 +108,38 @@ sw $t0, $sp
 >![[Pasted image 20211209152258.png]]
 - If then else alternative
 >![[Pasted image 20211209152234.png]]
+
+
+
+
+
+# MIPS error handling
+- Handling in mips is handled by co-processors  
+- Co-processor 0 acts as a parallel exception handler
+>![[Pasted image 20220215111308.png]]
+>![[Pasted image 20220215111332.png]]
+>![[Pasted image 20220215111538.png]]
+- Exception control address:
+> ![[Pasted image 20220215111824.png]]
+> ![[Pasted image 20220215111933.png]] 
+# MIPS polling
+- Constant interrupt handling is inefficient, this can be handled by polling
+>![[Pasted image 20220215114703.png]]
+- MIPS code example:
+>![[Pasted image 20220215114747.png]]
+>![[Pasted image 20220215114801.png]]
+
+
+
+# MIPS OS control
+- MARS is not a full OS but it can schedule processes by being used as a scheduler
+>![[Pasted image 20220215141832.png]]
+## The operating system
+>![[Pasted image 20220215141141.png]]
+>![[Pasted image 20220215141116.png]]
+- Scheduling example:
+>![[Pasted image 20220215141419.png]]
+
+
+# MIPS keyboard input
+>![[Pasted image 20220215112639.png]]

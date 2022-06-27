@@ -4,12 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "6358b920120a326e",
+        "id": "b42eaceef0a3c79e",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "00-Main/Projects.md"
+            "file": "OperatingSystems/Linux_usage.md",
+            "mode": "preview",
+            "source": false
           }
         }
       }
@@ -38,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "inher",
+                "query": "tag:#Null",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,7 +55,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Main/Projects.md",
+                "file": "OperatingSystems/Linux_usage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -70,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Main/Projects.md"
+                "file": "OperatingSystems/Linux_usage.md"
               }
             }
           },
@@ -127,17 +129,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6358b920120a326e",
+  "active": "b42eaceef0a3c79e",
   "lastOpenFiles": [
+    "OperatingSystems/Linux_usage.md",
+    "OperatingSystems/Operating_systems.md",
+    "DigitalSystems/Computer_memory.md",
+    "DigitalSystems/Computer_data.md",
+    "DigitalSystems/Computer_architecture.md",
+    "DigitalSystems/Bitwise_arithmatic.md",
     "00-Main/Projects.md",
-    "00-Main/23-06-2022.md",
-    "01-Programming/Python/Python_language.md",
-    "01-Programming/0_Scraping/Regular_expressions.md",
-    "01-MachineLearning/Gradient_descent.md",
-    "01-MachineLearning/Convolutional_networks.md",
-    "01-MachineLearning/Logistic_regression.md",
-    "01-MachineLearning/Computer_vision.md",
-    "01-Programming/Python/Numpy_library.md",
-    "01-Programming/Python/Pandas_library.md"
+    "00-Main/Scrapnote.md",
+    "00-Main/0-Noteview.md",
+    "00-Main/2-Litnote.md"
   ]
 }
