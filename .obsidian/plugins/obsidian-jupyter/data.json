@@ -1,4 +1,4 @@
 {
-  "pythonInterpreter": "/usr/bin/python",
+  "pythonInterpreter": "/home/adilw/anaconda3/envs/farbros/bin/python",
   "setupScript": "python\n"
 }

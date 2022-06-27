@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "02-GeneralLearning/Math_tricks.md",
+            "file": "DiscreteMath&Algorithms/Algorithm_fundamentals.md",
             "mode": "preview",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "general math",
+                "query": "seq",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -55,7 +55,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-GeneralLearning/Math_tricks.md",
+                "file": "DiscreteMath&Algorithms/Algorithm_fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-GeneralLearning/Math_tricks.md"
+                "file": "DiscreteMath&Algorithms/Algorithm_fundamentals.md"
               }
             }
           },
@@ -84,7 +84,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -122,24 +123,24 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "b42eaceef0a3c79e",
   "lastOpenFiles": [
-    "02-GeneralLearning/Math_tricks.md",
-    "01-MachineLearning/0-GeneralConcepts/General_math.md",
-    "OperatingSystems/Linux_usage.md",
-    "OperatingSystems/Operating_systems.md",
-    "DigitalSystems/Computer_memory.md",
-    "DigitalSystems/Computer_data.md",
-    "DigitalSystems/Computer_architecture.md",
-    "DigitalSystems/Bitwise_arithmatic.md",
-    "00-Main/Projects.md",
-    "00-Main/Scrapnote.md"
+    "DiscreteMath&Algorithms/Algorithm_fundamentals.md",
+    "01-MachineLearning/0-GeneralConcepts/DataProcessing/Handling_categorical_data.md",
+    "01-Programming/Python/Pandas_library.md",
+    "01-Programming/Python/Python_language.md",
+    "01-Programming/Python/Seaborn_library.md",
+    "01-Programming/Python/Python_stats.md",
+    "01-Programming/Python/Pytorch_libarary.md",
+    "01-Programming/Python/Matplotlib_library.md",
+    "01-Programming/Python/Numpy_library.md",
+    "01-MachineLearning/Convolutional_networks.md"
   ]
 }

@@ -5,7 +5,7 @@
   "pythonPath": "/home/adilw/anaconda3/envs/farbros/bin/python",
   "pythonArgs": "",
   "pythonEmbedPlots": true,
-  "shellPath": "bash",
+  "shellPath": "/usr/bin/zsh",
   "shellArgs": "",
   "shellFileExtension": "sh",
   "maxPrologAnswers": 15
