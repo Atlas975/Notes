@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DiscreteMath&Algorithms/Algorithm_fundamentals.md",
+            "file": "01-Programming/Python/Python_language.md",
             "mode": "preview",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "seq",
+                "query": "args",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -55,7 +55,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMath&Algorithms/Algorithm_fundamentals.md",
+                "file": "01-Programming/Python/Python_language.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMath&Algorithms/Algorithm_fundamentals.md"
+                "file": "01-Programming/Python/Python_language.md"
               }
             }
           },
@@ -132,10 +132,10 @@
   },
   "active": "b42eaceef0a3c79e",
   "lastOpenFiles": [
+    "01-Programming/Python/Python_language.md",
     "DiscreteMath&Algorithms/Algorithm_fundamentals.md",
     "01-MachineLearning/0-GeneralConcepts/DataProcessing/Handling_categorical_data.md",
     "01-Programming/Python/Pandas_library.md",
-    "01-Programming/Python/Python_language.md",
     "01-Programming/Python/Seaborn_library.md",
     "01-Programming/Python/Python_stats.md",
     "01-Programming/Python/Pytorch_libarary.md",
