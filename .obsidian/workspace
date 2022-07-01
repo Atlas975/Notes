@@ -7,9 +7,11 @@
         "id": "b42eaceef0a3c79e",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "00-Main/Projects.md"
+            "file": "DigitalSystems/Input_output_system.md",
+            "mode": "preview",
+            "source": false
           }
         }
       }
@@ -53,7 +55,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Main/Projects.md",
+                "file": "DigitalSystems/Input_output_system.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -70,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Main/Projects.md"
+                "file": "DigitalSystems/Input_output_system.md"
               }
             }
           },
@@ -86,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5027313232422,
-    "collapsed": true
+    "width": 237.5027313232422
   },
   "right": {
     "id": "441e4249d5592193",
@@ -131,15 +132,15 @@
   },
   "active": "b42eaceef0a3c79e",
   "lastOpenFiles": [
+    "DigitalSystems/Input_output_system.md",
     "00-Main/Projects.md",
     "00-Main/Scrapnote.md",
-    "01-Programming/Python/Pandas_library.md",
     "01-Programming/Python/Matplotlib_library.md",
+    "01-Programming/Python/Python_stats.md",
+    "01-Programming/Python/Pandas_library.md",
+    "01-Programming/Python/Django_fundementals.md",
+    "00-Main/2-Litnote.md",
     "01-Programming/Rust/Rust_language.md",
-    "01-Programming/Rust/Rust_cargo.md",
-    "01-Programming/Python/Numpy_library.md",
-    "DiscreteMath&Algorithms/Big-O_notation.md",
-    "InformationSystems/Information_systems.md",
-    "DigitalSystems/Computer_architecture.md"
+    "01-Programming/Rust/Rust_cargo.md"
   ]
 }
