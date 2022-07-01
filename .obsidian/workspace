@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DigitalSystems/Input_output_system.md",
+            "file": "OperatingSystems/Linux_usage.md",
             "mode": "preview",
             "source": false
           }
@@ -55,7 +55,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DigitalSystems/Input_output_system.md",
+                "file": "OperatingSystems/Linux_usage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DigitalSystems/Input_output_system.md"
+                "file": "OperatingSystems/Linux_usage.md"
               }
             }
           },
@@ -132,15 +132,15 @@
   },
   "active": "b42eaceef0a3c79e",
   "lastOpenFiles": [
+    "OperatingSystems/Linux_usage.md",
+    "01-Programming/Rust/Rust_language.md",
+    "01-Programming/Rust/Rust_cargo.md",
+    "01-Programming/Python/Pandas_library.md",
+    "01-Programming/Python/Matplotlib_library.md",
     "DigitalSystems/Input_output_system.md",
     "00-Main/Projects.md",
     "00-Main/Scrapnote.md",
-    "01-Programming/Python/Matplotlib_library.md",
     "01-Programming/Python/Python_stats.md",
-    "01-Programming/Python/Pandas_library.md",
-    "01-Programming/Python/Django_fundementals.md",
-    "00-Main/2-Litnote.md",
-    "01-Programming/Rust/Rust_language.md",
-    "01-Programming/Rust/Rust_cargo.md"
+    "01-Programming/Python/Django_fundementals.md"
   ]
 }

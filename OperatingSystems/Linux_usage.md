@@ -87,7 +87,6 @@ gitNew(){
 alias ngit=gitNew;
 alias cgit="git clone $*"
 newCode(){
-    touch $*
     code $*
     clear
     echo -e "\e[0;34m$USER \033[0mcreated\e[1;32m $*\033[0m under \e[1;33m$(pwd | rev | cut -f1 -d'/' - | rev)\033[0m on\e[1;32m $(uname -sr  | cut -f1 -d'-')\033[0m"
@@ -95,17 +94,31 @@ newCode(){
 alias ncode=newCode
 testCode(){
    cd /home/adilw/Dropbox/Adil_Code/TempCode
-   rm $*
-   ncode $*
+   ncode temp.$*
 }
-alias tmpcode=testCode
-alias xclean="sudo rm -rf ~/.local/share/Trash/* ; sudo rm -rf ~/Downloads/*"
-alias fedup="sudo dnf update && sudo dnf upgrade";
+alias tcode=testCode
+clean(){
+    echo -e "\e[0;31m";
+    echo -e "Cleaning system...";
+    sudo dnf autoremove -y;
+    rm -rf /home/adilw/Dropbox/Adil_Code/TempCode/*;
+    rm -rf ~/.local/share/Trash/*;
+    rm -f ~/Downloads/*;
+    rm -f ~/Pictures/*
+}
+alias sysclean=clean
+updating(){
+    echo -e "\e[0;33mChecking for package updates...\e[0m"
+    sudo dnf update -y
+    echo -e "\e[0;33mChecking for package upgrades...\e[0m"
+    sudo dnf upgrade -y
+}
+alias fedup=updating
 alias farbros="conda activate /home/adilw/anaconda3/envs/farbros";
 alias orion="/home/adilw/Dropbox/Adil_Code/Orion; clear; farbros";
 alias notes="/home/adilw/Dropbox/Adil_Notes; clear";
 alias trim="conda deactivate;clear";
-alias home="/home/adilw/; trim; pfetch";
+alias home="cd /home/adilw/; trim; pfetch";
 alias qnote="nano /home/adilw/Dropbox/Adil_Notes/00-Main/1-Litnote.md"
 javaRun(){
 	clear
@@ -125,5 +138,4 @@ newCrate(){
 alias nrus=newCrate;
 newGCCRun(){gcc $*.c; $*}
 alias gcca=newGCCRun;
-export PATH=$PATH:/home/adilw/Dropbox/Adil_Code/LinuxScripts
 ```
