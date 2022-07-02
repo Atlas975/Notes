@@ -7,11 +7,9 @@
         "id": "b42eaceef0a3c79e",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "kanban",
           "state": {
-            "file": "OperatingSystems/Linux_usage.md",
-            "mode": "preview",
-            "source": false
+            "file": "00-Main/Projects.md"
           }
         }
       }
@@ -55,7 +53,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Linux_usage.md",
+                "file": "00-Main/Projects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -72,7 +70,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Linux_usage.md"
+                "file": "00-Main/Projects.md"
               }
             }
           },
@@ -132,13 +130,13 @@
   },
   "active": "b42eaceef0a3c79e",
   "lastOpenFiles": [
+    "00-Main/Projects.md",
     "OperatingSystems/Linux_usage.md",
     "01-Programming/Rust/Rust_language.md",
     "01-Programming/Rust/Rust_cargo.md",
     "01-Programming/Python/Pandas_library.md",
     "01-Programming/Python/Matplotlib_library.md",
     "DigitalSystems/Input_output_system.md",
-    "00-Main/Projects.md",
     "00-Main/Scrapnote.md",
     "01-Programming/Python/Python_stats.md",
     "01-Programming/Python/Django_fundementals.md"
