@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "args",
+                "query": "try ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
