@@ -7,9 +7,11 @@
         "id": "b42eaceef0a3c79e",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "00-Main/Projects.md"
+            "file": "01-Programming/Python/Python_language.md",
+            "mode": "preview",
+            "source": false
           }
         }
       }
@@ -53,7 +55,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Main/Projects.md",
+                "file": "01-Programming/Python/Python_language.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -70,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Main/Projects.md"
+                "file": "01-Programming/Python/Python_language.md"
               }
             }
           },
@@ -82,7 +84,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -130,6 +133,7 @@
   },
   "active": "b42eaceef0a3c79e",
   "lastOpenFiles": [
+    "01-Programming/Python/Python_language.md",
     "00-Main/Projects.md",
     "OperatingSystems/Linux_usage.md",
     "01-Programming/Rust/Rust_language.md",
@@ -138,7 +142,6 @@
     "01-Programming/Python/Matplotlib_library.md",
     "DigitalSystems/Input_output_system.md",
     "00-Main/Scrapnote.md",
-    "01-Programming/Python/Python_stats.md",
-    "01-Programming/Python/Django_fundementals.md"
+    "01-Programming/Python/Python_stats.md"
   ]
 }
