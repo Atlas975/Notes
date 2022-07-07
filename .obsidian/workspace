@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01-Programming/Cpp_language.md",
+            "file": "01-MachineLearning/Computer_vision.md",
             "mode": "preview",
             "source": false
           }
@@ -55,7 +55,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Programming/Cpp_language.md",
+                "file": "01-MachineLearning/Computer_vision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-Programming/Cpp_language.md"
+                "file": "01-MachineLearning/Computer_vision.md"
               }
             }
           },
@@ -132,15 +132,15 @@
   },
   "active": "b42eaceef0a3c79e",
   "lastOpenFiles": [
+    "01-MachineLearning/Computer_vision.md",
+    "01-MachineLearning/Convolutional_networks.md",
+    "01-MachineLearning/Gradient_descent.md",
     "01-Programming/Cpp_language.md",
     "01-Programming/Python/Python_language.md",
     "00-Main/Projects.md",
     "OperatingSystems/Linux_usage.md",
     "01-Programming/Rust/Rust_language.md",
     "01-Programming/Rust/Rust_cargo.md",
-    "01-Programming/Python/Pandas_library.md",
-    "01-Programming/Python/Matplotlib_library.md",
-    "DigitalSystems/Input_output_system.md",
-    "00-Main/Scrapnote.md"
+    "01-Programming/Python/Pandas_library.md"
   ]
 }
