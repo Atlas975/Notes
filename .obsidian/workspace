@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "InformationSystems/Database_fundamental.md",
+            "file": "01-Programming/Rust/Rust_language.md",
             "mode": "preview",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dbms",
+                "query": "rust stri",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -55,7 +55,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InformationSystems/Database_fundamental.md",
+                "file": "01-Programming/Rust/Rust_language.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InformationSystems/Database_fundamental.md"
+                "file": "01-Programming/Rust/Rust_language.md"
               }
             }
           },
@@ -84,7 +84,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -132,6 +133,7 @@
   },
   "active": "b42eaceef0a3c79e",
   "lastOpenFiles": [
+    "01-Programming/Rust/Rust_language.md",
     "InformationSystems/Database_fundamental.md",
     "01-Programming/Git.md",
     "01-Programming/Java_language.md",
@@ -140,7 +142,6 @@
     "01-MachineLearning/0-CoursesPart2/DeepLearningCourse/BinaryClassification.md",
     "01-MachineLearning/Model_metrics.md",
     "01-MachineLearning/Machine_learning_notation.md",
-    "01-MachineLearning/Logistic_regression.md",
-    "01-MachineLearning/Linear_regression.md"
+    "01-MachineLearning/Logistic_regression.md"
   ]
 }
