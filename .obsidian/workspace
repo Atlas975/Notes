@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DigitalSystems/Computer_memory.md",
-            "mode": "preview",
+            "file": "01-Programming/Functional_programming.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -55,7 +55,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DigitalSystems/Computer_memory.md",
+                "file": "01-Programming/Functional_programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DigitalSystems/Computer_memory.md"
+                "file": "01-Programming/Functional_programming.md"
               }
             }
           },
@@ -84,13 +84,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 237.5027313232422,
-    "collapsed": true
+    "width": 237.5027313232422
   },
   "right": {
     "id": "441e4249d5592193",
@@ -134,6 +132,7 @@
   },
   "active": "b42eaceef0a3c79e",
   "lastOpenFiles": [
+    "01-Programming/Functional_programming.md",
     "DigitalSystems/Computer_memory.md",
     "01-Programming/C_language.md",
     "DiscreteMath&Algorithms/Abstract_data_types.md",
@@ -142,7 +141,6 @@
     "DigitalSystems/Boolean_logic.md",
     "DigitalSystems/Bitwise_arithmatic.md",
     "OperatingSystems/Linux_usage.md",
-    "OperatingSystems/Operating_systems.md",
-    "DiscreteMath&Algorithms/Graphs.md"
+    "OperatingSystems/Operating_systems.md"
   ]
 }
