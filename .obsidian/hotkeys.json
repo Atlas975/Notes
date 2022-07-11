@@ -309,5 +309,6 @@
       ],
       "key": "E"
     }
-  ]
+  ],
+  "cycle-through-panes:focus-on-last-active-pane": []
 }

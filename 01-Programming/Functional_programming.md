@@ -32,3 +32,8 @@ function updateMyName(newName) {   
 
 - Advantages include better readability and code independence
 - The external state can also be cloned into a pure function, retaining function purity
+
+
+# Morphism 
+[[Sets]]
+- A Morphism describes the relationship between two objects in a category denoted by [[Propositional_logic#Conditional ->]] 

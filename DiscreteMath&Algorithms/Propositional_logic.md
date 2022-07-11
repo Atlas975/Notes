@@ -1,4 +1,4 @@
-#DiscreteMath 
+2#DiscreteMath 
 # Propositional_logic
 
 -   Statements that can be either true or false but never both.

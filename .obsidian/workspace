@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01-Programming/Functional_programming.md",
+            "file": "DiscreteMath&Algorithms/Propositional_logic.md",
             "mode": "source",
             "source": false
           }
@@ -55,7 +55,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Programming/Functional_programming.md",
+                "file": "DiscreteMath&Algorithms/Propositional_logic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-Programming/Functional_programming.md"
+                "file": "DiscreteMath&Algorithms/Propositional_logic.md"
               }
             }
           },
@@ -132,6 +132,7 @@
   },
   "active": "b42eaceef0a3c79e",
   "lastOpenFiles": [
+    "DiscreteMath&Algorithms/Propositional_logic.md",
     "01-Programming/Functional_programming.md",
     "DigitalSystems/Computer_memory.md",
     "01-Programming/C_language.md",
@@ -140,7 +141,6 @@
     "DigitalSystems/Input_output_system.md",
     "DigitalSystems/Boolean_logic.md",
     "DigitalSystems/Bitwise_arithmatic.md",
-    "OperatingSystems/Linux_usage.md",
-    "OperatingSystems/Operating_systems.md"
+    "OperatingSystems/Linux_usage.md"
   ]
 }
