@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DiscreteMath&Algorithms/Trees.md",
+            "file": "01-Programming/Functional_programming.md",
             "mode": "preview",
             "source": false
           }
@@ -55,7 +55,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMath&Algorithms/Trees.md",
+                "file": "01-Programming/Functional_programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMath&Algorithms/Trees.md"
+                "file": "01-Programming/Functional_programming.md"
               }
             }
           },
@@ -84,8 +84,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
