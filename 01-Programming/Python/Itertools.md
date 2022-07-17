@@ -6,6 +6,8 @@ created: 2022-07-17 18:54
 ---
 [[Python_language]]
 
+- Python library for implementing [[Functional_programming]] 
+
 ## Reduce 
 ```python 
 import functools as ft
