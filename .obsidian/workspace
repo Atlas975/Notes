@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "02-GeneralLearning/Markdown.md",
-            "mode": "source",
+            "file": "01-Programming/C_language.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rust lan",
+                "query": "ascii",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -55,7 +55,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-GeneralLearning/Markdown.md",
+                "file": "01-Programming/C_language.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-GeneralLearning/Markdown.md"
+                "file": "01-Programming/C_language.md"
               }
             }
           },
@@ -84,7 +84,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -132,15 +133,15 @@
   },
   "active": "609e6791ffc6ca82",
   "lastOpenFiles": [
+    "DigitalSystems/Computer_data.md",
+    "02-GeneralLearning/Markdown.md",
     "02-GeneralLearning/Math_tricks.md",
     "01-Programming/Rust/Rust_language.md",
     "01-Programming/C_language.md",
-    "02-GeneralLearning/Markdown.md",
     "01-Programming/Matlab_language.md",
     "01-Programming/Git.md",
     "01-Programming/HTML.md",
     "01-Programming/Javascript_language.md",
-    "01-Programming/R_language.md",
-    "01-Programming/MIPS_assembly_language.md"
+    "01-Programming/R_language.md"
   ]
 }
