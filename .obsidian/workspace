@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01-Programming/Python/Itertools_library.md",
-            "mode": "preview",
+            "file": "DiscreteMath&Algorithms/Catalan_numbers.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "memory",
+                "query": "composi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -55,7 +55,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Programming/Python/Itertools_library.md",
+                "file": "DiscreteMath&Algorithms/Catalan_numbers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-Programming/Python/Itertools_library.md"
+                "file": "DiscreteMath&Algorithms/Catalan_numbers.md"
               }
             }
           },
@@ -132,15 +132,15 @@
   },
   "active": "4b53d56c0d267239",
   "lastOpenFiles": [
+    "01-Programming/0_core_concepts/OOP_principles.md",
+    "01-Programming/Python/Itertools_library.md",
     "DigitalSystems/Computer_memory.md",
     "DigitalSystems/Computer_data.md",
     "DiscreteMath&Algorithms/Abstract_data_types.md",
     "01-Programming/C_language.md",
-    "01-Programming/Python/Itertools_library.md",
     "01-Programming/Cpp_language.md",
     "01-Programming/0_core_concepts/Functional_programming.md",
     "01-MachineLearning/Machine_learning_notation.md",
-    "01-MachineLearning/Logistic_regression.md",
-    "01-MachineLearning/Linear_regression.md"
+    "01-MachineLearning/Logistic_regression.md"
   ]
 }
