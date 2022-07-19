@@ -1,5 +1,9 @@
-2#DiscreteMath 
+
 # Propositional_logic
+created: 2022-07-19 17:15
+#DiscreteMath 
+
+---
 
 -   Statements that can be either true or false but never both.
 

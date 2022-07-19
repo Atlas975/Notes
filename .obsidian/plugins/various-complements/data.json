@@ -51,171 +51,11 @@
         }
       }
     },
-    "Operation_counting": {
-      "Operation_counting": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1655478952458
-        }
-      }
-    },
-    "representation": {
-      "representation": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1655142914951
-        }
-      }
-    },
-    "Injective": {
-      "Injective": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1655190657122
-        }
-      }
-    },
-    "Keynesian_model": {
-      "Keynesian_model": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1655468187758
-        }
-      }
-    },
-    "Relations": {
-      "Relations": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1655537516837
-        }
-      }
-    },
-    "Terminal": {
-      "Terminal": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1655564596980
-        }
-      }
-    },
-    "Propositional_logic": {
-      "Propositional_logic": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1655565292681
-        }
-      }
-    },
-    "Linux_usage": {
-      "Linux_usage": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1655565538879
-        }
-      }
-    },
-    "Data_fundementals": {
-      "Data_fundementals": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1655627951963
-        }
-      }
-    },
-    "SQL": {
-      "SQL": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1655628313865
-        }
-      }
-    },
-    "keynesian": {
-      "keynesian": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1655631864455
-        }
-      }
-    },
-    "De_Morgans_law": {
-      "De_Morgans_law": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1655642494201
-        }
-      }
-    },
-    "complement": {
-      "complement": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1655642897398
-        }
-      }
-    },
-    "new_function": {
-      "new_function": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1655681895554
-        }
-      }
-    },
-    "\\frac{e^{y-y": {
-      "\\frac{e^{y-y": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1655684999030
-        }
-      }
-    },
     "notation": {
       "notation": {
         "currentFile": {
           "count": 2,
           "lastUpdated": 1655817632180
-        }
-      }
-    },
-    "Error_analysis": {
-      "Error_analysis": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1655728346037
-        }
-      }
-    },
-    "irreducible": {
-      "irreducible": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1655726560704
-        }
-      }
-    },
-    "F_score": {
-      "F_score": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1655727764586
-        }
-      }
-    },
-    "Statistical_modeling": {
-      "Statistical_modeling": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1655738448452
-        }
-      }
-    },
-    "decay": {
-      "decay": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1655801769970
         }
       }
     },
@@ -352,6 +192,14 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1657532934371
+        }
+      }
+    },
+    "classDiagram": {
+      "classDiagram": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1658236795490
         }
       }
     }

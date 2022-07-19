@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "4b53d56c0d267239",
+        "id": "3093962a09df1da5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DiscreteMath&Algorithms/Catalan_numbers.md",
-            "mode": "source",
+            "file": "02-GeneralLearning/Markdown.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -55,7 +55,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMath&Algorithms/Catalan_numbers.md",
+                "file": "02-GeneralLearning/Markdown.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMath&Algorithms/Catalan_numbers.md"
+                "file": "02-GeneralLearning/Markdown.md"
               }
             }
           },
@@ -130,17 +130,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4b53d56c0d267239",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
-    "01-Programming/0_core_concepts/OOP_principles.md",
-    "01-Programming/Python/Itertools_library.md",
-    "DigitalSystems/Computer_memory.md",
-    "DigitalSystems/Computer_data.md",
+    "02-GeneralLearning/Math_tricks.md",
+    "02-GeneralLearning/Markdown.md",
+    "DiscreteMath&Algorithms/Recursion.md",
+    "DiscreteMath&Algorithms/Propositional_logic.md",
     "DiscreteMath&Algorithms/Abstract_data_types.md",
-    "01-Programming/C_language.md",
-    "01-Programming/Cpp_language.md",
+    "01-Programming/0_core_concepts/Search_algorithms.md",
+    "01-Programming/0_core_concepts/OOP_principles.md",
     "01-Programming/0_core_concepts/Functional_programming.md",
-    "01-MachineLearning/Machine_learning_notation.md",
-    "01-MachineLearning/Logistic_regression.md"
+    "01-Programming/0_core_concepts/Sorting_algorithms.md",
+    "DiscreteMath&Algorithms/Catalan_numbers.md"
   ]
 }
