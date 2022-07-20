@@ -22,14 +22,14 @@ Collections.shuffle(Arrays.asList(array))
 
  
  # Pausing program
-```
+```java
 import java.lang.Thread;
 Thread.sleep(1);   // Note that this is in milliseconds
 ```
 
 # Multithreading
 - Allows for parallel processing
-```
+```java
 public class Collide_sim {  
  	public static void main(String args[]){    
  		for(int i=0; i<10; i++){  
@@ -40,7 +40,7 @@ public class Collide_sim {
  }
 ```
 
-```
+```java
 public class Movement extends Thread {  
 	private int threadNum;  
 	public Movement(int num){  
