@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01-Programming/Python/Numpy_library.md",
+            "file": "01-Programming/0_core_concepts/Search_algorithms.md",
             "mode": "preview",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "composi",
+                "query": "bash",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -55,7 +55,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Programming/Python/Numpy_library.md",
+                "file": "01-Programming/0_core_concepts/Search_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-Programming/Python/Numpy_library.md"
+                "file": "01-Programming/0_core_concepts/Search_algorithms.md"
               }
             }
           },
@@ -130,17 +130,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "61b6b073dac95afd",
+  "active": "3093962a09df1da5",
   "lastOpenFiles": [
+    "01-Programming/Bash.md",
     "01-Programming/Python/Itertools_library.md",
+    "01-Programming/Python/Numpy_library.md",
+    "01-Programming/Python/Pandas_library.md",
     "01-Programming/Python/Python_language.md",
     "01-Programming/Rust/Rust_language.md",
     "DiscreteMath&Algorithms/Propositional_logic.md",
     "DiscreteMath&Algorithms/Graphs.md",
     "OperatingSystems/Operating_systems.md",
-    "02-GeneralLearning/Markdown.md",
-    "02-GeneralLearning/Math_tricks.md",
-    "DiscreteMath&Algorithms/Recursion.md",
-    "DiscreteMath&Algorithms/Abstract_data_types.md"
+    "02-GeneralLearning/Markdown.md"
   ]
 }
