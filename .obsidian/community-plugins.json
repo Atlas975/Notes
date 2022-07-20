@@ -1,6 +1,5 @@
 [
   "obsidian-autocomplete-plugin",
-  "code-block-copy",
   "obsidian-git",
   "obsidian-mind-map",
   "dataview",
@@ -28,5 +27,7 @@
   "obsidian-related-notes-finder",
   "obsidian-kanban",
   "calendar",
-  "periodic-notes"
+  "periodic-notes",
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-better-codeblock"
 ]

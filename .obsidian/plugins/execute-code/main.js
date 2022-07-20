@@ -37180,9 +37180,8 @@ var ExecuteCodePlugin = class extends import_obsidian2.Plugin {
             button.className = runButtonDisabledClass;
             let codeText = codeBlock.getText();
             if (this.settings.pythonEmbedPlots) {
-              const showPlot = `import io; __obsidian_execute_code_temp_pyplot_var__=io.StringIO(); plt.plot(); plt.savefig(__obsidian_execute_code_temp_pyplot_var__, format='svg'); plt.close(); print(f"<div align=\\"center\\">{__obsidian_execute_code_temp_pyplot_var__.getvalue()}</div>");`;
-              codeText = codeText.replace(/plt\.show\(\);/g, showPlot);
-              codeText = codeText.replace(/plt\.show\(\)/g, showPlot + ";");
+              const showPlot = `import io; __obsidian_execute_code_temp_pyplot_var__=io.StringIO(); plt.plot(); plt.savefig(__obsidian_execute_code_temp_pyplot_var__, format='svg'); plt.close(); print(f"<div align=\\"center\\">{__obsidian_execute_code_temp_pyplot_var__.getvalue()}</div>")`;
+              codeText = codeText.replace(/plt\.show\(\)/g, showPlot);
             }
             this.runCode(codeText, out, button, this.settings.pythonPath, this.settings.pythonArgs, "py");
           });
