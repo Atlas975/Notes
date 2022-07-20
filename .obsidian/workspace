@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "02-GeneralLearning/Markdown.md",
+            "file": "DiscreteMath&Algorithms/Propositional_logic.md",
             "mode": "preview",
             "source": false
           }
@@ -55,7 +55,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-GeneralLearning/Markdown.md",
+                "file": "DiscreteMath&Algorithms/Propositional_logic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-GeneralLearning/Markdown.md"
+                "file": "DiscreteMath&Algorithms/Propositional_logic.md"
               }
             }
           },
@@ -130,17 +130,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "61b6b073dac95afd",
+  "active": "3093962a09df1da5",
   "lastOpenFiles": [
-    "02-GeneralLearning/Math_tricks.md",
+    "DiscreteMath&Algorithms/Graphs.md",
+    "OperatingSystems/Operating_systems.md",
     "02-GeneralLearning/Markdown.md",
+    "02-GeneralLearning/Math_tricks.md",
     "DiscreteMath&Algorithms/Recursion.md",
     "DiscreteMath&Algorithms/Propositional_logic.md",
     "DiscreteMath&Algorithms/Abstract_data_types.md",
     "01-Programming/0_core_concepts/Search_algorithms.md",
     "01-Programming/0_core_concepts/OOP_principles.md",
-    "01-Programming/0_core_concepts/Functional_programming.md",
-    "01-Programming/0_core_concepts/Sorting_algorithms.md",
-    "DiscreteMath&Algorithms/Catalan_numbers.md"
+    "01-Programming/0_core_concepts/Functional_programming.md"
   ]
 }
