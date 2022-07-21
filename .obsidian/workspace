@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01-Programming/Bash.md",
+            "file": "01-Programming/Python/Itertools_library.md",
             "mode": "preview",
             "source": false
           }
@@ -55,7 +55,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Programming/Bash.md",
+                "file": "01-Programming/Python/Itertools_library.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-Programming/Bash.md"
+                "file": "01-Programming/Python/Itertools_library.md"
               }
             }
           },
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5027313232422,
-    "collapsed": true
+    "width": 237.5027313232422
   },
   "right": {
     "id": "441e4249d5592193",
@@ -133,15 +132,15 @@
   },
   "active": "080547ef284557f2",
   "lastOpenFiles": [
+    "01-Programming/Python/Pytorch_libarary.md",
+    "01-Programming/Python/Seaborn_library.md",
+    "01-Programming/Python/Python_language.md",
+    "01-Programming/Python/Python_stats.md",
+    "01-Programming/Python/Pandas_library.md",
     "01-Programming/Bash.md",
+    "OperatingSystems/Linux_usage.md",
     "01-Programming/Java_language.md",
     "01-Programming/0_core_concepts/Search_algorithms.md",
-    "01-Programming/Python/Itertools_library.md",
-    "01-Programming/Python/Numpy_library.md",
-    "01-Programming/Python/Pandas_library.md",
-    "01-Programming/Python/Python_language.md",
-    "01-Programming/Rust/Rust_language.md",
-    "DiscreteMath&Algorithms/Propositional_logic.md",
-    "DiscreteMath&Algorithms/Graphs.md"
+    "01-Programming/Python/Itertools_library.md"
   ]
 }
