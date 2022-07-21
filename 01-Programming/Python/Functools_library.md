@@ -1,9 +1,10 @@
 
-# Itertools
-created: 2022-07-17 18:54
+# Functools_library
+created: 2022-07-21 12:44
 #Programming 
 
 ---
+
 [[Python_language]]
 
 - Python library for implementing [[Functional_programming]] 
