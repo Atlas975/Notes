@@ -51,30 +51,6 @@
         }
       }
     },
-    "notation": {
-      "notation": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1655817632180
-        }
-      }
-    },
-    "Backpropagation": {
-      "Backpropagation": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1655825631721
-        }
-      }
-    },
-    "Padding": {
-      "Padding": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1655816846304
-        }
-      }
-    },
     "convolution": {
       "convolution": {
         "currentFile": {
@@ -88,14 +64,6 @@
         "currentFile": {
           "count": 6,
           "lastUpdated": 1656020847514
-        }
-      }
-    },
-    "descent": {
-      "descent": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1655823809175
         }
       }
     },
@@ -200,6 +168,14 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1658236795490
+        }
+      }
+    },
+    "Permutations": {
+      "Permutations": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1658415117545
         }
       }
     }
