@@ -13,7 +13,7 @@ $$ r = \text{number of choosing objects from the set}$$
 
 ## Combinations
 
-> $$\mathcal{C(n,r)} = \frac{n!}{r!(n-r)!}$$
+> $$\mathcal{C(n,r)} = \frac{n!}{r!(n-r)!}=\binom{n}{r}$$
 $$ n = \text{total number of objects in the set}$$
 $$ r = \text{number of choosing objects from the set}$$
 
