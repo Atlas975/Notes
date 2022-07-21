@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "080547ef284557f2",
+        "id": "83fc544d61e07e2c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "ContinuousMath/Catalan_numbers.md",
             "mode": "preview",
-            "source": false
+            "source": true
           }
         }
       }
@@ -130,17 +130,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "080547ef284557f2",
+  "active": "83fc544d61e07e2c",
   "lastOpenFiles": [
+    "01-Programming/MIPS_assembly_language.md",
     "ContinuousMath/Catalan_numbers.md",
-    "Algorithms&ADTs/Abstract_data_types.md",
-    "DiscreteMath/Sets.md",
-    "DiscreteMath/Relations.md",
-    "DiscreteMath/Propositional_logic.md",
-    "DiscreteMath/Predicate_logic.md",
-    "DiscreteMath/Inference_rules.md",
-    "DiscreteMath/Graphs.md",
-    "DiscreteMath/Functions.md",
-    "DiscreteMath/De_Morgans_law.md"
+    "01-Programming/Bash.md",
+    "DigitalSystems/Computer_architecture.md",
+    "DigitalSystems/Computer_data.md",
+    "DigitalSystems/InstructionSet_architecture.md",
+    "DigitalSystems/Input_output_system.md",
+    "DigitalSystems/DigitalSystem_design.md",
+    "DigitalSystems/Bitwise_arithmatic.md",
+    "02-GeneralLearning/Math_tricks.md"
   ]
 }
