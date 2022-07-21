@@ -12,7 +12,6 @@ $$ r = \text{number of choosing objects from the set}$$
 - Results in the number of ways to order n items in r ways
 
 ## Combinations
-- The number of combinations can be represented by the formula:
 
 > $$\mathcal{C(n,r)} = \frac{n!}{r!(n-r)!}$$
 $$ n = \text{total number of objects in the set}$$
