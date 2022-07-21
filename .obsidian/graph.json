@@ -76,6 +76,13 @@
         "a": 1,
         "rgb": 14701138
       }
+    },
+    {
+      "query": "tag:#ContinuousMath",
+      "color": {
+        "a": 1,
+        "rgb": 5431518
+      }
     }
   ],
   "collapse-display": true,
@@ -88,6 +95,6 @@
   "repelStrength": 17.1720408572001,
   "linkStrength": 0.674878162761199,
   "linkDistance": 203,
-  "scale": 0.20569022960633332,
+  "scale": 0.2616507542104127,
   "close": false
 }

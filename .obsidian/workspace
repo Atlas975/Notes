@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01-Programming/Python/Functools_library.md",
+            "file": "ContinuousMath/Catalan_numbers.md",
             "mode": "preview",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bash",
+                "query": "tag:#ContinuousMath",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -55,7 +55,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Programming/Python/Functools_library.md",
+                "file": "ContinuousMath/Catalan_numbers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-Programming/Python/Functools_library.md"
+                "file": "ContinuousMath/Catalan_numbers.md"
               }
             }
           },
@@ -132,15 +132,15 @@
   },
   "active": "080547ef284557f2",
   "lastOpenFiles": [
-    "01-Programming/Python/Pytorch_libarary.md",
-    "01-Programming/Python/Seaborn_library.md",
-    "01-Programming/Python/Python_language.md",
-    "01-Programming/Python/Python_stats.md",
-    "01-Programming/Python/Pandas_library.md",
-    "01-Programming/Bash.md",
-    "OperatingSystems/Linux_usage.md",
-    "01-Programming/Java_language.md",
-    "01-Programming/0_core_concepts/Search_algorithms.md",
-    "01-Programming/Python/Functools_library.md"
+    "ContinuousMath/Catalan_numbers.md",
+    "Algorithms&ADTs/Abstract_data_types.md",
+    "DiscreteMath/Sets.md",
+    "DiscreteMath/Relations.md",
+    "DiscreteMath/Propositional_logic.md",
+    "DiscreteMath/Predicate_logic.md",
+    "DiscreteMath/Inference_rules.md",
+    "DiscreteMath/Graphs.md",
+    "DiscreteMath/Functions.md",
+    "DiscreteMath/De_Morgans_law.md"
   ]
 }
