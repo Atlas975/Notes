@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cd7f4882d7e01e2a",
+        "id": "05ec0c81df2eee3e",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Algorithms&ADTs/Trees.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -40,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "permu",
+                "query": "binary search",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -55,7 +51,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms&ADTs/Trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -71,9 +66,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Algorithms&ADTs/Trees.md"
-              }
+              "state": {}
             }
           },
           {
@@ -84,7 +77,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -130,8 +124,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "cd7f4882d7e01e2a",
+  "active": "05ec0c81df2eee3e",
   "lastOpenFiles": [
+    "01-Programming/0_core_concepts/Search_algorithms.md",
+    "Algorithms&ADTs/Trees.md",
     "Algorithms&ADTs/Big-O_notation.md",
     "Algorithms&ADTs/DataStorage&Retrieval.md",
     "Algorithms&ADTs/Omega&Theta_Notation.md",
@@ -139,8 +135,6 @@
     "01-Programming/MIPS_assembly_language.md",
     "01-Programming/Bash.md",
     "DigitalSystems/Computer_architecture.md",
-    "DigitalSystems/Computer_data.md",
-    "DigitalSystems/InstructionSet_architecture.md",
-    "DigitalSystems/Input_output_system.md"
+    "DigitalSystems/Computer_data.md"
   ]
 }
