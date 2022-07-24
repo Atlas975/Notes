@@ -7,8 +7,12 @@
         "id": "05ec0c81df2eee3e",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "00-Main/1-Litnote.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -51,6 +55,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "00-Main/1-Litnote.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -66,7 +71,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "00-Main/1-Litnote.md"
+              }
             }
           },
           {
@@ -77,8 +84,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
