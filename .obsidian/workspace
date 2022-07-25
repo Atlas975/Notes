@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "00-Main/1-Litnote.md",
+            "file": "Algorithms&ADTs/Trees.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "binary search",
+                "query": "traversal",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -55,7 +55,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Main/1-Litnote.md",
+                "file": "Algorithms&ADTs/Trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Main/1-Litnote.md"
+                "file": "Algorithms&ADTs/Trees.md"
               }
             }
           },
@@ -84,7 +84,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -132,6 +133,7 @@
   },
   "active": "05ec0c81df2eee3e",
   "lastOpenFiles": [
+    "00-Main/1-Litnote.md",
     "01-Programming/0_core_concepts/Search_algorithms.md",
     "Algorithms&ADTs/Trees.md",
     "Algorithms&ADTs/Big-O_notation.md",
@@ -140,7 +142,6 @@
     "ContinuousMath/Catalan_numbers.md",
     "01-Programming/MIPS_assembly_language.md",
     "01-Programming/Bash.md",
-    "DigitalSystems/Computer_architecture.md",
-    "DigitalSystems/Computer_data.md"
+    "DigitalSystems/Computer_architecture.md"
   ]
 }
