@@ -84,8 +84,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -131,7 +130,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "05ec0c81df2eee3e",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
     "00-Main/1-Litnote.md",
     "01-Programming/0_core_concepts/Search_algorithms.md",
