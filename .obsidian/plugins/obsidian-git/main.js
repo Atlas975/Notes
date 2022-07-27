@@ -1322,6 +1322,9 @@ var require_base = __commonJS({
         var newLen = newString.length, oldLen = oldString.length;
         var editLength = 1;
         var maxEditLength = newLen + oldLen;
+        if (options.maxEditLength) {
+          maxEditLength = Math.min(maxEditLength, options.maxEditLength);
+        }
         var bestPath = [{
           newPos: -1,
           components: []
@@ -2128,6 +2131,9 @@ var require_create = __commonJS({
         options.context = 4;
       }
       var diff = (0, _line.diffLines)(oldStr, newStr, options);
+      if (!diff) {
+        return;
+      }
       diff.push({
         value: "",
         lines: []
@@ -11093,10 +11099,11 @@ var SimpleGit = class extends GitManager {
       return res;
     });
   }
-  stage(filepath) {
+  stage(path3, relativeToVault) {
     return __async(this, null, function* () {
       this.plugin.setState(PluginState.add);
-      yield this.git.add(["--", filepath], (err) => this.onError(err));
+      path3 = this.getPath(path3, relativeToVault);
+      yield this.git.add(["--", path3], (err) => this.onError(err));
       this.plugin.setState(PluginState.idle);
     });
   }
@@ -11114,10 +11121,11 @@ var SimpleGit = class extends GitManager {
       this.plugin.setState(PluginState.idle);
     });
   }
-  unstage(filepath) {
+  unstage(path3, relativeToVault) {
     return __async(this, null, function* () {
       this.plugin.setState(PluginState.add);
-      yield this.git.reset(["--", filepath], (err) => this.onError(err));
+      path3 = this.getPath(path3, relativeToVault);
+      yield this.git.reset(["--", path3], (err) => this.onError(err));
       this.plugin.setState(PluginState.idle);
     });
   }
@@ -11216,16 +11224,21 @@ var SimpleGit = class extends GitManager {
       };
     });
   }
-  log(file, relativeToRepo = false) {
+  getRemoteUrl(remote) {
     return __async(this, null, function* () {
-      const path3 = relativeToRepo && this.plugin.settings.basePath ? file : file == null ? void 0 : file.substring(this.plugin.settings.basePath.length + 1);
+      return (yield this.git.remote(["get-url", remote], (err, url) => this.onError(err))) || void 0;
+    });
+  }
+  log(file, relativeToVault = true) {
+    return __async(this, null, function* () {
+      const path3 = this.getPath(file, relativeToVault);
       const res = yield this.git.log({ file: path3 }, (err) => this.onError(err));
       return res.all;
     });
   }
-  show(commitHash, file, relativeToRepo = false) {
+  show(commitHash, file, relativeToVault = true) {
     return __async(this, null, function* () {
-      const path3 = relativeToRepo && this.plugin.settings.basePath ? file : file.substring(this.plugin.settings.basePath.length + 1);
+      const path3 = this.getPath(file, relativeToVault);
       return this.git.show([commitHash + ":" + path3], (err) => this.onError(err));
     });
   }
@@ -11272,6 +11285,8 @@ var SimpleGit = class extends GitManager {
   getRemoteBranches(remote) {
     return __async(this, null, function* () {
       const res = yield this.git.branch(["-r", "--list", `${remote}*`], (err) => this.onError(err));
+      console.log(remote);
+      console.log(res);
       const list = [];
       for (var item in res.branches) {
         list.push(res.branches[item].name);
@@ -11304,6 +11319,9 @@ var SimpleGit = class extends GitManager {
   }
   updateBasePath(basePath) {
     this.setGitInstance(true);
+  }
+  getPath(path3, relativeToVault) {
+    return relativeToVault && this.plugin.settings.basePath.length > 0 ? path3.substring(this.plugin.settings.basePath.length + 1) : path3;
   }
   getDiffString(filePath, stagedChanges = false) {
     return __async(this, null, function* () {
@@ -12382,7 +12400,7 @@ function instance($$self, $$props, $$invalidate) {
     }
   }
   function stage() {
-    manager.stage(change.path).finally(() => {
+    manager.stage(change.path, false).finally(() => {
       dispatchEvent(new CustomEvent("git-refresh"));
     });
   }
@@ -12671,7 +12689,7 @@ function instance2($$self, $$props, $$invalidate) {
     }
   }
   function unstage() {
-    manager.unstage(change.path).finally(() => {
+    manager.unstage(change.path, false).finally(() => {
       dispatchEvent(new CustomEvent("git-refresh"));
     });
   }
@@ -14170,12 +14188,18 @@ function instance4($$self, $$props, $$invalidate) {
     removeEventListener("git-view-refresh", refresh);
   });
   function commit() {
-    $$invalidate(4, loading = true);
-    plugin.gitManager.commit(commitMessage).then(() => {
-      if (commitMessage !== plugin.settings.commitMessage) {
-        $$invalidate(6, commitMessage = "");
+    return __awaiter(this, void 0, void 0, function* () {
+      $$invalidate(4, loading = true);
+      if (yield plugin.hasTooBigFiles(status.staged)) {
+        plugin.setState(PluginState.idle);
+        return false;
       }
-    }).finally(triggerRefresh);
+      plugin.gitManager.commit(commitMessage).then(() => {
+        if (commitMessage !== plugin.settings.commitMessage) {
+          $$invalidate(6, commitMessage = "");
+        }
+      }).finally(triggerRefresh);
+    });
   }
   function refresh() {
     return __awaiter(this, void 0, void 0, function* () {
@@ -14396,22 +14420,6 @@ var ObsidianGit = class extends import_obsidian15.Plugin {
       console.log("loading " + this.manifest.name + " plugin");
       yield this.loadSettings();
       this.migrateSettings();
-      this.modifyEvent = this.app.vault.on("modify", () => {
-        this.debRefresh();
-      });
-      this.deleteEvent = this.app.vault.on("delete", () => {
-        this.debRefresh();
-      });
-      this.createEvent = this.app.vault.on("create", () => {
-        this.debRefresh();
-      });
-      this.renameEvent = this.app.vault.on("rename", () => {
-        this.debRefresh();
-      });
-      this.registerEvent(this.modifyEvent);
-      this.registerEvent(this.deleteEvent);
-      this.registerEvent(this.createEvent);
-      this.registerEvent(this.renameEvent);
       addEventListener("git-refresh", this.refresh.bind(this));
       this.registerView(GIT_VIEW_CONFIG.type, (leaf) => {
         return new GitView2(leaf, this);
@@ -14483,6 +14491,28 @@ var ObsidianGit = class extends import_obsidian15.Plugin {
         id: "push2",
         name: "Push",
         callback: () => this.promiseQueue.addTask(() => this.push())
+      });
+      this.addCommand({
+        id: "stage-current-file",
+        name: "Stage current file",
+        checkCallback: (checking) => {
+          if (checking) {
+            return this.app.workspace.getActiveFile() !== null;
+          } else {
+            this.promiseQueue.addTask(() => this.stageCurrentFile());
+          }
+        }
+      });
+      this.addCommand({
+        id: "unstage-current-file",
+        name: "Unstage current file",
+        checkCallback: (checking) => {
+          if (checking) {
+            return this.app.workspace.getActiveFile() !== null;
+          } else {
+            this.promiseQueue.addTask(() => this.unstageCurrentFile());
+          }
+        }
       });
       this.addCommand({
         id: "edit-remotes",
@@ -14604,6 +14634,22 @@ var ObsidianGit = class extends import_obsidian15.Plugin {
           case "valid":
             this.gitReady = true;
             this.setState(PluginState.idle);
+            this.modifyEvent = this.app.vault.on("modify", () => {
+              this.debRefresh();
+            });
+            this.deleteEvent = this.app.vault.on("delete", () => {
+              this.debRefresh();
+            });
+            this.createEvent = this.app.vault.on("create", () => {
+              this.debRefresh();
+            });
+            this.renameEvent = this.app.vault.on("rename", () => {
+              this.debRefresh();
+            });
+            this.registerEvent(this.modifyEvent);
+            this.registerEvent(this.deleteEvent);
+            this.registerEvent(this.createEvent);
+            this.registerEvent(this.renameEvent);
             dispatchEvent(new CustomEvent("git-refresh"));
             if (this.settings.autoPullOnBoot) {
               this.promiseQueue.addTask(() => this.pullChangesFromRemote());
@@ -14720,6 +14766,10 @@ var ObsidianGit = class extends import_obsidian15.Plugin {
       } else {
         status = yield this.gitManager.status();
       }
+      if (yield this.hasTooBigFiles([...status.staged, ...status.changed])) {
+        this.setState(PluginState.idle);
+        return false;
+      }
       const changedFiles = status.changed.length + status.staged.length;
       if (changedFiles !== 0) {
         let commitMessage = fromAutoBackup ? this.settings.autoCommitMessage : this.settings.commitMessage;
@@ -14743,6 +14793,30 @@ var ObsidianGit = class extends import_obsidian15.Plugin {
       dispatchEvent(new CustomEvent("git-refresh"));
       this.setState(PluginState.idle);
       return true;
+    });
+  }
+  hasTooBigFiles(files) {
+    return __async(this, null, function* () {
+      var _a2;
+      const branchInfo = yield this.gitManager.branchInfo();
+      const remote = (_a2 = branchInfo.tracking) == null ? void 0 : _a2.split("/")[0];
+      if (remote) {
+        const remoteUrl = yield this.gitManager.getRemoteUrl(remote);
+        if (remoteUrl.includes("github.com")) {
+          const tooBigFiles = files.filter((f) => {
+            const file = this.app.vault.getAbstractFileByPath(f.vault_path);
+            if (file instanceof import_obsidian15.TFile) {
+              return file.stat.size >= 1e8;
+            }
+            return false;
+          });
+          if (tooBigFiles.length > 0) {
+            this.displayError(`Did not commit, because following files are too big: ${tooBigFiles.map((e) => e.vault_path)}. Please remove them.`);
+            return true;
+          }
+        }
+      }
+      return false;
     });
   }
   push() {
@@ -14782,6 +14856,30 @@ var ObsidianGit = class extends import_obsidian15.Plugin {
         this.displayMessage(`Pulled ${pulledFilesLength} ${pulledFilesLength > 1 ? "files" : "file"} from remote`);
       }
       return pulledFilesLength != 0;
+    });
+  }
+  stageCurrentFile() {
+    return __async(this, null, function* () {
+      if (!(yield this.isAllInitialized()))
+        return false;
+      const file = this.app.workspace.getActiveFile();
+      yield this.gitManager.stage(file.path, true);
+      this.displayMessage(`Staged ${file.path}`);
+      dispatchEvent(new CustomEvent("git-refresh"));
+      this.setState(PluginState.idle);
+      return true;
+    });
+  }
+  unstageCurrentFile() {
+    return __async(this, null, function* () {
+      if (!(yield this.isAllInitialized()))
+        return false;
+      const file = this.app.workspace.getActiveFile();
+      yield this.gitManager.unstage(file.path, true);
+      this.displayMessage(`Unstaged ${file.path}`);
+      dispatchEvent(new CustomEvent("git-refresh"));
+      this.setState(PluginState.idle);
+      return true;
     });
   }
   remotesAreSet() {
