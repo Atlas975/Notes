@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01-Programming/Bash.md",
+            "file": "01-Programming/SQL_language.md",
             "mode": "preview",
             "source": true
           }
@@ -55,7 +55,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Programming/Bash.md",
+                "file": "01-Programming/SQL_language.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-Programming/Bash.md"
+                "file": "01-Programming/SQL_language.md"
               }
             }
           },
@@ -132,6 +132,7 @@
   },
   "active": "05ec0c81df2eee3e",
   "lastOpenFiles": [
+    "01-Programming/Bash.md",
     "Algorithms&ADTs/Trees.md",
     "00-Main/1-Litnote.md",
     "01-Programming/0_core_concepts/Search_algorithms.md",
@@ -140,7 +141,6 @@
     "Algorithms&ADTs/Omega&Theta_Notation.md",
     "ContinuousMath/Catalan_numbers.md",
     "01-Programming/MIPS_assembly_language.md",
-    "01-Programming/Bash.md",
     "DigitalSystems/Computer_architecture.md"
   ]
 }
