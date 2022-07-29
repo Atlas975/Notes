@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01-Programming/SQL_language.md",
-            "mode": "preview",
+            "file": "01-MachineLearning/Activation_functions.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -55,7 +55,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Programming/SQL_language.md",
+                "file": "01-MachineLearning/Activation_functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-Programming/SQL_language.md"
+                "file": "01-MachineLearning/Activation_functions.md"
               }
             }
           },
@@ -132,15 +132,15 @@
   },
   "active": "05ec0c81df2eee3e",
   "lastOpenFiles": [
+    "01-MachineLearning/Computer_vision.md",
+    "01-MachineLearning/Regularization.md",
+    "01-MachineLearning/Model_metrics.md",
+    "01-MachineLearning/Machine_learning_notation.md",
+    "01-MachineLearning/Linear_regression.md",
+    "01-MachineLearning/Convolutional_networks.md",
+    "01-Programming/SQL_language.md",
     "01-Programming/Bash.md",
     "Algorithms&ADTs/Trees.md",
-    "00-Main/1-Litnote.md",
-    "01-Programming/0_core_concepts/Search_algorithms.md",
-    "Algorithms&ADTs/Big-O_notation.md",
-    "Algorithms&ADTs/DataStorage&Retrieval.md",
-    "Algorithms&ADTs/Omega&Theta_Notation.md",
-    "ContinuousMath/Catalan_numbers.md",
-    "01-Programming/MIPS_assembly_language.md",
-    "DigitalSystems/Computer_architecture.md"
+    "00-Main/1-Litnote.md"
   ]
 }
