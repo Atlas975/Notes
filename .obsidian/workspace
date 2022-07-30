@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01-MachineLearning/Activation_functions.md",
-            "mode": "source",
+            "file": "01-MachineLearning/Model_metrics.md",
+            "mode": "preview",
             "source": true
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "traversal",
+                "query": "activation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -55,7 +55,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-MachineLearning/Activation_functions.md",
+                "file": "01-MachineLearning/Model_metrics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-MachineLearning/Activation_functions.md"
+                "file": "01-MachineLearning/Model_metrics.md"
               }
             }
           },
@@ -132,15 +132,15 @@
   },
   "active": "05ec0c81df2eee3e",
   "lastOpenFiles": [
-    "01-MachineLearning/Computer_vision.md",
-    "01-MachineLearning/Regularization.md",
-    "01-MachineLearning/Model_metrics.md",
-    "01-MachineLearning/Machine_learning_notation.md",
     "01-MachineLearning/Linear_regression.md",
-    "01-MachineLearning/Convolutional_networks.md",
-    "01-Programming/SQL_language.md",
-    "01-Programming/Bash.md",
-    "Algorithms&ADTs/Trees.md",
-    "00-Main/1-Litnote.md"
+    "01-MachineLearning/Model_metrics.md",
+    "01-MachineLearning/Computer_vision.md",
+    "01-MachineLearning/Activation_functions.md",
+    "01-MachineLearning/Regularization.md",
+    "01-MachineLearning/Statistical_modeling.md",
+    "01-MachineLearning/Logistic_regression.md",
+    "01-MachineLearning/Gradient_descent.md",
+    "01-MachineLearning/Neural_networks.md",
+    "01-MachineLearning/0-GeneralConcepts/NeuralNetworks/Activation_functions.md"
   ]
 }
