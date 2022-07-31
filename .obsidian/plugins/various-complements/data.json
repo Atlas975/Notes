@@ -43,118 +43,6 @@
   "insertCommaAfterFrontMatterCompletion": false,
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "complexity": {
-      "complexity": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1655997748317
-        }
-      }
-    },
-    "convolution": {
-      "convolution": {
-        "currentFile": {
-          "count": 5,
-          "lastUpdated": 1656021027353
-        }
-      }
-    },
-    "convolutions": {
-      "convolutions": {
-        "currentFile": {
-          "count": 6,
-          "lastUpdated": 1656020847514
-        }
-      }
-    },
-    "example": {
-      "example": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1655971219893
-        }
-      }
-    },
-    "CNN_features": {
-      "CNN_features": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1655980236964
-        }
-      }
-    },
-    "Computer_architecture": {
-      "Computer_architecture": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1655981189123
-        }
-      }
-    },
-    "tradeoff\\": {
-      "tradeoff\\": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1655984988443
-        }
-      }
-    },
-    "dimensions": {
-      "dimensions": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1655985242459
-        }
-      }
-    },
-    "networks": {
-      "networks": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1655990294800
-        }
-      }
-    },
-    "channel": {
-      "channel": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1655999034015
-        }
-      }
-    },
-    "Operating_systems": {
-      "Operating_systems": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1656017189728
-        }
-      }
-    },
-    "dateFROM": {
-      "dateFROM": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1656017854074
-        }
-      }
-    },
-    "Dataview": {
-      "Dataview": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1656017927785
-        }
-      }
-    },
-    "parameter": {
-      "parameter": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1656073369633
-        }
-      }
-    },
     " {   const myNames ": {
       " {   const myNames ": {
         "currentFile": {
@@ -184,6 +72,14 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1658424326874
+        }
+      }
+    },
+    "classification": {
+      "classification": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1659263066975
         }
       }
     }
