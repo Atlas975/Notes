@@ -16,7 +16,6 @@
   "quick-latex",
   "obsidian-math-plus",
   "markdown-prettifier",
-  "obsidian-tabs",
   "obsidian-image-toolkit",
   "oz-clear-unused-images",
   "obsidian-functionplot",
@@ -27,6 +26,6 @@
   "obsidian-related-notes-finder",
   "obsidian-kanban",
   "calendar",
-  "periodic-notes",
-  "cm-editor-syntax-highlight-obsidian"
+  "cm-editor-syntax-highlight-obsidian",
+  "quickadd"
 ]
