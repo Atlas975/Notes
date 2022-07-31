@@ -1,6 +1,6 @@
 {
   "strategy": "default",
-  "matchStrategy": "partial",
+  "matchStrategy": "prefix",
   "maxNumberOfSuggestions": 5,
   "maxNumberOfWordsAsPhrase": 3,
   "minNumberOfCharactersTriggered": 0,
@@ -80,6 +80,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1659263066975
+        }
+      }
+    },
+    "Multi-Task_learning": {
+      "Multi-Task_learning": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1659264836739
+        }
+      }
+    },
+    "Detection_algorithms": {
+      "Detection_algorithms": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1659265333829
         }
       }
     }

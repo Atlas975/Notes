@@ -4,7 +4,6 @@
   "obsidian-mind-map",
   "dataview",
   "table-editor-obsidian",
-  "various-complements",
   "graph-analysis",
   "execute-code",
   "obsidian-jupyter",
@@ -27,5 +26,5 @@
   "obsidian-kanban",
   "calendar",
   "cm-editor-syntax-highlight-obsidian",
-  "quickadd"
+  "various-complements"
 ]

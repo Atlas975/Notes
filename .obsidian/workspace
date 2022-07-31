@@ -4,13 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "05ec0c81df2eee3e",
+        "id": "d16d4329de207b7d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "01-MachineLearning/Detection_algorithms.md",
             "mode": "source",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "0d5f901c641b57f6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "01-MachineLearning/Activation_functions.md",
+            "mode": "preview",
             "source": true
           }
         }
@@ -130,17 +142,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "05ec0c81df2eee3e",
+  "active": "d16d4329de207b7d",
   "lastOpenFiles": [
+    "01-MachineLearning/Activation_functions.md",
+    "01-MachineLearning/Detection_algorithms.md",
+    "01-MachineLearning/Convolutional_networks.md",
+    "01-MachineLearning/Linear_regression.md",
+    "01-MachineLearning/Model_metrics.md",
     "01-MachineLearning/Computer_vision.md",
     "01-MachineLearning/0-GeneralConcepts/Untitled.md",
-    "01-MachineLearning/Detection_algorithms.md",
     "01-MachineLearning/Machine_learning_notation.md",
-    "01-MachineLearning/Model_metrics.md",
-    "01-MachineLearning/Linear_regression.md",
-    "01-MachineLearning/Activation_functions.md",
     "01-MachineLearning/Regularization.md",
-    "01-MachineLearning/Statistical_modeling.md",
-    "01-MachineLearning/Logistic_regression.md"
+    "01-MachineLearning/Statistical_modeling.md"
   ]
 }
