@@ -24,7 +24,6 @@ ___
 ## Padding
 - Padding prevents information from the images edges from being lost, useful for allowing a deeper [[Convolutional_networks| CNN]], example of padding=1
 
-
 > ![[Pasted image 20220621141454.png||g]]
 
 - The padding required to have the input size equal output size (also known as a same convolution) can be found using:
@@ -36,13 +35,12 @@ ___
 - Edges in images are typically represented by a transition from darker to lighter pixels, multiple filters such as the one below for vertical detection can be used to find specific edge types
 - Being able to detect lower level features like edges is the first step in training a CNN
 
-> ![[Pasted image 20220621135948.png]]
+> ![[Pasted image 20220621135948.png|550|550]]
 
 - note this filter can only detect light to dark transitions from left to right
-
 - Alternative edge detection approaches
 
-> ![[Pasted image 20220621140351.png]]
+> ![[Pasted image 20220621140351.png|550|550]]
 
 ## Strided convolutions
 - Describes the jump size after each convolution, larger strides further compress an image, strides that fall out of bounds are skipped to where the number of strides in any given dimension is equal to the floor of n/f
@@ -95,9 +93,9 @@ ___
 
 # Computation cost of convolution
 
-> $\text{Computation cost}=\text{number of filter params}\times \text{filter positions}\times \text{number of filters}$
+> $\text{Computation cost}=\text{\#number of filter params}\times \text{\#filter positions}\times \text{\#number of filters}$
 
-> ![[Pasted image 20220623224238.png|450|450]]
+> ![[Pasted image 20220623224238.png|550|550]]
 
 ## Depthwise convolutions
 - A method of reducing convolution computation cost, takes a two step approach to doing this

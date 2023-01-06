@@ -60,8 +60,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Error_codes.md",
-                "mode": "source",
+                "file": "MachineLearning/Activation_functions.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Error_codes.md",
+                "file": "MachineLearning/Activation_functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Error_codes.md"
+                "file": "MachineLearning/Activation_functions.md"
               }
             }
           }
@@ -185,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Error_codes.md"
+                "file": "MachineLearning/Activation_functions.md"
               }
             }
           },
@@ -211,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Error_codes.md",
+                "file": "MachineLearning/Activation_functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -262,15 +262,15 @@
   },
   "active": "dac43b3c5fa7f8e7",
   "lastOpenFiles": [
+    "MachineLearning/Computer_vision.md",
+    "MachineLearning/Convolutional_networks.md",
+    "MachineLearning/Neural_networks.md",
+    "MachineLearning/Detection_algorithms.md",
+    "OperatingSystems/Error_codes.md",
     "OperatingSystems/Operating_system_design.md",
     "OperatingSystems/File_systems.md",
     "OperatingSystems/Paging.md",
-    "OperatingSystems/Error_codes.md",
     "OperatingSystems/Input&Output_systems.md",
-    "OperatingSystems/Linux_permissions.md",
-    "Algorithms/ProgrammingPatterns/Sliding_window.md",
-    "DataStructures/CacheStructures/LRU.md",
-    "MachineLearning/Feature_scaling.md",
-    "OperatingSystems/Caching.md"
+    "OperatingSystems/Linux_permissions.md"
   ]
 }
