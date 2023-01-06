@@ -1,0 +1,155 @@
+{
+  "main": {
+    "id": "2019eef35aa5b7bf",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb003c3b7737da23",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "01-ProgrammingPatterns/Math&Geometry.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "72a38283dfdda09c",
+    "type": "split",
+    "children": [
+      {
+        "id": "686f58e7afd14325",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "61b6b073dac95afd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "f9b0d2190b3ff51e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01-ProgrammingPatterns/Math&Geometry.md"
+              }
+            }
+          },
+          {
+            "id": "43d3ffa91ddc39a4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "perm",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e23c00221c93b3b2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01-ProgrammingPatterns/Math&Geometry.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "74a1d7b4722b06c3",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 230.5
+  },
+  "right": {
+    "id": "441e4249d5592193",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd313b46553a0492",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9ef0de97216c2fd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01-ProgrammingPatterns/Math&Geometry.md"
+              }
+            }
+          },
+          {
+            "id": "ba409dfb06ded0f2",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "84daf507dc2e1a52",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "81a789696c03e73d",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 208.9185791015625,
+    "collapsed": true
+  },
+  "active": "bb003c3b7737da23",
+  "lastOpenFiles": [
+    "01-ProgrammingPatterns/Graph_problems.md",
+    "01-ProgrammingPatterns/Math&Geometry.md",
+    "01-ProgrammingPatterns/Sliding_window.md",
+    "01-ProgrammingPatterns/Tries_problems.md",
+    "01-ProgrammingPatterns/Two_pointers.md",
+    "01-ProgrammingPatterns/Union_find.md",
+    "01-ProgrammingPatterns/Binary_search.md",
+    "ContinuousMath/Center_of_rotation.md",
+    "ContinuousMath/imaginary_numbers.md",
+    "ContinuousMath/Catalan_numbers.md"
+  ]
+}

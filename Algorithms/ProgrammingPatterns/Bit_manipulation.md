@@ -1,0 +1,93 @@
+> [!important|inIL]- Metadata
+> **Tags:** #ProgrammingPatterns 
+> **Located:** Algorithms/ProgrammingPatterns
+> **Created:** 26/12/2022 - 09:23
+> ```dataviewjs
+>let loc = dv.current().file.path;
+>let cur = dv.page(loc).file;
+>let links = cur.inlinks.concat(cur.outlinks).array().map(p => p.path);
+>let paths = new Set(links.filter(p => !p.endsWith(".png")));
+>paths.delete(loc);
+>dv.table(["Connections","Tags"], dv.array(Array.from(paths)).map(p => [
+>   dv.fileLink(p),dv.page(p).file.tags.join("")]).slice(0, 20));
+> ```
+
+___
+# Bit manipulation
+## Single number
+```python
+def singleNumber(self, nums: List[int]) -> int:
+    res = 0
+    for num in nums:
+        res ^= num
+    return res
+```
+
+## Number of one bits
+```python
+def hammingWeight(self, n: int) -> int:
+    res=0
+    while n!=0:
+        n &= n-1
+        res+=1
+    return res
+```
+
+## Count bits
+```python
+def countBits(self, n: int) -> List[int]:
+    if n == 0:
+        return [0]
+    res = [0] * (n + 1)
+    res[0] = 0
+    res[1] = 1
+    for i in range(2, n + 1):
+        res[i] = res[i // 2] if i % 2 == 0 else res[i // 2] + 1
+    return res
+```
+
+## Reverse bits
+```python
+def reverseBits(self, n: int) -> int:
+    res = 0
+    for _ in range(32):
+        res <<= 1
+        res += n&1
+        n >>= 1
+    return res
+```
+
+## Missing number
+```python
+def missingNumber(self, nums: List[int]) -> int:
+    res = len(nums)
+    for i,num in enumerate(nums):
+        res ^= i ^ num
+    return res
+```
+
+## Reverse number
+```python
+def reverse(self, x: int) -> int:
+    s = 1 - 2 * (x < 0)
+    x *= s
+    r = 0
+    while x>0:
+        r*=10
+        r+=x%10
+        x//=10
+    return s*r * (r < 2**31)
+```
+
+## Sum of two integers
+```rust
+pub fn get_sum(a: i32, b: i32) -> i32 {
+    fn add(a: i32, b: i32) -> i32 {
+        if b == 0 {
+            return a;
+        }
+        add(a ^ b, (a & b) << 1)
+    }
+    return add(a, b);
+}
+```

@@ -1,0 +1,199 @@
+> [!important|inIL]- Metadata
+> **Tags:** #ProgrammingPatterns 
+> **Located:** Algorithms/ProgrammingPatterns
+> **Created:** 26/12/2022 - 09:27
+> ```dataviewjs
+>let loc = dv.current().file.path;
+>let cur = dv.page(loc).file;
+>let links = cur.inlinks.concat(cur.outlinks).array().map(p => p.path);
+>let paths = new Set(links.filter(p => !p.endsWith(".png")));
+>paths.delete(loc);
+>dv.table(["Connections","Tags"], dv.array(Array.from(paths)).map(p => [
+>   dv.fileLink(p),dv.page(p).file.tags.join("")]).slice(0, 20));
+> ```
+
+___
+# Graph algorithms 
+## Number of islands 
+```python
+def numIslands(self, grid: List[List[int]]) -> int:
+    n, m = len(grid), len(grid[0])
+    
+    def dfs(r, c):
+        if grid[r][c] != "1":
+            return 0
+        grid[r][c] = "0"
+        for dr, dc in ((r - 1, c), (r + 1, c), (r, c - 1), (r, c + 1)):
+            if 0 <= dr < n and 0 <= dc < m:
+                dfs(dr, dc)
+        return 1
+
+    return sum(starmap(dfs, product(range(n), range(m))))
+```
+
+## Clone graph 
+```python
+def cloneGraph(self, node: "Node") -> "Node":
+    visited = {}
+
+    def cloneNode(node):
+        if node in visited:
+            return visited[node]
+        visited[node] = Node(node.val)
+        visited[node].neighbors = [cloneNode(n) for n in node.neighbors]
+        return visited[node]
+
+    return cloneNode(node) if node else None
+```
+
+## Max area of island 
+```python
+def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
+    n, m = len(grid), len(grid[0])
+
+    def dfs(r, c):
+        grid[r][c] = 0
+        return 1 + sum(
+            dfs(dr, dc)
+            for dr, dc in ((r + 1, c), (r - 1, c), (r, c + 1), (r, c - 1))
+            if 0 <= dr < n and 0 <= dc < m and grid[dr][dc]
+        )
+
+    return max(
+        (dfs(r, c) for r, c in product(range(n), range(m)) if grid[r][c]),
+        default=0,
+    )
+```
+
+## Pacific Atlantic water flow **(path intersection)**
+```python
+def pacificAtlantic(self, heights: List[List[int]]) -> List[List[int]]:
+    n, m = len(heights), len(heights[0])
+    pac, atc = set(), set()
+
+    def bfs(r, c, visited):
+        visited.add((r, c))
+        node = heights[r][c]
+        for dr, dc in ((r - 1, c), (r + 1, c), (r, c - 1), (r, c + 1)):
+            if (
+                0 <= dr < n
+                and 0 <= dc < m
+                and (dr, dc) not in visited
+                and heights[dr][dc] >= node
+            ):
+                bfs(dr, dc, visited)
+
+    for r in range(n):
+        bfs(r, 0, pac)
+        bfs(r, m - 1, atc)
+    for c in range(m):
+        bfs(0, c, pac)
+        bfs(n - 1, c, atc)
+    return pac & atc
+```
+
+## Surrounded regions 
+```python
+def solve(self, board: List[List[str]]) -> None:
+    n, m = len(board), len(board[0])
+
+    def capture(r, c):
+        if board[r][c] != "O":
+            return
+        board[r][c] = "C"
+        for dr, dc in ((r - 1, c), (r + 1, c), (r, c - 1), (r, c + 1)):
+            if 0 <= dr < n and 0 <= dc < m:
+                capture(dr, dc)
+
+    for r in range(n):
+        capture(r, 0)
+        capture(r, m - 1)
+
+    for c in range(m):
+        capture(0, c)
+        capture(n - 1, c)
+
+    for r, c in product(range(n), range(m)):
+        if board[r][c] == "O":
+            board[r][c] = "X"
+        elif board[r][c] == "C":
+            board[r][c] = "O"
+```
+
+## Rotting oranges **(level order expansion)**
+```python
+def orangesRotting(self, grid: List[List[int]]) -> int:
+    n, m = len(grid), len(grid[0])
+    q = deque()
+    fresh = time = 0
+
+    for r,c in product(range(n), range(m)):
+        if grid[r][c] == 1:
+            fresh += 1
+        elif grid[r][c] == 2:
+            q.append((r, c))
+
+    while fresh and q:
+        qlen = len(q)
+        for _ in range(qlen):
+            r, c = q.popleft()
+            for dr, dc in ((r - 1, c), (r + 1, c), (r, c - 1), (r, c + 1)):
+                if 0 <= dr < n and 0 <= dc < m and grid[dr][dc] == 1:
+                    grid[dr][dc] = 2
+                    fresh -= 1
+                    q.append((dr, dc))
+        time += 1
+    return -1 if fresh else time
+```
+## Number of connected components
+
+![[Union_find#Union find algorithm]]
+
+
+## Redundant connections
+
+```python
+def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
+    n = len(edges)
+    parent = {i: i for i in range(1, n + 1)}
+    rank = defaultdict(int)
+
+    def find(u):
+        while (u := parent[u]) != parent[u]:
+            parent[u] = parent[parent[u]]
+        return u
+
+    def union(u, v):
+        root_u, root_v = find(u), find(v)
+        if root_u == root_v:
+            return True
+
+        if rank[root_u] > rank[root_v]:
+            parent[root_v] = root_u
+        elif rank[root_u] < rank[root_v]:
+            parent[root_u] = root_v
+        else:
+            parent[root_v] = root_u
+            rank[root_u] += 1
+        return False
+
+    return next((n1, n2) for n1, n2 in edges if union(n1, n2))
+```
+
+## Longest increasing path 
+```python
+def longestIncreasingPath(self, matrix: List[List[int]]) -> int:
+    n, m = len(matrix), len(matrix[0])
+
+    @cache
+    def dfs(r, c):
+        cur = matrix[r][c]
+        return 1 + max(
+            dfs(r + 1, c) if r + 1 < n and matrix[r + 1][c] > cur else 0,
+            dfs(r - 1, c) if r >= 1 and matrix[r - 1][c] > cur else 0,
+            dfs(r, c + 1) if c + 1 < m and matrix[r][c + 1] > cur else 0,
+            dfs(r, c - 1) if c >= 1 and matrix[r][c - 1] > cur else 0,
+        )
+
+    return max(starmap(dfs, product(range(n), range(m))))
+```

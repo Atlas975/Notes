@@ -1,0 +1,13 @@
+{
+  "hideRibbon": false,
+  "hideStatus": true,
+  "hideTabs": false,
+  "hideScroll": false,
+  "hideSidebarButtons": true,
+  "hideTooltips": false,
+  "hideSearchSuggestions": false,
+  "hideSearchCounts": false,
+  "hideInstructions": false,
+  "hideMeta": true,
+  "hideVault": true
+}

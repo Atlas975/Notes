@@ -1,0 +1,17 @@
+{
+  "baseFontSize": 16,
+  "cssTheme": "Obsidian Nord Enhanced",
+  "textFontFamily": "Roboto,Calibri,JetBrains Mono",
+  "monospaceFontFamily": "JetBrains Mono,Roboto Mono",
+  "theme": "obsidian",
+  "interfaceFontFamily": "Roboto,JetBrains Mono",
+  "baseFontSizeAction": false,
+  "translucency": false,
+  "accentColor": "#5e81ac",
+  "showViewHeader": false,
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "custom-admonitions.82cf9a",
+    "dashboard"
+  ]
+}

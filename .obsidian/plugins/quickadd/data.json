@@ -1,0 +1,53 @@
+{
+  "choices": [],
+  "macros": [
+    {
+      "name": "test",
+      "id": "6f437754-cb61-4561-b875-728ef8a7dbc3",
+      "commands": [
+        {
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "bd5d2a48-b398-4377-8352-4f6106f8e538",
+          "choice": {
+            "id": "1a179498-188a-4b96-b4de-741e9d79b8f9",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": false,
+              "format": ""
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false
+}

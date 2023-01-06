@@ -1,0 +1,22 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "attachmentFolderPath": "XX-Attachments/Images",
+  "spellcheck": true,
+  "alwaysUpdateLinks": true,
+  "communityPluginSortOrder": "download",
+  "defaultViewMode": "preview",
+  "newFileLocation": "current",
+  "fileSortOrder": "alphabetical",
+  "vimMode": false,
+  "strictLineBreaks": false,
+  "showLineNumber": false,
+  "useTab": false,
+  "showInlineTitle": false,
+  "showFrontmatter": false,
+  "readableLineLength": true,
+  "rightToLeft": false,
+  "spellcheckLanguages": [
+    "en-GB"
+  ]
+}

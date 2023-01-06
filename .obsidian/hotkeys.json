@@ -1,0 +1,555 @@
+{
+  "editor:swap-line-down": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "editor:swap-line-up": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "B"
+    }
+  ],
+  "editor:toggle-bullet-list": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "B"
+    }
+  ],
+  "obsidian-autocomplete-plugin:autocomplete-toggle": [],
+  "editor:toggle-bold": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
+    }
+  ],
+  "editor:toggle-code": [],
+  "hotkeysplus-obsidian:toggle-block-quote": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "."
+    }
+  ],
+  "editor:insert-wikilink": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "L"
+    }
+  ],
+  "editor:toggle-blockquote": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Q"
+    }
+  ],
+  "editor:toggle-highlight": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "H"
+    }
+  ],
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "\\"
+    }
+  ],
+  "insert-current-time": [],
+  "editor:open-search-replace": [],
+  "hotkeysplus-obsidian:insert-line-above": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "\\"
+    }
+  ],
+  "hotkeysplus-obsidian:insert-line-below": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "obsidian-latex-suite:latex-suite-box-equation": [],
+  "obsidian-latex-suite:latex-suite-select-equation": [],
+  "obsidian-math-plus:insert-math-block": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "M"
+    }
+  ],
+  "hotkeysplus-obsidian:better-toggle-todo": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "M"
+    }
+  ],
+  "insert-template": [],
+  "switcher:open": [],
+  "cycle-through-panes:cycle-through-panes": [],
+  "command-palette:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ],
+  "markdown-prettifier:markdown-prettifier-run": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "I"
+    }
+  ],
+  "sliding-panes-obsidian:toggle-sliding-panes-leaf-auto-width": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "A"
+    }
+  ],
+  "app:toggle-default-new-pane-mode": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "Q"
+    }
+  ],
+  "workspace:close-others": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "W"
+    }
+  ],
+  "editor:save-file": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "S"
+    }
+  ],
+  "editor:open-link-in-new-leaf": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
+    }
+  ],
+  "workspace:edit-file-title": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "F2"
+    }
+  ],
+  "editor:rename-heading": [
+    {
+      "modifiers": [],
+      "key": "F2"
+    }
+  ],
+  "editor:toggle-comments": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "/"
+    }
+  ],
+  "obsidian-kanban:create-new-kanban-board": [],
+  "obsidian-kanban:add-kanban-lane": [],
+  "calendar:show-calendar-view": [],
+  "outline:open": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "O"
+    }
+  ],
+  "backlink:open": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "markdown-prettifier:markdown-prettifier-update-fields": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "O"
+    }
+  ],
+  "file-explorer:open": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "E"
+    }
+  ],
+  "cycle-through-panes:focus-on-last-active-pane": [],
+  "quick-latex:addAlignBlock": [],
+  "editor:context-menu": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "."
+    }
+  ],
+  "obsidian-editor-shortcuts:insertLineBelow": [],
+  "obsidian-editor-shortcuts:insertLineAbove": [],
+  "obsidian-editor-shortcuts:duplicateLine": [],
+  "obsidian-editor-shortcuts:deleteLine": [],
+  "obsidian-editor-shortcuts:goToLineEnd": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "E"
+    }
+  ],
+  "workspace:undo-close-pane": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ],
+  "obsidian-editor-shortcuts:selectWordOrNextOccurrence": [],
+  "app:go-back": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
+  "app:go-forward": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowRight"
+    }
+  ],
+  "editor:toggle-checklist-status": [],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "B"
+    }
+  ],
+  "editor:unfold-all": [
+    {
+      "modifiers": [],
+      "key": "F8"
+    }
+  ],
+  "obsidian-excalidraw-plugin:insert-link": [],
+  "obsidian-related-notes-finder:show-possible-links": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "0"
+    }
+  ],
+  "workspace:previous-tab": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "PageUp"
+    }
+  ],
+  "cycle-through-panes:cycle-through-panes-reverse": [],
+  "daily-notes": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "F1"
+    }
+  ],
+  "obsidian-day-planner:app:show-day-planner-timeline": [],
+  "obsidian-day-planner:app:show-day-planner-today-note": [],
+  "obsidian-day-planner:app:link-day-planner-to-note": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "F2"
+    }
+  ],
+  "google-calendar:open-google-calendar-web-view": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "G"
+    }
+  ],
+  "advanced-cursors:add-cursor-above": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "advanced-cursors:add-cursor-below": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "obsidian-textgenerator-plugin:create-text-From-template": [],
+  "obsidian-textgenerator-plugin:create-template": [],
+  "obsidian-textgenerator-plugin:create-generated-text-From-template": [],
+  "obsidian-textgenerator-plugin:generate-text-with-metadata": [],
+  "obsidian-textgenerator-plugin:insert-generated-text-From-template": [],
+  "obsidian-textgenerator-plugin:generate-text": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "G"
+    }
+  ],
+  "graph:open": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "G"
+    }
+  ],
+  "obsidian-shortcuts-for-starred-files:open-file-in-new-pane-1": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "`"
+    }
+  ],
+  "multi-column-markdown:insert-multi-column-region": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "M"
+    }
+  ],
+  "quick-latex:addMatrixBlock": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "M"
+    }
+  ],
+  "hotkeysplus-obsidian:toggle-bullet-number": [],
+  "note-refactor-obsidian:app:extract-selection-first-line": [],
+  "darlal-switcher-plus:switcher-plus:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "F"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "global-search:open": [],
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "O"
+    }
+  ],
+  "templater-obsidian:jump-to-next-cursor-location": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "`"
+    }
+  ],
+  "templater-obsidian:insert-templater": [],
+  "templater-obsidian:replace-in-file-templater": [],
+  "templater-obsidian:create-new-note-from-template": [],
+  "templater-obsidian:XX-Attachments/Templates/generic.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
+  "obsidian-linter:lint-file": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "P"
+    }
+  ],
+  "templater-obsidian:XX-Attachments/Templates/InfoNote.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
+  "editor:insert-tag": [],
+  "obsidian-editor-shortcuts:goToLineStart": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "S"
+    }
+  ],
+  "templater-obsidian:XX-Attachments/Templates/AliasNote.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Meta"
+      ],
+      "key": "N"
+    }
+  ],
+  "editor:fold-all": [
+    {
+      "modifiers": [],
+      "key": "F9"
+    }
+  ],
+  "editor:fold-more": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "["
+    }
+  ],
+  "editor:fold-less": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "]"
+    }
+  ],
+  "obsidian-editor-shortcuts:goToNextHeading": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "PageDown"
+    }
+  ],
+  "obsidian-editor-shortcuts:goToPrevHeading": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "PageUp"
+    }
+  ],
+  "workspace:next-tab": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "PageDown"
+    }
+  ]
+}

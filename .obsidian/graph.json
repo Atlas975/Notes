@@ -1,0 +1,107 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:Algorithms",
+      "color": {
+        "a": 1,
+        "rgb": 16615046
+      }
+    },
+    {
+      "query": "path:SoftwareEngineering",
+      "color": {
+        "a": 1,
+        "rgb": 4606654
+      }
+    },
+    {
+      "query": "path:ProgramLanguages",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "path:SoftwareDesign",
+      "color": {
+        "a": 1,
+        "rgb": 11752160
+      }
+    },
+    {
+      "query": "path:MachineLearning",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:InformationSystems",
+      "color": {
+        "a": 1,
+        "rgb": 14718802
+      }
+    },
+    {
+      "query": "path:DiscreteMath",
+      "color": {
+        "a": 1,
+        "rgb": 10232203
+      }
+    },
+    {
+      "query": "path:Economics",
+      "color": {
+        "a": 1,
+        "rgb": 16771584
+      }
+    },
+    {
+      "query": "path:OperatingSystems",
+      "color": {
+        "a": 1,
+        "rgb": 12790866
+      }
+    },
+    {
+      "query": "path:Databases",
+      "color": {
+        "a": 1,
+        "rgb": 9096944
+      }
+    },
+    {
+      "query": "path:ContinuousMath",
+      "color": {
+        "a": 1,
+        "rgb": 3437665
+      }
+    },
+    {
+      "query": "path:Complexity&ADTs",
+      "color": {
+        "a": 1,
+        "rgb": 2513825
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 2.75045778229908,
+  "lineSizeMultiplier": 2.54572736520855,
+  "collapse-forces": false,
+  "centerStrength": 0.252579566923412,
+  "repelStrength": 16.4002325243424,
+  "linkStrength": 0.49912803371603,
+  "linkDistance": 295,
+  "scale": 0.09577543328415315,
+  "close": false
+}

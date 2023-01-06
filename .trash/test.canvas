@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"1e7b33965858c9b4","x":382,"y":-266,"width":400,"height":400,"type":"file","file":"ContinuousMath/imaginary_numbers.md"},
+		{"id":"e187bc845a42475d","x":-91,"y":-266,"width":400,"height":400,"type":"file","file":"Algorithms/ProgrammingPatterns/Interval_problems.md"},
+		{"id":"2a71993001bcc357","x":-762,"y":-266,"width":400,"height":400,"type":"file","file":"OperatingSystems/Processors.md"}
+	],
+	"edges":[
+		{"id":"b63baa9e2eea4df2","fromNode":"1e7b33965858c9b4","fromSide":"left","toNode":"e187bc845a42475d","toSide":"top"},
+		{"id":"855241e571cb8a71","fromNode":"e187bc845a42475d","fromSide":"left","toNode":"2a71993001bcc357","toSide":"right"}
+	]
+}
