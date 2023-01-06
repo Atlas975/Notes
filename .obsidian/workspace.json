@@ -60,7 +60,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Activation_functions.md",
+                "file": "MachineLearning/Model_metrics.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Activation_functions.md",
+                "file": "MachineLearning/Model_metrics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Activation_functions.md"
+                "file": "MachineLearning/Model_metrics.md"
               }
             }
           }
@@ -185,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Activation_functions.md"
+                "file": "MachineLearning/Model_metrics.md"
               }
             }
           },
@@ -211,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Activation_functions.md",
+                "file": "MachineLearning/Model_metrics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -262,15 +262,15 @@
   },
   "active": "dac43b3c5fa7f8e7",
   "lastOpenFiles": [
+    "MachineLearning/Gradient_descent.md",
+    "MachineLearning/Linear_regression.md",
+    "MachineLearning/Feature_scaling.md",
+    "MachineLearning/Activation_functions.md",
     "MachineLearning/Computer_vision.md",
     "MachineLearning/Convolutional_networks.md",
     "MachineLearning/Neural_networks.md",
     "MachineLearning/Detection_algorithms.md",
     "OperatingSystems/Error_codes.md",
-    "OperatingSystems/Operating_system_design.md",
-    "OperatingSystems/File_systems.md",
-    "OperatingSystems/Paging.md",
-    "OperatingSystems/Input&Output_systems.md",
-    "OperatingSystems/Linux_permissions.md"
+    "OperatingSystems/Operating_system_design.md"
   ]
 }
