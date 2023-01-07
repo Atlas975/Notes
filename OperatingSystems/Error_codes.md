@@ -18,11 +18,9 @@ aliases: [error]
 
 ___
 # Error codes
-- An alphanumeric code typically used by a program to communicate that it has encountered an unexpected condition it cannot recover from
-
-
-
+- An alphanumeric code typically used by a program to communicate that it has encountered an unexpected condition it cannot recover from. 
 ## Unix error codes 
+- **0: No error, operation completed successfully**
 - **1: Operation [[Linux_permissions|not permitted]]**
 - **2: No such [[File_systems|file / directory]]**
 - **3: No such process**
@@ -30,11 +28,11 @@ ___
 - **5: [[Input&Output_systems|Input / output]] error**
 
 ## HTTP error codes
-- **200 OK**: The request was successful
-- **400 Bad Request**: The request could not be understood by the server due to invalid syntax
-- **401 Unauthorised:** The request requires user authentication
-- **404 Not Found**: The requested resource could not be found on the server
-- **500 Internal Server Error**: An error occurred on the server while processing the request
+- **200: OK**: The request was successful
+- **400: Bad Request**: The request could not be understood by the server due to invalid syntax
+- **401: Unauthorised:** The request requires user authentication
+- **404: Not Found**: The requested resource could not be found on the server
+- **500: Internal Server Error**: An error occurred on the server while processing the request
 
 ## SQL error codes 
 - **1062: Duplicate entry**
