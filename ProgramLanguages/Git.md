@@ -47,3 +47,24 @@ git config user.email
 
 # Git clone
 > git clone https://github.com/Atlas975/projectName
+
+
+# Setup git on local machine 
+1.  Generate an SSH key pair:
+    
+    -   Open a terminal window and run the following command: `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
+    -   When prompted, choose a file to save the key pair to. It is recommended to use the default file location.
+    -   You will also be prompted to enter a passphrase. It is optional to use a passphrase, but it is generally considered a good security practice to use one.
+2.  Add the public key to your GitHub account:
+    
+    -   In the terminal, run the following command to print the public key to the terminal window: `cat ~/.ssh/id_rsa.pub`
+    -   Copy the output to your clipboard.
+    -   Go to your GitHub account settings and click on the "SSH and GPG keys" tab.
+    -   Click the "New SSH key" button.
+    -   Give your key a descriptive title (e.g. "My laptop") and paste the copied key into the "Key" field.
+    -   Click the "Add SSH key" button to add the key to your account.
+3.  Test the connection:
+    
+    -   Run the following command in the terminal: `ssh -T git@github.com`
+    -   You should see a message that says "Hi username! You've successfully authenticated, but GitHub does not provide shell access."
+    -   If you see this message, your SSH key has been set up successfully and you can now use SSH to authenticate with GitHub. 
