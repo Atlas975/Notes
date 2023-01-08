@@ -40,7 +40,20 @@
               "type": "markdown",
               "state": {
                 "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
-                "mode": "source",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7f14148e9e492251",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ProgramLanguages/Bash.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -89,7 +102,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -142,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
+                "file": "ProgramLanguages/Bash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md"
+                "file": "ProgramLanguages/Bash.md"
               }
             }
           }
@@ -206,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md"
+                "file": "ProgramLanguages/Bash.md"
               }
             }
           },
@@ -232,7 +245,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
+                "file": "ProgramLanguages/Bash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -281,7 +294,7 @@
       "random-note:Open random note": false
     }
   },
-  "active": "a446fa7fd03aefbd",
+  "active": "7f14148e9e492251",
   "lastOpenFiles": [
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "00-Main/Homepage.md",
