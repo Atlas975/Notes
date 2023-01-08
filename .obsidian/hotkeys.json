@@ -323,7 +323,7 @@
   "workspace:previous-tab": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
       "key": "PageUp"
     }
@@ -531,7 +531,7 @@
   "obsidian-editor-shortcuts:goToNextHeading": [
     {
       "modifiers": [
-        "Alt"
+        "Mod"
       ],
       "key": "PageDown"
     }
@@ -539,7 +539,7 @@
   "obsidian-editor-shortcuts:goToPrevHeading": [
     {
       "modifiers": [
-        "Alt"
+        "Mod"
       ],
       "key": "PageUp"
     }
@@ -547,7 +547,7 @@
   "workspace:next-tab": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
       "key": "PageDown"
     }

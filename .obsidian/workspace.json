@@ -89,7 +89,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -142,7 +142,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/DataProcessing/Normalization_vs_scaling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,9 +180,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "MachineLearning/0-GeneralConcepts/DataProcessing/Normalization_vs_scaling.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -205,9 +202,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "MachineLearning/0-GeneralConcepts/DataProcessing/Normalization_vs_scaling.md"
-              }
+              "state": {}
             }
           },
           {
@@ -232,7 +227,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/DataProcessing/Normalization_vs_scaling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -281,8 +275,10 @@
       "random-note:Open random note": false
     }
   },
-  "active": "2feae0e811cc7a8c",
+  "active": "b5dbf7b1712078a7",
   "lastOpenFiles": [
+    "Algorithms/AlgorithmConcepts/Sorting_algorithms.md",
+    "MachineLearning/0-GeneralConcepts/DataProcessing/Normalization_vs_scaling.md",
     "MachineLearning/0-GeneralConcepts/DataProcessing/Data_leakage.md",
     "MachineLearning/0-GeneralConcepts/DataProcessing/Handling_categorical_data.md",
     "MachineLearning/0-GeneralConcepts/DataProcessing/Boosting.md",
@@ -290,8 +286,6 @@
     "SoftwareDesign/DesignPatterns/Design_patterns.md",
     "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
     "OperatingSystems/Error_codes.md",
-    "Algorithms/AlgorithmConcepts/Sorting_algorithms.md",
-    "Algorithms/AlgorithmConcepts/Graph_traversal.md",
-    "Algorithms/ProgrammingPatterns/Stack_algorithms.md"
+    "Algorithms/AlgorithmConcepts/Graph_traversal.md"
   ]
 }
