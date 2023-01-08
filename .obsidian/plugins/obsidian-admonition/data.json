@@ -4,7 +4,7 @@
       "type": "important",
       "color": "163, 190, 140",
       "icon": {
-        "name": "book-reader",
+        "name": "bookmark",
         "type": "font-awesome"
       },
       "command": false,
