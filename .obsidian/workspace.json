@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -89,7 +89,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -142,6 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +181,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md"
+              }
             }
           }
         ]
@@ -202,7 +205,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md"
+              }
             }
           },
           {
@@ -227,6 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -275,8 +281,10 @@
       "random-note:Open random note": false
     }
   },
-  "active": "b5dbf7b1712078a7",
+  "active": "a446fa7fd03aefbd",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Sliding_window.md",
+    "00-Main/Homepage.md",
     "Algorithms/AlgorithmConcepts/Sorting_algorithms.md",
     "MachineLearning/0-GeneralConcepts/DataProcessing/Normalization_vs_scaling.md",
     "MachineLearning/0-GeneralConcepts/DataProcessing/Data_leakage.md",
@@ -284,8 +292,6 @@
     "MachineLearning/0-GeneralConcepts/DataProcessing/Boosting.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "SoftwareDesign/DesignPatterns/Design_patterns.md",
-    "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
-    "OperatingSystems/Error_codes.md",
-    "Algorithms/AlgorithmConcepts/Graph_traversal.md"
+    "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md"
   ]
 }
