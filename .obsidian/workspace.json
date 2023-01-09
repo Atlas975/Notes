@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgramLanguages/Git.md",
+                "file": "ProgramLanguages/Regex.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/Git.md",
+                "file": "ProgramLanguages/Regex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/Git.md"
+                "file": "ProgramLanguages/Regex.md"
               }
             }
           }
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/Git.md"
+                "file": "ProgramLanguages/Regex.md"
               }
             }
           },
@@ -232,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/Git.md",
+                "file": "ProgramLanguages/Regex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,6 +283,7 @@
   },
   "active": "83da10707fd2599d",
   "lastOpenFiles": [
+    "ProgramLanguages/Git.md",
     "Algorithms/ProgrammingPatterns/Binary_search.md",
     "ProgramLanguages/Bash.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
@@ -291,7 +292,6 @@
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
     "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
     "Algorithms/AlgorithmConcepts/Sorting_algorithms.md",
-    "MachineLearning/0-GeneralConcepts/DataProcessing/Normalization_vs_scaling.md",
-    "MachineLearning/0-GeneralConcepts/DataProcessing/Data_leakage.md"
+    "MachineLearning/0-GeneralConcepts/DataProcessing/Normalization_vs_scaling.md"
   ]
 }
