@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Linux_permissions.md",
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -127,14 +127,6 @@
             }
           },
           {
-            "id": "330b8eabcae10615",
-            "type": "leaf",
-            "state": {
-              "type": "tagfolder-view",
-              "state": {}
-            }
-          },
-          {
             "id": "43d3ffa91ddc39a4",
             "type": "leaf",
             "state": {
@@ -155,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Linux_permissions.md",
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Linux_permissions.md"
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md"
               }
             }
           }
@@ -219,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Linux_permissions.md"
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md"
               }
             }
           },
@@ -245,7 +237,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Linux_permissions.md",
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -269,13 +261,21 @@
                 "useHierarchy": false
               }
             }
+          },
+          {
+            "id": "ab0c02da60811f7c",
+            "type": "leaf",
+            "state": {
+              "type": "custom-frames-google-calendar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 824.5,
+    "width": 672.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -296,6 +296,7 @@
   },
   "active": "a15a0f5f4f2bd53c",
   "lastOpenFiles": [
+    "OperatingSystems/Linux_permissions.md",
     "ProgramLanguages/Regex.md",
     "ProgramLanguages/Git.md",
     "Algorithms/ProgrammingPatterns/Binary_search.md",
@@ -304,7 +305,6 @@
     "MachineLearning/Feature_scaling.md",
     "00-Main/Homepage.md",
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
-    "Algorithms/AlgorithmConcepts/Sorting_algorithms.md"
+    "Algorithms/ProgrammingPatterns/Interval_algorithms.md"
   ]
 }
