@@ -14,8 +14,8 @@
 
 ___
 # LRU
-- Works on the **least recently used principle**
-- An LRU cache can also be taught of as an ordered hashmap / linked hashmap that pushes a node to the end of the queue when a node is modified
+- [[Caching|Cache]] eviction algorithm based on the **least recently used principle**
+- Ideal when requests follow a random pattern since 
 ## LRU algorithm
 ```python
 class LRUCache:

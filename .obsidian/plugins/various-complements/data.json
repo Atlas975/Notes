@@ -47,14 +47,6 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "information": {
-      "information": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1670423320007
-        }
-      }
-    },
     "address": {
       "address": {
         "currentFile": {
@@ -183,211 +175,11 @@
         }
       }
     },
-    "priority": {
-      "priority": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1670526134403
-        }
-      }
-    },
-    "sequential": {
-      "sequential": {
-        "currentFile": {
-          "count": 4,
-          "lastUpdated": 1670590422193
-        }
-      }
-    },
-    "mechanisms": {
-      "mechanisms": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670422555597
-        }
-      }
-    },
-    "Software": {
-      "Software": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670422781048
-        }
-      }
-    },
-    "Time_complexity": {
-      "Time_complexity": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1670531821250
-        }
-      }
-    },
-    "scheduling": {
-      "scheduling": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1670533980951
-        }
-      }
-    },
-    "rotation": {
-      "rotation": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670503616799
-        }
-      }
-    },
-    "fairer": {
-      "fairer": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670503684907
-        }
-      }
-    },
-    "natural": {
-      "natural": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670526095380
-        }
-      }
-    },
-    "Priority": {
-      "Priority": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670527140819
-        }
-      }
-    },
-    "Throughput": {
-      "Throughput": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670531800107
-        }
-      }
-    },
-    "Pre-emptive": {
-      "Pre-emptive": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670533170883
-        }
-      }
-    },
-    "interactive": {
-      "interactive": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670533317399
-        }
-      }
-    },
-    "Graphs": {
-      "Graphs": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1670538222078
-        }
-      }
-    },
-    "continuous": {
-      "continuous": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1670601139222
-        }
-      }
-    },
-    "multi-level": {
-      "multi-level": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670587313099
-        }
-      }
-    },
-    "structure": {
-      "structure": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1670592148956
-        }
-      }
-    },
-    "efficiency": {
-      "efficiency": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670590910985
-        }
-      }
-    },
-    "descriptor": {
-      "descriptor": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670591470587
-        }
-      }
-    },
-    "considered": {
-      "considered": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670598594350
-        }
-      }
-    },
-    "filesystem": {
-      "filesystem": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670599612262
-        }
-      }
-    },
-    "Filesystem": {
-      "Filesystem": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670600605923
-        }
-      }
-    },
-    "flush": {
-      "flush": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670600694898
-        }
-      }
-    },
     "adjacent": {
       "adjacent": {
         "currentFile": {
           "count": 2,
           "lastUpdated": 1670894975908
-        }
-      }
-    },
-    "pointer": {
-      "pointer": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670601261320
-        }
-      }
-    },
-    "parentheses": {
-      "parentheses": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670698772625
         }
       }
     },
@@ -1076,6 +868,14 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1673055606226
+        }
+      }
+    },
+    "algorithm": {
+      "algorithm": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1673449140283
         }
       }
     }

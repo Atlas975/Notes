@@ -14,4 +14,6 @@
 
 ___
 # LFU
-- Least frequently used
+- [[Caching|Cache]] eviction algorithm based on the **least frequently used** principle
+- Ideal when item access is repetitive
+- Not ideal when 

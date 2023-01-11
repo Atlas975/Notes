@@ -18,3 +18,10 @@ aliases: [cache]
 
 ___
 # Caching
+
+
+
+# Caching pitfalls 
+
+## Coldstart problem
+
