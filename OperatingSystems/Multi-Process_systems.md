@@ -92,7 +92,7 @@ ___
 
 > ![[Pasted image 20221208211311.png|400]]
 
-- Turnaround time [[Iis unaffected by [[Ithis
+- Turnaround time is unaffected by this
 
 > ![[Pasted image 20221208211508.png|400]]
 # Disk scheduling

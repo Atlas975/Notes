@@ -818,8 +818,8 @@
     "LRU": {
       "LRU": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672721035543
+          "count": 3,
+          "lastUpdated": 1673462171170
         }
       }
     },
@@ -892,6 +892,22 @@
         "internalLink": {
           "count": 1,
           "lastUpdated": 1673461177482
+        }
+      }
+    },
+    "LFU": {
+      "LFU": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1673462178204
+        }
+      }
+    },
+    "replacement": {
+      "replacement": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1673462137992
         }
       }
     }
