@@ -15,7 +15,7 @@
 ___
 # LRU
 - [[Caching|Cache]] eviction algorithm based on the **least recently used principle**
-- Ideal when requests follow a random pattern since 
+- Ideal when requests follow a random pattern since eviction is based on use recency
 ## LRU algorithm
 ```python
 class LRUCache:
