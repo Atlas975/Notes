@@ -878,6 +878,22 @@
           "lastUpdated": 1673449140283
         }
       }
+    },
+    "frequently": {
+      "frequently": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1673461119916
+        }
+      }
+    },
+    "least recently used": {
+      "LRU": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1673461177482
+        }
+      }
     }
   }
 }

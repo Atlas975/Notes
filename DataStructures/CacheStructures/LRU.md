@@ -1,3 +1,7 @@
+---
+alias: least recently used
+---
+
 > [!important]- Metadata
 > **Tags:** #ADTs #Algorithms 
 > **Located:** DataStructures/CacheStructures

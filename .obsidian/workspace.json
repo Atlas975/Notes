@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataStructures/CacheStructures/LRU.md",
+                "file": "DataStructures/CacheStructures/LFU.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -173,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataStructures/CacheStructures/LRU.md",
+                "file": "DataStructures/CacheStructures/LFU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/CacheStructures/LRU.md"
+                "file": "DataStructures/CacheStructures/LFU.md"
               }
             }
           }
@@ -237,7 +237,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/CacheStructures/LRU.md"
+                "file": "DataStructures/CacheStructures/LFU.md"
               }
             }
           },
@@ -263,7 +263,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataStructures/CacheStructures/LRU.md",
+                "file": "DataStructures/CacheStructures/LFU.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -322,10 +322,10 @@
   },
   "active": "5d34001be45947be",
   "lastOpenFiles": [
+    "DataStructures/CacheStructures/LRU.md",
+    "DataStructures/CacheStructures/LFU.md",
     "DataStructures/RadixTrees.md",
     "OperatingSystems/Caching.md",
-    "DataStructures/CacheStructures/LFU.md",
-    "DataStructures/CacheStructures/LRU.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "ProgramLanguages/Regex.md",
     "Algorithms/ProgrammingPatterns/Binary_search.md",
