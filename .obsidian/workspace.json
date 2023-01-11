@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md"
               }
             }
           }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md"
               }
             }
           },
@@ -237,7 +237,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -296,6 +296,7 @@
   },
   "active": "a15a0f5f4f2bd53c",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "OperatingSystems/Linux_permissions.md",
     "ProgramLanguages/Regex.md",
@@ -304,7 +305,6 @@
     "ProgramLanguages/Bash.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "MachineLearning/Feature_scaling.md",
-    "00-Main/Homepage.md",
-    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md"
+    "00-Main/Homepage.md"
   ]
 }
