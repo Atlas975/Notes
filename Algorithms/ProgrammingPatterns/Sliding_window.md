@@ -27,6 +27,16 @@ def maxProfit(self, prices: List[int]) -> int:
         else:
             l=r
     return profit
+
+# functional approach 
+pub fn max_profit(prices: Vec<i32>) -> i32 {
+    prices
+        .into_iter()
+        .fold((0, i32::MAX), |(profit, cost), price| {
+            (profit.max(price - cost), price.min(cost))
+        })
+        .0
+}
 ```
 
 ## Length of longest substring
