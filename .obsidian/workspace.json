@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
+                "file": "ProgramLanguages/C_language.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -199,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
+                "file": "ProgramLanguages/C_language.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -239,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md"
+                "file": "ProgramLanguages/C_language.md"
               }
             }
           }
@@ -263,7 +263,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md"
+                "file": "ProgramLanguages/C_language.md"
               }
             }
           },
@@ -289,7 +289,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
+                "file": "ProgramLanguages/C_language.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -348,6 +348,8 @@
   },
   "active": "c6a8b2bb1ea5010f",
   "lastOpenFiles": [
+    "OperatingSystems/DigitalSystems/Data_encoding.md",
+    "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "DataStructures/CacheStructures/LFU.md",
     "DataStructures/CacheStructures/LRU.md",
     "OperatingSystems/Caching.md",
@@ -355,8 +357,6 @@
     "OperatingSystems/Input&Output_systems.md",
     "DataStructures/RadixTrees.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
-    "ProgramLanguages/Regex.md",
-    "Algorithms/ProgrammingPatterns/Binary_search.md",
-    "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md"
+    "ProgramLanguages/Regex.md"
   ]
 }
