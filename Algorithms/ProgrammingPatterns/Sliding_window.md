@@ -61,34 +61,50 @@ def characterReplacement(self, s: str, k: int) -> int:
 ```
 
 ## Permutation in string 
-```python
-def checkInclusion(self, s1: str, s2: str) -> bool:
-    n1, n2 = len(s1), len(s2)
-    if n1 > n2: return False
+```rust
+pub fn check_inclusion(s1: String, s2: String) -> bool {
+    let (n1, n2) = (s1.len(), s2.len());
+    if n1 > n2 {
+        return false;
+    }
 
-    let_count = {c: 0 for c in ascii_lowercase}
-    s1_count = let_count | Counter(s1)
-    s2_count = let_count | Counter(s2[:n1])
+    let get_idx = |c: u8| (c - b'a') as usize;
+    let cnt1 = s1.bytes().fold([0u8; 26], |mut acc, c| {
+        acc[get_idx(c)] += 1;
+        acc
+    });
 
-    matches = sum(s1_count[c] == s2_count[c] for c in ascii_lowercase)
+    let s2bytes = s2.as_bytes();
+    let mut cnt2 = s2bytes[0..n1].iter().fold([0u8; 26], |mut acc, &c| {
+        acc[get_idx(c)] += 1;
+        acc
+    });
+    let mut matches = (0..26).filter(|&i| cnt1[i] == cnt2[i]).count();
 
-    for r in range(n1, n2):
-        if matches == 26:
-            return True
+    for i in n1..n2 {
+        if matches == 26 {
+            return true;
+        }
 
-        s2_count[s2[r]] += 1
-        if s1_count[s2[r]] == s2_count[s2[r]]:
-            matches += 1
-        elif s1_count[s2[r]]+1 == s2_count[s2[r]]:
-            matches -= 1
+        let (l, r) = (get_idx(s2bytes[i - n1]), get_idx(s2bytes[i]));
 
-        s2_count[s2[r-n1]] -= 1
-        if s1_count[s2[r-n1]] == s2_count[s2[r-n1]]:
-            matches += 1
-        elif s1_count[s2[r-n1]]-1 == s2_count[s2[r-n1]]:
-            matches -= 1
+        cnt2[r] += 1;
+        if cnt1[r] == cnt2[r] {
+            matches += 1;
+        } else if cnt1[r] + 1 == cnt2[r] {
+            matches -= 1;
+        }
 
-    return matches == 26
+        cnt2[l] -= 1;
+        if cnt1[l] == cnt2[l] {
+            matches += 1;
+        } else if cnt1[l] - 1 == cnt2[l] {
+            matches -= 1;
+        }
+    }
+
+    matches == 26
+}
 ```
 
 ## Max distance between pair of values 
