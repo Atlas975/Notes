@@ -108,17 +108,20 @@ pub fn check_inclusion(s1: String, s2: String) -> bool {
 ```
 
 ## Max distance between pair of values 
-```python
-def maxDistance(self, nums1: List[int], nums2: List[int]) -> int:
-    i = mxdist = 0
-    j = 1
-    n1, n2 = len(nums1), len(nums2)
-    while i < n1 and j < n2:
-        if nums1[i] > nums2[j]:
-            i += 1
-            j = max(i + 1, j)
-        else:
-            mxdist = max(mxdist, j - i)
-            j += 1
-    return mxdist
+```rust
+pub fn max_distance(nums1: Vec<i32>, nums2: Vec<i32>) -> i32 {
+    let (n1, n2) = (nums1.len(), nums2.len());
+    let (mut i, mut j, mut mxdist) = (0, 1, 0);
+
+    while i < n1 && j < n2 {
+        if nums1[i] > nums2[j] {
+            i += 1;
+            j = j.max(1 + i);
+        } else {
+            mxdist = mxdist.max(j - i);
+            j += 1;
+        }
+    }
+    mxdist as i32
+}
 ```
