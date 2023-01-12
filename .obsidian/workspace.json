@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Caching.md",
+                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -199,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Caching.md",
+                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -239,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Caching.md"
+                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md"
               }
             }
           }
@@ -263,7 +263,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Caching.md"
+                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md"
               }
             }
           },
@@ -289,7 +289,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Caching.md",
+                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -348,11 +348,11 @@
   },
   "active": "c6a8b2bb1ea5010f",
   "lastOpenFiles": [
-    "OperatingSystems/Multi-Process_systems.md",
-    "OperatingSystems/Caching.md",
-    "OperatingSystems/Input&Output_systems.md",
     "DataStructures/CacheStructures/LFU.md",
     "DataStructures/CacheStructures/LRU.md",
+    "OperatingSystems/Caching.md",
+    "OperatingSystems/Multi-Process_systems.md",
+    "OperatingSystems/Input&Output_systems.md",
     "DataStructures/RadixTrees.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "ProgramLanguages/Regex.md",

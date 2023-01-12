@@ -19,7 +19,7 @@ alias: least recently used
 ___
 # LRU
 - [[Caching|Cache]] eviction algorithm based on the **least recently used principle**
-- Ideal when requests follow a random pattern since eviction is based on use recency
+- Ideal when requests follow a random pattern since eviction is based on use recency, meaning it tends to remove older items while maintaining ones that are reused frequently
 ## LRU algorithm
 ```python
 class LRUCache:
