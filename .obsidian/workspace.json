@@ -99,6 +99,32 @@
             }
           },
           {
+            "id": "574b03d6595b4394",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b8f5e8224d5d1d32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/x86_assembly.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "587069fde030b800",
             "type": "leaf",
             "state": {
@@ -167,7 +193,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -212,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/x86_assembly.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -252,7 +278,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/x86_assembly.md"
               }
             }
           }
@@ -260,8 +286,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5046501159668,
-    "collapsed": true
+    "width": 306.5046501159668
   },
   "right": {
     "id": "441e4249d5592193",
@@ -277,7 +302,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/x86_assembly.md"
               }
             }
           },
@@ -303,7 +328,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/x86_assembly.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -360,17 +385,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "76a4873efd3068fc",
+  "active": "b8f5e8224d5d1d32",
   "lastOpenFiles": [
+    "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
+    "ProgramLanguages/MIPS_assembly_language.md",
+    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Sliding_window.md",
-    "ProgramLanguages/C_language.md",
-    "OperatingSystems/DigitalSystems/Data_encoding.md",
-    "DataStructures/CacheStructures/LFU.md"
+    "Algorithms/ProgrammingPatterns/Sliding_window.md"
   ]
 }
