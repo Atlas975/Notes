@@ -47,27 +47,11 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "address": {
-      "address": {
-        "currentFile": {
-          "count": 10,
-          "lastUpdated": 1670862738858
-        }
-      }
-    },
     "process": {
       "process": {
         "currentFile": {
           "count": 7,
           "lastUpdated": 1671467839609
-        }
-      }
-    },
-    "architecture": {
-      "architecture": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1670923202175
         }
       }
     },
@@ -79,91 +63,11 @@
         }
       }
     },
-    "performance": {
-      "performance": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1670948213150
-        }
-      }
-    },
-    "hardware": {
-      "hardware": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1671194784555
-        }
-      }
-    },
-    "approach": {
-      "approach": {
-        "currentFile": {
-          "count": 4,
-          "lastUpdated": 1670895343839
-        }
-      }
-    },
-    "efficient": {
-      "efficient": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1670897366685
-        }
-      }
-    },
-    "processes": {
-      "processes": {
-        "currentFile": {
-          "count": 16,
-          "lastUpdated": 1671187079730
-        }
-      }
-    },
-    "kernel": {
-      "kernel": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1670895050114
-        }
-      }
-    },
     "applications": {
       "applications": {
         "currentFile": {
           "count": 4,
           "lastUpdated": 1671951601957
-        }
-      }
-    },
-    "allocation": {
-      "allocation": {
-        "currentFile": {
-          "count": 7,
-          "lastUpdated": 1670879433547
-        }
-      }
-    },
-    "individual": {
-      "individual": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1670856892981
-        }
-      }
-    },
-    "fragmentation": {
-      "fragmentation": {
-        "currentFile": {
-          "count": 15,
-          "lastUpdated": 1670879325123
-        }
-      }
-    },
-    "interrupt": {
-      "interrupt": {
-        "currentFile": {
-          "count": 5,
-          "lastUpdated": 1670919261093
         }
       }
     },
@@ -175,299 +79,11 @@
         }
       }
     },
-    "adjacent": {
-      "adjacent": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1670894975908
-        }
-      }
-    },
-    "protection": {
-      "protection": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1670854094016
-        }
-      }
-    },
-    "non-deterministic": {
-      "non-deterministic": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670854079605
-        }
-      }
-    },
-    "addresses": {
-      "addresses": {
-        "currentFile": {
-          "count": 8,
-          "lastUpdated": 1670882630833
-        }
-      }
-    },
-    "dynamically": {
-      "dynamically": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670854727334
-        }
-      }
-    },
     "physical": {
       "physical": {
         "currentFile": {
           "count": 9,
           "lastUpdated": 1671942958091
-        }
-      }
-    },
-    "different": {
-      "different": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670856317859
-        }
-      }
-    },
-    "elements": {
-      "elements": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670856376829
-        }
-      }
-    },
-    "metadata": {
-      "metadata": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670856579805
-        }
-      }
-    },
-    "Segmentation": {
-      "Segmentation": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670856867030
-        }
-      }
-    },
-    "segment": {
-      "segment": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670856919377
-        }
-      }
-    },
-    "traditionally": {
-      "traditionally": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670860067908
-        }
-      }
-    },
-    "paging": {
-      "paging": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670862662339
-        }
-      }
-    },
-    "translation": {
-      "translation": {
-        "currentFile": {
-          "count": 5,
-          "lastUpdated": 1671193744503
-        }
-      }
-    },
-    "management": {
-      "management": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670878644636
-        }
-      }
-    },
-    "external": {
-      "external": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670879322939
-        }
-      }
-    },
-    "storage": {
-      "storage": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670882050058
-        }
-      }
-    },
-    "access": {
-      "access": {
-        "currentFile": {
-          "count": 4,
-          "lastUpdated": 1671193838492
-        }
-      }
-    },
-    "necessary": {
-      "necessary": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670883186606
-        }
-      }
-    },
-    "constrained": {
-      "constrained": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670883488190
-        }
-      }
-    },
-    "libraries": {
-      "libraries": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670885172970
-        }
-      }
-    },
-    "capacity": {
-      "capacity": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670894718241
-        }
-      }
-    },
-    "Translation": {
-      "Translation": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670894847624
-        }
-      }
-    },
-    "single": {
-      "single": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670894866226
-        }
-      }
-    },
-    "accessed": {
-      "accessed": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1671192885714
-        }
-      }
-    },
-    "alternative": {
-      "alternative": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670895339949
-        }
-      }
-    },
-    "Alternative": {
-      "Alternative": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670895363951
-        }
-      }
-    },
-    "persists": {
-      "persists": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670895408196
-        }
-      }
-    },
-    "running": {
-      "running": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670895662231
-        }
-      }
-    },
-    "mapping": {
-      "mapping": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670895786969
-        }
-      }
-    },
-    "corruption": {
-      "corruption": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670897283632
-        }
-      }
-    },
-    "retrieves": {
-      "retrieves": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670919329222
-        }
-      }
-    },
-    "dependency": {
-      "dependency": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670923244339
-        }
-      }
-    },
-    "Behavioural": {
-      "Behavioural": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1670924275384
-        }
-      }
-    },
-    "Linked_lists": {
-      "Linked_lists": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1671014574541
-        }
-      }
-    },
-    "recursion": {
-      "recursion": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1671027620168
-        }
-      }
-    },
-    "processing": {
-      "processing": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1671027854780
         }
       }
     },
@@ -484,62 +100,6 @@
         "currentFile": {
           "count": 2,
           "lastUpdated": 1672116671150
-        }
-      }
-    },
-    "programming": {
-      "programming": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1671102465405
-        }
-      }
-    },
-    "consecutive": {
-      "consecutive": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1671187097335
-        }
-      }
-    },
-    "ordering": {
-      "ordering": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1671187099314
-        }
-      }
-    },
-    "essential": {
-      "essential": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1671189953091
-        }
-      }
-    },
-    "\\begin{bmatrix}e": {
-      "\\begin{bmatrix}e": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1671191450158
-        }
-      }
-    },
-    "restart": {
-      "restart": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1671191466515
-        }
-      }
-    },
-    "Virtualisation": {
-      "Virtualisation": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1671194758329
         }
       }
     },
@@ -908,6 +468,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1673462137992
+        }
+      }
+    },
+    "requirement": {
+      "requirement": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1673800549504
+        }
+      }
+    },
+    "information": {
+      "information": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1673801191915
         }
       }
     }

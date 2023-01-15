@@ -18,8 +18,17 @@ aliases: [cache]
 
 ___
 # Caching
-- Processes typically do not requir
+- The memory requirement of a process is typically much smaller than its storage requirement. Caching allows the quick retrieval of data that's actively being used. 
+- Various cache types exists 
 
+## Level 1 cache
+- Fastest memory in a computer system and the smallest 
+- Holds data that a CPU is most likely to need when completing a task 
+- Typically split between two cache types **instruction** (information about what the CPU should perform) & **data** (the data the operation is performed on)
+
+## Level 2cache 
+- Slower than L1 cache but larger in space 
+- May also be part of the processor itself along with the L1 cache 
 
 # Caching pitfalls 
 ## Coldstart problem
