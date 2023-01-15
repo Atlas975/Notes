@@ -1,3 +1,0 @@
----
-cssclass: dashboard
----

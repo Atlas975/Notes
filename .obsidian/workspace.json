@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Main/Homepage.md",
+                "file": "00-Main/Linux_usage.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d86f1f51e1f772f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-Main/0-Schedule.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -153,7 +166,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -198,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Main/Homepage.md",
+                "file": "00-Main/0-Schedule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -238,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Main/Homepage.md"
+                "file": "00-Main/0-Schedule.md"
               }
             }
           }
@@ -262,7 +276,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Main/Homepage.md"
+                "file": "00-Main/0-Schedule.md"
               }
             }
           },
@@ -288,7 +302,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-Main/Homepage.md",
+                "file": "00-Main/0-Schedule.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -345,17 +359,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "720213dac1f1bdb0",
+  "active": "d86f1f51e1f772f0",
   "lastOpenFiles": [
+    "00-Main/0-Overdue.md",
+    "00-Main/0-Schedule.md",
     "00-Main/Linux_usage.md",
+    "00-Main/Homepage.md",
     "00-Main/Schedule.md",
     "OperatingSystems/DigitalSystems/Bitwise_arithmatic.md",
     "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
     "OperatingSystems/DigitalSystems/DigitalSystem_design.md",
     "OperatingSystems/DigitalSystems/Data_encoding.md",
-    "OperatingSystems/Caching.md",
-    "OperatingSystems/Processors.md",
-    "MachineLearning/0-GeneralConcepts/DataProcessing/Normalization_vs_scaling.md",
-    "DataStructures/CacheStructures/LFU.md"
+    "OperatingSystems/Caching.md"
   ]
 }
