@@ -13,8 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Caching.md",
-                "mode": "source",
+                "file": "00-Main/Homepage.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6353d51b753ba13b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/Processors.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -185,7 +198,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Caching.md",
+                "file": "00-Main/Homepage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +238,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Caching.md"
+                "file": "00-Main/Homepage.md"
               }
             }
           }
@@ -233,8 +246,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5046501159668,
-    "collapsed": true
+    "width": 306.5046501159668
   },
   "right": {
     "id": "441e4249d5592193",
@@ -250,7 +262,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Caching.md"
+                "file": "00-Main/Homepage.md"
               }
             }
           },
@@ -276,7 +288,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Caching.md",
+                "file": "00-Main/Homepage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -335,15 +347,15 @@
   },
   "active": "720213dac1f1bdb0",
   "lastOpenFiles": [
-    "MachineLearning/0-GeneralConcepts/DataProcessing/Normalization_vs_scaling.md",
+    "00-Main/Linux_usage.md",
+    "00-Main/Schedule.md",
+    "OperatingSystems/DigitalSystems/Bitwise_arithmatic.md",
+    "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
+    "OperatingSystems/DigitalSystems/DigitalSystem_design.md",
+    "OperatingSystems/DigitalSystems/Data_encoding.md",
     "OperatingSystems/Caching.md",
-    "DataStructures/CacheStructures/LFU.md",
-    "DataStructures/CacheStructures/LRU.md",
-    "DiscreteMath/Boolean_logic.md",
-    "DiscreteMath/De_Morgans_law.md",
-    "Economics/Econ_fundementals.md",
-    "Economics/Banking_systems.md",
-    "SoftwareEngineering/Multiagent_systems.md",
-    "SoftwareEngineering/Functional_programming.md"
+    "OperatingSystems/Processors.md",
+    "MachineLearning/0-GeneralConcepts/DataProcessing/Normalization_vs_scaling.md",
+    "DataStructures/CacheStructures/LFU.md"
   ]
 }

@@ -3,7 +3,8 @@
 
 >![[Pasted image 20220618160514.png|450|450]]
 
-```
+
+``` 
 Set union A | B
 Set intersection A & B
 Set subtraction A & ~B

@@ -1,3 +1,7 @@
+---
+alias: processor
+---
+
 > [!important|inIL]- Metadata
 > **Tags:** #OperatingSystems 
 > **Located:** OperatingSystems
