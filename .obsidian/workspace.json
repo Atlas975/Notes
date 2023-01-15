@@ -53,7 +53,7 @@
               "type": "markdown",
               "state": {
                 "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -79,7 +79,7 @@
               "type": "markdown",
               "state": {
                 "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -225,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -265,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md"
               }
             }
           }
@@ -289,7 +289,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md"
               }
             }
           },
@@ -315,7 +315,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -372,11 +372,11 @@
       "random-note:Open random note": false
     }
   },
-  "active": "76a4873efd3068fc",
+  "active": "a15a0f5f4f2bd53c",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "ProgramLanguages/C_language.md",
     "DataStructures/CacheStructures/LFU.md",
-    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
     "Algorithms/ProgrammingPatterns/x86_assembly.md",
     "ProgramLanguages/MIPS_assembly_language.md",
