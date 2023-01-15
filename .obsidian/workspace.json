@@ -52,7 +52,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
+                "file": "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "49633997095b37f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DataStructures/CacheStructures/LFU.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "720213dac1f1bdb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/Caching.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -180,7 +206,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -210,7 +236,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#OperatingSystems",
+                "query": "#",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -225,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
+                "file": "OperatingSystems/Caching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -265,7 +291,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md"
+                "file": "OperatingSystems/Caching.md"
               }
             }
           }
@@ -289,7 +315,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md"
+                "file": "OperatingSystems/Caching.md"
               }
             }
           },
@@ -315,7 +341,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
+                "file": "OperatingSystems/Caching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -353,7 +379,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 672.5,
+    "width": 856.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -372,17 +398,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "a15a0f5f4f2bd53c",
+  "active": "720213dac1f1bdb0",
   "lastOpenFiles": [
-    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-    "ProgramLanguages/C_language.md",
     "DataStructures/CacheStructures/LFU.md",
-    "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
-    "Algorithms/ProgrammingPatterns/x86_assembly.md",
-    "ProgramLanguages/MIPS_assembly_language.md",
-    "Algorithms/ProgrammingPatterns/Backtracking.md",
-    "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
-    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
-    "Algorithms/ProgrammingPatterns/Tree_algorithms.md"
+    "OperatingSystems/Caching.md",
+    "DataStructures/CacheStructures/LRU.md",
+    "DiscreteMath/Boolean_logic.md",
+    "DiscreteMath/De_Morgans_law.md",
+    "Economics/Econ_fundementals.md",
+    "Economics/Banking_systems.md",
+    "SoftwareEngineering/Multiagent_systems.md",
+    "SoftwareEngineering/Functional_programming.md",
+    "SoftwareEngineering/Programming_paradigms.md"
   ]
 }

@@ -18,11 +18,10 @@ aliases: [cache]
 
 ___
 # Caching
-
+- Processes typically do not requir
 
 
 # Caching pitfalls 
-
 ## Coldstart problem
 - AKA the "new item problem" ,  when requests are being made before enough information is gathered to pick an effective eviction scheme such as [[LRU]] or [[LFU]] 
 - This can happen when the cache is empty or there's a sudden burst of new requests not already present in the cache 

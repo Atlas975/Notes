@@ -552,5 +552,6 @@
       "key": "PageDown"
     }
   ],
-  "obsidian-editor-shortcuts:deleteToStartOfLine": []
+  "obsidian-editor-shortcuts:deleteToStartOfLine": [],
+  "editor:insert-embed": []
 }
