@@ -105,7 +105,7 @@
               "type": "markdown",
               "state": {
                 "file": "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -193,7 +193,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -238,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/x86_assembly.md",
+                "file": "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +278,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/x86_assembly.md"
+                "file": "OperatingSystems/DigitalSystems/InstructionSet_architecture.md"
               }
             }
           }
@@ -302,7 +302,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/x86_assembly.md"
+                "file": "OperatingSystems/DigitalSystems/InstructionSet_architecture.md"
               }
             }
           },
@@ -328,7 +328,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/x86_assembly.md",
+                "file": "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -385,17 +385,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "b8f5e8224d5d1d32",
+  "active": "574b03d6595b4394",
   "lastOpenFiles": [
-    "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
-    "ProgramLanguages/MIPS_assembly_language.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+    "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
+    "Algorithms/ProgrammingPatterns/x86_assembly.md",
+    "ProgramLanguages/MIPS_assembly_language.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Sliding_window.md"
+    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md"
   ]
 }
