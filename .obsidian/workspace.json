@@ -73,26 +73,13 @@
             }
           },
           {
-            "id": "c6a8b2bb1ea5010f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/C_language.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "76a4873efd3068fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -193,7 +180,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -238,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/InstructionSet_architecture.md"
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
               }
             }
           }
@@ -302,7 +289,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/InstructionSet_architecture.md"
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
               }
             }
           },
@@ -328,7 +315,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -385,8 +372,10 @@
       "random-note:Open random note": false
     }
   },
-  "active": "574b03d6595b4394",
+  "active": "76a4873efd3068fc",
   "lastOpenFiles": [
+    "ProgramLanguages/C_language.md",
+    "DataStructures/CacheStructures/LFU.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
     "Algorithms/ProgrammingPatterns/x86_assembly.md",
@@ -394,8 +383,6 @@
     "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
-    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md"
+    "Algorithms/ProgrammingPatterns/Tree_algorithms.md"
   ]
 }
