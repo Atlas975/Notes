@@ -52,8 +52,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "OperatingSystems/Paging.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e9c6d4a65109dd57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/Virtualisation.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -188,7 +201,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -382,17 +395,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "b835725bfb42b37d",
+  "active": "e9c6d4a65109dd57",
   "lastOpenFiles": [
+    "OperatingSystems/Paging.md",
+    "OperatingSystems/Virtualisation.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "OperatingSystems/Input&Output_systems.md",
-    "OperatingSystems/Virtualisation.md",
     "Networking/Internet_fundamentals.md",
     "ProgramLanguages/x86_assembly.md",
     "InformationSystems/Malware.md",
     "InformationSystems/System_failure&dependability.md",
     "InformationSystems/Usability.md",
-    "Networking/Network_basics.md",
-    "InformationSystems/Liability&Intellectual_property.md"
+    "Networking/Network_basics.md"
   ]
 }
