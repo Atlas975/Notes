@@ -87,7 +87,7 @@
               "type": "markdown",
               "state": {
                 "file": "OperatingSystems/Multi-Process_systems.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -310,7 +310,7 @@
             }
           },
           {
-            "id": "e0a08baf3aed258b",
+            "id": "9c76f0227cc86a6e",
             "type": "leaf",
             "state": {
               "type": "custom-frames-tasks",
@@ -341,8 +341,10 @@
       "random-note:Open random note": false
     }
   },
-  "active": "e0a08baf3aed258b",
+  "active": "9c76f0227cc86a6e",
   "lastOpenFiles": [
+    "OperatingSystems/Untitled.md",
+    "OperatingSystems/Multi-Process_systems.md",
     "00-Main/Linux_usage.md",
     "00-Main/0-Schedule.md",
     "00-Main/0-Overdue.md",
@@ -350,8 +352,6 @@
     "00-Main/Schedule.md",
     "OperatingSystems/DigitalSystems/Bitwise_arithmatic.md",
     "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
-    "OperatingSystems/DigitalSystems/DigitalSystem_design.md",
-    "OperatingSystems/DigitalSystems/Data_encoding.md",
-    "OperatingSystems/Caching.md"
+    "OperatingSystems/DigitalSystems/DigitalSystem_design.md"
   ]
 }

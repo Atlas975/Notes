@@ -553,5 +553,24 @@
     }
   ],
   "obsidian-editor-shortcuts:deleteToStartOfLine": [],
-  "editor:insert-embed": []
+  "editor:insert-embed": [],
+  "obsidian-custom-frames:open-custom-frames-tasks": [
+    {
+      "modifiers": [
+        "Mod",
+        "Meta"
+      ],
+      "key": "T"
+    }
+  ],
+  "obsidian-custom-frames:open-custom-frames-google-calendar": [],
+  "obsidian-custom-frames:open-custom-frames-github": [
+    {
+      "modifiers": [
+        "Mod",
+        "Meta"
+      ],
+      "key": "G"
+    }
+  ]
 }
