@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "OperatingSystems/Virtualisation.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -268,7 +268,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5046501159668
+    "width": 306.5046501159668,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",

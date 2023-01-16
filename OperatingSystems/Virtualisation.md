@@ -51,4 +51,7 @@ ___
 - Considering a [[Operating_system_design#Layered design|layered approach]], the host OS runs in ring 0 and a guest OS will run in ring 1, general applications continue to run in ring 3. 
 - This means that the host OS has privileges over the guest OS and the guest OS has privileges over applications 
 - Note most processors support only user and supervisor mode
-- Certain instructions such as on [[x86_assembly|x86]] also function differently in rings 0-3, such as only allowing ring 0 to configure [[Paging]] tables
+- Certain instructions such as on [[x86_assembly|x86]] also function differently in rings 0-3, such as only allowing ring 0 to configure [[Paging]] tables, this means certain privileged instructions would have to be rewritten or emulated. This is inefficient 
+
+## Para-virtualisation
+- A solution to the 
