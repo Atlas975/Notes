@@ -54,4 +54,6 @@ ___
 - Certain instructions such as on [[x86_assembly|x86]] also function differently in rings 0-3, such as only allowing ring 0 to configure [[Paging]] tables, this means certain privileged instructions would have to be rewritten or emulated. This is inefficient 
 
 ## Para-virtualisation
-- A solution to the 
+- Involves a modified guest OS that's virtualisation aware, prevents issues regarding instructions behaving differently depending on ring level
+- Guest OS makes a special kind of [[Operating_system_design#System calls|system call]] known as a **hypercall** to the underlying operating system for privileged instructions 
+- 
