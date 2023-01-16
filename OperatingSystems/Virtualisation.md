@@ -78,3 +78,7 @@ ___
 
 
 ## I/O virtualisation
+- [[Input&Output_systems|I/O]]  in virtualisation won't have direct access to hardware 
+- Support for this has come in two core ways
+    - **Architectural support**
+    - **Peripheral  Component Interconnect express (PCIe) extensions**
