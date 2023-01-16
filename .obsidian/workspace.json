@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Main/Linux_usage.md",
+                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -148,8 +148,7 @@
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Multi-Process_systems.md",
+                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +233,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Multi-Process_systems.md"
+                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md"
               }
             }
           }
@@ -258,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Multi-Process_systems.md"
+                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md"
               }
             }
           },
@@ -284,7 +283,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Multi-Process_systems.md",
+                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -341,17 +340,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "9c76f0227cc86a6e",
+  "active": "720213dac1f1bdb0",
   "lastOpenFiles": [
-    "OperatingSystems/Untitled.md",
-    "OperatingSystems/Multi-Process_systems.md",
-    "00-Main/Linux_usage.md",
-    "00-Main/0-Schedule.md",
-    "00-Main/0-Overdue.md",
-    "00-Main/Homepage.md",
-    "00-Main/Schedule.md",
-    "OperatingSystems/DigitalSystems/Bitwise_arithmatic.md",
-    "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
-    "OperatingSystems/DigitalSystems/DigitalSystem_design.md"
+    "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
+    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Sliding_window.md",
+    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Trie_algorithms.md"
   ]
 }
