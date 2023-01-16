@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -220,7 +220,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,7 +260,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md"
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
               }
             }
           }
@@ -268,8 +268,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5046501159668,
-    "collapsed": true
+    "width": 306.5046501159668
   },
   "right": {
     "id": "441e4249d5592193",
@@ -285,7 +284,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md"
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
               }
             }
           },
@@ -311,7 +310,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -371,15 +370,15 @@
   },
   "active": "3e64c45e2bf91950",
   "lastOpenFiles": [
+    "OperatingSystems/Input&Output_systems.md",
+    "OperatingSystems/Virtualisation.md",
     "Networking/Internet_fundamentals.md",
     "ProgramLanguages/x86_assembly.md",
-    "OperatingSystems/Virtualisation.md",
     "InformationSystems/Malware.md",
     "InformationSystems/System_failure&dependability.md",
     "InformationSystems/Usability.md",
     "Networking/Network_basics.md",
     "InformationSystems/Liability&Intellectual_property.md",
-    "Untitled.md",
-    "00-Main/0-Overdue.md"
+    "Untitled.md"
   ]
 }

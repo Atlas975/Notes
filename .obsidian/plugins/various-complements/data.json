@@ -66,8 +66,8 @@
     "applications": {
       "applications": {
         "currentFile": {
-          "count": 5,
-          "lastUpdated": 1673887646999
+          "count": 6,
+          "lastUpdated": 1673894549973
         }
       }
     },
@@ -516,6 +516,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1673894049418
+        }
+      }
+    },
+    "virtual": {
+      "virtual": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1673894527242
+        }
+      }
+    },
+    "environment": {
+      "environment": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1673894528933
         }
       }
     }
