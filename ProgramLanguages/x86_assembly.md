@@ -1,3 +1,6 @@
+---
+aliases: x86
+---
 > [!important]- Metadata
 > **Tags:** #Programming #
 > **Located:** Algorithms/ProgrammingPatterns

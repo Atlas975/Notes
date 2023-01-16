@@ -6,10 +6,13 @@
 - A service, distributed around the world, important for web based information systems eg e-commerce and access databases using WWW.  
 - Web pages are written in HTML and transferred between server and client
 # Dynamic client / server request / response sequence
+
 >![[Pasted image 20211109094505.png|500|500]]
 
-# 3 tier architecture 
+# 3 Tier architecture
+
 >![[Pasted image 20211109094734.png|500|500]]
+
 - Presentation is mostly whats missing from 2 tier architecture.
 ## Presentation tier
 - GUI
@@ -29,7 +32,7 @@
 - The rules the sender, receiver and devices need to follow for effective data communication.
 - Part of transport layer.
 - Defines what is communicated, how it's communicated and when. It also defines the format of data overall allowing accurate and timely data transmission.
-## HTTP 
+## HTTP
 - Example of an application protocol
 1. Client sends request
 2. Server returns a response
@@ -37,25 +40,34 @@
 
 # Principles of protocol layering.
 ## Bi-directional communication
-- In bidirectional communication, each layer must perform 2 opposite tasks. Each object (protocol) must be identical however.
+- In bidirectional communication, each layer must perform 2 opposite tasks. Each object (protocol) however, must be identical 
+
 >![[Pasted image 20211105233536.png]] 
 in this case one must talk the other listen.
+
 - Other examples may be to encrypt in one direction and decrypt in the other.
 - Multiple layer communication
+
 > ![[Pasted image 20211105234139.png|500|500]] 
+
 - Each layer has a specific protocol only understood by that layer.
 
-# TCP/IP protocol suite (older model)
+# TCP/IP Protocol suite (older model)
+
 >![[Pasted image 20211105234427.png]]
+
 - Thought of as 4 software layers that go over the hardware layer. 
 - Hierarchical, each upper layer depends on service from previous layer. 
 
 # OSI model
+
 > ![[Pasted image 20211105235648.png|200|200]]
+
 ## Example layer involvement:
+
 > ![[Pasted image 20211105235208.png]]
 
-# 5 layer network model explained:
+# 5 Layer network model explained:
 ## Application
 - The actual protocols needed for effective data communication, designed to meet requirements for different applications. Layer where people interact.
 ## Transport
@@ -77,4 +89,3 @@ in this case one must talk the other listen.
 # Exchange using OSI
 ![[Pasted image 20211106001757.png|500|500]]
 - Headers are what allow distinguishing between layers.
-
