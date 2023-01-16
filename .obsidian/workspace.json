@@ -321,7 +321,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 730.5
+    "width": 730.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -340,7 +341,7 @@
       "random-note:Open random note": false
     }
   },
-  "active": "720213dac1f1bdb0",
+  "active": "9c76f0227cc86a6e",
   "lastOpenFiles": [
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
