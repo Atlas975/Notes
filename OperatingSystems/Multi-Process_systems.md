@@ -51,7 +51,7 @@ ___
  - An ISR should aim to only do essential work such as clearing interrupt flags, overall systems should be prepared to handle a large volume of interrupts over time
 
 ## Schedulers and the dispatcher 
-- [[Processors|Multiple schedulers]] Iexist in a system these include :
+- [[Processors|Multiple schedulers]] exist in a system these include :
     - **Long term scheduler:** makes decision if a process should be allowed on system, determines if there are enough resources to fulfill the process before its possible deadline
     - **Medium term scheduler:** determines which processes should be in memory, sets priorities as to what should be cached
     - **Short term scheduler:** responsible for disk scheduling by picking the process that runs next from the run queues 

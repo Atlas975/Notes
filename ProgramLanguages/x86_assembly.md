@@ -1,7 +1,7 @@
 > [!important]- Metadata
-> **Tags:** #
-> **Located:** 00-Main
-> **Created:** 15/01/2023 - 17:09
+> **Tags:** #Programming #
+> **Located:** Algorithms/ProgrammingPatterns
+> **Created:** 13/01/2023 - 14:33
 > ```dataviewjs
 >let loc = dv.current().file.path;
 >let cur = dv.page(loc).file;
@@ -13,5 +13,4 @@
 > ```
 
 ___
-# 0-Overdue
-<% tp.file.cursor(2) %>
+# x86 assembly

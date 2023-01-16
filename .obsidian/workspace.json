@@ -26,28 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InformationSystems/Internet_fundamentals.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d86f1f51e1f772f0",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "6353d51b753ba13b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/Processors.md",
+                "file": "InformationSystems/Malware.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -207,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InformationSystems/Internet_fundamentals.md",
+                "file": "InformationSystems/Malware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InformationSystems/Internet_fundamentals.md"
+                "file": "InformationSystems/Malware.md"
               }
             }
           }
@@ -271,7 +250,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InformationSystems/Internet_fundamentals.md"
+                "file": "InformationSystems/Malware.md"
               }
             }
           },
@@ -297,7 +276,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InformationSystems/Internet_fundamentals.md",
+                "file": "InformationSystems/Malware.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -323,7 +302,7 @@
             }
           },
           {
-            "id": "9c76f0227cc86a6e",
+            "id": "738c109349fda65b",
             "type": "leaf",
             "state": {
               "type": "custom-frames-tasks",
@@ -331,7 +310,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -358,14 +337,14 @@
   "active": "2cd7f55680c7cdfc",
   "lastOpenFiles": [
     "InformationSystems/System_failure&dependability.md",
+    "InformationSystems/Usability.md",
     "InformationSystems/Network_basics.md",
     "InformationSystems/Internet_fundamentals.md",
-    "OperatingSystems/Paging.md",
-    "Algorithms/ProgrammingPatterns/Sliding_window.md",
-    "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
-    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
-    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Heap_algorithms.md"
+    "InformationSystems/Liability&Intellectual_property.md",
+    "InformationSystems/Malware.md",
+    "ProgramLanguages/x86_assembly.md",
+    "Untitled.md",
+    "00-Main/0-Overdue.md",
+    "00-Main/1-Litnote.md"
   ]
 }

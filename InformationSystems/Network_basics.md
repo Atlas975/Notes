@@ -17,11 +17,11 @@
 # Network categories
 > ![[Pasted image 20211030000759.png|500]]
 
-# LAN
+## LAN
 - These can have multiple layouts
 > ![[Pasted image 20211030162605.png|500]]
 > ![[Pasted image 20211030163214.png|500]]
-# Point to point WAN / Internetworks
+## Point to point WAN 
 - Private WAN used for private communication in an organization
 > ![[Pasted image 20211030163447.png]]
 
