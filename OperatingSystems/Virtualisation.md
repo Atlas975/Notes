@@ -62,3 +62,6 @@ ___
 - While it's safer and more efficient for a guest OS to be aware of itself being in a virtual environment, this ideally should not be visible to applications as these should behave identically regardless of mode
 
 > ![[Pasted image 20230116184554.png|450|450]]
+
+- While this approach to dealing with system [[Input&Output_systems#Device drivers|drivers]] is that drivers for hypervisor versions of an OS are unlikely to be present, meaning **generic device drivers** have to be user 
+- Generic device drivers are less efficient than their company produced counterparts
