@@ -46,7 +46,7 @@ ___
 ## Unsupported virtualisation
 - All applications run in user space, this includes guest operating systems. Host OS has exclusive access to supervisor / kernel space
 
-> ![[Pasted image 20221219225313.png|500|500]]
+> ![[Pasted image 20221219225313.png|450|450]]
 
 - Considering a [[Operating_system_design#Layered design|layered approach]], the host OS runs in ring 0 and a guest OS will run in ring 1, general applications continue to run in ring 3. 
 - This means that the host OS has privileges over the guest OS and the guest OS has privileges over applications 
@@ -64,4 +64,14 @@ ___
 > ![[Pasted image 20230116184554.png|450|450]]
 
 - While this approach to dealing with system [[Input&Output_systems#Device drivers|drivers]] is that drivers for hypervisor versions of an OS are unlikely to be present, meaning **generic device drivers** have to be user 
-- Generic device drivers are less efficient than their company produced counterparts
+- Generic device drivers are less efficient than their company produced counterparts, however the hypervisor can be shrunk down due to the existence of an additional service that hosts native OS drivers
+
+> ![[Pasted image 20230116191008.png|500|500]]
+
+- While additional redirection may have a performance penalty, device drivers commonly support this operation allowing for this penalty to be minimised. This is an example of a **Hybrid VMM (Hypervisor + OS)**
+
+## Virtualisation page tables
+- In a virtual OS, page tables for the guest OS sit on top of page tables for the host OS in a nested structure 
+- MMUs and processors may support [[Paging#Hierarchical / Multi-level paging|multilevel hierarchies ]] that expands upon the two level paging hierarchy in the host OS to remove the need for nesting
+
+> ![[Pasted image 20230116191712.png]]
