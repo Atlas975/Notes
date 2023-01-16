@@ -62,7 +62,7 @@ ___
 ## Interrupts and multi-processors
 - [[Input&Output_systems#Interrupts|Interrupts]] need directing to appropriate processor 
 - These interrupts need to be forwarded to the appropriate processor for correct data handling
-- In a **non-uniform memory access scheme**, this has a particularly high cost compared to symmetric multi-processing, this is I/O must go from one processor to another
+- In a **non-uniform memory access scheme**, this has a particularly high cost compared to symmetric multi-processing as I/O must go from one processor to another
 
 > ![[Pasted image 20221219215141.png|450|450]]
 

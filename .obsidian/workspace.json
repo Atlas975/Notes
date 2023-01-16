@@ -396,15 +396,15 @@
   },
   "active": "e9c6d4a65109dd57",
   "lastOpenFiles": [
-    "OperatingSystems/Virtualisation.md",
+    "OperatingSystems/File_systems.md",
+    "OperatingSystems/Error_codes.md",
+    "OperatingSystems/Computer_memory.md",
     "OperatingSystems/Paging.md",
-    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "OperatingSystems/Input&Output_systems.md",
-    "Networking/Internet_fundamentals.md",
-    "ProgramLanguages/x86_assembly.md",
-    "InformationSystems/Malware.md",
-    "InformationSystems/System_failure&dependability.md",
-    "InformationSystems/Usability.md",
-    "Networking/Network_basics.md"
+    "OperatingSystems/Linux_permissions.md",
+    "OperatingSystems/Multi-Process_systems.md",
+    "OperatingSystems/Operating_system_design.md",
+    "OperatingSystems/Processors.md",
+    "OperatingSystems/Virtualisation.md"
   ]
 }

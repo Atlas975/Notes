@@ -35,7 +35,7 @@ ___
 ## Asynchronous I/O
 - I/O driven by interrupts, the main thread is able to run with the interrupt control flow only taking over once an interrupt is sent. This is less wasteful of resources
 
-> ![[Pasted image 20221129001447.png|550]]
+> ![[Pasted image 20221129001447.png|450|450]]
 
 - Interrupts prioritize themselves through the [[#Interrupt vector]]
 ## Interrupt handling
