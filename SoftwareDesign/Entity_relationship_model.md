@@ -16,4 +16,26 @@ ___
 # Entity relationship model
 - A [[UML_diagrams|graphical representation]] of [[Database_fundamentals|database]] logic 
 
-> ![[Pasted image 20230117170111.png]]
+> ![[Pasted image 20230117172112.png|450|450]]
+
+- ERM's consist of the following distinct components:
+## Entity
+- Represented by rectangles, each **entity** has **attributes**
+- Each entity has distinguishable properties
+
+> ![[Pasted image 20230117172337.png|500|500]]
+
+## Attributes
+- Represented by ovals, every entity must have attributes 
+
+> ![[Pasted image 20230117172615.png||s]]
+
+### Primary key attributes
+- Represented by an underline 
+
+> ![[Pasted image 20230117172839.png|450|450]]
+
+### Derived attributes 
+- Represented by dashed outline
+
+> ![[Pasted image 20230117172938.png|450|450]]

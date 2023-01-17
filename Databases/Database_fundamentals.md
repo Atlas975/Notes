@@ -58,7 +58,7 @@ ___
 
 # Flat file systems
 - Database represented in a single stable, typically stored and represented by text file
-- Multiple distinct tables with no relation to 
+- Multiple distinct tables with no relation to one another used to store data 
 ## Flat file system downsides
 - No standards for data control
 - Duplicate data can be present (columns & rows)
