@@ -106,8 +106,8 @@
     "virtualisation": {
       "virtualisation": {
         "currentFile": {
-          "count": 7,
-          "lastUpdated": 1673911054425
+          "count": 8,
+          "lastUpdated": 1673958156728
         }
       }
     },
@@ -162,8 +162,8 @@
     "memory": {
       "memory": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1671466889801
+          "count": 2,
+          "lastUpdated": 1673958038252
         }
       }
     },
@@ -620,6 +620,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1673954668507
+        }
+      }
+    },
+    "address": {
+      "address": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1673958035716
+        }
+      }
+    },
+    "architectural": {
+      "architectural": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1673958138997
         }
       }
     }

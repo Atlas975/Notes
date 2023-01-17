@@ -70,16 +70,25 @@ ___
 
 - While additional redirection may have a performance penalty, device drivers commonly support this operation allowing for this penalty to be minimised. This is an example of a **Hybrid VMM (Hypervisor + OS)**
 
-## Page table virtualisation 
+## Page table virtualisation
 - In a virtual OS, page tables for the guest OS sit on top of page tables for the host OS in a nested structure 
 - MMUs and processors may support [[Paging#Hierarchical / Multi-level paging|multilevel hierarchies ]] that expands upon the two level paging hierarchy in the host OS to remove the need for nesting
 
 > ![[Pasted image 20230116191712.png]]
 
-
-## I/O virtualisation
+## I/O Virtualisation
 - [[Input&Output_systems|I/O]]  in virtualisation won't have direct access to hardware, but methods exist for multiple virtual machines to share a single physical I/O device 
 - Support for this has come in two core ways
-    - **Architectural support**
-    - **Peripheral  Component Interconnect express (PCIe) extensions**
-- A PCI system has multi
+	- **Architectural support**
+	- **Peripheral  Component Interconnect express (PCIe) extensions**
+- A PCI system has multiple busses, each bus may have multiple devices connected 
+- The first bits in a PCI address define the bus location followed by the device and lastly the device function
+- These are used in conjunction to map to an address in memory  
+
+> ![[Pasted image 20230117122104.png|450|450]]
+
+- Architectural support can come in the form of **single-root I/O virtualisation (SR-IOV)**
+- This involves the host OS communicating with physical functions to instantiate virtual functions for each VM to bind to
+- Since this is a 1-to-1 mapping, each VM can configure the device how it wants
+
+> ![[Pasted image 20230117123106.png|450|450]]
