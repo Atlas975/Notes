@@ -52,8 +52,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Paging.md",
-                "mode": "preview",
+                "file": "OperatingSystems/Virtualisation.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -246,7 +246,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Paging.md",
+                "file": "OperatingSystems/Virtualisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -286,7 +286,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Paging.md"
+                "file": "OperatingSystems/Virtualisation.md"
               }
             }
           }
@@ -294,7 +294,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5046501159668
+    "width": 306.5046501159668,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -310,7 +311,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Paging.md"
+                "file": "OperatingSystems/Virtualisation.md"
               }
             }
           },
@@ -336,7 +337,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Paging.md",
+                "file": "OperatingSystems/Virtualisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -396,9 +397,9 @@
   },
   "active": "b835725bfb42b37d",
   "lastOpenFiles": [
+    "OperatingSystems/Paging.md",
     "OperatingSystems/Operating_system_design.md",
     "OperatingSystems/Multi-Process_systems.md",
-    "OperatingSystems/Paging.md",
     "OperatingSystems/Virtualisation.md",
     "Networking/Internet_fundamentals.md",
     "OperatingSystems/Input&Output_systems.md",
