@@ -239,8 +239,9 @@ free used as an address for pointers, length tells us the amount of memory there
 - **Worst fit**: allocate largest memory hole of sufficient size, optimal to avoid fragmentation 
 ## External vs internal fragmentation
 - Dynamic allocation schemes are an example of **external fragmentation**, where request amount of memory is allocated and fragmentation takes place outside / between memory that's already been allocated
+- This can result in a lack of continuous memory due to scattered small memory chunks that cannot be merged to fill a memory allocation request 
 - **Internal fragmentation** is caused by fixed size schemes, memory is allocated in fixed size blocks, processes tend to get more memory than required rounded up to n * blocksize. less problematic as this is bounded by block allocation size and process lifetime
-- Internal fragmentation results in knowing that only complete blocks will be returned 
+- Internal fragmentation results in knowing that only complete blocks will be returned, however fragmentation occurs as a process may not use all memory allocated 
 
 ## Slab allocation
 - Example of best fit dynamic allocation, involves **allocating large memory blocks** ie buddy

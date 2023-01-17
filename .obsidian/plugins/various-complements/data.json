@@ -82,8 +82,8 @@
     "physical": {
       "physical": {
         "currentFile": {
-          "count": 9,
-          "lastUpdated": 1671942958091
+          "count": 10,
+          "lastUpdated": 1673913133648
         }
       }
     },
@@ -522,8 +522,8 @@
     "virtual": {
       "virtual": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1673894527242
+          "count": 2,
+          "lastUpdated": 1673913123146
         }
       }
     },
@@ -572,6 +572,46 @@
         "currentFile": {
           "count": 2,
           "lastUpdated": 1673911343431
+        }
+      }
+    },
+    "continuous": {
+      "continuous": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1673912875172
+        }
+      }
+    },
+    "scattered": {
+      "scattered": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1673912887289
+        }
+      }
+    },
+    "fragmentation": {
+      "fragmentation": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1673912974708
+        }
+      }
+    },
+    "multiple": {
+      "multiple": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1673913119298
+        }
+      }
+    },
+    "machines": {
+      "machines": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1673913128009
         }
       }
     }

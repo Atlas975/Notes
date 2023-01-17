@@ -78,7 +78,7 @@ ___
 
 
 ## I/O virtualisation
-- [[Input&Output_systems|I/O]]  in virtualisation won't have direct access to hardware 
+- [[Input&Output_systems|I/O]]  in virtualisation won't have direct access to hardware, but methods exist for multiple virtual machines to share a single physical I/O device 
 - Support for this has come in two core ways
     - **Architectural support**
     - **Peripheral  Component Interconnect express (PCIe) extensions**
