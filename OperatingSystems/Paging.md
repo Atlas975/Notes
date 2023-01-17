@@ -67,7 +67,8 @@ ___
 
 > ![[Pasted image 20221212220730.png|450]]
 
-- This is where a hierarchy of page translations comes in
+- This is where a hierarchy of page translations comes in, Multi-level paging allows page tables to be present in secondary memory as only the first table needs to be present in RAM.
+- This minimises the amount of memory that needs to be kept in RAM to access all of a processes data
 
 > ![[Pasted image 20221212214835.png|450]]
 > upper bits act as an index to page directory, much more efficient in memory storage 
@@ -78,7 +79,6 @@ ___
 - A page entry is checked for validity using a **present flag**
 
 > ![[Pasted image 20221216112120.png|450|450]]
-
 ### Hashed page tables
 - Another solution to efficient indexing, hash function is more expensive but gives an index that can point to a much smaller table for page access 
 - A good hash function should have minimal collisions to allow for efficient searching
