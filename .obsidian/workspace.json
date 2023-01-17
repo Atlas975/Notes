@@ -396,15 +396,15 @@
   },
   "active": "b835725bfb42b37d",
   "lastOpenFiles": [
+    "OperatingSystems/Operating_system_design.md",
+    "OperatingSystems/Multi-Process_systems.md",
+    "OperatingSystems/Paging.md",
     "OperatingSystems/Virtualisation.md",
     "Networking/Internet_fundamentals.md",
     "OperatingSystems/Input&Output_systems.md",
     "OperatingSystems/Computer_memory.md",
     "OperatingSystems/File_systems.md",
     "OperatingSystems/Error_codes.md",
-    "OperatingSystems/Paging.md",
-    "OperatingSystems/Linux_permissions.md",
-    "OperatingSystems/Multi-Process_systems.md",
-    "OperatingSystems/Operating_system_design.md"
+    "OperatingSystems/Linux_permissions.md"
   ]
 }
