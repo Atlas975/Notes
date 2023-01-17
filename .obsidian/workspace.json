@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md",
+                "file": "OperatingSystems/Virtualisation.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -246,7 +246,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md",
+                "file": "OperatingSystems/Virtualisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -286,7 +286,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md"
+                "file": "OperatingSystems/Virtualisation.md"
               }
             }
           }
@@ -310,7 +310,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md"
+                "file": "OperatingSystems/Virtualisation.md"
               }
             }
           },
@@ -336,7 +336,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md",
+                "file": "OperatingSystems/Virtualisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -396,6 +396,7 @@
   },
   "active": "ebf6dec42ca9dca4",
   "lastOpenFiles": [
+    "OperatingSystems/Computer_memory.md",
     "OperatingSystems/Page_replacement.md",
     "OperatingSystems/Multi-Process_systems.md",
     "OperatingSystems/Operating_system_design.md",
@@ -404,7 +405,6 @@
     "Databases/Database_design.md",
     "Databases/Database_fundamentals.md",
     "OperatingSystems/Virtualisation.md",
-    "Networking/Internet_fundamentals.md",
-    "OperatingSystems/Input&Output_systems.md"
+    "Networking/Internet_fundamentals.md"
   ]
 }
