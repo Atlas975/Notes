@@ -57,7 +57,8 @@ ___
 > ![[Pasted image 20220618083239.png]]
 
 # Flat file systems
-- Data stored in different files each with a specific format and specific apps that understand the format
+- Database represented in a single stable, typically stored and represented by text file
+- Multiple distinct tables with no relation to 
 ## Flat file system downsides
 - No standards for data control
 - Duplicate data can be present (columns & rows)
@@ -65,6 +66,7 @@ ___
 - Multiple owners, files, location making security difficult
 - Few automates checks for data entry/conversion
 # DBMS
+- Provides an efficient and reliable way to store large amount of persistent data
 - A DBMS provides 3 main services:
 - [[SQL_language|SQL]] integrates all of these in one language
 ## 1. Data definition language (DDL)
@@ -87,11 +89,11 @@ ___
 ## Internal level
 - Structure data is written/received, how data is ordered, space allocations and compression/encryption
 # Schemas
-- These describe how each level operates
-- Conceptual schema: database content organization
-- Internal schema: how data is stored
+- The blueprint of a database, describes how data is modelled including relations 
+- **Conceptual schema**: database content organisation
+- **Internal schema**: how data is stored
 - Schemas allow data to be independent with implementation/optimization left to DBMS
 - Transfer of requests between layers is called mapping
 - **Data independence** describes hiding implementation from other layers
-- Physical data indepence: hardware change does not effect relation structure
-- Logical data indepence: conceptual scheme can be changed without effecting external shema.
+- **Physical data independence**: hardware change does not effect relation structure
+- **Logical data independence**: conceptual scheme can be modified without risking an impact to external  schema

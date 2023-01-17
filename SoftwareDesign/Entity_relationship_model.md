@@ -14,4 +14,6 @@
 
 ___
 # Entity relationship model
-- A [[UML_diagrams|graphical representation]] of [[Database_fundamentals|database]]
+- A [[UML_diagrams|graphical representation]] of [[Database_fundamentals|database]] logic 
+
+> ![[Pasted image 20230117170111.png]]
