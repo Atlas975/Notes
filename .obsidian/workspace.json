@@ -201,7 +201,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -246,7 +246,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "OperatingSystems/Paging.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -286,7 +286,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md"
+                "file": "OperatingSystems/Paging.md"
               }
             }
           }
@@ -310,7 +310,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md"
+                "file": "OperatingSystems/Paging.md"
               }
             }
           },
@@ -336,7 +336,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "OperatingSystems/Paging.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -394,8 +394,9 @@
       "random-note:Open random note": false
     }
   },
-  "active": "e9c6d4a65109dd57",
+  "active": "b835725bfb42b37d",
   "lastOpenFiles": [
+    "OperatingSystems/Virtualisation.md",
     "Networking/Internet_fundamentals.md",
     "OperatingSystems/Input&Output_systems.md",
     "OperatingSystems/Computer_memory.md",
@@ -404,7 +405,6 @@
     "OperatingSystems/Paging.md",
     "OperatingSystems/Linux_permissions.md",
     "OperatingSystems/Multi-Process_systems.md",
-    "OperatingSystems/Operating_system_design.md",
-    "OperatingSystems/Processors.md"
+    "OperatingSystems/Operating_system_design.md"
   ]
 }
