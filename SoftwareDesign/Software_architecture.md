@@ -110,7 +110,7 @@ specified.
 
 ## Repository architectural style
 - Suitable when components need to share data between each other 
-- Components must agree to repo schema, adding an extra challenge 
+- Components must agree to repo schema, adding an extra level of coordination
 
 > ![[Pasted image 20221124001856.png|550|550]]
 > ![[Pasted image 20221124001914.png|550|550]]

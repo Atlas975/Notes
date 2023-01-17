@@ -78,8 +78,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md",
-                "mode": "source",
+                "file": "SoftwareDesign/Software_architecture.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -259,7 +259,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md",
+                "file": "SoftwareDesign/Software_architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -299,7 +299,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md"
+                "file": "SoftwareDesign/Software_architecture.md"
               }
             }
           }
@@ -323,7 +323,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md"
+                "file": "SoftwareDesign/Software_architecture.md"
               }
             }
           },
@@ -349,7 +349,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md",
+                "file": "SoftwareDesign/Software_architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -409,15 +409,15 @@
   },
   "active": "8ebd133d6fe25b32",
   "lastOpenFiles": [
+    "SoftwareDesign/Test_types.md",
+    "SoftwareDesign/Software_architecture.md",
+    "SoftwareDesign/Entity_relationship_model.md",
     "Databases/Database_fundamentals.md",
     "Databases/Database_design.md",
-    "SoftwareDesign/Entity_relationship_model.md",
     "SoftwareDesign/UML_diagrams.md",
     "SoftwareDesign/Software_planning.md",
-    "SoftwareDesign/Software_architecture.md",
     "OperatingSystems/Virtualisation.md",
     "OperatingSystems/Computer_memory.md",
-    "OperatingSystems/Page_replacement.md",
-    "OperatingSystems/Multi-Process_systems.md"
+    "OperatingSystems/Page_replacement.md"
   ]
 }

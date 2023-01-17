@@ -658,8 +658,16 @@
     "Represented": {
       "Represented": {
         "currentFile": {
+          "count": 4,
+          "lastUpdated": 1673976756202
+        }
+      }
+    },
+    "attributes": {
+      "attributes": {
+        "currentFile": {
           "count": 2,
-          "lastUpdated": 1673976563844
+          "lastUpdated": 1673977146076
         }
       }
     }

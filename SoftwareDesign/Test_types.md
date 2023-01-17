@@ -1,7 +1,7 @@
 > [!important]- Metadata
 > **Tags:** #DesignTheory 
 > **Located:** SoftwareDesign
-> **Created:** 26/12/2022 - 09:26
+> **Created:** 26/12/2022 - 03:56
 > ```dataviewjs
 >let loc = dv.current().file.path;
 >let cur = dv.page(loc).file;
@@ -14,9 +14,7 @@
 
 ___
 # Test types
-<% tp.file.cursor(2) %>
 
----
 ### Unit tests
 
 - Unit tests are very low level and close to the source of an application. They consist in testing individual methods and functions of the classes, components, or modules used by your software. Unit tests are generally quite cheap to automate and can run very quickly by a continuous integration server.
