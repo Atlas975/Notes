@@ -51,7 +51,7 @@ ___
 
 > ![[Pasted image 20211112223946.png|500|500]]
 ## Relation types
-- There are 3 different types of relations in the database: **one-to-one**. **one-to-many, and**. **many-to-many** each with associated visual representations [[UML_diagrams]]
+- There are 3 different types of relations in the database: **one-to-one**. **one-to-many, and**. **many-to-many** each with  [[UML_diagrams|associated visual representations]]
 
 > ![[Pasted image 20220618083239.png]]
 # Flat file systems

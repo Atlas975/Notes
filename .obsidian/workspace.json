@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "Databases/Database_design.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -60,12 +60,12 @@
             }
           },
           {
-            "id": "e9c6d4a65109dd57",
+            "id": "ebf6dec42ca9dca4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "OperatingSystems/Computer_memory.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -201,7 +201,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -246,7 +246,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "OperatingSystems/Computer_memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -286,7 +286,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md"
+                "file": "OperatingSystems/Computer_memory.md"
               }
             }
           }
@@ -294,8 +294,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5046501159668,
-    "collapsed": true
+    "width": 306.5046501159668
   },
   "right": {
     "id": "441e4249d5592193",
@@ -311,7 +310,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md"
+                "file": "OperatingSystems/Computer_memory.md"
               }
             }
           },
@@ -337,7 +336,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "OperatingSystems/Computer_memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -395,17 +394,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "b835725bfb42b37d",
+  "active": "ebf6dec42ca9dca4",
   "lastOpenFiles": [
-    "OperatingSystems/Paging.md",
-    "OperatingSystems/Operating_system_design.md",
+    "OperatingSystems/Page_replacement.md",
     "OperatingSystems/Multi-Process_systems.md",
+    "OperatingSystems/Operating_system_design.md",
+    "OperatingSystems/Caching.md",
+    "OperatingSystems/Paging.md",
+    "Databases/Database_design.md",
+    "Databases/Database_fundamentals.md",
     "OperatingSystems/Virtualisation.md",
     "Networking/Internet_fundamentals.md",
-    "OperatingSystems/Input&Output_systems.md",
-    "OperatingSystems/Computer_memory.md",
-    "OperatingSystems/File_systems.md",
-    "OperatingSystems/Error_codes.md",
-    "OperatingSystems/Linux_permissions.md"
+    "OperatingSystems/Input&Output_systems.md"
   ]
 }
