@@ -39,9 +39,9 @@ ___
 - Tables are a collection of  records (**rows**)
 - Records are a collection of fields (**columns**)
 - Three components of relational DBMS
-    1. Data structure
-    2. Data manipulation
-    3. Data integrity
+	1. Data structure
+	2. Data manipulation
+	3. Data integrity
 ## Integrity in DBMS
 1. Domain integrity: restricts values to specific data types in columns
 2. Entity integrity: no two rows can be equal
@@ -50,13 +50,15 @@ ___
 - Relations are formed from a set of tuples [[Relations]]
 
 > ![[Pasted image 20211112223946.png|500|500]]
+
 ## Relation types
 - There are 3 different types of relations in the database: **one-to-one**. **one-to-many, and**. **many-to-many** each with  [[UML_diagrams|associated visual representations]]
 
 > ![[Pasted image 20220618083239.png]]
+
 # Flat file systems
 - Data stored in different files each with a specific format and specific apps that understand the format
-## Downsides
+## Flat file system downsides
 - No standards for data control
 - Duplicate data can be present (columns & rows)
 - Data access difficult to manage, unable to generate complex queries
@@ -64,18 +66,18 @@ ___
 - Few automates checks for data entry/conversion
 # DBMS
 - A DBMS provides 3 main services:
-- SQL intergrates all of these in one language
+- [[SQL_language|SQL]] integrates all of these in one language
 ## 1. Data definition language (DDL)
 - Structure that data is conecptually stored (scheme), a group of tables in a DB is called a schema
 ## 2. Data manipulation language (DML)
 - Ability to manipulate data (insert,delete,update,select)
 ## 3. Data control language (DCL)
-- Control data privleges (access rights), used to control access to data stored in a DB
+- Control data privileges (access rights), used to control access to data stored in a DB
 # ANSI-SPARC Architecture
 - **ANSI**: American National Standards Institute
 - **SPARC**: Standard Planning And Requirements committee
-## The Architecture
-> ![[Pasted image 20211213221229.png|500]]
+
+> ![[Pasted image 20211213221229.png|500|500]]
 
 - Each level can be described by a schema
 ## External level
@@ -83,7 +85,7 @@ ___
 ## Organization level
 - What data is stored, how it's arranged, data relationships, security and data relationships (CREATE)
 ## Internal level
-- Structure data is written/receieved, how data is ordered, space allocations and compression/encryption
+- Structure data is written/received, how data is ordered, space allocations and compression/encryption
 # Schemas
 - These describe how each level operates
 - Conceptual schema: database content organization

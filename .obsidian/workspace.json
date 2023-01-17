@@ -65,8 +65,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "SoftwareDesign/UML_diagrams.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8ebd133d6fe25b32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoftwareDesign/Entity_relationship_model.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -201,7 +214,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -246,7 +259,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "SoftwareDesign/Entity_relationship_model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -286,7 +299,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md"
+                "file": "SoftwareDesign/Entity_relationship_model.md"
               }
             }
           }
@@ -310,7 +323,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md"
+                "file": "SoftwareDesign/Entity_relationship_model.md"
               }
             }
           },
@@ -336,7 +349,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "SoftwareDesign/Entity_relationship_model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -394,17 +407,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "ebf6dec42ca9dca4",
+  "active": "8ebd133d6fe25b32",
   "lastOpenFiles": [
+    "SoftwareDesign/UML_diagrams.md",
+    "SoftwareDesign/Software_planning.md",
+    "SoftwareDesign/Software_architecture.md",
+    "Databases/Database_fundamentals.md",
+    "Databases/Database_design.md",
+    "OperatingSystems/Virtualisation.md",
     "OperatingSystems/Computer_memory.md",
     "OperatingSystems/Page_replacement.md",
     "OperatingSystems/Multi-Process_systems.md",
-    "OperatingSystems/Operating_system_design.md",
-    "OperatingSystems/Caching.md",
-    "OperatingSystems/Paging.md",
-    "Databases/Database_design.md",
-    "Databases/Database_fundamentals.md",
-    "OperatingSystems/Virtualisation.md",
-    "Networking/Internet_fundamentals.md"
+    "OperatingSystems/Operating_system_design.md"
   ]
 }
