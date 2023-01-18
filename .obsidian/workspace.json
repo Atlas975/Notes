@@ -4,167 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "0af83b74076be40e",
+        "id": "823345a83d3b2e21",
         "type": "tabs",
         "children": [
           {
-            "id": "720213dac1f1bdb0",
+            "id": "6674ac8276515c8e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2cd7f55680c7cdfc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Internet_fundamentals.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3e64c45e2bf91950",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b835725bfb42b37d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Database_design.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ebf6dec42ca9dca4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SoftwareDesign/UML_diagrams.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8ebd133d6fe25b32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SoftwareDesign/Software_architecture.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "17f987da89e05402",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DataStructures/CacheStructures/LRU.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "54f43506a15a9e84",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/Paging.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c4c42f4b212382f2",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           },
           {
-            "id": "72b752683c4fd2f4",
+            "id": "da85ac00e105795e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgramLanguages/x86_assembly.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d34001be45947be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DataStructures/CacheStructures/LFU.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "76a4873efd3068fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "574b03d6595b4394",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
+                "file": "DataStructures/Sets.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -172,67 +29,12 @@
             }
           },
           {
-            "id": "587069fde030b800",
+            "id": "919bc72f053b8b8d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Multi-Process_systems.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b5a9ab5910ab12e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DataStructures/CacheStructures/LRU.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b5dbf7b1712078a7",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "dac43b3c5fa7f8e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/AlgorithmConcepts/Sorting_algorithms.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "63ee74c6b29081d4",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "2feae0e811cc7a8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-GeneralConcepts/DataProcessing/Normalization_vs_scaling.md",
+                "file": "OperatingSystems/Page_replacement.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -240,7 +42,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -285,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataStructures/CacheStructures/LRU.md",
+                "file": "OperatingSystems/Page_replacement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -325,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/CacheStructures/LRU.md"
+                "file": "OperatingSystems/Page_replacement.md"
               }
             }
           }
@@ -349,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/CacheStructures/LRU.md"
+                "file": "OperatingSystems/Page_replacement.md"
               }
             }
           },
@@ -375,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataStructures/CacheStructures/LRU.md",
+                "file": "OperatingSystems/Page_replacement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -433,17 +235,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "17f987da89e05402",
+  "active": "919bc72f053b8b8d",
   "lastOpenFiles": [
-    "DataStructures/Abstract_data_types.md",
+    "DataStructures/Sets.md",
     "OperatingSystems/Page_replacement.md",
-    "OperatingSystems/Paging.md",
-    "SoftwareDesign/Software_architecture.md",
-    "SoftwareDesign/Entity_relationship_model.md",
-    "SoftwareDesign/BSPL.md",
-    "SoftwareDesign/Test_types.md",
-    "Databases/Database_fundamentals.md",
-    "Databases/Database_design.md",
-    "SoftwareDesign/UML_diagrams.md"
+    "MachineLearning/0-GeneralConcepts/DataProcessing/Normalization_vs_scaling.md",
+    "DataStructures/CacheStructures/LRU.md",
+    "OperatingSystems/Multi-Process_systems.md",
+    "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
+    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+    "DataStructures/CacheStructures/LFU.md",
+    "ProgramLanguages/x86_assembly.md",
+    "OperatingSystems/Paging.md"
   ]
 }
