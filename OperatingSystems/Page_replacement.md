@@ -75,3 +75,16 @@ a_{i}=\frac{s_{i}}{S\times m}\text{ frames}
 
 > ![[Pasted image 20221213163525.png|450|450]]
 
+- OS support for this exists in the form of the **accesses bit** which unlike the dirty bit is modified during either a read or write instead of just on write operations
+
+> ![[Pasted image 20230118184433.png|450|450]]
+
+## Second chance / clock 
+- A circular list of of pages is kept (page tables can be walked through recursively)
+- This looks for a frame whose access bit is set to 0 and then replaces it, less overhead than an [[LRU]] cache 
+
+> ![[Pasted image 20230118185107.png|450|450]]
+
+- With [[Bit_manipulation|Bit manipulation]]t this can emulate the use of an [[LFU]] cache, with a left shift used after a specified amount of time elapses and new usage pushing to the left
+
+> 

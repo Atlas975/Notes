@@ -32,6 +32,14 @@
             "id": "919bc72f053b8b8d",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "1aa4c4e9d1b38031",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "OperatingSystems/Page_replacement.md",
@@ -55,7 +63,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -148,8 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5046501159668,
-    "collapsed": true
+    "width": 306.5046501159668
   },
   "right": {
     "id": "441e4249d5592193",
@@ -249,10 +256,10 @@
       "random-note:Open random note": false
     }
   },
-  "active": "919bc72f053b8b8d",
+  "active": "1aa4c4e9d1b38031",
   "lastOpenFiles": [
-    "OperatingSystems/Paging.md",
     "OperatingSystems/Page_replacement.md",
+    "OperatingSystems/Paging.md",
     "DataStructures/Sets.md",
     "MachineLearning/0-GeneralConcepts/DataProcessing/Normalization_vs_scaling.md",
     "DataStructures/CacheStructures/LRU.md",
