@@ -162,8 +162,8 @@
     "memory": {
       "memory": {
         "currentFile": {
-          "count": 2,
-          "lastUpdated": 1673958038252
+          "count": 3,
+          "lastUpdated": 1674035206144
         }
       }
     },
@@ -458,8 +458,8 @@
     "replacement": {
       "replacement": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1673462137992
+          "count": 5,
+          "lastUpdated": 1674035029907
         }
       }
     },
@@ -618,8 +618,8 @@
     "processes": {
       "processes": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1673954668507
+          "count": 2,
+          "lastUpdated": 1674035150991
         }
       }
     },
@@ -668,6 +668,14 @@
         "currentFile": {
           "count": 2,
           "lastUpdated": 1673977146076
+        }
+      }
+    },
+    "allocation": {
+      "allocation": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1674035273181
         }
       }
     }

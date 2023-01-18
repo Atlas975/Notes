@@ -13,4 +13,9 @@
 > ```
 
 ___
-# Page replacement
+# Page replacement 
+- Page memory allocation can follow one of two schemes 
+    - **Equal allocation**: each process gets m/n frames (for memory size m), not ideal for processes that have distinct memory requirements but minimal overhead for allocation
+    - **Proportional allocation**
+- Local page replacement means that a process cannot take frames from other processes 
+- Global page replacement allows frames to be taken from any process, requires management
