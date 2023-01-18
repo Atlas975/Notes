@@ -85,6 +85,13 @@ a_{i}=\frac{s_{i}}{S\times m}\text{ frames}
 
 > ![[Pasted image 20230118185107.png|450|450]]
 
-- With [[Bit_manipulation|Bit manipulation]]t this can emulate the use of an [[LFU]] cache, with a left shift used after a specified amount of time elapses and new usage pushing to the left
+- With [[Bit_manipulation|Bit manipulation]] this can emulate the use of an [[LFU]] cache
+- This makes use of the access bit, with a right shift used after a specified amount of time elapses and new usage pushing to the highest bit (left)
 
-> 
+> ![[Pasted image 20230118185713.png|450|450]]
+
+### Working set replacement 
+- This method can also be used periodically to perform working set replacement 
+- These periodic time intervals should be a minimum of twice the period taken to calculate a working set for a process 
+
+> ![[Pasted image 20230118191045.png|450|450]]
