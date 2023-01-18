@@ -45,4 +45,14 @@ a_{i}=\frac{s_{i}}{S\times m}\text{ frames}
 ## Replacement speed up methods
 1. The dirty bit can be used to indicate when a page held in primary memory does not match it's counterpart on disk
 2. When a [[Processors|processor]] is idle, it can attempt to free up pages in reserve to be used, this allows for a process to immediately be restarted after it's page request
-3. Idle time can be used to keep a queue of victims for page replacement, this 
+3. Idle time can be used to keep a queue of victims for page replacement, this can include pages that have their dirty bit set. This allows two kinds of page faults, the latter being faster:
+        - **Hard page fault:** page is only present on disk or copy in primary memory is outdated 
+        - **Soft page fault**: page isn't part of a processes page table, but it still sits in primary memory 
+
+# Frame replacement algorithms 
+- The **working set** of pages for a process constantly changes as only a subset of pages get regular usage at a time (principle of locality)
+- The **locality of reference** suggests that page usage is repetitive
+
+> ![[Pasted image 20230118182606.png|450|450]]
+- A process that runs for longer periods of time will require page replacement victims as the working set shifts 
+- There a 
