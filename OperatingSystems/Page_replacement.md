@@ -50,9 +50,28 @@ a_{i}=\frac{s_{i}}{S\times m}\text{ frames}
         - **Soft page fault**: page isn't part of a processes page table, but it still sits in primary memory 
 
 # Frame replacement algorithms 
-- The **working set** of pages for a process constantly changes as only a subset of pages get regular usage at a time (principle of locality)
+- The working set of pages for a process constantly changes as only a subset of pages get regular usage at a time (principle of locality)
 - The **locality of reference** suggests that page usage is repetitive
 
 > ![[Pasted image 20230118182606.png|450|450]]
 - A process that runs for longer periods of time will require page replacement victims as the working set shifts 
-- There a 
+- There are two types of page sets in memory 
+    - **Working set**: set of pages a process would like in memory, varies throughout execution
+    - **Resident set**: set of pages actually in memory, this is the maximum amount of pages during a processes lifetime
+- Various algorithms to attempt to optimally keep up with the working set of pages 
+
+## FIFO
+
+> ![[Pasted image 20221213163334.png|450|450]]
+
+- Not ideal for caching pages that are frequently used 
+- For instance, initial pages likely hold key parts of process such as global variables / libraries which are highly likely to remain in working set
+## LRU
+
+> ![[Pasted image 20221213163450.png|450|450]]
+
+- More overhead but fewer page faults
+- This level of abstraction is expensive and may often be unavailable, as it requires either keeping count of page accesses or the use of a [[LRU#LRU algorithm|doubly linked list]]
+
+> ![[Pasted image 20221213163525.png|450|450]]
+

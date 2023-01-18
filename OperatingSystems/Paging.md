@@ -127,20 +127,6 @@ ___
 
 > ![[Pasted image 20221213014627.png|450]]
 
-## Frame cache methods
-### FIFO
-
-> ![[Pasted image 20221213163334.png|450|450]]
-
-- Not ideal for caching pages that are frequently used 
-### LRU
-
-> ![[Pasted image 20221213163450.png|450|450]]
-
-- More overhead but fewer page faults
-- This can be implemented via a stack, pushing most recent requests to the head
-
-> ![[Pasted image 20221213163525.png|450|450]]
 
 ## Speeding up process creation
 - The paging system provides a way to speed up process creation 
