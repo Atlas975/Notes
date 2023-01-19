@@ -33,15 +33,19 @@ pub fn hammingWeight(n: u32) -> i32 {
 
 ## Count bits
 ```python
-def countBits(self, n: int) -> List[int]:
-    if n == 0:
-        return [0]
-    res = [0] * (n + 1)
-    res[0] = 0
-    res[1] = 1
-    for i in range(2, n + 1):
-        res[i] = res[i // 2] if i % 2 == 0 else res[i // 2] + 1
-    return res
+pub fn count_bits(n: i32) -> Vec<i32> {
+    if n == 0 {
+        return vec![0];
+    }
+    let n = n as usize;
+    let mut res = vec![0; n + 1];
+    res[1] = 1;
+
+    for i in 2..=n {
+        res[i] = res[i >> 1] + (i & 1) as i32;
+    }
+    res
+}
 ```
 
 ## Reverse bits
