@@ -67,19 +67,21 @@ def threeSum(self, nums: List[int]) -> List[List[int]]:
 ```
 
 ## Container with most water 
-```python
-def maxArea(self, height: List[int]) -> int:
-    mxarea = 0
-    l, r = 0, len(height) - 1
-
-    while l < r:
-        if height[l] < height[r]:
-            mxarea = max(mxarea, height[l] * (r - l))
-            l += 1
-        else:
-            mxarea = max(mxarea, height[r] * (r - l))
-            r -= 1
-    return mxarea
+```rust
+pub fn max_area(height: Vec<i32>) -> i32 {
+    let (mut l, mut r) = (0, height.len() - 1);
+    let mut mxarea = 0;
+    while l < r {
+        if height[l] < height[r] {
+            mxarea = mxarea.max(height[l] * (r - l) as i32);
+            l += 1;
+        } else {
+            mxarea = mxarea.max(height[r] * (r - l) as i32);
+            r -= 1;
+        }
+    }
+    mxarea
+}
 ```
 
 ## Trapping rain water 

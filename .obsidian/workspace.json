@@ -89,7 +89,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
+                "file": "Algorithms/ProgrammingPatterns/Two_pointers.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
+                "file": "Algorithms/ProgrammingPatterns/Two_pointers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md"
+                "file": "Algorithms/ProgrammingPatterns/Two_pointers.md"
               }
             }
           }
@@ -214,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md"
+                "file": "Algorithms/ProgrammingPatterns/Two_pointers.md"
               }
             }
           },
@@ -240,7 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
+                "file": "Algorithms/ProgrammingPatterns/Two_pointers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -300,15 +300,15 @@
   },
   "active": "53bdf3ca970fecd7",
   "lastOpenFiles": [
-    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
+    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
     "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
     "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "ProgramLanguages/C_language.md",
     "OperatingSystems/DigitalSystems/Data_encoding.md",
-    "OperatingSystems/Caching.md",
-    "OperatingSystems/Paging.md"
+    "OperatingSystems/Caching.md"
   ]
 }

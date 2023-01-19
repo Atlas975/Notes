@@ -88,20 +88,32 @@ def productExceptSelf(self, nums: List[int]) -> List[int]:
 ```
 
 ## Valid Sudoku
-```python
-def isValidSudoku(self, board):
-    cols, rows, grid = defaultdict(set), defaultdict(set), defaultdict(set)
+[[Bit_manipulation]]
+```rust
+pub fn is_valid_sudoku(board: Vec<Vec<char>>) -> bool {
+    let (mut cols, mut rows, mut grids) = ([0u16; 9], [0u16; 9], [0u16; 9]);
 
-    for r, c in product(range(9), repeat=2):
-        tile = board[r][c]
-        if tile == ".":
-            continue
-        if tile in (cols[c] | rows[r] | grid[r // 3, c // 3]):
-            return False
-        cols[c].add(tile)
-        rows[r].add(tile)
-        grid[r // 3, c // 3].add(tile)
-    return True
+    for r in 0..9 {
+        for c in 0..9 {
+            if board[r][c] == '.' {
+                continue;
+            }
+            let tile = 1 << (board[r][c] as u8 - b'1');
+            let g = (r / 3) * 3 + c / 3;
+
+            if  cols[c] & tile != 0 || 
+                rows[r] & tile != 0 || 
+                grids[g] & tile != 0 {
+                return false;
+            }
+
+            cols[c] |= tile;
+            rows[r] |= tile;
+            grids[g] |= tile;
+        }
+    }
+    true
+}
 ```
 
 ## Longest consecutive sequence
