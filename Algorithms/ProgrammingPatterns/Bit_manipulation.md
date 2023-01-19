@@ -15,7 +15,7 @@
 ___
 # Bit manipulation
 ## Single number
-```python
+```rust
 pub fn single_number(nums: Vec<i32>) -> i32 {
     nums.into_iter().fold(0, |acc, x| acc ^ x)
 }
@@ -45,7 +45,7 @@ def countBits(self, n: int) -> List[int]:
 ```
 
 ## Reverse bits
-```python
+```rust
 pub fn reverse_bits(x: u32) -> u32 {
     let mut x = x;
     (0..32).fold(0, |mut acc, _| {
@@ -58,12 +58,13 @@ pub fn reverse_bits(x: u32) -> u32 {
 ```
 
 ## Missing number
-```python
-def missingNumber(self, nums: List[int]) -> int:
-    res = len(nums)
-    for i,num in enumerate(nums):
-        res ^= i ^ num
-    return res
+```rust
+pub fn missing_number(nums: Vec<i32>) -> i32 {
+    let n = nums.len() as i32;
+    nums.into_iter()
+        .enumerate()
+        .fold(n, |acc, (i, x)| acc ^ (i as i32) ^ x)
+}
 ```
 
 ## Reverse number
