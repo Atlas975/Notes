@@ -16,11 +16,9 @@ ___
 # Bit manipulation
 ## Single number
 ```python
-def singleNumber(self, nums: List[int]) -> int:
-    res = 0
-    for num in nums:
-        res ^= num
-    return res
+pub fn single_number(nums: Vec<i32>) -> i32 {
+    nums.into_iter().fold(0, |acc, x| acc ^ x)
+}
 ```
 
 ## Number of one bits
@@ -48,13 +46,15 @@ def countBits(self, n: int) -> List[int]:
 
 ## Reverse bits
 ```python
-def reverseBits(self, n: int) -> int:
-    res = 0
-    for _ in range(32):
-        res <<= 1
-        res += n&1
-        n >>= 1
-    return res
+pub fn reverse_bits(x: u32) -> u32 {
+    let mut x = x;
+    (0..32).fold(0, |mut acc, _| {
+        acc <<= 1;
+        acc |= x & 1;
+        x >>= 1;
+        acc
+    })
+}
 ```
 
 ## Missing number
@@ -82,12 +82,9 @@ def reverse(self, x: int) -> int:
 ## Sum of two integers
 ```rust
 pub fn get_sum(a: i32, b: i32) -> i32 {
-    fn add(a: i32, b: i32) -> i32 {
-        if b == 0 {
-            return a;
-        }
-        add(a ^ b, (a & b) << 1)
+    if b == 0 {
+        return a;
     }
-    return add(a, b);
+    Self::get_sum(a ^ b, (a & b) << 1)
 }
 ```

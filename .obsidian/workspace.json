@@ -89,7 +89,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgramLanguages/C_language.md",
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/C_language.md",
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/C_language.md"
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md"
               }
             }
           }
@@ -214,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/C_language.md"
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md"
               }
             }
           },
@@ -240,7 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/C_language.md",
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -300,6 +300,7 @@
   },
   "active": "53bdf3ca970fecd7",
   "lastOpenFiles": [
+    "ProgramLanguages/C_language.md",
     "OperatingSystems/DigitalSystems/Data_encoding.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "OperatingSystems/Caching.md",
@@ -308,7 +309,6 @@
     "XX-Attachments/Templates/AliasNote.md",
     "XX-Attachments/Templates/InfoNote.md",
     "OperatingSystems/Page_replacement.md",
-    "OperatingSystems/Computer_memory.md",
-    "DataStructures/Sets.md"
+    "OperatingSystems/Computer_memory.md"
   ]
 }
