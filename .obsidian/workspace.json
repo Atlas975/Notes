@@ -84,6 +84,19 @@
             }
           },
           {
+            "id": "53bdf3ca970fecd7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/DigitalSystems/Data_encoding.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ac378a0c2f2283d4",
             "type": "leaf",
             "state": {
@@ -92,7 +105,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -137,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Paging.md",
+                "file": "OperatingSystems/DigitalSystems/Data_encoding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Paging.md"
+                "file": "OperatingSystems/DigitalSystems/Data_encoding.md"
               }
             }
           }
@@ -201,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Paging.md"
+                "file": "OperatingSystems/DigitalSystems/Data_encoding.md"
               }
             }
           },
@@ -227,7 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Paging.md",
+                "file": "OperatingSystems/DigitalSystems/Data_encoding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -285,17 +298,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "c015ebdd0a828d63",
+  "active": "53bdf3ca970fecd7",
   "lastOpenFiles": [
-    "OperatingSystems/File_systems.md",
+    "Algorithms/ProgrammingPatterns/Sliding_window.md",
+    "OperatingSystems/Caching.md",
     "OperatingSystems/Paging.md",
+    "OperatingSystems/File_systems.md",
     "XX-Attachments/Templates/AliasNote.md",
     "XX-Attachments/Templates/InfoNote.md",
     "OperatingSystems/Page_replacement.md",
     "OperatingSystems/Computer_memory.md",
     "DataStructures/Sets.md",
-    "MachineLearning/0-GeneralConcepts/DataProcessing/Normalization_vs_scaling.md",
-    "DataStructures/CacheStructures/LRU.md",
-    "OperatingSystems/Multi-Process_systems.md"
+    "MachineLearning/0-GeneralConcepts/DataProcessing/Normalization_vs_scaling.md"
   ]
 }
