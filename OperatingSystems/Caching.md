@@ -36,14 +36,21 @@ ___
 > ![[Pasted image 20230115165412.png|450|450]]
 
 ## Cache placement
+
 > ![[Pasted image 20230115165646.png|500|500]]
 
 - Data may be added to a cache based on two approaches:
-    - **Spatial locality**:  nearby memory locations are likely to be referred to again 
-    - **Temporal locality:** follows [[LRU]] principle, recently accessed may be used again
+	- **Spatial locality**:  nearby memory locations are likely to be referred to again 
+	- **Temporal locality:** follows [[LRU]] principle, recently accessed may be used again
 
 # Caching pitfalls
-## Coldstart problem
+## Coldstart initialisation
+- When an empty cache is initialised, it offers no performance speed ups due to constant cache misses with the majority of reads coming directly from disk 
+- A cache is warm once its begun storing values and cache misses become less common
+
+> ![[Pasted image 20230119131838.png|450|450]]
+
+## Coldstart replacement
 - AKA the "new item problem" ,  when requests are being made before enough information is gathered to pick an effective eviction scheme such as [[LRU]] or [[LFU]] 
 - This can happen when the cache is empty or there's a sudden burst of new requests not already present in the cache 
 - Since the cache has no knowledge of how these new items are going to be used, **random replacement** may be more optimal due to it's reduced overhead and the lack of a need for more complex algorithmic eviction schemes

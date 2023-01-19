@@ -71,14 +71,6 @@
         }
       }
     },
-    "Interrupts": {
-      "Interrupts": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1671466567817
-        }
-      }
-    },
     "physical": {
       "physical": {
         "currentFile": {
@@ -111,91 +103,11 @@
         }
       }
     },
-    "processor": {
-      "processor": {
-        "currentFile": {
-          "count": 9,
-          "lastUpdated": 1671467453170
-        }
-      }
-    },
-    "moved": {
-      "moved": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1671433842491
-        }
-      }
-    },
-    "Processor": {
-      "Processor": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1671466174188
-        }
-      }
-    },
-    "preferred": {
-      "preferred": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1671466370919
-        }
-      }
-    },
-    "appropriate": {
-      "appropriate": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1671466764045
-        }
-      }
-    },
-    "non-uniform": {
-      "non-uniform": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1671466879208
-        }
-      }
-    },
     "memory": {
       "memory": {
         "currentFile": {
           "count": 3,
           "lastUpdated": 1674035206144
-        }
-      }
-    },
-    "multi-processing": {
-      "multi-processing": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1671466953070
-        }
-      }
-    },
-    "controller": {
-      "controller": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1671467190927
-        }
-      }
-    },
-    "multi-processors": {
-      "multi-processors": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1671467470777
-        }
-      }
-    },
-    "operating": {
-      "operating": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1671470513829
         }
       }
     },
@@ -458,8 +370,8 @@
     "replacement": {
       "replacement": {
         "currentFile": {
-          "count": 11,
-          "lastUpdated": 1674068966182
+          "count": 12,
+          "lastUpdated": 1674134003404
         }
       }
     },
@@ -708,6 +620,14 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1674069329824
+        }
+      }
+    },
+    "initialisation": {
+      "initialisation": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1674134023096
         }
       }
     }
