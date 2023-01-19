@@ -19,7 +19,17 @@ aliases: [cache]
 ___
 # Caching
 - The memory requirement of a process is typically much smaller than its storage requirement. Caching allows the quick retrieval of data that's actively being used. 
-- Various cache types exists depending on frequency use:
+- Various cache types exists depending on frequency use
+
+## Cache placement
+
+> ![[Pasted image 20230115165646.png|500|500]]
+
+- Data may be added to a cache based on two approaches:
+	- **Spatial locality**:  nearby memory locations are likely to be referred to again 
+	- **Temporal locality:** follows [[LRU]] principle, recently accessed may be used again
+
+# Cache levels
 ## Level 1 cache
 - Fastest memory in a computer system and the smallest 
 - Holds data that a CPU is most likely to need when completing a task 
@@ -34,14 +44,6 @@ ___
 - Shared by multiple cores in [[Processors]]
 
 > ![[Pasted image 20230115165412.png|450|450]]
-
-## Cache placement
-
-> ![[Pasted image 20230115165646.png|500|500]]
-
-- Data may be added to a cache based on two approaches:
-	- **Spatial locality**:  nearby memory locations are likely to be referred to again 
-	- **Temporal locality:** follows [[LRU]] principle, recently accessed may be used again
 
 # Caching pitfalls
 ## Coldstart initialisation

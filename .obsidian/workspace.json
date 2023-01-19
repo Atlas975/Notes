@@ -115,7 +115,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Caching.md",
+                "file": "OperatingSystems/Processors.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Caching.md",
+                "file": "OperatingSystems/Processors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Caching.md"
+                "file": "OperatingSystems/Processors.md"
               }
             }
           }
@@ -240,7 +240,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Caching.md"
+                "file": "OperatingSystems/Processors.md"
               }
             }
           },
@@ -266,7 +266,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Caching.md",
+                "file": "OperatingSystems/Processors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -327,14 +327,14 @@
   "active": "2f59eb2fb64d2946",
   "lastOpenFiles": [
     "OperatingSystems/Page_replacement.md",
+    "OperatingSystems/Operating_system_design.md",
+    "OperatingSystems/Input&Output_systems.md",
+    "OperatingSystems/Paging.md",
+    "OperatingSystems/Computer_memory.md",
+    "OperatingSystems/Error_codes.md",
     "OperatingSystems/Caching.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Sliding_window.md",
-    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Two_pointers.md",
-    "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Heap_algorithms.md"
+    "Algorithms/ProgrammingPatterns/Sliding_window.md"
   ]
 }
