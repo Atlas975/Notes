@@ -89,7 +89,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/Data_encoding.md",
+                "file": "ProgramLanguages/C_language.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/Data_encoding.md",
+                "file": "ProgramLanguages/C_language.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/Data_encoding.md"
+                "file": "ProgramLanguages/C_language.md"
               }
             }
           }
@@ -214,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/Data_encoding.md"
+                "file": "ProgramLanguages/C_language.md"
               }
             }
           },
@@ -240,7 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/Data_encoding.md",
+                "file": "ProgramLanguages/C_language.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -300,6 +300,7 @@
   },
   "active": "53bdf3ca970fecd7",
   "lastOpenFiles": [
+    "OperatingSystems/DigitalSystems/Data_encoding.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "OperatingSystems/Caching.md",
     "OperatingSystems/Paging.md",
@@ -308,7 +309,6 @@
     "XX-Attachments/Templates/InfoNote.md",
     "OperatingSystems/Page_replacement.md",
     "OperatingSystems/Computer_memory.md",
-    "DataStructures/Sets.md",
-    "MachineLearning/0-GeneralConcepts/DataProcessing/Normalization_vs_scaling.md"
+    "DataStructures/Sets.md"
   ]
 }
