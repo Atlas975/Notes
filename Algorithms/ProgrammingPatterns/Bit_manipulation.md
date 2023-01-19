@@ -22,13 +22,13 @@ pub fn single_number(nums: Vec<i32>) -> i32 {
 ```
 
 ## Number of one bits
-```python
-def hammingWeight(self, n: int) -> int:
-    res=0
-    while n!=0:
-        n &= n-1
-        res+=1
-    return res
+```rust
+pub fn hammingWeight(n: u32) -> i32 {
+    if n == 0 {
+        return 0;
+    }
+    1 + Self::hammingWeight(n & (n - 1))
+}
 ```
 
 ## Count bits
@@ -67,7 +67,7 @@ pub fn missing_number(nums: Vec<i32>) -> i32 {
 }
 ```
 
-## Reverse number
+## Reverse integer 
 ```python
 def reverse(self, x: int) -> int:
     s = 1 - 2 * (x < 0)
