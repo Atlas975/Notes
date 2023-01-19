@@ -91,7 +91,12 @@ a_{i}=\frac{s_{i}}{S\times m}\text{ frames}
 > ![[Pasted image 20230118185713.png|450|450]]
 
 ### Working set replacement 
-- This method can also be used periodically to perform working set replacement 
+- This method can also be used periodically perform working set replacement 
 - These periodic time intervals should be a minimum of twice the period taken to calculate a working set for a process 
 
 > ![[Pasted image 20230118191045.png|450|450]]
+
+- Pages not in working set should be queued to be written out to disk
+- Each process also has a **page fault frequency** which should be monitored
+    - **Low frequency**: working set too large, can be shrunk to preserve memory 
+    - **High frequency**: working set too small, runs into thrashing problem. If this is the case it may also be worth pausing the process to free pages 

@@ -50,8 +50,8 @@
     "process": {
       "process": {
         "currentFile": {
-          "count": 9,
-          "lastUpdated": 1674069012031
+          "count": 10,
+          "lastUpdated": 1674069218927
         }
       }
     },
@@ -434,8 +434,8 @@
     "frequently": {
       "frequently": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1673461119916
+          "count": 2,
+          "lastUpdated": 1674069226839
         }
       }
     },
@@ -700,6 +700,14 @@
         "currentFile": {
           "count": 2,
           "lastUpdated": 1674068399323
+        }
+      }
+    },
+    "frequency": {
+      "frequency": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1674069329824
         }
       }
     }

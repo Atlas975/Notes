@@ -117,7 +117,7 @@ ___
 - File systems need to be responsive, a variety of methods have been developed in order to help remedy the limitations of various file systems
 ## Kernel tables
 - The Inode (active index node) describes the structure of a file and the blocks that reside in it
-- This is a frequently used data structure that can be optimized through caching
+- This is a frequently used data structure that can be optimized through [[Caching]]
 
 > ![[Pasted image 20221209132417.png|500]]
 > note the inode only makes sense in its filesystem so both the inode and the filesystem need to be remembered when accessing the cache

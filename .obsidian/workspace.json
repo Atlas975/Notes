@@ -40,9 +40,30 @@
             "id": "1aa4c4e9d1b38031",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "6e9c22b36dce9d8c",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "OperatingSystems/Page_replacement.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "231036a0dc315eee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/Computer_memory.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -63,7 +84,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -108,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Page_replacement.md",
+                "file": "OperatingSystems/Computer_memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Page_replacement.md"
+                "file": "OperatingSystems/Computer_memory.md"
               }
             }
           }
@@ -172,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Page_replacement.md"
+                "file": "OperatingSystems/Computer_memory.md"
               }
             }
           },
@@ -198,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Page_replacement.md",
+                "file": "OperatingSystems/Computer_memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -256,8 +277,9 @@
       "random-note:Open random note": false
     }
   },
-  "active": "1aa4c4e9d1b38031",
+  "active": "231036a0dc315eee",
   "lastOpenFiles": [
+    "OperatingSystems/File_systems.md",
     "OperatingSystems/Page_replacement.md",
     "OperatingSystems/Paging.md",
     "DataStructures/Sets.md",
@@ -266,7 +288,6 @@
     "OperatingSystems/Multi-Process_systems.md",
     "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-    "DataStructures/CacheStructures/LFU.md",
-    "ProgramLanguages/x86_assembly.md"
+    "DataStructures/CacheStructures/LFU.md"
   ]
 }
