@@ -63,8 +63,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md",
-                "mode": "preview",
+                "file": "XX-Attachments/Templates/AliasNote.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md",
+                "file": "XX-Attachments/Templates/AliasNote.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md"
+                "file": "XX-Attachments/Templates/AliasNote.md"
               }
             }
           }
@@ -193,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md"
+                "file": "XX-Attachments/Templates/AliasNote.md"
               }
             }
           },
@@ -219,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md",
+                "file": "XX-Attachments/Templates/AliasNote.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,15 +279,15 @@
   },
   "active": "231036a0dc315eee",
   "lastOpenFiles": [
-    "OperatingSystems/File_systems.md",
+    "XX-Attachments/Templates/InfoNote.md",
     "OperatingSystems/Page_replacement.md",
+    "OperatingSystems/Computer_memory.md",
+    "OperatingSystems/File_systems.md",
     "OperatingSystems/Paging.md",
     "DataStructures/Sets.md",
     "MachineLearning/0-GeneralConcepts/DataProcessing/Normalization_vs_scaling.md",
     "DataStructures/CacheStructures/LRU.md",
     "OperatingSystems/Multi-Process_systems.md",
-    "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
-    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-    "DataStructures/CacheStructures/LFU.md"
+    "OperatingSystems/DigitalSystems/InstructionSet_architecture.md"
   ]
 }
