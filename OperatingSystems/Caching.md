@@ -29,7 +29,8 @@ ___
 	- **Spatial locality**:  nearby memory locations may be accessed next
 	- **Temporal locality:** follows [[LRU]] principle, recently accessed may be used again
 
-## Helper bits 
+# Cache control bits 
+
 
 # Cache levels
 ## Level 1 cache

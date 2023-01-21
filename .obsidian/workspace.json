@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Paging.md",
+                "file": "OperatingSystems/Caching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Paging.md"
+                "file": "OperatingSystems/Caching.md"
               }
             }
           }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Paging.md"
+                "file": "OperatingSystems/Caching.md"
               }
             }
           },
@@ -185,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Paging.md",
+                "file": "OperatingSystems/Caching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,17 +243,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "bcb5e8a1ecf9a9bf",
+  "active": "970c67e256cf1148",
   "lastOpenFiles": [
+    "XX-Attachments/Templates/AliasNote.md",
     "OperatingSystems/Caching.md",
-    "OperatingSystems/Page_replacement.md",
     "OperatingSystems/Paging.md",
+    "OperatingSystems/Page_replacement.md",
     "OperatingSystems/File_systems.md",
     "OperatingSystems/Error_codes.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Sliding_window.md"
+    "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md"
   ]
 }
