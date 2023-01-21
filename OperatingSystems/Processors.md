@@ -27,6 +27,14 @@ ___
     - Process priority if in a [[Multi-Process_systems]]
 - Virtual CPUs (hyper-threading) pose a challenge as they contend for the same resources 
 
+
+## Address space 
+- Address space (or main memory address space) is the amount of memory that can be addressed by a processor, indicates range of memory addresses that can be used 
+- **x64** and **x32** architecture indicates that many bits of address space
+- In **x86** architecture, the main memory address space is divided into two parts:
+    - The first part is called **real mode**, which is a 16-bit mode and can address 1 MB of memory.
+    - The second part is called **protected mode**, which is a 32-bit mode and can address 4 GB of memory.
+
 # Multiprocessors
 - With multiple processors, a hierarchy of [[Computer_memory|memory]] and access speeds exist within processors. 
 - Computer processing structure:

@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Caching.md",
-                "mode": "source",
+                "file": "OperatingSystems/Processors.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Caching.md",
+                "file": "OperatingSystems/Processors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Caching.md"
+                "file": "OperatingSystems/Processors.md"
               }
             }
           }
@@ -190,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Caching.md"
+                "file": "OperatingSystems/Processors.md"
               }
             }
           },
@@ -216,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Caching.md",
+                "file": "OperatingSystems/Processors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -276,10 +276,10 @@
   },
   "active": "03fc068a5f10acdf",
   "lastOpenFiles": [
+    "OperatingSystems/Caching.md",
     "DiscreteMath/Relations.md",
     "DiscreteMath/Paste****d image 20211028231723.png.md",
     "Paste****d image 20211028231723.png.md",
-    "OperatingSystems/Caching.md",
     "OperatingSystems/Paging.md",
     "00-Main/1-Litnote.md",
     "00-Main/2-Litnote.md",
