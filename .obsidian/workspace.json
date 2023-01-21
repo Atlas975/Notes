@@ -22,7 +22,7 @@
               "type": "markdown",
               "state": {
                 "file": "OperatingSystems/Caching.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -260,9 +260,9 @@
   "lastOpenFiles": [
     "OperatingSystems/Computer_memory.md",
     "OperatingSystems/Caching.md",
+    "OperatingSystems/Paging.md",
     "SoftwareEngineering/Concurrency.md",
     "XX-Attachments/Templates/AliasNote.md",
-    "OperatingSystems/Paging.md",
     "OperatingSystems/Page_replacement.md",
     "OperatingSystems/File_systems.md",
     "OperatingSystems/Error_codes.md",

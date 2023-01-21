@@ -21,6 +21,8 @@ ___
 - The memory requirement of a process is typically much smaller than its storage requirement. Caching allows the quick retrieval of data that's actively being used. 
 - Various cache types exists depending on frequency use
 
+> ![[Pasted image 20230121153547.png|450|450]]
+
 ## Cache placement
 
 > ![[Pasted image 20230115165646.png|500|500]]
@@ -32,7 +34,7 @@ ___
 # Cache control bits 
 ## Valid bit 
 ## Dirty bit 
-- Indicates that the data held in [[Computer_memory#Primary memory|Primary memory]]  has not yet been written into [[Computer_memory#Secondary memory|Secondary memory]] 
+- Indicates that a cache line has data that has not yet been written into [[Computer_memory#Primary memory|Primary memory]]  
 
 
 # Cache levels
