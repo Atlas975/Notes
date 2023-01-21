@@ -19,12 +19,10 @@
             "id": "970c67e256cf1148",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "make-folder-view",
               "state": {
-                "file": "OperatingSystems/Processors.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "type": "folder",
+                "folder": "SoftwareEngineering"
               }
             }
           },
@@ -47,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Paging.md",
+                "file": "00-Main/1-Litnote.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -63,7 +61,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -108,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Processors.md",
+                "file": "00-Main/1-Litnote.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,14 +126,15 @@
             }
           },
           {
-            "id": "d99137302f9e1cc8",
+            "id": "be73822288c5da91",
             "type": "leaf",
             "state": {
               "type": "mk-file-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "e76f9604c96a6f00",
@@ -148,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Processors.md"
+                "file": "00-Main/1-Litnote.md"
               }
             }
           }
@@ -172,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Processors.md"
+                "file": "00-Main/1-Litnote.md"
               }
             }
           },
@@ -198,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Processors.md",
+                "file": "00-Main/1-Litnote.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -256,17 +255,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "970c67e256cf1148",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
-    "OperatingSystems/Caching.md",
-    "OperatingSystems/Computer_memory.md",
+    "00-Main/2-Litnote.md",
+    "00-Main/1-Litnote.md",
+    "00-Main/Linux_usage.md",
+    "SoftwareDesign/Software_planning.md",
+    "SoftwareDesign/UML_diagrams.md",
+    "SoftwareDesign/Entity_relationship_model.md",
     "OperatingSystems/Paging.md",
-    "SoftwareEngineering/Concurrency.md",
-    "XX-Attachments/Templates/AliasNote.md",
-    "OperatingSystems/Page_replacement.md",
-    "OperatingSystems/File_systems.md",
-    "OperatingSystems/Error_codes.md",
-    "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Greedy_algorithms.md"
+    "OperatingSystems/Processors.md",
+    "OperatingSystems/Caching.md",
+    "OperatingSystems/Computer_memory.md"
   ]
 }
