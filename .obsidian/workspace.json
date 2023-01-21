@@ -29,6 +29,19 @@
             }
           },
           {
+            "id": "bcb5e8a1ecf9a9bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/Paging.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ac378a0c2f2283d4",
             "type": "leaf",
             "state": {
@@ -37,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Caching.md",
+                "file": "OperatingSystems/Paging.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Caching.md"
+                "file": "OperatingSystems/Paging.md"
               }
             }
           }
@@ -146,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Caching.md"
+                "file": "OperatingSystems/Paging.md"
               }
             }
           },
@@ -172,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Caching.md",
+                "file": "OperatingSystems/Paging.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,17 +243,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "970c67e256cf1148",
+  "active": "bcb5e8a1ecf9a9bf",
   "lastOpenFiles": [
+    "OperatingSystems/Caching.md",
+    "OperatingSystems/Page_replacement.md",
+    "OperatingSystems/Paging.md",
+    "OperatingSystems/File_systems.md",
+    "OperatingSystems/Error_codes.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
     "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Sliding_window.md",
-    "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
-    "OperatingSystems/Processors.md",
-    "OperatingSystems/Page_replacement.md",
-    "OperatingSystems/Operating_system_design.md",
-    "OperatingSystems/Input&Output_systems.md"
+    "Algorithms/ProgrammingPatterns/Sliding_window.md"
   ]
 }

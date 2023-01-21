@@ -9,6 +9,11 @@
       "type": "file",
       "title": "Operating_systems",
       "path": "OperatingSystems/Operating_system_design.md"
+    },
+    {
+      "type": "file",
+      "title": "Caching",
+      "path": "OperatingSystems/Caching.md"
     }
   ]
 }
