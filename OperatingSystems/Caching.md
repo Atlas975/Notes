@@ -30,16 +30,19 @@ ___
 	- **Temporal locality:** follows [[LRU]] principle, recently accessed may be used again
 
 # Cache control bits 
+## Valid bit 
+## Dirty bit 
+- Indicates that the data held in [[Computer_memory#Primary memory|Primary memory]]  has not yet been written into [[Computer_memory#Secondary memory|Secondary memory]] 
 
 
 # Cache levels
 ## Level 1 cache
-- Fastest memory in a computer system and the smallest 
+- Fastest memory in a computer system and the smallest, checked first
 - Holds data that a CPU is most likely to need when completing a task 
 - Typically split between two cache types **instruction** (information about what the CPU should perform) & **data** (the data the operation is performed on)
 
 ## Level 2 cache
-- Slower than L1 cache but larger in space 
+- Larger than the L1 cache, but slower due to longer search times
 - May also be part of the processor itself along with the L1 cache 
 
 ## Level 3 cache

@@ -17,12 +17,14 @@ ___
 
 > ![[Pasted image 20211116110439.png|600]]
 
-## Primary memory / Non-volatile
-- Memory / primary memory is a device designed for [[DigitalSystem_design|storing information]] (bits) for immediate use in a computer.
+## Primary memory
+- **Volatile memory**
+- Primary memory is a device designed for [[DigitalSystem_design|storing information]] (bits) for immediate use in a computer.
 - Not part of the CPU.
 - The CPU uses a program counter to get an address and then sends it to the memory to access this instruction.
 - Memory is usually organised into multiple memory chips
-## Volatile memory
+
+### Volatile memory
 - Only used while computer is active, data wipes when computer is shutdown making it volatile.
 - In contrast to ROM, which contains the computers start up instructions.
 - RAM is an example of volatile memory, but cache memory is faster as its closer to the CPU.
@@ -36,6 +38,11 @@ ___
 - Involves the allocation of memory during compile time before actual program execution.
 - A network of logic circuits are used to build storage of individual bits.
 
+## Secondary memory
+- **Non-volatile**
+- Stores data that the computer is not currently using 
+- Slower than primary memory and cannot be directly accessed by processors 
+- Used by hard drives, USBs etc
 ## Swap space
 - A portion of computers hard drive used to store data temporarily when a system runs out of physical / primary memory (RAM)
 - This frees up RAM for other uses, essential in [[Paging|paging]]
