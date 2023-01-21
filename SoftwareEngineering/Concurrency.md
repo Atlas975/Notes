@@ -423,7 +423,7 @@ void release_lock() {
 # Concurrency pitfalls
 
 ## Deadlocks 
-- A deadlock describes a situation in which a processes cannot progress due to waiting on a shared synchronized resource currently held by another thread.
+- A deadlock describes a situation in which a processes cannot progress due to waiting on a shared synchronised resource currently held by another thread.
 - Ways of combating this include:
 
 > ![[Pasted image 20221101164743.png]]
