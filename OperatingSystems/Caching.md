@@ -41,12 +41,15 @@ ___
 - This is useful when a page table is initialised with empty entries and / or when a page has been  [[Page_replacement|evicted from the cache]]
 ## Dirty bit 
 - Single bit used to indicate that a cache line has data that has not yet been written into [[Computer_memory#Primary memory|Primary memory]] This is the case when data in the cache has been modified and it's shadow copy does not exists or is out of sync. 
-- A
+- This is checked in cache eviction, if the dirty bit is set (1) a write to main memory is required before eviction, a clean bit (0) means that a copy exists and the entry can be evicted safely
 
+## Access bit 
+- Single bit used to indicate cache entry use recency, monitored by **cache controller** 
+- Useful for [[LRU]] / [[LFU]] cache eviction schemes 
 
 ## Cache tag 
 - Identifies memory location of a cache lines data in main memory 
-- Size depends on main memory address space 
+- Size depends on main memory [[Processors#Address space|Address space]] 
 - Useful for detecting **cache hits**
 
 # Cache levels
