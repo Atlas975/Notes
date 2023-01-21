@@ -68,6 +68,15 @@ ___
 
 > ![[Pasted image 20230115165412.png|450|450]]
 
+# Cache policies 
+
+## Write-through
+- Data between cache and main memory is always kept in sync as data is immediately written into both locations on every access
+- Every write operation has more overhead,  only a valid bit is required 
+
+## Write-back
+- Data is only written into cache, data only reaches main when explicitly requested or when the cache line is written out 
+- Less overhead for write operation, but both a valid and **dirty bit required** to maintain sync
 # Caching pitfalls
 ## Coldstart initialisation
 - When an empty cache is initialised, it offers no performance speed ups due to constant cache misses with the majority of reads coming directly from disk 

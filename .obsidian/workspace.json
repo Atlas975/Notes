@@ -60,19 +60,6 @@
             }
           },
           {
-            "id": "274bf06b3b1915c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/Paging.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3e6f4d334cd7a43d",
             "type": "leaf",
             "state": {
@@ -302,13 +289,13 @@
   },
   "active": "f9d7417a11c315a0",
   "lastOpenFiles": [
-    "OperatingSystems/Page_replacement.md",
+    "OperatingSystems/Paging.md",
     "OperatingSystems/Caching.md",
+    "OperatingSystems/Page_replacement.md",
     "OperatingSystems/Processors.md",
     "DiscreteMath/Relations.md",
     "DiscreteMath/Paste****d image 20211028231723.png.md",
     "Paste****d image 20211028231723.png.md",
-    "OperatingSystems/Paging.md",
     "00-Main/1-Litnote.md",
     "00-Main/2-Litnote.md",
     "00-Main/Linux_usage.md"
