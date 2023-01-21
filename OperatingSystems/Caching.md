@@ -32,6 +32,8 @@ ___
 	- **Temporal locality:** follows [[LRU]] principle, recently accessed may be used again
 
 # Cache control bits 
+- Control bits are often used by an [[Operating_system_design|OS]] to manage the operation of a system 
+- In caching these can be useful for holding metadata regarding a cache line
 ## Valid bit 
 ## Dirty bit 
 - Indicates that a cache line has data that has not yet been written into [[Computer_memory#Primary memory|Primary memory]]  

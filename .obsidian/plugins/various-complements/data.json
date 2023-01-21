@@ -55,14 +55,6 @@
         }
       }
     },
-    "components": {
-      "components": {
-        "currentFile": {
-          "count": 9,
-          "lastUpdated": 1671597061020
-        }
-      }
-    },
     "applications": {
       "applications": {
         "currentFile": {
@@ -116,22 +108,6 @@
         "currentFile": {
           "count": 2,
           "lastUpdated": 1673894034993
-        }
-      }
-    },
-    "connected": {
-      "connected": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1671597059006
-        }
-      }
-    },
-    "space": {
-      "space": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1671684491434
         }
       }
     },
@@ -314,8 +290,8 @@
     "operation": {
       "operation": {
         "currentFile": {
-          "count": 2,
-          "lastUpdated": 1673055994732
+          "count": 3,
+          "lastUpdated": 1674329666826
         }
       }
     },
@@ -636,6 +612,14 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1674307492298
+        }
+      }
+    },
+    "metadata": {
+      "metadata": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1674329723489
         }
       }
     }

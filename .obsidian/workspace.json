@@ -22,6 +22,19 @@
               "type": "markdown",
               "state": {
                 "file": "OperatingSystems/Caching.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "274bf06b3b1915c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/Paging.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -258,15 +271,15 @@
   },
   "active": "c14f2ffbc6ca6cdc",
   "lastOpenFiles": [
+    "OperatingSystems/Paging.md",
+    "OperatingSystems/Caching.md",
     "00-Main/1-Litnote.md",
     "00-Main/2-Litnote.md",
     "00-Main/Linux_usage.md",
     "SoftwareDesign/Software_planning.md",
     "SoftwareDesign/UML_diagrams.md",
     "SoftwareDesign/Entity_relationship_model.md",
-    "OperatingSystems/Paging.md",
     "OperatingSystems/Processors.md",
-    "OperatingSystems/Caching.md",
     "OperatingSystems/Computer_memory.md"
   ]
 }
