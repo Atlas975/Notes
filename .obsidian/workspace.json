@@ -16,13 +16,15 @@
             }
           },
           {
-            "id": "970c67e256cf1148",
+            "id": "c14f2ffbc6ca6cdc",
             "type": "leaf",
             "state": {
-              "type": "make-folder-view",
+              "type": "markdown",
               "state": {
-                "type": "folder",
-                "folder": "SoftwareEngineering"
+                "file": "OperatingSystems/Caching.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               }
             }
           },
@@ -61,7 +63,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Main/1-Litnote.md",
+                "file": "OperatingSystems/Caching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,8 +135,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "e76f9604c96a6f00",
@@ -147,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Main/1-Litnote.md"
+                "file": "OperatingSystems/Caching.md"
               }
             }
           }
@@ -171,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Main/1-Litnote.md"
+                "file": "OperatingSystems/Caching.md"
               }
             }
           },
@@ -197,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-Main/1-Litnote.md",
+                "file": "OperatingSystems/Caching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,10 +256,10 @@
       "random-note:Open random note": false
     }
   },
-  "active": "61b6b073dac95afd",
+  "active": "c14f2ffbc6ca6cdc",
   "lastOpenFiles": [
-    "00-Main/2-Litnote.md",
     "00-Main/1-Litnote.md",
+    "00-Main/2-Litnote.md",
     "00-Main/Linux_usage.md",
     "SoftwareDesign/Software_planning.md",
     "SoftwareDesign/UML_diagrams.md",
