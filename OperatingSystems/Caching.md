@@ -35,8 +35,11 @@ ___
 - Control bits are often used by an [[Operating_system_design|OS]] to manage the operation of a system 
 - In caching these can be useful for holding metadata regarding a cache line
 ## Valid bit 
+- Single bit used to indicate validity of a cache line (equivalent to an empty mailbox) 
+- An invalid bit (0) indicates a cache line is empty and that a [[Paging#Page fault|Page fault]] should be triggered
+- This is useful when a page table is initialised with empty entries and / or when a page has been  [[Page_replacement|evicted from the cache]]
 ## Dirty bit 
-- Indicates that a cache line has data that has not yet been written into [[Computer_memory#Primary memory|Primary memory]]  
+- Single bit used to indicate that a cache line has data that has not yet been written into [[Computer_memory#Primary memory|Primary memory]] This is the case when data in the cache has been written
 
 
 # Cache levels

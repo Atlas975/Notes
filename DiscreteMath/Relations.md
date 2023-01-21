@@ -41,9 +41,6 @@ A X B = {<1, 1>, <1, 3>, <2, 1>, <2, 3>} R={<1, 3>, <2, 3>}
 
 >![[Pasted image 20211028231458.png|500]]
 >![[Pasted image 20211028231559.png|500]]
-- example:
-
->![[Paste****d image 20211028231723.png|500]]
 
 # Relation properties
 ## Symmetry 

@@ -622,6 +622,22 @@
           "lastUpdated": 1674329723489
         }
       }
+    },
+    "empty": {
+      "empty": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1674330220810
+        }
+      }
+    },
+    "initialised": {
+      "initialised": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1674330390095
+        }
+      }
     }
   }
 }
