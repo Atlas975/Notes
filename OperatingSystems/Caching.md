@@ -26,7 +26,7 @@ ___
 > ![[Pasted image 20230115165646.png|500|500]]
 
 - Data may be added to a cache based on two approaches:
-	- **Spatial locality**:  nearby memory locations are likely to be referred to again 
+	- **Spatial locality**:  nearby memory locations might be be accessed next
 	- **Temporal locality:** follows [[LRU]] principle, recently accessed may be used again
 
 # Cache levels

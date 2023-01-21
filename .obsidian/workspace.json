@@ -16,133 +16,13 @@
             }
           },
           {
-            "id": "da85ac00e105795e",
+            "id": "970c67e256cf1148",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataStructures/Sets.md",
+                "file": "OperatingSystems/Caching.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "919bc72f053b8b8d",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "1aa4c4e9d1b38031",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "6e9c22b36dce9d8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/Page_replacement.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "231036a0dc315eee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XX-Attachments/Templates/AliasNote.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c015ebdd0a828d63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/Paging.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "53bdf3ca970fecd7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "34d5b90805d73b9f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/Page_replacement.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2f59eb2fb64d2946",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/Processors.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e7ed07a4c33cbdd8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5013043869a2192a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
-                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -157,7 +37,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
+                "file": "OperatingSystems/Caching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Heap_algorithms.md"
+                "file": "OperatingSystems/Caching.md"
               }
             }
           }
@@ -266,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Heap_algorithms.md"
+                "file": "OperatingSystems/Caching.md"
               }
             }
           },
@@ -292,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
+                "file": "OperatingSystems/Caching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -350,8 +230,9 @@
       "random-note:Open random note": false
     }
   },
-  "active": "5013043869a2192a",
+  "active": "970c67e256cf1148",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
     "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
@@ -360,7 +241,6 @@
     "OperatingSystems/Processors.md",
     "OperatingSystems/Page_replacement.md",
     "OperatingSystems/Operating_system_design.md",
-    "OperatingSystems/Input&Output_systems.md",
-    "OperatingSystems/Paging.md"
+    "OperatingSystems/Input&Output_systems.md"
   ]
 }
