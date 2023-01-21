@@ -60,6 +60,19 @@
             }
           },
           {
+            "id": "8abfad8bcf608b1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoftwareDesign/Software_architecture.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3e6f4d334cd7a43d",
             "type": "leaf",
             "state": {
@@ -94,7 +107,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -139,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Caching.md",
+                "file": "SoftwareDesign/Software_architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Caching.md"
+                "file": "SoftwareDesign/Software_architecture.md"
               }
             }
           }
@@ -203,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Caching.md"
+                "file": "SoftwareDesign/Software_architecture.md"
               }
             }
           },
@@ -229,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Caching.md",
+                "file": "SoftwareDesign/Software_architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -287,10 +300,10 @@
       "random-note:Open random note": false
     }
   },
-  "active": "f9d7417a11c315a0",
+  "active": "8abfad8bcf608b1c",
   "lastOpenFiles": [
-    "OperatingSystems/Paging.md",
     "OperatingSystems/Caching.md",
+    "OperatingSystems/Paging.md",
     "OperatingSystems/Page_replacement.md",
     "OperatingSystems/Processors.md",
     "DiscreteMath/Relations.md",
