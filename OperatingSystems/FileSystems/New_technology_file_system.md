@@ -52,4 +52,9 @@ ___
 ## Balanced tree based directories
 - Used to improve search time by using trees with limited depth 
 - File indexed in lexicographic order
+
 > ![[Pasted image 20230122144703.png|500|500]]
+
+- The $INDEX_ROOT stores the first level of the tree
+
+> ![[Pasted image 20230122144901.png|500|500]]

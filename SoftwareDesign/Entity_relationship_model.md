@@ -55,4 +55,24 @@ ___
 - The [[Graphs|degree]] of a relationship set is the number of entity sets connected to it
 - Relationships may also exists between a single entity set through with different roles
 
-> ![[Pasted image 20230117174247.png|350|350]]
+> ![[Pasted image 20230117174247.png|250|250]]
+
+## Relationship cardinalities
+- Data can follow any of the following mapping types:
+
+> ![[Pasted image 20230122145936.png|450|450]]
+
+![[Functions#Injective / Surjective mapping]]
+
+ - **Chen's notation** is used to represent this in diagrams
+
+> $$\begin{align*}
+> 1:1 \text{ one to one}\\
+> 1:N \text{ one to many}\\
+> N:1 \text{ many to one}\\
+> N:M \text{ many to many}
+> \end{align*}$$
+
+- Example: 
+
+> ![[Pasted image 20230122150328.png|500|500]]

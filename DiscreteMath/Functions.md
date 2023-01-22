@@ -39,7 +39,7 @@ ___
 > ![[Pasted image 20211028235747.png|500]]
 
 # Function types
-- Injective / surjective table
+## Injective / Surjective mapping  
 >![[Pasted image 20211101204718.png|500|500]]
 
 # Surjective / onto function
