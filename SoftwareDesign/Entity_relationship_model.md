@@ -1,3 +1,6 @@
+---
+alias: ER
+---
 > [!important]- Metadata
 > **Tags:** #DesignTheory #Databases 
 > **Located:** SoftwareDesign
@@ -31,10 +34,16 @@ ___
 > ![[Pasted image 20230117172615.png||s]]
 
 ### Primary key attributes
-- Represented by an **underline** 
+- Represented by an **underline**
+- Compound keys may also exists
 
 > ![[Pasted image 20230117172839.png|450|450]]
 
+- Note that not every entity set has a primary key, these are known as **weak entity sets**
+- These sets must be mapped with total participation
+
+
+> ![[Pasted image 20230122151257.png|450|450]]
 ### Derived attributes
 - Represented by **dashed outline**
 
@@ -58,11 +67,9 @@ ___
 > ![[Pasted image 20230117174247.png|250|250]]
 
 ## Relationship cardinalities
-- Data can follow any of the following mapping types:
+- Data can follow any of the following [[Functions#Injective / Surjective mapping|mapping types]]:
 
-> ![[Pasted image 20230122145936.png|450|450]]
-
-![[Functions#Injective / Surjective mapping]]
+> ![[Pasted image 20230122145936.png|350|350]]
 
  - **Chen's notation** is used to represent this in diagrams
 
@@ -76,3 +83,16 @@ ___
 - Example: 
 
 > ![[Pasted image 20230122150328.png|500|500]]
+
+## Participation constraints
+- Used in scenarios where the entire participation set may not be used 
+- **Total participation** is indicated by a double line
+- **Partial participation** is indicated by a single line
+
+> ![[Pasted image 20230122150827.png|500|500]]
+
+
+## ISA heirarchies 
+- Inheritance style data relations with subclasses 
+
+> ![[Pasted image 20230122151630.png|350|350]]

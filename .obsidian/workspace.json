@@ -102,10 +102,18 @@
             "id": "b44c40e5d0b60d1c",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "360c353a1c9698c6",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "SoftwareDesign/Entity_relationship_model.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -185,7 +193,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -378,13 +386,13 @@
       "random-note:Open random note": false
     }
   },
-  "active": "b44c40e5d0b60d1c",
+  "active": "360c353a1c9698c6",
   "lastOpenFiles": [
+    "SoftwareDesign/Entity_relationship_model.md",
     "DiscreteMath/Functions.md",
     "DiscreteMath/Inference_rules.md",
     "DiscreteMath/Propositional_logic.md",
     "DiscreteMath/Relations.md",
-    "SoftwareDesign/Entity_relationship_model.md",
     "DiscreteMath/De_Morgans_law.md",
     "XX-Attachments/e.md",
     "DiscreteMath/Paste****d image 20211028231723.png.md",
