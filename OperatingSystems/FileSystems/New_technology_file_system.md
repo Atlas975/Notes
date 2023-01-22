@@ -1,6 +1,7 @@
 ---
 alias: NTFS
 ---
+
 > [!important]- Metadata
 > **Tags:** #OperatingSystems 
 > **Located:** OperatingSystems/FileSystems
@@ -17,6 +18,9 @@ alias: NTFS
 
 ___
 # New technology file system
-- Known as **NTFS**, built around a **Master file table (MFT)**
-- The master table is an array of 1kb records for every file in volume 
-- Non-fragm
+- Known as **NTFS**, built around a **Master file table (MFT)** used in windows
+- The master table is an array of 1kb records for every file in volume, file are identified by an index in this table. This table also includes a link to root directory 
+- This is done in a non-fragmented part of the [[File_systems|file system]] by allocating a large amount of initial  space to grow the table, deleted entries are simply marked as unused
+- MFT structure:
+
+> ![[Pasted image 20230122125704.png|450|450]]
