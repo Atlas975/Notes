@@ -107,7 +107,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareDesign/Software_architecture.md",
+                "file": "OperatingSystems/Page_replacement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/Software_architecture.md"
+                "file": "OperatingSystems/Page_replacement.md"
               }
             }
           }
@@ -216,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/Software_architecture.md"
+                "file": "OperatingSystems/Page_replacement.md"
               }
             }
           },
@@ -242,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareDesign/Software_architecture.md",
+                "file": "OperatingSystems/Page_replacement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -280,8 +280,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 730.5,
-    "collapsed": true
+    "width": 730.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -300,9 +299,10 @@
       "random-note:Open random note": false
     }
   },
-  "active": "8abfad8bcf608b1c",
+  "active": "331605f3009e4d00",
   "lastOpenFiles": [
     "OperatingSystems/Caching.md",
+    "SoftwareDesign/Software_architecture.md",
     "OperatingSystems/Paging.md",
     "OperatingSystems/Page_replacement.md",
     "OperatingSystems/Processors.md",
@@ -310,7 +310,6 @@
     "DiscreteMath/Paste****d image 20211028231723.png.md",
     "Paste****d image 20211028231723.png.md",
     "00-Main/1-Litnote.md",
-    "00-Main/2-Litnote.md",
-    "00-Main/Linux_usage.md"
+    "00-Main/2-Litnote.md"
   ]
 }
