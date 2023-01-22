@@ -39,8 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Page_replacement.md",
-                "mode": "source",
+                "file": "OperatingSystems/Caching.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Page_replacement.md",
+                "file": "OperatingSystems/Caching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Page_replacement.md"
+                "file": "OperatingSystems/Caching.md"
               }
             }
           }
@@ -216,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Page_replacement.md"
+                "file": "OperatingSystems/Caching.md"
               }
             }
           },
@@ -242,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Page_replacement.md",
+                "file": "OperatingSystems/Caching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,10 +301,10 @@
   },
   "active": "331605f3009e4d00",
   "lastOpenFiles": [
+    "OperatingSystems/Page_replacement.md",
     "OperatingSystems/Caching.md",
     "SoftwareDesign/Software_architecture.md",
     "OperatingSystems/Paging.md",
-    "OperatingSystems/Page_replacement.md",
     "OperatingSystems/Processors.md",
     "DiscreteMath/Relations.md",
     "DiscreteMath/Paste****d image 20211028231723.png.md",

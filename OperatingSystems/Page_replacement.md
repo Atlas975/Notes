@@ -18,9 +18,7 @@ ___
 - [[Paging|Page memory]] allocation can follow one of two schemes 
 	- **Equal allocation**: each process gets m/n frames (for memory size m), not ideal for processes that have distinct memory requirements but minimal overhead for allocation
 	- **Proportional allocation**: allocation done based on size of process 
-
 $$\begin{align*}
-
 \text{for processes}\ p_{i} \ \text{of size}\ s_{i}\\
 \text{total size S} =\sum{s_{i}}\\
 \text{allocation }a_{i}\text{ for }p_{i} \text{ will be:}\\
@@ -49,7 +47,7 @@ a_{i}=\frac{s_{i}}{S\times m}\text{ frames}
         - **Hard page fault:** page is only present on disk or copy in primary memory is outdated 
         - **Soft page fault**: page isn't part of a processes page table, but it still sits in primary memory 
 
-# Frame replacement algorithms 
+# Frame replacement algorithms
 - The working set of pages for a process constantly changes as only a subset of pages get regular usage at a time (principle of locality)
 - The **locality of reference** suggests that page usage is repetitive
 
@@ -79,7 +77,7 @@ a_{i}=\frac{s_{i}}{S\times m}\text{ frames}
 
 > ![[Pasted image 20230118184433.png|450|450]]
 
-## Second chance / clock 
+## Second chance / clock
 - A circular list of of pages is kept (page tables can be walked through recursively)
 - This looks for a frame whose access bit is set to 0 and then replaces it, less overhead than an [[LRU]] cache 
 
@@ -90,7 +88,7 @@ a_{i}=\frac{s_{i}}{S\times m}\text{ frames}
 
 > ![[Pasted image 20230118185713.png|450|450]]
 
-### Working set replacement 
+### Working set replacement
 - This method can also be used periodically perform working set replacement 
 - These periodic time intervals should be a minimum of twice the period taken to calculate a working set for a process 
 
