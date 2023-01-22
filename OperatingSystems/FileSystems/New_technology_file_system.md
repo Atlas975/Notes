@@ -19,8 +19,16 @@ alias: NTFS
 ___
 # New technology file system
 - Known as **NTFS**, built around a **Master file table (MFT)** used in windows
-- The master table is an array of 1kb records for every file in volume, file are identified by an index in this table. This table also includes a link to root directory 
+- The master table is an array of 1kb records for every file in volume, files are identified by an index in this table. This table also includes a link to root directory 
 - This is done in a non-fragmented part of the [[File_systems|file system]] by allocating a large amount of initial  space to grow the table, deleted entries are simply marked as unused
 - MFT structure:
 
 > ![[Pasted image 20230122125704.png|450|450]]
+
+## Attribute streams
+- A file in an NTFS can be taught of as a data stream in the MFT identified by type and optionally distinguished by name
+- There are two kinds of attributes for files:
+    - **Resident**: stored directly in in MFT entry for file 
+    - **Non-resident**: held in file referenced by $ATTRIBUTE_LIST
+### Multiple streams 
+- Multiple streams can be used for a single file,
