@@ -1,5 +1,5 @@
 ---
-alias: file
+alias: file, file system
 ---
 > [!important|inIL]- Metadata
 > **Tags:** #OperatingSystems 
@@ -60,58 +60,8 @@ ___
 
 > linked + multi-level![[Pasted image 20221208231007.png|400]]
 
-# FAT file systems
-- Commonly used for small file systems such as removable media
-- [[Linked_list_algorithms|Linked list]] allocation scheme, only sequential access is allowed
-- This avoids external fragmentation as blocks no longer need to be continuous, internal fragmentation is confined only to the last block, sequential access to blocks only
 
-> ![[Pasted image 20221209121034.png|500]]
 
-- FAT systems get around the speed penalty of only sequential access by having separate pointers for data blocks, allowing fast access of any block. This is known as the file allocation table (FAT)
-- Multiple copies of this are usually kept in case of corruption to recover structure, the FAT also needs to be small enough to be stored in memory for fast access. Avoiding having to perform disk access for each traversal
-
-# Unix file system
-- A multi-level indexed based file system. Small files get directly linked, large files get broken down into smaller blocks with increased access time
-
-> this exists for every file![[Pasted image 20221209122505.png|500]]
-
-## Unix directory structure
-
-> ![[Pasted image 20221209124941.png|450]]
-
-- File lookup follows a sequential approach, filename caches can be used to speed up access
-
-> ![[Pasted image 20221209125500.png|450]]
-
-## Block size efficiency
-- Large block sizes allow for quick access to large files as more blocks have reduced access time, this comes at the cost of disk space wastage as more files use more space than needed resulting in internal fragmentation
-
-> ![[Pasted image 20221209130107.png|500]]
-
-- Optimal efficiency when block and average file size match, as file sizes increase over time there has been movement towards larger blocksize standards
-- Some filesystems can allocate fragments of a block
-
-## Open file descriptor table
-- Child processes need to inherit all file descriptors and positions of a parent process.
-- To optimise how a file system is traversed, Unix will have a file descriptor table for quick process creation
-
-> ![[Pasted image 20221209131225.png|500]]
-
-## Hard links
-- Similar to a programming languages garbage collection system, the reference count is used to determine when data can be disposed of. Links this way are considered hard links.
-- This is limited to only a single filesystem type as it must enter a directory
-
-> ![[Pasted image 20221209123424.png|425]]
-
-## Symbolic links
-- Symbolic links create a file that contains a link to the linked file
-- This linking form isn't constrained by file system, can be within virtual file system
-
-> ![[Pasted image 20221209123455.png|450]]
-
-- Since a hard link isn't created, this method does not know if a file really exists, this can result in broken links / null-pointers
-
-> ![[Pasted image 20221209124802.png|450]]
 
 # File system performance
 - File systems need to be responsive, a variety of methods have been developed in order to help remedy the limitations of various file systems

@@ -39,8 +39,60 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Caching.md",
+                "file": "OperatingSystems/FileSystems/File_systems.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "335e7db3a64a52a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/FileSystems/File_systems.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6ac0fe11c9c6567",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/FileSystems/FAT_file_system.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5b853a364ded92ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/FileSystems/New_technology_file_system.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "063a27ade0c2e3cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/FileSystems/New_technology_file_system.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -107,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -152,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Caching.md",
+                "file": "OperatingSystems/FileSystems/New_technology_file_system.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +244,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Caching.md"
+                "file": "OperatingSystems/FileSystems/New_technology_file_system.md"
               }
             }
           }
@@ -200,7 +252,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5046501159668
+    "width": 200.5046501159668,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -216,7 +269,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Caching.md"
+                "file": "OperatingSystems/FileSystems/New_technology_file_system.md"
               }
             }
           },
@@ -242,7 +295,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Caching.md",
+                "file": "OperatingSystems/FileSystems/New_technology_file_system.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -300,17 +353,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "331605f3009e4d00",
+  "active": "5b853a364ded92ec",
   "lastOpenFiles": [
-    "OperatingSystems/Page_replacement.md",
+    "OperatingSystems/FileSystems/File_systems.md",
+    "OperatingSystems/FileSystems/New_technology_file_system.md",
+    "OperatingSystems/FileSystems/Unix_file_system.md",
+    "OperatingSystems/FileSystems/FAT_file_system.md",
+    "OperatingSystems/Virtualisation.md",
     "OperatingSystems/Caching.md",
+    "OperatingSystems/Page_replacement.md",
     "SoftwareDesign/Software_architecture.md",
     "OperatingSystems/Paging.md",
-    "OperatingSystems/Processors.md",
-    "DiscreteMath/Relations.md",
-    "DiscreteMath/Paste****d image 20211028231723.png.md",
-    "Paste****d image 20211028231723.png.md",
-    "00-Main/1-Litnote.md",
-    "00-Main/2-Litnote.md"
+    "OperatingSystems/Processors.md"
   ]
 }
