@@ -18,10 +18,11 @@ ___
 - Core components include 
 	- **Hosts**: the end system computing devices that run network applications
 	- **Communication links**: physical or digital links, speed measured in bandwidth 
-	- **Switches**: used to forward packet (data blocks) down links eg routers 
+	- **Switches**: used to forward packet (data blocks) down links 
 
 > ![[Pasted image 20230123143523.png|400|400]]
-
+- The internet itself can be taight of as a network of networks with protocols such as TCP / IP / HTTP governing the way data is transmitted. 
+- Internet standards also exist to define how communication over the internet needs to be established between hosts
 # The web
 - A service, distributed around the world, important for web based information systems eg e-commerce and access databases using WWW.  
 - Web pages are written in HTML and transferred between server and client
@@ -50,8 +51,8 @@ ___
 
 # Protocols
 - The rules the sender, receiver and devices need to follow for effective data communication.
-- Part of transport layer.
-- Defines what is communicated, how it's communicated and when. It also defines the format of data overall allowing accurate and timely data transmission.
+- Part of **transport layer** of the OSI model 
+- Defines what is communicated, how it's communicated and when. It also defines the format of data overall for allowing accurate and timely data transmission.
 ## HTTP
 - Example of an application protocol
 1. Client sends request
@@ -81,7 +82,7 @@ in this case one must talk the other listen.
 
 # OSI model
 
-> ![[Pasted image 20211105235648.png|200|200]]
+> ![[Pasted image 20211105235648.png|100|125]]
 
 ## Example layer involvement:
 

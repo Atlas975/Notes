@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Internet_infrastructure.md",
-                "mode": "preview",
+                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Internet_infrastructure.md",
+                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Internet_infrastructure.md"
+                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md"
               }
             }
           }
@@ -202,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Internet_infrastructure.md"
+                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md"
               }
             }
           },
@@ -228,7 +228,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Internet_infrastructure.md",
+                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -288,15 +288,15 @@
   },
   "active": "f9d7417a11c315a0",
   "lastOpenFiles": [
-    "Networking/Transmission_mediums.md",
+    "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
     "Networking/Internet_infrastructure.md",
+    "Networking/Transmission_mediums.md",
     "Networking/Network_basics.md",
     "Networking/Routing_methods.md",
     "OperatingSystems/Caching.md",
     "DiscreteMath/Relations.md",
     "OperatingSystems/Processors.md",
     "OperatingSystems/FileSystems/File_systems.md",
-    "OperatingSystems/FileSystems/FAT_file_system.md",
-    "DiscreteMath/De_Morgans_law.md"
+    "OperatingSystems/FileSystems/FAT_file_system.md"
   ]
 }

@@ -18,27 +18,27 @@ ___
 ## Rotate image 
 ```python
 
-    def rotate(self, matrix: List[List[int]]) -> None:
-        """
-        matrix[l][l + i] = top left
-        matrix[l + i][r] = top right
-        matrix[r][r - i] = bottom right
-        matrix[r - i][l] = bottom left
-        """
+def rotate(self, matrix: List[List[int]]) -> None:
+    """
+    matrix[l][l + i] = top left
+    matrix[l + i][r] = top right
+    matrix[r][r - i] = bottom right
+    matrix[r - i][l] = bottom left
+    """
 
-        l = 0
-        r = len(matrix) - 1
+    l = 0
+    r = len(matrix) - 1
 
-        # 90 degree clockwise
-        while l < r:
-            for i in range(r - l):
-                tleft = matrix[l][l + i]
-                matrix[l][l + i] = matrix[r - i][l]
-                matrix[r - i][l] = matrix[r][r - i]
-                matrix[r][r - i] = matrix[l + i][r]
-                matrix[l + i][r] = tleft
-            r -= 1
-            l += 1
+    # 90 degree clockwise
+    while l < r:
+        for i in range(r - l):
+            tleft = matrix[l][l + i]
+            matrix[l][l + i] = matrix[r - i][l]
+            matrix[r - i][l] = matrix[r][r - i]
+            matrix[r][r - i] = matrix[l + i][r]
+            matrix[l + i][r] = tleft
+        r -= 1
+        l += 1
 ```
 
 ## Spiral matrix 
