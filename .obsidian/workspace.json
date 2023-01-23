@@ -112,7 +112,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md",
+                "file": "ProgramLanguages/C_language.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -238,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md",
+                "file": "ProgramLanguages/C_language.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +278,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md"
+                "file": "ProgramLanguages/C_language.md"
               }
             }
           }
@@ -302,7 +302,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md"
+                "file": "ProgramLanguages/C_language.md"
               }
             }
           },
@@ -328,7 +328,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md",
+                "file": "ProgramLanguages/C_language.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
