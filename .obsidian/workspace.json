@@ -8,137 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ca8e0b16c50cd8ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DiscreteMath/Relations.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "03fc068a5f10acdf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/Processors.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "331605f3009e4d00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/FileSystems/File_systems.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "335e7db3a64a52a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/FileSystems/File_systems.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c6ac0fe11c9c6567",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/FileSystems/FAT_file_system.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5b853a364ded92ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DiscreteMath/De_Morgans_law.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e3d9e27cdb6c1cd1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DiscreteMath/Functions.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b44c40e5d0b60d1c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "360c353a1c9698c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/C_language.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "063a27ade0c2e3cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/FileSystems/New_technology_file_system.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f9d7417a11c315a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Caching.md",
+                "file": "Networking/Network_basics.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "995dc746b1d32ab4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Network_basics.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -193,7 +81,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -238,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/C_language.md",
+                "file": "Networking/Network_basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/C_language.md"
+                "file": "Networking/Network_basics.md"
               }
             }
           }
@@ -302,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/C_language.md"
+                "file": "Networking/Network_basics.md"
               }
             }
           },
@@ -328,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/C_language.md",
+                "file": "Networking/Network_basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -386,17 +274,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "360c353a1c9698c6",
+  "active": "995dc746b1d32ab4",
   "lastOpenFiles": [
-    "SoftwareDesign/Entity_relationship_model.md",
-    "DiscreteMath/Functions.md",
-    "DiscreteMath/Inference_rules.md",
-    "DiscreteMath/Propositional_logic.md",
+    "Networking/Routing.md",
+    "Networking/Network_basics.md",
+    "Networking/Internet_fundamentals.md",
+    "OperatingSystems/Caching.md",
     "DiscreteMath/Relations.md",
+    "OperatingSystems/Processors.md",
+    "OperatingSystems/FileSystems/File_systems.md",
+    "OperatingSystems/FileSystems/FAT_file_system.md",
     "DiscreteMath/De_Morgans_law.md",
-    "XX-Attachments/e.md",
-    "DiscreteMath/Paste****d image 20211028231723.png.md",
-    "Databases/Database_fundamentals.md",
-    "Databases/Database_design.md"
+    "DiscreteMath/Functions.md"
   ]
 }

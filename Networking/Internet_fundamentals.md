@@ -5,7 +5,7 @@
 # The web
 - A service, distributed around the world, important for web based information systems eg e-commerce and access databases using WWW.  
 - Web pages are written in HTML and transferred between server and client
-# Dynamic client / server request / response sequence
+## Response sequence
 
 >![[Pasted image 20211109094505.png|500|500]]
 
