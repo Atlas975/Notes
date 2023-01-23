@@ -17,7 +17,6 @@ ___
 # Math & geometry
 ## Rotate image 
 ```python
-
 def rotate(self, matrix: List[List[int]]) -> None:
     """
     matrix[l][l + i] = top left

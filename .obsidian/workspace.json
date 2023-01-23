@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
-                "mode": "source",
+                "file": "Networking/Routing_methods.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+                "file": "Networking/Routing_methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md"
+                "file": "Networking/Routing_methods.md"
               }
             }
           }
@@ -202,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md"
+                "file": "Networking/Routing_methods.md"
               }
             }
           },
@@ -228,7 +228,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+                "file": "Networking/Routing_methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -288,15 +288,15 @@
   },
   "active": "f9d7417a11c315a0",
   "lastOpenFiles": [
-    "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
-    "Networking/Internet_infrastructure.md",
-    "Networking/Transmission_mediums.md",
     "Networking/Network_basics.md",
-    "Networking/Routing_methods.md",
-    "OperatingSystems/Caching.md",
-    "DiscreteMath/Relations.md",
-    "OperatingSystems/Processors.md",
-    "OperatingSystems/FileSystems/File_systems.md",
-    "OperatingSystems/FileSystems/FAT_file_system.md"
+    "Networking/Internet_infrastructure.md",
+    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+    "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
+    "Algorithms/ProgrammingPatterns/Two_pointers.md"
   ]
 }
