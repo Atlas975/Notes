@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Network_basics.md",
-                "mode": "source",
+                "file": "Networking/Internet_infrastructure.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -26,8 +26,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Network_basics.md",
+                "file": "Networking/Routing_methods.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c454056d0574a5af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Internet_infrastructure.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -80,8 +93,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Network_basics.md",
+                "file": "Networking/Internet_infrastructure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_basics.md"
+                "file": "Networking/Internet_infrastructure.md"
               }
             }
           }
@@ -190,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_basics.md"
+                "file": "Networking/Internet_infrastructure.md"
               }
             }
           },
@@ -216,7 +228,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Network_basics.md",
+                "file": "Networking/Internet_infrastructure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -274,17 +286,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "995dc746b1d32ab4",
+  "active": "f9d7417a11c315a0",
   "lastOpenFiles": [
-    "Networking/Routing.md",
+    "Networking/Transmission_mediums.md",
+    "Networking/Internet_infrastructure.md",
     "Networking/Network_basics.md",
-    "Networking/Internet_fundamentals.md",
+    "Networking/Routing_methods.md",
     "OperatingSystems/Caching.md",
     "DiscreteMath/Relations.md",
     "OperatingSystems/Processors.md",
     "OperatingSystems/FileSystems/File_systems.md",
     "OperatingSystems/FileSystems/FAT_file_system.md",
-    "DiscreteMath/De_Morgans_law.md",
-    "DiscreteMath/Functions.md"
+    "DiscreteMath/De_Morgans_law.md"
   ]
 }

@@ -13,7 +13,7 @@
 > ```
 
 ___
-# Routing
+# Routing methods
 
 # Packet switching
 - Method of creating temporary connections between devices using **switches**.

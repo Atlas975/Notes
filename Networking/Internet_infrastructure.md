@@ -1,6 +1,26 @@
-#OperatingSystems [[Network_basics]]
-# Internet
-- A network of interconnected set of computers(host)
+> [!important]- Metadata
+> **Tags:** #Networking 
+> **Located:** Networking
+> **Created:** 26/12/2022 - 03:56
+> ```dataviewjs
+>let loc = dv.current().file.path;
+>let cur = dv.page(loc).file;
+>let links = cur.inlinks.concat(cur.outlinks).array().map(p => p.path);
+>let paths = new Set(links.filter(p => !p.endsWith(".png")));
+>paths.delete(loc);
+>dv.table(["Connections",  "Tags"], dv.array(Array.from(paths)).map(p => [
+>   dv.fileLink(p),dv.page(p).file.tags.join("")]).slice(0, 20));
+> ```
+
+___
+# Internet infrastructure
+- Supports a diverse of applications that rely on web services 
+- Core components include 
+	- **Hosts**: the end system computing devices that run network applications
+	- **Communication links**: physical or digital links, speed measured in bandwidth 
+	- **Switches**: used to forward packet (data blocks) down links eg routers 
+
+> ![[Pasted image 20230123143523.png|400|400]]
 
 # The web
 - A service, distributed around the world, important for web based information systems eg e-commerce and access databases using WWW.  

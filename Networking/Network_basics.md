@@ -53,29 +53,18 @@
 ## Jitter
 - The delay in packet arrival must be consistent.
 ## Components
-![[Pasted image 20211029231531.png]]
+> ![[Pasted image 20211029231531.png|500|500]]
 1. Message
 2. Sender
 3. Receiver
 4. Medium
 5. Protocol 
 
-# Transmission data properties
+## Transmission data properties
 - Data operates on a range of frequencies (bandwidth) regardless of data type.
 - Mediums are categorized by different bandwidths.
 - Guided: wired transmission
 - Unguided: wireless transmission 
-# Header
+## Header
 - Contains key details of data packets such as destination and origin IP. 
-# Digital transmission
-- Continuous in time, discrete in level, 1 indicates positive voltage, 0 indicates no voltage
-- **Bit rate (bps)** is used to describe frequency
 
-> ![[Pasted image 20211029233411.png|450|450]]
-
-# Analogue transmission
-- Continuous in time and level 
-- Analogue data needs to digitized before going through sampling
-- **Bandwidth** (measured in hertz) refers to the range of frequencies a signal can occupy (eg. the human voice)
-
-> ![[Pasted image 20211029232819.png|350|350]]
