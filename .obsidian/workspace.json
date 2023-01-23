@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Routing_methods.md",
+                "file": "Networking/Transmission_mediums.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00e01d9e4a1b0b86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Network_basics.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -93,7 +106,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -138,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Routing_methods.md",
+                "file": "Networking/Network_basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Routing_methods.md"
+                "file": "Networking/Network_basics.md"
               }
             }
           }
@@ -202,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Routing_methods.md"
+                "file": "Networking/Network_basics.md"
               }
             }
           },
@@ -228,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Routing_methods.md",
+                "file": "Networking/Network_basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -286,17 +300,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "f9d7417a11c315a0",
+  "active": "00e01d9e4a1b0b86",
   "lastOpenFiles": [
-    "Networking/Network_basics.md",
+    "ProgramLanguages/Git.md",
+    "Networking/Transmission_mediums.md",
+    "Networking/Routing_methods.md",
     "Networking/Internet_infrastructure.md",
+    "Networking/Network_basics.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
-    "Algorithms/ProgrammingPatterns/Two_pointers.md"
+    "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md"
   ]
 }
