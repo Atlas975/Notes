@@ -105,8 +105,8 @@ in this case one must talk the other listen.
 # TCP / IP protocol stack
 ![[Pasted image 20211109092413.png|500|500]]
 ## Link layer switch
-- An Ethernet switch operating on the first two layers (physical & data link) that can examine arriving packet's MAC address and determine which port to forward to.
+- An Ethernet switch operating on the first two layers (**physical & data link**) that can examine arriving packet's MAC address and determine which port to forward to.
 - Note routers in general only operate on the first two layers and only these protocols need to be changed when replacing a router. 
 # Exchange using OSI
-![[Pasted image 20211106001757.png|500|500]]
+> ![[Pasted image 20211106001757.png|450|450]]
 - Headers are what allow distinguishing between layers.
