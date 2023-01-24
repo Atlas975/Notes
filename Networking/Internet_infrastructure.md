@@ -21,38 +21,36 @@ ___
 	- **Switches**: used to forward packet (data blocks) down links 
 
 > ![[Pasted image 20230123143523.png|400|400]]
-- The internet itself can be taight of as a network of networks with protocols such as TCP / IP / HTTP governing the way data is transmitted. 
+- The internet itself can be taught of as a network of networks with protocols such as TCP / IP / HTTP governing the way data is transmitted. 
 - Internet standards also exist to define how communication over the internet needs to be established between hosts
-# The web
-- A service, distributed around the world, important for web based information systems eg e-commerce and access databases using WWW.  
+## Web 
+- An interconnected systems of public web pages that can be accessed through the internet 
 - Web pages are written in HTML and transferred between server and client
 ## Response sequence
 
 >![[Pasted image 20211109094505.png|500|500]]
 
-# 3 Tier architecture
+## Internet architecture
 
 >![[Pasted image 20211109094734.png|500|500]]
 
 - Presentation is mostly whats missing from 2 tier architecture.
-## Presentation tier
-- GUI
-- Data display
-- Data input
+### Presentation tier
+- Data display / input
 - Verification (HTML/Javascript input form verification)
-- Must not directly interact DBMS
-## Logic tier
-- Processes data received by users.
-- It does not do the updating of the DBMS, it makes the request by pointing it to executable code like SQL.
-- Needs to verify format of received data.
-## Data tier
+- Must not directly interact with a [[Database_design|DBMS]]
+### Logic tier
+- Processes data received by clients.
+- Does not update data, only makes request
+- Needs to verify format / type of received data.
+### Data tier
 - Stores data and returns data to logic tier.
 - Data stored in DBMS, all database functions are handled here. 
 
 # Protocols
 - The rules the sender, receiver and devices need to follow for effective data communication.
 - Part of **transport layer** of the OSI model 
-- Defines what is communicated, how it's communicated and when. It also defines the format of data overall for allowing accurate and timely data transmission.
+- Defines what is communicated, how it's communicated and when. It also defines the overall format of data for allowing accurate and timely data transmission.
 ## HTTP
 - Example of an application protocol
 1. Client sends request
