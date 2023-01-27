@@ -47,7 +47,7 @@
             }
           },
           {
-            "id": "c04d77a0d4de9a95",
+            "id": "2f2bafd0926a887e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -133,7 +133,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/Bash.md",
+                "file": "SoftwareDesign/DesignPatterns/Design_patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/Bash.md"
+                "file": "SoftwareDesign/DesignPatterns/Design_patterns.md"
               }
             }
           }
@@ -242,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/Bash.md"
+                "file": "SoftwareDesign/DesignPatterns/Design_patterns.md"
               }
             }
           },
@@ -268,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/Bash.md",
+                "file": "SoftwareDesign/DesignPatterns/Design_patterns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -326,10 +326,10 @@
       "random-note:Open random note": false
     }
   },
-  "active": "0ff87c2943053377",
+  "active": "2f2bafd0926a887e",
   "lastOpenFiles": [
-    "SoftwareDesign/DesignPatterns/Design_patterns.md",
     "ProgramLanguages/Bash.md",
+    "SoftwareDesign/DesignPatterns/Design_patterns.md",
     "Networking/Internet_infrastructure.md",
     "Networking/Routing_methods.md",
     "Networking/Transmission_mediums.md",

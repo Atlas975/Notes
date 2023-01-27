@@ -26,7 +26,7 @@ ___
 - **Solution**: describes the elements that make up the design pattern as well as their relation to one another. Does not describe concrete solution
 - **Consequences**: results and trade-offs of applying pattern
 ## Design pattern categories 
-- **Creational**: class instantiation, eg an abstract class factory
+- **Creational**: focuses on the creation of objectd 
 - **Structural:** class and object composition, eg and adapter 
 - **Behavioral**: communication between objects, eg the chain of responsibility
 
