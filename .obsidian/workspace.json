@@ -328,15 +328,15 @@
   },
   "active": "2f2bafd0926a887e",
   "lastOpenFiles": [
-    "ProgramLanguages/Bash.md",
+    "SoftwareDesign/DesignPatterns/Observer_pattern.md",
     "SoftwareDesign/DesignPatterns/Design_patterns.md",
+    "ProgramLanguages/Bash.md",
     "Networking/Internet_infrastructure.md",
     "Networking/Routing_methods.md",
     "Networking/Transmission_mediums.md",
     "Networking/Network_basics.md",
     "ProgramLanguages/Git.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
-    "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
+    "Algorithms/ProgrammingPatterns/Greedy_algorithms.md"
   ]
 }
