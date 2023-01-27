@@ -28,4 +28,7 @@ ___
 ## Design pattern categories 
 - **Creational**: class instantiation, eg an abstract class factory
 - **Structural:** class and object composition, eg and adapter 
-- **Behavioral**: communication between objects, eg the chain of responsibility  
+- **Behavioral**: communication between objects, eg the chain of responsibility
+
+
+> ![[Pasted image 20230127125603.png|450|450]]

@@ -40,7 +40,20 @@
               "type": "markdown",
               "state": {
                 "file": "ProgramLanguages/Bash.md",
-                "mode": "preview",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c04d77a0d4de9a95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoftwareDesign/DesignPatterns/Design_patterns.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -315,6 +328,8 @@
   },
   "active": "0ff87c2943053377",
   "lastOpenFiles": [
+    "SoftwareDesign/DesignPatterns/Design_patterns.md",
+    "ProgramLanguages/Bash.md",
     "Networking/Internet_infrastructure.md",
     "Networking/Routing_methods.md",
     "Networking/Transmission_mediums.md",
@@ -322,8 +337,6 @@
     "ProgramLanguages/Git.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md"
+    "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
   ]
 }
