@@ -28,19 +28,16 @@ ___
 	- Dependency Inversion Principle (DIP)
 
 ## Single responsibility (SRP)
-- Focuses on loose coupling of functionality,  component modification should ripple to as few other components as possible
-- Components should be independent and serve a very specific functionality.
+- Focuses on loose coupling of functionality,  class modification should ripple to as few external classes as possible
+- All components should be independent and serve a very specific functionality, this also helps avoid **volatility** (component that potentially require frequent modification) 
 
-> ![[Pasted image 20221030104521.png|250]]
-example of bad coupling, all actors require different behaviour from the same component 
-> ![[Pasted image 20221030104724.png|600]]
-in general a solution will involve decoupling specific methods 
+> ![[Pasted image 20230128132715.png|450|450]]
 
 ## Open-Closed (OCP)
 - Classes should be open for extension but closed for modification 
-- An example of an extensible calculator 
+- This means that a component needs to be extensible without having to make changes to the underlying class, vital for [[OOP_principles|inheritance]]
 
-> ![[Pasted image 20221030105030.png|600]]
+> ![[Pasted image 20230128133139.png|450|450]]
 
 ## Liskov substitution (LSP)
 - Objects of a superclass should be replaceable with objects of its subclass without breakage 

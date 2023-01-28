@@ -586,8 +586,8 @@
     "components": {
       "components": {
         "currentFile": {
-          "count": 4,
-          "lastUpdated": 1674911994101
+          "count": 6,
+          "lastUpdated": 1674912636055
         }
       }
     },
@@ -618,8 +618,24 @@
     "modification": {
       "modification": {
         "currentFile": {
+          "count": 4,
+          "lastUpdated": 1674912713092
+        }
+      }
+    },
+    "volatile": {
+      "volatile": {
+        "currentFile": {
           "count": 1,
-          "lastUpdated": 1674911774725
+          "lastUpdated": 1674912497361
+        }
+      }
+    },
+    "potentially": {
+      "potentially": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1674912529227
         }
       }
     }
