@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareDesign/SOLID_principles.md",
+                "file": "Networking/Transmission_mediums.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/SOLID_principles.md"
+                "file": "Networking/Transmission_mediums.md"
               }
             }
           }
@@ -247,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/SOLID_principles.md"
+                "file": "Networking/Transmission_mediums.md"
               }
             }
           },
@@ -273,7 +273,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareDesign/SOLID_principles.md",
+                "file": "Networking/Transmission_mediums.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
