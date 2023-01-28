@@ -28,7 +28,7 @@ ___
 	- Dependency Inversion Principle (DIP)
 
 ## Single responsibility (SRP)
-- Focuses on loose coupling of functionality,  class modification should ripple to as few external classes as possible
+- Component functionality should be loosely coupled,  class modification should ripple to as few external classes as possible
 - All components should be independent and serve a very specific functionality, this also helps avoid **volatility** (component that potentially require frequent modification) 
 
 > ![[Pasted image 20230128132715.png|450|450]]
@@ -40,12 +40,15 @@ ___
 > ![[Pasted image 20230128133139.png|450|450]]
 
 ## Liskov substitution (LSP)
-- Objects of a superclass should be replaceable with objects of its subclass without breakage 
+- All derived / subclass of a parent class should be able to subsistiture for their parent class 
+- In other word a subclass should be [[Sets|superset]] of its parent, including functions that take in the same input arguments 
+- Function overriding should be limited as not to break this, which should be the case if component design obeys [[#Single responsibility (SRP)|SRP]]
 
-> ![[Pasted image 20221030105539.png]]
-a square can be a rectangle but not vise versa 
+> ![[Pasted image 20230128134510.png]]
 
 ## Interface segregation (ISP)
+- Classes should not have unused functionality, especially if this functionality adds additional dependencies to this component
+- This also ensures that changes to a component will require a minimal amount 
 - An actor should not depend on unused methods 
 
 > ![[Pasted image 20221030105738.png|400]]

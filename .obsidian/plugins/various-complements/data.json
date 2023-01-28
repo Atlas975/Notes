@@ -586,8 +586,8 @@
     "components": {
       "components": {
         "currentFile": {
-          "count": 6,
-          "lastUpdated": 1674912636055
+          "count": 8,
+          "lastUpdated": 1674913838675
         }
       }
     },
@@ -602,8 +602,8 @@
     "Components": {
       "Components": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1674911643781
+          "count": 2,
+          "lastUpdated": 1674913192337
         }
       }
     },
@@ -636,6 +636,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1674912529227
+        }
+      }
+    },
+    "arguments": {
+      "arguments": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1674913557235
+        }
+      }
+    },
+    "component": {
+      "component": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1674913701013
         }
       }
     }
