@@ -104,8 +104,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwareDesign/SOLID_Principles.md",
-                "mode": "source",
+                "file": "SoftwareDesign/SOLID_principles.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareDesign/SOLID_Principles.md",
+                "file": "SoftwareDesign/SOLID_principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,14 +209,6 @@
               "type": "starred",
               "state": {}
             }
-          },
-          {
-            "id": "be73822288c5da91",
-            "type": "leaf",
-            "state": {
-              "type": "mk-file-view",
-              "state": {}
-            }
           }
         ]
       },
@@ -231,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/SOLID_Principles.md"
+                "file": "SoftwareDesign/SOLID_principles.md"
               }
             }
           }
@@ -255,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/SOLID_Principles.md"
+                "file": "SoftwareDesign/SOLID_principles.md"
               }
             }
           },
@@ -281,7 +273,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareDesign/SOLID_Principles.md",
+                "file": "SoftwareDesign/SOLID_principles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -341,15 +333,15 @@
   },
   "active": "020aa8aa3c556e63",
   "lastOpenFiles": [
+    "SoftwareEngineering/OOP_principles.md",
+    "SoftwareDesign/SOLID_principles.md",
     "SoftwareDesign/Software_architecture.md",
-    "SoftwareDesign/SOLID_Principles.md",
     "SoftwareDesign/DesignPatterns/Design_patterns.md",
     "SoftwareDesign/DesignPatterns/Observer_pattern.md",
     "ProgramLanguages/Bash.md",
     "Networking/Internet_infrastructure.md",
     "Networking/Routing_methods.md",
     "Networking/Transmission_mediums.md",
-    "Networking/Network_basics.md",
-    "ProgramLanguages/Git.md"
+    "Networking/Network_basics.md"
   ]
 }

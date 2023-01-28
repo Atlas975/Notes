@@ -194,8 +194,8 @@
     "frequently": {
       "frequently": {
         "currentFile": {
-          "count": 2,
-          "lastUpdated": 1674069226839
+          "count": 3,
+          "lastUpdated": 1674914384346
         }
       }
     },
@@ -586,8 +586,8 @@
     "components": {
       "components": {
         "currentFile": {
-          "count": 8,
-          "lastUpdated": 1674913838675
+          "count": 11,
+          "lastUpdated": 1674914634857
         }
       }
     },
@@ -602,8 +602,8 @@
     "Components": {
       "Components": {
         "currentFile": {
-          "count": 2,
-          "lastUpdated": 1674913192337
+          "count": 3,
+          "lastUpdated": 1674914378573
         }
       }
     },
@@ -652,6 +652,30 @@
         "currentFile": {
           "count": 2,
           "lastUpdated": 1674913701013
+        }
+      }
+    },
+    "depend": {
+      "depend": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1674914280546
+        }
+      }
+    },
+    "functionality": {
+      "functionality": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1674914293246
+        }
+      }
+    },
+    "changing": {
+      "changing": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1674914386512
         }
       }
     }

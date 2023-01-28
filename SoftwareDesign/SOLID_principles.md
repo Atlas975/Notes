@@ -13,7 +13,7 @@
 > ```
 
 ___
-# SOLID Principles
+# SOLID principles
 - A set of design principles useful for software [[Software_planning|planning]] and [[Software_architecture|architecture]] with the intention of making [[OOP_principles|OOP]] based code bases more maintainable, flexible and understandable
 - These principles define how various functions and data structures should interact
 
@@ -48,20 +48,12 @@ ___
 
 ## Interface segregation (ISP)
 - Classes should not have unused functionality, especially if this functionality adds additional dependencies to this component
-- This also ensures that changes to a component will require a minimal amount 
-- An actor should not depend on unused methods 
+- This also ensures that changes to a component will require minimal amount recompilation to external components  
 
-> ![[Pasted image 20221030105738.png|400]]
-changes for one client should not force all clients to recompile 
-solution:
-> ![[Pasted image 20221030105903.png|400]]
+> ![[Pasted image 20230128135141.png|450|450]]
 
 ## Dependency inversion (DIP)
-- Based on creating reusable object-oriented software 
-- Favors composition over inheritance 
-- As a rule of thumb dont inherit volatile (frequently changing) classes 
-- Dont override concrete classes or mentioning anything concrete 
+- Emphasises [[OOP_principles#Composition vs inheritance|composition]] to avoid tightly coupled code, high level modules should not depend on low level modules but should instead depend on the abstract functionality 
+- An object should not take in volatile modules and concrete functions should not be overridden, this allows for a layer of abstraction and ensures class backwards compatibility 
 
-> ![[Pasted image 20221030110619.png|500]]
-solution:
-> ![[Pasted image 20221030110731.png|500|600]]
+> ![[Pasted image 20230128140444.png]]
