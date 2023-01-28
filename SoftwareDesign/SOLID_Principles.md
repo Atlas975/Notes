@@ -18,21 +18,21 @@ ___
 - These principles define how various functions and data structures should interact
 
 > ![[Pasted image 20221030100141.png|500|500]]
-> Exceptions on any low level components can potentially propagate up to main, chn
-> in models like these main breaks if anything lower on the tree breaks and small changes lower on the tree forces everything above it to recompile 
+> Exceptions on any low level components can potentially propagate up to main, changes towards the top of the tree force lower level components to recompile
 
-- These are:
+- The SOLID principles consist of:
 	- Single Responsibility Principle (SRP)
 	- Open-Closed Principle (OCP)
 	- Liskov Substitution Principle (LSP)
 	- Interface Segregation Principle (ISP)
 	- Dependency Inversion Principle (DIP)
 
-## Coupling (SRP)
-- Describes the degree of interdependence between software modules, the opposite being cohesion. 
+## Single responsibility (SRP)
+- Focuses on loose coupling of functionality,  component modification should ripple to as few other components as possible
+- Components should be independent and serve a very specific functionality.
 
 > ![[Pasted image 20221030104521.png|250]]
-example of bad coupling, all actors require different behavior from the employee class but are all tied together 
+example of bad coupling, all actors require different behaviour from the same component 
 > ![[Pasted image 20221030104724.png|600]]
 in general a solution will involve decoupling specific methods 
 

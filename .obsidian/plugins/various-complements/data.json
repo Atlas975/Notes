@@ -71,22 +71,6 @@
         }
       }
     },
-    "Concurrency": {
-      "Concurrency": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1672116802915
-        }
-      }
-    },
-    "concurrency": {
-      "concurrency": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1672116671150
-        }
-      }
-    },
     "virtualisation": {
       "virtualisation": {
         "currentFile": {
@@ -108,70 +92,6 @@
         "currentFile": {
           "count": 2,
           "lastUpdated": 1673894034993
-        }
-      }
-    },
-    "outlinks": {
-      "outlinks": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1672077353840
-        }
-      }
-    },
-    "XX-Attachments": {
-      "XX-Attachments": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1672081057309
-        }
-      }
-    },
-    "closed": {
-      "closed": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1672115023420
-        }
-      }
-    },
-    "MapReduce&DataParallelism": {
-      "MapReduce&DataParallelism": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672118095185
-        }
-      }
-    },
-    "current": {
-      "current": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1672119484151
-        }
-      }
-    },
-    "get_all_links": {
-      "get_all_links": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1672121355573
-        }
-      }
-    },
-    "#Programming": {
-      "#Programming": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1672197158399
-        }
-      }
-    },
-    "Design_patterns": {
-      "Design_patterns": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672210590453
         }
       }
     },
@@ -660,6 +580,46 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1674574439422
+        }
+      }
+    },
+    "components": {
+      "components": {
+        "currentFile": {
+          "count": 4,
+          "lastUpdated": 1674911994101
+        }
+      }
+    },
+    "responsibility": {
+      "responsibility": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1674911213097
+        }
+      }
+    },
+    "Components": {
+      "Components": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1674911643781
+        }
+      }
+    },
+    "specific": {
+      "specific": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1674911853867
+        }
+      }
+    },
+    "modification": {
+      "modification": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1674911774725
         }
       }
     }
