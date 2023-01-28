@@ -1,0 +1,65 @@
+> [!important]- Metadata
+> **Tags:** #DesignTheory 
+> **Located:** SoftwareDesign
+> **Created:** 28/01/2023 - 11:56
+> ```dataviewjs
+>let loc = dv.current().file.path;
+>let cur = dv.page(loc).file;
+>let links = cur.inlinks.concat(cur.outlinks).array().map(p => p.path);
+>let paths = new Set(links.filter(p => !p.endsWith(".png")));
+>paths.delete(loc);
+>dv.table(["Connections",  "Tags"], dv.array(Array.from(paths)).map(p => [
+>   dv.fileLink(p),dv.page(p).file.tags.join("")]).slice(0, 20));
+> ```
+
+___
+# SOLID Principles
+> ![[Pasted image 20221030100141.png|500]]
+> in models like these main breaks if anything lower on the tree breaks and small changes lower on the tree forces everything above it to recompile 
+[[OOP_principles]]
+
+- SOLID principles tell us how to arrange functions and data structures into classes and how these should connect with each other
+- These are:
+	- Single Responsibility Principle (SRP)
+	- Open-Closed Principle (OCP)
+	- Liskov Substitution Principle (LSP)
+	- Interface Segregation Principle (ISP)
+	- Dependency Inversion Principle (DIP)
+
+## Coupling (SRP)
+- Describes the degree of interdependence between software modules, the opposite being cohesion. 
+
+> ![[Pasted image 20221030104521.png|250]]
+example of bad coupling, all actors require different behavior from the employee class but are all tied together 
+> ![[Pasted image 20221030104724.png|600]]
+in general a solution will involve decoupling specific methods 
+
+## Open-Closed (OCP)
+- Classes should be open for extension but closed for modification 
+- An example of an extensible calculator 
+
+> ![[Pasted image 20221030105030.png|600]]
+
+## Liskov substitution (LSP)
+- Objects of a superclass should be replaceable with objects of its subclass without breakage 
+
+> ![[Pasted image 20221030105539.png]]
+a square can be a rectangle but not vise versa 
+
+## Interface segregation (ISP)
+- An actor should not depend on unused methods 
+
+> ![[Pasted image 20221030105738.png|400]]
+changes for one client should not force all clients to recompile 
+solution:
+> ![[Pasted image 20221030105903.png|400]]
+
+## Dependency inversion (DIP)
+- Based on creating reusable object-oriented software 
+- Favors composition over inheritance 
+- As a rule of thumb dont inherit volatile (frequently changing) classes 
+- Dont override concrete classes or mentioning anything concrete 
+
+> ![[Pasted image 20221030110619.png|500]]
+solution:
+> ![[Pasted image 20221030110731.png|500|600]]
