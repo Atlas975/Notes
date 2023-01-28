@@ -305,14 +305,21 @@
               "type": "custom-frames-tasks",
               "state": {}
             }
+          },
+          {
+            "id": "f7492d24627887e1",
+            "type": "leaf",
+            "state": {
+              "type": "custom-frames-github",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 730.5,
-    "collapsed": true
+    "width": 730.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -331,7 +338,7 @@
       "random-note:Open random note": false
     }
   },
-  "active": "020aa8aa3c556e63",
+  "active": "f7492d24627887e1",
   "lastOpenFiles": [
     "SoftwareEngineering/OOP_principles.md",
     "SoftwareDesign/SOLID_principles.md",
