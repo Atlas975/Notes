@@ -14,11 +14,13 @@
 
 ___
 # SOLID Principles
-> ![[Pasted image 20221030100141.png|500]]
-> in models like these main breaks if anything lower on the tree breaks and small changes lower on the tree forces everything above it to recompile 
-[[OOP_principles]]
+- A set of design principles useful for software [[Software_planning|planning]] and [[Software_architecture|architecture]] with the intention of making [[OOP_principles|OOP]] based code bases more maintainable, flexible and understandable
+- These principles define how various functions and data structures should interact
 
-- SOLID principles tell us how to arrange functions and data structures into classes and how these should connect with each other
+> ![[Pasted image 20221030100141.png|500|500]]
+> Exceptions on any low level components can potentially propagate up to main, chn
+> in models like these main breaks if anything lower on the tree breaks and small changes lower on the tree forces everything above it to recompile 
+
 - These are:
 	- Single Responsibility Principle (SRP)
 	- Open-Closed Principle (OCP)
