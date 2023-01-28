@@ -18,17 +18,17 @@ ___
 - Software design patterns are reusable solutions to common problems in software development 
 - Good design patterns embody best practices in software and are proven solutions to reoccurring problems that occur in SDE 
 - Address situations that arise in variety of applications eg [[OOP_principles|object initialization]], simplifying complex interfaces or  [[Concurrency|providing controlled access to objects]]
+
 > ![[Pasted image 20221213092417.png|500|500]]
 
-## Design pattern elements  
+## Design pattern elements
 - **Pattern name**: handle used to describe design problem and a solution summary 
 - **Problem**: describes context and when to apply the pattern 
 - **Solution**: describes the elements that make up the design pattern as well as their relation to one another. Does not describe concrete solution
 - **Consequences**: results and trade-offs of applying pattern
-## Design pattern categories 
+## Design pattern categories
 - **Creational**: focuses on the creation of objects and classes, these help abstract away the instantiation process
 - **Structural:** focuses on composition and organisation of objects and classes 
 - **Behavioral**: focuses on the communication and coordination of objects and classes
-
 
 > ![[Pasted image 20230127125603.png|550|550]]
