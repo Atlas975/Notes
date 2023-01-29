@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwareDesign/SOLID_principles.md",
+                "file": "Algorithms/AlgorithmConcepts/Sorting_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareDesign/SOLID_principles.md",
+                "file": "Algorithms/AlgorithmConcepts/Sorting_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/SOLID_principles.md"
+                "file": "Algorithms/AlgorithmConcepts/Sorting_algorithms.md"
               }
             }
           }
@@ -247,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/SOLID_principles.md"
+                "file": "Algorithms/AlgorithmConcepts/Sorting_algorithms.md"
               }
             }
           },
@@ -273,7 +273,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareDesign/SOLID_principles.md",
+                "file": "Algorithms/AlgorithmConcepts/Sorting_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -325,9 +325,9 @@
   },
   "active": "020aa8aa3c556e63",
   "lastOpenFiles": [
+    "SoftwareDesign/SOLID_principles.md",
     "Networking/Transmission_mediums.md",
     "SoftwareEngineering/OOP_principles.md",
-    "SoftwareDesign/SOLID_principles.md",
     "SoftwareDesign/Software_architecture.md",
     "SoftwareDesign/DesignPatterns/Design_patterns.md",
     "SoftwareDesign/DesignPatterns/Observer_pattern.md",
