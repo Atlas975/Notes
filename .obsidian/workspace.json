@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Transmission_mediums.md",
+                "file": "SoftwareDesign/SOLID_principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Transmission_mediums.md"
+                "file": "SoftwareDesign/SOLID_principles.md"
               }
             }
           }
@@ -247,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Transmission_mediums.md"
+                "file": "SoftwareDesign/SOLID_principles.md"
               }
             }
           },
@@ -273,7 +273,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Transmission_mediums.md",
+                "file": "SoftwareDesign/SOLID_principles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -297,29 +297,14 @@
                 "useHierarchy": false
               }
             }
-          },
-          {
-            "id": "738c109349fda65b",
-            "type": "leaf",
-            "state": {
-              "type": "custom-frames-tasks",
-              "state": {}
-            }
-          },
-          {
-            "id": "f7492d24627887e1",
-            "type": "leaf",
-            "state": {
-              "type": "custom-frames-github",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 730.5
+    "width": 730.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -338,8 +323,9 @@
       "random-note:Open random note": false
     }
   },
-  "active": "f7492d24627887e1",
+  "active": "020aa8aa3c556e63",
   "lastOpenFiles": [
+    "Networking/Transmission_mediums.md",
     "SoftwareEngineering/OOP_principles.md",
     "SoftwareDesign/SOLID_principles.md",
     "SoftwareDesign/Software_architecture.md",
@@ -348,7 +334,6 @@
     "ProgramLanguages/Bash.md",
     "Networking/Internet_infrastructure.md",
     "Networking/Routing_methods.md",
-    "Networking/Transmission_mediums.md",
     "Networking/Network_basics.md"
   ]
 }
