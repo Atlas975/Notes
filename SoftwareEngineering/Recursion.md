@@ -30,7 +30,7 @@ ___
 
 
 ## Head recursion 
-- Recursive call occurs at beginning of function, prior to any processing 
+- Recursive call occurs at beginning of calling function, prior to any processing 
 - Result propagates back to head call
 ```ad-example
 ```python

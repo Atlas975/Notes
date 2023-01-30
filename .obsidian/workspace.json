@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwareDesign/DesignPatterns/Design_patterns.md",
+                "file": "SoftwarePatterns/Design_patterns.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -104,8 +104,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/AlgorithmConcepts/Sorting_algorithms.md",
-                "mode": "preview",
+                "file": "SoftwareEngineering/Recursion.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/AlgorithmConcepts/Sorting_algorithms.md",
+                "file": "SoftwareEngineering/Recursion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/AlgorithmConcepts/Sorting_algorithms.md"
+                "file": "SoftwareEngineering/Recursion.md"
               }
             }
           }
@@ -231,7 +231,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200.5046501159668
+    "width": 226.5046501159668
   },
   "right": {
     "id": "441e4249d5592193",
@@ -247,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/AlgorithmConcepts/Sorting_algorithms.md"
+                "file": "SoftwareEngineering/Recursion.md"
               }
             }
           },
@@ -273,7 +273,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/AlgorithmConcepts/Sorting_algorithms.md",
+                "file": "SoftwareEngineering/Recursion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -325,15 +325,15 @@
   },
   "active": "020aa8aa3c556e63",
   "lastOpenFiles": [
+    "SoftwareEngineering/Multiagent_systems.md",
+    "SoftwareEngineering/Concurrency.md",
+    "SoftwarePatterns/Design_patterns.md",
+    "SoftwarePatterns/Observer_pattern.md",
+    "Algorithms/AlgorithmConcepts/Sorting_algorithms.md",
     "SoftwareDesign/SOLID_principles.md",
     "Networking/Transmission_mediums.md",
     "SoftwareEngineering/OOP_principles.md",
     "SoftwareDesign/Software_architecture.md",
-    "SoftwareDesign/DesignPatterns/Design_patterns.md",
-    "SoftwareDesign/DesignPatterns/Observer_pattern.md",
-    "ProgramLanguages/Bash.md",
-    "Networking/Internet_infrastructure.md",
-    "Networking/Routing_methods.md",
-    "Networking/Network_basics.md"
+    "ProgramLanguages/Bash.md"
   ]
 }
