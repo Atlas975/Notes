@@ -86,6 +86,19 @@
             }
           },
           {
+            "id": "a57b67c7826387c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoftwarePatterns/Creational/Builder_pattern.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "8abfad8bcf608b1c",
             "type": "leaf",
             "state": {
@@ -237,7 +250,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -282,7 +295,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Network_basics.md",
+                "file": "SoftwarePatterns/Creational/Builder_pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -314,7 +327,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_basics.md"
+                "file": "SoftwarePatterns/Creational/Builder_pattern.md"
               }
             }
           }
@@ -338,7 +351,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_basics.md"
+                "file": "SoftwarePatterns/Creational/Builder_pattern.md"
               }
             }
           },
@@ -364,7 +377,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Network_basics.md",
+                "file": "SoftwarePatterns/Creational/Builder_pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -414,17 +427,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "c454056d0574a5af",
+  "active": "a57b67c7826387c4",
   "lastOpenFiles": [
+    "SoftwarePatterns/Behavioral/Observer_pattern.md",
+    "SoftwarePatterns/Behavioral/Visitor_pattern.md",
+    "SoftwarePatterns/Design_patterns.md",
+    "SoftwarePatterns/Creational/Builder_pattern.md",
+    "Networking/Network_basics.md",
     "Networking/Transmission_mediums.md",
     "Networking/Routing_methods.md",
     "XX-Attachments/Templates/InfoNote.md",
-    "SoftwarePatterns/Design_patterns.md",
     "Networking/Internet_infrastructure.md",
-    "SoftwarePatterns/Structural/Proxy_pattern.md",
-    "SoftwarePatterns/Behavioral/Iterator_pattern.md",
-    "SoftwarePatterns/Behavioral/Visitor_pattern.md",
-    "SoftwarePatterns/Behavioral/Observer_pattern.md",
-    "SoftwareDesign/SOLID_principles.md"
+    "SoftwarePatterns/Structural/Proxy_pattern.md"
   ]
 }
