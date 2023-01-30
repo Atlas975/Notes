@@ -24,4 +24,5 @@ ___
 
 > ![[Pasted image 20230130132227.png|550|550]]
 
-- The client component should utilise the service interface, this allows the proxy to be 
+- The client component should utilise the service interface, this allows the proxy to be passed in place of a service object
+- Applies the [[SOLID_principles#Open-Closed (OCP)|Open-Closed]] principle as new proxies can be added without the service or client
