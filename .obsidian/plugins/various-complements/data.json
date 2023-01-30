@@ -706,8 +706,16 @@
     "visitor": {
       "visitor": {
         "currentFile": {
+          "count": 2,
+          "lastUpdated": 1675082576604
+        }
+      }
+    },
+    "visitors": {
+      "visitors": {
+        "currentFile": {
           "count": 1,
-          "lastUpdated": 1675082188742
+          "lastUpdated": 1675082536360
         }
       }
     }
