@@ -18,8 +18,12 @@ ___
 - This keeps individual components focused on their responsibility and help enforce the  [[SOLID_principles#Single responsibility (SRP)|Single responsibility]] principle within codebases
 - [[SOLID_principles#Open-Closed (OCP)|Open-Closed]] principle also enforced by having visitors be easily interchangeable
 
+
 > ![[Pasted image 20230130124117.png|600|600]]
 
 - Element interface declares a function for accepting visitors, each element must implement this method to redirect the call to its respective visitor method 
+## Visitor 
+- A visitor encapsulates an algorithm that operates over a heterogeneous collection of objects. - 
+- It also allows multiple different algorithms to be written over the same data without having to modify the data (or their primary behaviour).
 ## Double dispatch 
 - Technique used by the visitor pattern which involves delegating choosing the proper method to the object itself rather than the client 

@@ -144,7 +144,7 @@
               "type": "markdown",
               "state": {
                 "file": "SoftwareDesign/SOLID_principles.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -195,7 +195,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Observer_pattern.md",
+                "file": "SoftwarePatterns/Structural/Proxy_pattern.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -237,7 +237,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -282,7 +282,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Observer_pattern.md",
+                "file": "SoftwareDesign/SOLID_principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -314,7 +314,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Observer_pattern.md"
+                "file": "SoftwareDesign/SOLID_principles.md"
               }
             }
           }
@@ -338,7 +338,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Observer_pattern.md"
+                "file": "SoftwareDesign/SOLID_principles.md"
               }
             }
           },
@@ -364,7 +364,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Observer_pattern.md",
+                "file": "SoftwareDesign/SOLID_principles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -414,16 +414,16 @@
       "random-note:Open random note": false
     }
   },
-  "active": "9d302121f843caec",
+  "active": "885da10161632dae",
   "lastOpenFiles": [
     "SoftwarePatterns/Structural/Proxy_pattern.md",
-    "SoftwarePatterns/Behavioral/Iterator_pattern.md",
     "SoftwarePatterns/Behavioral/Visitor_pattern.md",
+    "SoftwarePatterns/Behavioral/Observer_pattern.md",
+    "SoftwarePatterns/Behavioral/Iterator_pattern.md",
     "OperatingSystems/Computer_memory.md",
     "SoftwarePatterns/Design_patterns.md",
     "Algorithms/Algorithms.md",
     "SoftwareDesign/SOLID_principles.md",
-    "SoftwarePatterns/Behavioral/Observer_pattern.md",
     "OperatingSystems/FileSystems/Unix_file_system.md",
     "SoftwarePatterns/Untitled.md"
   ]
