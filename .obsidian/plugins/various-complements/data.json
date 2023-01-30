@@ -634,8 +634,8 @@
     "component": {
       "component": {
         "currentFile": {
-          "count": 3,
-          "lastUpdated": 1675081296100
+          "count": 4,
+          "lastUpdated": 1675081774163
         }
       }
     },
@@ -692,6 +692,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1675081342707
+        }
+      }
+    },
+    "Algorithms": {
+      "Algorithms": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1675081512071
+        }
+      }
+    },
+    "visitor": {
+      "visitor": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675082188742
         }
       }
     }

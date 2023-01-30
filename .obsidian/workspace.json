@@ -156,7 +156,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Iterator_pattern.md",
+                "file": "SoftwarePatterns/Design_patterns.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -171,6 +171,32 @@
               "state": {
                 "file": "OperatingSystems/Computer_memory.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6aa572d3f17f8d53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoftwarePatterns/Behavioral/Visitor_pattern.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e1f53a798c0fad73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoftwarePatterns/Behavioral/Iterator_pattern.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -198,7 +224,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -243,7 +269,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Iterator_pattern.md",
+                "file": "SoftwarePatterns/Behavioral/Visitor_pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -275,7 +301,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Iterator_pattern.md"
+                "file": "SoftwarePatterns/Behavioral/Visitor_pattern.md"
               }
             }
           }
@@ -299,7 +325,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Iterator_pattern.md"
+                "file": "SoftwarePatterns/Behavioral/Visitor_pattern.md"
               }
             }
           },
@@ -325,7 +351,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Iterator_pattern.md",
+                "file": "SoftwarePatterns/Behavioral/Visitor_pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -375,17 +401,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "035d1c3c3543cf33",
+  "active": "6aa572d3f17f8d53",
   "lastOpenFiles": [
-    "SoftwareDesign/SOLID_principles.md",
     "SoftwarePatterns/Behavioral/Iterator_pattern.md",
-    "SoftwarePatterns/Behavioral/Observer_pattern.md",
+    "SoftwarePatterns/Behavioral/Visitor_pattern.md",
+    "OperatingSystems/Computer_memory.md",
     "SoftwarePatterns/Design_patterns.md",
+    "Algorithms/Algorithms.md",
+    "SoftwareDesign/SOLID_principles.md",
+    "SoftwarePatterns/Behavioral/Observer_pattern.md",
     "OperatingSystems/FileSystems/Unix_file_system.md",
     "SoftwarePatterns/Untitled.md",
-    "SoftwareEngineering/Recursion.md",
-    "SoftwareEngineering/Multiagent_systems.md",
-    "SoftwareEngineering/Concurrency.md",
-    "Algorithms/AlgorithmConcepts/Sorting_algorithms.md"
+    "SoftwareEngineering/Recursion.md"
   ]
 }
