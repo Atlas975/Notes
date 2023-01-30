@@ -1,3 +1,6 @@
+---
+alias: design pattern
+---
 > [!important|inIL]- Metadata
 > **Tags:** #DesignPatterns 
 > **Located:** SoftwareDesign/DesignPatterns

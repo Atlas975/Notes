@@ -103,22 +103,6 @@
         }
       }
     },
-    "alias": {
-      "alias": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1672453620186
-        }
-      }
-    },
-    "aliases": {
-      "aliases": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1672453877455
-        }
-      }
-    },
     "I/O": {
       "Input&Output_systems": {
         "internalLink": {
@@ -676,6 +660,30 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1674914386512
+        }
+      }
+    },
+    "#ADTs": {
+      "#ADTs": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675080050595
+        }
+      }
+    },
+    "traversal": {
+      "traversal": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675080133261
+        }
+      }
+    },
+    "collection": {
+      "collection": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675080177070
         }
       }
     }
