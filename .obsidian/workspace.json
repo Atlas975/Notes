@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Internet_infrastructure.md",
+                "file": "Networking/Network_basics.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -282,7 +282,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Internet_infrastructure.md",
+                "file": "Networking/Network_basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -314,7 +314,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Internet_infrastructure.md"
+                "file": "Networking/Network_basics.md"
               }
             }
           }
@@ -338,7 +338,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Internet_infrastructure.md"
+                "file": "Networking/Network_basics.md"
               }
             }
           },
@@ -364,7 +364,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Internet_infrastructure.md",
+                "file": "Networking/Network_basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -416,15 +416,15 @@
   },
   "active": "c454056d0574a5af",
   "lastOpenFiles": [
+    "Networking/Transmission_mediums.md",
+    "Networking/Routing_methods.md",
     "XX-Attachments/Templates/InfoNote.md",
     "SoftwarePatterns/Design_patterns.md",
+    "Networking/Internet_infrastructure.md",
     "SoftwarePatterns/Structural/Proxy_pattern.md",
     "SoftwarePatterns/Behavioral/Iterator_pattern.md",
     "SoftwarePatterns/Behavioral/Visitor_pattern.md",
     "SoftwarePatterns/Behavioral/Observer_pattern.md",
-    "SoftwareDesign/SOLID_principles.md",
-    "OperatingSystems/Computer_memory.md",
-    "Algorithms/Algorithms.md",
-    "OperatingSystems/FileSystems/Unix_file_system.md"
+    "SoftwareDesign/SOLID_principles.md"
   ]
 }

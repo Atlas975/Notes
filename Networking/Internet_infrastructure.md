@@ -109,21 +109,3 @@ in this case one must talk the other listen.
 > ![[Pasted image 20211106001757.png|450|450]]
 - Headers are what allow distinguishing between layers.
 
-
-> [!important]- Metadata
-> **Tags:** #
-> **Located:** Networking
-> **Created:** 26/12/2022 - 03:56
-> ```dataviewjs
->let cur = dv.current().file;
->let loc = cur.path;
->let links = cur.inlinks.concat(cur.outlinks).array().map(p => p.path);
->let paths = new Set(links.filter(p => !p.endsWith(".png")));
->paths.delete(loc);
->dv.table(["Connections",  "Tags"], dv.array(Array.from(paths).slice(0, 20)).map(p => [
->   dv.fileLink(p),dv.page(p).file.tags.join("")]));
-> ```
-
-___
-# Internet infrastructure
-<% tp.file.cursor(2) %>
