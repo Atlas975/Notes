@@ -1,3 +1,6 @@
+---
+alias: SOLID
+---
 > [!important]- Metadata
 > **Tags:** #DesignTheory 
 > **Located:** SoftwareDesign

@@ -143,6 +143,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "SoftwareDesign/SOLID_principles.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "035d1c3c3543cf33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "SoftwarePatterns/Behavioral/Iterator_pattern.md",
                 "mode": "preview",
                 "backlinks": false,
@@ -185,7 +198,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -362,17 +375,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "885da10161632dae",
+  "active": "035d1c3c3543cf33",
   "lastOpenFiles": [
-    "SoftwarePatterns/Design_patterns.md",
+    "SoftwareDesign/SOLID_principles.md",
     "SoftwarePatterns/Behavioral/Iterator_pattern.md",
+    "SoftwarePatterns/Behavioral/Observer_pattern.md",
+    "SoftwarePatterns/Design_patterns.md",
     "OperatingSystems/FileSystems/Unix_file_system.md",
     "SoftwarePatterns/Untitled.md",
     "SoftwareEngineering/Recursion.md",
     "SoftwareEngineering/Multiagent_systems.md",
     "SoftwareEngineering/Concurrency.md",
-    "SoftwarePatterns/Behavioral/Observer_pattern.md",
-    "Algorithms/AlgorithmConcepts/Sorting_algorithms.md",
-    "SoftwareDesign/SOLID_principles.md"
+    "Algorithms/AlgorithmConcepts/Sorting_algorithms.md"
   ]
 }

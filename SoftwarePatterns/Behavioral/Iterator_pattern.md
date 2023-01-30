@@ -16,7 +16,13 @@ ___
 # Iterator pattern
 - Abstracts the traversal behaviour of a collection  ( #ADTs ) into a separate component known as an iterator
 - This [[Design_patterns|design pattern]] allows traversal of elements whilst encapsulating the collections underlying architecture. Multiple iterators can be created from the same collection
-- Multiple types of iterators may also exist for data structres such as [[Graphs]], eg **DFS** and **BFS**
+
+> ![[Pasted image 20230130121336.png|550|550]]
+
+- Multiple types of iterators may also exist for data structures such as [[Graphs]], eg **DFS** and **BFS**
 - Traversal methods are known as **concrete iterators** and also implement the Iterable interface
 
-> ![[Pasted image 20230130120746.png|550|550]]
+> ![[Pasted image 20230130121437.png|600|600]]
+
+- Using this pattern also follows the [[SOLID_principles#Single responsibility (SRP)|Single responsibility]] and [[SOLID_principles#Open-Closed (OCP)|Open-Closed]] principle as new iterators can be extracted to separate components and new iterators can be created without modifying ones that already exist. 
+- All iterators can also be used the same way via the Iterator interface 
