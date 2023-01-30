@@ -726,6 +726,14 @@
           "lastUpdated": 1675093324332
         }
       }
+    },
+    "current": {
+      "current": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675095651684
+        }
+      }
     }
   }
 }

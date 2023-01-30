@@ -6,8 +6,8 @@ alias: design pattern
 > **Located:** SoftwareDesign/DesignPatterns
 > **Created:** 26/12/2022 - 09:23
 > ```dataviewjs
->let loc = dv.current().file.path;
->let cur = dv.page(loc).file;
+>let cur = dv.current().file;
+>let loc = cur.path;
 >let links = cur.inlinks.concat(cur.outlinks).array().map(p => p.path);
 >let paths = new Set(links.filter(p => !p.endsWith(".png")));
 >paths.delete(loc);

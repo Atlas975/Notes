@@ -3,8 +3,8 @@
 > **Located:** <% tp.file.path(true).split('/' + tp.file.title)[0] %>
 > **Created:** <% tp.file.creation_date('DD/MM/YYYY - HH:mm') %>
 > ```dataviewjs
->let loc = dv.current().file.path;
->let cur = dv.page(loc).file;
+>let cur = dv.current().file;
+>let loc = cur.path;
 >let links = cur.inlinks.concat(cur.outlinks).array().map(p => p.path);
 >let paths = new Set(links.filter(p => !p.endsWith(".png")));
 >paths.delete(loc);
