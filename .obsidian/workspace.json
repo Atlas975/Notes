@@ -237,7 +237,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -282,7 +282,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "XX-Attachments/Templates/InfoNote.md",
+                "file": "Networking/Internet_infrastructure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -314,7 +314,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "XX-Attachments/Templates/InfoNote.md"
+                "file": "Networking/Internet_infrastructure.md"
               }
             }
           }
@@ -338,7 +338,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "XX-Attachments/Templates/InfoNote.md"
+                "file": "Networking/Internet_infrastructure.md"
               }
             }
           },
@@ -364,7 +364,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "XX-Attachments/Templates/InfoNote.md",
+                "file": "Networking/Internet_infrastructure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -414,7 +414,7 @@
       "random-note:Open random note": false
     }
   },
-  "active": "2f2bafd0926a887e",
+  "active": "c454056d0574a5af",
   "lastOpenFiles": [
     "XX-Attachments/Templates/InfoNote.md",
     "SoftwarePatterns/Design_patterns.md",
