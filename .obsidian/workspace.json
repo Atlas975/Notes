@@ -60,7 +60,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwarePatterns/Structural/Bridge_pattern.md",
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwarePatterns/Structural/Bridge_pattern.md",
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwarePatterns/Structural/Bridge_pattern.md"
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md"
               }
             }
           }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwarePatterns/Structural/Bridge_pattern.md"
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md"
               }
             }
           },
@@ -208,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwarePatterns/Structural/Bridge_pattern.md",
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -260,15 +260,15 @@
   },
   "active": "75b43370a631b698",
   "lastOpenFiles": [
-    "SoftwarePatterns/Structural/Adaptor_pattern.md",
+    "Algorithms/Algorithms.md",
     "SoftwarePatterns/Structural/Bridge_pattern.md",
+    "SoftwarePatterns/Structural/Adaptor_pattern.md",
     "SoftwarePatterns/Structural/Proxy_pattern.md",
     "SoftwarePatterns/Behavioral/Command_pattern.md",
     "SoftwarePatterns/Behavioral/Iterator_pattern.md",
     "SoftwarePatterns/Behavioral/Observer_pattern.md",
     "SoftwarePatterns/Behavioral/Visitor_pattern.md",
     "SoftwarePatterns/Creational/Builder_pattern.md",
-    "00-Main/1-Litnote.md",
-    "OperatingSystems/Computer_memory.md"
+    "00-Main/1-Litnote.md"
   ]
 }
