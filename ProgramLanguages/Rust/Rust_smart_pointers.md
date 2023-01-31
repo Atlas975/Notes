@@ -33,3 +33,33 @@ let a = Rc::new(String::from("hello")); // New string on the heap
 let b = a.clone(); // New pointer to the same string on the heap
 assert_eq!(a, b); // a and b both point to the same string on the heap
 ```
+
+## Weak 
+```rust
+struct Node {
+    value: i32,
+    children: Vec<Weak<Node>>, // vector of weak references
+}
+
+let leaf = Rc::new(Node {
+    value: 3,
+    children: vec![],
+});
+let leaf2 = Rc::clone(&leaf); // create another reference to the same object
+
+let branch = Rc::new(Node { // contains 2 weak references to leaf
+    value: 5,
+    children: vec![Rc::downgrade(&leaf), Rc::downgrade(&leaf2)],
+});
+
+
+let valid_children = |node: &Node| {
+    node.children.iter().filter(|c| c.upgrade().is_some()).count()
+}; // weakrefs must be upgraded to strongrefs to be used
+
+assert_eq!(valid_children(&branch), 2);
+drop(leaf);
+drop(leaf2);
+assert_eq!(valid_children(&branch), 0);
+
+```
