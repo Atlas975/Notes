@@ -118,7 +118,7 @@
               "type": "markdown",
               "state": {
                 "file": "SoftwarePatterns/Behavioral/Command_pattern.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -455,9 +455,9 @@
   },
   "active": "32afe2f07e315485",
   "lastOpenFiles": [
-    "Networking/Transmission_mediums.md",
-    "SoftwarePatterns/Behavioral/Command_pattern.md",
     "SoftwarePatterns/Behavioral/Iterator_pattern.md",
+    "SoftwarePatterns/Behavioral/Command_pattern.md",
+    "Networking/Transmission_mediums.md",
     "SoftwarePatterns/Behavioral/Visitor_pattern.md",
     "SoftwarePatterns/Behavioral/Observer_pattern.md",
     "SoftwarePatterns/Structural/Proxy_pattern.md",
