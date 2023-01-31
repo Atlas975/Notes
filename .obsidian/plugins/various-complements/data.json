@@ -282,8 +282,8 @@
     "hierarchies": {
       "hierarchies": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1673896858927
+          "count": 2,
+          "lastUpdated": 1675177296625
         }
       }
     },
@@ -570,8 +570,8 @@
     "components": {
       "components": {
         "currentFile": {
-          "count": 11,
-          "lastUpdated": 1674914634857
+          "count": 12,
+          "lastUpdated": 1675177200851
         }
       }
     },
@@ -740,6 +740,30 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1675174577806
+        }
+      }
+    },
+    "Abstraction": {
+      "Abstraction": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675177346276
+        }
+      }
+    },
+    "implementation": {
+      "implementation": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675177385976
+        }
+      }
+    },
+    "Implementation": {
+      "Implementation": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675177402059
         }
       }
     }

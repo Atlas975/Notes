@@ -60,7 +60,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwarePatterns/Structural/Adaptor_pattern.md",
+                "file": "SoftwarePatterns/Structural/Bridge_pattern.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwarePatterns/Structural/Adaptor_pattern.md",
+                "file": "SoftwarePatterns/Structural/Bridge_pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwarePatterns/Structural/Adaptor_pattern.md"
+                "file": "SoftwarePatterns/Structural/Bridge_pattern.md"
               }
             }
           }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwarePatterns/Structural/Adaptor_pattern.md"
+                "file": "SoftwarePatterns/Structural/Bridge_pattern.md"
               }
             }
           },
@@ -208,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwarePatterns/Structural/Adaptor_pattern.md",
+                "file": "SoftwarePatterns/Structural/Bridge_pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -260,8 +260,8 @@
   },
   "active": "75b43370a631b698",
   "lastOpenFiles": [
-    "SoftwarePatterns/Structural/Bridge_pattern.md",
     "SoftwarePatterns/Structural/Adaptor_pattern.md",
+    "SoftwarePatterns/Structural/Bridge_pattern.md",
     "SoftwarePatterns/Structural/Proxy_pattern.md",
     "SoftwarePatterns/Behavioral/Command_pattern.md",
     "SoftwarePatterns/Behavioral/Iterator_pattern.md",
