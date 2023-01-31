@@ -16,9 +16,12 @@ ___
 # Bridge pattern
 - Splits a large class into separate hierarchies to allow for decoupled, independent development of various components 
 - This is done be splitting a dimension of a component into a separate class hierarchy, this way the original objects reference a member of the new hierarchy
-- This allows for more flexibility between different the two core hierarchies in this pattern:
-    - **Abstraction**: only performs configuration, work delegated to implementation layer
-    - **Implementation **
+
+> ![[Pasted image 20230131150710.png|600|600]]
+
+- This [[Design_patterns|design pattern]] gives more flexibility between component hierarchies, with each hierarchy layer consisting of the following sub-hierarchies:
+	- **Abstraction**: only performs configuration (high-level control logic), work delegated to implementation layer
+	- **Implementation**: the underlying logic used to respond to user actions, uses an interface that's common to all concrete implementations
 
 ```rust
 // Implementation hierarchy: defines ways to prepare and deliver a pizza
