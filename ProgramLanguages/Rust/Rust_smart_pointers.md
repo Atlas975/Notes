@@ -19,30 +19,17 @@ ___
 
 ## Box
 ```rust
-let b = Box::new(5); // Box that stores an integer
-
-#[derive(Debug)] 
-struct Person {
-    name: String,
-    age: u32,
-}
-
-let person = Box::new(Person { // Box that stores a ADT on the heap
-    name: String::from("John"),
-    age: 30,
-});
-
-println!("Person {:?} is stored on the heap.", person);
+let mut b = Box::new(5); // Creating a Box that stores an integer
+*b += 1; // Dereferencing the Box, changing the value it stores
+let a = b; // Moving the Box, so that it's now owned by `a`
+assert_eq!(*a, 6);
 ```
 
 
 
 ## RC
 ```rust
-use std::rc::Rc;
-
-let a = Rc::new(String::from("hello"));
-let b = a.clone();
-
-println!("a and b both point to '{}'", a);
+let a = Rc::new(String::from("hello")); // New string on the heap
+let b = a.clone(); // New pointer to the same string on the heap
+assert_eq!(a, b); // a and b both point to the same string on the heap
 ```
