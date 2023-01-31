@@ -104,8 +104,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwarePatterns/Structural/Proxy_pattern.md",
+                "file": "SoftwarePatterns/Behavioral/Iterator_pattern.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "32afe2f07e315485",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoftwarePatterns/Behavioral/Command_pattern.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -263,7 +276,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -308,7 +321,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwarePatterns/Structural/Proxy_pattern.md",
+                "file": "SoftwarePatterns/Behavioral/Command_pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -340,7 +353,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwarePatterns/Structural/Proxy_pattern.md"
+                "file": "SoftwarePatterns/Behavioral/Command_pattern.md"
               }
             }
           }
@@ -364,7 +377,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwarePatterns/Structural/Proxy_pattern.md"
+                "file": "SoftwarePatterns/Behavioral/Command_pattern.md"
               }
             }
           },
@@ -390,7 +403,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwarePatterns/Structural/Proxy_pattern.md",
+                "file": "SoftwarePatterns/Behavioral/Command_pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -440,17 +453,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "c986d6d48e46f5cd",
+  "active": "32afe2f07e315485",
   "lastOpenFiles": [
-    "SoftwarePatterns/Creational/Builder_pattern.md",
-    "SoftwarePatterns/Behavioral/Iterator_pattern.md",
-    "SoftwareDesign/SOLID_principles.md",
-    "SoftwarePatterns/Behavioral/Observer_pattern.md",
-    "SoftwarePatterns/Behavioral/Visitor_pattern.md",
-    "SoftwarePatterns/Design_patterns.md",
-    "Networking/Network_basics.md",
     "Networking/Transmission_mediums.md",
-    "Networking/Routing_methods.md",
-    "XX-Attachments/Templates/InfoNote.md"
+    "SoftwarePatterns/Behavioral/Command_pattern.md",
+    "SoftwarePatterns/Behavioral/Iterator_pattern.md",
+    "SoftwarePatterns/Behavioral/Visitor_pattern.md",
+    "SoftwarePatterns/Behavioral/Observer_pattern.md",
+    "SoftwarePatterns/Structural/Proxy_pattern.md",
+    "SoftwarePatterns/Creational/Builder_pattern.md",
+    "SoftwareDesign/SOLID_principles.md",
+    "SoftwarePatterns/Design_patterns.md",
+    "Networking/Network_basics.md"
   ]
 }
