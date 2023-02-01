@@ -27,11 +27,39 @@ assert_eq!(*a, 6);
 
 
 
-## RC
+## Rc
 ```rust
 let a = Rc::new(String::from("hello")); // New string on the heap
 let b = a.clone(); // New pointer to the same string on the heap
 assert_eq!(a, b); // a and b both point to the same string on the heap
+```
+
+
+## Arc
+```rust
+let data = Arc::new(Mutex::new(0));
+
+fn increment(i: usize, data: Arc<Mutex<i32>>) {
+    for _ in 0..10 {
+        let mut data = data.lock().unwrap(); // acquire the lock
+        *data += 1; // deref mutex guard and modify the data
+        println!("Thread {} Data: {}", i, *data);
+    }
+}
+
+(0..10)
+    .map(|i| {
+        let data = Arc::clone(&data); // create a new reference to the data
+        thread::spawn(move || {
+            increment(i, data);
+        })
+    })
+    .for_each(|handle| { // wait for all threads to finish
+        handle.join().unwrap();
+    });
+
+let data = data.lock().unwrap();
+assert_eq!(*data, 100);
 ```
 
 ## Weak 
