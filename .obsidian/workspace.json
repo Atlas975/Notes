@@ -73,8 +73,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgramLanguages/Rust/Rust_smart_pointers.md",
-                "mode": "source",
+                "file": "SoftwarePatterns/Structural/Proxy_pattern.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/Rust/Rust_smart_pointers.md",
+                "file": "SoftwarePatterns/Structural/Proxy_pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/Rust/Rust_smart_pointers.md"
+                "file": "SoftwarePatterns/Structural/Proxy_pattern.md"
               }
             }
           }
@@ -195,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/Rust/Rust_smart_pointers.md"
+                "file": "SoftwarePatterns/Structural/Proxy_pattern.md"
               }
             }
           },
@@ -221,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/Rust/Rust_smart_pointers.md",
+                "file": "SoftwarePatterns/Structural/Proxy_pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -273,15 +273,15 @@
   },
   "active": "4a84cb29a5cf078b",
   "lastOpenFiles": [
-    "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
-    "Algorithms/Algorithms.md",
     "SoftwarePatterns/Structural/Bridge_pattern.md",
     "SoftwarePatterns/Structural/Adaptor_pattern.md",
-    "SoftwarePatterns/Structural/Proxy_pattern.md",
     "SoftwarePatterns/Behavioral/Command_pattern.md",
     "SoftwarePatterns/Behavioral/Iterator_pattern.md",
     "SoftwarePatterns/Behavioral/Observer_pattern.md",
-    "SoftwarePatterns/Behavioral/Visitor_pattern.md",
-    "SoftwarePatterns/Creational/Builder_pattern.md"
+    "SoftwarePatterns/Creational/Builder_pattern.md",
+    "ProgramLanguages/Rust/Rust_smart_pointers.md",
+    "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
+    "Algorithms/Algorithms.md",
+    "SoftwarePatterns/Structural/Proxy_pattern.md"
   ]
 }

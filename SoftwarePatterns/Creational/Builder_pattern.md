@@ -14,7 +14,6 @@
 
 ___
 # Builder pattern
-```ad-example
 ```rust
 struct Car {
     name: String,
