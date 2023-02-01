@@ -35,33 +35,34 @@ assert_eq!(a, b); // a and b both point to the same string on the heap
 ```
 
 
-## Arc
+## Refcell
 ```rust
-let data = Arc::new(Mutex::new(0));
+struct Inner {
+    data: Vec<i32>,
+}
 
-fn increment(i: usize, data: Arc<Mutex<i32>>) {
-    for _ in 0..10 {
-        let mut data = data.lock().unwrap(); // acquire the lock
-        *data += 1; // deref mutex guard and modify the data
-        println!("Thread {} Data: {}", i, *data);
+struct Outer {
+    inner: RefCell<Inner>,
+}
+
+impl Outer {
+    fn new(indata: Inner) -> Self {
+        Outer {
+            inner: RefCell::new(indata), // Creates RefCell to indata
+        }
     }
 }
 
-(0..10)
-    .map(|i| {
-        let data = Arc::clone(&data); // create a new reference to the data
-        thread::spawn(move || {
-            increment(i, data);
-        })
-    })
-    .for_each(|handle| { // wait for all threads to finish
-        handle.join().unwrap();
-    });
+let indata = Inner {
+    data: vec![1, 2, 3, 4, 5, 6, 7, 8, 9],
+};
 
-let data = data.lock().unwrap();
-assert_eq!(*data, 100);
+assert_eq!(size_of_val(&indata), 24); // Inner is 24 bytes
+let outer = Outer::new(indata);
+let mut target = outer.inner.borrow_mut();
+target.data.push(10);
+assert_eq!(size_of_val(&target), 16); // RefCell<Inner> is 16 bytes
 ```
-
 ## Weak 
 ```rust
 struct Node {
@@ -91,3 +92,35 @@ drop(leaf2);
 assert_eq!(valid_children(&branch), 0);
 
 ```
+
+
+# Concurrency pointers
+
+## Arc
+```rust
+let data = Arc::new(Mutex::new(0));
+
+fn increment(i: usize, data: Arc<Mutex<i32>>) {
+    for _ in 0..10 {
+        let mut data = data.lock().unwrap(); // acquire the lock
+        *data += 1; // deref mutex guard and modify the data
+        println!("Thread {} Data: {}", i, *data);
+    }
+}
+
+(0..10)
+    .map(|i| {
+        let data = Arc::clone(&data); // create a new reference to the data
+        thread::spawn(move || {
+            increment(i, data);
+        })
+    })
+    .for_each(|handle| { // wait for all threads to finish
+        handle.join().unwrap();
+    });
+
+let data = data.lock().unwrap();
+assert_eq!(*data, 100);
+```
+
+
