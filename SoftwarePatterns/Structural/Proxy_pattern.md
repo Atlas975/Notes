@@ -19,6 +19,41 @@ ___
 
 > ![[Pasted image 20230130132227.png|550|550]]
 
-- Example of a proxy providing a cache for a video download service
+- Example of a cache providing proxy that acts as an intermediary between a slower service
 
-> ![[Pasted image 20230130131852.png|500|500]]
+```rust
+trait Service {
+    fn get(&mut self, num: i32) -> f64;
+}
+
+// Service implementation
+struct ServiceCalc;
+impl Service for ServiceCalc {
+    fn get(&mut self, num: i32) -> f64 {
+        ((num / 3) >> (1 + num * 9999 % 3) ^ 975) as f64
+    }
+}
+
+// Proxy implementation, takes in an instance of service
+struct CacheProxy {
+    service: ServiceCalc,
+    cache: HashMap<i32, f64>,
+}
+impl Service for CacheProxy {
+    fn get(&mut self, num: i32) -> f64 {
+        if let Some(&result) = self.cache.get(&num) {
+            return result;
+        }
+        let result = self.service.get(num);
+        self.cache.insert(num, result);
+        result
+    }
+}
+
+let mut service = CacheProxy {service: ServiceCalc, cache: HashMap::new(),};
+println!("Result: {}", service.get(1)); // cache miss
+println!("Result: {}", service.get(2)); // cache miss
+println!("Result: {}", service.get(1)); // cache hit
+println!("Result: {}", service.get(2)); // cache hit
+println!("Result: {}", service.get(3)); // cache miss
+```
