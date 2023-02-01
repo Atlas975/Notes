@@ -64,7 +64,7 @@ ___
 - The [[Graphs|degree]] of a relationship set is the number of entity sets connected to it
 - Relationships may also exists between a single entity set through with different roles
 
-> ![[Pasted image 20230117174247.png|250|250]]
+> ![[Pasted image 20230117174247.png|250|250]] degree 1 relation set
 
 ## Relationship cardinalities
 - Data can follow any of the following [[Functions#Injective / Surjective mapping|mapping types]]:

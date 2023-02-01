@@ -36,8 +36,8 @@ ___
 - Database examples: Oracle, MySQL, SQLite, PostgreSQL
 ## Data terminology
 - Databases contain multiple **tables**
-- Tables are a collection of  records (**rows**)
-- Records are a collection of fields (**columns**)
+- Tables are a collection of  records (**rows / tuples**)
+- Records are a collection of fields (**columns / attributes**) 
 - Three components of relational DBMS
 	1. Data structure
 	2. Data manipulation
@@ -47,7 +47,7 @@ ___
 2. Entity integrity: no two rows can be equal
 3. Referential integrity: maintains relationships between tables, referencing other tables requires active maintenance.
 # Relations
-- Relations are formed from a set of tuples [[Relations]]
+- [[Relations]] are formed from a set of tuples 
 
 > ![[Pasted image 20211112223946.png|500|500]]
 
@@ -64,7 +64,7 @@ ___
 - Duplicate data can be present (columns & rows)
 - Data access difficult to manage, unable to generate complex queries
 - Multiple owners, files, location making security difficult
-- Few automates checks for data entry/conversion
+- Few automated checks for data entry/conversion
 # DBMS
 - Provides an efficient and reliable way to store large amount of persistent data
 - A DBMS provides 3 main services:
@@ -88,10 +88,12 @@ ___
 - What data is stored, how it's arranged, data relationships, security and data relationships (CREATE)
 ## Internal level
 - Structure data is written/received, how data is ordered, space allocations and compression/encryption
-# Schemas
-- The blueprint of a database, describes how data is modelled including relations 
-- **Conceptual schema**: database content organisation
-- **Internal schema**: how data is stored
+# Database schema 
+- The blueprint of a database, describes the structure and organisation of data in a database, serves as a map for a DBMS to understand the layout of data using two core scheme types:
+    - **Conceptual schema**: database content organisation
+    - **Internal schema**: how data is stored
+
+> ![[Pasted image 20230201122712.png]]
 - Schemas allow data to be independent with implementation/optimization left to DBMS
 - Transfer of requests between layers is called mapping
 - **Data independence** describes hiding implementation from other layers
