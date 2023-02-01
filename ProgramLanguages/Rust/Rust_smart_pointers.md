@@ -37,7 +37,7 @@ assert_eq!(a, b); // a and b both point to the same string on the heap
 
 
 ## Refcell
-- Relies on runtime borrow-checking, typically wrapped 
+- Relies on runtime borrow-checking, typically wrapped around an immutable reference such as Arc or Rc. Using refcell allows for interior mutability  
 ```rust
 struct Inner {
     data: Vec<i32>,
