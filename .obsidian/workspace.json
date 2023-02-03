@@ -211,7 +211,7 @@
               "type": "markdown",
               "state": {
                 "file": "SoftwareDesign/BSPL.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -262,7 +262,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareDesign/BSPL.md",
+                "file": "ProgramLanguages/Rust/Rust_message_passing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/BSPL.md"
+                "file": "ProgramLanguages/Rust/Rust_message_passing.md"
               }
             }
           }
@@ -318,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/BSPL.md"
+                "file": "ProgramLanguages/Rust/Rust_message_passing.md"
               }
             }
           },
@@ -344,7 +344,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareDesign/BSPL.md",
+                "file": "ProgramLanguages/Rust/Rust_message_passing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -394,10 +394,10 @@
       "random-note:Open random note": false
     }
   },
-  "active": "627c1d97746d60b4",
+  "active": "3dd1835da0c0308d",
   "lastOpenFiles": [
-    "ProgramLanguages/Rust/Rust_message_passing.md",
     "SoftwareDesign/BSPL.md",
+    "ProgramLanguages/Rust/Rust_message_passing.md",
     "ProgramLanguages/Rust/Rust_smart_pointers.md",
     "OperatingSystems/Computer_memory.md",
     "ProgramLanguages/Rust/Rust_cargo.md",

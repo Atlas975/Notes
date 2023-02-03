@@ -72,3 +72,47 @@ for _ in 0..3 {
 
 ## Decide offer protocol 
 [[BSPL#Decide offer protocol]]
+```rust
+let (buyer_tx, seller_rx) = mpsc::channel();
+let (seller_tx, buyer_rx) = mpsc::channel();
+let (decisions_tx, decisions_rx) = mpsc::channel();
+
+let available = HashMap::from([(1, "Apple"), (2, "Banana"), (3, "Orange")]);
+let prices = available
+    .iter()
+    .map(|(&id, &name)| ((id, name), id * 250))
+    .collect::<HashMap<_, _>>();
+
+for (&id, &name) in available.iter() {
+    let tx = buyer_tx.clone();
+    thread::spawn(move || {
+        tx.send((id, name)).unwrap();
+    });
+}
+drop(buyer_tx);
+
+for recieved in seller_rx {
+    println!("Recieved request: {:?}", recieved);
+    let price = prices[&recieved];
+    let tx = seller_tx.clone();
+
+    thread::spawn(move || {
+        tx.send((recieved, price)).unwrap();
+    });
+}
+drop(seller_tx);
+
+for recieved in buyer_rx {
+    println!("Price for request {:?} is: {}", recieved.0, recieved.1);
+    let tx = decisions_tx.clone();
+    thread::spawn(move || {
+        tx.send((recieved.0, random::<bool>())).unwrap();
+    });
+}
+drop(decisions_tx);
+
+for recieved in decisions_rx {
+    let choice = if recieved.1 { "Accepted" } else { "Reject" };
+    println!("Request {:?} was {}", recieved.0, choice);
+}
+```
