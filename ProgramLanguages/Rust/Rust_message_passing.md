@@ -35,3 +35,40 @@ for _ in 0..3 {
 
 ## Rust offer protocol 
 [[BSPL#Offer protocol]]
+
+```rust
+let (buyer_tx, seller_rx) = mpsc::channel();
+let (seller_tx, buyer_rx) = mpsc::channel();
+
+let available = HashMap::from([(1, "Apple"), (2, "Banana"), (3, "Orange")]);
+let prices = available
+    .iter()
+    .map(|(&id, &name)| ((id, name), id * 250))
+    .collect::<HashMap<_, _>>();
+
+for (&id, &name) in available.iter() {
+    let tx = buyer_tx.clone();
+    thread::spawn(move || {
+        tx.send((id, name)).unwrap();
+    });
+}
+
+for _ in 0..3 {
+    let recieved = seller_rx.recv().unwrap();
+    println!("Recieved request: {:?}", recieved);
+    let price = prices[&recieved];
+    let tx = seller_tx.clone();
+
+    thread::spawn(move || {
+        tx.send((recieved.1, price)).unwrap();
+    });
+}
+
+for _ in 0..3 {
+    let recieved = buyer_rx.recv().unwrap();
+    println!("{} price is: {}", recieved.0, recieved.1);
+}
+```
+
+## Decide offer protocol 
+[[BSPL#Decide offer protocol]]
