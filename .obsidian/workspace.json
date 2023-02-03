@@ -185,7 +185,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -230,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareDesign/BSPL.md",
+                "file": "ProgramLanguages/Rust/Rust_message_passing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -262,7 +262,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/BSPL.md"
+                "file": "ProgramLanguages/Rust/Rust_message_passing.md"
               }
             }
           }
@@ -286,7 +286,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/BSPL.md"
+                "file": "ProgramLanguages/Rust/Rust_message_passing.md"
               }
             }
           },
@@ -312,7 +312,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareDesign/BSPL.md",
+                "file": "ProgramLanguages/Rust/Rust_message_passing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -362,11 +362,11 @@
       "random-note:Open random note": false
     }
   },
-  "active": "6b635f122c1f16bb",
+  "active": "714f1ee4e3b8d0cd",
   "lastOpenFiles": [
+    "SoftwareDesign/BSPL.md",
     "ProgramLanguages/Rust/Rust_cargo.md",
     "ProgramLanguages/Rust/Rust_message_passing.md",
-    "SoftwareDesign/BSPL.md",
     "ProgramLanguages/Rust/Rust_smart_pointers.md",
     "SoftwareDesign/Entity_relationship_model.md",
     "Databases/Database_fundamentals.md",
