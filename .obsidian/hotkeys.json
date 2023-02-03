@@ -323,9 +323,9 @@
   "workspace:previous-tab": [
     {
       "modifiers": [
-        "Alt"
+        "Mod"
       ],
-      "key": "PageUp"
+      "key": "Tab"
     }
   ],
   "cycle-through-panes:cycle-through-panes-reverse": [],
@@ -430,12 +430,6 @@
         "Shift"
       ],
       "key": "F"
-    },
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "Tab"
     }
   ],
   "global-search:open": [],
@@ -572,5 +566,6 @@
       ],
       "key": "G"
     }
-  ]
+  ],
+  "theme:switch": []
 }

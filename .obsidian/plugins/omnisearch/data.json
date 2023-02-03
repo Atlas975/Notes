@@ -1,4 +1,5 @@
 {
+  "useCache": true,
   "hideExcluded": false,
   "ignoreDiacritics": true,
   "indexedFileTypes": [],
@@ -16,7 +17,7 @@
   "weightH1": 2.1,
   "weightH2": 1.7,
   "weightH3": 1.1,
-  "welcomeMessage": "1.8.0-beta.3",
+  "welcomeMessage": "1.10.1",
   "respectExcluded": true,
   "backgroundProcesses": 6,
   "showIndexingNotices": false,

@@ -28,7 +28,7 @@ __export(main_exports, {
   default: () => TagFolderPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian5 = require("obsidian");
+var import_obsidian6 = require("obsidian");
 
 // types.ts
 var SUBTREE_MARK = "\u2192 ";
@@ -661,9 +661,22 @@ function isSpecialTag(tagSrc) {
   const tag = tagSrc.startsWith(SUBTREE_MARK) ? tagSrc.substring(SUBTREE_MARK.length) : tagSrc;
   return tag == "_untagged" || tag in tagDispDict;
 }
+var tagDispAlternativeDict = {};
+tagInfo.subscribe((tagInfo2) => {
+  tagDispAlternativeDict = { ...tagDispDict };
+  if (tagInfo2 == null) {
+    return;
+  }
+  const items = Object.entries(tagInfo2);
+  for (const [key, info] of items) {
+    if ("alt" in info) {
+      tagDispAlternativeDict[key] = info.alt;
+    }
+  }
+});
 function renderSpecialTag(tagSrc) {
   const tag = tagSrc.startsWith(SUBTREE_MARK) ? tagSrc.substring(SUBTREE_MARK.length) : tagSrc;
-  return tag in tagDispDict ? tagDispDict[tag] : tagSrc;
+  return tag in tagDispAlternativeDict ? tagDispAlternativeDict[tag] : tagSrc;
 }
 function secondsToFreshness(totalAsMSec) {
   const totalAsSec = ~~(totalAsMSec / 1e3);
@@ -1173,21 +1186,21 @@ var ScrollView = class extends import_obsidian2.ItemView {
 
 // TreeItemComponent.svelte
 function add_css3(target) {
-  append_styles(target, "svelte-abtlr0", ".lsl-f.svelte-abtlr0.svelte-abtlr0{flex-direction:row;display:flex;flex-grow:1;overflow:visible;max-width:calc(100% - var(--nav-item-parent-padding))}.tags.svelte-abtlr0.svelte-abtlr0{background-color:var(--background-secondary-alt);border-radius:4px;padding:2px 4px;margin-left:4px}.taglist.svelte-abtlr0.svelte-abtlr0{white-space:nowrap;text-overflow:ellipsis;padding-left:1em;overflow:hidden}.tagfolder-titletagname.svelte-abtlr0.svelte-abtlr0{flex-grow:1;max-width:calc(100% - 2em);width:calc(100% - 2em);text-overflow:ellipsis;overflow:hidden;white-space:nowrap;overflow:hidden}.nav-folder-title-content.svelte-abtlr0:hover .tagfolder-quantity span.svelte-abtlr0{background-color:var(--interactive-accent-hover);color:var(--text-on-accent)}.tagfolder-quantity.svelte-abtlr0 span.svelte-abtlr0{background-color:var(--background-secondary-alt);border-radius:4px;padding:2px 4px}.tagfolder-quantity.svelte-abtlr0.svelte-abtlr0{width:3em;text-align:right;cursor:pointer}.tag-folder-title.svelte-abtlr0.svelte-abtlr0{max-width:100%}");
+  append_styles(target, "svelte-etffjf", ".lsl-f.svelte-etffjf.svelte-etffjf{flex-direction:row;display:flex;flex-grow:1;overflow:hidden;max-width:calc(100%)}.tags.svelte-etffjf.svelte-etffjf{background-color:var(--background-secondary-alt);border-radius:4px;padding:2px 4px;margin-left:4px}.taglist.svelte-etffjf.svelte-etffjf{white-space:nowrap;text-overflow:ellipsis;padding-left:1em;overflow:hidden}.tagfolder-titletagname.svelte-etffjf.svelte-etffjf{flex-grow:1;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.nav-folder-title-content.svelte-etffjf:hover .tagfolder-quantity span.svelte-etffjf{background-color:var(--interactive-accent-hover);color:var(--text-on-accent)}.tagfolder-quantity.svelte-etffjf span.svelte-etffjf{background-color:var(--background-secondary-alt);border-radius:4px;padding:2px 4px}.tagfolder-quantity.svelte-etffjf.svelte-etffjf{width:3em;text-align:right;cursor:pointer;margin-left:auto}.tag-folder-title.svelte-etffjf.svelte-etffjf{max-width:100%}");
 }
 function get_each_context_2(ctx, list, i) {
   const child_ctx = ctx.slice();
-  child_ctx[48] = list[i];
+  child_ctx[50] = list[i];
   return child_ctx;
 }
 function get_each_context_1(ctx, list, i) {
   const child_ctx = ctx.slice();
-  child_ctx[43] = list[i];
+  child_ctx[45] = list[i];
   return child_ctx;
 }
 function get_each_context2(ctx, list, i) {
   const child_ctx = ctx.slice();
-  child_ctx[43] = list[i];
+  child_ctx[45] = list[i];
   return child_ctx;
 }
 function create_if_block_4(ctx) {
@@ -1216,10 +1229,10 @@ function create_if_block_4(ctx) {
       for (let i = 0; i < each_blocks.length; i += 1) {
         each_blocks[i].c();
       }
-      attr(div0, "class", "nav-file-title-content lsl-f svelte-abtlr0");
-      attr(div1, "class", "taglist svelte-abtlr0");
+      attr(div0, "class", "nav-file-title-content lsl-f svelte-etffjf");
+      attr(div1, "class", "taglist svelte-etffjf");
       attr(div2, "class", "nav-file-title");
-      toggle_class(div2, "is-active", ctx[13]);
+      toggle_class(div2, "is-active", ctx[14]);
       attr(div3, "class", "nav-file");
     },
     m(target, anchor) {
@@ -1234,8 +1247,8 @@ function create_if_block_4(ctx) {
       }
       if (!mounted) {
         dispose = [
-          listen(div2, "click", ctx[40]),
-          listen(div2, "mouseover", ctx[41]),
+          listen(div2, "click", ctx[41]),
+          listen(div2, "mouseover", ctx[42]),
           listen(div2, "focus", focus_handler),
           listen(div2, "contextmenu", function() {
             if (is_function(ctx[24](ctx[0])))
@@ -1267,8 +1280,8 @@ function create_if_block_4(ctx) {
         }
         each_blocks.length = each_value_2.length;
       }
-      if (dirty[0] & 8192) {
-        toggle_class(div2, "is-active", ctx[13]);
+      if (dirty[0] & 16384) {
+        toggle_class(div2, "is-active", ctx[14]);
       }
     },
     i: noop,
@@ -1290,13 +1303,11 @@ function create_if_block_2(ctx) {
   let div3;
   let div1;
   let t1;
-  let t2;
-  let t3;
   let div2;
   let span;
-  let t4_value = ctx[0].itemsCount + "";
-  let t4;
-  let t5;
+  let t2_value = ctx[0].itemsCount + "";
+  let t2;
+  let t3;
   let current;
   let mounted;
   let dispose;
@@ -1309,22 +1320,20 @@ function create_if_block_2(ctx) {
       t0 = space();
       div3 = element("div");
       div1 = element("div");
-      t1 = text(ctx[14]);
-      t2 = text(ctx[15]);
-      t3 = space();
+      t1 = space();
       div2 = element("div");
       span = element("span");
-      t4 = text(t4_value);
-      t5 = space();
+      t2 = text(t2_value);
+      t3 = space();
       if (if_block)
         if_block.c();
       attr(div0, "class", "nav-folder-collapse-indicator collapse-icon");
-      attr(div1, "class", "tagfolder-titletagname svelte-abtlr0");
-      attr(span, "class", "itemscount svelte-abtlr0");
-      attr(div2, "class", "tagfolder-quantity itemscount svelte-abtlr0");
-      attr(div3, "class", "nav-folder-title-content lsl-f svelte-abtlr0");
-      attr(div4, "class", "nav-folder-title tag-folder-title svelte-abtlr0");
-      toggle_class(div4, "is-active", ctx[0].children && ctx[9] && ctx[13]);
+      attr(div1, "class", "tagfolder-titletagname svelte-etffjf");
+      attr(span, "class", "itemscount svelte-etffjf");
+      attr(div2, "class", "tagfolder-quantity itemscount svelte-etffjf");
+      attr(div3, "class", "nav-folder-title-content lsl-f svelte-etffjf");
+      attr(div4, "class", "nav-folder-title tag-folder-title svelte-etffjf");
+      toggle_class(div4, "is-active", ctx[0].children && ctx[9] && ctx[14]);
       attr(div5, "class", "nav-folder");
       toggle_class(div5, "is-collapsed", ctx[9]);
     },
@@ -1336,21 +1345,20 @@ function create_if_block_2(ctx) {
       append(div4, t0);
       append(div4, div3);
       append(div3, div1);
-      append(div1, t1);
-      append(div1, t2);
-      append(div3, t3);
+      div1.innerHTML = ctx[16];
+      append(div3, t1);
       append(div3, div2);
       append(div2, span);
-      append(span, t4);
-      append(div5, t5);
+      append(span, t2);
+      append(div5, t3);
       if (if_block)
         if_block.m(div5, null);
       current = true;
       if (!mounted) {
         dispose = [
-          listen(div0, "click", ctx[37]),
-          listen(div2, "click", ctx[38]),
-          listen(div4, "click", ctx[39]),
+          listen(div0, "click", ctx[38]),
+          listen(div2, "click", ctx[39]),
+          listen(div4, "click", ctx[40]),
           listen(div4, "contextmenu", function() {
             if (is_function(ctx[24](ctx[0])))
               ctx[24](ctx[0]).apply(this, arguments);
@@ -1364,14 +1372,13 @@ function create_if_block_2(ctx) {
       if (!current || dirty[0] & 64)
         div0.innerHTML = ctx[6];
       ;
-      if (!current || dirty[0] & 16384)
-        set_data(t1, ctx[14]);
-      if (!current || dirty[0] & 32768)
-        set_data(t2, ctx[15]);
-      if ((!current || dirty[0] & 1) && t4_value !== (t4_value = ctx[0].itemsCount + ""))
-        set_data(t4, t4_value);
-      if (!current || dirty[0] & 8705) {
-        toggle_class(div4, "is-active", ctx[0].children && ctx[9] && ctx[13]);
+      if (!current || dirty[0] & 65536)
+        div1.innerHTML = ctx[16];
+      ;
+      if ((!current || dirty[0] & 1) && t2_value !== (t2_value = ctx[0].itemsCount + ""))
+        set_data(t2, t2_value);
+      if (!current || dirty[0] & 16897) {
+        toggle_class(div4, "is-active", ctx[0].children && ctx[9] && ctx[14]);
       }
       if (ctx[17].length > 0) {
         if (if_block) {
@@ -1473,20 +1480,20 @@ function create_if_block(ctx) {
 }
 function create_each_block_2(ctx) {
   let span;
-  let t_value = ctx[48] + "";
+  let t_value = ctx[50] + "";
   let t;
   return {
     c() {
       span = element("span");
       t = text(t_value);
-      attr(span, "class", "tags svelte-abtlr0");
+      attr(span, "class", "tags svelte-etffjf");
     },
     m(target, anchor) {
       insert(target, span, anchor);
       append(span, t);
     },
     p(ctx2, dirty) {
-      if (dirty[0] & 262144 && t_value !== (t_value = ctx2[48] + ""))
+      if (dirty[0] & 262144 && t_value !== (t_value = ctx2[50] + ""))
         set_data(t, t_value);
     },
     d(detaching) {
@@ -1522,7 +1529,7 @@ function create_if_block_3(ctx) {
       current = true;
     },
     p(ctx2, dirty) {
-      if (dirty[0] & 721406) {
+      if (dirty[0] & 688638) {
         each_value_1 = ctx2[17];
         let i;
         for (i = 0; i < each_value_1.length; i += 1) {
@@ -1571,7 +1578,7 @@ function create_each_block_1(ctx) {
   let current;
   treeitemcomponent = new TreeItemComponent({
     props: {
-      entry: ctx[43],
+      entry: ctx[45],
       openfile: ctx[2],
       hoverPreview: ctx[1],
       expandFolder: ctx[3],
@@ -1582,8 +1589,8 @@ function create_each_block_1(ctx) {
       isMainTree: ctx[7],
       parentTags: [
         ...ctx[8],
-        ...ctx[16],
-        "tag" in ctx[43] ? ctx[43].tag : void 0
+        ...ctx[15],
+        "tag" in ctx[45] ? ctx[45].tag : void 0
       ]
     }
   });
@@ -1598,7 +1605,7 @@ function create_each_block_1(ctx) {
     p(ctx2, dirty) {
       const treeitemcomponent_changes = {};
       if (dirty[0] & 131072)
-        treeitemcomponent_changes.entry = ctx2[43];
+        treeitemcomponent_changes.entry = ctx2[45];
       if (dirty[0] & 4)
         treeitemcomponent_changes.openfile = ctx2[2];
       if (dirty[0] & 2)
@@ -1615,11 +1622,11 @@ function create_each_block_1(ctx) {
         treeitemcomponent_changes.folderIcon = ctx2[6];
       if (dirty[0] & 128)
         treeitemcomponent_changes.isMainTree = ctx2[7];
-      if (dirty[0] & 196864)
+      if (dirty[0] & 164096)
         treeitemcomponent_changes.parentTags = [
           ...ctx2[8],
-          ...ctx2[16],
-          "tag" in ctx2[43] ? ctx2[43].tag : void 0
+          ...ctx2[15],
+          "tag" in ctx2[45] ? ctx2[45].tag : void 0
         ];
       treeitemcomponent.$set(treeitemcomponent_changes);
     },
@@ -1664,7 +1671,7 @@ function create_if_block_1(ctx) {
       current = true;
     },
     p(ctx2, dirty) {
-      if (dirty[0] & 737790) {
+      if (dirty[0] & 692734) {
         each_value = ctx2[17];
         let i;
         for (i = 0; i < each_value.length; i += 1) {
@@ -1713,20 +1720,20 @@ function create_each_block2(ctx) {
   let current;
   treeitemcomponent = new TreeItemComponent({
     props: {
-      entry: ctx[43],
+      entry: ctx[45],
       openfile: ctx[2],
       hoverPreview: ctx[1],
       expandFolder: ctx[3],
       showMenu: ctx[4],
       openScrollView: ctx[5],
-      skippedTag: ctx[14],
+      skippedTag: ctx[12],
       path: ctx[19],
       folderIcon: ctx[6],
       isMainTree: ctx[7],
       parentTags: [
         ...ctx[8],
-        ...ctx[16],
-        "tag" in ctx[43] ? ctx[43].tag : void 0
+        ...ctx[15],
+        "tag" in ctx[45] ? ctx[45].tag : void 0
       ]
     }
   });
@@ -1741,7 +1748,7 @@ function create_each_block2(ctx) {
     p(ctx2, dirty) {
       const treeitemcomponent_changes = {};
       if (dirty[0] & 131072)
-        treeitemcomponent_changes.entry = ctx2[43];
+        treeitemcomponent_changes.entry = ctx2[45];
       if (dirty[0] & 4)
         treeitemcomponent_changes.openfile = ctx2[2];
       if (dirty[0] & 2)
@@ -1752,19 +1759,19 @@ function create_each_block2(ctx) {
         treeitemcomponent_changes.showMenu = ctx2[4];
       if (dirty[0] & 32)
         treeitemcomponent_changes.openScrollView = ctx2[5];
-      if (dirty[0] & 16384)
-        treeitemcomponent_changes.skippedTag = ctx2[14];
+      if (dirty[0] & 4096)
+        treeitemcomponent_changes.skippedTag = ctx2[12];
       if (dirty[0] & 524288)
         treeitemcomponent_changes.path = ctx2[19];
       if (dirty[0] & 64)
         treeitemcomponent_changes.folderIcon = ctx2[6];
       if (dirty[0] & 128)
         treeitemcomponent_changes.isMainTree = ctx2[7];
-      if (dirty[0] & 196864)
+      if (dirty[0] & 164096)
         treeitemcomponent_changes.parentTags = [
           ...ctx2[8],
-          ...ctx2[16],
-          "tag" in ctx2[43] ? ctx2[43].tag : void 0
+          ...ctx2[15],
+          "tag" in ctx2[45] ? ctx2[45].tag : void 0
         ];
       treeitemcomponent.$set(treeitemcomponent_changes);
     },
@@ -1794,7 +1801,7 @@ function fallback_block(ctx) {
   function select_block_type(ctx2, dirty) {
     if (dirty[0] & 1025)
       show_if = null;
-    if (ctx2[12])
+    if (ctx2[13])
       return 0;
     if (show_if == null)
       show_if = !!("tag" in ctx2[0] && (ctx2[20] <= ctx2[10] || ctx2[0].tag.startsWith(SUBTREE_MARK)));
@@ -1871,8 +1878,8 @@ function fallback_block(ctx) {
 }
 function create_fragment3(ctx) {
   let current;
-  const default_slot_template = ctx[36].default;
-  const default_slot = create_slot(default_slot_template, ctx, ctx[35], null);
+  const default_slot_template = ctx[37].default;
+  const default_slot = create_slot(default_slot_template, ctx, ctx[36], null);
   const default_slot_or_fallback = default_slot || fallback_block(ctx);
   return {
     c() {
@@ -1887,13 +1894,13 @@ function create_fragment3(ctx) {
     },
     p(ctx2, dirty) {
       if (default_slot) {
-        if (default_slot.p && (!current || dirty[1] & 16)) {
+        if (default_slot.p && (!current || dirty[1] & 32)) {
           update_slot_base(
             default_slot,
             default_slot_template,
             ctx2,
-            ctx2[35],
-            !current ? get_all_dirty_from_scope(ctx2[35]) : get_slot_changes(default_slot_template, ctx2[35], dirty, null),
+            ctx2[36],
+            !current ? get_all_dirty_from_scope(ctx2[36]) : get_slot_changes(default_slot_template, ctx2[36], dirty, null),
             null
           );
         }
@@ -1931,6 +1938,23 @@ function getFilenames(entry) {
   } else {
     const filenames = entry.allDescendants.map((e) => e.path);
     return Array.from(/* @__PURE__ */ new Set([...filenames]));
+  }
+}
+function getTagMark(tagInfo2) {
+  if (!tagInfo2)
+    return "";
+  if ("key" in tagInfo2) {
+    if ("mark" in tagInfo2 && tagInfo2.mark != "") {
+      return tagInfo2.mark;
+    } else {
+      return "\u{1F4CC}";
+    }
+  } else {
+    if ("mark" in tagInfo2 && tagInfo2.mark != "") {
+      return tagInfo2.mark;
+    } else {
+      return "";
+    }
   }
 }
 var focus_handler = () => {
@@ -2007,12 +2031,12 @@ function instance3($$self, $$props, $$invalidate) {
     }
   }
   currentFile.subscribe((path2) => {
-    $$invalidate(13, isSelected = false);
+    $$invalidate(14, isSelected = false);
     if ("tags" in entry && entry.path == path2) {
-      $$invalidate(13, isSelected = true);
+      $$invalidate(14, isSelected = true);
     }
     if ("tag" in entry && getFilenames(entry).indexOf(path2) !== -1) {
-      $$invalidate(13, isSelected = true);
+      $$invalidate(14, isSelected = true);
     }
   });
   let _tagInfo = {};
@@ -2027,9 +2051,25 @@ function instance3($$self, $$props, $$invalidate) {
   });
   let tagTitle = "";
   let showOnlyChildren = false;
-  let ellipsisMark = "";
+  let ellipsisMarks = [];
   let omitTags = [];
   let omitTagSrc = [];
+  const escapeStringToHTML = (str) => {
+    if (!str)
+      return "";
+    return str.replace(/[<>&"'`]/g, (match) => {
+      const escape = {
+        "<": "&lt;",
+        ">": "&gt;",
+        "&": "&amp;",
+        '"': "&quot;",
+        "'": "&#39;",
+        "`": "&#x60;"
+      };
+      return escape[match];
+    });
+  };
+  let tagsTitleDispHtml = "";
   let children2 = [];
   let entryLeftTags = [];
   const click_handler = (evt) => toggleFolderExpandOnly(evt, entry);
@@ -2061,49 +2101,58 @@ function instance3($$self, $$props, $$invalidate) {
     if ("parentTags" in $$props2)
       $$invalidate(8, parentTags = $$props2.parentTags);
     if ("$$scope" in $$props2)
-      $$invalidate(35, $$scope = $$props2.$$scope);
+      $$invalidate(36, $$scope = $$props2.$$scope);
   };
   $$self.$$.update = () => {
-    if ($$self.$$.dirty[0] & 2049 | $$self.$$.dirty[1] & 1) {
+    if ($$self.$$.dirty[0] & 2049 | $$self.$$.dirty[1] & 2) {
       $: {
-        $$invalidate(12, showOnlyChildren = false);
-        $$invalidate(15, ellipsisMark = "");
-        $$invalidate(31, omitTags = []);
-        $$invalidate(16, omitTagSrc = []);
+        $$invalidate(13, showOnlyChildren = false);
+        $$invalidate(31, ellipsisMarks = []);
+        $$invalidate(32, omitTags = []);
+        $$invalidate(15, omitTagSrc = []);
         if ("tag" in entry) {
-          $$invalidate(12, showOnlyChildren = isAutoExpandTree(entry, setting));
+          $$invalidate(13, showOnlyChildren = isAutoExpandTree(entry, setting));
           const omitTag = omittedTags(entry, setting);
           if (omitTag !== false) {
-            $$invalidate(16, omitTagSrc = omitTag);
-            $$invalidate(31, omitTags = [
+            $$invalidate(15, omitTagSrc = omitTag);
+            $$invalidate(32, omitTags = [
               ...omitTag.map((e) => e.split("/").map((ee) => renderSpecialTag(ee)).join("/"))
             ]);
-            $$invalidate(15, ellipsisMark = " " + omitTags.join(" ").replace(/\//g, SUBTREE_MARK));
+            $$invalidate(31, ellipsisMarks = omitTags.map((e) => e.split("/")));
           }
         }
       }
     }
-    if ($$self.$$.dirty[0] & 134217729 | $$self.$$.dirty[1] & 1) {
+    if ($$self.$$.dirty[0] & 134217729 | $$self.$$.dirty[1] & 2) {
       $:
         $$invalidate(19, currentPath = getItemPath(entry, path) + omitTags.map((e) => "/" + e).join(""));
     }
     if ($$self.$$.dirty[0] & 1073741825) {
       $:
-        $$invalidate(34, curTaginfo = "tag" in entry && entry.tag in _tagInfo ? _tagInfo[entry.tag] : null);
+        $$invalidate(35, curTaginfo = "tag" in entry && entry.tag in _tagInfo ? _tagInfo[entry.tag] : null);
     }
-    if ($$self.$$.dirty[1] & 8) {
+    if ($$self.$$.dirty[1] & 16) {
       $:
-        $$invalidate(33, tagMark = !curTaginfo ? "" : "mark" in curTaginfo && curTaginfo.mark ? curTaginfo.mark : "\u{1F4CC}");
+        $$invalidate(34, tagMark = getTagMark(curTaginfo));
     }
     if ($$self.$$.dirty[0] & 1) {
       $:
-        $$invalidate(32, convertedTag = "tag" in entry ? renderSpecialTag(entry.tag) : "");
+        $$invalidate(33, convertedTag = "tag" in entry ? renderSpecialTag(entry.tag) : "");
     }
-    if ($$self.$$.dirty[0] & 268435457 | $$self.$$.dirty[1] & 6) {
+    if ($$self.$$.dirty[0] & 268435457 | $$self.$$.dirty[1] & 12) {
       $:
-        $$invalidate(14, tagTitle = "tag" in entry ? `${skippedTag ? `${skippedTag}${entry.tag.startsWith(SUBTREE_MARK) ? " " : " "}` : ""}${tagMark}${convertedTag}` : "");
+        $$invalidate(12, tagTitle = "tag" in entry ? `${skippedTag ? `${skippedTag}${entry.tag.startsWith(SUBTREE_MARK) ? " " : " "}` : ""}${tagMark}${convertedTag}` : "");
     }
-    if ($$self.$$.dirty[0] & 5633) {
+    if ($$self.$$.dirty[0] & 4096 | $$self.$$.dirty[1] & 1) {
+      $: {
+        let tagsTitleDisp = [
+          ...tagTitle.split(SUBTREE_MARK).join("/").split(" ").map((e) => e.split("/")),
+          ...ellipsisMarks
+        ];
+        $$invalidate(16, tagsTitleDispHtml = tagsTitleDisp.map((e) => `<span class="tagfolder-tag tag-tag">${e.map((ee) => `<span class="tagfolder-tag tag-nested-tag">${escapeStringToHTML(ee)}</span>`).join("")}</span>`).join(""));
+      }
+    }
+    if ($$self.$$.dirty[0] & 9729) {
       $: {
         let cx = [];
         if ("tag" in entry) {
@@ -2120,7 +2169,7 @@ function instance3($$self, $$props, $$invalidate) {
               cx = [...cx, ...entry.descendants];
             }
           }
-          $$invalidate(17, children2 = cx);
+          $$invalidate(17, children2 = unique(cx));
         }
       }
     }
@@ -2156,11 +2205,11 @@ function instance3($$self, $$props, $$invalidate) {
     collapsed,
     _maxDepth,
     setting,
+    tagTitle,
     showOnlyChildren,
     isSelected,
-    tagTitle,
-    ellipsisMark,
     omitTagSrc,
+    tagsTitleDispHtml,
     children2,
     entryLeftTags,
     currentPath,
@@ -2175,6 +2224,7 @@ function instance3($$self, $$props, $$invalidate) {
     skippedTag,
     _a,
     _tagInfo,
+    ellipsisMarks,
     omitTags,
     convertedTag,
     tagMark,
@@ -2733,19 +2783,19 @@ function instance4($$self, $$props, $$invalidate) {
   let searchIcon = "";
   let switchIcon = "";
   onMount(async () => {
-    (0, import_obsidian3.setIcon)(iconDivEl, "right-triangle", 24);
+    (0, import_obsidian3.setIcon)(iconDivEl, "right-triangle");
     $$invalidate(15, folderIcon = `${iconDivEl.innerHTML}`);
-    (0, import_obsidian3.setIcon)(iconDivEl, "document", 20);
+    (0, import_obsidian3.setIcon)(iconDivEl, "document");
     $$invalidate(14, documentIcon = `${iconDivEl.innerHTML}`);
     if (isMainTree) {
-      (0, import_obsidian3.setIcon)(iconDivEl, "lucide-sort-asc", 20);
+      (0, import_obsidian3.setIcon)(iconDivEl, "lucide-sort-asc");
       $$invalidate(16, upAndDownArrowsIcon = iconDivEl.innerHTML);
-      (0, import_obsidian3.setIcon)(iconDivEl, "stacked-levels", 20);
+      (0, import_obsidian3.setIcon)(iconDivEl, "stacked-levels");
       $$invalidate(17, stackedLevels = iconDivEl.innerHTML);
-      (0, import_obsidian3.setIcon)(iconDivEl, "search", 20);
+      (0, import_obsidian3.setIcon)(iconDivEl, "search");
       $$invalidate(18, searchIcon = iconDivEl.innerHTML);
     }
-    (0, import_obsidian3.setIcon)(iconDivEl, "lucide-arrow-left-right", 20);
+    (0, import_obsidian3.setIcon)(iconDivEl, "lucide-arrow-left-right");
     $$invalidate(19, switchIcon = iconDivEl.innerHTML);
   });
   function div0_binding($$value) {
@@ -2869,13 +2919,72 @@ var TagFolderViewComponent = class extends SvelteComponent {
 var TagFolderViewComponent_default = TagFolderViewComponent;
 
 // TagFolderViewBase.ts
+var import_obsidian5 = require("obsidian");
+
+// dialog.ts
 var import_obsidian4 = require("obsidian");
-var TagFolderViewBase = class extends import_obsidian4.ItemView {
+var askString = (app2, title, placeholder, initialText) => {
+  return new Promise((res) => {
+    const popover = new PopoverSelectString(app2, title, placeholder, initialText, (result) => res(result));
+    popover.open();
+  });
+};
+var PopoverSelectString = class extends import_obsidian4.SuggestModal {
+  constructor(app2, title, placeholder, initialText, callback) {
+    super(app2);
+    this.callback = () => {
+    };
+    this.title = "";
+    this.app = app2;
+    this.title = title;
+    this.setPlaceholder(placeholder != null ? placeholder : ">");
+    this.callback = callback;
+    setTimeout(() => {
+      this.inputEl.value = initialText;
+    });
+    const parent = this.containerEl.querySelector(".prompt");
+    if (parent) {
+      parent.addClass("override-input");
+    }
+  }
+  getSuggestions(query) {
+    return [query];
+  }
+  renderSuggestion(value, el) {
+    el.createDiv({ text: `${this.title}${value}` });
+  }
+  onChooseSuggestion(item, evt) {
+    this.callback(item);
+    this.callback = null;
+  }
+  onClose() {
+    setTimeout(() => {
+      if (this.callback != null) {
+        this.callback(false);
+      }
+    }, 100);
+  }
+};
+
+// TagFolderViewBase.ts
+function toggleObjectProp(obj, propName, value) {
+  if (value === false) {
+    const newTagInfoEntries = Object.entries(obj || {}).filter(([key]) => key != propName);
+    if (newTagInfoEntries.length == 0) {
+      return {};
+    } else {
+      return Object.fromEntries(newTagInfoEntries);
+    }
+  } else {
+    return { ...obj != null ? obj : {}, [propName]: value };
+  }
+}
+var TagFolderViewBase = class extends import_obsidian5.ItemView {
   showOrder(evt) {
-    const menu = new import_obsidian4.Menu();
+    const menu = new import_obsidian5.Menu();
     menu.addItem((item) => {
       item.setTitle("Tags").setIcon("hashtag").onClick(async (evt2) => {
-        const menu2 = new import_obsidian4.Menu();
+        const menu2 = new import_obsidian5.Menu();
         for (const key in OrderKeyTag) {
           for (const direction in OrderDirection) {
             menu2.addItem((item2) => {
@@ -2900,7 +3009,7 @@ var TagFolderViewBase = class extends import_obsidian4.ItemView {
     });
     menu.addItem((item) => {
       item.setTitle("Items").setIcon("document").onClick(async (evt2) => {
-        const menu2 = new import_obsidian4.Menu();
+        const menu2 = new import_obsidian5.Menu();
         for (const key in OrderKeyItem) {
           for (const direction in OrderDirection) {
             menu2.addItem((item2) => {
@@ -2926,7 +3035,7 @@ var TagFolderViewBase = class extends import_obsidian4.ItemView {
     menu.showAtMouseEvent(evt);
   }
   showLevelSelect(evt) {
-    const menu = new import_obsidian4.Menu();
+    const menu = new import_obsidian5.Menu();
     const setLevel = async (level) => {
       this.plugin.settings.expandLimit = level;
       await this.plugin.saveSettings();
@@ -2965,12 +3074,12 @@ var TagFolderViewBase = class extends import_obsidian4.ItemView {
     const expandedTagsAll = ancestorToLongestTag(ancestorToTags(entryPath));
     const expandedTags = expandedTagsAll.map((e) => e.split("/").filter((ee) => !isSpecialTag(ee)).join("/")).filter((e) => e != "").map((e) => "#" + e).join(" ").trim();
     const displayExpandedTags = expandedTagsAll.map((e) => e.split("/").filter((ee) => renderSpecialTag(ee)).join("/")).filter((e) => e != "").map((e) => "#" + e).join(" ").trim();
-    const menu = new import_obsidian4.Menu();
+    const menu = new import_obsidian5.Menu();
     if (navigator && navigator.clipboard) {
       menu.addItem(
         (item) => item.setTitle(`Copy tags:${expandedTags}`).setIcon("hashtag").onClick(async () => {
           await navigator.clipboard.writeText(expandedTags);
-          new import_obsidian4.Notice("Copied");
+          new import_obsidian5.Notice("Copied");
         })
       );
     }
@@ -2983,13 +3092,10 @@ var TagFolderViewBase = class extends import_obsidian4.ItemView {
     if ("tag" in entry) {
       if (this.plugin.settings.useTagInfo && this.plugin.tagInfo != null) {
         const tag = entry.ancestors[entry.ancestors.length - 1];
-        if (tag in this.plugin.tagInfo && this.plugin.tagInfo[tag]) {
+        if (tag in this.plugin.tagInfo && "key" in this.plugin.tagInfo[tag]) {
           menu.addItem(
             (item) => item.setTitle(`Unpin`).setIcon("pin").onClick(async () => {
-              this.plugin.tagInfo = {
-                ...this.plugin.tagInfo,
-                [tag]: void 0
-              };
+              this.plugin.tagInfo[tag] = toggleObjectProp(this.plugin.tagInfo[tag], "key", false);
               this.plugin.applyTagInfo();
               await this.plugin.saveTagInfo();
             })
@@ -2997,15 +3103,48 @@ var TagFolderViewBase = class extends import_obsidian4.ItemView {
         } else {
           menu.addItem((item) => {
             item.setTitle(`Pin`).setIcon("pin").onClick(async () => {
-              this.plugin.tagInfo = {
-                ...this.plugin.tagInfo,
-                [tag]: { key: "" }
-              };
+              this.plugin.tagInfo[tag] = toggleObjectProp(this.plugin.tagInfo[tag], "key", "");
               this.plugin.applyTagInfo();
               await this.plugin.saveTagInfo();
             });
           });
         }
+        menu.addItem((item) => {
+          item.setTitle(`Set an alternative label`).setIcon("pencil").onClick(async () => {
+            var _a;
+            const oldAlt = tag in this.plugin.tagInfo ? (_a = this.plugin.tagInfo[tag].alt) != null ? _a : "" : "";
+            const label = await askString(this.app, "", "", oldAlt);
+            if (label === false)
+              return;
+            this.plugin.tagInfo[tag] = toggleObjectProp(this.plugin.tagInfo[tag], "alt", label == "" ? false : label);
+            this.plugin.applyTagInfo();
+            await this.plugin.saveTagInfo();
+          });
+        });
+        menu.addItem((item) => {
+          item.setTitle(`Change the mark`).setIcon("pencil").onClick(async () => {
+            var _a;
+            const oldMark = tag in this.plugin.tagInfo ? (_a = this.plugin.tagInfo[tag].mark) != null ? _a : "" : "";
+            const mark = await askString(this.app, "", "", oldMark);
+            if (mark === false)
+              return;
+            this.plugin.tagInfo[tag] = toggleObjectProp(this.plugin.tagInfo[tag], "mark", mark == "" ? false : mark);
+            this.plugin.applyTagInfo();
+            await this.plugin.saveTagInfo();
+          });
+        });
+        menu.addItem((item) => {
+          item.setTitle(`Redirect this tag to ...`).setIcon("pencil").onClick(async () => {
+            var _a;
+            const oldRedirect = tag in this.plugin.tagInfo ? (_a = this.plugin.tagInfo[tag].redirect) != null ? _a : "" : "";
+            const redirect = await askString(this.app, "", "", oldRedirect);
+            if (redirect === false)
+              return;
+            this.plugin.tagInfo[tag] = toggleObjectProp(this.plugin.tagInfo[tag], "redirect", redirect == "" ? false : redirect);
+            this.plugin.applyTagInfo();
+            await this.plugin.saveTagInfo();
+          });
+        });
         menu.addItem((item) => {
           item.setTitle(`Open scroll view`).setIcon("sheets-in-box").onClick(async () => {
             const files = entry.allDescendants.map((e) => e.path);
@@ -3442,7 +3581,11 @@ function getCompareMethodTags(settings) {
   switch (settings.sortTypeTag) {
     case "ITEMS_ASC":
     case "ITEMS_DESC":
-      return (a, b, tagInfo2) => (a.itemsCount - b.itemsCount) * invert;
+      return (a, b, tagInfo2) => {
+        const aCount = a.itemsCount - (settings.useTagInfo && (a.tag in tagInfo2 && "key" in tagInfo2[a.tag]) ? 1e5 * invert : 0);
+        const bCount = b.itemsCount - (settings.useTagInfo && (b.tag in tagInfo2 && "key" in tagInfo2[b.tag]) ? 1e5 * invert : 0);
+        return (aCount - bCount) * invert;
+      };
     case "NAME_ASC":
     case "NAME_DESC":
       return (a, b, tagInfo2) => compare(getTagName(a.tag, settings.useTagInfo ? tagInfo2 : null, invert), getTagName(b.tag, settings.useTagInfo ? tagInfo2 : null, invert)) * invert;
@@ -3478,7 +3621,7 @@ function onElement(el, event, selector, callback, options) {
   el.on(event, selector, callback, options);
   return () => el.off(event, selector, callback, options);
 }
-var TagFolderPlugin = class extends import_obsidian5.Plugin {
+var TagFolderPlugin = class extends import_obsidian6.Plugin {
   constructor() {
     super(...arguments);
     this.expandedFolders = ["root"];
@@ -3624,7 +3767,7 @@ var TagFolderPlugin = class extends import_obsidian5.Plugin {
     this.modifyFile = this.modifyFile.bind(this);
     this.setSearchString = this.setSearchString.bind(this);
     this.openScrollView = this.openScrollView.bind(this);
-    this.loadFileInfo = (0, import_obsidian5.debounce)(
+    this.loadFileInfo = (0, import_obsidian6.debounce)(
       this.loadFileInfo.bind(this),
       this.settings.scanDelay,
       true
@@ -3881,8 +4024,16 @@ var TagFolderPlugin = class extends import_obsidian5.Plugin {
         continue;
       }
       await doEvents();
-      const allTagsDocs = [...new Set((_a = (0, import_obsidian5.getAllTags)(fileCache.metadata)) != null ? _a : [])];
-      let allTags2 = allTagsDocs.map((e) => e.substring(1));
+      const tagRedirectList = {};
+      if (this.settings.useTagInfo && this.tagInfo) {
+        for (const [key, taginfo] of Object.entries(this.tagInfo)) {
+          if ("redirect" in taginfo) {
+            tagRedirectList[key] = taginfo.redirect;
+          }
+        }
+      }
+      const allTagsDocs = unique((_a = (0, import_obsidian6.getAllTags)(fileCache.metadata)) != null ? _a : []);
+      let allTags2 = unique(allTagsDocs.map((e) => e.substring(1)).map((e) => e in tagRedirectList ? tagRedirectList[e] : e));
       if (this.settings.disableNestedTags) {
         allTags2 = allTags2.map((e) => e.split("/")).flat();
       }
@@ -4093,11 +4244,11 @@ var TagFolderPlugin = class extends import_obsidian5.Plugin {
     }
   }
   getTagInfoFilename() {
-    return (0, import_obsidian5.normalizePath)(this.settings.tagInfo);
+    return (0, import_obsidian6.normalizePath)(this.settings.tagInfo);
   }
   getTagInfoFile() {
     const file = this.app.vault.getAbstractFileByPath(this.getTagInfoFilename());
-    if (file instanceof import_obsidian5.TFile) {
+    if (file instanceof import_obsidian6.TFile) {
       return file;
     }
     return null;
@@ -4114,7 +4265,6 @@ var TagFolderPlugin = class extends import_obsidian5.Plugin {
     }, 10);
   }
   async loadTagInfo() {
-    var _a;
     if (!this.settings.useTagInfo)
       return;
     if (this.tagInfo == null)
@@ -4129,7 +4279,7 @@ var TagFolderPlugin = class extends import_obsidian5.Plugin {
         return;
       }
       const yaml = data.substring(3, bodyStartIndex);
-      const yamlData = (0, import_obsidian5.parseYaml)(yaml);
+      const yamlData = (0, import_obsidian6.parseYaml)(yaml);
       const keys = Object.keys(yamlData);
       this.tagInfoBody = data.substring(bodyStartIndex + 5);
       this.tagInfoFrontMatterBuffer = yamlData;
@@ -4140,12 +4290,11 @@ var TagFolderPlugin = class extends import_obsidian5.Plugin {
           continue;
         if (typeof w != "object")
           continue;
-        if (!("key" in w))
+        const keys2 = ["key", "mark", "alt", "redirect"];
+        const entries = Object.entries(w).filter(([key2]) => keys2.some((e) => key2.contains(e)));
+        if (entries.length == 0)
           continue;
-        newTagInfo[key] = {
-          key: w.key,
-          mark: (_a = w.mark) != null ? _a : void 0
-        };
+        newTagInfo[key] = Object.fromEntries(entries);
       }
       this.tagInfo = newTagInfo;
       this.applyTagInfo();
@@ -4158,17 +4307,20 @@ var TagFolderPlugin = class extends import_obsidian5.Plugin {
       return;
     if (this.tagInfo == null)
       return;
-    const file = this.getTagInfoFile();
-    const yaml = (0, import_obsidian5.stringifyYaml)({ ...this.tagInfoFrontMatterBuffer, ...this.tagInfo });
-    const w = `---
-${yaml}---
-${this.tagInfoBody}`;
-    this.skipOnce = true;
+    let file = this.getTagInfoFile();
     if (file == null) {
-      await this.app.vault.create(this.getTagInfoFilename(), w);
-    } else {
-      await this.app.vault.modify(file, w);
+      file = await this.app.vault.create(this.getTagInfoFilename(), "");
     }
+    await app.fileManager.processFrontMatter(file, (matter) => {
+      const ti = Object.entries(this.tagInfo);
+      for (const [key, value] of ti) {
+        if (value === void 0) {
+          delete matter[key];
+        } else {
+          matter[key] = value;
+        }
+      }
+    });
   }
   async loadSettings() {
     this.settings = Object.assign(
@@ -4212,7 +4364,7 @@ ${this.tagInfoBody}`;
       if (!parent) {
         return;
       }
-      if (!import_obsidian5.Platform.isMobile) {
+      if (!import_obsidian6.Platform.isMobile) {
         theLeaf = this.app.workspace.createLeafBySplit(parent, "horizontal", false);
       } else {
         theLeaf = this.app.workspace.getLeftLeaf(false);
@@ -4232,7 +4384,7 @@ ${this.tagInfoBody}`;
     );
   }
 };
-var TagFolderSettingTab = class extends import_obsidian5.PluginSettingTab {
+var TagFolderSettingTab = class extends import_obsidian6.PluginSettingTab {
   constructor(app2, plugin) {
     super(app2, plugin);
     this.plugin = plugin;
@@ -4245,13 +4397,13 @@ var TagFolderSettingTab = class extends import_obsidian5.PluginSettingTab {
     containerEl.empty();
     containerEl.createEl("h2", { text: "Settings for TagFolder" });
     containerEl.createEl("h3", { text: "Behavior" });
-    new import_obsidian5.Setting(containerEl).setName("Always Open").setDesc("Open TagFolder automatically when obsidian has been launched").addToggle(
+    new import_obsidian6.Setting(containerEl).setName("Always Open").setDesc("Open TagFolder automatically when obsidian has been launched").addToggle(
       (toggle) => toggle.setValue(this.plugin.settings.alwaysOpen).onChange(async (value) => {
         this.plugin.settings.alwaysOpen = value;
         await this.plugin.saveSettings();
       })
     );
-    new import_obsidian5.Setting(containerEl).setName("Use pinning").setDesc(
+    new import_obsidian6.Setting(containerEl).setName("Use pinning").setDesc(
       "When this feature is enabled, the pin information is saved in the file set in the next configuration."
     ).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.useTagInfo).onChange(async (value) => {
@@ -4263,7 +4415,7 @@ var TagFolderSettingTab = class extends import_obsidian5.PluginSettingTab {
         pi.setDisabled(!value);
       });
     });
-    const pi = new import_obsidian5.Setting(containerEl).setName("Pin information file").setDisabled(!this.plugin.settings.useTagInfo).addText((text2) => {
+    const pi = new import_obsidian6.Setting(containerEl).setName("Pin information file").setDisabled(!this.plugin.settings.useTagInfo).addText((text2) => {
       text2.setValue(this.plugin.settings.tagInfo).onChange(async (value) => {
         this.plugin.settings.tagInfo = value;
         if (this.plugin.settings.useTagInfo) {
@@ -4273,7 +4425,7 @@ var TagFolderSettingTab = class extends import_obsidian5.PluginSettingTab {
       });
     });
     containerEl.createEl("h3", { text: "Files" });
-    new import_obsidian5.Setting(containerEl).setName("Display method").setDesc("How to show a title of files").addDropdown(
+    new import_obsidian6.Setting(containerEl).setName("Display method").setDesc("How to show a title of files").addDropdown(
       (dropdown) => dropdown.addOptions({
         "PATH/NAME": "PATH/NAME",
         NAME: "NAME",
@@ -4294,12 +4446,12 @@ var TagFolderSettingTab = class extends import_obsidian5.PluginSettingTab {
       await this.plugin.saveSettings();
       this.plugin.setRoot(this.plugin.root);
     };
-    new import_obsidian5.Setting(containerEl).setName("Order method").setDesc("how to order items").addDropdown((dd) => {
+    new import_obsidian6.Setting(containerEl).setName("Order method").setDesc("how to order items").addDropdown((dd) => {
       dd.addOptions(OrderKeyItem).setValue(this.plugin.settings.sortType.split("_")[0]).onChange((key) => setOrderMethod(key, null));
     }).addDropdown((dd) => {
       dd.addOptions(OrderDirection).setValue(this.plugin.settings.sortType.split("_")[1]).onChange((order) => setOrderMethod(null, order));
     });
-    new import_obsidian5.Setting(containerEl).setName("Use title").setDesc(
+    new import_obsidian6.Setting(containerEl).setName("Use title").setDesc(
       "Use value in the frontmatter or first level one heading for `NAME`."
     ).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.useTitle).onChange(async (value) => {
@@ -4308,7 +4460,7 @@ var TagFolderSettingTab = class extends import_obsidian5.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
-    const fpath = new import_obsidian5.Setting(containerEl).setName("Frontmatter path").setDisabled(!this.plugin.settings.useTitle).addText((text2) => {
+    const fpath = new import_obsidian6.Setting(containerEl).setName("Frontmatter path").setDisabled(!this.plugin.settings.useTitle).addText((text2) => {
       text2.setValue(this.plugin.settings.frontmatterKey).onChange(async (value) => {
         this.plugin.settings.frontmatterKey = value;
         await this.plugin.saveSettings();
@@ -4325,32 +4477,32 @@ var TagFolderSettingTab = class extends import_obsidian5.PluginSettingTab {
       await this.plugin.saveSettings();
       this.plugin.setRoot(this.plugin.root);
     };
-    new import_obsidian5.Setting(containerEl).setName("Order method").setDesc("how to order tags").addDropdown((dd) => {
+    new import_obsidian6.Setting(containerEl).setName("Order method").setDesc("how to order tags").addDropdown((dd) => {
       dd.addOptions(OrderKeyTag).setValue(this.plugin.settings.sortTypeTag.split("_")[0]).onChange((key) => setOrderMethodTag(key, null));
     }).addDropdown((dd) => {
       dd.addOptions(OrderDirection).setValue(this.plugin.settings.sortTypeTag.split("_")[1]).onChange((order) => setOrderMethodTag(null, order));
     });
-    new import_obsidian5.Setting(containerEl).setName("Use virtual tags").addToggle((toggle) => {
+    new import_obsidian6.Setting(containerEl).setName("Use virtual tags").addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.useVirtualTag).onChange(async (value) => {
         this.plugin.settings.useVirtualTag = value;
         await this.plugin.saveSettings();
       });
     });
     containerEl.createEl("h3", { text: "Actions" });
-    new import_obsidian5.Setting(containerEl).setName("Search tags inside TagFolder when clicking tags").addToggle((toggle) => {
+    new import_obsidian6.Setting(containerEl).setName("Search tags inside TagFolder when clicking tags").addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.overrideTagClicking).onChange(async (value) => {
         this.plugin.settings.overrideTagClicking = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian5.Setting(containerEl).setName("List files in a separated pane").addToggle((toggle) => {
+    new import_obsidian6.Setting(containerEl).setName("List files in a separated pane").addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.useMultiPaneList).onChange(async (value) => {
         this.plugin.settings.useMultiPaneList = value;
         await this.plugin.saveSettings();
       });
     });
     containerEl.createEl("h3", { text: "Arrangements" });
-    new import_obsidian5.Setting(containerEl).setName("Hide Items").setDesc("Hide items on the landing or nested tags").addDropdown((dd) => {
+    new import_obsidian6.Setting(containerEl).setName("Hide Items").setDesc("Hide items on the landing or nested tags").addDropdown((dd) => {
       dd.addOptions(HideItemsType).setValue(this.plugin.settings.hideItems).onChange(async (key) => {
         if (key == "NONE" || key == "DEDICATED_INTERMIDIATES" || key == "ALL_EXCEPT_BOTTOM") {
           this.plugin.settings.hideItems = key;
@@ -4358,7 +4510,7 @@ var TagFolderSettingTab = class extends import_obsidian5.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian5.Setting(containerEl).setName("Merge redundant combinations").setDesc(
+    new import_obsidian6.Setting(containerEl).setName("Merge redundant combinations").setDesc(
       "When this feature is enabled, a/b and b/a are merged into a/b if there is no intermediates."
     ).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.mergeRedundantCombination).onChange(async (value) => {
@@ -4366,7 +4518,7 @@ var TagFolderSettingTab = class extends import_obsidian5.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian5.Setting(containerEl).setName("Do not simplify empty folders").setDesc(
+    new import_obsidian6.Setting(containerEl).setName("Do not simplify empty folders").setDesc(
       "Keep empty folders, even if they can be simplified."
     ).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.doNotSimplifyTags).onChange(async (value) => {
@@ -4374,32 +4526,32 @@ var TagFolderSettingTab = class extends import_obsidian5.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian5.Setting(containerEl).setName("Do not treat nested tags as dedicated levels").setDesc("Treat nested tags as normal tags").addToggle((toggle) => {
+    new import_obsidian6.Setting(containerEl).setName("Do not treat nested tags as dedicated levels").setDesc("Treat nested tags as normal tags").addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.disableNestedTags).onChange(async (value) => {
         this.plugin.settings.disableNestedTags = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian5.Setting(containerEl).setName("Reduce duplicated parents in nested tags").setDesc("If enabled, #web/css, #web/javascript will merged into web -> css -> javascript").addToggle((toggle) => {
+    new import_obsidian6.Setting(containerEl).setName("Reduce duplicated parents in nested tags").setDesc("If enabled, #web/css, #web/javascript will merged into web -> css -> javascript").addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.reduceNestedParent).onChange(async (value) => {
         this.plugin.settings.reduceNestedParent = value;
         await this.plugin.saveSettings();
       });
     });
     containerEl.createEl("h3", { text: "Filters" });
-    new import_obsidian5.Setting(containerEl).setName("Target Folders").setDesc("If configured, the plugin will only target files in it.").addTextArea(
+    new import_obsidian6.Setting(containerEl).setName("Target Folders").setDesc("If configured, the plugin will only target files in it.").addTextArea(
       (text2) => text2.setValue(this.plugin.settings.targetFolders).setPlaceholder("study,documents/summary").onChange(async (value) => {
         this.plugin.settings.targetFolders = value;
         await this.plugin.saveSettings();
       })
     );
-    new import_obsidian5.Setting(containerEl).setName("Ignore Folders").setDesc("Ignore documents in specific folders.").addTextArea(
+    new import_obsidian6.Setting(containerEl).setName("Ignore Folders").setDesc("Ignore documents in specific folders.").addTextArea(
       (text2) => text2.setValue(this.plugin.settings.ignoreFolders).setPlaceholder("template,list/standard_tags").onChange(async (value) => {
         this.plugin.settings.ignoreFolders = value;
         await this.plugin.saveSettings();
       })
     );
-    new import_obsidian5.Setting(containerEl).setName("Ignore note Tag").setDesc(
+    new import_obsidian6.Setting(containerEl).setName("Ignore note Tag").setDesc(
       "If the note has the tag listed below, the note would be treated as there was not."
     ).addTextArea(
       (text2) => text2.setValue(this.plugin.settings.ignoreDocTags).setPlaceholder("test,test1,test2").onChange(async (value) => {
@@ -4407,20 +4559,20 @@ var TagFolderSettingTab = class extends import_obsidian5.PluginSettingTab {
         await this.plugin.saveSettings();
       })
     );
-    new import_obsidian5.Setting(containerEl).setName("Ignore Tag").setDesc("Tags in the list would be treated as there were not.").addTextArea(
+    new import_obsidian6.Setting(containerEl).setName("Ignore Tag").setDesc("Tags in the list would be treated as there were not.").addTextArea(
       (text2) => text2.setValue(this.plugin.settings.ignoreTags).setPlaceholder("test,test1,test2").onChange(async (value) => {
         this.plugin.settings.ignoreTags = value;
         await this.plugin.saveSettings();
       })
     );
-    new import_obsidian5.Setting(containerEl).setName("Archive tags").setDesc("If configured, notes with these tags will be moved under the tag.").addTextArea(
+    new import_obsidian6.Setting(containerEl).setName("Archive tags").setDesc("If configured, notes with these tags will be moved under the tag.").addTextArea(
       (text2) => text2.setValue(this.plugin.settings.archiveTags).setPlaceholder("archived, discontinued").onChange(async (value) => {
         this.plugin.settings.archiveTags = value;
         await this.plugin.saveSettings();
       })
     );
     containerEl.createEl("h3", { text: "Misc" });
-    new import_obsidian5.Setting(containerEl).setName("Tag scanning delay").setDesc(
+    new import_obsidian6.Setting(containerEl).setName("Tag scanning delay").setDesc(
       "Sets the delay for reflecting metadata changes to the tag tree. (Plugin reload is required.)"
     ).addText((text2) => {
       text2 = text2.setValue(this.plugin.settings.scanDelay + "").onChange(async (value) => {
@@ -4435,19 +4587,19 @@ var TagFolderSettingTab = class extends import_obsidian5.PluginSettingTab {
       return text2;
     });
     containerEl.createEl("h3", { text: "Utilities" });
-    new import_obsidian5.Setting(containerEl).setName("Dumping tags for reporting bugs").setDesc(
+    new import_obsidian6.Setting(containerEl).setName("Dumping tags for reporting bugs").setDesc(
       "If you want to open an issue to the GitHub, this information can be useful. and, also if you want to keep secrets about names of tags, you can use `disguised`."
     ).addButton((button) => button.setButtonText("Copy tags").setDisabled(false).onClick(async () => {
       const items = this.plugin.root.allDescendants.map((e) => e.tags.filter((e2) => e2 != "_untagged")).filter((e) => e.length);
       await navigator.clipboard.writeText(items.map((e) => e.map((e2) => `#${e2}`).join(", ")).join("\n"));
-      new import_obsidian5.Notice("Copied to clipboard");
+      new import_obsidian6.Notice("Copied to clipboard");
     })).addButton(
       (button) => button.setButtonText("Copy disguised tags").setDisabled(false).onClick(async () => {
         const x = /* @__PURE__ */ new Map();
         let i = 0;
         const items = this.plugin.root.allDescendants.map((e) => e.tags.filter((e2) => e2 != "_untagged").map((e2) => x.has(e2) ? x.get(e2) : (x.set(e2, i++), i))).filter((e) => e.length);
         await navigator.clipboard.writeText(items.map((e) => e.map((e2) => `#tag${e2}`).join(", ")).join("\n"));
-        new import_obsidian5.Notice("Copied to clipboard");
+        new import_obsidian6.Notice("Copied to clipboard");
       })
     );
   }
