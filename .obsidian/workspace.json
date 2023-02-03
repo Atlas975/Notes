@@ -133,6 +133,19 @@
             }
           },
           {
+            "id": "6b635f122c1f16bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoftwareDesign/BSPL.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "aabbc338f40e911a",
             "type": "leaf",
             "state": {
@@ -146,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -191,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/Rust/Rust_smart_pointers.md",
+                "file": "SoftwareDesign/BSPL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +236,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/Rust/Rust_smart_pointers.md"
+                "file": "SoftwareDesign/BSPL.md"
               }
             }
           }
@@ -247,7 +260,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/Rust/Rust_smart_pointers.md"
+                "file": "SoftwareDesign/BSPL.md"
               }
             }
           },
@@ -273,7 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/Rust/Rust_smart_pointers.md",
+                "file": "SoftwareDesign/BSPL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -323,8 +336,9 @@
       "random-note:Open random note": false
     }
   },
-  "active": "182727b9cce3d6e3",
+  "active": "6b635f122c1f16bb",
   "lastOpenFiles": [
+    "ProgramLanguages/Rust/Rust_smart_pointers.md",
     "SoftwareDesign/Entity_relationship_model.md",
     "Databases/Database_fundamentals.md",
     "DiscreteMath/Relations.md",
@@ -333,7 +347,6 @@
     "SoftwarePatterns/Structural/Bridge_pattern.md",
     "SoftwarePatterns/Structural/Adaptor_pattern.md",
     "SoftwarePatterns/Behavioral/Command_pattern.md",
-    "SoftwarePatterns/Behavioral/Iterator_pattern.md",
-    "SoftwarePatterns/Behavioral/Observer_pattern.md"
+    "SoftwarePatterns/Behavioral/Iterator_pattern.md"
   ]
 }
