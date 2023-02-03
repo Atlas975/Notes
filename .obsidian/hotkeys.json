@@ -430,6 +430,13 @@
         "Shift"
       ],
       "key": "F"
+    },
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Tab"
     }
   ],
   "global-search:open": [],
@@ -567,5 +574,6 @@
       "key": "G"
     }
   ],
-  "theme:switch": []
+  "theme:switch": [],
+  "canvas:new-file": []
 }
