@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgramLanguages/Rust/Rust_message_passing.md",
+                "file": "SoftwareDesign/BSPL.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/Rust/Rust_message_passing.md",
+                "file": "SoftwareDesign/BSPL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/Rust/Rust_message_passing.md"
+                "file": "SoftwareDesign/BSPL.md"
               }
             }
           }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/Rust/Rust_message_passing.md"
+                "file": "SoftwareDesign/BSPL.md"
               }
             }
           },
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/Rust/Rust_message_passing.md",
+                "file": "SoftwareDesign/BSPL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -247,6 +247,7 @@
   },
   "active": "70791738f4a5ff86",
   "lastOpenFiles": [
+    "ProgramLanguages/Rust/Rust_message_passing.md",
     "SoftwareDesign/BSPL.md",
     "ProgramLanguages/C_language.md",
     "Databases/Database_fundamentals.md",
@@ -255,7 +256,6 @@
     "SoftwarePatterns/Structural/Bridge_pattern.md",
     "ProgramLanguages/Rust/Rust_cargo.md",
     "SoftwarePatterns/Behavioral/Iterator_pattern.md",
-    "SoftwarePatterns/Behavioral/Command_pattern.md",
-    "SoftwarePatterns/Structural/Proxy_pattern.md"
+    "SoftwarePatterns/Behavioral/Command_pattern.md"
   ]
 }
