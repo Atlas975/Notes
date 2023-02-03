@@ -14,3 +14,25 @@
 
 ___
 # Rust message passing
+
+## Rust initiate protocol 
+[[BSPL#Initiate protocol]]
+```rust
+let (buyer_tx, seller_rx) = mpsc::channel();
+let available = HashMap::from([(1, "Apple"), (2, "Banana"), (3, "Orange")]);
+
+for (id, name) in available.iter() {
+    let tx = buyer_tx.clone();
+    let msg = format!("{}: {}", id, name);
+    thread::spawn(move || {
+        tx.send(msg).unwrap();
+    });
+}
+
+for _ in 0..3 {
+    println!("Got request for item {}", seller_rx.recv().unwrap());
+}
+```
+
+## Rust offer protocol 
+[[BSPL#Offer protocol]]

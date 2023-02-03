@@ -165,7 +165,7 @@
               "type": "markdown",
               "state": {
                 "file": "ProgramLanguages/Rust/Rust_message_passing.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -365,8 +365,8 @@
   "active": "714f1ee4e3b8d0cd",
   "lastOpenFiles": [
     "SoftwareDesign/BSPL.md",
-    "ProgramLanguages/Rust/Rust_cargo.md",
     "ProgramLanguages/Rust/Rust_message_passing.md",
+    "ProgramLanguages/Rust/Rust_cargo.md",
     "ProgramLanguages/Rust/Rust_smart_pointers.md",
     "SoftwareDesign/Entity_relationship_model.md",
     "Databases/Database_fundamentals.md",
