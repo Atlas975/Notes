@@ -16,7 +16,7 @@ aliases: database, Database
 > ```
 
 ___
-# Database fundamentals
+# Databases
 
 - An organized collection of information.
 - Databases have to cope with:

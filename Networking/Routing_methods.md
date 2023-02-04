@@ -15,6 +15,12 @@
 ___
 # Routing methods
 
+## Circuit vs packet switching
+- Packet switching is more cost efficient, packets don't don't need a dedicated channel to travel to their destination.
+- Packet switching is more resource efficient, not using channels throughout the delivery of data.
+- Circuit switching allows for data to be delivered at a consistent bandwidth
+- Circuit switching allows for data to be delivered with minimum delay, better timeliness.
+
 # Packet switching
 - Method of creating temporary connections between devices using **switches**.
 - Switches can be taught of as [[Graphs|nodes]] that can either be an end location or used for routing
@@ -37,8 +43,3 @@ ___
 - Like a liquid, data flows continuously and path is fixed 
 - Requires very high bandwidth to handle traffic.
 
-# Circuit vs packet switching
-- Packet switching is more cost efficient, packets don't don't need a dedicated channel to travel to their destination.
-- Packet switching is more resource efficient, not using channels throughout the delivery of data.
-- Circuit switching allows for data to be delivered at a consistent bandwidth
-- Circuit switching allows for data to be delivered with minimum delay, better timeliness.

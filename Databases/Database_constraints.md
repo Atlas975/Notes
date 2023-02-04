@@ -14,7 +14,7 @@
 
 ___
 # Database constraints
-- **Integrity of data** is the state of data in a [[Database_fundamentals|DBMS]] where data obeys constraints set by the database administrator (DBA), database constraints are a core part of this  
+- **Integrity of data** is the state of data in a [[Databases|DBMS]] where data obeys constraints set by the database administrator (DBA), database constraints are a core part of this  
 - A database constraint is a rule that restricts how data can be stored in a table
 - These can be split up into multiple constraint types that fall under one of 3 groups 
 ## Domain constraints

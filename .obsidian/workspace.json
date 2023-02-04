@@ -68,12 +68,25 @@
             }
           },
           {
+            "id": "3fa66cd29ea5c0aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Databases.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "073f26bc61644858",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_fundamentals.md",
+                "file": "Databases/Databases.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -193,7 +206,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_fundamentals.md",
+                "file": "Databases/Databases.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -201,7 +214,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -246,7 +259,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_deletion.md",
+                "file": "Databases/Databases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +291,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_deletion.md"
+                "file": "Databases/Databases.md"
               }
             }
           }
@@ -302,7 +315,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_deletion.md"
+                "file": "Databases/Databases.md"
               }
             }
           },
@@ -328,7 +341,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_deletion.md",
+                "file": "Databases/Databases.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -378,17 +391,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "cabf47115d6b65e5",
+  "active": "3fa66cd29ea5c0aa",
   "lastOpenFiles": [
-    "Databases/Database_fundamentals.md",
+    "Databases/Database_design.md",
+    "Databases/Databases.md",
+    "Databases/Data_relation_model.md",
+    "Databases/Database_constraints.md",
+    "Networking/Network_basics.md",
+    "Networking/Routing_methods.md",
+    "Networking/Transmission_mediums.md",
+    "Networking/Internet_infrastructure.md",
     "ProgramLanguages/SQL/SQL_deletion.md",
-    "ProgramLanguages/SQL/SQL_language.md",
-    "ProgramLanguages/Javascript_language.md",
-    "ProgramLanguages/HTML.md",
-    "ProgramLanguages/Erlang_language.md",
-    "ProgramLanguages/Rust/Rust_cargo.md",
-    "ProgramLanguages/Rust/Rust_smart_pointers.md",
-    "ProgramLanguages/Rust/Rust_message_passing.md",
-    "Databases/Database_constraints.md"
+    "ProgramLanguages/SQL/SQL_language.md"
   ]
 }

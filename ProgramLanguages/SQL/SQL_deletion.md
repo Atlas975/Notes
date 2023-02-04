@@ -14,17 +14,19 @@
 
 ___
 # SQL deletion
-- Multiple options exist for handling row deletions of a [[Database_fundamentals|database]], these are defined at schema level and need to be specified in a way to preserve any required [[Database_constraints|database constraints]] 
+- Multiple options exist for handling row deletions of a [[Databases|database]], these are defined at schema level and need to be specified in a way to preserve any required [[Database_constraints|database constraints]] 
+
 > ![[Pasted image 20230204204517.png|600|600]]
-## SET NULL 
+
+## SET NULL
 - This deletion type specifies that specifies that when a record is deleted, the values in the foreign key columns in the related table should be set to null. 
 - This deletion is used when it is acceptable for the foreign key columns to contain null values.
 
-## SET DEFAULT 
+## SET DEFAULT
 - This deletion type specifies that when a record is deleted, the values in the foreign key columns in the related table should be set to their default values.
 - Used when it is acceptable for the foreign key columns to hold placeholder values
 
-## CASCADE 
+## CASCADE
 - This deletion type specifies that when a record is deleted, the related records in the related table should also be deleted.
 - This type of deletion is used when the related records are dependent on the record being deleted and have no value if the record is deleted.
 

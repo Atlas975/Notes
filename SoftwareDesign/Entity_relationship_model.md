@@ -18,7 +18,7 @@ alias: ER
 
 ___
 # Entity relationship model
-- A [[UML_diagrams|graphical representation]] of [[Database_fundamentals|database]] logic 
+- A [[UML_diagrams|graphical representation]] of [[Databases|database]] logic 
 
 > ![[Pasted image 20230117172112.png|450|450]]
 
