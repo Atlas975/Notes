@@ -63,7 +63,7 @@ ___
 - A [[Relations|relation]] set relates two entity sets
 
 > ![[Pasted image 20230117173444.png|500|500]]
-> this is known as a binary relationship set
+> this is known as a binary relationship set with arity 2
 
 - Relation sets can also have attributes 
 - The [[Graphs|degree]] of a relationship set is the number of entity sets connected to it

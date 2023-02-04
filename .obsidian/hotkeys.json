@@ -247,7 +247,14 @@
       "key": "E"
     }
   ],
-  "cycle-through-panes:focus-on-last-active-pane": [],
+  "cycle-through-panes:focus-on-last-active-pane": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Tab"
+    }
+  ],
   "quick-latex:addAlignBlock": [],
   "editor:context-menu": [
     {
@@ -280,12 +287,6 @@
   ],
   "obsidian-editor-shortcuts:selectWordOrNextOccurrence": [],
   "app:go-back": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "Tab"
-    },
     {
       "modifiers": [
         "Alt"

@@ -11,13 +11,8 @@
             "id": "70791738f4a5ff86",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/DigitalSystems/Data_encoding.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -40,7 +35,7 @@
               "type": "markdown",
               "state": {
                 "file": "SoftwareDesign/Entity_relationship_model.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -241,11 +236,11 @@
   },
   "active": "5159b93567ac395a",
   "lastOpenFiles": [
-    "DataStructures/Graphs.md",
+    "OperatingSystems/DigitalSystems/ASCII.md",
+    "OperatingSystems/DigitalSystems/Data_encoding.md",
     "SoftwareDesign/Entity_relationship_model.md",
     "Databases/Database_fundamentals.md",
-    "OperatingSystems/DigitalSystems/Data_encoding.md",
-    "OperatingSystems/DigitalSystems/ASCII.md",
+    "DataStructures/Graphs.md",
     "SoftwareDesign/BSPL.md",
     "ProgramLanguages/C_language.md",
     "Economics/Microeconomics.md",
