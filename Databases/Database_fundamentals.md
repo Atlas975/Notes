@@ -46,16 +46,6 @@ ___
 1. Domain integrity: restricts values to specific data types in columns
 2. Entity integrity: no two rows can be equal
 3. Referential integrity: maintains relationships between tables, referencing other tables requires active maintenance.
-# Relations
-- [[Relations]] are formed from a set of tuples 
-
-> ![[Pasted image 20211112223946.png|500|500]]
-
-## Relation types
-- There are 3 different types of relations in the database: **one-to-one**. **one-to-many, and**. **many-to-many** each with  [[UML_diagrams|associated visual representations]]
-
-> ![[Pasted image 20220618083239.png]]
-
 # Flat file systems
 - Database represented in a single stable, typically stored and represented by text file
 - Multiple distinct tables with no relation to one another used to store data 
@@ -88,12 +78,13 @@ ___
 - What data is stored, how it's arranged, data relationships, security and data relationships (CREATE)
 ## Internal level
 - Structure data is written/received, how data is ordered, space allocations and compression/encryption
-# Database schema 
+# Database schema
 - The blueprint of a database, describes the structure and organisation of data in a database, serves as a map for a DBMS to understand the layout of data using two core scheme types:
-    - **Conceptual schema**: database content organisation
-    - **Internal schema**: how data is stored
+	- **Conceptual schema**: database content organisation
+	- **Internal schema**: how data is stored
 
 > ![[Pasted image 20230201122712.png]]
+
 - Schemas allow data to be independent with implementation/optimization left to DBMS
 - Transfer of requests between layers is called mapping
 - **Data independence** describes hiding implementation from other layers
