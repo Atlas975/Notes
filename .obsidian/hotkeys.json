@@ -588,7 +588,8 @@
       "modifiers": [
         "Mod"
       ],
-      "key": "F3"
+      "key": ","
     }
-  ]
+  ],
+  "app:open-settings": []
 }
