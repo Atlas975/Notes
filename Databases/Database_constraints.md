@@ -13,10 +13,8 @@
 > ```
 
 ___
-# Database integrity
-- **Integrity of data** is the state of data in a [[Database_fundamentals|DBMS]] where data obeys constraints set by the database administrator (DBA), database constraints are a core part of this  
-
 # Database constraints
+- **Integrity of data** is the state of data in a [[Database_fundamentals|DBMS]] where data obeys constraints set by the database administrator (DBA), database constraints are a core part of this  
 - A database constraint is a rule that restricts how data can be stored in a table
 - These can be split up into multiple constraint types that fall under one of 3 groups 
 ## Domain constraints
@@ -35,7 +33,7 @@ ___
 - Enforces that no key value can be null
 ### Check constraint
 - Restricts values that can be inserted based on logical expression eg avoid divide by zero
-# Database keys
+# Key constraints 
 - A key attribute can distinguish a tuple row 
 - A **candidate key** is any set of attributes present in a table that can uniquely identify a row 
 - A **composite key** is a set of attributes that distinguish a row
@@ -46,6 +44,9 @@ ___
 - All attributes that contain a key are known as a **superkey**, which is the set of all attributes that make a tuple unique, every relation has at least one superkey, this being the whole tuple as no two rows can be identical 
 ## Foreign keys
 - Set of fields in one relation that refer to a row in another relation, acts as a logical pointer, this foreign data must refer to the primary key in another entity 
-- **Referential integrity** is achieved if all foreign key constraints are enforced eg no dangling references to missing data 
 
 > ![[Pasted image 20230204193830.png]]
+
+- **Referential integrity** is achieved if all foreign key constraints are enforced eg no dangling references to missing data 
+
+> ![[Pasted image 20230204202107.png||g]]
