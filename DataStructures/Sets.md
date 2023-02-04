@@ -1,3 +1,6 @@
+---
+alias: set, sets
+---
 > [!important]- Metadata
 > **Tags:** #DiscreteMath 
 > **Located:** DataStructures

@@ -63,8 +63,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Data_relation_model.md",
-                "mode": "source",
+                "file": "DataStructures/Sets.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "212249ef0d7e67ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Database_design.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -77,7 +90,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/Machine_learning_notation.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -123,7 +136,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Data_relation_model.md",
+                "file": "Databases/Database_design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Data_relation_model.md"
+                "file": "Databases/Database_design.md"
               }
             }
           }
@@ -208,8 +221,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5046501159668,
-    "collapsed": true
+    "width": 226.5046501159668
   },
   "right": {
     "id": "441e4249d5592193",
@@ -225,7 +237,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Data_relation_model.md"
+                "file": "Databases/Database_design.md"
               }
             }
           },
@@ -251,7 +263,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Data_relation_model.md",
+                "file": "Databases/Database_design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,17 +313,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3a7f358e2886683c",
+  "active": "b02910b01a2216fd",
   "lastOpenFiles": [
-    "MachineLearning/Machine_learning_notation.md",
+    "Databases/Database_fundamentals.md",
+    "DataStructures/Sets.md",
+    "Databases/Database_design.md",
     "Databases/Data_relation_model.md",
+    "MachineLearning/Machine_learning_notation.md",
     "OperatingSystems/DigitalSystems/ASCII.md",
     "SoftwareDesign/Entity_relationship_model.md",
     "SoftwareDesign/BSPL.md",
     "SoftwareDesign/test_file.md",
-    "Databases/Database_design.md",
-    "Databases/Database_fundamentals.md",
-    "OperatingSystems/DigitalSystems/Data_encoding.md",
-    "DataStructures/Graphs.md"
+    "OperatingSystems/DigitalSystems/Data_encoding.md"
   ]
 }

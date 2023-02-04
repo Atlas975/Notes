@@ -27,17 +27,25 @@ ___
 $$\begin{align*}
 S(A_{1},A_{2},A_{3}\dots A_{n})\\
 S=\text{schema name}\\
-A_{i}=\text{schema attribute}
+A_{i}=\text{schema attribute}\\
+n=arity
 \end{align*}$$
 - The function **$dom()$** denotes retrieving the domain/type of an attribute for example, the following can be used to retrieve the type of the name attribute: **$dom(Student(name))=string$**
-- The tuple relations in a schema also has it's own notation:
+- The tuple relations [[Sets|set]] in a schema also has it's own notation:
 $$\begin{align*}
-r(S)=\{t_{i},t_{2},t_{3}\dots t_{m}\}\\\\
-
-
+r(S)=\{t_{i},t_{2},t_{3}\dots t_{m}\}\\
+r=relation \\
+t=tuple\\
+m=\text{cardinality}
+\end{align*}$$
+- Each tuple also has it's set of values:
+$$\begin{align*}
+t_{i}=(v_{1},v_{2},v_{3}\dots v_{n})\\
+v=values
 \end{align*}$$
 
-
+> ![[Pasted image 20230204184506.png|350|350]]
+> this schema allows for array like notation eg $t_{2}[name]=v_{2}$
 ## Data relation types
 - There are 3 different types of relations in the database: **one-to-one**. **one-to-many, and**. **many-to-many** each with  an [[UML_diagrams|associated visual representations]]
 
