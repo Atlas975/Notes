@@ -16,13 +16,19 @@ ___
 # Database integrity
 - **Integrity of data** is the state of data in a [[Database_fundamentals|DBMS]] where data obeys constraints set by the database administrator (DBA), database constraints are a core part of this  
 
-
+# 
 # Database constraints 
 - A database constraint is a rule that restricts how data can be stored in a table
 - These can be split up into multiple constraint types that fall under one of 3 groups 
 ## Domain constraints
 - Values in tuples should obey it's domain / datatype
 - This constraint ensures all values in the same column / attribute can be processed the same way by having a predefined datatype that can be inserted 
-
 ## Key constraints
-- Enforces **referential integrity**, 
+- Enforces **referential integrity**, ensures keys of a relation being unique, non-redundant as well as being non-null which enforces (**entity integrity**)
+- In order for the DBMS to preserve [[Entity_relationship_model#Relation set|entity relations]], the [[Relations|relation]] must be made with keys
+- This constraint also enforces that no two tuples can have the same value, the **superkey** is the set of all attributes that make a row unique
+## Integrity constraints 
+- A condition that must be true for any database instance, specified at schema creation 
+- These are checked automatically when relation are modified 
+- A relation is **legal** if it satisfies integrity constraints, the DBMS should not allow illegal relations
+- These constraints are what give real-world meaning to data eg null not being allowed 
