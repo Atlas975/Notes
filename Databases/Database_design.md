@@ -32,6 +32,6 @@ id(11-20) go in another shard
 
 > ![[Pasted image 20220801202511.png|350|350]]
 
-### Sharding strategies 
+### Sharding strategies
 1. Hashing 
 2. Dividing data into ranges, allows for targeted operations

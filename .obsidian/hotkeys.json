@@ -585,8 +585,10 @@
   "canvas:new-file": [],
   "file-explorer:reveal-active-file": [
     {
-      "modifiers": [],
-      "key": "F5"
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "F3"
     }
   ]
 }
