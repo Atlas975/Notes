@@ -71,6 +71,32 @@
             }
           },
           {
+            "id": "7f6a7b7ac6da036e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/DigitalSystems/ASCII.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e2d5ec14ccc18304",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoftwareDesign/Entity_relationship_model.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e72c8e8191b75856",
             "type": "leaf",
             "state": {
@@ -85,25 +111,6 @@
           }
         ],
         "currentTab": 5
-      },
-      {
-        "id": "812fd80327861bf0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d85b2ad8d0583efb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Data_relation_model.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -283,13 +290,13 @@
   },
   "active": "3a7f358e2886683c",
   "lastOpenFiles": [
-    "SoftwareDesign/BSPL.md",
+    "OperatingSystems/DigitalSystems/ASCII.md",
     "Databases/Data_relation_model.md",
+    "SoftwareDesign/Entity_relationship_model.md",
+    "SoftwareDesign/BSPL.md",
     "SoftwareDesign/test_file.md",
     "Databases/Database_design.md",
-    "OperatingSystems/DigitalSystems/ASCII.md",
     "Databases/Database_fundamentals.md",
-    "SoftwareDesign/Entity_relationship_model.md",
     "OperatingSystems/DigitalSystems/Data_encoding.md",
     "DataStructures/Graphs.md",
     "ProgramLanguages/C_language.md"

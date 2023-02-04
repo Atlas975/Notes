@@ -14,11 +14,15 @@
 
 ___
 # Data relation model
-- [[Relations]] are formed from a set of tuples 
+- [[Database_fundamentals|Database]] [[Relations|relation]] models are formed from a set of tuples, this is made up of two parts 
+	- **Relation instance**: a table with rows and columns consisting of a number of **Rows/tuples** (cardinality) and a number of **fields/attributes** (degree/arity)
+	- **Relation schema**: highlights the relation name and type (domain) for each column 
+> ![[Pasted image 20211112223946.png|450|450]]
+> the relation schema for this would be $\text{People()}$
 
-> ![[Pasted image 20211112223946.png|500|500]]
+## Schema relationship model
 
-## Relation types
-- There are 3 different types of relations in the database: **one-to-one**. **one-to-many, and**. **many-to-many** each with  and [[UML_diagrams|associated visual representations]] in [[Entity_relationship_model|entity relationship models]]
+## Data relation types
+- There are 3 different types of relations in the database: **one-to-one**. **one-to-many, and**. **many-to-many** each with  an [[UML_diagrams|associated visual representations]]
 
-> ![[Pasted image 20220618083239.png]]
+> ![[Pasted image 20220618083239.png|350|350]]
