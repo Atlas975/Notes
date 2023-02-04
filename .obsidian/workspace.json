@@ -61,7 +61,7 @@
               "type": "markdown",
               "state": {
                 "file": "ProgramLanguages/SQL/SQL_deletion.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -201,7 +201,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -246,7 +246,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_fundamentals.md",
+                "file": "ProgramLanguages/SQL/SQL_deletion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +278,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_fundamentals.md"
+                "file": "ProgramLanguages/SQL/SQL_deletion.md"
               }
             }
           }
@@ -302,7 +302,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_fundamentals.md"
+                "file": "ProgramLanguages/SQL/SQL_deletion.md"
               }
             }
           },
@@ -328,7 +328,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_fundamentals.md",
+                "file": "ProgramLanguages/SQL/SQL_deletion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -378,8 +378,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "073f26bc61644858",
+  "active": "cabf47115d6b65e5",
   "lastOpenFiles": [
+    "Databases/Database_fundamentals.md",
     "ProgramLanguages/SQL/SQL_deletion.md",
     "ProgramLanguages/SQL/SQL_language.md",
     "ProgramLanguages/Javascript_language.md",
@@ -388,7 +389,6 @@
     "ProgramLanguages/Rust/Rust_cargo.md",
     "ProgramLanguages/Rust/Rust_smart_pointers.md",
     "ProgramLanguages/Rust/Rust_message_passing.md",
-    "Databases/Database_constraints.md",
-    "Databases/Database_design.md"
+    "Databases/Database_constraints.md"
   ]
 }
