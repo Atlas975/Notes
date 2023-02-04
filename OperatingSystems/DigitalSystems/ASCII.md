@@ -16,9 +16,10 @@ ___
 # ASCII
 
 > ![[Pasted image 20230204131428.png|450|450]]
-
+- Character encoding standard, assigns a unique number (code point) to various characters
+- Standard ASCII defines 128 characters using 7 bits with similar characters grouped together and ordered in a way that's easy to manipulate in software
 ## ASCII control characters
-- The first 32 ASCII symbols are known as control characters, these are not printable:
+- The first 32 ASCII symbols are known as control characters, these are non-printable:
 ```
 Decimal	Hexadecimal	Character
 0		0x00		NULL (null character)

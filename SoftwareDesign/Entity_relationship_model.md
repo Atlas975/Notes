@@ -52,7 +52,7 @@ ___
 ### Multi-valued attributes
 - Represented by **double outline**
 
-> ![[Pasted image 20230117173200.png|450|450]]
+> ![[Pasted image 20230204133726.png||s]]
 
 ## Relation set
 - Represented by a **diamond**

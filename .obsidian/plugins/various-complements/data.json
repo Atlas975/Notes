@@ -786,8 +786,24 @@
     "characters": {
       "characters": {
         "currentFile": {
-          "count": 2,
-          "lastUpdated": 1675516917887
+          "count": 5,
+          "lastUpdated": 1675517197272
+        }
+      }
+    },
+    "Character": {
+      "Character": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675517031043
+        }
+      }
+    },
+    "ASCII": {
+      "ASCII": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1675517078442
         }
       }
     }
