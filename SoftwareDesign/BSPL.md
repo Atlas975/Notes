@@ -33,7 +33,6 @@ ___
 
 ## Control vs information flow
 
-
 ```start-multi-column
 ID: ID_ckyk
 Number of Columns: 2
