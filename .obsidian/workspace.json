@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwareDesign/BSPL.md",
+                "file": "ProgramLanguages/C_language.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareDesign/BSPL.md",
+                "file": "ProgramLanguages/C_language.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/BSPL.md"
+                "file": "ProgramLanguages/C_language.md"
               }
             }
           }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/BSPL.md"
+                "file": "ProgramLanguages/C_language.md"
               }
             }
           },
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareDesign/BSPL.md",
+                "file": "ProgramLanguages/C_language.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -247,8 +247,8 @@
   },
   "active": "70791738f4a5ff86",
   "lastOpenFiles": [
-    "ProgramLanguages/Rust/Rust_message_passing.md",
     "SoftwareDesign/BSPL.md",
+    "ProgramLanguages/Rust/Rust_message_passing.md",
     "ProgramLanguages/C_language.md",
     "Databases/Database_fundamentals.md",
     "ProgramLanguages/Cpp_language.md",
