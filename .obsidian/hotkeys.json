@@ -282,6 +282,12 @@
   "app:go-back": [
     {
       "modifiers": [
+        "Mod"
+      ],
+      "key": "Tab"
+    },
+    {
+      "modifiers": [
         "Alt"
       ],
       "key": "ArrowLeft"
@@ -323,9 +329,9 @@
   "workspace:previous-tab": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
-      "key": "Tab"
+      "key": "PageUp"
     }
   ],
   "cycle-through-panes:cycle-through-panes-reverse": [],
@@ -575,5 +581,11 @@
     }
   ],
   "theme:switch": [],
-  "canvas:new-file": []
+  "canvas:new-file": [],
+  "file-explorer:reveal-active-file": [
+    {
+      "modifiers": [],
+      "key": "F5"
+    }
+  ]
 }

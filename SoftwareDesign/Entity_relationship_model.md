@@ -1,6 +1,7 @@
 ---
 alias: ER
 ---
+
 > [!important]- Metadata
 > **Tags:** #DesignTheory #Databases 
 > **Located:** SoftwareDesign
@@ -22,6 +23,9 @@ ___
 > ![[Pasted image 20230117172112.png|450|450]]
 
 - ERM's consist of the following distinct components:
+
+> ![[Pasted image 20230204134303.png|550|550]]
+
 ## Entity
 - Represented by **rectangles**
 - Each entity has distinguishable properties
@@ -37,17 +41,17 @@ ___
 - Represented by an **underline**
 - Compound keys may also exists
 
-> ![[Pasted image 20230117172839.png|450|450]]
+> ![[Pasted image 20230204133831.png]]
 
 - Note that not every entity set has a primary key, these are known as **weak entity sets**
 - These sets must be mapped with total participation
 
-
 > ![[Pasted image 20230122151257.png|450|450]]
-### Derived attributes
+
+### Derived / weak-key attributes
 - Represented by **dashed outline**
 
-> ![[Pasted image 20230117172938.png|450|450]]
+> ![[Pasted image 20230204133758.png]]
 
 ### Multi-valued attributes
 - Represented by **double outline**
@@ -59,6 +63,7 @@ ___
 - A [[Relations|relation]] set relates two entity sets
 
 > ![[Pasted image 20230117173444.png|500|500]]
+> this is known as a binary relationship set
 
 - Relation sets can also have attributes 
 - The [[Graphs|degree]] of a relationship set is the number of entity sets connected to it
@@ -91,8 +96,7 @@ ___
 
 > ![[Pasted image 20230122150827.png|500|500]]
 
-
-## ISA heirarchies 
+## ISA hierarchies
 - Inheritance style data relations with subclasses 
 
 > ![[Pasted image 20230122151630.png|350|350]]
