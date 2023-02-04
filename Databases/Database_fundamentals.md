@@ -1,3 +1,6 @@
+---
+aliases: database, Database
+---
 > [!important]- Metadata
 > **Tags:** #Databases 
 > **Located:** Databases
@@ -28,7 +31,7 @@ ___
   3. Data handling
   4. Access control
   5. Security
-  6. Data intergrity checks
+  6. Data integrity checks
 - Structure:
 
 > ![[Pasted image 20211213220115.png|400|300]]

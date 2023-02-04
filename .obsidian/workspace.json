@@ -29,6 +29,45 @@
             }
           },
           {
+            "id": "18685439f11da403",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Database_integrity.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "073f26bc61644858",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Database_fundamentals.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b5e7e2e9abb7bfc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Data_relation_model.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "bf56b943b3b5d3ed",
             "type": "leaf",
             "state": {
@@ -129,14 +168,14 @@
               "type": "markdown",
               "state": {
                 "file": "Databases/Database_fundamentals.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -181,7 +220,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_design.md",
+                "file": "Databases/Database_integrity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_design.md"
+                "file": "Databases/Database_integrity.md"
               }
             }
           }
@@ -237,7 +276,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_design.md"
+                "file": "Databases/Database_integrity.md"
               }
             }
           },
@@ -263,7 +302,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_design.md",
+                "file": "Databases/Database_integrity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -313,17 +352,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b02910b01a2216fd",
+  "active": "18685439f11da403",
   "lastOpenFiles": [
-    "Databases/Database_fundamentals.md",
-    "DataStructures/Sets.md",
     "Databases/Database_design.md",
     "Databases/Data_relation_model.md",
+    "Databases/Database_fundamentals.md",
+    "Databases/Database_integrity.md",
+    "DataStructures/Sets.md",
     "MachineLearning/Machine_learning_notation.md",
     "OperatingSystems/DigitalSystems/ASCII.md",
     "SoftwareDesign/Entity_relationship_model.md",
     "SoftwareDesign/BSPL.md",
-    "SoftwareDesign/test_file.md",
-    "OperatingSystems/DigitalSystems/Data_encoding.md"
+    "SoftwareDesign/test_file.md"
   ]
 }
