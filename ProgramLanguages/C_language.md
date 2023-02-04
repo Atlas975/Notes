@@ -114,9 +114,6 @@ returns: 5
 > (strcmp(str1, str2)<0);
 
 - If str1 is smaller than str2, function will return a number smaller than 0.
-## ASCII table for character classifying
-> ![[Pasted image 20211126192324.png]]
-> ![[Pasted image 20211126192827.png]]
 ## Comparing certain number of characters
 > int res = strncmp(s1, s2, n);
 
