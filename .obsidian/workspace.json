@@ -42,6 +42,32 @@
             }
           },
           {
+            "id": "560217d2dfcc1a73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ProgramLanguages/SQL/SQL_language.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cabf47115d6b65e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ProgramLanguages/SQL/SQL_deletion.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "073f26bc61644858",
             "type": "leaf",
             "state": {
@@ -175,7 +201,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -220,7 +246,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_constraints.md",
+                "file": "Databases/Database_fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -252,7 +278,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_constraints.md"
+                "file": "Databases/Database_fundamentals.md"
               }
             }
           }
@@ -260,7 +286,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5046501159668
+    "width": 265.5046501159668
   },
   "right": {
     "id": "441e4249d5592193",
@@ -276,7 +302,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_constraints.md"
+                "file": "Databases/Database_fundamentals.md"
               }
             }
           },
@@ -302,7 +328,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_constraints.md",
+                "file": "Databases/Database_fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -352,17 +378,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "61b6b073dac95afd",
+  "active": "073f26bc61644858",
   "lastOpenFiles": [
-    "Databases/Database_design.md",
-    "Databases/Data_relation_model.md",
-    "Databases/Database_fundamentals.md",
+    "ProgramLanguages/SQL/SQL_deletion.md",
+    "ProgramLanguages/SQL/SQL_language.md",
+    "ProgramLanguages/Javascript_language.md",
+    "ProgramLanguages/HTML.md",
+    "ProgramLanguages/Erlang_language.md",
+    "ProgramLanguages/Rust/Rust_cargo.md",
+    "ProgramLanguages/Rust/Rust_smart_pointers.md",
+    "ProgramLanguages/Rust/Rust_message_passing.md",
     "Databases/Database_constraints.md",
-    "DataStructures/Sets.md",
-    "MachineLearning/Machine_learning_notation.md",
-    "OperatingSystems/DigitalSystems/ASCII.md",
-    "SoftwareDesign/Entity_relationship_model.md",
-    "SoftwareDesign/BSPL.md",
-    "SoftwareDesign/test_file.md"
+    "Databases/Database_design.md"
   ]
 }

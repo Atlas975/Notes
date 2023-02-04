@@ -20,11 +20,11 @@ ___
 # SQL language
 
 ## Order of operations
->![[Pasted image 20211112105450.png]]
->![[Pasted image 20220605145618.png]]
-**Note that using AND will return results with 0, WHERE filters results down completely, ignoring nulls and 0s.**
+>![[Pasted image 20211112105450.png|450|450]]
+>![[Pasted image 20220605145618.png|450|450]]
+Note that using AND will return results with 0, WHERE filters results down completely, ignoring nulls and 0s.
 # Aggregate functions
->![[Pasted image 20211112110620.png]]
+>![[Pasted image 20211112110620.png|450|450]]
 
 ## GROUP BY
 - Allows the separation of aggregate functions
@@ -144,7 +144,7 @@ WHERE Price BETWEEN 10 AND 20;
 - Filters to specific columns
 > SELECT name FROM unis WHERE region IN ('North West', 'North East');
 
-# Joins 
+# SQL Joins 
 [[Sets]]
 >![[Pasted image 20220120173210.png]]
 - Joining two tables without a filter will return the [[Sets#Cartesian product]] of the two tables. An example of filtering without joins:

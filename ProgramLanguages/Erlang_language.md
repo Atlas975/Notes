@@ -1,8 +1,20 @@
-# Erlang
-created: 2022-11-18 12:23
-#Programming
+> [!important]- Metadata
+> **Tags:** #Programming 
+> **Located:** ProgramLanguages
+> **Created:** 26/12/2022 - 03:56
+> ```dataviewjs
+>let cur = dv.current().file;
+>let loc = cur.path;
+>let links = cur.inlinks.concat(cur.outlinks).array().map(p => p.path);
+>let paths = new Set(links.filter(p => !p.endsWith(".png")));
+>paths.delete(loc);
+>dv.table(["Connections",  "Tags"], dv.array(Array.from(paths).slice(0, 20)).map(p => [
+>   dv.fileLink(p),dv.page(p).file.tags.join("")]));
+> ```
 
----
+___
+# Erlang language
+
 
 - Erlang is an example of a [[Functional_programming|functional programming language ]]
 ## Erlang delimiters
