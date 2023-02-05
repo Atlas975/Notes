@@ -36,7 +36,7 @@ ___
 - Enforces that no key value can be null
 ### Check constraint
 - Restricts values that can be inserted based on logical expression eg avoid divide by zero
-# Key constraints 
+# Key integrity 
 - A key attribute can distinguish a tuple row 
 - A **candidate key** is any set of attributes present in a table that can uniquely identify a row 
 - A **composite key** is a set of attributes that distinguish a row

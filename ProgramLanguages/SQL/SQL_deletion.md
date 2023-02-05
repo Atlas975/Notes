@@ -105,8 +105,9 @@ CREATE TABLE projects (
 );
 ```
 
-## N:M 
-- This relation type typically requires an intermediate join table consisting of 
+## N:M relations 
+- This relation type typically requires an intermediate join table. This creates a third relation which has foreign key referencing both parent tables 
+- CASCADE deletion should be used in order to maintain [[Database_constraints#Key integrity|Key integrity]] in these kind of relations
 ```sql
 CREATE TABLE students (
     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -127,4 +128,12 @@ CREATE TABLE enrollments (
 );
 ```
 ### Unary relations 
+```sql
+CREATE TABLE family (
+    fid INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    father_id INT,
+    FOREIGN KEY (father_id) REFERENCES family(id) ON DELETE CASCADE
+);
+```
 > ![[Pasted image 20230205133433.png|550|550]]
