@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_language.md",
+                "file": "SoftwarePatterns/Behavioral/Observer_pattern.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -253,7 +253,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -298,7 +298,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Command_pattern.md",
+                "file": "SoftwarePatterns/Behavioral/Observer_pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -330,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Command_pattern.md"
+                "file": "SoftwarePatterns/Behavioral/Observer_pattern.md"
               }
             }
           }
@@ -354,7 +354,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Command_pattern.md"
+                "file": "SoftwarePatterns/Behavioral/Observer_pattern.md"
               }
             }
           },
@@ -380,7 +380,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Command_pattern.md",
+                "file": "SoftwarePatterns/Behavioral/Observer_pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -430,17 +430,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8d15444144f35052",
+  "active": "560217d2dfcc1a73",
   "lastOpenFiles": [
+    "SoftwarePatterns/Structural/Adaptor_pattern.md",
+    "ProgramLanguages/SQL/SQL_language.md",
+    "ProgramLanguages/SQL/SQL_deletion.md",
+    "Databases/Databases.md",
+    "OperatingSystems/Input&Output_systems.md",
+    "SoftwareEngineering/Concurrency.md",
+    "SoftwarePatterns/Behavioral/Command_pattern.md",
     "SoftwarePatterns/Behavioral/Iterator_pattern.md",
     "SoftwarePatterns/Behavioral/Observer_pattern.md",
-    "SoftwarePatterns/Creational/Builder_pattern.md",
-    "SoftwarePatterns/Structural/Adaptor_pattern.md",
-    "SoftwarePatterns/Structural/Proxy_pattern.md",
-    "SoftwarePatterns/Structural/Bridge_pattern.md",
-    "SoftwarePatterns/Behavioral/Visitor_pattern.md",
-    "SoftwareEngineering/Concurrency.md",
-    "OperatingSystems/Input&Output_systems.md",
-    "Databases/Databases.md"
+    "SoftwarePatterns/Creational/Builder_pattern.md"
   ]
 }
