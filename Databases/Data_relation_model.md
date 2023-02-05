@@ -52,7 +52,20 @@ v=values
 > ![[Pasted image 20220618083239.png|350|350]]
 
 
-# ER-to-relational mapping 
-- In order to obey [[Database_constraints|]]
-## 1:1 relationships 
-![[Pasted image 20230205131826.png]]
+# ER-to-relational mapping
+- In order to obey [[Database_constraints|database constraints]] in an [[Entity_relationship_model|ER]], each relationship mapping requires keys to be managed differently depending on relation types 
+- This mapping also impacts how [[SQL_deletion|deletion]] of a tuple should be handled  
+## 1:1 Relationships
+- Relation S should include the primary key of T as a foreign key (or vise versa)
+> ![[Pasted image 20230205131826.png|450|450]]
+
+## 1:N Relationships
+- Relation S should include the primary key of T as a foreign key
+- Each entity in relation S is related to at most one relation from T (primary key constraint)
+> ![[Pasted image 20230205132656.png|450|450]]
+
+
+## M:N Relationships
+- Keys from both relations should form a unique tuple, forming a new relation R
+- R acts as the primary key for T and S
+> ![[Pasted image 20230205132931.png|450|450]]

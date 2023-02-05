@@ -49,3 +49,6 @@ ___
 
 ### N to M total participation 
 > ![[Pasted image 20230205130258.png|600|600]]
+
+### Unary relations 
+> ![[Pasted image 20230205133433.png|550|550]]

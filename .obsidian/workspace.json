@@ -40,7 +40,20 @@
               "type": "markdown",
               "state": {
                 "file": "ProgramLanguages/SQL/SQL_deletion.md",
-                "mode": "source",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0bdff5ddc7d59c95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Data_relation_model.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -60,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -105,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_constraints.md",
+                "file": "ProgramLanguages/SQL/SQL_deletion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_constraints.md"
+                "file": "ProgramLanguages/SQL/SQL_deletion.md"
               }
             }
           }
@@ -161,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_constraints.md"
+                "file": "ProgramLanguages/SQL/SQL_deletion.md"
               }
             }
           },
@@ -187,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_constraints.md",
+                "file": "ProgramLanguages/SQL/SQL_deletion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -237,13 +250,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "516ba73ff5d0c53a",
+  "active": "67c92fce17839367",
   "lastOpenFiles": [
     "Databases/Data_relation_model.md",
     "ProgramLanguages/SQL/SQL_deletion.md",
+    "Databases/Database_constraints.md",
     "Databases/Database_systems.md",
     "Databases/Database_design.md",
-    "Databases/Database_constraints.md",
     "Networking/Network_basics.md",
     "Networking/Routing_methods.md",
     "SoftwarePatterns/Behavioral/Iterator_pattern.md",
