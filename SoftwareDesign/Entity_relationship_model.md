@@ -95,7 +95,7 @@ ___
 - **Partial participation** is indicated by a single line
 
 > ![[Pasted image 20230122150827.png|500|500]]
-
+![[Pasted image 20230205193926.png|550|550]]
 ## ISA hierarchies
 - Inheritance style data relations with subclasses 
 

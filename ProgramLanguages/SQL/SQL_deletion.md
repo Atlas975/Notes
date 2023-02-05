@@ -127,7 +127,8 @@ CREATE TABLE enrollments (
     FOREIGN KEY (course_id) REFERENCES courses(id) ON DELETE CASCADE
 );
 ```
-### Unary relations 
+## Unary relations 
+
 ```sql
 CREATE TABLE family (
     fid INT PRIMARY KEY AUTO_INCREMENT,
@@ -137,3 +138,4 @@ CREATE TABLE family (
 );
 ```
 > ![[Pasted image 20230205133433.png|550|550]]
+

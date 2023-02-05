@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md",
+                "file": "ProgramLanguages/SQL/SQL_deletion.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md",
+                "file": "ProgramLanguages/SQL/SQL_deletion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md"
+                "file": "ProgramLanguages/SQL/SQL_deletion.md"
               }
             }
           }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md"
+                "file": "ProgramLanguages/SQL/SQL_deletion.md"
               }
             }
           },
@@ -213,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md",
+                "file": "ProgramLanguages/SQL/SQL_deletion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -263,12 +263,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1081bb9957e1f1c6",
+  "active": "0bdff5ddc7d59c95",
   "lastOpenFiles": [
+    "SoftwareDesign/Entity_relationship_model.md",
     "ProgramLanguages/SQL/SQL_deletion.md",
     "Databases/Database_constraints.md",
     "Databases/Data_relation_model.md",
-    "SoftwareDesign/Entity_relationship_model.md",
     "Databases/Database_systems.md",
     "Databases/Database_design.md",
     "Networking/Network_basics.md",
