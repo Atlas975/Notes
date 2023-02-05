@@ -14,7 +14,7 @@
 
 ___
 # SQL deletion
-- Multiple options exist for handling row deletions of a [[Databases|database]], these are defined at schema level and need to be specified in a way to preserve any required [[Database_constraints|database constraints]] 
+- Multiple options exist for handling row deletions of a [[Database_systems|database]], these are defined at schema level and need to be specified in a way to preserve any required [[Database_constraints|database constraints]] 
 
 > ![[Pasted image 20230204204517.png|600|600]]
 

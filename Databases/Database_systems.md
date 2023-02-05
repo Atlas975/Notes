@@ -16,7 +16,7 @@ aliases: database, Database
 > ```
 
 ___
-# Databases
+# Databases systems
 
 - An organized collection of information.
 - Databases have to cope with:
