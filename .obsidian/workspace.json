@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_deletion.md",
+                "file": "Databases/Data_relation_model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_deletion.md"
+                "file": "Databases/Data_relation_model.md"
               }
             }
           }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_deletion.md"
+                "file": "Databases/Data_relation_model.md"
               }
             }
           },
@@ -200,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_deletion.md",
+                "file": "Databases/Data_relation_model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -250,8 +250,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "67c92fce17839367",
+  "active": "0bdff5ddc7d59c95",
   "lastOpenFiles": [
+    "SoftwareDesign/Entity_relationship_model.md",
     "Databases/Data_relation_model.md",
     "ProgramLanguages/SQL/SQL_deletion.md",
     "Databases/Database_constraints.md",
@@ -260,7 +261,6 @@
     "Networking/Network_basics.md",
     "Networking/Routing_methods.md",
     "SoftwarePatterns/Behavioral/Iterator_pattern.md",
-    "SoftwareDesign/Entity_relationship_model.md",
     "OperatingSystems/DigitalSystems/ASCII.md"
   ]
 }

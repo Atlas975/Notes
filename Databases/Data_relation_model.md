@@ -52,6 +52,7 @@ v=values
 > ![[Pasted image 20220618083239.png|350|350]]
 
 
+- One to many relations are an example of a **weak entity set**, these are cases where the existence of an entity depends on the existence of an entity in the single mapped relation
 # ER-to-relational mapping
 - In order to obey [[Database_constraints|database constraints]] in an [[Entity_relationship_model|ER]], each relationship mapping requires keys to be managed differently depending on relation types 
 - This mapping also impacts how [[SQL_deletion|deletion]] of a tuple should be handled  
