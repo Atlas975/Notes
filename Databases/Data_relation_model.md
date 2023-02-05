@@ -50,3 +50,9 @@ v=values
 - There are 3 different types of relations in the database: **one-to-one**. **one-to-many, and**. **many-to-many** each with  an [[UML_diagrams|associated visual representations]]
 
 > ![[Pasted image 20220618083239.png|350|350]]
+
+
+# ER-to-relational mapping 
+- In order to obey [[Database_constraints|]]
+## 1:1 relationships 
+![[Pasted image 20230205131826.png]]

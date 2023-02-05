@@ -1,3 +1,6 @@
+---
+aliases: database constraints
+---
 > [!important]- Metadata
 > **Tags:** #Databases 
 > **Located:** Databases
