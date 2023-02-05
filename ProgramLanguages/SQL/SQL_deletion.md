@@ -34,8 +34,27 @@ ___
 - The default if no other deletion type is specified at table creation
 - This type specifies that when a record is deleted, an error should be generated if there are related records in the related table. 
 - This type of deletion is used to prevent accidental deletion of related records.
-## Relationship deletion effects
+# Relationship deletion 
+- The type of deletion that should be used depends on a schema's [[Entity_relationship_model|ER model]]:
+    - **ON DELETE CASCADE:** use when there's total participation
+    - **ON DELETE SET NULL**: use when there's partial participation
+    - **ON DELETE NO ACTION**: throws error if any child node exists 
+
 ### 1 to 1 partial participation
+```sql
+CREATE TABLE people (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE passport_details (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    passport_number VARCHAR(255) NOT NULL,
+    pid INT,
+    UNIQUE (pid),
+    FOREIGN KEY (pid) REFERENCES people(id) ON DELETE SET NULL
+);
+```
 
 > ![[Pasted image 20230205123933.png|600|600]]
 
