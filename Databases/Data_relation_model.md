@@ -60,13 +60,60 @@ v=values
 - Relation S should include the primary key of T as a foreign key (or vise versa)
 > ![[Pasted image 20230205131826.png|450|450]]
 
+```sql
+CREATE TABLE people (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE passport_details (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    passport_number VARCHAR(255) NOT NULL,
+    person_id INT NOT NULL,
+    UNIQUE (person_id),
+    FOREIGN KEY (person_id) REFERENCES people(id)
+);
+```
 ## 1:N Relationships
 - Relation S should include the primary key of T as a foreign key
 - Each entity in relation S is related to at most one relation from T (primary key constraint)
 > ![[Pasted image 20230205132656.png|450|450]]
 
+```sql
+CREATE TABLE departments (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL
+);
 
+CREATE TABLE employees (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    department_id INT NOT NULL,
+    FOREIGN KEY (department_id) REFERENCES departments(id)
+);
+```
 ## M:N Relationships
 - Keys from both relations should form a unique tuple, forming a new relation R
 - R acts as the primary key for T and S
 > ![[Pasted image 20230205132931.png|450|450]]
+
+
+```sql
+CREATE TABLE students (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE courses (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE enrollments (
+    student_id INT NOT NULL,
+    course_id INT NOT NULL,
+    PRIMARY KEY (student_id, course_id),
+    FOREIGN KEY (student_id) REFERENCES students(id),
+    FOREIGN KEY (course_id) REFERENCES courses(id)
+);
+```
