@@ -34,9 +34,18 @@ ___
 - The default if no other deletion type is specified at table creation
 - This type specifies that when a record is deleted, an error should be generated if there are related records in the related table. 
 - This type of deletion is used to prevent accidental deletion of related records.
-## Relationship deletion effects 
-### 1 to 1 partial participation 
+## Relationship deletion effects
+### 1 to 1 partial participation
+
 > ![[Pasted image 20230205123933.png|600|600]]
 
-### 1 to 1 total participation 
+### 1 to 1 total participation
+
 > ![[Pasted image 20230205124328.png|600|600]]
+> ![[Pasted image 20230205125253.png|600|600]]
+
+### 1 to N total participation 
+> ![[Pasted image 20230205125804.png|600|600]]
+
+### N to M total participation 
+> ![[Pasted image 20230205130258.png|600|600]]
