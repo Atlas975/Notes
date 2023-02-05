@@ -34,13 +34,15 @@ ___
 - The default if no other deletion type is specified at table creation
 - This type specifies that when a record is deleted, an error should be generated if there are related records in the related table. 
 - This type of deletion is used to prevent accidental deletion of related records.
-# Relationship deletion 
+# Relationship deletion
 - The type of deletion that should be used depends on a schema's [[Entity_relationship_model|ER model]]:
-    - **ON DELETE CASCADE / REJECT:** use when there's total participation
-    - **ON DELETE SET NULL / DEFAULT**: use when there's partial participation
-    - **ON DELETE NO ACTION**: throws error if any child node exists 
+	- **ON DELETE CASCADE / REJECT:** use when there's total participation
+	- **ON DELETE SET NULL / DEFAULT**: use when there's partial participation
+	- **ON DELETE NO ACTION**: throws error if any child node exists 
 
-## 1:1 relations 
+> ![[Pasted image 20230205195548.png]]
+
+## 1:1 Relations
 ### Partial 1:1
 ```sql
 CREATE TABLE people (
@@ -74,7 +76,7 @@ CREATE TABLE passport_details (
 );
 ```
 
-## 1:N relations
+## 1:N Relations
 ### Partial 1:N
 ```sql
 CREATE TABLE departments (
@@ -105,7 +107,7 @@ CREATE TABLE projects (
 );
 ```
 
-## N:M relations 
+## N:M Relations
 - This relation type typically requires an intermediate join table. This creates a third relation which has foreign key referencing both parent tables 
 - CASCADE deletion should be used in order to maintain [[Database_constraints#Key integrity|Key integrity]] in these kind of relations
 ```sql
@@ -139,3 +141,9 @@ CREATE TABLE family (
 ```
 > ![[Pasted image 20230205133433.png|550|550]]
 
+## Weak entities 
+```sql
+CREATE TABLE Dep_policy (
+    pname: 
+)
+```
