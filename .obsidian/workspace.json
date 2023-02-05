@@ -94,6 +94,19 @@
             }
           },
           {
+            "id": "1f2d7fe2918519e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoftwareEngineering/Concurrency.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "073f26bc61644858",
             "type": "leaf",
             "state": {
@@ -227,7 +240,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -272,7 +285,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Input&Output_systems.md",
+                "file": "SoftwareEngineering/Concurrency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -304,7 +317,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Input&Output_systems.md"
+                "file": "SoftwareEngineering/Concurrency.md"
               }
             }
           }
@@ -328,7 +341,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Input&Output_systems.md"
+                "file": "SoftwareEngineering/Concurrency.md"
               }
             }
           },
@@ -354,7 +367,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Input&Output_systems.md",
+                "file": "SoftwareEngineering/Concurrency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -404,8 +417,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "cded22a20920b120",
+  "active": "1f2d7fe2918519e5",
   "lastOpenFiles": [
+    "OperatingSystems/Input&Output_systems.md",
     "Databases/Databases.md",
     "Databases/Database_design.md",
     "Databases/Data_relation_model.md",
@@ -414,7 +428,6 @@
     "Networking/Routing_methods.md",
     "Networking/Transmission_mediums.md",
     "Networking/Internet_infrastructure.md",
-    "ProgramLanguages/SQL/SQL_deletion.md",
-    "ProgramLanguages/SQL/SQL_language.md"
+    "ProgramLanguages/SQL/SQL_deletion.md"
   ]
 }

@@ -1,3 +1,7 @@
+---
+aliases: async
+---
+
 > [!important|inIL]- Metadata
 > **Tags:** #OperatingSystems #Programming #Concurrency
 > **Located:** SoftwareEngineering
@@ -25,7 +29,7 @@ ___
 # Concurrency
 - Concurrency describes the process of multiple **loci of communication** (actors/processes/threads) acting over shared resources.
 - This is especially prevalent in [[Operating_system_design]] where shared memory and hardware devices are used for several unique processes 
-## Central concepts of concurrency 
+## Central concepts of concurrency
 1. Processor: hardware device executing machine instructions 
 2. Program: instruction sequence defining potential execution path 
 3. Process: system entity executing associated programs
@@ -33,15 +37,18 @@ ___
 - A threads context comprises of:
 1. Program counter (PC): instruction in a program/function that a thread is set to execute 
 2. Stack pointer (SP): address at top of threads call stack 
-## Context switching sequence 
+## Context switching sequence
+
 > ![[Pasted image 20221022124944.png|500|500]]
-## Amdahl's law 
+
+## Amdahl's law
 - Program speedup via concurrency is limited by atomic aspects of a program, the max speedup depending can be represented by Amdahls law, where p is the percentage of a program that can be parallelized eg 95% tops off at 20x speedup  : 
 
 >$$\frac{1}{(1-p)}$$
 >
 > ![[Pasted image 20221022114110.png|450|450]]
-## Threads 
+
+## Threads
 - A thread is an independent locus of communication (a separate flow of execution within a program) following a sequence of instructions with its own program counter 
 ## Scheduler
 - Method of selecting which thread runs from a pool of active threads 
@@ -56,7 +63,7 @@ ___
 
 > ![[Pasted image 20221020154135.png|500|500]]
 
-## Anatomy of a concurrent process 
+## Anatomy of a concurrent process
 ```java
 //Instantiate MessagePrinter object for the message
 MessagePrinter mp = new MessagePrinter(“Hello world”);
@@ -66,9 +73,11 @@ Thread t = new Thread(mp);
 t.start();
 // … do other useful things while message prints
 ```
-## Concurrency vs parallelism 
+## Concurrency vs parallelism
+
 > ![[Pasted image 20221022125124.png|500|500]] processes are always concurrent but not always parallel 
-# Shared memory synchronization 
+
+# Shared memory synchronization
 - Coordination is needed when accessing critical sections 
 - Critical sections are regions of code that access variables that are shared between threads 
 - An example of a problem that can arise without proper coordination is the lost update problem:
@@ -76,9 +85,9 @@ t.start();
 
 > ![[Pasted image 20221022105807.png|550|550]]this is an example of a race condition 
 
-## Race condition 
+## Race condition
 - Condition where incorrect program output may have been generated depending on instruction order from multiple threads 
-## Atomic code 
+## Atomic code
 - Code that is executed indivisibly from that of other threads trying to execute the same code
 - One way to avoid race conditions is to make critical sections atomic 
 - This can also be achieved with **mutual exclusion** which ensures only one thread can access a critical section at a time, in  [[Java_language]] this is done by adding the synchronized signature to a method 
@@ -101,24 +110,28 @@ public class Bank_account {
 - Internal lock process when synchronized: 
 
 > ![[Pasted image 20221022111955.png|500|500]]
+
 - note that the jvm shares one heap between all threads, but each thread has its own java stack
 
-## Safe concurrency 
+## Safe concurrency
 - No shared data / communication between threads 
+
 > ![[Pasted image 20221022114139.png|350|350]]
+
 - Use of only read-only (constant) data 
+
 > ![[Pasted image 20221022114339.png|350|350]]
 
-
-## Risky concurrency 
+## Risky concurrency
 - Threads use shared resources without mutual exclusion 
+
 > ![[Pasted image 20221022114244.png|350|350]]
 
 - Use of a thread that modifies shared resources while others read from it 
+
 > ![[Pasted image 20221022114309.png|350|350]]
 
-
-# Semaphores 
+# Semaphores
 - Locks only allow one thread at a time to access a resource, semaphores let in multiple while still restricting this number. For instance having 3 shared booth resources between 5 people 
 - Having a single semaphore is equivalent to using a lock
 - Example semaphore java usage 
@@ -152,7 +165,7 @@ class Person implements Runnable {
 }
 ```
 
-## Semaphore API 
+## Semaphore API
 ```java
 wait() 
 // suspends calling thread, can only be used in synced blocks and releases L 
@@ -324,7 +337,7 @@ public void run() {
     System.out.println("Finished");
 }
 ```
-## Cyclic barrier 
+## Cyclic barrier
 - Gives threads a common barrier point before more threads can continue, this can optionally take in another thread to run as soon as the barrier point is reached 
 ```ad-example
 ```java
@@ -369,10 +382,10 @@ public void run() {
     System.out.println(Thread.currentThread().getName() + " finished");
 }
 ```
-# Spinlocks 
+# Spinlocks
 - Rather than using synchronized code, spinlocks offer an alternative approach that can potentially be faster but is less CPU efficient 
 - Spinlocks repeatedly check for availability of a lock before entering critical code, however with this method critical sections are not accessed atomically
-## Test and set method 
+## Test and set method
 ```java
 boolean test_and_set(boolean *target)
 {
@@ -392,7 +405,7 @@ void release_lock(boolean *lk)
 }
 ```
 
-## Peterson's algorithm 
+## Peterson's algorithm
 - Only works on 2 thread but can be generalized to n threads 
 ```java
 int tiebreak = 0; /* shared variable */
@@ -413,20 +426,21 @@ void release_lock() {
 
 > ![[Pasted image 20221027132657.png|450|450]]
 
-## Blocking vs Spinlocks 
-> ![[Pasted image 20221027133022.png|450|450]]
+## Blocking vs Spinlocks
 
+> ![[Pasted image 20221027133022.png|450|450]]
 
 - Join ensures a thread does not run until another thread terminates 
 - Count down latches are initialized with a number of tasks
 
 # Concurrency pitfalls
 
-## Deadlocks 
+## Deadlocks
 - A deadlock describes a situation in which a processes cannot progress due to waiting on a shared synchronised resource currently held by another thread.
 - Ways of combating this include:
 
 > ![[Pasted image 20221101164743.png]]
+
 1. Program design so circular waits are impossible (impose total ordering)
 2. Prove formally a program is deadlock free 
 3. Detect deadlock at runtime 
@@ -434,9 +448,21 @@ void release_lock() {
 
 > ![[Pasted image 20221101160843.png|450|450]]
 
-## Livelocks 
+## Livelocks
 - Instead of terminating deadlocked threads, processes repeat cyclically until a thread is able to run without resulting in a deadlock.
 - This raises complications if a process is already underway when is restarts, starvation may also occur if one thread consistently beats out another thread for a required resource 
 - Fair scheduling may often be required to ensure a thread does not starve in a livelock, see the dining  philosophers problem
 
 > ![[Pasted image 20221104170117.png]]
+
+# Asynchronous vs multi-threaded programs
+- In general, async is better suited for I/O-bound and network-bound tasks, while multithreading is better suited for CPU-bound tasks. 
+- Using async can reduce the amount of blocking in the main thread and increase the overall responsiveness of the program.
+## Multi-threading use
+- Multi threading is a traditional concurrency model that works by creating multiple threads that run in parallel and share access to the same memory space. 
+- When one thread blocks or encounters a long-running task, other threads can continue to run and make progress. 
+- The threads communicate with each other through shared variables and synchronization mechanisms such as mutexes and semaphores.
+## Asynchronous use
+- Asynchronous programming is a more recent concurrency model that uses a different approach based on cooperative multitasking. 
+- Instead of relying on the operating system to schedule multiple threads, async relies on each task yielding control to the next task when it's not making progress. 
+- This cooperative multitasking model is more lightweight than multithreading and can reduce the overhead associated with creating, managing, and switching between multiple threads.
