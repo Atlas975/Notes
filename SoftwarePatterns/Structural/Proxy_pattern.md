@@ -55,5 +55,4 @@ println!("Result: {}", service.get(1)); // cache miss
 println!("Result: {}", service.get(2)); // cache miss
 println!("Result: {}", service.get(1)); // cache hit
 println!("Result: {}", service.get(2)); // cache hit
-println!("Result: {}", service.get(3)); // cache miss
 ```

@@ -80,10 +80,7 @@ impl<P: Pizza> FoodStyle for ItalianStyle<P> {
 }
 
 fn main() {
-    let american_thin = AmericanStyle { pizza: ThinCrust };
-    let italian_deep = ItalianStyle { pizza: DeepDish };
-    american_thin.order_pizza();
-    italian_deep.order_pizza();
+    AmericanStyle { pizza: ThinCrust }.order_pizza();
+    ItalianStyle { pizza: DeepDish }.order_pizza();
 }
-
 ```
