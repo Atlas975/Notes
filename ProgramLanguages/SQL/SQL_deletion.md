@@ -36,11 +36,12 @@ ___
 - This type of deletion is used to prevent accidental deletion of related records.
 # Relationship deletion 
 - The type of deletion that should be used depends on a schema's [[Entity_relationship_model|ER model]]:
-    - **ON DELETE CASCADE:** use when there's total participation
-    - **ON DELETE SET NULL**: use when there's partial participation
+    - **ON DELETE CASCADE / REJECT:** use when there's total participation
+    - **ON DELETE SET NULL / DEFAULT**: use when there's partial participation
     - **ON DELETE NO ACTION**: throws error if any child node exists 
 
-### 1 to 1 partial participation
+## 1:1 relations 
+### Partial 1:1
 ```sql
 CREATE TABLE people (
     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -56,18 +57,74 @@ CREATE TABLE passport_details (
 );
 ```
 
-> ![[Pasted image 20230205123933.png|600|600]]
 
-### 1 to 1 total participation
+### Total 1:1
+```sql
+CREATE TABLE people (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL
+);
 
-> ![[Pasted image 20230205124328.png|600|600]]
-> ![[Pasted image 20230205125253.png|600|600]]
+CREATE TABLE passport_details (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    passport_number VARCHAR(255) NOT NULL,
+    person_id INT NOT NULL,
+    UNIQUE (person_id),
+    FOREIGN KEY (person_id) REFERENCES people(id) ON DELETE CASCADE
+);
+```
 
-### 1 to N total participation 
-> ![[Pasted image 20230205125804.png|600|600]]
+## 1:N relations
+### Partial 1:N
+```sql
+CREATE TABLE departments (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL
+);
 
-### N to M total participation 
-> ![[Pasted image 20230205130258.png|600|600]]
+CREATE TABLE employees (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    did INT,
+    FOREIGN KEY (did) REFERENCES departments(id) ON DELETE SET NULL
+);
+```
+### Total 1:N
 
+```sql
+CREATE TABLE managers (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE projects (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    manager_id INT,
+    FOREIGN KEY (manager_id) REFERENCES managers(id) ON DELETE CASCADE
+);
+```
+
+## N:M 
+- This relation type typically requires an intermediate join table consisting of 
+```sql
+CREATE TABLE students (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE courses (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE enrollments (
+    student_id INT NOT NULL,
+    course_id INT NOT NULL,
+    PRIMARY KEY (student_id, course_id),
+    FOREIGN KEY (student_id) REFERENCES students(id) ON DELETE CASCADE,
+    FOREIGN KEY (course_id) REFERENCES courses(id) ON DELETE CASCADE
+);
+```
 ### Unary relations 
 > ![[Pasted image 20230205133433.png|550|550]]
