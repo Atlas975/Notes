@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Relational_algebra.md",
+                "file": "Networking/Internet_infrastructure.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Relational_algebra.md",
+                "file": "Networking/Internet_infrastructure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Relational_algebra.md"
+                "file": "Networking/Internet_infrastructure.md"
               }
             }
           }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Relational_algebra.md"
+                "file": "Networking/Internet_infrastructure.md"
               }
             }
           },
@@ -177,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Relational_algebra.md",
+                "file": "Networking/Internet_infrastructure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,15 +229,15 @@
   },
   "active": "7f5fe321d5a17758",
   "lastOpenFiles": [
+    "Networking/Network_infrastructure.md",
+    "Networking/Internet_infrastructure.md",
+    "Networking/Transmission_mediums.md",
+    "Networking/Routing_methods.md",
+    "Databases/Relational_algebra.md",
     "MachineLearning/Feature_scaling.md",
     "OperatingSystems/FileSystems/FAT_file_system.md",
     "SoftwarePatterns/Behavioral/Iterator_pattern.md",
     "OperatingSystems/Caching.md",
-    "SoftwarePatterns/Structural/Proxy_pattern.md",
-    "MachineLearning/Gradient_descent.md",
-    "MachineLearning/Convolutional_networks.md",
-    "MachineLearning/0-CoursesPart1/MachineLearning/Support_vector_machines.md",
-    "OperatingSystems/Multi-Process_systems.md",
-    "MachineLearning/0-CoursesPart1/MachineLearning/AI_BiasTypes.md"
+    "SoftwarePatterns/Structural/Proxy_pattern.md"
   ]
 }
