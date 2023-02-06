@@ -1,11 +1,22 @@
+> [!important]- Metadata
+> **Tags:** #DiscreteMath 
+> **Located:** DiscreteMath
+> **Created:** 26/12/2022 - 03:53
+> ```dataviewjs
+>let cur = dv.current().file;
+>let loc = cur.path;
+>let links = cur.inlinks.concat(cur.outlinks).array().map(p => p.path);
+>let paths = new Set(links.filter(p => !p.endsWith(".png")));
+>paths.delete(loc);
+>dv.table(["Connections",  "Tags"], dv.array(Array.from(paths).slice(0, 20)).map(p => [
+>   dv.fileLink(p),dv.page(p).file.tags.join("")]));
+> ```
 
-# De_Morgans_law
-#DiscreteMath    created: 2022-12-17 15:12
+___
+# De Morgans law
 
----
-[[Boolean_logic]][[Predicate_logic]][[Propositional_logic]]
 - A set of transformations used to convert the intersection / union of a set [[Sets]] into its complement
-- Multiple use cases in boolean algebra, also essential in simplifying logic circuits
+- Multiple use cases in [[Boolean_logic|boolean algebra]], [[Predicate_logic|predicate logic]] and [[Propositional_logic|propositional logic]], also essential in simplifying logic circuits
 ## De-Morgan's theorem
 >$$(\overline{A+B})=\overline{A}\overline{B}$$
 >$$\begin{align*}\\
@@ -20,8 +31,8 @@
 ## De Morgan's quantifier law
 - Law can be applied in predicate logic to find complement expression
 
->![[Pasted image 20220425201453.png]]
+>![[Pasted image 20220425201453.png|450|450]]
 
-- Logic gate equivelent:
+- Logic gate equivalent:
 
-> ![[Pasted image 20211108191956.png]]
+> ![[Pasted image 20211108191956.png|450|450]]

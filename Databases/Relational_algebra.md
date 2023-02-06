@@ -24,6 +24,7 @@ ___
 > $-=\text{set difference} \color{gold}\text{ (left join where null)}$
 > $\times=\text{cartesian product} \color{gold}\text{ (from clause)}$ 
 > $\cup=\text{union} \color{gold}\text{ (union join)}$
-> $\Join$
+> $\cap=\text{intersection}\color{gold}\text{ (inner join)}$
+> $\Join=\text{join} \color{gold}\text{ (standard join)}$
 
  

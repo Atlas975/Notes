@@ -21,8 +21,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Relational_algebra.md",
-                "mode": "source",
+                "file": "DiscreteMath/Boolean_logic.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -74,7 +74,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Relational_algebra.md",
+                "file": "DiscreteMath/Boolean_logic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,8 +93,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "e76f9604c96a6f00",
@@ -107,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Relational_algebra.md"
+                "file": "DiscreteMath/Boolean_logic.md"
               }
             }
           }
@@ -131,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Relational_algebra.md"
+                "file": "DiscreteMath/Boolean_logic.md"
               }
             }
           },
@@ -157,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Relational_algebra.md",
+                "file": "DiscreteMath/Boolean_logic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,15 +208,15 @@
   },
   "active": "5f684ff5caa64f07",
   "lastOpenFiles": [
+    "DiscreteMath/Functions.md",
+    "DiscreteMath/De_Morgans_law.md",
+    "DiscreteMath/Propositional_logic.md",
+    "DiscreteMath/Boolean_logic.md",
+    "DiscreteMath/Relations.md",
+    "DiscreteMath/Inference_rules.md",
+    "DiscreteMath/Predicate_logic.md",
     "Databases/Relational_algebra.md",
     "Databases/Database_constraints.md",
-    "ProgramLanguages/SQL/SQL_deletion.md",
-    "Networking/Network_basics.md",
-    "Databases/Database_systems.md",
-    "Databases/Database_relations.md",
-    "MachineLearning/Machine_learning_notation.md",
-    "ProgramLanguages/SQL/SQL_language.md",
-    "SoftwareDesign/Entity_relationship_model.md",
-    "Databases/Database_design.md"
+    "ProgramLanguages/SQL/SQL_deletion.md"
   ]
 }
