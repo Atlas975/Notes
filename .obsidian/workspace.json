@@ -112,7 +112,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Network_transmission.md",
+                "file": "Networking/Transmission_mediums.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -204,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Network_transmission.md",
+                "file": "Networking/Transmission_mediums.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +244,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_transmission.md"
+                "file": "Networking/Transmission_mediums.md"
               }
             }
           }
@@ -268,7 +268,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_transmission.md"
+                "file": "Networking/Transmission_mediums.md"
               }
             }
           },
@@ -294,7 +294,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Network_transmission.md",
+                "file": "Networking/Transmission_mediums.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -346,10 +346,10 @@
   },
   "active": "76da0285199917bc",
   "lastOpenFiles": [
+    "Networking/Network_transmission.md",
+    "Networking/Transmission_mediums.md",
     "Networking/Network_infrastructure.md",
     "Networking/Internet_infrastructure.md",
-    "Networking/Transmission_mediums.md",
-    "Networking/Network_transmission.md",
     "DataStructures/Graphs.md",
     "Networking/Internet_protocols.md",
     "MachineLearning/0-CoursesPart1/MathForML_course/Calculus/Newton-Raphson.md",

@@ -14,16 +14,8 @@
 
 ___
 # Network transmission
-- Multiple access technologies exists for connecting [[Internet_infrastructure#Internet architecture|network edges]] to edge routers 
-- Edge routers act as an intermediary from users to the network core 
 
-
-## Digital subscriber line (DSL)
-- A physical cable to a DSL modem (a device that connects other devices to the internet using DSL), converts [[Transmission_mediums#Digital transmission|digital signals]] from these devices to [[Transmission_mediums#Analogue transmission|analogue transmissions]] that work over network lines and vise versa
-- Voice
-
-> ![[Pasted image 20230206151918.png|400|400]]
-# Packet switching
+## Packet switching
 - Method of creating temporary connections between devices using **switches**.
 - Switches can be taught of as [[Graphs|nodes]] that can either be an end location or used for routing
 - More resource efficient than constant connections (point to point)
@@ -50,4 +42,3 @@ ___
 - Packet switching is more resource efficient, not using channels throughout the delivery of data.
 - Circuit switching allows for data to be delivered at a consistent bandwidth
 - Circuit switching allows for data to be delivered with minimum delay, better timeliness.
-
