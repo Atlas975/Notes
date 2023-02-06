@@ -42,6 +42,18 @@ ___
 ## Union 
 > ![[Pasted image 20230206124432.png|600|600]]
 
+## Intersection 
 
+> ![[Pasted image 20230206130033.png|600|600]]
 ## Set difference 
 > ![[Pasted image 20230206124622.png|600|600]]
+
+## Cartesian product 
+> ![[Pasted image 20230206125012.png|600|600]]
+> ![[Pasted image 20230206125522.png|600|600]]
+
+## Rename 
+- Relationship algebra expressions do not output a relation with a name, the rename operation provides an alias for relations that are created 
+- Using the previous example, the created relation can be named "Ins_Phy" by the following 
+
+> ![[Pasted image 20230206125910.png|600|600]]
