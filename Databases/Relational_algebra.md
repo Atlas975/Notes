@@ -14,11 +14,9 @@
 
 ___
 # Relational algebra
-$$\begin{align*}
-\sigma =\text{selection}\\
-\pi=projection\\
-\times=\text{cross-pro}
-\end{align*}$$
-> $\sigma =\text{selection}$
-> $\pi=\text{projection}$
+> $\sigma =\text{select}$
+> $\Pi=\text{project}$
+> $-=\text{set difference}$
+> $\times=\text{cartesian product}$
+> $\cup=\text{union}$
 > 
