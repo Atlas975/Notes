@@ -30,6 +30,18 @@ ___
 ## Header
 - Contains key details of data packets such as destination and origin IP. 
 - 
+
+## Network criteria 
+- Effective communication in a network requires abiding by specific criteria:  
+### Delivery
+- Data needs to arrive to correct device only
+### Accuracy
+- Data loss shouldn't occur from distortion or noise.
+### Timeliness
+- Data packets must arrive without significant delay or else they'll be dropped
+### Jitter
+- The delay in packet arrival must be consistent.
+
 ## Bandwidth
 - In bits per second, refers to the speed of bit transmission a medium can accommodate.
 - In hertz, refers to the range of frequencies that a medium can allow to pass.
@@ -77,18 +89,4 @@ ___
 - Connects distinct WAN's together to communicate over distinct geographical regions 
 
 > ![[Pasted image 20211030163447.png]]
-
-# Data communication systems
-- Exchange of data between devices along a transmission medium.
-- Effective communication requires certain criteria:
-
-## Delivery
-- Data needs to arrive to correct device only
-## Accuracy
-- Data loss shoulden't occur from distortion or noise.
-## Timeliness
-- Data packets must arrive without significant delay or else they'll be dropped
-## Jitter
-- The delay in packet arrival must be consistent.
-## Components
 
