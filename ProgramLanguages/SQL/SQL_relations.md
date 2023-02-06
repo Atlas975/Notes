@@ -1,5 +1,5 @@
 > [!important]- Metadata
-> **Tags:** #Programming 
+> **Tags:** #Databases 
 > **Located:** ProgramLanguages/SQL
 > **Created:** 04/02/2023 - 20:31
 > ```dataviewjs
@@ -13,35 +13,7 @@
 > ```
 
 ___
-# SQL deletion
-- Multiple options exist for handling row deletions of a [[Database_systems|database]], these are defined at schema level and need to be specified in a way to preserve any required [[Database_constraints|database constraints]] 
-
-> ![[Pasted image 20230204204517.png|600|600]]
-
-## SET NULL
-- This deletion type specifies that specifies that when a record is deleted, the values in the foreign key columns in the related table should be set to null. 
-- This deletion is used when it is acceptable for the foreign key columns to contain null values.
-
-## SET DEFAULT
-- This deletion type specifies that when a record is deleted, the values in the foreign key columns in the related table should be set to their default values.
-- Used when it is acceptable for the foreign key columns to hold placeholder values
-
-## CASCADE
-- This deletion type specifies that when a record is deleted, the related records in the related table should also be deleted.
-- This type of deletion is used when the related records are dependent on the record being deleted and have no value if the record is deleted.
-
-## NO ACTION
-- The default if no other deletion type is specified at table creation
-- This type specifies that when a record is deleted, an error should be generated if there are related records in the related table. 
-- This type of deletion is used to prevent accidental deletion of related records.
-# Relationship deletion
-- The type of deletion that should be used depends on a schema's [[Entity_relationship_model|ER model]]:
-	- **ON DELETE CASCADE / REJECT:** use when there's total participation
-	- **ON DELETE SET NULL / DEFAULT**: use when there's partial participation
-	- **ON DELETE NO ACTION**: throws error if any child node exists 
-
-> ![[Pasted image 20230205195548.png]]
-
+# SQL relations
 ## 1:1 Relations
 ### Partial 1:1
 ```sql
@@ -109,7 +81,7 @@ CREATE TABLE projects (
 
 ## N:M Relations
 - This relation type typically requires an intermediate join table. This creates a third relation which has foreign key referencing both parent tables 
-- CASCADE deletion should be used in order to maintain [[Database_constraints#Key integrity|Key integrity]] in these kind of relations
+- **CASCADE** deletion should be used in order to maintain [[Database_constraints#Key integrity|Key integrity]] in these kind of relations
 ```sql
 CREATE TABLE students (
     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -136,7 +108,7 @@ CREATE TABLE family (
     fid INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(255) NOT NULL,
     father_id INT,
-    FOREIGN KEY (father_id) REFERENCES family(id) ON DELETE CASCADE
+    FOREIGN KEY (daughterOf) REFERENCES family(id) ON DELETE CASCADE
 );
 ```
 
@@ -155,3 +127,34 @@ CREATE TABLE Policy (
 ```
 
 > ![[Pasted image 20230206010026.png|600|600]]
+
+# SQL deletion types
+- Multiple options exist for handling row deletions of a [[Database_systems|database]], these are defined at schema level and need to be specified in a way to preserve any required [[Database_constraints|database constraints]] 
+
+> ![[Pasted image 20230204204517.png|600|600]]
+
+## SET NULL
+- This deletion type specifies that specifies that when a record is deleted, the values in the foreign key columns in the related table should be set to null. 
+- This deletion is used when it is acceptable for the foreign key columns to contain null values.
+
+## SET DEFAULT
+- This deletion type specifies that when a record is deleted, the values in the foreign key columns in the related table should be set to their default values.
+- Used when it is acceptable for the foreign key columns to hold placeholder values
+
+## CASCADE
+- This deletion type specifies that when a record is deleted, the related records in the related table should also be deleted.
+- This type of deletion is used when the related records are dependent on the record being deleted and have no value if the record is deleted.
+
+## NO ACTION
+- The default if no other deletion type is specified at table creation
+- This type specifies that when a record is deleted, an error should be generated if there are related records in the related table. 
+- This type of deletion is used to prevent accidental deletion of related records.
+
+## Relationship deletion
+- The type of deletion that should be used depends on a schema's [[Entity_relationship_model|ER model]]:
+	- **ON DELETE CASCADE / REJECT:** use when there's total participation
+	- **ON DELETE SET NULL / DEFAULT**: use when there's partial participation
+	- **ON DELETE NO ACTION**: throws error if any child node exists 
+
+> ![[Pasted image 20230205195548.png]]
+

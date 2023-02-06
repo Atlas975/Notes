@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_deletion.md",
+                "file": "ProgramLanguages/SQL/SQL_relations.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_deletion.md",
+                "file": "ProgramLanguages/SQL/SQL_relations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_deletion.md"
+                "file": "ProgramLanguages/SQL/SQL_relations.md"
               }
             }
           }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_deletion.md"
+                "file": "ProgramLanguages/SQL/SQL_relations.md"
               }
             }
           },
@@ -190,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_deletion.md",
+                "file": "ProgramLanguages/SQL/SQL_relations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,7 +240,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "61b6b073dac95afd",
+  "active": "8acd23303f111049",
   "lastOpenFiles": [
     "Networking/Transmission_mediums.md",
     "Networking/Routing_methods.md",
