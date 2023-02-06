@@ -28,13 +28,12 @@ ___
 - Web pages are written in HTML and transferred between server and client
 ## Response sequence
 
->![[Pasted image 20211109094505.png|500|500]]
+>![[Pasted image 20211109094505.png|450|450]]
 
 ## Internet architecture
 
->![[Pasted image 20211109094734.png|500|500]]
+>![[Pasted image 20211109094734.png|450|450]]
 
-- Presentation is mostly whats missing from 2 tier architecture.
 ### Presentation tier
 - Data display / input
 - Verification (HTML/Javascript input form verification)
