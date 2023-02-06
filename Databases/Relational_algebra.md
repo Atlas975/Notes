@@ -17,9 +17,13 @@ ___
 
 - A mathematical language used to manipulate and query [[Database_relations|relational databases]], 
 - Uses algebraic operations that are equivalent to those in [[SQL_language|SQL]]  
+- Takes 1+ relations as input and outputs a new [[Relations|relation]] 
 
 > $\sigma =\text{select} \color{gold}\text{ (where clause)}$ 
 > $\Pi=\text{project} \color{gold}\text{ (select clause, specifies columns)}$
 > $-=\text{set difference} \color{gold}\text{ (left join where null)}$
-> $\times=\text{cartesian product} \color{gold}\text{( from)}$ 
-> $\cup=\text{union}$ 
+> $\times=\text{cartesian product} \color{gold}\text{ (from clause)}$ 
+> $\cup=\text{union} \color{gold}\text{ (union join)}$
+> $\Join$
+
+ 

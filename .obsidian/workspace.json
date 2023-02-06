@@ -4,89 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "17cb86e20481dfa3",
+        "id": "ceeaa1bab8cc3353",
         "type": "tabs",
         "children": [
           {
-            "id": "d0fa8f947e313ec3",
+            "id": "cb7a05a47324af4a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Network_basics.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "64d54d4ccfa9141a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Database_systems.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "67c92fce17839367",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/SQL/SQL_deletion.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0bdff5ddc7d59c95",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Database_constraints.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e790a99f1b74f942",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Database_relations.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9bcc5edb8723a663",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Machine_learning_notation.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e698840d1e7213d4",
+            "id": "5f684ff5caa64f07",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -97,48 +27,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "5936a22deb7c595d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/SQL/SQL_deletion.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1081bb9957e1f1c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/SQL/SQL_deletion.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "516ba73ff5d0c53a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Database_constraints.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ADTs",
+                "query": "tag:#Programming",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -202,7 +93,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "e76f9604c96a6f00",
@@ -315,17 +207,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e698840d1e7213d4",
+  "active": "5f684ff5caa64f07",
   "lastOpenFiles": [
-    "ProgramLanguages/SQL/SQL_deletion.md",
-    "ProgramLanguages/SQL/SQL_language.md",
     "Databases/Relational_algebra.md",
-    "MachineLearning/Machine_learning_notation.md",
-    "Databases/Database_relations.md",
     "Databases/Database_constraints.md",
+    "ProgramLanguages/SQL/SQL_deletion.md",
+    "Networking/Network_basics.md",
     "Databases/Database_systems.md",
+    "Databases/Database_relations.md",
+    "MachineLearning/Machine_learning_notation.md",
+    "ProgramLanguages/SQL/SQL_language.md",
     "SoftwareDesign/Entity_relationship_model.md",
-    "Databases/Database_design.md",
-    "Networking/Network_basics.md"
+    "Databases/Database_design.md"
   ]
 }
