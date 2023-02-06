@@ -20,10 +20,13 @@ ___
 # SQL language
 
 ## Order of operations
+
 >![[Pasted image 20211112105450.png|450|450]]
 >![[Pasted image 20220605145618.png|450|450]]
 Note that using AND will return results with 0, WHERE filters results down completely, ignoring nulls and 0s.
+
 # Aggregate functions
+
 >![[Pasted image 20211112110620.png|450|450]]
 
 ## GROUP BY
@@ -34,12 +37,16 @@ SELECT region, AVG(students) FROM unis GROUP BY region;
 
 ## HAVING
 - Unlike where, the having clause can filter by aggregate functions
+
 >![[Pasted image 20220211214421.png]]
 
 # SQL common data types
+
 >![[Pasted image 20211112224739.png]]
-# Table 
+
+# Table
 ## Creation
+
 > CREATE TABLE mytable(
 id int unsigned NOT NULL auto_increment,
 username VARCHAR(100) NOT NULL,
@@ -51,6 +58,7 @@ PRIMARY KEY(id)
 ##### Example 3 linked tables schema
 
 >![[Pasted image 20220605203338.png]]
+
 ```sql
 #note foreign key syntax can vary, current is for mySQL
 CREATE TABLE Airlines (
@@ -108,61 +116,87 @@ VALUES
 - Foreign keys (eg Names) cross-reference data between tables.
 
 ## Foreign keys
+
 >![[Pasted image 20211112225055.png|500|500]]
 >ALTER TABLE orders ADD FOREIGN KEY (salesPersonID) REFERENCES employees(employeeID) ;
+
 ## Insertion
+
 > INSERT INTO mytable (username,email)
 VALUES("Adil","Adil@gmail");
 
 #### Both single and double quotes work
 ## Alter
+
 > ALTER TABLE orders ADD FOREIGN KEY (customerID) REFERENCES people(person ID);
+
 ## Delete
+
 >DELETE FROM mytable WHERE id=8;
 
 # Database
 ## View databases
+
 > SHOW databases;
 
 ## Show tables while in database
->SHOW tables;
 
+>SHOW tables;
 
 # Select
 ## Generic
+
 >SELECT * FROM _table_name_;
+
 ## Multiple rows
+
 >SELECT _column1_, _column2, ..._  
 FROM _table_name_;
 
 # Between
 - Selects in a range:
+
 >SELECT * FROM Products  
 WHERE Price BETWEEN 10 AND 20;
 
-# In 
+# In
 - Filters to specific columns
+
 > SELECT name FROM unis WHERE region IN ('North West', 'North East');
 
-# SQL Joins 
+# SQL Joins
 [[Sets]]
+
 >![[Pasted image 20220120173210.png]]
+
 - Joining two tables without a filter will return the [[Sets#Cartesian product]] of the two tables. An example of filtering without joins:
+
 >![[Pasted image 20211127172815.png]]
+
 - Natural join example:
+
 >![[Pasted image 20211127181622.png]]
+
 - Three table example:
+
 >![[Pasted image 20211127181926.png]]
 >![[Pasted image 20211127182002.png]]
+
 - Left/right join examples:
+
 >![[Pasted image 20211127183335.png]]
 >![[Pasted image 20211127183434.png]]
+
 - Outer join example: **NOT MYSQL supported**
+
 >![[Pasted image 20211127183719.png]]
+
 ## Union (full merge)
+
 >SELECT city FROM employees  
 UNION  
 SELECT city FROM customers;
+
 - Must return:
 1. Same num of columns
 2. Same data type
@@ -170,72 +204,102 @@ SELECT city FROM customers;
 # Wildcard / Like operator
 ![[Pasted image 20211119124008.png]]
 - Special case: stars with L,any character,n,any character,on
+
 >SELECT * FROM Customers  
 WHERE City LIKE 'L_n_on';
+
 # SUBSTR
 - Example: check if first two letters are equal to a substring
+
 >![[Pasted image 20220123212152.png]]
+
 # Is NULL
 - Selects all rows that have a specific column equal to NULL.
 
 > SELECT * FROM unis WHERE founded IS NULL
 
-
 # EXTRACT operator
 - Allows for a specific format of a date to be extracted from the **date** data type
+
 >![[Pasted image 20220216095901.png]]
+
 - Example:
 ```sql
 SELECT EXTRACT(WEEK FROM "2017-06-15");
 ```
+
 >output:24
 
 # ORDER BY
 - Orders retrieved data:
 - Order by descending
+
 >SELECT * students FROM school ORDER BY students DESC;
+
 - Order by ascending
+
 >SELECT * students FROM school ORDER BY students ASC;
 
 # LIMIT
 - Limits the amount of rows returned by a query
+
 > SELECT students FROM school ORDER BY students DESC LIMIT 5;
 
 # Subqueries
 ** SQL is optimized for joins, as such operations using them are faster than subqueries**
 - Typically used in where clause to further filter data
 - Example:
+
 >![[Pasted image 20211204194348.png]]
+
 - Aggregate functions can be used to make sure only a single value is returned
 - Example:
+
 >![[Pasted image 20211204194545.png]]
+
 - Example of sub vs join
+
 >![[Pasted image 20211204195219.png]]
+
 ## Multi-layer subquery
+
 >![[Pasted image 20211204201044.png]]
+
 # In operator
 - Another method of ensuring only one value is returned, it returns TRUE if a value is in a list of values 
+
 >![[Pasted image 20211204195008.png]]
 
 ## Correlated subqueries
 - Performs boolean checks
+
 >![[Pasted image 20211204200539.png]]
+
 - Examples:
+
 >![[Pasted image 20211204200357.png|500|500]]
 >![[Pasted image 20211204200657.png|500|500]]
+
 - Complex query example:
+
 >![[Pasted image 20211207091855.png]]
+
 ## Not exist (outer join)
+
 >![[Pasted image 20211204201211.png]]
 
 # SQL case formatting
+
 >![[Pasted image 20220117231743.png]]
 >![[Pasted image 20220131185849.png]]
 
 # SQL CAST
 - SQL common cast options
+
 >![[Pasted image 20220127230355.png]]
+
 - Allows for a datatype to be changed, eg string to float
+
 >![[Pasted image 20220123213408.png]]
 >![[Pasted image 20220123213642.png]]
 
@@ -254,18 +318,24 @@ GROUP BY p.patient
 
 # SQL COALESCE
 - Alternative to IS NULL
-- Example, check product first than check product code if thats null
+- Example, check product first than check product code if that's null
+
 >![[Pasted image 20220123214059.png]]
 
 # Temporary tables
+
 >![[Pasted image 20220129124752.png]]
 >![[Pasted image 20220129124244.png]]
+
 - Appending data to tables:
+
 >![[Pasted image 20220129124515.png|300|300]]
 
 # WITH keyword
 - A method of creating temporary tables in order to help debug code
+
 >![[Pasted image 20220212162636.png]]
+
 - Complex example
 ```q;
                WITH RelevantRides AS
@@ -283,27 +353,41 @@ GROUP BY p.patient
 ```
 
 # RANK()
+
 >![[Pasted image 20220222154508.png]]
+
 # ROW_NUMBER()
+
 >![[Pasted image 20220222154411.png]]
+
 # DENSE_RANK()
+
 >![[Pasted image 20220222154601.png]]
 >![[Pasted image 20220222154632.png]]
 
 # NTITLE()
+
 >![[Pasted image 20220222155256.png]]
 
 # Analytic functions
+
 >![[Pasted image 20220221165640.png]]
+
 - Example:
+
 >![[Pasted image 20220221170329.png]]
 >![[Pasted image 20220221170348.png]]
+
 # PARTITION BY
+
 >![[Pasted image 20220221165540.png]]
+
 - Example:
+
 >![[Pasted image 20220221170759.png]]
 >![[Pasted image 20220221170953.png]]
 >![[Pasted image 20220221171901.png]]
+
 - Partition by with row numbers
 ```
 SELECT Customercity,
@@ -328,10 +412,14 @@ FROM [dbo].[Orders];
 ```
 
 # TIMESTAMPDIFF()
+
 >![[Pasted image 20220222204220.png]]
 
 # Nested data
+
 >![[Pasted image 20220222211651.png]]
+
 # Repeated data
+
 >![[Pasted image 20220222211934.png]]
 >![[Pasted image 20220222212038.png]]

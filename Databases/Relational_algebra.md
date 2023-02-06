@@ -15,11 +15,11 @@
 ___
 # Relational algebra
 
-- A mathematical language used to manipulate and query [[Database_relations|relational databases]], with algebraic operations are equivalent to those in [[SQL_language|SQL]]  
+- A mathematical language used to manipulate and query [[Database_relations|relational databases]], 
+- Uses algebraic operations that are equivalent to those in [[SQL_language|SQL]]  
 
-> $\sigma =\text{select}$
-> $\Pi=\text{project}$
-> $-=\text{set difference}$
-> $\times=\text{cartesian product}$
-> $\cup=\text{union}$
-> 
+> $\sigma =\text{select} \color{gold}\text{ (where clause)}$ 
+> $\Pi=\text{project} \color{gold}\text{ (select clause, specifies columns)}$
+> $-=\text{set difference} \color{gold}\text{ (left join where null)}$
+> $\times=\text{cartesian product} \color{gold}\text{( from)}$ 
+> $\cup=\text{union}$ 
