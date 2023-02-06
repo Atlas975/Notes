@@ -1,3 +1,6 @@
+---
+aliases: relational databases
+---
 > [!important]- Metadata
 > **Tags:** #Databases 
 > **Located:** Databases

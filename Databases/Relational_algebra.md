@@ -14,6 +14,9 @@
 
 ___
 # Relational algebra
+
+- A mathematical language used to manipulate and query [[Database_relations|relational databases]], with algebraic operations are equivalent to those in [[SQL_language|SQL]]  
+
 > $\sigma =\text{select}$
 > $\Pi=\text{project}$
 > $-=\text{set difference}$
