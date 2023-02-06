@@ -40,9 +40,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8acd23303f111049",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ProgramLanguages/SQL/SQL_deletion.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Transmission_mediums.md",
+                "file": "ProgramLanguages/SQL/SQL_deletion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Transmission_mediums.md"
+                "file": "ProgramLanguages/SQL/SQL_deletion.md"
               }
             }
           }
@@ -151,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Transmission_mediums.md"
+                "file": "ProgramLanguages/SQL/SQL_deletion.md"
               }
             }
           },
@@ -177,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Transmission_mediums.md",
+                "file": "ProgramLanguages/SQL/SQL_deletion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,12 +240,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7f5fe321d5a17758",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
+    "Networking/Transmission_mediums.md",
     "Networking/Routing_methods.md",
     "Networking/Network_infrastructure.md",
     "Networking/Internet_infrastructure.md",
-    "Networking/Transmission_mediums.md",
     "Databases/Relational_algebra.md",
     "MachineLearning/Feature_scaling.md",
     "OperatingSystems/FileSystems/FAT_file_system.md",
