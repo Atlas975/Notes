@@ -29,6 +29,6 @@ ___
 > $\cup=\text{union} \color{gold}\text{ (union join)}$
 > $\cap=\text{intersection}\color{gold}\text{ (inner join)}$
 > $\Join=\text{join} \color{gold}\text{ (standard join)}$
-> $\rho=\text{rename} \color{gold} \text{ (as command)} $
+> $\rho=\text{rename} \color{gold} \text{ (as command)}$
 
  
