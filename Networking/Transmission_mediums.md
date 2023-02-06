@@ -20,10 +20,18 @@ ___
 
 
 ## Digital subscriber line (DSL)
-- A physical cable to a DSL modem (a device that connects other devices to the internet using DSL), converts [[Transmission_mediums#Digital transmission|digital signals]] from these devices to [[Transmission_mediums#Analogue transmission|analogue transmissions]] that work over network lines and vise versa
+- A physical cable to a **DSL modem** (a device that connects other devices to the internet using DSL), converts [[Transmission_mediums#Digital transmission|digital signals]] from these devices to [[Transmission_mediums#Analogue transmission|analogue transmissions]] that work over network lines. This can also be done vise versa 
 - Uses an existing telephone line, the splitter transmits voice data from the phone line and data from devices at different frequencies that travel to the telephone net and internet respectively
 
-> ![[Pasted image 20230206151918.png|400|400]]
+> ![[Pasted image 20230206151918.png|450|450]]
+
+## Cable-based access
+- Data transmitted over shared cable structure, transmits digital signal, low cost and high speed
+- Similar to DSL uses **frequency division multiplexing (FDM)** to have distinct frequency bands for each channel
+- Homes use shared access network cable that goes directly to the users **ISP** (internet service provider). Shared broadcast medium to headhend, speed can slow during peak times
+> ![[Pasted image 20230206155325.png|550|550]]
+
+## Fiber to home (FH)
 
 ## Transmission types
 ### Digital transmission

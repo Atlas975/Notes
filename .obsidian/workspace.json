@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ceeaa1bab8cc3353",
+        "id": "c37752a61157fcc9",
         "type": "tabs",
         "children": [
           {
-            "id": "cb7a05a47324af4a",
+            "id": "ca8da33f9b5a9dc3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -16,142 +16,12 @@
             }
           },
           {
-            "id": "5f684ff5caa64f07",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Feature_scaling.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7f5fe321d5a17758",
+            "id": "6a917ab2002dd5e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Networking/Transmission_mediums.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8acd23303f111049",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/SQL/SQL_relations.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "31851b25faf40961",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DiscreteMath/Relations.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8b6234ae6f1d0fc7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Database_relations.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fe3829d0d131bbd6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/SQL/SQL_language.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "24dba670b4e49485",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-CoursesPart1/MathForML_course/Calculus/Newton-Raphson.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "76da0285199917bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Transmission_mediums.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "881c14c685d1aceb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Transmission_mediums.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7abbd12825cfd6bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DataStructures/Graphs.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "24eeb3278120900e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-CoursesPart1/MachineLearning/Neural_networks(depreciated).md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -159,7 +29,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -344,17 +214,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "76da0285199917bc",
+  "active": "6a917ab2002dd5e7",
   "lastOpenFiles": [
-    "Networking/Network_transmission.md",
+    "MachineLearning/Feature_scaling.md",
     "Networking/Transmission_mediums.md",
-    "Networking/Network_infrastructure.md",
-    "Networking/Internet_infrastructure.md",
-    "DataStructures/Graphs.md",
-    "Networking/Internet_protocols.md",
-    "MachineLearning/0-CoursesPart1/MathForML_course/Calculus/Newton-Raphson.md",
-    "ProgramLanguages/SQL/SQL_language.md",
+    "ProgramLanguages/SQL/SQL_relations.md",
+    "DiscreteMath/Relations.md",
     "Databases/Database_relations.md",
-    "Databases/Database_systems.md"
+    "ProgramLanguages/SQL/SQL_language.md",
+    "MachineLearning/0-CoursesPart1/MathForML_course/Calculus/Newton-Raphson.md",
+    "DataStructures/Graphs.md",
+    "MachineLearning/0-CoursesPart1/MachineLearning/Neural_networks(depreciated).md",
+    "Networking/Network_transmission.md"
   ]
 }
