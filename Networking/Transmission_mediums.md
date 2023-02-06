@@ -29,10 +29,14 @@ ___
 - Data transmitted over shared cable structure, transmits digital signal, low cost and high speed
 - Similar to DSL uses **frequency division multiplexing (FDM)** to have distinct frequency bands for each channel
 - Homes use shared access network cable that goes directly to the users **ISP** (internet service provider). Shared broadcast medium to headhend, speed can slow during peak times
+
 > ![[Pasted image 20230206155325.png|550|550]]
 
 ## Fiber to home (FH)
+- Uses a fiber-optic cable network that runs directly to a users home, transmission is dedicated and extremely fast but difficult to install
+- Better security as less potential for interference 
 
+> ![[Pasted image 20230206160313.png|550|550]]
 ## Transmission types
 ### Digital transmission
 - Continuous in time, discrete in level, 1 indicates positive voltage, 0 indicates no voltage

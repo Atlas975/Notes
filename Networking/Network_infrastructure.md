@@ -4,10 +4,9 @@
 - In hertz, refers to the range of frequencies that a medium can allow to pass.
 - Certain bit rates may be needed for accurate data transmission.
 # Throughput
-- How fast data can actually be transmitted
+- How fast data can actually be transmitted, when factoring in congestion, interference etc
 - Bandwidth is potential bit rate throughput gives true measurement.
-- eg. a highway meant to transfer 1000 cars per min being reduced to 100 due to congestion.
-- If multiple transfer speeds are present, use lowest bandwidth as throughput, acts as a bottleneck. 
+- Lowest transmission speed acts as a bottleneck, so with multiple transmission speeds the lowest bandwidth becomes the one in use 
 # Sampling
 - Sampling of signals is done at twice the bandwidth
 - Min of two readings per cycle needed to reconstruct signal.

@@ -21,8 +21,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Transmission_mediums.md",
-                "mode": "preview",
+                "file": "Networking/Network_infrastructure.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -74,7 +74,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Transmission_mediums.md",
+                "file": "Networking/Network_infrastructure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Transmission_mediums.md"
+                "file": "Networking/Network_infrastructure.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Transmission_mediums.md"
+                "file": "Networking/Network_infrastructure.md"
               }
             }
           },
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Transmission_mediums.md",
+                "file": "Networking/Network_infrastructure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,15 +216,15 @@
   },
   "active": "6a917ab2002dd5e7",
   "lastOpenFiles": [
-    "MachineLearning/Feature_scaling.md",
+    "Networking/Network_transmission.md",
     "Networking/Transmission_mediums.md",
+    "MachineLearning/Feature_scaling.md",
     "ProgramLanguages/SQL/SQL_relations.md",
     "DiscreteMath/Relations.md",
     "Databases/Database_relations.md",
     "ProgramLanguages/SQL/SQL_language.md",
     "MachineLearning/0-CoursesPart1/MathForML_course/Calculus/Newton-Raphson.md",
     "DataStructures/Graphs.md",
-    "MachineLearning/0-CoursesPart1/MachineLearning/Neural_networks(depreciated).md",
-    "Networking/Network_transmission.md"
+    "MachineLearning/0-CoursesPart1/MachineLearning/Neural_networks(depreciated).md"
   ]
 }
