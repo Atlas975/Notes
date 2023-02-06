@@ -53,7 +53,33 @@
               "type": "markdown",
               "state": {
                 "file": "Databases/Database_constraints.md",
-                "mode": "preview",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e790a99f1b74f942",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Relational_algebra.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9bcc5edb8723a663",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Machine_learning_notation.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -86,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -131,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_constraints.md",
+                "file": "Databases/Relational_algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_constraints.md"
+                "file": "Databases/Relational_algebra.md"
               }
             }
           }
@@ -187,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_constraints.md"
+                "file": "Databases/Relational_algebra.md"
               }
             }
           },
@@ -213,7 +239,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_constraints.md",
+                "file": "Databases/Relational_algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -263,17 +289,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0bdff5ddc7d59c95",
+  "active": "e790a99f1b74f942",
   "lastOpenFiles": [
+    "MachineLearning/Machine_learning_notation.md",
+    "Databases/Relational_algebra.md",
+    "Databases/Database_constraints.md",
     "Databases/Database_relations.md",
     "Databases/Database_systems.md",
-    "Databases/Database_constraints.md",
     "ProgramLanguages/SQL/SQL_deletion.md",
     "SoftwareDesign/Entity_relationship_model.md",
     "Databases/Database_design.md",
     "Networking/Network_basics.md",
-    "Networking/Routing_methods.md",
-    "SoftwarePatterns/Behavioral/Iterator_pattern.md",
-    "OperatingSystems/DigitalSystems/ASCII.md"
+    "Networking/Routing_methods.md"
   ]
 }
