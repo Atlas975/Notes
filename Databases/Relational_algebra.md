@@ -31,8 +31,17 @@ ___
 > $\Join=\text{join} \color{gold}\text{ (standard join)}$
 > $\rho=\text{rename} \color{gold} \text{ (as command)}$
 
- 
+
 ## Select 
+> ![[Pasted image 20230206124001.png|600|600]]
 
-> ![[Pasted image 20230206122335.png|600|600]]
+## Project 
+> ![[Pasted image 20230206124240.png|600|600]]
 
+
+## Union 
+> ![[Pasted image 20230206124432.png|600|600]]
+
+
+## Set difference 
+> ![[Pasted image 20230206124622.png|600|600]]

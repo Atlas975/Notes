@@ -414,8 +414,8 @@
   "multi-column-markdown:insert-multi-column-region": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Alt",
+        "Mod"
       ],
       "key": "M"
     }
