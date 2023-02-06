@@ -3,23 +3,23 @@
 > **Located:** Networking
 > **Created:** 23/01/2023 - 14:18
 > ```dataviewjs
->let loc = dv.current().file.path;
->let cur = dv.page(loc).file;
+>let cur = dv.current().file;
+>let loc = cur.path;
 >let links = cur.inlinks.concat(cur.outlinks).array().map(p => p.path);
 >let paths = new Set(links.filter(p => !p.endsWith(".png")));
 >paths.delete(loc);
->dv.table(["Connections",  "Tags"], dv.array(Array.from(paths)).map(p => [
->   dv.fileLink(p),dv.page(p).file.tags.join("")]).slice(0, 20));
+>dv.table(["Connections",  "Tags"], dv.array(Array.from(paths).slice(0, 20)).map(p => [
+>   dv.fileLink(p),dv.page(p).file.tags.join("")]));
 > ```
 
 ___
-# Routing methods
+# Network transmission
+<% tp.file.cursor(2) %>
 
-## Circuit vs packet switching
-- Packet switching is more cost efficient, packets don't don't need a dedicated channel to travel to their destination.
-- Packet switching is more resource efficient, not using channels throughout the delivery of data.
-- Circuit switching allows for data to be delivered at a consistent bandwidth
-- Circuit switching allows for data to be delivered with minimum delay, better timeliness.
+
+
+
+
 
 # Packet switching
 - Method of creating temporary connections between devices using **switches**.
@@ -29,17 +29,23 @@ ___
 
 > ![[Pasted image 20211030163652.png|500]]
 
-## Switches
+### Switches
 - Connect devices together
 - Set of interlinked nodes
-## Packets
+### Packets
 - Packets can follow different paths from source to destination. 
 - Recompiled at end node.
-# Circuit switching (time division)
+## Circuit switching (time division)
 - Networks connected by physical links, designed specifically for voice communication.
 - Time division is whats used to allow multiple access by allocating time slots to users.
 - Circuits can share links have have limited capacity but new links cant be made if capacity is reached.
 - Each circuit allocated fixed amount of link capacity, wasted on silent telephone lines for example.
 - Like a liquid, data flows continuously and path is fixed 
 - Requires very high bandwidth to handle traffic.
+
+## Circuit vs packet switching
+- Packet switching is more cost efficient, packets don't don't need a dedicated channel to travel to their destination.
+- Packet switching is more resource efficient, not using channels throughout the delivery of data.
+- Circuit switching allows for data to be delivered at a consistent bandwidth
+- Circuit switching allows for data to be delivered with minimum delay, better timeliness.
 
