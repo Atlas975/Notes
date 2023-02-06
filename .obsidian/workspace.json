@@ -52,8 +52,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_deletion.md",
-                "mode": "source",
+                "file": "Databases/Database_constraints.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_deletion.md",
+                "file": "Databases/Database_constraints.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_deletion.md"
+                "file": "Databases/Database_constraints.md"
               }
             }
           }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_deletion.md"
+                "file": "Databases/Database_constraints.md"
               }
             }
           },
@@ -213,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_deletion.md",
+                "file": "Databases/Database_constraints.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,8 +265,8 @@
   },
   "active": "0bdff5ddc7d59c95",
   "lastOpenFiles": [
-    "SoftwareDesign/Entity_relationship_model.md",
     "ProgramLanguages/SQL/SQL_deletion.md",
+    "SoftwareDesign/Entity_relationship_model.md",
     "Databases/Database_constraints.md",
     "Databases/Data_relation_model.md",
     "Databases/Database_systems.md",

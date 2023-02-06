@@ -119,30 +119,6 @@
         }
       }
     },
-    "Embedded": {
-      "Embedded": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1673013313031
-        }
-      }
-    },
-    "Preferred": {
-      "Preferred": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1673013619569
-        }
-      }
-    },
-    "resources": {
-      "resources": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1673013522141
-        }
-      }
-    },
     "operation": {
       "operation": {
         "currentFile": {
@@ -866,8 +842,8 @@
     "Integrity": {
       "Integrity": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1675538209251
+          "count": 2,
+          "lastUpdated": 1675645150164
         }
       }
     },
@@ -932,6 +908,38 @@
         "currentFile": {
           "count": 2,
           "lastUpdated": 1675603769149
+        }
+      }
+    },
+    "Network_basics": {
+      "Network_basics": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1675645264556
+        }
+      }
+    },
+    "REFERENCES": {
+      "REFERENCES": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675645322607
+        }
+      }
+    },
+    "Employees": {
+      "Employees": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675645326187
+        }
+      }
+    },
+    "CASCADE": {
+      "CASCADE": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675645348378
         }
       }
     }

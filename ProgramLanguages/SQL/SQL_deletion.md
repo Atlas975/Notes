@@ -129,7 +129,7 @@ CREATE TABLE enrollments (
     FOREIGN KEY (course_id) REFERENCES courses(id) ON DELETE CASCADE
 );
 ```
-## Unary relations 
+## Unary relations
 
 ```sql
 CREATE TABLE family (
@@ -139,11 +139,19 @@ CREATE TABLE family (
     FOREIGN KEY (father_id) REFERENCES family(id) ON DELETE CASCADE
 );
 ```
+
 > ![[Pasted image 20230205133433.png|550|550]]
 
-## Weak entities 
+## Weak entities
 ```sql
-CREATE TABLE Dep_policy (
-    pname: 
-)
+CREATE TABLE Policy (
+    ssn VARCHAR(11) NOT NULL
+    pname VARCHAR(20)
+    age INT 
+    cost REAL 
+    PRIMARY KEY (ssn, pname)
+    FOREIGN KEY (ssn) REFERENCES Employees(ssn) ON DELETE CASCADE  
+);
 ```
+
+> ![[Pasted image 20230206010026.png|600|600]]
