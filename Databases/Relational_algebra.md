@@ -32,3 +32,7 @@ ___
 > $\rho=\text{rename} \color{gold} \text{ (as command)}$
 
  
+## Select 
+
+> ![[Pasted image 20230206122335.png|600|600]]
+
