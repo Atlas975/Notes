@@ -53,9 +53,87 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "31851b25faf40961",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMath/Relations.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8b6234ae6f1d0fc7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Database_relations.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fe3829d0d131bbd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ProgramLanguages/SQL/SQL_language.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "24dba670b4e49485",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/0-CoursesPart1/MathForML_course/Calculus/Newton-Raphson.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "76da0285199917bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Internet_infrastructure.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "24eeb3278120900e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/0-CoursesPart1/MachineLearning/Neural_networks(depreciated).md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -100,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_relations.md",
+                "file": "Networking/Internet_infrastructure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_relations.md"
+                "file": "Networking/Internet_infrastructure.md"
               }
             }
           }
@@ -164,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_relations.md"
+                "file": "Networking/Internet_infrastructure.md"
               }
             }
           },
@@ -190,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_relations.md",
+                "file": "Networking/Internet_infrastructure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,17 +318,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8acd23303f111049",
+  "active": "76da0285199917bc",
   "lastOpenFiles": [
-    "Networking/Transmission_mediums.md",
-    "Networking/Routing_methods.md",
     "Networking/Network_infrastructure.md",
-    "Networking/Internet_infrastructure.md",
+    "MachineLearning/0-CoursesPart1/MathForML_course/Calculus/Newton-Raphson.md",
+    "ProgramLanguages/SQL/SQL_language.md",
+    "Databases/Database_relations.md",
+    "Databases/Database_systems.md",
     "Databases/Relational_algebra.md",
-    "MachineLearning/Feature_scaling.md",
-    "OperatingSystems/FileSystems/FAT_file_system.md",
-    "SoftwarePatterns/Behavioral/Iterator_pattern.md",
-    "OperatingSystems/Caching.md",
-    "SoftwarePatterns/Structural/Proxy_pattern.md"
+    "Databases/Database_constraints.md",
+    "Databases/Database_design.md",
+    "MachineLearning/0-CoursesPart1/MachineLearning/Neural_networks(depreciated).md",
+    "DiscreteMath/Relations.md"
   ]
 }
