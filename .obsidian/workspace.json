@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Network_infrastructure.md",
+                "file": "Networking/Network_traits.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -74,7 +74,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Network_infrastructure.md",
+                "file": "Networking/Network_traits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_infrastructure.md"
+                "file": "Networking/Network_traits.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_infrastructure.md"
+                "file": "Networking/Network_traits.md"
               }
             }
           },
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Network_infrastructure.md",
+                "file": "Networking/Network_traits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
