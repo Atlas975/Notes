@@ -13,7 +13,7 @@
 > ```
 
 ___
-# Data relation model
+# Database relations
 - [[Database_systems|Database]] [[Relations|relation]] models are formed from a set of tuples, this is made up of two parts 
 	- **Relation instance**: a table with rows and columns consisting of a number of **Rows/tuples** (cardinality) and a number of **fields/attributes** (degree/arity)
 	- **Relation schema**: highlights the relation name and type (domain) for each column 

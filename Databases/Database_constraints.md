@@ -23,7 +23,7 @@ ___
 ## Domain constraints
 - Values in tuples should obey it's domain / datatype
 - This constraint ensures all values in the same column / attribute can be processed the same way by having a predefined datatype that can be inserted 
-## Key constraints
+## Referential constraints
 - Enforces **referential integrity**, ensures keys of a relation being unique, non-redundant as well as being non-null.
 - In order for the DBMS to preserve [[Entity_relationship_model#Relation set|entity relations]], the [[Relations|relation]] must be made with keys
 ## Integrity constraints
@@ -40,7 +40,6 @@ ___
 - A key attribute can distinguish a tuple row 
 - A **candidate key** is any set of attributes present in a table that can uniquely identify a row 
 - A **composite key** is a set of attributes that distinguish a row
-## Key traits
 - In order to enforce key constraints a set of attributes is a key for a relation if:
 	1. Have no identical tuples with the same values in all fields 
 	2. This is not true for the key's subset
