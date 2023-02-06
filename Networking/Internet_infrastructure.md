@@ -21,9 +21,10 @@ ___
 	- **Switches**: used to forward packet (data blocks) down links 
 
 > ![[Pasted image 20230123143523.png|400|400]]
+
 - The internet itself can be taught of as a network of networks with protocols such as TCP / IP / HTTP governing the way data is transmitted. 
 - Internet standards also exist to define how communication over the internet needs to be established between hosts
-## Web 
+## Web
 - An interconnected systems of public web pages that can be accessed through the internet 
 - Web pages are written in HTML and transferred between server and client
 ## Response sequence
@@ -46,6 +47,12 @@ ___
 - Stores data and returns data to logic tier.
 - Data stored in DBMS, all database functions are handled here. 
 
+## Internet structure
+- The structure of an internet can be divided into 3 core components 
+- **Network edges**: the ends of a network, also known as hosts / end systems / clients, these are the end points of the internet, hosting applications on client devices, IOT and network servers 
+- **Access networks**: wired / wireless communication links eg routers 
+- **Network crore** 
+- Interconnected routers in a network of networks 
 # Protocols
 - The rules the sender, receiver and devices need to follow for effective data communication.
 - Part of **transport layer** of the OSI model 
@@ -105,6 +112,7 @@ in this case one must talk the other listen.
 - An Ethernet switch operating on the first two layers (**physical & data link**) that can examine arriving packet's MAC address and determine which port to forward to.
 - Note routers in general only operate on the first two layers and only these protocols need to be changed when replacing a router. 
 # Exchange using OSI
-> ![[Pasted image 20211106001757.png|450|450]]
-- Headers are what allow distinguishing between layers.
 
+> ![[Pasted image 20211106001757.png|450|450]]
+
+- Headers are what allow distinguishing between layers.
