@@ -1,3 +1,6 @@
+---
+aliases: relational algebra 
+---
 > [!important]- Metadata
 > **Tags:** #Databases #DiscreteMath 
 > **Located:** Databases
