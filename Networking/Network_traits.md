@@ -32,7 +32,7 @@ ___
 - 
 
 ## Network criteria 
-- Effective communication in a network requires abiding by specific criteria:  
+- Effective  communication ov
 ### Delivery
 - Data needs to arrive to correct device only
 ### Accuracy

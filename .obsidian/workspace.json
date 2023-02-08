@@ -22,7 +22,7 @@
               "type": "markdown",
               "state": {
                 "file": "Networking/Network_traits.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -42,7 +42,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataStructures/CacheStructures/LRU.md",
+                "file": "Networking/Network_traits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/CacheStructures/LRU.md"
+                "file": "Networking/Network_traits.md"
               }
             }
           }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/CacheStructures/LRU.md"
+                "file": "Networking/Network_traits.md"
               }
             }
           },
@@ -177,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataStructures/CacheStructures/LRU.md",
+                "file": "Networking/Network_traits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,8 +227,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b98f97dcc5c67aaf",
+  "active": "6a917ab2002dd5e7",
   "lastOpenFiles": [
+    "DataStructures/CacheStructures/LRU.md",
     "DataStructures/CacheStructures/LFU.md",
     "Networking/Network_traits.md",
     "Networking/Network_transmission.md",
@@ -237,7 +238,6 @@
     "ProgramLanguages/SQL/SQL_relations.md",
     "DiscreteMath/Relations.md",
     "Databases/Database_relations.md",
-    "ProgramLanguages/SQL/SQL_language.md",
-    "MachineLearning/0-CoursesPart1/MathForML_course/Calculus/Newton-Raphson.md"
+    "ProgramLanguages/SQL/SQL_language.md"
   ]
 }
