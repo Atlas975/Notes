@@ -16,44 +16,44 @@ ___
 # LFU
 - [[Caching|Cache]] eviction algorithm based on the **least frequently used** principle, with equal frequencies then using a queue based [[LRU]] eviction scheme to prioritise removal 
 - Ideal when item access is repetitive, protecting high usage items from a burst of new requests
-- Suffers from the [[Caching#Coldstart problem|coldstart problem]] as item retaining is based on frequency, newer items would struggle to enter and remain in the cache 
+- Suffers from the [[Caching#Coldstart problem|coldstart problem]] as item retaining is based on frequency, newer items can struggle to enter and remain in the cache 
 
 ## LFU algorithm 
 ```python
 class LFUCache:
     def __init__(self, cap: int):
         self.cap = cap
-        self.f_k_v = defaultdict(OrderedDict)
-        self.k_f = {}
+        self.fkv = defaultdict(OrderedDict)
+        self.kf = {}
         self.minf = 1
 
+    def update(self, key: int, freq: int, new_val: int) -> None:
+        self.fkv[freq + 1][key] = new_val
+        self.kf[key] = freq + 1
+
+        if self.fkv[freq]:
+            return
+        del self.fkv[freq]
+        if self.minf == freq:
+            self.minf += 1
+
     def get(self, key: int) -> int:
-        if not (freq := self.k_f.get(key)):
-            return -1
-
-        value = self.f_k_v[freq].pop(key)
-        self.f_k_v[freq + 1][key] = value
-        self.k_f[key] = freq + 1
-
-        if not self.f_k_v[freq]:
-            del self.f_k_v[freq]
-            if self.minf == freq:
-                self.minf += 1
-        return value
+        if freq := self.kf.get(key):
+            value = self.fkv[freq].pop(key)
+            self.update(key, freq, value)
+            return value
+        return -1
 
     def put(self, key: int, value: int) -> None:
-        if key in self.k_f:
-            self.get(key)
-            self.f_k_v[self.k_f[key]][key] = value
+        if freq := self.kf.get(key):
+            self.fkv[freq].pop(key)
+            self.update(key, freq, value)
             return
 
-        self.cap -= 1
-        self.k_f[key] = 1
-        self.f_k_v[1][key] = value
-
-        if self.cap < 0:
-            fifo_k = self.f_k_v[self.minf].popitem(last=False)[0]
-            del self.k_f[fifo_k]
-            self.cap += 1
+        self.kf[key] = 1
+        self.fkv[1][key] = value
+        if len(self.kf) > self.cap:
+            fifo_k = self.fkv[self.minf].popitem(last=False)[0]
+            del self.kf[fifo_k]
         self.minf = 1
 ```

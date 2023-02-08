@@ -27,9 +27,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b98f97dcc5c67aaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DataStructures/CacheStructures/LRU.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -59,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Programming",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -74,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Network_traits.md",
+                "file": "DataStructures/CacheStructures/LRU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_traits.md"
+                "file": "DataStructures/CacheStructures/LRU.md"
               }
             }
           }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_traits.md"
+                "file": "DataStructures/CacheStructures/LRU.md"
               }
             }
           },
@@ -164,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Network_traits.md",
+                "file": "DataStructures/CacheStructures/LRU.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,8 +227,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6a917ab2002dd5e7",
+  "active": "b98f97dcc5c67aaf",
   "lastOpenFiles": [
+    "DataStructures/CacheStructures/LFU.md",
+    "Networking/Network_traits.md",
     "Networking/Network_transmission.md",
     "Networking/Transmission_mediums.md",
     "MachineLearning/Feature_scaling.md",
@@ -223,8 +238,6 @@
     "DiscreteMath/Relations.md",
     "Databases/Database_relations.md",
     "ProgramLanguages/SQL/SQL_language.md",
-    "MachineLearning/0-CoursesPart1/MathForML_course/Calculus/Newton-Raphson.md",
-    "DataStructures/Graphs.md",
-    "MachineLearning/0-CoursesPart1/MachineLearning/Neural_networks(depreciated).md"
+    "MachineLearning/0-CoursesPart1/MathForML_course/Calculus/Newton-Raphson.md"
   ]
 }
