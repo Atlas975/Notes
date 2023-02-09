@@ -22,11 +22,13 @@
 - Main functions:
 
 > ![[Pasted image 20211114173521.png]]
+
 # Stack
 - Works on a first in last out principle (FILO)
 - Use of stack include: function call stacks in a running program, navigating a maze, reversing a list
 
 ## Stack API
+
 >void push(item)  
 item pop()  
 item peek()
@@ -37,7 +39,7 @@ item peek()
 ## Starvation problem
 - Starvation: too many elements in a higher priority means lower priority queues never get accessed
 
-# Arrays 
+# Arrays
 ## Array pros
 - A single name can be used to represent multiple data types
 - Index positions can be used to quickly access values stored at different positions, faster than sequential searching.
@@ -46,7 +48,9 @@ item peek()
 - Inserting and deleting from arrays is difficult 
 
 ## Method of direct access to array element
+
 >![[Pasted image 20211213185052.png]]
+
 - Visual example:
 
 >![[Pasted image 20211213185148.png]]
@@ -75,6 +79,7 @@ item peek()
 - Set examples:
 
 >![[Pasted image 20220224104749.png]]
+
 ## ADT example with lists
 - Lists must be ordered
 - Must be able to retrieve data in an ordered way corresponding to how data was added

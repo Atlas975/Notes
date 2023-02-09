@@ -27,14 +27,14 @@ $$\begin{align*}
 - [[Network_architecture#Network criteria|Timeliness]] is important as packets are dropped if acknowledgement isn't received in time
 
 > ![[Pasted image 20230209174325.png|500|500]]
-> Routers act as [[Graphs|nodes]] in the network, redirecting packets based on various factors such as network congestion and distance while reading the packets 
+> Routers act as [[Graphs|nodes]] in the network, redirecting packets based on various factors such as network congestion and distance while reading the packets header metadata 
 
-### Switches
-- Connect devices together
-- Set of interlinked nodes
-### Packets
-- Packets can follow different paths from source to destination. 
-- Recompiled at end node.
+### Network core
+- A mesh of interconnected routers
+- Used to help route packets from source to destination
+
+>![[Pasted image 20230209175106.png|250|250]]
+Routers need to use forwarding rules, which are produced by the routing algorithm
 ## Circuit switching (time division)
 - Networks connected by physical links, designed specifically for voice communication.
 - Time division is whats used to allow multiple access by allocating time slots to users.

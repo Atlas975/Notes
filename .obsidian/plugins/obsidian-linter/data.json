@@ -75,7 +75,7 @@
       "Headings that do not start a line will have their preceding whitespace removed to make sure they get recognized as headers.": false
     },
     "Remove Trailing Punctuation in Heading": {
-      "Removes the specified punctuation from the end of headings making sure to ignore the semicolon at the end of [HTML entity references](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references).": false,
+      "Removes the specified punctuation from the end of headings making sure to ignore the semicolon at the end of [HTML entity references](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references).": true,
       "Trailing Punctuation": ".,;:!。，；：！"
     },
     "Footnote after Punctuation": {
@@ -208,13 +208,13 @@
       "Removes hyphens from the text to paste": false
     },
     "Remove Leading or Trailing Whitespace on Paste": {
-      "Removes any leading non-tab whitespace and all trailing whitespace for the text to paste": false
+      "Removes any leading non-tab whitespace and all trailing whitespace for the text to paste": true
     },
     "Remove Leftover Footnotes from Quote on Paste": {
       "Removes any leftover footnote references for the text to paste": false
     },
     "Remove Multiple Blank Lines on Paste": {
-      "Condenses multiple blank lines down into one blank line for the text to paste": false
+      "Condenses multiple blank lines down into one blank line for the text to paste": true
     }
   },
   "lintOnSave": true,
