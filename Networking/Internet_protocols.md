@@ -1,3 +1,7 @@
+---
+aliases: IP, internet protocol 
+---
+
 > [!important]- Metadata
 > **Tags:** #Networking 
 > **Located:** Networking
@@ -14,7 +18,6 @@
 
 ___
 # Internet protocols
-<% tp.file.cursor(2) %>
 - The rules the sender, receiver and devices need to follow for effective data communication.
 - Part of **transport layer** of the OSI model 
 - Defines what is communicated, how it's communicated and when. It also defines the overall format of data for allowing accurate and timely data transmission.

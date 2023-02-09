@@ -1,3 +1,6 @@
+---
+aliases: internet transmission
+---
 > [!important]- Metadata
 > **Tags:** #Networking 
 > **Located:** Networking

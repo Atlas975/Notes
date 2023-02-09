@@ -14,7 +14,7 @@
 
 ___
 # Network switching 
-- the 
+- The time taken for data to be 
 
 ## Packet switching
 - Method of creating temporary connections between devices using **switches**.

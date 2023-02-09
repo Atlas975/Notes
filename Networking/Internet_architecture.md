@@ -1,3 +1,6 @@
+---
+aliases: internet, web
+---
 > [!important]- Metadata
 > **Tags:** #Networking 
 > **Located:** Networking
