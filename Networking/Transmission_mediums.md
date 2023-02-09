@@ -22,7 +22,11 @@ ___
 - It operates at the data link layer of the OSI model and provides fast and efficient data transfer that's easy to setup and supports  a wide variety of data transfer speeds
 
 ### Ethernet switch 
-- A network device that connects devices on a LAN and forwards data between them. It is more efficient than a hub, as it only sends data to the intended device, and is a key component in ensuring network performance. 
+- A network device that connects devices on a LAN and forwards data between them. 
+- More efficient than a hub, as it only sends data to the intended device, and is a key component in ensuring network performance.
+
+> ![[Pasted image 20230209135219.png|500|500]]
+> example of enterprise network connecting a mix of switches and routers 
 
 ## Digital subscriber line (DSL)
 - A physical cable to a **DSL modem** (a device that connects other devices to the internet using DSL), converts [[Transmission_mediums#Digital transmission|digital signals]] from these devices to [[Transmission_mediums#Analogue transmission|analogue transmissions]] that work over network lines. This can also be done vise versa 
