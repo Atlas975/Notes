@@ -32,15 +32,11 @@ ___
 - 
 
 ## Network criteria 
-- Effective  communication ov
-### Delivery
-- Data needs to arrive to correct device only
-### Accuracy
-- Data loss shouldn't occur from distortion or noise.
-### Timeliness
-- Data packets must arrive without significant delay or else they'll be dropped
-### Jitter
-- The delay in packet arrival must be consistent.
+- Effective  communication over a network requires accounting for the following:
+    - **Delivery**: data needs to arrive to correct device only
+    - **Accuracy**: data loss shouldn't occur from distortion or noise.
+    - **Timeliness**: data packets must arrive without significant delay or else they'll be dropped  
+    - **Jitter**: The delay in packet arrival must be consistent.
 
 ## Bandwidth
 - In bits per second, refers to the speed of bit transmission a medium can accommodate.

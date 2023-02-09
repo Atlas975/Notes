@@ -21,8 +21,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Network_traits.md",
-                "mode": "source",
+                "file": "Networking/Internet_infrastructure.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Network_traits.md",
+                "file": "Networking/Internet_infrastructure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_traits.md"
+                "file": "Networking/Internet_infrastructure.md"
               }
             }
           }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_traits.md"
+                "file": "Networking/Internet_infrastructure.md"
               }
             }
           },
@@ -177,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Network_traits.md",
+                "file": "Networking/Internet_infrastructure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,15 +229,15 @@
   },
   "active": "6a917ab2002dd5e7",
   "lastOpenFiles": [
+    "Networking/Transmission_mediums.md",
+    "Networking/Network_transmission.md",
+    "Networking/Internet_protocols.md",
+    "Networking/Network_traits.md",
+    "Networking/Internet_infrastructure.md",
     "DataStructures/CacheStructures/LRU.md",
     "DataStructures/CacheStructures/LFU.md",
-    "Networking/Network_traits.md",
-    "Networking/Network_transmission.md",
-    "Networking/Transmission_mediums.md",
     "MachineLearning/Feature_scaling.md",
     "ProgramLanguages/SQL/SQL_relations.md",
-    "DiscreteMath/Relations.md",
-    "Databases/Database_relations.md",
-    "ProgramLanguages/SQL/SQL_language.md"
+    "DiscreteMath/Relations.md"
   ]
 }
