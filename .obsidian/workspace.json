@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Network_routing.md",
+                "file": "Networking/Internet_architecture.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Network_routing.md",
+                "file": "Networking/Internet_architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_routing.md"
+                "file": "Networking/Internet_architecture.md"
               }
             }
           }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_routing.md"
+                "file": "Networking/Internet_architecture.md"
               }
             }
           },
@@ -203,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Network_routing.md",
+                "file": "Networking/Internet_architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,11 +255,11 @@
   },
   "active": "3d6e85a1d4a226c4",
   "lastOpenFiles": [
-    "DataStructures/Abstract_data_types.md",
     "Networking/Network_routing.md",
+    "Networking/Network_architecture.md",
+    "DataStructures/Abstract_data_types.md",
     "DataStructures/Graphs.md",
     "Networking/Transmission_mediums.md",
-    "Networking/Network_architecture.md",
     "Networking/Internet_architecture.md",
     "Networking/Internet_protocols.md",
     "OperatingSystems/Error_codes.md",

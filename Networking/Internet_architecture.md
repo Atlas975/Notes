@@ -27,12 +27,12 @@ ___
 
 - The internet itself can be taught of as a network of networks with protocols such as TCP / IP / HTTP governing the way data is transmitted. 
 - Internet standards also exist to define how communication over the internet needs to be established between hosts
-## Response sequence
 
+
+## Internet tiers
+- The execution of query on the internet follows the following response sequence
 >![[Pasted image 20211109094505.png|400|400]]
-
-## Internet architecture
-
+- Execution is divided amongst 3 core tiers:
 >![[Pasted image 20211109094734.png|450|450]]
 
 ### Presentation tier
