@@ -49,11 +49,12 @@ ___
 - Lowest transmission speed acts as a bottleneck, so with multiple transmission speeds the lowest bandwidth becomes the one in use 
 
 ## Network sampling
-- Sampling of signals is done at twice the bandwidth
-- Min of two readings per cycle needed to reconstruct signal.
+- When data is [[Transmission_mediums#Analogue transmission|transmitted in analogue]], sampling is required to reconstruct the signal in digital format. This is done through sampling
+- For data to be reliably be transformed to digital, a minimum of two samples need to be taken each cycle
 
 > ![[Pasted image 20211030000108.png|400|400]]
-> ![[Pasted image 20211030000156.png|500]]
+- Sampling of signals is done at twice the bandwidth, for the  
+> ![[Pasted image 20211030000156.png|400|400]]
 
 - Therefore needs transmission bandwidth that accommodates 48 kbps 
 ## Network categories
