@@ -13,7 +13,8 @@
 > ```
 
 ___
-# Network transmission
+# Network switching 
+- the 
 
 ## Packet switching
 - Method of creating temporary connections between devices using **switches**.

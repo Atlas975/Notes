@@ -386,16 +386,16 @@ img
 .cm-header-1,
 .markdown-preview-section h1
 {
-    font-weight: 450 !important;
-    font-size: 34px !important;
+    font-weight: 500 !important;
+    font-size: 32px !important;
     color: var(--text-title-h1) !important;
 }
 
 .cm-header-2,
 .markdown-preview-section h2
 {
-    font-weight: 425 !important;
-    font-size: 26px !important;
+    font-weight: 500 !important;
+    font-size: 24px !important;
     color: var(--text-title-h2) !important;
 }
 
@@ -403,7 +403,7 @@ img
 .markdown-preview-section h3
 {
     font-weight: 500 !important;
-    font-size: 22px !important;
+    font-size: 20px !important;
     color: var(--text-title-h3) !important;
 }
 
@@ -411,7 +411,7 @@ img
 .markdown-preview-section h4
 {
     font-weight: 500 !important;
-    font-size: 20px !important;
+    font-size: 18px !important;
     color: var(--text-title-h4) !important;
 }
 
