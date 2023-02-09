@@ -986,8 +986,8 @@
     "transmission": {
       "transmission": {
         "currentFile": {
-          "count": 9,
-          "lastUpdated": 1675963316956
+          "count": 10,
+          "lastUpdated": 1675966241507
         }
       }
     },
@@ -1002,8 +1002,8 @@
     "dedicated": {
       "dedicated": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1675698009483
+          "count": 2,
+          "lastUpdated": 1675966537796
         }
       }
     },
@@ -1026,8 +1026,8 @@
     "bandwidth": {
       "bandwidth": {
         "currentFile": {
-          "count": 3,
-          "lastUpdated": 1675963291501
+          "count": 4,
+          "lastUpdated": 1675966587337
         }
       }
     },
@@ -1146,8 +1146,24 @@
     "destination": {
       "destination": {
         "currentFile": {
+          "count": 2,
+          "lastUpdated": 1675965829449
+        }
+      }
+    },
+    "forward": {
+      "forward": {
+        "currentFile": {
           "count": 1,
-          "lastUpdated": 1675965126901
+          "lastUpdated": 1675966221137
+        }
+      }
+    },
+    "predictable": {
+      "predictable": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675966585073
         }
       }
     }
