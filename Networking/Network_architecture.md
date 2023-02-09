@@ -24,9 +24,6 @@ ___
 > ![[Pasted image 20211029231531.png|500|500]]
 
 - Data operates on a range of frequencies (bandwidth) regardless of data type.
-- Mediums are categorized by different bandwidths and fall into two categories 
-	- **Guided**: wired transmission
-	- **Unguided**: wireless transmission 
 ## Network header
 - The starting section of a network packet that contains metadata about the packet, such as source and destination IP addresses, protocol, length, and control flags. 
 - The header information is critical in allowing  networking devices to route a packet to its intended destination

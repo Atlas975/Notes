@@ -135,7 +135,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5046501159668
+    "width": 286.5046501159668,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -230,10 +231,10 @@
   "active": "6a917ab2002dd5e7",
   "lastOpenFiles": [
     "Networking/Internet_protocols.md",
-    "Networking/Internet_architecture.md",
-    "Networking/Transmission_mediums.md",
     "Networking/Network_architecture.md",
     "Networking/Network_transmission.md",
+    "Networking/Internet_architecture.md",
+    "Networking/Transmission_mediums.md",
     "DataStructures/CacheStructures/LRU.md",
     "DataStructures/CacheStructures/LFU.md",
     "MachineLearning/Feature_scaling.md",

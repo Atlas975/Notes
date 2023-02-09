@@ -17,11 +17,14 @@ ___
 - Multiple access technologies exists for connecting [[Internet_architecture#Internet architecture|network edges]] to edge routers 
 - Edge routers act as an intermediary from users to the network core 
 - Data transmission can either be **upstream** (data uploaded) or **downstream** (data downloaded)
+- Transmission also falls into one of two categories:
+	- **Guided**: signals transmitted in solid media eg connections such as twisted pair
+	- **Unguided**: signal propagate freely, susceptible to interference eg radio 
 ## Ethernet
 - A widely-used computer network technology that uses a physical cable to connect devices and transmit data within a local area network (LAN). 
 - It operates at the data link layer of the OSI model and provides fast and efficient data transfer that's easy to setup and supports  a wide variety of data transfer speeds
 
-### Ethernet switch 
+### Ethernet switch
 - A network device that connects devices on a LAN and forwards data between them. 
 - More efficient than a hub, as it only sends data to the intended device, and is a key component in ensuring network performance.
 
@@ -43,7 +46,7 @@ ___
 
 ## Fiber to home (FH)
 - Uses a fiber-optic cable network that runs directly to a users home, transmission is dedicated and extremely fast but difficult to install
-- Better security as less potential for interference, 5G fixed wireless is also an easier and similar approach, with no wiring and dedicated data transfer 
+- Better security as less potential for interference, 5G fixed wireless is also an easier and similar approach, with no wiring and dedicated data transfer,
 
 > ![[Pasted image 20230206160313.png|550|550]]
 
