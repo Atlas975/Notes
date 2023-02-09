@@ -13,8 +13,9 @@
 > ```
 
 ___
-# Network switching 
-- The time taken for data to be 
+# Network routing
+- A host sending function will take an application message, break it up into smaller packets of length L bits and transmit those packets at a transmission rate R
+- The time taken for a host to push packets is known as t
 
 ## Packet switching
 - Method of creating temporary connections between devices using **switches**.
