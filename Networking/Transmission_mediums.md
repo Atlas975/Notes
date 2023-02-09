@@ -14,7 +14,7 @@
 
 ___
 # Transmission mediums
-- Multiple access technologies exists for connecting [[Internet_infrastructure#Internet architecture|network edges]] to edge routers 
+- Multiple access technologies exists for connecting [[Internet_architecture#Internet architecture|network edges]] to edge routers 
 - Edge routers act as an intermediary from users to the network core 
 - Data transmission can either be **upstream** (data uploaded) or **downstream** (data downloaded)
 

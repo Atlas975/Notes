@@ -13,8 +13,8 @@
 > ```
 
 ___
-# Internet infrastructure
-- Supports a diverse of applications that rely on web services 
+# Internet architecture
+- The internet supports a diverse of applications that rely on web services 
 - Core components include 
 	- **Hosts**: the end system computing devices that run network applications
 	- **Communication links**: physical or digital links, speed measured in bandwidth 

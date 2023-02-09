@@ -31,7 +31,7 @@ ___
 - The starting section of a network packet that contains metadata about the packet, such as source and destination IP addresses, protocol, length, and control flags. 
 - The header information is critical in allowing  networking devices to route a packet to its intended destination
 
-> ![[Pasted image 20230209105228.png!!23]]
+> ![[Pasted image 20230209105228.png|450|450]]
 ## Network criteria
 - Effective  communication over a network requires accounting for the following:
 	- **Delivery**: data needs to arrive to correct device only
@@ -39,17 +39,16 @@ ___
 	- **Timeliness**: data packets must arrive without significant delay or else they'll be dropped  
 	- **Jitter**: The delay in packet arrival must be consistent.
 
-## Bandwidth
+## Network bandwidth
 - In bits per second, refers to the speed of bit transmission a medium can accommodate.
 - In hertz, refers to the range of frequencies that a medium can allow to pass.
 - Certain bit rates may be needed for accurate data transmission.
-## Throughput
+## Network throughput
 - How fast data can actually be transmitted, when factoring in congestion, interference etc
 - Bandwidth is potential bit rate throughput gives true measurement.
 - Lowest transmission speed acts as a bottleneck, so with multiple transmission speeds the lowest bandwidth becomes the one in use 
 
-
-## Sampling
+## Network sampling
 - Sampling of signals is done at twice the bandwidth
 - Min of two readings per cycle needed to reconstruct signal.
 
@@ -85,4 +84,4 @@ ___
 - Private network used for private communication in an organisation
 - Connects distinct WAN's together to communicate over distinct geographical regions 
 
-> ![[Pasted image 20211030163447.png]]
+> ![[Pasted image 20211030163447.png|650|650]]
