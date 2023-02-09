@@ -24,7 +24,7 @@ $$\begin{align*}
 ## Packet switching
 - Routing method which divides data into small units called "packets" , packets use their [[Network_architecture#Network header|header]] information to be routed independently of each other
 - Packets are reassembled at the receiving end to form the original data. The [[Internet_architecture|Internet]] is  a packet-switched network, packets are sent from one device to another through routers.
-- [[Network_architecture#Network criteria|Timeliness]] is important as packets are dropped if acknowledgement isn't received in time
+- [[Network_architecture#Network criteria|Timeliness]] is important as packets are dropped if acknowledgement isn't received in time, however packet switching is a cost effective routing method, as dedicated channels are not needed for routing
 
 > ![[Pasted image 20230209174325.png|500|500]]
 
@@ -32,6 +32,7 @@ $$\begin{align*}
 - Packets receive repeated transmission delays as the entire packet needs to be stored before it can be forwarded, this is known as the **store and forward** method
 
 > ![[Pasted image 20230209180745.png|500|500]]
+
 ### Network core
 - A mesh of interconnected routers
 - Used to help route packets from source to destination 
@@ -47,16 +48,20 @@ Routers need to use forwarding rules, which are produced by the routing algorith
 > ![[Pasted image 20230209181000.png|450|450]]
 ## Circuit switching (time division)
 - Networks connected by dedicated links, optimal for services that require reliable and predictable communication such as with voice or video
-- More predictable bandwidth but links remain idle when not in use, making the method more wasteful than packet switching
-- Time division is whats used to allow multiple access by allocating time slots to users.
-- Each circuit allocated fixed amount of link capacity, wasted on silent telephone lines for example.
-- Requires very high bandwidth to handle traffic.
-
+- More predictable bandwidth but links remain idle when not in use, making the method more wasteful than packet switching. 
 
 > ![[Pasted image 20230209181457.png|250|250]]
 
-## Circuit vs packet switching
-- Packet switching is more cost efficient, packets don't don't need a dedicated channel to travel to their destination.
-- Packet switching is more resource efficient, not using channels throughout the delivery of data.
-- Circuit switching allows for data to be delivered at a consistent bandwidth
-- Circuit switching allows for data to be delivered with minimum delay, better timeliness.
+- Resource division with this routing method can be handled in two ways:
+
+### Frequency division multiplexing (FDM)
+- Frequencies divided into narrow bands
+- Each call allocated its own band and transmit data at the maximum of that band
+
+> ![[Pasted image 20230209182637.png|350|350]]
+
+### Time division multiplexing (TDM)
+- Time divided into slots, each call can only send data during its slot 
+- Can transmit data up to maximum rate of frequency 
+
+> ![[Pasted image 20230209182813.png||s]]
