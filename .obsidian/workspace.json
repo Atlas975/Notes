@@ -22,7 +22,7 @@
               "type": "markdown",
               "state": {
                 "file": "Networking/Network_architecture.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -229,9 +229,9 @@
   },
   "active": "6a917ab2002dd5e7",
   "lastOpenFiles": [
-    "Networking/Network_transmission.md",
     "Networking/Transmission_mediums.md",
     "Networking/Network_architecture.md",
+    "Networking/Network_transmission.md",
     "Networking/Internet_protocols.md",
     "Networking/Internet_architecture.md",
     "DataStructures/CacheStructures/LRU.md",

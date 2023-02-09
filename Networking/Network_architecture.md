@@ -13,7 +13,7 @@
 > ```
 
 ___
-# Network traits
+# Network architecture
 - A network transmission consists of:
 	1. Message
 	2. Sender
@@ -32,6 +32,7 @@ ___
 - The header information is critical in allowing  networking devices to route a packet to its intended destination
 
 > ![[Pasted image 20230209105228.png|450|450]]
+
 ## Network criteria
 - Effective  communication over a network requires accounting for the following:
 	- **Delivery**: data needs to arrive to correct device only
@@ -43,20 +44,15 @@ ___
 - In bits per second, refers to the speed of bit transmission a medium can accommodate.
 - In hertz, refers to the range of frequencies that a medium can allow to pass.
 - Certain bit rates may be needed for accurate data transmission.
+
+> ![[Pasted image 20230209131139.png|550|550]]
+
 ## Network throughput
 - How fast data can actually be transmitted, when factoring in congestion, interference etc
-- Bandwidth is potential bit rate throughput gives true measurement.
+- Bandwidth is potential bit rate while throughput gives true measurement.
 - Lowest transmission speed acts as a bottleneck, so with multiple transmission speeds the lowest bandwidth becomes the one in use 
 
-## Network sampling
-- When data is [[Transmission_mediums#Analogue transmission|transmitted in analogue]], sampling is required to reconstruct the signal in digital format. This is done through sampling
-- For data to be reliably be transformed to digital, a minimum of two samples need to be taken each cycle
 
-> ![[Pasted image 20211030000108.png|400|400]]
-- Sampling of signals is done at twice the bandwidth, for the  
-> ![[Pasted image 20211030000156.png|400|400]]
-
-- Therefore needs transmission bandwidth that accommodates 48 kbps 
 ## Network categories
 - Networks are typically heterogeneous consisting of multiple network  
 - The network used for a specific service depends on user needs, size, complexity and the technologies available 

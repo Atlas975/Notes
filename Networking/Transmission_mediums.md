@@ -37,16 +37,25 @@ ___
 - Better security as less potential for interference 
 
 > ![[Pasted image 20230206160313.png|550|550]]
-## Transmission types
-### Digital transmission
+# Transmission types
+## Digital transmission
 - Continuous in time, discrete in level, 1 indicates positive voltage, 0 indicates no voltage
 - **Bit rate (bps)** is used to describe frequency
 
 > ![[Pasted image 20211029233411.png|450|450]]
 
-### Analogue transmission
+## Analogue transmission
 - Continuous in time and level 
 - Analogue data needs to digitized before going through sampling
 - **Bandwidth** (measured in hertz) refers to the range of frequencies a signal can occupy (eg. the human voice)
 
 > ![[Pasted image 20211029232819.png|350|350]]
+## Network sampling
+- When data is [[Transmission_mediums#Analogue transmission|transmitted in analogue]], sampling is required to reconstruct the signal in digital format. This is done through sampling
+- For data to be reliably be transformed to digital, a minimum of two samples need to be taken each cycle. 
+
+> ![[Pasted image 20211030000108.png|400|400]]
+- **Hertz** refers to the number of times an oscillation occurs in a second, therefore the number of samples required for signal reconstruction is 2 x Hertz
+- Sampling of signals is done at twice the bandwidth
+
+> ![[Pasted image 20211030000156.png|400|400]]
