@@ -242,15 +242,15 @@
   },
   "active": "6a917ab2002dd5e7",
   "lastOpenFiles": [
+    "DataStructures/Graphs.md",
+    "Networking/Network_routing.md",
+    "Networking/Transmission_mediums.md",
     "Networking/Network_architecture.md",
-    "Networking/Internet_protocols.md",
     "Networking/Internet_architecture.md",
+    "Networking/Internet_protocols.md",
     "OperatingSystems/Error_codes.md",
     "OperatingSystems/Virtualisation.md",
-    "Networking/Transmission_mediums.md",
-    "Networking/Network_routing.md",
     "MachineLearning/0-CoursesPart1/MachineLearning/Cieling_analysis.md",
-    "DataStructures/CacheStructures/LRU.md",
-    "DataStructures/CacheStructures/LFU.md"
+    "DataStructures/CacheStructures/LRU.md"
   ]
 }

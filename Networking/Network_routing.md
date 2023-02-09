@@ -14,14 +14,19 @@
 
 ___
 # Network routing
-- A host sending function will take an application message, break it up into smaller packets of length L bits and transmit those packets at a transmission rate R
-- The time taken for a host to push packets is known as t
+- A host sending function will take an application message, break it up into smaller packets of **bit length (L)** and transmit those packets at a **transmission rate / link bandwidth  (R)** 
+- The time taken for a host to push L bits is known as the packet transmission delay
+
+$$\begin{align*}
+\text{packet transmission delay}=\frac{L_{bits}}{R_{\text{bits per second}}}
+\end{align*}$$
 
 ## Packet switching
-- Method of creating temporary connections between devices using **switches**.
-- Switches can be taught of as [[Graphs|nodes]] that can either be an end location or used for routing
+- Routing method which divides data into small units called "packets" , each packet is transmitted individually and may follow a different path to its destination. 
+- Packets are reassembled at the receiving end to form the original data. [[Internet_architecture|Internet]] is an example of a packet-switched network, where data is divided into packets and sent from one device to another through a series of routers.
+- Creates temporary connections between devices using **switches**. which  can be taught of as [[Graphs|nodes]] that can either be an end location or used for routing
 - More resource efficient than constant connections (point to point)
-- **Timeliness** is important to a packet switched network, if packet acknowledgement isn't received soon enough a packet is dropped
+- [[Network_architecture#Network criteria|Timeliness]] is important in this routing scheme, packets are dropped if acknowledgement isn't received in time
 
 > ![[Pasted image 20211030163652.png|500]]
 
