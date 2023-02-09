@@ -25,18 +25,19 @@ ___
 
 - Data operates on a range of frequencies (bandwidth) regardless of data type.
 - Mediums are categorized by different bandwidths and fall into two categories 
-    - **Guided**: wired transmission
-    - **Unguided**: wireless transmission 
-## Header
-- Contains key details of data packets such as destination and origin IP. 
-- 
+	- **Guided**: wired transmission
+	- **Unguided**: wireless transmission 
+## Network header
+- The starting section of a network packet that contains metadata about the packet, such as source and destination IP addresses, protocol, length, and control flags. 
+- The header information is critical in allowing  networking devices to route a packet to its intended destination
 
-## Network criteria 
+> ![[Pasted image 20230209105228.png!!23]]
+## Network criteria
 - Effective  communication over a network requires accounting for the following:
-    - **Delivery**: data needs to arrive to correct device only
-    - **Accuracy**: data loss shouldn't occur from distortion or noise.
-    - **Timeliness**: data packets must arrive without significant delay or else they'll be dropped  
-    - **Jitter**: The delay in packet arrival must be consistent.
+	- **Delivery**: data needs to arrive to correct device only
+	- **Accuracy**: data loss shouldn't occur from distortion or noise.
+	- **Timeliness**: data packets must arrive without significant delay or else they'll be dropped  
+	- **Jitter**: The delay in packet arrival must be consistent.
 
 ## Bandwidth
 - In bits per second, refers to the speed of bit transmission a medium can accommodate.
@@ -85,4 +86,3 @@ ___
 - Connects distinct WAN's together to communicate over distinct geographical regions 
 
 > ![[Pasted image 20211030163447.png]]
-
