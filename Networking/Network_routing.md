@@ -22,13 +22,12 @@ $$\begin{align*}
 \end{align*}$$
 
 ## Packet switching
-- Routing method which divides data into small units called "packets" , each packet is transmitted individually and may follow a different path to its destination. 
-- Packets are reassembled at the receiving end to form the original data. [[Internet_architecture|Internet]] is an example of a packet-switched network, where data is divided into packets and sent from one device to another through a series of routers.
-- Creates temporary connections between devices using **switches**. which  can be taught of as [[Graphs|nodes]] that can either be an end location or used for routing
-- More resource efficient than constant connections (point to point)
-- [[Network_architecture#Network criteria|Timeliness]] is important in this routing scheme, packets are dropped if acknowledgement isn't received in time
+- Routing method which divides data into small units called "packets" , packets use their [[Network_architecture#Network header|header]] information to be routed independently of each other
+- Packets are reassembled at the receiving end to form the original data. The [[Internet_architecture|Internet]] is  a packet-switched network, packets are sent from one device to another through routers.
+- [[Network_architecture#Network criteria|Timeliness]] is important as packets are dropped if acknowledgement isn't received in time
 
-> ![[Pasted image 20211030163652.png|500]]
+> ![[Pasted image 20230209174325.png|500|500]]
+> Routers act as [[Graphs|nodes]] in the network, redirecting packets based on various factors such as network congestion and distance while reading the packets 
 
 ### Switches
 - Connect devices together
