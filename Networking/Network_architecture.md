@@ -45,7 +45,7 @@ ___
 - In hertz, refers to the range of frequencies that a medium can allow to pass.
 - Certain bit rates may be needed for accurate data transmission.
 
-> ![[Pasted image 20230209131139.png|550|550]]
+> ![[Pasted image 20230209131139.png|500|500]]
 
 ## Network throughput
 - How fast data can actually be transmitted, when factoring in congestion, interference etc

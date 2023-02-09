@@ -28,19 +28,21 @@ ___
 ## Cable-based access
 - Data transmitted over shared cable structure, transmits digital signal, low cost and high speed
 - Similar to DSL uses **frequency division multiplexing (FDM)** to have distinct frequency bands for each channel
-- Homes use shared access network cable that goes directly to the users **ISP** (internet service provider). Shared broadcast medium to headhend, speed can slow during peak times
+- Homes use shared access network cable that goes directly to the users **ISP** (internet service provider). Shared broadcast medium to headhend, speed can slow during peak times as channel has to be divided between users
 
 > ![[Pasted image 20230206155325.png|550|550]]
 
 ## Fiber to home (FH)
 - Uses a fiber-optic cable network that runs directly to a users home, transmission is dedicated and extremely fast but difficult to install
-- Better security as less potential for interference 
+- Better security as less potential for interference, 5G fixed wireless is also an easier and similar approach, with no wiring and dedicated data transfer 
 
 > ![[Pasted image 20230206160313.png|550|550]]
+
 # Transmission types
 ## Digital transmission
 - Continuous in time, discrete in level, 1 indicates positive voltage, 0 indicates no voltage
 - **Bit rate (bps)** is used to describe frequency
+- Less susceptible to noise and easier to compress than analogue transmission 
 
 > ![[Pasted image 20211029233411.png|450|450]]
 
@@ -50,11 +52,13 @@ ___
 - **Bandwidth** (measured in hertz) refers to the range of frequencies a signal can occupy (eg. the human voice)
 
 > ![[Pasted image 20211029232819.png|350|350]]
+
 ## Network sampling
 - When data is [[Transmission_mediums#Analogue transmission|transmitted in analogue]], sampling is required to reconstruct the signal in digital format. This is done through sampling
 - For data to be reliably be transformed to digital, a minimum of two samples need to be taken each cycle. 
 
 > ![[Pasted image 20211030000108.png|400|400]]
+
 - **Hertz** refers to the number of times an oscillation occurs in a second, therefore the number of samples required for signal reconstruction is 2 x Hertz
 - Sampling of signals is done at twice the bandwidth
 
