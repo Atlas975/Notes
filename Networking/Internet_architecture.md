@@ -1,6 +1,7 @@
 ---
 aliases: internet, web
 ---
+
 > [!important]- Metadata
 > **Tags:** #Networking 
 > **Located:** Networking
@@ -31,8 +32,11 @@ ___
 
 ## Internet tiers
 - The execution of query on the internet follows the following response sequence
+
 >![[Pasted image 20211109094505.png|400|400]]
+
 - Execution is divided amongst 3 core tiers:
+
 >![[Pasted image 20211109094734.png|450|450]]
 
 ### Presentation tier
@@ -49,11 +53,16 @@ ___
 
 ## Internet structure
 - The structure of an internet can be divided into 3 core components 
-    - **Network edges**: endpoints of a network, also known as hosts / end systems / clients,  hosts applications on client devices, IOT and network servers 
-    - **Access networks**: wired / wireless communication links eg routers 
-    - **Network crore**: interconnected routers in a network of networks 
+	- **Network edges**: endpoints of a network, also known as hosts / end systems / clients,  hosts applications on client devices, IOT and network servers 
+	- **Access networks**: wired / wireless communication links eg routers 
+	- **Network crore**: interconnected routers in a network of networks 
+- Dedicated links between ISP's also exist, known as **internet exchange points (IXP)**
 
+> ![[Pasted image 20230209185126.png|400|400]]
+- Private ISP's also exist, resulting in large intermediate providers often dedicated for specific regions and also provided by private companies
+- The IXP allows data to be shared between individual networks
+
+> ![[Pasted image 20230209185214.png|400|400]]
 ## Web
 - An interconnected systems of public web pages that can be accessed through the internet 
 - Web pages are written in HTML and transferred between server and client
-
