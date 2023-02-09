@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "OperatingSystems/Error_codes.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "OperatingSystems/Error_codes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md"
+                "file": "OperatingSystems/Error_codes.md"
               }
             }
           }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md"
+                "file": "OperatingSystems/Error_codes.md"
               }
             }
           },
@@ -190,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "OperatingSystems/Error_codes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,6 +242,7 @@
   },
   "active": "6a917ab2002dd5e7",
   "lastOpenFiles": [
+    "OperatingSystems/Virtualisation.md",
     "Networking/Transmission_mediums.md",
     "Networking/Network_architecture.md",
     "Networking/Internet_protocols.md",
@@ -250,7 +251,6 @@
     "MachineLearning/0-CoursesPart1/MachineLearning/Cieling_analysis.md",
     "DataStructures/CacheStructures/LRU.md",
     "DataStructures/CacheStructures/LFU.md",
-    "MachineLearning/Feature_scaling.md",
-    "ProgramLanguages/SQL/SQL_relations.md"
+    "MachineLearning/Feature_scaling.md"
   ]
 }
