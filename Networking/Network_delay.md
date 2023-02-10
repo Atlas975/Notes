@@ -17,6 +17,6 @@ ___
 - 4 types of [[Network_architecture|network]] delay exist 
     • Processing Delay
     • Queuing Delay
-    • Transmission Delay
+    • [[Transmission_mediums|Transmission]] Delay
     • Propagation Delay
 
