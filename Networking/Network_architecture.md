@@ -1,3 +1,6 @@
+---
+aliases: network
+---
 > [!important]- Metadata
 > **Tags:** #Networking 
 > **Located:** Networking
@@ -45,11 +48,12 @@ ___
 > ![[Pasted image 20230209131139.png|500|500]]
 
 ## Network throughput
-- How fast data can actually be transmitted, when factoring in congestion, interference etc
+- How fast data can actually be transmitted, when factoring in [[Network_delay|congestion, interference etc]]
 - Bandwidth is potential bit rate while throughput gives true measurement.
 - Lowest transmission speed acts as a bottleneck, so with multiple transmission speeds the lowest bandwidth becomes the one in use 
 
 ## Network categories
+- 
 - Networks are typically heterogeneous consisting of multiple network types  
 - The network used for a specific service depends on user needs, size, complexity and the technologies available 
 

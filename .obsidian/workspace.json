@@ -42,6 +42,32 @@
             }
           },
           {
+            "id": "aff0f6e1c9a8be2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Network_routing.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7a40d1c622de20bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Network_architecture.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "67716bb41d5eee0f",
             "type": "leaf",
             "state": {
@@ -68,7 +94,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -113,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Internet_architecture.md",
+                "file": "Networking/Network_routing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Internet_architecture.md"
+                "file": "Networking/Network_routing.md"
               }
             }
           }
@@ -177,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Internet_architecture.md"
+                "file": "Networking/Network_routing.md"
               }
             }
           },
@@ -203,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Internet_architecture.md",
+                "file": "Networking/Network_routing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,17 +279,17 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "3d6e85a1d4a226c4",
+  "active": "aff0f6e1c9a8be2c",
   "lastOpenFiles": [
-    "Networking/Network_routing.md",
+    "Networking/Network_delay.md",
     "Networking/Network_architecture.md",
+    "Networking/Internet_architecture.md",
+    "Networking/Network_routing.md",
     "DataStructures/Abstract_data_types.md",
     "DataStructures/Graphs.md",
     "Networking/Transmission_mediums.md",
-    "Networking/Internet_architecture.md",
     "Networking/Internet_protocols.md",
     "OperatingSystems/Error_codes.md",
-    "OperatingSystems/Virtualisation.md",
-    "MachineLearning/0-CoursesPart1/MachineLearning/Cieling_analysis.md"
+    "OperatingSystems/Virtualisation.md"
   ]
 }
