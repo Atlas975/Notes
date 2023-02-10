@@ -62,8 +62,8 @@ ___
 - Highest instantaneous throughput seen so far (max speed)
 
 ### Goodput 
-- Measures throughput at highest level, excludes protocol head + retransmission overheads
-- Sometimes used interchangeably with throughput 
+- Measures throughput of only useful data that has not been dropped, excludes protocol head + retransmission overheads
+- Sometimes used interchangeably with throughput, Goodput measures network efficiency of delivering useful data while throughput measures network efficiency at transferring data
 ## Network categories
 - Networks are typically heterogeneous consisting of multiple network types  
 - The network used for a specific service depends on user needs, size, complexity and the technologies available 
