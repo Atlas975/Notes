@@ -1,5 +1,5 @@
 ---
-aliases: internet transmission
+aliases: transmission mediums 
 ---
 > [!important]- Metadata
 > **Tags:** #Networking 

@@ -31,5 +31,10 @@ ___
 > ![[Pasted image 20230210172826.png|400|400]]
 
 ## Transmission delay
-- Based on [[Network_routing#Packet transmission delay|packet transmission delay]], since networks are store and forward, entire packets must be received before forwarding 
-- 
+- Dependent  on [[Network_routing#Packet transmission delay|packet transmission delay]], since networks are store and forward, entire packets must be received before forwarding 
+- Transmission delay is the time taken to transmit all packet bits onto the link
+
+> ![[Pasted image 20230210173557.png|400|400]]
+
+## Propagation delay
+- Dependent on the speed of [[Transmission_mediums|transmission mediums]], eahc l
