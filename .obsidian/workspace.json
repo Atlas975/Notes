@@ -172,6 +172,19 @@
             }
           },
           {
+            "id": "b5e9bf798a4e2844",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Database_normalisation.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b4c1b247751289c6",
             "type": "leaf",
             "state": {
@@ -193,7 +206,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -238,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_language.md",
+                "file": "Databases/Database_normalisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +291,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_language.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           }
@@ -302,7 +315,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_language.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           },
@@ -328,7 +341,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_language.md",
+                "file": "Databases/Database_normalisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -378,17 +391,17 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "a349fa342871651f",
+  "active": "b5e9bf798a4e2844",
   "lastOpenFiles": [
-    "Databases/Untitled.md",
     "Databases/Relational_algebra.md",
+    "ProgramLanguages/SQL/SQL_language.md",
+    "Databases/Database_normalisation.md",
     "Networking/Network_delay.md",
     "DataStructures/Heaps.md",
     "DataStructures/CacheStructures/LRU.md",
     "Networking/Network_architecture.md",
     "Networking/Network_routing.md",
     "Networking/Transmission_mediums.md",
-    "Networking/Internet_architecture.md",
-    "DataStructures/Abstract_data_types.md"
+    "Networking/Internet_architecture.md"
   ]
 }

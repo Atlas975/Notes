@@ -18,14 +18,19 @@ aliases: [SQL]
 
 ___
 # SQL language
-
+## Evaluation strategy
+- The semantics of an SQL query follows the following evaluation strategy:
+	1. Compute cross-product of [[Database_relations|relation]] list 
+	2. Discard resulting tuples if **conditions** are not matched 
+	3. Display attributes that are in **attribute list**
+	4. If **DISTINCT** specified discard duplicates 
+- An optimised strategy will now follow this order but syntactically this is the order SQL performs it's operation  
 ## Order of operations
 
 >![[Pasted image 20211112105450.png|450|450]]
 >![[Pasted image 20220605145618.png|450|450]]
-Note that using AND will return results with 0, WHERE filters results down completely, ignoring nulls and 0s.
 
-# Aggregate functions
+## Aggregate functions
 
 >![[Pasted image 20211112110620.png|450|450]]
 

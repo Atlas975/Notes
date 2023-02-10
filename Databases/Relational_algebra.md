@@ -25,7 +25,7 @@ ___
 
 > $\sigma =\text{select} \color{gold}\text{ (where clause)}$ 
 > $\Pi=\text{project} \color{gold}\text{ (select clause, specifies columns)}$
-> $-=\text{set difference} \color{gold}\text{ (left join where null)}$
+> $-=\text{set difference} \color{gold}\text{ (except join)}$
 > $\times=\text{cartesian product} \color{gold}\text{ (from clause)}$ 
 > $\cup=\text{union} \color{gold}\text{ (union join)}$
 > $\cap=\text{intersection}\color{gold}\text{ (inner join)}$
