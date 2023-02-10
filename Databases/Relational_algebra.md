@@ -1,6 +1,7 @@
 ---
 aliases: relational algebra 
 ---
+
 > [!important]- Metadata
 > **Tags:** #Databases #DiscreteMath 
 > **Located:** Databases
@@ -31,29 +32,47 @@ ___
 > $\Join=\text{join} \color{gold}\text{ (standard join)}$
 > $\rho=\text{rename} \color{gold} \text{ (as command)}$
 
+## Select
 
-## Select 
-> ![[Pasted image 20230206124001.png|600|600]]
+> ![[Pasted image 20230206124001.png|500|500]]
 
-## Project 
-> ![[Pasted image 20230206124240.png|600|600]]
+## Project
 
+> ![[Pasted image 20230206124240.png|500|500]]
 
-## Union 
-> ![[Pasted image 20230206124432.png|600|600]]
+## Union
 
-## Intersection 
+> ![[Pasted image 20230206124432.png|500|500]]
 
-> ![[Pasted image 20230206130033.png|600|600]]
-## Set difference 
-> ![[Pasted image 20230206124622.png|600|600]]
+## Intersection
 
-## Cartesian product 
-> ![[Pasted image 20230206125012.png|600|600]]
-> ![[Pasted image 20230206125522.png|600|600]]
+> ![[Pasted image 20230206130033.png|500|500]]
 
-## Rename 
+## Set difference
+
+> ![[Pasted image 20230206124622.png|500|500]]
+
+## Cartesian product
+
+> ![[Pasted image 20230206125012.png|500|500]]
+> ![[Pasted image 20230206125522.png|500|500]]
+
+## Join
+
+### Equi-join
+- Joins where condition only has equalities  
+
+> ![[Pasted image 20230210190214.png|400|400]]
+
+### Natural join 
+- Equi-join on ALL common fields 
+
+## Rename
 - Relationship algebra expressions do not output a relation with a name, the rename operation provides an alias for relations that are created 
 - Using the previous example, the created relation can be named "Ins_Phy" by the following 
 
 > ![[Pasted image 20230206125910.png|600|600]]
+
+- Renaming can also be done for individual columns 
+
+> ![[Pasted image 20230210185312.png|400|400]]

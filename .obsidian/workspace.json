@@ -152,14 +152,27 @@
               "type": "markdown",
               "state": {
                 "file": "Networking/Network_delay.md",
-                "mode": "preview",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "858404b97ee426bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Relational_algebra.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -204,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Network_delay.md",
+                "file": "Databases/Relational_algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_delay.md"
+                "file": "Databases/Relational_algebra.md"
               }
             }
           }
@@ -268,7 +281,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_delay.md"
+                "file": "Databases/Relational_algebra.md"
               }
             }
           },
@@ -294,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Network_delay.md",
+                "file": "Databases/Relational_algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -344,11 +357,11 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "a222fdd87667f300",
+  "active": "858404b97ee426bb",
   "lastOpenFiles": [
+    "Networking/Network_delay.md",
     "DataStructures/Heaps.md",
     "DataStructures/CacheStructures/LRU.md",
-    "Networking/Network_delay.md",
     "Networking/Network_architecture.md",
     "Networking/Network_routing.md",
     "Networking/Transmission_mediums.md",
