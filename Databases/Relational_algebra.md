@@ -29,7 +29,7 @@ ___
 > $\times=\text{cartesian product} \color{gold}\text{ (from clause)}$ 
 > $\cup=\text{union} \color{gold}\text{ (union join)}$
 > $\cap=\text{intersection}\color{gold}\text{ (inner join)}$
-> $\text{/}=division \color{gold}\text{ (get tuples with no join match)}$
+> $\text{/}=division \color{gold}\text{ (left join on cross product)}$
 > $\Join=\text{join} \color{gold}\text{ (standard join)}$
 > $\rho=\text{rename} \color{gold} \text{ (as command)}$
 
@@ -76,7 +76,7 @@ ___
 - Relationship algebra expressions do not output a relation with a name, the rename operation provides an alias for relations that are created 
 - Using the previous example, the created relation can be named "Ins_Phy" by the following 
 
-> ![[Pasted image 20230206125910.png|600|600]]
+>![[Pasted image 20230206125910.png|600|600]]
 
 - Renaming can also be done for individual columns 
 
