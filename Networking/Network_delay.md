@@ -15,8 +15,21 @@
 ___
 # Network delay
 - 4 types of [[Network_architecture|network]] delay exist 
-    • Processing Delay
-    • Queuing Delay
-    • [[Transmission_mediums|Transmission]] Delay
-    • Propagation Delay
+	• Processing Delay
+	• Queuing Delay
+	• Transmission Delay
+	• Propagation Delay
 
+## Processing delay
+- Dependent on how busy a device is, the time taken for device to read and route a packet based on [[Network_architecture#Network header|header]] metadata, 
+- This delay is typically small, but may include checking bit level errors in a packet 
+
+## Queuing delay
+- Dependent on network congestion, the time spent [[Network_routing#Packet queuing|packet queuing]] before transmission 
+- Queues only develop if arrival rate exceeds output link capacity 
+
+> ![[Pasted image 20230210172826.png|400|400]]
+
+## Transmission delay
+- Based on [[Network_routing#Packet transmission delay|packet transmission delay]], since networks are store and forward, entire packets must be received before forwarding 
+- 
