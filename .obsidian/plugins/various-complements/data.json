@@ -66,8 +66,8 @@
     "physical": {
       "physical": {
         "currentFile": {
-          "count": 11,
-          "lastUpdated": 1674484389044
+          "count": 12,
+          "lastUpdated": 1676054196612
         }
       }
     },
@@ -1348,6 +1348,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1676053943021
+        }
+      }
+    },
+    "buffers": {
+      "buffers": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676054215784
+        }
+      }
+    },
+    "route": {
+      "route": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676054700243
         }
       }
     }

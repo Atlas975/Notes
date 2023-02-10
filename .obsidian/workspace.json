@@ -138,6 +138,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "DataStructures/Heaps.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a222fdd87667f300",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Networking/Network_delay.md",
                 "mode": "preview",
                 "backlinks": false,
@@ -146,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -331,17 +344,17 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "e1836e5d4689786a",
+  "active": "a222fdd87667f300",
   "lastOpenFiles": [
+    "DataStructures/Heaps.md",
     "DataStructures/CacheStructures/LRU.md",
-    "Networking/Network_architecture.md",
     "Networking/Network_delay.md",
+    "Networking/Network_architecture.md",
     "Networking/Network_routing.md",
     "Networking/Transmission_mediums.md",
     "Networking/Internet_architecture.md",
     "DataStructures/Abstract_data_types.md",
     "DataStructures/Graphs.md",
-    "Networking/Internet_protocols.md",
-    "OperatingSystems/Error_codes.md"
+    "Networking/Internet_protocols.md"
   ]
 }

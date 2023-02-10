@@ -1,4 +1,6 @@
-
+---
+aliases: priority queue
+---
 # Heaps
 created: 2022-08-13 09:16
 #ADTs 
