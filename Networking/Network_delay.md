@@ -37,4 +37,22 @@ ___
 > ![[Pasted image 20230210173557.png|400|400]]
 
 ## Propagation delay
-- Dependent on the speed of [[Transmission_mediums|transmission mediums]], eahc l
+- Dependent on the speed of [[Transmission_mediums|transmission mediums]], each link has an associated propagation delay which is a measure of the time to transmit data over a link from one end to another
+$$\begin{align*}
+\text{propagation delay}=\frac{d}{s}\\
+d=\text{length of physical link}\\
+s=\text{link propagation speed}
+\end{align*}$$
+
+- Different to transmission delay in the sense that it's dependent on packet travel time rather than time to push packets out of a device to the link
+
+## End-to-end delay 
+- The total of all nodal delays from one host to the next
+- **Round trip time (RTT)** is this time measured in both directions from one host to another and then back to the same host. Does not have to be the same route both ways 
+
+# Measuring network delay 
+- Network delay can be measured through applications such as **tracerroute**
+- This works by measuring RTT, sending three packets to a router that lies on path to destination and measures lag between transmission and reply  
+
+> ![[Pasted image 20230210180038.png|450|450]]
+> ![[Pasted image 20230210180129.png|550|550]]

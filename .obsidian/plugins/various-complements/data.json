@@ -978,8 +978,8 @@
     "transmission": {
       "transmission": {
         "currentFile": {
-          "count": 12,
-          "lastUpdated": 1676050253652
+          "count": 14,
+          "lastUpdated": 1676052034133
         }
       }
     },
@@ -1010,8 +1010,8 @@
     "bottleneck": {
       "bottleneck": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1675699644667
+          "count": 2,
+          "lastUpdated": 1676052309957
         }
       }
     },
@@ -1260,6 +1260,46 @@
         "currentFile": {
           "count": 2,
           "lastUpdated": 1676050518689
+        }
+      }
+    },
+    "propagation": {
+      "propagation": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1676051525266
+        }
+      }
+    },
+    "dependent": {
+      "dependent": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676051644727
+        }
+      }
+    },
+    "throughput": {
+      "throughput": {
+        "currentFile": {
+          "count": 4,
+          "lastUpdated": 1676052221449
+        }
+      }
+    },
+    "Throughput": {
+      "Throughput": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1676052194320
+        }
+      }
+    },
+    "instantaneous": {
+      "instantaneous": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676052219920
         }
       }
     }
