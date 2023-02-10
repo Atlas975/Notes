@@ -29,6 +29,7 @@ ___
 > $\times=\text{cartesian product} \color{gold}\text{ (from clause)}$ 
 > $\cup=\text{union} \color{gold}\text{ (union join)}$
 > $\cap=\text{intersection}\color{gold}\text{ (inner join)}$
+> $\text{/}=division \color{gold}\text{ (get tuples with no join match)}$
 > $\Join=\text{join} \color{gold}\text{ (standard join)}$
 > $\rho=\text{rename} \color{gold} \text{ (as command)}$
 
@@ -64,8 +65,12 @@ ___
 
 > ![[Pasted image 20230210190214.png|400|400]]
 
-### Natural join 
-- Equi-join on ALL common fields 
+### Natural join
+- Equi-join on ALL common fields, only returns rows present in both tables 
+
+## Division
+
+> ![[Pasted image 20230210191422.png|400|400]]
 
 ## Rename
 - Relationship algebra expressions do not output a relation with a name, the rename operation provides an alias for relations that are created 
