@@ -60,8 +60,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Network_architecture.md",
-                "mode": "preview",
+                "file": "Networking/Network_delay.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Network_architecture.md",
+                "file": "Networking/Network_delay.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_architecture.md"
+                "file": "Networking/Network_delay.md"
               }
             }
           }
@@ -242,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_architecture.md"
+                "file": "Networking/Network_delay.md"
               }
             }
           },
@@ -268,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Network_architecture.md",
+                "file": "Networking/Network_delay.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -320,15 +320,15 @@
   },
   "active": "f84fca81c98aa4f8",
   "lastOpenFiles": [
+    "Networking/Network_architecture.md",
     "Networking/Network_delay.md",
+    "DataStructures/CacheStructures/LRU.md",
     "Networking/Network_routing.md",
     "Networking/Transmission_mediums.md",
-    "Networking/Network_architecture.md",
     "Networking/Internet_architecture.md",
     "DataStructures/Abstract_data_types.md",
     "DataStructures/Graphs.md",
     "Networking/Internet_protocols.md",
-    "OperatingSystems/Error_codes.md",
-    "OperatingSystems/Virtualisation.md"
+    "OperatingSystems/Error_codes.md"
   ]
 }

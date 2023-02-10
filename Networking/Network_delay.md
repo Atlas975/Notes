@@ -56,3 +56,7 @@ s=\text{link propagation speed}
 
 > ![[Pasted image 20230210180038.png|450|450]]
 > ![[Pasted image 20230210180129.png|550|550]]
+
+## Measuring throughput 
+- Standardised throughput measurements can be achieved through **iperf** which runs a client server model with the client requesting sample data served by the host
+- Knowing the size of sample data and 

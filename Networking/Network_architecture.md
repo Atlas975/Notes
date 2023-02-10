@@ -41,14 +41,14 @@ ___
 	- **Timeliness**: data packets must arrive without significant delay or else they'll be dropped  
 	- **Jitter**: The delay in packet arrival must be consistent.
 
-## Network bandwidth
+## Bandwidth
 - In bits per second, refers to the speed of bit transmission a medium can accommodate.
 - In hertz, refers to the range of frequencies that a medium can allow to pass.
 - Certain bit rates may be needed for accurate data transmission.
 
 > ![[Pasted image 20230209131139.png|500|500]]
 
-## Network throughput
+## Throughput
 - How fast data can actually be transmitted, when factoring in [[Network_delay|congestion, interference etc]]
 - Bandwidth is potential bit rate while throughput gives true measurement.
 - Lowest transmission speed acts as a bottleneck, so with multiple transmission speeds the lowest bandwidth becomes the one in use. This is known as the **bottleneck link**
@@ -61,6 +61,9 @@ ___
 ### Peak throughput
 - Highest instantaneous throughput seen so far (max speed)
 
+### Goodput 
+- Measures throughput at highest level, excludes protocol head + retransmission overheads
+- Sometimes used interchangeably with throughput 
 ## Network categories
 - Networks are typically heterogeneous consisting of multiple network types  
 - The network used for a specific service depends on user needs, size, complexity and the technologies available 
