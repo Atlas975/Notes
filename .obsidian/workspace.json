@@ -191,7 +191,7 @@
               "type": "markdown",
               "state": {
                 "file": "Databases/Database_constraints.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -453,15 +453,15 @@
   },
   "active": "61e414fc9cea24ee",
   "lastOpenFiles": [
-    "Databases/Database_constraints.md",
-    "Databases/Relational_algebra.md",
-    "Databases/Database_systems.md",
-    "Databases/Database_design.md",
-    "Databases/Database_normalisation.md",
-    "SoftwareEngineering/Functional_programming.md",
     "Databases/Database_relations.md",
+    "Databases/Database_keys.md",
+    "Databases/Database_constraints.md",
+    "Databases/Database_systems.md",
+    "Databases/Relational_algebra.md",
+    "Databases/Database_normalisation.md",
+    "Databases/Database_design.md",
+    "SoftwareEngineering/Functional_programming.md",
     "ProgramLanguages/SQL/SQL_language.md",
-    "Networking/Network_delay.md",
-    "DataStructures/Heaps.md"
+    "Networking/Network_delay.md"
   ]
 }

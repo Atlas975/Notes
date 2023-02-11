@@ -43,7 +43,7 @@ ___
 - In order to enforce key constraints a set of attributes is a key for a relation if:
 	1. Have no identical tuples with the same values in all fields 
 	2. This is not true for the key's subset
-- All attributes that contain a key are known as a **superkey**, which is the set of all attributes that make a tuple unique, every relation has at least one superkey, this being the whole tuple as no two rows can be identical 
+
 ## Foreign key integrity 
 - Set of fields in one relation that refer to a row in another relation, acts as a logical pointer, this foreign data must refer to the primary key in another entity 
 
