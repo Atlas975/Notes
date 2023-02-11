@@ -60,9 +60,9 @@ v=values
 
 
 ## Functional dependency
-- A functional dependency between attributes X, Y (X -> Y) holds on relation R if for every allowable instance of R:
+- A functional dependency between attributes X, Y (X -> Y) holds on [[Relational_algebra|relation]] R if for every allowable instance of R:
 $$\begin{align*}
-t_{1}\in r,t_{2}\in r \text{ such that:}\\
+t_{1}\in R,t_{2}\in R \text{ such that:}\\
 \Pi _{x}t_{1}=\Pi_{x}t_{2} \to \Pi _{y}t_{1}=\Pi_{y}t_{2}y
 \end{align*}$$
 > ![[Pasted image 20230211164800.png|500|500]]

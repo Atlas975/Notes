@@ -53,8 +53,9 @@ ___
 > | 789          |[littlebobbytables@domain.com](mailto:littlebobbytables@domain.com)                                                     |
 > 
 
-## 2NF: Non-prime attribute dependence 
-- Every [[Database_keys#Non-prime attributes|Non-prime attribute]] should be fully functionally dependent on the entirety of every key
+## 2NF: Non-prime attribute dependence
+- Every [[Database_keys#Non-prime attributes|Non-prime attribute]] should be fully [[Database_relations#Functional dependency|functionally dependent]] on the entirety of every key
+- The table should also be in [[#1NF: Atomic values|1NF]]
 
 > **Problem**:
 > 
@@ -64,7 +65,7 @@ ___
 | 123         | Team 2 | Database Design | San Francisco |
 | 465         | Team 2 | API Development | San Francisco |
 
-- team_hq is only dependent on team not project_num, violating 2NF, the team_hq attribute can be split into a separate relation
+- team_hq is partialy-dependent on team, violating 2NF
 
 > **Solution:**
 > 
@@ -79,7 +80,7 @@ ___
 | Team 1 | New York      |
 | Team 2 | San Francisco |
 
-## 3NF: Dependence on only candidate key
+## 3NF: prime attribute
 
 > **Problem:**
 > 

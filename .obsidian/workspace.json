@@ -203,7 +203,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_relations.md",
+                "file": "Databases/Database_normalisation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -311,7 +311,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_relations.md",
+                "file": "Databases/Database_normalisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -351,7 +351,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_relations.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           }
@@ -375,7 +375,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_relations.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           },
@@ -401,7 +401,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_relations.md",
+                "file": "Databases/Database_normalisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -453,12 +453,12 @@
   },
   "active": "61e414fc9cea24ee",
   "lastOpenFiles": [
-    "Databases/Database_normalisation.md",
-    "Databases/Database_keys.md",
-    "Databases/Database_relations.md",
-    "Databases/Database_constraints.md",
     "Databases/Database_systems.md",
     "Databases/Relational_algebra.md",
+    "Databases/Database_keys.md",
+    "Databases/Database_relations.md",
+    "Databases/Database_normalisation.md",
+    "Databases/Database_constraints.md",
     "Databases/Database_design.md",
     "SoftwareEngineering/Functional_programming.md",
     "ProgramLanguages/SQL/SQL_language.md",
