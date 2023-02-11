@@ -26,7 +26,33 @@ ___
 - No multi-valued attributes, each attribute should have a single value that cannot be decomposed further
 - The values in each column should also obey [[Database_constraints#Domain constraints|domain constraints]]
 
-## 2NF: Non-key attribute dependence 
+> Problem:
+> 
+> | staff_num | staff_name    | staff_email |
+| --------- | ------------- | ----- |
+| 123       | John Doe      | [john.doe@domain.com](mailto:john.doe@domain.com)[,jdoe@ajob.org](mailto:,jdoe@ajob.org)     |
+| 456       | Jane Doe      | [jane@domain.com](mailto:jane@domain.com)[,jane@anemployer.net](mailto:,jane@anemployer.net) |
+| 789       | Robert Tables | [littlebobbytables@domain.com](mailto:littlebobbytables@domain.com)                          |
+
+- Staff email is non-atomic, instead containing multiple comma-delimited entries
+
+| staff_num | staff_name    |
+| --------- | ------------- |
+| 123       | John Doe      |
+| 456       | Jane Doe      |
+| 789       | Robert Tables |
+
+| staff_num | staff_email                                         |
+| --------- | --------------------------------------------------- |
+| 123       | [john.doe@domain.com](mailto:john.doe@domain.com)   |
+| 123       | [jdoe@anemployer.org](mailto:jdoe@anemployer.org)   |
+| 456       | [jane@domain.com](mailto:jane@domain.com)           |
+| 456       | [jane@anemployer.net](mailto:,jane@anemployer.net) |
+| 755          |[littlebobbytables@domain.com](mailto:littlebobbytables@domain.com)                                                     |
+
+
+
+## 2NF: Non-key attribute dependence
 
 > | project_num | team   | role            | team_hq       |
 | ----------- | ------ | --------------- | ------------- |
@@ -48,6 +74,7 @@ ___
 | Team 2 | San Francisco |
 
 ## 3NF: Dependence on only candidate key
+
 >  | staff_num | staff_name | manager_num | manager_name |
  | --------- | ---------- | ----------- | ------------ |
 | 123 | John Doe | 987 | Sara Manageer |  
@@ -68,8 +95,8 @@ ___
 | 654         | Jay Deboss    |
 | 321         | Elle Hefe     |
 
-
 ## 4NF: No multi-valued dependencies
+
 > | project_num | staff_num | project_need       |
 | ----------- | --------- | ------------------ |
 | 12345       | 123       | User Interface     |
@@ -85,7 +112,7 @@ ___
 | 12345       | 456       |
 | 46578       | 789       |
 | 78901       | 123       |
-
+> 
 > | project_num | project_need |
 | ----------- | ------------ |
 |       12345 | User Interface     |  
@@ -93,8 +120,7 @@ ___
 |       45678 | API Development    |  
 |       78901 | Data Visualization |  
 
-
-## 5NF: No join dependencies 
+## 5NF: No join dependencies
 
 > | project_num | staff_num | project_asset  |
 | ----------- | --------- | -------------- |
@@ -103,4 +129,25 @@ ___
 | 45678 | 789 | API Development |  
 | 78901 | 123 | Data Visualization |  
 
-- All three attributes form a candidate key 
+- All three attributes combine to form a candidate key, adding new entries is difficult as scenarios such as  adding a new project_asset to a project_num would have a missing staff_num. It's not possible to create an unassigned project 
+
+> | project_num | staff_num |
+> | ----------- | --------- |
+> | 12345       | 123       |
+> |       12345 |       456 |  
+> |       45678 |       789 |  
+> |       78901 |       123 |  
+> 
+> | staff_num   | project_asset      |
+> | ----------- | ------------------ |
+> | 123         | User Interface     |
+> | 456         | Data Science       |
+> | 789         | API Development    |
+> | 123         | Data Visualization |
+> 
+> | project_num | project_asset  |
+> | ----------- | -------------- |
+> | 12345       | User Interface |
+> |       12345 | Data Science       |  
+> |       45678 | API Development    |  
+> |       78901 | Data Visualization |  
