@@ -53,8 +53,8 @@ ___
 > | 789          |[littlebobbytables@domain.com](mailto:littlebobbytables@domain.com)                                                     |
 > 
 
-## 2NF: Non-prime attribute dependence
-- Every [[Database_keys#Non-prime attributes|Non-prime attribute]] should be fully [[Database_relations#Functional dependency|functionally dependent]] on the entirety of every key
+## 2NF: Prime attribute dependence
+- Every [[Database_keys#Non-prime attributes|Non-prime attribute]] should be fully [[Database_relations#Functional dependency|functionally dependent]] of candidate key attributes 
 - The table should also be in [[#1NF: Atomic values|1NF]]
 
 > **Problem**:
@@ -80,7 +80,9 @@ ___
 | Team 1 | New York      |
 | Team 2 | San Francisco |
 
-## 3NF: prime attribute
+## 3NF: Non-prime attribute dependence
+- Every [[Database_keys#Non-prime attributes|Non-prime attribute]] should be dependent of all attributes including non-prime
+- The table should also be in [[#2NF: Non-prime attribute dependence|2NF]]
 
 > **Problem:**
 > 
@@ -106,7 +108,8 @@ ___
 | 654         | Jay Deboss    |
 | 321         | Elle Hefe     |
 
-## 4NF: No multi-valued dependencies
+## 4NF: Multi-valued dependencies
+- The table should also be in [[#3NF: Non-prime attribute dependence|3NF]]
 
 > **Problem:**
 > 
@@ -135,7 +138,11 @@ ___
 |       45678 | API Development    |  
 |       78901 | Data Visualization |  
 
-## 5NF: No join dependencies
+## Boyce-Codd normal form 
+- Tables must be free of reverse dependencies 
+- The table should also be in [[#3NF: Non-prime attribute dependence|3NF]]
+## 5NF: Join dependencies
+- The table should also be in [[#4NF: No multi-valued dependencies|4NF]]
 
 > **Problem:**
 > 
