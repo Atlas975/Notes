@@ -770,8 +770,8 @@
     "integrity": {
       "integrity": {
         "currentFile": {
-          "count": 3,
-          "lastUpdated": 1676117765095
+          "count": 4,
+          "lastUpdated": 1676132553007
         }
       }
     },
@@ -1420,6 +1420,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1676124966891
+        }
+      }
+    },
+    "redundant": {
+      "redundant": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676132351633
+        }
+      }
+    },
+    "anomalies": {
+      "anomalies": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676132358369
         }
       }
     }
