@@ -108,6 +108,24 @@ ___
 | 654         | Jay Deboss    |
 | 321         | Elle Hefe     |
 
+## Boyce-Codd normal form
+- Tables must be free of reverse dependencies 
+- The table should also be in [[#3NF: Non-prime attribute dependence|3NF]]
+
+> **Problem**:
+> 
+> | Emp_ID | Name          | Department | Manager   |
+| ------ | ------------- | ---------- | --------- |
+| 1      | John Doe      | Sales      | Jane Doe  |
+| 2      | Jane Doe      | Sales      | John Doe  |
+| 3      | Bob Smith     | Marketing  | Jane Doe  |
+| 4      | Sarah Johnson | Marketing  | Bob Smith |
+
+> **Solution:**
+> 
+> 
+
+
 ## 4NF: Multi-valued dependencies
 - The table should also be in [[#3NF: Non-prime attribute dependence|3NF]]
 
@@ -138,9 +156,6 @@ ___
 |       45678 | API Development    |  
 |       78901 | Data Visualization |  
 
-## Boyce-Codd normal form 
-- Tables must be free of reverse dependencies 
-- The table should also be in [[#3NF: Non-prime attribute dependence|3NF]]
 ## 5NF: Join dependencies
 - The table should also be in [[#4NF: No multi-valued dependencies|4NF]]
 
