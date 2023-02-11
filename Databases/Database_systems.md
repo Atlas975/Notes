@@ -1,5 +1,5 @@
 ---
-aliases: database, Database
+aliases: database
 ---
 > [!important]- Metadata
 > **Tags:** #Databases 

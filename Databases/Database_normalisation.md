@@ -15,4 +15,5 @@
 ___
 # Database normalisation
 
-- Process of organising data in way that minimises data redundancy and 
+- Process of organising data in way that minimises data redundancy and dependency
+- Increases data 

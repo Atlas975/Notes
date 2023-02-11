@@ -185,6 +185,19 @@
             }
           },
           {
+            "id": "6c414b69628372a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Database_normalisation.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b4c1b247751289c6",
             "type": "leaf",
             "state": {
@@ -206,7 +219,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -251,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareEngineering/Functional_programming.md",
+                "file": "Databases/Database_normalisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -291,7 +304,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareEngineering/Functional_programming.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           }
@@ -315,7 +328,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareEngineering/Functional_programming.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           },
@@ -341,7 +354,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareEngineering/Functional_programming.md",
+                "file": "Databases/Database_normalisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -391,17 +404,17 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "b5e9bf798a4e2844",
+  "active": "6c414b69628372a6",
   "lastOpenFiles": [
     "Databases/Relational_algebra.md",
+    "Databases/Database_systems.md",
+    "SoftwareEngineering/Functional_programming.md",
     "Databases/Database_constraints.md",
     "Databases/Database_normalisation.md",
     "ProgramLanguages/SQL/SQL_language.md",
     "Networking/Network_delay.md",
     "DataStructures/Heaps.md",
     "DataStructures/CacheStructures/LRU.md",
-    "Networking/Network_architecture.md",
-    "Networking/Network_routing.md",
-    "Networking/Transmission_mediums.md"
+    "Networking/Network_architecture.md"
   ]
 }
