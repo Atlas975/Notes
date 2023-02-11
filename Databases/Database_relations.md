@@ -1,6 +1,7 @@
 ---
 aliases: relational databases
 ---
+
 > [!important]- Metadata
 > **Tags:** #Databases 
 > **Located:** Databases
@@ -56,6 +57,15 @@ v=values
 
 
 - One to many relations are an example of a **weak entity set**, these are cases where the existence of an entity depends on the existence of an entity in the single mapped relation
+
+
+## Functional dependency
+- A functional dependency between attributes X, Y (X -> Y) holds on relation R if for every allowable instance of R:
+$$\begin{align*}
+t_{1}\in r,t_{2}\in r \text{ such that:}\\
+\Pi _{x}t_{1}=\Pi_{x}t_{2} \to \Pi _{y}t_{1}=\Pi_{y}t_{2}y
+\end{align*}$$
+> ![[Pasted image 20230211164800.png|500|500]]
 # ER-to-relational mapping
 - In order to obey [[Database_constraints|database constraints]] in an [[Entity_relationship_model|ER]], each relationship mapping requires keys to be managed differently depending on relation types 
 - This mapping also impacts how [[SQL_relations|deletion]] of a tuple should be handled  

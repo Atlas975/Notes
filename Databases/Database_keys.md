@@ -27,6 +27,12 @@ ___
 ## Composite key
 - Key made up of two or more attributes that together uniquely identify a record.
 
+### Prime attributes
+- Any attribute that is part of any candidate key, can be used to uniquely identify a tuple 
+
+### Non-prime attributes 
+- All other attributes that cannot act as a unique identifier, can be decomposed further 
+
 ## Candidate key
 - Set of attributes that can be used as the primary key for a table. A table can have multiple candidate keys, but only one primary key.
 ## Alternate key

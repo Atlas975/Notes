@@ -53,7 +53,8 @@ ___
 > | 789          |[littlebobbytables@domain.com](mailto:littlebobbytables@domain.com)                                                     |
 > 
 
-## 2NF: Non-key attribute dependence
+## 2NF: Non-prime attribute dependence 
+- Every [[Database_keys#Non-prime attributes|Non-prime attribute]] should be fully functionally dependent on the entirety of every key
 
 > **Problem**:
 > 
