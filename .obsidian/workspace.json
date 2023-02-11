@@ -188,13 +188,8 @@
             "id": "6c414b69628372a6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Database_normalisation.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -264,7 +259,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_normalisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -303,9 +297,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Databases/Database_normalisation.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -327,9 +319,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Databases/Database_normalisation.md"
-              }
+              "state": {}
             }
           },
           {
@@ -354,7 +344,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_normalisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -406,9 +395,9 @@
   },
   "active": "6c414b69628372a6",
   "lastOpenFiles": [
+    "Databases/Database_normalisation.md",
     "Databases/Database_constraints.md",
     "Databases/Database_relations.md",
-    "Databases/Database_normalisation.md",
     "Databases/Relational_algebra.md",
     "Databases/Database_systems.md",
     "SoftwareEngineering/Functional_programming.md",
