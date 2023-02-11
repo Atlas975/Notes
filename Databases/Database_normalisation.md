@@ -18,9 +18,12 @@ ___
 - Process of organising data in way that minimises data redundancy and dependency
 - Increases data integrity and consistency, normalisation ensures that each table in a [[Database_systems|database]] represents a single [[Entity_relationship_model|entity type]] and contains data only relating to that entity 
 - This is not always ideal for performance but is valuable for  [[Database_constraints#Integrity constraints|data integrity]]
-- This is achieved through steps known as normal forms:
-
-## 1NF: Atomic values
+- This is achieved through steps known as normal forms, these steps are designed to prevent the following from occurring within a [[Database_systems|database]]
+    - **Insertion anomalies**: when its impossible to insert data without violating normalisation 
+    - **Deletion anomalies**: when deleting data results in the loss of essential information that should have been stored elsewhere, this is prevalent with redundant data dependency 
+    - **Modification anomalies**
+## 1NF: Atomic values 
+- No multi-valued attributes sh
 
 ## 2NF: Non-key attributes dependent on entire primary key
 

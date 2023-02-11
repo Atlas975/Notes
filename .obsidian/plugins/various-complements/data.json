@@ -1370,16 +1370,24 @@
     "normalisation": {
       "normalisation": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1676117550326
+          "count": 2,
+          "lastUpdated": 1676118784488
         }
       }
     },
     "dependency": {
       "dependency": {
         "currentFile": {
+          "count": 2,
+          "lastUpdated": 1676118961688
+        }
+      }
+    },
+    "redundancy": {
+      "redundancy": {
+        "currentFile": {
           "count": 1,
-          "lastUpdated": 1676118099658
+          "lastUpdated": 1676118958408
         }
       }
     }
