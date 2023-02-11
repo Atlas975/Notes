@@ -69,7 +69,38 @@ ___
 | 321         | Elle Hefe     |
 
 
-## 4NF: No multi valued dependencies
+## 4NF: No multi-valued dependencies
+> | project_num | staff_num | project_need       |
+| ----------- | --------- | ------------------ |
+| 12345       | 123       | User Interface     |
+| 12345       | 456       | Data Science       |
+| 46578       | 789       | API Development    |
+| 78901       | 123       | Data Visualization |
+
+- This implies a relationship between project need and staff member, staff_num can take on multiple different values and is a redundant dependency
+
+> | project_num | staff_num |
+| ----------- | --------- |
+| 12345       | 123       |
+| 12345       | 456       |
+| 46578       | 789       |
+| 78901       | 123       |
+
+> | project_num | project_need |
+| ----------- | ------------ |
+|       12345 | User Interface     |  
+|       12345 | Data Science       |  
+|       45678 | API Development    |  
+|       78901 | Data Visualization |  
 
 
-## 5NF: No join dependency for non-key attributes
+## 5NF: No join dependencies 
+
+> | project_num | staff_num | project_asset  |
+| ----------- | --------- | -------------- |
+| 12345       | 123       | User Interface |
+| 12345 | 456 | Data Science |  
+| 45678 | 789 | API Development |  
+| 78901 | 123 | Data Visualization |  
+
+- All three attributes form a candidate key 
