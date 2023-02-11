@@ -111,14 +111,6 @@
         }
       }
     },
-    "LRU": {
-      "LRU": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1673462171170
-        }
-      }
-    },
     "operation": {
       "operation": {
         "currentFile": {
@@ -132,22 +124,6 @@
         "currentFile": {
           "count": 3,
           "lastUpdated": 1674914384346
-        }
-      }
-    },
-    "least recently used": {
-      "LRU": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1673461177482
-        }
-      }
-    },
-    "LFU": {
-      "LFU": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1673462178204
         }
       }
     },
@@ -794,8 +770,8 @@
     "integrity": {
       "integrity": {
         "currentFile": {
-          "count": 2,
-          "lastUpdated": 1675537805675
+          "count": 3,
+          "lastUpdated": 1676117765095
         }
       }
     },
@@ -1388,6 +1364,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1676056458091
+        }
+      }
+    },
+    "normalisation": {
+      "normalisation": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676117550326
+        }
+      }
+    },
+    "dependency": {
+      "dependency": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676118099658
         }
       }
     }

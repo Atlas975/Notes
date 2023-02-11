@@ -16,4 +16,32 @@ ___
 # Database normalisation
 
 - Process of organising data in way that minimises data redundancy and dependency
-- Increases data 
+- Increases data integrity and consistency, normalisation ensures that each table in a [[Database_systems|database]] represents a single [[Entity_relationship_model|entity type]] and contains data only relating to that entity 
+- This is not always ideal for performance but is valuable for  [[Database_constraints#Integrity constraints|data integrity]]
+- This is achieved through steps known as normal forms:
+
+## 1NF: Atomic values
+
+## 2NF: Non-key attributes dependent on entire primary key
+
+## 3NF
+
+| ID  | Name     | Course | Address  |
+| --- | -------- | ------ | -------- |
+| 1   | John Doe | Math   | 123 Main |
+|  2 | Jane Doe | Science| 456 Elm |
+
+| ID  | Name     | Course  |
+| --- | -------- | ------- |
+| 1   | John Doe | Math    |
+| 2   | Jane Doe | Science |
+
+| ID  | Address  |
+| --- | -------- |
+| 1   | 123 Main |
+| 2   | 456 Elm  |
+
+## 4NF: No multi valued dependencies
+
+
+## 5NF: No join dependency for non-key attributes

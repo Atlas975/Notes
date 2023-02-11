@@ -191,7 +191,7 @@
               "type": "markdown",
               "state": {
                 "file": "Databases/Database_normalisation.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -406,15 +406,15 @@
   },
   "active": "6c414b69628372a6",
   "lastOpenFiles": [
+    "Databases/Database_constraints.md",
+    "Databases/Database_relations.md",
+    "Databases/Database_normalisation.md",
     "Databases/Relational_algebra.md",
     "Databases/Database_systems.md",
     "SoftwareEngineering/Functional_programming.md",
-    "Databases/Database_constraints.md",
-    "Databases/Database_normalisation.md",
     "ProgramLanguages/SQL/SQL_language.md",
     "Networking/Network_delay.md",
     "DataStructures/Heaps.md",
-    "DataStructures/CacheStructures/LRU.md",
-    "Networking/Network_architecture.md"
+    "DataStructures/CacheStructures/LRU.md"
   ]
 }
