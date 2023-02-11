@@ -19,11 +19,11 @@ ___
 - Increases data integrity and consistency, normalisation ensures that each table in a [[Database_systems|database]] represents a single [[Entity_relationship_model|entity type]] and contains data only relating to that entity 
 - This is not always ideal for performance but is valuable for  [[Database_constraints#Integrity constraints|data integrity]]
 - This is achieved through steps known as normal forms, these steps are designed to prevent the following from occurring within a [[Database_systems|database]]
-    - **Insertion anomalies**: when its impossible to insert data without violating normalisation 
+    - **Insertion anomalies**: when its impossible to insert data without violating it's relational constraints, eg insert a student with a missing course when null is not allowed for course 
     - **Deletion anomalies**: when deleting data results in the loss of essential information that should have been stored elsewhere, this is prevalent with redundant data dependency 
-    - **Modification anomalies**
+    - **Modification anomalies**: when modifying data leads to data inconsistencies, eg updating a name with the change not propagating elsewhere
 ## 1NF: Atomic values 
-- No multi-valued attributes sh
+- No multi-valued attributes, each attribute should have a single value that cannot be decomposed further
 
 ## 2NF: Non-key attributes dependent on entire primary key
 
