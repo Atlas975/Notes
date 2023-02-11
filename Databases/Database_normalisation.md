@@ -41,18 +41,32 @@ ___
 | 123         | Team 1 | User Interface  |
 | 123         | Team 2 | Database Design |
 | 465         | Team 2 | API Development |
-
+> 
 > | team   | team_hq       |
 | ------ | ------------- |
 | Team 1 | New York      |
 | Team 2 | San Francisco |
 
-## 3NF
- | staff_num | staff_name | manager_num | manager_name|
- 
+## 3NF: Dependence on only candidate key
+>  | staff_num | staff_name | manager_num | manager_name |
+ | --------- | ---------- | ----------- | ------------ |
 | 123 | John Doe | 987 | Sara Manageer |  
 | 456 | Jane Doe | 654 | Jay Deboss |  
 | 789 | Robert Tables | 321 | Elle Hefe |  
+
+- manager_name is dependent on manager_num not staff_num not the candidate key
+
+> | staff_num | staff_name    | manager_num |
+| --------- | ------------- | ----------- |
+| 123       | John Doe      | 987         |
+| 456       | Jane Doe      | 654         |
+| 789       | Robert Tables | 321         |
+> 
+> | manager_num | manager_name  |
+| ----------- | ------------- |
+| 987         | Sara Manageer |
+| 654         | Jay Deboss    |
+| 321         | Elle Hefe     |
 
 
 ## 4NF: No multi valued dependencies
