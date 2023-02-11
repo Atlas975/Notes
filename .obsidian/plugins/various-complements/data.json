@@ -450,8 +450,8 @@
     "attribute": {
       "attribute": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1674398507201
+          "count": 3,
+          "lastUpdated": 1676124520174
         }
       }
     },
@@ -1250,8 +1250,8 @@
     "dependent": {
       "dependent": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1676051644727
+          "count": 2,
+          "lastUpdated": 1676124276589
         }
       }
     },
@@ -1388,6 +1388,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1676118958408
+        }
+      }
+    },
+    "violating": {
+      "violating": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676124291922
+        }
+      }
+    },
+    "relational": {
+      "relational": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676124480116
         }
       }
     }

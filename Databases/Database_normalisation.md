@@ -19,30 +19,41 @@ ___
 - Increases data integrity and consistency, normalisation ensures that each table in a [[Database_systems|database]] represents a single [[Entity_relationship_model|entity type]] and contains data only relating to that entity 
 - This is not always ideal for performance but is valuable for  [[Database_constraints#Integrity constraints|data integrity]]
 - This is achieved through steps known as normal forms, these steps are designed to prevent the following from occurring within a [[Database_systems|database]]
-    - **Insertion anomalies**: when its impossible to insert data without violating it's relational constraints, eg insert a student with a missing course when null is not allowed for course 
-    - **Deletion anomalies**: when deleting data results in the loss of essential information that should have been stored elsewhere, this is prevalent with redundant data dependency 
-    - **Modification anomalies**: when modifying data leads to data inconsistencies, eg updating a name with the change not propagating elsewhere
-## 1NF: Atomic values 
+	- **Insertion anomalies**: when its impossible to insert data without violating it's relational constraints, eg insert a student with a missing course when null is not allowed for course 
+	- **Deletion anomalies**: when deleting data results in the loss of essential information that should have been stored elsewhere, this is prevalent with redundant data dependency 
+	- **Modification anomalies**: when modifying data leads to data inconsistencies, eg updating a name with the change not propagating elsewhere
+## 1NF: Atomic values
 - No multi-valued attributes, each attribute should have a single value that cannot be decomposed further
+- The values in each column should also obey [[Database_constraints#Domain constraints|domain constraints]]
 
-## 2NF: Non-key attributes dependent on entire primary key
+## 2NF: Non-key attribute dependence 
+
+> | project_num | team   | role            | team_hq       |
+| ----------- | ------ | --------------- | ------------- |
+| 123         | Team 1 | User Interface  | New York      |
+| 123         | Team 2 | Database Design | San Francisco |
+| 465         | Team 2 | API Development | San Francisco |
+
+- team_hq is only dependent on the team key not project_num, violating 2NF, the team_hq attribute can be split into a separate relation
+
+> | project_num | team   | role            |
+| ----------- | ------ | --------------- |
+| 123         | Team 1 | User Interface  |
+| 123         | Team 2 | Database Design |
+| 465         | Team 2 | API Development |
+
+> | team   | team_hq       |
+| ------ | ------------- |
+| Team 1 | New York      |
+| Team 2 | San Francisco |
 
 ## 3NF
+ | staff_num | staff_name | manager_num | manager_name|
+ 
+| 123 | John Doe | 987 | Sara Manageer |  
+| 456 | Jane Doe | 654 | Jay Deboss |  
+| 789 | Robert Tables | 321 | Elle Hefe |  
 
-| ID  | Name     | Course | Address  |
-| --- | -------- | ------ | -------- |
-| 1   | John Doe | Math   | 123 Main |
-|  2 | Jane Doe | Science| 456 Elm |
-
-| ID  | Name     | Course  |
-| --- | -------- | ------- |
-| 1   | John Doe | Math    |
-| 2   | Jane Doe | Science |
-
-| ID  | Address  |
-| --- | -------- |
-| 1   | 123 Main |
-| 2   | 456 Elm  |
 
 ## 4NF: No multi valued dependencies
 
