@@ -177,8 +177,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_normalisation.md",
-                "mode": "source",
+                "file": "SoftwareEngineering/Functional_programming.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -251,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "SoftwareEngineering/Functional_programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -291,7 +291,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "SoftwareEngineering/Functional_programming.md"
               }
             }
           }
@@ -315,7 +315,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "SoftwareEngineering/Functional_programming.md"
               }
             }
           },
@@ -341,7 +341,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "SoftwareEngineering/Functional_programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -394,14 +394,14 @@
   "active": "b5e9bf798a4e2844",
   "lastOpenFiles": [
     "Databases/Relational_algebra.md",
-    "ProgramLanguages/SQL/SQL_language.md",
+    "Databases/Database_constraints.md",
     "Databases/Database_normalisation.md",
+    "ProgramLanguages/SQL/SQL_language.md",
     "Networking/Network_delay.md",
     "DataStructures/Heaps.md",
     "DataStructures/CacheStructures/LRU.md",
     "Networking/Network_architecture.md",
     "Networking/Network_routing.md",
-    "Networking/Transmission_mediums.md",
-    "Networking/Internet_architecture.md"
+    "Networking/Transmission_mediums.md"
   ]
 }

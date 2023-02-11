@@ -41,7 +41,6 @@ ___
 ## Impure functions
 - Impure functions mutate the external state of the program, for example modifying variables declared outside a function
 
-````ad-example
 ```python
 data = [1, 2]
 def update_data(value):
@@ -51,8 +50,7 @@ def update_data(value):
 ## Pure functions
 - Pure functions have no side effects on the external state of the program, all variables are declared within the function, this also ensures the function performs the same way each time it's called with specific arguments
 
-````ad-example
-```js
+```python
 def update_data(value):
     data = [1, 2]
     data.append(value)
