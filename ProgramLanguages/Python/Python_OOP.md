@@ -5,11 +5,8 @@ created: 2022-10-31 13:53
 
 ---
 # Abstract base class (ABC)
-```ad-example
-```python
 
-# Python program to demonstrate
-# use of a class method and static method.
+```python
 from datetime import date
   
 class Person:
@@ -17,14 +14,12 @@ class Person:
         self.name = name
         self.age = age
   
-    # a class method to create a
-    # Person object by birth year.
+    # a class method to create a person object by birth year.
     @classmethod
     def fromBirthYear(cls, name, year):
         return cls(name, date.today().year - year)
   
-    # a static method to check if a
-    # Person is adult or not.
+    # a static method to check if a person is adult or not.
     @staticmethod
     def isAdult(age):
         return age > 18
@@ -40,7 +35,7 @@ print(Person.isAdult(22))
 ```
 
 - Python does not have formal interfaces, but abstract classes can be implemented with the @abstractclass decorator, this is enforced by the interpreter  
-```ad-example
+
 ```python
 from abc import ABC, abstractmethod
 

@@ -1638,6 +1638,14 @@
           "lastUpdated": 1676198966822
         }
       }
+    },
+    "interpreter": {
+      "interpreter": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676199702053
+        }
+      }
     }
   }
 }

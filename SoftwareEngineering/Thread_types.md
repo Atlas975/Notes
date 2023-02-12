@@ -33,15 +33,7 @@ ___
 ## Language runtime thread
 - Managed by runtime environment of a programming language eg the [[Java_language|JVM]] 
 - Can utilise either kernel or user-level thread depending on application requirements
-- The runtime environment  
-- Act as a convenient way for developers to add multi-threading capabilities by providing an abstract view of the underlying threading model that's both conc
+- The runtime environment managing system resources, thread execution and lifecycle
+- Act as a convenient way for developers to add multi-threading capabilities by providing an abstract view of the underlying threading model that's both consistent and portable 
 
 
-# OS concurrency
-## System calls for unix processes
-[[Concurrency]]
-
-
-## Threads: user vs kernel vs language
-
-> ![[Pasted image 20221022125933.png|400|400]]
