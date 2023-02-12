@@ -45,10 +45,10 @@ ___
 ## Decentralised communication protocols
 - Agents play a role in these protocols by participating
 - The main requirements in a protocol specification include:
-    - Roles: level of abstraction over base agents 
-    - Message schemes: allowed data 
-    - Constraints of message occurrence & ordering
-    - Message emission and reception: how data transmission is handled, if this is point-to-point, between roles or multicast (one sender multiple receivers)
+	- Roles: level of abstraction over base agents 
+	- Message schemes: allowed data 
+	- Constraints of message occurrence & ordering
+	- Message emission and reception: how data transmission is handled, if this is point-to-point, between roles or multicast (one sender multiple receivers)
 - Multicast sending: 
 
 > ![[Pasted image 20221105113614.png]]
@@ -58,16 +58,15 @@ ___
 > ![[Pasted image 20221105115527.png]]
 
 - Protocols encourage: 
-    **Autonomy**: limited constraints on agent decision making and interactions
-    **Inter-operation**: gives meaning to transmitted messages by specifying correct behaviors
-    **Heterogeneity**: like an [[OOP_principles#Interface signature]],  provides a standard that all agents must follow in implementatuon
+	- **Autonomy**: limited constraints on agent decision making and interactions
+	- **Inter-operation**: gives meaning to transmitted messages by specifying correct behaviors
+	- **Heterogeneity**: like an [[OOP_principles#Interface signature|Interface signature]],  provides a standard that all agents must follow in implementatuon
 
-## State machines 
+## State machines
 - A state machine is an abstraction over an algorithm to describe its control flow
 - Useful for describing intended control flow of a [[Concurrency|concurrent]] model
 
 > ![[Pasted image 20221105122527.png|500|500]]
-
 
 # Multiagent system pitfalls
 - Interactions must maintain data integrity
@@ -77,16 +76,19 @@ ___
 
 - Example challenges include 
 ## Integrity violations
+
 > ![[Pasted image 20221105123657.png]]
 
 ## Race conditions
+
 > ![[Pasted image 20221105123726.png]]
 
-## Deadlock interactions 
+## Deadlock interactions
 [[Concurrency#Concurrency pitfalls]]
+
 > ![[Pasted image 20221105123821.png|500|500]]
 
-## Asynchronous communication 
+## Asynchronous communication
 - Ordering send - receive communication has its own challenges such as required synchronization and tight coupling 
 
 > ![[Pasted image 20221105124158.png]]

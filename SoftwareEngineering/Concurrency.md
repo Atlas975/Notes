@@ -27,8 +27,8 @@ aliases: async
 
 ___
 # Concurrency
-- Concurrency describes the process of multiple **loci of communication** (actors/processes/threads) acting over shared resources.
-- This is especially prevalent in [[Operating_system_design]] where shared memory and hardware devices are used for several unique processes 
+- Concurrency describes the process of multiple **loci of communication** (actors/processes/threads) acting over shared resources. While threads can be used to achieve this, concurrent processes can also work through the use of [[Processors#Multiprocessors|Multiprocessors]]
+- This is especially prevalent in [[Operating_system_design|OS design]] where shared memory and hardware devices are used for several unique processes 
 ## Central concepts of concurrency
 1. Processor: hardware device executing machine instructions 
 2. Program: instruction sequence defining potential execution path 
@@ -93,7 +93,7 @@ t.start();
 - This can also be achieved with **mutual exclusion** which ensures only one thread can access a critical section at a time, in  [[Java_language]] this is done by adding the synchronized signature to a method 
 - **Locks** are also a mechanism for ensuring mutual exclusion 
 - Example without race condition: 
-```ad-example
+
 ```java
 public class Bank_account {
     private int bal = 0;
@@ -135,7 +135,7 @@ public class Bank_account {
 - Locks only allow one thread at a time to access a resource, semaphores let in multiple while still restricting this number. For instance having 3 shared booth resources between 5 people 
 - Having a single semaphore is equivalent to using a lock
 - Example semaphore java usage 
-```ad-example
+
 ```java
 public class Vaccination {
     public static void main(String[] args) {
@@ -173,7 +173,7 @@ notify()
 // takes a thread from wait and makes it runnable, must still obtain L
 ```
 - Example of thread that waits for a thread to release before running, if the check loop is not present the thread will terminate without a semaphore 
-```ad-example
+
 ```java
 public class Semaphore {
     private int count = 0;
@@ -309,7 +309,7 @@ public void run() {
 # Dynamic thread barriers
 ## Countdown latch
 - Specifies a set number of tasks to be completed before a thread waiting on a latch can proceed, note the thread decrementing the latch can still be active
-```ad-example
+
 ```java
 public class Driver {
     CountDownLatch latch = new CountDownLatch(4);
@@ -339,7 +339,7 @@ public void run() {
 ```
 ## Cyclic barrier
 - Gives threads a common barrier point before more threads can continue, this can optionally take in another thread to run as soon as the barrier point is reached 
-```ad-example
+
 ```java
 public class Driver {
     CyclicBarrier latch = new CyclicBarrier(3, new BarrierFinish();

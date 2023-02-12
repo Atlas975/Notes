@@ -1,6 +1,7 @@
 ---
 aliases: [OS]
 ---
+
 > [!important|inIL]- Metadata
 > **Tags:** #OperatingSystems 
 > **Located:** OperatingSystems
@@ -19,9 +20,9 @@ ___
 # Operating system design
 
 - An OS does the following:
-    - Manages hardware and system resources 
-    - Offers a secure environment for applications and multiple users
-    - Provides common device or [[Input&Output_systems|I/O system]]
+	- Manages hardware and system resources 
+	- Offers a secure environment for applications and multiple users
+	- Provides common device or [[Input&Output_systems|I/O system]]
 - Does not account for applications and services, this includes the desktop environment
 - An OS provides an abstract view of a computer for applications to work with 
 
@@ -29,11 +30,11 @@ ___
 
 - An OS can also be written over a hardware level of abstraction
 - A typical Linux distribution would consist of:
-    1. Linux Kernel
-    2. GNU tools (gcc, gdb) and libraries
-    3. Additional software + documentation
-    4. Desktop environment (eg Gnome / KDE) + window system (eg Wayland / i3)
-    5. Package management system (eg Flatpak / Snap)
+	1. Linux Kernel
+	2. GNU tools (gcc, gdb) and libraries
+	3. Additional software + documentation
+	4. Desktop environment (eg Gnome / KDE) + window system (eg Wayland / i3)
+	5. Package management system (eg Flatpak / Snap)
 
 > ![[Pasted image 20221124153323.png|400|300]]
 
@@ -42,16 +43,18 @@ ___
 - The core of a computer OS, controls interactions between hardware and software components
 - Always resident in memory and handles use of processes such as use of the CPU, memory, disk I/O and networking
 ## Linux filesystem
+
 > ![[Pasted image 20220618155352.png]][[File_systems#Unix file system|Unix file system]]
+
 ## Booting process
 
-- The boot process can be broken down into 3 core steps, based on Debian in the following:
+- The boot process can be broken down into 3 core steps, system management and initialization daemons such as **systemd** exist which cover all of these
 ### BIOS
 - Stands for **basic input/output system**
 - Initializes the program counter and performs the basic hardware initialization, the first few sectors of a device are also loaded into memory.
 - The bootloader and kernel code of target OS is typically part of initialization
 ### Bootloader
-- Started by the BIOS, loads kernal image and the **initrd** image (initial ram disk & temp root file system) to memory. 
+- Started by the BIOS, loads kernel image and the **initrd** image (initial ram disk & temp root file system) to memory. 
 - On linux, can be found in /boot/grub/grub.cfg
 ### Boot process
 - Root file system switched from memory to one on disk
@@ -62,9 +65,9 @@ ___
 - Kernel has no knowledge of logins, this is handled through system programs 
 ### Authentication
 - On unix, authentication is provided by PAM (pluggable authentication modules),  PAM uses the following config file:
-    - **/etc/passwd** account info
-    - **/etc/shadow** secure account info (password hash)
-    - **/etc/group** group info
+	- **/etc/passwd** account info
+	- **/etc/shadow** secure account info (password hash)
+	- **/etc/group** group info
 ## Shell
 - A program used to employ commands [[Bash]]
 - Common variants include bash, tcsh, dash, csh,  and zsh
@@ -72,7 +75,7 @@ ___
 
 # OS design types
 
-## Operating system classes 
+## Operating system classes
 - Operating systems will fall into different classes based on unique use cases 
 ### Embedded / real-time
 - Emphasis on long term reliability, lightweight with only essential software and a certification process for safety critical systems 
@@ -84,7 +87,7 @@ ___
 - Emphasis on interactivity and GUI / media 
 - Preferred for usability 
 
-## Monolithic 
+## Monolithic
 - Traditional approach, at most two protection levels
 - Applications can directly interact with the kernel, no separation. Kernel acts as gatekeeper
 - Complete OS runs in kernel space 
@@ -108,32 +111,37 @@ ___
 - Data transferred through inefficient message passing instead of memory references 
 
 > ![[Pasted image 20221124232822.png|400]]
+
 - Also well suited for distributed systems as messages can easily be passed over a network
-## Monolithic  vs Microkernel 
+## Monolithic vs Microkernel
 - The more running in user space, the less goes wrong in the event of failure 
 - Generally, moving away from monolithic means more security, moving towards microkernel means less efficiency 
 
 > ![[Pasted image 20221124233234.png|600|600]]
-## Modular 
+
+## Modular
 - Kernel has set of extensible modules that can be dynamically loaded
 - Components use a strict API  and are only loaded as needed
 - Not limited to microkernal style message passing [[OOP_principles]]
 
 > ![[Pasted image 20221124234106.png|400]]
+
 ## Library OS / Uni-Kernels
 - Applications carry most of the functionality typically part of the kernel 
 - Kernel configures security at lowest level 
 - Typically used in networking, libraries provides all other functionality.
+
 > ![[Pasted image 20221124234735.png|400]]
-# System processes 
+
+# System processes
 - A running instance of a program invoked by exec()
 - [[Concurrency#Threads|Threads]] are a flow of execution within a process
 - Threads are more efficient as they don't have the baggage of needing hardware info, permissions, etc.
 - When a process is run the OS needs to account for its **context** which describes the info related to an individual process, this includes
-    - File permissions
-    - [[Computer_memory#Memory distribution|Memory map / layout]]
-    - On-going communication state 
-    - Resource usage
+	- File permissions
+	- [[Computer_memory#Memory distribution|Memory map / layout]]
+	- On-going communication state 
+	- Resource usage
 - Child processes are part of this as well
 - Context is stored in table, basic process control block:
 
@@ -143,7 +151,7 @@ ___
 
 > ![[Pasted image 20221125110337.png]]
 
-## Process hierarchy 
+## Process hierarchy
 - Processes can spawn child processes 
 - Limit is imposed by system both system (for system stability) and per process (for fairness)
 
@@ -152,8 +160,8 @@ ___
 
 - Child goes into zombie state before resources are returned to parent
 - Process states:
-    - **Interruptible**: operation can be stopped
-    - **Uninterruptible**: operation must complete
+	- **Interruptible**: operation can be stopped
+	- **Uninterruptible**: operation must complete
 
 > ![[Pasted image 20221125111147.png]]
 
@@ -163,24 +171,24 @@ ___
 - System calls work by loading passed in parameters in registers and then invoking an **interrupt** that acts as a trigger to call the kernel.
 - [[Input&Output_systems#Interrupts|Interrupts]] tell the kernel a system call was made
 
-# Clocks and timers 
+# Clocks and timers
 - **Real time clock (RTC)**: returns encoding of current date 
 - **Programmable interrupt timer**: creates periodic events at set / configurable level, used to invoke periodic tasks within the kernel 
 ## Frequency problems
 - Low frequency can make the kernel seem unresponsive 
 - High frequency can make the OS spend too much overhead managing timers
-## Dynamic interval timers 
+## Dynamic interval timers
 - Creates event queue with a timer that's configured to fire when the next task is due rather than in fixed periods that have been set
 - Governed by shortest gap between events that need to be managed  
 
 > ![[Pasted image 20221127161943.png]]
-# OS concurrency 
-## System calls for unix processes 
+
+# OS concurrency
+## System calls for unix processes
 [[Concurrency]]
+
 > ![[Pasted image 20221022115058.png|500]]
 
-## Threads: user vs kernel vs language 
+## Threads: user vs kernel vs language
+
 > ![[Pasted image 20221022125933.png|500]]
-
-
-
