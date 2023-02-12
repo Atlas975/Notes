@@ -183,12 +183,3 @@ ___
 
 > ![[Pasted image 20221127161943.png]]
 
-# OS concurrency
-## System calls for unix processes
-[[Concurrency]]
-
-> ![[Pasted image 20221022115058.png|500]]
-
-## Threads: user vs kernel vs language
-
-> ![[Pasted image 20221022125933.png|500]]
