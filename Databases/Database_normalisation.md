@@ -31,7 +31,7 @@ ___
 > | staff_num | staff_name    | staff_email |
 | --------- | ------------- | ----- |
 | 123       | John Doe      | [john.doe@domain.com](mailto:john.doe@domain.com)[,jdoe@ajob.org](mailto:,jdoe@ajob.org)     |
-| 456       | Jane Doe      | [jane@domain.com](mailto:jane@domain.com)[,jane@anemployer.net](mailto:,jane@anemployer.net) |
+| 456       | Emily Doe      | [jane@domain.com](mailto:jane@domain.com)[,jane@anemployer.net](mailto:,jane@anemployer.net) |
 | 789       | Robert Tables | [littlebobbytables@domain.com](mailto:littlebobbytables@domain.com)                          |
 
 - Staff email is non-atomic, instead containing multiple comma-delimited entries, cannot easily select distinct employee emails
@@ -41,7 +41,7 @@ ___
 > | staff_num | staff_name    |
 > | --------- | ------------- |
 > | 123       | John Doe      |
-> | 456       | Jane Doe      |
+> | 456       | Emily Doe      |
 > | 789       | Robert Tables |
 > 
 > | staff_num | staff_email                                         |
@@ -89,7 +89,7 @@ ___
 >  | staff_num | staff_name | manager_num | manager_name |
  | --------- | ---------- | ----------- | ------------ |
 | 123 | John Doe | 987 | Sara Manageer |  
-| 456 | Jane Doe | 654 | Jay Deboss |  
+| 456 | Emily Doe | 654 | Jay Deboss |  
 | 789 | Robert Tables | 321 | Elle Hefe |  
 
 - manager_name is dependent on manager_num not staff_num not the candidate key
@@ -99,7 +99,7 @@ ___
 > | staff_num | staff_name    | manager_num |
 | --------- | ------------- | ----------- |
 | 123       | John Doe      | 987         |
-| 456       | Jane Doe      | 654         |
+| 456       | Emily Doe      | 654         |
 | 789       | Robert Tables | 321         |
 > 
 > | manager_num | manager_name  |
@@ -109,22 +109,35 @@ ___
 | 321         | Elle Hefe     |
 
 ## Boyce-Codd normal form
-- Tables must be free of reverse dependencies 
+- Tables must be free of reverse dependencies, with every non-prime attribute being a proper subset of the candidate key
 - The table should also be in [[#3NF: Non-prime attribute dependence|3NF]]
 
 > **Problem**:
 > 
 > | Emp_ID | Name          | Department | Manager   |
 | ------ | ------------- | ---------- | --------- |
-| 1      | John Doe      | Sales      | Jane Doe  |
-| 2      | Jane Doe      | Sales      | John Doe  |
-| 3      | Bob Smith     | Marketing  | Jane Doe  |
+| 1      | John Doe      | Sales      | Emily Doe  |
+| 2      | Emily Doe      | Sales      | John Doe  |
+| 3      | Bob Smith     | Marketing  | Emily Doe  |
 | 4      | Sarah Johnson | Marketing  | Bob Smith |
+
+- Functional dependencies Manager  -> Department  exists and (Department , Name) -> Manager holds. Manager is dependent only part of the candidate key (Department, Name)
+- To normalise, separate managers table can be created, relationship established through Name
 
 > **Solution:**
 > 
+> | Emp_ID | Name          | Department |
+| ------ | ------------- | ---------- |
+| 1      | John Doe      | Sales      |
+| 2      | Emily Doe     | Sales      |
+| 3      | Bob Smith     | Marketing  |
+| 4      | Sarah Johnson | Marketing  |
 > 
-
+> | Name      | Department |
+| --------- | ---------- |
+| Emily Doe | Sales      |
+| John Doe  | Sales      |
+| Bob Smith | Marketing  |
 
 ## 4NF: Multi-valued dependencies
 - The table should also be in [[#3NF: Non-prime attribute dependence|3NF]]
