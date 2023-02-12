@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "OperatingSystems/Operating_system_design.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "OperatingSystems/Operating_system_design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "OperatingSystems/Operating_system_design.md"
               }
             }
           }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "OperatingSystems/Operating_system_design.md"
               }
             }
           },
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "OperatingSystems/Operating_system_design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,9 +221,9 @@
   },
   "active": "69b8fca6d0840146",
   "lastOpenFiles": [
+    "Databases/Database_normalisation.md",
     "Databases/Database_keys.md",
     "Databases/Database_relations.md",
-    "Databases/Database_normalisation.md",
     "ProgramLanguages/SQL/SQL_language.md",
     "Databases/Database_constraints.md",
     "DataStructures/Abstract_data_types.md",
