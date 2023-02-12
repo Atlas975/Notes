@@ -232,14 +232,21 @@
                 "useHierarchy": false
               }
             }
+          },
+          {
+            "id": "4c1443211bee721c",
+            "type": "leaf",
+            "state": {
+              "type": "custom-frames-tasks",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 730.5,
-    "collapsed": true
+    "width": 730.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -258,7 +265,7 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "070f8c2a8ebf2e3b",
+  "active": "4c1443211bee721c",
   "lastOpenFiles": [
     "ProgramLanguages/Python/Global_interpreter_lock.md",
     "ProgramLanguages/Python/Python_language.md",
