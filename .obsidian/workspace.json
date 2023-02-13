@@ -166,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5046501159668
+    "width": 286.5046501159668,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -232,21 +233,14 @@
                 "useHierarchy": false
               }
             }
-          },
-          {
-            "id": "4c1443211bee721c",
-            "type": "leaf",
-            "state": {
-              "type": "custom-frames-tasks",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 730.5
+    "width": 730.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -265,8 +259,9 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "4c1443211bee721c",
+  "active": "070f8c2a8ebf2e3b",
   "lastOpenFiles": [
+    "ProgramLanguages/SQL/SQL_language.md",
     "ProgramLanguages/Python/Global_interpreter_lock.md",
     "ProgramLanguages/Python/Python_language.md",
     "ProgramLanguages/Python/Pandas_library.md",
@@ -275,7 +270,6 @@
     "ProgramLanguages/Python/Python_OOP.md",
     "SoftwareEngineering/Thread_types.md",
     "OperatingSystems/Operating_system_design.md",
-    "SoftwareEngineering/Multiagent_systems.md",
-    "SoftwareEngineering/Concurrency.md"
+    "SoftwareEngineering/Multiagent_systems.md"
   ]
 }
