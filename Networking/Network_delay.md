@@ -84,6 +84,8 @@ s=\text{link propagation speed}
 - Bi-directional transfer is also needed to check for irregularities in a direction 
 ## Ping
 - Measures RTT and works on end to end manner like tracer route, however messages sent to specific hosts rather than nodes across the path
+
+> ![[Pasted image 20230213230701.png]]
 - Accounts for packet loss measuring the number of responses received
 - Ping works in the following way:
     1.  A user sends a "ping" request to a network host using the "ping" command.
