@@ -57,7 +57,7 @@ s=\text{link propagation speed}
 
 > ![[Pasted image 20230210182600.png|400|400]]
 
-- Packet loss can also occur in physical medium, DNS attacks (buffers being filled with rapid packet sending causing arrival rate to exceed output rate) or hardware / software corruption where checksum verification may fail 
+- Packet loss can also occur in physical medium, DNS attacks (buffers filled with mass packets causing arrival rate to exceed output rate) or hardware / software corruption where checksum verification may fail 
 ### Retransmission process
 1. Destination host sets a timer for expected arrival time of each next expected packet 
 2. If timer expires before packet arrival, a retransmission request is send to source host 
