@@ -299,15 +299,15 @@
   },
   "active": "f39e3c5c304d89b7",
   "lastOpenFiles": [
-    "OperatingSystems/DigitalSystems/ASCII.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
+    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
+    "OperatingSystems/DigitalSystems/ASCII.md",
     "Algorithms/ProgrammingPatterns/Two_pointers.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
     "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
-    "Databases/Database_relations.md"
+    "Algorithms/ProgrammingPatterns/Heap_algorithms.md"
   ]
 }
