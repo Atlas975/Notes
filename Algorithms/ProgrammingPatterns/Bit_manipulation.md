@@ -50,8 +50,7 @@ pub fn count_bits(n: i32) -> Vec<i32> {
 
 ## Reverse bits
 ```rust
-pub fn reverse_bits(x: u32) -> u32 {
-    let mut x = x;
+pub fn reverse_bits(mut x: u32) -> u32 {
     (0..32).fold(0, |mut acc, _| {
         acc <<= 1;
         acc |= x & 1;
@@ -71,7 +70,7 @@ pub fn missing_number(nums: Vec<i32>) -> i32 {
 }
 ```
 
-## Reverse integer 
+## Reverse integer
 ```python
 def reverse(self, x: int) -> int:
     s = 1 - 2 * (x < 0)
