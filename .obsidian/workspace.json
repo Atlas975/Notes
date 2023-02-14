@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md"
               }
             }
           }
@@ -208,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md"
               }
             }
           },
@@ -234,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -286,15 +286,15 @@
   },
   "active": "9ef7b4e8e42e0119",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Two_pointers.md",
+    "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Sliding_window.md",
+    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
     "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "Databases/Database_relations.md",
-    "Networking/Network_delay.md",
-    "ProgramLanguages/Python/Global_interpreter_lock.md",
-    "ProgramLanguages/SQL/SQL_language.md",
-    "ProgramLanguages/Python/Python_language.md",
-    "ProgramLanguages/Python/Pandas_library.md",
-    "ProgramLanguages/Python/Matplotlib_library.md"
+    "Networking/Network_delay.md"
   ]
 }
