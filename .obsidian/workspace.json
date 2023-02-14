@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md"
               }
             }
           }
@@ -192,8 +192,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5046501159668,
-    "collapsed": true
+    "width": 286.5046501159668
   },
   "right": {
     "id": "441e4249d5592193",
@@ -209,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md"
               }
             }
           },
@@ -235,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -287,15 +286,15 @@
   },
   "active": "9ef7b4e8e42e0119",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "Databases/Database_relations.md",
     "Networking/Network_delay.md",
     "ProgramLanguages/Python/Global_interpreter_lock.md",
     "ProgramLanguages/SQL/SQL_language.md",
     "ProgramLanguages/Python/Python_language.md",
     "ProgramLanguages/Python/Pandas_library.md",
-    "ProgramLanguages/Python/Matplotlib_library.md",
-    "ProgramLanguages/Python/Functools_library.md",
-    "ProgramLanguages/Python/Python_OOP.md",
-    "SoftwareEngineering/Thread_types.md"
+    "ProgramLanguages/Python/Matplotlib_library.md"
   ]
 }
