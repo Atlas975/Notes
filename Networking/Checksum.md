@@ -14,9 +14,12 @@
 
 ___
 # Checksum
-- A checksum is a type of data verification method used to detect errors in data transmission or storage.  Vital in [[Network_routing#Packet switching|packet switching]]
+- A checksum is a type of data verification method used to detect errors in data transmission or storage.  
+- Vital in [[Network_routing#Packet switching|packet switching]] for the following: 
+- 
+
 - Checksum-8, 16, 32, 64 are simple checksum algorithms that create fixed-length checksum values of 8, 16, 32, or 64 bits. 
-- They are fast and easy to implement but less reliable than CRC or cryptographic hash functions.
+- They are fast and easy to implem  ent but less reliable than CRC or cryptographic hash functions.
 
 ## Cyclic Redundancy Check (CRC)
 - A widely used checksum method for error detection in digital networks and storage devices.
