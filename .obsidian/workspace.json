@@ -156,7 +156,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Checksum.md",
+                "file": "Networking/Network_routing.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -222,7 +222,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Checksum.md",
+                "file": "Networking/Network_routing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -262,7 +262,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Checksum.md"
+                "file": "Networking/Network_routing.md"
               }
             }
           }
@@ -270,8 +270,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5046501159668,
-    "collapsed": true
+    "width": 286.5046501159668
   },
   "right": {
     "id": "441e4249d5592193",
@@ -287,7 +286,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Checksum.md"
+                "file": "Networking/Network_routing.md"
               }
             }
           },
@@ -313,7 +312,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Checksum.md",
+                "file": "Networking/Network_routing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -365,10 +364,10 @@
   },
   "active": "51c28e365a2e6466",
   "lastOpenFiles": [
-    "OperatingSystems/DigitalSystems/Bitwise_arithmatic.md",
-    "Networking/Checksum.md",
-    "Networking/Network_delay.md",
     "Networking/Network_architecture.md",
+    "Networking/Checksum.md",
+    "OperatingSystems/DigitalSystems/Bitwise_arithmatic.md",
+    "Networking/Network_delay.md",
     "Networking/Internet_protocols.md",
     "Databases/Relational_algebra.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
