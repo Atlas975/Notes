@@ -35,8 +35,8 @@
   "editor:toggle-bold": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Alt",
+        "Mod"
       ],
       "key": "B"
     }
@@ -306,8 +306,8 @@
   "app:toggle-right-sidebar": [
     {
       "modifiers": [
-        "Alt",
-        "Mod"
+        "Mod",
+        "Shift"
       ],
       "key": "B"
     }
@@ -591,5 +591,6 @@
       "key": ","
     }
   ],
-  "app:open-settings": []
+  "app:open-settings": [],
+  "table-editor-obsidian:right-align-column": []
 }
