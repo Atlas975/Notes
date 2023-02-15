@@ -156,8 +156,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Network_routing.md",
-                "mode": "source",
+                "file": "Networking/Internet_architecture.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Network_routing.md",
+                "file": "Networking/Internet_architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -262,7 +262,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_routing.md"
+                "file": "Networking/Internet_architecture.md"
               }
             }
           }
@@ -286,7 +286,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_routing.md"
+                "file": "Networking/Internet_architecture.md"
               }
             }
           },
@@ -312,7 +312,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Network_routing.md",
+                "file": "Networking/Internet_architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -364,6 +364,8 @@
   },
   "active": "51c28e365a2e6466",
   "lastOpenFiles": [
+    "Networking/Transmission_mediums.md",
+    "Networking/Network_routing.md",
     "Networking/Network_architecture.md",
     "Networking/Checksum.md",
     "OperatingSystems/DigitalSystems/Bitwise_arithmatic.md",
@@ -371,8 +373,6 @@
     "Networking/Internet_protocols.md",
     "Databases/Relational_algebra.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
-    "Algorithms/ProgrammingPatterns/Sliding_window.md",
-    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md"
+    "Algorithms/ProgrammingPatterns/Sliding_window.md"
   ]
 }
