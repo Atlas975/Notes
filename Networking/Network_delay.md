@@ -84,6 +84,7 @@ s=\text{link propagation speed}
 - Bi-directional transfer is also needed to check for irregularities in a direction 
 ## Ping
 - Measures RTT and works on end to end manner like tracer route, however messages sent to specific hosts rather than nodes across the path
+- Ping measures response time from a specific device while tracerroute 
 
 > ![[Pasted image 20230213231702.png]]
 - Accounts for packet loss measuring the number of responses received

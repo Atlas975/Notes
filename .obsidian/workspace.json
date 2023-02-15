@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Checksum.md",
+                "file": "Networking/Network_delay.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -196,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Checksum.md",
+                "file": "Networking/Network_delay.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,7 +236,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Checksum.md"
+                "file": "Networking/Network_delay.md"
               }
             }
           }
@@ -260,7 +260,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Checksum.md"
+                "file": "Networking/Network_delay.md"
               }
             }
           },
@@ -286,7 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Checksum.md",
+                "file": "Networking/Network_delay.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -339,14 +339,14 @@
   "active": "797100e25dcd5bb0",
   "lastOpenFiles": [
     "Networking/Network_architecture.md",
+    "Networking/Internet_protocols.md",
+    "Networking/Checksum.md",
     "Databases/Relational_algebra.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
     "OperatingSystems/DigitalSystems/ASCII.md",
-    "Algorithms/ProgrammingPatterns/Two_pointers.md",
-    "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Tree_algorithms.md"
+    "Algorithms/ProgrammingPatterns/Two_pointers.md"
   ]
 }
