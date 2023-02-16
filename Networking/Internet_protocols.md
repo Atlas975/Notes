@@ -39,6 +39,7 @@ ___
 - However, layers can be swapped out without impacting other layers if they share the same API 
 
 ## Bi-directional communication
+
 - In bidirectional communication, each layer must perform 2 opposite tasks.
 - Data must also be able to be transmitted in both directions simultaneously 
 
@@ -50,25 +51,23 @@ ___
 > ![[Pasted image 20211105235208.png|550|550]]
 
 # Internet protocol stack
-- Routers only work on the first 3 layers, switches work on first 2 (physical,data)
+- Layered communication architecture that defines the protocols and services of network communication between devices 
+- Typically organised into 5 layers
 
-> ![[Pasted image 20211109092413.png|400|400]]
+> ![[Pasted image 20211109092413.png|350|350]]
 
 ## Application layer
-- The actual protocols needed for effective data communication, designed to meet requirements for different applications. Layer where applications interact.
+- Defines the protocols and services used by applications to communicate over the network.
 - File transfer, email and DNS all fall here
 ## Transport layer
-- Lowest layer in which communication instead of packets are used. Eg. flow control, allowing devices to tell each other to lower or increase data transmission rates based on what they're capable of.
+- Handles data delivery between applications 
+- Lowest layer in which communication instead of packets are used. Eg. flow control, allowing devices to request lower or higher data transmission rates based on capabilities 
 ## Network layer
-- Transfers data packets, in a WAN this involves creating a route as well. In a LAN this is not the case
+- Transfers data packets, in a WAN this involves creating a route as well. 
+- Handles logical addressing using IP addresses 
 ## Data link layer
+- Responsible
 - Transmits data packets that are directly connected by physical link. In a WAN this is between routers, in a LAN this is between hosts (unique user IP's)
-## Physical layer 
-- Transfers binary data using electrical signals.
-
-
-# Exchange using OSI
-
-> ![[Pasted image 20211106001757.png|450|450]]
-
-- Headers are what allow distinguishing between layers.
+## Physical layer
+- Handles the physical characteristics of a [[Transmission_mediums|communication medium]]
+- Responsible for ransfering binary data using electrical signals.

@@ -66,8 +66,8 @@
     "applications": {
       "applications": {
         "currentFile": {
-          "count": 2,
-          "lastUpdated": 1676538692328
+          "count": 3,
+          "lastUpdated": 1676539016783
         }
       }
     },
@@ -140,6 +140,30 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1676538216123
+        }
+      }
+    },
+    "protocols": {
+      "protocols": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676538845222
+        }
+      }
+    },
+    "networks": {
+      "networks": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676539127065
+        }
+      }
+    },
+    "physical": {
+      "physical": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676539263614
         }
       }
     }
