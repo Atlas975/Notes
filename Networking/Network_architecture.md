@@ -61,7 +61,7 @@ ___
 ### Peak throughput
 - Highest instantaneous throughput seen so far (max speed)
 
-### Goodput 
+### Goodput
 - Measures throughput of only useful data that has not been dropped, excludes protocol head + retransmission overheads
 - Sometimes used interchangeably with throughput, Goodput measures network efficiency of delivering useful data while throughput measures network efficiency at transferring data
 ## Network categories
@@ -93,3 +93,19 @@ ___
 - Connects distinct WAN's together to communicate over distinct geographical regions 
 
 > ![[Pasted image 20211030163447.png|650|650]]
+
+## MAC address
+
+- A unique identifier assigned to network interface controllers (NICs) by the manufacturer.
+- Used to identify devices on a local network, essential to Ethernet protocol.
+- Unlike [[Internet_protocols|IP]] addresses, MAC addresses are permanent and unique to each device.
+
+> ![[Pasted image 20230216090910.png||m]]
+
+- Devices use MAC addresses to communicate with each other directly on the local network, without the need for a central routing or addressing system.
+- Network switches use MAC address learning to store the MAC addresses of connected devices and forward Ethernet frames directly to the intended recipient.
+## Link layer switch
+- An Ethernet switch operating on the first two [[Internet_protocols#Protocol layering|layers]] (physical and datalink) that can examine arriving packet's MAC address and determine which port to forward to.
+- Note routers in general only operate on the first two layers and only these protocols need to be changed when replacing a router. 
+
+> ![[Pasted image 20230216090156.png|450|450]]

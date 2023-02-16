@@ -54,21 +54,19 @@ ___
 
 > ![[Pasted image 20211109092413.png|400|400]]
 
-## Application protocol
-- The actual protocols needed for effective data communication, designed to meet requirements for different applications. Layer where people interact.
-## Transport
+## Application layer
+- The actual protocols needed for effective data communication, designed to meet requirements for different applications. Layer where applications interact.
+- File transfer, email and DNS all fall here
+## Transport layer
 - Lowest layer in which communication instead of packets are used. Eg. flow control, allowing devices to tell each other to lower or increase data transmission rates based on what they're capable of.
-## Network
+## Network layer
 - Transfers data packets, in a WAN this involves creating a route as well. In a LAN this is not the case
-## Data link
+## Data link layer
 - Transmits data packets that are directly connected by physical link. In a WAN this is between routers, in a LAN this is between hosts (unique user IP's)
-## Physical
+## Physical layer 
 - Transfers binary data using electrical signals.
 
 
-## Link layer switch
-- An Ethernet switch operating on the first two layers (physical and datalink) that can examine arriving packet's MAC address and determine which port to forward to.
-- Note routers in general only operate on the first two layers and only these protocols need to be changed when replacing a router. 
 # Exchange using OSI
 
 > ![[Pasted image 20211106001757.png|450|450]]
