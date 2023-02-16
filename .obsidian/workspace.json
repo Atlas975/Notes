@@ -110,71 +110,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "bac7459f8b664e2c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Network_architecture.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "797100e25dcd5bb0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Network_delay.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3f762051bac4f096",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/DigitalSystems/Bitwise_arithmatic.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "51c28e365a2e6466",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Internet_architecture.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "51723e7b1f3fef25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/Operating_system_design.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
         "currentTab": 7
@@ -365,15 +300,15 @@
   },
   "active": "141bfd9572bbf206",
   "lastOpenFiles": [
-    "Networking/Internet_architecture.md",
-    "Networking/Checksum.md",
+    "Networking/Network_architecture.md",
     "Networking/Network_delay.md",
+    "OperatingSystems/DigitalSystems/Bitwise_arithmatic.md",
+    "Networking/Internet_architecture.md",
+    "OperatingSystems/Operating_system_design.md",
+    "Networking/Internet_protocols.md",
+    "Networking/Checksum.md",
     "Databases/Relational_algebra.md",
     "Networking/Transmission_mediums.md",
-    "Networking/Network_routing.md",
-    "Networking/Network_architecture.md",
-    "OperatingSystems/DigitalSystems/Bitwise_arithmatic.md",
-    "Networking/Internet_protocols.md",
-    "Algorithms/ProgrammingPatterns/Bit_manipulation.md"
+    "Networking/Network_routing.md"
   ]
 }
