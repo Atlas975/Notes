@@ -60,4 +60,15 @@ ___
 
 > ![[Pasted image 20230216113702.png|450|450]]
 
-- Remote links such as to a social media platform can also read coo
+- Remote links such as those to a websites social media or website advertisements can also make use of 3rd party cookies, allowing a 3rd party to track users across multiple websites
+
+## Request load balancer 
+- A network device / application that distributes HTTP requests across multiple servers, vital for high traffic websites to prevent traffic overload and increase fault tolerance  
+- Various algorithms exist to handle balancing eg round robin, load based etc 
+- Round-robin is not ideal when servers can handle varying capacities 
+> ![[Pasted image 20230216115019.png|450|450]]
+
+
+## Web caches 
+- Allows client requests to be satisfied without involving the origin server 
+- Makes use of a [[Proxy_pattern|proxy]] server 

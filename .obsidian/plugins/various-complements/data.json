@@ -222,6 +222,30 @@
           "lastUpdated": 1676547340152
         }
       }
+    },
+    "browser": {
+      "browser": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676547813051
+        }
+      }
+    },
+    "balancer": {
+      "balancer": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676548045665
+        }
+      }
+    },
+    "application": {
+      "application": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676548074834
+        }
+      }
     }
   }
 }
