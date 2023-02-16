@@ -41,7 +41,7 @@ ___
 ### Layering trade-offs
 - Added overhead by added protocol headers, resulting in lower performance 
 - Potential duplicate functionality between layers 
-- Layering regularly violated by firewalls, transparent proxies, NAT's etc 
+- Layering regularly violated by need for firewalls, transparent proxies, NAT's etc 
 
 ## Bi-directional communication
 
