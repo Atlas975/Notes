@@ -25,6 +25,7 @@ ___
 > ![[Pasted image 20230216101148.png|450|450]]
 
 - **Stateless**, meaning that each request + response is independent of previous operations
+- HTTP requests are in [[ASCII]]
 ## Non-persistent HTTP
 - One object sent over a TCP connection, multiple connections needed for multiple objects 
 - Useful for small requests, connection closed immediately after response, 3 way handshake
