@@ -1,104 +1,12 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": false,
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": false,
   "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "tag:#OperatingSystems",
-      "color": {
-        "a": 1,
-        "rgb": 14701138
-      }
-    },
-    {
-      "query": "tag:#Programming",
-      "color": {
-        "a": 1,
-        "rgb": 11657298
-      }
-    },
-    {
-      "query": "tag:#ProgrammingPatterns",
-      "color": {
-        "a": 1,
-        "rgb": 5431378
-      }
-    },
-    {
-      "query": "tag:#DesignPatterns",
-      "color": {
-        "a": 1,
-        "rgb": 5431378
-      }
-    },
-    {
-      "query": "tag:#Databases",
-      "color": {
-        "a": 1,
-        "rgb": 5431473
-      }
-    },
-    {
-      "query": "tag:#ADTs",
-      "color": {
-        "a": 1,
-        "rgb": 5419488
-      }
-    },
-    {
-      "query": "tag:#Algorithms",
-      "color": {
-        "a": 1,
-        "rgb": 5395168
-      }
-    },
-    {
-      "query": "tag:#DiscreteMath",
-      "color": {
-        "a": 1,
-        "rgb": 11621088
-      }
-    },
-    {
-      "query": "tag:#StatisticalLearning",
-      "color": {
-        "a": 1,
-        "rgb": 14701233
-      }
-    },
-    {
-      "query": "tag:#Concurrency",
-      "color": {
-        "a": 1,
-        "rgb": 7935510
-      }
-    },
-    {
-      "query": "tag:#Networking",
-      "color": {
-        "a": 1,
-        "rgb": 14725458
-      }
-    },
-    {
-      "query": "tag:#ContinuousMath",
-      "color": {
-        "a": 1,
-        "rgb": 2120554
-      }
-    },
-    {
-      "query": "tag:#DesignTheory",
-      "color": {
-        "a": 1,
-        "rgb": 16713182
-      }
-    }
-  ],
+  "colorGroups": [],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": -3,
@@ -109,6 +17,6 @@
   "repelStrength": 17.9401464501751,
   "linkStrength": 0.525151225724292,
   "linkDistance": 394,
-  "scale": 0.01945955633970386,
+  "scale": 0.05356198383369459,
   "close": false
 }

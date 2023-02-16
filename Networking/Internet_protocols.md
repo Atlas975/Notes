@@ -76,6 +76,9 @@ ___
 
 > ![[Pasted image 20230216095033.png|450|450]]
 
+- Header encapsulation used to achieve separation of concerns between each layer
+- Processes send/receive messages to/from [[Network_architecture#Network socket|sockets]]
+
 ## Application layer
 - Defines the protocols and services used by applications to communicate over the network.
 - File transfer, email and [[Domain_name_server|DNS]] all fall here
