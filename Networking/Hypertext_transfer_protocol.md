@@ -20,12 +20,23 @@ ___
 # Hypertext transfer protocol
 - An [[Internet_protocols#Application layer|Application layer]] protocol used to transfer data over the internet 
 - Used client-server model where clients sens a request and a server responds 
-- A HTTP request consists of a method (GET / POST / PUT), URL and headers that provide additional information about the request
 
 > ![[Pasted image 20230216101148.png|450|450]]
 
 - **Stateless**, meaning that each request + response is independent of previous operations
-- HTTP requests are in [[ASCII]]
+- HTTP requests are in [[ASCII]] and consist of a method (GET / POST / PUT), URL and headers that provide additional information about the request
+- HTTP response: 
+
+> ![[Pasted image 20230216113306.png|450|450]]
+## HTTP methods 
+1.  **GET**: retrieves data from a server.
+2.  **POST**: sends data to a server to create or update a resource.
+3.  **PUT**: updates an existing resource on a server.
+4.  **DELETE**: deletes a resource from a server.
+5.  **HEAD**: retrieves the headers for a resource, but not the resource itself, useful for debugging
+6.  **OPTIONS**: retrieves the communication options available for a resource.
+7.  **CONNECT**: establishes a network connection to a server over a secure SSL/TLS tunnel.
+8.  **TRACE**: echoes back the received request so that a client can see what changes or additions have been made by intermediate servers.
 ## Non-persistent HTTP
 - One object sent over a TCP connection, multiple connections needed for multiple objects 
 - Useful for small requests, connection closed immediately after response, 3 way handshake
@@ -41,3 +52,12 @@ ___
 	1.  **Data confidentiality**: Ensures that the data being transmitted is encrypted, making it more difficult for an attacker to intercept and read it.
 	2.  **Authentication**: verifies that the website being accessed is legitimate and not an impostor site created by an attacker.
 	3.  **Data integrity**: ensures that data transmitted has not been modified in transit.
+
+## Cookie 
+- Small file located inside the browser, sent to web server by browser 
+- Sent back to the browser in all subsequent request, helps get around statelessness of HTTP
+- Initial HTTP request creates a unique ID and back-end database for that id
+
+> ![[Pasted image 20230216113702.png|450|450]]
+
+- Remote links such as to a social media platform can also read coo
