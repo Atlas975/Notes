@@ -146,7 +146,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Communication_architecture.md",
+                "file": "OperatingSystems/Input&Output_systems.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -199,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Communication_architecture.md",
+                "file": "OperatingSystems/Input&Output_systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -239,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Communication_architecture.md"
+                "file": "OperatingSystems/Input&Output_systems.md"
               }
             }
           }
@@ -263,7 +263,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Communication_architecture.md"
+                "file": "OperatingSystems/Input&Output_systems.md"
               }
             }
           },
@@ -289,7 +289,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Communication_architecture.md",
+                "file": "OperatingSystems/Input&Output_systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -341,15 +341,15 @@
   },
   "active": "adc661fbb7b30f7b",
   "lastOpenFiles": [
-    "Networking/Network_routing.md",
+    "OperatingSystems/Error_codes.md",
+    "OperatingSystems/Caching.md",
     "Networking/Hypertext_transfer_protocol.md",
     "Networking/Communication_architecture.md",
+    "Networking/Network_routing.md",
     "Networking/Internet_protocols.md",
     "Networking/Network_architecture.md",
     "Networking/Internet_architecture.md",
     "Networking/Transmission_mediums.md",
-    "Networking/Network_delay.md",
-    "OperatingSystems/Error_codes.md",
-    "Networking/Domain_name_server.md"
+    "Networking/Network_delay.md"
   ]
 }
