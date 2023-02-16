@@ -38,6 +38,11 @@ ___
 - Changes to a lower layer can have a cascading effect, requiring changes to the layers above it 
 - However, layers can be swapped out without impacting other layers if they share the same API 
 
+### Layering trade-offs
+- Added overhead by added protocol headers, resulting in lower performance 
+- Potential duplicate functionality between layers 
+- Layering regularly violated by firewalls, transparent proxies, NAT's etc 
+
 ## Bi-directional communication
 
 - In bidirectional communication, each layer must perform 2 opposite tasks.
@@ -50,11 +55,26 @@ ___
 
 > ![[Pasted image 20211105235208.png|550|550]]
 
+## OSI model
+- An extended IP stack, including layers between application and transport  
+
+> ![[Pasted image 20230216094539.png|450|450]]
+
 # Internet protocol stack
 - Layered communication architecture that defines the protocols and services of network communication between devices 
 - Typically organised into 5 layers
 
 > ![[Pasted image 20211109092413.png|350|350]]
+
+- Packet headers are used to distinguish between layers
+- When data is delivered, no header should remain (encapsulation downwards)
+
+> ![[Pasted image 20230216094754.png|450|450]]
+
+- The network layer is kept dumb as possible in order for more abstract processes to be implemented on the transport and application layer
+- Packet encapsulation process:
+
+> ![[Pasted image 20230216095033.png|450|450]]
 
 ## Application layer
 - Defines the protocols and services used by applications to communicate over the network.
@@ -63,7 +83,7 @@ ___
 - Handles data delivery between applications 
 - Lowest layer in which communication instead of packets are used. Eg. flow control, allowing devices to request lower or higher data transmission rates based on capabilities 
 ## Network layer
-- Handles logical addressing using IP addresses
+- Handles logical addressing using IP addresses, scheduling and delivering packets 
 - Transfers data packets, in a WAN this involves creating a route as well. 
 ## Data link layer
 - Responsible for reliable transmission of data frames between devices on the same physical network, defines protocols such as ethernet, wifi and bluetooth,
