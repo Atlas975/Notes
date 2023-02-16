@@ -3,7 +3,7 @@ aliases: network
 ---
 
 > [!important]- Metadata
-> **Tags:** #Networking 
+> **Tags:** #Networking #OperatingSystems 
 > **Located:** Networking
 > **Created:** 26/12/2022 - 03:57
 > ```dataviewjs
@@ -109,3 +109,9 @@ ___
 - Note routers in general only operate on the first two layers and only these protocols need to be changed when replacing a router. 
 
 > ![[Pasted image 20230216090156.png|450|450]]
+
+## Network socket
+- An endpoint for sending and receiving data across a computer network 
+- It's a combination of [[Internet_protocols|IP]] address and a port number that uniquely identifies a specific process running on a device
+
+> ![[Pasted image 20230216142622.png]]

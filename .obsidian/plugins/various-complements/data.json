@@ -138,8 +138,8 @@
     "address": {
       "address": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1676538216123
+          "count": 3,
+          "lastUpdated": 1676557471913
         }
       }
     },
@@ -154,8 +154,8 @@
     "networks": {
       "networks": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1676539127065
+          "count": 2,
+          "lastUpdated": 1676557429107
         }
       }
     },
@@ -244,6 +244,46 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1676548074834
+        }
+      }
+    },
+    "communication": {
+      "communication": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676557282732
+        }
+      }
+    },
+    "communicate": {
+      "communicate": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676557317627
+        }
+      }
+    },
+    "combination": {
+      "combination": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676557437979
+        }
+      }
+    },
+    "addresses": {
+      "addresses": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676557448829
+        }
+      }
+    },
+    "specific": {
+      "specific": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676557510524
         }
       }
     }
