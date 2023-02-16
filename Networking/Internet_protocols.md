@@ -58,16 +58,17 @@ ___
 
 ## Application layer
 - Defines the protocols and services used by applications to communicate over the network.
-- File transfer, email and DNS all fall here
+- File transfer, email and [[Domain_name_server|DNS]] all fall here
 ## Transport layer
 - Handles data delivery between applications 
 - Lowest layer in which communication instead of packets are used. Eg. flow control, allowing devices to request lower or higher data transmission rates based on capabilities 
 ## Network layer
+- Handles logical addressing using IP addresses
 - Transfers data packets, in a WAN this involves creating a route as well. 
-- Handles logical addressing using IP addresses 
 ## Data link layer
-- Responsible
+- Responsible for reliable transmission of data frames between devices on the same physical network, defines protocols such as ethernet, wifi and bluetooth,
+- [[Network_architecture#MAC address|MAC addresses]] used to handle physical addressing of frames 
 - Transmits data packets that are directly connected by physical link. In a WAN this is between routers, in a LAN this is between hosts (unique user IP's)
 ## Physical layer
 - Handles the physical characteristics of a [[Transmission_mediums|communication medium]]
-- Responsible for ransfering binary data using electrical signals.
+- Responsible for transferring binary data using electrical signals.

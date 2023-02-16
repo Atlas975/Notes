@@ -386,32 +386,32 @@ img
 .cm-header-1,
 .markdown-preview-section h1
 {
-    font-weight: 500 !important;
-    font-size: 32px !important;
+    font-weight: 460 !important;
+    font-size: 30px !important;
     color: var(--text-title-h1) !important;
 }
 
 .cm-header-2,
 .markdown-preview-section h2
 {
-    font-weight: 500 !important;
-    font-size: 23px !important;
+    font-weight: 460 !important;
+    font-size: 22px !important;
     color: var(--text-title-h2) !important;
 }
 
 .cm-header-3,
 .markdown-preview-section h3
 {
-    font-weight: 500 !important;
-    font-size: 19px !important;
+    font-weight: 460 !important;
+    font-size: 18px !important;
     color: var(--text-title-h3) !important;
 }
 
 .cm-header-4,
 .markdown-preview-section h4
 {
-    font-weight: 500 !important;
-    font-size: 17px !important;
+    font-weight: 460 !important;
+    font-size: 16px !important;
     color: var(--text-title-h4) !important;
 }
 
