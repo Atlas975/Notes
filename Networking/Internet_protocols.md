@@ -23,40 +23,28 @@ ___
 - TCP/ IP was developed to allow for this to be done between distinct networks
 
 ## Network abstraction
-- Gives internet applications a common interface to work with a network layer
-## HTTP
-- Example of an application protocol
-1. Client sends request
-2. Server returns a response
-3. HTTP uses TCP (transmission control protocol) services 
+- Gives [[Internet_architecture|internet]] applications a common interface to work with a protocol layer 
+- Abstracts away the underlying implementations of a layer allowing for modularity 
 
-# Principles of protocol layering
+> ![[Pasted image 20230216083059.png|450|450]]
+
+## Protocol layering
+- A technique used to implement network abstraction, dividing communication into layers 
+- Lower layers transmit data while higher layers format and send data
+
+> ![[Pasted image 20230216083526.png|450|450]]
+
 ## Bi-directional communication
-- In bidirectional communication, each layer must perform 2 opposite tasks. Each object (protocol) however, must be identical 
-
->![[Pasted image 20211105233536.png]] 
-
-- Other examples may be to encrypt in one direction and decrypt in the other.
-- Multiple layer communication
+- In bidirectional communication, each layer must perform 2 opposite tasks.
+- Data must also be able to be transmitted in both directions simultaneously 
 
 > ![[Pasted image 20211105234139.png|500|500]] 
 
 - Each layer has a specific protocol only understood by that layer.
+- Opposite objects (protocols), must be able to perform id
+- Hierarchical, each upper layer depends on the service of the previous layer. 
 
-# TCP/IP Protocol suite (older model)
-
->![[Pasted image 20211105234427.png]]
-
-- Thought of as 4 software layers that go over the hardware layer. 
-- Hierarchical, each upper layer depends on service from previous layer. 
-
-# OSI model
-
-> ![[Pasted image 20211105235648.png|100|125]]
-
-## Example layer involvement
-
-> ![[Pasted image 20211105235208.png]]
+> ![[Pasted image 20211105235208.png|550|550]]
 
 # 5 Layer network model explained
 ## Application
