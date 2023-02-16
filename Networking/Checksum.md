@@ -22,7 +22,7 @@ ___
 > ![[Pasted image 20230215110458.png|450|450]]
 
 - Checksum-8, 16, 32, 64 are simple checksum algorithms that create fixed-length checksum values of 8, 16, 32, or 64 bits. 
-- They are fast and easy to implem  ent but less reliable than CRC or cryptographic hash functions.
+- They are fast and easy to implement but less reliable than CRC or cryptographic hash functions.
 ## Cyclic Redundancy Check (CRC)
 - A widely used checksum method for error detection in digital networks and storage devices.
 - Based on polynomial division and generates a fixed-length check value that can detect multiple errors in a block of data.

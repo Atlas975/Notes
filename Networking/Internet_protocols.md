@@ -19,20 +19,22 @@ aliases: IP, internet protocol
 ___
 # Internet protocols
 - The rules the sender, receiver and devices need to follow for effective data communication.
-- Part of **transport layer** of the OSI model 
-- Defines what is communicated, how it's communicated and when. It also defines the overall format of data for allowing accurate and timely data transmission.
+- Part of **transport layer** of the OSI model, defines when, how and what is communicated,  it also defines the format of data for allowing accurate and timely data transmission.
+- TCP/ IP was developed to allow for this to be done between distinct networks
+
+## Network abstraction
+- Gives internet applications a common interface to work with a network layer
 ## HTTP
 - Example of an application protocol
 1. Client sends request
 2. Server returns a response
 3. HTTP uses TCP (transmission control protocol) services 
 
-# Principles of protocol layering.
+# Principles of protocol layering
 ## Bi-directional communication
 - In bidirectional communication, each layer must perform 2 opposite tasks. Each object (protocol) however, must be identical 
 
 >![[Pasted image 20211105233536.png]] 
-in this case one must talk the other listen.
 
 - Other examples may be to encrypt in one direction and decrypt in the other.
 - Multiple layer communication
@@ -52,11 +54,11 @@ in this case one must talk the other listen.
 
 > ![[Pasted image 20211105235648.png|100|125]]
 
-## Example layer involvement:
+## Example layer involvement
 
 > ![[Pasted image 20211105235208.png]]
 
-# 5 Layer network model explained:
+# 5 Layer network model explained
 ## Application
 - The actual protocols needed for effective data communication, designed to meet requirements for different applications. Layer where people interact.
 ## Transport
