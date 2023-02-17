@@ -165,9 +165,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e0ffbdfd523575b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ProgramLanguages/SQL/SQL_patterns.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -212,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Internet_protocols.md",
+                "file": "ProgramLanguages/SQL/SQL_patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -252,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Internet_protocols.md"
+                "file": "ProgramLanguages/SQL/SQL_patterns.md"
               }
             }
           }
@@ -276,7 +289,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Internet_protocols.md"
+                "file": "ProgramLanguages/SQL/SQL_patterns.md"
               }
             }
           },
@@ -302,7 +315,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Internet_protocols.md",
+                "file": "ProgramLanguages/SQL/SQL_patterns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -352,8 +365,9 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "b0f150697b1fc78b",
+  "active": "e0ffbdfd523575b8",
   "lastOpenFiles": [
+    "Networking/Internet_protocols.md",
     "Networking/Network_routing.md",
     "Networking/Transmission_mediums.md",
     "Networking/Network_architecture.md",
@@ -362,7 +376,6 @@
     "OperatingSystems/Caching.md",
     "Networking/Hypertext_transfer_protocol.md",
     "Networking/Communication_architecture.md",
-    "Networking/Internet_protocols.md",
     "Networking/Internet_architecture.md"
   ]
 }
