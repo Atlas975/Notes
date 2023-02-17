@@ -70,7 +70,7 @@ ___
 
 ## Network sampling
 - When data is [[Transmission_mediums#Analogue transmission|transmitted in analogue]], sampling is required to reconstruct the signal in digital format. This is done through sampling
-- For data to be reliably be transformed to digital, a minimum of two samples need to be taken each cycle. 
+- For data to be reliably be transformed to digital, a minimum of two samples need to be taken each cycle / each hertz. 
 
 > ![[Pasted image 20211030000108.png|400|400]]
 
