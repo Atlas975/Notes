@@ -14,18 +14,13 @@
 
 ___
 # SQL patterns
-## SQL where filtering 
 
-–mcncenn
-```
-We are looking for a specific patient. Pull all columns for the patient who matches the following criteria:  
-- First_name contains an 'r' after the first two letters.  
-- Identifies their gender as 'F'  
-- Born in February, May, or December  
-- Their weight would be between 60kg and 80kg  
-- Their patient_id is an odd number  
-- They are from the city 'Kingston'
-```
+> ![[Pasted image 20230217175520.png|350|350]]
+> ![[Pasted image 20230217175535.png|350|350]]
+> ![[Pasted image 20230217180342.png|350|350]]
+> ![[Pasted image 20230217180403.png|350|350]]
+
+## SQL where filtering
 
 ```sql
 SELECT *
@@ -37,4 +32,37 @@ WHERE
   AND weight between 60 AND 80
   AND patient_id % 2 = 1
   AND city = 'Kingston';
+```
+
+
+## SQL column comparison
+
+```sql
+SELECT pr.province_name
+FROM patients AS pa
+  JOIN province_names AS pr ON pa.province_id = pr.province_id
+GROUP BY pr.province_name
+HAVING
+  SUM(gender = 'M') > SUM(gender = 'F');
+```
+
+
+## SQL math query
+
+```sql
+SELECT
+  patient_id,
+  weight,
+  height,
+  (weight / POWER(height / 100.0, 2)) >= 30 isObese
+FROM patients;
+```
+
+```sql
+SELECT
+  COUNT(*) as patients_in_group,
+  (floor(weight / 10) * 10) AS weight_group
+FROM patients
+GROUP BY weight_group
+ORDER BY weight_group DESC;
 ```
