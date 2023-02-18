@@ -35,6 +35,24 @@ WHERE
 ```
 
 
+
+## SQL custom groups 
+
+```sql
+SELECT
+  CASE
+    WHEN patient_id % 2 = 0 THEN 'Yes'
+    ELSE 'No'
+  END AS insure,
+  SUM(
+    CASE
+      WHEN patient_id % 2 = 0 THEN 10
+      ELSE 50
+    END
+  ) AS admission_total
+FROM admissions
+group by insure;
+```
 ## SQL column comparison
 
 ```sql
@@ -45,7 +63,6 @@ GROUP BY pr.province_name
 HAVING
   SUM(gender = 'M') > SUM(gender = 'F');
 ```
-
 
 ## SQL math query
 
