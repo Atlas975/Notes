@@ -116,20 +116,20 @@ public class Bank_account {
 ## Safe concurrency
 - No shared data / communication between threads 
 
-> ![[Pasted image 20221022114139.png|350|350]]
+> ![[Pasted image 20221022114139.png|300|300]]
 
 - Use of only read-only (constant) data 
 
-> ![[Pasted image 20221022114339.png|350|350]]
+> ![[Pasted image 20221022114339.png|300|300]]
 
 ## Risky concurrency
 - Threads use shared resources without mutual exclusion 
 
-> ![[Pasted image 20221022114244.png|350|350]]
+> ![[Pasted image 20221022114244.png|300|300]]
 
 - Use of a thread that modifies shared resources while others read from it 
 
-> ![[Pasted image 20221022114309.png|350|350]]
+> ![[Pasted image 20221022114309.png|300|300]]
 
 # Semaphores
 - Locks only allow one thread at a time to access a resource, semaphores let in multiple while still restricting this number. For instance having 3 shared booth resources between 5 people 

@@ -30,7 +30,7 @@ ___
 > ![[Pasted image 20230216113306.png|450|450]]
 
 ## HTTP methods
-1.  **GET**: retrieves data from a server.
+1.  **GET**: retrieves data from a server, parameters made part of URL
 2. **Conditional GET**: only send object if cache has no up to date data 
 3.  **POST**: sends data to a server to create or update a resource.
 4.  **PUT**: updates an existing resource on a server.

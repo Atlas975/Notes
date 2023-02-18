@@ -51,19 +51,14 @@ WHERE
 ## SQL custom groups 
 
 ```sql
+WITH insured_list AS (
+    SELECT (patient_id % 2 = 0) has_insurance from admissions
+)
 SELECT
-  CASE
-    WHEN patient_id % 2 = 0 THEN 'Yes'
-    ELSE 'No'
-  END AS insure,
-  SUM(
-    CASE
-      WHEN patient_id % 2 = 0 THEN 10
-      ELSE 50
-    END
-  ) admission_total
-FROM admissions
-group by insure;
+  CASE WHEN has_insurance THEN 'Yes' ELSE 'No'END insured,
+  SUM(CASE WHEN has_insurance THEN 10 ELSE 50 END) admission_total
+FROM insured_list
+group by insured;
 ```
 
 ```sql
