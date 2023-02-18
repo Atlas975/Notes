@@ -34,7 +34,19 @@ WHERE
   AND city = 'Kingston';
 ```
 
-
+```sql
+SELECT
+  p.patient_id,
+  p.first_name,
+  p.last_name,
+  d.specialty
+FROM patients p
+  JOIN admissions a ON p.patient_id = a.patient_id
+  JOIN doctors d on a.attending_doctor_id = d.doctor_id
+where
+  a.diagnosis = 'Epilepsy'
+  AND d.first_name = 'Lisa';
+```
 
 ## SQL custom groups 
 
@@ -52,6 +64,19 @@ SELECT
   ) AS admission_total
 FROM admissions
 group by insure;
+```
+
+```sql
+SELECT
+  p.patient_id,
+  CONCAT(
+    CAST(p.patient_id AS STRING),
+    CAST(LEN(p.last_name) AS STRING),
+    CAST(YEAR(p.birth_date) AS STRING)
+  ) AS temp_password
+FROM patients p
+  JOIN admissions a ON p.patient_id = a.patient_id
+GROUP BY p.patient_id;
 ```
 ## SQL column comparison
 
