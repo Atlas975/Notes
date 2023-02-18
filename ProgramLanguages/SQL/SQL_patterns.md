@@ -122,3 +122,19 @@ FROM patients
 GROUP BY weight_group
 ORDER BY weight_group DESC;
 ```
+
+## SQL statistical analysis 
+```sql
+WITH admission_counts AS (
+    SELECT
+      admission_date,
+      COUNT(*) cnt
+    FROM admissions
+    GROUP BY admission_date
+  )
+select
+  admission_date,
+  cnt,
+  cnt - LAG(cnt, 1) OVER() AS admission_growth
+from admission_counts;
+```
