@@ -95,6 +95,14 @@ HAVING
   SUM(gender = 'M') > SUM(gender = 'F');
 ```
 
+```sql
+SELECT province_name
+FROM province_names
+ORDER BY
+  province_name = 'Ontario' DESC,
+  province_name ASC
+```
+
 ## SQL math query
 
 ```sql
