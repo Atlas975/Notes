@@ -61,7 +61,7 @@ SELECT
       WHEN patient_id % 2 = 0 THEN 10
       ELSE 50
     END
-  ) AS admission_total
+  ) admission_total
 FROM admissions
 group by insure;
 ```
@@ -78,12 +78,18 @@ FROM patients p
   JOIN admissions a ON p.patient_id = a.patient_id
 GROUP BY p.patient_id;
 ```
+
+```sql
+SELECT
+  round(avg(gender = 'M') * 100, 2) || '%' male_percentage
+FROM patients;
+```
 ## SQL column comparison
 
 ```sql
 SELECT pr.province_name
-FROM patients AS pa
-  JOIN province_names AS pr ON pa.province_id = pr.province_id
+FROM patients pa
+  JOIN province_names pr ON pa.province_id = pr.province_id
 GROUP BY pr.province_name
 HAVING
   SUM(gender = 'M') > SUM(gender = 'F');
@@ -102,8 +108,8 @@ FROM patients;
 
 ```sql
 SELECT
-  COUNT(*) as patients_in_group,
-  (floor(weight / 10) * 10) AS weight_group
+  COUNT(patient_id),
+  (weight - weight % 10) weight_group
 FROM patients
 GROUP BY weight_group
 ORDER BY weight_group DESC;
