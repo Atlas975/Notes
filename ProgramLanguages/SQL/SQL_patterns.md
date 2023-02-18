@@ -43,7 +43,7 @@ SELECT
 FROM patients p
   JOIN admissions a ON p.patient_id = a.patient_id
   JOIN doctors d on a.attending_doctor_id = d.doctor_id
-where
+WHERE
   a.diagnosis = 'Epilepsy'
   AND d.first_name = 'Lisa';
 ```
@@ -68,20 +68,18 @@ group by insure;
 
 ```sql
 SELECT
-  p.patient_id,
-  CONCAT(
-    CAST(p.patient_id AS STRING),
-    CAST(LEN(p.last_name) AS STRING),
-    CAST(YEAR(p.birth_date) AS STRING)
-  ) AS temp_password
-FROM patients p
-  JOIN admissions a ON p.patient_id = a.patient_id
+  DISTINCT p.patient_id,
+  (
+    p.patient_id || FLOOR(LEN(p.last_name)) || FLOOR(YEAR(p.birth_date))
+  ) tmp_password
+FROM patients as p
+  JOIN admissions AS a ON p.patient_id = a.patient_id
 GROUP BY p.patient_id;
 ```
 
 ```sql
 SELECT
-  round(avg(gender = 'M') * 100, 2) || '%' male_percentage
+  ROUND(AVG(gender = 'M') * 100, 2) || '%' male_percentage
 FROM patients;
 ```
 ## SQL column comparison
@@ -132,7 +130,7 @@ WITH admission_counts AS (
     FROM admissions
     GROUP BY admission_date
   )
-select
+SELECT
   admission_date,
   cnt,
   cnt - LAG(cnt, 1) OVER() AS admission_growth
