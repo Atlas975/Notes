@@ -73,6 +73,19 @@
             }
           },
           {
+            "id": "7ecb0d7c30ce1320",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Database_normalisation.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "9ef7b4e8e42e0119",
             "type": "leaf",
             "state": {
@@ -206,7 +219,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -251,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_relations.md",
+                "file": "Databases/Database_normalisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -291,7 +304,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_relations.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           }
@@ -315,7 +328,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_relations.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           },
@@ -341,7 +354,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_relations.md",
+                "file": "Databases/Database_normalisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -391,8 +404,9 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "c3c7cd5efe9de357",
+  "active": "7ecb0d7c30ce1320",
   "lastOpenFiles": [
+    "Databases/Database_relations.md",
     "Databases/Relational_algebra.md",
     "Networking/Hypertext_transfer_protocol.md",
     "ProgramLanguages/HTML.md",
@@ -401,7 +415,6 @@
     "Networking/Internet_protocols.md",
     "Networking/Network_routing.md",
     "Networking/Transmission_mediums.md",
-    "Networking/Network_architecture.md",
-    "OperatingSystems/Input&Output_systems.md"
+    "Networking/Network_architecture.md"
   ]
 }
