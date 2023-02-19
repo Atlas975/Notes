@@ -258,7 +258,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -303,7 +303,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/NetworkingProtocols/Transmission_protocols.md",
+                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -343,7 +343,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/NetworkingProtocols/Transmission_protocols.md"
+                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md"
               }
             }
           }
@@ -367,7 +367,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/NetworkingProtocols/Transmission_protocols.md"
+                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md"
               }
             }
           },
@@ -393,7 +393,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/NetworkingProtocols/Transmission_protocols.md",
+                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -443,17 +443,17 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "7ecb0d7c30ce1320",
+  "active": "9ef7b4e8e42e0119",
   "lastOpenFiles": [
+    "Networking/NetworkingProtocols/Transmission_protocols.md",
+    "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "Networking/Networking_tools.md",
     "Networking/Internet_protocols.md",
-    "Networking/NetworkingProtocols/Transmission_protocols.md",
     "Networking/Network_delay.md",
     "Networking/Transmission_mediums.md",
     "Networking/Routing_methods.md",
     "Networking/Internet_architecture.md",
     "Networking/NetworkingProtocols/Hypertext_transfer_protocol.md",
-    "Networking/NetworkingProtocols/Domain_name_server.md",
-    "Networking/Network_architecture.md"
+    "Networking/NetworkingProtocols/Domain_name_server.md"
   ]
 }
