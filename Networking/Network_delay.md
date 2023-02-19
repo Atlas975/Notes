@@ -69,6 +69,13 @@ s=\text{link propagation speed}
     - **Quality of service (QOS) aware**: uses [[Heaps|priority queue]] to drop packets, guarantees throughput for sensitive services such as voice calls or live video 
 
 
+### Time to live (TTL)
+- A field in [[Internet_protocols|IP]] packets that is used to limit the lifespan of a packet in a network.
+- When a device sends an IP packet, it sets the TTL value, which is the maximum number of hops (routers or network segments) that the packet can travel before being discarded.
+
+> ![[Pasted image 20230219100407.png|400|400]]
+- This counter is decremented on each hop, this prevent packets from circulating indefinitely
+- If a packet is unable to reach its destination and its TTL reaches zero, it will be discarded, preventing it from consuming network resources or causing network congestion.
 
 
 # Measuring network delay
