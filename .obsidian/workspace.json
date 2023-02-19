@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Networking/Routing_methods.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -303,7 +303,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Networking/Routing_methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -343,7 +343,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "Networking/Routing_methods.md"
               }
             }
           }
@@ -367,7 +367,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "Networking/Routing_methods.md"
               }
             }
           },
@@ -393,7 +393,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Networking/Routing_methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -445,15 +445,15 @@
   },
   "active": "7ecb0d7c30ce1320",
   "lastOpenFiles": [
-    "SoftwarePatterns/Behavioral/Command_pattern.md",
-    "Networking/Network_delay.md",
-    "Networking/Network_architecture.md",
+    "Networking/Internet_architecture.md",
+    "Networking/NetworkingProtocols/Transmission_protocols.md",
     "Networking/NetworkingProtocols/Hypertext_transfer_protocol.md",
     "Networking/NetworkingProtocols/Domain_name_server.md",
-    "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
-    "Algorithms/ProgrammingPatterns/Sliding_window.md",
-    "Networking/NetworkingProtocols/Transmission_protocols.md",
+    "Networking/Transmission_mediums.md",
+    "Networking/Network_architecture.md",
     "Networking/Networking_tools.md",
-    "Networking/Communication_architecture.md"
+    "Algorithms/ProgrammingPatterns/Sliding_window.md",
+    "Databases/Database_normalisation.md",
+    "SoftwarePatterns/Behavioral/Command_pattern.md"
   ]
 }

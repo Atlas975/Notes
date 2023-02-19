@@ -66,4 +66,4 @@ Routers need to use forwarding rules, which are produced by the routing algorith
 - Time divided into slots, each call can only send data during its slot 
 - Can transmit data up to maximum rate of frequency 
 
-> ![[Pasted image 20230209182813.png||s]]
+> ![[Pasted image 20230209182813.png|350|350]]
