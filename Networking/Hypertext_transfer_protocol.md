@@ -82,7 +82,7 @@ ___
 
 > ![[Pasted image 20230216120128.png|450|450]]
 
-- This can be mitigated by dividing objects into separate frames, similar to [[Network_routing#Time division multiplexing (TDM)|TDM]] 
+- This can be mitigated by dividing objects into separate frames, similar to [[Routing_methods#Time division multiplexing (TDM)|TDM]] 
 - This allows smaller objects to arrive much faster 
 
 > ![[Pasted image 20230216120353.png|450|450]]

@@ -25,13 +25,13 @@ ___
 - This delay is typically small, but may include checking bit level errors in a packet 
 
 ## Queuing delay
-- Dependent on network congestion, the time spent [[Network_routing#Packet queuing|packet queuing]] before transmission 
+- Dependent on network congestion, the time spent [[Routing_methods#Packet queuing|packet queuing]] before transmission 
 - Queues only develop if arrival rate exceeds output link capacity 
 
 > ![[Pasted image 20230210172826.png|400|400]]
 
 ## Transmission delay
-- Dependent  on [[Network_routing#Packet transmission delay|packet transmission delay]], since networks are store and forward, entire packets must be received before forwarding 
+- Dependent  on [[Routing_methods#Packet transmission delay|packet transmission delay]], since networks are store and forward, entire packets must be received before forwarding 
 - Transmission delay is the time taken to transmit all packet bits onto the link
 
 > ![[Pasted image 20230210173557.png|400|400]]

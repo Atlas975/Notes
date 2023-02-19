@@ -74,7 +74,7 @@ ___
 - The network layer is kept dumb as possible in order for more abstract processes to be implemented on the transport and application layer
 - Packet encapsulation process:
 
-> ![[Pasted image 20230216095033.png|450|450]]
+> ![[Pasted image 20230216095033.png|400|400]]
 
 - Header encapsulation used to achieve separation of concerns between each layer
 - Processes send/receive messages to/from [[Network_architecture#Network socket|sockets]]
