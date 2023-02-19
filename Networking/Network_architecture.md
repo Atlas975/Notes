@@ -124,7 +124,7 @@ ___
 - An endpoint for sending and receiving data across a computer network 
 - It's a combination of [[Internet_protocols|IP]] address and a port number that uniquely identifies a specific process running on a device
 
-> ![[Pasted image 20230216142622.png]]
+> ![[Pasted image 20230216142622.png|350|350]]
 
 - When two devices establish a socket connection, they create a virtual communication channel that allows them to exchange data
 - The [[Operating_system_design|OS]] provides a socket interface to its networking subsystem 
