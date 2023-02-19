@@ -94,7 +94,6 @@ s=\text{link propagation speed}
 - Ping measures response time from a specific device while tracerroute 
 
 > ![[Pasted image 20230213231702.png]]
-- Accounts for packet loss measuring the number of responses received
 - Ping works in the following way:
     1.  A user sends a "ping" request to a network host using the "ping" command.
     2.  Request in form of an Internet Control Message Protocol (ICMP) "echo request" packet.
