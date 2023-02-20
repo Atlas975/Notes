@@ -105,7 +105,7 @@
               "type": "markdown",
               "state": {
                 "file": "Networking/Network_tools.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -458,15 +458,15 @@
   },
   "active": "d4539c5efd6fd5ae",
   "lastOpenFiles": [
-    "Networking/Network_delay.md",
+    "Networking/Network_architecture.md",
     "Networking/Network_tools.md",
+    "Networking/Network_delay.md",
     "Networking/Checksum.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "Networking/TransmissionProtocols/Transmission_protocols.md",
     "Networking/Internet_protocols.md",
     "Networking/Transmission_mediums.md",
     "Networking/Routing_methods.md",
-    "Networking/Internet_architecture.md",
-    "Networking/TransmissionProtocols/Hypertext_transfer_protocol.md"
+    "Networking/Internet_architecture.md"
   ]
 }
