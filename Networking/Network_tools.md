@@ -30,9 +30,10 @@ ___
 	3.  The destination host receives a request and sends back a ICMP/UDP "echo reply" packet.
 	4.  The time it takes for the reply packet to reach the source host is measured and recorded.
 
-## iperf
+## Iperf
 - iperf is a tool that is used to measure network performance by generating traffic between two endpoints and measuring the [[Network_architecture#Bandwidth|Bandwidth]].
-- Useful for testing individual connections to a 
+- Useful for testing individual connections to a host and to optimise network configurations 
+
 > ![[Pasted image 20230220113021.png|650|650]]
 > ![[Pasted image 20230220113055.png|650|650]]
 
@@ -43,4 +44,4 @@ ___
 	4. The server receives the packets and measures the bandwidth  The server then sends a response back to the client, containing the measured bandwidth. 
 
 
-## traceroute 
+## traceroute

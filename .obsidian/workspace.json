@@ -105,7 +105,20 @@
               "type": "markdown",
               "state": {
                 "file": "Networking/Network_tools.md",
-                "mode": "source",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c36987a09447a456",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/Virtualisation.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -271,7 +284,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -316,7 +329,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Network_tools.md",
+                "file": "OperatingSystems/Virtualisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -356,7 +369,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_tools.md"
+                "file": "OperatingSystems/Virtualisation.md"
               }
             }
           }
@@ -380,7 +393,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_tools.md"
+                "file": "OperatingSystems/Virtualisation.md"
               }
             }
           },
@@ -406,7 +419,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Network_tools.md",
+                "file": "OperatingSystems/Virtualisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -456,10 +469,10 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "d4539c5efd6fd5ae",
+  "active": "c36987a09447a456",
   "lastOpenFiles": [
-    "Networking/Network_architecture.md",
     "Networking/Network_tools.md",
+    "Networking/Network_architecture.md",
     "Networking/Network_delay.md",
     "Networking/Checksum.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
