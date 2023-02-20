@@ -13,7 +13,7 @@
 > ```
 
 ___
-# Net tools
+# Network tools
 
 > ![[Pasted image 20230219143642.png|500|500]]
 > [[Transmission_protocols|transmission protocol]]
