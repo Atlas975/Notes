@@ -185,6 +185,32 @@
             }
           },
           {
+            "id": "1aefcf00f7fbceef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Header_types.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "627ca64c0fda4f18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Checksum.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6a3da6782e2f3d89",
             "type": "leaf",
             "state": {
@@ -279,7 +305,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -324,7 +350,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/TransmissionProtocols/Transmission_protocols.md",
+                "file": "Networking/Checksum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -364,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/TransmissionProtocols/Transmission_protocols.md"
+                "file": "Networking/Checksum.md"
               }
             }
           }
@@ -372,8 +398,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5046501159668,
-    "collapsed": true
+    "width": 259.5046501159668
   },
   "right": {
     "id": "441e4249d5592193",
@@ -389,7 +414,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/TransmissionProtocols/Transmission_protocols.md"
+                "file": "Networking/Checksum.md"
               }
             }
           },
@@ -415,7 +440,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/TransmissionProtocols/Transmission_protocols.md",
+                "file": "Networking/Checksum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -465,17 +490,17 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "22f4a0d22e2ea494",
+  "active": "627ca64c0fda4f18",
   "lastOpenFiles": [
+    "Networking/Header_types.md",
+    "Networking/TransmissionProtocols/Transmission_protocols.md",
     "Networking/Network_tools.md",
     "Networking/Network_delay.md",
     "OperatingSystems/Virtualisation.md",
     "Networking/Network_architecture.md",
     "Networking/Checksum.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
-    "Networking/TransmissionProtocols/Transmission_protocols.md",
     "Networking/Internet_protocols.md",
-    "Networking/Transmission_mediums.md",
-    "Networking/Routing_methods.md"
+    "Networking/Transmission_mediums.md"
   ]
 }
