@@ -23,7 +23,7 @@ ___
 - Ping measures response time from a specific device, useful for checking host reach-ability
 - Measures RTT and works on end to end manner like tracer route, however messages sent to specific hosts rather than nodes across the path
 
-> ![[Pasted image 20230213231702.png]]
+> ![[Pasted image 20230213231702.png|550|550]]
 - Ping works in the following way:
     1.  A user sends a "ping" request to a network host using the "ping" command.
     2.  Request in form of an ICMP/UDP "echo request" packet.
@@ -31,18 +31,16 @@ ___
     4.  The time it takes for the reply packet to reach the source host is measured and recorded.
 
 ## Iperf 
+> ![[Pasted image 20230220111146.png|650|650]]
+> ![[Pasted image 20230220111225.png|650|650]]
+
 
 - Iperf works in the following way:
     1. On thiperf server,  the command "iperf -s" is used to start iperf in server mode. This will cause iperf to listen for incoming connections from the client.
     2. On the iperf client, the command "iperf -c <server_ip_address>" is used to start iperf in client mode and connect to the server. e 
     3. Once the client is connected to the server, iperf will start sending data packets from the client to the server. By default, iperf uses the TCP protocol
-6.  The server receives the packets and measures the bandwidth, or the amount of data that can be transmitted per unit of time. The server then sends a response back to the client, containing the measured bandwidth.
-
-    
-    
-7.  The client receives the response and displays the results on the screen. The results typically include the measured bandwidth, along with other statistics such as the round-trip time, or the time it takes for a packet to travel from the client to the server and back.
-    
-8.  The test is complete, and the client can be disconnected from the server by pressing Ctrl-C.
+6.  The server receives the packets and measures the [[Network_architecture#Bandwidth|Bandwidth]]. The server then sends a response back to the client, containing the measured bandwidth.
+7.  The client receives the response and displays the results on the screen. The results typically include the measured bandwidth, along with other statistics. The test is complete, and the client can be disconnected from the server by pressing Ctrl-C.
 
 
 
