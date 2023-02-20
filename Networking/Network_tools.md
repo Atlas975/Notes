@@ -32,12 +32,11 @@ ___
 
 ## Iperf 
 
-   
-3.  On the iperf server, you run the command "iperf -s" to start iperf in server mode. This will cause iperf to listen for incoming connections from the client.
-    
-4.  On the iperf client, you run the command "iperf -c <server_ip_address>" to start iperf in client mode and connect to the server. Replace <server_ip_address> with the IP address or hostname of the server.
-    
-5.  Once the client is connected to the server, iperf will start sending data packets from the client to the server. By default, iperf uses the TCP protocol, which ensures that all packets are delivered and provides a reliable measurement of the network performance.
+- Iperf works in the following way:
+1. On the iperf server,  the command "iperf -s" is used to start iperf in server mode. This will cause iperf to listen for incoming connections from the client.
+2. On the iperf client, the command "iperf -c <server_ip_address>" is used to start iperf in client mode and connect to the server. 
+
+3.   Once the client is connected to the server, iperf will start sending data packets from the client to the server. By default, iperf uses the TCP protocol, which ensures that all packets are delivered and provides a reliable measurement of the network performance.
     
 6.  The server receives the packets and measures the bandwidth, or the amount of data that can be transmitted per unit of time. The server then sends a response back to the client, containing the measured bandwidth.
     
