@@ -18,14 +18,14 @@ ___
 > ![[Pasted image 20230219143642.png|500|500]]
 > [[Transmission_protocols|transmission protocol]]
 
-## ping
+## Ping
 - ping measures response time from a specific device, useful for checking host reach-ability
 - Measures RTT and works on end to end manner like tracer route, however messages sent to specific hosts rather than nodes across the path
 
 > ![[Pasted image 20230213231702.png|550|550]]
 
 - ping works in the following way:
-	1.  A user sends a "ping" request to a network host using the "ping" command.
+	1.  A user sends a ping request to a network host using the `ping` command.
 	2.  Request in form of an ICMP/UDP "echo request" packet.
 	3.  The destination host receives a request and sends back a ICMP/UDP "echo reply" packet.
 	4.  The time it takes for the reply packet to reach the source host is measured and recorded.
@@ -44,4 +44,17 @@ ___
 	4. The server receives the packets and measures the bandwidth  The server then sends a response back to the client, containing the measured bandwidth. 
 
 
-## traceroute
+## Traceroute
+- A network diagnostic tool used to trace the path that an [[Internet_protocols|IP]] packet takes from two networked device. Provides information about the routing path and network latency.
+- This works by measuring RTT, sending three packets to a router that lies on path to destination and measures lag between transmission and reply
+
+>![[Pasted image 20230210180038.png|450|450]]
+
+- Useful for identifying specific routing problems along a path 
+
+> ![[Pasted image 20230220120621.png|650|650]]
+
+
+- traceroute works in the following way:
+     1. A user sends a series of packets using the `traceroute` command
+     2. Traceroute sends out a series of packets, each with an increasing Time to Live (TTL) value, starting with a TTL of 1.

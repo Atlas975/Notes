@@ -104,8 +104,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Network_tools.md",
-                "mode": "preview",
+                "file": "Networking/Network_delay.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -284,7 +284,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -329,7 +329,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "Networking/Network_tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -369,7 +369,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md"
+                "file": "Networking/Network_tools.md"
               }
             }
           }
@@ -377,7 +377,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5046501159668
+    "width": 259.5046501159668,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -393,7 +394,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md"
+                "file": "Networking/Network_tools.md"
               }
             }
           },
@@ -419,7 +420,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "Networking/Network_tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -469,17 +470,17 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "c36987a09447a456",
+  "active": "22f4a0d22e2ea494",
   "lastOpenFiles": [
-    "Networking/Network_tools.md",
-    "Networking/Network_architecture.md",
     "Networking/Network_delay.md",
+    "Networking/Network_tools.md",
+    "OperatingSystems/Virtualisation.md",
+    "Networking/Network_architecture.md",
     "Networking/Checksum.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "Networking/TransmissionProtocols/Transmission_protocols.md",
     "Networking/Internet_protocols.md",
     "Networking/Transmission_mediums.md",
-    "Networking/Routing_methods.md",
-    "Networking/Internet_architecture.md"
+    "Networking/Routing_methods.md"
   ]
 }
