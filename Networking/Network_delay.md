@@ -19,7 +19,7 @@ ___
 	• Queuing Delay
 	• Transmission Delay
 	• Propagation Delay
-
+- Multiple [[Network_tools| network tools ]] exist to identify if these delays are occuring 
 ## Processing delay
 - Dependent on how busy a device is, the time taken for device to read and route a packet based on [[Network_architecture#Network header|header]] metadata, 
 - This delay is typically small, but may include checking bit level errors in a packet 
@@ -77,25 +77,3 @@ s=\text{link propagation speed}
 - This counter is decremented on each hop, this prevent packets from circulating indefinitely
 - If a packet is unable to reach its destination and its TTL reaches zero, it will be discarded, preventing it from consuming network resources or causing network congestion.
 
-
-# Measuring network delay
-- Network delay can be measured through applications such as **tracerroute**
-- This works by measuring RTT, sending three packets to a router that lies on path to destination and measures lag between transmission and reply  
-
-> ![[Pasted image 20230210180038.png|450|450]]
-> ![[Pasted image 20230210180129.png|550|550]]
-
-## Measuring throughput
-- Standardised throughput measurements can be achieved through **iperf** which runs a client server model with the client requesting sample data served by the host
-- Knowing the size of sample data and time taken to retrieve it allows for throughput to easily be calculated, protocols use can also be a factor. 
-- Bi-directional transfer is also needed to check for irregularities in a direction 
-## Ping
-- Measures RTT and works on end to end manner like tracer route, however messages sent to specific hosts rather than nodes across the path
-- Ping measures response time from a specific device while tracerroute 
-
-> ![[Pasted image 20230213231702.png]]
-- Ping works in the following way:
-    1.  A user sends a "ping" request to a network host using the "ping" command.
-    2.  Request in form of an Internet Control Message Protocol (ICMP) "echo request" packet.
-    3.  The destination host receives the request and sends back an ICMP "echo reply" packet.
-    4.  The time it takes for the reply packet to reach the source host is measured and recorded.

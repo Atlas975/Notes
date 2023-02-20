@@ -33,6 +33,7 @@ ___
 ## Iperf
 - iperf is a tool that is used to measure network performance by generating traffic between two endpoints and measuring the [[Network_architecture#Bandwidth|Bandwidth]].
 - Useful for testing individual connections to a host and to optimise network configurations 
+- Bi-directional transfer is also required to check for irregularities in a direction
 
 > ![[Pasted image 20230220113021.png|650|650]]
 > ![[Pasted image 20230220113055.png|650|650]]
@@ -50,11 +51,14 @@ ___
 
 >![[Pasted image 20230210180038.png|450|450]]
 
-- Useful for identifying specific routing problems along a path 
+- Useful for identifying specific routing bottlenecks along a path from source to destination 
 
 > ![[Pasted image 20230220120621.png|650|650]]
 
-
 - traceroute works in the following way:
-     1. A user sends a series of packets using the `traceroute` command
-     2. Traceroute sends out a series of packets, each with an increasing Time to Live (TTL) value, starting with a TTL of 1.
+	 1. A user sends a series of packets using the `traceroute` command
+	 2. Traceroute sends out a series of packets, each with an increasing Time to Live (TTL) value, starting with a TTL of 1.
+	 3. The TTL value is decremented by each router that the packet passes through. When the TTL reaches zero, the router discards the packet and sends an "ICMP time exceeded" message back to the sender.
+	 4. Traceroute listens for these ICMP messages and uses them to identify the IP address of the router that sent the message. This IP address is recorded as the first hop in the traceroute report.
+	 5. The process is repeated with a new packet with an increased TTL value until the packet reaches the destination host.
+	 6. Traceroute displays a report showing the IP address of each router along the path, as well as the time it took for the packet to complete the round-trip between the source and each router.
