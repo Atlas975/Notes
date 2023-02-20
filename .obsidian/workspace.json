@@ -99,6 +99,19 @@
             }
           },
           {
+            "id": "d4539c5efd6fd5ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Checksum.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f39e3c5c304d89b7",
             "type": "leaf",
             "state": {
@@ -258,7 +271,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -303,7 +316,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
+                "file": "Networking/Checksum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -343,7 +356,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md"
+                "file": "Networking/Checksum.md"
               }
             }
           }
@@ -367,7 +380,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md"
+                "file": "Networking/Checksum.md"
               }
             }
           },
@@ -393,7 +406,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
+                "file": "Networking/Checksum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -443,10 +456,10 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "9ef7b4e8e42e0119",
+  "active": "d4539c5efd6fd5ae",
   "lastOpenFiles": [
-    "Networking/NetworkingProtocols/Transmission_protocols.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
+    "Networking/NetworkingProtocols/Transmission_protocols.md",
     "Networking/Networking_tools.md",
     "Networking/Internet_protocols.md",
     "Networking/Network_delay.md",
