@@ -8,58 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a349fa342871651f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/SQL/SQL_language.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "69b8fca6d0840146",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SoftwareEngineering/Multiagent_systems.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "77e9c2d27a613097",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/Python/Python_language.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "070f8c2a8ebf2e3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/Python/Global_interpreter_lock.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c3c7cd5efe9de357",
             "type": "leaf",
             "state": {
@@ -318,7 +266,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -505,8 +453,8 @@
   },
   "active": "1f03a5844324a3ee",
   "lastOpenFiles": [
-    "Networking/TransmissionProtocols/Hypertext_transfer_protocol.md",
     "Networking/Network_tools.md",
+    "Networking/TransmissionProtocols/Hypertext_transfer_protocol.md",
     "Databases/Relational_algebra.md",
     "Networking/Header_types.md",
     "Networking/TransmissionProtocols/Transmission_protocols.md",
