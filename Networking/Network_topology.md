@@ -14,3 +14,22 @@
 
 ___
 # Network topology
+- Refers to the physical / logical arrangements of nodes / links that make up a [[Network_architecture|network]]
+- Describes how connections exists a network and how communication is performed 
+- Two types of topology exists: 
+    - **Physical topology**: placement of nodes in a network 
+    - **Logical topology**: how data flows in a network 
+
+## Bus topology 
+- Common [[Transmission_mediums|transmission medium]] between all hosts
+- Low cost due to one connection, suited for temporary networks 
+- Poor fault tolerance and security due to being dependent on one medium
+
+> ![[Pasted image 20230225233858.png|450|450]]
+
+
+## Ring topology 
+- Bus topology in a loop, data still flows in single direction
+- P2P LAN, all nodes have equal rights, tokens a
+
+> ![[Pasted image 20230225234635.png|200|200]]

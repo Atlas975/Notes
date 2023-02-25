@@ -50,8 +50,8 @@
     "network": {
       "network": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1676535829508
+          "count": 2,
+          "lastUpdated": 1677368254489
         }
       }
     },
@@ -130,8 +130,8 @@
     "Physical": {
       "Physical": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1676537500556
+          "count": 2,
+          "lastUpdated": 1677368220941
         }
       }
     },
@@ -348,6 +348,14 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1676895136912
+        }
+      }
+    },
+    "topology": {
+      "topology": {
+        "currentFile": {
+          "count": 4,
+          "lastUpdated": 1677368241300
         }
       }
     }
