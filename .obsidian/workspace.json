@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
+                "file": "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -318,7 +318,7 @@
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -503,8 +503,10 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "0ab1a4351d739f46",
+  "active": "9ef7b4e8e42e0119",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Sliding_window.md",
+    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
     "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
