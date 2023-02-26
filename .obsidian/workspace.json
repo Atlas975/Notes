@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Two_pointers.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -363,7 +363,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Two_pointers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -403,7 +403,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Stack_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Two_pointers.md"
               }
             }
           }
@@ -427,7 +427,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Stack_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Two_pointers.md"
               }
             }
           },
@@ -453,7 +453,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Two_pointers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
