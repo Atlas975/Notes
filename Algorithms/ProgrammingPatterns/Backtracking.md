@@ -44,6 +44,8 @@ def combinationSum(self, candidates, target) -> List[List[int]]:
     bfs(candidates, [], 0)
     return res
 ```
+
+
 ## Permutations
 [[Catalan_numbers#Permutations|Permutations formula]]
 
@@ -61,7 +63,7 @@ def permute(self, nums: List[int]) -> List[List[int]]:
     dfs(nums, [])
     return res
 ```
-## Subsets without duplicates
+## Subsets no duplicates
 ```python
 def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
     nums.sort()
@@ -83,6 +85,34 @@ def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
     dfs(0, [])
     return res
 ```
+
+## Combination sum no duplicates 
+
+```python
+def combinationSum2(self, candidates, target) -> List[List[int]]:
+    res = []
+    candidates.sort()
+
+    def bfs(cand, path, path_sum):
+        n = len(cand)
+
+        def search(num, j):
+            new_sum = path_sum + num
+            if new_sum == target:
+                res.append(path + [num])
+            elif new_sum < target and (arr := cand[j + 1 :]):
+                bfs(arr, path + [num], new_sum)
+
+        search(cand[0], 0)
+        for i in range(1, n):
+            if cand[i] == cand[i - 1]:
+                continue
+            search(cand[i], i)
+
+    bfs(candidates, [], 0)
+    return res
+```
+
 ## Word search 
 
 ```python
@@ -117,27 +147,31 @@ def exist(self, board: List[List[str]], word: str) -> bool:
 ## N-Queens
 ```python
 def solveNQueens(self, n: int) -> List[List[str]]:
-    cols, pdiag, ndiag = set(), set(), set()
     res = []
 
-    def dfs(r, path):
+    def dfs(r, path, cols, pdiag, ndiag):
         for c in range(n):
-            if (c in cols) or (r + c in pdiag) or (r - c in ndiag):
+            if (
+                (cols & (1 << c))
+                or (pdiag & (1 << (r + c)))
+                or (ndiag & (1 << (r - c + n)))
+            ):
                 continue
+
             if r == n - 1:
                 path.append(c)
-                res.append(('.'*i) + 'Q' + ('.'*(n-i-1)) for i in path)
-                return 
-                
-            cols.add(c)
-            pdiag.add(r + c)
-            ndiag.add(r - c)
-            dfs(r + 1, path + [c])
-            cols.remove(c)
-            pdiag.remove(r + c)
-            ndiag.remove(r - c)
+                res.append("." * c + "Q" + "." * (n - c - 1) for c in path)
+                return
 
-    dfs(0, [])
+            dfs(
+                r + 1,
+                path + [c],
+                cols | 1 << c,
+                pdiag | 1 << (r + c),
+                ndiag | 1 << (r - c + n),
+            )
+
+    dfs(0, [], 0, 0, 0)
     return res
 ```
 
