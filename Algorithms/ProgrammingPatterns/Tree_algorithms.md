@@ -1,4 +1,3 @@
-
 > [!important]- Metadata
 > **Tags:** #ProgrammingPatterns 
 > **Located:** Algorithms/ProgrammingPatterns
@@ -15,7 +14,7 @@
 
 ___
 # Tree traversal
-## Inorder traversal 
+## Inorder traversal
 ```python
 def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
     res = []
@@ -42,7 +41,7 @@ def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
     return res
 ```
 
-## Preorder traversal 
+## Preorder traversal
 ```python
 def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
     res = []
@@ -71,7 +70,7 @@ def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
     return res
 ```
 
-## Postorder traversal 
+## Postorder traversal
 ```python
 def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
     res = []
@@ -137,9 +136,9 @@ def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
     return res
 ```
 
-# Tree algorithms 
+# Tree algorithms
 
-## Invert tree 
+## Invert tree
 ```python
 def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
     # ITERATIVE 
@@ -186,7 +185,7 @@ def maxDepth(self, root: Optional[TreeNode]) -> int:
     return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
 ```
 
-## Diameter of a binary tree 
+## Diameter of a binary tree
 ```python
 def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
     mxdpth = 0
@@ -221,7 +220,7 @@ def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
     
     return mxdpth
 ```
-## Is same tree 
+## Is same tree
 ```python
 def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
     # ITERATIVE
@@ -249,7 +248,7 @@ def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
     return check(p, q)
 ```
 
-## Is subtree 
+## Is subtree
 ```python
 def isSubtree(self, root, subRoot) -> bool:
     # ITERATIVE
@@ -278,27 +277,25 @@ def isSubtree(self, root, subRoot) -> bool:
     return False
 
     # RECURSIVE 
-    def check(root1, root2):
-        if bool(root1) ^ bool(root2):
+    def check(p, q):
+        if bool(p) ^ bool(q):
             return False
-        if root1:
-            if root1.val != root2.val:
+        if p:
+            if p.val != q.val:
                 return False
-            lcheck = check(root1.left, root2.left)
-            rcheck = check(root1.right, root2.right)
-            return lcheck and rcheck
+            return check(p.left, q.left) and check(p.right, q.right)
         return True
 
-    def is_subtree(root, subRoot):
+    def same_tree(root, subRoot):
         if check(root, subRoot):
             return True
-        if root.left and is_subtree(root.left, subRoot):
+        if root.left and same_tree(root.left, subRoot):
             return True
-        return bool(root.right and is_subtree(root.right, subRoot))
-    return is_subtree(root, subRoot)
+        return (root.right and same_tree(root.right, subRoot)
+    return same_tree(root, subRoot)
 ```
 
-## Lowest common ancestor of binary search tree 
+## Lowest common ancestor of binary search tree
 ```python
 def lowestCommonAncestor(self, root, p, q) -> "TreeNode":
     # ITERATIVE
@@ -322,7 +319,7 @@ def lowestCommonAncestor(self, root, p, q) -> "TreeNode":
     return check(root)
 ```
 
-## Validate binary search tree 
+## Validate binary search tree
 ```python
 def isValidBST(self, root: Optional[TreeNode]) -> bool:
     # ITERATIVE

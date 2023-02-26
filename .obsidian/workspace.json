@@ -216,7 +216,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -350,7 +350,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -390,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md"
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md"
               }
             }
           }
@@ -414,7 +414,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md"
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md"
               }
             }
           },
@@ -440,7 +440,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -492,6 +492,8 @@
   },
   "active": "b8b0d78ebdf58892",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Two_pointers.md",
+    "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Networking/Network_topology.md",

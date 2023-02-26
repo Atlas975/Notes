@@ -32,16 +32,14 @@ pub fn hammingWeight(n: u32) -> i32 {
 ```
 
 ## Count bits
-```python
+```rust
 pub fn count_bits(n: i32) -> Vec<i32> {
     if n == 0 {
         return vec![0];
     }
-    let n = n as usize;
-    let mut res = vec![0; n + 1];
+    let mut res = vec![0; n as usize + 1];
     res[1] = 1;
-
-    for i in 2..=n {
+    for i in 2..=n as usize {
         res[i] = res[i >> 1] + (i & 1) as i32;
     }
     res
