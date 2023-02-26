@@ -224,6 +224,19 @@
             }
           },
           {
+            "id": "0ab1a4351d739f46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "cd2150d358fe386d",
             "type": "leaf",
             "state": {
@@ -305,7 +318,7 @@
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -350,7 +363,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -390,7 +403,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md"
               }
             }
           }
@@ -414,7 +427,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md"
               }
             }
           },
@@ -440,7 +453,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -490,8 +503,9 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "b8b0d78ebdf58892",
+  "active": "0ab1a4351d739f46",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "Algorithms/ProgrammingPatterns/Two_pointers.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
