@@ -216,7 +216,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Network_topology.md",
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -350,7 +350,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Network_topology.md",
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -370,7 +370,7 @@
             }
           },
           {
-            "id": "ac472bbb284f1c17",
+            "id": "2cd5ed796fd02e73",
             "type": "leaf",
             "state": {
               "type": "tagfolder-view",
@@ -390,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_topology.md"
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md"
               }
             }
           }
@@ -414,7 +414,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_topology.md"
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md"
               }
             }
           },
@@ -440,7 +440,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Network_topology.md",
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -492,8 +492,10 @@
   },
   "active": "b8b0d78ebdf58892",
   "lastOpenFiles": [
-    "ContinuousMath/Catalan_numbers.md",
+    "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Networking/Network_topology.md",
+    "ContinuousMath/Catalan_numbers.md",
     "XX-Attachments/Images/Pasted image 20230225235345.png",
     "XX-Attachments/Images/Pasted image 20230225235036.png",
     "XX-Attachments/Images/Pasted image 20230225234635.png",

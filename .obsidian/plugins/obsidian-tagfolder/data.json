@@ -6,7 +6,7 @@
   "hideOnRootTags": "",
   "sortType": "DISPNAME_ASC",
   "sortTypeTag": "NAME_ASC",
-  "expandLimit": 0,
+  "expandLimit": 2,
   "disableNestedTags": false,
   "hideItems": "NONE",
   "ignoreFolders": "",
@@ -20,5 +20,7 @@
   "mergeRedundantCombination": false,
   "useVirtualTag": false,
   "doNotSimplifyTags": false,
-  "overrideTagClicking": false
+  "overrideTagClicking": false,
+  "useMultiPaneList": false,
+  "archiveTags": ""
 }
