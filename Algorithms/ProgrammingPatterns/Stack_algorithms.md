@@ -32,22 +32,33 @@ def isValid(self, s: str) -> bool:
 ```
 
 ## Min stack 
-```python
-class MinStack:
-    def __init__(self):
-        self.s = deque()
+```rust
+struct MinStack {
+    s: VecDeque<(i32, i32)>,
+}
 
-    def push(self, val: int) -> None:
-        self.s.append((val, min(val, self.getMin()) if self.s else val))
+impl MinStack {
+    fn new() -> Self {
+        Self { s: VecDeque::new() }
+    }
 
-    def pop(self) -> None:
-        self.s.pop()
+    fn push(&mut self, val: i32) {
+        let smin = if self.s.is_empty() {val} else {self.get_min()};
+        self.s.push_back((val, val.min(smin)));
+    }
 
-    def top(self) -> int:
-        return self.s[-1][0]
+    fn pop(&mut self) {
+        self.s.pop_back();
+    }
 
-    def getMin(self) -> int:
-        return self.s[-1][1]
+    fn top(&self) -> i32 {
+        self.s.back().unwrap().0
+    }
+
+    fn get_min(&self) -> i32 {
+        self.s.back().unwrap().1
+    }
+}
 ```
 
 ## Evaluate reverse polish notation 
