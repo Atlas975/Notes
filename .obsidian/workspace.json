@@ -229,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Backtracking.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -363,7 +363,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Backtracking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -403,7 +403,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Backtracking.md"
               }
             }
           }
@@ -427,7 +427,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Backtracking.md"
               }
             }
           },
@@ -453,7 +453,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Backtracking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -505,6 +505,7 @@
   },
   "active": "0ab1a4351d739f46",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "Algorithms/ProgrammingPatterns/Two_pointers.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",

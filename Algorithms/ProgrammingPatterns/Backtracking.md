@@ -83,6 +83,34 @@ def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
     dfs(0, [])
     return res
 ```
+## Word search 
+
+```python
+def exist(self, board: List[List[str]], word: str) -> bool:
+        n, m, wrdlen = len(board), len(board[0]), len(word)
+        if wrdlen > m * n:
+            return False
+
+        def dfs(r, c, i = 0):
+            if i == wrdlen - 1:
+                return True
+            board[r][c] = '#'
+            i += 1
+            valid = (
+                (dfs(r - 1, c, i) if r > 0 and board[r - 1][c] == word[i] else False) or
+                (dfs(r + 1, c, i) if r < n - 1 and board[r + 1][c] == word[i] else False) or
+                (dfs(r, c - 1, i) if c > 0 and board[r][c - 1] == word[i] else False) or
+                (dfs(r, c + 1, i) if c < m - 1 and board[r][c + 1] == word[i] else False)
+            )
+
+            board[r][c] = word[i - 1]
+            return valid
+
+        cnts = sum(map(Counter, board), Counter())
+        if cnts[word[0]] > cnts[word[-1]]:
+            word = word[::-1]
+        return any(dfs(r, c) for r, c in product(range(n), range(m)) if board[r][c] == word[0])
+```
 ## N-Queens
 ```python
 def solveNQueens(self, n: int) -> List[List[str]]:
