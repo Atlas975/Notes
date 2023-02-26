@@ -250,8 +250,8 @@
     "communication": {
       "communication": {
         "currentFile": {
-          "count": 2,
-          "lastUpdated": 1676558140453
+          "count": 3,
+          "lastUpdated": 1677369104074
         }
       }
     },
@@ -354,8 +354,24 @@
     "topology": {
       "topology": {
         "currentFile": {
-          "count": 4,
-          "lastUpdated": 1677368241300
+          "count": 6,
+          "lastUpdated": 1677369183656
+        }
+      }
+    },
+    "performed": {
+      "performed": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677368972379
+        }
+      }
+    },
+    "management": {
+      "management": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677369302938
         }
       }
     }
