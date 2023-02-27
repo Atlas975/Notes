@@ -32,15 +32,15 @@ def isPalindrome(self, s: str) -> bool:
 ## Two sum II
 ```python
 def twoSum(self, numbers: List[int], target: int) -> List[int]:
-    l,r = 0, len(numbers)-1
-    while l<r:
-        total=numbers[l]+numbers[r]
-        if total==target:
-            return (l+1,r+1)
-        elif total<target:
-            l+=1
+    l, r = 0, len(numbers) - 1
+    while l < r:
+        tsum = numbers[l] + numbers[r]
+        if tsum == target:
+            return (l + 1, r + 1)
+        elif tsum < target:
+            l += 1
         else:
-            r-=1
+            r -= 1
     return -1
 ```
 
@@ -67,21 +67,19 @@ def threeSum(self, nums: List[int]) -> List[List[int]]:
 ```
 
 ## Container with most water 
-```rust
-pub fn max_area(height: Vec<i32>) -> i32 {
-    let (mut l, mut r) = (0, height.len() - 1);
-    let mut mxarea = 0;
-    while l < r {
-        if height[l] < height[r] {
-            mxarea = mxarea.max(height[l] * (r - l) as i32);
-            l += 1;
-        } else {
-            mxarea = mxarea.max(height[r] * (r - l) as i32);
-            r -= 1;
-        }
-    }
-    mxarea
-}
+```python
+def maxArea(self, height: List[int]) -> int:
+    mxar = 0
+    l, r = 0, len(height) - 1
+
+    while l < r:
+        if height[l] < height[r]:
+            mxar = max(mxar, height[l] * (r - l))
+            l += 1
+        else:
+            mxar = max(mxar, height[r] * (r - l))
+            r -= 1
+    return mxar
 ```
 
 ## Trapping rain water 
