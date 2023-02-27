@@ -50,7 +50,6 @@ img {
         margin: auto auto !important;
 }
 
-
 .cm-header-1,
 .markdown-preview-section h1 {
         font-weight: 460 !important;
@@ -100,11 +99,6 @@ img {
         color: var(--purple) !important;
 }
 
-.cm-s-obsidian span.cm-hmd-internal-link {
-        font-weight: 460;
-        color: var(--purple) !important;
-}
-
 
 .mod-cm6 .cm-editor .HyperMD-header,
 .markdown-reading-view .markdown-preview-section :is(h1, h2, h3, h4, h5, h6) {
@@ -118,11 +112,10 @@ img {
         margin-right: auto;
 }
 
+.cm-s-obsidian .cm-tag {
+        color: var(--red) !important;
+}
+
 mjx-math {
         font-size: 18px !important;
 }
-
-.markdown-preview-view code{
-        color: yellow;
-}
-/* change highlight background */

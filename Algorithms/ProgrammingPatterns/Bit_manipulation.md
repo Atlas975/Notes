@@ -69,7 +69,7 @@ pub fn missing_number(nums: Vec<i32>) -> i32 {
 ```
 
 ## Reverse integer
-```python
+```rust
 pub fn reverse(x: i32) -> i32 {
     let sign = 1 - (x < 0) as i64 * 2;
     let mut x = (x as i64) * sign;
