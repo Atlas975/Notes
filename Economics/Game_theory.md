@@ -21,33 +21,33 @@
 1. Players
 2. Strategies
 3. Payoffs / Utilities (outcomes)
->![[Pasted image 20211130122837.png]]
+![[Pasted image 20211130122837.png|450|450]]
 # Stable outcomes
 - An outcome is stable if there is no incentive to move from an outcome.
 # Dominance
 - A method of solving a game
 - This is done by taking each players perspective.
 - Strict dominance Example:
->![[Pasted image 20211130124411.png]]
+![[Pasted image 20211130124411.png|450|450]]
 - In this case, player2 to has no reason to cooperate 5,2 > 4,1
 - player1 has no reason to defect as 5,2 >4,1
 ## Nash equilibrium 
 - Also known as a stable outcome
 - This results in a Nash equilibrium
->![[Pasted image 20211130124757.png]]
+![[Pasted image 20211130124757.png|450|450]]
 - This is known as a prisoners dilemma, both players cooperating would be best overall but both players being rational results in both of them defecting
 
 
 # Iterated dominance
 - Method of deriving Nash equilibrium by removing columns that are inertly worse
->![[Pasted image 20211201101355.png]]
+![[Pasted image 20211201101355.png|450|450]]
 - Example of two Nash equilibrium 
->![[Pasted image 20211201102627.png]]
+![[Pasted image 20211201102627.png|450|450]]
 
 # Infinitely repeated games
 
 - Strategies:
->![[Pasted image 20211201103938.png]]
+![[Pasted image 20211201103938.png|450|450]]
 ## Matching pennies 
 - Games with no Nash equilibrium
 ## One shot games
@@ -62,14 +62,14 @@
 - If its given how much another firm will output, this model will know how to maximize profits.
 ### Reaction function
 - The best response of a player given another players output
->![[Pasted image 20211209154649.png]]
+![[Pasted image 20211209154649.png|450|450]]
 - The function tells us the best output quantity in response to player 2s output
 - Function with both
->![[Pasted image 20211209155719.png]]
+![[Pasted image 20211209155719.png|450|450]]
 
 ## Algebraic Nash equilibrium 
 - Examples:
->![[Pasted image 20211209160415.png]]
+![[Pasted image 20211209160415.png|450|450]]
 
 ## Bertrand model 
 - A market where firms decide on price	
@@ -80,10 +80,10 @@
 - In this condition, consumers CAN differentiate between competing products.
 
 ## Sources of market power
->![[Pasted image 20211209162610.png]]
+![[Pasted image 20211209162610.png|450|450]]
 
 # Market structures
->![[Pasted image 20211209162704.png]]
+![[Pasted image 20211209162704.png|450|450]]
 
 # Perfect competition
 ## Assumptions
@@ -96,22 +96,22 @@
 > Marginal revenue = Marginal cost
 
 ## Revenues
-![[Pasted image 20211115104011.png]]
+![[Pasted image 20211115104011.png|450|450]]
 
 #### Note marginal is always the derivative 
 ## Graphically 
-![[Pasted image 20211115104610.png]]
+![[Pasted image 20211115104610.png|450|450]]
 # Perfect competition profit
 > Profit = Marginal Cost
 
->![[Pasted image 20211117114902.png]]
->![[Pasted image 20211117114934.png]]
+![[Pasted image 20211117114902.png|450|450]]
+![[Pasted image 20211117114934.png|450|450]]
 
 # Shutdown condition
->![[Pasted image 20211117115200.png]]
+![[Pasted image 20211117115200.png|450|450]]
 
 # Industry supply curve
->![[Pasted image 20211117174332.png]]
+![[Pasted image 20211117174332.png|450|450]]
 
 # Perfect competition
 ## Assumptions
@@ -124,40 +124,40 @@
 > Marginal revenue = Marginal cost
 
 ## Revenues
-![[Pasted image 20211115104011.png]]
+![[Pasted image 20211115104011.png|450|450]]
 
 #### Note marginal is always the derivative 
 ## Graphically 
-![[Pasted image 20211115104610.png]]
+![[Pasted image 20211115104610.png|450|450]]
 # Perfect competition profit
 > Profit = Marginal Cost
 
->![[Pasted image 20211117114902.png]]
->![[Pasted image 20211117114934.png]]
+![[Pasted image 20211117114902.png|450|450]]
+![[Pasted image 20211117114934.png|450|450]]
 
 # Shutdown condition
->![[Pasted image 20211117115200.png]]
+![[Pasted image 20211117115200.png|450|450]]
 
 # Industry supply curve
->![[Pasted image 20211117174332.png]]
+![[Pasted image 20211117174332.png|450|450]]
 
 # Monopoly characteristics
 - Monopoly have small consumer surplus but large producer surplus. Otherwise there is no producer surplus
 
 ## Price discrimination 
 - There are multiple types of price discrimination
->![[Pasted image 20211124104845.png]]
+![[Pasted image 20211124104845.png|450|450]]
 
 # Oligopoly
 - A market with many buyers but few sellers
 ## Cartel
 - A group of market participants who collude to improve profits and dominate the market, often illegal
 - Proof of cartel instability
->![[Pasted image 20211207122439.png|300|400]]
->![[Pasted image 20211207122709.png|300|400]]
+![[Pasted image 20211207122439.png|300|400]]
+![[Pasted image 20211207122709.png|300|400]]
 - When accounting for actions, a normal form table doesen't account for the order of decisions, this can be accounted for by a tree
->![[Pasted image 20211207123851.png]]
+![[Pasted image 20211207123851.png|450|450]]
 
 
 # Types of imperfect competition
-![[Pasted image 20211123121837.png]]
+![[Pasted image 20211123121837.png|450|450]]

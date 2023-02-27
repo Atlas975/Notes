@@ -17,7 +17,7 @@ ___
 - All possible inputs are part of the **domain** set of a function
 - All possible outputs are part of the **co-domain** set of the function 
 
-> ![[Pasted image 20211028234513.png]]
+![[Pasted image 20211028234513.png|450|450]]
 *An input can't have multiple possible outputs, this is not a function*
 
 - **Range** is the functions output, it is a subset of the co-domain.
@@ -26,39 +26,39 @@ ___
 
 # Function arithmetic
 
-> ![[Pasted image 20211028234622.png]]
+![[Pasted image 20211028234622.png|450|450]]
 
 ## Addition
 
-> ![[Pasted image 20211028235316.png|500]]
+![[Pasted image 20211028235316.png|500]]
 
 ## Subtraction
 
-> ![[Pasted image 20211028235235.png|500]]
+![[Pasted image 20211028235235.png|500]]
 
 ## Multiplication
 
-> ![[Pasted image 20211028235421.png|500]]
+![[Pasted image 20211028235421.png|500]]
 
 ## Division
 
-> ![[Pasted image 20211028235520.png|500]]
+![[Pasted image 20211028235520.png|500]]
 *Only the intersection of domains can be used*
 
 ## Composition
 
-> ![[Pasted image 20211028235747.png|500]]
+![[Pasted image 20211028235747.png|500]]
 
 # Function types
 ## Injective / Surjective mapping
 
->![[Pasted image 20211101204718.png|500|500]]
+![[Pasted image 20211101204718.png|500|500]]
 
 # Surjective / onto function
 - Every y has at least one x mapped to it. range=co-domain
 - Every inverse function has the surjective property.
 
->![[Pasted image 20211101005744.png]]
+![[Pasted image 20211101005744.png|450|450]]
 
 - If the function is a subset of real numbers (N) for every integer y there is an integer x so f(x)=y
 - Arithmetic example:
@@ -67,7 +67,7 @@ $$x=\frac{(y-5)}{3}$$
 both result in real numbers with a single input value, making this function surjective.
 - Example of non surjective:
 
->![[Pasted image 20211101123202.png]]
+![[Pasted image 20211101123202.png|450|450]]
 This isn't surjective as there's both a positive and negative number mapped to y. If the domain is restricted to only positive numbers this changes.
 
 - Example of non surjective (linear):
@@ -91,7 +91,7 @@ $$x=\mp y$$
 
 # Set inverse
 
->![[Pasted image 20211031231048.png|500|500]]
+![[Pasted image 20211031231048.png|500|500]]
 
 # Algebraic inverse
 - Reverse operations

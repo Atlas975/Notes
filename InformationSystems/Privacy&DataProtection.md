@@ -1,17 +1,17 @@
 #DesignTheory [[Usability]]
 # Privacy importance
->![[Pasted image 20220228230158.png|400|400]]
+![[Pasted image 20220228230158.png|400|400]]
 - Individuals seek to control the extent someone has access, this is known as the **zone of inaccessibility**
 
 ## Types of privacy 
->![[Pasted image 20220228230433.png|400|400]]
+![[Pasted image 20220228230433.png|400|400]]
 
 ## Privacy boundaries
->![[Pasted image 20220228230546.png|400|400]]
+![[Pasted image 20220228230546.png|400|400]]
 - **Privacy paradox:** people want privacy but also want convenience
 
 ## Privacy threats
->![[Pasted image 20220228230736.png|400|400]]
+![[Pasted image 20220228230736.png|400|400]]
 
 ## Personal data definition
 > “Any information relating to an person who can be  
@@ -27,18 +27,18 @@ social identify of that person"
 
 # Data protection act
 1. Personal data shall be processed fairly and lawfully
->![[Pasted image 20220228231740.png]]
+![[Pasted image 20220228231740.png|450|450]]
 2. Personal data shall only be obtained and used for intended purposes
 3. Personal data shall be relevant to the actual process that needs to take place
 4. Personal data shall be accurate and kept up to date
 5. Data shall not be kept longer than is necessary 
 6. Personal data shall be processed in accordance with rights of data subjects 
->![[Pasted image 20220228232034.png]]
+![[Pasted image 20220228232034.png|450|450]]
 7. Collector is responsible for what happens to collected data
->![[Pasted image 20220228232208.png]]
+![[Pasted image 20220228232208.png|450|450]]
 8. Personal data cannot be transferred to somewhere without adequate levels of protection rights for data subject 
 # General data protection regulation
->![[Pasted image 20220228232447.png]]
+![[Pasted image 20220228232447.png|450|450]]
 
 
 # Piracy
@@ -50,7 +50,7 @@ social identify of that person"
 - Access control mechanisms used to restrict illegal medium usage
 
 ## Web tracking
->![[Pasted image 20220308183833.png]]
+![[Pasted image 20220308183833.png|450|450]]
 
 # Software protection
 - Arguments for software protection include
@@ -70,5 +70,5 @@ social identify of that person"
 - Asks that programs can be freely obtained with the developer being paid a small reward as compensation
 
 ## Copyright, Designs and patent act (CPDA)
->![[Pasted image 20220308184530.png]]
->![[Pasted image 20220308184637.png]]
+![[Pasted image 20220308184530.png|450|450]]
+![[Pasted image 20220308184637.png|450|450]]

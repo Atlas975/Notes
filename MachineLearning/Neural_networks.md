@@ -16,8 +16,8 @@ created: 2022-06-21 10:14
 # Backpropagation
 - Computation graph example:
 
-> ![[Pasted image 20220621204400.png]]
+![[Pasted image 20220621204400.png|450|450]]
 
-> ![[Pasted image 20220305133049.png]]
+![[Pasted image 20220305133049.png|450|450]]
 
 

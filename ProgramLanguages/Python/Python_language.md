@@ -12,9 +12,9 @@ arr=[i for i in range(100) if i % 2 == 0]
 print(arr)
 ```
 - Boolean example:
->![[Pasted image 20220211134837.png]]
+![[Pasted image 20220211134837.png|450|450]]
 - Dictionary comprehension
->![[Pasted image 20220211150722.png]]
+![[Pasted image 20220211150722.png|450|450]]
 append key/value in dictionary:  CountryCodeDict.update( {'Germany' : 49} )
 
 # Simultaneous assignment
@@ -53,7 +53,7 @@ try:
 
 # Advanced Strings
 ## Escape characters
->![[Pasted image 20211123084840.png|500|500]]
+![[Pasted image 20211123084840.png|500|500]]
 - To ignore these, use raw string
 > r"This is a \\' raw string"
 
@@ -170,17 +170,17 @@ finally:
 
 # Args
 - Allows optional parameters to be passed in, these are treated as a list, to pass in an actual list, a star is needed before it
->![[Pasted image 20220325132144.png]]
+![[Pasted image 20220325132144.png|450|450]]
 all approaches valid
 - Example with values other than args
->![[Pasted image 20220325132246.png]]
+![[Pasted image 20220325132246.png|450|450]]
 
 # Kwargs 
 - Acts as a python dictionary of args inputs, also requiring a key to access variables
 - Passing in an actual dictionary requires double stars:
->![[Pasted image 20220325132914.png]]
+![[Pasted image 20220325132914.png|450|450]]
 - Passing in regular inputs requires a key to be given too
->![[Pasted image 20220325133048.png]]
+![[Pasted image 20220325133048.png|450|450]]
 
 # Count letters
 ```python
@@ -259,13 +259,13 @@ returns +\\\*
 - This only works if the elements are compatible, which is only true if their dimensions are compatible when:
 1. they are the same dimensions
 2. Multiplication is being done with a scaler
->![[Pasted image 20220302154117.png]]
+![[Pasted image 20220302154117.png|450|450]]
 - Broadcasting use example, calculating the percentage each element in a vector contributes to the total of its column
->![[Pasted image 20220302154945.png]]
->![[Pasted image 20220302155004.png]]
+![[Pasted image 20220302154945.png|450|450]]
+![[Pasted image 20220302155004.png|450|450]]
 reshape isnt necessary in this scenario but is a good method of ensuring compatibility
 - Matrix decomposition:
->![[Pasted image 20220302155342.png]]
+![[Pasted image 20220302155342.png|450|450]]
 
 
 # With statement

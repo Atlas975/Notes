@@ -13,7 +13,7 @@
 - Data structures are the physical representation of the structure of data that's stored.
 - Abstract data types is both the data structure and the procedures/functions that manipulate the data.
 
-![[Pasted image 20211115121905.png]]
+![[Pasted image 20211115121905.png|450|450]]
 
 # Queue
 - Works on a first in first out principle (FIFO)
@@ -21,7 +21,7 @@
 - Operating systems make use of queues to allocate resources fairly.
 - Main functions:
 
-![[Pasted image 20211114173521.png]]
+![[Pasted image 20211114173521.png|450|450]]
 
 # Stack
 - Works on a first in last out principle (FILO)
@@ -49,17 +49,17 @@ item peek()
 
 ## Method of direct access to array element
 
-![[Pasted image 20211213185052.png]]
+![[Pasted image 20211213185052.png|450|450]]
 
 - Visual example:
 
-![[Pasted image 20211213185148.png]]
+![[Pasted image 20211213185148.png|450|450]]
 
 # Strings
 - Strings can be seen as a 1D array of characters. Characters literals (AKA letters) are encoded in ASCII.
 - ASCII is 7 bit integer code, so it can comfortably be stored in a byte.
 ## Num of bytes needed for 'Hello World!'
-![[Pasted image 20211118105446.png]]
+![[Pasted image 20211118105446.png|450|450]]
 - 14 bytes are needed a byte is dedicated at the end called a 'null byte' (\0). All string in C end with it.
 - The null byte acts as a terminating condition for a string to know when to stop reading it.
 
@@ -78,7 +78,7 @@ item peek()
 - Set content must be unordered (implementation does not need to use the order in which items were added)
 - Set examples:
 
-![[Pasted image 20220224104749.png]]
+![[Pasted image 20220224104749.png|450|450]]
 
 ## ADT example with lists
 - Lists must be ordered
@@ -86,7 +86,7 @@ item peek()
 - Unlike sets, a list does not know anything about the data as long as it is of valid type, the same item can appear multiple times
 - List examples:
 
-![[Pasted image 20220224105459.png]]
+![[Pasted image 20220224105459.png|450|450]]
 
 ## ADT Arrays vs linked lists
 - Arrays work by asking the operating system to allocate continuous blocks of memory, array elements can be accessed in O(1) given their position.

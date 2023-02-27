@@ -26,13 +26,13 @@ ___
 - Gives [[Internet_architecture|internet]] applications a common interface to work with a protocol layer 
 - Abstracts away the underlying implementations of a layer allowing for modularity 
 
-> ![[Pasted image 20230216083059.png|450|450]]
+![[Pasted image 20230216083059.png|450|450]]
 
 ## Protocol layering
 - A technique used to implement network abstraction, dividing communication into layers 
 - Lower layers transmit data while higher layers format and send data
 
-> ![[Pasted image 20230216083526.png|450|450]]
+![[Pasted image 20230216083526.png|450|450]]
 
 - Hierarchical, each layer depends on the service of the layer beneath it
 - Changes to a lower layer can have a cascading effect, requiring changes to the layers above it 
@@ -48,33 +48,33 @@ ___
 - In bidirectional communication, each layer must perform 2 opposite tasks.
 - Data must also be able to be transmitted in both directions simultaneously 
 
-> ![[Pasted image 20211105234139.png|500|500]] 
+![[Pasted image 20211105234139.png|500|500]] 
 
 - Each layer has a specific protocol only understood by that layer.
 - Opposite objects (protocols), must be able to perform identical tasks
 
-> ![[Pasted image 20211105235208.png|550|550]]
+![[Pasted image 20211105235208.png|550|550]]
 
 ## OSI model
 - An extended IP stack, including layers between application and transport  
 
-> ![[Pasted image 20230216094539.png|450|450]]
+![[Pasted image 20230216094539.png|450|450]]
 
 # Internet protocol stack
 - Layered communication architecture that defines the protocols and services of network communication between devices 
 - Typically organised into 5 layers
 
-> ![[Pasted image 20211109092413.png|350|350]]
+![[Pasted image 20211109092413.png|350|350]]
 
 - Packet headers are used to distinguish between layers
 - When data is delivered, no header should remain (encapsulation downwards)
 
-> ![[Pasted image 20230216094754.png|450|450]]
+![[Pasted image 20230216094754.png|450|450]]
 
 - The network layer is kept dumb as possible in order for more abstract processes to be implemented on the transport and application layer
 - Packet encapsulation process:
 
-> ![[Pasted image 20230216095033.png|400|400]]
+![[Pasted image 20230216095033.png|400|400]]
 
 - Header encapsulation used to achieve separation of concerns between each layer
 - Processes send/receive messages to/from [[Network_architecture#Network socket|sockets]]

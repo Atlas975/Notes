@@ -112,7 +112,7 @@ CREATE TABLE family (
 );
 ```
 
-> ![[Pasted image 20230205133433.png|550|550]]
+![[Pasted image 20230205133433.png|550|550]]
 
 ## Weak entities
 ```sql
@@ -126,12 +126,12 @@ CREATE TABLE Policy (
 );
 ```
 
-> ![[Pasted image 20230206010026.png|600|600]]
+![[Pasted image 20230206010026.png|600|600]]
 
 # SQL deletion types
 - Multiple options exist for handling row deletions of a [[Database_systems|database]], these are defined at schema level and need to be specified in a way to preserve any required [[Database_constraints|database constraints]] 
 
-> ![[Pasted image 20230204204517.png|600|600]]
+![[Pasted image 20230204204517.png|600|600]]
 
 ## SET NULL
 - This deletion type specifies that specifies that when a record is deleted, the values in the foreign key columns in the related table should be set to null. 
@@ -156,5 +156,5 @@ CREATE TABLE Policy (
 	- **ON DELETE SET NULL / DEFAULT**: use when there's partial participation
 	- **ON DELETE NO ACTION**: throws error if any child node exists 
 
-> ![[Pasted image 20230205195548.png]]
+![[Pasted image 20230205195548.png|450|450]]
 

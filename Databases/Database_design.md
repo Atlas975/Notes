@@ -21,7 +21,7 @@ ___
 - The logic of Sharding can vary:
 - Application level Sharding, routing happens at application layer:
 
-> ![[Pasted image 20220801202102.png|350|350]]
+![[Pasted image 20220801202102.png|350|350]]
 
 ```ad-example
 id(1-10) go in one shard 
@@ -30,7 +30,7 @@ id(11-20) go in another shard
 
 - Database level Sharding, this is typically done automatically by the [[SQL_language|DBMS]]:
 
-> ![[Pasted image 20220801202511.png|350|350]]
+![[Pasted image 20220801202511.png|350|350]]
 
 ### Sharding strategies
 1. Hashing 

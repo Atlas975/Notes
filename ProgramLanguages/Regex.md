@@ -9,13 +9,13 @@ date created: "2022-06-20 18:15"
 ![[Pasted image 20220617113314.png|550|550]]
 # Character classes
 ## Character set
-![[Pasted image 20220804170605.png]]
+![[Pasted image 20220804170605.png|450|450]]
 ## Negated set
-![[Pasted image 20220804170646.png]]
+![[Pasted image 20220804170646.png|450|450]]
 ## Range set
-![[Pasted image 20220804170704.png]]
+![[Pasted image 20220804170704.png|450|450]]
 ## Any set
-![[Pasted image 20220804170757.png]]
+![[Pasted image 20220804170757.png|450|450]]
 ## Whitespace sets
 - Note the whitespace set includes space, tabs and line breaks
 - \s grabs all whitespace
@@ -48,47 +48,47 @@ date created: "2022-06-20 18:15"
 - Matches anything within the beginning or end boundary
 - \B ignores word boundaries (center matches)
 
-![[Pasted image 20220804170922.png]]
-![[Pasted image 20220804170939.png]]
+![[Pasted image 20220804170922.png|450|450]]
+![[Pasted image 20220804170939.png|450|450]]
 # Escaped characters
 - Escaped characters require a backslash in order to be used as part of regex pattern
 - Reserved characters requiring a backslash include
 
 > +*?^$.[]{}()|/
 
-![[Pasted image 20220804144505.png]]
+![[Pasted image 20220804144505.png|450|450]]
 # Quantifiers
 ## 1 or more +
-![[Pasted image 20220804171742.png]]
+![[Pasted image 20220804171742.png|450|450]]
 ## 0 or more *
-![[Pasted image 20220804171819.png]]
+![[Pasted image 20220804171819.png|450|450]]
 ## Fixed quantifier {}
-![[Pasted image 20220804171910.png]]
+![[Pasted image 20220804171910.png|450|450]]
 ## Optional quantifier ?
-![[Pasted image 20220804172016.png]]
+![[Pasted image 20220804172016.png|450|450]]
 ## Lazy quantifier
-![[Pasted image 20220804172658.png]]
+![[Pasted image 20220804172658.png|450|450]]
 ## Alternation quantifier
-![[Pasted image 20220804172758.png]]
+![[Pasted image 20220804172758.png|450|450]]
 # Lookaround
 ## Positive lookahead
-![[Pasted image 20220804180703.png]]
+![[Pasted image 20220804180703.png|450|450]]
 ## Negative lookahead
-![[Pasted image 20220804180818.png]]
+![[Pasted image 20220804180818.png|450|450]]
 ## Positive lookbehind
 - Specifies a group that can not match before the main expression (if it matches, the result is discarded).
 
-![[Pasted image 20220804182300.png]]
+![[Pasted image 20220804182300.png|450|450]]
 ## Negative lookbehind
 - Specifies a group that can not match before the main expression (if it matches, the result is discarded).
 
-![[Pasted image 20220804182404.png]]
+![[Pasted image 20220804182404.png|450|450]]
 # Group referencing
 
 ## Indexed capturing group
-![[Pasted image 20220805231552.png]]
+![[Pasted image 20220805231552.png|450|450]]
 ## Capturing group
-![[Pasted image 20220804203711.png]]
+![[Pasted image 20220804203711.png|450|450]]
 ## Named capturing group 
 > (?<\name>ABC)
 > creates a capture group that can referenced by a specific name 
@@ -107,4 +107,4 @@ print(match["first"])
 
 
 ## Non capturing group 
-![[Pasted image 20220804205625.png]]
+![[Pasted image 20220804205625.png|450|450]]

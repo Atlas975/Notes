@@ -4,14 +4,14 @@
 - The next is that certain pixels have a filter applied less often than other pixels in the output
 - A solution to this is padding which can also preserve the original input size
 
->![[Pasted image 20220424193122.png]]
+![[Pasted image 20220424193122.png|450|450]]
 padding of 1 example
 
 # Valid and Same convolutions
 > - Valid convolutions have no padding applied 
 > - Same convolutions pad so that output size = input size
 
->![[Pasted image 20220424193624.png]]
+![[Pasted image 20220424193624.png|450|450]]
 
 - padding for same convolutions = 
 $$\frac{(f-1)} {2}$$

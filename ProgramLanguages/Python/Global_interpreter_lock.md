@@ -16,7 +16,7 @@ ___
 # Global interpreter lock
 - The global interpreter lock (GIL) is mechanism employed by **CPython** to ensure the consistency and integrity of shared data structures in [[Python_language|Python]] through synchronisation 
 
-> ![[Pasted image 20230212110620.png|450|450]]
+![[Pasted image 20230212110620.png|450|450]]
 
 - The GIL is a lock that ensures that only one thread can execute Python bytecode at a time, and it is held by the thread that is currently executing Python bytecode.
 - The GIL is necessary because CPython's memory management is not [[Concurrency#Concurrency pitfalls|thread-safe]], and the GIL is used to prevent race conditions and other synchronization issues.

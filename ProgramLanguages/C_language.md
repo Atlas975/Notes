@@ -66,7 +66,7 @@ scanf("%d", &num1);
 - Pointers are a long hex number regardless of data type, its assigned data type just defines what it points to.
 - Pointer example 2:
 
-![[Pasted image 20211115142951.png]]
+![[Pasted image 20211115142951.png|450|450]]
 
 > Address of var variable: bffd8b3c
 
@@ -79,19 +79,19 @@ Value of *ip variable: 20
 
 > %p is what can print pointer address
 # String functions
-> ![[Pasted image 20211126122507.png]]
+![[Pasted image 20211126122507.png|450|450]]
 # Passing strings
 > char *compare(char *prompt){
 
 return prompt;\
 }
 # String to int
-> ![[Pasted image 20211206122503.png]]
+![[Pasted image 20211206122503.png|450|450]]
 
 - requires <stdlib.h>st
 # String to double
 > atof function
-> ![[Pasted image 20211208110535.png|300|300]]
+![[Pasted image 20211208110535.png|300|300]]
 # Length of a string in C (excluding null byte)
 > strlen(“Hello”)
 
@@ -143,11 +143,11 @@ printf("%s,",arr[i]);\
 }
 OR
 
-> ![[Pasted image 20211205174952.png]]
+![[Pasted image 20211205174952.png|450|450]]
 
 - Passing a 2d char array into a function
 
-> ![[Pasted image 20211205190548.png]]
+![[Pasted image 20211205190548.png|450|450]]
 #### Single quotes represent individual character, double quotes represent strings including null byte
 - Arrays and pointers are also interchangeable eg:
 
@@ -169,22 +169,22 @@ printf("Value is : %d and %d", temp1,temp2)
 # File reading
 - Reading modes:
 
-> ![[Pasted image 20211203152955.png]]
+![[Pasted image 20211203152955.png|450|450]]
 
 - Process:
 
-> ![[Pasted image 20211205150851.png]]
-> ![[Pasted image 20211205152426.png]]
+![[Pasted image 20211205150851.png|450|450]]
+![[Pasted image 20211205152426.png|450|450]]
 
 - Example code:
 
-> ![[Pasted image 20211205162129.png]]
+![[Pasted image 20211205162129.png|450|450]]
 ## Useful functions
-> ![[Pasted image 20211205152530.png]]
+![[Pasted image 20211205152530.png|450|450]]
 
 - Note, include string.h
 # MALLOC
-> ![[Pasted image 20211206091551.png]]
+![[Pasted image 20211206091551.png|450|450]]
 
 - Note that the sizeof function will return the number of bytes of a students, with the MALLOC function actually allocating the required space.
 - Returns null if failed
@@ -193,11 +193,11 @@ printf("Value is : %d and %d", temp1,temp2)
 
 > free()
 # Switch case operator
-> ![[Pasted image 20211207214353.png]]
+![[Pasted image 20211207214353.png|450|450]]
 
 - Note that switch is only intended to compare integers and/or single chars
 # Casting
-- ![[Pasted image 20211216151930.png]]
+- ![[Pasted image 20211216151930.png|450|450]]
 - The cast tells the compiler to pretend the value is a character pointer
 # getch()
 - Pauses ouput console until key press
@@ -211,16 +211,16 @@ printf("Value is : %d and %d", temp1,temp2)
 ## Vector implementation with structs
 - Creating new vector block
 
-> ![[Pasted image 20211206073714.png]]
+![[Pasted image 20211206073714.png|450|450]]
 
 - Full vector creation
 
-> ![[Pasted image 20211206073920.png]]
+![[Pasted image 20211206073920.png|450|450]]
 ## Unions
 - Union example:
 
-> ![[Pasted image 20220315113934.png]]
-> ![[Pasted image 20220315114002.png]]
+![[Pasted image 20220315113934.png|450|450]]
+![[Pasted image 20220315114002.png|450|450]]
 # Records
 - A method of holding multiple properties, good for representing an entity eg the characteristics of a student. This is needed as C does not have encapsulation.
 - It is not homogeneous like an an array, it is heterogeneous
@@ -228,31 +228,31 @@ printf("Value is : %d and %d", temp1,temp2)
 
 [[Relations]]
 
-> ![[Pasted image 20211203172314.png]]
+![[Pasted image 20211203172314.png|450|450]]
 ## Example of records in C
-> ![[Pasted image 20211202122712.png]]
+![[Pasted image 20211202122712.png|450|450]]
 
 Malloc can be used to allocate space for a new record
 ## Creating new record instance
-> ![[Pasted image 20211203235040.png]]
+![[Pasted image 20211203235040.png|450|450]]
 ## Allocating variables in record
-> ![[Pasted image 20211203235114.png]]
+![[Pasted image 20211203235114.png|450|450]]
 
 - The record. format is also how a variable is accessed
 ## Array of records
 - Records is a user defined type, as such an array of pointers to student records can be made:
 
-> ![[Pasted image 20211203235434.png]]
+![[Pasted image 20211203235434.png|450|450]]
 ## Adapting to lack on encapsulation
 - Since attributes aren't hidden, a case statement can be used to address this:
 
-> ![[Pasted image 20211203235641.png]]
+![[Pasted image 20211203235641.png|450|450]]
 ## Typedef
 - Method of naming structs removes the need to call the name struct node by naming it something like Node
 # C Preprocessor
-> ![[Pasted image 20220308111017.png]]
+![[Pasted image 20220308111017.png|450|450]]
 ## Initial processing
-> ![[Pasted image 20220308111501.png]]
+![[Pasted image 20220308111501.png|450|450]]
 # Tokenization
 - Input C file converted into sequence of pre-processing tokens
 - These fall into classes:
@@ -278,27 +278,27 @@ errors or warnings.
 # Header files
 - The preprocessor scnas the include before continuing with the file
 
-> ![[Pasted image 20220308114116.png]]
+![[Pasted image 20220308114116.png|450|450]]
 # Macros
 ## Function like macros
-> ![[Pasted image 20220308114157.png]]
+![[Pasted image 20220308114157.png|450|450]]
 ## Undifined macros
-> ![[Pasted image 20220308114441.png]]
+![[Pasted image 20220308114441.png|450|450]]
 # Function pointers
 [[C_language]]
 
-> ![[Pasted image 20220315141910.png]]
+![[Pasted image 20220315141910.png|450|450]]
 
 - Assigning function pointers
 
-> ![[Pasted image 20220315142345.png]]
+![[Pasted image 20220315142345.png|450|450]]
 
 - Invoking function pointers
 
-> ![[Pasted image 20220315142411.png]]
+![[Pasted image 20220315142411.png|450|450]]
 
 - Usage
 
-> ![[Pasted image 20220315142814.png]]
+![[Pasted image 20220315142814.png|450|450]]
 
 # Makefiles 

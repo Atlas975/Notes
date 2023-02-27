@@ -34,8 +34,8 @@ ___
 - Useful for testing individual connections to a host and to optimise network configurations 
 - Bi-directional transfer is also required to check for irregularities in a direction
 
-> ![[Pasted image 20230220113021.png|650|650]]
-> ![[Pasted image 20230220113055.png|650|650]]
+![[Pasted image 20230220113021.png|650|650]]
+![[Pasted image 20230220113055.png|650|650]]
 
 - iperf works in the following way:
 	1. On the iperf server,  the command `iperf -s` is used to start iperf in server mode. This will cause iperf to listen for incoming connections from the client.
@@ -48,11 +48,11 @@ ___
 - A network diagnostic tool used to trace the path that an [[Internet_protocols|IP]] packet takes from two networked device. Provides information about the routing path and network latency.
 - This works by measuring RTT, sending three packets to a router that lies on path to destination and measures lag between transmission and reply
 
->![[Pasted image 20230210180038.png|450|450]]
+![[Pasted image 20230210180038.png|450|450]]
 
 - Useful for identifying specific routing bottlenecks along a path from source to destination 
 
-> ![[Pasted image 20230220120621.png|650|650]]
+![[Pasted image 20230220120621.png|650|650]]
 
 - traceroute works in the following way:
 	 1. A user sends a series of packets using the `traceroute` command

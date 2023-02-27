@@ -18,14 +18,14 @@ ___
 
 - All Replacement rules
 
-> ![[Pasted image 20211108193931.png]]
+![[Pasted image 20211108193931.png|450|450]]
 -   Statements that can be either true or false but never both.
 
-> ![[Pasted image 20211101133540.png|500]]
+![[Pasted image 20211101133540.png|500]]
 
 -   Notation
 
-> ![[Pasted image 20211101133802.png|500|500]]
+![[Pasted image 20211101133802.png|500|500]]
 
 -   Propositions are usually represented by an upper case letter.
 
@@ -36,11 +36,11 @@ ___
 
 # Fundamental connectives
 
-> ![[Pasted image 20211104103047.png|350|350]]
+![[Pasted image 20211104103047.png|350|350]]
 
 ## Order of operations
 
-> ![[Pasted image 20211104113813.png|450]]
+![[Pasted image 20211104113813.png|450]]
 ## Conditional (->)
 
 -   A compound proposition, **IF A THEN B**, example:
@@ -49,7 +49,7 @@ ___
 
 -   This also gives a third proposition called the implication. It is false if the antecedent is true and the consequent is false.
 
-> ![[Pasted image 20211104103742.png|200|200]] True, False results in false as it is an incorrect/false proposition. In cases where there's no smoke but there is a fire, it can simply be said that the smoke was not seen. But in the case where there is smoke but no fire, this means the propositions claim is false
+![[Pasted image 20211104103742.png|200|200]] True, False results in false as it is an incorrect/false proposition. In cases where there's no smoke but there is a fire, it can simply be said that the smoke was not seen. But in the case where there is smoke but no fire, this means the propositions claim is false
 
 ## Biconditional (<->)
 
@@ -60,29 +60,29 @@ ___
 
 -   Biconditional's are only true if P and Q have the same truth value.
 
-> ![[Pasted image 20211104113450.png|200|200]]
+![[Pasted image 20211104113450.png|200|200]]
 
 # Proposition categories
 ## Tautologies
 - Always true regardless of truth values of atomic propositions
 - For instance **A OR (NOT A)**
->![[Pasted image 20211108190812.png|250|250]]
+![[Pasted image 20211108190812.png|250|250]]
 
 ## Contradictions
 - Always false regardless of truth value of atomic propositions.
 - For instance **A AND (NOT A)**
->![[Pasted image 20211108191013.png|250|250]]
+![[Pasted image 20211108191013.png|250|250]]
 
 ## Contingencies
 - Neither of the two, result depends on atomic propositions truth value.
 - Must have both true and false in truth table:
->![[Pasted image 20211108191251.png|50|50]]
+![[Pasted image 20211108191251.png|50|50]]
 
 ## Equivalent
 - If 2 propositions have same truth value in all circumstances.
 - This allows one proposition to be replaced by the other also denoted by **P ≡ Q**
 - Also known as logically equivalent. 
-> ![[Pasted image 20211108191602.png|250|250]] 
+![[Pasted image 20211108191602.png|250|250]] 
 
 [[De_Morgans_law#De Morgan's quantifier law]]
 
@@ -93,7 +93,7 @@ ___
 - **P AND tautology = P**
 - **P OR contradiction = P**
 
->![[Pasted image 20211108192614.png|450]] 
+![[Pasted image 20211108192614.png|450]] 
 ## Idempotence
 - P OR P = P
 - **P AND P = P**
@@ -111,8 +111,8 @@ ___
 ## Implication
 - An implication is the same as an negation and disjunction
 - **P -> Q = (NOT P) OR Q**
-> ![[Pasted image 20211108193443.png|500|500]]
+![[Pasted image 20211108193443.png|500|500]]
 
 ## Contraposition
 - **P -> Q = (NOT Q) -> (NOT P)**
-> ![[Pasted image 20211108193642.png|500|500]]
+![[Pasted image 20211108193642.png|500|500]]

@@ -18,7 +18,7 @@ ___
 
 
 ## Client server architecture 
-> ![[Pasted image 20230216145332.png|500|500]]
+![[Pasted image 20230216145332.png|500|500]]
 
 ## P2P architecture 
-> ![[Pasted image 20230216145421.png|500|500]]
+![[Pasted image 20230216145421.png|500|500]]

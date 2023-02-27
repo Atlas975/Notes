@@ -31,8 +31,8 @@ ___
 ## De Morgan's quantifier law
 - Law can be applied in predicate logic to find complement expression
 
->![[Pasted image 20220425201453.png|450|450]]
+![[Pasted image 20220425201453.png|450|450]]
 
 - Logic gate equivalent:
 
-> ![[Pasted image 20211108191956.png|450|450]]
+![[Pasted image 20211108191956.png|450|450]]

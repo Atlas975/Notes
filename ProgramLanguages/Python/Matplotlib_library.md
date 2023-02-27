@@ -1,3 +1,3 @@
 # Matplotlib
 ## Matplotib plot anatomy
->![[Pasted image 20220605155832.png]]
+![[Pasted image 20220605155832.png|450|450]]

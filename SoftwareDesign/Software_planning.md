@@ -15,13 +15,13 @@
 ___
 # Software planning
 ## Software engineering stack
-> ![[Pasted image 20221010164140.png|450|450]]
+![[Pasted image 20221010164140.png|450|450]]
 # Software requirements
 - Describes what a systems should do as well as any constraints it may have in completing the required objective
 - Requirement engineering is essential as these kind of errors are more numerous, costly and persistent than software errors
 - It only describes what software should do without going into logistics AKA "the how". Implementation details should never be included initially, this allows for some level of creativity in how a project is completed
 
-> ![[Pasted image 20221010164519.png|550|550]]its best to consider these in a way that can be explained to anyone
+![[Pasted image 20221010164519.png|550|550]]its best to consider these in a way that can be explained to anyone
 
 - The level of abstraction in requirements depends on stakeholders
 - Language should be consistent use **SHALL** for essential requirements and **SHOULD** for desirable requirements
@@ -29,11 +29,11 @@ ___
 - Functional requirements describe what a system has to deliver
 - Non-functional requirements specify quality through **SHALL** statements
 
-> ![[Pasted image 20221010165416.png|550|550]]
+![[Pasted image 20221010165416.png|550|550]]
 
 - Non-functional metrics
 
-> ![[Pasted image 20221010165451.png|550|550]]
+![[Pasted image 20221010165451.png|550|550]]
 
 
 # Use cases 
@@ -41,7 +41,7 @@ ___
 - Used to derive test cases and the standard for UML 
 - These can be either a diagram or a textual analysis 
 
-> ![[Pasted image 20221024144013.png|550|550]]
+![[Pasted image 20221024144013.png|550|550]]
 
 ## Use case template 
 1. Pre-conditions: initial activities that must take place
@@ -50,7 +50,7 @@ ___
 - This format helps reveal edge cases for alternative control flow 
 - ATM example:
 
-> ![[Pasted image 20221024163027.png|550|550]]
+![[Pasted image 20221024163027.png|550|550]]
 
 ## Use case levels 
 - **Cloud level:** very high level summary. Typically a business goal. 

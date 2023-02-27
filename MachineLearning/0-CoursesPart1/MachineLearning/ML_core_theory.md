@@ -1,14 +1,14 @@
 # Machine learning theory
 ## Supervised learning 
->![[Pasted image 20220110114202.png]]
->![[Pasted image 20220223003439.png]]
+![[Pasted image 20220110114202.png|450|450]]
+![[Pasted image 20220223003439.png|450|450]]
 ## Unsupervised learning
->![[Pasted image 20220110115828.png]]
+![[Pasted image 20220110115828.png|450|450]]
 ## Semi-supervised learning
->![[Pasted image 20220217001957.png]]
+![[Pasted image 20220217001957.png|450|450]]
 
 ## Reinforcement learning
->![[Pasted image 20220217002032.png]]
+![[Pasted image 20220217002032.png|450|450]]
 
 # Data sources
 -   Popular open data repositories

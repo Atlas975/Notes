@@ -4,18 +4,18 @@ created: 2022-06-23 07:49
 
 ---
 ## Constant declaration
-> ![[Pasted image 20220524162757.png]]
+![[Pasted image 20220524162757.png|450|450]]
 ## Mutable declaration
-> ![[Pasted image 20220524162818.png]]
+![[Pasted image 20220524162818.png|450|450]]
 ## Variable unpacking
-> ![[Pasted image 20220524162837.png]]
+![[Pasted image 20220524162837.png|450|450]]
 
 ## Return
 - Statements that dont end with a semicolon are treated as return in rust
 ## Shadowing
 - Variables are considered to be shadowing when a variable in a certain scope mirrors that of one in the outer scope, also known as masking.
 
-> ![[Pasted image 20220527021641.png]]
+![[Pasted image 20220527021641.png|450|450]]
 
 ```rust
 fn main() {
@@ -46,12 +46,12 @@ outer variable: 112
 ```
 # Rust macros
 ## Print macro
-> ![[Pasted image 20220524160710.png]]
+![[Pasted image 20220524160710.png|450|450]]
 # Rust types
 ## Integer types
-> ![[Pasted image 20220524150808.png]]
+![[Pasted image 20220524150808.png|450|450]]
 ## Floating point types
-> ![[Pasted image 20220524150933.png]]
+![[Pasted image 20220524150933.png|450|450]]
 ## Boolean type
 - Can be defined as
 
@@ -77,7 +77,7 @@ let letter:char = 'e'
 let str_1:&str = "Rust Programming";
 ```
 # Rust arrays
-> ![[Pasted image 20220524154627.png]]
+![[Pasted image 20220524154627.png|450|450]]
 ## Array slicing
 ```rust
 fn main() {
@@ -110,7 +110,7 @@ break; //exit a loop
 continue; // skips to next iteration
 ```
 # Rust for loops
-> ![[Pasted image 20220527164537.png]]
+![[Pasted image 20220527164537.png|450|450]]
 
 - Example:
 
@@ -138,7 +138,7 @@ while !found {
 # Rust loop labels
 - Assigns an identifier to a loop to allow it to be modified individually
 
-> ![[Pasted image 20220527170021.png]]
+![[Pasted image 20220527170021.png|450|450]]
 
 - Example:
 
@@ -160,7 +160,7 @@ while !found {
 }
 ```
 # Rust functions pass by reference
-> ![[Pasted image 20220527204834.png]]
+![[Pasted image 20220527204834.png|450|450]]
 
 - Example of changing values through pass by reference
 
@@ -179,8 +179,8 @@ fn main() {  
 # Rust return statement
 - Return function layout
 
-> ![[Pasted image 20220527205746.png]]
-> ![[Pasted image 20220527205913.png]]
+![[Pasted image 20220527205746.png|450|450]]
+![[Pasted image 20220527205913.png|450|450]]
 
 - Unlike other languages, the return value in rust can be handled in two ways
 
@@ -192,7 +192,7 @@ value // alternative, not placing a semicolon returns the value
 # Rust return multiple values
 - Like python, rust can also return tuples which can be handled through unpacking
 
-> ![[Pasted image 20220527210543.png]]
+![[Pasted image 20220527210543.png|450|450]]
 
 - Example usage:
 
@@ -228,9 +228,9 @@ fn calculate_area_perimeter(x: i32, y: i32) -> (i32, i32) {
 }
 ```
 # Rust operators
-> ![[Pasted image 20220527021927.png]]
+![[Pasted image 20220527021927.png|450|450]]
 # Rust casting
-> ![[Pasted image 20220527022740.png]]
+![[Pasted image 20220527022740.png|450|450]]
 
 ```rust
 fn main() {
@@ -246,9 +246,9 @@ fn main() {
 }
 ```
 # Match statement (case statements)
-> ![[Pasted image 20220527144424.png]]
+![[Pasted image 20220527144424.png|450|450]]
 # Operation precedence
-> ![[Pasted image 20220527123353.png]]
+![[Pasted image 20220527123353.png|450|450]]
 # Rust borrowing
 - The equivalent of pointers in C
 - The two main kinds of borrowing include
@@ -256,8 +256,8 @@ fn main() {
 1. Shared borrowing, shared by single or multiple variables, but **no altering**
 2. Mutable borrowing, shared by single variable but data cannot be accessed by other variables
 
-> ![[Pasted image 20220527074834.png]]
-> ![[Pasted image 20220527074911.png]]
+![[Pasted image 20220527074834.png|450|450]]
+![[Pasted image 20220527074911.png|450|450]]
 
 - Example code of both borrowing methods
 
@@ -292,9 +292,9 @@ fn main() {
 ## Dereferencing mutable borrow
 - Dereferencing can be performed by using the star operator much like C
 
-> ![[Pasted image 20220527081553.png]]
-> ![[Pasted image 20220527082056.png]]
-> ![[Pasted image 20220527082116.png]]
+![[Pasted image 20220527081553.png|450|450]]
+![[Pasted image 20220527082056.png|450|450]]
+![[Pasted image 20220527082116.png|450|450]]
 
 ```rust
 fn main() {
@@ -330,18 +330,18 @@ Value of x:11
 - Dynamic data such as vectors and strings fall under this category
 - For a string, three details are stored, a memory pointer, length and capacity
 
-> ![[Pasted image 20220529150648.png]]
+![[Pasted image 20220529150648.png|450|450]]
 # Rust ownership
 - Ownership only exists in scope and each variable has a binding known as its owner, only one owner of a variable can exist at a time
 ## Copy type
 - Primitive types are handled as copy types, meaning ownership does not change instead a copy is created which both variables hold separately
 
-> ![[Pasted image 20220529151633.png]]
+![[Pasted image 20220529151633.png|450|450]]
 ## Moved type
 - Vectors and strings are of moved type, when assigned to another variable, ownership changes and the previous variable becomes invalid
 - Note this also applies when data is passed to a function
 
-> ![[Pasted image 20220529152530.png]]
+![[Pasted image 20220529152530.png|450|450]]
 
 - To create a copy instead of transferring ownership, the copy() function can be used
 ## Rules of rust borrowing
@@ -351,7 +351,7 @@ Value of x:11
 - Lifetimes describe the scope that a reference is valid for, referencing a resource after its deallocation (also known as a dangling pointer) results in an error preventing compilation
 - Lifetime annotations exist to help prevent this by explicitly marking the lifetimes of a variable
 
-> ![[Pasted image 20220529194658.png]]
+![[Pasted image 20220529194658.png|450|450]]
 
 - Example usage, establishes a relationship between x, y and the return value. This being that the lifetime of the returned reference will be the same as the smallest lifetime of its arguments
 
@@ -381,7 +381,7 @@ fn fun_name<'a , 'b>(x: & 'a i32 , y: & 'b i32) 
 ## Lifetime elison
 - Describes the rules that code needs to follow in order to ommit the lifetime marker , some of these incldue
 
-> ![[Pasted image 20220530154301.png]]
+![[Pasted image 20220530154301.png|450|450]]
 # Rust strings
 - Strings in rust are not null terminated like other languages and can contain null characters as part of the string itself.
 ## String literals
@@ -391,21 +391,21 @@ fn fun_name<'a , 'b>(x: & 'a i32 , y: & 'b i32) 
   - Fixed-length string stored somewhere in memory
   - Value of string is known at compile time
 
-> ![[Pasted image 20220528133531.png]]
+![[Pasted image 20220528133531.png|450|450]]
 ## String objects
 - Creating an actual mutable string object can be done in multiple ways
 
 1. Converting a string literal into an object
 
-> ![[Pasted image 20220528135446.png]]
+![[Pasted image 20220528135446.png|450|450]]
 
 2. Instantiate a string object
 
-> ![[Pasted image 20220528135425.png]]
+![[Pasted image 20220528135425.png|450|450]]
 
 3. Create string object from empty string
 
-> ![[Pasted image 20220528135041.png]]
+![[Pasted image 20220528135041.png|450|450]]
 # Rust string method
 ```rust
 myWord.trim();  // remove whitespace 
@@ -559,8 +559,8 @@ println!("Array: {:?}", arr);
 - Tuples are heterogeneous but of fixed length like arrays
 - These can also be declared with or without a type
 
-> ![[Pasted image 20220524163110.png]]
-> ![[Pasted image 20220524163124.png]]
+![[Pasted image 20220524163110.png|450|450]]
+![[Pasted image 20220524163124.png|450|450]]
 ## Pattern matching
 - Can be used to retrieve individual elements from a tuples
 
@@ -587,30 +587,30 @@ println!("The value of the tuple at index 0 and index 1 are {} {}", person_data.
 # Rust structs
 - Similar to tuples, allow for elements of different types be grouped up together, structs are created using the following blueprint
 
-> ![[Pasted image 20220528193059.png]]
+![[Pasted image 20220528193059.png|450|450]]
 
 note pascal case for struct name
 
 - To initialize a new struct based variable:
 
-> ![[Pasted image 20220528193257.png]]
+![[Pasted image 20220528193257.png|450|450]]
 
 - Accessing individual elements in a struct
 
-> ![[Pasted image 20220528193609.png]]
+![[Pasted image 20220528193609.png|450|450]]
 # Structs with functions
-> ![[Pasted image 20220528193937.png]]
+![[Pasted image 20220528193937.png|450|450]]
 ## Return a struct
-> ![[Pasted image 20220528194055.png]]
+![[Pasted image 20220528194055.png|450|450]]
 # Rust vectors
 - Equivalent to dynamic arrays
 
-> ![[Pasted image 20220528160011.png]]
+![[Pasted image 20220528160011.png|450|450]]
 
 - Syntax:
 
-> ![[Pasted image 20220528160232.png]]
-> ![[Pasted image 20220528160220.png]]
+![[Pasted image 20220528160232.png|450|450]]
+![[Pasted image 20220528160220.png|450|450]]
 
 - Out of bounds can be directly handled through methods through match statements
 
@@ -659,7 +659,7 @@ Updated Vector: [1, 3, 4, 5]
 1
 ```
 # Rust vector methods
-> ![[Pasted image 20220528160639.png]]
+![[Pasted image 20220528160639.png|450|450]]
 # Iterating over vectors
 ```rust
 // define a vector of size 5
@@ -707,7 +707,7 @@ Initial Vector : [1, 2, 3, 4, 5]
 Updated Vector : [3, 6, 9, 12, 15]
 ```
 # Borrowing vector slices
-> ![[Pasted image 20220528184339.png]]
+![[Pasted image 20220528184339.png|450|450]]
 
 
 ```rust
@@ -728,11 +728,11 @@ Slice of the vector : [3, 4]
 # Tuple structs
 - Hybrids between tuples and structs
 
-> ![[Pasted image 20220528201802.png]]
+![[Pasted image 20220528201802.png|450|450]]
 
 - Tuple structs core blueprint:
 
-> ![[Pasted image 20220528201927.png]]
+![[Pasted image 20220528201927.png|450|450]]
 
 - Example code:
 
@@ -770,11 +770,11 @@ r1--name:oranges quantity:12 r2--name:mangoes quantity:13
 - Methods encapsulate functions specifically made for a given struct
 - Created using the following blueprint:
 
-> ![[Pasted image 20220528194541.png]]
+![[Pasted image 20220528194541.png|450|450]]
 
 - Invoking a method
 
-> ![[Pasted image 20220528194854.png]]
+![[Pasted image 20220528194854.png|450|450]]
 
 - Example method use:
 
@@ -831,13 +831,13 @@ This is a beginner course: Rust 132
 - Static methods in rust can be invoked without instantiating a struct
 - Template:
 
-> ![[Pasted image 20220528195514.png]]
+![[Pasted image 20220528195514.png|450|450]]
 
 a non-static method must still be decalared
 
 - Invoking a static method:
 
-> ![[Pasted image 20220528201425.png]]
+![[Pasted image 20220528201425.png|450|450]]
 
 - Static method examples:
 
@@ -892,7 +892,7 @@ fn main(){
 - A collection of items that can contain structs, functions, enums, vectors, arrays etc
 - Syntax:
 
-> ![[Pasted image 20220531095625.png]]
+![[Pasted image 20220531095625.png|450|450]]
 
 - Module keywords
   1. mod - declares a new Module
@@ -993,11 +993,11 @@ mod outer_module {
 
 - Using mod for implicit declaration
 
-> ![[Pasted image 20220531102705.png]]
+![[Pasted image 20220531102705.png|450|450]]
 
 - The general format for accessing nested modules is:
 
-> ![[Pasted image 20220531121030.png]]
+![[Pasted image 20220531121030.png|450|450]]
 
 - This concept can also be used to shorten enum input
 
@@ -1031,16 +1031,16 @@ fn main() {
 # Rust traits
 - Used to define a standard set of behaviors that exist in multiple structs
 
-> ![[Pasted image 20220530174306.png]]
+![[Pasted image 20220530174306.png|450|450]]
 ## Types of traits
 - Concrete method: a method with only a body meaning its implementation is done within the method
 - Abstract method: a method with no body meaning the method is done by its structs in the impl construct
 
-> ![[Pasted image 20220530174658.png]]
+![[Pasted image 20220530174658.png|450|450]]
 
 - Traits can be implemented for any structure
 
-> ![[Pasted image 20220530174758.png]]
+![[Pasted image 20220530174758.png|450|450]]
 
 - Example trait use
 
@@ -1117,7 +1117,7 @@ impl Area for Rectangle {
 # Trait generics
 - Generics allow for a data type to be inferred at run time by the compiler, this
 
-> ![[Pasted image 20220530175715.png]]
+![[Pasted image 20220530175715.png|450|450]]
 
 - Example generic function
 
@@ -1157,11 +1157,11 @@ Rust Programming
 - A custom data type composed of multiple variants (classes that are definite), can be thought of as a traffic light that can have only one possible output
 - Syntax:
 
-> ![[Pasted image 20220529135450.png]]
+![[Pasted image 20220529135450.png|450|450]]
 
 - Initializing an enum:
 
-> ![[Pasted image 20220529135558.png]]
+![[Pasted image 20220529135558.png|450|450]]
 
 - Example code:
 
@@ -1229,7 +1229,7 @@ fn main() {
 Move 1: Horizontal("Left") Movw 2: Vertical("Down")
 ```
 # Enum specific methods
-> ![[Pasted image 20220529140415.png]]
+![[Pasted image 20220529140415.png|450|450]]
 
 - Example enum method:
 
@@ -1283,7 +1283,7 @@ fn main(){
 ## Enum control flow
 - Match statements can be used in enum methods to provide control flow
 
-> ![[Pasted image 20220529140839.png]]
+![[Pasted image 20220529140839.png|450|450]]
 
 ```rust
 enum KnightMove{
@@ -1400,7 +1400,7 @@ Player { color: "black", knight: Horizontal } Player { color: "white", knight: V
 - A built in enum type, consists of variants some and none, these are useful when a return value is none , a variable value is optional or an out of bounds exception needs to be displayed.
 - Some(T) returns a value T, None returns no value
 
-> ![[Pasted image 20220529142438.png]]
+![[Pasted image 20220529142438.png|450|450]]
 
 - Example return value is none
 
@@ -1552,8 +1552,8 @@ fn print(my_val: Option<&str>){
 # Enum result
 - Instead of some or none , enum results return success or error statements
 
-> ![[Pasted image 20220530165056.png]]
-> ![[Pasted image 20220530165157.png]]
+![[Pasted image 20220530165056.png|450|450]]
+![[Pasted image 20220530165157.png|450|450]]
 
 - Standard example:
 
@@ -1630,7 +1630,7 @@ fn divisible_by_3(i:i32)->Result<String,String> {
 # Rust constants
 - Constants in rust are immutable, require a data type and can be used in global scope rather than just local, like C all letters in a const are conventionally uppercase
 
-> ![[Pasted image 20220527015904.png]]
+![[Pasted image 20220527015904.png|450|450]]
 
 ```rust
 const ID_1: i32 = 4; // define a global constant variable
@@ -1659,7 +1659,7 @@ debug_assert!();
 ```
 # Rust additional
 ## Shorthand if
-> ![[Pasted image 20220527143636.png]]
+![[Pasted image 20220527143636.png|450|450]]
 
 - Example
 
@@ -1669,7 +1669,7 @@ let y: bool = if x == "Rust" { true } else { false };
 
 fundamentals
 ## if let
-> ![[Pasted image 20220527144004.png]]
+![[Pasted image 20220527144004.png|450|450]]
 
 - Example
 

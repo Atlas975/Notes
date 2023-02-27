@@ -4,7 +4,7 @@
 ## Target Leakage 
 - When data is included that isn't available when actually making predictions, therefore its important to consider how data is used chronologically and not only if a feature is useful for predictions
 - An example of this is medical data that changes frequently, this can me managed by excluding values after a certain period  
->![[Pasted image 20220406151130.png]]
+![[Pasted image 20220406151130.png|450|450]]
 
 ## Train-test contamination
 - Occurs when one isn't careful in separating the training and validation data. 

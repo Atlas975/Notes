@@ -203,7 +203,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataStructures/CacheStructures/LRU.md",
+                "file": "Databases/Database_relations.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -337,7 +337,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataStructures/CacheStructures/LRU.md",
+                "file": "Databases/Database_relations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -377,7 +377,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/CacheStructures/LRU.md"
+                "file": "Databases/Database_relations.md"
               }
             }
           }
@@ -401,7 +401,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/CacheStructures/LRU.md"
+                "file": "Databases/Database_relations.md"
               }
             }
           },
@@ -427,7 +427,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataStructures/CacheStructures/LRU.md",
+                "file": "Databases/Database_relations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -479,37 +479,38 @@
   },
   "active": "b8b0d78ebdf58892",
   "lastOpenFiles": [
-    "OperatingSystems/DigitalSystems/DigitalSystem_design.md",
-    "OperatingSystems/DigitalSystems/Data_encoding.md",
-    "OperatingSystems/DigitalSystems/Bitwise_arithmatic.md",
-    "OperatingSystems/DigitalSystems/ASCII.md",
-    "OperatingSystems/Caching.md",
-    "OperatingSystems/Linux_permissions.md",
-    "OperatingSystems/Multi-Process_systems.md",
-    "OperatingSystems/Page_replacement.md",
-    "OperatingSystems/Virtualisation.md",
-    "OperatingSystems/Processors.md",
-    "OperatingSystems/Input&Output_systems.md",
-    "OperatingSystems/Error_codes.md",
-    "OperatingSystems/Computer_memory.md",
-    "OperatingSystems/DigitalSystems/Computer_architecture.md",
-    "DataStructures/Trees.md",
-    "DataStructures/Sets.md",
-    "DataStructures/sedMJAJlj",
-    "DataStructures/RadixTrees.md",
-    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
-    "DataStructures/Heaps.md",
-    "DataStructures/CacheStructures/LRU.md",
+    "Databases/Database_normalisation.md",
+    "Databases/Database_keys.md",
+    "Databases/Database_design.md",
+    "Databases/Database_constraints.md",
     "00-Main/2-Litnote.md",
-    "00-Main/1-Litnote.md",
+    "DataStructures/Abstract_data_types.md",
     "DataStructures/DataStorage&Retrieval.md",
     "DataStructures/Graphs.md",
+    "DataStructures/Hashing.md",
+    "DataStructures/Heaps.md",
+    "DataStructures/RadixTrees.md",
+    "DataStructures/Trees.md",
+    "DiscreteMath/Relations.md",
+    "DiscreteMath/Propositional_logic.md",
+    "DiscreteMath/Predicate_logic.md",
+    "DiscreteMath/Inference_rules.md",
+    "Economics/SocialSystems.md",
+    "Economics/Macroeconomics.md",
+    "Economics/Consumer_theory.md",
+    "Networking/Transmission_mediums.md",
+    "Networking/Routing_methods.md",
+    "Networking/Network_topology.md",
+    "Networking/Internet_protocols.md",
+    "SoftwareEngineering/Programming_paradigms.md",
+    "SoftwareEngineering/OOP_principles.md",
+    "SoftwareEngineering/Multiagent_systems.md",
+    "ProgramLanguages/Python/sed7keQGo",
+    "DataStructures/sedMJAJlj",
     "DataStructures/sed33kt9o",
     "DataStructures/sedit9HHx",
     "DataStructures/sedcT4bEx",
     "DataStructures/sedmzHhFC",
-    "DataStructures/DataStructures.md",
-    "DataStructures/Abstract_data_types.md",
     "SoftwareEngineering/sedAM4RPw",
     "Networking/sedT9BOf8",
     "XX-Attachments/Images/Pasted image 20230225235345.png",

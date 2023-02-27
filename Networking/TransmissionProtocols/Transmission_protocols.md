@@ -17,4 +17,4 @@ aliases: transmission protocol
 
 ___
 # Transmission protocols
-> ![[Pasted image 20230219143920.png|500|500]]
+![[Pasted image 20230219143920.png|500|500]]

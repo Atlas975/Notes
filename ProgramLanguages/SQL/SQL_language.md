@@ -27,12 +27,12 @@ ___
 - An optimised strategy will now follow this order but syntactically this is the order SQL performs it's operation  
 ## Order of operations
 
->![[Pasted image 20211112105450.png|450|450]]
->![[Pasted image 20220605145618.png|450|450]]
+![[Pasted image 20211112105450.png|450|450]]
+![[Pasted image 20220605145618.png|450|450]]
 
 ## Aggregate functions
 
->![[Pasted image 20211112110620.png|450|450]]
+![[Pasted image 20211112110620.png|450|450]]
 
 ## GROUP BY
 - Allows the separation of aggregate functions
@@ -43,11 +43,11 @@ SELECT region, AVG(students) FROM unis GROUP BY region;
 ## HAVING
 - Unlike where, the having clause can filter by aggregate functions
 
->![[Pasted image 20220211214421.png]]
+![[Pasted image 20220211214421.png|450|450]]
 
 # SQL common data types
 
->![[Pasted image 20211112224739.png]]
+![[Pasted image 20211112224739.png|450|450]]
 
 # Table
 ## Creation
@@ -62,7 +62,7 @@ PRIMARY KEY(id)
 # Keys
 ##### Example 3 linked tables schema
 
->![[Pasted image 20220605203338.png]]
+![[Pasted image 20220605203338.png|450|450]]
 
 ```sql
 #note foreign key syntax can vary, current is for mySQL
@@ -122,7 +122,7 @@ VALUES
 
 ## Foreign keys
 
->![[Pasted image 20211112225055.png|500|500]]
+![[Pasted image 20211112225055.png|500|500]]
 >ALTER TABLE orders ADD FOREIGN KEY (salesPersonID) REFERENCES employees(employeeID) ;
 
 ## Insertion
@@ -172,29 +172,29 @@ WHERE Price BETWEEN 10 AND 20;
 # SQL Joins
 [[Sets]]
 
->![[Pasted image 20220120173210.png]]
+![[Pasted image 20220120173210.png|450|450]]
 
 - Joining two tables without a filter will return the [[Sets#Cartesian product]] of the two tables. An example of filtering without joins:
 
->![[Pasted image 20211127172815.png]]
+![[Pasted image 20211127172815.png|450|450]]
 
 - Natural join example:
 
->![[Pasted image 20211127181622.png]]
+![[Pasted image 20211127181622.png|450|450]]
 
 - Three table example:
 
->![[Pasted image 20211127181926.png]]
->![[Pasted image 20211127182002.png]]
+![[Pasted image 20211127181926.png|450|450]]
+![[Pasted image 20211127182002.png|450|450]]
 
 - Left/right join examples:
 
->![[Pasted image 20211127183335.png]]
->![[Pasted image 20211127183434.png]]
+![[Pasted image 20211127183335.png|450|450]]
+![[Pasted image 20211127183434.png|450|450]]
 
 - Outer join example: **NOT MYSQL supported**
 
->![[Pasted image 20211127183719.png]]
+![[Pasted image 20211127183719.png|450|450]]
 
 ## Union (full merge)
 
@@ -207,7 +207,7 @@ SELECT city FROM customers;
 2. Same data type
 3. Same order
 # Wildcard / Like operator
-![[Pasted image 20211119124008.png]]
+![[Pasted image 20211119124008.png|450|450]]
 - Special case: stars with L,any character,n,any character,on
 
 >SELECT * FROM Customers  
@@ -216,7 +216,7 @@ WHERE City LIKE 'L_n_on';
 # SUBSTR
 - Example: check if first two letters are equal to a substring
 
->![[Pasted image 20220123212152.png]]
+![[Pasted image 20220123212152.png|450|450]]
 
 # Is NULL
 - Selects all rows that have a specific column equal to NULL.
@@ -226,7 +226,7 @@ WHERE City LIKE 'L_n_on';
 # EXTRACT operator
 - Allows for a specific format of a date to be extracted from the **date** data type
 
->![[Pasted image 20220216095901.png]]
+![[Pasted image 20220216095901.png|450|450]]
 
 - Example:
 ```sql
@@ -255,58 +255,58 @@ SELECT EXTRACT(WEEK FROM "2017-06-15");
 - Typically used in where clause to further filter data
 - Example:
 
->![[Pasted image 20211204194348.png]]
+![[Pasted image 20211204194348.png|450|450]]
 
 - Aggregate functions can be used to make sure only a single value is returned
 - Example:
 
->![[Pasted image 20211204194545.png]]
+![[Pasted image 20211204194545.png|450|450]]
 
 - Example of sub vs join
 
->![[Pasted image 20211204195219.png]]
+![[Pasted image 20211204195219.png|450|450]]
 
 ## Multi-layer subquery
 
->![[Pasted image 20211204201044.png]]
+![[Pasted image 20211204201044.png|450|450]]
 
 # In operator
 - Another method of ensuring only one value is returned, it returns TRUE if a value is in a list of values 
 
->![[Pasted image 20211204195008.png]]
+![[Pasted image 20211204195008.png|450|450]]
 
 ## Correlated subqueries
 - Performs boolean checks
 
->![[Pasted image 20211204200539.png]]
+![[Pasted image 20211204200539.png|450|450]]
 
 - Examples:
 
->![[Pasted image 20211204200357.png|500|500]]
->![[Pasted image 20211204200657.png|500|500]]
+![[Pasted image 20211204200357.png|500|500]]
+![[Pasted image 20211204200657.png|500|500]]
 
 - Complex query example:
 
->![[Pasted image 20211207091855.png]]
+![[Pasted image 20211207091855.png|450|450]]
 
 ## Not exist (outer join)
 
->![[Pasted image 20211204201211.png]]
+![[Pasted image 20211204201211.png|450|450]]
 
 # SQL case formatting
 
->![[Pasted image 20220117231743.png]]
->![[Pasted image 20220131185849.png]]
+![[Pasted image 20220117231743.png|450|450]]
+![[Pasted image 20220131185849.png|450|450]]
 
 # SQL CAST
 - SQL common cast options
 
->![[Pasted image 20220127230355.png]]
+![[Pasted image 20220127230355.png|450|450]]
 
 - Allows for a datatype to be changed, eg string to float
 
->![[Pasted image 20220123213408.png]]
->![[Pasted image 20220123213642.png]]
+![[Pasted image 20220123213408.png|450|450]]
+![[Pasted image 20220123213642.png|450|450]]
 
 # SQL CONCAT
 ```sql
@@ -325,21 +325,21 @@ GROUP BY p.patient
 - Alternative to IS NULL
 - Example, check product first than check product code if that's null
 
->![[Pasted image 20220123214059.png]]
+![[Pasted image 20220123214059.png|450|450]]
 
 # Temporary tables
 
->![[Pasted image 20220129124752.png]]
->![[Pasted image 20220129124244.png]]
+![[Pasted image 20220129124752.png|450|450]]
+![[Pasted image 20220129124244.png|450|450]]
 
 - Appending data to tables:
 
->![[Pasted image 20220129124515.png|300|300]]
+![[Pasted image 20220129124515.png|300|300]]
 
 # WITH keyword
 - A method of creating temporary tables in order to help debug code
 
->![[Pasted image 20220212162636.png]]
+![[Pasted image 20220212162636.png|450|450]]
 
 - Complex example
 ```q;
@@ -359,39 +359,39 @@ GROUP BY p.patient
 
 # RANK()
 
->![[Pasted image 20220222154508.png]]
+![[Pasted image 20220222154508.png|450|450]]
 
 # ROW_NUMBER()
 
->![[Pasted image 20220222154411.png]]
+![[Pasted image 20220222154411.png|450|450]]
 
 # DENSE_RANK()
 
->![[Pasted image 20220222154601.png]]
->![[Pasted image 20220222154632.png]]
+![[Pasted image 20220222154601.png|450|450]]
+![[Pasted image 20220222154632.png|450|450]]
 
 # NTITLE()
 
->![[Pasted image 20220222155256.png]]
+![[Pasted image 20220222155256.png|450|450]]
 
 # Analytic functions
 
->![[Pasted image 20220221165640.png]]
+![[Pasted image 20220221165640.png|450|450]]
 
 - Example:
 
->![[Pasted image 20220221170329.png]]
->![[Pasted image 20220221170348.png]]
+![[Pasted image 20220221170329.png|450|450]]
+![[Pasted image 20220221170348.png|450|450]]
 
 # PARTITION BY
 
->![[Pasted image 20220221165540.png]]
+![[Pasted image 20220221165540.png|450|450]]
 
 - Example:
 
->![[Pasted image 20220221170759.png]]
->![[Pasted image 20220221170953.png]]
->![[Pasted image 20220221171901.png]]
+![[Pasted image 20220221170759.png|450|450]]
+![[Pasted image 20220221170953.png|450|450]]
+![[Pasted image 20220221171901.png|450|450]]
 
 - Partition by with row numbers
 ```
@@ -418,13 +418,13 @@ FROM [dbo].[Orders];
 
 # TIMESTAMPDIFF()
 
->![[Pasted image 20220222204220.png]]
+![[Pasted image 20220222204220.png|450|450]]
 
 # Nested data
 
->![[Pasted image 20220222211651.png]]
+![[Pasted image 20220222211651.png|450|450]]
 
 # Repeated data
 
->![[Pasted image 20220222211934.png]]
->![[Pasted image 20220222212038.png]]
+![[Pasted image 20220222211934.png|450|450]]
+![[Pasted image 20220222212038.png|450|450]]

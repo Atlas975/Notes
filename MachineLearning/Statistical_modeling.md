@@ -25,13 +25,13 @@
 - Flexibility describes how complex the model can be eg a quadratic function is more flexible than a linear one. Useful for pure prediction eg stock prices
 - Iterpretability describes how easy the model is to understand, making it easier to interpret how an individual predictor effects a response. Useful for inference eg sales factors
 
-> ![[Pasted image 20220225155757.png]]
-> ![[Pasted image 20220225162903.png]]
+![[Pasted image 20220225155757.png|450|450]]
+![[Pasted image 20220225162903.png|450|450]]
 
 # Bias vs variance
 
-> ![[Pasted image 20220225163602.png]]
-> ![[Pasted image 20220306175135.png]]
+![[Pasted image 20220225163602.png|450|450]]
+![[Pasted image 20220306175135.png|450|450]]
 
 ## Parametric vs non-parametric approaches
 
@@ -42,7 +42,7 @@
 
 ## Tradeoff with flexibility
 
-> ![[Pasted image 20220225163911.png]]
+![[Pasted image 20220225163911.png|450|450]]
 
 # Automated clustering
 
@@ -52,7 +52,7 @@
 
 - When these can't easily be seen like with the below example, a method is needed to find these clusters automatically
 
-> ![[Pasted image 20220225161220.png]]
+![[Pasted image 20220225161220.png|450|450]]
 
 # Clustering performance
 
@@ -61,36 +61,36 @@
 - Performance measure is quite different since its qualitative analysis
 - A common way of quantifying accuracy of estimate is training error rate, the proportion of mistakes made by applying the model to the test set
 
-> ![[Pasted image 20220225164512.png]]
-> ![[Pasted image 20220225164629.png]]
+![[Pasted image 20220225164512.png|450|450]]
+![[Pasted image 20220225164629.png|450|450]]
 
 ## Bayes classifier [[Bayes_classifier]]
 
 - The test error rate is minimized using the Bayes classifier by assigning each observation to the most likely class.
 
-> ![[Pasted image 20220225164939.png]]
-> ![[Pasted image 20220225164956.png]]
+![[Pasted image 20220225164939.png|450|450]]
+![[Pasted image 20220225164956.png|450|450]]
 
 purple line corresponds to bayes decision boundary
 corresponds to predicting class one if Pr(Y = 1|X = x0 ) > 0.5, and class\
 two otherwise
 
-> ![[Pasted image 20220225165449.png]]
+![[Pasted image 20220225165449.png|450|450]]
 
 - Bayes error rate is given by:
 
-> ![[Pasted image 20220225165536.png]]
+![[Pasted image 20220225165536.png|450|450]]
 
 ## K nearest
 
 - In theory, Bayes classifier is ideal for qualitative responses. But for real data we dont know the probability of Y given X making the use of bayes classifier impossible.
 - The KNN formula is often used instead
 
-> ![[Pasted image 20220225170119.png]]
-> ![[Pasted image 20220225170437.png]]
+![[Pasted image 20220225170119.png|450|450]]
+![[Pasted image 20220225170437.png|450|450]]
 
 As K becomes larger, the boundary becomes more inflexible (linear)
 
 - Training and test error rate
 
-> ![[Pasted image 20220225170805.png]]
+![[Pasted image 20220225170805.png|450|450]]

@@ -3,10 +3,10 @@
 - This can be counterproductive if data from a previous network is limited. Having relevent data is still more important
 -  This is done by taking the last output layer and deleting the weight feeding into it. The last layers weights and biases are then reinitialized randomly and the network is then trained using the new dataset
 
-> ![[Pasted image 20220421224921.png]]
+![[Pasted image 20220421224921.png|450|450]]
 
 - If a small dataset is present retrain the last layer, else train the whole network, in this case the previous networks parameters are known as the pre-training parameters
 - This also doesn't necessarily have to be a network of the same size
 
->![[Pasted image 20220421225241.png]]
->![[Pasted image 20220421225623.png]]
+![[Pasted image 20220421225241.png|450|450]]
+![[Pasted image 20220421225623.png|450|450]]

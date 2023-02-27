@@ -15,10 +15,10 @@
 ___
 # SQL patterns
 
-> ![[Pasted image 20230217175520.png|350|350]]
-> ![[Pasted image 20230217175535.png|350|350]]
-> ![[Pasted image 20230217180342.png|350|350]]
-> ![[Pasted image 20230217180403.png|350|350]]
+![[Pasted image 20230217175520.png|350|350]]
+![[Pasted image 20230217175535.png|350|350]]
+![[Pasted image 20230217180342.png|350|350]]
+![[Pasted image 20230217180403.png|350|350]]
 
 ## SQL where filtering
 

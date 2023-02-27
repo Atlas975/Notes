@@ -8,23 +8,23 @@
 
 # Preferences 
 - The order of preference for consumers can vary: 
->![[Pasted image 20211101100422.png|500|500]]
+![[Pasted image 20211101100422.png|500|500]]
 
 ## Assumptions
->![[Pasted image 20211101100704.png|500|500]]
+![[Pasted image 20211101100704.png|500|500]]
 
 # Utility function
 - Assigns a index number of happiness allowing us to help rank consumption bundles with no clear advantage over another.
 - U function X consumption bundle (U(X))
 - This is a ranking system (more=better), not a quantifier of happiness in a consumption bundle (ordinal utility)
 # Indifference curves
->![[Pasted image 20211101101820.png]]
+![[Pasted image 20211101101820.png|450|450]]
 - For instance (1,12),(2,6) all have the same level of preference
 - The curve shows all the consumption bundles where the consumer is indifferent to consumption model combinations. (in this case where utility=12)
 - Indifference curves cannot cross as each curve must have a unique utility level 
 - Marginal rate of return can change as when a person gets more of one thing, the thing they have a few of is more valuable.
 ## Multiple indifference curves
-> ![[Pasted image 20211101102421.png|500|500]]
+![[Pasted image 20211101102421.png|500|500]]
 - Higher utility goes higher as the consumer strictly prefers it.
 - Indifference curves always downward slope
 
@@ -35,10 +35,10 @@
 ## Marginal rate of substitution
 - Trade-offs: keeping utility constant , looks into how much of one good a consumer will give up for more of another good.
 - Example:
->![[Pasted image 20211101104154.png]]
+![[Pasted image 20211101104154.png|450|450]]
 - Marginal rate of return can change as when a person gets more of one thing, the thing they have a few of is more valuable.
 - Given a question like this:
->![[Pasted image 20220125183021.png]]
+![[Pasted image 20220125183021.png|450|450]]
 - The answer can be found by taking the derivative of x1 and x2, and dividing them by each while plugging in the points. Answer is 2
 # Budget constraints 
 - Budget is defined by m
@@ -48,95 +48,95 @@
 ## Budget line
 - All bundles exceeding budget constraints 
 ## Visualization
->![[Pasted image 20211102122401.png]]
+![[Pasted image 20211102122401.png|450|450]]
 The price of coke in terms of pizza here is 9- 3 pizza
->![[Pasted image 20211102122641.png]]
+![[Pasted image 20211102122641.png|450|450]]
 - Slope gives marginal cost of one good in terms of another
 # Change income/prices
->![[Pasted image 20211102123325.png]]
+![[Pasted image 20211102123325.png|450|450]]
 
 
 # Asymmetric information
 - One side of transaction has more information than another
 - Types of information
->![[Pasted image 20220117103548.png]]
+![[Pasted image 20220117103548.png|450|450]]
 
 # Asymmetric information in imperfect competitive markets
 - Influenced by price discrimination
 - Symmetric + no price discrimination example
->![[Pasted image 20220117104220.png]]
->![[Pasted image 20220117104233.png]]
+![[Pasted image 20220117104220.png|450|450]]
+![[Pasted image 20220117104233.png|450|450]]
 - Symmetric + price discrimination example
->![[Pasted image 20220117104518.png]]
+![[Pasted image 20220117104518.png|450|450]]
 - Self-selection solution, this automatically reveals hidden characteristics about the consumer
->![[Pasted image 20220118120840.png]]
+![[Pasted image 20220118120840.png|450|450]]
 - Other examples
->![[Pasted image 20220118121247.png]]
+![[Pasted image 20220118121247.png|450|450]]
 # Asymmetric information in competitive markets
 - Symmetric information example
->![[Pasted image 20220118121838.png]]
+![[Pasted image 20220118121838.png|450|450]]
 - Asymmetric information example, high ability workers are harmed
->![[Pasted image 20220118121913.png]]
+![[Pasted image 20220118121913.png|450|450]]
 # Adverse selection
->![[Pasted image 20220118122334.png]]
+![[Pasted image 20220118122334.png|450|450]]
 - Example
->![[Pasted image 20220118122419.png]]
+![[Pasted image 20220118122419.png|450|450]]
 - The buyer assumes the car is in excellent condition
 - Example 2, calculating reservation price
->![[Pasted image 20220118122716.png]]
+![[Pasted image 20220118122716.png|450|450]]
 - This puts incentive for low quality goods
 # Moral hazard
 - People take fewer precautions when they know they're insured
->![[Pasted image 20220118123640.png]]
->![[Pasted image 20220118123832.png]]
->![[Pasted image 20220118123852.png]]
->![[Pasted image 20220118123907.png]]
+![[Pasted image 20220118123640.png|450|450]]
+![[Pasted image 20220118123832.png|450|450]]
+![[Pasted image 20220118123852.png|450|450]]
+![[Pasted image 20220118123907.png|450|450]]
 ## Co-insurance
 - Helps prevent moral hazard by placing some of the cost on the consumer eg 20%
->![[Pasted image 20220118124300.png]]
+![[Pasted image 20220118124300.png|450|450]]
 - Another method is excess, where insurance is only guaranteed when a certain level of loss occurs. 
 
 
 # Labour markets
->![[Pasted image 20211216154225.png]]
+![[Pasted image 20211216154225.png|450|450]]
 - Considerations:
 ## Labour supply: 
 - how workers decide on how much they work. This can be dotted on a graph
->![[Pasted image 20211216154725.png]]
+![[Pasted image 20211216154725.png|450|450]]
 *168 represents the amount of time working*
 - Slope determined by wage
 
 ## Substitution & income effect
 Example 1:
->![[Pasted image 20211216154953.png]]
+![[Pasted image 20211216154953.png|450|450]]
 - Substitution effect is positively correlated by wage change
 - Income effect is negatively correlated by wage change
 Example 2:
->![[Pasted image 20211216155159.png]]
+![[Pasted image 20211216155159.png|450|450]]
 - Substitution and income effect are positively correlated by wage change
 Summary:
 - A persons substitution and income effect can vary, increased income might make people want to work more or less depending on how much they need the pay.
 ## Labour demand
 - how much labour firms demand and how this tranfers across the industry
 - Example graph:
->![[Pasted image 20211216155446.png]]
+![[Pasted image 20211216155446.png|450|450]]
 - Overtime introduces a kink in the graph with higher pay
->![[Pasted image 20211216155600.png]]
+![[Pasted image 20211216155600.png|450|450]]
 - Income tax effect: eg people wont want part time jobs
->![[Pasted image 20211216155638.png]]
+![[Pasted image 20211216155638.png|450|450]]
 - The benefit of each worker actually varies and can be represented by:
->![[Pasted image 20211216155933.png]]
+![[Pasted image 20211216155933.png|450|450]]
 - The wage is still a horizontal line (Marginal cost of labour)
 - Decrease in wage:
->![[Pasted image 20211216160309.png]]
+![[Pasted image 20211216160309.png|450|450]]
 - Table representation:
->![[Pasted image 20211216205630.png]]
+![[Pasted image 20211216205630.png|450|450]]
 - In the following example it's ideal to stop at 5 workers
->![[Pasted image 20211216210120.png]]
+![[Pasted image 20211216210120.png|450|450]]
 - Monopoly labour market graph:
->![[Pasted image 20211216223205.png]]
+![[Pasted image 20211216223205.png|450|450]]
 - Monopsopy / Oligopoly graph:
->![[Pasted image 20211216223529.png]]
+![[Pasted image 20211216223529.png|450|450]]
 
 # Minimum wage
 - In standard models, minimum wages can generate excess labour supply (enemployment). However in a monopsony it can raise employment
@@ -145,61 +145,61 @@ Summary:
 - Human capital explanation: pay proportional to their human capital (combination of education,energy, experience etc)
 ## Trade unions
 - Two workers producing same output may earn differently due to one belonging to a union.
->![[Pasted image 20211216224956.png]]
+![[Pasted image 20211216224956.png|450|450]]
 - Pay difference can also be due to customer discrimination, employer discrimination or winner takes all situations
 
 # Measuring income inequality
 
 ## Gini coefficient 
->![[Pasted image 20211216225408.png]]
+![[Pasted image 20211216225408.png|450|450]]
 
 
 # Labor demand
 - Labor demand is influenced by supply and demand analysis, which in tun is influenced by worker productivity and the price of worker output
 - Diminishing returns to labor assumes that non-labor input is kept constant.
->![[Pasted image 20220228102141.png]]
->![[Pasted image 20220228103128.png]]
+![[Pasted image 20220228102141.png|450|450]]
+![[Pasted image 20220228103128.png|450|450]]
 productivity increases also shift the curve right
 
 # Value of marginal product (VMP)
 - Extra revenue from adding a worker, demand for labor can shift based on:
->![[Pasted image 20220228103010.png]]
+![[Pasted image 20220228103010.png|450|450]]
 
 # Labor supply
->![[Pasted image 20220228104240.png]]
+![[Pasted image 20220228104240.png|450|450]]
 ## Factors that shift labor supply
->![[Pasted image 20220228104415.png]]
+![[Pasted image 20220228104415.png|450|450]]
 ## Reservation wage
 - Lowest wage a worker will accept for a job, opportunity cost of working is leisure activity. Work compensates for this, cost-benefit principle
 
 ## Real wage / employment equilibrium
->![[Pasted image 20220301120928.png|400|400]]
+![[Pasted image 20220301120928.png|400|400]]
 
 ## Stagnated growth
->![[Pasted image 20220301121527.png]]
+![[Pasted image 20220301121527.png|450|450]]
 
 ## Worker mobility
->![[Pasted image 20220301122611.png]]
+![[Pasted image 20220301122611.png|450|450]]
 
 ## Skill-biased technological change
->![[Pasted image 20220301122813.png]]
->![[Pasted image 20220301123059.png]]
+![[Pasted image 20220301122813.png|450|450]]
+![[Pasted image 20220301123059.png|450|450]]
 
 # Effects of inequality
->![[Pasted image 20220301124123.png]]
+![[Pasted image 20220301124123.png|450|450]]
 
 
 # Optimal bundle
-> ![[Pasted image 20211102123833.png]]
+![[Pasted image 20211102123833.png|450|450]]
 - C is optimal as it falls within the budget and optimizes utility
 - Slope of indifference curve gives marginal rate of substitution (MRS)
 - Optimal consumption occurs when the amount of x1 is equal to the ratio of x1/x2
-> ![[Pasted image 20211108101233.png]]
+![[Pasted image 20211108101233.png|450|450]]
 #### The cost and benefit ratio need to be the same
 - For a normal good, an income increase results in more consumption
 - For an inferior good, an income increase results in less consumption.
 # Budget variation
->![[Pasted image 20211108102915.png|500|500]]
+![[Pasted image 20211108102915.png|500|500]]
 
 # Decomposing price change
->![[Pasted image 20211108103009.png|500|500]]
+![[Pasted image 20211108103009.png|500|500]]

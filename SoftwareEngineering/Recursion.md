@@ -82,7 +82,7 @@ int Sum(int n) {
 - The depth of a tree describes the depth of its deepest node
 - The branching factor describes the number of children at any particular node
 
-![[Pasted image 20220505003635.png]]
+![[Pasted image 20220505003635.png|450|450]]
 
 - Useful for visualizing what happens when a recursive call is repeated
 - Example recursive trees 
@@ -101,20 +101,20 @@ int Sum(int n) {
 >$$T(1)=c$$
 >$$ \text{where}\ a\geq{1},\ b\geq{2},\ c>{0} \ \text{and} \ f(n) \text{ is } \theta(n^{d})\text{ where }d\geq{0} \text{ then} $$
 >
-![[Pasted image 20220509141400.png]]
+![[Pasted image 20220509141400.png|450|450]]
 
 - The theorem can **only** be used if:
 
-![[Pasted image 20220505190609.png]]
+![[Pasted image 20220505190609.png|450|450]]
 
 - The time complexity can then be narrowed to  a single one of the following 
 
-![[Pasted image 20220505190445.png]]
+![[Pasted image 20220505190445.png|450|450]]
 
 - Example implementations
 
-![[Pasted image 20220505190808.png]]
+![[Pasted image 20220505190808.png|450|450]]
 this indicates complexity of n^2
 
-![[Pasted image 20220505190953.png]]
+![[Pasted image 20220505190953.png|450|450]]
 this indicates complexity of nlog n

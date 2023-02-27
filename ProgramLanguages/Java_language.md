@@ -5,7 +5,7 @@ created: 2022-10-24 13:45
 #Programming 
 ---
 # Java types
-> ![[Pasted image 20221123145936.png|800|700]]
+![[Pasted image 20221123145936.png|800|700]]
 ## Check memory usage 
 
 ```java

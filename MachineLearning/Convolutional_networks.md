@@ -20,8 +20,8 @@ ___
 - A constitutional [[MachineLearning/Neural_networks|neural network]] can be used to process images, in the context of a neural network this is done by breaking an image down to into its edges, shape patterns, colour etc
 - Example network
 
-> ![[Pasted image 20220621152515.png]]
-> ![[Pasted image 20220621152421.png]]
+![[Pasted image 20220621152515.png|450|450]]
+![[Pasted image 20220621152421.png|450|450]]
 
 - The dimensions of a filter correspond to the number of parameters eg with 10 filters of 3x3x3 in a layer, the resulting output will 270 parameters, with a bias this would be 280.
 - Note how the original image size doesn't influence the number of parameters
@@ -41,28 +41,28 @@ ___
 
 > $$a^{[l+2]}=g(w^{[l+2]}(g(w^{[l+1]}a^{[l]}+b^{[L+1]})+b^{[l+2]}+a^{[l]})$$
 
-> ![[Pasted image 20220623124145.png]]
+![[Pasted image 20220623124145.png|450|450]]
 ## ResNet benefits/
 - ResNets help solve the vanishing gradient problem that can arise from adding too much depth to a network (overfitting). This happens because the network has a much harder time training the network as it becomes less linear causing the training error to gradually increase
 - As a result of this deeper networks can be trained without the overfitting tradeoff\
 
-> ![[Pasted image 20220623124954.png]]
+![[Pasted image 20220623124954.png|450|450]]
 # Inception networks
 [[Computer_vision#1x1 convolutions]]
 
 - Inception layers allow for multiple convolutions of different types to be combined through the use of **same padding and 1x1 convolutions**, minimizing computation cost and allowing for multiple operations to be attempted and concatenated
 
-> ![[Pasted image 20220623164903.png]]
-> ![[Pasted image 20220623160809.png]]
-> ![[Pasted image 20220623161111.png]]additional softmax branches may also exist to attempt an early prediction of the output / use for debugging purposes
+![[Pasted image 20220623164903.png|450|450]]
+![[Pasted image 20220623160809.png|450|450]]
+![[Pasted image 20220623161111.png|450|450]]additional softmax branches may also exist to attempt an early prediction of the output / use for debugging purposes
 # Classic CNN network architectures
 ## LeNet
-> ![[Pasted image 20220623115301.png]]
+![[Pasted image 20220623115301.png|450|450]]
 ## AlexNet
-> ![[Pasted image 20220623115413.png]]
+![[Pasted image 20220623115413.png|450|450]]
 ## VGG
-> ![[Pasted image 20220623115645.png]]
+![[Pasted image 20220623115645.png|450|450]]
 ## MobileNet
 [[Computer_vision#Computation cost of convolution]]
 
-> ![[Pasted image 20220623230550.png]]the bottle neck block allows the network the learn a richer function in the depth wise portion, the pointwise convolutions helps project back down to a smaller set of values, keeping the activations small
+![[Pasted image 20220623230550.png|450|450]]the bottle neck block allows the network the learn a richer function in the depth wise portion, the pointwise convolutions helps project back down to a smaller set of values, keeping the activations small

@@ -40,7 +40,7 @@ git config user.email
 
 # Git compare
 - less than symbol indicates that the line is removed from the second file, greater than symbol indicates that the line is added to the second file.
->![[Pasted image 20220124073644.png]]
+![[Pasted image 20220124073644.png|450|450]]
 
 # Git cheatsheet
 >https://github.com/joshnh/Git-Commands#git-commands

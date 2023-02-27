@@ -18,7 +18,7 @@ aliases: [relational]
 ___
 # Relations
 
-> ![[Pasted image 20211028214149.png|500]]
+![[Pasted image 20211028214149.png|500]]
 - Relations are a [[Sets#Subsets|subset]] of Cartesian products, relations are compared using the set rules meaning the same notations and classifiers are used to work with them
 - Example:
 ```ad-example
@@ -28,10 +28,10 @@ Let A={1,2} and B={1,3} List the ordered pairs in the relation R from A to B whe
 A X B = {<1, 1>, <1, 3>, <2, 1>, <2, 3>} R={<1, 3>, <2, 3>}
 ```
 ## Equality of relations
->![[Pasted image 20211028225507.png|600]]
+![[Pasted image 20211028225507.png|450|450]]
 - Example:
 
->![[Pasted image 20211028225725.png|600]]
+![[Pasted image 20211028225725.png|450|450]]
 
 
 
@@ -39,8 +39,8 @@ A X B = {<1, 1>, <1, 3>, <2, 1>, <2, 3>} R={<1, 3>, <2, 3>}
 - A way of visually representing relations
 - example:
 
->![[Pasted image 20211028231458.png|500]]
->![[Pasted image 20211028231559.png|500]]
+![[Pasted image 20211028231458.png|500]]
+![[Pasted image 20211028231559.png|500]]
 
 # Relation properties
 ## Symmetry 
@@ -50,20 +50,20 @@ A X B = {<1, 1>, <1, 3>, <2, 1>, <2, 3>} R={<1, 3>, <2, 3>}
 "has the same height as"
 ```
 
->![[Pasted image 20211028232330.png|500]]
+![[Pasted image 20211028232330.png|500]]
 - Note a relation with <1,2> and <2,1> is also symmetric but requires both elements to prove symmetry
 
 ## Reflexivity 
->![[Pasted image 20211028233842.png|500]]
+![[Pasted image 20211028233842.png|500]]
 
 ## Transitivity 
 - A=B B=C A=C
 - Example:
 
->![[Pasted image 20211028232519.png|500]]
+![[Pasted image 20211028232519.png|500]]
 - Digraph: all points link
 
->![[Pasted image 20211028232043.png|150]]
+![[Pasted image 20211028232043.png|150]]
 - Proof of transitivity (True)
 
 > R1={<2,2>,<2,4>,<2,7>,<4,7>} 
@@ -76,7 +76,7 @@ A X B = {<1, 1>, <1, 3>, <2, 1>, <2, 3>} R={<1, 3>, <2, 3>}
                              
 ## Irreflexivity
 
-> ![[Pasted image 20211028234059.png|500]]
+![[Pasted image 20211028234059.png|500]]
 
 
 

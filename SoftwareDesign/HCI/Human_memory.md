@@ -6,13 +6,13 @@ created: 2022-11-05 15:14
 ---
 - Multi-store model: 
 
-> ![[Pasted image 20221105151530.png]]
+![[Pasted image 20221105151530.png|450|450]]
 
 - Working memory stores memory for a brief period while performing mental operations
 - This is also influenced by attention, working memory is brought to the foreground be perception or thought
 - Working memory structure 
 
-> ![[Pasted image 20221105151921.png]]
+![[Pasted image 20221105151921.png|450|450]]
 
 - Central executive coordinates action and decisions
 - Phonological loop processes speech, language and sound
@@ -27,29 +27,29 @@ created: 2022-11-05 15:14
 
 ## Long term memory structure 
 
-> ![[Pasted image 20221105152826.png]]
+![[Pasted image 20221105152826.png|450|450]]
 
 - Retrieval based on mental cues, forming associates enforced by reiteration or experience
 
 ## Semantic memory structure
 - Helps associate common items, leading to easier mental cues
 
-> ![[Pasted image 20221105153013.png]]
+![[Pasted image 20221105153013.png|450|450]]
 
 ## Spatial memory 
 - Based on approximate locations ie predicting where a button normally goes
 - Note that this is still fuzzy
 - Routine tasks may be influenced by perception biased expectation
 
-> ![[Pasted image 20221105154931.png]]
+![[Pasted image 20221105154931.png|450|450]]
 
 # Attention
 - Attention is what allocates cognitive resources to activities and tasks
 - Similar to [[Operating_system_design]]
 - These can be done in parallel or in the background
 
-> ![[Pasted image 20221105153649.png]]
-> ![[Pasted image 20221105153726.png]]
+![[Pasted image 20221105153649.png|450|450]]
+![[Pasted image 20221105153726.png|450|450]]
 
 ## Focused attention 
 - Similar to a spotlight, can be quickly moved but is always focused on a small part of the world

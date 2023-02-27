@@ -22,7 +22,7 @@ ___
 	- **Relation instance**: a table with rows and columns consisting of a number of **Rows/tuples** (cardinality) and a number of **fields/attributes** (degree/arity)
 	- **Relation schema**: highlights the relation name and type (domain) for each column 
 
-> ![[Pasted image 20211112223946.png|450|450]]
+![[Pasted image 20211112223946.png|450|450]]
 > the relation schema for this would be:
 >  $$\text{People(personID: int, firstName: string, lastName: string)}$$
 
@@ -48,12 +48,12 @@ t_{i}=(v_{1},v_{2},v_{3}\dots v_{n})\\
 v=values
 \end{align*}$$
 
-> ![[Pasted image 20230204184506.png|350|350]]
+![[Pasted image 20230204184506.png|350|350]]
 > this schema allows for array like notation eg $t_{2}[name]=v_{2}$
 ## Data relation types
 - There are 3 different types of relations in the database: **one-to-one**. **one-to-many, and**. **many-to-many** each with  an [[UML_diagrams|associated visual representations]]
 
-> ![[Pasted image 20220618083239.png|350|350]]
+![[Pasted image 20220618083239.png|350|350]]
 
 
 - One to many relations are an example of a **weak entity set**, these are cases where the existence of an entity depends on the existence of an entity in the single mapped relation
@@ -65,13 +65,13 @@ $$\begin{align*}
 t_{1}\in R,t_{2}\in R \text{ such that:}\\
 \Pi _{x}t_{1}=\Pi_{x}t_{2} \to \Pi _{y}t_{1}=\Pi_{y}t_{2}y
 \end{align*}$$
-> ![[Pasted image 20230211164800.png|500|500]]
+![[Pasted image 20230211164800.png|500|500]]
 # ER-to-relational mapping
 - In order to obey [[Database_constraints|database constraints]] in an [[Entity_relationship_model|ER]], each relationship mapping requires keys to be managed differently depending on relation types 
 - This mapping also impacts how [[SQL_relations|deletion]] of a tuple should be handled  
 ## 1:1 Relationships
 - Relation S should include the primary key of T as a foreign key (or vise versa)
-> ![[Pasted image 20230205131826.png|450|450]]
+![[Pasted image 20230205131826.png|450|450]]
 
 ```sql
 CREATE TABLE people (
@@ -90,7 +90,7 @@ CREATE TABLE passport_details (
 ## 1:N Relationships
 - Relation S should include the primary key of T as a foreign key
 - Each entity in relation S is related to at most one relation from T (primary key constraint)
-> ![[Pasted image 20230205132656.png|450|450]]
+![[Pasted image 20230205132656.png|450|450]]
 
 ```sql
 CREATE TABLE departments (
@@ -108,7 +108,7 @@ CREATE TABLE employees (
 ## M:N Relationships
 - Keys from both relations should form a unique tuple, forming a new relation R
 - R acts as the primary key for T and S
-> ![[Pasted image 20230205132931.png|450|450]]
+![[Pasted image 20230205132931.png|450|450]]
 
 
 ```sql

@@ -1,17 +1,17 @@
 # Vector normalization
 - A useful method of getting dimensions in unit length, also speeds up gradient descent.
->![[Pasted image 20220302181635.png]]
+![[Pasted image 20220302181635.png|450|450]]
 
->![[Pasted image 20220302181610.png|400|400]]
+![[Pasted image 20220302181610.png|400|400]]
 
 - Matrix examples along column vector
->![[Pasted image 20220302181715.png]]
+![[Pasted image 20220302181715.png|450|450]]
 
 # Min-max normalization
->![[Pasted image 20220302182040.png]]
+![[Pasted image 20220302182040.png|450|450]]
 minimum set to 0, max to 1
 # Z-score normalization
->![[Pasted image 20220302182308.png]]
+![[Pasted image 20220302182308.png|450|450]]
 mean set to 0
 
 

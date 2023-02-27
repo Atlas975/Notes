@@ -90,7 +90,7 @@ AppWindow -down- OptionBar  :> owns
 
 
 
-![[Pasted image 20221119171951.png]]
+![[Pasted image 20221119171951.png|450|450]]
 
 
 

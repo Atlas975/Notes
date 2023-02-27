@@ -439,7 +439,7 @@ void release_lock() {
 - A deadlock describes a situation in which a processes cannot progress due to waiting on a shared synchronised resource currently held by another thread.
 - Ways of combating this include:
 
-![[Pasted image 20221101164743.png]]
+![[Pasted image 20221101164743.png|450|450]]
 
 1. Program design so circular waits are impossible (impose total ordering)
 2. Prove formally a program is deadlock free 

@@ -16,7 +16,7 @@ ___
 # Database keys
 - In [[Database_systems|databases]], a key is an attribute or a set of attributes that uniquely identifies a tuple. There are several types of keys used in a [[Database_systems#DBMS|DBMS]], including:
 
-> ![[Pasted image 20230211163559.png|450|450]]
+![[Pasted image 20230211163559.png|450|450]]
 
 ## Primary key
 - Unique identifier for each record in a table. It cannot be null and must be unique for each record. A table can only have one primary key.

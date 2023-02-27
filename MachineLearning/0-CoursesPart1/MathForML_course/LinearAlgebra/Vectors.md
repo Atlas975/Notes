@@ -1,7 +1,7 @@
 Formula sheet:
 [[PoPGwxvuEein8Q5msPYVqg_3edb0e701bee11e8a3bbdda3bd061ec3_maths4ml-linearalgebra-formula.pdf]]
 # Angle reference
-![[Pasted image 20211106150233.png]]
+![[Pasted image 20211106150233.png|450|450]]
 # Vectors
 - An object with magnitude and direction
 - In computers, usually viewed as an ordered list of numbers that describe the properties of an object.
@@ -18,7 +18,7 @@ Formula sheet:
 $$r1^2+r2^2 = sqrt(r1^2+r2^2)^2 = |r|^2$$
 ![[Pasted image 20211106144505.png|500|500]]
 # Cosine rule
->![[Pasted image 20211112123228.png]]
+![[Pasted image 20211112123228.png|450|450]]
 - This tells us that:
 > $$r.s=|r||s|cos?$$
 
@@ -39,15 +39,15 @@ $$r1^2+r2^2 = sqrt(r1^2+r2^2)^2 = |r|^2$$
 - This can be proven if dot product = 0
 - The vector projection can then be used to find existing vectors in terms of the new basis vectors.
 - Example 1:
->![[Pasted image 20211112235209.png|500|500]]
+![[Pasted image 20211112235209.png|500|500]]
 - Example 2:
->![[Pasted image 20211210221638.png|500|500]]
+![[Pasted image 20211210221638.png|500|500]]
 - Example 3 w projections:
->![[Pasted image 20211210222133.png]]
+![[Pasted image 20211210222133.png|450|450]]
 
 # Linear independence 
 - When a vector CANT be found in the basis of another vector
->![[Pasted image 20211113002504.png|300|300]]
+![[Pasted image 20211113002504.png|300|300]]
 
 # Transformation with changed basis
->![[Pasted image 20211210222610.png]]
+![[Pasted image 20211210222610.png|450|450]]

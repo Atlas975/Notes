@@ -11,4 +11,4 @@ created: 2022-10-14 00:18
 \hat{y}=x\sin\theta-y\cos\theta
 \end{align*}$$
 
-> ![[Pasted image 20221014003259.png]]
+![[Pasted image 20221014003259.png|450|450]]

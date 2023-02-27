@@ -21,13 +21,13 @@ ___
 - An [[Internet_protocols#Application layer|Application layer]] [[Transmission_protocols|transmission protocol]] used to transfer data over the internet 
 - Used client-server model where clients sens a request and a server responds 
 
-> ![[Pasted image 20230216101148.png|450|450]]
+![[Pasted image 20230216101148.png|450|450]]
 
 - **Stateless**, meaning that each request + response is independent of previous operations
 - HTTP requests are in [[ASCII]] and consist of a method (GET / POST / PUT), URL and headers that provide additional information about the request
 - HTTP response: 
 
-> ![[Pasted image 20230216113306.png|450|450]]
+![[Pasted image 20230216113306.png|450|450]]
 
 ## HTTP methods
 1.  **GET**: retrieves data from a server, parameters made part of URL
@@ -60,7 +60,7 @@ ___
 - Sent back to the browser in all subsequent request, helps get around statelessness of HTTP
 - Initial HTTP request creates a unique ID and back-end database for that id
 
-> ![[Pasted image 20230216113702.png|450|450]]
+![[Pasted image 20230216113702.png|450|450]]
 
 - Remote links such as those to a websites social media or website advertisements can also make use of 3rd party cookies, allowing a 3rd party to track users across multiple websites
 
@@ -69,21 +69,21 @@ ___
 - Various algorithms exist to handle balancing eg round robin, load based etc 
 - Round-robin is not ideal when servers can handle varying capacities 
 
-> ![[Pasted image 20230216115019.png|450|450]]
+![[Pasted image 20230216115019.png|450|450]]
 
 ## Web caches
 - Allows client requests to be satisfied without involving the origin server 
 - Makes use of a [[Proxy_pattern|proxy]] server, this also helps avoid overloading origin  
 
-> ![[Pasted image 20230216115644.png|500|500]]
+![[Pasted image 20230216115644.png|500|500]]
 
 ## HTTP2
 - Head of line blocking is a [[Concurrency|concurrent]] request problem where an earlier request blocks other requests from arriving
 
-> ![[Pasted image 20230216120128.png|450|450]]
+![[Pasted image 20230216120128.png|450|450]]
 
 - This can be mitigated by dividing objects into separate frames, similar to [[Routing_methods#Time division multiplexing (TDM)|TDM]] 
 - This allows smaller objects to arrive much faster 
 
-> ![[Pasted image 20230216120353.png|450|450]]
+![[Pasted image 20230216120353.png|450|450]]
 

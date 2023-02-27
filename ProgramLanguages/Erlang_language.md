@@ -52,7 +52,7 @@ foo(0) -> zero *END*
 ## Erlang strings
 - Handled as list of characters
 
-> ![[Pasted image 20221213140846.png|450]]
+![[Pasted image 20221213140846.png|450]]
 
 ```erlang
 "AAA" =:= [$A,$A,$A]. % True
@@ -61,7 +61,7 @@ foo(0) -> zero *END*
 - Modules correspond directly to files
 - Starts with module definition, followed by functions and their **arity**(number of arguments)
 
-> ![[Pasted image 20221118133528.png|550|550]]
+![[Pasted image 20221118133528.png|550|550]]
 
 - Running a file can be done with the compile command (C) which creates a .beam file as its compilation target
 
@@ -90,10 +90,10 @@ ok
 ## Function currying
 - Function order follows a procedural style
 
-> ![[Pasted image 20221118133728.png|550|550]]
+![[Pasted image 20221118133728.png|550|550]]
 ## Erlang operators 
 
-> ![[Pasted image 20221214091859.png|500|500]]
+![[Pasted image 20221214091859.png|500|500]]
 
 # Erlang lists 
 - Erlang lists are **1 idexed**

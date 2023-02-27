@@ -5,7 +5,7 @@ created: 2022-06-27 07:14
 ---
 ## JS lists
 
-> ![[Pasted image 20221215015230.png]]
+![[Pasted image 20221215015230.png|450|450]]
 
 ## JS lambdas 
 ```ad-example
@@ -22,7 +22,7 @@ let sum = function(a, b) { return a + b; };
 [1,5,3,6,-4].sort( (a,b) => a - b );
 ```
 
-> ![[Pasted image 20221215020134.png|450|450]]
+![[Pasted image 20221215020134.png|450|450]]
 
 ## JS currying
 ```ad-example

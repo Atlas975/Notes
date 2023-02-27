@@ -24,8 +24,8 @@ created: 2022-11-02 00:12
     - Motor action (human output, rate of repetitive movement)
 
 
-> ![[Pasted image 20221102094936.png]]
+![[Pasted image 20221102094936.png|450|450]]
 
 - Effective HCI systems are also required to comply with human time requirements, only then will a system be considered responsive
 
-> ![[Pasted image 20221102101256.png]]
+![[Pasted image 20221102101256.png|450|450]]

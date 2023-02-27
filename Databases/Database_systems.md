@@ -34,7 +34,7 @@ ___
   6. Data integrity checks
 - Structure:
 
-> ![[Pasted image 20211213220115.png|400|300]]
+![[Pasted image 20211213220115.png|400|300]]
 
 - Database examples: Oracle, MySQL, SQLite, PostgreSQL
 ## Data terminology
@@ -72,7 +72,7 @@ ___
 - **ANSI**: American National Standards Institute
 - **SPARC**: Standard Planning And Requirements committee
 
-> ![[Pasted image 20211213221229.png|500|500]]
+![[Pasted image 20211213221229.png|500|500]]
 
 - Each level can be described by a schema
 ## External level
@@ -86,7 +86,7 @@ ___
 	- **Conceptual schema**: database content organisation
 	- **Internal schema**: how data is stored
 
-> ![[Pasted image 20230201122712.png]]
+![[Pasted image 20230201122712.png|450|450]]
 
 - Schemas allow data to be independent with implementation/optimization left to DBMS
 - Transfer of requests between layers is called mapping

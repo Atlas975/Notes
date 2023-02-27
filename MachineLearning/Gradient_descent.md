@@ -18,8 +18,8 @@ ___
 
 > $$J(\theta)=\frac{1}{m}\sum_{i=1}^{m} \mathcal{L} ({y,\hat{y}})$$
 
-> ![[Pasted image 20220621092922.png|500|500]]
-> ![[Pasted image 20220621204846.png|350|350]]
+![[Pasted image 20220621092922.png|500|500]]
+![[Pasted image 20220621204846.png|350|350]]
 
 faster iteration = less precision
 # Mini-batch gradient descent

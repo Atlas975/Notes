@@ -14,14 +14,14 @@
 - Emphasizes activities, how work flow can be best optimized by technology support. 
 # 5 component framework
 ## airline example
-> ![[Pasted image 20211029225006.png]]
+![[Pasted image 20211029225006.png|450|450]]
 - Multiple frameworks exist but this is common to all information systems in some way. 
 
 ## Alternate model 
->![[Pasted image 20220617131640.png]]
+![[Pasted image 20220617131640.png|450|450]]
 
  # Automation and difficulty of change 
-> ![[Pasted image 20211029225711.png]]
+![[Pasted image 20211029225711.png|450|450]]
 
 
 # Information systems and society
@@ -33,29 +33,29 @@
 ## Digital exclusion
 - The separation of people in terms of what they do and do not have (inequality)
 - Many factors influence this:
->![[Pasted image 20220222100545.png]]
+![[Pasted image 20220222100545.png|450|450]]
 ## Accessibility
->![[Pasted image 20220222100607.png]]
+![[Pasted image 20220222100607.png|450|450]]
 
 ## Motivation
->![[Pasted image 20220222100624.png]]
+![[Pasted image 20220222100624.png|450|450]]
 
 ## Skills
->![[Pasted image 20220222100645.png]]
+![[Pasted image 20220222100645.png|450|450]]
 ## Digital exclusion abroad
->![[Pasted image 20220222100720.png]]
+![[Pasted image 20220222100720.png|450|450]]
 
 ## Effects of digital exclusion
->![[Pasted image 20220222100752.png]]
+![[Pasted image 20220222100752.png|450|450]]
 
 ## Censorship
->![[Pasted image 20220222101108.png]]
+![[Pasted image 20220222101108.png|450|450]]
 - There are many restrictions on the type of data presented to the public for a variety of intention eg research on harmful products, political issues etc.
 - On the internet cencorship can exist as methods such as filtering (child protection), blocked for all users or even accidental blocks
 ## Censorship risks
->![[Pasted image 20220222101517.png]]
+![[Pasted image 20220222101517.png|450|450]]
 
 ## Whistleblowers
->![[Pasted image 20220222101554.png]]
+![[Pasted image 20220222101554.png|450|450]]
 
 

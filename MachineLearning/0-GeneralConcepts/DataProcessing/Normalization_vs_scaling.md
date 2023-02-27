@@ -1,7 +1,7 @@
 # Scaling
 - Scaling is done to ensure that data thats scaled differently can still be compared without the difference in scale influencing results
 - Examples include currency value and difference in measurement standards
->![[Pasted image 20220406164052.png]]
+![[Pasted image 20220406164052.png|450|450]]
 
 ```
 # select the usd_goal_real column
@@ -14,7 +14,7 @@ scaled_data = minmax_scaling(original_data, columns=['usd_goal_real'])
 # Normalization
 - Normalization is done to ensure that data falls within a normal distribution
 - This is useful for various statistical models that assume normally distributed data
->![[Pasted image 20220406164101.png]]
+![[Pasted image 20220406164101.png|450|450]]
 ```
 # get the index of all positive pledges (Box-Cox only takes positive values)
 index_of_positive_pledges = kickstarters_2017.usd_pledged_real > 0

@@ -18,39 +18,39 @@ Non recoverable when decision is made.
 Also known as sunk cost fallacy
 ### Decision pitfalls
 Measuring cost/benefit as proportions
-> ![[Pasted image 20211029105244.png]]
+![[Pasted image 20211029105244.png|450|450]]
 
 Sunk cost
 >we should only consider the costs we can avoid by not taking an action regardless of whether or not money has been sunk  
 
 Ignoring opportunity cost
->![[Pasted image 20211029111042.png]]
+![[Pasted image 20211029111042.png|450|450]]
 
 Not thinking at the margin (the benefit for each unit)
->![[Pasted image 20211029111633.png]]
+![[Pasted image 20211029111633.png|450|450]]
 - *example*
->![[Pasted image 20211029111937.png]]
+![[Pasted image 20211029111937.png|450|450]]
 
 # Microeconomics and macroeconomics 
-![[Pasted image 20211029112045.png]]
+![[Pasted image 20211029112045.png|450|450]]
 
 # Positive and normative economics
-![[Pasted image 20211029112149.png]]
+![[Pasted image 20211029112149.png|450|450]]
 
 
 # Total cost
->![[Pasted image 20211124101206.png]]
+![[Pasted image 20211124101206.png|450|450]]
 
 > Average cost (Total cost / q)
 >  Marginal cost (Deriv Total cost)
 > Marginal vs Average (econ of scale)
 > Marginal cost must always cross lowest point of average cost
->![[Pasted image 20211124101713.png|500|500]]
+![[Pasted image 20211124101713.png|500|500]]
 
 # Profit maximization
 - The gap is the profit
->![[Pasted image 20211124101912.png]]
+![[Pasted image 20211124101912.png|450|450]]
 
 # Assets vs liabilities
 -**Assets are the items you own that can provide future economic benefit.** **Liabilities are what you owe other parties**. In short, assets put money in your pocket, and liabilities take money out
->![[Pasted image 20220306190144.png]]
+![[Pasted image 20220306190144.png|450|450]]

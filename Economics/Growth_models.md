@@ -23,25 +23,25 @@
 - The growth model can summarized by the function as
 > total output (Y) = F (physical labor, capital)
 
-> ![[Pasted image 20220221104616.png]]
-> ![[Pasted image 20220221104644.png]]
+![[Pasted image 20220221104616.png|450|450]]
+![[Pasted image 20220221104644.png|450|450]]
 ## Solow production function
->![[Pasted image 20220222121054.png]]
+![[Pasted image 20220222121054.png|450|450]]
 capital letters denote total, lowercase denotes marginal
 
 ## Investment & saving
->![[Pasted image 20220222122004.png]]
->![[Pasted image 20220222122848.png]]
+![[Pasted image 20220222122004.png|450|450]]
+![[Pasted image 20220222122848.png|450|450]]
 
 ## Depreciation rate
 - Required investment = (depreciation rate + labour force growth)*Capital
->![[Pasted image 20220222122255.png]]
->![[Pasted image 20220222122916.png]]
+![[Pasted image 20220222122255.png|450|450]]
+![[Pasted image 20220222122916.png|450|450]]
 ## Effect of increasing capital investment
->![[Pasted image 20220222125044.png]]
+![[Pasted image 20220222125044.png|450|450]]
 
 ## Solow model implications
->![[Pasted image 20220223100709.png]]
+![[Pasted image 20220223100709.png|450|450]]
 - Technical progress can be represented by
->![[Pasted image 20220223102558.png]]
->![[Pasted image 20220223103921.png]]
+![[Pasted image 20220223102558.png|450|450]]
+![[Pasted image 20220223103921.png|450|450]]

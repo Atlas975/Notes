@@ -55,10 +55,10 @@ print(UnionFind().count_components([[0, 1], [1, 2], [3, 4]]))
 ```
 # Union find API 
 ## Union
-> ![[Pasted image 20221031072853.png|450|450]]
+![[Pasted image 20221031072853.png|450|450]]
 
 ## Find 
-> ![[Pasted image 20221031073258.png|350|350]]
+![[Pasted image 20221031073258.png|350|350]]
 
 ## Parent set 
-> ![[Pasted image 20221031073731.png|450|450]]
+![[Pasted image 20221031073731.png|450|450]]
