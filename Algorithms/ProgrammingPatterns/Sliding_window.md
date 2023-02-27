@@ -15,25 +15,28 @@
 ___
 # Sliding window
 ## Best time to buy and sell stock 
-```python
-def maxProfit(self, prices: List[int]) -> int:
-    n=len(prices)
-    if n <= 1: return 0
-    profit=0
-    l=0
-    for r in range(1, n):
-        if prices[r]>prices[l]:
-            profit=max(profit,prices[r]-prices[l])
-        else:
-            l=r
-    return profit
-
-# functional approach 
+```rust
 pub fn max_profit(prices: Vec<i32>) -> i32 {
+    // Imperative approach
+    let (mut mxprof, mut cost) = (0, prices[0]);
+    for price in prices.into_iter().skip(1) {
+        if price < cost {
+            cost = price;
+        } else {
+            mxprof = mxprof.max(price - cost);
+        }
+    }
+    mxprof
+    
+    // Functional approach 
     prices
         .into_iter()
-        .fold((0, i32::MAX), |(profit, cost), price| {
-            (profit.max(price - cost), price.min(cost))
+        .fold((0, i32::MAX), |(mxprof, cost), price| {
+            if price < cost {
+                (mxprof, price)
+            } else {
+                (mxprof.max(price - cost), cost)
+            }
         })
         .0
 }
