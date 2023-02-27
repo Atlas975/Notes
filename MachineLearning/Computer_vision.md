@@ -24,7 +24,7 @@ ___
 ## Padding
 - Padding prevents information from the images edges from being lost, useful for allowing a deeper [[Convolutional_networks| CNN]], example of padding=1
 
-![[Pasted image 20220621141454.png||g]]
+![[Pasted image 20220621141454.png|550|550]]
 
 - The padding required to have the input size equal output size (also known as a same convolution) can be found using:
 

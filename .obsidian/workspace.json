@@ -362,7 +362,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "MachineLearning/Computer_vision.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -428,7 +428,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "MachineLearning/Computer_vision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -468,7 +468,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "MachineLearning/Computer_vision.md"
               }
             }
           }
@@ -476,8 +476,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5046501159668,
-    "collapsed": true
+    "width": 259.5046501159668
   },
   "right": {
     "id": "441e4249d5592193",
@@ -493,7 +492,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "MachineLearning/Computer_vision.md"
               }
             }
           },
@@ -519,7 +518,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "MachineLearning/Computer_vision.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -571,6 +570,21 @@
   },
   "active": "da156c79c1bfa339",
   "lastOpenFiles": [
+    "MachineLearning/Convolutional_networks.md",
+    "MachineLearning/Detection_algorithms.md",
+    "MachineLearning/Computer_vision.md",
+    "MachineLearning/Feature_scaling.md",
+    "MachineLearning/Gradient_descent.md",
+    "MachineLearning/Linear_regression.md",
+    "MachineLearning/Machine_learning_notation.md",
+    "MachineLearning/Statistical_modeling.md",
+    "MachineLearning/Regularization.md",
+    "MachineLearning/Neural_networks.md",
+    "MachineLearning/Logistic_regression.md",
+    "MachineLearning/Model_metrics.md",
+    "Databases/Database_normalisation.md",
+    "XX-Attachments/Images/Pasted image 20230227160305.png",
+    "XX-Attachments/Images/Pasted image 20230227160146.png",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "OperatingSystems/DigitalSystems/ASCII.md",
     "Algorithms/ProgrammingPatterns/Two_pointers.md",
@@ -584,19 +598,6 @@
     "Databases/Relational_algebra.md",
     "Databases/Database_systems.md",
     "Databases/Database_relations.md",
-    "Databases/Database_normalisation.md",
-    "Databases/Database_keys.md",
-    "Databases/Database_design.md",
-    "Databases/Database_constraints.md",
-    "00-Main/2-Litnote.md",
-    "DataStructures/Abstract_data_types.md",
-    "DataStructures/DataStorage&Retrieval.md",
-    "DataStructures/Hashing.md",
-    "DataStructures/Heaps.md",
-    "DataStructures/RadixTrees.md",
-    "DataStructures/Trees.md",
-    "DiscreteMath/Relations.md",
-    "DiscreteMath/Propositional_logic.md",
     "ProgramLanguages/Python/sed7keQGo",
     "DataStructures/sedMJAJlj",
     "DataStructures/sed33kt9o",

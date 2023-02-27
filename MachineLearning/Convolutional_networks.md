@@ -48,13 +48,14 @@ ___
 
 ![[Pasted image 20220623124954.png|450|450]]
 # Inception networks
-[[Computer_vision#1x1 convolutions]]
 
-- Inception layers allow for multiple convolutions of different types to be combined through the use of **same padding and 1x1 convolutions**, minimizing computation cost and allowing for multiple operations to be attempted and concatenated
+- Inception layers allow for multiple convolutions of different types to be combined through the use of same padding and [[Computer_vision#1x1 convolutions|1x1 convolutions]]
 
 ![[Pasted image 20220623164903.png|450|450]]
+- This minimizes computation cost and allowing for multiple operations to be attempted and concatenated
 ![[Pasted image 20220623160809.png|450|450]]
-![[Pasted image 20220623161111.png|450|450]]additional softmax branches may also exist to attempt an early prediction of the output / use for debugging purposes
+- additional softmax branches may also exist to attempt an early prediction of the output / use for debugging purposes
+![[Pasted image 20220623161111.png|450|450]] 
 # Classic CNN network architectures
 ## LeNet
 ![[Pasted image 20220623115301.png|450|450]]
