@@ -23,6 +23,7 @@ ___
 	- **Relation schema**: highlights the relation name and type (domain) for each column 
 
 ![[Pasted image 20211112223946.png|450|450]]
+
 > the relation schema for this would be:
 >  $$\text{People(personID: int, firstName: string, lastName: string)}$$
 
@@ -71,6 +72,7 @@ t_{1}\in R,t_{2}\in R \text{ such that:}\\
 - This mapping also impacts how [[SQL_relations|deletion]] of a tuple should be handled  
 ## 1:1 Relationships
 - Relation S should include the primary key of T as a foreign key (or vise versa)
+
 ![[Pasted image 20230205131826.png|450|450]]
 
 ```sql
@@ -89,6 +91,8 @@ CREATE TABLE passport_details (
 ## 1:N Relationships
 - Relation S should include the primary key of T as a foreign key
 - Each entity in relation S is related to at most one relation from T (primary key constraint)
+
+
 ![[Pasted image 20230205132656.png|450|450]]
 
 ```sql
@@ -107,6 +111,8 @@ CREATE TABLE employees (
 ## M:N Relationships
 - Keys from both relations should form a unique tuple, forming a new relation R
 - R acts as the primary key for T and S
+
+
 ![[Pasted image 20230205132931.png|450|450]]
 
 
