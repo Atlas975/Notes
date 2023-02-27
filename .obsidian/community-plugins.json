@@ -7,7 +7,6 @@
   "hotkeysplus-obsidian",
   "templater-obsidian",
   "quick-latex",
-  "obsidian-image-toolkit",
   "oz-clear-unused-images",
   "obsidian-functionplot",
   "obsidian-related-notes-finder",
@@ -35,5 +34,6 @@
   "quickadd",
   "darlal-switcher-plus",
   "cycle-through-panes",
-  "obsidian-minimal-settings"
+  "obsidian-minimal-settings",
+  "obsidian-image-toolkit"
 ]

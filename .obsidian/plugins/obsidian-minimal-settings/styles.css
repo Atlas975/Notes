@@ -27,14 +27,14 @@
         --text-title-h4: var(--purple);
         --text-title-h5: var(--green);
         --bold-color: var(--yellow);
-        --text-normal:                var(--light2);
-        --text-faint:                 var(--light0);
-        --text-muted:                 var(--light1);
+        --text-normal: var(--light2);
+        --text-faint: var(--light0);
+        --text-muted: var(--light1);
 
-        --text-link:                  var(--frost0);
-        --text-a:                     var(--frost3);
-        --text-a-hover:               var(--frost2);
-        --text-mark:                  rgba(136, 192, 208, 0.3);
+        --text-link: var(--frost0);
+        --text-a: var(--frost3);
+        --text-a-hover: var(--frost2);
+        --text-mark: rgba(136, 192, 208, 0.3);
 
 
         --font-monospace: 'Jetbrains Mono', monospace;
@@ -116,7 +116,11 @@ img {
 .markdown-preview-view table {
         margin-left: auto;
         margin-right: auto;
-    }
+}
+
+mjx-math {
+        font-size: 18px !important;
+}
 
 
 /* change highlight background */

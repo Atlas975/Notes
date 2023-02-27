@@ -53,12 +53,12 @@ class UnionFind:
 print("(0 -> 1 -> 2)   (3 –> 4)\nNumber of connected components: ", end="")
 print(UnionFind().count_components([[0, 1], [1, 2], [3, 4]]))
 ```
-# Union find API 
-## Union
+## Union find API 
+### Union
 ![[Pasted image 20221031072853.png|450|450]]
 
-## Find 
+### Find 
 ![[Pasted image 20221031073258.png|350|350]]
 
-## Parent set 
+### Parent set 
 ![[Pasted image 20221031073731.png|450|450]]

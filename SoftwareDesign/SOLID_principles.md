@@ -33,6 +33,7 @@ ___
 
 ![[Pasted image 20230130182724.png|600|600]]
 
+
 ## Single responsibility (SRP)
 - Component functionality should be loosely coupled,  class modification should ripple to as few external classes as possible
 - All components should be independent and serve a very specific functionality, this also helps avoid **volatility** (components that potentially require frequent modification) 
