@@ -310,7 +310,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md",
+                "file": "SoftwareDesign/SOLID_principles.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -363,7 +363,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md",
+                "file": "SoftwareDesign/SOLID_principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -403,7 +403,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md"
+                "file": "SoftwareDesign/SOLID_principles.md"
               }
             }
           }
@@ -427,7 +427,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md"
+                "file": "SoftwareDesign/SOLID_principles.md"
               }
             }
           },
@@ -453,7 +453,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md",
+                "file": "SoftwareDesign/SOLID_principles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -505,6 +505,7 @@
   },
   "active": "61decef98341ca08",
   "lastOpenFiles": [
+    "OperatingSystems/Computer_memory.md",
     "OperatingSystems/Paging.md",
     "DataStructures/Graphs.md",
     "ProgramLanguages/HTML.md",
@@ -530,7 +531,6 @@
     "Economics/SocialSystems.md",
     "Economics/Macroeconomics.md",
     "Economics/Consumer_theory.md",
-    "Networking/Transmission_mediums.md",
     "ProgramLanguages/Python/sed7keQGo",
     "DataStructures/sedMJAJlj",
     "DataStructures/sed33kt9o",

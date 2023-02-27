@@ -54,7 +54,7 @@ ___
 
 ## Interface segregation (ISP)
 - Classes should not have unused functionality, especially if this functionality adds additional dependencies to this component
-- This also ensures that changes to a component will require minimal amount recompilation to external components  
+- This also ensures that changes to a component will require minimal amounts of recompilation to external components  
 
 ![[Pasted image 20230128135141.png|350|350]]
 
