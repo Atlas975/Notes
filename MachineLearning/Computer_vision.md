@@ -65,14 +65,14 @@ ___
 > $\text{floor}(\left[ \frac{n+2p-f}{s}+1,\frac{n+2p-f}{s}+1 \right])\times{nc}$
 > $\text{note that nc is the same as the number of filters}$
 
-# Pooling layers
+## Pooling layers
 - Pooling layers offer another kind of image processing, operates the same way as a convolution but without a kernel with cell values. These are a useful layer for collapsing a network
 - **Pooling layers keep the depth dimension of a volume**
 - Example of average and max pooling:
 
 ![[Pasted image 20220621153651.png|450|450]]
 
-# Convolutions over volume
+## Convolutions over volume
 - Needed over RGB images (3 layers correspond to 3 channels for an image)
 - Filter and image channels must match, channels act as a 3rd dimension
 - Note that each filter compresses the image to one channel each
@@ -80,7 +80,7 @@ ___
 
 ![[Pasted image 20220621145255.png|450|450]]
 
-# 1x1 Convolutions
+## 1x1 Convolutions
 - 1x1 convolutions allow for a dimension to be compressed into a single channel
 - Pooling layers allow for the height and width layers to be compressed, 1x1 convolutions should be used to compress the number of channels
 
@@ -91,7 +91,7 @@ ___
 ![[Pasted image 20220623141826.png|450|450]]
 ![[Pasted image 20220623142114.png|450|450]]the 1x1 convolutions  acts as a bottleneck in this scenario and reduces the amount of computations by 100.6 million
 
-# Computation cost of convolution
+## Computation cost of convolution
 
 > $\text{Computation cost}=\text{\#number of filter params}\times \text{\#filter positions}\times \text{\#number of filters}$
 

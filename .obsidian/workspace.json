@@ -370,6 +370,19 @@
             }
           },
           {
+            "id": "c66a219e8ea0c6e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Database_normalisation.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "02c874d8501420c2",
             "type": "leaf",
             "state": {
@@ -383,7 +396,7 @@
             }
           }
         ],
-        "currentTab": 28
+        "currentTab": 29
       }
     ],
     "direction": "vertical"
@@ -428,7 +441,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Computer_vision.md",
+                "file": "Databases/Database_normalisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -468,7 +481,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Computer_vision.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           }
@@ -492,7 +505,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Computer_vision.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           },
@@ -518,7 +531,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Computer_vision.md",
+                "file": "Databases/Database_normalisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -568,11 +581,12 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "da156c79c1bfa339",
+  "active": "c66a219e8ea0c6e9",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20230227164343.png",
+    "MachineLearning/Computer_vision.md",
     "MachineLearning/Convolutional_networks.md",
     "MachineLearning/Detection_algorithms.md",
-    "MachineLearning/Computer_vision.md",
     "MachineLearning/Feature_scaling.md",
     "MachineLearning/Gradient_descent.md",
     "MachineLearning/Linear_regression.md",
@@ -597,7 +611,6 @@
     "Networking/Network_topology.md",
     "Databases/Relational_algebra.md",
     "Databases/Database_systems.md",
-    "Databases/Database_relations.md",
     "ProgramLanguages/Python/sed7keQGo",
     "DataStructures/sedMJAJlj",
     "DataStructures/sed33kt9o",
