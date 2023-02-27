@@ -1,6 +1,20 @@
-#ADTs
-[[Abstract_data_types]]
+> [!important]- Metadata
+> **Tags:** #ADTs 
+> **Located:** DataStructures
+> **Created:** 27/02/2023 - 10:37
+> ```dataviewjs
+>let cur = dv.current().file;
+>let loc = cur.path;
+>let links = cur.inlinks.concat(cur.outlinks).array().map(p => p.path);
+>let paths = new Set(links.filter(p => !p.endsWith(".png")));
+>paths.delete(loc);
+>dv.table(["Connections",  "Tags"], dv.array(Array.from(paths).slice(0, 20)).map(p => [
+>   dv.fileLink(p),dv.page(p).file.tags.join("")]));
+> ```
+
+___
 # Graphs
+
 - Graphs are made up of nodes (data) and edges (connections)
 
 ![[Pasted image 20220307113748.png|450|450]]Nodes are sometimes called vertices and edges are sometimes called arcs.
@@ -106,33 +120,28 @@ if a node is reached with no edges, we backtrack to a previous node
 
 - Recording each node results in a [[Graphs#Spanning trees]]
 
-![[Pasted image 20220310122036.png]]
-![[Pasted image 20220310122036.png]]|450|450
-![[Pasted image 20220310122036.png]]
-![[Pasted image 20220310122036.png]]|450|450|450|450
+![[Pasted image 20220310122036.png|450|450]]
+![[Pasted image 20220310122036.png|450|450]]
+![[Pasted image 20220310122036.png|450|450]]
+![[Pasted image 20220310122036.png|450|450]]
 
 ## Breadth-first traversal
 - Involves visiting neighbors first before going deeper into the tree
 - Requires moving through each available edge simultaneously 
 
-![[Pasted image 20220310122303.png]]
-![[Pasted image 20220310122303.png]]|450|450
-![[Pasted image 20220310122303.png]]
-![[Pasted image 20220310122303.png]]|450|450|450|450
+![[Pasted image 20220310122303.png|450|450]]
+![[Pasted image 20220310122303.png|450|450]]
+![[Pasted image 20220310122303.png|450|450]]
 
 # Dijkstra's shortest path
 - Knowing the shortest path from one node to another by finding the set of edges with the smallest overall sum
 - The distance from a node to itself is set to 0
 - Example algorithm:
 
-![[Pasted image 20220310122523.png]]
-![[Pasted image 20220310122523.png]]|450|450
-![[Pasted image 20220310122523.png]]
-![[Pasted image 20220310122523.png]]|450|450|450|450
+![[Pasted image 20220310122523.png|450|450]]
+![[Pasted image 20220310122523.png|450|450]]
 
 - Completed algorithm example
 
-![[Pasted image 20220310124149.png]]
-![[Pasted image 20220310124149.png]]|450|450
-![[Pasted image 20220310124149.png]]
-![[Pasted image 20220310124149.png]]|450|450|450|450
+![[Pasted image 20220310124149.png|450|450]]
+![[Pasted image 20220310124149.png|450|450]]

@@ -7,4 +7,4 @@ created: 2022-08-13 09:16
 
 ---
 ## Min and max heap 
->![[Pasted image 20220614092249.png]]
+>![[Pasted image 20220614092249.png|450|450]]

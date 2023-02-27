@@ -216,8 +216,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataStructures/Heaps.md",
-                "mode": "source",
+                "file": "DataStructures/RadixTrees.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -350,7 +350,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataStructures/Heaps.md",
+                "file": "DataStructures/RadixTrees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -390,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/Heaps.md"
+                "file": "DataStructures/RadixTrees.md"
               }
             }
           }
@@ -414,7 +414,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/Heaps.md"
+                "file": "DataStructures/RadixTrees.md"
               }
             }
           },
@@ -440,7 +440,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataStructures/Heaps.md",
+                "file": "DataStructures/RadixTrees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -492,11 +492,18 @@
   },
   "active": "0ab1a4351d739f46",
   "lastOpenFiles": [
+    "DataStructures/CacheStructures/LRU.md",
+    "00-Main/2-Litnote.md",
+    "00-Main/1-Litnote.md",
+    "DataStructures/DataStorage&Retrieval.md",
+    "DataStructures/Heaps.md",
     "DataStructures/Graphs.md",
+    "DataStructures/sed33kt9o",
+    "DataStructures/sedit9HHx",
+    "DataStructures/sedcT4bEx",
     "DataStructures/sedmzHhFC",
     "DataStructures/DataStructures.md",
     "DataStructures/Abstract_data_types.md",
-    "DataStructures/CacheStructures/LRU.md",
     "DataStructures/CacheStructures/LFU.md",
     "Networking/Internet_protocols.md",
     "SoftwareDesign/HCI/Human_memory.md",
@@ -515,9 +522,6 @@
     "SoftwareDesign/Software_planning.md",
     "SoftwarePatterns/Design_patterns.md",
     "SoftwarePatterns/Behavioral/Command_pattern.md",
-    "SoftwarePatterns/Behavioral/Iterator_pattern.md",
-    "SoftwarePatterns/Behavioral/Observer_pattern.md",
-    "SoftwarePatterns/Behavioral/Visitor_pattern.md",
     "SoftwareEngineering/sedAM4RPw",
     "Networking/sedT9BOf8",
     "XX-Attachments/Images/Pasted image 20230225235345.png",
