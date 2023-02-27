@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "MachineLearning/Convolutional_networks.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "MachineLearning/Convolutional_networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md"
+                "file": "MachineLearning/Convolutional_networks.md"
               }
             }
           }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md"
+                "file": "MachineLearning/Convolutional_networks.md"
               }
             }
           },
@@ -190,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "MachineLearning/Convolutional_networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,32 +242,32 @@
   },
   "active": "1c45a99206507476",
   "lastOpenFiles": [
+    "MachineLearning/Regularization.md",
+    "MachineLearning/Machine_learning_notation.md",
+    "MachineLearning/Neural_networks.md",
+    "Databases/Database_normalisation.md",
+    "Networking/Routing_methods.md",
+    "MachineLearning/Statistical_modeling.md",
+    "MachineLearning/Detection_algorithms.md",
+    "MachineLearning/Linear_regression.md",
+    "MachineLearning/Logistic_regression.md",
+    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
+    "OperatingSystems/Virtualisation.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
     "Databases/Database_keys.md",
     "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
-    "OperatingSystems/Virtualisation.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "Networking/Internet_architecture.md",
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
     "Databases/Database_relations.md",
-    "Databases/Database_normalisation.md",
     "OperatingSystems/DigitalSystems/ASCII.md",
     "Networking/TransmissionProtocols/Transmission_protocols.md",
     "SoftwarePatterns/Behavioral/Command_pattern.md",
     "OperatingSystems/Error_codes.md",
     "Networking/Network_tools.md",
-    "Networking/Checksum.md",
-    "Networking/Network_architecture.md",
-    "Networking/Network_topology.md",
-    "Networking/Internet_protocols.md",
-    "OperatingSystems/Input&Output_systems.md",
-    "ProgramLanguages/HTML.md",
-    "DataStructures/Graphs.md",
-    "OperatingSystems/Paging.md",
-    "SoftwareDesign/SOLID_principles.md",
-    "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
     "XX-Attachments/Images/Pasted image 20230227165239.png",
     "XX-Attachments/Images/Pasted image 20230227165227.png",
     "XX-Attachments/Images/Pasted image 20230227164343.png",

@@ -27,6 +27,15 @@
         --text-title-h4: var(--purple);
         --text-title-h5: var(--green);
         --bold-color: var(--yellow);
+        --text-normal:                var(--light2);
+        --text-faint:                 var(--light0);
+        --text-muted:                 var(--light1);
+
+        --text-link:                  var(--frost0);
+        --text-a:                     var(--frost3);
+        --text-a-hover:               var(--frost2);
+        --text-mark:                  rgba(136, 192, 208, 0.3);
+
 
         --font-monospace: 'Jetbrains Mono', monospace;
 }
@@ -103,3 +112,11 @@ img {
         margin: 2px 0px 2px 0px !important;
         padding: 1px 0px 2px 0px !important;
 }
+
+.markdown-preview-view table {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+/* change highlight background */

@@ -19,8 +19,9 @@ ___
 - Routing method which divides data into small units called "packets" , packets use their [[Network_architecture#Network header|header]] information to be routed independently of each other
 - Packets are reassembled at the receiving end to form the original data. The [[Internet_architecture|Internet]] is  a packet-switched network, packets are sent from one device to another through routers.
 
-![[Pasted image 20230209174325.png|500|500]][[Network_architecture#Network criteria|Timeliness]] is important as packets are dropped if acknowledgement isn't received in time, 
+![[Pasted image 20230209174325.png|500|500]]
 
+- [[Network_architecture#Network criteria|Timeliness]] is important as packets are dropped if acknowledgement isn't received in time, 
 - Packet switching is a cost effective routing method, as dedicated channels are not needed for routing making the method ideal when traffic is unpredictable
 - Routers act as [[Graphs|nodes]] in the network, redirecting packets based on various factors such as network congestion and distance while reading the packets header metadata 
 

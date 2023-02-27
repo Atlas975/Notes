@@ -1,6 +1,7 @@
 ---
 aliases: [CNN]
 ---
+
 > [!important]- Metadata
 > **Tags:** #MediaEncoding #StatisticalLearning
 > **Located:** MachineLearning
@@ -31,11 +32,12 @@ ___
 - Generally while going deeper in a CNN, height and width tend to decline while number of channels increases
 
 > $$ n_{H},n_{W} \downarrow  \implies n_{C}\uparrow   $$
+
 # ResNets (residual networks)
 - Allows for activation's from one layer to be fed deeper into a network without going through intermediary layers. This allows for much deeper networks to be trained. Effectively allowing for multiple inputs in a single layer 
 - ResNets will typically use same convolutions to ensure the input and output have the same dimensions
 
-> $a^{l}\to a^{l+2}$
+> $$a^{l}\to a^{l+2}$$
 
 - This can be represented by
 

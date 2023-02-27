@@ -54,6 +54,6 @@ ___
 
 > $n=\text{image dimensions}$
 > $f=\text{filter(kernal) dimensions}$
-> $p=\text{padding dimensions}$
+>  $p=\text{padding dimensions}$
 > $s=\text{stride size}$
 > $n_{c}=\text{number of channels}$
