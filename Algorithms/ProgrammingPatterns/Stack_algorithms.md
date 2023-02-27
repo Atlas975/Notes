@@ -13,8 +13,8 @@
 > ```
 
 ___
-# Stack algorithms 
-## Valid parentheses 
+# Stack algorithms
+## Valid parentheses
 
 ```python
 def isValid(self, s: str) -> bool:
@@ -31,7 +31,7 @@ def isValid(self, s: str) -> bool:
     return not stack
 ```
 
-## Min stack 
+## Min stack
 ```rust
 struct MinStack {
     s: VecDeque<(i32, i32)>,
@@ -61,7 +61,7 @@ impl MinStack {
 }
 ```
 
-## Evaluate reverse polish notation 
+## Evaluate reverse polish notation
 
 ```python
 def evalRPN(self, tokens: List[str]) -> int:
@@ -81,7 +81,7 @@ def evalRPN(self, tokens: List[str]) -> int:
     return s.pop()
 ```
 
-## Generate parentheses 
+## Generate parentheses
 ```python
 def generateParenthesis(self, n: int) -> List[str]:
     def dfs(op, cl):
@@ -101,7 +101,7 @@ def generateParenthesis(self, n: int) -> List[str]:
     return res
 ```
 
-## Daily temperatures 
+## Daily temperatures
 ```python
 def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
     res = [0] * len(temperatures)
@@ -128,7 +128,7 @@ def carFleet(self, target, position, speed) -> int:
             stack.append((p, t))
     return len(stack)
 ```
-## Largest rectangle area is histogram 
+## Largest rectangle area is histogram
 
 ```python
 def largestRectangleArea(self, heights: List[int]) -> int:
