@@ -39,8 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Network_tools.md",
-                "mode": "source",
+                "file": "OperatingSystems/Caching.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -229,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Backtracking.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -363,7 +363,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Network_tools.md",
+                "file": "OperatingSystems/Caching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -403,7 +403,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_tools.md"
+                "file": "OperatingSystems/Caching.md"
               }
             }
           }
@@ -427,7 +427,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_tools.md"
+                "file": "OperatingSystems/Caching.md"
               }
             }
           },
@@ -453,7 +453,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Network_tools.md",
+                "file": "OperatingSystems/Caching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -505,15 +505,20 @@
   },
   "active": "9ef7b4e8e42e0119",
   "lastOpenFiles": [
-    "Networking/Network_topology.md",
+    "SoftwarePatterns/Behavioral/Observer_pattern.md",
+    "SoftwareDesign/SOLID_principles.md",
+    "SoftwareDesign/UML_diagrams.md",
+    "Algorithms/ProgrammingPatterns/Backtracking.md",
+    "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
+    "SoftwareDesign/Test_types.md",
+    "SoftwareDesign/BSPL.md",
     "Networking/Network_tools.md",
+    "Networking/Network_topology.md",
     "Networking/sedT9BOf8",
     "Networking/Network_architecture.md",
     "Algorithms/ProgrammingPatterns/Two_pointers.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
-    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
@@ -534,9 +539,6 @@
     "Networking/TransmissionProtocols/Hypertext_transfer_protocol.md",
     "Databases/Relational_algebra.md",
     "Networking/TransmissionProtocols/Domain_name_server.md",
-    "Networking/Internet_protocols.md",
-    "Networking/Checksum.md",
-    "Networking/Network_delay.md",
-    "OperatingSystems/Virtualisation.md"
+    "Networking/Internet_protocols.md"
   ]
 }

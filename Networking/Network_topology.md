@@ -25,7 +25,7 @@ ___
 - Low cost due to one connection, suited for temporary networks 
 - Poor fault tolerance and security due to being dependent on one medium
 
->![[Pasted image 20230225233858.png|450|450]]
+![[Pasted image 20230225233858.png|450|450]]
 
 ## Ring topology
 - Bus topology in a loop, data still flows in single direction but can fall victim to bottlenecks
@@ -48,4 +48,4 @@ ___
 - $n(n-1)$ number of edges required
 
 
-> ![[Pasted image 20230225235345.png|250|250]]
+![[Pasted image 20230225235345.png|250|250]]

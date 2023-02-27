@@ -63,7 +63,7 @@ Initiate {
 }
 ```
 
-> ![[Pasted image 20221115141615.png]] note the non deterministic arrival at seller
+![[Pasted image 20221115141615.png|550|550]] note the non deterministic arrival at seller
 
 ## Offer protocol
 ```rust
@@ -75,7 +75,7 @@ Offer {
 }
 ```
 
-> ![[Pasted image 20221115141517.png]]
+![[Pasted image 20221115141517.png|600|600]]
 
 ## Decide offer protocol
 - Accept and reject cannot both occur with same ID
@@ -92,7 +92,7 @@ DecideOffer {
 }
 ```
 
-> ![[Pasted image 20221115141736.png]]
+![[Pasted image 20221115141736.png|600|600]]
 
 ## Purchase protocol
 - Reject conflicts with accept on resp
@@ -113,7 +113,7 @@ Purchase {
 }
 ```
 
-> ![[Pasted image 20221115144216.png]] accept process on left, reject process on right
+![[Pasted image 20221115144216.png|600|600]] accept process on left, reject process on right
 
 - A protocol is live if any enactment including empty may progress to completion
 ## Polymorphic message
@@ -145,6 +145,8 @@ Flexible Purchase {
 }
 ```
 
-> all combinations valid ![[Pasted image 20221110132352.png]]
+- All of the following combinations are valid:
+
+![[Pasted image 20221110132352.png|600|600]]
 
 
