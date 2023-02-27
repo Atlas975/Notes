@@ -42,14 +42,14 @@ pub fn max_profit(prices: Vec<i32>) -> i32 {
 ## Length of longest substring
 ```rust
 pub fn length_of_longest_substring(s: String) -> i32 {
-    let mut seen = [usize::MAX; 128];
+    let mut seen = [None; 128];
     let (mut res, mut l) = (0, 0);
 
     for (r, c) in s.bytes().map(|c| c as usize).enumerate() {
-        if seen[c] != usize::MAX {
-            l = l.max(seen[c] + 1);
+        if let Some(i) = seen[c] {
+            l = l.max(i + 1);
         }
-        seen[c] = r;
+        seen[c] = Some(r);
         res = res.max(r - l + 1);
     }
     res as i32
