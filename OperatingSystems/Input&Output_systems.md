@@ -21,7 +21,7 @@ ___
 - Allows attachment of data into and out of a machine.
 - I/O layout:
 
-> ![[Pasted image 20211119220139.png|450|450]]
+> ![[Pasted image 20211119220139.png|350|350]]
 
 # Interrupts
 - Alternative to **polling** which involves the code spinning whilst awaiting a status change on a busy flag. this method makes it difficult to interleave useful code and is also known as **synchronous I/O**
@@ -67,13 +67,13 @@ ___
 - This handles several interrupts at once, sending a single electrical signal allowing the CPU to have a single interrupt line for a group of interrupts
 - The Interrupt handler is able to communicate with the PIC to query the individual interrupt line responsible
 
-> ![[Pasted image 20221206154423.png||]]
+> ![[Pasted image 20221206154423.png|550|550]]
 
 ## Interrupt vector
 - A memory address where the computer expects to find an interrupt service routine (ISR)
 - Interrupts are typically disabled on entry to the ISR, an interrupt like a power failure would be high priority, immediately allocating resources to preparing for recovery
 
-> ![[Pasted image 20211130113054.png]]
+> ![[Pasted image 20211130113054.png|500|500]]
 
 - Interrupt priorities:
   - Higher priority: eg. network interference
@@ -82,14 +82,14 @@ ___
 - High priority interrupts are not maskable and take priority over the current process
 - Interrupts themselves may be interrupted resulting in nested interrupts,  example application view of interrupts
 
-> ![[Pasted image 20221206154634.png]]
+> ![[Pasted image 20221206154634.png|500|500]]
 
 ## Interrupt mechanisms
 - Interrupts can be sent by device connected via wire or by a message requested through an intelligent bus
 - **Exceptions** which can encompass multiple errors at once are a response to an internal processor problem, calling the appropriate interrupt to respond to the exception
 - Software interrupts are a mechanism where a particular instruction exists that invokes the same interrupt mechanism. Good way of transferring execution to a known piece of code
 
-> ![[Pasted image 20221207142225.png|450]]
+> ![[Pasted image 20221207142225.png|450|450]]
 
 - Interrupts are required to be handled, if no ISR exists for an interrupt, the processor raises the **double fault** interrupt, attempting to recover from the unknown state ie blue screen of death which dumps out debugging information to trace the problematic interrupt
 - If double fault isn't handled, processor **triple faults** forcing machine to restart
@@ -147,12 +147,12 @@ ___
 - Dedicated instructions for I/O, acts as a separate memory bus
 - This means no special hardware requirements or special chips to attach to memory bus
 
-> ![[Pasted image 20221127155307.png|600]]
+> ![[Pasted image 20221127155307.png|450|450]]
 
 - Best suited for simple devices as classifying devices through abstraction doesn't help much when using limited instructions.
 - A common data bus can be used but a control line is also needed to distinguish between read/write
 
-> ![[Pasted image 20211119225107.png|400|400]]
+> ![[Pasted image 20211119225107.png|250|250]]
 
 - Since memory bus is in separate address space, this is not going to be understood by traditional higher level languages
 - Special processor instructions needed to access these devices, this means routines need to be written in **assembler**
@@ -160,7 +160,7 @@ ___
 - Alternative to programmed I/O , relieving CPU of data transfer
 - DMA devices have their own internal processor letting them directly access a computers memory and decouple this process from the CPU
 
-> ![[Pasted image 20221127163035.png|600]]
+> ![[Pasted image 20221127163035.png|400|400]]
 
 - The computers processor determines how much data is to be transferred
 - This requires dual port memory, making the device complex and expensive
@@ -168,7 +168,7 @@ ___
 - Information to and from devices is managed by circular queues of messages
 - Status register holds info on device readiness and data availability
 
-> ![[Pasted image 20221127162710.png|500]]
+> ![[Pasted image 20221127162710.png|450|450]]
 
 # Program level I/O
 - Unix uses an abstract device that does not need to know what kind of device its communicating with.

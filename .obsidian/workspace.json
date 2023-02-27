@@ -34,19 +34,6 @@
             }
           },
           {
-            "id": "9ef7b4e8e42e0119",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/Input&Output_systems.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d4539c5efd6fd5ae",
             "type": "leaf",
             "state": {
@@ -229,8 +216,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Backtracking.md",
-                "mode": "preview",
+                "file": "DataStructures/Heaps.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -318,7 +305,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -363,7 +350,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Input&Output_systems.md",
+                "file": "DataStructures/Heaps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -403,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Input&Output_systems.md"
+                "file": "DataStructures/Heaps.md"
               }
             }
           }
@@ -427,7 +414,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Input&Output_systems.md"
+                "file": "DataStructures/Heaps.md"
               }
             }
           },
@@ -453,7 +440,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Input&Output_systems.md",
+                "file": "DataStructures/Heaps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -503,9 +490,24 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "9ef7b4e8e42e0119",
+  "active": "0ab1a4351d739f46",
   "lastOpenFiles": [
+    "DataStructures/Graphs.md",
+    "DataStructures/sedmzHhFC",
+    "DataStructures/DataStructures.md",
+    "DataStructures/Abstract_data_types.md",
+    "DataStructures/CacheStructures/LRU.md",
+    "DataStructures/CacheStructures/LFU.md",
+    "Networking/Internet_protocols.md",
+    "SoftwareDesign/HCI/Human_memory.md",
+    "SoftwareDesign/HCI/Human_perception.md",
+    "OperatingSystems/Computer_memory.md",
+    "OperatingSystems/Linux_permissions.md",
+    "OperatingSystems/Operating_system_design.md",
+    "OperatingSystems/Multi-Process_systems.md",
+    "OperatingSystems/Page_replacement.md",
     "OperatingSystems/Error_codes.md",
+    "OperatingSystems/Input&Output_systems.md",
     "OperatingSystems/Caching.md",
     "ProgramLanguages/Regex.md",
     "ProgramLanguages/R_language.md",
@@ -516,22 +518,7 @@
     "SoftwarePatterns/Behavioral/Iterator_pattern.md",
     "SoftwarePatterns/Behavioral/Observer_pattern.md",
     "SoftwarePatterns/Behavioral/Visitor_pattern.md",
-    "SoftwarePatterns/Creational/Builder_pattern.md",
-    "SoftwareEngineering/Concurrency.md",
-    "SoftwareEngineering/Thread_types.md",
-    "SoftwareEngineering/Recursion.md",
-    "SoftwareEngineering/Programming_paradigms.md",
-    "SoftwareEngineering/OOP_principles.md",
-    "SoftwareEngineering/Functional_programming.md",
     "SoftwareEngineering/sedAM4RPw",
-    "ProgramLanguages/Rust/Rust_language.md",
-    "Networking/Network_tools.md",
-    "Networking/Communication_architecture.md",
-    "Networking/Internet_architecture.md",
-    "OperatingSystems/Virtualisation.md",
-    "OperatingSystems/Processors.md",
-    "OperatingSystems/Operating_system_design.md",
-    "SoftwareDesign/SOLID_principles.md",
     "Networking/sedT9BOf8",
     "XX-Attachments/Images/Pasted image 20230225235345.png",
     "XX-Attachments/Images/Pasted image 20230225235036.png",

@@ -15,7 +15,7 @@
 ___
 # Computer memory
 
-> ![[Pasted image 20211116110439.png|600]]
+> ![[Pasted image 20211116110439.png|450|450]]
 
 ## Primary memory
 - **Volatile memory**
