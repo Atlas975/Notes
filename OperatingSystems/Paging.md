@@ -59,6 +59,7 @@ ___
 
 >$$\text{EAT}= (1-P) * \text{memory access} + (P*\text{page fault overhead})$$
 >$$P = \mathbb{P}\text{(page fault)}$$
+
 ![[Pasted image 20221216111909.png|450|450]]
 
 ## Hierarchical / Multi-level paging
@@ -133,7 +134,7 @@ ___
 - Early versions of process fork() cloned a parent process and then proceeded to replace that memory with code and data corresponding to the new process, this is wasteful work
 - Paging allows replicating page tables mapped to logical and physical addresses that the parent process originally had, the child process is able to see the same memory as the parent 
 
-![[Pasted image 20221213020234.png|250]]initial parent state 
+![[Pasted image 20221213020234.png|250]] 
 
 - All pages need to be marked as read-only when a child is created, this is to avoid corrupting memory for other processes 
 

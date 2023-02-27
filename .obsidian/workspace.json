@@ -198,19 +198,6 @@
             }
           },
           {
-            "id": "b8b0d78ebdf58892",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Relational_algebra.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "cd2150d358fe386d",
             "type": "leaf",
             "state": {
@@ -290,9 +277,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1f8807fc3ea57879",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DataStructures/Graphs.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5ae9de29b979aee1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/Paging.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 15
+        "currentTab": 23
       }
     ],
     "direction": "vertical"
@@ -337,7 +350,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Relational_algebra.md",
+                "file": "OperatingSystems/Paging.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -377,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Relational_algebra.md"
+                "file": "OperatingSystems/Paging.md"
               }
             }
           }
@@ -401,7 +414,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Relational_algebra.md"
+                "file": "OperatingSystems/Paging.md"
               }
             }
           },
@@ -427,7 +440,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Relational_algebra.md",
+                "file": "OperatingSystems/Paging.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -477,8 +490,12 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "b8b0d78ebdf58892",
+  "active": "5ae9de29b979aee1",
   "lastOpenFiles": [
+    "DataStructures/Graphs.md",
+    "ProgramLanguages/HTML.md",
+    "Networking/Network_topology.md",
+    "Databases/Relational_algebra.md",
     "Databases/Database_systems.md",
     "Databases/Database_relations.md",
     "Databases/Database_normalisation.md",
@@ -488,7 +505,6 @@
     "00-Main/2-Litnote.md",
     "DataStructures/Abstract_data_types.md",
     "DataStructures/DataStorage&Retrieval.md",
-    "DataStructures/Graphs.md",
     "DataStructures/Hashing.md",
     "DataStructures/Heaps.md",
     "DataStructures/RadixTrees.md",
@@ -502,9 +518,6 @@
     "Economics/Consumer_theory.md",
     "Networking/Transmission_mediums.md",
     "Networking/Routing_methods.md",
-    "Networking/Network_topology.md",
-    "Networking/Internet_protocols.md",
-    "SoftwareEngineering/Programming_paradigms.md",
     "ProgramLanguages/Python/sed7keQGo",
     "DataStructures/sedMJAJlj",
     "DataStructures/sed33kt9o",
