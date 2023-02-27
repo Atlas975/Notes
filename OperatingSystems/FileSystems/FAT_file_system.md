@@ -21,7 +21,7 @@ ___
 - [[Linked_list_algorithms|Linked list]] allocation scheme, only sequential access is allowed
 - This avoids **external fragmentation** as blocks no longer need to be continuous, internal fragmentation is confined only to the last block, sequential access to blocks only
 
-> ![[Pasted image 20221209121034.png|500]]
+![[Pasted image 20221209121034.png|500]]
 ## File allocation table
 - FAT systems get around the speed penalty of only sequential access by having separate pointers for data blocks, allowing fast access of any block. This is known as the file allocation table (FAT)
 - Multiple copies of this are usually kept in case of corruption to recover structure, the FAT also needs to be small enough to be stored in memory for fast access. Avoiding having to perform disk access for each traversal

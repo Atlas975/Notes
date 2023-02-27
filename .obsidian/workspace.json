@@ -203,7 +203,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/Computer_architecture.md",
+                "file": "DataStructures/CacheStructures/LRU.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -337,7 +337,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/Computer_architecture.md",
+                "file": "DataStructures/CacheStructures/LRU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -377,7 +377,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/Computer_architecture.md"
+                "file": "DataStructures/CacheStructures/LRU.md"
               }
             }
           }
@@ -401,7 +401,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/Computer_architecture.md"
+                "file": "DataStructures/CacheStructures/LRU.md"
               }
             }
           },
@@ -427,7 +427,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/Computer_architecture.md",
+                "file": "DataStructures/CacheStructures/LRU.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -479,10 +479,20 @@
   },
   "active": "b8b0d78ebdf58892",
   "lastOpenFiles": [
+    "OperatingSystems/DigitalSystems/DigitalSystem_design.md",
+    "OperatingSystems/DigitalSystems/Data_encoding.md",
+    "OperatingSystems/DigitalSystems/Bitwise_arithmatic.md",
     "OperatingSystems/DigitalSystems/ASCII.md",
-    "OperatingSystems/Computer_memory.md",
-    "OperatingSystems/Error_codes.md",
     "OperatingSystems/Caching.md",
+    "OperatingSystems/Linux_permissions.md",
+    "OperatingSystems/Multi-Process_systems.md",
+    "OperatingSystems/Page_replacement.md",
+    "OperatingSystems/Virtualisation.md",
+    "OperatingSystems/Processors.md",
+    "OperatingSystems/Input&Output_systems.md",
+    "OperatingSystems/Error_codes.md",
+    "OperatingSystems/Computer_memory.md",
+    "OperatingSystems/DigitalSystems/Computer_architecture.md",
     "DataStructures/Trees.md",
     "DataStructures/Sets.md",
     "DataStructures/sedMJAJlj",
@@ -500,16 +510,6 @@
     "DataStructures/sedmzHhFC",
     "DataStructures/DataStructures.md",
     "DataStructures/Abstract_data_types.md",
-    "DataStructures/CacheStructures/LFU.md",
-    "Networking/Internet_protocols.md",
-    "SoftwareDesign/HCI/Human_memory.md",
-    "SoftwareDesign/HCI/Human_perception.md",
-    "OperatingSystems/Linux_permissions.md",
-    "OperatingSystems/Operating_system_design.md",
-    "OperatingSystems/Multi-Process_systems.md",
-    "OperatingSystems/Page_replacement.md",
-    "OperatingSystems/Input&Output_systems.md",
-    "ProgramLanguages/Regex.md",
     "SoftwareEngineering/sedAM4RPw",
     "Networking/sedT9BOf8",
     "XX-Attachments/Images/Pasted image 20230225235345.png",

@@ -15,7 +15,7 @@
 ___
 # Computer memory
 
-> ![[Pasted image 20211116110439.png|450|450]]
+![[Pasted image 20211116110439.png|450|450]]
 
 ## Primary memory
 - **Volatile memory**
@@ -49,12 +49,12 @@ ___
 # Data standards
 ## Data scale
 
-> ![[Pasted image 20220607213658.png|600]]
+![[Pasted image 20220607213658.png|600]]
 
 ## Byte ordering in multi-byte words
 - [[Bitwise_arithmatic|Multi-byte words (eg 8*4=32 bits)]] can be organised in different ways.
 
-> ![[Pasted image 20211110124619.png]]
+![[Pasted image 20211110124619.png|450|450]]
 
 - This needs to be accounted for when performing operation on words or when transferring from one Endian to another.
 ### Big-endian
@@ -64,7 +64,7 @@ ___
 
 ## Data type sizes
 
-> ![[Pasted image 20220607214052.png|500]]
+![[Pasted image 20220607214052.png|500]]
 
 note that null terminated languages like c will allocate an additional byte for strings to include a null character
 ## Data alignment
@@ -80,7 +80,7 @@ struct student {  // struct is 16 bytes (8 byte alligned)
 };
 ```
 
-> ![[Pasted image 20220608082511.png]]
+![[Pasted image 20220608082511.png|450|450]]
 
 - A **double** will be 8-byte aligned on Windows and 4-byte aligned on Linux (8-byte with _-malign-double_ compile time option).
 - Any **pointer** (eight bytes) will be 8-byte aligned. (e.g.: char*, int*) ( 64 bit systems)
@@ -94,13 +94,13 @@ struct student {  // struct is 12 bytes (allignment disabled)
 } __attribute__((packed));
 ```
 
-> ![[Pasted image 20220608082333.png]]
+![[Pasted image 20220608082333.png|450|450]]
 
 # Memory distribution
 - When a program is loaded it can be taught of as having two sections, **data & instructions**
 - Program memory consists of the stack, heap, static data and code, each of which handles different components of a program. Variables can be of global, local or pointer
 
-> ![[Pasted image 20211216140228.png|500]]
+![[Pasted image 20211216140228.png|500]]
 
 1. **Stack** function parameters, local variables
 2. **Heap** dynamically allocated memory
@@ -109,7 +109,7 @@ struct student {  // struct is 12 bytes (allignment disabled)
 
 - Mapped example
 
-> ![[Pasted image 20221124235515.png|500]]
+![[Pasted image 20221124235515.png|500]]
 
 - The process stack is a common way of implementing function call, parameters and return addresses are placed on stack before call
 - Heap is typically used for data that persists over time such as dynamic structures
@@ -202,25 +202,25 @@ int main()
 - Pointer remains and can ONLY be deallocated with **free()**
 - Malloc will add metadata to the front of a memory block and keep the rest of the space as free memory
 
-> ![[Pasted image 20221125114525.png|500]]
+![[Pasted image 20221125114525.png|500]]
 
 free used as an address for pointers, length tells us the amount of memory there, prev & next allows for a chain to be created
 
-> ![[Pasted image 20221125114807.png|500]]
+![[Pasted image 20221125114807.png|500]]
 
 - Overwriting means risking reading metadata for the next block
 - Example of free, moves pointers and destroys metadata:
 
-> ![[Pasted image 20221125115151.png|500]]
+![[Pasted image 20221125115151.png|500]]
 
 - Alternative Malloc implementation, length indicator tells us if the block is used, plen gives the length of the previous block, also indicating if the block is free.
 - This helps with coalescing memory, pointers are only needed for free areas
 
-> ![[Pasted image 20221125121126.png|500]]
+![[Pasted image 20221125121126.png|500]]
 
 - Malloc also uses a sharding like approach to retrieving memory with multiple (typically 128) free lists for useful sizes eg 2,4,8 bytes. Similar sized allocations are grouped on each disk for efficient searching.
 
-> ![[Pasted image 20221125153855.png|500]]
+![[Pasted image 20221125153855.png|500]]
 
 ## Sbrk
 - When Malloc needs additional memory **sbrk()** is called, a function which manages memory at the stop of the heap
@@ -234,7 +234,7 @@ free used as an address for pointers, length tells us the amount of memory there
 # Fixed and variable memory allocation
 - Fixed memory allocation only allocates the amount of memory requested, doing this requires searching for a free area that meets the needs of that memory allocation request and returning unused memory to the free list.
 
-> ![[Pasted image 20221125235942.png]]
+![[Pasted image 20221125235942.png|450|450]]
 
 - Memory freed by doing this cannot be joined across different requests, resulting in a buildup of small individual free blocks of the same size. 
 - There's a chance the application won't ask for memory that fits in these smaller blocks resulting in **fragmentation**
@@ -257,53 +257,53 @@ free used as an address for pointers, length tells us the amount of memory there
 	- Memory word / cache alignment 
 	- Inter-object guard preventing memory overruns 
 
-> ![[Pasted image 20221126233115.png|500]]
+![[Pasted image 20221126233115.png|500]]
 
 # Buddy allocation
 - Method of guaranteeing **continuous memory allocation**, useful for linked data structures 
 - This results in blocks / pages that are adjacent in memory 
 - Each buddy has 2n bytes, the parent of each block needs to be remembered
 
-> ![[Pasted image 20221126002506.png|350]]
+![[Pasted image 20221126002506.png|350]]
 
 - Buddies can be combined, reforming the original pair into a larger block, buddies always come from the same parent
 - This is useful for allocating memory, as free regions can repeatedly be split until the right sized block is created while still being able to easily rejoin 
 
-> ![[Pasted image 20221126231350.png|450]]
+![[Pasted image 20221126231350.png|450]]
 
 - Note that allocating across buddies for a single request is not allowed, a 512 byte block cannot be allocated alonside a 2K byte block
 
-> ![[Pasted image 20221126231842.png|450]]
+![[Pasted image 20221126231842.png|450]]
 > blue areas between indicate fragmentation 
 
 ## Buddy freeing
 - Blocks from different parents cannot be coalesced, this also requires all leaf nodes to be freed before a join can occur for a parent level
 
-> ![[Pasted image 20221126232253.png|450]]
+![[Pasted image 20221126232253.png|450]]
 
 # Consecutive memory mapping
 ## Row Major mapping:
 - Memory is linear, for 2D arrays this means that an array is completed before the next array is stored
 
-> ![[Pasted image 20211216140607.png|400|400]]
-> ![[Pasted image 20211216140725.png|300|300]]
+![[Pasted image 20211216140607.png|400|400]]
+![[Pasted image 20211216140725.png|300|300]]
 
 ## Linked mapping
 - A header array holds pointers to all individual rows
 - Does not involve multiplication for direct access, making access faster
 - Extra space is needed for mapping
 
-> ![[Pasted image 20211216150411.png|300|300]]
+![[Pasted image 20211216150411.png|300|300]]
 
 - For 3D arrays
 
-> ![[Pasted image 20211216150601.png|300|300]]
+![[Pasted image 20211216150601.png|300|300]]
 
 # Memory protection
 - Processes need to be protected from each other through memory protection 
 - All processes require some concept of a **base** and a **limit** which need to be set to define it's address space. This is essential to avoid the corruption of other processes or overwriting critical Kernel / OS memory space
 
-> ![[Pasted image 20221212140135.png|400]]
+![[Pasted image 20221212140135.png|400]]
 
 ## Memory management unit (MMU)
 - Processes still expect zero-based addresses, note that process addresses are non-deterministic on each run.
@@ -319,12 +319,12 @@ free used as an address for pointers, length tells us the amount of memory there
 ## Segmentation
 - A number of elements may exist in a process, each process may consist of multiple individual segments. Segmentation provides a way to have different permission over different individual parts of a process. eg execute permission for code but not data segment 
 
-> ![[Pasted image 20221212143751.png|300]]
+![[Pasted image 20221212143751.png|300]]
 
 - Works the same as base & limit, but instead of being per-process has an extended table of broken up logical elements known as segments with memory metadata stored in a segment descriptor table
 
-> ![[Pasted image 20221212145039.png|450]]
+![[Pasted image 20221212145039.png|450]]
 
 - Example segment jump:
 
-> ![[Pasted image 20221212145251.png|400]]
+![[Pasted image 20221212145251.png|400]]

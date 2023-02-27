@@ -1,7 +1,7 @@
 #OperatingSystems 
 # Bitwise operators
 
->![[Pasted image 20220618160514.png|450|450]]
+![[Pasted image 20220618160514.png|450|450]]
 
 
 ``` 

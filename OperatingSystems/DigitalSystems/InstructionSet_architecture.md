@@ -28,12 +28,12 @@ where contains(this.file.inlinks, file.link)
 - Uses stack operations (push/pop)
 
 # MIPS arithmetic and logic instructions
->![[Pasted image 20211102142155.png]]
+![[Pasted image 20211102142155.png|450|450]]
 
 # MIPS data-transfer instructions
->![[Pasted image 20211102142559.png]]
+![[Pasted image 20211102142559.png|450|450]]
 # MIPS control-transfer instructions
->![[Pasted image 20211103000137.png]]
+![[Pasted image 20211103000137.png|450|450]]
 
 # MIPS properties
 ## Resistors
@@ -42,16 +42,16 @@ where contains(this.file.inlinks, file.link)
 - General purpose registers handle arithmetic and logic instructions. 
 ## Subroutines
 - AKA functions, when using these control needs to be transferred to the function and back
->![[Pasted image 20211103002059.png]]
+![[Pasted image 20211103002059.png|450|450]]
 - When a function is called the program counter remembers current address (return), jumps to the subroutine and then back to the return address.
 - MIPS's jal function does this (jump and link) with jr being used to return.
 # Instruction encoding
 - example:
 > add $2, $4, $2
-![[Pasted image 20211102143133.png]]
+![[Pasted image 20211102143133.png|450|450]]
 
 # Core CPU uses
-> ![[Pasted image 20211102143456.png|400|400]]
+![[Pasted image 20211102143456.png|400|400]]
 
 
 
@@ -59,8 +59,8 @@ where contains(this.file.inlinks, file.link)
 - Allows assembly code to be invoked through C
 - Some common reasons for this include
 
-> ![[Pasted image 20220503142936.png]]
+![[Pasted image 20220503142936.png|450|450]]
 - This is done through the asm() keyword
 
 ## x86 assembly 
->![[Pasted image 20220503143532.png]]
+![[Pasted image 20220503143532.png|450|450]]

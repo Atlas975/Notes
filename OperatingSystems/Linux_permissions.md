@@ -41,12 +41,12 @@ chmod permissions filename
   • The write (w) permission allows owner to add or remove files\
   • The execute (x) permission allows owner to access files
 
-> ![[Pasted image 20220811203106.png|550|550]]
-> ![[Pasted image 20220811203131.png|550|550]]
-> ![[Pasted image 20220811185419.png|350|350]]![[Pasted image 20220811215057.png|450|450]]
+![[Pasted image 20220811203106.png|550|550]]
+![[Pasted image 20220811203131.png|550|550]]
+![[Pasted image 20220811185419.png|350|350]]![[Pasted image 20220811215057.png|450|450]]
 ## Absolute mode
-> Numeric permissions:
-> ![[Pasted image 20220811202726.png|550|550]]
+- Permissions can also be handled numerically: 
+![[Pasted image 20220811202726.png|550|550]]
 
 ```ad-example
 ‘764’ absolute code says the following:
@@ -55,4 +55,3 @@ chmod permissions filename
 -   Usergroup can read and write
 -   World can only read
 ```
-

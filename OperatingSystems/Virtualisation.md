@@ -74,7 +74,7 @@ ___
 - In a virtual OS, page tables for the guest OS sit on top of page tables for the host OS in a nested structure 
 - MMUs and processors may support [[Paging#Hierarchical / Multi-level paging|multilevel hierarchies ]] that expands upon the two level paging hierarchy in the host OS to remove the need for nesting
 
-![[Pasted image 20230116191712.png]]
+![[Pasted image 20230116191712.png|450|450]]
 
 ## I/O Virtualisation
 - [[Input&Output_systems|I/O]]  in virtualisation won't have direct access to hardware, but methods exist for multiple virtual machines to share a single physical I/O device 

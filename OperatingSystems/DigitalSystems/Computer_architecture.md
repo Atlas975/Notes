@@ -19,16 +19,16 @@ ___
 - Describes the aspects of hardware required for a computer system to operate.
 # Von Neumman architecture 
 - Largely what modern computers are based on.
-> ![[Pasted image 20211030190435.png|500|300]]
+![[Pasted image 20211030190435.png|500|300]]
 - Alternatives may include cache memory as well
-> ![[Pasted image 20211030190812.png|500|300]]
+![[Pasted image 20211030190812.png|500|300]]
 ## Cache memory
 - High speed memory stored near/in CPU containing frequently used data
 - Faster to access than RAM resulting in it being accessed less.
 ## Registers
 - Small high-speed pieces of memory in the CPU that hold data being worked on. 
 # Modern PC architecture 
-> ![[Pasted image 20211030191111.png|500|500]]
+![[Pasted image 20211030191111.png|500|500]]
 
 # Metrics of computer speed
 - Clock rate: how frequently a processor generates pulses. Not a good metric, different instructions require different tick amounts.
@@ -46,7 +46,7 @@ ___
 ## Solutions to speed limiting factors
 - Multi-core processors
 
-> ![[Pasted image 20211031003159.png|500|500]]
+![[Pasted image 20211031003159.png|500|500]]
 
 - Clustering: linking multiple computers together using high speed networks.
 
@@ -69,7 +69,7 @@ ___
 - It is controlled by the clock which gives timed electrical pulses / ticks
 ## Controlling the CU
 - Simplified execution of a single instruction:
->![[Pasted image 20211117195922.png]]
+![[Pasted image 20211117195922.png|450|450]]
 
 # Types of registers
 ## Instruction register (IR)
@@ -80,12 +80,12 @@ ___
 - Holds data entering/leaving the memory
 
 # Reading content indicated by MAR into MDR
->![[Pasted image 20211117201133.png]]
->![[Pasted image 20211117201205.png]]
+![[Pasted image 20211117201133.png|450|450]]
+![[Pasted image 20211117201205.png|450|450]]
 
 # Fetch-Decode-Execute cycle traced
-> ![[Pasted image 20211117201703.png]]
-> ![[Pasted image 20211117201938.png]]
+![[Pasted image 20211117201703.png|450|450]]
+![[Pasted image 20211117201938.png|450|450]]
 
 # Control unit types
 - There are two types of control units:
@@ -94,9 +94,9 @@ ___
 # Pipelining
 - Way to speed up FDE cycle, executes more than 1 instruction at the same time. Splits each instruction into several simpler stages, each of which is executed in one clock cycle, instructions at different stages are fed through overlapped, increasing overall throughput
 - Each instruction takes several cycles to pass through the pipeline completely, keeping overall instruction execution time the same.
->![[Pasted image 20211117202947.png]]
+![[Pasted image 20211117202947.png|450|450]]
 - Allows more than one instruction to be executed at the same time.
->![[Pasted image 20211117203157.png]]
+![[Pasted image 20211117203157.png|450|450]]
 - In this case 4 instructions will be executed at the same time, with each instruction being in a different stage.
 ## Pipeline hazards
 - Control hazards: an instruction changes the flow of execution. Not being executed in the sequence it's supposed to.

@@ -15,7 +15,7 @@
 ___
 # ASCII
 
-> ![[Pasted image 20230204131428.png|450|450]]
+![[Pasted image 20230204131428.png|450|450]]
 - Character encoding standard, assigns a unique number (code point) to various characters
 - Standard ASCII defines 128 characters using 7 bits with similar characters grouped together and ordered in a way that's easy to manipulate in software
 ## ASCII control characters
