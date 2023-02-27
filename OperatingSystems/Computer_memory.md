@@ -234,7 +234,7 @@ free used as an address for pointers, length tells us the amount of memory there
 # Fixed and variable memory allocation
 - Fixed memory allocation only allocates the amount of memory requested, doing this requires searching for a free area that meets the needs of that memory allocation request and returning unused memory to the free list.
 
-![[Pasted image 20221125235942.png|450|450]]
+![[Pasted image 20221125235942.png|150|150]]
 
 - Memory freed by doing this cannot be joined across different requests, resulting in a buildup of small individual free blocks of the same size. 
 - There's a chance the application won't ask for memory that fits in these smaller blocks resulting in **fragmentation**
@@ -242,8 +242,8 @@ free used as an address for pointers, length tells us the amount of memory there
 - With no knowledge of what the application is doing and where pointers to free memory are, defragmentation can become a challenge without an additional structure imposed 
 ## Dynamic storage allocation schemes
 - **First fit / next fit**: always allocate first region of sufficient size (fast)
-- **Best fit**: search for and allocate smallest memory hole of sufficient size
 - **Worst fit**: allocate largest memory hole of sufficient size, optimal to avoid fragmentation 
+- **Best fit**: search for and allocate smallest memory hole of sufficient size
 ## External vs internal fragmentation
 - Dynamic allocation schemes are an example of **external fragmentation**, where request amount of memory is allocated and fragmentation takes place outside / between memory that's already been allocated
 - This can result in a lack of continuous memory due to scattered small memory chunks that cannot be merged to fill a memory allocation request 
@@ -274,7 +274,8 @@ free used as an address for pointers, length tells us the amount of memory there
 - Note that allocating across buddies for a single request is not allowed, a 512 byte block cannot be allocated alonside a 2K byte block
 
 ![[Pasted image 20221126231842.png|450]]
-> blue areas between indicate fragmentation 
+
+- Blue areas in-between indicate fragmentation 
 
 ## Buddy freeing
 - Blocks from different parents cannot be coalesced, this also requires all leaf nodes to be freed before a join can occur for a parent level
@@ -282,7 +283,7 @@ free used as an address for pointers, length tells us the amount of memory there
 ![[Pasted image 20221126232253.png|450]]
 
 # Consecutive memory mapping
-## Row Major mapping:
+## Row Major mapping
 - Memory is linear, for 2D arrays this means that an array is completed before the next array is stored
 
 ![[Pasted image 20211216140607.png|400|400]]
@@ -312,8 +313,11 @@ free used as an address for pointers, length tells us the amount of memory there
 	- Have relative base addresses for each process at zero
 - Ideally addresses would be dynamically re-mapped, this can be handled by having a **logical address** used in code (0-indexed) and a **physical address** where data is actually stored, this is what actually varies at runtime.
 
->$$\text{base}+\text{logical address}=\text{physical address}$$![[Pasted image 20221212142949.png|400]]a check is done to see if an address is within memory bounds before adding the base and mapping to physical memory space
+>$$\text{base}+\text{logical address}=\text{physical address}$$
 
+![[Pasted image 20221212142949.png|400]]
+
+- A check is done to see if an address is within memory bounds before adding the base and mapping to physical memory space
 - This processes is handled internally by the memory management unit (**MMU**), contains mappings for each process and the logic that performs the check to see if an address is valid
 
 ## Segmentation

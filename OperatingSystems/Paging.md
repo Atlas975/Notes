@@ -27,8 +27,8 @@ ___
 	- **Frame**: physical block in memory
 	- Page size = frame size, this is always the case
 
-![[Pasted image 20221212211502.png|650|650]]inv stands for invalid bit and acts as an indicator that the frame is in virtual memory, this is also known as a **page fault**
-
+![[Pasted image 20221212211502.png|550|550]]
+- inv stands for invalid bit and acts as an indicator that the frame is in virtual memory, this is also known as a **page fault**
 - unlike segmentation, no addition goes on internally, the page is instead mapped to its respective frame directly  
 - This is an advantage as while a process can be taught of as a set of memory, instead of having a constrained limit, a process can extend the whole of working memory.
 
@@ -52,7 +52,7 @@ ___
 - When a desired page in a page table is present in secondary storage / virtual memory instead of primary memory 
 - When this occurs, a page trap / interrupt signal is generated. This is a high priority interrupt. An OS retrieves a free frame through the following process:
 
-![[Pasted image 20221213081845.png|700|675]]
+![[Pasted image 20221213081845.png|550|550]]
 
 - Once a frame number is retrieved and cached in the page table, this process does not need to be run again.
 - The **effective access time** (EAT) of a paging scheme is: 
@@ -72,7 +72,9 @@ ___
 - This minimises the amount of memory that needs to be kept in RAM to access all of a processes data
 
 ![[Pasted image 20221212214835.png|450]]
-> upper bits act as an index to page directory, much more efficient in memory storage 
+
+- upper bits act as an index to page directory, much more efficient in memory storage 
+
 ![[Pasted image 20221212215411.png|450]]
 
 - One solution to avoid deeply nested structures is to increase page size. Some processors are also able to have a mixture of page sizes 
@@ -106,7 +108,9 @@ ___
 - Paging can be utilized as a way to create shared memory between processes
 - Useful for shared libraries such as standard OS or math libs
 
-![[Pasted image 20221212224501.png|450|450]]the metadata in each process is used by the loader to ensure any requested libraries already exists in memory
+![[Pasted image 20221212224501.png|450|450]]
+
+- the metadata in each process is used by the loader to ensure any requested libraries already exists in memory
 
 - Example of shared library execution:
 
@@ -165,4 +169,3 @@ ___
 - The process can then be restarted and the process will be able to access the appropriate page in [[Computer_memory#Swap space|swap space]]
 
 ![[Pasted image 20221216123136.png|450|450]]
-
