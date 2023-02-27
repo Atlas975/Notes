@@ -26,83 +26,83 @@ ___
 - No multi-valued attributes, each attribute should have a single value that cannot be decomposed further
 - The values in each column should also obey [[Database_constraints#Domain constraints|domain constraints]]
 
-> **Problem:**
-> 
-> | staff_num | staff_name    | staff_email |
-| --------- | ------------- | ----- |
-| 123       | John Doe      | [john.doe@domain.com](mailto:john.doe@domain.com)[,jdoe@ajob.org](mailto:,jdoe@ajob.org)     |
-| 456       | Emily Doe      | [jane@domain.com](mailto:jane@domain.com)[,jane@anemployer.net](mailto:,jane@anemployer.net) |
-| 789       | Robert Tables | [littlebobbytables@domain.com](mailto:littlebobbytables@domain.com)                          |
+**Problem:**
+
+| staff_num | staff_name    | ==staff_email== |
+ --------- | ------------- | ----- |
+ 123       | John Doe      | [john.doe@domain.com](mailto:john.doe@domain.com)[,jdoe@ajob.org](mailto:,jdoe@ajob.org)     |
+ 456       | Emily Doe      | [jane@domain.com](mailto:jane@domain.com)[,jane@anemployer.net](mailto:,jane@anemployer.net) |
+ 789       | Robert Tables | [littlebobbytables@domain.com](mailto:littlebobbytables@domain.com)                          |
 
 - Staff email is non-atomic, instead containing multiple comma-delimited entries, cannot easily select distinct employee emails
 
-> **Solution:**
-> 
-> | staff_num | staff_name    |
-> | --------- | ------------- |
-> | 123       | John Doe      |
-> | 456       | Emily Doe      |
-> | 789       | Robert Tables |
-> 
-> | staff_num | staff_email                                         |
-> | --------- | --------------------------------------------------- |
-> | 123       | [john.doe@domain.com](mailto:john.doe@domain.com)   |
-> | 123       | [jdoe@anemployer.org](mailto:jdoe@anemployer.org)   |
-> | 456       | [jane@domain.com](mailto:jane@domain.com)           |
-> | 456       | [jane@anemployer.net](mailto:,jane@anemployer.net) |
-> | 789          |[littlebobbytables@domain.com](mailto:littlebobbytables@domain.com)                                                     |
-> 
+**Solution:**
+
+| ==staff_num== | staff_name    |
+ | --------- | ------------- |
+ | 123       | John Doe      |
+ | 456       | Emily Doe      |
+ | 789       | Robert Tables |
+ 
+ | staff_num | ==staff_email==                                         |
+ | --------- | --------------------------------------------------- |
+ | 123       | [john.doe@domain.com](mailto:john.doe@domain.com)   |
+ | 123       | [jdoe@anemployer.org](mailto:jdoe@anemployer.org)   |
+ | 456       | [jane@domain.com](mailto:jane@domain.com)           |
+ | 456       | [jane@anemployer.net](mailto:,jane@anemployer.net) |
+ | 789          |[littlebobbytables@domain.com](mailto:littlebobbytables@domain.com)                                                     |
+ 
 
 ## 2NF: Prime attribute dependence
-- No part of a key should determine [[Database_keys#Non-prime attributes|non-prime attributes]], these attributes should be  fully [[Database_relations#Functional dependency|functionally independent]]
+- No partial aspect of a key should determine [[Database_keys#Non-prime attributes|non-prime attributes]],  attributes should be  fully [[Database_relations#Functional dependency|functionally dependent]] only on the entire key alone
 - The table should also be in [[#1NF: Atomic values|1NF]]
 
-> **Problem**:
-> 
-> | project_num | team   | role            | team_hq       |
+**Problem**: 
+
+| project_num | ==team==   | role            | ==team_hq==       |
 | ----------- | ------ | --------------- | ------------- |
 | 123         | Team 1 | User Interface  | New York      |
 | 123         | Team 2 | Database Design | San Francisco |
 | 465         | Team 2 | API Development | San Francisco |
 
-- team_hq is partialy-dependent on team, violating 2NF
+- team_hq is partialy-dependent on team (part of the candidate key), violating 2NF
 
-> **Solution:**
-> 
-> | project_num | team   | role            |
+**Solution:**
+
+| project_num | ==team==   | role            |
 | ----------- | ------ | --------------- |
 | 123         | Team 1 | User Interface  |
 | 123         | Team 2 | Database Design |
 | 465         | Team 2 | API Development |
-> 
-> | team   | team_hq       |
+
+| team   | ==team_hq==       |
 | ------ | ------------- |
 | Team 1 | New York      |
 | Team 2 | San Francisco |
 
 ## 3NF: Non-prime attribute dependence
-- Every [[Database_keys#Non-prime attributes|Non-prime attribute]] should be dependent of all attributes including non-prime
+- Every [[Database_keys#Non-prime attributes|non-prime attribute]] should be independent of other non-prime attributes 
 - The table should also be in [[#2NF: Non-prime attribute dependence|2NF]]
 
-> **Problem:**
-> 
->  | staff_num | staff_name | manager_num | manager_name |
+**Problem:**
+ 
+ | staff_num | staff_name | ==manager_num== | ==manager_name== |
  | --------- | ---------- | ----------- | ------------ |
 | 123 | John Doe | 987 | Sara Manageer |  
 | 456 | Emily Doe | 654 | Jay Deboss |  
 | 789 | Robert Tables | 321 | Elle Hefe |  
 
-- manager_name is dependent on manager_num not staff_num not the candidate key
+- manager_name is dependent on manager_num which is not a prime attribute
 
-> **Solution**
-> 
-> | staff_num | staff_name    | manager_num |
+**Solution**
+
+| staff_num | staff_name    | ==manager_num== |
 | --------- | ------------- | ----------- |
 | 123       | John Doe      | 987         |
 | 456       | Emily Doe      | 654         |
 | 789       | Robert Tables | 321         |
-> 
-> | manager_num | manager_name  |
+ 
+ | manager_num | ==manager_name==  |
 | ----------- | ------------- |
 | 987         | Sara Manageer |
 | 654         | Jay Deboss    |
