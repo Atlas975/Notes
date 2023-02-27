@@ -111,7 +111,7 @@ ___
 | 321         | Elle Hefe     |
 
 ## 3.5NF: Boyce-Codd normal form
-- All elements in a relation 
+- A relation is in BCNF if for all $X\to A$, $A $
 - Tables must be free of reverse dependencies, with every non-prime attribute being a proper subset of the candidate key
 - The table should also be in [[#3NF: Non-prime attribute dependence|3NF]]
 

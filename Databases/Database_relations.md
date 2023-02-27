@@ -47,9 +47,9 @@ $$\begin{align*}
 t_{i}=(v_{1},v_{2},v_{3}\dots v_{n})\\
 v=values
 \end{align*}$$
-
 ![[Pasted image 20230204184506.png|350|350]]
-> this schema allows for array like notation eg $t_{2}[name]=v_{2}$
+
+- This schema allows for array like notation eg $t_{2}[name]=v_{2}$
 ## Data relation types
 - There are 3 different types of relations in the database: **one-to-one**. **one-to-many, and**. **many-to-many** each with  an [[UML_diagrams|associated visual representations]]
 
@@ -63,7 +63,7 @@ v=values
 - A functional dependency between attributes X, Y (X -> Y) holds on [[Relational_algebra|relation]] R if for every allowable instance of R:
 $$\begin{align*}
 t_{1}\in R,t_{2}\in R \text{ such that:}\\
-\Pi _{x}t_{1}=\Pi_{x}t_{2} \to \Pi _{y}t_{1}=\Pi_{y}t_{2}y
+\Pi _{x}t_{1}=\Pi_{x}t_{2} \to \Pi _{y}t_{1}=\Pi_{y}t_{2}
 \end{align*}$$
 ![[Pasted image 20230211164800.png|500|500]]
 # ER-to-relational mapping
@@ -82,8 +82,7 @@ CREATE TABLE people (
 CREATE TABLE passport_details (
     id INT PRIMARY KEY AUTO_INCREMENT,
     passport_number VARCHAR(255) NOT NULL,
-    person_id INT NOT NULL,
-    UNIQUE (person_id),
+    person_id INT UNIQUE NOT NULL,
     FOREIGN KEY (person_id) REFERENCES people(id)
 );
 ```
