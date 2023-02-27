@@ -203,7 +203,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_relations.md",
+                "file": "Databases/Relational_algebra.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -337,7 +337,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_relations.md",
+                "file": "Databases/Relational_algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -377,7 +377,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_relations.md"
+                "file": "Databases/Relational_algebra.md"
               }
             }
           }
@@ -401,7 +401,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_relations.md"
+                "file": "Databases/Relational_algebra.md"
               }
             }
           },
@@ -427,7 +427,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_relations.md",
+                "file": "Databases/Relational_algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -479,6 +479,8 @@
   },
   "active": "b8b0d78ebdf58892",
   "lastOpenFiles": [
+    "Databases/Database_systems.md",
+    "Databases/Database_relations.md",
     "Databases/Database_normalisation.md",
     "Databases/Database_keys.md",
     "Databases/Database_design.md",
@@ -503,8 +505,6 @@
     "Networking/Network_topology.md",
     "Networking/Internet_protocols.md",
     "SoftwareEngineering/Programming_paradigms.md",
-    "SoftwareEngineering/OOP_principles.md",
-    "SoftwareEngineering/Multiagent_systems.md",
     "ProgramLanguages/Python/sed7keQGo",
     "DataStructures/sedMJAJlj",
     "DataStructures/sed33kt9o",
