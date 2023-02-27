@@ -130,12 +130,12 @@ def pushDominoes(self, dominoes: str) -> str:
 
         elif force == "R":
             if rpush != -1:
-                for j in range(rpush + 1, hi):
-                    res[j] = "R"
+                for i in range(rpush + 1, hi):
+                    res[i] = "R"
             rpush = hi
 
     if rpush != -1:
-        for j in range(rpush + 1, n):
-            res[j] = "R"
-        return "".join(res)
+        for i in range(rpush + 1, n):
+            res[i] = "R"
+    return "".join(res)
 ```
