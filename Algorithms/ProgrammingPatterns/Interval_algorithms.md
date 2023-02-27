@@ -58,7 +58,6 @@ def merge(self, intervals: List[List[int]]) -> List[List[int]]:
 ## Insert intervals 
 ```python
 def insert(self, intervals, newInterval) -> List[List[int]]:
-
     res = deque()
 
     for i, curr in enumerate(intervals):

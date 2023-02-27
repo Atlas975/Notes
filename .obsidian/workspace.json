@@ -21,7 +21,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_relations.md",
+                "file": "Networking/Internet_architecture.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ac88d2b4e525fc93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -29,7 +42,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -74,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_relations.md",
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_relations.md"
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md"
               }
             }
           }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_relations.md"
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md"
               }
             }
           },
@@ -164,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_relations.md",
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,11 +227,16 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "f6aaab260efe2425",
+  "active": "ac88d2b4e525fc93",
   "lastOpenFiles": [
+    "Databases/Database_keys.md",
+    "Networking/Internet_architecture.md",
+    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
+    "Databases/Database_relations.md",
+    "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
     "Databases/Database_normalisation.md",
     "OperatingSystems/DigitalSystems/ASCII.md",
-    "Databases/Database_relations.md",
     "Networking/TransmissionProtocols/Transmission_protocols.md",
     "OperatingSystems/Virtualisation.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
@@ -237,14 +255,9 @@
     "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
     "Algorithms/ProgrammingPatterns/Two_pointers.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
-    "MachineLearning/Computer_vision.md",
     "XX-Attachments/Images/Pasted image 20230227165239.png",
     "XX-Attachments/Images/Pasted image 20230227165227.png",
     "XX-Attachments/Images/Pasted image 20230227164343.png",
-    "MachineLearning/Convolutional_networks.md",
-    "MachineLearning/Detection_algorithms.md",
-    "MachineLearning/Feature_scaling.md",
-    "MachineLearning/Gradient_descent.md",
     "XX-Attachments/Images/Pasted image 20230227160305.png",
     "XX-Attachments/Images/Pasted image 20230227160146.png",
     "ProgramLanguages/Python/sed7keQGo",

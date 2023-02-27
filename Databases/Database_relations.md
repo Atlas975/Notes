@@ -24,8 +24,8 @@ ___
 
 ![[Pasted image 20211112223946.png|450|450]]
 
-> the relation schema for this would be:
->  $$\text{People(personID: int, firstName: string, lastName: string)}$$
+- The relation schema for this would be:
+$$\text{People(personID: int, firstName: string, lastName: string)}$$
 
 ## Relation schema notation
 - The schema can be taught of as having its own notation 
