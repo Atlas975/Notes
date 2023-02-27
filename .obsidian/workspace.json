@@ -4,373 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "c37752a61157fcc9",
+        "id": "e2a9fdced1a5b853",
         "type": "tabs",
         "children": [
           {
-            "id": "c3c7cd5efe9de357",
+            "id": "49cfd9bcc567de48",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Database_relations.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7ecb0d7c30ce1320",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/TransmissionProtocols/Transmission_protocols.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d4539c5efd6fd5ae",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           },
           {
-            "id": "c36987a09447a456",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/Virtualisation.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f39e3c5c304d89b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "141bfd9572bbf206",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SoftwarePatterns/Behavioral/Command_pattern.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1f03a5844324a3ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/TransmissionProtocols/Transmission_protocols.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bac4382e921d9ff3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/Error_codes.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bcfec5d600b9be75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Network_tools.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "22f4a0d22e2ea494",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Network_tools.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1aefcf00f7fbceef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Network_tools.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "627ca64c0fda4f18",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Checksum.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a3da6782e2f3d89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/TransmissionProtocols/Transmission_protocols.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b1105994a80b4645",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Network_architecture.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5e6965bce307392d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Network_topology.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd2150d358fe386d",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "3b8d0c8d442f242f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Network_tools.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "493a224f0bb598a1",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "8a6773e6ba38b277",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Internet_protocols.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "adc661fbb7b30f7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/Input&Output_systems.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b0f150697b1fc78b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Internet_protocols.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d0838bdf5c4380c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/HTML.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1f8807fc3ea57879",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DataStructures/Graphs.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5ae9de29b979aee1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/Paging.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "61decef98341ca08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SoftwareDesign/SOLID_principles.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bad6858e099af5fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2c1917246346c464",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Two_pointers.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2debfdc6bc70d84b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "da156c79c1bfa339",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Computer_vision.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c66a219e8ea0c6e9",
+            "id": "f6aaab260efe2425",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -381,22 +27,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "02c874d8501420c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/DigitalSystems/ASCII.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 29
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -489,7 +122,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5046501159668
+    "width": 259.5046501159668,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -581,36 +215,39 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "c66a219e8ea0c6e9",
+  "active": "f6aaab260efe2425",
   "lastOpenFiles": [
-    "XX-Attachments/Images/Pasted image 20230227164343.png",
+    "OperatingSystems/DigitalSystems/ASCII.md",
+    "Databases/Database_relations.md",
+    "Networking/TransmissionProtocols/Transmission_protocols.md",
+    "OperatingSystems/Virtualisation.md",
+    "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
+    "SoftwarePatterns/Behavioral/Command_pattern.md",
+    "OperatingSystems/Error_codes.md",
+    "Networking/Network_tools.md",
+    "Networking/Checksum.md",
+    "Networking/Network_architecture.md",
+    "Networking/Network_topology.md",
+    "Networking/Internet_protocols.md",
+    "OperatingSystems/Input&Output_systems.md",
+    "ProgramLanguages/HTML.md",
+    "DataStructures/Graphs.md",
+    "OperatingSystems/Paging.md",
+    "SoftwareDesign/SOLID_principles.md",
+    "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Two_pointers.md",
+    "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "MachineLearning/Computer_vision.md",
+    "Databases/Database_normalisation.md",
+    "XX-Attachments/Images/Pasted image 20230227165239.png",
+    "XX-Attachments/Images/Pasted image 20230227165227.png",
+    "XX-Attachments/Images/Pasted image 20230227164343.png",
     "MachineLearning/Convolutional_networks.md",
     "MachineLearning/Detection_algorithms.md",
     "MachineLearning/Feature_scaling.md",
     "MachineLearning/Gradient_descent.md",
-    "MachineLearning/Linear_regression.md",
-    "MachineLearning/Machine_learning_notation.md",
-    "MachineLearning/Statistical_modeling.md",
-    "MachineLearning/Regularization.md",
-    "MachineLearning/Neural_networks.md",
-    "MachineLearning/Logistic_regression.md",
-    "MachineLearning/Model_metrics.md",
-    "Databases/Database_normalisation.md",
     "XX-Attachments/Images/Pasted image 20230227160305.png",
     "XX-Attachments/Images/Pasted image 20230227160146.png",
-    "Algorithms/ProgrammingPatterns/Sliding_window.md",
-    "OperatingSystems/DigitalSystems/ASCII.md",
-    "Algorithms/ProgrammingPatterns/Two_pointers.md",
-    "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
-    "SoftwareDesign/SOLID_principles.md",
-    "OperatingSystems/Computer_memory.md",
-    "OperatingSystems/Paging.md",
-    "DataStructures/Graphs.md",
-    "ProgramLanguages/HTML.md",
-    "Networking/Network_topology.md",
-    "Databases/Relational_algebra.md",
-    "Databases/Database_systems.md",
     "ProgramLanguages/Python/sed7keQGo",
     "DataStructures/sedMJAJlj",
     "DataStructures/sed33kt9o",
@@ -623,9 +260,6 @@
     "XX-Attachments/Images/Pasted image 20230225235036.png",
     "XX-Attachments/Images/Pasted image 20230225234635.png",
     "XX-Attachments/Images/Pasted image 20230225234555.png",
-    "XX-Attachments/Images/Pasted image 20230225234513.png",
-    "XX-Attachments/Images/Pasted image 20230225233858.png",
-    "XX-Attachments/Images/Pasted image 20230225233843.png",
-    "XX-Attachments/Images/Pasted image 20230225233814.png"
+    "XX-Attachments/Images/Pasted image 20230225234513.png"
   ]
 }

@@ -17,6 +17,7 @@ ___
 
 - Process of organising data in way that minimises data redundancy and dependency
 - Increases data integrity and consistency, normalisation ensures that each table in a [[Database_systems|database]] represents a single [[Entity_relationship_model|entity type]] and contains data only relating to that entity 
+
 ![[Pasted image 20230227164343.png|350|350]]
 - This is not always ideal for performance but is valuable for [[Database_constraints#Integrity constraints|data integrity]], **decomposition** is done to remove redundant data that may lead to anomalies 
 - This is achieved through steps known as normal forms, these steps are designed to prevent the following from occurring within a [[Database_systems|database]]
