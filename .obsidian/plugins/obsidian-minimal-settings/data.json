@@ -4,7 +4,7 @@
   "darkStyle": "minimal-dark",
   "lightScheme": "minimal-default-light",
   "darkScheme": "minimal-nord-dark",
-  "editorFont": "Jetbrains Mono",
+  "editorFont": "",
   "lineHeight": 1.4,
   "lineWidth": 45,
   "lineWidthWide": 50,

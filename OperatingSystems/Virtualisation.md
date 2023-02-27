@@ -14,7 +14,6 @@
 
 ___
 # Virtualisation
-
 - Allows multiple workloads to share physical resources by abstracting away the underlying hardware, useful for running multiple [[Operating_system_design|operating systems]] or applications
 - The motivation behind this is that machines are often idle / under utilise their resources Some application-level protection  are also insufficient for providing services like server hosting or operating cloud computing. 
 
