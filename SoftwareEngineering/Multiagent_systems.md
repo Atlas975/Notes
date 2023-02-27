@@ -30,11 +30,11 @@ ___
 - Central entity that controls actions between users 
 - Eg. commercial platform, social media or an autonomous system 
 
-> ![[Pasted image 20221105005148.png]]
+![[Pasted image 20221105005148.png]]
 
 # Decentralised systems
 
-> ![[Pasted image 20221105005237.png]]
+![[Pasted image 20221105005237.png]]
 
 - Lower level components such as individual users communicate with each other
 - Each principles software controls its decision making
@@ -51,11 +51,11 @@ ___
 	- Message emission and reception: how data transmission is handled, if this is point-to-point, between roles or multicast (one sender multiple receivers)
 - Multicast sending: 
 
-> ![[Pasted image 20221105113614.png]]
+![[Pasted image 20221105113614.png]]
 
 - Example autonomous system, not the three parties have no client server and are not required to communicate with each other 
 
-> ![[Pasted image 20221105115527.png]]
+![[Pasted image 20221105115527.png]]
 
 - Protocols encourage: 
 	- **Autonomy**: limited constraints on agent decision making and interactions
@@ -66,32 +66,32 @@ ___
 - A state machine is an abstraction over an algorithm to describe its control flow
 - Useful for describing intended control flow of a [[Concurrency|concurrent]] model
 
-> ![[Pasted image 20221105122527.png|500|500]]
+![[Pasted image 20221105122527.png|500|500]]
 
 # Multiagent system pitfalls
 - Interactions must maintain data integrity
 - This is often maintained by object specifications
 
-> ![[Pasted image 20221105123506.png]]
+![[Pasted image 20221105123506.png]]
 
 - Example challenges include 
 ## Integrity violations
 
-> ![[Pasted image 20221105123657.png]]
+![[Pasted image 20221105123657.png]]
 
 ## Race conditions
 
-> ![[Pasted image 20221105123726.png]]
+![[Pasted image 20221105123726.png]]
 
 ## Deadlock interactions
 [[Concurrency#Concurrency pitfalls]]
 
-> ![[Pasted image 20221105123821.png|500|500]]
+![[Pasted image 20221105123821.png|500|500]]
 
 ## Asynchronous communication
 - Ordering send - receive communication has its own challenges such as required synchronization and tight coupling 
 
-> ![[Pasted image 20221105124158.png]]
+![[Pasted image 20221105124158.png]]
 loose coupling and autonomy with asynchronous communication
 
 - Communication is often FIFO in delivery, this is helped through message queues  

@@ -17,7 +17,7 @@ ___
 - Adds a layer of abstraction from client to source, can act as a firewall / filter / cache and more 
 - This [[Design_patterns|design pattern]] is vital in [[Network_architecture|networking]], to speed up requests and provide security, the proxy acts as a substitute for another object whilst controlling access to that object
 
-> ![[Pasted image 20230130132227.png|550|550]]
+![[Pasted image 20230130132227.png|550|550]]
 
 - Example of a cache providing proxy that acts as an intermediary between a slower service
 

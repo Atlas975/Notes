@@ -4,7 +4,7 @@ created: 2022-08-07 13:15
 #DesignTheory 
 
 ---
-> ![[Pasted image 20220807132344.png]]
+![[Pasted image 20220807132344.png|500|500]]
 
 # Imperative programming 
 - Simple to implement and can contain loops and variables 

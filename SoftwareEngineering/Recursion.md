@@ -22,11 +22,11 @@ ___
 - A method calling itself
 - Recursion order manipulation:
 
->![[Pasted image 20220303120416.png|550|550]]
+![[Pasted image 20220303120416.png|550|550]]
 - Recursion is best used when a problem can be solved utilising solutions to smaller versions of the same problem, and the smaller versions reduce to easily solvable cases. 
 - Useful for [[Backtracking]] and [[Tree_algorithms|Tree trasveral]]
 ## Iterative vs recursive approach
->![[Pasted image 20220303120603.png|550|550]]
+![[Pasted image 20220303120603.png|550|550]]
 
 
 ## Head recursion 
@@ -82,16 +82,16 @@ int Sum(int n) {
 - The depth of a tree describes the depth of its deepest node
 - The branching factor describes the number of children at any particular node
 
->![[Pasted image 20220505003635.png]]
+![[Pasted image 20220505003635.png]]
 
 - Useful for visualizing what happens when a recursive call is repeated
 - Example recursive trees 
 - Recursion tree examples
 
->![[Pasted image 20220505003954.png|450|450]]
->![[Pasted image 20220505004124.png|450|450]]
->![[Pasted image 20220505004201.png|450|450]]
->![[Pasted image 20220505004214.png|550|550]]
+![[Pasted image 20220505003954.png|450|450]]
+![[Pasted image 20220505004124.png|450|450]]
+![[Pasted image 20220505004201.png|450|450]]
+![[Pasted image 20220505004214.png|550|550]]
 
 
 
@@ -101,20 +101,20 @@ int Sum(int n) {
 >$$T(1)=c$$
 >$$ \text{where}\ a\geq{1},\ b\geq{2},\ c>{0} \ \text{and} \ f(n) \text{ is } \theta(n^{d})\text{ where }d\geq{0} \text{ then} $$
 >
->![[Pasted image 20220509141400.png]]
+![[Pasted image 20220509141400.png]]
 
 - The theorem can **only** be used if:
 
->![[Pasted image 20220505190609.png]]
+![[Pasted image 20220505190609.png]]
 
 - The time complexity can then be narrowed to  a single one of the following 
 
->![[Pasted image 20220505190445.png]]
+![[Pasted image 20220505190445.png]]
 
 - Example implementations
 
->![[Pasted image 20220505190808.png]]
+![[Pasted image 20220505190808.png]]
 this indicates complexity of n^2
 
->![[Pasted image 20220505190953.png]]
+![[Pasted image 20220505190953.png]]
 this indicates complexity of nlog n

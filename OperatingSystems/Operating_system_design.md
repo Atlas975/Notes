@@ -26,7 +26,7 @@ ___
 - Does not account for applications and services, this includes the desktop environment
 - An OS provides an abstract view of a computer for applications to work with 
 
-> ![[Pasted image 20221124231055.png|500]]
+![[Pasted image 20221124231055.png|500]]
 
 - An OS can also be written over a hardware level of abstraction
 - A typical Linux distribution would consist of:
@@ -36,15 +36,14 @@ ___
 	4. Desktop environment (eg Gnome / KDE) + window system (eg Wayland / i3)
 	5. Package management system (eg Flatpak / Snap)
 
-> ![[Pasted image 20221124153323.png|400|300]]
+![[Pasted image 20221124153323.png|400|300]]
 
 - An OS will also fairly allocate resources between users, preventing two users from using the same resource or interfering with other users in any way.
 ## Kernel
 - The core of a computer OS, controls interactions between hardware and software components
 - Always resident in memory and handles use of processes such as use of the CPU, memory, disk I/O and networking
 ## Linux filesystem
-
-> ![[Pasted image 20220618155352.png]][[File_systems#Unix file system|Unix file system]]
+![[Pasted image 20220618155352.png|600|600]][[File_systems#Unix file system|Unix file system]]
 
 ## Booting process
 
@@ -93,13 +92,13 @@ ___
 - Complete OS runs in kernel space 
 - Efficient call structure but difficult to maintain or impose security.
 
-> ![[Pasted image 20221124232251.png|400]]
+![[Pasted image 20221124232251.png|400]]
 
 ## Layered design
 - Tighter security as move away from hardware
 - Performance penalty for higher layers
 
-> ![[Pasted image 20221124232614.png|350]]
+![[Pasted image 20221124232614.png|350]]
 
 - Kernel space lies in centre ring (ring 0), applications run in ring 3
 - Only ring 0 is allowed to configure [[Paging|page tables]] etc
@@ -108,30 +107,29 @@ ___
 - Very secure, minimal code with system privileges 
 - Limited impact if a system fails, can simply restart without corruption
 - Extensible and minimal dependencies 
+
+![[Pasted image 20221124232822.png|350|350]]
 - Data transferred through inefficient message passing instead of memory references 
-
-> ![[Pasted image 20221124232822.png|400]]
-
 - Also well suited for distributed systems as messages can easily be passed over a network
 ## Monolithic vs Microkernel
 - The more running in user space, the less goes wrong in the event of failure 
 - Generally, moving away from monolithic means more security, moving towards microkernel means less efficiency 
 
-> ![[Pasted image 20221124233234.png|600|600]]
+![[Pasted image 20221124233234.png|600|600]]
 
 ## Modular
 - Kernel has set of extensible modules that can be dynamically loaded
 - Components use a strict API  and are only loaded as needed
 - Not limited to microkernal style message passing [[OOP_principles]]
 
-> ![[Pasted image 20221124234106.png|400]]
+![[Pasted image 20221124234106.png|400]]
 
 ## Library OS / Uni-Kernels
 - Applications carry most of the functionality typically part of the kernel 
 - Kernel configures security at lowest level 
 - Typically used in networking, libraries provides all other functionality.
 
-> ![[Pasted image 20221124234735.png|400]]
+![[Pasted image 20221124234735.png|400]]
 
 # System processes
 - A running instance of a program invoked by exec()
@@ -145,17 +143,18 @@ ___
 - Child processes are part of this as well
 - Context is stored in table, basic process control block:
 
-> ![[Pasted image 20221125105733.png]]
+![[Pasted image 20221125105733.png|450|450]]
 
 - Multiple processes:
 
-> ![[Pasted image 20221125110337.png]]
+![[Pasted image 20221125110337.png|350|350]]
 
 ## Process hierarchy
 - Processes can spawn child processes 
 - Limit is imposed by system both system (for system stability) and per process (for fairness)
 
-> ![[Pasted image 20221125110745.png]]
+![[Pasted image 20221125110745.png|350|350]]
+
 > Parents get the PID, child processes always get a PID of 0
 
 - Child goes into zombie state before resources are returned to parent
@@ -163,7 +162,7 @@ ___
 	- **Interruptible**: operation can be stopped
 	- **Uninterruptible**: operation must complete
 
-> ![[Pasted image 20221125111147.png]]
+![[Pasted image 20221125111147.png|450|450]]
 
 # System calls
 - User programs cannot directly communicate with most hardware, unrestricted access would allow a program to read/write anything. System calls act as a standard interface and access control mechanism to OS / kernel  functions
@@ -181,5 +180,4 @@ ___
 - Creates event queue with a timer that's configured to fire when the next task is due rather than in fixed periods that have been set
 - Governed by shortest gap between events that need to be managed  
 
-> ![[Pasted image 20221127161943.png]]
-
+![[Pasted image 20221127161943.png|550|550]]

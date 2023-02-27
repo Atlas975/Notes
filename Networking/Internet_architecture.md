@@ -24,7 +24,7 @@ ___
 	- **Communication links**: physical or digital links, speed measured in bandwidth 
 	- **Switches**: used to forward packet (data blocks) down links 
 
-> ![[Pasted image 20230123143523.png|400|400]]
+![[Pasted image 20230123143523.png|350|350]]
 
 - The internet itself can be taught of as a network of networks with protocols such as TCP / IP / HTTP governing the way data is transmitted. 
 - Internet standards also exist to define how communication over the internet needs to be established between hosts
@@ -33,11 +33,11 @@ ___
 ## Internet tiers
 - The execution of query on the internet follows the following response sequence
 
->![[Pasted image 20211109094505.png|400|400]]
+![[Pasted image 20211109094505.png|400|400]]
 
 - Execution is divided amongst 3 core tiers:
 
->![[Pasted image 20211109094734.png|450|450]]
+![[Pasted image 20211109094734.png|450|450]]
 
 ### Presentation tier
 - Data display / input
@@ -58,11 +58,11 @@ ___
 	- **Network crore**: interconnected routers in a network of networks 
 - Dedicated links between ISP's also exist, known as **internet exchange points (IXP)**
 
-> ![[Pasted image 20230209185126.png|400|400]]
+![[Pasted image 20230209185126.png|400|400]]
 - Private ISP's also exist, resulting in large intermediate providers often dedicated for specific regions and also provided by private companies
 - The IXP allows data to be shared between individual networks
 
-> ![[Pasted image 20230209185214.png|400|400]]
+![[Pasted image 20230209185214.png|400|400]]
 ## Web
 - An interconnected systems of public web pages that can be accessed through the internet 
 - Web pages are written in HTML and transferred between server and client

@@ -27,13 +27,11 @@ ___
 - Makes full use of system resources, executed in kernel space 
 - Normally used for system-level tasks like I/O and network communication, they also provide the underlying implementation for user threads
 
-> ![[Pasted image 20221022115058.png|500]]
-> these commands all make use of [[Operating_system_design#System calls|system calls]] and operate on kernel managed thread
+![[Pasted image 20221022115058.png|500]]
 
+- these commands all make use of [[Operating_system_design#System calls|system calls]] and operate on kernel managed thread
 ## Language runtime thread
 - Managed by runtime environment of a programming language eg the [[Java_language|JVM]] 
 - Can utilise either kernel or user-level thread depending on application requirements
 - The runtime environment managing system resources, thread execution and lifecycle
 - Act as a convenient way for developers to add multi-threading capabilities by providing an abstract view of the underlying threading model that's both consistent and portable 
-
-

@@ -17,11 +17,11 @@ ___
 - Encapsulates a request / behaviour into a stand alone object containing everything regarding that request. This [[Design_patterns|design pattern]] allows this action to easily be reused, giving the user more flexibility with component usage
 - By passing commands as parameters, linked commands can be swapped out at runtime
 
-> ![[Pasted image 20230131121726.png|550|550]]
+![[Pasted image 20230131121726.png|550|550]]
 
 - The client is responsible for creating and configuring concrete command objects, this includes passing an instance of a receiver, following the [[SOLID_principles#Single responsibility (SRP)|Single responsibility]] principle
 
-> ![[Pasted image 20230131124649.png|600|600]]
+![[Pasted image 20230131124649.png|600|600]]
 
 
 ```rust

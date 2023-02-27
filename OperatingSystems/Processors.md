@@ -39,7 +39,7 @@ ___
 - With multiple processors, a hierarchy of [[Computer_memory|memory]] and access speeds exist within processors. 
 - Computer processing structure:
 
-> ![[Pasted image 20221219114824.png|450|450]]
+![[Pasted image 20221219114824.png|450|450]]
 
 - Shared caches also exist that multiple cores are clustered around
 - Resource optimisations are essential, with multiple types of processors, idle time can often be large with limited usage eg text editors wont use a GPU
@@ -48,7 +48,7 @@ ___
 - Architectural structures differing also presents a challenge
 - Processor memory coupling can be an issue, a penalty may exist when trying to access memory present in another cache that is not present when trying to access local memory
 
-> ![[Pasted image 20221219123145.png|350|350]]
+![[Pasted image 20221219123145.png|350|350]]
 
 ## Symmetric multi-processing (SMP)
 - Processors considered equal with each processor having it's own scheduler
@@ -63,7 +63,7 @@ ___
 - Single processor coordinates other process queues, simpler approach with scheduler data structures only accessed by a single CPU
 - Specialist processors such as a GPU cannot handle this as code cannot be moved 
 
-> ![[Pasted image 20221219124045.png|450|450]]
+![[Pasted image 20221219124045.png|450|450]]
 
 - Moving a process can still be expensive, caches may be invalidated or I/O or interrupts may be bound to a specific CPU and need to be redirected
 
@@ -72,7 +72,7 @@ ___
 - These interrupts need to be forwarded to the appropriate processor for correct data handling
 - In a **non-uniform memory access scheme**, this has a particularly high cost compared to symmetric multi-processing as I/O must go from one processor to another
 
-> ![[Pasted image 20221219215141.png|450|450]]
+![[Pasted image 20221219215141.png|450|450]]
 
 - Solutions to direct interrupts include:
     - Each processor having it's own interrupt controller ([[Input&Output_systems#Interrupts#Programmable interrupt controller|PIC]])

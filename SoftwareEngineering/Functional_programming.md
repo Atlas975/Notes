@@ -28,7 +28,7 @@ ___
 - Functional languages perform operations as if they're being performed for the first time (referential transparency )
 - More emphasis on [[Recursion]] over iteration
 
-> ![[Pasted image 20220711134148.png|550]]
+![[Pasted image 20220711134148.png|550]]
 
 # Function terminology
 

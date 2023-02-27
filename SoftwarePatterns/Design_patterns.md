@@ -22,7 +22,7 @@ ___
 - Good design patterns embody best practices in software and are proven solutions to reoccurring problems that occur in SDE 
 - Address situations that arise in variety of applications eg [[OOP_principles|object initialization]], simplifying complex interfaces or  [[Concurrency|providing controlled access to objects]]
 
-> ![[Pasted image 20221213092417.png|500|500]]
+![[Pasted image 20221213092417.png|500|500]]
 
 ## Design pattern elements
 - **Pattern name**: handle used to describe design problem and a solution summary 
@@ -34,4 +34,4 @@ ___
 - **Structural:** focuses on composition and organisation of objects and classes 
 - **Behavioral**: focuses on the communication and coordination of objects and classes
 
-> ![[Pasted image 20230127125603.png|550|550]]
+![[Pasted image 20230127125603.png|550|550]]

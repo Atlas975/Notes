@@ -17,7 +17,7 @@ ___
 - Allows objects of incompatible interfaces to collaborate with one another
 - This is useful for dealing with legacy code or services that only accept a specific data type
 
-> ![[Pasted image 20230131141245.png|600|600]]
+![[Pasted image 20230131141245.png|600|600]]
 
 
 - The adaptor acts as an intermediary class that stores an instance of the service and uses the clients desired interface to create a way to interact with the service

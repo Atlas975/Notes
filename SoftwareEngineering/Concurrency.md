@@ -39,21 +39,21 @@ ___
 2. Stack pointer (SP): address at top of threads call stack 
 ## Context switching sequence
 
-> ![[Pasted image 20221022124944.png|500|500]]
+![[Pasted image 20221022124944.png|500|500]]
 
 ## Amdahl's law
 - Program speedup via concurrency is limited by atomic aspects of a program, the max speedup depending can be represented by Amdahls law, where p is the percentage of a program that can be parallelized eg 95% tops off at 20x speedup  : 
 
->$$\frac{1}{(1-p)}$$
->
-> ![[Pasted image 20221022114110.png|450|450]]
+$$\frac{1}{(1-p)}$$
+
+![[Pasted image 20221022114110.png|450|450]]
 
 ## Threads
 - A thread is an independent locus of communication (a separate flow of execution within a program) following a sequence of instructions with its own program counter 
 ## Scheduler
 - Method of selecting which thread runs from a pool of active threads 
 
-> ![[Pasted image 20221022104511.png|300]]
+![[Pasted image 20221022104511.png|250|250]]
 
 - This is important as it prevents deadlocks and make sure sure a process is performed only as many times as it's needed. This is challenging as concurrency is inherently non-deterministic 
 ## Concurrency components
@@ -61,7 +61,7 @@ ___
 2. Shared resources 
 3. Access rules 
 
-> ![[Pasted image 20221020154135.png|500|500]]
+![[Pasted image 20221020154135.png|500|500]]
 
 ## Anatomy of a concurrent process
 ```java
@@ -75,7 +75,7 @@ t.start();
 ```
 ## Concurrency vs parallelism
 
-> ![[Pasted image 20221022125124.png|500|500]] processes are always concurrent but not always parallel 
+![[Pasted image 20221022125124.png|500|500]] processes are always concurrent but not always parallel 
 
 # Shared memory synchronization
 - Coordination is needed when accessing critical sections 
@@ -83,7 +83,7 @@ t.start();
 - An example of a problem that can arise without proper coordination is the lost update problem:
 - The synchronized signature also prevents a thread from accessing other methods in the class with the synchronized signature 
 
-> ![[Pasted image 20221022105807.png|550|550]]this is an example of a race condition 
+![[Pasted image 20221022105807.png|450|450]]this is an example of a race condition 
 
 ## Race condition
 - Condition where incorrect program output may have been generated depending on instruction order from multiple threads 
@@ -109,27 +109,27 @@ public class Bank_account {
 ```
 - Internal lock process when synchronized: 
 
-> ![[Pasted image 20221022111955.png|500|500]]
+![[Pasted image 20221022111955.png|500|500]]
 
 - note that the jvm shares one heap between all threads, but each thread has its own java stack
 
 ## Safe concurrency
 - No shared data / communication between threads 
 
-> ![[Pasted image 20221022114139.png|300|300]]
+![[Pasted image 20221022114139.png|300|300]]
 
 - Use of only read-only (constant) data 
 
-> ![[Pasted image 20221022114339.png|300|300]]
+![[Pasted image 20221022114339.png|300|300]]
 
 ## Risky concurrency
 - Threads use shared resources without mutual exclusion 
 
-> ![[Pasted image 20221022114244.png|300|300]]
+![[Pasted image 20221022114244.png|300|300]]
 
 - Use of a thread that modifies shared resources while others read from it 
 
-> ![[Pasted image 20221022114309.png|300|300]]
+![[Pasted image 20221022114309.png|300|300]]
 
 # Semaphores
 - Locks only allow one thread at a time to access a resource, semaphores let in multiple while still restricting this number. For instance having 3 shared booth resources between 5 people 
@@ -237,7 +237,7 @@ public void run() {
 
 - Buffers may also be of variable size, several producers and consumers bounded by buffers
 
-> ![[Pasted image 20221025161709.png|450|450]]
+![[Pasted image 20221025161709.png|450|450]]
 
 ```java
 public class ProducerConsumer {
@@ -258,8 +258,8 @@ public class ProducerConsumer {
 - A buffer that holds a single value with several threads accessing it at once, only one writer thread may be active at a time but multiple write threads can be active concurrently 
 - Unlike the [[#Producer consumer problem]] , read operations must have exclusive access to the buffer at all times
 
-> ![[Pasted image 20221025161527.png|450|450]]
-> ![[Pasted image 20221107143504.png|500|500]]
+![[Pasted image 20221025161527.png|450|450]]
+![[Pasted image 20221107143504.png|500|500]]
 
 - General reader - writer pattern:
 
@@ -424,11 +424,11 @@ void release_lock() {
 }
 ```
 
-> ![[Pasted image 20221027132657.png|450|450]]
+![[Pasted image 20221027132657.png|450|450]]
 
 ## Blocking vs Spinlocks
 
-> ![[Pasted image 20221027133022.png|450|450]]
+![[Pasted image 20221027133022.png|450|450]]
 
 - Join ensures a thread does not run until another thread terminates 
 - Count down latches are initialized with a number of tasks
@@ -439,21 +439,21 @@ void release_lock() {
 - A deadlock describes a situation in which a processes cannot progress due to waiting on a shared synchronised resource currently held by another thread.
 - Ways of combating this include:
 
-> ![[Pasted image 20221101164743.png]]
+![[Pasted image 20221101164743.png]]
 
 1. Program design so circular waits are impossible (impose total ordering)
 2. Prove formally a program is deadlock free 
 3. Detect deadlock at runtime 
 - Example of threads requiring the same resources, results is resource starvation
 
-> ![[Pasted image 20221101160843.png|450|450]]
+![[Pasted image 20221101160843.png|450|450]]
 
 ## Livelocks
 - Instead of terminating deadlocked threads, processes repeat cyclically until a thread is able to run without resulting in a deadlock.
 - This raises complications if a process is already underway when is restarts, starvation may also occur if one thread consistently beats out another thread for a required resource 
 - Fair scheduling may often be required to ensure a thread does not starve in a livelock, see the dining  philosophers problem
 
-> ![[Pasted image 20221104170117.png]]
+![[Pasted image 20221104170117.png|450|450]]
 
 # Asynchronous vs multi-threaded programs
 - In general, async is better suited for I/O-bound and network-bound tasks, while multithreading is better suited for CPU-bound tasks. 

@@ -39,8 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Caching.md",
-                "mode": "preview",
+                "file": "OperatingSystems/Input&Output_systems.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -363,7 +363,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Caching.md",
+                "file": "OperatingSystems/Input&Output_systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -403,7 +403,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Caching.md"
+                "file": "OperatingSystems/Input&Output_systems.md"
               }
             }
           }
@@ -427,7 +427,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Caching.md"
+                "file": "OperatingSystems/Input&Output_systems.md"
               }
             }
           },
@@ -453,7 +453,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Caching.md",
+                "file": "OperatingSystems/Input&Output_systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -505,25 +505,34 @@
   },
   "active": "9ef7b4e8e42e0119",
   "lastOpenFiles": [
+    "OperatingSystems/Error_codes.md",
+    "OperatingSystems/Caching.md",
+    "ProgramLanguages/Regex.md",
+    "ProgramLanguages/R_language.md",
+    "ProgramLanguages/x86_assembly.md",
+    "SoftwareDesign/Software_planning.md",
+    "SoftwarePatterns/Design_patterns.md",
+    "SoftwarePatterns/Behavioral/Command_pattern.md",
+    "SoftwarePatterns/Behavioral/Iterator_pattern.md",
     "SoftwarePatterns/Behavioral/Observer_pattern.md",
-    "SoftwareDesign/SOLID_principles.md",
-    "SoftwareDesign/UML_diagrams.md",
-    "Algorithms/ProgrammingPatterns/Backtracking.md",
-    "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
-    "SoftwareDesign/Test_types.md",
-    "SoftwareDesign/BSPL.md",
+    "SoftwarePatterns/Behavioral/Visitor_pattern.md",
+    "SoftwarePatterns/Creational/Builder_pattern.md",
+    "SoftwareEngineering/Concurrency.md",
+    "SoftwareEngineering/Thread_types.md",
+    "SoftwareEngineering/Recursion.md",
+    "SoftwareEngineering/Programming_paradigms.md",
+    "SoftwareEngineering/OOP_principles.md",
+    "SoftwareEngineering/Functional_programming.md",
+    "SoftwareEngineering/sedAM4RPw",
+    "ProgramLanguages/Rust/Rust_language.md",
     "Networking/Network_tools.md",
-    "Networking/Network_topology.md",
+    "Networking/Communication_architecture.md",
+    "Networking/Internet_architecture.md",
+    "OperatingSystems/Virtualisation.md",
+    "OperatingSystems/Processors.md",
+    "OperatingSystems/Operating_system_design.md",
+    "SoftwareDesign/SOLID_principles.md",
     "Networking/sedT9BOf8",
-    "Networking/Network_architecture.md",
-    "Algorithms/ProgrammingPatterns/Two_pointers.md",
-    "Algorithms/ProgrammingPatterns/Sliding_window.md",
-    "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
-    "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
-    "ContinuousMath/Catalan_numbers.md",
     "XX-Attachments/Images/Pasted image 20230225235345.png",
     "XX-Attachments/Images/Pasted image 20230225235036.png",
     "XX-Attachments/Images/Pasted image 20230225234635.png",
@@ -531,14 +540,6 @@
     "XX-Attachments/Images/Pasted image 20230225234513.png",
     "XX-Attachments/Images/Pasted image 20230225233858.png",
     "XX-Attachments/Images/Pasted image 20230225233843.png",
-    "XX-Attachments/Images/Pasted image 20230225233814.png",
-    "OperatingSystems/Input&Output_systems.md",
-    "Networking/Header_types.md",
-    "OperatingSystems/Error_codes.md",
-    "Networking/TransmissionProtocols/Transmission_protocols.md",
-    "Networking/TransmissionProtocols/Hypertext_transfer_protocol.md",
-    "Databases/Relational_algebra.md",
-    "Networking/TransmissionProtocols/Domain_name_server.md",
-    "Networking/Internet_protocols.md"
+    "XX-Attachments/Images/Pasted image 20230225233814.png"
   ]
 }

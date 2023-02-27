@@ -21,4 +21,4 @@ ___
 - A behavioral [[Design_patterns#Design pattern categories|design pattern]] meant to notify multiple objects (**observers**) of a change to an object thats being observed (**publisher**)
 - A subscription mechanism gives individual objects permission to be informed of an event 
 
-> ![[Pasted image 20230130134658.png|600|600]]
+![[Pasted image 20230130134658.png|600|600]]

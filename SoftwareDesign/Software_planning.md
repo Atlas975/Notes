@@ -15,7 +15,7 @@
 ___
 # Software planning
 ## Software engineering stack
-> ![[Pasted image 20221010164140.png]]
+> ![[Pasted image 20221010164140.png|450|450]]
 # Software requirements
 - Describes what a systems should do as well as any constraints it may have in completing the required objective
 - Requirement engineering is essential as these kind of errors are more numerous, costly and persistent than software errors

@@ -30,7 +30,7 @@ ___
 - Limited by how unless the device is ready instantly, the processor spends a lot of time polling (sampling status of input device) for the next byte
 - Synchronous I/O can also be done via **block transfer** where where data from the first block is waited on then transferred all at once
 
-> ![[Pasted image 20221129110641.png|500]]
+> ![[Pasted image 20221129110641.png|450|450]]
 
 ## Asynchronous I/O
 - I/O driven by interrupts, the main thread is able to run with the interrupt control flow only taking over once an interrupt is sent. This is less wasteful of resources
@@ -67,7 +67,7 @@ ___
 - This handles several interrupts at once, sending a single electrical signal allowing the CPU to have a single interrupt line for a group of interrupts
 - The Interrupt handler is able to communicate with the PIC to query the individual interrupt line responsible
 
-> ![[Pasted image 20221206154423.png]]
+> ![[Pasted image 20221206154423.png||]]
 
 ## Interrupt vector
 - A memory address where the computer expects to find an interrupt service routine (ISR)
