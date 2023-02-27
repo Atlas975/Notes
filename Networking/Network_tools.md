@@ -15,14 +15,13 @@
 ___
 # Network tools
 
-> ![[Pasted image 20230219143642.png|500|500]]
-> [[Transmission_protocols|transmission protocol]]
+![[Pasted image 20230219143642.png|500|500]]
 
 ## Ping
 - ping measures response time from a specific device, useful for checking host reach-ability
 - Measures RTT and works on end to end manner like tracer route, however messages sent to specific hosts rather than nodes across the path
 
-> ![[Pasted image 20230213231702.png|550|550]]
+![[Pasted image 20230213231702.png|550|550]]
 
 - ping works in the following way:
 	1.  A user sends a ping request to a network host using the `ping` command.
