@@ -60,20 +60,24 @@ pub fn length_of_longest_substring(s: String) -> i32 {
 ```
 
 ## Longest repeating character replacement 
-```python
-def characterReplacement(self, s: str, k: int) -> int:
-    freq = defaultdict(int)
-    longest, maxf, l = 0, 0, 0
+```rust
+pub fn character_replacement(s: String, k: i32) -> i32 {
+    let mut freqs = [0; 128];
+    let (mut res, mut l, mut mxfrq, k) = (0, 0, 0, k as usize);
+    let s = s.as_bytes();
 
-    for r, c in enumerate(s):
-        freq[c] += 1
-        maxf = max(maxf, freq[c])
-        if r - l + 1 - maxf > k:
-            freq[s[l]] -= 1
-            l += 1
-        else:
-            longest = max(longest, r - l + 1)
-    return longest
+    for (r, &c) in s.into_iter().enumerate() {
+        freqs[c as usize] += 1;
+        mxfrq = mxfrq.max(freqs[c as usize]);
+        if r - l + 1 - mxfrq > k {
+            freqs[s[l] as usize] -= 1;
+            l += 1;
+        } else{
+            res = res.max(r - l + 1);
+        }
+    }
+    res as i32
+}
 ```
 
 ## Permutation in string 

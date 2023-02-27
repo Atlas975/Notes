@@ -357,6 +357,19 @@
             }
           },
           {
+            "id": "da156c79c1bfa339",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Database_normalisation.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "02c874d8501420c2",
             "type": "leaf",
             "state": {
@@ -415,7 +428,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/ASCII.md",
+                "file": "Databases/Database_normalisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -455,7 +468,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/ASCII.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           }
@@ -480,7 +493,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/ASCII.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           },
@@ -506,7 +519,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/ASCII.md",
+                "file": "Databases/Database_normalisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -556,9 +569,10 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "02c874d8501420c2",
+  "active": "da156c79c1bfa339",
   "lastOpenFiles": [
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
+    "OperatingSystems/DigitalSystems/ASCII.md",
     "Algorithms/ProgrammingPatterns/Two_pointers.md",
     "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
     "SoftwareDesign/SOLID_principles.md",
@@ -583,7 +597,6 @@
     "DataStructures/Trees.md",
     "DiscreteMath/Relations.md",
     "DiscreteMath/Propositional_logic.md",
-    "DiscreteMath/Predicate_logic.md",
     "ProgramLanguages/Python/sed7keQGo",
     "DataStructures/sedMJAJlj",
     "DataStructures/sed33kt9o",

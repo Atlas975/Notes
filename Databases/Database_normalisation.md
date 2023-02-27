@@ -54,7 +54,7 @@ ___
 > 
 
 ## 2NF: Prime attribute dependence
-- Every [[Database_keys#Non-prime attributes|Non-prime attribute]] should be fully [[Database_relations#Functional dependency|functionally dependent]] of candidate key attributes 
+- No part of a key should determine [[Database_keys#Non-prime attributes|non-prime attributes]], these attributes should be  fully [[Database_relations#Functional dependency|functionally independent]]
 - The table should also be in [[#1NF: Atomic values|1NF]]
 
 > **Problem**:
