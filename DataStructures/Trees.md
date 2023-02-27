@@ -5,19 +5,19 @@
 - A tree is a connected acylic graph (no loop)
 - Consists of the root, internal nodes and leaf nodes
 - Height refers to number of levels of a tree (also refers to max number of jumps available)
->![[Pasted image 20220314120554.png]]
+![[Pasted image 20220314120554.png|450|450]]
 - Tree edges = Number of nodes - 1
 ## K-ary trees
 - Sets a maximum number of child nodes 
->![[Pasted image 20220314120700.png]]
+![[Pasted image 20220314120700.png|450|450]]
 
 ## Balanced trees
 - For all nodes, the height of child subtree dont differ by more than one
->![[Pasted image 20220314121330.png]]
+![[Pasted image 20220314121330.png|450|450]]
 - A balanced tree has O(log n) complexity
 
 ## Adjacency matrix representation
->![[Pasted image 20220314123040.png]]
+![[Pasted image 20220314123040.png|450|450]]
 assumes a directed graph from parent to children
 
 ## Tree API
@@ -29,12 +29,12 @@ item[] get_children(n)
 # Tree algorithms
 [[Trees]]
 - Unlike graphs, keeping track of previous nodes isn't necessary making the traversal process much more straightforward
->![[Pasted image 20220317121418.png]]
+![[Pasted image 20220317121418.png|450|450]]
 # Breadth-first tree search
 - On a tree, a breadth first search is done by stepping through one layer at a time from left to right.
 - Breadth first traversal example:
->![[Pasted image 20220317120624.png]]
->![[Pasted image 20220318120007.png]]
+![[Pasted image 20220317120624.png|450|450]]
+![[Pasted image 20220318120007.png|450|450]]
 
 
 # Depth-first tree search
@@ -43,18 +43,18 @@ item[] get_children(n)
 ## Preorder
 - Middle -> Left -> Right
 
->![[Pasted image 20220318122905.png]]
->![[Pasted image 20220318122953.png]]
+![[Pasted image 20220318122905.png|450|450]]
+![[Pasted image 20220318122953.png|450|450]]
 
 ## Postorder 
 - Left -> Right -> Middle  (also known as the suffix walk)
 
->![[Pasted image 20220318123351.png]]
->![[Pasted image 20220318123701.png]]
+![[Pasted image 20220318123351.png|450|450]]
+![[Pasted image 20220318123701.png|450|450]]
 
 - Example suffix walk:
 
->![[Pasted image 20220317122911.png]]
+![[Pasted image 20220317122911.png|450|450]]
 - This is often used for shortest path algorithms where edge weights are present and we need to find the best way to reach a leaf node
 
 ## Inorder
@@ -63,7 +63,7 @@ item[] get_children(n)
 - Key property is that **reaching any node leaf takes same number of moves**
 - Particularly useful for index based lookup systems
 - Example lookup system using first letter of username
->![[Pasted image 20220318124317.png]]
+![[Pasted image 20220318124317.png|450|450]]
 - However distributions of users can still vary creating uneven sizes
 - This can be solves using a self-balancing tree eg a B-tree
 
@@ -71,5 +71,5 @@ item[] get_children(n)
 - Start by defining a maximum number of nodes
 - Once that node limit is reached, a split occurs up to the same maximum number of children
 - Example maximimum is 2
->![[Pasted image 20220318124629.png]]
+![[Pasted image 20220318124629.png|450|450]]
 

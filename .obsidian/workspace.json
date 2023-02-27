@@ -203,20 +203,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0ab1a4351d739f46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DataStructures/RadixTrees.md",
+                "file": "OperatingSystems/DigitalSystems/Computer_architecture.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -305,7 +292,7 @@
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -350,7 +337,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataStructures/RadixTrees.md",
+                "file": "OperatingSystems/DigitalSystems/Computer_architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -390,7 +377,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/RadixTrees.md"
+                "file": "OperatingSystems/DigitalSystems/Computer_architecture.md"
               }
             }
           }
@@ -414,7 +401,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/RadixTrees.md"
+                "file": "OperatingSystems/DigitalSystems/Computer_architecture.md"
               }
             }
           },
@@ -440,7 +427,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataStructures/RadixTrees.md",
+                "file": "OperatingSystems/DigitalSystems/Computer_architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -490,13 +477,22 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "0ab1a4351d739f46",
+  "active": "b8b0d78ebdf58892",
   "lastOpenFiles": [
+    "OperatingSystems/DigitalSystems/ASCII.md",
+    "OperatingSystems/Computer_memory.md",
+    "OperatingSystems/Error_codes.md",
+    "OperatingSystems/Caching.md",
+    "DataStructures/Trees.md",
+    "DataStructures/Sets.md",
+    "DataStructures/sedMJAJlj",
+    "DataStructures/RadixTrees.md",
+    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
+    "DataStructures/Heaps.md",
     "DataStructures/CacheStructures/LRU.md",
     "00-Main/2-Litnote.md",
     "00-Main/1-Litnote.md",
     "DataStructures/DataStorage&Retrieval.md",
-    "DataStructures/Heaps.md",
     "DataStructures/Graphs.md",
     "DataStructures/sed33kt9o",
     "DataStructures/sedit9HHx",
@@ -508,20 +504,12 @@
     "Networking/Internet_protocols.md",
     "SoftwareDesign/HCI/Human_memory.md",
     "SoftwareDesign/HCI/Human_perception.md",
-    "OperatingSystems/Computer_memory.md",
     "OperatingSystems/Linux_permissions.md",
     "OperatingSystems/Operating_system_design.md",
     "OperatingSystems/Multi-Process_systems.md",
     "OperatingSystems/Page_replacement.md",
-    "OperatingSystems/Error_codes.md",
     "OperatingSystems/Input&Output_systems.md",
-    "OperatingSystems/Caching.md",
     "ProgramLanguages/Regex.md",
-    "ProgramLanguages/R_language.md",
-    "ProgramLanguages/x86_assembly.md",
-    "SoftwareDesign/Software_planning.md",
-    "SoftwarePatterns/Design_patterns.md",
-    "SoftwarePatterns/Behavioral/Command_pattern.md",
     "SoftwareEngineering/sedAM4RPw",
     "Networking/sedT9BOf8",
     "XX-Attachments/Images/Pasted image 20230225235345.png",

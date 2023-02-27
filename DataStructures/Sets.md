@@ -55,22 +55,22 @@ A\cap B=(x \in A) \cup (x \in B)
 
 # Types of sets
 ## Empty
-> ![[Pasted image 20211028194249.png|500]]
+![[Pasted image 20211028194249.png|500]]
 
 ## Disjoint 
-> ![[Pasted image 20211028194357.png|500]]
+![[Pasted image 20211028194357.png|500]]
 
 ## Equal
-> ![[Pasted image 20211028194444.png|500]]
+![[Pasted image 20211028194444.png|500]]
 
 ## Not equal
-> ![[Pasted image 20211028194522.png|500]]
+![[Pasted image 20211028194522.png|500]]
 
 ## Sets of sets
-> ![[Pasted image 20211028194703.png|500]]
+![[Pasted image 20211028194703.png|500]]
 
 ## Cardinality
-> ![[Pasted image 20211028194846.png|500]]
+![[Pasted image 20211028194846.png|500]]
 
 # Subsets 
 ## Standard subset
@@ -85,12 +85,12 @@ A\cap B=(x \in A) \cup (x \in B)
 - A subset of A that is also not equal to A 
 - Written as b ∈ A
 
-> ![[Pasted image 20220525180924.png]]
+![[Pasted image 20220525180924.png|450|450]]
 ## Proper superset
 - **Atleast** one element in B that isn't in A
 - Written B ⊃ A
 
-> ![[Pasted image 20211028195817.png]]
+![[Pasted image 20211028195817.png|450|450]]
 
 # Universal set
 - Represents all relevant data:
@@ -100,14 +100,14 @@ A\cap B=(x \in A) \cup (x \in B)
 • U = {red, orange, yellow, green, blue, indigo, violet}
 - Represented by a rectangle: 
 
-> ![[Pasted image 20211028205420.png|500]]
+![[Pasted image 20211028205420.png|500]]
 
 ## Complement set
 - Difference between universal and a certain set
 - Written: comp(A) = U – A     OR    A'
 - Example:
 
-> ![[Pasted image 20211028205940.png|500]]
+![[Pasted image 20211028205940.png|500]]
 
 # Ordered pair properties
 - Pair of objects with an order associated with them
@@ -122,7 +122,7 @@ A\cap B=(x \in A) \cup (x \in B)
 - Note that the Cartesian  product also creates a set 
 - Result of ordered pair:
 
->![[Pasted image 20211028194010.png]]
+![[Pasted image 20211028194010.png|450|450]]
 - Result of ordered tuples:
 
->![[Pasted image 20211028230131.png]]
+![[Pasted image 20211028230131.png|450|450]]

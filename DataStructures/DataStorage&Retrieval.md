@@ -11,17 +11,17 @@
 - Time taken to process a single item, typically relates to kind of data used by a process
 
 ## Running time 
->![[Pasted image 20220509121402.png]]
+![[Pasted image 20220509121402.png]]
 
 # Linear search complexity
 ## Worst case
->![[Pasted image 20220509122336.png]]
+![[Pasted image 20220509122336.png]]
 
 ## Average case 
->![[Pasted image 20220509122354.png]]
+![[Pasted image 20220509122354.png]]
 
 ## Comparison with Sentinel search 
->![[Pasted image 20220509122711.png]]
+![[Pasted image 20220509122711.png]]
 
 # Indexed retrieval
 - Frequently used to store and retrieve records in a data structure.
@@ -34,7 +34,7 @@
 > index[2] holds the index of the first “C” record 
 > Note: if there are no keys with a specific letter then index[n] = -1
 
->![[Pasted image 20220512132739.png]]
+![[Pasted image 20220512132739.png]]
 
 ## Indexed retrieval time complexity
 - At the worst case, all keys start with the same letter resulting in all records being in the same section causing a linear search of the array O(N)
@@ -44,7 +44,7 @@
 
 ## Adding an entry
 - Adding an entry in an index based system can be inefficient as all elements need to shifted if an element is inserted in between
->![[Pasted image 20220512135732.png]]
+![[Pasted image 20220512135732.png]]
 
 # Collisions
 - Data structure collisions occur when two pieces of data generate the same hash resulting in storage within the same location
@@ -64,7 +64,7 @@ else ...... // no matching key
 # Chain based storage 
 - One way to reduce the computation of a insertion is to use chains (an array of buckets using chains to represent addtional entries
 
->![[Pasted image 20220512140119.png]]
+![[Pasted image 20220512140119.png]]
 
 ```
 take first letter L from name;
