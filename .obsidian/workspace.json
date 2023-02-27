@@ -34,7 +34,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
+                "file": "Databases/Database_keys.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ca8a7367495646cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -42,7 +55,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
+                "file": "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md"
+                "file": "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md"
               }
             }
           }
@@ -151,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md"
+                "file": "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md"
               }
             }
           },
@@ -177,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
+                "file": "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,19 +240,20 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "ac88d2b4e525fc93",
+  "active": "ca8a7367495646cf",
   "lastOpenFiles": [
+    "OperatingSystems/Virtualisation.md",
     "Databases/Database_keys.md",
+    "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "Networking/Internet_architecture.md",
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
     "Databases/Database_relations.md",
     "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
     "Databases/Database_normalisation.md",
     "OperatingSystems/DigitalSystems/ASCII.md",
     "Networking/TransmissionProtocols/Transmission_protocols.md",
-    "OperatingSystems/Virtualisation.md",
-    "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "SoftwarePatterns/Behavioral/Command_pattern.md",
     "OperatingSystems/Error_codes.md",
     "Networking/Network_tools.md",
@@ -254,7 +268,6 @@
     "SoftwareDesign/SOLID_principles.md",
     "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
     "Algorithms/ProgrammingPatterns/Two_pointers.md",
-    "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "XX-Attachments/Images/Pasted image 20230227165239.png",
     "XX-Attachments/Images/Pasted image 20230227165227.png",
     "XX-Attachments/Images/Pasted image 20230227164343.png",
