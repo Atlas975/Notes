@@ -118,11 +118,12 @@ ___
 - The table should also be in [[#3NF: Non-prime attribute dependence|3NF]]
 
 ### Armstrongs axioms 
+- These 5 axioms act as [[Inference_rules|inference rules]] for functional dependencies:
 1. [[Relations#Reflexivity|Reflexivity:]] if $X \in Y$ then $Y\to X$ (trivial FD)
 2. [[De_Morgans_law|Augmentation:]] if $X \to Y$ then $XZ \to YZ$ for any $Z$
 3. [[Relations#Transitivity|Transitivity:]] if $X \to Y$ and $Y\to Z$ then $X\to Y$
-4. [[]]: if $X\to Y$ and $X\to Z$ then $X\to YZ$
-5. 
+4. [[Sets#Union|Union]]: if $X\to Y$ and $X\to Z$ then $X\to YZ$
+5. [[Boolean_logic|Decomposition:]] if $X\to YZ$ then $X\to Y$ and $X \to Z$
 
 > **Problem**:
 > 
