@@ -438,6 +438,22 @@
           "lastUpdated": 1677596022713
         }
       }
+    },
+    "functional": {
+      "functional": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677596232944
+        }
+      }
+    },
+    "dependency": {
+      "dependency": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677596235711
+        }
+      }
     }
   }
 }

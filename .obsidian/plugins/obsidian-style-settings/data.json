@@ -1,0 +1,14 @@
+{
+  "minimal-style@@callouts-style": "callouts-outlined",
+  "minimal-style@@callout-blend-mode": "var(--highlight-mix-blend-mode)",
+  "minimal-advanced@@cursor": "default",
+  "minimal-style@@h1-l": false,
+  "minimal-style@@h1-size": "29px",
+  "minimal-style@@h1-weight": 500,
+  "minimal-style@@table-numbers": true,
+  "minimal-style@@minimal-code-scroll": true,
+  "minimal-style@@active-line-on": true,
+  "minimal-style@@h1-variant": "normal",
+  "minimal-style@@h1-style": "normal",
+  "minimal-style@@h2-font": "\"\""
+}
