@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "d74173a44fdfb6bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Statistical_modeling.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "fe01fa2d0a6e6bd6",
             "type": "leaf",
             "state": {
@@ -33,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_relations.md",
+                "file": "MachineLearning/Statistical_modeling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_relations.md"
+                "file": "MachineLearning/Statistical_modeling.md"
               }
             }
           }
@@ -142,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_relations.md"
+                "file": "MachineLearning/Statistical_modeling.md"
               }
             }
           },
@@ -168,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_relations.md",
+                "file": "MachineLearning/Statistical_modeling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,10 +232,11 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "83c5d4aaa79e22dd",
+  "active": "d74173a44fdfb6bc",
   "lastOpenFiles": [
-    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+    "Databases/Database_relations.md",
+    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
@@ -231,7 +246,6 @@
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "DataStructures/CacheStructures/LRU.md",
     "DataStructures/CacheStructures/LFU.md",
-    "Databases/Database_relations.md",
     "Networking/Network_architecture.md",
     "Networking/Routing_methods.md",
     "Networking/Network_topology.md",

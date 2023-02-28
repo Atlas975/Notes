@@ -27,14 +27,16 @@
         --text-title-h4: var(--purple);
         --text-title-h5: var(--green);
         --bold-color: var(--yellow);
-        --text-normal: var(--light2);
+
+        /* --text-normal: var(--light2);
         --text-faint: var(--light0);
         --text-muted: var(--light1);
+        --main-color: var(--light2); */
+
 
         --text-link: var(--frost0);
         --text-a: var(--frost3);
         --text-a-hover: var(--frost2);
-
 
         --font-monospace: 'Jetbrains Mono', monospace;
 }
@@ -126,3 +128,5 @@ img {
 mjx-math {
         font-size: 18px !important;
 }
+
+
