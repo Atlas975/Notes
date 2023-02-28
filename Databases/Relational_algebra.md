@@ -81,3 +81,5 @@ ___
 - Renaming can also be done for individual columns 
 
 ![[Pasted image 20230210185312.png|400|400]]
+
+[[Relational_algebra#Select]]
