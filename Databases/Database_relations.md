@@ -68,6 +68,8 @@ t_{1}\in R,t_{2}\in R \text{ such that:}\\
 \Pi _{x}t_{1}=\Pi_{x}t_{2} \to \Pi _{y}t_{1}=\Pi_{y}t_{2}
 \end{align*}$$
 ![[Pasted image 20230211164800.png|500|500]]
+
+- A functional dependency 
 # ER-to-relational mapping
 - In order to obey [[Database_constraints|database constraints]] in an [[Entity_relationship_model|ER]], each relationship mapping requires keys to be managed differently depending on relation types 
 - This mapping also impacts how [[SQL_relations|deletion]] of a tuple should be handled  

@@ -21,6 +21,6 @@
   "galleryImgBorderActiveColor": "#FF0000",
   "moveTheImageHotkey": "NONE",
   "switchTheImageHotkey": "CTRL",
-  "doubleClickToolbar": "toolbar_copy",
+  "doubleClickToolbar": "toolbar_full_screen",
   "viewTriggerHotkey": "NONE"
 }

@@ -67,16 +67,13 @@ A X B = {<1, 1>, <1, 3>, <2, 1>, <2, 3>} R={<1, 3>, <2, 3>}
 - Proof of transitivity (True)
 
 > R1={<2,2>,<2,4>,<2,7>,<4,7>} 
-
-
-| <2,2><2,4>  | Needs <2,4> to be transitive  |
+> 
+> | Pair        | Requires                      |
 | ----------- | ----------------------------- |
+| <2,2><2,4>  | Needs <2,4> to be transitive  |
 | <2,4>,<2,7> | Needs  <2,7> to be transitive |
 | <2,7><4,7>  | Needs  <2,7> to be transitive |
-                             
-## Irreflexivity
 
-![[Pasted image 20211028234059.png|500]]
 
 
 
