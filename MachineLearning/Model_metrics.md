@@ -36,6 +36,6 @@ ___
 > $$\text{Accuracy}=\frac{1}{m}\sum_{i=1}^{m}y\neq{\hat{y}}$$
 ## F-score / F-statistic
 
-> $$\text{Precision}=\frac{\text{True positives}}{\text{True Positives}+\color{cyan}{\text{False positives}}}$$
-> $$\text{Recall}=\frac{\text{True positives}}{\text{True Positives}+\color{red}{\text{False negatives}}}$$
+> $$\text{Precision}=\frac{\text{True positives}}{\text{True Positives}+\text{False positives}}$$
+> $$\text{Recall}=\frac{\text{True positives}}{\text{True Positives}+\text{False negatives}}$$
 

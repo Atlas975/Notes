@@ -45,7 +45,9 @@ img {
         display: block !important;
         margin-left: auto !important;
         margin-right: auto !important;
+        opacity: 1 !important;
 }
+
 
 .markdown-source-view.mod-cm6 .cm-content>* {
         margin: auto auto !important;
@@ -90,7 +92,7 @@ img {
 
 .cm-strong,
 .markdown-preview-section strong {
-        font-weight: 450 !important;
+        font-weight: 455 !important;
         color: var(--bold-color) !important;
 }
 
@@ -128,4 +130,3 @@ img {
 mjx-math {
         font-size: 18px !important;
 }
-

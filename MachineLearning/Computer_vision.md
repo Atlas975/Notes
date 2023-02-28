@@ -1,21 +1,20 @@
-```ad-info
-title: Metadata
-collapse: closed
+> [!important]- Metadata
+> **Tags:** #MediaEncoding #StatisticalLearning 
+> **Located:** MachineLearning
+> **Created:** 27/02/2023 - 16:44
+> ```dataviewjs
+>let cur = dv.current().file;
+>let loc = cur.path;
+>let links = cur.inlinks.concat(cur.outlinks).array().map(p => p.path);
+>let paths = new Set(links.filter(p => !p.endsWith(".png")));
+>paths.delete(loc);
+>dv.table(["Connections",  "Tags"], dv.array(Array.from(paths).slice(0, 20)).map(p => [
+>   dv.fileLink(p),dv.page(p).file.tags.join("")]));
+> ```
 
-
-**Created:** 26/12/2022 - 09:27
-**Located:** MachineLearning
-**Grouped:** #MediaEncoding 
-
-```dataview
-table without id
-    link(file.name) as "Links"
-from !"XX-Attachment"
-where contains(this.file.inlinks, file.link)
-   or contains(file.outlinks, this.file.link)
-```
 ___
 # Computer vision
+
 - In image processing, a convolution is the process of transforming an image by applying a kernel to each pixel. A kernel in this context being a matrix of values whose size and values determine the transformation effect of the convolution process
 - A kernel is vital in compressing an image into an easier and less computationally expensive version of itself to operate on
 

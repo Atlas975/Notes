@@ -25,8 +25,7 @@
 - Flexibility describes how complex the model can be eg a quadratic function is more flexible than a linear one. Useful for pure prediction eg stock prices
 - Iterpretability describes how easy the model is to understand, making it easier to interpret how an individual predictor effects a response. Useful for inference eg sales factors
 
-![[Pasted image 20220225155757.png|450|450]]
-![[Pasted image 20220225162903.png|450|450]]
+![[Pasted image 20220225155757.png|450|450]]![[Pasted image 20220225162903.png|450|450]]
 
 # Bias vs variance
 
@@ -47,7 +46,6 @@
 # Automated clustering
 
 - The number of distinct clusters that can be formed with p number of predictors is:
-
 > $$\frac{p(p-1)}{2}$$
 
 - When these can't easily be seen like with the below example, a method is needed to find these clusters automatically
@@ -67,6 +65,7 @@
 ## Bayes classifier [[Bayes_classifier]]
 
 - The test error rate is minimized using the Bayes classifier by assigning each observation to the most likely class.
+
 
 ![[Pasted image 20220225164939.png|450|450]]
 ![[Pasted image 20220225164956.png|450|450]]
