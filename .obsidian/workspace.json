@@ -4,16 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "e2a9fdced1a5b853",
+        "id": "54065023d15d9b53",
         "type": "tabs",
         "children": [
           {
-            "id": "83c5d4aaa79e22dd",
+            "id": "f3004d36b9ce9155",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "f7e1f8c26674a040",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_relations.md",
+                "file": "SoftwareDesign/SOLID_principles.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -21,12 +29,12 @@
             }
           },
           {
-            "id": "d74173a44fdfb6bc",
+            "id": "69e1d87de8268480",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Statistical_modeling.md",
+                "file": "DiscreteMath/De_Morgans_law.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -34,16 +42,11 @@
             }
           },
           {
-            "id": "fe01fa2d0a6e6bd6",
+            "id": "c4c0be4f828cb876",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Checksum.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -92,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Statistical_modeling.md",
+                "file": "SoftwareDesign/SOLID_principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Statistical_modeling.md"
+                "file": "SoftwareDesign/SOLID_principles.md"
               }
             }
           }
@@ -156,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Statistical_modeling.md"
+                "file": "SoftwareDesign/SOLID_principles.md"
               }
             }
           },
@@ -182,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Statistical_modeling.md",
+                "file": "SoftwareDesign/SOLID_principles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,10 +235,24 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "d74173a44fdfb6bc",
+  "active": "f7e1f8c26674a040",
   "lastOpenFiles": [
-    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+    "DiscreteMath/De_Morgans_law.md",
+    "SoftwareDesign/SOLID_principles.md",
+    "Networking/Checksum.md",
+    "SoftwareDesign/Software_architecture.md",
+    "SoftwareDesign/Entity_relationship_model.md",
+    "SoftwareDesign/BSPL.md",
+    "Algorithms/AlgorithmConcepts/Graph_traversal.md",
+    "Algorithms/AlgorithmConcepts/Algorithm_fundamentals.md",
+    "Algorithms/AlgorithmConcepts/Sorting_algorithms.md",
     "Databases/Database_relations.md",
+    "Algorithms/ProgrammingPatterns/Binary_search.md",
+    "MachineLearning/Gradient_descent.md",
+    "MachineLearning/Neural_networks.md",
+    "MachineLearning/Machine_learning_notation.md",
+    "MachineLearning/Statistical_modeling.md",
+    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
@@ -246,20 +263,6 @@
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "DataStructures/CacheStructures/LRU.md",
     "DataStructures/CacheStructures/LFU.md",
-    "Networking/Network_architecture.md",
-    "Networking/Routing_methods.md",
-    "Networking/Network_topology.md",
-    "Networking/Network_tools.md",
-    "Algorithms/AlgorithmConcepts/Union_find.md",
-    "Algorithms/AlgorithmConcepts/Sorting_algorithms.md",
-    "Algorithms/AlgorithmConcepts/Graph_traversal.md",
-    "Algorithms/AlgorithmConcepts/Search_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
-    "Databases/Database_constraints.md",
-    "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
-    "SoftwareDesign/SOLID_principles.md",
-    "Networking/Checksum.md",
-    "Algorithms/ProgrammingPatterns/Backtracking.md",
     "XX-Attachments/Images/Pasted image 20230227165239.png",
     "XX-Attachments/Images/Pasted image 20230227165227.png",
     "XX-Attachments/Images/Pasted image 20230227164343.png",

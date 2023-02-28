@@ -48,7 +48,7 @@
 
 - The number of distinct clusters that can be formed with p number of predictors is:
 
-> $\frac{p(p-1)}{2}$
+> $$\frac{p(p-1)}{2}$$
 
 - When these can't easily be seen like with the below example, a method is needed to find these clusters automatically
 

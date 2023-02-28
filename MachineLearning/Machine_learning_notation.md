@@ -39,7 +39,7 @@ ___
 
 ### Parameter notation
 
-> $$a_{j}^{[i][t][k]}$$
+>  $$a_{j}^{[i][t][k]}$$
 > $\text{Superscript i indicates layer, subscript j indicates neuron in layer vector }$
 > $\text{parameters t to denote batch number and k to denote example may also be present}$
 
@@ -51,7 +51,7 @@ ___
 > $\text{where n denotes network shape}$
 
 ## Convolutional network notation
-
+> 
 > $n=\text{image dimensions}$
 > $f=\text{filter(kernal) dimensions}$
 >  $p=\text{padding dimensions}$

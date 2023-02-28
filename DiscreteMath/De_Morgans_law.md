@@ -18,7 +18,7 @@ ___
 - A set of transformations used to convert the intersection / union of a set [[Sets]] into its complement
 - Multiple use cases in [[Boolean_logic|boolean algebra]], [[Predicate_logic|predicate logic]] and [[Propositional_logic|propositional logic]], also essential in simplifying logic circuits
 ## De-Morgan's theorem
->$$(\overline{A+B})=\overline{A}\overline{B}$$
+>$$(\overline{A+B})=\overline{AB}$$
 >$$\begin{align*}\\
 \text{The complement of a sum is equal to the product of a complement }
 \end{align*}$$
