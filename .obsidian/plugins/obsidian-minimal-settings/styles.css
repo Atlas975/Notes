@@ -63,21 +63,21 @@ img {
 .cm-header-2,
 .markdown-preview-section h2 {
         font-weight: 460 !important;
-        font-size: 22px !important;
+        font-size: 23px !important;
         color: var(--text-title-h2) !important;
 }
 
 .cm-header-3,
 .markdown-preview-section h3 {
         font-weight: 460 !important;
-        font-size: 18px !important;
+        font-size: 19px !important;
         color: var(--text-title-h3) !important;
 }
 
 .cm-header-4,
 .markdown-preview-section h4 {
         font-weight: 460 !important;
-        font-size: 16px !important;
+        font-size: 17px !important;
         color: var(--text-title-h4) !important;
 }
 
@@ -86,7 +86,7 @@ img {
 .markdown-preview-section h5,
 .markdown-preview-section h6 {
         font-weight: 460 !important;
-        font-size: 16px !important;
+        font-size: 17px !important;
         color: var(--text-title-h5) !important;
 }
 

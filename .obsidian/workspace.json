@@ -4,45 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "54065023d15d9b53",
+        "id": "4458d8d2a0213057",
         "type": "tabs",
         "children": [
           {
-            "id": "f3004d36b9ce9155",
+            "id": "3d8b7a5636bf7c58",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Statistical_modeling.md",
+                "file": "Databases/Relational_algebra.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
-            }
-          },
-          {
-            "id": "69e1d87de8268480",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Model_metrics.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c4c0be4f828cb876",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -87,7 +65,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Model_metrics.md",
+                "file": "Databases/Relational_algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Model_metrics.md"
+                "file": "Databases/Relational_algebra.md"
               }
             }
           }
@@ -151,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Model_metrics.md"
+                "file": "Databases/Relational_algebra.md"
               }
             }
           },
@@ -177,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Model_metrics.md",
+                "file": "Databases/Relational_algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,13 +205,14 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "69e1d87de8268480",
+  "active": "3d8b7a5636bf7c58",
   "lastOpenFiles": [
+    "MachineLearning/Statistical_modeling.md",
+    "MachineLearning/Model_metrics.md",
     "MachineLearning/Computer_vision.md",
     "SoftwareDesign/Software_planning.md",
     "Algorithms/ProgrammingPatterns/Binary_search.md",
     "Algorithms/AlgorithmConcepts/Graph_traversal.md",
-    "MachineLearning/Statistical_modeling.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "DiscreteMath/De_Morgans_law.md",
     "SoftwareDesign/SOLID_principles.md",
@@ -254,7 +233,6 @@
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
     "Databases/Database_normalisation.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "XX-Attachments/Images/Pasted image 20230227165239.png",
     "XX-Attachments/Images/Pasted image 20230227165227.png",
     "XX-Attachments/Images/Pasted image 20230227164343.png",
