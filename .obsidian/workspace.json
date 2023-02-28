@@ -52,8 +52,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_normalisation.md",
-                "mode": "source",
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md"
               }
             }
           }
@@ -195,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md"
               }
             }
           },
@@ -221,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -273,8 +273,9 @@
   },
   "active": "83e5558afe56f1ea",
   "lastOpenFiles": [
-    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
+    "Databases/Database_normalisation.md",
+    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
@@ -282,7 +283,6 @@
     "DataStructures/CacheStructures/LFU.md",
     "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
     "Databases/Database_relations.md",
-    "Databases/Database_normalisation.md",
     "Networking/Network_architecture.md",
     "Networking/Routing_methods.md",
     "Networking/Network_topology.md",

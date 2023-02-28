@@ -99,6 +99,14 @@ img {
         color: var(--purple) !important;
 }
 
+.markdown-preview-view .internal-link:hover {
+        color: var(--purple) !important;
+}
+
+.cm-s-obsidian span.cm-hmd-internal-link {
+        font-weight: 460;
+        color: var(--purple) !important;
+}
 
 .mod-cm6 .cm-editor .HyperMD-header,
 .markdown-reading-view .markdown-preview-section :is(h1, h2, h3, h4, h5, h6) {
