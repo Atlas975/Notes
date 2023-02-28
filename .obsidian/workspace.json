@@ -8,58 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f6aaab260efe2425",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ac88d2b4e525fc93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1c45a99206507476",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "83e5558afe56f1ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "83c5d4aaa79e22dd",
             "type": "leaf",
             "state": {
@@ -85,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -131,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
+                "file": "Databases/Database_relations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md"
+                "file": "Databases/Database_relations.md"
               }
             }
           }
@@ -195,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md"
+                "file": "Databases/Database_relations.md"
               }
             }
           },
@@ -221,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
+                "file": "Databases/Database_relations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -271,17 +218,19 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "83e5558afe56f1ea",
+  "active": "83c5d4aaa79e22dd",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+    "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
     "Databases/Database_normalisation.md",
-    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "DataStructures/CacheStructures/LRU.md",
     "DataStructures/CacheStructures/LFU.md",
-    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
     "Databases/Database_relations.md",
     "Networking/Network_architecture.md",
     "Networking/Routing_methods.md",
@@ -297,8 +246,6 @@
     "SoftwareDesign/SOLID_principles.md",
     "Networking/Checksum.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
-    "OperatingSystems/Paging.md",
-    "SoftwareDesign/Software_planning.md",
     "XX-Attachments/Images/Pasted image 20230227165239.png",
     "XX-Attachments/Images/Pasted image 20230227165227.png",
     "XX-Attachments/Images/Pasted image 20230227164343.png",

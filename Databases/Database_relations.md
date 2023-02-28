@@ -48,6 +48,7 @@ $$\begin{align*}
 t_{i}=(v_{1},v_{2},v_{3}\dots v_{n})\\
 v=values
 \end{align*}$$
+
 ![[Pasted image 20230204184506.png|350|350]]
 
 - This schema allows for array like notation eg $t_{2}[name]=v_{2}$
