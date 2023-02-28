@@ -192,7 +192,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5046501159668
+    "width": 259.5046501159668,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -286,6 +287,8 @@
   },
   "active": "1012040dd450e9c8",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20230228154605.png",
+    "XX-Attachments/Images/Pasted image 20230228154602.png",
     "Databases/Database_relations.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Algorithms/ProgrammingPatterns/Binary_search.md",
@@ -311,7 +314,6 @@
     "MachineLearning/Computer_vision.md",
     "SoftwareDesign/Software_planning.md",
     "DiscreteMath/De_Morgans_law.md",
-    "SoftwareDesign/SOLID_principles.md",
     "XX-Attachments/Images/Pasted image 20230227165239.png",
     "XX-Attachments/Images/Pasted image 20230227165227.png",
     "XX-Attachments/Images/Pasted image 20230227164343.png",
@@ -328,7 +330,6 @@
     "XX-Attachments/Images/Pasted image 20230225235345.png",
     "XX-Attachments/Images/Pasted image 20230225235036.png",
     "XX-Attachments/Images/Pasted image 20230225234635.png",
-    "XX-Attachments/Images/Pasted image 20230225234555.png",
-    "XX-Attachments/Images/Pasted image 20230225234513.png"
+    "XX-Attachments/Images/Pasted image 20230225234555.png"
   ]
 }

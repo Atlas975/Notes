@@ -112,8 +112,17 @@ ___
 ## 3.5NF: Boyce-Codd normal form
 - A relation is in BCNF if for all ($X\to A$ and $A \in X$) where $X \text{ is the superkey for }R$
 - The only non-trivial functional dependencies that should hold are key constraints 
-- In other words, a [[func]]
+- In addition to previous NF's, BCNF prevents dependencies that are a mix of both prime and non-prime attributes
+
+![[Pasted image 20230228154605.png|450|450]]
 - The table should also be in [[#3NF: Non-prime attribute dependence|3NF]]
+
+### Armstrongs axioms 
+1. [[Relations#Reflexivity|Reflexivity:]] if $X \in Y$ then $Y\to X$ (trivial FD)
+2. [[De_Morgans_law|Augmentation:]] if $X \to Y$ then $XZ \to YZ$ for any $Z$
+3. [[Relations#Transitivity|Transitivity:]] if $X \to Y$ and $Y\to Z$ then $X\to Y$
+4. [[]]: if $X\to Y$ and $X\to Z$ then $X\to YZ$
+5. 
 
 > **Problem**:
 > 
