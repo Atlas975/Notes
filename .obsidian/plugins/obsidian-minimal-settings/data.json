@@ -24,7 +24,7 @@
   "labeledNav": false,
   "fullWidthMedia": false,
   "bordersToggle": true,
-  "minimalStatus": false,
+  "minimalStatus": true,
   "focusMode": false,
   "underlineInternal": false,
   "underlineExternal": true,

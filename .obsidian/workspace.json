@@ -11,18 +11,10 @@
             "id": "f3004d36b9ce9155",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "f7e1f8c26674a040",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwareDesign/SOLID_principles.md",
-                "mode": "preview",
+                "file": "Algorithms/AlgorithmConcepts/Graph_traversal.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -34,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMath/De_Morgans_law.md",
-                "mode": "preview",
+                "file": "Algorithms/AlgorithmConcepts/Graph_traversal.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -49,8 +41,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareDesign/SOLID_principles.md",
+                "file": "Algorithms/AlgorithmConcepts/Graph_traversal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/SOLID_principles.md"
+                "file": "Algorithms/AlgorithmConcepts/Graph_traversal.md"
               }
             }
           }
@@ -159,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/SOLID_principles.md"
+                "file": "Algorithms/AlgorithmConcepts/Graph_traversal.md"
               }
             }
           },
@@ -185,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareDesign/SOLID_principles.md",
+                "file": "Algorithms/AlgorithmConcepts/Graph_traversal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,15 +226,16 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "f7e1f8c26674a040",
+  "active": "f3004d36b9ce9155",
   "lastOpenFiles": [
+    "Algorithms/AlgorithmConcepts/Graph_traversal.md",
+    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "DiscreteMath/De_Morgans_law.md",
     "SoftwareDesign/SOLID_principles.md",
     "Networking/Checksum.md",
     "SoftwareDesign/Software_architecture.md",
     "SoftwareDesign/Entity_relationship_model.md",
     "SoftwareDesign/BSPL.md",
-    "Algorithms/AlgorithmConcepts/Graph_traversal.md",
     "Algorithms/AlgorithmConcepts/Algorithm_fundamentals.md",
     "Algorithms/AlgorithmConcepts/Sorting_algorithms.md",
     "Databases/Database_relations.md",
@@ -254,7 +246,6 @@
     "MachineLearning/Statistical_modeling.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",

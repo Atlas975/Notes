@@ -51,7 +51,7 @@ ___
 - In other word a subclass should be [[Sets|superset]] of its parent, including functions that take in the same input arguments 
 - Function overriding should be limited as not to break this, which should be the case if component design obeys [[#Single responsibility (SRP)|SRP]]
 
-![[Pasted image 20230128134510.png||t]]
+![[Pasted image 20230128134510.png|150|150]]
 
 ## Interface segregation (ISP)
 - Classes should not have unused functionality, especially if this functionality adds additional dependencies to this component
