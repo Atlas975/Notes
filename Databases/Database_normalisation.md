@@ -14,7 +14,6 @@
 
 ___
 # Database normalisation
-
 - Process of organising data in way that minimises data redundancy and dependency
 - Increases data integrity and consistency, normalisation ensures that each table in a [[Database_systems|database]] represents a single [[Entity_relationship_model|entity type]] and contains data only relating to that entity 
 
@@ -112,7 +111,8 @@ ___
 
 ## 3.5NF: Boyce-Codd normal form
 - A relation is in BCNF if for all ($X\to A$ and $A \in X$) where $X \text{ is the superkey for }R$
-- Tables must be free of reverse dependencies, with every non-prime attribute being a proper subset of the candidate key
+- The only non-trivial functional dependencies that should hold are key constraints 
+- In other words, a [[func]]
 - The table should also be in [[#3NF: Non-prime attribute dependence|3NF]]
 
 > **Problem**:

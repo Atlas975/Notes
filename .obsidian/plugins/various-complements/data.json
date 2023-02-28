@@ -442,16 +442,24 @@
     "functional": {
       "functional": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677596232944
+          "count": 2,
+          "lastUpdated": 1677598819031
         }
       }
     },
     "dependency": {
       "dependency": {
         "currentFile": {
+          "count": 2,
+          "lastUpdated": 1677598821255
+        }
+      }
+    },
+    "constraints": {
+      "constraints": {
+        "currentFile": {
           "count": 1,
-          "lastUpdated": 1677596235711
+          "lastUpdated": 1677598855309
         }
       }
     }
