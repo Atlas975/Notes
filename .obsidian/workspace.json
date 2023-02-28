@@ -39,8 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_relations.md",
-                "mode": "source",
+                "file": "Databases/Database_constraints.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "Databases/Database_constraints.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md"
+                "file": "Databases/Database_constraints.md"
               }
             }
           }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md"
+                "file": "Databases/Database_constraints.md"
               }
             }
           },
@@ -208,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "Databases/Database_constraints.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,10 +258,14 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "54817c7718423bf9",
+  "active": "d41dd8dcdcf4d1a4",
   "lastOpenFiles": [
     "Databases/Database_relations.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
+    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Binary_search.md",
+    "OperatingSystems/Virtualisation.md",
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
     "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
@@ -273,7 +277,6 @@
     "MachineLearning/Model_metrics.md",
     "MachineLearning/Computer_vision.md",
     "SoftwareDesign/Software_planning.md",
-    "Algorithms/ProgrammingPatterns/Binary_search.md",
     "Algorithms/AlgorithmConcepts/Graph_traversal.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "DiscreteMath/De_Morgans_law.md",
@@ -283,9 +286,6 @@
     "SoftwareDesign/Entity_relationship_model.md",
     "SoftwareDesign/BSPL.md",
     "Algorithms/AlgorithmConcepts/Algorithm_fundamentals.md",
-    "Algorithms/AlgorithmConcepts/Sorting_algorithms.md",
-    "MachineLearning/Gradient_descent.md",
-    "MachineLearning/Neural_networks.md",
     "XX-Attachments/Images/Pasted image 20230227165239.png",
     "XX-Attachments/Images/Pasted image 20230227165227.png",
     "XX-Attachments/Images/Pasted image 20230227164343.png",
