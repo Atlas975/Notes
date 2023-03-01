@@ -1,0 +1,23 @@
+.markdown-preview-view table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+mjx-math {
+    font-size: 18px !important;
+}
+
+
+.mod-cm6 .cm-editor .HyperMD-header,
+.markdown-reading-view .markdown-preview-section :is(h1, h2, h3, h4, h5, h6) {
+        line-height: 0.5em !important;
+        padding: 2px 0px 2px 0px !important;
+}

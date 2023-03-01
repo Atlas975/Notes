@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Relational_algebra.md",
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Relational_algebra.md",
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Relational_algebra.md"
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
               }
             }
           }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Relational_algebra.md"
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
               }
             }
           },
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Relational_algebra.md",
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,12 +227,13 @@
       "obsidian-custom-frames:Open Github": false,
       "obsidian-custom-frames:Open Google Calendar": false,
       "obsidian-custom-frames:Open Tasks": false,
-      "omnisearch:Omnisearch": false,
-      "oz-clear-unused-images:Clear Unused Images": false
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "omnisearch:Omnisearch": false
     }
   },
   "active": "3d8b7a5636bf7c58",
   "lastOpenFiles": [
+    "Databases/Relational_algebra.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Databases/Database_relations.md",
@@ -257,7 +258,6 @@
     "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "DiscreteMath/Relations.md",
-    "Databases/Relational_algebra.md",
     "MachineLearning/Statistical_modeling.md",
     "MachineLearning/Model_metrics.md",
     "MachineLearning/Computer_vision.md",

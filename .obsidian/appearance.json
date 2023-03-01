@@ -12,6 +12,7 @@
   "nativeMenus": false,
   "enabledCssSnippets": [
     "custom-admonitions.82cf9a",
-    "dashboard"
+    "dashboard",
+    "center_items"
   ]
 }
