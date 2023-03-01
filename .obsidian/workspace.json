@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
+                "file": "OperatingSystems/Paging.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
+                "file": "OperatingSystems/Paging.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md"
+                "file": "OperatingSystems/Paging.md"
               }
             }
           }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md"
+                "file": "OperatingSystems/Paging.md"
               }
             }
           },
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
+                "file": "OperatingSystems/Paging.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,6 +234,21 @@
   },
   "active": "54817c7718423bf9",
   "lastOpenFiles": [
+    "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
+    "OperatingSystems/DigitalSystems/Bitwise_arithmatic.md",
+    "Databases/Database_systems.md",
+    "Databases/Database_design.md",
+    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
+    "DataStructures/CacheStructures/LFU.md",
+    "DataStructures/CacheStructures/LRU.md",
+    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
+    "Algorithms/AlgorithmConcepts/Union_find.md",
+    "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
     "Algorithms/ProgrammingPatterns/Binary_search.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "Networking/Network_tools.md",
@@ -245,23 +260,8 @@
     "Algorithms/ProgrammingPatterns/Two_pointers.md",
     "DiscreteMath/Relations.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
-    "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
-    "Algorithms/AlgorithmConcepts/Search_algorithms.md",
-    "Databases/Database_normalisation.md",
-    "MachineLearning/Gradient_descent.md",
-    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
-    "Networking/Internet_architecture.md",
-    "MachineLearning/Feature_scaling.md",
-    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
-    "Databases/Relational_algebra.md",
-    "Databases/Database_relations.md",
-    "Networking/Network_delay.md",
     "XX-Attachments/Images/Pasted image 20230228154605.png",
     "XX-Attachments/Images/Pasted image 20230228154602.png",
-    "Databases/Database_constraints.md",
-    "Algorithms/AlgorithmConcepts/Graph_traversal.md",
-    "Algorithms/AlgorithmConcepts/Sorting_algorithms.md",
     "XX-Attachments/Images/Pasted image 20230227165239.png",
     "XX-Attachments/Images/Pasted image 20230227165227.png",
     "XX-Attachments/Images/Pasted image 20230227164343.png",

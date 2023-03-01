@@ -17,7 +17,6 @@ aliases: database
 
 ___
 # Databases systems
-
 - An organized collection of information.
 - Databases have to cope with:
   1. Massive volumes of data

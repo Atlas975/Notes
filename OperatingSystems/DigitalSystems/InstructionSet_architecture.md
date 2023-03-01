@@ -1,25 +1,19 @@
-```ad-info
-title: Metadata
-collapse: closed
+> [!important]- Metadata
+> **Tags:** #OperatingSystems 
+> **Located:** OperatingSystems/DigitalSystems
+> **Created:** 27/02/2023 - 16:44
+> ```dataviewjs
+>let cur = dv.current().file;
+>let loc = cur.path;
+>let links = cur.inlinks.concat(cur.outlinks).array().map(p => p.path);
+>let paths = new Set(links.filter(p => !p.endsWith(".png")));
+>paths.delete(loc);
+>dv.table(["Connections",  "Tags"], dv.array(Array.from(paths).slice(0, 20)).map(p => [
+>   dv.fileLink(p),dv.page(p).file.tags.join("")]));
+> ```
 
-
-**Created:** 26/12/2022 - 09:23
-**Located:** OperatingSystems/DigitalSystems
-**Tags:** #    
-
-```dataview
-table without id
-    link(file.name) as "Links"
-from !"XX-Attachment"
-where contains(this.file.inlinks, file.link)
-   or contains(file.outlinks, this.file.link)
-```
-
+___
 # InstructionSet architecture
-<% tp.file.cursor(2) %>
-
-
-#OperatingSystems 
 # Reduced instruction set computers (RISC)
 - Small number of instructions 
 - Simplifies ISA.

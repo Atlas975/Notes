@@ -30,9 +30,15 @@
   "minimal-style@@tx2@@light": "#1D454803",
   "minimal-style@@tx3@@light": "#00FFA8",
   "minimal-style@@code-size": "13px",
-  "minimal-style@@code-tag@@dark": "#88C0D0",
+  "minimal-style@@code-tag@@dark": "#8FBCBB",
   "minimal-style@@code-string@@dark": "#A3BE8C",
   "minimal-style@@code-value@@dark": "#B48EAD",
   "minimal-style@@code-punctuation@@dark": "#BF616A",
-  "minimal-style@@code-property@@dark": "#88C0D0"
+  "minimal-style@@code-property@@dark": "#8FBCBB",
+  "minimal-style@@code-comment@@dark": "#8793A8",
+  "minimal-style@@code-operator@@light": "#5E81AC",
+  "minimal-style@@code-operator@@dark": "#81A1C1",
+  "minimal-style@@code-keyword@@dark": "#81A1C1",
+  "minimal-style@@code-function@@dark": "#88C0D0",
+  "minimal-style@@code-important@@dark": "#D08770"
 }
