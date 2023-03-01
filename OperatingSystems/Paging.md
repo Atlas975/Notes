@@ -44,7 +44,8 @@ ___
 
 ![[Pasted image 20221212160140.png|450]]
 
-- Blocks of memory can be easily shared with paging provided the page tables in both processes point to the same physical address. Useful for inter-process communication eg shared libraries 
+- Blocks of memory can be easily shared with paging provided the page tables in both processes point to the same physical address. 
+- Useful for inter-process communication eg shared libraries 
 
 ![[Pasted image 20221212160328.png|450]]
 

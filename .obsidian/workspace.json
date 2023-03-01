@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Paging.md",
+                "file": "Databases/Relational_algebra.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Paging.md",
+                "file": "Databases/Relational_algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Paging.md"
+                "file": "Databases/Relational_algebra.md"
               }
             }
           }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Paging.md"
+                "file": "Databases/Relational_algebra.md"
               }
             }
           },
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Paging.md",
+                "file": "Databases/Relational_algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,6 +234,10 @@
   },
   "active": "54817c7718423bf9",
   "lastOpenFiles": [
+    "Databases/Database_relations.md",
+    "OperatingSystems/Multi-Process_systems.md",
+    "OperatingSystems/Linux_permissions.md",
+    "OperatingSystems/Paging.md",
     "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
     "OperatingSystems/DigitalSystems/Bitwise_arithmatic.md",
     "Databases/Database_systems.md",
@@ -256,10 +260,6 @@
     "MachineLearning/Detection_algorithms.md",
     "MachineLearning/Activation_functions.md",
     "DiscreteMath/Predicate_logic.md",
-    "Algorithms/ProgrammingPatterns/Backtracking.md",
-    "Algorithms/ProgrammingPatterns/Two_pointers.md",
-    "DiscreteMath/Relations.md",
-    "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "XX-Attachments/Images/Pasted image 20230228154605.png",
     "XX-Attachments/Images/Pasted image 20230228154602.png",
     "XX-Attachments/Images/Pasted image 20230227165239.png",
