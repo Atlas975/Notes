@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -47,14 +47,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMath/Relations.md",
+                "file": "Algorithms/ProgrammingPatterns/Two_pointers.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "file": "Algorithms/ProgrammingPatterns/Two_pointers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
+                "file": "Algorithms/ProgrammingPatterns/Two_pointers.md"
               }
             }
           }
@@ -155,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
+                "file": "Algorithms/ProgrammingPatterns/Two_pointers.md"
               }
             }
           },
@@ -181,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "file": "Algorithms/ProgrammingPatterns/Two_pointers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,36 +232,36 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3d8b7a5636bf7c58",
+  "active": "856b131c84bacc2e",
   "lastOpenFiles": [
-    "Databases/Relational_algebra.md",
-    "Algorithms/ProgrammingPatterns/Sliding_window.md",
+    "DiscreteMath/Relations.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
+    "Algorithms/ProgrammingPatterns/Sliding_window.md",
+    "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
+    "Algorithms/AlgorithmConcepts/Search_algorithms.md",
+    "Databases/Database_normalisation.md",
+    "Algorithms/ProgrammingPatterns/Binary_search.md",
+    "MachineLearning/Gradient_descent.md",
+    "MachineLearning/Activation_functions.md",
+    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
+    "Networking/Internet_architecture.md",
+    "MachineLearning/Feature_scaling.md",
+    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+    "Databases/Relational_algebra.md",
     "Databases/Database_relations.md",
     "Networking/Network_delay.md",
     "Networking/Network_tools.md",
-    "Networking/Internet_architecture.md",
-    "Databases/Database_normalisation.md",
     "XX-Attachments/Images/Pasted image 20230228154605.png",
     "XX-Attachments/Images/Pasted image 20230228154602.png",
-    "Algorithms/ProgrammingPatterns/Binary_search.md",
     "Databases/Database_constraints.md",
     "Algorithms/AlgorithmConcepts/Graph_traversal.md",
-    "Algorithms/AlgorithmConcepts/Search_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
     "Algorithms/AlgorithmConcepts/Sorting_algorithms.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
-    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
     "OperatingSystems/Virtualisation.md",
-    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
     "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
-    "DiscreteMath/Relations.md",
-    "MachineLearning/Statistical_modeling.md",
-    "MachineLearning/Model_metrics.md",
-    "MachineLearning/Computer_vision.md",
     "XX-Attachments/Images/Pasted image 20230227165239.png",
     "XX-Attachments/Images/Pasted image 20230227165227.png",
     "XX-Attachments/Images/Pasted image 20230227164343.png",
