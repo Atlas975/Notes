@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Networking/Network_delay.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Networking/Network_delay.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "Networking/Network_delay.md"
               }
             }
           }
@@ -200,8 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5046501159668,
-    "collapsed": true
+    "width": 259.5046501159668
   },
   "right": {
     "id": "441e4249d5592193",
@@ -217,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "Networking/Network_delay.md"
               }
             }
           },
@@ -243,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Networking/Network_delay.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -295,8 +294,10 @@
   },
   "active": "dc69940013361f63",
   "lastOpenFiles": [
-    "Databases/Database_relations.md",
+    "Networking/Network_tools.md",
+    "Networking/Internet_architecture.md",
     "Databases/Database_normalisation.md",
+    "Databases/Database_relations.md",
     "XX-Attachments/Images/Pasted image 20230228154605.png",
     "XX-Attachments/Images/Pasted image 20230228154602.png",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
@@ -321,7 +322,6 @@
     "MachineLearning/Model_metrics.md",
     "MachineLearning/Computer_vision.md",
     "SoftwareDesign/Software_planning.md",
-    "DiscreteMath/De_Morgans_law.md",
     "XX-Attachments/Images/Pasted image 20230227165239.png",
     "XX-Attachments/Images/Pasted image 20230227165227.png",
     "XX-Attachments/Images/Pasted image 20230227164343.png",
