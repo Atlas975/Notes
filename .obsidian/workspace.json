@@ -14,58 +14,6 @@
               "type": "markdown",
               "state": {
                 "file": "Databases/Relational_algebra.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1a7577bb0d93e313",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d41dd8dcdcf4d1a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Backtracking.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "60529a8073c1ceea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Database_relations.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dc69940013361f63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Network_delay.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -106,8 +54,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -152,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Network_delay.md",
+                "file": "Databases/Relational_algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,14 +117,6 @@
               "type": "starred",
               "state": {}
             }
-          },
-          {
-            "id": "2cd5ed796fd02e73",
-            "type": "leaf",
-            "state": {
-              "type": "tagfolder-view",
-              "state": {}
-            }
           }
         ]
       },
@@ -192,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_delay.md"
+                "file": "Databases/Relational_algebra.md"
               }
             }
           }
@@ -216,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_delay.md"
+                "file": "Databases/Relational_algebra.md"
               }
             }
           },
@@ -242,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Network_delay.md",
+                "file": "Databases/Relational_algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -292,15 +231,17 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "dc69940013361f63",
+  "active": "3d8b7a5636bf7c58",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Sliding_window.md",
+    "Algorithms/ProgrammingPatterns/Backtracking.md",
+    "Databases/Database_relations.md",
+    "Networking/Network_delay.md",
     "Networking/Network_tools.md",
     "Networking/Internet_architecture.md",
     "Databases/Database_normalisation.md",
-    "Databases/Database_relations.md",
     "XX-Attachments/Images/Pasted image 20230228154605.png",
     "XX-Attachments/Images/Pasted image 20230228154602.png",
-    "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Algorithms/ProgrammingPatterns/Binary_search.md",
     "Databases/Database_constraints.md",
     "Algorithms/AlgorithmConcepts/Graph_traversal.md",
@@ -310,7 +251,6 @@
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
     "OperatingSystems/Virtualisation.md",
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
@@ -321,7 +261,6 @@
     "MachineLearning/Statistical_modeling.md",
     "MachineLearning/Model_metrics.md",
     "MachineLearning/Computer_vision.md",
-    "SoftwareDesign/Software_planning.md",
     "XX-Attachments/Images/Pasted image 20230227165239.png",
     "XX-Attachments/Images/Pasted image 20230227165227.png",
     "XX-Attachments/Images/Pasted image 20230227164343.png",

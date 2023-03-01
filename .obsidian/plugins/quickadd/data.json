@@ -49,5 +49,12 @@
     }
   ],
   "inputPrompt": "single-line",
-  "devMode": false
+  "devMode": false,
+  "templateFolderPath": "",
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true
+  }
 }

@@ -23,15 +23,15 @@ ___
 - Uses algebraic operations that are equivalent to those in [[SQL_language|SQL]]  
 - Takes 1+ relations as input and outputs a new [[Relations|relation]] 
 
-> $\sigma =\text{select} \color{gold}\text{ (where clause)}$ 
-> $\Pi=\text{project} \color{gold}\text{ (select clause, specifies columns)}$
-> $-=\text{set difference} \color{gold}\text{ (except join)}$
-> $\times=\text{cartesian product} \color{gold}\text{ (from clause)}$ 
-> $\cup=\text{union} \color{gold}\text{ (union join)}$
-> $\cap=\text{intersection}\color{gold}\text{ (inner join)}$
-> $\text{/}=division \color{gold}\text{ (left join on cross product)}$
-> $\Join=\text{join} \color{gold}\text{ (standard join)}$
-> $\rho=\text{rename} \color{gold} \text{ (as command)}$
+> $\sigma =\text{select} \color{#EBCB8B}\text{ (where clause)}$ 
+> $\Pi=\text{project} \color{#EBCB8B}\text{ (select clause, specifies columns)}$
+> $-=\text{set difference} \color{#EBCB8B}\text{ (except join)}$
+> $\times=\text{cartesian product} \color{#EBCB8B}\text{ (from clause)}$ 
+> $\cup=\text{union} \color{#EBCB8B}\text{ (union join)}$
+> $\cap=\text{intersection}\color{#EBCB8B}\text{ (inner join)}$
+> $\text{/}=division \color{#EBCB8B}\text{ (left join on cross product)}$
+> $\Join=\text{join} \color{#EBCB8B}\text{ (standard join)}$
+> $\rho=\text{rename} \color{#EBCB8B} \text{ (as command)}$
 
 ## Select
 
@@ -81,5 +81,3 @@ ___
 - Renaming can also be done for individual columns 
 
 ![[Pasted image 20230210185312.png|400|400]]
-
-[[Relational_algebra#Select]]

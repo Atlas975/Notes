@@ -693,14 +693,39 @@ function secondsToFreshness(totalAsMSec) {
   return FRESHNESS_5;
 }
 var queues = [];
-function pump() {
-  requestAnimationFrame(() => {
-    const proc = queues.shift();
-    if (proc) {
-      proc();
-      pump();
-    }
-  });
+function waitForRequestAnimationFrame() {
+  return new Promise((res) => requestAnimationFrame(() => res()));
+}
+function delay() {
+  return new Promise((res) => setTimeout(() => res(), 5));
+}
+var waits = [waitForRequestAnimationFrame, waitForRequestAnimationFrame, delay];
+var waitIdx = 0;
+var pumping = false;
+var startContinuousProcessing = Date.now();
+async function pump() {
+  if (pumping)
+    return;
+  try {
+    pumping = true;
+    do {
+      const proc = queues.shift();
+      if (proc) {
+        proc();
+        const now = Date.now();
+        if (now - startContinuousProcessing > 22) {
+          const w = waits[waitIdx];
+          waitIdx = (waitIdx + 1) % waits.length;
+          await w();
+          startContinuousProcessing = Date.now();
+        }
+      } else {
+        break;
+      }
+    } while (true);
+  } finally {
+    pumping = false;
+  }
 }
 var doEvents = () => {
   return new Promise((res) => {
@@ -2270,7 +2295,7 @@ var TreeItemComponent_default = TreeItemComponent;
 // TagFolderViewComponent.svelte
 var import_obsidian3 = require("obsidian");
 function add_css4(target) {
-  append_styles(target, "svelte-1lyxrts", ".nav-folder.svelte-1lyxrts{padding-bottom:64px}.nav-files-container.svelte-1lyxrts{height:100%}");
+  append_styles(target, "svelte-1xm87ro", ".nav-files-container.svelte-1xm87ro{height:100%}");
 }
 function get_each_context3(ctx, list, i) {
   const child_ctx = ctx.slice();
@@ -2395,7 +2420,7 @@ function create_if_block2(ctx) {
       input = element("input");
       t = space();
       div0 = element("div");
-      attr(input, "type", "text");
+      attr(input, "type", "search");
       attr(input, "spellcheck", "false");
       attr(input, "placeholder", "Type to start search...");
       attr(div0, "class", "search-input-clear-button");
@@ -2418,7 +2443,7 @@ function create_if_block2(ctx) {
       }
     },
     p(ctx2, dirty) {
-      if (dirty[0] & 2048 && input.value !== ctx2[11]) {
+      if (dirty[0] & 2048) {
         set_input_value(input, ctx2[11]);
       }
       if (dirty[0] & 2048) {
@@ -2511,8 +2536,8 @@ function create_fragment4(ctx) {
   let t1;
   let t2;
   let t3;
-  let div9;
   let t4;
+  let div9;
   let div8;
   let div6;
   let div4;
@@ -2549,10 +2574,10 @@ function create_fragment4(ctx) {
       if (if_block1)
         if_block1.c();
       t3 = space();
-      div9 = element("div");
       if (if_block2)
         if_block2.c();
       t4 = space();
+      div9 = element("div");
       div8 = element("div");
       div6 = element("div");
       div4 = element("div");
@@ -2573,8 +2598,8 @@ function create_fragment4(ctx) {
       attr(div5, "class", "nav-folder-title-content");
       attr(div6, "class", "nav-folder-title");
       attr(div7, "class", "nav-folder-children");
-      attr(div8, "class", "nav-folder mod-root svelte-1lyxrts");
-      attr(div9, "class", "nav-files-container svelte-1lyxrts");
+      attr(div8, "class", "nav-folder mod-root");
+      attr(div9, "class", "nav-files-container svelte-1xm87ro");
     },
     m(target, anchor) {
       insert(target, div0, anchor);
@@ -2591,10 +2616,10 @@ function create_fragment4(ctx) {
       if (if_block1)
         if_block1.m(div2, null);
       insert(target, t3, anchor);
-      insert(target, div9, anchor);
       if (if_block2)
-        if_block2.m(div9, null);
-      append(div9, t4);
+        if_block2.m(target, anchor);
+      insert(target, t4, anchor);
+      insert(target, div9, anchor);
       append(div9, div8);
       append(div8, div6);
       append(div6, div4);
@@ -2650,7 +2675,7 @@ function create_fragment4(ctx) {
         } else {
           if_block2 = create_if_block2(ctx);
           if_block2.c();
-          if_block2.m(div9, t4);
+          if_block2.m(t4.parentNode, t4);
         }
       } else if (if_block2) {
         if_block2.d(1);
@@ -2709,10 +2734,12 @@ function create_fragment4(ctx) {
         if_block1.d();
       if (detaching)
         detach(t3);
+      if (if_block2)
+        if_block2.d(detaching);
+      if (detaching)
+        detach(t4);
       if (detaching)
         detach(div9);
-      if (if_block2)
-        if_block2.d();
       destroy_each(each_blocks, detaching);
       mounted = false;
       dispose();
@@ -3228,8 +3255,9 @@ var TagFolderView = class extends TagFolderViewBase {
     return "Tag Folder";
   }
   async onOpen() {
+    this.containerEl.empty();
     this.component = new TagFolderViewComponent_default({
-      target: this.contentEl,
+      target: this.containerEl,
       props: {
         openfile: this.plugin.focusFile,
         hoverPreview: this.plugin.hoverPreview,
@@ -3716,7 +3744,7 @@ var TagFolderPlugin = class extends import_obsidian6.Plugin {
             for (const child of entry.children) {
               if ("tag" in child) {
                 const autoExp = isAutoExpandTree(child, this.settings);
-                const nextDepth = autoExp ? maxDepth2 : maxDepth2 - 1;
+                const nextDepth = autoExp || child.isDedicatedTree ? maxDepth2 : maxDepth2 - 1;
                 if (path.indexOf(child.tag) == -1) {
                   await this.expandLastExpandedFolders(child, false, [...path, entry.tag], openedTags, nextDepth);
                 }

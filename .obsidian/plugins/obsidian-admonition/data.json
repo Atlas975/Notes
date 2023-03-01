@@ -4,13 +4,13 @@
       "type": "important",
       "color": "163, 190, 140",
       "icon": {
-        "name": "bookmark",
-        "type": "font-awesome"
+        "type": "octicons",
+        "name": "info"
       },
       "command": false,
       "title": "Metadata",
       "injectColor": true,
-      "noTitle": false,
+      "noTitle": true,
       "copy": false
     }
   },
