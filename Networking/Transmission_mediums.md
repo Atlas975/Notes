@@ -30,9 +30,9 @@ ___
 ### Ethernet switch
 - A network device that connects devices on a LAN and forwards data between them. 
 - More efficient than a hub, as it only sends data to the intended device, and is a key component in ensuring network performance.
+- example of enterprise network connecting a mix of switches and routers 
 
 ![[Pasted image 20230209135219.png|500|500]]
-> example of enterprise network connecting a mix of switches and routers 
 
 ## Digital subscriber line (DSL)
 - A physical cable to a **DSL modem** (a device that connects other devices to the internet using DSL), converts [[Transmission_mediums#Digital transmission|digital signals]] from these devices to [[Transmission_mediums#Analogue transmission|analogue transmissions]] that work over network lines. This can also be done vise versa 

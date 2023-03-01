@@ -14,7 +14,6 @@
 
 ___
 # Predicate logic
-
 - An extension of [[Propositional_logic|propositional logic]] that accounts for parts of propositions, links and quantifier
 - Allows statements to be decomposed into smaller parts eliminating blackbox treatment
 - Consists of 

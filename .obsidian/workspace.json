@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Backtracking.md",
+                "file": "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -55,7 +55,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Two_pointers.md",
+                "file": "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Two_pointers.md"
+                "file": "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md"
               }
             }
           }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Two_pointers.md"
+                "file": "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md"
               }
             }
           },
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Two_pointers.md",
+                "file": "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,17 +232,23 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "856b131c84bacc2e",
+  "active": "54817c7718423bf9",
   "lastOpenFiles": [
-    "DiscreteMath/Relations.md",
+    "Algorithms/ProgrammingPatterns/Binary_search.md",
+    "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
+    "Networking/Network_tools.md",
+    "Networking/Transmission_mediums.md",
+    "MachineLearning/Detection_algorithms.md",
+    "MachineLearning/Activation_functions.md",
+    "DiscreteMath/Predicate_logic.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
+    "Algorithms/ProgrammingPatterns/Two_pointers.md",
+    "DiscreteMath/Relations.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
     "Algorithms/AlgorithmConcepts/Search_algorithms.md",
     "Databases/Database_normalisation.md",
-    "Algorithms/ProgrammingPatterns/Binary_search.md",
     "MachineLearning/Gradient_descent.md",
-    "MachineLearning/Activation_functions.md",
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "Networking/Internet_architecture.md",
@@ -251,17 +257,11 @@
     "Databases/Relational_algebra.md",
     "Databases/Database_relations.md",
     "Networking/Network_delay.md",
-    "Networking/Network_tools.md",
     "XX-Attachments/Images/Pasted image 20230228154605.png",
     "XX-Attachments/Images/Pasted image 20230228154602.png",
     "Databases/Database_constraints.md",
     "Algorithms/AlgorithmConcepts/Graph_traversal.md",
     "Algorithms/AlgorithmConcepts/Sorting_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
-    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
-    "OperatingSystems/Virtualisation.md",
-    "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
     "XX-Attachments/Images/Pasted image 20230227165239.png",
     "XX-Attachments/Images/Pasted image 20230227165227.png",
     "XX-Attachments/Images/Pasted image 20230227164343.png",

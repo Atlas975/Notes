@@ -28,5 +28,11 @@
   "minimal-style@@tag-color@@dark": "#D8DEE9",
   "minimal-style@@h1-size": "1.75em",
   "minimal-style@@tx2@@light": "#1D454803",
-  "minimal-style@@tx3@@light": "#00FFA8"
+  "minimal-style@@tx3@@light": "#00FFA8",
+  "minimal-style@@code-size": "13px",
+  "minimal-style@@code-tag@@dark": "#88C0D0",
+  "minimal-style@@code-string@@dark": "#A3BE8C",
+  "minimal-style@@code-value@@dark": "#B48EAD",
+  "minimal-style@@code-punctuation@@dark": "#BF616A",
+  "minimal-style@@code-property@@dark": "#88C0D0"
 }
