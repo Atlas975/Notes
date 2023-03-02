@@ -99,8 +99,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgramLanguages/SQL/Untitled.md",
-                "mode": "source",
+                "file": "ProgramLanguages/SQL/SQL_language.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/SQL/Untitled.md",
+                "file": "ProgramLanguages/SQL/SQL_language.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/SQL/Untitled.md"
+                "file": "ProgramLanguages/SQL/SQL_language.md"
               }
             }
           }
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/SQL/Untitled.md"
+                "file": "ProgramLanguages/SQL/SQL_language.md"
               }
             }
           },
@@ -255,7 +255,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/SQL/Untitled.md",
+                "file": "ProgramLanguages/SQL/SQL_language.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -307,10 +307,10 @@
   },
   "active": "8e9f13169a579a40",
   "lastOpenFiles": [
-    "ProgramLanguages/SQL/SQL_relations.md",
-    "ProgramLanguages/SQL/Untitled.md",
-    "ProgramLanguages/SQL/SQL_patterns.md",
+    "ProgramLanguages/SQL/SQL_Joins.md",
     "ProgramLanguages/SQL/SQL_language.md",
+    "ProgramLanguages/SQL/SQL_patterns.md",
+    "ProgramLanguages/SQL/SQL_relations.md",
     "Databases/Database_normalisation.md",
     "DiscreteMath/Relations.md",
     "XX-Attachments/Images/Pasted image 20230302143940.png",

@@ -169,11 +169,7 @@ WHERE Price BETWEEN 10 AND 20;
 
 > SELECT name FROM unis WHERE region IN ('North West', 'North East');
 
-# SQL Joins
-[[Sets]]
-
-![[Pasted image 20220120173210.png|450|450]]
-
+# SQL Join types 
 - Joining two tables without a filter will return the [[Sets#Cartesian product]] of the two tables. An example of filtering without joins:
 
 ![[Pasted image 20211127172815.png|450|450]]
