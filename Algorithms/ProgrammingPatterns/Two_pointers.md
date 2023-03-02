@@ -111,31 +111,31 @@ def trap(self, height: List[int]) -> int:
 ## Push dominoes 
 ```python
 def pushDominoes(self, dominoes: str) -> str:
-    n, rpush = len(dominoes), -1
+    n, l = len(dominoes), -1
     res = list(dominoes)
-    for hi, force in enumerate(dominoes):
+    for r, force in enumerate(dominoes):
         if force == "L":
-            if rpush == -1:
-                for i in reversed(range(hi)):
+            if l == -1:
+                for i in range(r, -1, -1):
                     if res[i] != ".":
                         break
                     res[i] = "L"
             else:
-                l, r = rpush + 1, hi - 1
-                while l < r:
-                    res[l], res[r] = "R", "L"
-                    l += 1
-                    r -= 1
-                rpush = -1
+                i, j = l + 1, r - 1
+                while i < j:
+                    res[i], res[j] = "R", "L"
+                    i += 1
+                    j -= 1
+                l = -1
 
         elif force == "R":
-            if rpush != -1:
-                for i in range(rpush + 1, hi):
+            if l != -1:
+                for i in range(l + 1, r):
                     res[i] = "R"
-            rpush = hi
+            l = r
 
-    if rpush != -1:
-        for i in range(rpush + 1, n):
+    if l != -1:
+        for i in range(l + 1, n):
             res[i] = "R"
     return "".join(res)
 ```

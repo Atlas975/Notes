@@ -60,15 +60,23 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Two_pointers.md",
+                "file": "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
+          },
+          {
+            "id": "43a70fe4a09767fb",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -113,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_keys.md",
+                "file": "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_keys.md"
+                "file": "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md"
               }
             }
           }
@@ -169,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_keys.md"
+                "file": "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md"
               }
             }
           },
@@ -195,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_keys.md",
+                "file": "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -245,8 +253,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "502c518162f7c3eb",
+  "active": "856b131c84bacc2e",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Two_pointers.md",
+    "Databases/Database_keys.md",
     "Databases/Database_normalisation.md",
     "OperatingSystems/Computer_memory.md",
     "OperatingSystems/Processors.md",
@@ -256,7 +266,6 @@
     "ContinuousMath/Poisson_distribution.md",
     "DataStructures/CacheStructures/LRU.md",
     "DataStructures/Hashing.md",
-    "Databases/Database_keys.md",
     "Databases/Database_design.md",
     "Databases/Database_constraints.md",
     "Databases/Relational_algebra.md",
@@ -272,7 +281,6 @@
     "OperatingSystems/DigitalSystems/Bitwise_arithmatic.md",
     "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
-    "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "XX-Attachments/Images/Pasted image 20230228154605.png",
     "XX-Attachments/Images/Pasted image 20230228154602.png",
     "XX-Attachments/Images/Pasted image 20230227165239.png",
