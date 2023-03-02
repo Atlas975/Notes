@@ -81,6 +81,32 @@
             }
           },
           {
+            "id": "57a6fb0e145b493d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ProgramLanguages/SQL/SQL_relations.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8e9f13169a579a40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ProgramLanguages/SQL/Untitled.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "bafd458e1c5b92a3",
             "type": "leaf",
             "state": {
@@ -102,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -147,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "ProgramLanguages/SQL/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "ProgramLanguages/SQL/Untitled.md"
               }
             }
           }
@@ -203,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "ProgramLanguages/SQL/Untitled.md"
               }
             }
           },
@@ -229,7 +255,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "ProgramLanguages/SQL/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,10 +305,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5f006c29381b2d80",
+  "active": "8e9f13169a579a40",
   "lastOpenFiles": [
-    "DiscreteMath/Relations.md",
+    "ProgramLanguages/SQL/SQL_relations.md",
+    "ProgramLanguages/SQL/Untitled.md",
+    "ProgramLanguages/SQL/SQL_patterns.md",
+    "ProgramLanguages/SQL/SQL_language.md",
     "Databases/Database_normalisation.md",
+    "DiscreteMath/Relations.md",
     "XX-Attachments/Images/Pasted image 20230302143940.png",
     "XX-Attachments/Images/Pasted image 20230302143934.png",
     "SoftwareEngineering/Functional_programming.md",
@@ -305,10 +335,6 @@
     "ContinuousMath/imaginary_numbers.md",
     "ContinuousMath/Modulo.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-    "OperatingSystems/Multi-Process_systems.md",
-    "OperatingSystems/Linux_permissions.md",
-    "OperatingSystems/Paging.md",
-    "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
     "XX-Attachments/Images/Pasted image 20230228154605.png",
     "XX-Attachments/Images/Pasted image 20230228154602.png",
     "XX-Attachments/Images/Pasted image 20230227165239.png",
