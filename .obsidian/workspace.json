@@ -42,6 +42,19 @@
             }
           },
           {
+            "id": "502c518162f7c3eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Database_keys.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "856b131c84bacc2e",
             "type": "leaf",
             "state": {
@@ -55,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -100,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md",
+                "file": "Databases/Database_keys.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md"
+                "file": "Databases/Database_keys.md"
               }
             }
           }
@@ -156,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md"
+                "file": "Databases/Database_keys.md"
               }
             }
           },
@@ -182,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md",
+                "file": "Databases/Database_keys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,8 +245,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "54817c7718423bf9",
+  "active": "502c518162f7c3eb",
   "lastOpenFiles": [
+    "Databases/Database_normalisation.md",
+    "OperatingSystems/Computer_memory.md",
     "OperatingSystems/Processors.md",
     "OperatingSystems/Caching.md",
     "DataStructures/CacheStructures/LFU.md",
@@ -241,7 +256,6 @@
     "ContinuousMath/Poisson_distribution.md",
     "DataStructures/CacheStructures/LRU.md",
     "DataStructures/Hashing.md",
-    "Databases/Database_normalisation.md",
     "Databases/Database_keys.md",
     "Databases/Database_design.md",
     "Databases/Database_constraints.md",
@@ -259,7 +273,6 @@
     "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "XX-Attachments/Images/Pasted image 20230228154605.png",
     "XX-Attachments/Images/Pasted image 20230228154602.png",
     "XX-Attachments/Images/Pasted image 20230227165239.png",

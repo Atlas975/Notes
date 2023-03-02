@@ -42,5 +42,5 @@ ___
 - It is used as the primary key when a natural primary key does not exist or is not practical.
 
 ## Super key
- - The set of all attributes that make uniquely identify a tuple, every relation has at least one superkey, this being the whole tuple as no two rows can be identical
+- The [[Sets|set]] of attributes where a subset if the [[#Primary key]] of the relation 
 - Also referred to as a candidate key, the set used as the primary key is the primary superkey
