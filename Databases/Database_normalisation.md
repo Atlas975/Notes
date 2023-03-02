@@ -53,7 +53,7 @@ ___
 >  | 456       | `jane@domain.com`           |
 >  | 456       | `jane@anemployer.net` |
 >  | 789          |`littlebobbytables@domain.com`                                                     |
- 
+
 ## 2NF: Prime attribute dependence
 - No partial aspect of a key should determine [[Database_keys#Non-prime attributes|non-prime attributes]],  attributes should be  fully [[Database_relations#Functional dependency|functionally dependent]] only on the entire key alone
 - The table should also be in [[#1NF: Atomic values|1NF]]
@@ -81,6 +81,7 @@ ___
 > | Team 1 | New York      |
 > | Team 2 | San Francisco |
 > 
+
 ## 3NF: Non-prime attribute dependence
 - Every [[Database_keys#Non-prime attributes|non-prime attribute]] should be independent of other non-prime attributes 
 - The table should also be in [[#2NF: Non-prime attribute dependence|2NF]]
@@ -112,19 +113,10 @@ ___
 
 ## 3.5NF: Boyce-Codd normal form
 - A relation is in BCNF if for all ($X\to A$ and $A \in X$) where $X \text{ is the superkey for }R$
-- The only non-trivial functional dependencies that should hold are key constraints 
+- The only non-trivial functional dependencies that should hold are key constraints, any non-trivail functional dependencies can be deduced through [[#Armstrongs axioms]]
 - In addition to previous NF's, BCNF prevents dependencies that are a mix of both prime and non-prime attributes
 
-![[Pasted image 20230228154605.png|450|450]]
 - The table should also be in [[#3NF: Non-prime attribute dependence|3NF]]
-
-### Armstrongs axioms 
-- These 5 axioms act as [[Inference_rules|inference rules]] for functional dependencies:
-1. [[Relations#Reflexivity|Reflexivity:]] if $X \in Y$ then $Y\to X$ (trivial FD)
-2. [[De_Morgans_law|Augmentation:]] if $X \to Y$ then $XZ \to YZ$ for any $Z$
-3. [[Relations#Transitivity|Transitivity:]] if $X \to Y$ and $Y\to Z$ then $X\to Y$
-4. [[Sets#Union|Union]]: if $X\to Y$ and $X\to Z$ then $X\to YZ$
-5. [[Boolean_logic|Decomposition:]] if $X\to YZ$ then $X\to Y$ and $X \to Z$
 
 > **Problem**:
 > 
@@ -153,6 +145,16 @@ ___
 | John Doe  | Sales      |
 | Bob Smith | Marketing  |
 
+### Armstrongs axioms
+- These 5 axioms act as [[Inference_rules|inference rules]] for functional dependencies:
+1. [[Relations#Reflexivity|Reflexivity:]] if $X \in Y$ then $Y\to X$ (trivial FD)
+2. [[De_Morgans_law|Augmentation:]] if $X \to Y$ then $XZ \to YZ$ for any $Z$
+3. [[Relations#Transitivity|Transitivity:]] if $X \to Y$ and $Y\to Z$ then $X\to Y$
+4. [[Sets#Union|Union]]: if $X\to Y$ and $X\to Z$ then $X\to YZ$
+5. [[Boolean_logic|Decomposition:]] if $X\to YZ$ then $X\to Y$ and $X \to Z$
+- Example usage 
+
+![[Pasted image 20230228154605.png|450|450]]
 ## 4NF: Multi-valued dependencies
 - The table should also be in [[#3NF: Non-prime attribute dependence|3NF]]
 

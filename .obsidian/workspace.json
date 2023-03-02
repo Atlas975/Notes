@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Relational_algebra.md",
+                "file": "Databases/Database_normalisation.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Relational_algebra.md",
+                "file": "Databases/Database_normalisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Relational_algebra.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Relational_algebra.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           },
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Relational_algebra.md",
+                "file": "Databases/Database_normalisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,6 +234,7 @@
   },
   "active": "54817c7718423bf9",
   "lastOpenFiles": [
+    "Databases/Relational_algebra.md",
     "Databases/Database_relations.md",
     "OperatingSystems/Multi-Process_systems.md",
     "OperatingSystems/Linux_permissions.md",
@@ -259,7 +260,6 @@
     "Networking/Transmission_mediums.md",
     "MachineLearning/Detection_algorithms.md",
     "MachineLearning/Activation_functions.md",
-    "DiscreteMath/Predicate_logic.md",
     "XX-Attachments/Images/Pasted image 20230228154605.png",
     "XX-Attachments/Images/Pasted image 20230228154602.png",
     "XX-Attachments/Images/Pasted image 20230227165239.png",
