@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_relations.md",
+                "file": "OperatingSystems/Caching.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_relations.md",
+                "file": "OperatingSystems/Caching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_relations.md"
+                "file": "OperatingSystems/Caching.md"
               }
             }
           }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_relations.md"
+                "file": "OperatingSystems/Caching.md"
               }
             }
           },
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_relations.md",
+                "file": "OperatingSystems/Caching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,32 +234,32 @@
   },
   "active": "54817c7718423bf9",
   "lastOpenFiles": [
-    "Databases/Database_systems.md",
-    "Databases/Relational_algebra.md",
-    "Databases/Database_keys.md",
+    "DataStructures/CacheStructures/LFU.md",
     "Databases/Database_relations.md",
-    "Databases/Database_constraints.md",
     "ContinuousMath/Poisson_distribution.md",
+    "DataStructures/CacheStructures/LRU.md",
+    "DataStructures/Hashing.md",
+    "Databases/Database_normalisation.md",
+    "Databases/Database_keys.md",
+    "Databases/Database_design.md",
+    "Databases/Database_constraints.md",
+    "Databases/Relational_algebra.md",
+    "Databases/Database_systems.md",
     "ContinuousMath/Center_of_rotation.md",
     "ContinuousMath/imaginary_numbers.md",
     "ContinuousMath/Modulo.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-    "Databases/Database_normalisation.md",
     "OperatingSystems/Multi-Process_systems.md",
     "OperatingSystems/Linux_permissions.md",
     "OperatingSystems/Paging.md",
     "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
     "OperatingSystems/DigitalSystems/Bitwise_arithmatic.md",
-    "Databases/Database_design.md",
     "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
-    "DataStructures/CacheStructures/LFU.md",
-    "DataStructures/CacheStructures/LRU.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
     "Algorithms/AlgorithmConcepts/Union_find.md",
-    "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
     "XX-Attachments/Images/Pasted image 20230228154605.png",
     "XX-Attachments/Images/Pasted image 20230228154602.png",
     "XX-Attachments/Images/Pasted image 20230227165239.png",
