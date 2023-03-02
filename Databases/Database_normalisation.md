@@ -35,9 +35,8 @@ ___
 >  123       | John Doe      | `john.doe@domain.com`, `jdoe@ajob.org`     |
 >  456       | Emily Doe      | `jane@domain.com` `jane@anemployer.net` |
 >  789       | Robert Tables | `littlebobbytables@domain.com`                          |
-
-- Staff email is non-atomic, instead containing multiple comma-delimited entries, cannot easily select distinct employee emails
-
+> Staff email is non-atomic, instead containing multiple comma-delimited entries, cannot easily select distinct employee emails
+> 
 > **Solution:**
 > 
 > | ==staff_num== | staff_name    |
@@ -65,9 +64,8 @@ ___
 > | 123         | Team 1 | User Interface  | New York      |
 > | 123         | Team 2 | Database Design | San Francisco |
 > | 465         | Team 2 | API Development | San Francisco |
-
-- team_hq is partialy-dependent on team (part of the candidate key), violating 2NF
-
+>  team_hq is partialy-dependent on team (part of the candidate key), violating 2NF
+> 
 > **Solution:**
 > 
 > | project_num | ==team==   | role            |
@@ -93,10 +91,8 @@ ___
 > | 123 | John Doe | 987 | Sara Manageer |  
 > | 456 | Emily Doe | 654 | Jay Deboss |  
 > | 789 | Robert Tables | 321 | Elle Hefe |  
+>  manager_name is dependent on manager_num which is not a prime attribute
 > 
-
-- manager_name is dependent on manager_num which is not a prime attribute
-
 > **Solution**
 > 
 > | staff_num | staff_name    | ==manager_num== |

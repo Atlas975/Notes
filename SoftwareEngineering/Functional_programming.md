@@ -37,7 +37,7 @@ ___
 ```rust
 let nums = vec![2, 3, 4];
 let sq = |x| x * x;
-let sq_nums: Vec<i32> = nums.iter().map(sq).collect(); // [4, 9, 16] 
+let sq_nums = nums.iter().map(sq).collect::<Vec<_>>(); // [4, 9, 16]
 ```
 
 ## Closures 
@@ -62,21 +62,23 @@ counter(); // returns 3
 ### Impure functions
 - Impure functions mutate the external state of the program, for example modifying variables declared outside a function
 
-```python
-data = [1, 2]
-def update_data(value):
-    data.append(value)
-    return data
+```rust
+fn impure_function(data: &mut Vec<i32>) {
+    data.push(4);
+}
+let mut data = vec![1, 2, 3];
+impure_function(&mut data);
 ````
 ### Pure functions
-- Pure functions have no side effects on the external state of the program, all variables are declared within the functional 
+- Pure functions have no side effects on the external state of the program, all variables are declared within the function
 -  This also ensures the function performs the same way each time it's called, irrespective of it's outer global scope
 
-```python
-def update_data(value):
-    data = [1, 2]
-    data.append(value)
-    return data
+```rust
+fn pure_function() -> Vec<i32> {
+    let mut data = vec![1, 2, 3];
+    data.push(4);
+    data
+}
 ````
 
 - Advantages include better readability and code independence

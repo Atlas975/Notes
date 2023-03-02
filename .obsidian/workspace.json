@@ -68,6 +68,19 @@
             }
           },
           {
+            "id": "5f006c29381b2d80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Database_normalisation.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "43a70fe4a09767fb",
             "type": "leaf",
             "state": {
@@ -76,7 +89,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -121,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareEngineering/Functional_programming.md",
+                "file": "Databases/Database_normalisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareEngineering/Functional_programming.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           }
@@ -177,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareEngineering/Functional_programming.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           },
@@ -203,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareEngineering/Functional_programming.md",
+                "file": "Databases/Database_normalisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,13 +266,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "856b131c84bacc2e",
+  "active": "5f006c29381b2d80",
   "lastOpenFiles": [
+    "SoftwareEngineering/Functional_programming.md",
+    "OperatingSystems/Computer_memory.md",
     "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
     "Databases/Database_keys.md",
     "Algorithms/ProgrammingPatterns/Two_pointers.md",
     "Databases/Database_normalisation.md",
-    "OperatingSystems/Computer_memory.md",
     "OperatingSystems/Processors.md",
     "OperatingSystems/Caching.md",
     "DataStructures/CacheStructures/LFU.md",
@@ -280,7 +294,6 @@
     "OperatingSystems/Paging.md",
     "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
     "OperatingSystems/DigitalSystems/Bitwise_arithmatic.md",
-    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
     "XX-Attachments/Images/Pasted image 20230228154605.png",
     "XX-Attachments/Images/Pasted image 20230228154602.png",
     "XX-Attachments/Images/Pasted image 20230227165239.png",
