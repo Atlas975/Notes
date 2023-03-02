@@ -36,9 +36,29 @@ ___
 - **Lambda:** An anonmous (unnamed) function, typically used as an inline function with a shred stack frame with its outer function
 - **Closure:** A functional programming technique that allows variables outside of the scope of a function to be accessed, typically used when a function is defined inside another function (chaining)
 
-# Function purity
+
+## Lambdas 
+```rust
+let nums = vec![2, 3, 4];
+let sq = |x| x * x;
+let sq_nums: Vec<i32> = nums.iter().map(sq).collect(); // [4, 9, 16] 
+```
+
+## Closures 
+```rust
+let mut x = 0;
+let mut add_one = move || {
+    x += 1;
+    println!("{}", x);
+};
+
+add_one(); // x = 1
+add_one(); // x =2
+add_one(); // 3
+```
+## Function purity
 - Function purity describes the potential side effects to executing a function, this is especially important in functional programming as functions can be passed as parameters (curried)
-## Impure functions
+### Impure functions
 - Impure functions mutate the external state of the program, for example modifying variables declared outside a function
 
 ```python
@@ -47,7 +67,7 @@ def update_data(value):
     data.append(value)
     return data
 ````
-## Pure functions
+### Pure functions
 - Pure functions have no side effects on the external state of the program, all variables are declared within the function, this also ensures the function performs the same way each time it's called with specific arguments
 
 ```python
