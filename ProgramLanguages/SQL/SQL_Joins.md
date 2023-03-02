@@ -17,3 +17,10 @@ ___
 - Multiple [[SQL_language|SQL]] join types exists, each select group can be taught of as a [[Sets|set]]
 
 ![[Pasted image 20220120173210.png|550|550]]
+
+## EXISTS operator
+
+![[Pasted image 20230302155501.png|450|450]]
+## UNIQUE operator
+
+![[Pasted image 20230302155550.png]]
