@@ -108,11 +108,12 @@ ___
 > | 321         | Elle Hefe     |
 
 ## 3.5NF: Boyce-Codd normal form
+- While 3NF aims to eliminate data redundancy by removing non-key attributes that depend on other non-key attributes, BCNF takes this a step further by removing non-key attributes that depend on any subset of the candidate key
 - A relation is in BCNF if for all ($X\to A$ and $A \in X$) where $X \text{ is the superkey for }R$
 - The only non-trivial functional dependencies that should hold are key constraints, any non-trivial functional dependencies can be deduced through [[#Armstrongs axioms]]
 - The table should also be in [[#3NF: Non-prime attribute dependence|3NF]]
 
-> **Problem**:
+%%> **Problem**:
 > 
 > | Emp_ID | Name          | Department | Manager   |
 | ------ | ------------- | ---------- | --------- |
@@ -137,8 +138,40 @@ ___
 | --------- | ---------- |
 | Emily Doe | Sales      |
 | John Doe  | Sales      |
-| Bob Smith | Marketing  |
+| Bob Smith | Marketing  |%%
 
+
+> **Problem:**
+> 
+> | ==product_id== | product_name | ==country_id== | country_name | region_name |
+| ---------- | ------------ | ---------- | ------------ | ----------- |
+| 1          | Product A    | 1          | Country X    | Region 1    |
+| 1          | Product A    | 2          | Country Y    | Region 1    |
+| 2          | Product B    | 1          | Country X    | Region 1    |
+| 2          | Product B    | 2          | Country Y    | Region 1    |
+| 3          | Product C    | 3          | Country Z    | Region 2    |
+
+> **Solution**
+> 
+> | ==product_id== | product_name |
+| ---------- | ------------ |
+| 1          | Product A    |
+| 2          | Product B    |
+| 3          | Product C    |
+> 
+> | ==country_id== | country_name | region_name |
+| ---------- | ------------ | ----------- |
+| 1          | Country X    | Region 1    |
+| 2          | Country Y    | Region 1    |
+| 3          | Country Z    | Region 2    |
+> 
+> | ==product_id== | ==country_id== |
+| ---------- | ---------- |
+| 1          | 1          |
+| 1          | 2          |
+| 2          | 1          |
+| 2          | 2          |
+| 3          | 3          |
 ### Armstrongs axioms
 - These 5 axioms act as [[Inference_rules|inference rules]] for functional dependencies:
 1. [[Relations#Reflexivity|Reflexivity:]] if $X \in Y$ then $Y\to X$ (trivial FD)
