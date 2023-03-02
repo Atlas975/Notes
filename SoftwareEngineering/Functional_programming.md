@@ -30,14 +30,10 @@ ___
 
 ![[Pasted image 20220711134148.png|550]]
 
-# Function terminology
-
-- **Function:** A function that's named or anonymous  
-- **Lambda:** An anonmous (unnamed) function, typically used as an inline function with a shred stack frame with its outer function
-- **Closure:** A functional programming technique that allows variables outside of the scope of a function to be accessed, typically used when a function is defined inside another function (chaining)
-
 
 ## Lambdas 
+-   Lambda expressions are anonymous functions that can be used to define functions inline.
+-   Lambda expressions can be passed as arguments to other functions, returned as values from functions, and assigned to variables, allowing for greater flexibility and modularity in code.
 ```rust
 let nums = vec![2, 3, 4];
 let sq = |x| x * x;
@@ -45,16 +41,21 @@ let sq_nums: Vec<i32> = nums.iter().map(sq).collect(); // [4, 9, 16]
 ```
 
 ## Closures 
+-   Closures can capture variables from their surrounding environment, allowing them to maintain state and depend on context.
+-   Closures can be used for techniques such as higher-order functions and currying.
+-   Closures can be used for asynchronous programming, enabling efficient use of resources and concurrent or parallel code.
 ```rust
-let mut x = 0;
-let mut add_one = move || {
-    x += 1;
-    println!("{}", x);
-};
-
-add_one(); // x = 1
-add_one(); // x =2
-add_one(); // 3
+fn make_counter() -> impl FnMut() -> i32 {
+    let mut cnt = 0;
+    move || {
+        cnt += 1;
+        cnt
+    }
+}
+let mut counter = make_counter();
+counter(); // returns 1
+counter(); // returns 2
+counter(); // returns 3
 ```
 ## Function purity
 - Function purity describes the potential side effects to executing a function, this is especially important in functional programming as functions can be passed as parameters (curried)
@@ -68,7 +69,8 @@ def update_data(value):
     return data
 ````
 ### Pure functions
-- Pure functions have no side effects on the external state of the program, all variables are declared within the function, this also ensures the function performs the same way each time it's called with specific arguments
+- Pure functions have no side effects on the external state of the program, all variables are declared within the functional 
+-  This also ensures the function performs the same way each time it's called, irrespective of it's outer global scope
 
 ```python
 def update_data(value):
