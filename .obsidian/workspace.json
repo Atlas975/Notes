@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Caching.md",
+                "file": "OperatingSystems/Computer_memory.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Caching.md",
+                "file": "OperatingSystems/Computer_memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Caching.md"
+                "file": "OperatingSystems/Computer_memory.md"
               }
             }
           }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Caching.md"
+                "file": "OperatingSystems/Computer_memory.md"
               }
             }
           },
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Caching.md",
+                "file": "OperatingSystems/Computer_memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,6 +234,8 @@
   },
   "active": "54817c7718423bf9",
   "lastOpenFiles": [
+    "OperatingSystems/Processors.md",
+    "OperatingSystems/Caching.md",
     "DataStructures/CacheStructures/LFU.md",
     "Databases/Database_relations.md",
     "ContinuousMath/Poisson_distribution.md",
@@ -258,8 +260,6 @@
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
-    "Algorithms/AlgorithmConcepts/Union_find.md",
     "XX-Attachments/Images/Pasted image 20230228154605.png",
     "XX-Attachments/Images/Pasted image 20230228154602.png",
     "XX-Attachments/Images/Pasted image 20230227165239.png",
