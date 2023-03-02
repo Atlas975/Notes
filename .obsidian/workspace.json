@@ -81,6 +81,19 @@
             }
           },
           {
+            "id": "bafd458e1c5b92a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMath/Relations.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "43a70fe4a09767fb",
             "type": "leaf",
             "state": {
@@ -268,12 +281,15 @@
   },
   "active": "5f006c29381b2d80",
   "lastOpenFiles": [
+    "DiscreteMath/Relations.md",
+    "Databases/Database_normalisation.md",
+    "XX-Attachments/Images/Pasted image 20230302143940.png",
+    "XX-Attachments/Images/Pasted image 20230302143934.png",
     "SoftwareEngineering/Functional_programming.md",
     "OperatingSystems/Computer_memory.md",
     "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
     "Databases/Database_keys.md",
     "Algorithms/ProgrammingPatterns/Two_pointers.md",
-    "Databases/Database_normalisation.md",
     "OperatingSystems/Processors.md",
     "OperatingSystems/Caching.md",
     "DataStructures/CacheStructures/LFU.md",
@@ -293,7 +309,6 @@
     "OperatingSystems/Linux_permissions.md",
     "OperatingSystems/Paging.md",
     "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
-    "OperatingSystems/DigitalSystems/Bitwise_arithmatic.md",
     "XX-Attachments/Images/Pasted image 20230228154605.png",
     "XX-Attachments/Images/Pasted image 20230228154602.png",
     "XX-Attachments/Images/Pasted image 20230227165239.png",
@@ -309,8 +324,6 @@
     "DataStructures/sedmzHhFC",
     "SoftwareEngineering/sedAM4RPw",
     "Networking/sedT9BOf8",
-    "XX-Attachments/Images/Pasted image 20230225235345.png",
-    "XX-Attachments/Images/Pasted image 20230225235036.png",
-    "XX-Attachments/Images/Pasted image 20230225234635.png"
+    "XX-Attachments/Images/Pasted image 20230225235345.png"
   ]
 }

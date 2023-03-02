@@ -110,6 +110,8 @@ ___
 ## 3.5NF: Boyce-Codd normal form
 - While 3NF aims to eliminate data redundancy by removing non-key attributes that depend on other non-key attributes, BCNF takes this a step further by removing non-key attributes that depend on any subset of the candidate key
 - A relation is in BCNF if for all ($X\to A$ and $A \in X$) where $X \text{ is the superkey for }R$
+
+![[Pasted image 20230302143940.png|400|400]]
 - The only non-trivial functional dependencies that should hold are key constraints, any non-trivial functional dependencies can be deduced through [[#Armstrongs axioms]]
 - The table should also be in [[#3NF: Non-prime attribute dependence|3NF]]
 
@@ -248,3 +250,9 @@ ___
 > |       12345 | Data Science       |  
 > |       45678 | API Development    |  
 > |       78901 | Data Visualization |  
+
+| emp_id | emp_name | emp_dept |
+| ------ | -------- | -------- |
+| 1      | Alice    | IT       |
+| 2      | Bob      | Sales    |
+| 3      | Charlie  | HR       |
