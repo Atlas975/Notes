@@ -60,7 +60,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
+                "file": "SoftwareEngineering/Functional_programming.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
+                "file": "SoftwareEngineering/Functional_programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md"
+                "file": "SoftwareEngineering/Functional_programming.md"
               }
             }
           }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md"
+                "file": "SoftwareEngineering/Functional_programming.md"
               }
             }
           },
@@ -203,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
+                "file": "SoftwareEngineering/Functional_programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
