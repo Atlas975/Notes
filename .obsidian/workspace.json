@@ -298,9 +298,6 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": true,
       "random-note:Open random note": false,
-      "obsidian-custom-frames:Open Github": false,
-      "obsidian-custom-frames:Open Google Calendar": false,
-      "obsidian-custom-frames:Open Tasks": false,
       "oz-clear-unused-images:Clear Unused Images": false,
       "omnisearch:Omnisearch": false
     }
@@ -308,13 +305,13 @@
   "active": "5f006c29381b2d80",
   "lastOpenFiles": [
     "SoftwareEngineering/Functional_programming.md",
+    "Databases/Database_normalisation.md",
     "ProgramLanguages/SQL/SQL_Joins.md",
     "XX-Attachments/Images/Pasted image 20230302155550.png",
     "XX-Attachments/Images/Pasted image 20230302155501.png",
     "ProgramLanguages/SQL/SQL_language.md",
     "ProgramLanguages/SQL/SQL_patterns.md",
     "ProgramLanguages/SQL/SQL_relations.md",
-    "Databases/Database_normalisation.md",
     "DiscreteMath/Relations.md",
     "XX-Attachments/Images/Pasted image 20230302143940.png",
     "XX-Attachments/Images/Pasted image 20230302143934.png",

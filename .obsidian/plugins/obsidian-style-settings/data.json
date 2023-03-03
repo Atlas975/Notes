@@ -40,5 +40,6 @@
   "minimal-style@@code-operator@@dark": "#81A1C1",
   "minimal-style@@code-keyword@@dark": "#81A1C1",
   "minimal-style@@code-function@@dark": "#88C0D0",
-  "minimal-style@@code-important@@dark": "#D08770"
+  "minimal-style@@code-important@@dark": "#D08770",
+  "minimal-style@@header-height": "35px"
 }
