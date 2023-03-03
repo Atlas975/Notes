@@ -81,6 +81,19 @@
             }
           },
           {
+            "id": "9cc8bf356f9c451d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "57a6fb0e145b493d",
             "type": "leaf",
             "state": {
@@ -128,7 +141,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -173,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md"
               }
             }
           }
@@ -229,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md"
               }
             }
           },
@@ -255,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -302,10 +315,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5f006c29381b2d80",
+  "active": "9cc8bf356f9c451d",
   "lastOpenFiles": [
-    "SoftwareEngineering/Functional_programming.md",
+    "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Backtracking.md",
+    "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "Databases/Database_normalisation.md",
+    "SoftwareEngineering/Functional_programming.md",
     "ProgramLanguages/SQL/SQL_Joins.md",
     "XX-Attachments/Images/Pasted image 20230302155550.png",
     "XX-Attachments/Images/Pasted image 20230302155501.png",
@@ -331,8 +347,6 @@
     "Databases/Relational_algebra.md",
     "Databases/Database_systems.md",
     "ContinuousMath/Center_of_rotation.md",
-    "ContinuousMath/imaginary_numbers.md",
-    "ContinuousMath/Modulo.md",
     "XX-Attachments/Images/Pasted image 20230228154605.png",
     "XX-Attachments/Images/Pasted image 20230228154602.png",
     "XX-Attachments/Images/Pasted image 20230227165239.png",
