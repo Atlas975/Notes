@@ -13,7 +13,7 @@
   "enabledCssSnippets": [
     "custom-admonitions.82cf9a",
     "dashboard",
-    "nord_col",
-    "center_items"
+    "center_items",
+    "nord_col"
   ]
 }
