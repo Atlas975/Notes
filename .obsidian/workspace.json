@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -86,8 +86,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
-                "mode": "preview",
+                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -140,8 +140,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -186,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md"
               }
             }
           }
@@ -242,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md"
               }
             }
           },
@@ -268,7 +267,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -315,8 +314,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9cc8bf356f9c451d",
+  "active": "3d8b7a5636bf7c58",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Sliding_window.md",
+    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
@@ -343,10 +346,6 @@
     "DataStructures/CacheStructures/LRU.md",
     "DataStructures/Hashing.md",
     "Databases/Database_design.md",
-    "Databases/Database_constraints.md",
-    "Databases/Relational_algebra.md",
-    "Databases/Database_systems.md",
-    "ContinuousMath/Center_of_rotation.md",
     "XX-Attachments/Images/Pasted image 20230228154605.png",
     "XX-Attachments/Images/Pasted image 20230228154602.png",
     "XX-Attachments/Images/Pasted image 20230227165239.png",

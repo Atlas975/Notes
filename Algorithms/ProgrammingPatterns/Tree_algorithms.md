@@ -142,13 +142,13 @@ def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
 ```python
 def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
     # ITERATIVE 
-    stack = deque([root])
-    while stack:
-        node = stack.pop()
+    s = deque([root])
+    while s:
+        node = s.pop()
         if node is None:
             continue
-        stack.append(node.right)
-        stack.append(node.left)
+        s.append(node.right)
+        s.append(node.left)
         node.left, node.right = node.right, node.left
 
     # RECURSIVE             
@@ -224,16 +224,16 @@ def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
 ```python
 def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
     # ITERATIVE
-    stack = deque([(p, q)])
-    while stack:
-        p, q = stack.pop()
+    s = deque([(p, q)])
+    while s:
+        p, q = s.pop()
         if bool(p) ^ bool(q):
             return False
         if p:
             if p.val != q.val:
                 return False
-            stack.append((p.left, q.left))
-            stack.append((p.right, q.right))
+            s.append((p.left, q.left))
+            s.append((p.right, q.right))
     return True
 
     # RECURSIVE
