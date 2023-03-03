@@ -104,15 +104,18 @@ def isHappy(self, n: int) -> bool:
 ```
 
 ## Plus one 
-```python
-def plusOne(self, digits: List[int]) -> List[int]:
-    n = len(digits)
-    for i in reversed(range(n)):
-        if digits[i] < 9:
-            digits[i]+=1
-            return digits
-        digits[i]=0
-    return [1] + digits
+```rust
+pub fn plus_one(mut digits: Vec<i32>) -> Vec<i32> {
+    for dig in digits.iter_mut().rev() {
+        if *dig < 9 {
+            *dig += 1;
+            return digits;
+        }
+        *dig = 0;
+    }
+    digits.insert(0, 1);
+    digits
+}
 ```
 
 ## Pow (x,n)
