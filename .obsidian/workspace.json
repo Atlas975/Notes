@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -173,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_Joins.md",
+                "file": "Databases/Database_normalisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_Joins.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           }
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_Joins.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           },
@@ -255,7 +255,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_Joins.md",
+                "file": "Databases/Database_normalisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -305,19 +305,19 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8e9f13169a579a40",
+  "active": "5f006c29381b2d80",
   "lastOpenFiles": [
+    "SoftwareEngineering/Functional_programming.md",
+    "ProgramLanguages/SQL/SQL_Joins.md",
     "XX-Attachments/Images/Pasted image 20230302155550.png",
     "XX-Attachments/Images/Pasted image 20230302155501.png",
     "ProgramLanguages/SQL/SQL_language.md",
-    "ProgramLanguages/SQL/SQL_Joins.md",
     "ProgramLanguages/SQL/SQL_patterns.md",
     "ProgramLanguages/SQL/SQL_relations.md",
     "Databases/Database_normalisation.md",
     "DiscreteMath/Relations.md",
     "XX-Attachments/Images/Pasted image 20230302143940.png",
     "XX-Attachments/Images/Pasted image 20230302143934.png",
-    "SoftwareEngineering/Functional_programming.md",
     "OperatingSystems/Computer_memory.md",
     "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
     "Databases/Database_keys.md",
@@ -342,7 +342,6 @@
     "XX-Attachments/Images/Pasted image 20230227165227.png",
     "XX-Attachments/Images/Pasted image 20230227164343.png",
     "XX-Attachments/Images/Pasted image 20230227160305.png",
-    "XX-Attachments/Images/Pasted image 20230227160146.png",
     "ProgramLanguages/Python/sed7keQGo",
     "DataStructures/sedMJAJlj",
     "DataStructures/sed33kt9o",
