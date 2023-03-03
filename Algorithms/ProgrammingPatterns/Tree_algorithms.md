@@ -199,9 +199,9 @@ def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
             root = root.left
         root, seen = s.pop()
         if seen:
-            l_h, r_h = diam[root.left], diam[root.right]
-            diam[root] = 1 + max(l_h, r_h)
-            mxdpth = max(mxdpth, l_h + r_h)
+            lh, rh = diam[root.left], diam[root.right]
+            diam[root] = 1 + max(lh, rh)
+            mxdpth = max(mxdpth, lh + rh)
             root = None
         else:
             s.append((root, True))
@@ -212,10 +212,9 @@ def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
         nonlocal mxdpth
         if node is None:
             return 0
-        l_h = dfs(node.left)
-        r_h = dfs(node.right)
-        mxdpth = max(mxdpth, l_h + r_h)
-        return 1 + max(l_h, r_h)
+        lh, rh = dfs(node.left), dfs(node.right)
+        mxdpth = max(mxdpth, lh + rh)
+        return 1 + max(lh, rh)
     dfs(root)
     
     return mxdpth
