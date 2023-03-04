@@ -20,7 +20,7 @@ ___
 
 
 ## EXISTS operator
-- Checks if a subquery returns any rows. If the subquery returns at least one row, the EXISTS operator returns true, and if the subquery returns no rows, the EXISTS operator returns false.
+- Checks if a subquery returns any rows. Returns rows only where the subquery returns True
 ```sql
 SELECT * FROM employees WHERE EXISTS (
     SELECT * FROM salaries WHERE salaries.employee_id = employees.id
@@ -38,5 +38,13 @@ SELECT * FROM employees WHERE salary > ANY (SELECT salary FROM contractors);
 ```
 
 ## UNIQUE operator
+- Used to specify that rows should only be returned if the subquery has no duplicates 
+```sql
+SELECT S.name FROM Sailer S WHERE UNIQUE(
+    SELECT R.bid FROM Reserves R WHERE S.sid=R.sid
+)
+```
 
-![[Pasted image 20230302155550.png]]
+
+## DIVISION join 
+![[Pasted image 20230304144310.png|650|650]]
