@@ -107,6 +107,19 @@
             }
           },
           {
+            "id": "4ad09378867ee7c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ProgramLanguages/SQL/SQL_language.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "9cc8bf356f9c451d",
             "type": "leaf",
             "state": {
@@ -167,7 +180,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -212,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "ProgramLanguages/SQL/SQL_language.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "ProgramLanguages/SQL/SQL_language.md"
               }
             }
           }
@@ -268,7 +281,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "ProgramLanguages/SQL/SQL_language.md"
               }
             }
           },
@@ -294,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "ProgramLanguages/SQL/SQL_language.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -341,13 +354,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "48f7d27e32f4f8c7",
+  "active": "4ad09378867ee7c9",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20230304160932.png",
+    "Databases/Database_normalisation.md",
     "Databases/Database_relations.md",
     "Databases/Database_keys.md",
     "Databases/Database_constraints.md",
     "Databases/Relational_algebra.md",
-    "Databases/Database_normalisation.md",
     "ProgramLanguages/SQL/SQL_Joins.md",
     "XX-Attachments/Images/Pasted image 20230304144545.png",
     "XX-Attachments/Images/Pasted image 20230304144310.png",
@@ -374,7 +388,6 @@
     "OperatingSystems/Computer_memory.md",
     "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
     "Algorithms/ProgrammingPatterns/Two_pointers.md",
-    "OperatingSystems/Processors.md",
     "XX-Attachments/Images/Pasted image 20230228154605.png",
     "XX-Attachments/Images/Pasted image 20230228154602.png",
     "XX-Attachments/Images/Pasted image 20230227165239.png",

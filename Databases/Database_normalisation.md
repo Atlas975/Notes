@@ -152,6 +152,7 @@ ___
 | 2          | 1          |
 | 2          | 2          |
 | 3          | 3          |
+
 ### Armstrongs axioms
 - These 5 axioms act as [[Inference_rules|inference rules]] for functional dependencies:
 1. [[Relations#Reflexivity|Reflexivity:]] if $X \in Y$ then $Y\to X$ (trivial FD)
@@ -203,9 +204,9 @@ ___
 | 12345 | 456 | Data Science |  
 | 45678 | 789 | API Development |  
 | 78901 | 123 | Data Visualization |  
-
-- All three attributes combine to form a candidate key, adding new entries is difficult as scenarios such as  adding a new project_asset to a project_num would have a missing staff_num. It's not possible to create an unassigned project 
-
+> 
+All three attributes combine to form a candidate key, adding new entries is difficult as scenarios such as  adding a new project_asset to a project_num might temporarily need a missing staff_num. It's not possible to create an unassigned project 
+> 
 > **Solution:**
 > 
 > | project_num | staff_num |
@@ -228,9 +229,4 @@ ___
 > |       12345 | Data Science       |  
 > |       45678 | API Development    |  
 > |       78901 | Data Visualization |  
-
-> | emp_id | emp_name | emp_dept |
-| ------ | -------- | -------- |
-| 1      | Alice    | IT       |
-| 2      | Bob      | Sales    |
-| 3      | Charlie  | HR       |
+> 

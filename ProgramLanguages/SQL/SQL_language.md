@@ -25,6 +25,8 @@ ___
 	3. Display attributes that are in **attribute list**
 	4. If **DISTINCT** specified discard duplicates 
 - An optimised strategy will now follow this order but syntactically this is the order SQL performs it's operation  
+
+![[Pasted image 20230304160932.png|550|550]]
 ## Order of operations
 
 ![[Pasted image 20211112105450.png|450|450]]
