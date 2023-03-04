@@ -133,6 +133,19 @@
             }
           },
           {
+            "id": "9eb5a5132deb9fb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Database_storage.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "9cc8bf356f9c451d",
             "type": "leaf",
             "state": {
@@ -193,7 +206,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -238,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_design.md",
+                "file": "Databases/Database_storage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -270,7 +283,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_design.md"
+                "file": "Databases/Database_storage.md"
               }
             }
           }
@@ -294,7 +307,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_design.md"
+                "file": "Databases/Database_storage.md"
               }
             }
           },
@@ -320,7 +333,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_design.md",
+                "file": "Databases/Database_storage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -367,8 +380,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9a92e5a9bc18802c",
+  "active": "9eb5a5132deb9fb2",
   "lastOpenFiles": [
+    "Databases/Database_design.md",
     "Databases/Database_normalisation.md",
     "Databases/Relational_algebra.md",
     "Databases/Database_systems.md",
@@ -403,7 +417,6 @@
     "XX-Attachments/Images/Pasted image 20230302143940.png",
     "XX-Attachments/Images/Pasted image 20230302143934.png",
     "OperatingSystems/Computer_memory.md",
-    "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
     "XX-Attachments/Images/Pasted image 20230228154605.png",
     "ProgramLanguages/Python/sed7keQGo",
     "DataStructures/sedMJAJlj",

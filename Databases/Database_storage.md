@@ -18,9 +18,13 @@ ___
 - Main memory databases are usually found in real time applications, however most applications do not require this level of response speed, note this is also expensive with large datasets
 - Data is organised into [[File_systems|files]] of records, which are a collection of data items (measured in bytes)
 
-## Record types 
+## Record sizes
 - **Fixed length:** each record in a file has identical byte size 
-- **Variable length:** each record in a file may be a of varying length 
+- **Variable length:** each record in a file may be a of varying length, this may be the case due to:
+    - Fields of varying length 
+    - Multi-valued fields 
+    - Optional fields 
+    - Records clustered together for performance reasons
 
 ![[Pasted image 20230304162640.png|650|650]]
 
