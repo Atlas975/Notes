@@ -154,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -199,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/Rust/Rust_language.md",
+                "file": "ProgramLanguages/SQL/SQL_Joins.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/Rust/Rust_language.md"
+                "file": "ProgramLanguages/SQL/SQL_Joins.md"
               }
             }
           }
@@ -255,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/Rust/Rust_language.md"
+                "file": "ProgramLanguages/SQL/SQL_Joins.md"
               }
             }
           },
@@ -281,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/Rust/Rust_language.md",
+                "file": "ProgramLanguages/SQL/SQL_Joins.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -327,12 +327,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1c5616cafa9d6a90",
+  "active": "8e9f13169a579a40",
   "lastOpenFiles": [
+    "ProgramLanguages/Rust/Rust_language.md",
     "ProgramLanguages/Rust/Rust_cargo.md",
     "ProgramLanguages/Rust/Rust_smart_pointers.md",
     "ProgramLanguages/Rust/Rust_message_passing.md",
-    "ProgramLanguages/Rust/Rust_language.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
