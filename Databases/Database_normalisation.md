@@ -1,6 +1,7 @@
 ---
 aliases: normal form
 ---
+
 > [!important]- Metadata
 > **Tags:** #Databases 
 > **Located:** Databases
@@ -112,14 +113,11 @@ ___
 
 ## 3.5NF: Boyce-Codd normal form
 - In BCNF, every non-key attribute is exclusively dependent on the candidate key of the table 
-- While 3NF aims to eliminate data redundancy by removing non-key attributes that depend on other non-key attributes, BCNF takes this a step further by removing non-key attributes that depend on any non [[Sets#proper subset]] of the candidate key
-- A relation is in BCNF if for all ($X\to A$ and $A \in X$) where $X \text{ is the superkey for }R$
+- While [[#3NF: Non-prime attribute dependence|3NF]] aims to eliminate data redundancy by removing non-key attributes that depend on other non-key attributes, BCNF takes this a step further by removing non-key attributes that depend on any non [[Sets#proper subset]] of the candidate key
 
 ![[Pasted image 20230302143940.png|400|400]]
+- A relation is in BCNF if for all ($X\to A$ and $A \in X$) where $X \text{ is the superkey for }R$
 - The only non-trivial functional dependencies that should hold are key constraints, any non-trivial functional dependencies can be deduced through [[#Armstrongs axioms]]
-- The table should also be in [[#3NF: Non-prime attribute dependence|3NF]]
-
-
 
 > **Problem:**
 > 
@@ -130,7 +128,8 @@ ___
 | 2          | Product B    | 1          | Country X    | Region 1    |
 | 2          | Product B    | 2          | Country Y    | Region 1    |
 | 3          | Product C    | 3          | Country Z    | Region 2    |
-
+> 
+> Candidate key is (product_id , country_id) but dependencies $\text{product/id}$
 > **Solution**
 > 
 > | ==product_id== | product_name |
