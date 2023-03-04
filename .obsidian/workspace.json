@@ -94,6 +94,19 @@
             }
           },
           {
+            "id": "48f7d27e32f4f8c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Database_normalisation.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "9cc8bf356f9c451d",
             "type": "leaf",
             "state": {
@@ -154,7 +167,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -199,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_relations.md",
+                "file": "Databases/Database_normalisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +244,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_relations.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           }
@@ -255,7 +268,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_relations.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           },
@@ -281,7 +294,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_relations.md",
+                "file": "Databases/Database_normalisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -328,8 +341,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5f006c29381b2d80",
+  "active": "48f7d27e32f4f8c7",
   "lastOpenFiles": [
+    "Databases/Database_relations.md",
     "Databases/Database_normalisation.md",
     "ProgramLanguages/SQL/SQL_Joins.md",
     "XX-Attachments/Images/Pasted image 20230304144545.png",

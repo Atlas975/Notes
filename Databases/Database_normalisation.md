@@ -1,3 +1,6 @@
+---
+aliases: normal form
+---
 > [!important]- Metadata
 > **Tags:** #Databases 
 > **Located:** Databases
@@ -108,6 +111,7 @@ ___
 > | 321         | Elle Hefe     |
 
 ## 3.5NF: Boyce-Codd normal form
+- In BCNF, every non-key attribute is exclusively dependent on the candidate key of the table 
 - While 3NF aims to eliminate data redundancy by removing non-key attributes that depend on other non-key attributes, BCNF takes this a step further by removing non-key attributes that depend on any non [[Sets#proper subset]] of the candidate key
 - A relation is in BCNF if for all ($X\to A$ and $A \in X$) where $X \text{ is the superkey for }R$
 
@@ -115,32 +119,6 @@ ___
 - The only non-trivial functional dependencies that should hold are key constraints, any non-trivial functional dependencies can be deduced through [[#Armstrongs axioms]]
 - The table should also be in [[#3NF: Non-prime attribute dependence|3NF]]
 
-%%> **Problem**:
-> 
-> | Emp_ID | Name          | Department | Manager   |
-| ------ | ------------- | ---------- | --------- |
-| 1      | John Doe      | Sales      | Emily Doe  |
-| 2      | Emily Doe      | Sales      | John Doe  |
-| 3      | Bob Smith     | Marketing  | Emily Doe  |
-| 4      | Sarah Johnson | Marketing  | Bob Smith |
-
-- Functional dependencies Manager  -> Department  exists and (Department , Name) -> Manager holds. Manager is dependent only part of the candidate key (Department, Name)
-- To normalise, separate managers table can be created, relationship established through Name
-
-> **Solution:**
-> 
-> | Emp_ID | Name          | Department |
-| ------ | ------------- | ---------- |
-| 1      | John Doe      | Sales      |
-| 2      | Emily Doe     | Sales      |
-| 3      | Bob Smith     | Marketing  |
-| 4      | Sarah Johnson | Marketing  |
-> 
-> | Name      | Department |
-| --------- | ---------- |
-| Emily Doe | Sales      |
-| John Doe  | Sales      |
-| Bob Smith | Marketing  |%%
 
 
 > **Problem:**
