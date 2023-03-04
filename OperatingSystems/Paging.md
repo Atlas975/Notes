@@ -15,7 +15,7 @@
 ___
 # Paging
 - Memory management scheme where a computer stores and retrieves data from **secondary storage** for use in **main memory**
-- Ideal for non-continuous memory allocation but is susceptible to [[Computer_memory#External fragmentation|external fragmentation]]
+- Ideal for non-continuous memory allocation but is susceptible to [[Computer_memory#External fragmentation|external fragmentation]] if there are no continuous blocks of free pages available for use
 - Mapping from virtual to physical addresses done by MMU
 - Divides memory into blocks. Similar to segmentation, a per process table exists to map from logical addresses to physical addresses.
 ## Page tables
