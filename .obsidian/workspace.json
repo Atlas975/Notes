@@ -86,7 +86,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Databases/Database_relations.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -154,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -199,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_Joins.md",
+                "file": "Databases/Database_relations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_Joins.md"
+                "file": "Databases/Database_relations.md"
               }
             }
           }
@@ -255,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_Joins.md"
+                "file": "Databases/Database_relations.md"
               }
             }
           },
@@ -281,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_Joins.md",
+                "file": "Databases/Database_relations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -311,7 +311,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.5
+    "width": 339.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -327,8 +328,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8e9f13169a579a40",
+  "active": "5f006c29381b2d80",
   "lastOpenFiles": [
+    "Databases/Database_normalisation.md",
+    "ProgramLanguages/SQL/SQL_Joins.md",
+    "XX-Attachments/Images/Pasted image 20230304144545.png",
     "XX-Attachments/Images/Pasted image 20230304144310.png",
     "ProgramLanguages/Rust/Rust_language.md",
     "ProgramLanguages/Rust/Rust_cargo.md",
@@ -341,9 +345,7 @@
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
-    "Databases/Database_normalisation.md",
     "SoftwareEngineering/Functional_programming.md",
-    "ProgramLanguages/SQL/SQL_Joins.md",
     "XX-Attachments/Images/Pasted image 20230302155550.png",
     "XX-Attachments/Images/Pasted image 20230302155501.png",
     "ProgramLanguages/SQL/SQL_language.md",
@@ -363,8 +365,6 @@
     "XX-Attachments/Images/Pasted image 20230228154602.png",
     "XX-Attachments/Images/Pasted image 20230227165239.png",
     "XX-Attachments/Images/Pasted image 20230227165227.png",
-    "XX-Attachments/Images/Pasted image 20230227164343.png",
-    "XX-Attachments/Images/Pasted image 20230227160305.png",
     "ProgramLanguages/Python/sed7keQGo",
     "DataStructures/sedMJAJlj",
     "DataStructures/sed33kt9o",

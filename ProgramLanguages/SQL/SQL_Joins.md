@@ -48,3 +48,6 @@ SELECT S.name FROM Sailer S WHERE UNIQUE(
 
 ## DIVISION join 
 ![[Pasted image 20230304144310.png|650|650]]
+
+## INTERSECT join 
+![[Pasted image 20230304144545.png|350|350]]

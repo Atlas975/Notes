@@ -108,7 +108,7 @@ ___
 > | 321         | Elle Hefe     |
 
 ## 3.5NF: Boyce-Codd normal form
-- While 3NF aims to eliminate data redundancy by removing non-key attributes that depend on other non-key attributes, BCNF takes this a step further by removing non-key attributes that depend on any subset of the candidate key
+- While 3NF aims to eliminate data redundancy by removing non-key attributes that depend on other non-key attributes, BCNF takes this a step further by removing non-key attributes that depend on any non [[Sets#proper subset]] of the candidate key
 - A relation is in BCNF if for all ($X\to A$ and $A \in X$) where $X \text{ is the superkey for }R$
 
 ![[Pasted image 20230302143940.png|400|400]]
