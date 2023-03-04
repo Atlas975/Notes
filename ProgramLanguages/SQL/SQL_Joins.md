@@ -18,9 +18,25 @@ ___
 
 ![[Pasted image 20220120173210.png|550|550]]
 
-## EXISTS operator
 
-![[Pasted image 20230302155501.png|450|450]]
+## EXISTS operator
+- Checks if a subquery returns any rows. If the subquery returns at least one row, the EXISTS operator returns true, and if the subquery returns no rows, the EXISTS operator returns false.
+```sql
+SELECT * FROM employees WHERE EXISTS (
+    SELECT * FROM salaries WHERE salaries.employee_id = employees.id
+);
+```
+## ALL operator
+- Used to specify a condition that must be true for all rows returned by a subquery.
+```sql
+SELECT * FROM employees WHERE salary > ALL (SELECT salary FROM contractors);
+```
+## ANY operator
+- Used to specify a condition that must be true for at least one row returned by a subquery.
+```sql
+SELECT * FROM employees WHERE salary > ANY (SELECT salary FROM contractors);
+```
+
 ## UNIQUE operator
 
 ![[Pasted image 20230302155550.png]]
