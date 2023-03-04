@@ -66,8 +66,8 @@
     "applications": {
       "applications": {
         "currentFile": {
-          "count": 4,
-          "lastUpdated": 1676540787292
+          "count": 5,
+          "lastUpdated": 1677946857235
         }
       }
     },
@@ -556,6 +556,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1677944077784
+        }
+      }
+    },
+    "persistence": {
+      "persistence": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677946823585
+        }
+      }
+    },
+    "databases": {
+      "databases": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1677946892550
         }
       }
     }
