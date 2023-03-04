@@ -100,7 +100,7 @@
               "type": "markdown",
               "state": {
                 "file": "Databases/Database_normalisation.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -344,6 +344,9 @@
   "active": "48f7d27e32f4f8c7",
   "lastOpenFiles": [
     "Databases/Database_relations.md",
+    "Databases/Database_keys.md",
+    "Databases/Database_constraints.md",
+    "Databases/Relational_algebra.md",
     "Databases/Database_normalisation.md",
     "ProgramLanguages/SQL/SQL_Joins.md",
     "XX-Attachments/Images/Pasted image 20230304144545.png",
@@ -370,11 +373,8 @@
     "XX-Attachments/Images/Pasted image 20230302143934.png",
     "OperatingSystems/Computer_memory.md",
     "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
-    "Databases/Database_keys.md",
     "Algorithms/ProgrammingPatterns/Two_pointers.md",
     "OperatingSystems/Processors.md",
-    "OperatingSystems/Caching.md",
-    "DataStructures/CacheStructures/LFU.md",
     "XX-Attachments/Images/Pasted image 20230228154605.png",
     "XX-Attachments/Images/Pasted image 20230228154602.png",
     "XX-Attachments/Images/Pasted image 20230227165239.png",

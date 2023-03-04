@@ -129,7 +129,8 @@ ___
 | 2          | Product B    | 2          | Country Y    | Region 1    |
 | 3          | Product C    | 3          | Country Z    | Region 2    |
 > 
-> Candidate key is (product_id , country_id) but dependencies $\text{product/id}$
+> Candidate key is (product_id , country_id) but dependencies $\text{product\_{id}}\to \text{product\_{id}}$ and $\text{country\_id}\to(\text{country\_{name,} region\_{name})}$ exist, these can be split into subrelation so that the only non-trivial dependency that exists in each relation is the candidate key
+> 
 > **Solution**
 > 
 > | ==product_id== | product_name |

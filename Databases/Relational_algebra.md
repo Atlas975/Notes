@@ -61,12 +61,17 @@ ___
 ## Join
 
 ### Equi-join
-- Joins where condition only has equalities  
+- Used to join tables based on matching values in a specified column.
+-  The most commonly used type of join and is useful for finding records that exist in both tables.
 
 ![[Pasted image 20230210190214.png|400|400]]
 
+### Theta join 
+-   Allows for joining tables based on a condition that is not based on equality alone.
+-   Can be used to join tables based on complex conditions like ranges, inequalities, or pattern matching etc
 ### Natural join
-- Equi-join on ALL common fields, only returns rows present in both tables 
+-  Combines data from two tables based on columns that have the same name and data type.
+-   It simplifies the join process by automatically matching columns with the same name and data type, and returning only one copy of each matching colum
 
 ## Division
 
