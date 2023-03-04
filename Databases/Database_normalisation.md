@@ -229,7 +229,7 @@ ___
 > |       45678 | API Development    |  
 > |       78901 | Data Visualization |  
 
-| emp_id | emp_name | emp_dept |
+> | emp_id | emp_name | emp_dept |
 | ------ | -------- | -------- |
 | 1      | Alice    | IT       |
 | 2      | Bob      | Sales    |
