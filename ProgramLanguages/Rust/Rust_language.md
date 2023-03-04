@@ -10,8 +10,6 @@ created: 2022-06-23 07:49
 ## Variable unpacking
 ![[Pasted image 20220524162837.png|450|450]]
 
-## Return
-- Statements that dont end with a semicolon are treated as return in rust
 ## Shadowing
 - Variables are considered to be shadowing when a variable in a certain scope mirrors that of one in the outer scope, also known as masking.
 
