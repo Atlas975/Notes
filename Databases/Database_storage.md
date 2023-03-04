@@ -35,4 +35,5 @@ ___
     - Storing \<field name, field value> pairs, useful for making the meaning of a field explicit
     - Field length (in bytes) may be stored proceeding its associated field value
 ## Record blocking 
-- Depending on the size of a memory block in a computer, a record may be stored in several blocks or vise versa unless a block size is identical to the record siz
+- Depending on the size of a memory block in a computer, a record may be stored in several blocks or vise versa unless a block size is identical to the record size
+- Blocks act as a minimum unit for reading to and from disk, block sizes that are too large can  result in internal fragmentation

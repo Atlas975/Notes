@@ -606,6 +606,30 @@
           "lastUpdated": 1677949095650
         }
       }
+    },
+    "Internal": {
+      "Internal": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677949525979
+        }
+      }
+    },
+    "fragmentation": {
+      "fragmentation": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677949527951
+        }
+      }
+    },
+    "Computer_memory": {
+      "Computer_memory": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1677950017456
+        }
+      }
     }
   }
 }
