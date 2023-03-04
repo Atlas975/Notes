@@ -29,3 +29,10 @@ ___
 ![[Pasted image 20230304162640.png|650|650]]
 
 - Knowing the length of each field allows the field positions to be found using memory offsets
+- Variable length records can be handled using a fixed length, albeit with redundant memory use through methods such as memory padding or the use of null values
+- Variable length records also need an encoding scheme such as 
+    - The use of a terminating character similar to a null byte to indicate the end of a field
+    - Storing \<field name, field value> pairs, useful for making the meaning of a field explicit
+    - Field length (in bytes) may be stored proceeding its associated field value
+## Record blocking 
+- Depending on the size of a memory block in a computer, a record may be stored in several blocks or vise versa unless a block size is identical to the record siz

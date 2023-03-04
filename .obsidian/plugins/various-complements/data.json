@@ -578,8 +578,32 @@
     "Variable": {
       "Variable": {
         "currentFile": {
+          "count": 3,
+          "lastUpdated": 1677948906434
+        }
+      }
+    },
+    "memory": {
+      "memory": {
+        "currentFile": {
           "count": 1,
-          "lastUpdated": 1677948088714
+          "lastUpdated": 1677948883490
+        }
+      }
+    },
+    "attribute": {
+      "attribute": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677949016036
+        }
+      }
+    },
+    "Field": {
+      "Field": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677949095650
         }
       }
     }
