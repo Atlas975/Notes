@@ -81,11 +81,10 @@ def checkInclusion(self, s1: str, s2: str) -> bool:
     getidx = lambda c: ord(c) - ord('a')
 
     s1cnt, s2cnt = [0] * 26, [0] * 26
-    for c in s1:
-        s1cnt[getidx(c)] += 1
-    for c in s2[:n1]:
-        s2cnt[getidx(c)] += 1
-    matches = sum(s1cnt[i] == s2cnt[i] for i in range(26))
+    for c1, c2 in zip(s1, s2):
+        s1cnt[getidx(c1)] += 1
+        s2cnt[getidx(c2)] += 1
+    matches = sum(c1 == c2 for c1, c2 in zip(s1cnt, s2cnt))
 
     for i in range(n1, n2):
         if matches == 26:
@@ -103,6 +102,7 @@ def checkInclusion(self, s1: str, s2: str) -> bool:
             matches += 1
         elif s1cnt[l] - 1 == s2cnt[l]:
             matches -= 1
+
     return matches == 26
 ```
 
