@@ -232,7 +232,7 @@
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -277,7 +277,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Thread_types.md",
+                "file": "Databases/Database_keys.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -309,7 +309,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Thread_types.md"
+                "file": "Databases/Database_keys.md"
               }
             }
           }
@@ -333,7 +333,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Thread_types.md"
+                "file": "Databases/Database_keys.md"
               }
             }
           },
@@ -359,7 +359,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Thread_types.md",
+                "file": "Databases/Database_keys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -406,8 +406,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "af27bc97396403d8",
+  "active": "502c518162f7c3eb",
   "lastOpenFiles": [
+    "OperatingSystems/Thread_types.md",
     "OperatingSystems/Operating_system_design.md",
     "OperatingSystems/FileSystems/File_systems.md",
     "Databases/Database_storage.md",
@@ -438,7 +439,6 @@
     "XX-Attachments/Images/Pasted image 20230304160932.png",
     "Databases/Database_keys.md",
     "Databases/Database_constraints.md",
-    "ProgramLanguages/SQL/SQL_Joins.md",
     "XX-Attachments/Images/Pasted image 20230304144545.png",
     "XX-Attachments/Images/Pasted image 20230304144310.png",
     "XX-Attachments/Images/Pasted image 20230302155550.png",

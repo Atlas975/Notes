@@ -34,7 +34,8 @@ ___
 - All other attributes that cannot act as a unique identifier, can be decomposed further 
 
 ## Candidate key
-- Set of attributes that can be used as the primary key for a table. A table can have multiple candidate keys, but only one primary key.
+- A candidate key is a column or a set of columns in a database table that uniquely identifies each row in that table. 
+- It is the minimal set of columns that can be used to identify a row in a table.
 ## Alternate key
 - A candidate key that is not chosen as the primary key for a table. It can be used as a backup identifier for records in the table.
 ## Surrogate key
