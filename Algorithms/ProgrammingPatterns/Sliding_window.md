@@ -57,7 +57,7 @@ def lengthOfLongestSubstring(self, s: str) -> int:
 ```
 
 ## Longest repeating character replacement 
-```rust
+```python
 def characterReplacement(self, s: str, k: int) -> int:
     freq = [0] * 128
     res, mxfrq, l = 0, 0, 0
