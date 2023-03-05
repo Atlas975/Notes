@@ -86,27 +86,31 @@ def checkInclusion(self, s1: str, s2: str) -> bool:
     n1, n2 = len(s1), len(s2)
     if n1 > n2:
         return False
-    let_count = dict.fromkeys(ascii_lowercase, 0)
-    s1cnt = let_count | Counter(s1)
-    s2cnt = let_count | Counter(s2[:n1])
-    matches = sum(s1cnt[c] == s2cnt[c] for c in ascii_lowercase)
+    getidx = lambda c: ord(c) - ord('a')
 
-    for r in range(n1, n2):
+    s1cnt, s2cnt = [0] * 26, [0] * 26
+    for c in s1:
+        s1cnt[getidx(c)] += 1
+    for c in s2[:n1]:
+        s2cnt[getidx(c)] += 1
+    matches = sum(s1cnt[i] == s2cnt[i] for i in range(26))
+
+    for i in range(n1, n2):
         if matches == 26:
             return True
+        l, r = getidx(s2[i - n1]), getidx(s2[i])
 
-        s2cnt[s2[r]] += 1
-        if s1cnt[s2[r]] == s2cnt[s2[r]]:
+        s2cnt[r] += 1
+        if s1cnt[r] == s2cnt[r]:
             matches += 1
-        elif s1cnt[s2[r]] + 1 == s2cnt[s2[r]]:
+        elif s1cnt[r] + 1 == s2cnt[r]:
             matches -= 1
 
-        s2cnt[s2[r - n1]] -= 1
-        if s1cnt[s2[r - n1]] == s2cnt[s2[r - n1]]:
+        s2cnt[l] -= 1
+        if s1cnt[l] == s2cnt[l]:
             matches += 1
-        elif s1cnt[s2[r - n1]] - 1 == s2cnt[s2[r - n1]]:
+        elif s1cnt[l] - 1 == s2cnt[l]:
             matches -= 1
-
     return matches == 26
 ```
 
