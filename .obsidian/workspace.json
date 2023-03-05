@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_keys.md",
+                "file": "Databases/Database_normalisation.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -277,7 +277,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_keys.md",
+                "file": "Databases/Database_normalisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -309,7 +309,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_keys.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           }
@@ -333,7 +333,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_keys.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           },
@@ -359,7 +359,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_keys.md",
+                "file": "Databases/Database_normalisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -408,10 +408,14 @@
   },
   "active": "502c518162f7c3eb",
   "lastOpenFiles": [
+    "Databases/Database_storage.md",
+    "Databases/Relational_algebra.md",
+    "Databases/Database_relations.md",
+    "Databases/Database_keys.md",
+    "OperatingSystems/Computer_memory.md",
     "OperatingSystems/Thread_types.md",
     "OperatingSystems/Operating_system_design.md",
     "OperatingSystems/FileSystems/File_systems.md",
-    "Databases/Database_storage.md",
     "Algorithms/ProgrammingPatterns/Two_pointers.md",
     "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
@@ -425,19 +429,15 @@
     "OperatingSystems/DigitalSystems/ASCII.md",
     "XX-Attachments/Images/Pasted image 20230304220128.png",
     "XX-Attachments/Images/Pasted image 20230304172918.png",
-    "OperatingSystems/Computer_memory.md",
     "OperatingSystems/Paging.md",
     "OperatingSystems/[Computer_memory.md",
     "Databases/Database_design.md",
     "Databases/Database_normalisation.md",
-    "Databases/Relational_algebra.md",
     "Databases/Database_systems.md",
-    "Databases/Database_relations.md",
     "XX-Attachments/Images/Pasted image 20230304162640.png",
     "XX-Attachments/Images/Pasted image 20230304162617.png",
     "ProgramLanguages/SQL/SQL_language.md",
     "XX-Attachments/Images/Pasted image 20230304160932.png",
-    "Databases/Database_keys.md",
     "Databases/Database_constraints.md",
     "XX-Attachments/Images/Pasted image 20230304144545.png",
     "XX-Attachments/Images/Pasted image 20230304144310.png",

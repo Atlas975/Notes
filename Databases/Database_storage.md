@@ -45,6 +45,6 @@ $$\text{Blocking factor(BFR)}=\lfloor \frac{\text{ block size}}{\text{record siz
 - When a block only has the space to  partially store a record, records may instead be spanned across multiple blocks using pointers 
 
 ![[Pasted image 20230304172918.png|500|500]]
-- Unspanned records: 
+- Unspanned records 4
 
 ![[Pasted image 20230304220128.png|500|500]]
