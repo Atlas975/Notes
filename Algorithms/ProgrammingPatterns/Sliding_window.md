@@ -43,41 +43,33 @@ pub fn max_profit(prices: Vec<i32>) -> i32 {
 ```
 
 ## Length of longest substring
-```rust
-pub fn length_of_longest_substring(s: String) -> i32 {
-    let mut seen = [None; 128];
-    let (mut res, mut l) = (0, 0);
+```python
+def lengthOfLongestSubstring(self, s: str) -> int:
+    seen = [None] * 128
+    res, l = 0, 0
 
-    for (r, c) in s.bytes().map(|c| c as usize).enumerate() {
-        if let Some(i) = seen[c] {
-            l = l.max(i + 1);
-        }
-        seen[c] = Some(r);
-        res = res.max(r - l + 1);
-    }
-    res as i32
-}
+    for r, c in enumerate(s.encode()):
+        if seen[c] is not None:
+            l = max(l, seen[c] + 1)
+        seen[c] = r
+        res = max(res, r - l + 1)
+    return res
 ```
 
 ## Longest repeating character replacement 
 ```rust
-pub fn character_replacement(s: String, k: i32) -> i32 {
-    let mut freqs = [0; 128];
-    let (mut res, mut l, mut mxfrq, k) = (0, 0, 0, k as usize);
-    let s = s.as_bytes();
+def characterReplacement(self, s: str, k: int) -> int:
+    freq = [0] * 128
+    res, mxfrq, l = 0, 0, 0
 
-    for (r, &c) in s.into_iter().enumerate() {
-        freqs[c as usize] += 1;
-        mxfrq = mxfrq.max(freqs[c as usize]);
-        if r - l + 1 - mxfrq > k {
-            freqs[s[l] as usize] -= 1;
-            l += 1;
-        } else{
-            res = res.max(r - l + 1);
-        }
-    }
-    res as i32
-}
+    for r, c in enumerate(s):
+        freq[ord(c)] += 1
+        mxfrq = max(mxfrq, freq[ord(c)])
+        if r - l + 1 - mxfrq > k:
+            freq[int(c)] -= 1
+            l += 1
+        res = max(res, r - l + 1)
+    return res
 ```
 
 ## Permutation in string 
