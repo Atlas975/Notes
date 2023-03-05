@@ -18,8 +18,9 @@ alias: unix file
 ___
 # Unix file system
 - A multi-level indexed based [[File_systems|file system]]. Small files get directly linked, large files get broken down into smaller blocks with increased access time
+- This scheme exists for every individual file
 
-> this exists for every file![[Pasted image 20221209122505.png|500]]
+![[Pasted image 20221209122505.png|450|450]]
 
 ## Unix directory structure
 
@@ -41,20 +42,20 @@ ___
 - Child processes need to inherit all file descriptors and positions of a parent process.
 - To optimise how a file system is traversed, Unix will have a file descriptor table for quick process creation
 
-![[Pasted image 20221209131225.png|500]]
+![[Pasted image 20221209131225.png|400|400]]
 
 ## Hard links
 - Similar to a programming languages garbage collection system, the reference count is used to determine when data can be disposed of. Links this way are considered hard links.
 - This is limited to only a single filesystem type as it must enter a directory
 
-![[Pasted image 20221209123424.png|425]]
+![[Pasted image 20221209123424.png|400|400]]
 
 ## Symbolic links
 - Symbolic links create a file that contains a link to the linked file
 - This linking form isn't constrained by file system, can be within virtual file system
 
-![[Pasted image 20221209123455.png|450]]
+![[Pasted image 20221209123455.png|400|400]]
 
 - Since a hard link isn't created, this method does not know if a file really exists, this can result in broken links / null-pointers
 
-![[Pasted image 20221209124802.png|450]]
+![[Pasted image 20221209124802.png|400|400]]

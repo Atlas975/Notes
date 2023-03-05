@@ -646,6 +646,14 @@
           "lastUpdated": 1677967420604
         }
       }
+    },
+    "allocation": {
+      "allocation": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1678050008590
+        }
+      }
     }
   }
 }

@@ -47,7 +47,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md",
+                "file": "OperatingSystems/FileSystems/File_systems.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6f17b3dce40de3a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/FileSystems/File_allocation_schemes.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -232,7 +245,26 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
+      },
+      {
+        "id": "4573410767d51615",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ab713fb311196240",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Database_storage.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -277,7 +309,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Databases/Database_storage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -309,7 +341,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "Databases/Database_storage.md"
               }
             }
           }
@@ -333,7 +365,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "Databases/Database_storage.md"
               }
             }
           },
@@ -359,7 +391,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Databases/Database_storage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -406,16 +438,25 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "502c518162f7c3eb",
+  "active": "ab713fb311196240",
   "lastOpenFiles": [
+    "OperatingSystems/FileSystems/File_allocation_schemes.md",
     "Databases/Database_storage.md",
+    "OperatingSystems/FileSystems/File_systems.md",
+    "OperatingSystems/FileSystems/Unix_file_system.md",
+    "OperatingSystems/FileSystems/New_technology_file_system.md",
+    "OperatingSystems/Computer_memory.md",
+    "XX-Attachments/Images/Pasted image 20230305210041.png",
+    "XX-Attachments/Images/Pasted image 20230305210013.png",
+    "XX-Attachments/Images/Pasted image 20230305210010.png",
+    "XX-Attachments/Images/Pasted image 20230305205753.png",
+    "XX-Attachments/Images/Pasted image 20230305205625.png",
+    "Databases/Database_normalisation.md",
     "Databases/Relational_algebra.md",
     "Databases/Database_relations.md",
     "Databases/Database_keys.md",
-    "OperatingSystems/Computer_memory.md",
     "OperatingSystems/Thread_types.md",
     "OperatingSystems/Operating_system_design.md",
-    "OperatingSystems/FileSystems/File_systems.md",
     "Algorithms/ProgrammingPatterns/Two_pointers.md",
     "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
@@ -432,18 +473,9 @@
     "OperatingSystems/Paging.md",
     "OperatingSystems/[Computer_memory.md",
     "Databases/Database_design.md",
-    "Databases/Database_normalisation.md",
-    "Databases/Database_systems.md",
     "XX-Attachments/Images/Pasted image 20230304162640.png",
     "XX-Attachments/Images/Pasted image 20230304162617.png",
-    "ProgramLanguages/SQL/SQL_language.md",
     "XX-Attachments/Images/Pasted image 20230304160932.png",
-    "Databases/Database_constraints.md",
-    "XX-Attachments/Images/Pasted image 20230304144545.png",
-    "XX-Attachments/Images/Pasted image 20230304144310.png",
-    "XX-Attachments/Images/Pasted image 20230302155550.png",
-    "XX-Attachments/Images/Pasted image 20230302155501.png",
-    "XX-Attachments/Images/Pasted image 20230302143940.png",
     "ProgramLanguages/Python/sed7keQGo",
     "DataStructures/sedMJAJlj",
     "DataStructures/sed33kt9o",
