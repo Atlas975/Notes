@@ -81,50 +81,33 @@ pub fn character_replacement(s: String, k: i32) -> i32 {
 ```
 
 ## Permutation in string 
-```rust
-pub fn check_inclusion(s1: String, s2: String) -> bool {
-    let (n1, n2) = (s1.len(), s2.len());
-    if n1 > n2 {
-        return false;
-    }
+```python
+def checkInclusion(self, s1: str, s2: str) -> bool:
+    n1, n2 = len(s1), len(s2)
+    if n1 > n2:
+        return False
+    let_count = dict.fromkeys(ascii_lowercase, 0)
+    s1cnt = let_count | Counter(s1)
+    s2cnt = let_count | Counter(s2[:n1])
+    matches = sum(s1cnt[c] == s2cnt[c] for c in ascii_lowercase)
 
-    let get_idx = |c: u8| (c - b'a') as usize;
-    let cnt1 = s1.bytes().fold([0u8; 26], |mut acc, c| {
-        acc[get_idx(c)] += 1;
-        acc
-    });
+    for r in range(n1, n2):
+        if matches == 26:
+            return True
 
-    let s2bytes = s2.as_bytes();
-    let mut cnt2 = s2bytes[0..n1].iter().fold([0u8; 26], |mut acc, &c| {
-        acc[get_idx(c)] += 1;
-        acc
-    });
-    let mut matches = (0..26).filter(|&i| cnt1[i] == cnt2[i]).count();
+        s2cnt[s2[r]] += 1
+        if s1cnt[s2[r]] == s2cnt[s2[r]]:
+            matches += 1
+        elif s1cnt[s2[r]] + 1 == s2cnt[s2[r]]:
+            matches -= 1
 
-    for i in n1..n2 {
-        if matches == 26 {
-            return true;
-        }
+        s2cnt[s2[r - n1]] -= 1
+        if s1cnt[s2[r - n1]] == s2cnt[s2[r - n1]]:
+            matches += 1
+        elif s1cnt[s2[r - n1]] - 1 == s2cnt[s2[r - n1]]:
+            matches -= 1
 
-        let (l, r) = (get_idx(s2bytes[i - n1]), get_idx(s2bytes[i]));
-
-        cnt2[r] += 1;
-        if cnt1[r] == cnt2[r] {
-            matches += 1;
-        } else if cnt1[r] + 1 == cnt2[r] {
-            matches -= 1;
-        }
-
-        cnt2[l] -= 1;
-        if cnt1[l] == cnt2[l] {
-            matches += 1;
-        } else if cnt1[l] - 1 == cnt2[l] {
-            matches -= 1;
-        }
-    }
-
-    matches == 26
-}
+    return matches == 26
 ```
 
 ## Max distance between pair of values 
