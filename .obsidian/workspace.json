@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Databases/Database_normalisation.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -26,15 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataStructures/CacheStructures/LRU.md",
+                "file": "XX-Attachments/Templates/InfoNote.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -79,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataStructures/CacheStructures/LRU.md",
+                "file": "Databases/Database_normalisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/CacheStructures/LRU.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           }
@@ -135,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/CacheStructures/LRU.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           },
@@ -161,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataStructures/CacheStructures/LRU.md",
+                "file": "Databases/Database_normalisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,8 +207,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0e809cd43b5f66fc",
+  "active": "6a1f70ba1ca8656d",
   "lastOpenFiles": [
+    "XX-Attachments/Templates/InfoNote.md",
+    "DataStructures/CacheStructures/LRU.md",
     "DataStructures/CacheStructures/LFU.md",
     "Networking/TransmissionProtocols/Transmission_protocols.md",
     "Networking/TransmissionProtocols/Hypertext_transfer_protocol.md",
@@ -239,8 +240,6 @@
     "XX-Attachments/Images/Pasted image 20230305210010.png",
     "XX-Attachments/Images/Pasted image 20230305205753.png",
     "XX-Attachments/Images/Pasted image 20230305205625.png",
-    "Databases/Relational_algebra.md",
-    "Databases/Database_keys.md",
     "XX-Attachments/Images/Pasted image 20230304220128.png",
     "XX-Attachments/Images/Pasted image 20230304172918.png",
     "XX-Attachments/Images/Pasted image 20230304162640.png",
