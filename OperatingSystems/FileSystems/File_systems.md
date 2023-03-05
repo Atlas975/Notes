@@ -56,7 +56,7 @@ ___
 
 > multi-level ![[Pasted image 20221208230819.png|400]]
 
-- Unix uses a combined approach with index for small files and multi-level for large files, retaining speed where possible
+- Unix uses a combined approach with indexing for small files and multi-level for large files, retaining speed where possible
 
 > linked + multi-level![[Pasted image 20221208231007.png|400]]
 
@@ -70,7 +70,7 @@ ___
 - This is a frequently used data structure that can be optimized through [[Caching]]
 
 ![[Pasted image 20221209132417.png|500]]
-> note the inode only makes sense in its filesystem so both the inode and the filesystem need to be remembered when accessing the cache
+- The inode only makes sense in its filesystem so both the inode and the filesystem need to be remembered when accessing the cache
 
 ## Buffering and block caches
 - Blocks de-couple the reads a process is doing from the physical movement of the disk head
