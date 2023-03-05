@@ -237,7 +237,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
+                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
+                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -322,7 +322,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md"
+                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md"
               }
             }
           }
@@ -346,7 +346,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md"
+                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md"
               }
             }
           },
@@ -372,7 +372,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
+                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -421,8 +421,16 @@
   },
   "active": "cb3031f5afec4290",
   "lastOpenFiles": [
-    "OperatingSystems/DigitalSystems/ASCII.md",
+    "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Two_pointers.md",
+    "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
+    "Algorithms/ProgrammingPatterns/Binary_search.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
+    "OperatingSystems/DigitalSystems/ASCII.md",
     "OperatingSystems/FileSystems/File_systems.md",
     "Databases/Database_storage.md",
     "XX-Attachments/Images/Pasted image 20230304220128.png",
@@ -446,14 +454,6 @@
     "XX-Attachments/Images/Pasted image 20230304144310.png",
     "ProgramLanguages/Rust/Rust_language.md",
     "ProgramLanguages/Rust/Rust_cargo.md",
-    "ProgramLanguages/Rust/Rust_smart_pointers.md",
-    "ProgramLanguages/Rust/Rust_message_passing.md",
-    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Backtracking.md",
-    "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "XX-Attachments/Images/Pasted image 20230302155550.png",
     "XX-Attachments/Images/Pasted image 20230302155501.png",
     "XX-Attachments/Images/Pasted image 20230302143940.png",
