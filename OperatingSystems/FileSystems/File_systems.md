@@ -1,6 +1,7 @@
 ---
 alias: file, file system
 ---
+
 > [!important|inIL]- Metadata
 > **Tags:** #OperatingSystems 
 > **Located:** OperatingSystems
@@ -14,6 +15,7 @@ alias: file, file system
 >dv.table(["Connections","Tags"], dv.array(Array.from(paths)).map(p => [
 >   dv.fileLink(p),dv.page(p).file.tags.join("")]).slice(0, 20));
 > ```
+
 ___
 # File systems
 - The part of an [[Operating_system_design|operating system]] responsible for taking storage devices and providing structure to place and retrieve files
@@ -60,9 +62,6 @@ ___
 
 > linked + multi-level![[Pasted image 20221208231007.png|400]]
 
-
-
-
 # File system performance
 - File systems need to be responsive, a variety of methods have been developed in order to help remedy the limitations of various file systems
 ## Kernel tables
@@ -80,10 +79,14 @@ ___
 ![[Pasted image 20221209152836.png|450]]I/O tells us where these blocks are on disk, any process is going to view a file formed from multiple blocks. Since these blocks are memory resident they can easily be updated or read via byte operations
 
 - Efficient buffering can be managed by an [[Linked_list_algorithms#LRU cache|LRU cache]]
+- This allows empty blocks to be reused rather than managing the overhead of freeing memory, blocks in the empty pool can be filled with data and placed on the LRU cache
 
-> empty blocks can be reused rather than managing the overhead of freeing memory, blocks in the empty pool can be filled with data and placed on the LRU cache![[Pasted image 20221209153713.png|500]]
+![[Pasted image 20221209153713.png|500]]
 
-> collisions may still occur, resulting in a linked list chain to access data![[Pasted image 20221209153917.png|500]]
+- collisions may still occur, resulting in a linked list chain to access data
+
+![[Pasted image 20221209153917.png|500]]
+
 
 ## Filesystem flush / sync
 - Internal buffers must be regularly flushed / synced to disk, protecting against lost data in event of a system failure. This also speeds up the use of the [[LRU]]  cache by keeping it small. Any modified buffers must be written out before reuse

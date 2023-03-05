@@ -15,7 +15,7 @@
 ___
 # Thread types
 - Multiple [[Concurrency#Threads|thread]] types are employed in a modern [[Operating_system_design|OS]]
-- These threads have different levels of access to resources in the OS
+- These threads have different levels of access to resources
 
 ## User thread
 - Lightweight threads managed by a user-level thread library, executed in user space 
