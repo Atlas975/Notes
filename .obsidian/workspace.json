@@ -4,84 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4458d8d2a0213057",
+        "id": "cab6111ded9cb149",
         "type": "tabs",
         "children": [
           {
-            "id": "3d8b7a5636bf7c58",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1c5616cafa9d6a90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/Rust/Rust_language.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1012040dd450e9c8",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "54817c7718423bf9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/FileSystems/File_systems.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6f17b3dce40de3a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/FileSystems/File_allocation_schemes.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3a7bd8da6d1485e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/Computer_memory.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "502c518162f7c3eb",
+            "id": "6a1f70ba1ca8656d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -94,177 +21,20 @@
             }
           },
           {
-            "id": "856b131c84bacc2e",
+            "id": "0e809cd43b5f66fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwareEngineering/Functional_programming.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5f006c29381b2d80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Database_relations.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "48f7d27e32f4f8c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Database_normalisation.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4ad09378867ee7c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/SQL/SQL_language.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9a92e5a9bc18802c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Database_design.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9cc8bf356f9c451d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
+                "file": "DataStructures/CacheStructures/LRU.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "57a6fb0e145b493d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/SQL/SQL_relations.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8e9f13169a579a40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/SQL/SQL_Joins.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bafd458e1c5b92a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DiscreteMath/Relations.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "43a70fe4a09767fb",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "940b6da023835dec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Database_storage.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "af27bc97396403d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/Thread_types.md",
-                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
-      },
-      {
-        "id": "4573410767d51615",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ab713fb311196240",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Database_storage.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          }
-        ]
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -309,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_storage.md",
+                "file": "DataStructures/CacheStructures/LRU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -341,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_storage.md"
+                "file": "DataStructures/CacheStructures/LRU.md"
               }
             }
           }
@@ -365,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_storage.md"
+                "file": "DataStructures/CacheStructures/LRU.md"
               }
             }
           },
@@ -391,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_storage.md",
+                "file": "DataStructures/CacheStructures/LRU.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -438,41 +208,41 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ab713fb311196240",
+  "active": "0e809cd43b5f66fc",
   "lastOpenFiles": [
-    "OperatingSystems/FileSystems/File_allocation_schemes.md",
-    "Databases/Database_storage.md",
-    "OperatingSystems/FileSystems/File_systems.md",
+    "DataStructures/CacheStructures/LFU.md",
+    "Networking/TransmissionProtocols/Transmission_protocols.md",
+    "Networking/TransmissionProtocols/Hypertext_transfer_protocol.md",
+    "Networking/TransmissionProtocols/Domain_name_server.md",
+    "OperatingSystems/Paging.md",
     "OperatingSystems/FileSystems/Unix_file_system.md",
-    "OperatingSystems/FileSystems/New_technology_file_system.md",
+    "OperatingSystems/FileSystems/FAT_file_system.md",
+    "OperatingSystems/FileSystems/File_allocation_schemes.md",
+    "Databases/Database_normalisation.md",
+    "Databases/Database_storage.md",
+    "OperatingSystems/Thread_types.md",
+    "DiscreteMath/Relations.md",
+    "ProgramLanguages/SQL/SQL_Joins.md",
+    "ProgramLanguages/SQL/SQL_relations.md",
+    "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
+    "Databases/Database_design.md",
+    "ProgramLanguages/SQL/SQL_language.md",
+    "Databases/Database_relations.md",
+    "SoftwareEngineering/Functional_programming.md",
     "OperatingSystems/Computer_memory.md",
+    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
+    "ProgramLanguages/Rust/Rust_language.md",
+    "OperatingSystems/FileSystems/File_systems.md",
+    "OperatingSystems/FileSystems/New_technology_file_system.md",
     "XX-Attachments/Images/Pasted image 20230305210041.png",
     "XX-Attachments/Images/Pasted image 20230305210013.png",
     "XX-Attachments/Images/Pasted image 20230305210010.png",
     "XX-Attachments/Images/Pasted image 20230305205753.png",
     "XX-Attachments/Images/Pasted image 20230305205625.png",
-    "Databases/Database_normalisation.md",
     "Databases/Relational_algebra.md",
-    "Databases/Database_relations.md",
     "Databases/Database_keys.md",
-    "OperatingSystems/Thread_types.md",
-    "OperatingSystems/Operating_system_design.md",
-    "Algorithms/ProgrammingPatterns/Two_pointers.md",
-    "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
-    "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Binary_search.md",
-    "Algorithms/ProgrammingPatterns/Sliding_window.md",
-    "OperatingSystems/DigitalSystems/ASCII.md",
     "XX-Attachments/Images/Pasted image 20230304220128.png",
     "XX-Attachments/Images/Pasted image 20230304172918.png",
-    "OperatingSystems/Paging.md",
-    "OperatingSystems/[Computer_memory.md",
-    "Databases/Database_design.md",
     "XX-Attachments/Images/Pasted image 20230304162640.png",
     "XX-Attachments/Images/Pasted image 20230304162617.png",
     "XX-Attachments/Images/Pasted image 20230304160932.png",

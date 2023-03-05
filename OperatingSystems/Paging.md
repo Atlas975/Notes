@@ -1,15 +1,15 @@
 > [!important]- Metadata
-> **Groups:** #OperatingSystems 
+> **Tags:** #OperatingSystems 
 > **Located:** OperatingSystems
-> **Created:** 26/12/2022 - 11:51
+> **Created:** 27/02/2023 - 16:44
 > ```dataviewjs
->   let loc = dv.current().file.path;
->   let cur = dv.page(loc).file;
->   let links = cur.inlinks.concat(cur.outlinks).array().map(p => p.path);
->   let paths = new Set(links.filter(p => !p.endsWith(".png")));
->   paths.delete(loc);
->   let data = dv.array(Array.from(paths)).map(p => dv.fileLink(p));
-> dv.list(data);
+>let cur = dv.current().file;
+>let loc = cur.path;
+>let links = cur.inlinks.concat(cur.outlinks).array().map(p => p.path);
+>let paths = new Set(links.filter(p => !p.endsWith(".png")));
+>paths.delete(loc);
+>dv.table(["Connections",  "Tags"], dv.array(Array.from(paths).slice(0, 20)).map(p => [
+>   dv.fileLink(p),dv.page(p).file.tags.join("")]));
 > ```
 
 ___

@@ -27,16 +27,15 @@ ___
 ## Indexed allocation
 - Quick access to any position, simple mapping to specific blocks by simply knowing the block offset to jump past.
 - Supports **holes**, does not allocate space for empty blocks. Anything that just contains 0's can be represented by a null pointer
-- [[Computer_memory#Consecutive memory mapping|Multiple way to handle indexed allocation]]
+- [[Computer_memory#Consecutive memory mapping|Various ways exist to handle indexed allocation]], all of which involve an index block that holds a set of addresses. This index block cannot be used to store usable data 
 
-> linked![[Pasted image 20221208230355.png|300]]
-> index block holds set of block addresses
+![[Pasted image 20230305210041.png|300|300]]
 
 - While simple and fast, this method has limited file size with only room for n block pointers in index block
 - Multi-level indexing supports large file sizes and the number of indexes can be tuned to max desired file size. Increase to access time and overhead with added levels
 
-> multi-level ![[Pasted image 20221208230819.png|400]]
+![[Pasted image 20221208230819.png|400]]
 
-- Unix uses a combined approach with indexing for small files and multi-level for large files, retaining speed where possible
+- [[Unix_file_system|Unix files]] use a combined approach with indexing for small files and multi-level for large files, retaining speed where possible
 
 > linked + multi-level![[Pasted image 20221208231007.png|400]]

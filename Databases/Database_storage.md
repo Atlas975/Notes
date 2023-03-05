@@ -57,6 +57,4 @@ $$\text{Blocking factor(BFR)}=\lfloor \frac{\text{ block size}}{\text{record siz
 
 
 
-## Indexed allocation 
 
-![[Pasted image 20230305210041.png|300|300]]
