@@ -38,9 +38,13 @@ ___
 - Depending on the size of a memory block in a computer, a record may be stored in several blocks or vise versa unless a block size is identical to the record size
 - The number of records that fit in a block is known as the blocking factor which is calculated as:
 $$\text{Blocking factor(BFR)}=\lfloor \frac{\text{ block size}}{\text{record size}}\rfloor$$
-- The remainder cut off by the floor function is the amount of [[Computer_memory#Internal fragmentation|Internal fragmentation]], blocks act as a minimum unit for reading to and from disk
+- The remainder cut off by the floor function is the amount of [[Computer_memory#Internal fragmentation|Internal fragmentation]]
+- Blocks act as a minimum unit for reading to and from disk, these allocation schemes need to balance performance, flexibility and space efficiency
 
 ## Spanned records 
-- When a block lack the space to store a complete record, records may instead be spanned across multiple blocks using pointers 
+- When a block only has the space to  partially store a record, records may instead be spanned across multiple blocks using pointers 
 
-![[Pasted image 20230304172918.png|550|550]]
+![[Pasted image 20230304172918.png|500|500]]
+- Unspanned records: 
+
+![[Pasted image 20230304220128.png|500|500]]

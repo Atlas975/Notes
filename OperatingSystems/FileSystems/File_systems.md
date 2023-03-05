@@ -39,7 +39,7 @@ ___
 - Requires knowing file size before finding gap for allocation, suffers from external fragmentation with unused blocks between files. Files cannot be split in this scheme into multiple blocks
 ## Linked-List allocation
 - Avoids external fragmentation, blocks no longer need to be continuous at the cost of additional overhead. All blocks can be used but pointers take up space
-- Internal fragmentation (on last block) and only offers slow sequential access, only ideal for small file systems
+- Internal fragmentation (on last block) and only offers slow sequential access, only ideal for small file systems such as [[FAT_file_system|FAT]]
 
 ![[Pasted image 20221208225738.png|500]]
 
