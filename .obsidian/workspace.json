@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "OperatingSystems/Virtualisation.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -27,13 +27,14 @@
               "type": "markdown",
               "state": {
                 "file": "XX-Attachments/Templates/InfoNote.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "XX-Attachments/Templates/InfoNote.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md"
+                "file": "XX-Attachments/Templates/InfoNote.md"
               }
             }
           }
@@ -134,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md"
+                "file": "XX-Attachments/Templates/InfoNote.md"
               }
             }
           },
@@ -160,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "XX-Attachments/Templates/InfoNote.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,10 +208,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6a1f70ba1ca8656d",
+  "active": "0e809cd43b5f66fc",
   "lastOpenFiles": [
-    "XX-Attachments/Templates/InfoNote.md",
     "OperatingSystems/Virtualisation.md",
+    "XX-Attachments/Templates/InfoNote.md",
     "XX-Attachments/Templates/AliasNote.md",
     "OperatingSystems/Processors.md",
     "OperatingSystems/Paging.md",
