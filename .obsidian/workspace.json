@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "OperatingSystems/FileSystems/File_allocation_schemes.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -224,6 +224,9 @@
   },
   "active": "81c426ea69f7817d",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20230306145209.png",
+    "XX-Attachments/Images/Pasted image 20230306145109.png",
+    "XX-Attachments/Images/Pasted image 20230306145043.png",
     "OperatingSystems/Virtualisation.md",
     "XX-Attachments/Templates/InfoNote.md",
     "XX-Attachments/Templates/AliasNote.md",
@@ -249,7 +252,6 @@
     "Databases/Database_design.md",
     "ProgramLanguages/SQL/SQL_language.md",
     "Databases/Database_relations.md",
-    "SoftwareEngineering/Functional_programming.md",
     "XX-Attachments/Images/Pasted image 20230305210041.png",
     "XX-Attachments/Images/Pasted image 20230305210013.png",
     "XX-Attachments/Images/Pasted image 20230305210010.png",
@@ -258,8 +260,6 @@
     "XX-Attachments/Images/Pasted image 20230304220128.png",
     "XX-Attachments/Images/Pasted image 20230304172918.png",
     "XX-Attachments/Images/Pasted image 20230304162640.png",
-    "XX-Attachments/Images/Pasted image 20230304162617.png",
-    "XX-Attachments/Images/Pasted image 20230304160932.png",
     "ProgramLanguages/Python/sed7keQGo",
     "DataStructures/sedMJAJlj",
     "DataStructures/sed33kt9o",

@@ -618,8 +618,8 @@
     "fragmentation": {
       "fragmentation": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677949527951
+          "count": 2,
+          "lastUpdated": 1678114192531
         }
       }
     },
@@ -650,8 +650,8 @@
     "allocation": {
       "allocation": {
         "currentFile": {
-          "count": 2,
-          "lastUpdated": 1678050008590
+          "count": 3,
+          "lastUpdated": 1678114126240
         }
       }
     },
@@ -660,6 +660,30 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1678097868433
+        }
+      }
+    },
+    "additional": {
+      "additional": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1678113808329
+        }
+      }
+    },
+    "overhead": {
+      "overhead": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1678113809821
+        }
+      }
+    },
+    "pointers": {
+      "pointers": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1678114134852
         }
       }
     }

@@ -22,15 +22,20 @@ ___
 
 ![[Pasted image 20230305205625.png|250|250]]
 ## Linked-List allocation
-- Each file is part of a linked list of blocks that can be scattered, avoids external fragmentation, and blocks no longer need to be continuous at the cost of additional overhead.
-- All blocks can be used but pointers take up space
-- Minor internal fragmentation (restricted to last block) and only offers slow sequential access, ideal for small file systems such as [[FAT_file_system|FAT]]
+- Each file is part of a linked list of blocks that can be scattered, avoids external fragmentation. All blocks can be used and files can easily grow overtime
+- Pointers also take up space leaving minor internal fragmentation (restricted to last block) and only offers slow sequential access, ideal for small file systems such as [[FAT_file_system|FAT]]. 
 
 ![[Pasted image 20230305205753.png|250|250]]
+## Clustering allocation 
+- Avoids the overhead of pointers existing in each block in [[#Linked-List allocation]] by grouping blocks together and linking only the groups with pointers. 
+- Internal fragmentation if the whole allocated cluster is not used, also results in a penalty to [[Input&Output_systems|I/O]] as large data clusters come in even when a small portion of memory is requested 
+
+![[Pasted image 20230306145209.png|250|250]]
+- This also helps limit the risk of data corruption in a linked list, doubly linked lists can also be used for added security at the cost of additional overhead
 ## Indexed allocation
-- Quick access to any position, simple mapping to specific blocks by simply knowing the block offset to jump past.
-- Supports **holes**, does not allocate space for empty blocks. Anything that just contains 0's can be represented by a null pointer
-- [[Computer_memory#Consecutive memory mapping|Various ways exist to handle indexed allocation]], all of which involve an index block that holds a set of addresses. This index block cannot be used to store usable data 
+- Quick access to any position, simple mapping to specific blocks by knowing the block offset to jump past.
+- Supports holes, does not allocate space for empty blocks. Anything that just contains 0's can be represented by a null pointer
+- Various ways exist to [[Computer_memory#Consecutive memory mapping|handle indexed allocation]], all of which involve an index block that holds a set of addresses. This index block cannot be used to store usable data 
 
 ![[Pasted image 20230305210041.png|300|300]]
 
