@@ -770,8 +770,8 @@
     "operations": {
       "operations": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678121477735
+          "count": 2,
+          "lastUpdated": 1678146263269
         }
       }
     },
@@ -812,6 +812,14 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1678145578577
+        }
+      }
+    },
+    "retrieval": {
+      "retrieval": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1678146661399
         }
       }
     }

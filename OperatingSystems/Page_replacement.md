@@ -28,6 +28,13 @@ a_{i}=\frac{s_{i}}{S\times m}\text{ frames}
 	- **Local**: when a process cannot take frames from other processes 
 	- **Global**: when frames can be taken from any process, requires management
 - Frame replacement process:
+    1. Take page fault 
+    2. If free/empty frame exists, select for use else identify a victim frame 
+    3. Write current content of victim to disk 
+    4. Adjust page table to mark frame as invalid 
+    5. Read originally requested page into the victim frame 
+    6. Adjust page table, mark new page entry as valid 
+    7. Restart
 
 ![[Pasted image 20230118115012.png|450|450]]
 
