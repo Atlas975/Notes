@@ -94,12 +94,6 @@ ___
 
 
 
-```dataviewjs
-let f = dv.current().file;
-let paths = new Set([...f.inlinks, ...f.outlinks].filter((p) => !p.endsWith(".png")));
-paths.delete(f.path);
-dv.table(
-    ["Connections", "Tags"],
-    [...paths].map((p) => [dv.fileLink(p), dv.page(p).file.tags.join("")])
-);
+```dataview
+TABLE groupBy:tags COLUMNS tags, COUNT() SORT_ASC tags
 ```
