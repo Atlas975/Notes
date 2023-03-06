@@ -24,9 +24,12 @@ ___
 - Common file attributes include
   - Name, unique ID, file type, location, sizeaccess control lists / flags ([[Linux_permissions|Linux permissions]]), time and date (accessed / modified) and ownership (user / group)
 ## File headers
-- Acts as a file descriptor containing information needed by programs accessing file records 
-- Holds vital information for determining disk addresses of file blocks, record format descriptions, type codes, order of fields, separators etc 
+- Acts as a file descriptor containing information at the start of a file that provides vital information about the file's contents and structure.
+-   File headers typically include information such as the file format, encoding, and version, as well as metadata about the file's creation, modification, and authorship.
 
+![[Pasted image 20230306232427.png|550|550]]
+-   Depending on the file type, the header may also contain information about the file's size, dimensions, color space, compression, and other technical details.
+-   The purpose of a file header is to help software programs and operating systems identify and interpret the file correctly, and to provide users with useful information about the file's properties and contents.
 
 ## File operations
 - **Open**: prepares file for reading/writing, allocates buffers to hold file blocks from disk. This operation also retrieves the [[#File headers|file header]] and sets a pointer to the beginning of a file
@@ -42,7 +45,7 @@ ___
 - **Close**: releases buffers and performs any cleanup operations required
 ### File operation types
 - With the exception of open and close, all previous operations are **record-at-a-time** meaning they read and act on a single record 
-- **FindAll**, **FindOrdered** and **Reorganise** are examples of **set-at-a-time** operations which act upon multiple files 
+- ==FindAll, FindOrdered and Reorganise== are examples of **set-at-a-time** operations which act upon multiple files 
 ## Virtual file systems
 - When more than one device exists in a file system, a VFS is used to provide a system level view of multiple file-systems types at once
 - File systems reflect the characteristics of their device,  the VFS has an API that reflects the operations that can be carried out on these distinct file system structures.
