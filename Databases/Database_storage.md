@@ -14,7 +14,7 @@
 
 ___
 # Database storage
-- The majority of [[Database_systems|Database]] data resides on [[Computer_memory#Secondary memory]], which has slower access than [[Computer_memory#Primary memory]] but offers memory persistence 
+- The majority of [[Database_systems|Database]] data resides on [[Computer_memory#Secondary memory|secondary memory]], which has slower access than [[Computer_memory#Primary memory|primary memory]] but offers memory persistence 
 - Main memory databases are usually found in real time applications, however most applications do not require this level of response speed, note this is also expensive with large datasets
 - Data is organised into [[File_systems|files]] of records, which are a collection of data items (measured in bytes)
 

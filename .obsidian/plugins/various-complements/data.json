@@ -766,6 +766,22 @@
           "lastUpdated": 1678121100060
         }
       }
+    },
+    "operations": {
+      "operations": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1678121477735
+        }
+      }
+    },
+    "directory": {
+      "directory": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1678121925459
+        }
+      }
     }
   }
 }
