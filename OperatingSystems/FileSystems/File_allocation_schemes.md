@@ -33,17 +33,17 @@ ___
 ![[Pasted image 20230306145209.png|250|250]]
 - This also helps limit the risk of data corruption in a linked list, doubly linked lists can also be used for added security at the cost of additional overhead
 ## Indexed allocation
-- Quick access to any position, simple mapping to specific blocks by knowing the block offset to jump past.
-- Supports holes, does not allocate space for empty blocks. Anything that just contains 0's can be represented by a null pointer
-- Various ways exist to [[Computer_memory#Consecutive memory mapping|handle indexed allocation]], all of which involve an index block that holds a set of addresses. This index block cannot be used to store usable data 
+- Moves all pointers to one location that acts as an index blocks, no external fragmentation like [[#Linked-List allocation]] while still offering fast random access like [[#Continuous allocation]]
+- Quick access to any position in a file  by knowing the block offset to jump past.
+- Various ways exist to [[Computer_memory#Consecutive memory mapping|handle indexed allocation]], all of which involve an index block that holds a set of addresses. This index block itself  cannot be used to store usable data 
 
 ![[Pasted image 20230305210041.png|300|300]]
 
-- While simple and fast, this method has limited file size with only room for n block pointers in index block
-- Multi-level indexing supports large file sizes and the number of indexes can be tuned to max desired file size. Increase to access time and overhead with added levels
+- Limited file size with only room for n block pointers in index blocks, this can be remedied by linking to other index blocks to acc
+- Multi-level indexing supports large file sizes and the number of indexes can be tuned to the max desired file size. Increase to access time and overhead with deeper levels
 
 ![[Pasted image 20221208230819.png|400]]
 
-- [[Unix_file_system|Unix files]] use a combined approach with indexing for small files and multi-level for large files, retaining speed where possible
+- [[Unix_file_system|Unix files]] use a combined approach with direct indexing for small files and multi-level indexing for large files, retaining speed where possible
 
-> linked + multi-level![[Pasted image 20221208231007.png|400]]
+![[Pasted image 20221208231007.png|400]]
