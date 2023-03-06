@@ -52,8 +52,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/FileSystems/File_systems.md",
-                "mode": "preview",
+                "file": "DataStructures/Graphs.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -99,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/FileSystems/File_systems.md",
+                "file": "Databases/Database_storage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/FileSystems/File_systems.md"
+                "file": "Databases/Database_storage.md"
               }
             }
           }
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/FileSystems/File_systems.md"
+                "file": "Databases/Database_storage.md"
               }
             }
           },
@@ -227,7 +227,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/FileSystems/File_systems.md",
+                "file": "Databases/Database_storage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -274,11 +274,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e401b0ef21b72149",
+  "active": "7a8df565dca0393b",
   "lastOpenFiles": [
+    "DataStructures/Graphs.md",
+    "OperatingSystems/FileSystems/File_systems.md",
     "Databases/Database_storage.md",
     "ProgramLanguages/C_language.md",
-    "OperatingSystems/FileSystems/File_systems.md",
     "OperatingSystems/FileSystems/File_allocation_schemes.md",
     "XX-Attachments/Images/Pasted image 20230306145209.png",
     "XX-Attachments/Images/Pasted image 20230306145109.png",
@@ -304,7 +305,6 @@
     "ProgramLanguages/SQL/SQL_relations.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "Databases/Database_design.md",
-    "ProgramLanguages/SQL/SQL_language.md",
     "XX-Attachments/Images/Pasted image 20230305210041.png",
     "XX-Attachments/Images/Pasted image 20230305210013.png",
     "XX-Attachments/Images/Pasted image 20230305210010.png",

@@ -22,18 +22,23 @@ ___
 - Common file system operations include:
 	- Create, open, read, write (from current position), seek (reposition from file), close, link  (create file alias or hard link), and unlink  (remove file alias) fil
 - Access types include read, write, execute, append, delete and list
-- Shared files created directed acyclic [[Graphs|graphs]]
+- Shared files created through directed acyclic [[Graphs|graphs]]
 
-![[Pasted image 20221208222431.png|500]]
+![[Pasted image 20221208222431.png|400|400]]
 
 - Common file attributes include
   - Name, unique ID, file type, location, sizeaccess control lists / flags ([[Linux_permissions]]), time and date (accessed / modified) and ownership (user / group)
+
+
+## File headers
+- Acts as a file descriptor containing information needed by programs accessing file records 
+- Holds vital information for determining disk addresses of file blocks  
 ## Virtual file systems
 - When more than one device exists in a file system, a VFS is used to provide a system level view of multiple file-systems types at once
 - File systems reflect the characteristics of their device,  the VFS has an API that reflects the operations that can be carried out on these distinct file system structures.
 - In Unix, external file systems that are added are controlled through the **mount** command
 
-![[Pasted image 20221208224055.png|500]]
+![[Pasted image 20221208224055.png|400|400]]
 
 
 # File system performance
@@ -48,18 +53,20 @@ ___
 ## Buffering and block caches
 - Blocks de-couple the reads a process is doing from the physical movement of the disk head
 - Block caches further help with this for small read and writes, allowing changes to be done on a block level rather than going to the underlying filesystem
-- However, some media may be removable, meaning a copy of writes to memory blocks needs to be frequently pushed to the physical medium. Write-through caches are used in this case
+- However, some media may be removable, meaning a copy of writes to memory blocks needs to be frequently pushed to the physical medium. [[Caching#Write-through|Write-through caches]] are used in this case
 
-![[Pasted image 20221209152836.png|450]]I/O tells us where these blocks are on disk, any process is going to view a file formed from multiple blocks. Since these blocks are memory resident they can easily be updated or read via byte operations
+![[Pasted image 20221209152836.png|400|400]]
 
+- [[Input&Output_systems|I/O]] tells us where these blocks are on disk, any process is going to view a file formed from multiple blocks. 
+- Since these blocks are memory resident they can easily be updated or read via byte operations
 - Efficient buffering can be managed by an [[Linked_list_algorithms#LRU cache|LRU cache]]
 - This allows empty blocks to be reused rather than managing the overhead of freeing memory, blocks in the empty pool can be filled with data and placed on the LRU cache
 
-![[Pasted image 20221209153713.png|400|400]]
+![[Pasted image 20221209153713.png|450|450]]
 
 - collisions may still occur, resulting in a linked list chain to access data
 
-![[Pasted image 20221209153917.png|500]]
+![[Pasted image 20221209153917.png|450|450]]
 
 
 ## Filesystem flush / sync
