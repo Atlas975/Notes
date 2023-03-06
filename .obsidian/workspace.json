@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XX-Attachments/Templates/InfoNote.md",
+                "file": "OperatingSystems/Paging.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "XX-Attachments/Templates/InfoNote.md",
+                "file": "OperatingSystems/Paging.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "XX-Attachments/Templates/InfoNote.md"
+                "file": "OperatingSystems/Paging.md"
               }
             }
           }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "XX-Attachments/Templates/InfoNote.md"
+                "file": "OperatingSystems/Paging.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "XX-Attachments/Templates/InfoNote.md",
+                "file": "OperatingSystems/Paging.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,9 +209,11 @@
   },
   "active": "6a1f70ba1ca8656d",
   "lastOpenFiles": [
+    "OperatingSystems/Linux_permissions.md",
+    "XX-Attachments/Templates/AliasNote.md",
+    "XX-Attachments/Templates/InfoNote.md",
     "OperatingSystems/FileSystems/Unix_file_system.md",
     "OperatingSystems/Virtualisation.md",
-    "XX-Attachments/Templates/InfoNote.md",
     "Databases/Database_normalisation.md",
     "DataStructures/CacheStructures/LRU.md",
     "DataStructures/CacheStructures/LFU.md",
@@ -233,8 +235,6 @@
     "SoftwareEngineering/Functional_programming.md",
     "OperatingSystems/Computer_memory.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
-    "ProgramLanguages/Rust/Rust_language.md",
-    "OperatingSystems/FileSystems/File_systems.md",
     "XX-Attachments/Images/Pasted image 20230305210041.png",
     "XX-Attachments/Images/Pasted image 20230305210013.png",
     "XX-Attachments/Images/Pasted image 20230305210010.png",

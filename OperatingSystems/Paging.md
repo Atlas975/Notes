@@ -165,9 +165,11 @@ ___
 
 - The process of finding out if this is true can quickly be checked via the dirty bit in the control portion of the page directory. This indicates that the in memory copy differs from the one available on disk so an update is required
 
-![[Pasted image 20221216122745.png|450|450]]
+![[Pasted image 20221216122745.png|400|400]]
 
 - The page will then be invalidated and the translation that allows the process to to access said page will be removed
 - The process can then be restarted and the process will be able to access the appropriate page in [[Computer_memory#Swap space|swap space]]
 
-![[Pasted image 20221216123136.png|450|450]]
+![[Pasted image 20221216123136.png|400|400]]
+
+
