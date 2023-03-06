@@ -55,7 +55,7 @@ ___
 - Efficient buffering can be managed by an [[Linked_list_algorithms#LRU cache|LRU cache]]
 - This allows empty blocks to be reused rather than managing the overhead of freeing memory, blocks in the empty pool can be filled with data and placed on the LRU cache
 
-![[Pasted image 20221209153713.png|500]]
+![[Pasted image 20221209153713.png|400|400]]
 
 - collisions may still occur, resulting in a linked list chain to access data
 
