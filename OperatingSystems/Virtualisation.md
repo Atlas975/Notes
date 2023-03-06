@@ -91,3 +91,4 @@ ___
 - Since this is a 1-to-1 mapping, each VM can configure the device how it wants
 
 ![[Pasted image 20230117123106.png|450|450]]
+
