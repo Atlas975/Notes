@@ -91,3 +91,15 @@ ___
 - Since this is a 1-to-1 mapping, each VM can configure the device how it wants
 
 ![[Pasted image 20230117123106.png|450|450]]
+
+
+
+```dataviewjs
+let f = dv.current().file;
+let paths = new Set([...f.inlinks, ...f.outlinks].filter((p) => !p.endsWith(".png")));
+paths.delete(f.path);
+dv.table(
+    ["Connections", "Tags"],
+    [...paths].map((p) => [dv.fileLink(p), dv.page(p).file.tags.join("")])
+);
+```
