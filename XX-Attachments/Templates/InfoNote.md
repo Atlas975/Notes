@@ -7,8 +7,8 @@
 >let paths = new Set(cur.inlinks.concat(cur.outlinks).array().map(p => p.path)
 >    .filter(p => !p.endsWith(".png")));
 >paths.delete(cur.path);
->dv.table(["Connections",  "Tags"], dv.array(Array.from(paths).slice(0, 20)).map(p => [
->     dv.fileLink(p), dv.page(p).file.tags.join("")]));
+>dv.table(["Connections",  "Tags"], dv.array(Array.from(paths).slice(0, 20))
+>    .map(p => [dv.fileLink(p), dv.page(p).file.tags.join("")]));
 > ```
 
 ___
