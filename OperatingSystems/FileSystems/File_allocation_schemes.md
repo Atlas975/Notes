@@ -14,13 +14,16 @@
 
 ___
 # File allocation schemes
+-   File allocation schemes are methods used by a [[File_systems|file system]] to manage how files are stored on a storage medium such as a hard disk drive / solid-state drive.
+-   These schemes typically determine how file data is allocated and organised on the disk, how file metadata is stored, and how [[Computer_memory|memory]] on the disk is managed and allocated for new files.
 ## Continuous allocation
-- Each [[File_systems|file]] fills set of adjacent blocks, fast access and minimal head movement 
-- Requires knowing file size before finding a suitable hole for allocation, suffers from external fragmentation. L
+- Each file fills set of adjacent blocks, fast access and minimal head movement 
+- Requires knowing file size before finding a suitable hole for allocation, suffers from external fragmentation. File growth beyond allocated space can be costly due to copying
 
 ![[Pasted image 20230305205625.png|250|250]]
 ## Linked-List allocation
-- Avoids external fragmentation, blocks no longer need to be continuous at the cost of additional overhead. All blocks can be used but pointers take up space
+- Each file is part of a linked list of blocks that can be scattered, avoids external fragmentation, and blocks no longer need to be continuous at the cost of additional overhead.
+- All blocks can be used but pointers take up space
 - Minor internal fragmentation (restricted to last block) and only offers slow sequential access, ideal for small file systems such as [[FAT_file_system|FAT]]
 
 ![[Pasted image 20230305205753.png|250|250]]
