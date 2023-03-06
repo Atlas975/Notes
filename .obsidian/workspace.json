@@ -112,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -157,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_storage.md",
+                "file": "OperatingSystems/FileSystems/File_systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_storage.md"
+                "file": "OperatingSystems/FileSystems/File_systems.md"
               }
             }
           }
@@ -214,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_storage.md"
+                "file": "OperatingSystems/FileSystems/File_systems.md"
               }
             }
           },
@@ -240,7 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_storage.md",
+                "file": "OperatingSystems/FileSystems/File_systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -287,11 +287,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7a8df565dca0393b",
+  "active": "870e16a3aa8aab56",
   "lastOpenFiles": [
+    "Databases/Database_storage.md",
     "OperatingSystems/FileSystems/File_systems.md",
     "OperatingSystems/Caching.md",
-    "Databases/Database_storage.md",
     "DataStructures/Graphs.md",
     "ProgramLanguages/C_language.md",
     "OperatingSystems/FileSystems/File_allocation_schemes.md",
