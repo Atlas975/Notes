@@ -742,6 +742,30 @@
           "lastUpdated": 1678118185337
         }
       }
+    },
+    "retrieve": {
+      "retrieve": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1678120866473
+        }
+      }
+    },
+    "beginning": {
+      "beginning": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1678120903995
+        }
+      }
+    },
+    "files": {
+      "files": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1678121100060
+        }
+      }
     }
   }
 }

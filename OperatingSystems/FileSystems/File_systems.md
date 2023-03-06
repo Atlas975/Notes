@@ -2,18 +2,15 @@
 alias: file, file system
 ---
 
-> [!important|inIL]- Metadata
+> [!important]- Metadata
 > **Tags:** #OperatingSystems 
-> **Located:** OperatingSystems
-> **Created:** 26/12/2022 - 09:28
+> **Located:** OperatingSystems/FileSystems
+> **Created:** 27/02/2023 - 16:44
 > ```dataviewjs
->let loc = dv.current().file.path;
->let cur = dv.page(loc).file;
->let links = cur.inlinks.concat(cur.outlinks).array().map(p => p.path);
->let paths = new Set(links.filter(p => !p.endsWith(".png")));
->paths.delete(loc);
->dv.table(["Connections","Tags"], dv.array(Array.from(paths)).map(p => [
->   dv.fileLink(p),dv.page(p).file.tags.join("")]).slice(0, 20));
+> let f = dv.current().file;
+> let paths = new Set([...f.inlinks, ...f.outlinks].map(p => p.path).filter(p => !p.endsWith(".png")));
+> paths.delete(f.path);
+> dv.table(["Connections", "Tags"], [...paths].map(p => [dv.fileLink(p), dv.page(p).file.tags.join("")]));
 > ```
 
 ___
@@ -32,7 +29,20 @@ ___
 
 ## File headers
 - Acts as a file descriptor containing information needed by programs accessing file records 
-- Holds vital information for determining disk addresses of file blocks  
+- Holds vital information for determining disk addresses of file blocks, record format descriptions, type codes, order of fields, separators etc 
+
+
+## File operations
+- **Open**: prepares file for reading/writing, allocates buffers to hold file blocks from disk. This operation also retrieves the [[#File headers|file header]] and sets a pointer to the beginning of a file
+    - Two buffers usually exist so that reading and writing can be done [[Concurrency|concurrently]]
+- **Reset**: set file pointer back to beginning of a file
+- **Find:** search for records satisfying search condition 
+- **FindNext**: [[Iterator_pattern|iterates]] to the next matching record in file 
+- **Get**: copies current record from buffer to program variable, might also advance file pointer
+- **Delete**: deletes current record, updates file to reflect this 
+- **Modify**: modifies fields for current record, updates file to reflect this
+- **Insert**: locates block where record is to be inserted, transfers block to main memory buffer, writes record to buffer and writes the buffer to disk
+- **Close**: releases buffers and performs any cleanup operations required
 ## Virtual file systems
 - When more than one device exists in a file system, a VFS is used to provide a system level view of multiple file-systems types at once
 - File systems reflect the characteristics of their device,  the VFS has an API that reflects the operations that can be carried out on these distinct file system structures.
@@ -47,7 +57,7 @@ ___
 - The Inode (active index node) describes the structure of a file and the blocks that reside in it
 - This is a frequently used data structure that can be optimized through [[Caching]]
 
-![[Pasted image 20221209132417.png|500]]
+![[Pasted image 20221209132417.png|450|450]]
 - The inode only makes sense in its filesystem so both the inode and the filesystem need to be remembered when accessing the cache
 
 ## Buffering and block caches

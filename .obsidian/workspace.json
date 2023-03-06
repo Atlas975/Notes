@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "Databases/Database_storage.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -53,7 +53,7 @@
               "type": "markdown",
               "state": {
                 "file": "OperatingSystems/FileSystems/File_systems.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -289,9 +289,10 @@
   },
   "active": "870e16a3aa8aab56",
   "lastOpenFiles": [
+    "OperatingSystems/Caching.md",
+    "OperatingSystems/FileSystems/File_systems.md",
     "Databases/Database_storage.md",
     "DataStructures/Graphs.md",
-    "OperatingSystems/FileSystems/File_systems.md",
     "ProgramLanguages/C_language.md",
     "OperatingSystems/FileSystems/File_allocation_schemes.md",
     "XX-Attachments/Images/Pasted image 20230306145209.png",
@@ -317,7 +318,6 @@
     "ProgramLanguages/SQL/SQL_Joins.md",
     "ProgramLanguages/SQL/SQL_relations.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
-    "Databases/Database_design.md",
     "XX-Attachments/Images/Pasted image 20230305210041.png",
     "XX-Attachments/Images/Pasted image 20230305210013.png",
     "XX-Attachments/Images/Pasted image 20230305210010.png",
