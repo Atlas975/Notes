@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "81c426ea69f7817d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/FileSystems/File_allocation_schemes.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0e809cd43b5f66fc",
             "type": "leaf",
             "state": {
@@ -33,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "OperatingSystems/FileSystems/File_allocation_schemes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md"
+                "file": "OperatingSystems/FileSystems/File_allocation_schemes.md"
               }
             }
           }
@@ -134,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md"
+                "file": "OperatingSystems/FileSystems/File_allocation_schemes.md"
               }
             }
           },
@@ -160,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "OperatingSystems/FileSystems/File_allocation_schemes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,10 +221,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6a1f70ba1ca8656d",
+  "active": "81c426ea69f7817d",
   "lastOpenFiles": [
-    "XX-Attachments/Templates/InfoNote.md",
     "OperatingSystems/Virtualisation.md",
+    "XX-Attachments/Templates/InfoNote.md",
     "XX-Attachments/Templates/AliasNote.md",
     "OperatingSystems/Processors.md",
     "OperatingSystems/Paging.md",

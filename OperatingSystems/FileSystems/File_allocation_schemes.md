@@ -15,13 +15,13 @@
 ___
 # File allocation schemes
 ## Continuous allocation
-- Each [[File_systems|file]] fills set of **adjacent** disk blocks in file system, fast access
-- Requires knowing file size before finding gap for allocation, suffers from external fragmentation with unused blocks between files. Files cannot be split in this scheme into multiple blocks
+- Each [[File_systems|file]] fills set of adjacent blocks, fast access and minimal head movement 
+- Requires knowing file size before finding a suitable hole for allocation, suffers from external fragmentation. L
 
 ![[Pasted image 20230305205625.png|250|250]]
 ## Linked-List allocation
 - Avoids external fragmentation, blocks no longer need to be continuous at the cost of additional overhead. All blocks can be used but pointers take up space
-- Internal fragmentation (on last block) and only offers slow sequential access, ideal for small file systems such as [[FAT_file_system|FAT]]
+- Minor internal fragmentation (restricted to last block) and only offers slow sequential access, ideal for small file systems such as [[FAT_file_system|FAT]]
 
 ![[Pasted image 20230305205753.png|250|250]]
 ## Indexed allocation

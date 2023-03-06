@@ -93,7 +93,3 @@ ___
 ![[Pasted image 20230117123106.png|450|450]]
 
 
-
-```dataview
-TABLE groupBy:tags COLUMNS tags, COUNT() SORT_ASC tags
-```
