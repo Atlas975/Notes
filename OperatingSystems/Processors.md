@@ -78,3 +78,5 @@ ___
     - Each processor having it's own interrupt controller ([[Input&Output_systems#Interrupts#Programmable interrupt controller|PIC]])
     - [[Concurrency#Spinlocks|Spinlocks]], spin on shared lock object, useful for brief locks in multi-processor systems. These are not useful on single processor systems as no useful work is done while spinning takes place
 - Page replacement may vary between cores, eg windows uses [[Computer_memory#LRU|LRU]] in single processor and [[Computer_memory#FIFO|FIFO]] in multi-processor systems
+
+

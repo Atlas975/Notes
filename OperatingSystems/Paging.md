@@ -174,11 +174,3 @@ ___
 
 
 
-```dataviewjs
-let cur = dv.current().file;
-let links = [...cur.inlinks, ...cur.outlinks].map(p => p.path);
-let paths = new Set(links.filter(p => !p.endsWith(".png")));
-paths.delete(cur.path);
-dv.table(["Connections",  "Tags"], [...paths].slice(0, 20).map(p =>
-    [dv.fileLink(p), dv.page(p).file.tags.join("")]));
-```

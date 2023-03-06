@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Paging.md",
+                "file": "OperatingSystems/Virtualisation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "XX-Attachments/Templates/InfoNote.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Paging.md",
+                "file": "OperatingSystems/Virtualisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Paging.md"
+                "file": "OperatingSystems/Virtualisation.md"
               }
             }
           }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Paging.md"
+                "file": "OperatingSystems/Virtualisation.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Paging.md",
+                "file": "OperatingSystems/Virtualisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,18 +209,20 @@
   },
   "active": "6a1f70ba1ca8656d",
   "lastOpenFiles": [
-    "OperatingSystems/Linux_permissions.md",
-    "XX-Attachments/Templates/AliasNote.md",
     "XX-Attachments/Templates/InfoNote.md",
-    "OperatingSystems/FileSystems/Unix_file_system.md",
     "OperatingSystems/Virtualisation.md",
+    "XX-Attachments/Templates/AliasNote.md",
+    "OperatingSystems/Processors.md",
+    "OperatingSystems/Paging.md",
+    "OperatingSystems/Page_replacement.md",
+    "OperatingSystems/Linux_permissions.md",
+    "OperatingSystems/FileSystems/Unix_file_system.md",
     "Databases/Database_normalisation.md",
     "DataStructures/CacheStructures/LRU.md",
     "DataStructures/CacheStructures/LFU.md",
     "Networking/TransmissionProtocols/Transmission_protocols.md",
     "Networking/TransmissionProtocols/Hypertext_transfer_protocol.md",
     "Networking/TransmissionProtocols/Domain_name_server.md",
-    "OperatingSystems/Paging.md",
     "OperatingSystems/FileSystems/FAT_file_system.md",
     "OperatingSystems/FileSystems/File_allocation_schemes.md",
     "Databases/Database_storage.md",
@@ -233,8 +235,6 @@
     "ProgramLanguages/SQL/SQL_language.md",
     "Databases/Database_relations.md",
     "SoftwareEngineering/Functional_programming.md",
-    "OperatingSystems/Computer_memory.md",
-    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "XX-Attachments/Images/Pasted image 20230305210041.png",
     "XX-Attachments/Images/Pasted image 20230305210013.png",
     "XX-Attachments/Images/Pasted image 20230305210010.png",
