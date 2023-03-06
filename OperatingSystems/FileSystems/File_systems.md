@@ -16,7 +16,6 @@ alias: file, file system
 ___
 # File systems
 - The part of an [[Operating_system_design|operating system]] responsible for taking storage devices and providing structure to place and retrieve files
-- Access types include read, write, execute, append, delete and list
 - Shared files created through directed acyclic [[Graphs|graphs]]
 
 ![[Pasted image 20221208222431.png|400|400]]
@@ -46,6 +45,11 @@ ___
 ### File operation types
 - With the exception of open and close, all previous operations are **record-at-a-time** meaning they read and act on a single record 
 - ==FindAll, FindOrdered and Reorganise== are examples of **set-at-a-time** operations which act upon multiple files 
+
+## File organisation 
+- **Primary file organisation**: how records are physically placed on disk 
+- **Secondary file organisation**: how efficiently records are accessed
+- Unordered record are slow to search 
 ## Virtual file systems
 - When more than one device exists in a file system, a VFS is used to provide a system level view of multiple file-systems types at once
 - File systems reflect the characteristics of their device,  the VFS has an API that reflects the operations that can be carried out on these distinct file system structures.
