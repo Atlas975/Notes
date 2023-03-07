@@ -28,10 +28,10 @@ ___
 - [[Input&Output_systems|I/O]] tells us where these blocks are on disk, any process is going to view a file formed from multiple blocks. 
 - Since these blocks are memory resident they can easily be updated or read via byte operations
 - Efficient buffering can be managed by an [[Linked_list_algorithms#LRU cache|LRU cache]]
-- This allows empty blocks to be reused rather than managing the overhead of freeing memory, blocks in the empty pool can be filled with data and placed on the LRU cache
 
 ![[Pasted image 20221209153713.png|450|450]]
 
+- This allows empty blocks to be reused rather than managing the overhead of freeing memory, blocks in the empty pool can be filled with data and placed on the LRU cache
 - collisions may still occur, resulting in a linked list chain to access data
 
 ![[Pasted image 20221209153917.png|450|450]]
