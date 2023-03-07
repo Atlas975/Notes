@@ -48,7 +48,6 @@ $$\text{Blocking factor(BFR)}=\lfloor \frac{\text{ block size}}{\text{record siz
 - Unspanned records may also exist, suffers from internal fragmentation but lacks the added overhead of using pointers 
 
 ![[Pasted image 20230304220128.png|500|500]]
-
 ## Space allocation
 - Database files typically grow overtime and therefore require a block allocation scheme that balances out performance , flexibility and space efficiency. Especially since disk space is often shared with the OS and other applications 
 - Database files may use the same allocation schemes as other [[File_systems|files]], these being: 
@@ -57,10 +56,13 @@ $$\text{Blocking factor(BFR)}=\lfloor \frac{\text{ block size}}{\text{record siz
 	- [[File_allocation_schemes#Cluster allocation|Cluster allocation]]
 	- [[File_allocation_schemes#Indexed allocation|Indexed allocation]]
 - Databases also need to account for [[File_systems#File organisation|physical file organisation]],  but a DBMS will abstract these processes away from a DB admin. Understanding underlying storage structures is still vital for optimising designs
-
-
-- There are two aspects to how a record is organised:
-
-### Primary file organisation  
--  **Primary file organisation**: how records are physically placed on disk 
-- **Secondary file organisation**: how efficiently records are accessed, this describes access structures that are used to speed of retrieval
+## Primary Files
+-   Primary files in databases are the main files that hold persistent data.
+-   Contains the actual data rows of the table, along with their associated data elements and fields.
+-  **Primary file organisation** describes how records are physically placed on disk 
+## Secondary Files
+- Can be taught of as the indexes in a text book, providing an alternate way to locate records without impacting physical placement of records on disk 
+- Exist in addition to primary files and contain  data derived from primary files eg indexes, views, and summaries.
+- **Secondary file organisation** describes how efficiently records are accessed, this describes access structures that are used to speed of retrieval`
+- Secondary files are used to enhance the performance of the database, allowing for faster retrieval of data. They are also used for backup and recovery purposes.
+- Any field in a record can be used for indexing, the fields that are used are known as index fields, multiple of these may exist
