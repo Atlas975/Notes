@@ -1,5 +1,5 @@
 > [!important]- Metadata
-> **Tags:** #OperatingSystems  
+> **Tags:** #OperatingSystems 
 > **Located:** OperatingSystems
 > **Created:** 27/02/2023 - 16:44
 > ```dataviewjs
