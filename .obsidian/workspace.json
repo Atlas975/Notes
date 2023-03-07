@@ -92,7 +92,7 @@
               "type": "markdown",
               "state": {
                 "file": "OperatingSystems/Paging.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -189,7 +189,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#OperatingSystems",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -223,7 +223,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "e76f9604c96a6f00",
@@ -335,8 +336,9 @@
   },
   "active": "7243d0a3a9301ab5",
   "lastOpenFiles": [
-    "OperatingSystems/FileSystems/FAT_file_system.md",
+    "OperatingSystems/Computer_memory.md",
     "OperatingSystems/Paging.md",
+    "OperatingSystems/FileSystems/FAT_file_system.md",
     "Networking/Routing_methods.md",
     "Networking/Network_tools.md",
     "OperatingSystems/FileSystems/Unix_file_system.md",
@@ -348,7 +350,6 @@
     "OperatingSystems/FileSystems/File_systems.md",
     "OperatingSystems/FileSystems/File_allocation_schemes.md",
     "OperatingSystems/Processors.md",
-    "OperatingSystems/Computer_memory.md",
     "OperatingSystems/Error_codes.md",
     "OperatingSystems/Page_replacement.md",
     "OperatingSystems/Thread_types.md",

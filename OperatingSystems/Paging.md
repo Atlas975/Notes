@@ -1,15 +1,12 @@
 > [!important]- Metadata
-> **Tags:** #OperatingSystems 
+> **Tags:** #OperatingSystems  
 > **Located:** OperatingSystems
 > **Created:** 27/02/2023 - 16:44
 > ```dataviewjs
->let cur = dv.current().file;
->let loc = cur.path;
->let links = cur.inlinks.concat(cur.outlinks).array().map(p => p.path);
->let paths = new Set(links.filter(p => !p.endsWith(".png")));
->paths.delete(loc);
->dv.table(["Connections",  "Tags"], dv.array(Array.from(paths).slice(0, 20)).map(p => [
->   dv.fileLink(p),dv.page(p).file.tags.join("")]));
+> let f = dv.current().file;
+> let paths = new Set([...f.inlinks, ...f.outlinks].map(p => p.path).filter(p => !p.endsWith(".png")));
+> paths.delete(f.path);
+> dv.table(["Connections", "Tags"], [...paths].map(p => [dv.fileLink(p), dv.page(p).file.tags.join("")]));
 > ```
 
 ___
@@ -20,7 +17,7 @@ ___
 - Divides memory into blocks. Similar to segmentation, a per process table exists to map from logical addresses to physical addresses.
 ## Page tables
 
-![[Pasted image 20221212155102.png|500]]
+![[Pasted image 20221212155102.png|450|450]]
 
 - Lower bits represent an offset of fixed size (traditionally 4k bytes).
 - Upper bits page number, giving a key in the page table
@@ -43,12 +40,12 @@ ___
 - When paging is enabled, every address becomes subject to translation, making setting up page tables correctly essential or else no memory addresses will point to a correct space
 - [[Multi-Process_systems|multi-process]] paging from enabling paging, same logical addresses, different physical blocks for each process:  
 
-![[Pasted image 20221212160140.png|450]]
+![[Pasted image 20221212160140.png|400|400]]
 
 - Blocks of memory can be easily shared with paging provided the page tables in both processes point to the same physical address. 
 - Useful for inter-process communication eg shared libraries 
 
-![[Pasted image 20221212160328.png|450]]
+![[Pasted image 20221212160328.png|400|400]]
 
 ## Page fault
 - When a desired page in a page table is present in secondary storage / virtual memory instead of primary memory 
@@ -59,42 +56,42 @@ ___
 - Once a frame number is retrieved and cached in the page table, this process does not need to be run again.
 - The **effective access time** (EAT) of a paging scheme is: 
 
->$$\text{EAT}= (1-P) * \text{memory access} + (P*\text{page fault overhead})$$
->$$P = \mathbb{P}\text{(page fault)}$$
+$$\text{EAT}= (1-P) * \text{memory access} + (P*\text{page fault overhead})$$
+$$P = \mathbb{P}\text{(page fault)}$$
 
-![[Pasted image 20221216111909.png|450|450]]
+![[Pasted image 20221216111909.png|400|400]]
 
 ## Hierarchical / Multi-level paging
 - Very few processes will require access to every page in a system, a solution is needed to deal with increasing size of address space in modern machines
 - The page table size problem describes how many entries a table will need to have due to page size. This needs to be broken down to allow for smaller passed in page sizes 
 
-![[Pasted image 20221212220730.png|450]]
+![[Pasted image 20221212220730.png|400|400]]
 
 - This is where a hierarchy of page translations comes in, Multi-level paging allows page tables to be present in secondary memory as only the first table needs to be present in RAM.
 - Minimises the amount of memory needed in RAM to access all of a processes data
 
-![[Pasted image 20221212214835.png|450]]
+![[Pasted image 20221212214835.png|400|400]]
 
 - Upper bits act as an index to page directory, much more efficient in memory storage 
 - One solution to avoid deeply nested structures is to increase page size. Some processors are also able to have a mixture of page sizes 
 
-![[Pasted image 20221212215411.png|450]]
+![[Pasted image 20221212215411.png|400|400]]
 
 - Per process limit exists for pages that can be cached, imposed by OS, drop in performance occurs when entries need to be replaced 
 - A page entry is checked for validity using a **present flag**
 
-![[Pasted image 20221216112120.png|450|450]]
+![[Pasted image 20221216112120.png|400|400]]
 ### Hashed page tables
 - Another solution to efficient indexing, hash function is more expensive but gives an index that can point to a much smaller table for page access 
 - A good hash function should have minimal collisions to allow for efficient searching
 
-![[Pasted image 20221212215918.png|500]]
+![[Pasted image 20221212215918.png|400|400]]
 
 ### Inverted page tables
 - One entry for each frame, table used for all processes 
 - Combines the PID and page number to be used as a unique identifier in the table 
 
-![[Pasted image 20221212220146.png|500]]
+![[Pasted image 20221212220146.png|400|400]]
 
 ## Demand paging
 - Starts process with partial or even empty page tables 
@@ -104,22 +101,21 @@ ___
 	- Allocate physical memory for frame and retrieves code or data from disk
 - Memory for a process can be scaled overtime based on the memory references its making, useful for running several processes in constrained amounts of physical memory 
 
-![[Pasted image 20221212221901.png|500]]
+![[Pasted image 20221212221901.png|400|400]]
 
 ## Shared memory paging
 - Paging can be utilized as a way to create shared memory between processes
 - Useful for shared libraries such as standard OS or math libs
 
-![[Pasted image 20221212224501.png|450|450]]
+![[Pasted image 20221212224501.png|400|400]]
 
 - the metadata in each process is used by the loader to ensure any requested libraries already exists in memory
-
 - Example of shared library execution:
 
-![[Pasted image 20221213011529.png|450|450]]
+![[Pasted image 20221213011529.png|400|400]]
 
 ## Translation look-aside buffer (TLB)
-- Accessing pages even through a memory hierarchy is an expensive process 
+- A page table [[Caching|cache]], useful as accessing pages through a memory hierarchy is expensive 
 - Alternative  methods for handling this include:
 	- **Register based page tables**: fast but limited capacity
 	- **Memory based page tables**: capacity limited by memory, slow access (these still need to go through the translation table)
@@ -161,7 +157,7 @@ ___
 - A processes physical frame does not need to follow any sort of consecutive ordering 
 - Its also possible than when a page is accessed , that the physical frame wont be the same as the shadow copy on disk as this change has not yet been pushed
 
-![[Pasted image 20221216122334.png|450|450]]
+![[Pasted image 20221216122334.png|400|400]]
 
 - The process of finding out if this is true can quickly be checked via the dirty bit in the control portion of the page directory. This indicates that the in memory copy differs from the one available on disk so an update is required
 
