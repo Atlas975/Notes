@@ -56,3 +56,11 @@ $$\text{Blocking factor(BFR)}=\lfloor \frac{\text{ block size}}{\text{record siz
 	- [[File_allocation_schemes#Linked allocation|Linked allocation]]
 	- [[File_allocation_schemes#Cluster allocation|Cluster allocation]]
 	- [[File_allocation_schemes#Indexed allocation|Indexed allocation]]
+- Databases also need to account for [[File_systems#File organisation|physical file organisation]],  but a DBMS will abstract these processes away from a DB admin. Understanding underlying storage structures is still vital for optimising designs
+
+
+- There are two aspects to how a record is organised:
+
+### Primary file organisation  
+-  **Primary file organisation**: how records are physically placed on disk 
+- **Secondary file organisation**: how efficiently records are accessed, this describes access structures that are used to speed of retrieval
