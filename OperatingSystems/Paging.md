@@ -71,15 +71,15 @@ ___
 ![[Pasted image 20221212220730.png|450]]
 
 - This is where a hierarchy of page translations comes in, Multi-level paging allows page tables to be present in secondary memory as only the first table needs to be present in RAM.
-- This minimises the amount of memory that needs to be kept in RAM to access all of a processes data
+- Minimises the amount of memory needed in RAM to access all of a processes data
 
 ![[Pasted image 20221212214835.png|450]]
 
-- upper bits act as an index to page directory, much more efficient in memory storage 
+- Upper bits act as an index to page directory, much more efficient in memory storage 
+- One solution to avoid deeply nested structures is to increase page size. Some processors are also able to have a mixture of page sizes 
 
 ![[Pasted image 20221212215411.png|450]]
 
-- One solution to avoid deeply nested structures is to increase page size. Some processors are also able to have a mixture of page sizes 
 - Per process limit exists for pages that can be cached, imposed by OS, drop in performance occurs when entries need to be replaced 
 - A page entry is checked for validity using a **present flag**
 
@@ -171,6 +171,3 @@ ___
 - The process can then be restarted and the process will be able to access the appropriate page in [[Computer_memory#Swap space|swap space]]
 
 ![[Pasted image 20221216123136.png|400|400]]
-
-
-
