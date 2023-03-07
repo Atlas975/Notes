@@ -50,7 +50,7 @@ ___
 - There are two aspects to how a record is organised
     - **Primary file organisation**: how records are physically placed on disk 
     - **Secondary file organisation**: how efficiently records are accessed, this describes access structures that are used to speed of retrieval 
-- Unordered record are slow to search but have low overhead
+- Unordered records are slow to search but have low overhead
 - Ordered records make use of an ordering field for comparison operations, this is known as an ordering key is this is also unique to each file. These are fast due to the use of [[Binary_search]]
 ## Virtual file systems
 - When more than one device exists in a file system, a VFS is used to provide a system level view of multiple file-systems types at once

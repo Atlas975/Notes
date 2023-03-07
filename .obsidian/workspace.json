@@ -159,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -204,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Paging.md",
+                "file": "OperatingSystems/FileSystems/File_systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,7 +236,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Paging.md"
+                "file": "OperatingSystems/FileSystems/File_systems.md"
               }
             }
           }
@@ -244,7 +244,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5046501159668
+    "width": 259.5046501159668,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -260,7 +261,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Paging.md"
+                "file": "OperatingSystems/FileSystems/File_systems.md"
               }
             }
           },
@@ -286,7 +287,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Paging.md",
+                "file": "OperatingSystems/FileSystems/File_systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -333,10 +334,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "61b6b073dac95afd",
+  "active": "f7d5ca5fd8de2359",
   "lastOpenFiles": [
-    "OperatingSystems/Computer_memory.md",
     "OperatingSystems/Paging.md",
+    "OperatingSystems/Computer_memory.md",
     "OperatingSystems/FileSystems/FAT_file_system.md",
     "Networking/Routing_methods.md",
     "Networking/Network_tools.md",
