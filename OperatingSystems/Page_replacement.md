@@ -34,16 +34,15 @@ a_{i}=\frac{s_{i}}{S\times m}\text{ frames}
     4. Adjust page table to mark frame as invalid 
     5. Read originally requested page into the victim frame 
     6. Adjust page table, mark new page entry as valid 
-    7. Restart
+    7. Restart process
 
-![[Pasted image 20230118115012.png|450|450]]
 
 ## Thrashing problem
 - When too few frames are allocated to a process, resulting in a high number of [[Paging#Page fault|page faults]]
 - A high number of page faults is an indicator of this as pages keep getting pushed to disk
 - [[Processors|CPU]] work drops as resources allocated to paging in / out, resulting in minimal useful work
 
-![[Pasted image 20230118114738.png|350|350]]
+![[Pasted image 20230118114738.png|300|300]]
 
 - This can be limited via local page replacement, this avoids a memory hungry process from creating page fault for other processes. This limits thrashing to a single process 
 
