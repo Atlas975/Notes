@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_storage.md",
+                "file": "Networking/Network_architecture.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_storage.md",
+                "file": "Networking/Network_architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_storage.md"
+                "file": "Networking/Network_architecture.md"
               }
             }
           }
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_storage.md"
+                "file": "Networking/Network_architecture.md"
               }
             }
           },
@@ -170,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_storage.md",
+                "file": "Networking/Network_architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,8 +219,8 @@
   },
   "active": "43b90d1d4aec81a1",
   "lastOpenFiles": [
-    "OperatingSystems/FileSystems/File_systems.md",
     "Databases/Database_storage.md",
+    "OperatingSystems/FileSystems/File_systems.md",
     "XX-Attachments/Templates/InfoNote.md",
     "OperatingSystems/FileSystems/File_allocation_schemes.md",
     "ProgramLanguages/C_language.md",
