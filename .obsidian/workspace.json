@@ -92,7 +92,7 @@
               "type": "markdown",
               "state": {
                 "file": "OperatingSystems/Paging.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -223,8 +223,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "e76f9604c96a6f00",
@@ -334,7 +333,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7243d0a3a9301ab5",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
     "OperatingSystems/Computer_memory.md",
     "OperatingSystems/Paging.md",

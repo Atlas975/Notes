@@ -3,7 +3,7 @@
 > **Located:** OperatingSystems
 > **Created:** 27/02/2023 - 16:44
 > ```dataviewjs
-> let f = dv.current().file;
+> let f = dv.current().file;  
 > let paths = new Set([...f.inlinks, ...f.outlinks].map(p => p.path).filter(p => !p.endsWith(".png")));
 > paths.delete(f.path);
 > dv.table(["Connections", "Tags"], [...paths].map(p => [dv.fileLink(p), dv.page(p).file.tags.join("")]));
