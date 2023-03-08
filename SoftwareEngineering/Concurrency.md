@@ -471,16 +471,14 @@ void release_lock() {
 
 
 ```dataviewjs
-const degree = ; // specify the degree of links
+const degree = 2; // specify the degree of links
 
-let curLin = new Set(dv.current().file.inlinks);
+let inLin = new Set(dv.current().file.inlinks);
 for (let i = 0; i < degree; i++) {
-    curLin = new Set([...curLin].flatMap(lin => dv.page(lin).file.inlinks));
+    inLin = new Set([...inLin].flatMap(x => [...dv.page(x).file.inlinks]));
 }
 
-const inlinks =  [...curLin];
-dv.table([`${degree}-degree links`],inlinks.map(inl => [inl]));
-
+dv.table([`${degree}-degree links`], [...inLin].map(x => [x]));
 ```
 
 
