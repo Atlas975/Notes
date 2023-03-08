@@ -471,9 +471,27 @@ void release_lock() {
 
 
 ```dataviewjs
+function getLinksDegree(dv, links, degree) {
+    let curLin = new Set(links);
+    for (let i = 0; i < degree; i++) {
+        let nexLin = new Set();
+        for (let link of curLin) {
+            let page = dv.page(link);
+            if (page) {
+                for (let inlink of page.file.inlinks) {
+                    nexLin.add(inlink);
+                }
+            }
+        }
+        curLin = nexLin;
+    }
+    return [...curLin];
+}
+
 let cur = dv.current().file;
-let inl = new Set(cur.inlinks.flatMap(i => dv.page(i).file.inlinks))
-dv.table(["Second degree links"], [...inl].map(i => [i]));
+let degree = 1; // specify the degree of links
+let links = getLinksDegree(dv, cur.inlinks, degree);
+dv.table([`${degree}-degree links`],links.map((i) => [i]));
 
 ```
 
