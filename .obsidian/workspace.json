@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/TransmissionProtocols/Hypertext_transfer_protocol.md",
+                "file": "Networking/TransmissionProtocols/Domain_name_server.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/TransmissionProtocols/Hypertext_transfer_protocol.md",
+                "file": "Networking/TransmissionProtocols/Domain_name_server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/TransmissionProtocols/Hypertext_transfer_protocol.md"
+                "file": "Networking/TransmissionProtocols/Domain_name_server.md"
               }
             }
           }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/TransmissionProtocols/Hypertext_transfer_protocol.md"
+                "file": "Networking/TransmissionProtocols/Domain_name_server.md"
               }
             }
           },
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/TransmissionProtocols/Hypertext_transfer_protocol.md",
+                "file": "Networking/TransmissionProtocols/Domain_name_server.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,8 +218,8 @@
   },
   "active": "43b90d1d4aec81a1",
   "lastOpenFiles": [
-    "Networking/TransmissionProtocols/Domain_name_server.md",
     "Networking/TransmissionProtocols/Hypertext_transfer_protocol.md",
+    "Networking/TransmissionProtocols/Domain_name_server.md",
     "Networking/TransmissionProtocols/Transmission_protocols.md",
     "Networking/Checksum.md",
     "Networking/Communication_architecture.md",

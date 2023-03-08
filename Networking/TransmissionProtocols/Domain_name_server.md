@@ -1,6 +1,7 @@
 ---
 aliases: DNS
 ---
+
 > [!important]- Metadata
 > **Tags:** #Networking 
 > **Located:** Networking
@@ -17,4 +18,6 @@ aliases: DNS
 
 ___
 # Domain name server
-<% tp.file.cursor(2) %>
+- An [[Internet_protocols#Application layer|application layer protocol]], acts as an alias for a domain's computer readable  IP address
+- Uses a distributed database of name servers known as the domain domain name system
+- DNS can also act as a load balancer having multiple IP addresses correspond to one name
