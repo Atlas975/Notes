@@ -33,7 +33,20 @@ ___
 lancs.ac.uk -sub-domain-> ac.uk -sub-domain-> uk 
 ```
 
-## Full qualified domain names 
+- DNS name server resolution: 
+
+![[Pasted image 20230308130522.png|400|400]]
+- This is a full recursive search which is uncommon, instead a cache typically intercepts this request, cache entries still timeout 
+## Domain server types
+### Top-level domain servers
+- A TLD is responsible for all top level country domains eg uk, fr, ca 
+### Authoritative domain servers
+- Organisations own DNS server providing IP mappings for an organisations named hosts 
+
+### Local domain server
+- Does not strictly belong to hierarchy, acts as a [[Caching|cache]] for recent name-to-address translations
+- Works as a [[Proxy_pattern|proxy]], forwarding query if necessary ie the cache is out of date
+## Full qualified domain names
 - An FQDN ends with a dot, it specifies the exact location of a resource and includes all levels of the DNS hierarchy including the top level domain
 - Names without a dot can be extended to its root node. An FQDN is not always needed for a search query depending on the domain one is already present in 
 
