@@ -32,11 +32,12 @@ ___
 ```
 lancs.ac.uk -sub-domain-> ac.uk -sub-domain-> uk 
 ```
-
-
+- These servers are also susceptible to spoofing, where a DNS server routes a host to a malicious server the request wasn't originally intended for  
+- Cache poisoning is also a risk until an entry times out
 ## Domain server types
 ### Top-level domain servers
-- A TLD is responsible for all top level country domains eg uk, fr, ca 
+- A TLD is responsible for all top level country domains eg uk, fr, ca
+- These are the most vulnerable to DDOS attacks 
 ### Authoritative domain servers
 - Organisations own DNS server providing IP mappings for an organisations named hosts 
 ### Local domain server
@@ -66,9 +67,12 @@ RR format: (name, value, type, ttl)
 | MX      |                     |                                         |
 
 
-## DNS protocol 
+## DNS protocol
 
 ![[Pasted image 20230308142621.png|400|400]]
+
+### Life of DNS registration
+![[Pasted image 20230308142812.png|400|400]]
 ## Full qualified domain names
 - An FQDN ends with a dot, it specifies the exact location of a resource and includes all levels of the DNS hierarchy including the top level domain
 - Names without a dot can be extended to its root node. An FQDN is not always needed for a search query depending on the domain one is already present in 
