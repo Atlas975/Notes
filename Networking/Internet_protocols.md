@@ -53,7 +53,7 @@ ___
 - Each layer has a specific protocol only understood by that layer.
 - Opposite objects (protocols), must be able to perform identical tasks
 
-![[Pasted image 20211105235208.png|550|550]]
+![[Pasted image 20211105235208.png|500|500]]
 
 ## OSI model
 - An extended IP stack, including layers between application and transport  

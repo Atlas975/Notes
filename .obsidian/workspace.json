@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Network_architecture.md",
+                "file": "Networking/TransmissionProtocols/Hypertext_transfer_protocol.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Network_architecture.md",
+                "file": "Networking/TransmissionProtocols/Hypertext_transfer_protocol.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_architecture.md"
+                "file": "Networking/TransmissionProtocols/Hypertext_transfer_protocol.md"
               }
             }
           }
@@ -127,8 +127,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5046501159668,
-    "collapsed": true
+    "width": 259.5046501159668
   },
   "right": {
     "id": "441e4249d5592193",
@@ -144,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_architecture.md"
+                "file": "Networking/TransmissionProtocols/Hypertext_transfer_protocol.md"
               }
             }
           },
@@ -170,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Network_architecture.md",
+                "file": "Networking/TransmissionProtocols/Hypertext_transfer_protocol.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,6 +218,20 @@
   },
   "active": "43b90d1d4aec81a1",
   "lastOpenFiles": [
+    "Networking/TransmissionProtocols/Domain_name_server.md",
+    "Networking/TransmissionProtocols/Hypertext_transfer_protocol.md",
+    "Networking/TransmissionProtocols/Transmission_protocols.md",
+    "Networking/Checksum.md",
+    "Networking/Communication_architecture.md",
+    "Networking/Header_types.md",
+    "Networking/Internet_architecture.md",
+    "Networking/Network_tools.md",
+    "Networking/Network_topology.md",
+    "Networking/Routing_methods.md",
+    "Networking/Internet_protocols.md",
+    "Networking/Network_delay.md",
+    "Networking/Transmission_mediums.md",
+    "Networking/Network_architecture.md",
     "Databases/Database_storage.md",
     "OperatingSystems/FileSystems/File_systems.md",
     "XX-Attachments/Templates/InfoNote.md",
@@ -227,28 +240,14 @@
     "DataStructures/Graphs.md",
     "OperatingSystems/Paging.md",
     "OperatingSystems/FileSystems/FAT_file_system.md",
-    "Networking/Routing_methods.md",
     "OperatingSystems/Virtualisation.md",
     "OperatingSystems/Computer_memory.md",
-    "Networking/Network_tools.md",
     "OperatingSystems/FileSystems/Unix_file_system.md",
     "OperatingSystems/Multi-Process_systems.md",
-    "OperatingSystems/Linux_permissions.md",
-    "OperatingSystems/Operating_system_design.md",
-    "OperatingSystems/FileSystems/File_system_performance.md",
-    "OperatingSystems/FileSystems/New_technology_file_system.md",
-    "OperatingSystems/Processors.md",
-    "OperatingSystems/Error_codes.md",
-    "OperatingSystems/Page_replacement.md",
-    "OperatingSystems/Thread_types.md",
     "XX-Attachments/Images/Pasted image 20230306232427.png",
-    "OperatingSystems/Caching.md",
     "XX-Attachments/Images/Pasted image 20230306145209.png",
     "XX-Attachments/Images/Pasted image 20230306145109.png",
     "XX-Attachments/Images/Pasted image 20230306145043.png",
-    "XX-Attachments/Templates/AliasNote.md",
-    "Databases/Database_normalisation.md",
-    "DataStructures/CacheStructures/LRU.md",
     "XX-Attachments/Images/Pasted image 20230305210041.png",
     "XX-Attachments/Images/Pasted image 20230305210013.png",
     "XX-Attachments/Images/Pasted image 20230305210010.png",
