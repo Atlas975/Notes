@@ -466,3 +466,29 @@ void release_lock() {
 - Asynchronous programming is a more recent concurrency model that uses a different approach based on cooperative multitasking. 
 - Instead of relying on the operating system to schedule multiple threads, async relies on each task yielding control to the next task when it's not making progress. 
 - This cooperative multitasking model is more lightweight than multithreading and can reduce the overhead associated with creating, managing, and switching between multiple threads.
+
+
+
+
+```dataviewjs
+let cur = dv.current().file;
+let inl = cur.inlinks.map(i => [...dv.page(i).file.inlinks])
+dv.table(["Second degree links"], inl);
+
+```
+
+
+> [!important]- Metadata
+> **Tags:** #
+> **Located:** SoftwareEngineering
+> **Created:** 27/02/2023 - 16:44
+> ```dataviewjs
+> let f = dv.current().file;
+> let paths = new Set([...f.inlinks, ...f.outlinks].map(p => p.path).filter(p => !p.endsWith(".png")));
+> paths.delete(f.path);
+> dv.table(["Connections", "Tags"], [...paths].map(p => [dv.fileLink(p), dv.page(p).file.tags.join("")]));
+> ```
+
+___
+# Concurrency
+<% tp.file.cursor(2) %>
