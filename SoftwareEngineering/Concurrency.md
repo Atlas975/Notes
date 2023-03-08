@@ -471,15 +471,17 @@ void release_lock() {
 
 
 ```dataviewjs
-const degree = 3; // specify the degree of links
+const degree = 5; // specify the degree of links
 
 let inLin = new Set(dv.current().file.inlinks);
+let tempSet = new Set([...inLin]); // keep track of inlinks already added
 for (let i = 0; i < degree; i++) {
-    inLin = new Set([...inLin].flatMap(x => [...dv.page(x).file.inlinks]));
+  const newInLin = new Set([...inLin].flatMap(x => dv.page(x).file.inlinks));
+  inLin = new Set([...newInLin].filter(x => !tempSet.has(x)));
+  tempSet = new Set([...tempSet, ...newInLin]); // add new inlinks to tempSet
 }
 
-inLin = [...new Set([...inLin].map(x => x.path))].map(x => dv.fileLink(x))
-dv.table([`${degree}-degree links`], inLin.map(x => [x]));
+dv.table([`${degree}-degree links`], linksArr.map(x => [x]));
 ```
 
 > [!important]- Metadata
