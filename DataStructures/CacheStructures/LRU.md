@@ -58,3 +58,15 @@ class LRUCache:
             self.pop(lru.key)
         self.append(Node(key, value))
 ```
+
+
+```dataviewjs
+let cur = dv.current().file;
+let inl = new Set(cur.inlinks.flatMap(o => dv.page(o).file.inlinks))
+
+dv.table(["Second degree links"], [...inl]
+         .map(p => [p]));
+
+```
+
+

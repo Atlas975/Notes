@@ -57,3 +57,5 @@ class LFUCache:
             del self.kf[fifo_k]
         self.minf = 1
 ```
+
+
