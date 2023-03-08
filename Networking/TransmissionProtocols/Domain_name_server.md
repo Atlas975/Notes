@@ -21,3 +21,20 @@ ___
 - An [[Internet_protocols#Application layer|application layer protocol]], acts as an alias for a domain's computer readable  IP address
 - Uses a distributed database of name servers known as the domain domain name system
 - DNS can also act as a load balancer having multiple IP addresses correspond to one name
+
+![[Pasted image 20230308124225.png|450|450]]
+- Not that only leaf nodes correspond to specific addresses 
+- The internet domain name structure, a DNS server typically exists for each of these:
+
+![[Pasted image 20230308124525.png|400|400]]
+
+- A domain is a subdomain of another if its name ends with the other domain name eg 
+```
+lancs.ac.uk -sub-domain-> ac.uk -sub-domain-> uk 
+```
+
+## Full qualified domain names 
+- An FQDN ends with a dot, it specifies the exact location of a resource and includes all levels of the DNS hierarchy including the top level domain
+- Names without a dot can be extended to its root node. An FQDN is not always needed for a search query depending on the domain one is already present in 
+
+![[Pasted image 20230308125447.png|400|400]]
