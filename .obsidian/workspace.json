@@ -73,8 +73,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwareEngineering/Concurrency.md",
-                "mode": "source",
+                "file": "OperatingSystems/Processors.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareEngineering/Concurrency.md",
+                "file": "OperatingSystems/Processors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareEngineering/Concurrency.md"
+                "file": "OperatingSystems/Processors.md"
               }
             }
           }
@@ -221,7 +221,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareEngineering/Concurrency.md"
+                "file": "OperatingSystems/Processors.md"
               }
             }
           },
@@ -247,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareEngineering/Concurrency.md",
+                "file": "OperatingSystems/Processors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -296,8 +296,10 @@
   },
   "active": "e7b451d48802aa31",
   "lastOpenFiles": [
-    "SoftwareEngineering/Untitled.md",
+    "Databases/Database_normalisation.md",
+    "00-Main/2-Litnote.md",
     "SoftwareEngineering/Concurrency.md",
+    "SoftwareEngineering/Untitled.md",
     "OperatingSystems/FileSystems/File_system_performance.md",
     "SoftwareEngineering/Multiagent_systems.md",
     "DataStructures/CacheStructures/LRU.md",
@@ -327,8 +329,6 @@
     "Networking/Internet_protocols.md",
     "Networking/Transmission_mediums.md",
     "Networking/Network_architecture.md",
-    "Databases/Database_storage.md",
-    "OperatingSystems/FileSystems/File_systems.md",
     "XX-Attachments/Images/Pasted image 20230306232427.png",
     "XX-Attachments/Images/Pasted image 20230306145209.png",
     "XX-Attachments/Images/Pasted image 20230306145109.png",
