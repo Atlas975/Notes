@@ -114,8 +114,8 @@
     "protocol": {
       "protocol": {
         "currentFile": {
-          "count": 3,
-          "lastUpdated": 1676541897215
+          "count": 4,
+          "lastUpdated": 1678285580595
         }
       }
     },
@@ -138,8 +138,8 @@
     "address": {
       "address": {
         "currentFile": {
-          "count": 3,
-          "lastUpdated": 1676557471913
+          "count": 5,
+          "lastUpdated": 1678285210770
         }
       }
     },
@@ -892,6 +892,30 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1678284637376
+        }
+      }
+    },
+    "resource": {
+      "resource": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1678285073532
+        }
+      }
+    },
+    "format": {
+      "format": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1678285085340
+        }
+      }
+    },
+    "hostname": {
+      "hostname": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1678285235072
         }
       }
     }

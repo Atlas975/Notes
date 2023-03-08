@@ -43,13 +43,32 @@ lancs.ac.uk -sub-domain-> ac.uk -sub-domain-> uk
 - Does not strictly belong to hierarchy, acts as a [[Caching|cache]] for recent name-to-address translations
 - Works as a [[Proxy_pattern|proxy]], forwarding query if necessary ie the cache is out of date
 
-## DNS resolution  
+## DNS resolution
 
-![[Pasted image 20230308130522.png|300|300]]
+![[Pasted image 20230308130522.png|350|350]]
 
 - This is a full recursive search which is uncommon, instead a cache typically intercepts this request, usually for [[#Top-level domain servers|TLD]] servers
-- 
+- These entries need to be removed over time, partly due to IP address mappings changing 
 
+
+## DNS record types
+- DNS resource records (RR) are in the format 
+```
+RR format: (name, value, type, ttl)
+```
+- Various types of DNS records exists including:
+
+| Type  | Name                | Value                                   |
+| ----- | ------------------- | --------------------------------------- |
+| A     | hostname            | IP address                              |
+| NS    | domain              | hostname of name server for this domain |
+| CNAME | alias for real name | actual (canonical) name                 |
+| MX      |                     |                                         |
+
+
+## DNS protocol 
+
+![[Pasted image 20230308142621.png|400|400]]
 ## Full qualified domain names
 - An FQDN ends with a dot, it specifies the exact location of a resource and includes all levels of the DNS hierarchy including the top level domain
 - Names without a dot can be extended to its root node. An FQDN is not always needed for a search query depending on the domain one is already present in 
