@@ -472,8 +472,8 @@ void release_lock() {
 
 ```dataviewjs
 let cur = dv.current().file;
-let inl = cur.inlinks.map(i => [...dv.page(i).file.inlinks])
-dv.table(["Second degree links"], inl);
+let inl = new Set(cur.inlinks.flatMap(i => dv.page(i).file.inlinks))
+dv.table(["Second degree links"], [...inl].map(i => [i]));
 
 ```
 
