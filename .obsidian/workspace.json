@@ -99,7 +99,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Databases/Database_relations.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -204,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Databases/Database_relations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,7 +236,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "Databases/Database_relations.md"
               }
             }
           }
@@ -260,7 +260,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "Databases/Database_relations.md"
               }
             }
           },
@@ -286,7 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Databases/Database_relations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -335,6 +335,8 @@
   },
   "active": "e0d8869e9eaa2213",
   "lastOpenFiles": [
+    "Databases/Database_storage.md",
+    "Databases/Database_normalisation.md",
     "ProgramLanguages/Javascript_language.md",
     "ProgramLanguages/Matlab_language.md",
     "XX-Attachments/Templates/InfoNote.md",
@@ -351,7 +353,6 @@
     "ProgramLanguages/Erlang_language.md",
     "OperatingSystems/Processors.md",
     "00-Main/2-Litnote.md",
-    "Databases/Database_normalisation.md",
     "SoftwareEngineering/Concurrency.md",
     "SoftwareEngineering/Untitled.md",
     "OperatingSystems/FileSystems/File_system_performance.md",
@@ -360,7 +361,6 @@
     "DataStructures/CacheStructures/LFU.md",
     "OperatingSystems/Page_replacement.md",
     "Databases/Database_relations.md",
-    "ProgramLanguages/SQL/SQL_relations.md",
     "XX-Attachments/Images/Pasted image 20230308142812.png",
     "XX-Attachments/Images/Pasted image 20230308142621.png",
     "XX-Attachments/Images/Pasted image 20230308130522.png",
