@@ -21,3 +21,4 @@ for (let i = 0; i < degree; i++) {
 inLin = [...new Set([...inLin].map(x => x.path))].map(x => dv.fileLink(x))
 dv.table([`${degree}-degree links`], inLin.map(x => [x]));
 ```
+

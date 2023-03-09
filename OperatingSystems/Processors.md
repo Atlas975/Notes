@@ -75,16 +75,12 @@ ___
 	- [[Concurrency#Spinlocks|Spinlocks]], spin on shared lock object, useful for brief locks in multi-processor systems. These are not useful on single processor systems as no useful work is done while spinning takes place
 - Page replacement may vary between cores, eg windows uses [[Computer_memory#LRU|LRU]] in single processor and [[Computer_memory#FIFO|FIFO]] in multi-processor systems
 
-
 ```dataviewjs
 const degree = 2; // specify the degree of links
-
-let tmp = [...dv.current().file.inlinks];
-let inLin = new Set(tmp.map(x => x.path));
+let inLin = new Set(dv.current().file.inlinks.map((x) => x.path));
 for (let i = 0; i < degree; i++) {
-    tmp = [...inLin].flatMap(x => [...dv.page(x).file.inlinks])
-    inLin = new Set(tmp.map(x => x.path));
+    inLin = new Set([...inLin]
+        .flatMap((x) => [...dv.page(x).file.inlinks]).map((x) => x.path));
 }
-inLin = [...inLin].map(x => dv.fileLink(x))
-dv.table([`${degree}-degree links`], inLin.map(x => [x]));
+dv.table([`${degree}-degree links`], [...inLin].map((x) => [dv.fileLink(x)]));
 ```

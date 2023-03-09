@@ -81,6 +81,19 @@
             }
           },
           {
+            "id": "24dd6043c2ba019a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-Main/2-Litnote.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "9123a8e312e20934",
             "type": "leaf",
             "state": {
@@ -296,8 +309,9 @@
   },
   "active": "e7b451d48802aa31",
   "lastOpenFiles": [
-    "Databases/Database_normalisation.md",
     "00-Main/2-Litnote.md",
+    "OperatingSystems/Processors.md",
+    "Databases/Database_normalisation.md",
     "SoftwareEngineering/Concurrency.md",
     "SoftwareEngineering/Untitled.md",
     "OperatingSystems/FileSystems/File_system_performance.md",
@@ -328,7 +342,6 @@
     "Networking/Routing_methods.md",
     "Networking/Internet_protocols.md",
     "Networking/Transmission_mediums.md",
-    "Networking/Network_architecture.md",
     "XX-Attachments/Images/Pasted image 20230306232427.png",
     "XX-Attachments/Images/Pasted image 20230306145209.png",
     "XX-Attachments/Images/Pasted image 20230306145109.png",
