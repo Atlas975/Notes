@@ -86,8 +86,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgramLanguages/C_language.md",
-                "mode": "source",
+                "file": "ProgramLanguages/Regex.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/C_language.md",
+                "file": "ProgramLanguages/Regex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/C_language.md"
+                "file": "ProgramLanguages/Regex.md"
               }
             }
           }
@@ -247,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/C_language.md"
+                "file": "ProgramLanguages/Regex.md"
               }
             }
           },
@@ -273,7 +273,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/C_language.md",
+                "file": "ProgramLanguages/Regex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -322,6 +322,15 @@
   },
   "active": "769cb415a74345e5",
   "lastOpenFiles": [
+    "ProgramLanguages/R_language.md",
+    "ProgramLanguages/x86_assembly.md",
+    "ProgramLanguages/MIPS_assembly_language.md",
+    "ProgramLanguages/Java_language.md",
+    "ProgramLanguages/HTML.md",
+    "ProgramLanguages/Cpp_language.md",
+    "ProgramLanguages/CSS.md",
+    "ProgramLanguages/Bash.md",
+    "ProgramLanguages/C_language.md",
     "ProgramLanguages/Erlang_language.md",
     "ProgramLanguages/Javascript_language.md",
     "OperatingSystems/Processors.md",
@@ -346,15 +355,6 @@
     "XX-Attachments/Images/Pasted image 20230308125447.png",
     "XX-Attachments/Images/Pasted image 20230308124525.png",
     "XX-Attachments/Images/Pasted image 20230308124225.png",
-    "Networking/TransmissionProtocols/Hypertext_transfer_protocol.md",
-    "Networking/TransmissionProtocols/Transmission_protocols.md",
-    "Networking/Checksum.md",
-    "Networking/Communication_architecture.md",
-    "Networking/Header_types.md",
-    "Networking/Internet_architecture.md",
-    "Networking/Network_tools.md",
-    "Networking/Network_topology.md",
-    "Networking/Routing_methods.md",
     "XX-Attachments/Images/Pasted image 20230306232427.png",
     "XX-Attachments/Images/Pasted image 20230306145209.png",
     "XX-Attachments/Images/Pasted image 20230306145109.png",
