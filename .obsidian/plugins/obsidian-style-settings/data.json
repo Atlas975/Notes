@@ -41,5 +41,13 @@
   "minimal-style@@code-keyword@@dark": "#81A1C1",
   "minimal-style@@code-function@@dark": "#88C0D0",
   "minimal-style@@code-important@@dark": "#D08770",
-  "minimal-style@@header-height": "35px"
+  "minimal-style@@header-height": "35px",
+  "minimal-style@@row-lines": false,
+  "minimal-style@@col-alt": false,
+  "minimal-style@@row-alt": false,
+  "minimal-style@@table-lines": false,
+  "minimal-style@@col-lines": false,
+  "minimal-style@@row-hover": false,
+  "minimal-style@@table-nowrap": false,
+  "minimal-style@@maximize-tables-off": "maximize-tables"
 }
