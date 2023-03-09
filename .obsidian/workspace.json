@@ -34,6 +34,19 @@
             }
           },
           {
+            "id": "17168d6e71587f7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Database_normalisation.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7f9588e65bb60264",
             "type": "leaf",
             "state": {
@@ -223,11 +236,12 @@
   },
   "active": "ff210425d5d4697a",
   "lastOpenFiles": [
+    "Databases/Database_normalisation.md",
+    "SoftwareDesign/Entity_relationship_model.md",
     "ProgramLanguages/SQL/SQL_relations.md",
     "00-Main/1-Litnote.md",
     "SoftwareDesign/Software_planning.md",
     "SoftwareDesign/SOLID_principles.md",
-    "SoftwareDesign/Entity_relationship_model.md",
     "SoftwareDesign/BSPL.md",
     "SoftwareDesign/HCI/Movement_input.md",
     "SoftwareEngineering/Recursion.md",
@@ -235,7 +249,6 @@
     "SoftwareEngineering/Multiagent_systems.md",
     "SoftwareEngineering/OOP_principles.md",
     "Databases/Database_relations.md",
-    "Databases/Database_normalisation.md",
     "Databases/Database_keys.md",
     "Databases/Database_design.md",
     "OperatingSystems/FileSystems/File_systems.md",
