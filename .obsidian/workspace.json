@@ -4,162 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "88288253c9908b88",
+        "id": "e47b4ab8c33b2b75",
         "type": "tabs",
         "children": [
           {
-            "id": "73ea59fd9b7668f5",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "43b90d1d4aec81a1",
+            "id": "94a02d10cbad80c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Network_delay.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7fadb4020d6adb28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/TransmissionProtocols/Domain_name_server.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1a153fac36de9fd8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SoftwarePatterns/Structural/Bridge_pattern.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b76f955e255e2f5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/Page_replacement.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e7b451d48802aa31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/Processors.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "769cb415a74345e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/Javascript_language.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e0d8869e9eaa2213",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Database_relations.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "24dd6043c2ba019a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-Main/2-Litnote.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9123a8e312e20934",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/FileSystems/File_system_performance.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "df776e02c2cd0183",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/FileSystems/File_system_performance.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "37adb1aa31ca60b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/FileSystems/File_systems.md",
+                "file": "SoftwareDesign/Entity_relationship_model.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -204,7 +65,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwarePatterns/Structural/Bridge_pattern.md",
+                "file": "SoftwareDesign/Entity_relationship_model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwarePatterns/Structural/Bridge_pattern.md"
+                "file": "SoftwareDesign/Entity_relationship_model.md"
               }
             }
           }
@@ -260,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwarePatterns/Structural/Bridge_pattern.md"
+                "file": "SoftwareDesign/Entity_relationship_model.md"
               }
             }
           },
@@ -286,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwarePatterns/Structural/Bridge_pattern.md",
+                "file": "SoftwareDesign/Entity_relationship_model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -333,36 +194,36 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1a153fac36de9fd8",
+  "active": "94a02d10cbad80c9",
   "lastOpenFiles": [
-    "SoftwarePatterns/Structural/Adaptor_pattern.md",
-    "SoftwarePatterns/Creational/Builder_pattern.md",
-    "SoftwarePatterns/Behavioral/Visitor_pattern.md",
-    "SoftwarePatterns/Behavioral/Observer_pattern.md",
-    "SoftwarePatterns/Behavioral/Iterator_pattern.md",
+    "SoftwareDesign/BSPL.md",
+    "SoftwareDesign/HCI/Movement_input.md",
+    "SoftwareDesign/SOLID_principles.md",
+    "SoftwareDesign/Software_planning.md",
+    "SoftwareEngineering/Recursion.md",
+    "SoftwareEngineering/Programming_paradigms.md",
+    "SoftwareEngineering/Multiagent_systems.md",
+    "SoftwareEngineering/OOP_principles.md",
+    "Databases/Database_relations.md",
+    "Databases/Database_normalisation.md",
+    "Databases/Database_keys.md",
+    "Databases/Database_design.md",
+    "OperatingSystems/FileSystems/File_systems.md",
+    "OperatingSystems/FileSystems/File_system_performance.md",
+    "00-Main/2-Litnote.md",
+    "ProgramLanguages/Javascript_language.md",
+    "OperatingSystems/Processors.md",
+    "OperatingSystems/Page_replacement.md",
+    "Networking/Network_delay.md",
+    "Networking/TransmissionProtocols/Domain_name_server.md",
     "SoftwarePatterns/Behavioral/Command_pattern.md",
+    "SoftwarePatterns/Behavioral/Iterator_pattern.md",
+    "SoftwarePatterns/Behavioral/Observer_pattern.md",
+    "SoftwarePatterns/Behavioral/Visitor_pattern.md",
+    "SoftwarePatterns/Design_patterns.md",
+    "SoftwarePatterns/Structural/Proxy_pattern.md",
     "XX-Attachments/Images/Pasted image 20211112225055.png",
     "XX-Attachments/Images/Home work 3 SOLUTIONS 2021-2022.pdf",
-    "SoftwareEngineering/Recursion.md",
-    "ProgramLanguages/SQL/SQL_language.md",
-    "ProgramLanguages/SQL/SQL_patterns.md",
-    "ProgramLanguages/SQL/SQL_relations.md",
-    "SoftwareDesign/Entity_relationship_model.md",
-    "Databases/Database_relations.md",
-    "Databases/Database_storage.md",
-    "Databases/Database_normalisation.md",
-    "ProgramLanguages/Javascript_language.md",
-    "ProgramLanguages/Matlab_language.md",
-    "XX-Attachments/Templates/InfoNote.md",
-    "ProgramLanguages/Regex.md",
-    "ProgramLanguages/R_language.md",
-    "ProgramLanguages/x86_assembly.md",
-    "ProgramLanguages/MIPS_assembly_language.md",
-    "ProgramLanguages/Java_language.md",
-    "ProgramLanguages/HTML.md",
-    "ProgramLanguages/Cpp_language.md",
-    "ProgramLanguages/CSS.md",
-    "ProgramLanguages/Bash.md",
     "XX-Attachments/Images/Pasted image 20230308142812.png",
     "XX-Attachments/Images/Pasted image 20230308142621.png",
     "XX-Attachments/Images/Pasted image 20230308130522.png",
