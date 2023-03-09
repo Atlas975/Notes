@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md",
+                "file": "ProgramLanguages/SQL/SQL_relations.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7f9588e65bb60264",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-Main/1-Litnote.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md",
+                "file": "00-Main/1-Litnote.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md"
+                "file": "00-Main/1-Litnote.md"
               }
             }
           }
@@ -121,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md"
+                "file": "00-Main/1-Litnote.md"
               }
             }
           },
@@ -147,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md",
+                "file": "00-Main/1-Litnote.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,12 +208,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "94a02d10cbad80c9",
+  "active": "7f9588e65bb60264",
   "lastOpenFiles": [
+    "ProgramLanguages/SQL/SQL_relations.md",
+    "SoftwareDesign/Software_planning.md",
+    "SoftwareDesign/SOLID_principles.md",
+    "SoftwareDesign/Entity_relationship_model.md",
     "SoftwareDesign/BSPL.md",
     "SoftwareDesign/HCI/Movement_input.md",
-    "SoftwareDesign/SOLID_principles.md",
-    "SoftwareDesign/Software_planning.md",
     "SoftwareEngineering/Recursion.md",
     "SoftwareEngineering/Programming_paradigms.md",
     "SoftwareEngineering/Multiagent_systems.md",
@@ -220,8 +236,6 @@
     "SoftwarePatterns/Behavioral/Iterator_pattern.md",
     "SoftwarePatterns/Behavioral/Observer_pattern.md",
     "SoftwarePatterns/Behavioral/Visitor_pattern.md",
-    "SoftwarePatterns/Design_patterns.md",
-    "SoftwarePatterns/Structural/Proxy_pattern.md",
     "XX-Attachments/Images/Pasted image 20211112225055.png",
     "XX-Attachments/Images/Home work 3 SOLUTIONS 2021-2022.pdf",
     "XX-Attachments/Images/Pasted image 20230308142812.png",
