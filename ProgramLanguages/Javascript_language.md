@@ -37,3 +37,16 @@ console.log(res2); // 6>)
 
 # JS concurrency 
 - Multiple ways to handle [[Concurrency|asynchronous code]]
+
+
+## Functional JS
+
+```dataviewjs
+const degree = 2; // specify the degree of links
+let inLin = new Set(dv.current().file.inlinks.map((x) => x.path));
+for (let i = 0; i < degree; i++) {
+    inLin = new Set([...inLin]
+        .flatMap((x) => [...dv.page(x).file.inlinks]).map((x) => x.path));
+}
+dv.table([`${degree}-degree links`], [...inLin].map((x) => [dv.fileLink(x)]));
+```
