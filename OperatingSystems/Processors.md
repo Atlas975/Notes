@@ -79,11 +79,12 @@ ___
 ```dataviewjs
 const degree = 2; // specify the degree of links
 
-let inLin = new Set(dv.current().file.inlinks);
+let tmp = [...dv.current().file.inlinks];
+let inLin = new Set(tmp.map(x => x.path));
 for (let i = 0; i < degree; i++) {
-    inLin = new Set([...inLin].flatMap(x => [...dv.page(x).file.inlinks]));
+    tmp = [...inLin].flatMap(x => [...dv.page(x).file.inlinks])
+    inLin = new Set(tmp.map(x => x.path));
 }
-
-inLin = [...new Set([...inLin].map(x => x.path))].map(x => dv.fileLink(x))
+inLin = [...inLin].map(x => dv.fileLink(x))
 dv.table([`${degree}-degree links`], inLin.map(x => [x]));
 ```
