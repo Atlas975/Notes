@@ -41,7 +41,7 @@ ___
 - Represented by an **underline**
 - Compound keys may also exists
 
-![[Pasted image 20230204133831.png|250|250]]
+![[Pasted image 20230204133831.png|150|150]]
 
 - Note that not every entity set has a primary key, these are known as **weak entity sets**
 - These sets must be mapped with total participation
@@ -51,12 +51,12 @@ ___
 ### Derived / weak-key attributes
 - Represented by **dashed outline**
 
-![[Pasted image 20230204133758.png|200|200]]
+![[Pasted image 20230204133758.png|150|150]]
 
 ### Multi-valued attributes
 - Represented by **double outline**
 
-![[Pasted image 20230204133726.png||s]]
+![[Pasted image 20230204133726.png|150|150]]
 
 ## Relation set
 - Represented by a **diamond**
