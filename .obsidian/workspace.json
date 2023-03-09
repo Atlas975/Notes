@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md",
+                "file": "SoftwarePatterns/Structural/Bridge_pattern.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -204,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md",
+                "file": "SoftwarePatterns/Structural/Bridge_pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,7 +236,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md"
+                "file": "SoftwarePatterns/Structural/Bridge_pattern.md"
               }
             }
           }
@@ -260,7 +260,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md"
+                "file": "SoftwarePatterns/Structural/Bridge_pattern.md"
               }
             }
           },
@@ -286,7 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md",
+                "file": "SoftwarePatterns/Structural/Bridge_pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -335,6 +335,19 @@
   },
   "active": "1a153fac36de9fd8",
   "lastOpenFiles": [
+    "SoftwarePatterns/Structural/Adaptor_pattern.md",
+    "SoftwarePatterns/Creational/Builder_pattern.md",
+    "SoftwarePatterns/Behavioral/Visitor_pattern.md",
+    "SoftwarePatterns/Behavioral/Observer_pattern.md",
+    "SoftwarePatterns/Behavioral/Iterator_pattern.md",
+    "SoftwarePatterns/Behavioral/Command_pattern.md",
+    "XX-Attachments/Images/Pasted image 20211112225055.png",
+    "XX-Attachments/Images/Home work 3 SOLUTIONS 2021-2022.pdf",
+    "SoftwareEngineering/Recursion.md",
+    "ProgramLanguages/SQL/SQL_language.md",
+    "ProgramLanguages/SQL/SQL_patterns.md",
+    "ProgramLanguages/SQL/SQL_relations.md",
+    "SoftwareDesign/Entity_relationship_model.md",
     "Databases/Database_relations.md",
     "Databases/Database_storage.md",
     "Databases/Database_normalisation.md",
@@ -350,17 +363,6 @@
     "ProgramLanguages/Cpp_language.md",
     "ProgramLanguages/CSS.md",
     "ProgramLanguages/Bash.md",
-    "ProgramLanguages/C_language.md",
-    "ProgramLanguages/Erlang_language.md",
-    "OperatingSystems/Processors.md",
-    "00-Main/2-Litnote.md",
-    "SoftwareEngineering/Concurrency.md",
-    "SoftwareEngineering/Untitled.md",
-    "OperatingSystems/FileSystems/File_system_performance.md",
-    "SoftwareEngineering/Multiagent_systems.md",
-    "DataStructures/CacheStructures/LRU.md",
-    "DataStructures/CacheStructures/LFU.md",
-    "OperatingSystems/Page_replacement.md",
     "XX-Attachments/Images/Pasted image 20230308142812.png",
     "XX-Attachments/Images/Pasted image 20230308142621.png",
     "XX-Attachments/Images/Pasted image 20230308130522.png",
@@ -370,7 +372,6 @@
     "XX-Attachments/Images/Pasted image 20230308124225.png",
     "XX-Attachments/Images/Pasted image 20230306232427.png",
     "XX-Attachments/Images/Pasted image 20230306145209.png",
-    "XX-Attachments/Images/Pasted image 20230306145109.png",
     "ProgramLanguages/Python/sed7keQGo",
     "DataStructures/sedMJAJlj",
     "DataStructures/sed33kt9o",
