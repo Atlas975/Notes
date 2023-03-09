@@ -159,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -204,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_relations.md",
+                "file": "SoftwareDesign/Entity_relationship_model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,7 +236,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_relations.md"
+                "file": "SoftwareDesign/Entity_relationship_model.md"
               }
             }
           }
@@ -260,7 +260,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_relations.md"
+                "file": "SoftwareDesign/Entity_relationship_model.md"
               }
             }
           },
@@ -286,7 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_relations.md",
+                "file": "SoftwareDesign/Entity_relationship_model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -333,8 +333,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e0d8869e9eaa2213",
+  "active": "1a153fac36de9fd8",
   "lastOpenFiles": [
+    "Databases/Database_relations.md",
     "Databases/Database_storage.md",
     "Databases/Database_normalisation.md",
     "ProgramLanguages/Javascript_language.md",
@@ -360,7 +361,6 @@
     "DataStructures/CacheStructures/LRU.md",
     "DataStructures/CacheStructures/LFU.md",
     "OperatingSystems/Page_replacement.md",
-    "Databases/Database_relations.md",
     "XX-Attachments/Images/Pasted image 20230308142812.png",
     "XX-Attachments/Images/Pasted image 20230308142621.png",
     "XX-Attachments/Images/Pasted image 20230308130522.png",
