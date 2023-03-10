@@ -34,6 +34,19 @@
             }
           },
           {
+            "id": "30e9bc1f579e4f6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoftwareDesign/Entity_relationship_model.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "17168d6e71587f7a",
             "type": "leaf",
             "state": {
@@ -60,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -105,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Main/1-Litnote.md",
+                "file": "SoftwareDesign/Entity_relationship_model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Main/1-Litnote.md"
+                "file": "SoftwareDesign/Entity_relationship_model.md"
               }
             }
           }
@@ -161,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Main/1-Litnote.md"
+                "file": "SoftwareDesign/Entity_relationship_model.md"
               }
             }
           },
@@ -187,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-Main/1-Litnote.md",
+                "file": "SoftwareDesign/Entity_relationship_model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,8 +247,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ff210425d5d4697a",
+  "active": "30e9bc1f579e4f6b",
   "lastOpenFiles": [
+    "00-Main/1-Litnote.md",
     "SoftwareDesign/Entity_relationship_model.md",
     "ProgramLanguages/SQL/SQL_relations.md",
     "Databases/Database_relations.md",
@@ -246,7 +260,6 @@
     "Databases/Database_design.md",
     "Databases/Database_keys.md",
     "Databases/Database_constraints.md",
-    "00-Main/1-Litnote.md",
     "SoftwareDesign/Software_planning.md",
     "SoftwareDesign/SOLID_principles.md",
     "SoftwareDesign/BSPL.md",
