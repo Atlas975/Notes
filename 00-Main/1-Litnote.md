@@ -72,3 +72,5 @@ Based on the provided details, I would recommend organizing the database as foll
     -   Amount
 
 This database design allows for the creation and management of player accounts, characters, inventories, combat information, and billing information. It also separates armor items from other items in the database, which makes it easier to manage and query the data.
+
+
