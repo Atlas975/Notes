@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md",
+                "file": "00-Main/1-Litnote.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md",
+                "file": "00-Main/1-Litnote.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md"
+                "file": "00-Main/1-Litnote.md"
               }
             }
           }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md"
+                "file": "00-Main/1-Litnote.md"
               }
             }
           },
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md",
+                "file": "00-Main/1-Litnote.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,6 +236,7 @@
   },
   "active": "ff210425d5d4697a",
   "lastOpenFiles": [
+    "SoftwareDesign/Entity_relationship_model.md",
     "ProgramLanguages/SQL/SQL_relations.md",
     "Databases/Database_relations.md",
     "Databases/Relational_algebra.md",
@@ -245,7 +246,6 @@
     "Databases/Database_design.md",
     "Databases/Database_keys.md",
     "Databases/Database_constraints.md",
-    "SoftwareDesign/Entity_relationship_model.md",
     "00-Main/1-Litnote.md",
     "SoftwareDesign/Software_planning.md",
     "SoftwareDesign/SOLID_principles.md",
