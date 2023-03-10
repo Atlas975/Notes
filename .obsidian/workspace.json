@@ -59,8 +59,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md",
+                "file": "ProgramLanguages/SQL/SQL_relations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md"
+                "file": "ProgramLanguages/SQL/SQL_relations.md"
               }
             }
           }
@@ -161,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md"
+                "file": "ProgramLanguages/SQL/SQL_relations.md"
               }
             }
           },
@@ -187,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md",
+                "file": "ProgramLanguages/SQL/SQL_relations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,11 +233,18 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ff210425d5d4697a",
+  "active": "94a02d10cbad80c9",
   "lastOpenFiles": [
+    "Databases/Database_relations.md",
+    "Databases/Relational_algebra.md",
+    "Databases/Database_systems.md",
+    "Databases/Database_storage.md",
     "Databases/Database_normalisation.md",
-    "SoftwareDesign/Entity_relationship_model.md",
+    "Databases/Database_design.md",
+    "Databases/Database_keys.md",
+    "Databases/Database_constraints.md",
     "ProgramLanguages/SQL/SQL_relations.md",
+    "SoftwareDesign/Entity_relationship_model.md",
     "00-Main/1-Litnote.md",
     "SoftwareDesign/Software_planning.md",
     "SoftwareDesign/SOLID_principles.md",
@@ -248,9 +254,6 @@
     "SoftwareEngineering/Programming_paradigms.md",
     "SoftwareEngineering/Multiagent_systems.md",
     "SoftwareEngineering/OOP_principles.md",
-    "Databases/Database_relations.md",
-    "Databases/Database_keys.md",
-    "Databases/Database_design.md",
     "OperatingSystems/FileSystems/File_systems.md",
     "OperatingSystems/FileSystems/File_system_performance.md",
     "00-Main/2-Litnote.md",
@@ -258,10 +261,6 @@
     "OperatingSystems/Processors.md",
     "OperatingSystems/Page_replacement.md",
     "Networking/Network_delay.md",
-    "Networking/TransmissionProtocols/Domain_name_server.md",
-    "SoftwarePatterns/Behavioral/Command_pattern.md",
-    "SoftwarePatterns/Behavioral/Iterator_pattern.md",
-    "SoftwarePatterns/Behavioral/Observer_pattern.md",
     "XX-Attachments/Images/Pasted image 20211112225055.png",
     "XX-Attachments/Images/Home work 3 SOLUTIONS 2021-2022.pdf",
     "XX-Attachments/Images/Pasted image 20230308142812.png",
