@@ -52,8 +52,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_storage.md",
-                "mode": "source",
+                "file": "Databases/Database_normalisation.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_storage.md",
+                "file": "Databases/Database_normalisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_storage.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_storage.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           },
@@ -213,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_storage.md",
+                "file": "Databases/Database_normalisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -262,6 +262,7 @@
   },
   "active": "ba5405bc1eb2e458",
   "lastOpenFiles": [
+    "Databases/Database_storage.md",
     "ProgramLanguages/SQL/SQLversions/SQLite.md",
     "SoftwareDesign/Entity_relationship_model.md",
     "ProgramLanguages/SQL/SQLversions",
@@ -270,7 +271,6 @@
     "Databases/Database_relations.md",
     "Databases/Relational_algebra.md",
     "Databases/Database_systems.md",
-    "Databases/Database_storage.md",
     "Databases/Database_normalisation.md",
     "Databases/Database_design.md",
     "Databases/Database_keys.md",
