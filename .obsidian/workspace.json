@@ -52,8 +52,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgramLanguages/SQL/SQLversions/SQLite.md",
-                "mode": "preview",
+                "file": "Databases/Database_storage.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/SQL/SQLversions/SQLite.md",
+                "file": "Databases/Database_storage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/SQL/SQLversions/SQLite.md"
+                "file": "Databases/Database_storage.md"
               }
             }
           }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/SQL/SQLversions/SQLite.md"
+                "file": "Databases/Database_storage.md"
               }
             }
           },
@@ -213,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/SQL/SQLversions/SQLite.md",
+                "file": "Databases/Database_storage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -262,8 +262,8 @@
   },
   "active": "ba5405bc1eb2e458",
   "lastOpenFiles": [
-    "SoftwareDesign/Entity_relationship_model.md",
     "ProgramLanguages/SQL/SQLversions/SQLite.md",
+    "SoftwareDesign/Entity_relationship_model.md",
     "ProgramLanguages/SQL/SQLversions",
     "00-Main/1-Litnote.md",
     "ProgramLanguages/SQL/SQL_relations.md",
