@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Databases/Database_constraints.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Databases/Database_constraints.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "Databases/Database_constraints.md"
               }
             }
           }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "Databases/Database_constraints.md"
               }
             }
           },
@@ -213,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Databases/Database_constraints.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -262,19 +262,19 @@
   },
   "active": "ba5405bc1eb2e458",
   "lastOpenFiles": [
+    "Databases/Database_design.md",
+    "Databases/Database_keys.md",
+    "Databases/Database_normalisation.md",
     "OperatingSystems/FileSystems/File_allocation_schemes.md",
     "Databases/Database_storage.md",
     "Databases/Database_systems.md",
     "Databases/Relational_algebra.md",
-    "Databases/Database_normalisation.md",
     "ProgramLanguages/SQL/SQLversions/SQLite.md",
     "SoftwareDesign/Entity_relationship_model.md",
     "ProgramLanguages/SQL/SQLversions",
     "00-Main/1-Litnote.md",
     "ProgramLanguages/SQL/SQL_relations.md",
     "Databases/Database_relations.md",
-    "Databases/Database_design.md",
-    "Databases/Database_keys.md",
     "Databases/Database_constraints.md",
     "SoftwareDesign/Software_planning.md",
     "SoftwareDesign/SOLID_principles.md",
