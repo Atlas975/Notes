@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Network_delay.md",
+                "file": "DataStructures/CacheStructures/LRU.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Network_delay.md",
+                "file": "DataStructures/CacheStructures/LRU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_delay.md"
+                "file": "DataStructures/CacheStructures/LRU.md"
               }
             }
           }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_delay.md"
+                "file": "DataStructures/CacheStructures/LRU.md"
               }
             }
           },
@@ -213,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Network_delay.md",
+                "file": "DataStructures/CacheStructures/LRU.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -262,6 +262,7 @@
   },
   "active": "17168d6e71587f7a",
   "lastOpenFiles": [
+    "Networking/Network_delay.md",
     "Networking/Network_tools.md",
     "DataStructures/Graphs.md",
     "DataStructures/DataStorage&Retrieval.md",
@@ -288,7 +289,6 @@
     "SoftwareEngineering/Multiagent_systems.md",
     "SoftwareEngineering/OOP_principles.md",
     "OperatingSystems/FileSystems/File_systems.md",
-    "OperatingSystems/FileSystems/File_system_performance.md",
     "XX-Attachments/Images/Pasted image 20211112225055.png",
     "XX-Attachments/Images/Home work 3 SOLUTIONS 2021-2022.pdf",
     "XX-Attachments/Images/Pasted image 20230308142812.png",
