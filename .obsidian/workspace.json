@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Relational_algebra.md",
+                "file": "Networking/Network_delay.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Relational_algebra.md",
+                "file": "Networking/Network_delay.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Relational_algebra.md"
+                "file": "Networking/Network_delay.md"
               }
             }
           }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Relational_algebra.md"
+                "file": "Networking/Network_delay.md"
               }
             }
           },
@@ -213,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Relational_algebra.md",
+                "file": "Networking/Network_delay.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -262,20 +262,23 @@
   },
   "active": "17168d6e71587f7a",
   "lastOpenFiles": [
+    "Networking/Network_tools.md",
+    "DataStructures/Graphs.md",
+    "DataStructures/DataStorage&Retrieval.md",
     "Databases/Database_normalisation.md",
+    "Databases/Database_relations.md",
+    "Databases/Relational_algebra.md",
     "Databases/Database_constraints.md",
     "Databases/Database_design.md",
     "Databases/Database_keys.md",
     "OperatingSystems/FileSystems/File_allocation_schemes.md",
     "Databases/Database_storage.md",
     "Databases/Database_systems.md",
-    "Databases/Relational_algebra.md",
     "ProgramLanguages/SQL/SQLversions/SQLite.md",
     "SoftwareDesign/Entity_relationship_model.md",
     "ProgramLanguages/SQL/SQLversions",
     "00-Main/1-Litnote.md",
     "ProgramLanguages/SQL/SQL_relations.md",
-    "Databases/Database_relations.md",
     "SoftwareDesign/Software_planning.md",
     "SoftwareDesign/SOLID_principles.md",
     "SoftwareDesign/BSPL.md",
@@ -286,9 +289,6 @@
     "SoftwareEngineering/OOP_principles.md",
     "OperatingSystems/FileSystems/File_systems.md",
     "OperatingSystems/FileSystems/File_system_performance.md",
-    "00-Main/2-Litnote.md",
-    "ProgramLanguages/Javascript_language.md",
-    "OperatingSystems/Processors.md",
     "XX-Attachments/Images/Pasted image 20211112225055.png",
     "XX-Attachments/Images/Home work 3 SOLUTIONS 2021-2022.pdf",
     "XX-Attachments/Images/Pasted image 20230308142812.png",
