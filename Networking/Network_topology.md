@@ -44,7 +44,7 @@ ___
 
 ## Mesh topology 
 - All nodes connected to every other node, very fault tolerant
-- Broadcasting management required, very resource inefficeint 
+- Broadcasting management required, very resource inefficient 
 - $n(n-1)$ number of edges required
 
 

@@ -40,7 +40,7 @@ $$\begin{align*}
 - A mesh of interconnected routers
 - Used to help route packets from source to destination 
 
-![[Pasted image 20230209180433.png|500|500]]
+![[Pasted image 20230209180433.png|450|450]]
 Routers need to use forwarding rules, which are produced by the routing algorithm 
 
 
