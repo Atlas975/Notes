@@ -13,7 +13,7 @@ ___
 # Application architecture
 -  Refers to the way in which software applications are designed to communicate and exchange data over a [[Network_architecture|network]]
 - This includes the protocols, interfaces, and software components that allow applications to interact with each other across a network.
-- Architectures use for an application may also be heterogeneous, example with Napster which used centralised discovery but decentralised file transfer:
+- Applications such as content distribution networks often use a mix of these, with servers that deal with requests for specific geographical regions, clients are redirected to closest server 
 
 ## Client-server architecture
 - A model of network communication where one computer (client) requests services or resources from another computer (server). 
@@ -37,12 +37,22 @@ ___
 ### Napster
 - Example of heterogeneous application architecture 
 - Used centralised discovery but decentralised file transfer:
- 
- ![[Pasted image 20230318171002.png|250|250]]
-  ### Gnutella
-- Full decentralised with no central bottleneck
-- Suffers from potentially long search times and prone to free loading (participants who benefit from the network's resources without contributing to the network's operation or maintenance)
 
-  ![[Pasted image 20230318171912.png|400|400]]
-  
- 
+
+![[Pasted image 20230318171002.png|250|250]]
+### Gnutella
+- Full decentralised with no central bottleneck
+- Suffers from potentially long search times and prone to free loading (where participants benefit from the network's resources without contributing to the network's operation or maintenance)
+
+![[Pasted image 20230318171912.png|400|400]]
+
+### Kazaa
+- Key innovation: “super-node hierarchy” 
+    - Join: on startup, a peer contacts a “super-node” 
+    - Publish: peer sends a list of its available files to its super-node 
+    - Search: queries are flooded among super-nodes 
+    - Fetch: peers get file directly from one or more other peers
+
+![[Pasted image 20230318172259.png|450|450]]
+
+

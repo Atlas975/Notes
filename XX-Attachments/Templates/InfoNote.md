@@ -11,4 +11,3 @@
 
 ___
 # <% tp.file.title.replace(/_/g,' ') %>
-<% tp.file.cursor(2) %>
