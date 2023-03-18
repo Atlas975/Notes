@@ -68,7 +68,7 @@
             }
           },
           {
-            "id": "f7304c1579d5410e",
+            "id": "0cef740daeac2b1e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,6 +78,14 @@
                 "backlinks": false,
                 "source": false
               }
+            }
+          },
+          {
+            "id": "f7304c1579d5410e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -282,13 +290,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f7304c1579d5410e",
+  "active": "0cef740daeac2b1e",
   "lastOpenFiles": [
-    "XX-Attachments/Images/Pasted image 20230318173233.png",
+    "XX-Attachments/Images/Pasted image 20230318174814.png",
+    "XX-Attachments/Images/Pasted image 20230318174709.png",
     "Networking/Application_architecture.md",
+    "Networking/TransmissionProtocols/Simple_mail_transfer_protocol.md",
+    "XX-Attachments/Images/Pasted image 20230318173233.png",
     "XX-Attachments/Templates/InfoNote.md",
     "XX-Attachments/Templates/AliasNote.md",
-    "Networking/TransmissionProtocols/Simple_mail_transfer_protocol.md",
     "Networking/TransmissionProtocols/Hypertext_transfer_protocol.md",
     "SoftwareDesign/Entity_relationship_model.md",
     "Networking/Network_topology.md",
@@ -320,8 +330,6 @@
     "XX-Attachments/Images/Pasted image 20211112225055.png",
     "XX-Attachments/Images/Home work 3 SOLUTIONS 2021-2022.pdf",
     "XX-Attachments/Images/Pasted image 20230308142812.png",
-    "XX-Attachments/Images/Pasted image 20230308142621.png",
-    "XX-Attachments/Images/Pasted image 20230308130522.png",
     "ProgramLanguages/Python/sed7keQGo",
     "DataStructures/sedMJAJlj",
     "DataStructures/sed33kt9o",

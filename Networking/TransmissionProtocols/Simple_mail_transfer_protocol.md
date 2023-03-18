@@ -14,11 +14,31 @@ aliases: SMTP
 
 ___
 # Simple mail transfer protocol
-- Email is an asynchronous network application that allows sending, receiving and reading
+- Email is an asynchronous [[Network_architecture|network]] application that allows sending, receiving and reading
 - Consists of 3 core components, SMTP acts as the protocol for sending emails over the web
 
-![[Pasted image 20230318173233.png|500|500]]
+![[Pasted image 20230318173233.png|450|450]]
 
+- SMTP works on the [[Internet_protocols#Application layer|Application layer]] and used TCP for reliable email transfer between mail servers, runs on TCP [[Network_architecture#Network port|port 25]]
+- Command/response style interaction akin to [[Hypertext_transfer_protocol|HTTP]] with a three phase transfer 
+    1. Handshake
+    2. Transfer of message 
+    3. Close 
+- If a mail server is full, messages are rejected, in this scenario the senders mail server retries over fixed intervals until successful.  Afterwards the receiving user can invoke their user agent to read the sent message 
+
+![[Pasted image 20230318174814.png|450|450]]
+
+- An intermediate mail server may not always be used, such as in scenarious  
+
+
+```
+S: 220 nyu.edu C: HELO lancs.uk S: 250 Hello lancs.uk, pleased to meet you C: MAIL FROM: S: 250 alice@lancs.uk… Sender ok C: RCPT TO: S: 250 bob@nyu.edu ... Recipient ok C: DATA S: 354 Enter mail, end with "." on a line by itself C: Do you like ketchup? C: How about pickles? C: . S: 250 Message accepted for delivery C: QUIT S: 221 nyu.edu closing connection
+```
 ## Mail servers 
 - Acts as a mailbox that contains incoming messages for users
-- Has a message queue of 
+- Has a message queue of mail messages that need to be sent 
+- Acts as a server (receives emails) and a client (sends emails)
+
+## User agent 
+- Acts as a client which composes, edits, reads and sends emails
+- Outgoing and incoming messages are stored on servers, not the agent itself
