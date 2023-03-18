@@ -82,8 +82,8 @@
     "Protocol": {
       "Protocol": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1676536514508
+          "count": 2,
+          "lastUpdated": 1679162614303
         }
       }
     },
@@ -1012,6 +1012,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1679160907388
+        }
+      }
+    },
+    "alice@lancs": {
+      "alice@lancs": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1679162021058
+        }
+      }
+    },
+    "connection": {
+      "connection": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1679162464526
         }
       }
     }
