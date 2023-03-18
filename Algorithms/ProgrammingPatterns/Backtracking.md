@@ -47,7 +47,7 @@ def combinationSum(self, candidates, target) -> List[List[int]]:
 
 
 ## Permutations
-[[Catalan_numbers#Permutations|Permutations formula]]
+![[Catalan_numbers#Permutations|Permutations formula]]
 
 ```python
 def permute(self, nums: List[int]) -> List[List[int]]:

@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "file": "Algorithms/ProgrammingPatterns/Backtracking.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "file": "Algorithms/ProgrammingPatterns/Backtracking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
+                "file": "Algorithms/ProgrammingPatterns/Backtracking.md"
               }
             }
           }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
+                "file": "Algorithms/ProgrammingPatterns/Backtracking.md"
               }
             }
           },
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "file": "Algorithms/ProgrammingPatterns/Backtracking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,6 +236,10 @@
   },
   "active": "9ce25fe12bbcebe0",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Sliding_window.md",
+    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Networking/Application_architecture.md",
     "Networking/Network_topology.md",
     "XX-Attachments/Images/Pasted image 20230318154122.png",
@@ -260,9 +264,6 @@
     "Databases/Relational_algebra.md",
     "Databases/Database_design.md",
     "Databases/Database_keys.md",
-    "OperatingSystems/FileSystems/File_allocation_schemes.md",
-    "Databases/Database_storage.md",
-    "Databases/Database_systems.md",
     "ProgramLanguages/SQL/SQLversions",
     "XX-Attachments/Images/Pasted image 20211112225055.png",
     "XX-Attachments/Images/Home work 3 SOLUTIONS 2021-2022.pdf",
