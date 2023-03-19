@@ -26,6 +26,7 @@ def floyd_warshall(graph):
         dist[u][u] = 0
 
     for i, j, k in product(graph.keys(), repeat=3):
-        dist[j][k] = min(dist[j][k], dist[j][i] + dist[i][k])
+        if dist[j][k] > (weight := dist[j][i] + dist[i][k]):
+            dist[j][k] = weight
     return dist
 ```
