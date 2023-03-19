@@ -17,7 +17,7 @@ ___
 ## Floyd Warshall's algorithm
 
 ```python
-def floyd_warshall(graph):
+def floyd_warshall(graph) -> dict: # O(V^3) time, O(V^2) space
     dist = {u: {v: float('inf') for v in graph} for u in graph}
 
     for u in graph:
@@ -25,8 +25,8 @@ def floyd_warshall(graph):
             dist[u][v] = weight
         dist[u][u] = 0
 
-    for i, j, k in product(graph.keys(), repeat=3):
-        if dist[j][k] > (weight := dist[j][i] + dist[i][k]):
-            dist[j][k] = weight
+    for k, i, j in product(graph.keys(), repeat=3):
+        if dist[i][j] > (weight := dist[i][k] + dist[k][j]):
+            dist[i][j] = weight
     return dist
 ```

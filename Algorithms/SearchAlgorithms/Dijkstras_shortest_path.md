@@ -16,7 +16,7 @@ ___
 -   At each step of the algorithm, the vertex with the smallest distance from the origin is chosen and its neighbours are explored in a DFS fashion. If the distance to a neighbour can be improved through the current vertex, the neighbour is updated and added to the explore list 
 ## Dijkstra's algorithm 
 ```python
-def dijkstra(graph, origin) -> dict:
+def dijkstra(graph, origin) -> dict: # O(ElogV) time, O(V) space
     distmp = {vertex: float('inf') for vertex in graph}
     distmp[origin] = 0
     pq = [(0, origin)]
