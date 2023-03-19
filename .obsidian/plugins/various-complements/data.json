@@ -878,6 +878,22 @@
           "lastUpdated": 1679224291273
         }
       }
+    },
+    "Warshall": {
+      "Warshall": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1679240315356
+        }
+      }
+    },
+    "algorithms": {
+      "algorithms": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1679240318414
+        }
+      }
     }
   }
 }
