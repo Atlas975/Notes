@@ -16,7 +16,7 @@ ___
 # LFU
 - [[Caching|Cache]] eviction algorithm based on the **least frequently used** principle, with equal frequencies then using a queue based [[LRU]] eviction scheme to prioritise removal 
 - Ideal when item access is repetitive, protecting high usage items from a burst of new requests
-- Suffers from the [[Caching#Coldstart problem|coldstart problem]] as item retaining is based on frequency, newer items can struggle to enter and remain in the cache 
+- Suffers from the [[Caching#Coldstart replacement|coldstart problem]] as item retaining is based on frequency, newer items can struggle to enter and remain in the cache 
 
 ## LFU algorithm 
 ```python

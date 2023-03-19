@@ -456,14 +456,7 @@
       "key": "O"
     }
   ],
-  "templater-obsidian:jump-to-next-cursor-location": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "`"
-    }
-  ],
+  "templater-obsidian:jump-to-next-cursor-location": [],
   "templater-obsidian:insert-templater": [],
   "templater-obsidian:replace-in-file-templater": [],
   "templater-obsidian:create-new-note-from-template": [],

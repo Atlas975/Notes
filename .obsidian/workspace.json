@@ -73,8 +73,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataStructures/CacheStructures/LFU.md",
+                "file": "OperatingSystems/Caching.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f6a03816be5bdde8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Routing_methods.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2da33239303d5025",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Routing_protocols.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -128,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -173,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataStructures/CacheStructures/LFU.md",
+                "file": "Networking/Routing_protocols.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/CacheStructures/LFU.md"
+                "file": "Networking/Routing_protocols.md"
               }
             }
           }
@@ -229,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/CacheStructures/LFU.md"
+                "file": "Networking/Routing_protocols.md"
               }
             }
           },
@@ -255,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataStructures/CacheStructures/LFU.md",
+                "file": "Networking/Routing_protocols.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -302,10 +328,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0cef740daeac2b1e",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
-    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
+    "Networking/Routing_methods.md",
+    "Networking/Routing_protocols.md",
+    "DataStructures/CacheStructures/LFU.md",
+    "OperatingSystems/Caching.md",
     "Algorithms/SearchAlgorithms/Search_algorithms.md",
+    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "Algorithms/SearchAlgorithms",
     "Networking/TransmissionProtocols/Simple_mail_transfer_protocol.md",
     "XX-Attachments/Images/Pasted image 20230318175738.png",
@@ -323,7 +353,6 @@
     "XX-Attachments/Images/Pasted image 20230318172221.png",
     "XX-Attachments/Images/Pasted image 20230318171912.png",
     "XX-Attachments/Images/Pasted image 20230318171002.png",
-    "Networking/Routing_methods.md",
     "Networking/Network_tools.md",
     "Networking/Network_delay.md",
     "Networking/Checksum.md",
@@ -338,9 +367,6 @@
     "Networking/Header_types.md",
     "Networking/Internet_architecture.md",
     "Networking/Internet_protocols.md",
-    "Networking/Network_architecture.md",
-    "Networking/Transmission_mediums.md",
-    "00-Main/Linux_usage.md",
     "ProgramLanguages/SQL/SQLversions",
     "XX-Attachments/Images/Home work 3 SOLUTIONS 2021-2022.pdf",
     "ProgramLanguages/Python/sed7keQGo",
