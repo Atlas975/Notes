@@ -57,7 +57,7 @@ S: 221 nyu.edu closing connection
     - **POP**: Post Office Protocol (authorisation, download)
     - **IMAP**: Internet mail access protocol (allows manipulation of stored messages on server)
     - [[Hypertext_transfer_protocol|HTTP]]: Hypertext transfer protocol (used by gmail,  yahoo etc
-- Web based email also exists where the web browser acts a
+- Web based email also exists where the web browser acts as a user agent
 ## Mail servers
 - Acts as a mailbox that contains incoming messages for users
 - Has a message queue of mail messages that need to be sent 
