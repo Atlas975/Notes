@@ -133,15 +133,3 @@ if a node is reached with no edges, we backtrack to a previous node
 ![[Pasted image 20220310122303.png|450|450]]
 ![[Pasted image 20220310122303.png|450|450]]
 
-# Dijkstra's shortest path
-- Knowing the shortest path from one node to another by finding the set of edges with the smallest overall sum
-- The distance from a node to itself is set to 0
-- Example algorithm:
-
-![[Pasted image 20220310122523.png|450|450]]
-![[Pasted image 20220310122523.png|450|450]]
-
-- Completed algorithm example
-
-![[Pasted image 20220310124149.png|450|450]]
-![[Pasted image 20220310124149.png|450|450]]

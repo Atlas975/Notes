@@ -107,19 +107,6 @@
             }
           },
           {
-            "id": "db0accd14c69b750",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DataStructures/Graphs.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d82c770099aa4178",
             "type": "leaf",
             "state": {
@@ -146,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Backtracking.md",
+                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -167,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -212,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataStructures/Graphs.md",
+                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/Graphs.md"
+                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md"
               }
             }
           }
@@ -268,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/Graphs.md"
+                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md"
               }
             }
           },
@@ -294,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataStructures/Graphs.md",
+                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -341,14 +328,19 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "db0accd14c69b750",
+  "active": "9ce25fe12bbcebe0",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Sliding_window.md",
+    "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
+    "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
+    "Algorithms/SearchAlgorithms/Search_algorithms.md",
+    "DataStructures/Graphs.md",
     "Networking/Routing_protocols.md",
     "Networking/Routing_methods.md",
     "DataStructures/CacheStructures/LFU.md",
     "OperatingSystems/Caching.md",
-    "Algorithms/SearchAlgorithms/Search_algorithms.md",
     "Algorithms/SearchAlgorithms",
     "Networking/TransmissionProtocols/Simple_mail_transfer_protocol.md",
     "XX-Attachments/Images/Pasted image 20230318175738.png",
@@ -371,15 +363,10 @@
     "Networking/Checksum.md",
     "Networking/TransmissionProtocols/Domain_name_server.md",
     "Networking/TransmissionProtocols/Transmission_protocols.md",
-    "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "XX-Attachments/Images/Pasted image 20230318154122.png",
-    "Networking/Header_types.md",
-    "Networking/Internet_architecture.md",
-    "Networking/Internet_protocols.md",
     "ProgramLanguages/SQL/SQLversions",
     "XX-Attachments/Images/Home work 3 SOLUTIONS 2021-2022.pdf",
     "ProgramLanguages/Python/sed7keQGo",

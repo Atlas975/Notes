@@ -145,7 +145,6 @@ def minimumNumbers(self, num: int, k: int) -> int:
         if kmult % 10 == unitdig:
             return i
     return -1
-
 ```
 
 ## Multiply strings 
