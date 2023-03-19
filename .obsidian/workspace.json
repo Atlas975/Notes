@@ -73,7 +73,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/AlgorithmConcepts/Search_algorithms.md",
+                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d82c770099aa4178",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/SearchAlgorithms/Search_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -160,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/AlgorithmConcepts/Search_algorithms.md",
+                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/AlgorithmConcepts/Search_algorithms.md"
+                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md"
               }
             }
           }
@@ -216,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/AlgorithmConcepts/Search_algorithms.md"
+                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md"
               }
             }
           },
@@ -242,7 +255,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/AlgorithmConcepts/Search_algorithms.md",
+                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,6 +304,9 @@
   },
   "active": "0cef740daeac2b1e",
   "lastOpenFiles": [
+    "Algorithms/SearchAlgorithms/Search_algorithms.md",
+    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
+    "Algorithms/SearchAlgorithms",
     "Networking/TransmissionProtocols/Simple_mail_transfer_protocol.md",
     "XX-Attachments/Images/Pasted image 20230318175738.png",
     "XX-Attachments/Images/Pasted image 20230318175722.png",
@@ -325,7 +341,6 @@
     "Networking/Network_architecture.md",
     "Networking/Transmission_mediums.md",
     "00-Main/Linux_usage.md",
-    "00-Main/1-Litnote.md",
     "ProgramLanguages/SQL/SQLversions",
     "XX-Attachments/Images/Home work 3 SOLUTIONS 2021-2022.pdf",
     "ProgramLanguages/Python/sed7keQGo",
@@ -334,7 +349,6 @@
     "DataStructures/sedit9HHx",
     "DataStructures/sedcT4bEx",
     "DataStructures/sedmzHhFC",
-    "SoftwareEngineering/sedAM4RPw",
-    "Networking/sedT9BOf8"
+    "SoftwareEngineering/sedAM4RPw"
   ]
 }

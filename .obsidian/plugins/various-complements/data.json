@@ -55,27 +55,11 @@
         }
       }
     },
-    "internet": {
-      "internet": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1676535957207
-        }
-      }
-    },
     "applications": {
       "applications": {
         "currentFile": {
           "count": 7,
           "lastUpdated": 1679159881669
-        }
-      }
-    },
-    "layer": {
-      "layer": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1676536258075
         }
       }
     },
@@ -87,43 +71,11 @@
         }
       }
     },
-    "Abstraction": {
-      "Abstraction": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1676536606958
-        }
-      }
-    },
-    "perform": {
-      "perform": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1676536981663
-        }
-      }
-    },
-    "protocl": {
-      "protocl": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1676537213582
-        }
-      }
-    },
     "protocol": {
       "protocol": {
         "currentFile": {
           "count": 4,
           "lastUpdated": 1678285580595
-        }
-      }
-    },
-    "Transport": {
-      "Transport": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1676537237755
         }
       }
     },
@@ -143,22 +95,6 @@
         }
       }
     },
-    "protocols": {
-      "protocols": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1676541311340
-        }
-      }
-    },
-    "networks": {
-      "networks": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1676557429107
-        }
-      }
-    },
     "physical": {
       "physical": {
         "currentFile": {
@@ -167,107 +103,11 @@
         }
       }
     },
-    "delivery": {
-      "delivery": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1676540589981
-        }
-      }
-    },
-    "encapsulation": {
-      "encapsulation": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1676541100979
-        }
-      }
-    },
-    "abstracts": {
-      "abstracts": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1676541221908
-        }
-      }
-    },
-    "implement": {
-      "implement": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1676541227587
-        }
-      }
-    },
-    "Connection": {
-      "Connection": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1676546940137
-        }
-      }
-    },
-    "Options": {
-      "Options": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1676546957784
-        }
-      }
-    },
-    "stateless": {
-      "stateless": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1676547340152
-        }
-      }
-    },
-    "browser": {
-      "browser": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1676547813051
-        }
-      }
-    },
-    "balancer": {
-      "balancer": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1676548045665
-        }
-      }
-    },
-    "application": {
-      "application": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1676548074834
-        }
-      }
-    },
     "communication": {
       "communication": {
         "currentFile": {
           "count": 3,
           "lastUpdated": 1677369104074
-        }
-      }
-    },
-    "communicate": {
-      "communicate": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1676557317627
-        }
-      }
-    },
-    "combination": {
-      "combination": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1676557437979
         }
       }
     },
@@ -284,22 +124,6 @@
         "currentFile": {
           "count": 2,
           "lastUpdated": 1676894705945
-        }
-      }
-    },
-    "appropriately": {
-      "appropriately": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1676557936565
-        }
-      }
-    },
-    "interface": {
-      "interface": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1676558378474
         }
       }
     },
@@ -1028,6 +852,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1679162464526
+        }
+      }
+    },
+    "Dijkstra": {
+      "Dijkstra": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1679223921438
+        }
+      }
+    },
+    "algorithm": {
+      "algorithm": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1679223925131
         }
       }
     }

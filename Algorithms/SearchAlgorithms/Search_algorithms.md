@@ -1,15 +1,15 @@
+---
+aliases: search algorithm
+---
 > [!important]- Metadata
-> **Tags:** #Algorithms 
-> **Located:** Algorithms/AlgorithmConcepts
-> **Created:** 26/12/2022 - 09:23
+> **Tags:** #Programming 
+> **Located:** Algorithms/SearchAlgorithms
+> **Created:** 27/02/2023 - 16:44
 > ```dataviewjs
->let loc = dv.current().file.path;
->let cur = dv.page(loc).file;
->let links = cur.inlinks.concat(cur.outlinks).array().map(p => p.path);
->let paths = new Set(links.filter(p => !p.endsWith(".png")));
->paths.delete(loc);
->dv.table(["Connections",  "Tags"], dv.array(Array.from(paths)).map(p => [
->   dv.fileLink(p),dv.page(p).file.tags.join("")]).slice(0, 20));
+> let f = dv.current().file;
+> let paths = new Set([...f.inlinks, ...f.outlinks].map(p => p.path).filter(p => !p.endsWith(".png")));
+> paths.delete(f.path);
+> dv.table(["Connections", "Tags"], [...paths].map(p => [dv.fileLink(p), dv.page(p).file.tags.join("")]));
 > ```
 
 ___
