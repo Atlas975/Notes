@@ -93,3 +93,6 @@
 }
 
 
+.cm-formatting-list-ul span.cm-formatting-list-ul {
+  --list-marker-color: Aqua;
+}

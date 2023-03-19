@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -154,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -199,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+                "file": "OperatingSystems/Caching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md"
+                "file": "OperatingSystems/Caching.md"
               }
             }
           }
@@ -255,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md"
+                "file": "OperatingSystems/Caching.md"
               }
             }
           },
@@ -281,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+                "file": "OperatingSystems/Caching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -328,13 +328,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9ce25fe12bbcebe0",
+  "active": "0cef740daeac2b1e",
   "lastOpenFiles": [
+    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
+    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
-    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "Algorithms/SearchAlgorithms/Search_algorithms.md",
     "DataStructures/Graphs.md",
     "Networking/Routing_protocols.md",
@@ -364,7 +365,6 @@
     "Networking/TransmissionProtocols/Domain_name_server.md",
     "Networking/TransmissionProtocols/Transmission_protocols.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "XX-Attachments/Images/Pasted image 20230318154122.png",
     "ProgramLanguages/SQL/SQLversions",
