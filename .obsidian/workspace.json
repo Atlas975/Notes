@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Caching.md",
+                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -154,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -199,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Caching.md",
+                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Caching.md"
+                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md"
               }
             }
           }
@@ -255,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Caching.md"
+                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md"
               }
             }
           },
@@ -281,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Caching.md",
+                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -328,8 +328,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0cef740daeac2b1e",
+  "active": "9ce25fe12bbcebe0",
   "lastOpenFiles": [
+    "OperatingSystems/Caching.md",
     "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
@@ -341,7 +342,6 @@
     "Networking/Routing_protocols.md",
     "Networking/Routing_methods.md",
     "DataStructures/CacheStructures/LFU.md",
-    "OperatingSystems/Caching.md",
     "Algorithms/SearchAlgorithms",
     "Networking/TransmissionProtocols/Simple_mail_transfer_protocol.md",
     "XX-Attachments/Images/Pasted image 20230318175738.png",
