@@ -159,7 +159,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataStructures/CacheStructures/LFU.md",
+                "file": "DataStructures/CacheStructures/LRU.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -225,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataStructures/CacheStructures/LFU.md",
+                "file": "DataStructures/CacheStructures/LRU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/CacheStructures/LFU.md"
+                "file": "DataStructures/CacheStructures/LRU.md"
               }
             }
           }
@@ -281,7 +281,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/CacheStructures/LFU.md"
+                "file": "DataStructures/CacheStructures/LRU.md"
               }
             }
           },
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataStructures/CacheStructures/LFU.md",
+                "file": "DataStructures/CacheStructures/LRU.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -356,9 +356,15 @@
   },
   "active": "257c4891df9296b8",
   "lastOpenFiles": [
-    "DataStructures/BinaryHeaps.md",
-    "DataStructures/RadixTrees.md",
+    "DataStructures/Abstract_data_types.md",
+    "DataStructures/Graphs.md",
     "DataStructures/Sets.md",
+    "DataStructures/RadixTrees.md",
+    "DataStructures/Hashing.md",
+    "DataStructures/DataStorage&Retrieval.md",
+    "DataStructures/CacheStructures/LRU.md",
+    "DataStructures/CacheStructures/LFU.md",
+    "DataStructures/BinaryHeaps.md",
     "DataStructures/Trees.md",
     "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
     "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
@@ -369,10 +375,8 @@
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
-    "DataStructures/Graphs.md",
     "Networking/Routing_protocols.md",
     "Networking/Routing_methods.md",
-    "DataStructures/CacheStructures/LFU.md",
     "Algorithms/SearchAlgorithms",
     "Networking/TransmissionProtocols/Simple_mail_transfer_protocol.md",
     "XX-Attachments/Images/Pasted image 20230318175738.png",
@@ -384,14 +388,10 @@
     "XX-Attachments/Templates/InfoNote.md",
     "XX-Attachments/Templates/AliasNote.md",
     "Networking/TransmissionProtocols/Hypertext_transfer_protocol.md",
-    "SoftwareDesign/Entity_relationship_model.md",
-    "Networking/Network_topology.md",
     "XX-Attachments/Images/Pasted image 20230318172259.png",
     "XX-Attachments/Images/Pasted image 20230318172221.png",
     "XX-Attachments/Images/Pasted image 20230318171912.png",
     "XX-Attachments/Images/Pasted image 20230318171002.png",
-    "Networking/Network_tools.md",
-    "Networking/Network_delay.md",
     "XX-Attachments/Images/Pasted image 20230318154122.png",
     "ProgramLanguages/SQL/SQLversions",
     "XX-Attachments/Images/Home work 3 SOLUTIONS 2021-2022.pdf",

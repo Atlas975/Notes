@@ -31,11 +31,10 @@ class LFUCache:
         self.fkv[freq + 1][key] = new_val
         self.kf[key] = freq + 1
 
-        if self.fkv[freq]:
-            return
-        del self.fkv[freq]
-        if self.minf == freq:
-            self.minf += 1
+        if len(self.fkv[freq]) == 0:
+            del self.fkv[freq]
+            if self.minf == freq:
+                self.minf += 1
 
     def get(self, key: int) -> int:
         if freq := self.kf.get(key):
