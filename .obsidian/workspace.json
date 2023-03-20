@@ -154,6 +154,19 @@
             }
           },
           {
+            "id": "257c4891df9296b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DataStructures/BinaryHeaps.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7f9588e65bb60264",
             "type": "leaf",
             "state": {
@@ -167,7 +180,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -212,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
+                "file": "DataStructures/BinaryHeaps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md"
+                "file": "DataStructures/BinaryHeaps.md"
               }
             }
           }
@@ -268,7 +281,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md"
+                "file": "DataStructures/BinaryHeaps.md"
               }
             }
           },
@@ -294,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
+                "file": "DataStructures/BinaryHeaps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -341,10 +354,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "eabe0f655502c48c",
+  "active": "257c4891df9296b8",
   "lastOpenFiles": [
-    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
+    "DataStructures/RadixTrees.md",
+    "DataStructures/Sets.md",
+    "DataStructures/Trees.md",
+    "DataStructures/BinaryHeaps.md",
     "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
+    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "Algorithms/SearchAlgorithms/Search_algorithms.md",
     "OperatingSystems/Caching.md",
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
@@ -375,10 +392,6 @@
     "XX-Attachments/Images/Pasted image 20230318171002.png",
     "Networking/Network_tools.md",
     "Networking/Network_delay.md",
-    "Networking/Checksum.md",
-    "Networking/TransmissionProtocols/Domain_name_server.md",
-    "Networking/TransmissionProtocols/Transmission_protocols.md",
-    "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
     "XX-Attachments/Images/Pasted image 20230318154122.png",
     "ProgramLanguages/SQL/SQLversions",
     "XX-Attachments/Images/Home work 3 SOLUTIONS 2021-2022.pdf",

@@ -66,7 +66,7 @@ s=\text{link propagation speed}
 ### Queuing disciplines
 - Control exists for how packets should be dropped, instead of tail drop packets may use:
     - **Random drops**: drop any packet in queue 
-    - **Quality of service (QOS) aware**: uses [[Heaps|priority queue]] to drop packets, guarantees throughput for sensitive services such as voice calls or live video 
+    - **Quality of service (QOS) aware**: uses [[BinaryHeaps|priority queue]] to drop packets, guarantees throughput for sensitive services such as voice calls or live video 
 
 
 ### Time to live (TTL)
