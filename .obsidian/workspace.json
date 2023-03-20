@@ -159,7 +159,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataStructures/BinaryHeaps.md",
+                "file": "DataStructures/CacheStructures/LFU.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -225,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataStructures/BinaryHeaps.md",
+                "file": "DataStructures/CacheStructures/LFU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/BinaryHeaps.md"
+                "file": "DataStructures/CacheStructures/LFU.md"
               }
             }
           }
@@ -281,7 +281,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/BinaryHeaps.md"
+                "file": "DataStructures/CacheStructures/LFU.md"
               }
             }
           },
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataStructures/BinaryHeaps.md",
+                "file": "DataStructures/CacheStructures/LFU.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -356,10 +356,10 @@
   },
   "active": "257c4891df9296b8",
   "lastOpenFiles": [
+    "DataStructures/BinaryHeaps.md",
     "DataStructures/RadixTrees.md",
     "DataStructures/Sets.md",
     "DataStructures/Trees.md",
-    "DataStructures/BinaryHeaps.md",
     "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
     "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "Algorithms/SearchAlgorithms/Search_algorithms.md",

@@ -1,3 +1,7 @@
+---
+aliases: priority queue
+---
+
 > [!important]- Metadata
 > **Tags:** #ADTs 
 > **Located:** DataStructures
@@ -23,9 +27,6 @@ class MaxHeap:
         for i in range(n // 2, -1, -1):
             self.heapify(i)
 
-    def get_parent(self, i):
-        return (i - 1) // 2
-
     def heapify(self, i):
         m = i
         l = i * 2 + 1
@@ -43,18 +44,18 @@ class MaxHeap:
     def heappush(self, val):
         self.heap.append(val)
         i = len(self.heap) - 1
-        par = self.get_parent(i)
+        par = (i - 1) // 2
 
         while i != 0 and (self.heap[par] < self.heap[i]):
             self.heap[par], self.heap[i] = self.heap[i], self.heap[par]
             i = par
-            par = self.get_parent(i)
+            par = (i - 1) // 2
 
     def heappop(self):
         if not self.heap:
             Raise(ValueError("Heap is empty"))
         self.heap[0], self.heap[-1] = self.heap[-1], self.heap[0]
-        
+
         val = self.heap.pop()
         self.heapify(0)
         return val

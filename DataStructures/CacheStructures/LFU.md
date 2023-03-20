@@ -23,8 +23,8 @@ ___
 class LFUCache:
     def __init__(self, cap: int):
         self.cap = cap
-        self.fkv = defaultdict(OrderedDict)
-        self.kf = {}
+        self.fkv = defaultdict(OrderedDict) # frequency -> key -> value
+        self.kf = {} # key -> frequency
         self.minf = 1
 
     def update(self, key: int, freq: int, new_val: int) -> None:
