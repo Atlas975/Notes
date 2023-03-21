@@ -12,10 +12,15 @@ $$\Pi_{Attacker\_{Name},\text{COUNT(*)}}(\gamma_{\text{Attacker\_{ID},Attacker\_
 
 
 $$\rho(\text{A, }\Pi_{Attacker\_{ID ,}Attacker\_{Name},COUNT(Result)}(\gamma_{\text{Attacker\_{ID},Attacker\_{Name}}}\text{(Combat)}))$$
+$$\rho(C, Characters)$$
 $$\rho(\text{ResultSet}(C \Join_{C.Account\_{ID}=A.\text{Attacker\_{ID},}C.Account\_{Name}=A.Attacker\_{Name}} A))$$
+$$\Pi_{C.Name}(ResultSet) \text{ ORDER BY A.COUNT(*)}$$
 
 
-$$\Pi_{\text{Name}}(\sigma_{\text{COUNT(Result) DESC}}(Characters \Join AtckTotals))\text{ Limit 5}$$
+
+
+$$\rho(A,)$$
+$$\Pi_{a.Forename,a.Surname}(ResultSet)$$
 
 
 
