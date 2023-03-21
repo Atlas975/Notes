@@ -890,8 +890,16 @@
     "ResultSet": {
       "ResultSet": {
         "currentFile": {
+          "count": 2,
+          "lastUpdated": 1679412517280
+        }
+      }
+    },
+    "Characters": {
+      "Characters": {
+        "currentFile": {
           "count": 1,
-          "lastUpdated": 1679411331643
+          "lastUpdated": 1679412356103
         }
       }
     }

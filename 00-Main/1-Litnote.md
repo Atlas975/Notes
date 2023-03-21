@@ -19,8 +19,9 @@ $$\Pi_{C.Name}(ResultSet) \text{ ORDER BY A.COUNT(*)}$$
 
 
 
-$$\rho(A,)$$
-$$\Pi_{a.Forename,a.Surname}(ResultSet)$$
+$$\rho(C, \Pi_{Account\_{ID},COUNT(Name)}(\gamma_{Account\_{ID}}(\sigma_{COUNT(Name)>5}(Characters ))))$$
+$$\rho(ResultSet , C \Join_{Accounts.ID=C.Account\_{ID}}Accounts)$$
+$$\Pi_{A.Forename,A.Surname}(ResultSet)$$
 
 
 
