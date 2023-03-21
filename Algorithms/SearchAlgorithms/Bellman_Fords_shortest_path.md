@@ -12,13 +12,14 @@
 ___
 # Bellman Ford's shortest path
 - Slower than [[Dijkstras_shortest_path|Dijkstras]] but is able to handle negative edges
-- V - 1 times is the maximum number of edges of a minimum spanning tree in the graph, this also represents the furthest distance relaxing may need to propagate.
+- V - 1 times is the maximum number of edges of a minimum spanning tree in the [[Graphs|graph]], this also represents the furthest distance relaxing may need tdgeso propagate.
 - One more loop can be done to detect negative cycles, this is indicated if a path is still able to relax after V - 1 iterations. The algorithm fails in this scenario
 
 ![[Pasted image 20230321211616.png|500|500]]
 ## Graph relaxation 
 ```python
-
+if (d[u] + c(u, v)) < d[v]:
+    d[v] = d[u] + c(u, v)
 ```
 
 ## Bellman Ford's algorithm
