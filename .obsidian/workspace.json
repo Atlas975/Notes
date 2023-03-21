@@ -100,7 +100,7 @@
               "type": "markdown",
               "state": {
                 "file": "Databases/Relational_algebra.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -356,10 +356,10 @@
   },
   "active": "e1f52a88798086a9",
   "lastOpenFiles": [
+    "Databases/Relational_algebra.md",
+    "00-Main/1-Litnote.md",
     "Networking/Routing_methods.md",
     "Algorithms/SearchAlgorithms/Search_algorithms.md",
-    "00-Main/1-Litnote.md",
-    "Databases/Relational_algebra.md",
     "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
     "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "DataStructures/CacheStructures/LRU.md",
