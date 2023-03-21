@@ -185,7 +185,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Bellman_Ford_shortest_path.md",
+                "file": "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -238,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Bellman_Ford_shortest_path.md",
+                "file": "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -270,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Bellman_Ford_shortest_path.md"
+                "file": "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md"
               }
             }
           }
@@ -294,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Bellman_Ford_shortest_path.md"
+                "file": "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md"
               }
             }
           },
@@ -320,7 +320,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Bellman_Ford_shortest_path.md",
+                "file": "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -369,15 +369,17 @@
   },
   "active": "2a00af4b710dc4e9",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20230321211944.png",
+    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
+    "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
+    "XX-Attachments/Images/Pasted image 20230321211616.png",
     "Databases/Relational_algebra.md",
-    "Algorithms/SearchAlgorithms/Bellman_Ford_shortest_path.md",
     "00-Main/1-Litnote.md",
     "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
     "Databases/Database_storage.md",
     "Databases/Database_keys.md",
     "Networking/Routing_methods.md",
     "Algorithms/SearchAlgorithms/Search_algorithms.md",
-    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "DataStructures/CacheStructures/LRU.md",
     "DataStructures/Abstract_data_types.md",
     "DataStructures/Graphs.md",
@@ -394,7 +396,6 @@
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
-    "Networking/Routing_protocols.md",
     "Algorithms/SearchAlgorithms",
     "XX-Attachments/Images/Pasted image 20230318175738.png",
     "XX-Attachments/Images/Pasted image 20230318175722.png",
@@ -405,7 +406,6 @@
     "XX-Attachments/Images/Pasted image 20230318172221.png",
     "XX-Attachments/Images/Pasted image 20230318171912.png",
     "XX-Attachments/Images/Pasted image 20230318171002.png",
-    "XX-Attachments/Images/Pasted image 20230318154122.png",
     "ProgramLanguages/SQL/SQLversions",
     "XX-Attachments/Images/Home work 3 SOLUTIONS 2021-2022.pdf",
     "ProgramLanguages/Python/sed7keQGo",

@@ -10,22 +10,32 @@
 > ```
 
 ___
-# Bellman Ford shortest path
+# Bellman Ford's shortest path
+- Slower than [[Dijkstras_shortest_path|Dijkstras]] but is able to handle negative edges
+- V - 1 times is the maximum number of edges of a minimum spanning tree in the graph, this also represents the furthest distance relaxing may need to propagate.
+- One more loop can be done to detect negative cycles, this is indicated if a path is still able to relax after V - 1 iterations. The algorithm fails in this scenario
+
+![[Pasted image 20230321211616.png|500|500]]
+## Graph relaxation 
+```python
+
+```
+
+## Bellman Ford's algorithm
 ```python
 def bellman_ford(graph, origin) -> dict:  # O(VE) time, O(V) space
     distmp = {vertex: float("inf") for vertex in graph}
     distmp[origin] = 0
 
-    for _ in range(len(graph) - 1): # V-1, max number of edges in minimum spanning tree
-        for u in filter(lambda u: distmp[u] != float("inf"), graph): # filter unreachable vertices
+    for _ in range(len(graph) - 1): 
+        for u in filter(lambda u: distmp[u] != float("inf"), graph): 
             for v, weight in graph[u].items():
                 if (vdist := distmp[u] + weight) < distmp[v]:
                     distmp[v] = vdist
 
     for u in filter(lambda u: distmp[u] != float("inf"), graph):
-        for v, weight in graph[u].items(): # if we can still relax, then there is a negative cycle
+        for v, weight in graph[u].items(): 
             if (vdist := distmp[u] + weight) < distmp[v]:
                 raise ValueError("negative cycle detected")
-
     return distmp
 ```
