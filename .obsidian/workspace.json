@@ -87,7 +87,7 @@
               "type": "markdown",
               "state": {
                 "file": "Databases/Database_storage.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -173,14 +173,14 @@
               "type": "markdown",
               "state": {
                 "file": "00-Main/1-Litnote.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -225,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_storage.md",
+                "file": "00-Main/1-Litnote.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_storage.md"
+                "file": "00-Main/1-Litnote.md"
               }
             }
           }
@@ -281,7 +281,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_storage.md"
+                "file": "00-Main/1-Litnote.md"
               }
             }
           },
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_storage.md",
+                "file": "00-Main/1-Litnote.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,8 +354,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e1f52a88798086a9",
+  "active": "7f9588e65bb60264",
   "lastOpenFiles": [
+    "Databases/Database_storage.md",
     "Databases/Database_keys.md",
     "00-Main/1-Litnote.md",
     "Databases/Relational_algebra.md",
@@ -386,7 +387,6 @@
     "XX-Attachments/Images/Pasted image 20230318175722.png",
     "XX-Attachments/Images/Pasted image 20230318174814.png",
     "XX-Attachments/Images/Pasted image 20230318174709.png",
-    "Networking/Application_architecture.md",
     "XX-Attachments/Images/Pasted image 20230318173233.png",
     "XX-Attachments/Images/Pasted image 20230318172259.png",
     "XX-Attachments/Images/Pasted image 20230318172221.png",
