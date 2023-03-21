@@ -86,7 +86,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Main/1-Litnote.md",
+                "file": "Databases/Database_storage.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -225,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Main/1-Litnote.md",
+                "file": "Databases/Database_storage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Main/1-Litnote.md"
+                "file": "Databases/Database_storage.md"
               }
             }
           }
@@ -281,7 +281,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Main/1-Litnote.md"
+                "file": "Databases/Database_storage.md"
               }
             }
           },
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-Main/1-Litnote.md",
+                "file": "Databases/Database_storage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -356,8 +356,9 @@
   },
   "active": "e1f52a88798086a9",
   "lastOpenFiles": [
-    "Databases/Relational_algebra.md",
+    "Databases/Database_keys.md",
     "00-Main/1-Litnote.md",
+    "Databases/Relational_algebra.md",
     "Networking/Routing_methods.md",
     "Algorithms/SearchAlgorithms/Search_algorithms.md",
     "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
@@ -387,7 +388,6 @@
     "XX-Attachments/Images/Pasted image 20230318174709.png",
     "Networking/Application_architecture.md",
     "XX-Attachments/Images/Pasted image 20230318173233.png",
-    "XX-Attachments/Templates/InfoNote.md",
     "XX-Attachments/Images/Pasted image 20230318172259.png",
     "XX-Attachments/Images/Pasted image 20230318172221.png",
     "XX-Attachments/Images/Pasted image 20230318171912.png",
