@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
+                "file": "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -180,7 +180,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -225,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataStructures/CacheStructures/LRU.md",
+                "file": "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/CacheStructures/LRU.md"
+                "file": "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md"
               }
             }
           }
@@ -281,7 +281,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/CacheStructures/LRU.md"
+                "file": "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md"
               }
             }
           },
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataStructures/CacheStructures/LRU.md",
+                "file": "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,20 +354,20 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "257c4891df9296b8",
+  "active": "0cef740daeac2b1e",
   "lastOpenFiles": [
+    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
+    "DataStructures/CacheStructures/LRU.md",
     "DataStructures/Abstract_data_types.md",
     "DataStructures/Graphs.md",
     "DataStructures/Sets.md",
     "DataStructures/RadixTrees.md",
     "DataStructures/Hashing.md",
     "DataStructures/DataStorage&Retrieval.md",
-    "DataStructures/CacheStructures/LRU.md",
     "DataStructures/CacheStructures/LFU.md",
     "DataStructures/BinaryHeaps.md",
     "DataStructures/Trees.md",
     "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
-    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "Algorithms/SearchAlgorithms/Search_algorithms.md",
     "OperatingSystems/Caching.md",
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
