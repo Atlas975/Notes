@@ -178,9 +178,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2a00af4b710dc4e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/SearchAlgorithms/Bellman_Ford_shortest_path.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -225,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Main/1-Litnote.md",
+                "file": "Algorithms/SearchAlgorithms/Bellman_Ford_shortest_path.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Main/1-Litnote.md"
+                "file": "Algorithms/SearchAlgorithms/Bellman_Ford_shortest_path.md"
               }
             }
           }
@@ -281,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Main/1-Litnote.md"
+                "file": "Algorithms/SearchAlgorithms/Bellman_Ford_shortest_path.md"
               }
             }
           },
@@ -307,7 +320,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-Main/1-Litnote.md",
+                "file": "Algorithms/SearchAlgorithms/Bellman_Ford_shortest_path.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,13 +367,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7f9588e65bb60264",
+  "active": "2a00af4b710dc4e9",
   "lastOpenFiles": [
-    "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
+    "Databases/Relational_algebra.md",
+    "Algorithms/SearchAlgorithms/Bellman_Ford_shortest_path.md",
     "00-Main/1-Litnote.md",
+    "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
     "Databases/Database_storage.md",
     "Databases/Database_keys.md",
-    "Databases/Relational_algebra.md",
     "Networking/Routing_methods.md",
     "Algorithms/SearchAlgorithms/Search_algorithms.md",
     "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
@@ -382,7 +396,6 @@
     "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Networking/Routing_protocols.md",
     "Algorithms/SearchAlgorithms",
-    "Networking/TransmissionProtocols/Simple_mail_transfer_protocol.md",
     "XX-Attachments/Images/Pasted image 20230318175738.png",
     "XX-Attachments/Images/Pasted image 20230318175722.png",
     "XX-Attachments/Images/Pasted image 20230318174814.png",
