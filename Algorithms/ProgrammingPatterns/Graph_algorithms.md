@@ -180,20 +180,25 @@ def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
     return next((n1, n2) for n1, n2 in edges if union(n1, n2))
 ```
 
-## Longest increasing path 
+## Network delay time 
 ```python
-def longestIncreasingPath(self, matrix: List[List[int]]) -> int:
-    n, m = len(matrix), len(matrix[0])
+def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
+    edges = [[] for _ in range(n)]
+    for u, v, w in times:
+        edges[u - 1].append((v - 1, w))
 
-    @cache
-    def dfs(r, c):
-        cur = matrix[r][c]
-        return 1 + max(
-            dfs(r + 1, c) if r + 1 < n and matrix[r + 1][c] > cur else 0,
-            dfs(r - 1, c) if r >= 1 and matrix[r - 1][c] > cur else 0,
-            dfs(r, c + 1) if c + 1 < m and matrix[r][c + 1] > cur else 0,
-            dfs(r, c - 1) if c >= 1 and matrix[r][c - 1] > cur else 0,
-        )
+    distmp = [float('inf')] * n
+    distmp[k - 1] = 0
+    pq = [(0, k - 1)]
 
-    return max(starmap(dfs, product(range(n), range(m))))
+    while pq:
+        udist, u = hq.heappop(pq)
+        if udist > distmp[u]:
+            continue
+        for v, weight in edges[u]:
+            if (vdist := udist + weight) < distmp[v]:
+                distmp[v] = vdist
+                hq.heappush(pq, (vdist, v))
+
+    return res if (res := max(distmp)) < float('inf') else -1
 ```
