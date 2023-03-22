@@ -236,7 +236,6 @@ def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
     edges = [[] for _ in range(n)]
     for u, v, w in times:
         edges[u - 1].append((v - 1, w))
-
     distmp = [float('inf')] * n
     distmp[k - 1] = 0
     pq = [(0, k - 1)]
@@ -249,6 +248,5 @@ def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
             if (vdist := udist + weight) < distmp[v]:
                 distmp[v] = vdist
                 hq.heappush(pq, (vdist, v))
-
     return res if (res := max(distmp)) < float('inf') else -1
 ```

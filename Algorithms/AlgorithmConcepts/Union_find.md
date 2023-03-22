@@ -20,39 +20,37 @@ ___
 ## Union find algorithm 
 
 ```python
-class UnionFind:
-    def count_components(self, edges) -> int:
-        nodes = set(n for n1, n2 in edges for n in (n1, n2))
-        parent = {n: n for n in nodes}
-        rank = {n: 1 for n in nodes}
+def union_find(edges) -> int:
+    nodes = set(n for n1, n2 in edges for n in (n1, n2))
+    parent = {n: n for n in nodes}
+    rank = {n: 1 for n in nodes}
 
-        def find(u):
-            while u != parent[u]:
-                parent[u] = parent[parent[u]]
-                u = parent[u]
-            return u
+    def find(u):
+        while u != parent[u]:
+            parent[u] = parent[parent[u]]
+            u = parent[u]
+        return u
 
-        def union(u, v):
-            root_u, root_v = find(u), find(v)
-            if root_u == root_v:
-                return 0
+    def union(u, v):
+        root_u, root_v = find(u), find(v)
+        if root_u == root_v:
+            return 0
 
-            if rank[root_u] > rank[root_v]:
-                parent[root_v] = root_u
-            elif rank[root_u] < rank[root_v]:
-                parent[root_u] = root_v
-            else:
-                parent[root_v] = root_u
-                rank[root_u] += 1
-            return 1
+        if rank[root_u] > rank[root_v]:
+            parent[root_v] = root_u
+        elif rank[root_u] < rank[root_v]:
+            parent[root_u] = root_v
+        else:
+            parent[root_v] = root_u
+            rank[root_u] += 1
+        return 1
 
-        res = len(nodes)
-        for n1, n2 in edges:
-            res -= union(n1, n2)
-        return res
+    res = len(nodes)
+    for n1, n2 in edges:
+        res -= union(n1, n2)
+    return res
 
-print("(0 -> 1 -> 2) (3 -> 4)\nNumber of connected components: ", end="")
-print(UnionFind().count_components([[0, 1], [1, 2], [3, 4]]))
+print("(0->1->2) (3->4)\nNo of connected: ", union_find([[0, 1], [1, 2], [3, 4]]))
 ```
 ## Union find API 
 ### Union
