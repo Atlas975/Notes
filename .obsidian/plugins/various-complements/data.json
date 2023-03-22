@@ -135,22 +135,6 @@
         }
       }
     },
-    "following": {
-      "following": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1676888749732
-        }
-      }
-    },
-    "bandwidth": {
-      "bandwidth": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1676892453824
-        }
-      }
-    },
     "traceroute": {
       "traceroute": {
         "currentFile": {
@@ -916,6 +900,14 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1679432899394
+        }
+      }
+    },
+    "Trees": {
+      "Trees": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1679503439295
         }
       }
     }

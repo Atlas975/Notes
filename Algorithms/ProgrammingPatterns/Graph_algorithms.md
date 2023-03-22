@@ -234,7 +234,6 @@ def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
         root_u, root_v = find(u), find(v)
         if root_u == root_v:
             return True
-
         if rank[root_u] > rank[root_v]:
             parent[root_v] = root_u
         elif rank[root_u] < rank[root_v]:
@@ -245,6 +244,33 @@ def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
         return False
 
     return next((n1, n2) for n1, n2 in edges if union(n1, n2))
+```
+
+## Graph is a valid tree 
+```python
+def valid_tree(self, n: int, edges: List[List[int]]) -> bool:
+    parent = list(range(n))
+    rank = [1] * n
+
+    def find(u):
+        while (u := parent[u]) != parent[u]:
+            parent[u] = parent[parent[u]]
+        return u
+
+    def union(u, v):
+        ru, rv = find(u), find(v)
+        if ru == rv:
+            return False # union found, not a valid tree
+        if rank[ru] > rank[rv]:
+            parent[rv] = ru
+        elif rank[ru] < rank[rv]:
+            parent[ru] = rv
+        else:
+            parent[rv] = ru
+            rank[ru] += 1
+        return True
+
+    return len(edges) == n - 1 and all(starmap(union, edges))
 ```
 
 ## Network delay time 
