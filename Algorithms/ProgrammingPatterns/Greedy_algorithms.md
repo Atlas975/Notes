@@ -45,10 +45,24 @@ def jump(self, nums: List[int]) -> int:
     lastidx = len(nums) - 1
 
     while r < lastidx:
-        mxjump = max(i + nums[i] for i in range(l, r + 1))
-        l = r + 1
-        r = mxjump
+        l, r = r + 1, max(i + nums[i] for i in range(l, r + 1))
         res += 1
+    return res
+```
 
+## Partition labels 
+```python
+def partitionLabels(self, s: str) -> List[int]:
+    res = []
+    lstidx = [0] * 26
+    for i, c in enumerate(s):
+        lstidx[ord(c) - ord("a")] = i
+
+    l, r = 0, 0
+    for i, c in enumerate(s):
+        r = max(r, lstidx[ord(c) - ord("a")])
+        if i == r:
+            res.append(r - l + 1)
+            l = r + 1
     return res
 ```

@@ -139,9 +139,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "413f021ec4221ca9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -186,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
+                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md"
+                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md"
               }
             }
           }
@@ -242,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md"
+                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md"
               }
             }
           },
@@ -268,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
+                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -315,13 +328,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9ce25fe12bbcebe0",
+  "active": "413f021ec4221ca9",
   "lastOpenFiles": [
+    "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
     "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
     "Databases/Relational_algebra.md",
     "ContinuousMath/Catalan_numbers.md",
-    "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
     "Algorithms/SearchAlgorithms/Search_algorithms.md",
     "DataStructures/CacheStructures/LRU.md",
     "00-Main/1-Litnote.md",
