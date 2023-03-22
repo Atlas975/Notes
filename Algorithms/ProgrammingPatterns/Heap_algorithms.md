@@ -149,22 +149,21 @@ class MedianFinder:
 ```python
 class NumberContainers:
     def __init__(self):
-        self.i_n = defaultdict(int)
+        self.i_n = {}
         self.n_i, self.n_iheap = defaultdict(set), defaultdict(list)
 
     def change(self, index: int, number: int) -> None:
-        if self.i_n[index]:
-            oldnum = self.i_n[index]
+        if oldnum := self.i_n.get(index):
             self.n_i[oldnum].remove(index)
-            idxheap = self.n_iheap[oldnum]
-            while idxheap and (idxheap[0] not in self.n_i[oldnum]):
-                heapq.heappop(idxheap)
+            iheap = self.n_iheap[oldnum]
+            while iheap and (iheap[0] not in self.n_i[oldnum]):
+                heapq.heappop(iheap)
 
         self.i_n[index] = number
         self.n_i[number].add(index)
         heapq.heappush(self.n_iheap[number], index)
 
     def find(self, number: int) -> int:
-        return self.n_iheap[number][0] if self.n_iheap[number] else -1
+        return iheap[0] if (iheap := self.n_iheap[number]) else -1
 ```
 [[Multi-Process_systems]]

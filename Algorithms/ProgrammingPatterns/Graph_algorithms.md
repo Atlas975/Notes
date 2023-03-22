@@ -145,6 +145,32 @@ def orangesRotting(self, grid: List[List[int]]) -> int:
         time += 1
     return -1 if fresh else time
 ```
+
+
+## Course schedule 
+```python
+def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
+    preMp = [[] for _ in range(numCourses)]
+    for crs, pre in prerequisites:
+        preMp[crs].append(pre)
+    seen = set()
+
+    def dfs(crs):
+        if len(preMp[crs]) == 0:
+            return True
+        if crs in seen:
+            return False
+
+        seen.add(crs)
+        if any(not dfs(pre) for pre in preMp[crs]):
+            return False
+        seen.remove(crs)
+
+        preMp[crs].clear() # caching result as True is also valid
+        return True
+
+    return all(map(dfs, range(numCourses)))
+```
 ## Number of connected components
 
 ![[Union_find#Union find algorithm]]
