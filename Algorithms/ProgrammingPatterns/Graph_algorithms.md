@@ -273,6 +273,8 @@ def valid_tree(self, n: int, edges: List[List[int]]) -> bool:
     return len(edges) == n - 1 and all(starmap(union, edges))
 ```
 
+## Word ladder **(Bi-directional BFS)**
+
 ## Network delay time 
 ```python
 def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
