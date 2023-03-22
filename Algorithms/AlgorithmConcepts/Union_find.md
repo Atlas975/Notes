@@ -50,7 +50,7 @@ def union_find(edges) -> int:
         res -= union(n1, n2)
     return res
 
-print("(0->1->2) (3->4)\nNo of connected: ", union_find([[0, 1], [1, 2], [3, 4]]))
+print("(0->1->2) (3->4)\nNo of connected:", union_find([[0, 1], [1, 2], [3, 4]]))
 ```
 ## Union find API 
 ### Union
