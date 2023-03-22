@@ -159,7 +159,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -225,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
               }
             }
           }
@@ -281,7 +281,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
               }
             }
           },
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -356,6 +356,7 @@
   },
   "active": "afcac0466d61169c",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
     "Algorithms/AlgorithmConcepts/Union_find.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
@@ -383,7 +384,6 @@
     "DataStructures/CacheStructures/LFU.md",
     "DataStructures/BinaryHeaps.md",
     "DataStructures/Trees.md",
-    "OperatingSystems/Caching.md",
     "Algorithms/SearchAlgorithms",
     "XX-Attachments/Images/Pasted image 20230318175738.png",
     "XX-Attachments/Images/Pasted image 20230318175722.png",
