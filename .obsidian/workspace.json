@@ -193,7 +193,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -238,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/AlgorithmConcepts/Union_find.md",
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -270,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/AlgorithmConcepts/Union_find.md"
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
               }
             }
           }
@@ -294,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/AlgorithmConcepts/Union_find.md"
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
               }
             }
           },
@@ -320,7 +320,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/AlgorithmConcepts/Union_find.md",
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -367,13 +367,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0d1012b3d177dcfc",
+  "active": "afcac0466d61169c",
   "lastOpenFiles": [
+    "Algorithms/AlgorithmConcepts/Union_find.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
-    "Algorithms/AlgorithmConcepts/Union_find.md",
     "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
