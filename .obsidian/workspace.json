@@ -159,7 +159,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -180,7 +180,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -225,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/AlgorithmConcepts/Union_find.md",
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/AlgorithmConcepts/Union_find.md"
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
               }
             }
           }
@@ -281,7 +281,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/AlgorithmConcepts/Union_find.md"
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
               }
             }
           },
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/AlgorithmConcepts/Union_find.md",
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,11 +354,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5e668093a0a0d5d1",
+  "active": "afcac0466d61169c",
   "lastOpenFiles": [
+    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
+    "Algorithms/AlgorithmConcepts/Union_find.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
-    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
     "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
@@ -383,7 +384,6 @@
     "DataStructures/Trees.md",
     "OperatingSystems/Caching.md",
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "Algorithms/SearchAlgorithms",
     "XX-Attachments/Images/Pasted image 20230318175738.png",
     "XX-Attachments/Images/Pasted image 20230318175722.png",

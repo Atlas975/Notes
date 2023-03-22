@@ -15,20 +15,21 @@
 ___
 # Union find
 - The union find algorithm counts the number of connected components in a graph 
-## Union find algorithm 
 >$$\text{time complexity: }O(\log n)$$
 >$$\text{space complexity: } O(n)$$
+## Union find algorithm 
 
 ```python
 class UnionFind:
     def count_components(self, edges) -> int:
-        nodes = {n for edge in edges for n in edge}
+        nodes = set(n for n1, n2 in edges for n in (n1, n2))
         parent = {n: n for n in nodes}
         rank = {n: 1 for n in nodes}
 
         def find(u):
-            while (u := parent[u]) != parent[u]:
+            while u != parent[u]:
                 parent[u] = parent[parent[u]]
+                u = parent[u]
             return u
 
         def union(u, v):
@@ -50,7 +51,7 @@ class UnionFind:
             res -= union(n1, n2)
         return res
 
-print("(0 -> 1 -> 2)   (3 –> 4)\nNumber of connected components: ", end="")
+print("(0 -> 1 -> 2) (3 -> 4)\nNumber of connected components: ", end="")
 print(UnionFind().count_components([[0, 1], [1, 2], [3, 4]]))
 ```
 ## Union find API 
