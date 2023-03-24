@@ -274,7 +274,30 @@ def valid_tree(self, n: int, edges: List[List[int]]) -> bool:
 ```
 
 ## Word ladder **(Bi-directional BFS)**
+```python
+def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
+    wordSet = set(wordList)
+    if endWord not in wordSet:
+        return 0
+    bq, eq = deque([(1, beginWord)]), deque([(1, endWord)])
+    bpos, epos = {beginWord: 1}, {endWord: 1}
 
+    while bq and eq:
+        level = bq[0][0]
+        while bq and level == bq[0][0]:
+            dist, word = bq.popleft()
+            for (i,c), letter in product(enumerate(word), ascii_lowercase):
+                for letter in filter(lambda x: x != c, ascii_lowercase):
+                    if (nw := word[:i] + letter + word[i+1:]) in wordSet:
+                        if nw in epos:
+                            return dist + epos[nw]
+                        if nw not in bpos:
+                            bpos[nw] = dist + 1
+                            bq.append((dist+1, nw))
+        if len(bq) > len(eq):
+            bq, bpos, eq, epos = eq, epos, bq, bpos
+    return 0
+```
 ## Network delay time 
 ```python
 def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
