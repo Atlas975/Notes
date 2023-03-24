@@ -159,7 +159,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -251,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +283,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
+                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md"
               }
             }
           }
@@ -307,7 +307,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
+                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md"
               }
             }
           },
@@ -333,7 +333,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -382,8 +382,11 @@
   },
   "active": "afcac0466d61169c",
   "lastOpenFiles": [
-    "ProgramLanguages/Rust/Rust_language.md",
+    "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
+    "Algorithms/SearchAlgorithms/Search_algorithms.md",
+    "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+    "ProgramLanguages/Rust/Rust_language.md",
     "Algorithms/AlgorithmConcepts/Union_find.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
@@ -391,11 +394,8 @@
     "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
-    "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
-    "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
     "Databases/Relational_algebra.md",
     "ContinuousMath/Catalan_numbers.md",
-    "Algorithms/SearchAlgorithms/Search_algorithms.md",
     "DataStructures/CacheStructures/LRU.md",
     "00-Main/1-Litnote.md",
     "XX-Attachments/Images/Pasted image 20230321211944.png",
