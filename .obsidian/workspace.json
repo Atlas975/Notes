@@ -159,7 +159,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md",
+                "file": "SoftwareEngineering/Concurrency.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a0fc7c800f447ce3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/Operating_system_design.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d22d7f83e04eaf9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/AlgorithmConcepts/Graph_traversal.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6e0faa214bfd1e34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -206,7 +245,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -251,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md",
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +322,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md"
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
               }
             }
           }
@@ -307,7 +346,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md"
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
               }
             }
           },
@@ -333,7 +372,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md",
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -380,8 +419,21 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "afcac0466d61169c",
+  "active": "6e0faa214bfd1e34",
   "lastOpenFiles": [
+    "Algorithms/AlgorithmConcepts/Graph_traversal.md",
+    "OperatingSystems/Operating_system_design.md",
+    "OperatingSystems/Caching.md",
+    "ProgramLanguages/x86_assembly.md",
+    "OperatingSystems/Virtualisation.md",
+    "Databases/Database_design.md",
+    "Databases/Relational_algebra.md",
+    "Databases/Database_systems.md",
+    "Databases/Database_normalisation.md",
+    "Databases/Database_relations.md",
+    "SoftwareEngineering/Concurrency.md",
+    "SoftwareDesign/BSPL.md",
+    "SoftwareDesign/Entity_relationship_model.md",
     "SoftwareDesign/Software_architecture.md",
     "SoftwareDesign/Software_planning.md",
     "SoftwareDesign/UML_diagrams.md",
@@ -395,19 +447,6 @@
     "Networking/Checksum.md",
     "Networking/Application_architecture.md",
     "Networking/Header_types.md",
-    "Networking/Internet_protocols.md",
-    "Networking/Transmission_mediums.md",
-    "Networking/Network_topology.md",
-    "Networking/Network_delay.md",
-    "Networking/Network_architecture.md",
-    "Networking/Routing_protocols.md",
-    "Networking/Routing_methods.md",
-    "Networking/Network_tools.md",
-    "Networking/TransmissionProtocols/Transmission_protocols.md",
-    "OperatingSystems/FileSystems/Unix_file_system.md",
-    "OperatingSystems/FileSystems/File_allocation_schemes.md",
-    "OperatingSystems/Caching.md",
-    "OperatingSystems/Computer_memory.md",
     "XX-Attachments/Images/Pasted image 20230321211944.png",
     "XX-Attachments/Images/Pasted image 20230321211616.png",
     "Algorithms/SearchAlgorithms",
