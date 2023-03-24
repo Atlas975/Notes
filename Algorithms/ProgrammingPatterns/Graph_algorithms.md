@@ -134,8 +134,7 @@ def orangesRotting(self, grid: List[List[int]]) -> int:
             q.append((r, c))
 
     while fresh and q:
-        qlen = len(q)
-        for _ in range(qlen):
+        for _ in range(len(q)):
             r, c = q.popleft()
             for dr, dc in ((r - 1, c), (r + 1, c), (r, c - 1), (r, c + 1)):
                 if 0 <= dr < n and 0 <= dc < m and grid[dr][dc] == 1:
