@@ -283,17 +283,18 @@ def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int
     bpos, epos = {beginWord: 1}, {endWord: 1}
 
     while bq and eq:
-        level = bq[0][0]
-        while bq and level == bq[0][0]:
+        for _ in range(len(bq)):
             dist, word = bq.popleft()
-            for (i,c), letter in product(enumerate(word), ascii_lowercase):
-                for letter in filter(lambda x: x != c, ascii_lowercase):
-                    if (nw := word[:i] + letter + word[i+1:]) in wordSet:
-                        if nw in epos:
-                            return dist + epos[nw]
-                        if nw not in bpos:
-                            bpos[nw] = dist + 1
-                            bq.append((dist+1, nw))
+            for i, c in enumerate(word):
+                begin, end = word[:i], word[i + 1 :]
+                for l in (l for l in ascii_lowercase if l != c):
+                    nw = begin + l + end
+                    if (nw not in wordSet) or (nw in bpos):
+                        continue
+                    if nw in epos:
+                        return dist + epos[nw]
+                    bpos[nw] = dist + 1
+                    bq.append((dist + 1, nw))
         if len(bq) > len(eq):
             bq, bpos, eq, epos = eq, epos, bq, bpos
     return 0
