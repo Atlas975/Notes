@@ -138,7 +138,7 @@ ___
 - Can fall victim to electrical noise which will distort data.
 - Only fast I/O should be attached directly to the main memory bus
 
-![[Pasted image 20221127154625.png|500]]
+![[Pasted image 20221127154625.png|400|400]]
 
 - Slowest input device acts as a bottleneck, making memory only as fast as itself
 - Not optimal for devices that need slow I/O mechanical items
@@ -147,7 +147,7 @@ ___
 - Dedicated instructions for I/O, acts as a separate memory bus
 - This means no special hardware requirements or special chips to attach to memory bus
 
-![[Pasted image 20221127155307.png|450|450]]
+![[Pasted image 20221127155307.png|400|400]]
 
 - Best suited for simple devices as classifying devices through abstraction doesn't help much when using limited instructions.
 - A common data bus can be used but a control line is also needed to distinguish between read/write

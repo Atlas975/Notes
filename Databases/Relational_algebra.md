@@ -55,8 +55,7 @@ ___
 
 ## Cartesian product
 
-![[Pasted image 20230206125012.png|500|500]]
-![[Pasted image 20230206125522.png|500|500]]
+![[Pasted image 20230206125012.png|500|500]]![[Pasted image 20230206125522.png|500|500]]
 
 ## Join
 

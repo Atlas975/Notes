@@ -159,7 +159,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
+                "file": "SoftwareDesign/Entity_relationship_model.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -251,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
+                "file": "SoftwareDesign/Entity_relationship_model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +283,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md"
+                "file": "SoftwareDesign/Entity_relationship_model.md"
               }
             }
           }
@@ -307,7 +307,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md"
+                "file": "SoftwareDesign/Entity_relationship_model.md"
               }
             }
           },
@@ -333,7 +333,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
+                "file": "SoftwareDesign/Entity_relationship_model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -382,34 +382,34 @@
   },
   "active": "afcac0466d61169c",
   "lastOpenFiles": [
-    "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
-    "Algorithms/SearchAlgorithms/Search_algorithms.md",
-    "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
-    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-    "ProgramLanguages/Rust/Rust_language.md",
-    "Algorithms/AlgorithmConcepts/Union_find.md",
-    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
-    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
-    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
-    "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
-    "Databases/Relational_algebra.md",
-    "ContinuousMath/Catalan_numbers.md",
-    "DataStructures/CacheStructures/LRU.md",
-    "00-Main/1-Litnote.md",
+    "SoftwareDesign/Software_architecture.md",
+    "SoftwareDesign/Software_planning.md",
+    "SoftwareDesign/UML_diagrams.md",
+    "SoftwareDesign/SOLID_principles.md",
+    "SoftwareDesign/Test_types.md",
+    "SoftwarePatterns/Behavioral/Observer_pattern.md",
+    "SoftwarePatterns/Creational/Builder_pattern.md",
+    "SoftwarePatterns/Structural/Proxy_pattern.md",
+    "Networking/TransmissionProtocols/Domain_name_server.md",
+    "Networking/TransmissionProtocols/Simple_mail_transfer_protocol.md",
+    "Networking/Checksum.md",
+    "Networking/Application_architecture.md",
+    "Networking/Header_types.md",
+    "Networking/Internet_protocols.md",
+    "Networking/Transmission_mediums.md",
+    "Networking/Network_topology.md",
+    "Networking/Network_delay.md",
+    "Networking/Network_architecture.md",
+    "Networking/Routing_protocols.md",
+    "Networking/Routing_methods.md",
+    "Networking/Network_tools.md",
+    "Networking/TransmissionProtocols/Transmission_protocols.md",
+    "OperatingSystems/FileSystems/Unix_file_system.md",
+    "OperatingSystems/FileSystems/File_allocation_schemes.md",
+    "OperatingSystems/Caching.md",
+    "OperatingSystems/Computer_memory.md",
     "XX-Attachments/Images/Pasted image 20230321211944.png",
     "XX-Attachments/Images/Pasted image 20230321211616.png",
-    "Databases/Database_storage.md",
-    "Databases/Database_keys.md",
-    "Networking/Routing_methods.md",
-    "DataStructures/Abstract_data_types.md",
-    "DataStructures/Graphs.md",
-    "DataStructures/Sets.md",
-    "DataStructures/RadixTrees.md",
-    "DataStructures/Hashing.md",
-    "DataStructures/DataStorage&Retrieval.md",
-    "DataStructures/CacheStructures/LFU.md",
     "Algorithms/SearchAlgorithms",
     "XX-Attachments/Images/Pasted image 20230318175738.png",
     "XX-Attachments/Images/Pasted image 20230318175722.png",
