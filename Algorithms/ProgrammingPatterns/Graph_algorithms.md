@@ -275,28 +275,31 @@ def valid_tree(self, n: int, edges: List[List[int]]) -> bool:
 ## Word ladder **(Bi-directional BFS)**
 ```python
 def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
-    wordSet = set(wordList)
-    if endWord not in wordSet:
+    self.word_set = set(wordList)
+    if endWord not in self.word_set:
         return 0
     bq, eq = deque([(1, beginWord)]), deque([(1, endWord)])
     bpos, epos = {beginWord: 1}, {endWord: 1}
 
     while bq and eq:
-        for _ in range(len(bq)):
-            dist, word = bq.popleft()
-            for i, c in enumerate(word):
-                begin, end = word[:i], word[i + 1 :]
-                for l in (l for l in ascii_lowercase if l != c):
-                    nw = begin + l + end
-                    if (nw not in wordSet) or (nw in bpos):
-                        continue
-                    if nw in epos:
-                        return dist + epos[nw]
+        if dist := self.directed_bfs(bq, bpos, epos):
+            return dist
+        if len(bq) > len(eq):
+            bq, eq = eq, bq
+            bpos, epos = epos, bpos
+    return 0
+
+def directed_bfs(self, bq: deque, bpos: dict, epos: dict) -> Optional[int]:
+    for dist, w in (bq.popleft() for _ in range(len(bq))):
+        for c, st, en in ((c, w[:i], w[i + 1 :]) for i, c in enumerate(w)):
+            for l in (l for l in ascii_lowercase if l != c):
+                if (nw := st + l + en) in epos:
+                    return dist + epos[nw]
+                if nw in self.word_set:
                     bpos[nw] = dist + 1
                     bq.append((dist + 1, nw))
-        if len(bq) > len(eq):
-            bq, bpos, eq, epos = eq, epos, bq, bpos
-    return 0
+                    self.word_set.remove(nw)
+    return None
 ```
 ## Network delay time 
 ```python
