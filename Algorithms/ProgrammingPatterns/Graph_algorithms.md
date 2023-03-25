@@ -284,7 +284,7 @@ def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int
     def directed_bfs(bq: deque, bpos: dict, epos: dict) -> Optional[int]:
         for dist, w in (bq.popleft() for _ in range(len(bq))):
             for c, st, en in ((c, w[:i], w[i + 1 :]) for i, c in enumerate(w)):
-                for nw in (st + mi + en for mi in ascii_lowercase if mi != c):
+                for nw in (f"{st}{l}{en}" for l in ascii_lowercase if l != c):
                     if nw in epos:
                         return dist + epos[nw]
                     if nw in word_set:
@@ -297,8 +297,7 @@ def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int
         if res := directed_bfs(bq, bpos, epos):
             return res
         if len(bq) > len(eq):
-            bq, eq = eq, bq
-            bpos, epos = epos, bpos
+            bq, bpos, eq, epos = eq, epos, bq, bpos
     return 0
 ```
 ## Network delay time 
