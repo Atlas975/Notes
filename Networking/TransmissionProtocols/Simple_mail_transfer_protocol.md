@@ -20,7 +20,7 @@ ___
 
 ![[Pasted image 20230318173233.png|450|450]]
 
-- SMTP works on the [[Internet_protocols#Application layer|Application layer]] and used TCP for reliable email transfer between mail servers, runs on TCP [[Network_architecture#Network port|port 25]]
+- SMTP works on the [[Protocol_stack#Application layer|Application layer]] and used TCP for reliable email transfer between mail servers, runs on TCP [[Network_architecture#Network port|port 25]]
 - Command/response style interaction akin to [[Hypertext_transfer_protocol|HTTP]] with a three phase transfer and  a persistent connection between hosts
 	1. Handshake
 	2. Transfer of message 

@@ -17,7 +17,7 @@ aliases: IP, internet protocol
 > ```
 
 ___
-# Internet protocols
+# Protocol stack
 - The rules the sender, receiver and devices need to follow for effective data communication.
 - Part of **transport layer** of the OSI model, defines when, how and what is communicated,  it also defines the format of data for allowing accurate and timely data transmission.
 - TCP/ IP was developed to allow for this to be done between distinct networks

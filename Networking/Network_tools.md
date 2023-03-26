@@ -45,7 +45,7 @@ ___
 
 
 ## Traceroute
-- A network diagnostic tool used to trace the path that an [[Internet_protocols|IP]] packet takes from two networked device. Provides information about the routing path and network latency.
+- A network diagnostic tool used to trace the path that an [[Protocol_stack|IP]] packet takes from two networked device. Provides information about the routing path and network latency.
 - This works by measuring RTT, sending three packets to a router that lies on path to destination and measures lag between transmission and reply
 
 ![[Pasted image 20230210180038.png|450|450]]

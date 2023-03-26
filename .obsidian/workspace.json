@@ -198,8 +198,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-                "mode": "source",
+                "file": "Networking/TransmissionProtocols/Simple_mail_transfer_protocol.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+                "file": "Networking/TransmissionProtocols/Simple_mail_transfer_protocol.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -322,7 +322,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
+                "file": "Networking/TransmissionProtocols/Simple_mail_transfer_protocol.md"
               }
             }
           }
@@ -346,7 +346,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
+                "file": "Networking/TransmissionProtocols/Simple_mail_transfer_protocol.md"
               }
             }
           },
@@ -372,7 +372,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+                "file": "Networking/TransmissionProtocols/Simple_mail_transfer_protocol.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -421,32 +421,32 @@
   },
   "active": "6e0faa214bfd1e34",
   "lastOpenFiles": [
+    "Networking/TransmissionProtocols/Hypertext_transfer_protocol.md",
+    "Networking/TransmissionProtocols/Domain_name_server.md",
+    "Networking/Application_architecture.md",
+    "Networking/Network_architecture.md",
+    "Networking/Network_topology.md",
+    "Networking/Header_types.md",
+    "Networking/Network_delay.md",
+    "Networking/Network_tools.md",
+    "Networking/Protocol_stack.md",
+    "Networking/Routing_protocols.md",
+    "Networking/Transmission_mediums.md",
+    "Networking/Routing_methods.md",
+    "Databases/Database_storage.md",
+    "Databases/Relational_algebra.md",
+    "Databases/Database_systems.md",
+    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/AlgorithmConcepts/Graph_traversal.md",
     "OperatingSystems/Operating_system_design.md",
     "OperatingSystems/Caching.md",
     "ProgramLanguages/x86_assembly.md",
     "OperatingSystems/Virtualisation.md",
     "Databases/Database_design.md",
-    "Databases/Relational_algebra.md",
-    "Databases/Database_systems.md",
     "Databases/Database_normalisation.md",
     "Databases/Database_relations.md",
     "SoftwareEngineering/Concurrency.md",
     "SoftwareDesign/BSPL.md",
-    "SoftwareDesign/Entity_relationship_model.md",
-    "SoftwareDesign/Software_architecture.md",
-    "SoftwareDesign/Software_planning.md",
-    "SoftwareDesign/UML_diagrams.md",
-    "SoftwareDesign/SOLID_principles.md",
-    "SoftwareDesign/Test_types.md",
-    "SoftwarePatterns/Behavioral/Observer_pattern.md",
-    "SoftwarePatterns/Creational/Builder_pattern.md",
-    "SoftwarePatterns/Structural/Proxy_pattern.md",
-    "Networking/TransmissionProtocols/Domain_name_server.md",
-    "Networking/TransmissionProtocols/Simple_mail_transfer_protocol.md",
-    "Networking/Checksum.md",
-    "Networking/Application_architecture.md",
-    "Networking/Header_types.md",
     "XX-Attachments/Images/Pasted image 20230321211944.png",
     "XX-Attachments/Images/Pasted image 20230321211616.png",
     "Algorithms/SearchAlgorithms",
