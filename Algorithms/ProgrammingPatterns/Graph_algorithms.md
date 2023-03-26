@@ -281,23 +281,20 @@ def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int
     bq, eq = deque([(1, beginWord)]), deque([(1, endWord)])
     bpos, epos = {beginWord: 1}, {endWord: 1}
 
-    def directed_bfs(bq: deque, bpos: dict, epos: dict) -> Optional[int]:
-        for dist, w in (bq.popleft() for _ in range(len(bq))):
-            for c, st, en in ((c, w[:i], w[i + 1 :]) for i, c in enumerate(w)):
-                for nw in (f"{st}{l}{en}" for l in ascii_lowercase if l != c):
-                    if nw in epos:
-                        return dist + epos[nw]
+    def bfs(bq: deque, bp: dict, ep: dict) -> Optional[int]:
+        for bdist, w in (bq.popleft() for _ in range(len(bq))):
+            for st, c, en in ((w[:i], c, w[i + 1 :]) for i, c in enumerate(w)):
+                for nw in (st + l + en for l in ascii_lowercase if l != c):
+                    if edist := ep.get(nw):
+                        return bdist + edist
                     if nw in word_set:
-                        bpos[nw] = dist + 1
-                        bq.append((dist + 1, nw))
+                        bp[nw] = bdist + 1
+                        bq.append((bdist + 1, nw))
                         word_set.remove(nw)
-        return None
 
     while bq and eq:
-        if res := directed_bfs(bq, bpos, epos):
+        if res := bfs(bq, bpos, epos) if len(bq) < len(eq) else bfs(eq, epos, bpos):
             return res
-        if len(bq) > len(eq):
-            bq, bpos, eq, epos = eq, epos, bq, bpos
     return 0
 ```
 ## Network delay time 
