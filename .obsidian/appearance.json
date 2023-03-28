@@ -11,9 +11,9 @@
   "showViewHeader": false,
   "nativeMenus": false,
   "enabledCssSnippets": [
-    "custom-admonitions.82cf9a",
     "dashboard",
     "center_items",
+    "custom-admonitions.82cf9a",
     "nord_col"
   ]
 }
