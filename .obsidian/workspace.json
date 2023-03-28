@@ -172,7 +172,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
+                "file": "OperatingSystems/Multi-Process_systems.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -316,7 +316,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
+                "file": "OperatingSystems/Multi-Process_systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -348,7 +348,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Interval_algorithms.md"
+                "file": "OperatingSystems/Multi-Process_systems.md"
               }
             }
           }
@@ -372,7 +372,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Interval_algorithms.md"
+                "file": "OperatingSystems/Multi-Process_systems.md"
               }
             }
           },
@@ -398,7 +398,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
+                "file": "OperatingSystems/Multi-Process_systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -447,6 +447,24 @@
   },
   "active": "a0fc7c800f447ce3",
   "lastOpenFiles": [
+    "OperatingSystems/Linux_permissions.md",
+    "Databases/Database_normalisation.md",
+    "SoftwareDesign/BSPL.md",
+    "SoftwareDesign/Entity_relationship_model.md",
+    "SoftwareDesign/Software_architecture.md",
+    "MachineLearning/Machine_learning_notation.md",
+    "MachineLearning/Detection_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Binary_search.md",
+    "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
+    "Algorithms/AlgorithmConcepts/Sorting_algorithms.md",
+    "Algorithms/AlgorithmConcepts/Union_find.md",
+    "SoftwareDesign/SOLID_principles.md",
+    "SoftwareDesign/Test_types.md",
+    "SoftwareEngineering/Multiagent_systems.md",
+    "SoftwarePatterns/Creational/Builder_pattern.md",
+    "MachineLearning/Neural_networks.md",
+    "MachineLearning/Logistic_regression.md",
+    "MachineLearning/Feature_scaling.md",
     "Networking/Header_types.md",
     "Networking/Internet_architecture.md",
     "Networking/Network_architecture.md",
@@ -455,24 +473,6 @@
     "Networking/Protocol_stack.md",
     "Networking/Routing_methods.md",
     "Networking/Routing_protocols.md",
-    "Networking/Transmission_mediums.md",
-    "OperatingSystems/Operating_system_design.md",
-    "Networking/Checksum.md",
-    "Networking/TransmissionProtocols/Hypertext_transfer_protocol.md",
-    "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-    "Networking/Network_topology.md",
-    "Networking/TransmissionProtocols/Transmission_protocols.md",
-    "Networking/Application_architecture.md",
-    "Networking/TransmissionProtocols/Simple_mail_transfer_protocol.md",
-    "Networking/TransmissionProtocols/Domain_name_server.md",
-    "Databases/Database_storage.md",
-    "Databases/Relational_algebra.md",
-    "Databases/Database_systems.md",
-    "Algorithms/AlgorithmConcepts/Graph_traversal.md",
-    "OperatingSystems/Caching.md",
-    "ProgramLanguages/x86_assembly.md",
-    "OperatingSystems/Virtualisation.md",
     "XX-Attachments/Images/Pasted image 20230321211944.png",
     "XX-Attachments/Images/Pasted image 20230321211616.png",
     "Algorithms/SearchAlgorithms",
