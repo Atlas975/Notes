@@ -1,0 +1,161 @@
+{
+  "main": {
+    "id": "9f48eba8a64b259f",
+    "type": "split",
+    "children": [
+      {
+        "id": "3378d810fc77e4ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fc57933dae98a8f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/AlgorithmConcepts/GeneralTricks/Code_tricks.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "51107077476ac2d1",
+    "type": "split",
+    "children": [
+      {
+        "id": "0e5f2642d01fa6c4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c98ce42b6ddc5dd5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2355fa318b2b4396",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "68cb295eba597c90",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "247b66dcf6ca45ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed4bb1bc63038662",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c1739c764143dd64",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Algorithms/AlgorithmConcepts/GeneralTricks/Code_tricks.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c1f1432cdec7b517",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Algorithms/AlgorithmConcepts/GeneralTricks/Code_tricks.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ad337b124ed3c71b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c53fbdcd0ef33c4d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Algorithms/AlgorithmConcepts/GeneralTricks/Code_tricks.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "fc57933dae98a8f6",
+  "lastOpenFiles": [
+    "DataStructures/RadixTrees.md",
+    "ProgramLanguages/Python/Python_stats.md",
+    "MachineLearning/0-CoursesPart2/DeepLearningCourse/BinaryClassification.md",
+    "ProgramLanguages/Python/Seaborn_library.md",
+    "MachineLearning/Activation_functions.md",
+    "00-Main/2-Litnote.md",
+    "ProgramLanguages/Python/Matplotlib_library.md",
+    "Algorithms/AlgorithmConcepts/GeneralTricks/Math_tricks.md"
+  ]
+}
