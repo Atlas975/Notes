@@ -8,133 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "94a02d10cbad80c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/SQL/SQL_relations.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ff210425d5d4697a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Network_topology.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aa0bc3070136a4f0",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "5455a99a2d77ae4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SoftwareDesign/Entity_relationship_model.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d9baf7a77c9a5c37",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Application_architecture.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0cef740daeac2b1e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e1f52a88798086a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Database_storage.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "15687dc45ab742af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Relational_algebra.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f6a03816be5bdde8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Routing_methods.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f7304c1579d5410e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
             "id": "9ce25fe12bbcebe0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -172,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md",
+                "file": "ProgramLanguages/Git.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -270,8 +150,7 @@
               }
             }
           }
-        ],
-        "currentTab": 13
+        ]
       }
     ],
     "direction": "vertical"
@@ -316,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md",
+                "file": "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -348,7 +227,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md"
+                "file": "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md"
               }
             }
           }
@@ -356,7 +235,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5046501159668
+    "width": 259.5046501159668,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -372,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md"
+                "file": "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md"
               }
             }
           },
@@ -398,7 +278,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md",
+                "file": "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -445,13 +325,27 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a0fc7c800f447ce3",
+  "active": "9ce25fe12bbcebe0",
   "lastOpenFiles": [
+    "Networking/Routing_methods.md",
+    "Databases/Relational_algebra.md",
+    "Databases/Database_storage.md",
+    "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
+    "Networking/Application_architecture.md",
+    "SoftwareDesign/Entity_relationship_model.md",
+    "ProgramLanguages/SQL/SQL_relations.md",
+    "Networking/Network_topology.md",
+    "ProgramLanguages/Git.md",
+    "ProgramLanguages/HTML.md",
+    "ProgramLanguages/Python/Pandas_library.md",
+    "MachineLearning/Gradient_descent.md",
+    "MachineLearning/Linear_regression.md",
+    "MachineLearning/Logistic_regression.md",
+    "OperatingSystems/Computer_memory.md",
     "OperatingSystems/Multi-Process_systems.md",
     "OperatingSystems/Linux_permissions.md",
     "Databases/Database_normalisation.md",
     "SoftwareDesign/BSPL.md",
-    "SoftwareDesign/Entity_relationship_model.md",
     "SoftwareDesign/Software_architecture.md",
     "MachineLearning/Machine_learning_notation.md",
     "MachineLearning/Detection_algorithms.md",
@@ -459,20 +353,6 @@
     "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
     "Algorithms/AlgorithmConcepts/Sorting_algorithms.md",
     "Algorithms/AlgorithmConcepts/Union_find.md",
-    "SoftwareDesign/SOLID_principles.md",
-    "SoftwareDesign/Test_types.md",
-    "SoftwareEngineering/Multiagent_systems.md",
-    "SoftwarePatterns/Creational/Builder_pattern.md",
-    "MachineLearning/Neural_networks.md",
-    "MachineLearning/Logistic_regression.md",
-    "MachineLearning/Feature_scaling.md",
-    "Networking/Header_types.md",
-    "Networking/Internet_architecture.md",
-    "Networking/Network_architecture.md",
-    "Networking/Network_delay.md",
-    "Networking/Network_tools.md",
-    "Networking/Protocol_stack.md",
-    "Networking/Routing_methods.md",
     "XX-Attachments/Images/Pasted image 20230321211944.png",
     "XX-Attachments/Images/Pasted image 20230321211616.png",
     "Algorithms/SearchAlgorithms",
