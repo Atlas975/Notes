@@ -40,3 +40,8 @@ def bellman_ford(graph, origin) -> dict:  # O(VE) time, O(V) space
                 raise ValueError("negative cycle detected")
     return distmp
 ```
+
+
+
+
+

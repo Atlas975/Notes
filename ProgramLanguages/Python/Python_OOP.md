@@ -52,3 +52,4 @@ class GizmoAccountingSystem(AccountingSystem):
     def create_sale_invoice(self, sale):
         print(sale + 1)
 ```
+
