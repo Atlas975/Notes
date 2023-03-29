@@ -172,7 +172,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md",
+                "file": "ProgramLanguages/Git.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -316,7 +316,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md",
+                "file": "ProgramLanguages/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -348,7 +348,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md"
+                "file": "ProgramLanguages/Git.md"
               }
             }
           }
@@ -372,7 +372,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md"
+                "file": "ProgramLanguages/Git.md"
               }
             }
           },
@@ -398,7 +398,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Computer_memory.md",
+                "file": "ProgramLanguages/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -447,6 +447,12 @@
   },
   "active": "a0fc7c800f447ce3",
   "lastOpenFiles": [
+    "ProgramLanguages/HTML.md",
+    "ProgramLanguages/Python/Pandas_library.md",
+    "MachineLearning/Gradient_descent.md",
+    "MachineLearning/Linear_regression.md",
+    "MachineLearning/Logistic_regression.md",
+    "OperatingSystems/Computer_memory.md",
     "OperatingSystems/Multi-Process_systems.md",
     "OperatingSystems/Linux_permissions.md",
     "Databases/Database_normalisation.md",
@@ -464,15 +470,9 @@
     "SoftwareEngineering/Multiagent_systems.md",
     "SoftwarePatterns/Creational/Builder_pattern.md",
     "MachineLearning/Neural_networks.md",
-    "MachineLearning/Logistic_regression.md",
     "MachineLearning/Feature_scaling.md",
     "Networking/Header_types.md",
     "Networking/Internet_architecture.md",
-    "Networking/Network_architecture.md",
-    "Networking/Network_delay.md",
-    "Networking/Network_tools.md",
-    "Networking/Protocol_stack.md",
-    "Networking/Routing_methods.md",
     "XX-Attachments/Images/Pasted image 20230321211944.png",
     "XX-Attachments/Images/Pasted image 20230321211616.png",
     "Algorithms/SearchAlgorithms",
