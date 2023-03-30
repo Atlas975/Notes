@@ -125,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Transmission_mediums.md",
+                "file": "SoftwareEngineering/Recursion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Transmission_mediums.md"
+                "file": "SoftwareEngineering/Recursion.md"
               }
             }
           }
@@ -226,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Transmission_mediums.md"
+                "file": "SoftwareEngineering/Recursion.md"
               }
             }
           },
@@ -252,7 +252,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Transmission_mediums.md",
+                "file": "SoftwareEngineering/Recursion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -299,8 +299,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "61b6b073dac95afd",
+  "active": "e438cfcfa989fa72",
   "lastOpenFiles": [
+    "Networking/Transmission_mediums.md",
     "SoftwareEngineering/Concurrency.md",
     "ProgramLanguages/Git.md",
     "Algorithms/AlgorithmConcepts/Graph_traversal.md",
@@ -330,7 +331,6 @@
     "Networking/Network_topology.md",
     "ProgramLanguages/HTML.md",
     "MachineLearning/Gradient_descent.md",
-    "MachineLearning/Linear_regression.md",
     "XX-Attachments/Images/Pasted image 20230321211944.png",
     "XX-Attachments/Images/Pasted image 20230321211616.png",
     "Algorithms/SearchAlgorithms",
