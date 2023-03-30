@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+                "file": "ProgramLanguages/Python/Pandas_library.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -196,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+                "file": "ProgramLanguages/Python/Pandas_library.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -228,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
+                "file": "ProgramLanguages/Python/Pandas_library.md"
               }
             }
           }
@@ -252,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
+                "file": "ProgramLanguages/Python/Pandas_library.md"
               }
             }
           },
@@ -278,7 +278,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+                "file": "ProgramLanguages/Python/Pandas_library.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -327,6 +327,8 @@
   },
   "active": "e438cfcfa989fa72",
   "lastOpenFiles": [
+    "ProgramLanguages/Python/Python_stats.md",
+    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "ProgramLanguages/Python/Python_OOP.md",
     "XX-Attachments/Images/Pasted image 20230329172009.png",
     "ProgramLanguages/Python/Pytorch_libarary.md",
@@ -355,8 +357,6 @@
     "Databases/Database_normalisation.md",
     "SoftwareDesign/BSPL.md",
     "SoftwareDesign/Software_architecture.md",
-    "MachineLearning/Machine_learning_notation.md",
-    "MachineLearning/Detection_algorithms.md",
     "XX-Attachments/Images/Pasted image 20230321211944.png",
     "XX-Attachments/Images/Pasted image 20230321211616.png",
     "Algorithms/SearchAlgorithms",
