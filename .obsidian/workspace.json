@@ -91,8 +91,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgramLanguages/Python/Pandas_library.md",
-                "mode": "preview",
+                "file": "SoftwarePatterns/Creational/Builder_pattern.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -196,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/Python/Pandas_library.md",
+                "file": "SoftwarePatterns/Creational/Builder_pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -228,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/Python/Pandas_library.md"
+                "file": "SoftwarePatterns/Creational/Builder_pattern.md"
               }
             }
           }
@@ -252,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/Python/Pandas_library.md"
+                "file": "SoftwarePatterns/Creational/Builder_pattern.md"
               }
             }
           },
@@ -278,7 +278,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/Python/Pandas_library.md",
+                "file": "SoftwarePatterns/Creational/Builder_pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -327,6 +327,9 @@
   },
   "active": "e438cfcfa989fa72",
   "lastOpenFiles": [
+    "SoftwareEngineering/Recursion.md",
+    "SoftwareEngineering/Multiagent_systems.md",
+    "ProgramLanguages/Python/Pandas_library.md",
     "ProgramLanguages/Python/Python_stats.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "ProgramLanguages/Python/Python_OOP.md",
@@ -347,7 +350,6 @@
     "Networking/Network_topology.md",
     "ProgramLanguages/Git.md",
     "ProgramLanguages/HTML.md",
-    "ProgramLanguages/Python/Pandas_library.md",
     "MachineLearning/Gradient_descent.md",
     "MachineLearning/Linear_regression.md",
     "MachineLearning/Logistic_regression.md",
@@ -355,8 +357,6 @@
     "OperatingSystems/Multi-Process_systems.md",
     "OperatingSystems/Linux_permissions.md",
     "Databases/Database_normalisation.md",
-    "SoftwareDesign/BSPL.md",
-    "SoftwareDesign/Software_architecture.md",
     "XX-Attachments/Images/Pasted image 20230321211944.png",
     "XX-Attachments/Images/Pasted image 20230321211616.png",
     "Algorithms/SearchAlgorithms",
