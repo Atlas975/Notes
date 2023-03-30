@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "SoftwareEngineering/Concurrency.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -125,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareEngineering/Concurrency.md",
+                "file": "Networking/Transmission_mediums.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareEngineering/Concurrency.md"
+                "file": "Networking/Transmission_mediums.md"
               }
             }
           }
@@ -226,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareEngineering/Concurrency.md"
+                "file": "Networking/Transmission_mediums.md"
               }
             }
           },
@@ -252,7 +252,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareEngineering/Concurrency.md",
+                "file": "Networking/Transmission_mediums.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -299,8 +299,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "afcac0466d61169c",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
+    "SoftwareEngineering/Concurrency.md",
     "ProgramLanguages/Git.md",
     "Algorithms/AlgorithmConcepts/Graph_traversal.md",
     "Algorithms/SearchAlgorithms/Search_algorithms.md",
@@ -330,7 +331,6 @@
     "ProgramLanguages/HTML.md",
     "MachineLearning/Gradient_descent.md",
     "MachineLearning/Linear_regression.md",
-    "MachineLearning/Logistic_regression.md",
     "XX-Attachments/Images/Pasted image 20230321211944.png",
     "XX-Attachments/Images/Pasted image 20230321211616.png",
     "Algorithms/SearchAlgorithms",

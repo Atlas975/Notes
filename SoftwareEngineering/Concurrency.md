@@ -201,8 +201,8 @@ public class Semaphore {
 
 # Signaling
 - Signaling ensures that a consumer thread does not consume prior to a producer threads run`
-- **Bound buffers** help with the producer consumer problem, preventing values from being read twice and ensuring mutual exclusion of writer threads. 
 ## Producer consumer problem
+- **Bound buffers** help with the producer consumer problem, preventing values from being read twice and ensuring mutual exclusion of writer threads. 
 - Single producer, single consumer, values should be read once and only after a producer write
 ```java
 public class ProducerConsumerUnitBuffer {

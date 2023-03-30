@@ -332,9 +332,10 @@
   "workspace:previous-tab": [
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Mod"
       ],
-      "key": "PageUp"
+      "key": "ArrowLeft"
     }
   ],
   "cycle-through-panes:cycle-through-panes-reverse": [],
@@ -550,9 +551,10 @@
   "workspace:next-tab": [
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Mod"
       ],
-      "key": "PageDown"
+      "key": "ArrowRight"
     }
   ],
   "obsidian-editor-shortcuts:deleteToStartOfLine": [],
@@ -581,7 +583,7 @@
   "file-explorer:reveal-active-file": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
       "key": ","
     }
