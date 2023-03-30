@@ -289,7 +289,8 @@
   "app:go-back": [
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Ctrl"
       ],
       "key": "ArrowLeft"
     }
@@ -297,7 +298,8 @@
   "app:go-forward": [
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Ctrl"
       ],
       "key": "ArrowRight"
     }
@@ -585,5 +587,16 @@
     }
   ],
   "app:open-settings": [],
-  "table-editor-obsidian:right-align-column": []
+  "table-editor-obsidian:right-align-column": [],
+  "advanced-cursors:add-next-match-to-selections": [],
+  "obsidian-zoom:zoom-out": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "F"
+    }
+  ],
+  "obsidian-zoom:zoom-in": []
 }

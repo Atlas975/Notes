@@ -47,32 +47,6 @@
             }
           },
           {
-            "id": "a0fc7c800f447ce3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/Git.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d22d7f83e04eaf9d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/AlgorithmConcepts/Graph_traversal.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6e0faa214bfd1e34",
             "type": "leaf",
             "state": {
@@ -151,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -196,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/Git.md",
+                "file": "SoftwareEngineering/Concurrency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -228,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/Git.md"
+                "file": "SoftwareEngineering/Concurrency.md"
               }
             }
           }
@@ -252,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/Git.md"
+                "file": "SoftwareEngineering/Concurrency.md"
               }
             }
           },
@@ -278,7 +252,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/Git.md",
+                "file": "SoftwareEngineering/Concurrency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -325,10 +299,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a0fc7c800f447ce3",
+  "active": "afcac0466d61169c",
   "lastOpenFiles": [
-    "Algorithms/AlgorithmConcepts/Graph_traversal.md",
     "ProgramLanguages/Git.md",
+    "Algorithms/AlgorithmConcepts/Graph_traversal.md",
+    "Algorithms/SearchAlgorithms/Search_algorithms.md",
     "SoftwareEngineering/Recursion.md",
     "SoftwareEngineering/Multiagent_systems.md",
     "ProgramLanguages/Python/Pandas_library.md",
@@ -356,7 +331,6 @@
     "MachineLearning/Gradient_descent.md",
     "MachineLearning/Linear_regression.md",
     "MachineLearning/Logistic_regression.md",
-    "OperatingSystems/Computer_memory.md",
     "XX-Attachments/Images/Pasted image 20230321211944.png",
     "XX-Attachments/Images/Pasted image 20230321211616.png",
     "Algorithms/SearchAlgorithms",
