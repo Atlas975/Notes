@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/AlgorithmConcepts/Union_find.md",
+                "file": "SoftwareEngineering/Recursion.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -196,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/AlgorithmConcepts/Union_find.md",
+                "file": "SoftwareEngineering/Recursion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -228,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/AlgorithmConcepts/Union_find.md"
+                "file": "SoftwareEngineering/Recursion.md"
               }
             }
           }
@@ -252,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/AlgorithmConcepts/Union_find.md"
+                "file": "SoftwareEngineering/Recursion.md"
               }
             }
           },
@@ -278,7 +278,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/AlgorithmConcepts/Union_find.md",
+                "file": "SoftwareEngineering/Recursion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -327,10 +327,11 @@
   },
   "active": "e438cfcfa989fa72",
   "lastOpenFiles": [
-    "SoftwarePatterns/Creational/Builder_pattern.md",
-    "SoftwareEngineering/Recursion.md",
     "SoftwareEngineering/Multiagent_systems.md",
+    "SoftwareEngineering/Recursion.md",
     "ProgramLanguages/Python/Pandas_library.md",
+    "SoftwarePatterns/Creational/Builder_pattern.md",
+    "Algorithms/AlgorithmConcepts/Union_find.md",
     "ProgramLanguages/Python/Python_stats.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "ProgramLanguages/Python/Python_OOP.md",
@@ -356,7 +357,6 @@
     "MachineLearning/Logistic_regression.md",
     "OperatingSystems/Computer_memory.md",
     "OperatingSystems/Multi-Process_systems.md",
-    "OperatingSystems/Linux_permissions.md",
     "XX-Attachments/Images/Pasted image 20230321211944.png",
     "XX-Attachments/Images/Pasted image 20230321211616.png",
     "Algorithms/SearchAlgorithms",
