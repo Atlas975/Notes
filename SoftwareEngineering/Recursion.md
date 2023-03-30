@@ -18,7 +18,6 @@ aliases: [recursive]
 
 ___
 # Recursion
-
 - A method calling itself
 - Recursion order manipulation:
 

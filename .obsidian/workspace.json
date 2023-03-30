@@ -53,7 +53,7 @@
               "type": "markdown",
               "state": {
                 "file": "ProgramLanguages/Git.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -151,7 +151,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -196,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareEngineering/Recursion.md",
+                "file": "ProgramLanguages/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -228,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareEngineering/Recursion.md"
+                "file": "ProgramLanguages/Git.md"
               }
             }
           }
@@ -252,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareEngineering/Recursion.md"
+                "file": "ProgramLanguages/Git.md"
               }
             }
           },
@@ -278,7 +278,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareEngineering/Recursion.md",
+                "file": "ProgramLanguages/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -325,10 +325,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e438cfcfa989fa72",
+  "active": "a0fc7c800f447ce3",
   "lastOpenFiles": [
-    "SoftwareEngineering/Multiagent_systems.md",
+    "Algorithms/AlgorithmConcepts/Graph_traversal.md",
+    "ProgramLanguages/Git.md",
     "SoftwareEngineering/Recursion.md",
+    "SoftwareEngineering/Multiagent_systems.md",
     "ProgramLanguages/Python/Pandas_library.md",
     "SoftwarePatterns/Creational/Builder_pattern.md",
     "Algorithms/AlgorithmConcepts/Union_find.md",
@@ -350,13 +352,11 @@
     "SoftwareDesign/Entity_relationship_model.md",
     "ProgramLanguages/SQL/SQL_relations.md",
     "Networking/Network_topology.md",
-    "ProgramLanguages/Git.md",
     "ProgramLanguages/HTML.md",
     "MachineLearning/Gradient_descent.md",
     "MachineLearning/Linear_regression.md",
     "MachineLearning/Logistic_regression.md",
     "OperatingSystems/Computer_memory.md",
-    "OperatingSystems/Multi-Process_systems.md",
     "XX-Attachments/Images/Pasted image 20230321211944.png",
     "XX-Attachments/Images/Pasted image 20230321211616.png",
     "Algorithms/SearchAlgorithms",

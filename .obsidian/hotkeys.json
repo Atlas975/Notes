@@ -250,7 +250,7 @@
   "cycle-through-panes:focus-on-last-active-pane": [
     {
       "modifiers": [
-        "Mod"
+        "Ctrl"
       ],
       "key": "Tab"
     }
