@@ -54,6 +54,7 @@ print("(0->1->2) (3->4)\nNo of connected:", union_find([[0, 1], [1, 2], [3, 4]])
 ```
 ## Union find API 
 ### Union
+fmme rki
 ![[Pasted image 20221031072853.png|450|450]]
 
 ### Find 

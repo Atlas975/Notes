@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwarePatterns/Creational/Builder_pattern.md",
+                "file": "Algorithms/AlgorithmConcepts/Union_find.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -196,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwarePatterns/Creational/Builder_pattern.md",
+                "file": "Algorithms/AlgorithmConcepts/Union_find.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -228,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwarePatterns/Creational/Builder_pattern.md"
+                "file": "Algorithms/AlgorithmConcepts/Union_find.md"
               }
             }
           }
@@ -252,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwarePatterns/Creational/Builder_pattern.md"
+                "file": "Algorithms/AlgorithmConcepts/Union_find.md"
               }
             }
           },
@@ -278,7 +278,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwarePatterns/Creational/Builder_pattern.md",
+                "file": "Algorithms/AlgorithmConcepts/Union_find.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -327,6 +327,7 @@
   },
   "active": "e438cfcfa989fa72",
   "lastOpenFiles": [
+    "SoftwarePatterns/Creational/Builder_pattern.md",
     "SoftwareEngineering/Recursion.md",
     "SoftwareEngineering/Multiagent_systems.md",
     "ProgramLanguages/Python/Pandas_library.md",
@@ -356,7 +357,6 @@
     "OperatingSystems/Computer_memory.md",
     "OperatingSystems/Multi-Process_systems.md",
     "OperatingSystems/Linux_permissions.md",
-    "Databases/Database_normalisation.md",
     "XX-Attachments/Images/Pasted image 20230321211944.png",
     "XX-Attachments/Images/Pasted image 20230321211616.png",
     "Algorithms/SearchAlgorithms",
