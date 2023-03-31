@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Machine_learning_notation.md",
+                "file": "Networking/Network_delay.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -66,7 +66,7 @@
               "type": "markdown",
               "state": {
                 "file": "Networking/Checksum.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -112,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -157,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Machine_learning_notation.md",
+                "file": "Networking/Checksum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Machine_learning_notation.md"
+                "file": "Networking/Checksum.md"
               }
             }
           }
@@ -213,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Machine_learning_notation.md"
+                "file": "Networking/Checksum.md"
               }
             }
           },
@@ -239,7 +239,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Machine_learning_notation.md",
+                "file": "Networking/Checksum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -286,8 +286,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "afcac0466d61169c",
+  "active": "d2cd9a4f3ae560d5",
   "lastOpenFiles": [
+    "Networking/Network_delay.md",
+    "MachineLearning/Machine_learning_notation.md",
     "SoftwareEngineering/OOP_principles.md",
     "Networking/Checksum.md",
     "SoftwareEngineering/Multiagent_systems.md",
@@ -316,8 +318,6 @@
     "XX-Attachments/Images/Pasted image 20230329171222.png",
     "Networking/Routing_methods.md",
     "Databases/Relational_algebra.md",
-    "Databases/Database_storage.md",
-    "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
     "XX-Attachments/Images/Pasted image 20230321211944.png",
     "XX-Attachments/Images/Pasted image 20230321211616.png",
     "Algorithms/SearchAlgorithms",

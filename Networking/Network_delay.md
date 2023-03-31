@@ -15,10 +15,10 @@
 ___
 # Network delay
 - 4 types of [[Network_architecture|network]] delay exist 
-	• Processing Delay
-	• Queuing Delay
-	• Transmission Delay
-	• Propagation Delay
+	- Processing Delay
+	- Queuing Delay
+	- Transmission Delay
+	- Propagation Delay
 - Multiple [[Network_tools| network tools ]] exist to identify if these delays are occuring 
 ## Processing delay
 - Dependent on how busy a device is, the time taken for device to read and route a packet based on [[Network_architecture#Network header|header]] metadata, 
