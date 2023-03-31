@@ -39,20 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwareEngineering/Concurrency.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6e0faa214bfd1e34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Transmission_mediums.md",
+                "file": "SoftwareDesign/SOLID_principles.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -125,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -170,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Transmission_mediums.md",
+                "file": "SoftwareDesign/SOLID_principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Transmission_mediums.md"
+                "file": "SoftwareDesign/SOLID_principles.md"
               }
             }
           }
@@ -226,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Transmission_mediums.md"
+                "file": "SoftwareDesign/SOLID_principles.md"
               }
             }
           },
@@ -252,7 +239,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Transmission_mediums.md",
+                "file": "SoftwareDesign/SOLID_principles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -299,14 +286,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6e0faa214bfd1e34",
+  "active": "afcac0466d61169c",
   "lastOpenFiles": [
-    "SoftwareEngineering/Multiagent_systems.md",
+    "SoftwareEngineering/Concurrency.md",
     "Networking/Transmission_mediums.md",
+    "SoftwareEngineering/Multiagent_systems.md",
     "SoftwareEngineering/OOP_principles.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "SoftwareEngineering/Recursion.md",
-    "SoftwareEngineering/Concurrency.md",
     "ProgramLanguages/Git.md",
     "Algorithms/AlgorithmConcepts/Graph_traversal.md",
     "Algorithms/SearchAlgorithms/Search_algorithms.md",

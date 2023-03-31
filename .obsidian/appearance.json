@@ -1,7 +1,7 @@
 {
   "baseFontSize": 16,
   "cssTheme": "Minimal",
-  "textFontFamily": "Roboto,Calibri,JetBrains Mono",
+  "textFontFamily": "Arial,Roboto,Calibri",
   "monospaceFontFamily": "JetBrains Mono",
   "theme": "obsidian",
   "interfaceFontFamily": "Roboto,JetBrains Mono",
