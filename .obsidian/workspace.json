@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwareEngineering/Recursion.md",
+                "file": "SoftwareEngineering/Multiagent_systems.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareEngineering/Recursion.md",
+                "file": "SoftwareEngineering/Multiagent_systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareEngineering/Recursion.md"
+                "file": "SoftwareEngineering/Multiagent_systems.md"
               }
             }
           }
@@ -226,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareEngineering/Recursion.md"
+                "file": "SoftwareEngineering/Multiagent_systems.md"
               }
             }
           },
@@ -252,7 +252,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareEngineering/Recursion.md",
+                "file": "SoftwareEngineering/Multiagent_systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,12 +301,14 @@
   },
   "active": "e438cfcfa989fa72",
   "lastOpenFiles": [
+    "SoftwareEngineering/OOP_principles.md",
+    "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
+    "SoftwareEngineering/Recursion.md",
     "Networking/Transmission_mediums.md",
     "SoftwareEngineering/Concurrency.md",
     "ProgramLanguages/Git.md",
     "Algorithms/AlgorithmConcepts/Graph_traversal.md",
     "Algorithms/SearchAlgorithms/Search_algorithms.md",
-    "SoftwareEngineering/Recursion.md",
     "SoftwareEngineering/Multiagent_systems.md",
     "ProgramLanguages/Python/Pandas_library.md",
     "SoftwarePatterns/Creational/Builder_pattern.md",
@@ -329,8 +331,6 @@
     "SoftwareDesign/Entity_relationship_model.md",
     "ProgramLanguages/SQL/SQL_relations.md",
     "Networking/Network_topology.md",
-    "ProgramLanguages/HTML.md",
-    "MachineLearning/Gradient_descent.md",
     "XX-Attachments/Images/Pasted image 20230321211944.png",
     "XX-Attachments/Images/Pasted image 20230321211616.png",
     "Algorithms/SearchAlgorithms",
