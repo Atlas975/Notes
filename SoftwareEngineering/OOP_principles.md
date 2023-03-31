@@ -28,7 +28,7 @@ aliases: [OOP]
 ___
 # OOP principles
 # Composition vs inheritance
-![[Pasted image 20220221093807.png|350|350]]
+![[Pasted image 20220221093807.png|300|300]]
 
 - Inheritance is a procedure that involves an object inheriting the attributes and procedures of another class. These are referred to as the parent and child class respectively 
 - Composition involves referencing one or more classes through the use of instance variables, allowing for code to be repurposed for other scenarios 

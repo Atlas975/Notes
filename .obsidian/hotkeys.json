@@ -580,7 +580,14 @@
       "key": ","
     }
   ],
-  "app:open-settings": [],
+  "app:open-settings": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": ","
+    }
+  ],
   "table-editor-obsidian:right-align-column": [],
   "advanced-cursors:add-next-match-to-selections": [],
   "obsidian-zoom:zoom-out": [

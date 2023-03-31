@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -39,8 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwareEngineering/OOP_principles.md",
-                "mode": "source",
+                "file": "MachineLearning/Machine_learning_notation.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -66,7 +66,7 @@
               "type": "markdown",
               "state": {
                 "file": "Networking/Checksum.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -112,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -157,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
+                "file": "MachineLearning/Machine_learning_notation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md"
+                "file": "MachineLearning/Machine_learning_notation.md"
               }
             }
           }
@@ -213,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md"
+                "file": "MachineLearning/Machine_learning_notation.md"
               }
             }
           },
@@ -239,7 +239,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
+                "file": "MachineLearning/Machine_learning_notation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -286,15 +286,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "413f021ec4221ca9",
+  "active": "afcac0466d61169c",
   "lastOpenFiles": [
     "SoftwareEngineering/OOP_principles.md",
+    "Networking/Checksum.md",
+    "SoftwareEngineering/Multiagent_systems.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
+    "ProgramLanguages/Python/Python_OOP.md",
     "SoftwareDesign/HCI/Human_computer_interaction.md",
     "SoftwareDesign/SOLID_principles.md",
     "SoftwareEngineering/Concurrency.md",
     "Networking/Transmission_mediums.md",
-    "SoftwareEngineering/Multiagent_systems.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "SoftwareEngineering/Recursion.md",
     "ProgramLanguages/Git.md",
@@ -305,7 +307,6 @@
     "Algorithms/AlgorithmConcepts/Union_find.md",
     "ProgramLanguages/Python/Python_stats.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-    "ProgramLanguages/Python/Python_OOP.md",
     "XX-Attachments/Images/Pasted image 20230329172009.png",
     "ProgramLanguages/Python/Pytorch_libarary.md",
     "ProgramLanguages/Python/Seaborn_library.md",
@@ -317,7 +318,6 @@
     "Databases/Relational_algebra.md",
     "Databases/Database_storage.md",
     "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
-    "Networking/Application_architecture.md",
     "XX-Attachments/Images/Pasted image 20230321211944.png",
     "XX-Attachments/Images/Pasted image 20230321211616.png",
     "Algorithms/SearchAlgorithms",

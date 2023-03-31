@@ -56,4 +56,4 @@ ___
 > $f=\text{filter(kernal) dimensions}$
 >  $p=\text{padding dimensions}$
 > $s=\text{stride size}$
-> $n_{c}=\text{number of channels}$
+$n_{c}=\text{number of channels}$
