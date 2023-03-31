@@ -8,111 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9ce25fe12bbcebe0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/Python/Python_OOP.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "413f021ec4221ca9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "afcac0466d61169c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Network_delay.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e438cfcfa989fa72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SoftwareEngineering/Multiagent_systems.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d2cd9a4f3ae560d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Database_constraints.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f70778ffb6ddf126",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/Rust/Rust_language.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0d1012b3d177dcfc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/AlgorithmConcepts/Union_find.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5e668093a0a0d5d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/AlgorithmConcepts/Union_find.md",
+                "file": "DataStructures/BinaryHeaps.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,7 +65,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_constraints.md",
+                "file": "DataStructures/BinaryHeaps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_constraints.md"
+                "file": "DataStructures/BinaryHeaps.md"
               }
             }
           }
@@ -213,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_constraints.md"
+                "file": "DataStructures/BinaryHeaps.md"
               }
             }
           },
@@ -239,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_constraints.md",
+                "file": "DataStructures/BinaryHeaps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -286,15 +194,21 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d2cd9a4f3ae560d5",
+  "active": "5e668093a0a0d5d1",
   "lastOpenFiles": [
+    "DataStructures/DataStorage&Retrieval.md",
+    "DataStructures/Abstract_data_types.md",
+    "Algorithms/AlgorithmConcepts/Union_find.md",
+    "ProgramLanguages/Python/Python_OOP.md",
+    "Databases/Database_constraints.md",
+    "Networking/Network_delay.md",
+    "SoftwareEngineering/Multiagent_systems.md",
+    "ProgramLanguages/Rust/Rust_language.md",
     "Databases/Database_design.md",
     "Databases/Database_keys.md",
     "Databases/Relational_algebra.md",
     "Databases/Database_storage.md",
     "DataStructures/Sets.md",
-    "DataStructures/Abstract_data_types.md",
-    "DataStructures/DataStorage&Retrieval.md",
     "DataStructures/CacheStructures/LRU.md",
     "DataStructures/CacheStructures/LFU.md",
     "Economics/Econ_fundementals.md",
@@ -302,18 +216,12 @@
     "Networking/Protocol_stack.md",
     "Networking/Network_topology.md",
     "Networking/Checksum.md",
-    "Networking/Network_delay.md",
     "MachineLearning/Machine_learning_notation.md",
     "SoftwareEngineering/OOP_principles.md",
-    "SoftwareEngineering/Multiagent_systems.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
-    "ProgramLanguages/Python/Python_OOP.md",
     "SoftwareDesign/HCI/Human_computer_interaction.md",
     "SoftwareDesign/SOLID_principles.md",
     "SoftwareEngineering/Concurrency.md",
-    "Networking/Transmission_mediums.md",
-    "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
-    "SoftwareEngineering/Recursion.md",
     "XX-Attachments/Images/Pasted image 20230329172009.png",
     "XX-Attachments/Images/Pasted image 20230329171310.png",
     "XX-Attachments/Images/Pasted image 20230329171256.png",
