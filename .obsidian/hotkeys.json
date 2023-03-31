@@ -51,14 +51,7 @@
       "key": "."
     }
   ],
-  "editor:insert-wikilink": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "L"
-    }
-  ],
+  "editor:insert-wikilink": [],
   "editor:toggle-blockquote": [
     {
       "modifiers": [
@@ -599,5 +592,21 @@
       "key": "F"
     }
   ],
-  "obsidian-zoom:zoom-in": []
+  "obsidian-zoom:zoom-in": [],
+  "obsidian-editor-shortcuts:selectAllOccurrences": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "obsidian-editor-shortcuts:selectLine": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "L"
+    }
+  ]
 }

@@ -39,8 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwareDesign/SOLID_principles.md",
-                "mode": "preview",
+                "file": "SoftwareEngineering/OOP_principles.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -112,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -157,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareDesign/SOLID_principles.md",
+                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/SOLID_principles.md"
+                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md"
               }
             }
           }
@@ -213,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/SOLID_principles.md"
+                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md"
               }
             }
           },
@@ -239,7 +239,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareDesign/SOLID_principles.md",
+                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -286,12 +286,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "afcac0466d61169c",
+  "active": "413f021ec4221ca9",
   "lastOpenFiles": [
+    "SoftwareEngineering/OOP_principles.md",
+    "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
+    "SoftwareDesign/HCI/Human_computer_interaction.md",
+    "SoftwareDesign/SOLID_principles.md",
     "SoftwareEngineering/Concurrency.md",
     "Networking/Transmission_mediums.md",
     "SoftwareEngineering/Multiagent_systems.md",
-    "SoftwareEngineering/OOP_principles.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "SoftwareEngineering/Recursion.md",
     "ProgramLanguages/Git.md",
@@ -315,9 +318,6 @@
     "Databases/Database_storage.md",
     "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
     "Networking/Application_architecture.md",
-    "SoftwareDesign/Entity_relationship_model.md",
-    "ProgramLanguages/SQL/SQL_relations.md",
-    "Networking/Network_topology.md",
     "XX-Attachments/Images/Pasted image 20230321211944.png",
     "XX-Attachments/Images/Pasted image 20230321211616.png",
     "Algorithms/SearchAlgorithms",

@@ -42,9 +42,9 @@ ___
 
 # Functions 
 - Usage benefits include:
-1. Re-usability
-2. Modular design, making code easy to maintain
-3. Improved readability 
+    1. Re-usability
+    2. Modular design, making code easy to maintain
+    3. Improved readability 
 
 # Abstract signature  
 
