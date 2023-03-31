@@ -30,7 +30,7 @@ ___
 - Central entity that controls actions between users 
 - Eg. commercial platform, social media or an autonomous system 
 
-![[Pasted image 20221105005148.png|300|300]]
+![[Pasted image 20221105005148.png|250|250]]
 
 # Decentralised systems
 

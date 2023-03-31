@@ -92,14 +92,13 @@
         "Mod",
         "Shift"
       ],
-      "key": "\\"
+      "key": "Enter"
     }
   ],
   "hotkeysplus-obsidian:insert-line-below": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Mod"
       ],
       "key": "Enter"
     }
