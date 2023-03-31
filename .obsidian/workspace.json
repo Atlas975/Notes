@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataStructures/BinaryHeaps.md",
+                "file": "Databases/Database_systems.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -65,7 +65,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataStructures/BinaryHeaps.md",
+                "file": "Databases/Database_systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/BinaryHeaps.md"
+                "file": "Databases/Database_systems.md"
               }
             }
           }
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/BinaryHeaps.md"
+                "file": "Databases/Database_systems.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataStructures/BinaryHeaps.md",
+                "file": "Databases/Database_systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,6 +196,8 @@
   },
   "active": "5e668093a0a0d5d1",
   "lastOpenFiles": [
+    "Databases/Relational_algebra.md",
+    "DataStructures/BinaryHeaps.md",
     "DataStructures/DataStorage&Retrieval.md",
     "DataStructures/Abstract_data_types.md",
     "Algorithms/AlgorithmConcepts/Union_find.md",
@@ -206,7 +208,6 @@
     "ProgramLanguages/Rust/Rust_language.md",
     "Databases/Database_design.md",
     "Databases/Database_keys.md",
-    "Databases/Relational_algebra.md",
     "Databases/Database_storage.md",
     "DataStructures/Sets.md",
     "DataStructures/CacheStructures/LRU.md",
@@ -221,7 +222,6 @@
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "SoftwareDesign/HCI/Human_computer_interaction.md",
     "SoftwareDesign/SOLID_principles.md",
-    "SoftwareEngineering/Concurrency.md",
     "XX-Attachments/Images/Pasted image 20230329172009.png",
     "XX-Attachments/Images/Pasted image 20230329171310.png",
     "XX-Attachments/Images/Pasted image 20230329171256.png",
