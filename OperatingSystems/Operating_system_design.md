@@ -18,7 +18,6 @@ aliases: [OS]
 
 ___
 # Operating system design
-
 - An OS does the following:
 	- Manages hardware and system resources 
 	- Offers a secure environment for applications and multiple users

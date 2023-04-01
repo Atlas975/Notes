@@ -56,7 +56,7 @@ ___
 ## Level 1 cache
 - Fastest memory in a computer system and the smallest, checked first
 - Holds data that a CPU is most likely to need when completing a task 
-- Typically split between two cache types **instruction** (information about what the CPU should perform) & **data** (the data the operation is performed on)
+- Typically split between two cache types **instruction** (information about what the CPU should perform) & **data** (the data the operation is performed on
 
 ## Level 2 cache
 - Larger than the L1 cache, but slower due to longer search times
