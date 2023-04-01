@@ -21,7 +21,7 @@ ___
 - **Interactive systems**: prioritizes responsiveness eg a desktop
 
 ## I/O Scheduling
-- [[Input&Output_systems|I/O]] is a natural scheduling point as data from a device may be needed to continue a process
+- [[Input&Output_systems|I/O]] is a natural scheduling point as data from a device may be needed to run a process
 - High priority I/O may result in another process being dispatched until I/O completes
 
 ![[Pasted image 20221208190430.png|450]]

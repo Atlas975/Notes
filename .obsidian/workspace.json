@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Paging.md",
+                "file": "Databases/Database_systems.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Paging.md",
+                "file": "Databases/Database_systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Paging.md"
+                "file": "Databases/Database_systems.md"
               }
             }
           }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Paging.md"
+                "file": "Databases/Database_systems.md"
               }
             }
           },
@@ -213,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Paging.md",
+                "file": "Databases/Database_systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -262,32 +262,32 @@
   },
   "active": "57f2e1c52f7ddaec",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Two_pointers.md",
+    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
+    "Algorithms/ProgrammingPatterns/Binary_search.md",
+    "ProgramLanguages/Rust/Rust_cargo.md",
+    "OperatingSystems/Page_replacement.md",
+    "OperatingSystems/Processors.md",
+    "MachineLearning/Computer_vision.md",
+    "MachineLearning/Gradient_descent.md",
+    "MachineLearning/Logistic_regression.md",
+    "DiscreteMath/Inference_rules.md",
+    "DataStructures/Sets.md",
+    "DataStructures/RadixTrees.md",
+    "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
+    "SoftwareDesign/BSPL.md",
     "OperatingSystems/Input&Output_systems.md",
+    "OperatingSystems/Multi-Process_systems.md",
+    "OperatingSystems/Paging.md",
     "OperatingSystems/Linux_permissions.md",
     "OperatingSystems/Caching.md",
     "OperatingSystems/Computer_memory.md",
     "OperatingSystems/Operating_system_design.md",
-    "OperatingSystems/Multi-Process_systems.md",
-    "OperatingSystems/Page_replacement.md",
     "SoftwareEngineering/Concurrency.md",
     "Databases/Database_design.md",
     "Databases/Database_keys.md",
-    "Databases/Database_systems.md",
-    "DataStructures/Abstract_data_types.md",
-    "Databases/Database_storage.md",
-    "Databases/Database_normalisation.md",
-    "Databases/Relational_algebra.md",
-    "DataStructures/BinaryHeaps.md",
-    "DataStructures/DataStorage&Retrieval.md",
-    "Algorithms/AlgorithmConcepts/Union_find.md",
-    "ProgramLanguages/Python/Python_OOP.md",
-    "Databases/Database_constraints.md",
-    "Networking/Network_delay.md",
-    "SoftwareEngineering/Multiagent_systems.md",
-    "ProgramLanguages/Rust/Rust_language.md",
-    "DataStructures/Sets.md",
-    "DataStructures/CacheStructures/LRU.md",
-    "DataStructures/CacheStructures/LFU.md",
     "XX-Attachments/Images/Pasted image 20230329172009.png",
     "XX-Attachments/Images/Pasted image 20230329171310.png",
     "XX-Attachments/Images/Pasted image 20230329171256.png",

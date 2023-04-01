@@ -479,7 +479,7 @@
         "Alt",
         "Mod"
       ],
-      "key": "N"
+      "key": "`"
     }
   ],
   "editor:insert-tag": [],
@@ -491,15 +491,7 @@
       "key": "S"
     }
   ],
-  "templater-obsidian:XX-Attachments/Templates/AliasNote.md": [
-    {
-      "modifiers": [
-        "Alt",
-        "Meta"
-      ],
-      "key": "N"
-    }
-  ],
+  "templater-obsidian:XX-Attachments/Templates/AliasNote.md": [],
   "editor:fold-all": [
     {
       "modifiers": [],
