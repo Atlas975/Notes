@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Page_replacement.md",
+                "file": "OperatingSystems/Input&Output_systems.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Page_replacement.md",
+                "file": "OperatingSystems/Input&Output_systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Page_replacement.md"
+                "file": "OperatingSystems/Input&Output_systems.md"
               }
             }
           }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Page_replacement.md"
+                "file": "OperatingSystems/Input&Output_systems.md"
               }
             }
           },
@@ -213,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Page_replacement.md",
+                "file": "OperatingSystems/Input&Output_systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -262,7 +262,9 @@
   },
   "active": "57f2e1c52f7ddaec",
   "lastOpenFiles": [
+    "OperatingSystems/Linux_permissions.md",
     "OperatingSystems/Multi-Process_systems.md",
+    "OperatingSystems/Page_replacement.md",
     "OperatingSystems/Input&Output_systems.md",
     "OperatingSystems/Computer_memory.md",
     "SoftwareEngineering/Concurrency.md",
@@ -286,8 +288,6 @@
     "DataStructures/CacheStructures/LFU.md",
     "Economics/Econ_fundementals.md",
     "InformationSystems/Innovation_practice.md",
-    "Networking/Protocol_stack.md",
-    "Networking/Network_topology.md",
     "XX-Attachments/Images/Pasted image 20230329172009.png",
     "XX-Attachments/Images/Pasted image 20230329171310.png",
     "XX-Attachments/Images/Pasted image 20230329171256.png",
