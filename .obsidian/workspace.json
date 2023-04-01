@@ -60,6 +60,19 @@
             }
           },
           {
+            "id": "57f2e1c52f7ddaec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/Page_replacement.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4bd188447410635f",
             "type": "leaf",
             "state": {
@@ -73,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -118,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_design.md",
+                "file": "OperatingSystems/Page_replacement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_design.md"
+                "file": "OperatingSystems/Page_replacement.md"
               }
             }
           }
@@ -174,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_design.md"
+                "file": "OperatingSystems/Page_replacement.md"
               }
             }
           },
@@ -200,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_design.md",
+                "file": "OperatingSystems/Page_replacement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -247,10 +260,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "142caecadca8be58",
+  "active": "57f2e1c52f7ddaec",
   "lastOpenFiles": [
-    "Databases/Database_keys.md",
+    "OperatingSystems/Multi-Process_systems.md",
+    "OperatingSystems/Input&Output_systems.md",
+    "OperatingSystems/Computer_memory.md",
+    "SoftwareEngineering/Concurrency.md",
     "Databases/Database_design.md",
+    "Databases/Database_keys.md",
     "Databases/Database_systems.md",
     "DataStructures/Abstract_data_types.md",
     "Databases/Database_storage.md",
@@ -271,10 +288,6 @@
     "InformationSystems/Innovation_practice.md",
     "Networking/Protocol_stack.md",
     "Networking/Network_topology.md",
-    "Networking/Checksum.md",
-    "MachineLearning/Machine_learning_notation.md",
-    "SoftwareEngineering/OOP_principles.md",
-    "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "XX-Attachments/Images/Pasted image 20230329172009.png",
     "XX-Attachments/Images/Pasted image 20230329171310.png",
     "XX-Attachments/Images/Pasted image 20230329171256.png",

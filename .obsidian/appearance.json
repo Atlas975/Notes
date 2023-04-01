@@ -1,10 +1,10 @@
 {
-  "baseFontSize": 16,
+  "baseFontSize": 15,
   "cssTheme": "Minimal",
-  "textFontFamily": "Source Sans Pro,Arial,Roboto,Calibri",
+  "textFontFamily": "Roboto,Source Sans Pro,Arial,Calibri",
   "monospaceFontFamily": "JetBrains Mono",
   "theme": "obsidian",
-  "interfaceFontFamily": "Roboto,JetBrains Mono",
+  "interfaceFontFamily": "Source Sans Pro,Roboto,JetBrains Mono",
   "baseFontSizeAction": false,
   "translucency": false,
   "accentColor": "#8fbcbb",

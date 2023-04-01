@@ -156,7 +156,7 @@ class Person implements Runnable {
     Person(Semaphore v) {
         this.v=v;
     }
- 
+    
     public void run(){
         v.acquire();
         System.out.println("Getting vaccinated!");
