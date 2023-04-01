@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Input&Output_systems.md",
+                "file": "OperatingSystems/Operating_system_design.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Input&Output_systems.md",
+                "file": "OperatingSystems/Operating_system_design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Input&Output_systems.md"
+                "file": "OperatingSystems/Operating_system_design.md"
               }
             }
           }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Input&Output_systems.md"
+                "file": "OperatingSystems/Operating_system_design.md"
               }
             }
           },
@@ -213,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Input&Output_systems.md",
+                "file": "OperatingSystems/Operating_system_design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -262,10 +262,10 @@
   },
   "active": "57f2e1c52f7ddaec",
   "lastOpenFiles": [
-    "OperatingSystems/Linux_permissions.md",
     "OperatingSystems/Multi-Process_systems.md",
-    "OperatingSystems/Page_replacement.md",
     "OperatingSystems/Input&Output_systems.md",
+    "OperatingSystems/Linux_permissions.md",
+    "OperatingSystems/Page_replacement.md",
     "OperatingSystems/Computer_memory.md",
     "SoftwareEngineering/Concurrency.md",
     "Databases/Database_design.md",
