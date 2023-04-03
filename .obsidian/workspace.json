@@ -86,6 +86,19 @@
             }
           },
           {
+            "id": "fde6243fa9de8bf5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ProgramLanguages/Erlang_language.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4bd188447410635f",
             "type": "leaf",
             "state": {
@@ -99,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -144,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareEngineering/Multiagent_systems.md",
+                "file": "ProgramLanguages/Erlang_language.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareEngineering/Multiagent_systems.md"
+                "file": "ProgramLanguages/Erlang_language.md"
               }
             }
           }
@@ -200,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareEngineering/Multiagent_systems.md"
+                "file": "ProgramLanguages/Erlang_language.md"
               }
             }
           },
@@ -226,7 +239,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareEngineering/Multiagent_systems.md",
+                "file": "ProgramLanguages/Erlang_language.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -273,8 +286,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "01aac97cb9105503",
+  "active": "fde6243fa9de8bf5",
   "lastOpenFiles": [
+    "SoftwareEngineering/Multiagent_systems.md",
     "SoftwareDesign/BSPL.md",
     "SoftwareDesign/Entity_relationship_model.md",
     "SoftwareDesign/Software_architecture.md",
@@ -300,7 +314,6 @@
     "OperatingSystems/Multi-Process_systems.md",
     "OperatingSystems/Paging.md",
     "OperatingSystems/Linux_permissions.md",
-    "OperatingSystems/Caching.md",
     "XX-Attachments/Images/Pasted image 20230329172009.png",
     "XX-Attachments/Images/Pasted image 20230329171310.png",
     "XX-Attachments/Images/Pasted image 20230329171256.png",
