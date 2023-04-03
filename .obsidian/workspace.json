@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -112,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -157,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Network_delay.md",
+                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_delay.md"
+                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md"
               }
             }
           }
@@ -213,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_delay.md"
+                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md"
               }
             }
           },
@@ -239,7 +239,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Network_delay.md",
+                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -286,8 +286,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fde6243fa9de8bf5",
+  "active": "4bd188447410635f",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
+    "Databases/Database_normalisation.md",
+    "Databases/Database_systems.md",
+    "SoftwareEngineering/Multiagent_systems.md",
+    "Networking/Network_delay.md",
     "Networking/Internet_architecture.md",
     "Networking/Header_types.md",
     "Networking/Protocol_stack.md",
@@ -301,7 +306,6 @@
     "SoftwarePatterns/Creational/Builder_pattern.md",
     "SoftwareDesign/SOLID_principles.md",
     "SoftwareDesign/Software_architecture.md",
-    "SoftwareEngineering/Multiagent_systems.md",
     "SoftwareEngineering/Concurrency.md",
     "ProgramLanguages/Rust/Rust_smart_pointers.md",
     "ProgramLanguages/Rust/Rust_message_passing.md",
@@ -310,10 +314,6 @@
     "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
     "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Two_pointers.md",
-    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
-    "ProgramLanguages/Erlang_language.md",
     "XX-Attachments/Images/Pasted image 20230329172009.png",
     "XX-Attachments/Images/Pasted image 20230329171310.png",
     "XX-Attachments/Images/Pasted image 20230329171256.png",
