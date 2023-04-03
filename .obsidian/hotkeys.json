@@ -357,15 +357,6 @@
       "key": "G"
     }
   ],
-  "advanced-cursors:add-cursor-above": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "ArrowUp"
-    }
-  ],
   "advanced-cursors:add-cursor-below": [
     {
       "modifiers": [
@@ -606,6 +597,15 @@
         "Mod"
       ],
       "key": "L"
+    }
+  ],
+  "advanced-cursors:add-cursor-above": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "ArrowUp"
     }
   ]
 }

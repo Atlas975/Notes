@@ -14,8 +14,6 @@
 
 ___
 # Erlang language
-
-
 - Erlang is an example of a [[Functional_programming|functional programming language ]]
 ## Erlang delimiters
 - **; (semicolons)** can be taught of as logical OR

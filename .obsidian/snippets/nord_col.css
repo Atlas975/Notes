@@ -94,10 +94,10 @@
 .cm-formatting-list-ul span.cm-formatting-list-ul {
   --list-marker-color: Aqua;
 }
-
+/* 
 .markdown-preview-view,
 .markdown-source-view {
-  zoom: 1 !important;
-}
+  zoom: 0.8 !important;
+} */
 
 /* change zoom level for editor mode */

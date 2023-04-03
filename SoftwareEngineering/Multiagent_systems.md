@@ -66,7 +66,7 @@ ___
 - A state machine is an abstraction over an algorithm to describe its control flow
 - Useful for describing intended control flow of a [[Concurrency|concurrent]] model
 
-![[Pasted image 20221105122527.png|500|500]]
+![[Pasted image 20221105122527.png|450|450]]
 
 # Multiagent system pitfalls
 - Interactions must maintain data integrity
@@ -81,12 +81,12 @@ ___
 
 ## Race conditions
 
-![[Pasted image 20221105123726.png|450|450]]
+![[Pasted image 20221105123726.png|400|400]]
 
 ## Deadlock interactions
 [[Concurrency#Concurrency pitfalls]]
 
-![[Pasted image 20221105123821.png|500|500]]
+![[Pasted image 20221105123821.png|400|400]]
 
 ## Asynchronous communication
 - Ordering send - receive communication has its own challenges such as required synchronization and tight coupling 

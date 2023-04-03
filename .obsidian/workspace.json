@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgramLanguages/Erlang_language.md",
+                "file": "Networking/Network_delay.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -157,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/Erlang_language.md",
+                "file": "Networking/Network_delay.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/Erlang_language.md"
+                "file": "Networking/Network_delay.md"
               }
             }
           }
@@ -213,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/Erlang_language.md"
+                "file": "Networking/Network_delay.md"
               }
             }
           },
@@ -239,7 +239,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/Erlang_language.md",
+                "file": "Networking/Network_delay.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -288,32 +288,32 @@
   },
   "active": "fde6243fa9de8bf5",
   "lastOpenFiles": [
-    "SoftwareEngineering/Multiagent_systems.md",
-    "SoftwareDesign/BSPL.md",
-    "SoftwareDesign/Entity_relationship_model.md",
-    "SoftwareDesign/Software_architecture.md",
-    "ProgramLanguages/R_language.md",
+    "Networking/Internet_architecture.md",
+    "Networking/Header_types.md",
     "Networking/Protocol_stack.md",
-    "Databases/Database_systems.md",
-    "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
+    "Networking/Network_topology.md",
+    "Networking/Network_architecture.md",
+    "DiscreteMath/Propositional_logic.md",
+    "DiscreteMath/Predicate_logic.md",
+    "InformationSystems/System_failure&dependability.md",
+    "InformationSystems/Innovation_practice.md",
+    "SoftwarePatterns/Behavioral/Iterator_pattern.md",
+    "SoftwarePatterns/Creational/Builder_pattern.md",
+    "SoftwareDesign/SOLID_principles.md",
+    "SoftwareDesign/Software_architecture.md",
+    "SoftwareEngineering/Multiagent_systems.md",
+    "SoftwareEngineering/Concurrency.md",
+    "ProgramLanguages/Rust/Rust_smart_pointers.md",
+    "ProgramLanguages/Rust/Rust_message_passing.md",
+    "OperatingSystems/Multi-Process_systems.md",
+    "OperatingSystems/Processors.md",
+    "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
+    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
+    "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
     "Algorithms/ProgrammingPatterns/Two_pointers.md",
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
-    "Algorithms/ProgrammingPatterns/Binary_search.md",
-    "ProgramLanguages/Rust/Rust_cargo.md",
-    "OperatingSystems/Page_replacement.md",
-    "OperatingSystems/Processors.md",
-    "MachineLearning/Computer_vision.md",
-    "MachineLearning/Gradient_descent.md",
-    "MachineLearning/Logistic_regression.md",
-    "DiscreteMath/Inference_rules.md",
-    "DataStructures/Sets.md",
-    "DataStructures/RadixTrees.md",
-    "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
-    "OperatingSystems/Input&Output_systems.md",
-    "OperatingSystems/Multi-Process_systems.md",
-    "OperatingSystems/Paging.md",
-    "OperatingSystems/Linux_permissions.md",
+    "ProgramLanguages/Erlang_language.md",
     "XX-Attachments/Images/Pasted image 20230329172009.png",
     "XX-Attachments/Images/Pasted image 20230329171310.png",
     "XX-Attachments/Images/Pasted image 20230329171256.png",
