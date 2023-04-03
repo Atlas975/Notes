@@ -78,8 +78,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Protocol_stack.md",
-                "mode": "preview",
+                "file": "SoftwareEngineering/Multiagent_systems.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Protocol_stack.md",
+                "file": "SoftwareEngineering/Multiagent_systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Protocol_stack.md"
+                "file": "SoftwareEngineering/Multiagent_systems.md"
               }
             }
           }
@@ -200,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Protocol_stack.md"
+                "file": "SoftwareEngineering/Multiagent_systems.md"
               }
             }
           },
@@ -226,7 +226,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Protocol_stack.md",
+                "file": "SoftwareEngineering/Multiagent_systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -275,6 +275,11 @@
   },
   "active": "01aac97cb9105503",
   "lastOpenFiles": [
+    "SoftwareDesign/BSPL.md",
+    "SoftwareDesign/Entity_relationship_model.md",
+    "SoftwareDesign/Software_architecture.md",
+    "ProgramLanguages/R_language.md",
+    "Networking/Protocol_stack.md",
     "Databases/Database_systems.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "Algorithms/ProgrammingPatterns/Two_pointers.md",
@@ -291,16 +296,11 @@
     "DataStructures/Sets.md",
     "DataStructures/RadixTrees.md",
     "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
-    "SoftwareDesign/BSPL.md",
     "OperatingSystems/Input&Output_systems.md",
     "OperatingSystems/Multi-Process_systems.md",
     "OperatingSystems/Paging.md",
     "OperatingSystems/Linux_permissions.md",
     "OperatingSystems/Caching.md",
-    "OperatingSystems/Computer_memory.md",
-    "OperatingSystems/Operating_system_design.md",
-    "SoftwareEngineering/Concurrency.md",
-    "Databases/Database_design.md",
     "XX-Attachments/Images/Pasted image 20230329172009.png",
     "XX-Attachments/Images/Pasted image 20230329171310.png",
     "XX-Attachments/Images/Pasted image 20230329171256.png",

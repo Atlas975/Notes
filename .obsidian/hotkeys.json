@@ -595,7 +595,7 @@
   "obsidian-editor-shortcuts:selectAllOccurrences": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
       "key": "L"
     }
@@ -603,7 +603,7 @@
   "obsidian-editor-shortcuts:selectLine": [
     {
       "modifiers": [
-        "Ctrl"
+        "Mod"
       ],
       "key": "L"
     }

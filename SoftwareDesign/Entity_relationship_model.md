@@ -31,7 +31,6 @@ ___
 - Each entity has distinguishable properties
 
 ![[Pasted image 20230117172337.png|500|500]]
-
 ## Attributes
 - Represented by **ovals**, every entity must have attributes 
 

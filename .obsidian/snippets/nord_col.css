@@ -97,7 +97,7 @@
 
 .markdown-preview-view,
 .markdown-source-view {
-  zoom: 0.8 !important;
+  zoom: 1 !important;
 }
 
 /* change zoom level for editor mode */

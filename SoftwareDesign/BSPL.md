@@ -25,7 +25,7 @@ ___
 # BSPL
 
 
- - The blindingly simple protocol language, involves dealing with a declarative bag of protocols `
+ - The blindingly simple protocol language, involves dealing with a declarative bag of protocols 
 - Specifies a decentralized information object, useful for [[Multiagent_systems|Multiagent systems]] as well as dependencies for a message to be sent
 - Virtual blocks are used to prove lack of [[Concurrency#Concurrency pitfalls|deadlocks]], no hidden coordination
 - The **out** parameter creates and transmits knowledge
