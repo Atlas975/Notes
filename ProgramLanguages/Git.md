@@ -13,9 +13,6 @@ git config user.email
 ## Initialize new repo
 > git init
 
-## Eliminate repo
-> rm -rf .git
-
 # Commits
 - Act as checkpoints where changes can be grouped together
 - Git can be made aware of the existence of new files but needs commands to add a commit.
@@ -34,19 +31,9 @@ git config user.email
 ## Unstage all files
 >git reset HEAD -- .
 
-# Git history
 ## Commit history
 > git log
 
-# Git compare
-- less than symbol indicates that the line is removed from the second file, greater than symbol indicates that the line is added to the second file.
-![[Pasted image 20220124073644.png|450|450]]
-
-# Git cheatsheet
->https://github.com/joshnh/Git-Commands#git-commands
-
-# Git clone
-> git clone https://github.com/Atlas975/projectName
 
 
 # Setup git on local machine 
@@ -68,3 +55,15 @@ git config user.email
     -   Run the following command in the terminal: `ssh -T git@github.com`
     -   You should see a message that says "Hi username! You've successfully authenticated, but GitHub does not provide shell access."
     -   If you see this message, your SSH key has been set up successfully and you can now use SSH to authenticate with GitHub. 
+
+
+## Git pull types
+```
+git config pull.rebase false  # merge
+git config pull.rebase true   # rebase
+git config pull.ff only      # fast-forward only
+```
+
+- The `merge` strategy combines the changes from both branches into a new merge commit. 
+- The `rebase` strategy applies your local changes on top of the changes from the remote branch, creating a linear history. 
+- The `fast-forward only` strategy only allows a fast-forward merge, which means that the local branch can only be merged into the remote branch if the remote branch has no new changes.
