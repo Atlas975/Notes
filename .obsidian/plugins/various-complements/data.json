@@ -47,14 +47,6 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "network": {
-      "network": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1677368254489
-        }
-      }
-    },
     "applications": {
       "applications": {
         "currentFile": {
@@ -79,14 +71,6 @@
         }
       }
     },
-    "Physical": {
-      "Physical": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1677368220941
-        }
-      }
-    },
     "address": {
       "address": {
         "currentFile": {
@@ -103,27 +87,11 @@
         }
       }
     },
-    "communication": {
-      "communication": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1677369104074
-        }
-      }
-    },
     "addresses": {
       "addresses": {
         "currentFile": {
           "count": 3,
           "lastUpdated": 1678279430472
-        }
-      }
-    },
-    "specific": {
-      "specific": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1676894705945
         }
       }
     },
@@ -135,230 +103,6 @@
         }
       }
     },
-    "traceroute": {
-      "traceroute": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1676894920080
-        }
-      }
-    },
-    "destination": {
-      "destination": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1676895136912
-        }
-      }
-    },
-    "topology": {
-      "topology": {
-        "currentFile": {
-          "count": 6,
-          "lastUpdated": 1677369183656
-        }
-      }
-    },
-    "performed": {
-      "performed": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677368972379
-        }
-      }
-    },
-    "management": {
-      "management": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677369302938
-        }
-      }
-    },
-    "CombinationSum": {
-      "CombinationSum": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677427776896
-        }
-      }
-    },
-    "duplicates": {
-      "duplicates": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677427784221
-        }
-      }
-    },
-    "attributes": {
-      "attributes": {
-        "currentFile": {
-          "count": 7,
-          "lastUpdated": 1677943940424
-        }
-      }
-    },
-    "candidate": {
-      "candidate": {
-        "currentFile": {
-          "count": 4,
-          "lastUpdated": 1677944092839
-        }
-      }
-    },
-    "indiviukey": {
-      "indiviukey": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677513004575
-        }
-      }
-    },
-    "UNIQUE": {
-      "UNIQUE": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677533321113
-        }
-      }
-    },
-    "Sets": {
-      "Sets": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1677585138541
-        }
-      }
-    },
-    "relation": {
-      "relation": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1677944087573
-        }
-      }
-    },
-    "functional": {
-      "functional": {
-        "currentFile": {
-          "count": 7,
-          "lastUpdated": 1677941553966
-        }
-      }
-    },
-    "dependency": {
-      "dependency": {
-        "currentFile": {
-          "count": 5,
-          "lastUpdated": 1677944080015
-        }
-      }
-    },
-    "constraints": {
-      "constraints": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677598855309
-        }
-      }
-    },
-    "dependencies": {
-      "dependencies": {
-        "currentFile": {
-          "count": 4,
-          "lastUpdated": 1677943787154
-        }
-      }
-    },
-    "pushDominoes": {
-      "pushDominoes": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677759966336
-        }
-      }
-    },
-    "+--------+----------+---------+": {
-      "+--------+----------+---------+": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677769409201
-        }
-      }
-    },
-    "important": {
-      "important": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677770716102
-        }
-      }
-    },
-    "operator": {
-      "operator": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677772549703
-        }
-      }
-    },
-    "specify": {
-      "specify": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677940635836
-        }
-      }
-    },
-    "joins": {
-      "joins": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677940982243
-        }
-      }
-    },
-    "Candidate": {
-      "Candidate": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677943762472
-        }
-      }
-    },
-    "product_id": {
-      "product_id": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677943770432
-        }
-      }
-    },
-    "country_id": {
-      "country_id": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1677943959272
-        }
-      }
-    },
-    "region": {
-      "region": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677944029229
-        }
-      }
-    },
-    "non-trivial": {
-      "non-trivial": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677944077784
-        }
-      }
-    },
     "persistence": {
       "persistence": {
         "currentFile": {
@@ -367,75 +111,11 @@
         }
       }
     },
-    "databases": {
-      "databases": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1677946892550
-        }
-      }
-    },
-    "Variable": {
-      "Variable": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1677948906434
-        }
-      }
-    },
-    "memory": {
-      "memory": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677948883490
-        }
-      }
-    },
-    "attribute": {
-      "attribute": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677949016036
-        }
-      }
-    },
-    "Field": {
-      "Field": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677949095650
-        }
-      }
-    },
-    "Internal": {
-      "Internal": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677949525979
-        }
-      }
-    },
     "fragmentation": {
       "fragmentation": {
         "currentFile": {
           "count": 4,
           "lastUpdated": 1678117291927
-        }
-      }
-    },
-    "Computer_memory": {
-      "Computer_memory": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1677950017456
-        }
-      }
-    },
-    "available": {
-      "available": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677950184792
         }
       }
     },
@@ -908,6 +588,14 @@
         "internalLink": {
           "count": 1,
           "lastUpdated": 1679503439295
+        }
+      }
+    },
+    "\\overline{AB}": {
+      "\\overline{AB}": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1680624086780
         }
       }
     }

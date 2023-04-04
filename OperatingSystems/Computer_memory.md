@@ -270,18 +270,18 @@ free used as an address for pointers, length tells us the amount of memory there
 - Buddies can be combined, reforming the original pair into a larger block, buddies always come from the same parent
 - This is useful for allocating memory, as free regions can repeatedly be split until the right sized block is created while still being able to easily rejoin 
 
-![[Pasted image 20221126231350.png|450]]
+![[Pasted image 20221126231350.png|400|400]]
 
 - Note that allocating across buddies for a single request is not allowed, a 512 byte block cannot be allocated alonside a 2K byte block
 
-![[Pasted image 20221126231842.png|450]]
+![[Pasted image 20221126231842.png|400|400]]
 
 - Blue areas in-between indicate fragmentation 
 
 ## Buddy freeing
 - Blocks from different parents cannot be coalesced, this also requires all leaf nodes to be freed before a join can occur for a parent level
 
-![[Pasted image 20221126232253.png|450]]
+![[Pasted image 20221126232253.png|400|400]]
 
 # Consecutive memory mapping
 ## Row Major mapping

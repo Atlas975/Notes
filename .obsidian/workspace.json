@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgramLanguages/Git.md",
+                "file": "OperatingSystems/FileSystems/File_system_performance.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -183,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/Git.md",
+                "file": "OperatingSystems/FileSystems/File_system_performance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/Git.md"
+                "file": "OperatingSystems/FileSystems/File_system_performance.md"
               }
             }
           }
@@ -239,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/Git.md"
+                "file": "OperatingSystems/FileSystems/File_system_performance.md"
               }
             }
           },
@@ -265,7 +265,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/Git.md",
+                "file": "OperatingSystems/FileSystems/File_system_performance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -314,35 +314,35 @@
   },
   "active": "feda9c1288abd76c",
   "lastOpenFiles": [
+    "OperatingSystems/FileSystems/File_allocation_schemes.md",
+    "OperatingSystems/FileSystems/FAT_file_system.md",
+    "OperatingSystems/Input&Output_systems.md",
+    "OperatingSystems/Multi-Process_systems.md",
+    "OperatingSystems/Computer_memory.md",
+    "OperatingSystems/Caching.md",
+    "OperatingSystems/Error_codes.md",
+    "DiscreteMath/Propositional_logic.md",
+    "DiscreteMath/De_Morgans_law.md",
+    "DiscreteMath/Functions.md",
+    "DiscreteMath/Boolean_logic.md",
+    "SoftwareDesign/UML_diagrams.md",
+    "SoftwareDesign/Test_types.md",
+    "SoftwareDesign/SOLID_principles.md",
+    "SoftwareEngineering/Multiagent_systems.md",
+    "SoftwareEngineering/OOP_principles.md",
+    "SoftwareEngineering/Functional_programming.md",
+    "SoftwareEngineering/Recursion.md",
+    "SoftwarePatterns/Behavioral/Observer_pattern.md",
     "SoftwarePatterns/Structural/Bridge_pattern.md",
+    "ProgramLanguages/Git.md",
     "conflict-files-obsidian-git.md",
     "SoftwarePatterns/Behavioral/Command_pattern.md",
     "Databases/Database_keys.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
-    "Algorithms/ProgrammingPatterns/Sliding_window.md",
-    "ProgramLanguages/Git.md",
-    "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
-    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
-    "Algorithms/SearchAlgorithms/Search_algorithms.md",
-    "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
     "XX-Attachments/Images/Pasted image 20230403225908.png",
     "XX-Attachments/Images/Pasted image 20230403225842.png",
     "XX-Attachments/Images/Pasted image 20230403225835.png",
-    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
-    "Databases/Database_normalisation.md",
-    "Databases/Database_systems.md",
-    "SoftwareEngineering/Multiagent_systems.md",
-    "Networking/Network_delay.md",
-    "Networking/Internet_architecture.md",
-    "Networking/Header_types.md",
-    "Networking/Protocol_stack.md",
-    "Networking/Network_topology.md",
-    "Networking/Network_architecture.md",
-    "DiscreteMath/Propositional_logic.md",
-    "DiscreteMath/Predicate_logic.md",
-    "InformationSystems/System_failure&dependability.md",
-    "InformationSystems/Innovation_practice.md",
     "XX-Attachments/Images/Pasted image 20230329172009.png",
     "XX-Attachments/Images/Pasted image 20230329171310.png",
     "XX-Attachments/Images/Pasted image 20230329171256.png",

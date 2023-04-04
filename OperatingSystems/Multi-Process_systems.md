@@ -118,7 +118,7 @@ ___
 - This has no real disk scheduling optimization, poor throughput with long seek times
 - Fast response times with a natural expected order
 
-![[Pasted image 20221208122940.png|200]]
+![[Pasted image 20221208122940.png|200|200]]
 
 ## Shortest seek time first scheduling (SSTF)
 
@@ -129,7 +129,7 @@ ___
 - Longer max response times due to searching, potential starvation
 - Head may be stuck in a disk hotspot 
 
-![[Pasted image 20221208124126.png|250|250]]
+![[Pasted image 20221208124126.png|200|200]]
 
 ## Elevator scheduling / SCAN
 ![[Pasted image 20221208123646.png|500]]
@@ -138,8 +138,7 @@ ___
 - Only goes for closest request provided it keeps the head moving
 - Two chances to access data at extremities but adds a level of unfairness as certain data can be accessed when the head is moving either forward or backwards
 
-![[Pasted image 20221208124036.png|250|250]]
-
+![[Pasted image 20221208124036.png|200|200]]
 ## Circular scan scheduling / C-SCAN
 
 ![[Pasted image 20221208124516.png|450|450]]
@@ -147,9 +146,7 @@ ___
 - Attempts to eliminate unfairness of elevator scheduling, requests cannot take advantage of head movement back and forth as the head will always make a full rotation around the disk
 - Longer service schedule but fairer 
 
-![[Pasted image 20221208124801.png|250|250]]
-
-
+![[Pasted image 20221208124801.png|200|200]]
 ## Earliest deadline first scheduling (EDF)
 - Orders process based on deadlines to complete a process (FCFS for deadlines)
 - Optimises on deadline first then seek time, acts as a priority queue 
@@ -158,7 +155,7 @@ ___
 
 - Applications more likely to stall on reads as they are typically needed immediately, writing can be delayed unless used for synchronization.
 
-![[Pasted image 20221208125647.png|160|160]]
+![[Pasted image 20221208125647.png|150|150]]
 
 
 - SCAN + EDF scheduling 

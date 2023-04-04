@@ -19,13 +19,11 @@ ___
 - Multiple use cases in [[Boolean_logic|boolean algebra]], [[Predicate_logic|predicate logic]] and [[Propositional_logic|propositional logic]], also essential in simplifying logic circuits
 ## De-Morgan's theorem
 >$$(\overline{A+B})=\overline{AB}$$
->$$\begin{align*}\\
-\text{The complement of a sum is equal to the product of a complement }
-\end{align*}$$
+>$$\text{The complement of a sum is equal to the product of a complement}$$
 >$$\overline{(AB)}=\overline{A}+\overline{B}$$
 >$$\text{The complement of a product is equal to the sum of complement }$$
 
-
+## NAND building
 > example NAND building![[Pasted image 20211103113707.png|450|450]]
 
 ## De Morgan's quantifier law
