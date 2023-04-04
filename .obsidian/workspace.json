@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgramLanguages/Git.md",
+                "file": "SoftwarePatterns/Behavioral/Command_pattern.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -183,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/Git.md",
+                "file": "SoftwarePatterns/Behavioral/Command_pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/Git.md"
+                "file": "SoftwarePatterns/Behavioral/Command_pattern.md"
               }
             }
           }
@@ -239,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/Git.md"
+                "file": "SoftwarePatterns/Behavioral/Command_pattern.md"
               }
             }
           },
@@ -265,7 +265,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/Git.md",
+                "file": "SoftwarePatterns/Behavioral/Command_pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -314,12 +314,15 @@
   },
   "active": "177836b32e8740ed",
   "lastOpenFiles": [
+    "Databases/Database_keys.md",
+    "Algorithms/ProgrammingPatterns/Backtracking.md",
+    "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
+    "Algorithms/ProgrammingPatterns/Sliding_window.md",
+    "ProgramLanguages/Git.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "Algorithms/SearchAlgorithms/Search_algorithms.md",
-    "Databases/Database_keys.md",
     "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
-    "ProgramLanguages/Git.md",
     "XX-Attachments/Images/Pasted image 20230403225908.png",
     "XX-Attachments/Images/Pasted image 20230403225842.png",
     "XX-Attachments/Images/Pasted image 20230403225835.png",
@@ -340,9 +343,6 @@
     "SoftwarePatterns/Behavioral/Iterator_pattern.md",
     "SoftwarePatterns/Creational/Builder_pattern.md",
     "SoftwareDesign/SOLID_principles.md",
-    "SoftwareDesign/Software_architecture.md",
-    "SoftwareEngineering/Concurrency.md",
-    "ProgramLanguages/Rust/Rust_smart_pointers.md",
     "XX-Attachments/Images/Pasted image 20230329172009.png",
     "XX-Attachments/Images/Pasted image 20230329171310.png",
     "XX-Attachments/Images/Pasted image 20230329171256.png",
