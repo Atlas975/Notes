@@ -35,8 +35,8 @@ ___
 3. Process: system entity executing associated programs
 - The **context switch** causes execution jumps to different parts of memory 
 - A threads context comprises of:
-1. Program counter (PC): instruction in a program/function that a thread is set to execute 
-2. Stack pointer (SP): address at top of threads call stack 
+    1. Program counter (PC): instruction in a program/function that a thread is set to execute 
+    2. Stack pointer (SP): address at top of threads call stack 
 ## Context switching sequence
 
 ![[Pasted image 20221022124944.png|500|500]]

@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/FileSystems/File_system_performance.md",
+                "file": "OperatingSystems/Multi-Process_systems.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -183,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/FileSystems/File_system_performance.md",
+                "file": "OperatingSystems/Multi-Process_systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/FileSystems/File_system_performance.md"
+                "file": "OperatingSystems/Multi-Process_systems.md"
               }
             }
           }
@@ -239,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/FileSystems/File_system_performance.md"
+                "file": "OperatingSystems/Multi-Process_systems.md"
               }
             }
           },
@@ -265,7 +265,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/FileSystems/File_system_performance.md",
+                "file": "OperatingSystems/Multi-Process_systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -314,32 +314,32 @@
   },
   "active": "feda9c1288abd76c",
   "lastOpenFiles": [
-    "Databases/Database_keys.md",
-    "Databases/Database_systems.md",
-    "OperatingSystems/FileSystems/File_system_performance.md",
-    "SoftwarePatterns/Structural/Bridge_pattern.md",
-    "OperatingSystems/FileSystems/File_allocation_schemes.md",
-    "OperatingSystems/FileSystems/FAT_file_system.md",
-    "OperatingSystems/Input&Output_systems.md",
-    "OperatingSystems/Multi-Process_systems.md",
-    "OperatingSystems/Computer_memory.md",
-    "OperatingSystems/Caching.md",
     "OperatingSystems/Error_codes.md",
-    "DiscreteMath/Propositional_logic.md",
-    "DiscreteMath/De_Morgans_law.md",
-    "DiscreteMath/Functions.md",
-    "DiscreteMath/Boolean_logic.md",
-    "SoftwareDesign/UML_diagrams.md",
-    "SoftwareDesign/Test_types.md",
-    "SoftwareDesign/SOLID_principles.md",
-    "SoftwareEngineering/Multiagent_systems.md",
-    "SoftwareEngineering/OOP_principles.md",
+    "OperatingSystems/Page_replacement.md",
+    "OperatingSystems/Operating_system_design.md",
+    "OperatingSystems/FileSystems/Unix_file_system.md",
+    "OperatingSystems/FileSystems/File_system_performance.md",
+    "OperatingSystems/FileSystems/FAT_file_system.md",
+    "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "SoftwareEngineering/Functional_programming.md",
-    "SoftwareEngineering/Recursion.md",
-    "SoftwarePatterns/Behavioral/Observer_pattern.md",
-    "ProgramLanguages/Git.md",
-    "conflict-files-obsidian-git.md",
-    "SoftwarePatterns/Behavioral/Command_pattern.md",
+    "SoftwareEngineering/Programming_paradigms.md",
+    "SoftwareEngineering/Multiagent_systems.md",
+    "SoftwareEngineering/Concurrency.md",
+    "OperatingSystems/Processors.md",
+    "ContinuousMath/Center_of_rotation.md",
+    "ContinuousMath/Modulo.md",
+    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
+    "SoftwareDesign/SOLID_principles.md",
+    "SoftwareDesign/Test_types.md",
+    "OperatingSystems/Paging.md",
+    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Two_pointers.md",
+    "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Backtracking.md",
+    "SoftwareDesign/BSPL.md",
+    "OperatingSystems/Multi-Process_systems.md",
     "XX-Attachments/Images/Pasted image 20230403225908.png",
     "XX-Attachments/Images/Pasted image 20230403225842.png",
     "XX-Attachments/Images/Pasted image 20230403225835.png",

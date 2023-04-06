@@ -95,10 +95,6 @@
   --list-marker-color: Aqua;
 }
 
-
-.markdown-preview-view,
-.markdown-source-view {
-  zoom: 0.9 !important;
+body {
+  zoom: 0.9;
 }
-
-/* change zoom level for editor mode */
