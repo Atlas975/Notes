@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwarePatterns/Structural/Bridge_pattern.md",
+                "file": "SoftwarePatterns/Structural/Proxy_pattern.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwarePatterns/Structural/Bridge_pattern.md",
+                "file": "SoftwarePatterns/Structural/Proxy_pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwarePatterns/Structural/Bridge_pattern.md"
+                "file": "SoftwarePatterns/Structural/Proxy_pattern.md"
               }
             }
           }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwarePatterns/Structural/Bridge_pattern.md"
+                "file": "SoftwarePatterns/Structural/Proxy_pattern.md"
               }
             }
           },
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwarePatterns/Structural/Bridge_pattern.md",
+                "file": "SoftwarePatterns/Structural/Proxy_pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -248,8 +248,9 @@
   },
   "active": "5e668093a0a0d5d1",
   "lastOpenFiles": [
-    "SoftwarePatterns/Structural/Proxy_pattern.md",
     "SoftwarePatterns/Structural/Bridge_pattern.md",
+    "SoftwarePatterns/Design_patterns.md",
+    "SoftwarePatterns/Structural/Proxy_pattern.md",
     "OperatingSystems/Multi-Process_systems.md",
     "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "Networking/Network_architecture.md",
@@ -273,7 +274,6 @@
     "OperatingSystems/Processors.md",
     "ContinuousMath/Center_of_rotation.md",
     "ContinuousMath/Modulo.md",
-    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "XX-Attachments/Images/Pasted image 20230403225908.png",
     "XX-Attachments/Images/Pasted image 20230403225842.png",
     "XX-Attachments/Images/Pasted image 20230403225835.png",
