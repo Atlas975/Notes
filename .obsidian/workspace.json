@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwareDesign/Software_architecture.md",
+                "file": "OperatingSystems/Computer_memory.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareDesign/Software_architecture.md",
+                "file": "OperatingSystems/Computer_memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/Software_architecture.md"
+                "file": "OperatingSystems/Computer_memory.md"
               }
             }
           }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/Software_architecture.md"
+                "file": "OperatingSystems/Computer_memory.md"
               }
             }
           },
@@ -213,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareDesign/Software_architecture.md",
+                "file": "OperatingSystems/Computer_memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -262,6 +262,9 @@
   },
   "active": "f03636b788104c16",
   "lastOpenFiles": [
+    "OperatingSystems/Input&Output_systems.md",
+    "SoftwareDesign/Software_planning.md",
+    "SoftwareDesign/Software_architecture.md",
     "OperatingSystems/Processors.md",
     "SoftwarePatterns/Structural/Bridge_pattern.md",
     "SoftwarePatterns/Structural/Proxy_pattern.md",
@@ -269,7 +272,6 @@
     "SoftwareDesign/SOLID_principles.md",
     "OperatingSystems/FileSystems/New_technology_file_system.md",
     "OperatingSystems/FileSystems/File_system_performance.md",
-    "SoftwareDesign/Software_planning.md",
     "SoftwareEngineering/Multiagent_systems.md",
     "SoftwareEngineering/Functional_programming.md",
     "SoftwareEngineering/OOP_principles.md",
@@ -286,8 +288,6 @@
     "Networking/Network_delay.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "OperatingSystems/Error_codes.md",
-    "OperatingSystems/Page_replacement.md",
-    "OperatingSystems/Operating_system_design.md",
     "XX-Attachments/Images/Pasted image 20230403225908.png",
     "XX-Attachments/Images/Pasted image 20230403225842.png",
     "XX-Attachments/Images/Pasted image 20230403225835.png",

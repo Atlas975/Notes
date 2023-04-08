@@ -204,7 +204,7 @@ int main()
 
 ![[Pasted image 20221125114525.png|500]]
 
-free used as an address for pointers, length tells us the amount of memory there, prev & next allows for a chain to be created
+- Free used as an address for pointers, length tells us the amount of memory there, prev & next allows for a chain to be created
 
 ![[Pasted image 20221125114807.png|500]]
 
