@@ -25,7 +25,7 @@ ___
 # Multiagent systems
 - A system that interacts with multiple intelligent agents 
 - Offers easy scalability, robustness, flexibility, adaptability, and diversity of systems
-- There can be handled as either a [[#Centralised systems]]  
+- There can be handled as either a [[#Centralised systems|centralised]] or [[#Decentralised systems|decentralised]] system  
 # Multiagent system pitfalls
 - Interactions must maintain data integrity
 - This is often maintained by object specifications
