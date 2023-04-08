@@ -84,7 +84,6 @@ ___
 ![[Pasted image 20221105123726.png|400|400]]
 
 ## Deadlock interactions
-[[Concurrency#Concurrency pitfalls]]
 
 ![[Pasted image 20221105123821.png|400|400]]
 

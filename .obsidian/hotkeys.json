@@ -78,7 +78,15 @@
     }
   ],
   "insert-current-time": [],
-  "editor:open-search-replace": [],
+  "editor:open-search-replace": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "F"
+    }
+  ],
   "hotkeysplus-obsidian:insert-line-above": [
     {
       "modifiers": [
@@ -281,8 +289,7 @@
   "app:go-back": [
     {
       "modifiers": [
-        "Alt",
-        "Ctrl"
+        "Mod"
       ],
       "key": "ArrowLeft"
     }
@@ -290,8 +297,7 @@
   "app:go-forward": [
     {
       "modifiers": [
-        "Alt",
-        "Ctrl"
+        "Mod"
       ],
       "key": "ArrowRight"
     }
