@@ -79,8 +79,6 @@ impl<P: Pizza> FoodStyle for ItalianStyle<P> {
     }
 }
 
-fn main() {
-    AmericanStyle { pizza: ThinCrust }.order_pizza();
-    ItalianStyle { pizza: DeepDish }.order_pizza();
-}
+AmericanStyle { pizza: ThinCrust }.order_pizza();
+ItalianStyle { pizza: DeepDish }.order_pizza();
 ```
