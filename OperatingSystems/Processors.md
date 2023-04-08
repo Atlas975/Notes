@@ -30,7 +30,6 @@ ___
 - In **x86** architecture, the main memory address space is divided into two parts:
 	- The first part is called **real mode**, which is a 16-bit mode and can address 1 MB of memory.
 	- The second part is called **protected mode**, which is a 32-bit mode and can address 4 GB of memory.
-
 # Multiprocessors
 - With multiple processors, a hierarchy of [[Computer_memory|memory]] and access speeds exist within processors. 
 - Computer processing structure:
