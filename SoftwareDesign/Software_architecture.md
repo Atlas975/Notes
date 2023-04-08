@@ -56,7 +56,7 @@ specified.
 
 # Control models
 - Concerned with the control flow between subsystems, there are two main forms of this:
-- **Centralized control**: one system has overall responsibility for control 
+- **Centralized control**: one system has overall responsibility for control call return model 
 
 ![[Pasted image 20221123232100.png|500|500]] 
 
