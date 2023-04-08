@@ -25,7 +25,7 @@ ___
 # Multiagent systems
 - A system that interacts with multiple intelligent agents 
 - There are two ways of handling this
-- Offers easy scalability, robustness, flexibility, adaptability, and diversity.
+- Offers easy scalability, robustness, flexibility, adaptability, and diversity of systems
 # Multiagent system pitfalls
 - Interactions must maintain data integrity
 - This is often maintained by object specifications
