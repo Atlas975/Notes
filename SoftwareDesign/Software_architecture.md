@@ -27,7 +27,7 @@ ___
 
 ![[Pasted image 20221105125845.png|600]]
 
-## Software design process:
+## Software design process
 
 1. **Architectural design** - the sub-systems making up the system and their relationships are
 identified and documented. Model of control is identified.
@@ -95,8 +95,9 @@ specified.
 - Segregates business logic from the rest of the system.
 - A controller is needed to orchestrate input -> request model -> delivery
 
-![[Pasted image 20221124000504.png|500|500]] - user only communicates through boundary 
+![[Pasted image 20221124000504.png|500|500]]
 
+-  user only communicates through boundary 
 ## Plug-in architectural style
 - Plug in components provide a service within the overall system that needs to conform to systems plugin standards. eg mods [[OOP_principles#Interface signature]]
 
@@ -120,11 +121,12 @@ specified.
 - Services and servers can be swapped without effecting actors 
 
 ![[Pasted image 20221124002108.png|500|500]]
+
 > 
+
 ![[Pasted image 20221124002149.png|550|550]]
 
 ## Interface architecture
 - [[OOP_principles#Interface signature|Interfaces]] offer a way to reduce code dependencies from higher level objects
 
 ![[Pasted image 20221213092146.png|500|500]]
-
