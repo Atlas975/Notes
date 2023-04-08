@@ -91,7 +91,7 @@ loose coupling and autonomy with asynchronous communication
 
 ## State machines
 - A state machine is an abstraction over an algorithm to describe its control flow
-- Useful for describing intended control flow of a [[Concurrency|concurrent]] model and what happends 
+- Useful for describing intended control flow of a [[Concurrency|concurrent]] model and what happens when each object receives a message 
 
 ![[Pasted image 20221105122527.png|450|450]]
 
