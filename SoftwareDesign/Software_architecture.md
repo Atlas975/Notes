@@ -58,7 +58,7 @@ specified.
 - Concerned with the control flow between subsystems, there are two main forms of this:
 - **Centralized control**: one system has overall responsibility for control 
 
-![[Pasted image 20221123232100.png|500|500]] call return model
+![[Pasted image 20221123232100.png|500|500]] 
 
 - **Event-based systems**: each subsystem responds to events created from other subsystems during runtime. Events are broadcasted  to all sub-systems where any subsystem that can handle the event does so. This is an interrupt driven model
 
