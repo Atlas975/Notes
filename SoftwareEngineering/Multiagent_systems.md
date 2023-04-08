@@ -26,6 +26,33 @@ ___
 - A system that interacts with multiple intelligent agents 
 - There are two ways of handling this
 
+# Multiagent system pitfalls
+- Interactions must maintain data integrity
+- This is often maintained by object specifications
+
+![[Pasted image 20221105123506.png|450|450]]
+
+- Example challenges include 
+## Integrity violations
+
+![[Pasted image 20221105123657.png|450|450]]
+
+## Race conditions
+
+![[Pasted image 20221105123726.png|400|400]]
+
+## Deadlock interactions
+
+![[Pasted image 20221105123821.png|400|400]]
+
+## Asynchronous communication
+- Ordering send - receive communication has its own challenges such as required synchronization and tight coupling 
+
+![[Pasted image 20221105124158.png|450|450]]
+loose coupling and autonomy with asynchronous communication
+
+- Communication is often FIFO in delivery, this is helped through message queues  
+
 # Centralised systems
 - Central entity that controls actions between users 
 - Eg. commercial platform, social media or an autonomous system 
@@ -68,29 +95,3 @@ ___
 
 ![[Pasted image 20221105122527.png|450|450]]
 
-# Multiagent system pitfalls
-- Interactions must maintain data integrity
-- This is often maintained by object specifications
-
-![[Pasted image 20221105123506.png|450|450]]
-
-- Example challenges include 
-## Integrity violations
-
-![[Pasted image 20221105123657.png|450|450]]
-
-## Race conditions
-
-![[Pasted image 20221105123726.png|400|400]]
-
-## Deadlock interactions
-
-![[Pasted image 20221105123821.png|400|400]]
-
-## Asynchronous communication
-- Ordering send - receive communication has its own challenges such as required synchronization and tight coupling 
-
-![[Pasted image 20221105124158.png|450|450]]
-loose coupling and autonomy with asynchronous communication
-
-- Communication is often FIFO in delivery, this is helped through message queues  
