@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwarePatterns/Structural/Proxy_pattern.md",
+                "file": "Databases/Database_normalisation.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -196,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwarePatterns/Structural/Proxy_pattern.md",
+                "file": "Databases/Database_normalisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -228,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwarePatterns/Structural/Proxy_pattern.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           }
@@ -236,8 +236,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5046501159668,
-    "collapsed": true
+    "width": 259.5046501159668
   },
   "right": {
     "id": "441e4249d5592193",
@@ -253,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwarePatterns/Structural/Proxy_pattern.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           },
@@ -279,7 +278,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwarePatterns/Structural/Proxy_pattern.md",
+                "file": "Databases/Database_normalisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -328,17 +327,19 @@
   },
   "active": "b23f0aa934e18d35",
   "lastOpenFiles": [
-    "XX-Attachments/Images/AdilW_Resume.docx",
-    "SoftwarePatterns/Behavioral/Observer_pattern.md",
-    "SoftwarePatterns/Design_patterns.md",
     "SoftwarePatterns/Creational/Builder_pattern.md",
-    "SoftwarePatterns/Structural/Adaptor_pattern.md",
-    "SoftwarePatterns/Structural/Bridge_pattern.md",
-    "SoftwarePatterns/Behavioral/Template_pattern.md",
-    "XX-Attachments/Images/Pasted image 20230409135033.png",
+    "XX-Attachments/Images/Pasted image 20230409172418.png",
     "SoftwarePatterns/Behavioral/Visitor_pattern.md",
-    "SoftwarePatterns/Behavioral/Command_pattern.md",
+    "SoftwarePatterns/Behavioral/Template_pattern.md",
+    "SoftwarePatterns/Behavioral/Observer_pattern.md",
     "SoftwarePatterns/Behavioral/Iterator_pattern.md",
+    "SoftwarePatterns/Behavioral/Command_pattern.md",
+    "SoftwarePatterns/Structural/Proxy_pattern.md",
+    "SoftwarePatterns/Structural/Bridge_pattern.md",
+    "SoftwarePatterns/Structural/Adaptor_pattern.md",
+    "XX-Attachments/Images/AdilW_Resume.docx",
+    "SoftwarePatterns/Design_patterns.md",
+    "XX-Attachments/Images/Pasted image 20230409135033.png",
     "SoftwareEngineering/OOP_principles.md",
     "SoftwareDesign/UML_diagrams.md",
     "OperatingSystems/FileSystems/File_system_performance.md",
@@ -352,7 +353,6 @@
     "SoftwareDesign/Software_planning.md",
     "SoftwareDesign/Software_architecture.md",
     "OperatingSystems/Processors.md",
-    "SoftwarePatterns/Structural/Proxy_pattern.md",
     "SoftwareDesign/SOLID_principles.md",
     "SoftwareEngineering/Multiagent_systems.md",
     "XX-Attachments/Images/Pasted image 20230403225908.png",
@@ -363,7 +363,6 @@
     "XX-Attachments/Images/Pasted image 20230329171256.png",
     "XX-Attachments/Images/Pasted image 20230329171222.png",
     "XX-Attachments/Images/Pasted image 20230321211944.png",
-    "XX-Attachments/Images/Pasted image 20230321211616.png",
     "Algorithms/SearchAlgorithms",
     "ProgramLanguages/SQL/SQLversions",
     "XX-Attachments/Images/Home work 3 SOLUTIONS 2021-2022.pdf",
@@ -372,7 +371,6 @@
     "DataStructures/sed33kt9o",
     "DataStructures/sedit9HHx",
     "DataStructures/sedcT4bEx",
-    "DataStructures/sedmzHhFC",
-    "SoftwareEngineering/sedAM4RPw"
+    "DataStructures/sedmzHhFC"
   ]
 }

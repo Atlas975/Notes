@@ -14,6 +14,13 @@
 
 ___
 # Builder pattern
+- Helps simplify the initialisation of an object through the use of a builder class
+- This is done by having dedicated methods to assign single/multiple fields. The builder class can then use a build method to return the desired object if all essential fields are set
+
+![[Pasted image 20230409172418.png|550|550]]
+- This can also be used to force instantiation through the builder class exclusively 
+- A director class may also optionally exist to provide a common builder configurations
+
 ```rust
 struct Car {
     name: String,
@@ -26,7 +33,6 @@ struct CarBuilder {
     model: Option<String>,
     year: Option<i32>,
 }
-
 impl CarBuilder {
     fn new() -> Self {
         CarBuilder {
@@ -60,12 +66,36 @@ impl CarBuilder {
             None
         }
     }
+}
 
-    fn build_bugatti(&mut self) -> Option<Car> {
-        self.name("Bugatti").model("Veyron").year(2010).build()
+struct CarDirector {
+    car_builder: CarBuilder,
+}
+impl CarDirector {
+    fn new() -> Self {
+        CarDirector {
+            car_builder: CarBuilder::new(),
+        }
+    }
+
+    fn build_bugatti(&mut self) -> Car {
+        self.car_builder
+            .name("Bugatti")
+            .model("Veyron")
+            .year(2010)
+            .build().unwrap()
+    }
+
+    fn build_ferrari(&mut self) -> Car {
+        self.car_builder
+            .name("Ferrari")
+            .model("F40")
+            .year(1992)
+            .build().unwrap()
     }
 }
 
-assert_eq!(CarBuilder::new().build_bugatti().unwrap().name, "Bugatti");
-assert_eq!(CarBuilder::new().name("Ferrari").build(), None);
+let mut car_director = CarDirector::new();
+assert_eq!(car_director.build_bugatti().name, "Bugatti");
+assert_eq!(car_director.build_ferrari().name, "Ferrari");
 ```
