@@ -19,6 +19,9 @@ ___
 
 ![[Pasted image 20230130132227.png|550|550]]
 
+- Proxies can be used to solve distinct issues, sometimes simultaneously, these uses being:
+    - **Virtual proxies**: enables the creation
+
 - Example of a cache providing proxy that acts as an intermediary between a slower service
 
 ```rust
