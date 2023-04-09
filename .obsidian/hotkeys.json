@@ -23,20 +23,12 @@
       "key": "B"
     }
   ],
-  "editor:toggle-bullet-list": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "B"
-    }
-  ],
+  "editor:toggle-bullet-list": [],
   "obsidian-autocomplete-plugin:autocomplete-toggle": [],
   "editor:toggle-bold": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Alt"
       ],
       "key": "B"
     }
@@ -203,7 +195,7 @@
   "editor:toggle-comments": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
       "key": "/"
     }
@@ -302,7 +294,14 @@
       "key": "ArrowRight"
     }
   ],
-  "editor:toggle-checklist-status": [],
+  "editor:toggle-checklist-status": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "C"
+    }
+  ],
   "app:toggle-right-sidebar": [
     {
       "modifiers": [
@@ -612,6 +611,30 @@
         "Shift"
       ],
       "key": "ArrowUp"
+    }
+  ],
+  "editor:toggle-strikethrough": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "K"
+    }
+  ],
+  "editor:toggle-numbered-list": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "N"
+    }
+  ],
+  "editor:toggle-italics": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "I"
     }
   ]
 }
