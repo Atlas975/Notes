@@ -56,9 +56,10 @@ $$\text{Blocking factor(BFR)}=\lfloor \frac{\text{ block size}}{\text{record siz
 	- [[File_allocation_schemes#Cluster allocation|Cluster allocation]]
 	- [[File_allocation_schemes#Indexed allocation|Indexed allocation]]
 - Databases also need to account for [[File_systems#File organisation|physical file organisation]],  but a DBMS will abstract these processes away from a DB admin. Understanding underlying storage structures is still vital for optimising designs
+- The key to understanding a file are [[File_systems#File headers|File headers]], which act as a rosetta stone for programs to access information regarding records in a file
 ## Primary Files
 -   Primary files in databases are the main files that hold persistent data.
--   Contains the actual data rows of the table, along with their associated data elements and fields.
+-   Contains the actual data rows of the table, along with their associated  elements and fields.
 -  **Primary file organisation** describes how records are physically placed on disk 
 ## Secondary Files
 - Can be taught of as the indexes in a text book, providing an alternate way to locate records without impacting physical placement of records on disk 
@@ -66,4 +67,4 @@ $$\text{Blocking factor(BFR)}=\lfloor \frac{\text{ block size}}{\text{record siz
 - **Secondary file organisation** describes how efficiently records are accessed, this describes access structures that are used to speed of retrieval`
 - Secondary files are used to enhance the performance of the database, allowing for faster retrieval of data. They are also used for backup and recovery purposes.
 - Any field in a record can be used for indexing, the fields that are used are known as index fields, multiple of these may exist
-        
+		
