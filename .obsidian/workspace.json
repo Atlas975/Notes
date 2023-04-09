@@ -34,25 +34,12 @@
             }
           },
           {
-            "id": "feda9c1288abd76c",
+            "id": "ef57d80c4df50836",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Multi-Process_systems.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9e756c8fa259b3f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Network_architecture.md",
+                "file": "Databases/Database_indexing.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -60,33 +47,20 @@
             }
           },
           {
-            "id": "7df6abb56dae46a2",
+            "id": "09704fda7fe72dd9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/FileSystems/File_systems.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6b4ee3008df7874b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
-                "mode": "preview",
+                "file": "Databases/Database_storage.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -131,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_storage.md",
+                "file": "Databases/Database_indexing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_storage.md"
+                "file": "Databases/Database_indexing.md"
               }
             }
           }
@@ -171,7 +145,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5046501159668
+    "width": 259.5046501159668,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -187,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_storage.md"
+                "file": "Databases/Database_indexing.md"
               }
             }
           },
@@ -213,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_storage.md",
+                "file": "Databases/Database_indexing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -260,10 +235,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b23f0aa934e18d35",
+  "active": "ef57d80c4df50836",
   "lastOpenFiles": [
-    "OperatingSystems/FileSystems/File_systems.md",
     "Databases/Database_storage.md",
+    "OperatingSystems/Multi-Process_systems.md",
+    "Networking/Network_architecture.md",
+    "OperatingSystems/FileSystems/File_systems.md",
+    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
+    "Databases/Database_indexing.md",
     "SoftwarePatterns/Structural/Bridge_pattern.md",
     "OperatingSystems/Input&Output_systems.md",
     "OperatingSystems/FileSystems/File_system_performance.md",
@@ -287,10 +266,6 @@
     "OperatingSystems/FileSystems/New_technology_file_system.md",
     "OperatingSystems/Error_codes.md",
     "OperatingSystems/Computer_memory.md",
-    "OperatingSystems/Caching.md",
-    "SoftwareDesign/Software_planning.md",
-    "SoftwareDesign/Software_architecture.md",
-    "OperatingSystems/Processors.md",
     "XX-Attachments/Images/Pasted image 20230403225908.png",
     "XX-Attachments/Images/Pasted image 20230403225842.png",
     "XX-Attachments/Images/Pasted image 20230403225835.png",
