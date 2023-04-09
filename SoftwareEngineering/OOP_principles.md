@@ -74,7 +74,7 @@ abstract class ChessPiece {
 # Interface signature 
 
 - Interfaces are completely abstract classes that can only group methods together with no bodies of their own. Including no constructor. This means all methods have the abstract signature built in.
-- Interfaces are best used to label common functionality between unrelated classes
+- Interfaces are best used to label common functionality between unrelated classes 
 - This also enable **loose coupling** as client objects do not need to be aware of specific objects
 ```ad-example 
 ```java
