@@ -51,7 +51,7 @@ ___
 - Abstract classes and methods cannot be instantiated themselves but are instead built for inheritance. 
 - Unlike interfaces, abstract classes can be used to share code between other classes, these still require that the child class implements all abstract methods themselves
 - Abstract signatures are best used for objects that are closely related such as via inheritance 
-    - This also allows the client object to be aware of the classes that implemn
+- This also allows enables 
 
 ```ad-example
 
