@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Template_pattern.md",
+                "file": "SoftwarePatterns/Behavioral/Observer_pattern.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -183,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Template_pattern.md",
+                "file": "SoftwarePatterns/Behavioral/Observer_pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Template_pattern.md"
+                "file": "SoftwarePatterns/Behavioral/Observer_pattern.md"
               }
             }
           }
@@ -239,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Template_pattern.md"
+                "file": "SoftwarePatterns/Behavioral/Observer_pattern.md"
               }
             }
           },
@@ -265,7 +265,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Template_pattern.md",
+                "file": "SoftwarePatterns/Behavioral/Observer_pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -314,8 +314,14 @@
   },
   "active": "16a61b40de03c5cf",
   "lastOpenFiles": [
-    "SoftwareEngineering/OOP_principles.md",
     "SoftwarePatterns/Behavioral/Template_pattern.md",
+    "SoftwarePatterns/Behavioral/Observer_pattern.md",
+    "XX-Attachments/Images/Pasted image 20230409135033.png",
+    "SoftwarePatterns/Structural/Adaptor_pattern.md",
+    "SoftwarePatterns/Behavioral/Visitor_pattern.md",
+    "SoftwarePatterns/Behavioral/Command_pattern.md",
+    "SoftwarePatterns/Behavioral/Iterator_pattern.md",
+    "SoftwareEngineering/OOP_principles.md",
     "SoftwareDesign/UML_diagrams.md",
     "OperatingSystems/FileSystems/File_system_performance.md",
     "OperatingSystems/FileSystems/FAT_file_system.md",
@@ -334,12 +340,6 @@
     "SoftwareDesign/SOLID_principles.md",
     "SoftwareEngineering/Multiagent_systems.md",
     "SoftwareEngineering/Functional_programming.md",
-    "SoftwareEngineering/Recursion.md",
-    "SoftwareEngineering/Programming_paradigms.md",
-    "OperatingSystems/Multi-Process_systems.md",
-    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
-    "Networking/Network_architecture.md",
-    "Networking/TransmissionProtocols/Domain_name_server.md",
     "XX-Attachments/Images/Pasted image 20230403225908.png",
     "XX-Attachments/Images/Pasted image 20230403225842.png",
     "XX-Attachments/Images/Pasted image 20230403225835.png",
@@ -350,7 +350,6 @@
     "XX-Attachments/Images/Pasted image 20230321211944.png",
     "XX-Attachments/Images/Pasted image 20230321211616.png",
     "Algorithms/SearchAlgorithms",
-    "XX-Attachments/Images/Pasted image 20230318175738.png",
     "ProgramLanguages/SQL/SQLversions",
     "XX-Attachments/Images/Home work 3 SOLUTIONS 2021-2022.pdf",
     "ProgramLanguages/Python/sed7keQGo",

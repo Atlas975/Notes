@@ -79,14 +79,6 @@
         }
       }
     },
-    "physical": {
-      "physical": {
-        "currentFile": {
-          "count": 6,
-          "lastUpdated": 1678192928856
-        }
-      }
-    },
     "addresses": {
       "addresses": {
         "currentFile": {
@@ -100,222 +92,6 @@
         "currentFile": {
           "count": 8,
           "lastUpdated": 1679159909072
-        }
-      }
-    },
-    "persistence": {
-      "persistence": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1678192576583
-        }
-      }
-    },
-    "fragmentation": {
-      "fragmentation": {
-        "currentFile": {
-          "count": 4,
-          "lastUpdated": 1678117291927
-        }
-      }
-    },
-    "performance": {
-      "performance": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1678117378205
-        }
-      }
-    },
-    "allocation": {
-      "allocation": {
-        "currentFile": {
-          "count": 7,
-          "lastUpdated": 1678117465991
-        }
-      }
-    },
-    "concat": {
-      "concat": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678097868433
-        }
-      }
-    },
-    "additional": {
-      "additional": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678113808329
-        }
-      }
-    },
-    "overhead": {
-      "overhead": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678113809821
-        }
-      }
-    },
-    "pointers": {
-      "pointers": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678114134852
-        }
-      }
-    },
-    "Multi-level": {
-      "Multi-level": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678115600300
-        }
-      }
-    },
-    "balance": {
-      "balance": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1678117371435
-        }
-      }
-    },
-    "flexibility": {
-      "flexibility": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678117381132
-        }
-      }
-    },
-    "efficiency": {
-      "efficiency": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678117384030
-        }
-      }
-    },
-    "Database": {
-      "Database": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1678191937932
-        }
-      }
-    },
-    "descripter": {
-      "descripter": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678118022405
-        }
-      }
-    },
-    "information": {
-      "information": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1678118185337
-        }
-      }
-    },
-    "retrieve": {
-      "retrieve": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678120866473
-        }
-      }
-    },
-    "beginning": {
-      "beginning": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678120903995
-        }
-      }
-    },
-    "files": {
-      "files": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678121100060
-        }
-      }
-    },
-    "operations": {
-      "operations": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1678146263269
-        }
-      }
-    },
-    "directory": {
-      "directory": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678121925459
-        }
-      }
-    },
-    "organisation": {
-      "organisation": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1678191477801
-        }
-      }
-    },
-    "records": {
-      "records": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678145545824
-        }
-      }
-    },
-    "placed": {
-      "placed": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678145552724
-        }
-      }
-    },
-    "efficient": {
-      "efficient": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678145578577
-        }
-      }
-    },
-    "retrieval": {
-      "retrieval": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678146661399
-        }
-      }
-    },
-    "efficiently": {
-      "efficiently": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678191580672
-        }
-      }
-    },
-    "describes": {
-      "describes": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678193037098
         }
       }
     },
@@ -596,6 +372,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1680624086780
+        }
+      }
+    },
+    "structures": {
+      "structures": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1681032804278
+        }
+      }
+    },
+    "behavioral": {
+      "behavioral": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1681032944296
         }
       }
     }

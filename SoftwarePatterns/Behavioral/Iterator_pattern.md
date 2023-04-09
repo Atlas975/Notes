@@ -14,7 +14,7 @@
 
 ___
 # Iterator pattern
-- Abstracts the traversal behaviour of a collection  ( #ADTs ) into a separate component known as an iterator
+- Abstracts the traversal behaviour of data structure  ( #ADTs ) into a separate component known as an iterator. This abstracts away unique iterating patterns 
 - This [[Design_patterns|design pattern]] allows traversal of elements whilst encapsulating the collections underlying architecture. Multiple iterators can be created from the same collection
 
 ![[Pasted image 20230130121336.png|550|550]]
