@@ -563,7 +563,7 @@
   "file-explorer:reveal-active-file": [
     {
       "modifiers": [
-        "Alt"
+        "Ctrl"
       ],
       "key": ","
     }
@@ -635,6 +635,15 @@
         "Alt"
       ],
       "key": "I"
+    }
+  ],
+  "open-with-default-app:show": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": ","
     }
   ]
 }
