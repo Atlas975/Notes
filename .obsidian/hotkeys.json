@@ -32,7 +32,15 @@
     }
   ],
   "obsidian-autocomplete-plugin:autocomplete-toggle": [],
-  "editor:toggle-bold": [],
+  "editor:toggle-bold": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
+    }
+  ],
   "editor:toggle-code": [],
   "hotkeysplus-obsidian:toggle-block-quote": [
     {
