@@ -20,9 +20,11 @@ ___
 ![[Pasted image 20230130132227.png|550|550]]
 
 - Proxies can be used to solve distinct issues, sometimes simultaneously, these uses being:
-    - **Virtual proxies**: enables the creation
+    - **Virtual proxies**: enables the creation of expensive objects on demand eg caching
+    - **Remote proxy**: provides a local representation of an object located in different address space 
+    - **Protection proxy**: provides controlled access to the real object
 
-- Example of a cache providing proxy that acts as an intermediary between a slower service
+- Example of a [[Caching|cache]] providing proxy that acts as an intermediary between a slower service
 
 ```rust
 trait Service {

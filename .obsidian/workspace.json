@@ -92,7 +92,7 @@
               "type": "markdown",
               "state": {
                 "file": "SoftwarePatterns/Structural/Proxy_pattern.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -236,7 +236,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5046501159668
+    "width": 259.5046501159668,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
