@@ -34,8 +34,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_indexing.md",
-                "mode": "source",
+                "file": "OperatingSystems/Computer_memory.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_indexing.md",
+                "file": "OperatingSystems/Computer_memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_indexing.md"
+                "file": "OperatingSystems/Computer_memory.md"
               }
             }
           }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_indexing.md"
+                "file": "OperatingSystems/Computer_memory.md"
               }
             }
           },
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_indexing.md",
+                "file": "OperatingSystems/Computer_memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,9 +218,20 @@
   },
   "active": "5d8ced15cbc47de4",
   "lastOpenFiles": [
+    "OperatingSystems/Error_codes.md",
+    "OperatingSystems/Input&Output_systems.md",
+    "OperatingSystems/Linux_permissions.md",
+    "OperatingSystems/Multi-Process_systems.md",
+    "OperatingSystems/Virtualisation.md",
+    "OperatingSystems/Thread_types.md",
+    "OperatingSystems/Paging.md",
+    "SoftwareEngineering/Multiagent_systems.md",
+    "SoftwarePatterns/Behavioral/Command_pattern.md",
+    "DiscreteMath/De_Morgans_law.md",
+    "DiscreteMath/Inference_rules.md",
+    "Databases/Database_indexing.md",
     "Databases/Database_storage.md",
     "OperatingSystems/FileSystems/File_systems.md",
-    "Databases/Database_indexing.md",
     "XX-Attachments/Images/Pasted image 20230411192357.png",
     "Databases/Relational_algebra.md",
     "Algorithms/SortAlgorithms/Insertion_sort.md",
@@ -236,19 +247,9 @@
     "XX-Attachments/Images/Pasted image 20230410000220.png",
     "XX-Attachments/Images/Pasted image 20230409234650.png",
     "XX-Attachments/Images/Pasted image 20230409231309.png",
-    "OperatingSystems/Multi-Process_systems.md",
     "Networking/Network_architecture.md",
-    "OperatingSystems/Input&Output_systems.md",
     "OperatingSystems/FileSystems/File_system_performance.md",
-    "SoftwareDesign/UML_diagrams.md",
-    "SoftwareEngineering/OOP_principles.md",
-    "SoftwarePatterns/Creational/Builder_pattern.md",
-    "OperatingSystems/FileSystems/File_allocation_schemes.md",
-    "Databases/Database_normalisation.md",
     "XX-Attachments/Images/Pasted image 20230409172418.png",
-    "SoftwarePatterns/Behavioral/Visitor_pattern.md",
-    "SoftwarePatterns/Behavioral/Template_pattern.md",
-    "SoftwarePatterns/Behavioral/Observer_pattern.md",
     "XX-Attachments/Images/AdilW_Resume.docx",
     "XX-Attachments/Images/Pasted image 20230409135033.png",
     "XX-Attachments/Images/Pasted image 20230403225908.png",
