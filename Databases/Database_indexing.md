@@ -11,9 +11,11 @@
 
 ___
 # Database indexing
-- A technique used to improve the performance of [[Database_systems|database]] through the use of  [[Database_storage#Secondary Files|secondary files]] whose values use ordered indexes
+- A technique used to improve the performance of [[Database_systems|database]] through the use of  [[Database_storage#Secondary Files|secondary files]] whose values use ordered indexes, allowing for faster data access on specific criterion 
 - Indexing creates a separate data structure that organises data in an efficient manner, the secondary structure is searched during a query with each index containing a pointer to its associated record 
-- The use of secondary files incurs an additional cost to **write performance** for better **read performance**
+
+![[Pasted image 20230411192357.png|350|350]]
+- The use of secondary files incurs an additional cost to **write performance** for better **read performance**, database structures with no indexes at all are called **heaaps**, new values are inserted wherever there is free space ([[File_systems#]]) 
 ## Single level indexes
 - Defined on a single field in a file called the indexing field
 - Multiple types of single level indexes exist these being:
@@ -32,7 +34,9 @@ ___
 - Index file is much smaller than data file, however additional overhead exists to maintain ordering via re-arranging due to modifications or deletions
 
 ### Clustering indexes 
-- Used if ordering key is a non-key field, ie when multiple records may hold the same value for their ordering field 
+- Used if ordering key is a non-key field, ie when multiple records may hold the same value for their ordering field  in which case a clustered ordered field would be used 
 - Index entry exists for each distinct value of clustering field 
 
 ![[Pasted image 20230410000220.png|550|550]]
+
+
