@@ -18,23 +18,6 @@ ___
 ## Sorting stability
 - A sort is stable if two equal elements appear in the same relative order to each other.
 - Binary insertion sort is stable, however an algorithm such as timsorts stability depends on the merge algorithm
-
-
-# Insertion sort
-- Array is split inplace between the first and second element, the sorted end and the unsorted end. If the next element in the unsorted array is smaller than the element in the sorted array, it iterates through the sorted end until it finds an element its smaller than. It then takes its place and shifts all elements ahead of it by one index forward
-```python
-def insertion_sort(data): # O(n^2)
-    for r in range(1, len(data)):
-        l = r
-        while l > 0 and data[l-1] > data[l]:
-            data[l - 1], data[l] = data[l], data[l - 1]
-            l -= 1
-```
-![[Pasted image 20220321115929.png|350|350]]
-
-
-
-
 # Heap sort
 - Starts by representing the array as a regular tree (min heap) than constructs a max heap (a tree where the parent node is always larger than the child node). 
 - This effectively builds the sorted array backwards

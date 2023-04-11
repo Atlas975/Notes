@@ -67,4 +67,3 @@ $$\text{Blocking factor(BFR)}=\lfloor \frac{\text{ block size}}{\text{record siz
 - **Secondary file organisation** describes how efficiently records are accessed, this describes access structures that are used to speed of retrieval`
 - Secondary files are used to enhance the performance of the database, allowing for faster retrieval of data. They are also used for backup and recovery purposes.
 - Any field in a record can be used for indexing, the fields that are used are known as index fields, multiple of these may exist
-		

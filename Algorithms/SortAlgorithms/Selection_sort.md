@@ -21,5 +21,6 @@ def selection_sort(data): # O(n^2)
             if data[j] < data[low]:
                 low = j
         data[low], data[i] = data[i], data[low]
+    return data 
 ```
 ![[Pasted image 20220321120434.png|350|350]]
