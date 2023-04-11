@@ -14,10 +14,10 @@ ___
 - Builds the sorted array in place by having an element float to the top up until it encounters an element larger than itself, this is process is repeated n times
 
 ```python
-def bubble_sort(data): # O(n^2)
+def bubble_sort(data):  # O(n^2)
     n = len(data)
-    for _ in range(1, n):
-        for j in range(n - 1):
+    for i in range(n):
+        for j in range(n - i - 1):
             if data[j] > data[j + 1]:
                 data[j], data[j + 1] = data[j + 1], data[j]
     return data

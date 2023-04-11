@@ -59,22 +59,6 @@ building a max heap starts from the furthest down parent node in this case 5 and
 
 ![[Pasted image 20220324121537.png|500|500]]
 
-# Quick sort
-- An inplace recursive sorting algorithm, involves getting each item in its correct location one at a time. Works by selecting a pivot element and partitioning the other elements into sub arrays
-- The pivot in quicksort aims to be the middlemost element but this is done in many ways such as:
-1. Always selecting first/last element
-2. Pick random last element
-3. Pick random element
-4. Pick median
-- At the end of an iteration the pivot should be in its correct final position with all elements in front being larger and all elements behind being smaller
-
-![[Pasted image 20220613114902.png|450|450]]
-
-## Median of three partition method
-- Selects the first middle and last element of the array, these are then sorted properly before the middle item is chosen as the pivot 
-
-![[Pasted image 20220329134709.png|450|450]]
-in this case 4 is chosen
 
 # Tree sort
 - Inserts all items in a binary tree using less / greater than comparisons to determine the branch to insert to.
