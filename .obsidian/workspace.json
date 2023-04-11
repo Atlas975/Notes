@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/SortAlgorithms/Merge_sort.md",
+                "file": "Algorithms/SortAlgorithms/Quick_sort.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/SortAlgorithms/Merge_sort.md",
+                "file": "Algorithms/SortAlgorithms/Quick_sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/SortAlgorithms/Merge_sort.md"
+                "file": "Algorithms/SortAlgorithms/Quick_sort.md"
               }
             }
           }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/SortAlgorithms/Merge_sort.md"
+                "file": "Algorithms/SortAlgorithms/Quick_sort.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/SortAlgorithms/Merge_sort.md",
+                "file": "Algorithms/SortAlgorithms/Quick_sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,10 +209,11 @@
   },
   "active": "5e668093a0a0d5d1",
   "lastOpenFiles": [
+    "Algorithms/SortAlgorithms/Merge_sort.md",
+    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "Algorithms/SortAlgorithms/Quick_sort.md",
     "Algorithms/SortAlgorithms/Sorting_algorithms.md",
     "Algorithms/SortAlgorithms/Selection_sort.md",
-    "Algorithms/SortAlgorithms/Merge_sort.md",
     "Algorithms/SortAlgorithms/Bubble_sort.md",
     "SoftwarePatterns/Structural/Bridge_pattern.md",
     "Databases/Database_storage.md",
@@ -224,7 +225,6 @@
     "OperatingSystems/Multi-Process_systems.md",
     "Networking/Network_architecture.md",
     "OperatingSystems/FileSystems/File_systems.md",
-    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "OperatingSystems/Input&Output_systems.md",
     "OperatingSystems/FileSystems/File_system_performance.md",
     "SoftwareDesign/UML_diagrams.md",
