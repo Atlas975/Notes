@@ -54,7 +54,7 @@ ___
 
 ![[Pasted image 20211101204718.png|500|500]]
 
-# Surjective / onto function
+# Surjective
 - Every y has at least one x mapped to it. range=co-domain
 - Every inverse function has the surjective property.
 
@@ -77,7 +77,7 @@ $$x=\frac {y-2}{5} $$
 when y=5 , x=3/5 not an integer so y=5 has no mapping
 
 
-# Injective / one-to-one
+# Injective
 - Every y is mapped to only 1 x
 - Assume f(x)=f(y)
 - Example of non injective (R -> R):
