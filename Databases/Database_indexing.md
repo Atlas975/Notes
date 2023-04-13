@@ -19,7 +19,7 @@ ___
 - **Single level indexes** are based on ordered files, typically using a single field as the indexing field, 
 ## Single level indexes
 - Defined on a single field in a file called the indexing field
-- Multiple types of single level indexes exist these being:
+    - Multiple types of single level indexes exist these being:
 	1. **Primary indexes** 
 	2. **Clustering indexes** 
 	3. **Secondary indexes** 
