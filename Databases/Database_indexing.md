@@ -19,7 +19,7 @@ ___
 - **Single level indexes** are based on ordered files, typically using a single field as the indexing field, 
 ## Single level indexes
 - Defined on a single field in a file called the indexing field
-    - Multiple types of single level indexes exist these being:
+	- Multiple types of single level indexes exist these being:
 	1. **Primary indexes** 
 	2. **Clustering indexes** 
 	3. **Secondary indexes** 
@@ -32,12 +32,10 @@ ___
 
 - One index entry exists for each block in the datafile starting from the first record 
 - This is known as the anchor record 
-- Index file is much smaller than data file, however additional overhead exists to maintain ordering via re-arranging due to modifications or deletions
+- Index file are much smaller than data files but additional overhead exists to maintain ordering via re-arranging from modifications or deletions
 
-### Clustering indexes 
+### Clustering indexes
 - Used if ordering key is a non-key field, ie when multiple records may hold the same value for their ordering field  in which case a clustered ordered field would be used 
 - Index entry exists for each distinct value of clustering field 
 
 ![[Pasted image 20230410000220.png|550|550]]
-
-
