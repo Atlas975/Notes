@@ -11,7 +11,7 @@
 
 ___
 # Database indexing
-- A technique used to improve the performance of [[Database_systems|database]] through the use of  [[Database_storage#Secondary Files|secondary files]] whose values use ordered indexes, allows for faster data access on specific criterion 
+- A technique used to improve the performance of [[Database_systems|database]] through the use of  [[Database_storage#Secondary Files|secondary files]] whose values use ordered indexes, allows for faster data access 
 - Indexing creates a separate data structure that organises data , the secondary structure can be searched during a query. The index file itself is ordered and consists of fixed length records (AKA the [[Database_keys#Primary key|Primary key]]) with an additional field that points to physical disk blocks
 
 ![[Pasted image 20230411192357.png|350|350]]
