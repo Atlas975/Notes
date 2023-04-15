@@ -18,7 +18,7 @@ ___
 ```python
 def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
     res = []
-    
+
     # ITERATIVE
     s = deque()
     while root or s:
