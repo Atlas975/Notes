@@ -83,7 +83,8 @@ t.start();
 - An example of a problem that can arise without proper coordination is the lost update problem:
 - The synchronized signature also prevents a thread from accessing other methods in the class with the synchronized signature 
 
-![[Pasted image 20221022105807.png|450|450]]this is an example of a race condition 
+![[Pasted image 20221022105807.png|450|450]]
+- This is an example of a race condition 
 
 ## Race condition
 - Condition where incorrect program output may have been generated depending on instruction order from multiple threads 
