@@ -424,17 +424,16 @@
   "darlal-switcher-plus:switcher-plus:open": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "F"
-    },
-    {
-      "modifiers": [
         "Ctrl",
         "Shift"
       ],
       "key": "Tab"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "P"
     }
   ],
   "global-search:open": [],
@@ -444,7 +443,7 @@
         "Mod",
         "Shift"
       ],
-      "key": "O"
+      "key": "F"
     }
   ],
   "templater-obsidian:jump-to-next-cursor-location": [],

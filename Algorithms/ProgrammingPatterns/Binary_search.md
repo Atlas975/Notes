@@ -1,3 +1,7 @@
+---
+aliases: binary search
+---
+
 > [!important|inIL]- Metadata
 > **Tags:** #ProgrammingPatterns 
 > **Located:** Algorithms/ProgrammingPatterns
@@ -14,7 +18,11 @@
 
 ___
 # Binary search
-## Binary search algorithm 
+- A search algorithm used in ordered data 
+- The units of time taken to search for a record using binary search in an ordered file vs unordered is: 
+$$\log_{2}N$$
+$$N= \text{number of records}$$
+# Binary search algorithm 
 ```python
 def search(self, nums: List[int], target: int) -> int:
     l,r=0,len(nums)-1
@@ -26,7 +34,7 @@ def search(self, nums: List[int], target: int) -> int:
     return -1
 ```
 
-## Search a 2D matrix 
+## Search a 2D matrix
 ```python
 def searchMatrix(self, matrix: list[list[int]], target: int) -> bool:
     n,m=len(matrix),len(matrix[0])
@@ -62,7 +70,7 @@ def minEatingSpeed(self, piles: List[int], h: int) -> int:
     return hi
 ```
 
-## Search in rotated sorted array 
+## Search in rotated sorted array
 ```python
 def search(self, nums: List[int], target: int) -> int:
     l,r = 0, len(nums)-1
@@ -84,7 +92,7 @@ def search(self, nums: List[int], target: int) -> int:
     return -1
 ```
 
-## Find minimum in rotated sorted array 
+## Find minimum in rotated sorted array
 ```python
 def findMin(self, nums: List[int]) -> int:
     l,r= 0,len(nums)-1
@@ -95,7 +103,7 @@ def findMin(self, nums: List[int]) -> int:
     return nums[l]
 ```
 
-## Time based key-value storage 
+## Time based key-value storage
 ```python
 from collections import defaultdict
 
@@ -122,7 +130,7 @@ class TimeMap:
         return vals[r-1][0] if r > 0 else ""
 ```
 
-## Median of two sorted arrays 
+## Median of two sorted arrays
 ```python
 def findMedianSortedArrays(self, nums1: list[int], nums2: list[int]):
     if len(nums1) < len(nums2):
