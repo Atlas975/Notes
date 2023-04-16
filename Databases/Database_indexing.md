@@ -12,18 +12,22 @@
 ___
 # Database indexing
 - A technique used to improve the performance of [[Database_systems|database]] through the use of  [[Database_storage#Secondary Files|secondary files]] whose values use ordered indexes, allows for faster data access 
-- Indexing creates a separate data structure that organises data , the secondary structure can be searched during a query. The index file itself is ordered and consists of fixed length records (AKA the [[Database_keys#Primary key|Primary key]]) with an additional field that points to physical disk blocks
+- Indexing creates a separate data structure that organises data , this secondary structure can be searched during a query for reading/writing. Associated [[SQL_language|SQL]]:
 
-![[Pasted image 20230411192357.png|350|350]]
+```sql
+CREATE INDEX index_name ON table_name (column_name);
+```
+
 - The use of secondary files incurs an additional cost to **write performance** for better **read performance**, database structures with no indexes at all are called **heaps** in which new values are inserted wherever there is free space ([[File_systems#File organisation|unordered files ]]) 
-- **Single level indexes** are based on ordered files, typically using a single field as the indexing field, 
-## Single level indexes
-- Defined on a single field in a file called the indexing field
+- The index file itself is ordered and consists of fixed length records (AKA the [[Database_keys#Primary key|Primary key]]) with an additional field that points to physical disk blocks
+
+![[Pasted image 20230411192357.png|300|300]]
+- **Single level indexes** are based on ordered files, typically using a single indexing field 
 - Multiple types of single level indexes exist these being:
 	1. **Primary indexes** 
 	2. **Clustering indexes** 
 	3. **Secondary indexes** 
-### Primary indexes
+## Primary indexes
 - Specified on the ordering key of an ordered file, this key is used to physically order file record on disk
 - Index is an ordered file of fixed length records, first field is the same datatype as ordering key 
 
@@ -33,7 +37,7 @@ ___
 - This is known as the anchor record 
 - Index file are much smaller than data files but additional overhead exists to maintain ordering via re-arranging from modifications or deletions
 
-### Clustering indexes
+## Clustering indexes
 - Used if ordering key is a non-key field, ie when multiple records may hold the same value for their ordering field  in which case a clustered ordered field would be used 
 - Index entry exists for each distinct value of clustering field 
 

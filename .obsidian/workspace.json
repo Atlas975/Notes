@@ -68,16 +68,24 @@
             }
           },
           {
-            "id": "9ca3063be38acda9",
+            "id": "9949ada0a15739b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Databases/Database_indexing.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
+            }
+          },
+          {
+            "id": "9ca3063be38acda9",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -294,11 +302,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9ca3063be38acda9",
+  "active": "9949ada0a15739b7",
   "lastOpenFiles": [
-    "ProgramLanguages/SQL/SQL_patterns.md",
-    "Databases/Database_indexing.md",
     "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
+    "Databases/Database_indexing.md",
+    "ProgramLanguages/SQL/SQL_patterns.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "Algorithms/ProgrammingPatterns/Two_pointers.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
