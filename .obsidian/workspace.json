@@ -108,7 +108,7 @@
               "type": "markdown",
               "state": {
                 "file": "DiscreteMath/Functions.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -304,8 +304,9 @@
   },
   "active": "9949ada0a15739b7",
   "lastOpenFiles": [
-    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
+    "DiscreteMath/Functions.md",
     "Databases/Database_indexing.md",
+    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
     "ProgramLanguages/SQL/SQL_patterns.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "Algorithms/ProgrammingPatterns/Two_pointers.md",
@@ -323,7 +324,6 @@
     "OperatingSystems/FileSystems/FAT_file_system.md",
     "OperatingSystems/FileSystems/File_allocation_schemes.md",
     "DiscreteMath/De_Morgans_law.md",
-    "DiscreteMath/Functions.md",
     "DiscreteMath/Predicate_logic.md",
     "Databases/Database_constraints.md",
     "Databases/Database_relations.md",

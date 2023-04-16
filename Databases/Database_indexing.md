@@ -18,7 +18,7 @@ ___
 CREATE INDEX index_name ON table_name (column_name);
 ```
 
-- The use of secondary files incurs an additional cost to **write performance** for better **read performance**, database structures with no indexes at all are called **heaps** in which new values are inserted wherever there is free space ([[File_systems#File organisation|unordered files ]]) 
+- Using secondary files incurs an additional cost to **write performance** for better **read performance**, database structures with no indexes at all are called **heaps** in which new values are inserted wherever there is free space ([[File_systems#File organisation|unordered files ]]) 
 - The index file itself is ordered and consists of fixed length records (AKA the [[Database_keys#Primary key|Primary key]]) with an additional field that points to physical disk blocks
 
 ![[Pasted image 20230411192357.png|300|300]]

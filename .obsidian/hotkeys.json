@@ -263,7 +263,7 @@
   "obsidian-editor-shortcuts:goToLineEnd": [
     {
       "modifiers": [
-        "Alt"
+        "Ctrl"
       ],
       "key": "E"
     }
@@ -482,7 +482,7 @@
   "obsidian-editor-shortcuts:goToLineStart": [
     {
       "modifiers": [
-        "Alt"
+        "Ctrl"
       ],
       "key": "S"
     }
