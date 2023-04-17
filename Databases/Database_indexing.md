@@ -11,7 +11,7 @@
 
 ___
 # Database indexing
-- A technique used to improve the performance of [[Database_systems|database]] through  [[Database_storage#Secondary Files|secondary files]] whose values use ordered indexes, allows for faster data access 
+- A technique used to improve the performance of [[Database_systems|database]] through  [[Database_storage#Secondary Files|secondary files]] whose values use ordered indexes, allows for faster data access through [[Binary_search|binary search]]
 - Indexing creates a separate data structure that organises data , this secondary structure can be searched during a query for reading/writing. Associated [[SQL_language|SQL]]:
 
 ```sql
@@ -27,7 +27,6 @@ CREATE INDEX index_name ON table_name (column_name);
 	1. **Primary indexes** 
 	2. **Clustering indexes** 
 	3. **Secondary indexes**
-- The use of [[Binary_search|binary search]] allows for for ordered files 
 ## Primary indexes
 - Specified on the ordering key of an ordered file, this key is used to physically order file record on disk
 - Index is an ordered file of fixed length records, first field is the same datatype as ordering key 
@@ -35,7 +34,6 @@ CREATE INDEX index_name ON table_name (column_name);
 ![[Pasted image 20230409234650.png|550|550]]
 
 - One index entry exists for each block in the datafile starting from the first record 
-- This is known as the anchor record 
 - Index file are much smaller than data files but additional overhead exists to maintain ordering via re-arranging from modifications or deletions
 ## Clustering indexes
 - Used if ordering key is a non-key field, ie when multiple records may hold the same value for their ordering field  in which case a clustered ordered field would be used 
