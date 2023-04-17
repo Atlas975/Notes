@@ -94,6 +94,19 @@
             }
           },
           {
+            "id": "831820be2cbdd0e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "234007a92fc16311",
             "type": "leaf",
             "state": {
@@ -154,7 +167,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -199,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_indexing.md",
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +244,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_indexing.md"
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md"
               }
             }
           }
@@ -255,7 +268,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_indexing.md"
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md"
               }
             }
           },
@@ -281,7 +294,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_indexing.md",
+                "file": "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -328,11 +341,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "bec9ade13081e91f",
+  "active": "831820be2cbdd0e4",
   "lastOpenFiles": [
+    "Databases/Database_indexing.md",
     "Algorithms/SortAlgorithms/Sorting_algorithms.md",
     "Algorithms/ProgrammingPatterns/Binary_search.md",
-    "Databases/Database_indexing.md",
     "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
     "DiscreteMath/Functions.md",
     "ProgramLanguages/SQL/SQL_patterns.md",

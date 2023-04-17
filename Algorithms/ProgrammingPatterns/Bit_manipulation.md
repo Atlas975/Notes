@@ -89,6 +89,6 @@ pub fn get_sum(a: i32, b: i32) -> i32 {
     if b == 0 {
         return a;
     }
-    Self::get_sum(a ^ b, (a & b) << 1)
+    get_sum(a ^ b, (a & b) << 1)
 }
 ```
