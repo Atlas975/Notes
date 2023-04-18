@@ -29,64 +29,12 @@
             }
           },
           {
-            "id": "353ddc669e1f66ed",
+            "id": "9d4fc2ecf6870e73",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Backtracking.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8715302491a1e799",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8830d1e52ea18b7c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9949ada0a15739b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/SortAlgorithms/Sorting_algorithms.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bec9ade13081e91f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+                "file": "Databases/Database_indexing.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -167,7 +115,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -212,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+                "file": "Databases/Database_indexing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md"
+                "file": "Databases/Database_indexing.md"
               }
             }
           }
@@ -268,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md"
+                "file": "Databases/Database_indexing.md"
               }
             }
           },
@@ -294,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+                "file": "Databases/Database_indexing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -341,24 +289,25 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "bec9ade13081e91f",
+  "active": "9d4fc2ecf6870e73",
   "lastOpenFiles": [
+    "OperatingSystems/Paging.md",
+    "Algorithms/ProgrammingPatterns/Backtracking.md",
+    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
+    "Algorithms/SortAlgorithms/Sorting_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "Databases/Database_indexing.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
-    "Algorithms/SortAlgorithms/Sorting_algorithms.md",
     "Algorithms/ProgrammingPatterns/Binary_search.md",
-    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
     "DiscreteMath/Functions.md",
     "ProgramLanguages/SQL/SQL_patterns.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "Algorithms/ProgrammingPatterns/Two_pointers.md",
     "DataStructures/Trees.md",
-    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
-    "OperatingSystems/Paging.md",
     "OperatingSystems/Page_replacement.md",
     "OperatingSystems/FileSystems/Unix_file_system.md",
     "OperatingSystems/FileSystems/File_systems.md",
@@ -368,7 +317,6 @@
     "DiscreteMath/Predicate_logic.md",
     "Databases/Database_constraints.md",
     "Databases/Database_relations.md",
-    "Databases/Database_storage.md",
     "XX-Attachments/Images/Pasted image 20230411192357.png",
     "Algorithms/SortAlgorithms",
     "XX-Attachments/Images/Pasted image 20230410000220.png",
