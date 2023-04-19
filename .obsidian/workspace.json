@@ -68,6 +68,19 @@
             }
           },
           {
+            "id": "3db9478d4780cbbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Hash_storage.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "831820be2cbdd0e4",
             "type": "leaf",
             "state": {
@@ -141,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -186,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_indexing.md",
+                "file": "Databases/Hash_storage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_indexing.md"
+                "file": "Databases/Hash_storage.md"
               }
             }
           }
@@ -242,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_indexing.md"
+                "file": "Databases/Hash_storage.md"
               }
             }
           },
@@ -268,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_indexing.md",
+                "file": "Databases/Hash_storage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -315,13 +328,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "769df2c50cc71832",
+  "active": "3db9478d4780cbbf",
   "lastOpenFiles": [
+    "Databases/Database_indexing.md",
+    "Databases/Hash_storage.md",
     "Databases/Database_keys.md",
     "Databases/Database_systems.md",
     "Databases/Database_storage.md",
     "Databases/Relational_algebra.md",
-    "Databases/Database_indexing.md",
     "Databases/Database_normalisation.md",
     "Algorithms/SortAlgorithms/Quick_sort.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
@@ -342,7 +356,6 @@
     "ProgramLanguages/SQL/SQL_patterns.md",
     "Algorithms/ProgrammingPatterns/Two_pointers.md",
     "DataStructures/Trees.md",
-    "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
     "XX-Attachments/Images/Pasted image 20230411192357.png",
     "Algorithms/SortAlgorithms",
     "XX-Attachments/Images/Pasted image 20230410000220.png",
