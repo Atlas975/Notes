@@ -34,7 +34,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_indexing.md",
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aa715c66d507d6b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/SortAlgorithms/Quick_sort.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -115,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -160,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_indexing.md",
+                "file": "Algorithms/SortAlgorithms/Quick_sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_indexing.md"
+                "file": "Algorithms/SortAlgorithms/Quick_sort.md"
               }
             }
           }
@@ -216,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_indexing.md"
+                "file": "Algorithms/SortAlgorithms/Quick_sort.md"
               }
             }
           },
@@ -242,7 +255,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_indexing.md",
+                "file": "Algorithms/SortAlgorithms/Quick_sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -289,22 +302,25 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9d4fc2ecf6870e73",
+  "active": "aa715c66d507d6b3",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Sliding_window.md",
+    "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
+    "Databases/Database_indexing.md",
     "OperatingSystems/Paging.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
-    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
     "Algorithms/SortAlgorithms/Sorting_algorithms.md",
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
-    "Databases/Database_indexing.md",
-    "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "Algorithms/ProgrammingPatterns/Binary_search.md",
     "DiscreteMath/Functions.md",
     "ProgramLanguages/SQL/SQL_patterns.md",
-    "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "Algorithms/ProgrammingPatterns/Two_pointers.md",
     "DataStructures/Trees.md",
     "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
@@ -314,9 +330,6 @@
     "OperatingSystems/FileSystems/FAT_file_system.md",
     "OperatingSystems/FileSystems/File_allocation_schemes.md",
     "DiscreteMath/De_Morgans_law.md",
-    "DiscreteMath/Predicate_logic.md",
-    "Databases/Database_constraints.md",
-    "Databases/Database_relations.md",
     "XX-Attachments/Images/Pasted image 20230411192357.png",
     "Algorithms/SortAlgorithms",
     "XX-Attachments/Images/Pasted image 20230410000220.png",

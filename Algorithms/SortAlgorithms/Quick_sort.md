@@ -16,7 +16,7 @@ ___
     1. Pick first/last/middle element
     3. Pick random element
     4. Pick median
-- At the end of an iteration the pivot should be in its correct final position with all elements in front being larger and all elements behind being smaller
+- At the end of an iteration the pivot should be in its correct final position with all elements in front being larger and all elements behind being smaller (quicksort is an unstable sorting algorithm)
 
 ```python
 def quicksort(data, l, r):
