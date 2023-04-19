@@ -28,7 +28,7 @@ ___
 	- **Deletion anomalies**: when deleting data results in the loss of essential information that should have been stored elsewhere, this is prevalent with redundant data dependency 
 	- **Modification anomalies**: when modifying data leads to data inconsistencies, eg updating a name with the change not propagating elsewhere
 ## 1NF: Atomic values
-- No multi-valued attributes, each attribute should have a single value that cannot be decomposed further
+- No multi-valued attributes, all attributes should be a single value that cannot be decomposed further
 - The values in each column should also obey [[Database_constraints#Domain constraints|domain constraints]]
 
 > **Problem:**
@@ -154,11 +154,11 @@ ___
 
 ### Armstrongs axioms
 - These 5 axioms act as [[Inference_rules|inference rules]] for functional dependencies:
-1. [[Relations#Reflexivity|Reflexivity:]] if $X \in Y$ then $Y\to X$ (trivial FD)
-2. [[De_Morgans_law|Augmentation:]] if $X \to Y$ then $XZ \to YZ$ for any $Z$
-3. [[Relations#Transitivity|Transitivity:]] if $X \to Y$ and $Y\to Z$ then $X\to Y$
-4. [[Sets#Union|Union]]: if $X\to Y$ and $X\to Z$ then $X\to YZ$
-5. [[Boolean_logic|Decomposition:]] if $X\to YZ$ then $X\to Y$ and $X \to Z$
+    1. [[Relations#Reflexivity|Reflexivity:]] if $X \in Y$ then $Y\to X$ (trivial FD)
+    2. [[De_Morgans_law|Augmentation:]] if $X \to Y$ then $XZ \to YZ$ for any $Z$
+    3. [[Relations#Transitivity|Transitivity:]] if $X \to Y$ and $Y\to Z$ then $X\to Y$
+    4. [[Sets#Union|Union]]: if $X\to Y$ and $X\to Z$ then $X\to YZ$
+    5. [[Boolean_logic|Decomposition:]] if $X\to YZ$ then $X\to Y$ and $X \to Z$
 - Example usage 
 
 ![[Pasted image 20230228154605.png|450|450]]
