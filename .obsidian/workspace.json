@@ -60,7 +60,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Databases/Database_indexing.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -186,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Databases/Database_indexing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "Databases/Database_indexing.md"
               }
             }
           }
@@ -242,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "Databases/Database_indexing.md"
               }
             }
           },
@@ -268,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Databases/Database_indexing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -317,6 +317,12 @@
   },
   "active": "769df2c50cc71832",
   "lastOpenFiles": [
+    "Databases/Database_keys.md",
+    "Databases/Database_systems.md",
+    "Databases/Database_storage.md",
+    "Databases/Relational_algebra.md",
+    "Databases/Database_indexing.md",
+    "Databases/Database_normalisation.md",
     "Algorithms/SortAlgorithms/Quick_sort.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
@@ -325,7 +331,6 @@
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
-    "Databases/Database_indexing.md",
     "OperatingSystems/Paging.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Algorithms/SortAlgorithms/Sorting_algorithms.md",
@@ -338,11 +343,6 @@
     "Algorithms/ProgrammingPatterns/Two_pointers.md",
     "DataStructures/Trees.md",
     "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
-    "OperatingSystems/Page_replacement.md",
-    "OperatingSystems/FileSystems/Unix_file_system.md",
-    "OperatingSystems/FileSystems/File_systems.md",
-    "OperatingSystems/FileSystems/FAT_file_system.md",
-    "OperatingSystems/FileSystems/File_allocation_schemes.md",
     "XX-Attachments/Images/Pasted image 20230411192357.png",
     "Algorithms/SortAlgorithms",
     "XX-Attachments/Images/Pasted image 20230410000220.png",
