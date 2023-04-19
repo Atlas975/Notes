@@ -81,6 +81,19 @@
             }
           },
           {
+            "id": "81b96a9d93b50dd5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoftwareEngineering/OOP_principles.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "831820be2cbdd0e4",
             "type": "leaf",
             "state": {
@@ -154,7 +167,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -199,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Hash_storage.md",
+                "file": "SoftwareEngineering/OOP_principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +244,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Hash_storage.md"
+                "file": "SoftwareEngineering/OOP_principles.md"
               }
             }
           }
@@ -255,7 +268,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Hash_storage.md"
+                "file": "SoftwareEngineering/OOP_principles.md"
               }
             }
           },
@@ -281,7 +294,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Hash_storage.md",
+                "file": "SoftwareEngineering/OOP_principles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -328,10 +341,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3db9478d4780cbbf",
+  "active": "81b96a9d93b50dd5",
   "lastOpenFiles": [
-    "Databases/Database_indexing.md",
+    "SoftwareEngineering/Concurrency.md",
     "Databases/Hash_storage.md",
+    "Databases/Database_indexing.md",
     "Databases/Database_keys.md",
     "Databases/Database_systems.md",
     "Databases/Database_storage.md",
@@ -355,7 +369,6 @@
     "DiscreteMath/Functions.md",
     "ProgramLanguages/SQL/SQL_patterns.md",
     "Algorithms/ProgrammingPatterns/Two_pointers.md",
-    "DataStructures/Trees.md",
     "XX-Attachments/Images/Pasted image 20230411192357.png",
     "Algorithms/SortAlgorithms",
     "XX-Attachments/Images/Pasted image 20230410000220.png",

@@ -266,6 +266,12 @@
         "Ctrl"
       ],
       "key": "E"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "E"
     }
   ],
   "workspace:undo-close-pane": [
@@ -479,6 +485,12 @@
   ],
   "editor:insert-tag": [],
   "obsidian-editor-shortcuts:goToLineStart": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "S"
+    },
     {
       "modifiers": [
         "Ctrl"

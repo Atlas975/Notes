@@ -35,8 +35,8 @@ ___
 3. Process: system entity executing associated programs
 - The **context switch** causes execution jumps to different parts of memory 
 - A threads context comprises of:
-    1. Program counter (PC): instruction in a program/function that a thread is set to execute 
-    2. Stack pointer (SP): address at top of threads call stack 
+	1. Program counter (PC): instruction in a program/function that a thread is set to execute 
+	2. Stack pointer (SP): address at top of threads call stack 
 ## Context switching sequence
 
 ![[Pasted image 20221022124944.png|500|500]]
@@ -81,7 +81,7 @@ t.start();
 - Coordination is needed when accessing critical sections 
 - Critical sections are regions of code that access variables that are shared between threads 
 - An example of a problem that can arise without proper coordination is the lost update problem:
-- The synchronized signature also prevents a thread from accessing other methods in the class with the synchronized signature 
+- The synchronised signature also prevents a thread from accessing other methods in the class with the synchronised signature 
 
 ![[Pasted image 20221022105807.png|450|450]]
 - This is an example of a race condition 
@@ -91,7 +91,7 @@ t.start();
 ## Atomic code
 - Code that is executed indivisibly from that of other threads trying to execute the same code
 - One way to avoid race conditions is to make critical sections atomic 
-- This can also be achieved with **mutual exclusion** which ensures only one thread can access a critical section at a time, in  [[Java_language]] this is done by adding the synchronized signature to a method 
+- This can also be achieved with **mutual exclusion** which ensures only one thread can access a critical section at a time, in  [[Java_language]] this is done by adding the synchronised signature to a method 
 - **Locks** are also a mechanism for ensuring mutual exclusion 
 - Example without race condition: 
 
@@ -467,6 +467,3 @@ void release_lock() {
 - Asynchronous programming is a more recent concurrency model that uses a different approach based on cooperative multitasking. 
 - Instead of relying on the operating system to schedule multiple threads, async relies on each task yielding control to the next task when it's not making progress. 
 - This cooperative multitasking model is more lightweight than multithreading and can reduce the overhead associated with creating, managing, and switching between multiple threads.
-
-
-
