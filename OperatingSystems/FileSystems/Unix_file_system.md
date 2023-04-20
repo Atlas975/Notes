@@ -17,11 +17,10 @@ alias: unix file
 
 ___
 # Unix file system
-- A multi-level indexed based [[File_systems|file system]]. Small files get directly linked, large files get broken down into smaller blocks with increased access time
-- This scheme exists for every individual file
+- A multi-level indexed based [[File_systems|file system]]. Small files get directly linked, large files get broken down into smaller blocks with increased access time. This means that this combined index-based implementation uses an direct index for the first few block and an indirect index for the rest
+- This scheme exists for every individual file,  reducing overhead of storing the index and balancing the trade-off between performance and flexibility.
 
 ![[Pasted image 20221209122505.png|450|450]]
-
 ## Unix directory structure
 
 ![[Pasted image 20221209124941.png|450]]
