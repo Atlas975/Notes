@@ -25,3 +25,4 @@ ___
 ## File allocation table
 - FAT systems get around the speed penalty of only sequential access by having separate pointers for data blocks, allowing fast access of any block. This is known as the file allocation table (FAT)
 - Multiple copies of this are usually kept in case of corruption to recover structure, the FAT also needs to be small enough to be stored in memory for fast access. Avoiding having to perform disk access for each traversal
+- When a file is created, the file system allocates a certain number of [[File_allocation_schemes#Cluster allocation|clusters]] to store its data. The starting cluster number and the number of clusters allocated to the file are recorded in the file's directory entry and in the FAT.
