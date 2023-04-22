@@ -123,11 +123,11 @@ main() ->
 
 ## List slicing 
 - Includes start and end index positions in slice 
+
 ```ad-example
 ```erlang
 lists:sublist([1,2,3,4,5], 1, 3).   %returns [1,2,3]
 ```
-
 ## List append 
 ```erlang
 1> lists:append([1,2,3,4,5], [6,7]).
@@ -140,3 +140,8 @@ lists:sublist([1,2,3,4,5], 1, 3).   %returns [1,2,3]
 [1,2,3,4,5,6,7]
 ```
 
+
+
+# Erlang concurrency 
+- Erlang [[Concurrency]] done  done through message passing
+- Message asynchronous, see [[BSPL]]

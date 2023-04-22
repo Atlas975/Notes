@@ -14,9 +14,10 @@ mjx-math {
 }
 
 
-.mod-cm6 .cm-editor .HyperMD-header,
-.markdown-reading-view .markdown-preview-section :is(h1, h2, h3, h4, h5, h6) {
-    line-height: 0.5em !important;
-    /* padding: 2px 0px 0px 0px !important; */
-    /* margin: 2px 0px 2px 0px !important; */
+.markdown-reading-view :is(h1, h2, h3, h4, h5, h6) {
+    line-height: 1em !important;
+    padding: 2px 0px 0px 0px !important;
+    margin: 2px 0px 0px 0px !important;
 }
+
+
