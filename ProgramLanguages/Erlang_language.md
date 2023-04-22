@@ -145,3 +145,21 @@ lists:sublist([1,2,3,4,5], 1, 3).   %returns [1,2,3]
 # Erlang concurrency 
 - Erlang [[Concurrency]] done  done through message passing
 - Message asynchronous, see [[BSPL]]
+- Each process has a queue for incoming messages 
+    - **flush()** is a shell function to get those messages (it removes the messages from the shell).
+
+```erlang
+-module(multithread).
+-export([main/0]).
+report_recieve() ->
+    receive % waits for one message
+        X -> io:format("Received ~p~n", [X])
+    end.
+
+main() ->
+    Pid = spawn(fun() -> report_recieve() end),
+	Pid ! 1,
+	Pid ! 2,
+	Pid ! 3.
+% output: Received 1
+```

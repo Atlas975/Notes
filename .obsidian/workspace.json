@@ -42,7 +42,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareEngineering/Recursion.md",
+                "file": "ProgramLanguages/Erlang_language.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareEngineering/Recursion.md"
+                "file": "ProgramLanguages/Erlang_language.md"
               }
             }
           }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareEngineering/Recursion.md"
+                "file": "ProgramLanguages/Erlang_language.md"
               }
             }
           },
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareEngineering/Recursion.md",
+                "file": "ProgramLanguages/Erlang_language.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,8 +216,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5107df199594e716",
+  "active": "3c31ffa54de4cbcb",
   "lastOpenFiles": [
+    "SoftwareEngineering/Recursion.md",
     "ProgramLanguages/Erlang_language.md",
     "DiscreteMath/Functions.md",
     "OperatingSystems/Paging.md",
@@ -243,7 +244,6 @@
     "Databases/Relational_algebra.md",
     "Databases/Database_normalisation.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
     "XX-Attachments/Images/Pasted image 20230411192357.png",
     "Algorithms/SortAlgorithms",
     "XX-Attachments/Images/Pasted image 20230410000220.png",
