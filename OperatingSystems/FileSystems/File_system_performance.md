@@ -25,7 +25,7 @@ ___
 
 ![[Pasted image 20221209152836.png|400|400]]
 
-- [[Input&Output_systems|I/O]] tells us where these blocks are on disk, any process is going to view a file formed from multiple blocks. 
+- [[Input&Output_systems|I/O]] indicates where blocks are on disk, any process is going to view a file formed from multiple blocks. 
 - Since these blocks are memory resident they can easily be updated or read via byte operations
 - Efficient buffering can be managed by an [[Linked_list_algorithms#LRU cache|LRU cache]]
 

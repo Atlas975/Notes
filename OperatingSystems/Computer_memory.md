@@ -322,7 +322,8 @@ int main()
 - This processes is handled internally by the memory management unit (**MMU**), contains mappings for each process and the logic that performs the check to see if an address is valid
 
 ## Segmentation
-- A number of elements may exist in a process, each process may consist of multiple individual segments. Segmentation provides a way to have different permission over different individual parts of a process. eg execute permission for code but not data segment 
+- Each process may consist of multiple individual segments, each controlling a logical unit of a process
+- Segmentation provides a way to have different permission over different individual parts of a process. eg execute permission for code but not data segment 
 
 ![[Pasted image 20221212143751.png|300]]
 

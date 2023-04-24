@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_patterns.md",
+                "file": "OperatingSystems/Virtualisation.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_patterns.md",
+                "file": "OperatingSystems/Virtualisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_patterns.md"
+                "file": "OperatingSystems/Virtualisation.md"
               }
             }
           }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_patterns.md"
+                "file": "OperatingSystems/Virtualisation.md"
               }
             }
           },
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_patterns.md",
+                "file": "OperatingSystems/Virtualisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,6 +231,15 @@
   },
   "active": "048dfa00e2685af5",
   "lastOpenFiles": [
+    "OperatingSystems/Thread_types.md",
+    "OperatingSystems/Processors.md",
+    "OperatingSystems/Operating_system_design.md",
+    "OperatingSystems/Linux_permissions.md",
+    "OperatingSystems/Computer_memory.md",
+    "OperatingSystems/FileSystems/New_technology_file_system.md",
+    "OperatingSystems/FileSystems/File_systems.md",
+    "OperatingSystems/FileSystems/File_system_performance.md",
+    "ProgramLanguages/SQL/SQL_patterns.md",
     "ProgramLanguages/Erlang_language.md",
     "SoftwareEngineering/Recursion.md",
     "DiscreteMath/Functions.md",
@@ -242,21 +251,12 @@
     "OperatingSystems/FileSystems/Unix_file_system.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
     "Algorithms/ProgrammingPatterns/Binary_search.md",
-    "ProgramLanguages/SQL/SQL_patterns.md",
-    "OperatingSystems/FileSystems/File_system_performance.md",
     "OperatingSystems/FileSystems/FAT_file_system.md",
-    "OperatingSystems/FileSystems/File_systems.md",
     "OperatingSystems/FileSystems/File_allocation_schemes.md",
     "OperatingSystems/Multi-Process_systems.md",
-    "OperatingSystems/Operating_system_design.md",
     "SoftwareEngineering/OOP_principles.md",
     "SoftwareEngineering/Concurrency.md",
     "Databases/Database_keys.md",
-    "Databases/Database_systems.md",
-    "Databases/Database_storage.md",
-    "Databases/Relational_algebra.md",
-    "Databases/Database_normalisation.md",
-    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "XX-Attachments/Images/Pasted image 20230411192357.png",
     "Algorithms/SortAlgorithms",
     "XX-Attachments/Images/Pasted image 20230410000220.png",
