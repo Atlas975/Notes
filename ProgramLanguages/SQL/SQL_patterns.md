@@ -81,8 +81,8 @@ FROM patients;
 
 ```sql
 SELECT pr.province_name
-FROM patients pa
-  JOIN province_names pr ON pa.province_id = pr.province_id
+FROM province_names pr
+  JOIN patients pa ON pr.province_id = pa.province_id
 GROUP BY pr.province_name
 HAVING
   SUM(gender = 'M') > SUM(gender = 'F');
