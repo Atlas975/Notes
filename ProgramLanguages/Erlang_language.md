@@ -94,8 +94,8 @@ ok
 ![[Pasted image 20221214091859.png|500|500]]
 
 # Erlang lists 
-- Erlang lists are **1 idexed**
 ## List indexing
+- Erlang lists are **1 idexed**
 ```erlang
 L = [1,2,3,4,5,6,7,8,9,10],
 lists.nth(2, L) % 2
