@@ -36,7 +36,7 @@ CREATE INDEX index_name ON table_name (column_name);
 
 ![[Pasted image 20230425203055.png|350|350]]
 - **Sparse indexing** may still use a combination of both dense and sparse methods, where each unique search value acts as an index but each unique data record may not be mapped
-- Index file sare much smaller than data files making them easy to store in [[Computer_memory#Dynamic (main) memory|main memory]] but additional overhead exists to maintain ordering via re-arranging from modifications or deletions. 
+- Index file are much smaller than data files making them easy to store in [[Computer_memory#Dynamic (main) memory|main memory]] but additional overhead exists to maintain ordering via re-arranging from modifications or deletions. 
 ## Primary indexes
 -   The first field is the same as the _primary key_ of data file (block anchor key)
 -   The second field is a pointer to the data block where the primary key is available in the main data file
