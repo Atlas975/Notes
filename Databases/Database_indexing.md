@@ -43,8 +43,8 @@ CREATE INDEX index_name ON table_name (column_name);
 
 ![[Pasted image 20230425203618.png|450|450]]
 ## Clustering indexes
-- The first field is a non-key field in the data file
-- Used if ordering key is a non-key field, ie when multiple records may hold the same value for their ordering field  in which case a clustered ordered field would be used 
-- Index entry exists for each distinct value of clustering field 
+- The first field is a non-key field in the data file, with a pointer to an area on the main data file
+- Index entry exists for each distinct value of clustering field, making this indexing scheme **dense**
 
-![[Pasted image 20230410000220.png|550|550]]
+![[Pasted image 20230425214800.png|250|250]]
+- Greater search time as traversal is needed
