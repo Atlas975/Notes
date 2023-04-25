@@ -27,15 +27,23 @@ CREATE INDEX index_name ON table_name (column_name);
 	1. **Primary indexes** 
 	2. **Clustering indexes** 
 	3. **Secondary indexes**
+- With an index field, groups of records can be grouped up in blocks similar to using a book index to find a chapter, with ordered blocks search time will be 
+
+> $$\log_{2}B_i + 1$$
+> $$B_{i}=\text{the number of blocks in the indexed records}$$
+
+- When an index entry exists for every search key value, it using **dense indexing**
+
+![[Pasted image 20230425203055.png|350|350]]
+- **Sparse indexing** may still use a combination of both dense and sparse methods, where each unique search value acts as an index but each unique data record may not be mapped
+- Index file sare much smaller than data files making them easy to store in [[Computer_memory#Dynamic (main) memory|main memory]] but additional overhead exists to maintain ordering via re-arranging from modifications or deletions. 
 ## Primary indexes
-- Specified on the ordering key of an ordered file, this key is used to physically order file record on disk
-- Index is an ordered file of fixed length records, first field is the same datatype as ordering key 
+-   The first field is the same as the _primary key_ of data file (block anchor key)
+-   The second field is a pointer to the data block where the primary key is available in the main data file
 
-![[Pasted image 20230409234650.png|550|550]]
-
-- One index entry exists for each block in the datafile starting from the first record 
-- Index file are much smaller than data files but additional overhead exists to maintain ordering via re-arranging from modifications or deletions
+![[Pasted image 20230425203618.png|450|450]]
 ## Clustering indexes
+- The first field is a non-key field in the data file
 - Used if ordering key is a non-key field, ie when multiple records may hold the same value for their ordering field  in which case a clustered ordered field would be used 
 - Index entry exists for each distinct value of clustering field 
 
