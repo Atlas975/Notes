@@ -52,5 +52,6 @@ CREATE INDEX index_name ON table_name (column_name);
 
 ![[Pasted image 20230426122334.png|500|500]]
 
-## Secondary indexes
-- Files can have a single ordering field (either [[#Clustering indexes|clustered]] or [[#Primary indexes|primary]] indexed), however, multiple secondary indexes may exists
+
+## Secondary indexes 
+´- Files can have a single ordering field (either [[#Clustering indexes|clustered]] or [[#Primary indexes|primary]] indexed )

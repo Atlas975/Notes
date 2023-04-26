@@ -1,11 +1,11 @@
 {
   "legacyEditor": false,
-  "livePreview": true,
+  "livePreview": false,
   "attachmentFolderPath": "XX-Attachments/Images",
   "spellcheck": true,
   "alwaysUpdateLinks": true,
   "communityPluginSortOrder": "download",
-  "defaultViewMode": "preview",
+  "defaultViewMode": "source",
   "newFileLocation": "current",
   "fileSortOrder": "alphabetical",
   "vimMode": false,
