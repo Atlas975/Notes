@@ -46,5 +46,11 @@ CREATE INDEX index_name ON table_name (column_name);
 - The first field is a non-key field in the data file, with a pointer to an area on the main data file
 - Index entry exists for each distinct value of clustering field, making this indexing scheme **dense**
 
-![[Pasted image 20230425214800.png|250|250]]
-- Greater search time as traversal is needed
+![[Pasted image 20230426122145.png|500|500]]
+- After locating a block in which a key is present, a linear traversal of other blocks can be done
+- Large overhead still exists for insert and delete, this can be simplified by having a whole block / cluster of blocks reserved for each clustering field mapping
+
+![[Pasted image 20230426122334.png|500|500]]
+
+## Secondary indexes
+- Files can have a single ordering field (either [[#Clustering indexes|clustered]] or [[#Primary indexes|primary]] indexed), however, multiple secondary indexes may exists
