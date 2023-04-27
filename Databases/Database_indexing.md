@@ -55,4 +55,6 @@ CREATE INDEX index_name ON table_name (column_name);
 
 ## Secondary indexes 
 - Files can have a single ordering field (either [[#Clustering indexes|clustered]] or [[#Primary indexes|primary]] indexed) as these impact physical file organisation, these act as the files primary access method. 
-- Any number of secondary indexes may be specified on a non-ordering fields in a file. This adds more flexibility to how data can be accessed
+- Any number of secondary indexes may be specified on a non-ordering fields in a file. This adds more flexibility to how data can be searched for 
+
+![[Pasted image 20230427150327.png|500|500]]
