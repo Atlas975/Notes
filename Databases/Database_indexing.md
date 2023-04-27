@@ -54,7 +54,20 @@ CREATE INDEX index_name ON table_name (column_name);
 
 
 ## Secondary indexes 
-- Files can have a single ordering field (either [[#Clustering indexes|clustered]] or [[#Primary indexes|primary]] indexed) as these impact physical file organisation, these act as the files primary access method. 
-- Any number of secondary indexes may be specified on a non-ordering fields in a file. This adds more flexibility to how data can be searched for 
+- Files can have a single ordering field (either [[#Clustering indexes|clustered]] or [[#Primary indexes|primary]] indexed) as these impact physical file organisation, these act as the files **primary access method** 
+- Any number of secondary indexes may be specified on a non-ordering fields in a file. This adds more flexibility to how data can be searched for
 
 ![[Pasted image 20230427150327.png|500|500]]
+
+- Records are not physically ordered by their secondary key, but one secondary index entry exists for each record in the data file
+- This results in more entries making it slower than the primary access method, but still results in a drastic improvement over having to use linear search for a field
+- When indexing on a non-unique field, blocks of record pointers can be used as a potential way to handle duplicate matches while keeping records a fixed size:
+
+![[Pasted image 20230427153817.png|550|550]]
+
+
+## Multi-level indexes 
+- Uses nested indexes in a [[Trees|tree-like]] structure, similar to how [[Paging#Hierarchical / Multi-level paging|Multi-level paging]] is handled
+- While the first level index must use distinct values, this scheme can be used for any indexing strategy. This allows a smaller initial index to be used to search in a much larger index
+
+![[Pasted image 20230427154200.png|500|500]]
