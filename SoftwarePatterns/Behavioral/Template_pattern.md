@@ -21,46 +21,46 @@ ___
 - This enforces [[SOLID_principles#Open-Closed (OCP)|Open-Closed]] principle, allowing subclasses to override any  method except the template method itself as this is needed to give the algorithm structure 
 ```rust
 trait Algorithm {
-    fn run(&self) {
+    fn run(&mut self) {
         self.step_1();
         self.step_2();
         self.step_3();
     }
 
-    fn step_1(&self);
-    fn step_2(&self);
-    fn step_3(&self);
+    fn step_1(&mut self);
+    fn step_2(&mut self);
+    fn step_3(&mut self);
 }
 
-struct ConcreteAlgorithm {}
-impl Algorithm for ConcreteAlgorithm {
-    fn step_1(&self) {
-        println!("ConcreteAlgorithm: Step 1");
+struct CustomAlgo1(i32, i32);
+impl Algorithm for CustomAlgo1 {
+    fn step_1(&mut self) {
+        self.0 += 1;
     }
-    fn step_2(&self) {
-        println!("ConcreteAlgorithm: Step 2 (default)");
+    fn step_2(&mut self) {
+        self.1 += 2;
     }
-    fn step_3(&self) {
-        println!("ConcreteAlgorithm: Step 3 (default)");
-    }
-}
-
-struct CustomAlgorithm {}
-impl Algorithm for CustomAlgorithm {
-    fn step_1(&self) {
-        println!("CustomAlgorithm: Step 1");
-    }
-    fn step_2(&self) {
-        println!("CustomAlgorithm: Step 2 (custom)");
-    }
-    fn step_3(&self) {
-        println!("CustomAlgorithm: Step 3 (custom)");
+    fn step_3(&mut self) {
+        self.0 *= self.1;
     }
 }
 
-let concrete = ConcreteAlgorithm {};
-let custom = CustomAlgorithm {};
-concrete.run();
-custom.run();
+struct CustomAlgo2(i32, i32);
+impl Algorithm for CustomAlgo2 {
+    fn step_1(&mut self) {
+        self.0 -= 100;
+    }
+    fn step_2(&mut self) {
+        self.0 += 200;
+    }
+    fn step_3(&mut self) {
+        self.1 = self.0.pow(2);
+    }
+}
+
+let mut algo1 = CustomAlgo1(1, 2);
+let mut algo2 = CustomAlgo2(100, 200);
+algo1.run();
+algo2.run();
 
 ```

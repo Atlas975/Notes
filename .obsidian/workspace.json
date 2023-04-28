@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataStructures/B-Trees.md",
+                "file": "SoftwarePatterns/Behavioral/Template_pattern.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -186,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataStructures/B-Trees.md",
+                "file": "SoftwarePatterns/Behavioral/Template_pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/B-Trees.md"
+                "file": "SoftwarePatterns/Behavioral/Template_pattern.md"
               }
             }
           }
@@ -242,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/B-Trees.md"
+                "file": "SoftwarePatterns/Behavioral/Template_pattern.md"
               }
             }
           },
@@ -268,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataStructures/B-Trees.md",
+                "file": "SoftwarePatterns/Behavioral/Template_pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -317,8 +317,10 @@
   },
   "active": "b89384851d416f19",
   "lastOpenFiles": [
-    "Databases/Database_storage.md",
+    "SoftwarePatterns/Behavioral/Observer_pattern.md",
+    "Networking/Protocol_stack.md",
     "DataStructures/B-Trees.md",
+    "Databases/Database_storage.md",
     "OperatingSystems/FileSystems/New_technology_file_system.md",
     "DataStructures/Trees.md",
     "XX-Attachments/Images/Pasted image 20230428110619.png",
@@ -351,7 +353,6 @@
     "OperatingSystems/FileSystems/File_systems.md",
     "OperatingSystems/FileSystems/File_system_performance.md",
     "ProgramLanguages/SQL/SQL_patterns.md",
-    "DiscreteMath/Functions.md",
     "Algorithms/SortAlgorithms",
     "XX-Attachments/Images/AdilW_Resume.docx",
     "Algorithms/SearchAlgorithms",
