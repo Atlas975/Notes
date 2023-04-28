@@ -1,4 +1,15 @@
-[[Abstract_data_types]][[Time_complexity]][[Sets]] #ADTs 
+> [!important]- Metadata
+> **Tags:** #ADTs 
+> **Located:** DataStructures
+> **Created:** 27/02/2023 - 11:21
+> ```dataviewjs
+> let f = dv.current().file;
+> let paths = new Set([...f.inlinks, ...f.outlinks].map(p => p.path).filter(p => !p.endsWith(".png")));
+> paths.delete(f.path);
+> dv.table(["Connections", "Tags"], [...paths].map(p => [dv.fileLink(p), dv.page(p).file.tags.join("")]));
+> ```
+
+___
 # Trees
 [[Graphs]]
 - Every tree is a graph but not vise versa
@@ -26,40 +37,8 @@ void rem_node(n)
 void move_node(n, m)  
 item[] get_children(n)
 
-# Tree algorithms
-[[Trees]]
-- Unlike graphs, keeping track of previous nodes isn't necessary making the traversal process much more straightforward
-![[Pasted image 20220317121418.png|450|450]]
-# Breadth-first tree search
-- On a tree, a breadth first search is done by stepping through one layer at a time from left to right.
-- Breadth first traversal example:
-![[Pasted image 20220317120624.png|450|450]]
-![[Pasted image 20220318120007.png|450|450]]
 
-
-# Depth-first tree search
-- There are multiple core depth first algorithms
-- The three main examples are post,pre and inorder searches
-## Preorder
-- Middle -> Left -> Right
-
-![[Pasted image 20220318122905.png|450|450]]
-![[Pasted image 20220318122953.png|450|450]]
-
-## Postorder 
-- Left -> Right -> Middle  (also known as the suffix walk)
-
-![[Pasted image 20220318123351.png|450|450]]
-![[Pasted image 20220318123701.png|450|450]]
-
-- Example suffix walk:
-
-![[Pasted image 20220317122911.png|450|450]]
-- This is often used for shortest path algorithms where edge weights are present and we need to find the best way to reach a leaf node
-
-## Inorder
-- Left -> middle -> right
-# Self balancing trees
+## Self balancing trees
 - Key property is that **reaching any node leaf takes same number of moves**
 - Particularly useful for index based lookup systems
 - Example lookup system using first letter of username
@@ -67,6 +46,12 @@ item[] get_children(n)
 - However distributions of users can still vary creating uneven sizes
 - This can be solves using a self-balancing tree eg a B-tree
 
+
+## Unbalanced trees
+- Unbalanced trees have a max depth that is not minimised for a given set of keys, this results in the tree  becoming skewed overtime with leaf nodes that are not on the same level
+- This gives the tree inconsistent search times and wastes more space than necessary
+
+![[Pasted image 20230428110619.png|400|400]]
 ## B-tree
 - Start by defining a maximum number of nodes
 - Once that node limit is reached, a split occurs up to the same maximum number of children
