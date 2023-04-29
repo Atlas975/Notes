@@ -10,13 +10,14 @@
 > ```
 
 ___
-# B-Trees
+# B Trees
 - A specialised search tree with additional constraints to ensure the tree remains [[Trees#Unbalanced trees|balanced]]
 - Frequently used in [[Database_indexing#Database indexing|Database indexing]] to perform as guided search for a record given a search field.  Used by [[File_systems|file systems]] such as [[New_technology_file_system|NTFS]]. 
 
 ![[Pasted image 20230428110030.png|500|500]]
 
 - B-trees themselves can be stored on disk, algorithms exists for insertion and deletion while maintaining tree constrains such as its balance
+- Constant splitting adds overhead for insertions and deletions, but maintains predictable search times
 
 ![[Pasted image 20230428110204.png|550|550]]
 
