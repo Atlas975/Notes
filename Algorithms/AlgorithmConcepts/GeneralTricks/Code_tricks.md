@@ -1,32 +1,38 @@
 
-# Code_tricks
-created: 2022-09-02 17:34
-#Programming 
+> [!important]- Metadata
+> **Tags:** #Programming #Algorithms 
+> **Located:** Algorithms/AlgorithmConcepts/GeneralTricks
+> **Created:** 25/10/2022 - 11:45
+> ```dataviewjs
+> let f = dv.current().file;
+> let paths = new Set([...f.inlinks, ...f.outlinks].map(p => p.path).filter(p => !p.endsWith(".png")));
+> paths.delete(f.path);
+> dv.table(["Connections", "Tags"], [...paths].map(p => [dv.fileLink(p), dv.page(p).file.tags.join("")]));
+> ```
 
----
-# Swapping variables 
+___
+# Code tricks
+## Variable swapping methods 
 - Standard temp variable 
-```python
+```
 temp = a 
 a = b
 b = temp
 ```
 
 - Arithmetic methods
-```python
+```
 a = a + b
 b = a - b
 a = a - b
-```
 
-```python
 a = a * b
 b = a / b
 a = a / b
 ```
 
 - Bitwise swap with XOR
-```python
+```
 a = a ^ b 
 b = a ^ b
 a = a ^ b

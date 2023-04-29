@@ -22,7 +22,7 @@ ___
 
 - **Range** is the functions output, it is a subset of the co-domain.
 - It can also be said that a is the pre-image of b under f with b being the image of a under f
-- Multiple inputs can map to one output, multiple outputs cannot map to one input. A principle also employed in [[Hashing]]
+- Multiple inputs can map to one output, multiple outputs cannot map to one input. A principle also employed in [[Hash_tables]]
 
 # Function arithmetic
 

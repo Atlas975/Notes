@@ -16,7 +16,7 @@ ___
 # Greedy algorithms
 - Greedy algorithms always approach the immediate best option, ignoring its effect on the quality of future choices or outcome 
 - This is not guaranteed to result in the optimal outcome.
-- Examples include [[Sorting_algorithms#Selection sort|selection sort]] and [[Graph_traversal#Dijkstra's shortest path|Dijkstra's shortest path]]
+- Examples include [[Selection_sort|selection sort]] and [[Dijkstras_shortest_path|Dijkstras shortest path]]
 ## Maximum subarray 
 ```python
 def maxSubArray(self, nums: List[int]) -> int:

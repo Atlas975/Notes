@@ -1,9 +1,19 @@
-
-# Time_complexity
-created: 2022-06-23 16:22
-#ComplexityTheory 
-
 ---
+aliases: time complexity
+---
+> [!important]- Metadata
+> **Tags:** #ComplexityTheory 
+> **Located:** Algorithms/TimeComplexity
+> **Created:** 27/02/2023 - 11:31
+> ```dataviewjs
+> let f = dv.current().file;
+> let paths = new Set([...f.inlinks, ...f.outlinks].map(p => p.path).filter(p => !p.endsWith(".png")));
+> paths.delete(f.path);
+> dv.table(["Connections", "Tags"], [...paths].map(p => [dv.fileLink(p), dv.page(p).file.tags.join("")]));
+> ```
+
+___
+# Time complexity
 [[Algorithm_fundamentals]]
 ## Sort algorithm time complexity
 ![[Pasted image 20220612171916.png|450|450]]

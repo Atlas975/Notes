@@ -33,6 +33,7 @@ CREATE INDEX index_name ON table_name (column_name);
 > $$B_{i}=\text{the number of blocks in the indexed records}$$
 
 - When an index entry exists for every search key value, it using **dense indexing**
+- [[Hash_tables|Hashing]] frequently used for database indexing, but not all [[Database_systems#DBMS|DBMS]] systems support this, [[SQLite]] for instance only offers searches via [[B_trees|B trees]]
 
 ![[Pasted image 20230425203055.png|350|350]]
 - **Sparse indexing** may still use a combination of both dense and sparse methods, where each unique search value acts as an index but each unique data record may not be mapped
