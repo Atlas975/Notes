@@ -22,8 +22,8 @@ ___
 
 ## B-tree constraints 
 - B-tree of order m is a tree which satisfies the following properties:
-    - Every node has at most m children
-    - Every internal node (non-root and non-leaf) has at least $\lceil{\frac{m}{2}}\rceil$children 
+    - Every node has at most T children
+    - Every internal node (non-root and non-leaf) has at least $\lceil{\frac{T}{2}}\rceil$children 
     - Every non-leaf node has at least 2 children 
     - All leaves on same level
     - Non-leaf node with k children contains k-1 keys

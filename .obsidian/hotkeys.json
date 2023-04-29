@@ -508,8 +508,8 @@
   "editor:fold-more": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Alt",
+        "Mod"
       ],
       "key": "["
     }
@@ -517,8 +517,8 @@
   "editor:fold-less": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Alt",
+        "Mod"
       ],
       "key": "]"
     }

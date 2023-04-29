@@ -82,7 +82,20 @@
               "type": "markdown",
               "state": {
                 "file": "SoftwarePatterns/Behavioral/Template_pattern.md",
-                "mode": "preview",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b8806b4904f4ed57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DataStructures/B-Trees.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -141,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -186,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Template_pattern.md",
+                "file": "DataStructures/B-Trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Template_pattern.md"
+                "file": "DataStructures/B-Trees.md"
               }
             }
           }
@@ -242,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Template_pattern.md"
+                "file": "DataStructures/B-Trees.md"
               }
             }
           },
@@ -268,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Template_pattern.md",
+                "file": "DataStructures/B-Trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -315,8 +328,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b89384851d416f19",
+  "active": "b8806b4904f4ed57",
   "lastOpenFiles": [
+    "SoftwarePatterns/Behavioral/Template_pattern.md",
     "SoftwarePatterns/Behavioral/Observer_pattern.md",
     "Networking/Protocol_stack.md",
     "DataStructures/B-Trees.md",
@@ -352,7 +366,6 @@
     "OperatingSystems/Computer_memory.md",
     "OperatingSystems/FileSystems/File_systems.md",
     "OperatingSystems/FileSystems/File_system_performance.md",
-    "ProgramLanguages/SQL/SQL_patterns.md",
     "Algorithms/SortAlgorithms",
     "XX-Attachments/Images/AdilW_Resume.docx",
     "Algorithms/SearchAlgorithms",
