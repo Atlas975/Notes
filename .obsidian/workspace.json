@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "DataStructures/Hash_tables.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -59,8 +59,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Query_optimisation.md",
+                "file": "DataStructures/Hash_tables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Query_optimisation.md"
+                "file": "DataStructures/Hash_tables.md"
               }
             }
           }
@@ -161,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Query_optimisation.md"
+                "file": "DataStructures/Hash_tables.md"
               }
             }
           },
@@ -187,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Query_optimisation.md",
+                "file": "DataStructures/Hash_tables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,10 +233,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f8cadb6a6203976b",
+  "active": "5107df199594e716",
   "lastOpenFiles": [
-    "Databases/Database_indexing.md",
     "Databases/Query_optimisation.md",
+    "Databases/Database_indexing.md",
     "Databases/Database_systems.md",
     "DataStructures/Hash_tables.md",
     "XX-Attachments/Images/Pasted image 20230429191111.png",

@@ -45,15 +45,15 @@ ___
 ![[Pasted image 20220512142313.png|450|450]]
 
 ## Internal hashing
-- When hashing is used as an internal search structure within a program, access is done exclusively through the use of a hash field 
+- Used when items are stored in [[Computer_memory#Primary memory|primary memory]] with a hash table  used as an internal search structure within a program, access is done exclusively through the use of a hash field 
 - Implemented via a hash table that maps to a fixed size array of records/buckets 
 
 ![[Pasted image 20230429183154.png|500|500]]
 
 
 
-
 ## External hashing
+- Used when items are stored in [[Computer_memory#Secondary memory|secondary memory]] with hashing done for disk files 
 
 ![[Pasted image 20230429183745.png|550|550]]
 
@@ -72,6 +72,6 @@ ___
 
 ## Chaining
 - Extends array with a number of overflow positions, a pointer field is added to each collided record location to handle this.
-- Collisions are then resolved by placing new records in unused overflow positions and mapping the occupied hashes address pointer to the overflow index, example double collision:
+- Collisions are then resolved by placing new records in unused overflow positions and mapping the overflow pointer to find the index of the collided item, example double collision:
 
 ![[Pasted image 20230429191111.png|350|350]]
