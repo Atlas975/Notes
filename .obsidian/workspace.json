@@ -40,6 +40,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "34c5936c96dd84be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Database_indexing.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 2
@@ -218,9 +231,9 @@
   },
   "active": "63da3b400f0d5855",
   "lastOpenFiles": [
-    "XX-Attachments/Images/Pasted image 20230430150211.png",
     "Databases/Database_indexing.md",
     "Databases/Access_routines.md",
+    "XX-Attachments/Images/Pasted image 20230430150211.png",
     "XX-Attachments/Images/Pasted image 20230430103308.png",
     "Databases/Untitled.md",
     "XX-Attachments/Images/Pasted image 20230430100805.png",
@@ -254,7 +267,6 @@
     "Algorithms/Hash_algorithms",
     "XX-Attachments/Images/Pasted image 20230429123255.png",
     "XX-Attachments/Images/Pasted image 20230428110619.png",
-    "XX-Attachments/Images/Pasted image 20230428110607.png",
     "Algorithms/SortAlgorithms",
     "XX-Attachments/Images/AdilW_Resume.docx",
     "Algorithms/SearchAlgorithms",

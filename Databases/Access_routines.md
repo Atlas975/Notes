@@ -35,7 +35,31 @@ ___
 ![[Pasted image 20230430103308.png|550|550]]
 
 ## S5: clustered index search
-- Binary search using [[Database_indexing#Clustering indexes|clustered index search ]]to find the first block containing a matching search record
-- Mapping is doe to the first ¯
+- Binary search using a [[Database_indexing#Clustering indexes|clustered index ]] to locate a block with records that match a given criteria
+- Mapping is done to the first cluster that contains a record matching search criteria  
 
 ![[Pasted image 20230430150211.png|550|550]]
+
+## S6: B+ tree search
+- Used in comparison like [[#S4: comparison search|S4]], but with the access path utilising a [[B+_trees|B+ tree]] instead of a linear search
+- Tree structure allows rapid retrieval guided by internal nodes where retrieval behaviour depends on the given operator:
+```
+> : find last occurance, retreive all subsequent (inclusing self if >=)
+< : find first occurance retreive all preceding  (including self if <=)
+```
+# Conjunctive selection conditions 
+- Involves boolean expressions involving **AND**
+- General form (simple condition 1) AND (simple condition 2) ...  
+## S7:  simple condition output check 
+- Use of of method [[#S2: binary search|S2]] - [[#S6: B+ tree search|S6]] if applicable 
+- Examine records retrieved to see if they meet additional conditions as well
+
+## S8: composite index 
+- An index created on two or more columns of a table to speed up queries that involve multiple columns in the WHERE clause of a SELECT statement.
+- If two or attributes involved in an equality condition appear in one of these, this indexing scheme is much faster to search than searching individual indexes, [[SQL_language|SQL]] syntax:
+```sql
+CREATE INDEX index_name 
+ON table_name(c2,c3,c4);
+```
+
+## S9: 
