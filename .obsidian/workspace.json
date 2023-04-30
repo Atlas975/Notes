@@ -35,7 +35,7 @@
               "type": "markdown",
               "state": {
                 "file": "Databases/Access_routines.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -231,6 +231,7 @@
   },
   "active": "63da3b400f0d5855",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20230430160318.png",
     "Databases/Database_indexing.md",
     "Databases/Access_routines.md",
     "XX-Attachments/Images/Pasted image 20230430150211.png",
