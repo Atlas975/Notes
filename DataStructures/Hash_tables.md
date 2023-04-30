@@ -31,7 +31,7 @@ ___
 - **Sensitivity**: small changes should propagate into large changes in hash output 
 - **Security** (in some cases): should be resistant to attacks designed to determine pre-images (inputs that hash to a given output) and reproducing collisions. This prevents malicious messages from masking themselves as valid ones 
 ## Hash table size
-- A dataset with a large number of objects requires a long array to minimize collisions, a good hash function needs a wide range of values and an even distribution
+- A dataset with a large number of objects requires a long array to minimise collisions, a good hash function needs a wide range of values and an even distribution
 - The size of a hash table can be manipulated by the following:
 
 ![[Pasted image 20220512141645.png|450|450]]
