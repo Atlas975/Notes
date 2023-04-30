@@ -21,8 +21,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_systems.md",
-                "mode": "source",
+                "file": "OperatingSystems/FileSystems/File_systems.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -34,27 +34,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_indexing.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f8cadb6a6203976b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Query_optimisation.md",
+                "file": "Databases/Access_routines.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Databases/Access_routines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +118,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Databases/Access_routines.md"
+              }
             }
           }
         ]
@@ -151,7 +142,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Databases/Access_routines.md"
+              }
             }
           },
           {
@@ -176,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Databases/Access_routines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,12 +216,18 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5107df199594e716",
+  "active": "63da3b400f0d5855",
   "lastOpenFiles": [
-    "Databases/Database_access_routines.md",
-    "Databases/Query_optimisation.md",
-    "Databases/Database_normalisation.md",
+    "XX-Attachments/Images/Pasted image 20230430150211.png",
     "Databases/Database_indexing.md",
+    "Databases/Access_routines.md",
+    "XX-Attachments/Images/Pasted image 20230430103308.png",
+    "Databases/Untitled.md",
+    "XX-Attachments/Images/Pasted image 20230430100805.png",
+    "Databases/Query_optimisation.md",
+    "OperatingSystems/FileSystems/File_systems.md",
+    "Databases/Database_systems.md",
+    "Databases/Database_normalisation.md",
     "Databases/Database_design.md",
     "Databases/Database_constraints.md",
     "Databases/Database_keys.md",
@@ -235,7 +235,6 @@
     "DataStructures/Hash_tables.md",
     "XX-Attachments/Images/Pasted image 20230430034512.png",
     "XX-Attachments/Images/Pasted image 20230430030416.png",
-    "Databases/Database_systems.md",
     "XX-Attachments/Images/Pasted image 20230429191111.png",
     "DiscreteMath/Functions.md",
     "XX-Attachments/Images/Pasted image 20230429183745.png",
@@ -252,15 +251,10 @@
     "DataStructures/B+_trees.md",
     "Algorithms/TimeComplexity/Time_complexity.md",
     "Algorithms/AlgorithmConcepts/GeneralTricks/Math_tricks.md",
-    "Algorithms/AlgorithmConcepts/GeneralTricks/Markdown.md",
-    "Algorithms/AlgorithmConcepts/GeneralTricks/Code_tricks.md",
-    "Algorithms/AlgorithmConcepts/Algorithm_fundamentals.md",
     "Algorithms/Hash_algorithms",
     "XX-Attachments/Images/Pasted image 20230429123255.png",
     "XX-Attachments/Images/Pasted image 20230428110619.png",
     "XX-Attachments/Images/Pasted image 20230428110607.png",
-    "XX-Attachments/Images/Pasted image 20230428110204.png",
-    "XX-Attachments/Images/Pasted image 20230428110030.png",
     "Algorithms/SortAlgorithms",
     "XX-Attachments/Images/AdilW_Resume.docx",
     "Algorithms/SearchAlgorithms",

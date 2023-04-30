@@ -47,8 +47,12 @@ ___
 - ==FindAll, FindOrdered and Reorganise== are examples of **set-at-a-time** operations which act upon multiple files 
 
 ## File organisation
-- **Unordered records** are slow to search but have low overhead as records are appended, deletion is slow but can be sped up through deletion markers which are an extra bit that marks a record as deleted. Periodic file reorganisation is required to reclaim space
-- **Ordered records** make use of an ordering field for comparison operations, this is known as an ordering key if this is also unique to each file. These are fast due to the use of [[Binary_search|binary search]]
+### Unordered records 
+- Are slow to search but have low overhead as records are appended, deletion is slow but can be sped up through deletion markers which are an extra bit that marks a record as deleted. 
+- Periodic file reorganisation is required to reclaim space
+### Ordered records 
+- Makes use of an ordering field for comparison operations, this is known as an ordering key if this is also unique to each file. 
+- These are fast due to the use of [[Binary_search|binary search]]
 
 ## Virtual file systems
 - When more than one device exists in a file system, a VFS is used to provide a system level view of multiple file-systems types at once
