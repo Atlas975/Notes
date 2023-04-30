@@ -44,6 +44,10 @@ ___
 
 ![[Pasted image 20220512142313.png|450|450]]
 
+## Hashing pitfalls 
+-   **Hash collisions**: When two different keys produce the same hash value, a collision occurs. This can lead to slower search times of up to [[Time_complexity|O(n) worst case time complexity]]
+-   **Difficulty with range queries**: Conventional hashing is not suitable for range queries as it only allows for exact matches.
+-   **Difficulty with partial key searches**: Conventional hashing requires the entire key to be hashe
 ## Internal hashing
 - Used when items are stored in [[Computer_memory#Primary memory|primary memory]] with a hash table  used as an internal search structure within a program, access is done exclusively through the use of a hash field 
 - Implemented via a hash table that maps to a fixed size array of records/buckets 
@@ -53,13 +57,29 @@ ___
 
 
 ## External hashing
-- Used when items are stored in [[Computer_memory#Secondary memory|secondary memory]] with hashing done for disk files 
+- Used when items are stored in [[Computer_memory#Secondary memory|secondary memory]] with hashing done for disk files. Hash values consist of a disk block / cluster of continuous disk blocks 
+- Makes use of [[File_systems#File headers|file headers]] to store pointers to blocks containing related record, each bucket is assigned a hash value based on its contents
+
+![[Pasted image 20230430030416.png|500|500]]
+- [[#Collision resolution]] is less severe due to the use of buckets as numerous records are capable of fitting in a bucket. In the event a bucket is fill a variation of chaining is used 
+- Deletion can be expensive as overflow bucket locations must be tracked to clean up space 
 
 ![[Pasted image 20230429183745.png|550|550]]
 
+## Static hashing
+-  Most common hashing scheme, fixed number of buckets M with a max number of records that can fit in each bucket N. Max number of records is M * N assuming records allocate equally
+	- **\#records < M * N** : left with large wasted space
+	- **\#records > M * N** : long overflow lists that approach O(n) lookup 
+ - Static hashing does not cope well with dynamic files as M may need to be changed, changing hash function incurs large overhead as mapping need to be changed as well
+## Dynamic (extendible) hashing 
+- Built to work with dynamic files, allowing for growth or shrinking of co-domain as needed
+- Takes advantage of the hashing trait of always producing an unsigned integer, example of an extensible hashing algorithm:
 
-
-# Collision handling
+![[Pasted image 20230430034512.png|550|550]]
+- Directory consists of $2^{d}$ bucket addresses where d is global directory depth, the integer corresponding to the first (high order) d bits of the hash value are used as an index into the array
+- d' represents the local depth and is stored in each bucket, d can be incremented or de-incremented at any time doubling or halving the size of the co-domain
+- Note how greater local depth corresponds to less duplicate pointers as more space is used 
+# Collision resolution
 - A hash collision occurs when a hash function maps two keys to the same bucket 
 - Likely to occur when the co-domain (number of slots M) is small compared to the number of unique hash field values 
 

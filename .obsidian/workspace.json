@@ -11,13 +11,8 @@
             "id": "5107df199594e716",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DataStructures/Hash_tables.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -104,7 +99,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataStructures/Hash_tables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,17 +129,14 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "DataStructures/Hash_tables.md"
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 259.5046501159668,
-    "collapsed": true
+    "width": 259.5046501159668
   },
   "right": {
     "id": "441e4249d5592193",
@@ -160,9 +151,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "DataStructures/Hash_tables.md"
-              }
+              "state": {}
             }
           },
           {
@@ -187,7 +176,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataStructures/Hash_tables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,10 +224,18 @@
   },
   "active": "5107df199594e716",
   "lastOpenFiles": [
+    "Databases/Database_access_routines.md",
     "Databases/Query_optimisation.md",
+    "Databases/Database_normalisation.md",
     "Databases/Database_indexing.md",
-    "Databases/Database_systems.md",
+    "Databases/Database_design.md",
+    "Databases/Database_constraints.md",
+    "Databases/Database_keys.md",
+    "Databases/Hash_storage.md",
     "DataStructures/Hash_tables.md",
+    "XX-Attachments/Images/Pasted image 20230430034512.png",
+    "XX-Attachments/Images/Pasted image 20230430030416.png",
+    "Databases/Database_systems.md",
     "XX-Attachments/Images/Pasted image 20230429191111.png",
     "DiscreteMath/Functions.md",
     "XX-Attachments/Images/Pasted image 20230429183745.png",
@@ -259,20 +255,12 @@
     "Algorithms/AlgorithmConcepts/GeneralTricks/Markdown.md",
     "Algorithms/AlgorithmConcepts/GeneralTricks/Code_tricks.md",
     "Algorithms/AlgorithmConcepts/Algorithm_fundamentals.md",
-    "Algorithms/AlgorithmConcepts/Graph_traversal.md",
-    "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
-    "Algorithms/Union_find.md",
     "Algorithms/Hash_algorithms",
-    "DataStructures/Abstract_data_types.md",
     "XX-Attachments/Images/Pasted image 20230429123255.png",
-    "DataStructures/Radix_trees.md",
-    "SoftwarePatterns/Behavioral/Observer_pattern.md",
     "XX-Attachments/Images/Pasted image 20230428110619.png",
     "XX-Attachments/Images/Pasted image 20230428110607.png",
     "XX-Attachments/Images/Pasted image 20230428110204.png",
     "XX-Attachments/Images/Pasted image 20230428110030.png",
-    "XX-Attachments/Images/Pasted image 20230428110009.png",
-    "XX-Attachments/Images/Pasted image 20230428105937.png",
     "Algorithms/SortAlgorithms",
     "XX-Attachments/Images/AdilW_Resume.docx",
     "Algorithms/SearchAlgorithms",
