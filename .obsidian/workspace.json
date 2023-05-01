@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Join_handling.md",
+                "file": "MachineLearning/0-CoursesPart1/MathForML_course/PCA/Orthogonal_projections.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Join_handling.md",
+                "file": "MachineLearning/0-CoursesPart1/MathForML_course/PCA/Orthogonal_projections.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Join_handling.md"
+                "file": "MachineLearning/0-CoursesPart1/MathForML_course/PCA/Orthogonal_projections.md"
               }
             }
           }
@@ -195,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Join_handling.md"
+                "file": "MachineLearning/0-CoursesPart1/MathForML_course/PCA/Orthogonal_projections.md"
               }
             }
           },
@@ -221,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Join_handling.md",
+                "file": "MachineLearning/0-CoursesPart1/MathForML_course/PCA/Orthogonal_projections.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,41 +270,41 @@
   },
   "active": "12b9aed49b357fb2",
   "lastOpenFiles": [
-    "Databases/Relational_algebra.md",
-    "Databases/Query_optimisation.md",
-    "Databases/Join_handling.md",
-    "Databases/Access_routines.md",
-    "Databases/Database_indexing.md",
+    "MachineLearning/0-CoursesPart1/MathForML_course/Calculus/Calculus_fundementals.md",
+    "MachineLearning/0-CoursesPart1/MachineLearning/Stochastic_gradient_descent.md",
+    "MachineLearning/0-CoursesPart1/MachineLearning/Principal_component_analysis.md",
+    "MachineLearning/0-CoursesPart1/MachineLearning/Performance_measures.md",
+    "MachineLearning/0-CoursesPart1/MachineLearning/Normal_equation.md",
+    "MachineLearning/0-CoursesPart1/MachineLearning/Multivariable_regression.md",
+    "MachineLearning/0-CoursesPart1/MachineLearning/Multiclass_classificiation.md",
+    "MachineLearning/0-CoursesPart1/MachineLearning/ML_core_theory.md",
+    "MachineLearning/0-CoursesPart1/MachineLearning/Mini-batch_gradient_descent.md",
+    "MachineLearning/0-CoursesPart1/MachineLearning/LogisticReg_vs_SVM.md",
+    "MachineLearning/0-CoursesPart1/MachineLearning/Linear_regression.md",
+    "MachineLearning/0-CoursesPart1/MachineLearning/Large_data_ML.md",
+    "MachineLearning/0-CoursesPart1/MachineLearning/K-Means_algorithm.md",
+    "MachineLearning/0-CoursesPart1/MachineLearning/Debugging_ML_algorithms.md",
+    "MachineLearning/0-CoursesPart1/MachineLearning/Cieling_analysis.md",
+    "MachineLearning/0-CoursesPart1/MachineLearning/Anomaly_detection_building.md",
+    "MachineLearning/0-CoursesPart1/MachineLearning/Regularized_regression.md",
+    "MachineLearning/0-CoursesPart1/MathForML_course/PCA/Orthogonal_projections.md",
+    "SoftwarePatterns/Creational/Builder_pattern.md",
+    "SoftwarePatterns/Behavioral/Visitor_pattern.md",
+    "SoftwarePatterns/Behavioral/Iterator_pattern.md",
+    "SoftwarePatterns/Behavioral/Command_pattern.md",
+    "SoftwareEngineering/Programming_paradigms.md",
+    "SoftwareEngineering/Recursion.md",
+    "SoftwareEngineering/Multiagent_systems.md",
+    "SoftwareDesign/UML_diagrams.md",
     "XX-Attachments/Images/Pasted image 20230430160318.png",
     "XX-Attachments/Images/Pasted image 20230430150211.png",
     "XX-Attachments/Images/Pasted image 20230430103308.png",
     "XX-Attachments/Images/Pasted image 20230430100805.png",
-    "OperatingSystems/FileSystems/File_systems.md",
-    "Databases/Database_systems.md",
-    "Databases/Database_normalisation.md",
-    "Databases/Database_design.md",
-    "Databases/Database_constraints.md",
-    "Databases/Database_keys.md",
-    "Databases/Hash_storage.md",
-    "DataStructures/Hash_tables.md",
     "XX-Attachments/Images/Pasted image 20230430034512.png",
     "XX-Attachments/Images/Pasted image 20230430030416.png",
     "XX-Attachments/Images/Pasted image 20230429191111.png",
-    "DiscreteMath/Functions.md",
     "XX-Attachments/Images/Pasted image 20230429183745.png",
     "XX-Attachments/Images/Pasted image 20230429183154.png",
-    "SoftwareEngineering/Recursion.md",
-    "ProgramLanguages/Bash.md",
-    "Databases/Database_storage.md",
-    "DataStructures/Trees.md",
-    "ProgramLanguages/Erlang_language.md",
-    "SoftwareEngineering/Multiagent_systems.md",
-    "OperatingSystems/FileSystems/New_technology_file_system.md",
-    "SoftwarePatterns/Behavioral/Template_pattern.md",
-    "DataStructures/B_trees.md",
-    "DataStructures/B+_trees.md",
-    "Algorithms/TimeComplexity/Time_complexity.md",
-    "Algorithms/AlgorithmConcepts/GeneralTricks/Math_tricks.md",
     "Algorithms/Hash_algorithms",
     "XX-Attachments/Images/Pasted image 20230429123255.png",
     "Algorithms/SortAlgorithms",
