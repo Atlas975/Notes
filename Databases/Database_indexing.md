@@ -1,3 +1,6 @@
+---
+aliases: indexing
+---
 > [!important]- Metadata
 > **Tags:** #Databases #OperatingSystems 
 > **Located:** Databases

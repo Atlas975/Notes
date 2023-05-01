@@ -42,6 +42,45 @@
             }
           },
           {
+            "id": "d44755b8aa444ef6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Database_indexing.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6ff255f0f9cbc436",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Access_routines.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "12b9aed49b357fb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Join_handling.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "34c5936c96dd84be",
             "type": "leaf",
             "state": {
@@ -55,7 +94,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -100,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Access_routines.md",
+                "file": "Databases/Join_handling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Access_routines.md"
+                "file": "Databases/Join_handling.md"
               }
             }
           }
@@ -156,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Access_routines.md"
+                "file": "Databases/Join_handling.md"
               }
             }
           },
@@ -182,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Access_routines.md",
+                "file": "Databases/Join_handling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,16 +268,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "63da3b400f0d5855",
+  "active": "12b9aed49b357fb2",
   "lastOpenFiles": [
-    "XX-Attachments/Images/Pasted image 20230430160318.png",
-    "Databases/Database_indexing.md",
+    "Databases/Relational_algebra.md",
+    "Databases/Query_optimisation.md",
+    "Databases/Join_handling.md",
     "Databases/Access_routines.md",
+    "Databases/Database_indexing.md",
+    "XX-Attachments/Images/Pasted image 20230430160318.png",
     "XX-Attachments/Images/Pasted image 20230430150211.png",
     "XX-Attachments/Images/Pasted image 20230430103308.png",
-    "Databases/Untitled.md",
     "XX-Attachments/Images/Pasted image 20230430100805.png",
-    "Databases/Query_optimisation.md",
     "OperatingSystems/FileSystems/File_systems.md",
     "Databases/Database_systems.md",
     "Databases/Database_normalisation.md",
@@ -267,7 +307,6 @@
     "Algorithms/AlgorithmConcepts/GeneralTricks/Math_tricks.md",
     "Algorithms/Hash_algorithms",
     "XX-Attachments/Images/Pasted image 20230429123255.png",
-    "XX-Attachments/Images/Pasted image 20230428110619.png",
     "Algorithms/SortAlgorithms",
     "XX-Attachments/Images/AdilW_Resume.docx",
     "Algorithms/SearchAlgorithms",
