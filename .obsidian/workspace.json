@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/0-CoursesPart1/MathForML_course/PCA/Orthogonal_projections.md",
+                "file": "SoftwareDesign/SOLID_principles.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/0-CoursesPart1/MathForML_course/PCA/Orthogonal_projections.md",
+                "file": "SoftwareDesign/SOLID_principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/0-CoursesPart1/MathForML_course/PCA/Orthogonal_projections.md"
+                "file": "SoftwareDesign/SOLID_principles.md"
               }
             }
           }
@@ -195,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/0-CoursesPart1/MathForML_course/PCA/Orthogonal_projections.md"
+                "file": "SoftwareDesign/SOLID_principles.md"
               }
             }
           },
@@ -221,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/0-CoursesPart1/MathForML_course/PCA/Orthogonal_projections.md",
+                "file": "SoftwareDesign/SOLID_principles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,6 +270,23 @@
   },
   "active": "12b9aed49b357fb2",
   "lastOpenFiles": [
+    "SoftwarePatterns/Behavioral/Observer_pattern.md",
+    "SoftwarePatterns/Behavioral/Iterator_pattern.md",
+    "SoftwarePatterns/Behavioral/Command_pattern.md",
+    "SoftwarePatterns/Structural/Bridge_pattern.md",
+    "SoftwarePatterns/Creational/Builder_pattern.md",
+    "SoftwarePatterns/Behavioral/Template_pattern.md",
+    "SoftwarePatterns/Behavioral/Visitor_pattern.md",
+    "SoftwareDesign/UML_diagrams.md",
+    "SoftwareDesign/Entity_relationship_model.md",
+    "SoftwareDesign/Software_architecture.md",
+    "SoftwareDesign/SOLID_principles.md",
+    "SoftwareDesign/Test_types.md",
+    "SoftwareDesign/Software_planning.md",
+    "SoftwarePatterns/Design_patterns.md",
+    "SoftwarePatterns/Structural/Proxy_pattern.md",
+    "MachineLearning/0-CoursesPart1/MathForML_course/Calculus/Non_linear_regression.md",
+    "MachineLearning/0-CoursesPart1/MathForML_course/PCA/Orthogonal_projections.md",
     "MachineLearning/0-CoursesPart1/MathForML_course/Calculus/Calculus_fundementals.md",
     "MachineLearning/0-CoursesPart1/MachineLearning/Stochastic_gradient_descent.md",
     "MachineLearning/0-CoursesPart1/MachineLearning/Principal_component_analysis.md",
@@ -279,23 +296,6 @@
     "MachineLearning/0-CoursesPart1/MachineLearning/Multiclass_classificiation.md",
     "MachineLearning/0-CoursesPart1/MachineLearning/ML_core_theory.md",
     "MachineLearning/0-CoursesPart1/MachineLearning/Mini-batch_gradient_descent.md",
-    "MachineLearning/0-CoursesPart1/MachineLearning/LogisticReg_vs_SVM.md",
-    "MachineLearning/0-CoursesPart1/MachineLearning/Linear_regression.md",
-    "MachineLearning/0-CoursesPart1/MachineLearning/Large_data_ML.md",
-    "MachineLearning/0-CoursesPart1/MachineLearning/K-Means_algorithm.md",
-    "MachineLearning/0-CoursesPart1/MachineLearning/Debugging_ML_algorithms.md",
-    "MachineLearning/0-CoursesPart1/MachineLearning/Cieling_analysis.md",
-    "MachineLearning/0-CoursesPart1/MachineLearning/Anomaly_detection_building.md",
-    "MachineLearning/0-CoursesPart1/MachineLearning/Regularized_regression.md",
-    "MachineLearning/0-CoursesPart1/MathForML_course/PCA/Orthogonal_projections.md",
-    "SoftwarePatterns/Creational/Builder_pattern.md",
-    "SoftwarePatterns/Behavioral/Visitor_pattern.md",
-    "SoftwarePatterns/Behavioral/Iterator_pattern.md",
-    "SoftwarePatterns/Behavioral/Command_pattern.md",
-    "SoftwareEngineering/Programming_paradigms.md",
-    "SoftwareEngineering/Recursion.md",
-    "SoftwareEngineering/Multiagent_systems.md",
-    "SoftwareDesign/UML_diagrams.md",
     "XX-Attachments/Images/Pasted image 20230430160318.png",
     "XX-Attachments/Images/Pasted image 20230430150211.png",
     "XX-Attachments/Images/Pasted image 20230430103308.png",

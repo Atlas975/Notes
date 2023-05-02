@@ -28,7 +28,7 @@ aliases: [UML]
 ___
 # UML diagrams
 
-- Unified modelling language (UML) is a standard for visualizing software design 
+- Unified modelling language (UML) is a standard for visualising software design 
 
 ![[Pasted image 20221024163920.png|500|500]]
 
