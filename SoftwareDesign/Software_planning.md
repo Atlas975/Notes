@@ -17,7 +17,7 @@ ___
 ## Software engineering stack
 ![[Pasted image 20221010164140.png|450|450]]
 # Software requirements
-- Describes what a systems should do as well as any constraints it may have in completing the required objective
+- Describes what a systems should do and any constraints has in completing the required objective
 - Requirement engineering is essential as these kind of errors are more numerous, costly and persistent than software errors
 - It only describes what software should do without going into logistics AKA "the how". Implementation details should never be included initially, this allows for some level of creativity in how a project is completed
 
