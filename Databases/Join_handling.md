@@ -36,5 +36,5 @@ for A in range(n)
 - Both files can be scanned [[Concurrency|concurrently ]] and then have their records matched 
 
 ## J4: Hash-join 
-- R and S are hashed into the same hash file, single pass performed on each file to fill hash buckets 
+- R and S are hashed into the same hash file, single pass performed on each file to fill hash buckets, works as duplicate hash keys produce the same result 
 - Each bucket then examined for records that produce desired join result 

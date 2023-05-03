@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Access_routines.md",
+                "file": "Databases/Query_optimisation.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwareDesign/Software_architecture.md",
+                "file": "Databases/Relational_algebra.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareDesign/Software_architecture.md",
+                "file": "Databases/Query_optimisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/Software_architecture.md"
+                "file": "Databases/Query_optimisation.md"
               }
             }
           }
@@ -195,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/Software_architecture.md"
+                "file": "Databases/Query_optimisation.md"
               }
             }
           },
@@ -221,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareDesign/Software_architecture.md",
+                "file": "Databases/Query_optimisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -268,8 +268,18 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "12b9aed49b357fb2",
+  "active": "63da3b400f0d5855",
   "lastOpenFiles": [
+    "Databases/Join_handling.md",
+    "Databases/Access_routines.md",
+    "Databases/Relational_algebra.md",
+    "Databases/Database_storage.md",
+    "Databases/Database_relations.md",
+    "Databases/Database_keys.md",
+    "SoftwareDesign/Software_planning.md",
+    "SoftwareDesign/Software_architecture.md",
+    "SoftwareDesign/UML_diagrams.md",
+    "SoftwareDesign/Test_types.md",
     "SoftwareDesign/SOLID_principles.md",
     "SoftwareDesign/BSPL.md",
     "DataStructures/Abstract_data_types.md",
@@ -285,17 +295,7 @@
     "SoftwarePatterns/Behavioral/Template_pattern.md",
     "SoftwarePatterns/Behavioral/Visitor_pattern.md",
     "SoftwarePatterns/Behavioral/Iterator_pattern.md",
-    "SoftwareDesign/Software_planning.md",
     "SoftwarePatterns/Behavioral/Observer_pattern.md",
-    "SoftwarePatterns/Behavioral/Command_pattern.md",
-    "SoftwarePatterns/Creational/Builder_pattern.md",
-    "SoftwareDesign/UML_diagrams.md",
-    "SoftwareDesign/Entity_relationship_model.md",
-    "SoftwareDesign/Software_architecture.md",
-    "SoftwareDesign/Test_types.md",
-    "SoftwarePatterns/Design_patterns.md",
-    "MachineLearning/0-CoursesPart1/MathForML_course/Calculus/Non_linear_regression.md",
-    "MachineLearning/0-CoursesPart1/MathForML_course/PCA/Orthogonal_projections.md",
     "XX-Attachments/Images/Pasted image 20230430160318.png",
     "XX-Attachments/Images/Pasted image 20230430150211.png",
     "XX-Attachments/Images/Pasted image 20230430103308.png",
