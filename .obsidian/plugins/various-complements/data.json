@@ -134,6 +134,70 @@
           "lastUpdated": 1682952064154
         }
       }
+    },
+    "components": {
+      "components": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1683073472525
+        }
+      }
+    },
+    "techniques": {
+      "techniques": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1683073399360
+        }
+      }
+    },
+    "communication": {
+      "communication": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1683073641610
+        }
+      }
+    },
+    "optimisation": {
+      "optimisation": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1683075348439
+        }
+      }
+    },
+    "Trees": {
+      "Trees": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1683074884346
+        }
+      }
+    },
+    "cartesian": {
+      "cartesian": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1683076183130
+        }
+      }
+    },
+    "privileges": {
+      "privileges": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1683077834415
+        }
+      }
+    },
+    "permissions": {
+      "permissions": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1683078134828
+        }
+      }
     }
   }
 }
