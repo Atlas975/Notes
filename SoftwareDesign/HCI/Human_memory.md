@@ -1,9 +1,16 @@
+> [!important]- Metadata
+> **Tags:** #Phycology 
+> **Located:** SoftwareDesign/HCI
+> **Created:** 27/02/2023 - 11:31
+> ```dataviewjs
+> let f = dv.current().file;
+> let paths = new Set([...f.inlinks, ...f.outlinks].map(p => p.path).filter(p => !p.endsWith(".png")));
+> paths.delete(f.path);
+> dv.table(["Connections", "Tags"], [...paths].map(p => [dv.fileLink(p), dv.page(p).file.tags.join("")]));
+> ```
 
-# Human_memory
-created: 2022-11-05 15:14
-#DesignTheory 
-
----
+___
+# Human memory
 - Multi-store model: 
 
 ![[Pasted image 20221105151530.png|450|450]]

@@ -21,7 +21,7 @@ created: 2022-11-02 10:15
 - **Lightness**: intensity of colour
 - Contrasting colours are opposite on the wheel
 
-![[Pasted image 20221105141450.png|450|450]]
+![[Pasted image 20221105141450.png|250|250]]
 
 
 - Example of contrast benefit, vision is optimized to see contrast:
