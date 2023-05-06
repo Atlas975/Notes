@@ -1,3 +1,6 @@
+---
+aliases: transport layer
+---
 > [!important]- Metadata
 > **Tags:** #OperatingSystems #Networking 
 > **Located:** Networking/TransportProtocols
@@ -17,7 +20,7 @@ ___
 	- **Receiver side**: reassembles segments into messages, passed to application layers
 - The transport layer can also provide reliable data transfer & integrity such as with TCP, but it doesn't provide bandwidth or [[Network_delay|delay]] guarantees
 
-![[Pasted image 20230506205142.png|500|500]]
+![[Pasted image 20230506210736.png|500|500]]
 - In summary, while the [[Protocol_stack#Network layer|network layer]] provides logical communication between hosts, the transport layer provides does the same between processes to enhance network layer services
 
 | Protocol | Description | Use Case |
@@ -35,9 +38,45 @@ ___
 | SNMP | Simple Network Management Protocol | Used for managing and monitoring network devices. | Used for monitoring network performance, identifying and resolving issues, and configuring network devices such as routers, switches, and servers. |         |             |          |
 
 
-## Transport service types 
+## Transport service types
 - **Connection oriented**: works in 3 phases, connection set-up, data transfer, disconnect 
 - **Connectionless**: transfer of isolated units 
 
 ## Transport multiplexing
 - Used to share a single network connection among multiple processes [[Concurrency|concurrently]]
+- Multiple methods of achieving this including  [[Routing_methods#Frequency division multiplexing (FDM)|FDM]] and [[Routing_methods#Time division multiplexing (TDM)|TDM]]
+
+![[Pasted image 20230506210701.png|500|500]]
+
+### Connectionless demultiplexing
+- Host receives IP datagrams with a src / dest IP, transport-layer segment and dest port number 
+- The host uses the **destination IP and port number** to direct segments to their socket 
+
+![[Pasted image 20230506211941.png|200|200]]
+- IP datagrams with the same portNo but different senders will arrive at the same socket
+- Example of a connectionless demux 
+
+![[Pasted image 20230506212410.png|500|500]]
+
+### Connection-oriented demultiplexing 
+- In connection oriented multiplexing the TCP socket is identified by a 4-tuple consisting of:
+	1. Src IP
+	2. Src Port#
+	3. Dest IP
+	4. Dest Port#
+- The demux receiver uses all 4 to direct a segment to the appropriate socket 
+- Only once a connection is established can packets be sent, example connection demux:
+
+![[Pasted image 20230506213826.png|500|500]]
+
+- This is done by having a socket on the receiving end constantly listening in order to accept future connections that may come in
+- Once a connection is accepted, a socket is returned that can be used to communicate with this sender
+
+![[Pasted image 20230506214251.png|500|500]]
+
+
+## Reliable data transfer
+- Tasked with receiving a reliable stream of data for an application 
+- 
+
+![[Pasted image 20230506225817.png|450|450]]

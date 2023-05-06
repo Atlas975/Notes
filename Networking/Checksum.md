@@ -14,7 +14,7 @@
 
 ___
 # Checksum
-- A type of data verification method used to detect errors in data transmission or storage.  
+- A  data verification method used to detect errors (flipped bits) in  transmitted segments.  
 - Vital in [[Routing_methods#Packet switching|packet switching]] for the following: 
 	- **Sender side**: checksum creation
 	- **Receiver side**: checksum validation

@@ -57,7 +57,8 @@ var DEFAULT_SETTINGS = {
   doNotSimplifyTags: false,
   overrideTagClicking: false,
   useMultiPaneList: false,
-  archiveTags: ""
+  archiveTags: "",
+  disableNarrowingDown: false
 };
 var VIEW_TYPE_SCROLL = "tagfolder-view-scroll";
 var EPOCH_MINUTE = 60;
@@ -164,6 +165,9 @@ function get_all_dirty_from_scope($$scope) {
     return dirty;
   }
   return -1;
+}
+function null_to_empty(value) {
+  return value == null ? "" : value;
 }
 var is_hydrating = false;
 function start_hydrating() {
@@ -1211,7 +1215,7 @@ var ScrollView = class extends import_obsidian2.ItemView {
 
 // TreeItemComponent.svelte
 function add_css3(target) {
-  append_styles(target, "svelte-etffjf", ".lsl-f.svelte-etffjf.svelte-etffjf{flex-direction:row;display:flex;flex-grow:1;overflow:hidden;max-width:calc(100%)}.tags.svelte-etffjf.svelte-etffjf{background-color:var(--background-secondary-alt);border-radius:4px;padding:2px 4px;margin-left:4px}.taglist.svelte-etffjf.svelte-etffjf{white-space:nowrap;text-overflow:ellipsis;padding-left:1em;overflow:hidden}.tagfolder-titletagname.svelte-etffjf.svelte-etffjf{flex-grow:1;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.nav-folder-title-content.svelte-etffjf:hover .tagfolder-quantity span.svelte-etffjf{background-color:var(--interactive-accent-hover);color:var(--text-on-accent)}.tagfolder-quantity.svelte-etffjf span.svelte-etffjf{background-color:var(--background-secondary-alt);border-radius:4px;padding:2px 4px}.tagfolder-quantity.svelte-etffjf.svelte-etffjf{width:3em;text-align:right;cursor:pointer;margin-left:auto}.tag-folder-title.svelte-etffjf.svelte-etffjf{max-width:100%}");
+  append_styles(target, "svelte-ner10q", ".lsl-f.svelte-ner10q.svelte-ner10q{flex-direction:row;display:flex;flex-grow:1;overflow:hidden;max-width:calc(100%)}.tags.svelte-ner10q.svelte-ner10q{background-color:var(--background-secondary-alt);border-radius:4px;padding:2px 4px;margin-left:4px}.taglist.svelte-ner10q.svelte-ner10q{white-space:nowrap;text-overflow:ellipsis;padding-left:1em;overflow:hidden}.taglist.svelte-ner10q span.svelte-ner10q{color:var(--nav-item-color)}.tagfolder-titletagname.svelte-ner10q.svelte-ner10q{flex-grow:1;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tagfolder-quantity.svelte-ner10q span.svelte-ner10q{background-color:var(--background-secondary-alt);color:var(--nav-item-color);border-radius:4px;padding:2px 4px}.tagfolder-quantity.svelte-ner10q.svelte-ner10q{width:3em;text-align:right;cursor:pointer;margin-left:auto}.tag-folder-title.svelte-ner10q.svelte-ner10q{max-width:100%}.nav-folder-title.svelte-ner10q:hover .tagfolder-quantity.svelte-ner10q,.nav-file-title.svelte-ner10q:hover .taglist.svelte-ner10q{color:var(--text-on-accent)}.nav-folder-title.svelte-ner10q:hover .tagfolder-quantity span.svelte-ner10q,.nav-file-title.svelte-ner10q:hover .taglist .tags.svelte-ner10q{color:var(--text-on-accent);background-color:var(--interactive-accent-hover)}");
 }
 function get_each_context_2(ctx, list, i) {
   const child_ctx = ctx.slice();
@@ -1254,9 +1258,9 @@ function create_if_block_4(ctx) {
       for (let i = 0; i < each_blocks.length; i += 1) {
         each_blocks[i].c();
       }
-      attr(div0, "class", "nav-file-title-content lsl-f svelte-etffjf");
-      attr(div1, "class", "taglist svelte-etffjf");
-      attr(div2, "class", "nav-file-title");
+      attr(div0, "class", "nav-file-title-content lsl-f svelte-ner10q");
+      attr(div1, "class", "taglist svelte-ner10q");
+      attr(div2, "class", "nav-file-title svelte-ner10q");
       toggle_class(div2, "is-active", ctx[14]);
       attr(div3, "class", "nav-file");
     },
@@ -1353,11 +1357,11 @@ function create_if_block_2(ctx) {
       if (if_block)
         if_block.c();
       attr(div0, "class", "nav-folder-collapse-indicator collapse-icon");
-      attr(div1, "class", "tagfolder-titletagname svelte-etffjf");
-      attr(span, "class", "itemscount svelte-etffjf");
-      attr(div2, "class", "tagfolder-quantity itemscount svelte-etffjf");
-      attr(div3, "class", "nav-folder-title-content lsl-f svelte-etffjf");
-      attr(div4, "class", "nav-folder-title tag-folder-title svelte-etffjf");
+      attr(div1, "class", "tagfolder-titletagname svelte-ner10q");
+      attr(span, "class", "itemscount svelte-ner10q");
+      attr(div2, "class", "tagfolder-quantity itemscount svelte-ner10q");
+      attr(div3, "class", "nav-folder-title-content lsl-f svelte-ner10q");
+      attr(div4, "class", "nav-folder-title tag-folder-title svelte-ner10q");
       toggle_class(div4, "is-active", ctx[0].children && ctx[9] && ctx[14]);
       attr(div5, "class", "nav-folder");
       toggle_class(div5, "is-collapsed", ctx[9]);
@@ -1511,7 +1515,7 @@ function create_each_block_2(ctx) {
     c() {
       span = element("span");
       t = text(t_value);
-      attr(span, "class", "tags svelte-etffjf");
+      attr(span, "class", "tags svelte-ner10q");
     },
     m(target, anchor) {
       insert(target, span, anchor);
@@ -2207,6 +2211,9 @@ function instance3($$self, $$props, $$invalidate) {
             ...ancestorToLongestTag(ancestorToTags($$invalidate(29, _a = parentTags.filter((e) => e)) !== null && _a !== void 0 ? _a : []))
           ];
           let filteredTags = [...tempTags];
+          if (entry.extraTags) {
+            filteredTags = [...filteredTags, ...entry.extraTags];
+          }
           for (const removeTag of removeTags) {
             const part = removeTag.split("/");
             for (const piece of part)
@@ -2308,6 +2315,7 @@ function create_if_block_22(ctx) {
   let div1;
   let t1;
   let div2;
+  let div2_class_value;
   let mounted;
   let dispose;
   return {
@@ -2321,7 +2329,7 @@ function create_if_block_22(ctx) {
       attr(div0, "aria-label", "Change sort order");
       attr(div1, "class", "clickable-icon nav-action-button");
       attr(div1, "aria-label", "Expand limit");
-      attr(div2, "class", "clickable-icon nav-action-button");
+      attr(div2, "class", div2_class_value = null_to_empty("clickable-icon nav-action-button" + (ctx[12] ? " is-active" : "")) + " svelte-1xm87ro");
       attr(div2, "aria-label", "Search");
     },
     m(target, anchor) {
@@ -2359,6 +2367,9 @@ function create_if_block_22(ctx) {
       if (dirty[0] & 262144)
         div2.innerHTML = ctx[18];
       ;
+      if (dirty[0] & 4096 && div2_class_value !== (div2_class_value = null_to_empty("clickable-icon nav-action-button" + (ctx[12] ? " is-active" : "")) + " svelte-1xm87ro")) {
+        attr(div2, "class", div2_class_value);
+      }
     },
     d(detaching) {
       if (detaching)
@@ -3440,6 +3451,7 @@ var expandTree = async (node, reduceNestedParent) => {
     }
     const newLeaf = {
       tag,
+      extraTags: node.extraTags,
       children: newChildren,
       ancestors: [...ancestor, tag],
       descendants: null,
@@ -3516,6 +3528,7 @@ var splitTag = async (entry, reduceNestedParent, root) => {
         if (!parent) {
           const newGrandchild = {
             tag: tagCdr,
+            extraTags: tempEntry.extraTags,
             children: [...tempChildren],
             ancestors: [
               ...newAncestorsBase,
@@ -3529,6 +3542,7 @@ var splitTag = async (entry, reduceNestedParent, root) => {
           };
           const newChild = {
             tag: tagCar,
+            extraTags: tempEntry.extraTags,
             children: [newGrandchild],
             ancestors: [...newAncestorsBase, tagCar],
             descendants: null,
@@ -3554,6 +3568,7 @@ var splitTag = async (entry, reduceNestedParent, root) => {
           } else {
             const x = {
               tag: tagCdr,
+              extraTags: tempEntry.extraTags,
               children: [...tempChildren],
               ancestors: [
                 ...newAncestorsBase,
@@ -3824,6 +3839,15 @@ var TagFolderPlugin = class extends import_obsidian6.Plugin {
         this.activateView();
       }
     });
+    this.addCommand({
+      id: "tagfolder-create-similar",
+      name: "Create a new note with the same tags",
+      editorCallback: async (editor, view) => {
+        const tags = (0, import_obsidian6.getAllTags)(this.app.metadataCache.getFileCache(view.file));
+        const ww = await this.app.fileManager.createAndOpenMarkdownFile();
+        await this.app.vault.append(ww, tags.join(" "));
+      }
+    });
     this.metadataCacheChanged = this.metadataCacheChanged.bind(this);
     this.watchWorkspaceOpen = this.watchWorkspaceOpen.bind(this);
     this.registerEvent(
@@ -4014,13 +4038,10 @@ var TagFolderPlugin = class extends import_obsidian6.Plugin {
       });
     }
     const fileCacheDump = JSON.stringify(
-      this.fileCaches.map((e) => {
-        var _a, _b;
-        return {
-          path: e.file.path,
-          tags: ((_b = (_a = e.metadata) == null ? void 0 : _a.tags) != null ? _b : []).map((e2) => e2.tag)
-        };
-      })
+      this.fileCaches.map((e) => ({
+        path: e.file.path,
+        tags: (0, import_obsidian6.getAllTags)(e.metadata)
+      }))
     );
     if (this.oldFileCache == fileCacheDump) {
       return false;
@@ -4102,15 +4123,31 @@ var TagFolderPlugin = class extends import_obsidian6.Plugin {
       allTags2 = allTags2.filter(
         (tag) => !ignoreTags.contains(tag.toLocaleLowerCase())
       );
-      items.push({
-        tags: allTags2,
-        path: fileCache.file.path,
-        displayName: this.getDisplayName(fileCache.file),
-        ancestors: [],
-        mtime: fileCache.file.stat.mtime,
-        ctime: fileCache.file.stat.ctime,
-        filename: fileCache.file.basename
-      });
+      if (this.settings.disableNarrowingDown) {
+        for (const tags of allTags2) {
+          items.push({
+            tags: [tags],
+            extraTags: allTags2.filter((e) => e != tags),
+            path: fileCache.file.path,
+            displayName: this.getDisplayName(fileCache.file),
+            ancestors: [],
+            mtime: fileCache.file.stat.mtime,
+            ctime: fileCache.file.stat.ctime,
+            filename: fileCache.file.basename
+          });
+        }
+      } else {
+        items.push({
+          tags: allTags2,
+          extraTags: [],
+          path: fileCache.file.path,
+          displayName: this.getDisplayName(fileCache.file),
+          ancestors: [],
+          mtime: fileCache.file.stat.mtime,
+          ctime: fileCache.file.stat.ctime,
+          filename: fileCache.file.basename
+        });
+      }
     }
     return items;
   }
@@ -4119,6 +4156,7 @@ var TagFolderPlugin = class extends import_obsidian6.Plugin {
     const archivedNotes = archiveTags.map((archiveTag) => [archiveTag, items.filter((item) => item.tags.some((tag) => tag.toLocaleLowerCase() == archiveTag))]);
     const root = {
       tag: "root",
+      extraTags: [],
       children: [...items.filter((e) => e.tags.every((tag) => !archiveTags.contains(tag.toLocaleLowerCase())))],
       ancestors: ["root"],
       descendants: null,
@@ -4129,6 +4167,7 @@ var TagFolderPlugin = class extends import_obsidian6.Plugin {
     for (const [archiveTag, items2] of archivedNotes) {
       root.children.push(
         {
+          extraTags: [],
           tag: archiveTag,
           children: items2,
           ancestors: ["root", archiveTag],
@@ -4449,6 +4488,14 @@ var TagFolderSettingTab = class extends import_obsidian6.PluginSettingTab {
         if (this.plugin.settings.useTagInfo) {
           await this.plugin.loadTagInfo();
         }
+        await this.plugin.saveSettings();
+      });
+    });
+    new import_obsidian6.Setting(containerEl).setName("Disable narrowing down").setDesc(
+      "When this feature is enabled, relevant tags will be shown with the title instead of making a sub-structure."
+    ).addToggle((toggle) => {
+      toggle.setValue(this.plugin.settings.disableNarrowingDown).onChange(async (value) => {
+        this.plugin.settings.disableNarrowingDown = value;
         await this.plugin.saveSettings();
       });
     });

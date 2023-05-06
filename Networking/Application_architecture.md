@@ -1,3 +1,6 @@
+---
+aliases: application layer
+---
 > [!important]- Metadata
 > **Tags:** #Networking 
 > **Located:** Networking
