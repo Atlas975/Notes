@@ -25,19 +25,21 @@ if (d[u] + c(u, v)) < d[v]:
 ## Bellman Ford's algorithm
 ```python
 def bellman_ford(graph, origin) -> dict:  # O(VE) time, O(V) space
-    distmp = {vertex: float("inf") for vertex in graph}
+    distmp = {v: float("inf") for v in graph}
     distmp[origin] = 0
 
-    for _ in range(len(graph) - 1): 
-        for u in filter(lambda u: distmp[u] != float("inf"), graph): 
+    for _ in range(len(graph) - 1): # relax all edges V - 1 times
+        for u in graph:
+            if distmp[u] == float("inf"):
+                continue
             for v, weight in graph[u].items():
-                if (vdist := distmp[u] + weight) < distmp[v]:
-                    distmp[v] = vdist
+                distmp[v] = min(distmp[v], distmp[u] + weight)
 
-    for u in filter(lambda u: distmp[u] != float("inf"), graph):
-        for v, weight in graph[u].items(): 
-            if (vdist := distmp[u] + weight) < distmp[v]:
-                raise ValueError("negative cycle detected")
+    for u in graph: # if relaxation occurs again, then negative cycle exists
+        if distmp[u] == float("inf"):
+            continue
+        if any(distmp[u] + weight < distmp[v] for v, weight in graph[u].items()):
+            raise ValueError("negative cycle detected")
     return distmp
 ```
 

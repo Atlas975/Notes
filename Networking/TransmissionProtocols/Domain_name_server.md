@@ -43,7 +43,6 @@ lancs.ac.uk -sub-domain-> ac.uk -sub-domain-> uk
 ### Local domain server
 - Does not strictly belong to hierarchy, acts as a [[Caching|cache]] for recent name-to-address translations
 - Works as a [[Proxy_pattern|proxy]], forwarding query if necessary ie the cache is out of date
-
 ## DNS resolution
 
 ![[Pasted image 20230308130522.png|350|350]]
@@ -59,12 +58,13 @@ RR format: (name, value, type, ttl)
 ```
 - Various types of DNS records exists including:
 
-| Type  | Name                | Value                                   |
-| ----- | ------------------- | --------------------------------------- |
-| A     | hostname            | IP address                              |
+| Type | Name     | Value      |
+| ---- | -------- | ---------- |
+| A    | hostname | IPV4 address |
+| AAAA     |hostname          |IPV6 address            |
 | NS    | domain              | hostname of name server for this domain |
 | CNAME | alias for real name | actual (canonical) name                 |
-| MX      |                     |                                         |
+| MX      |mail exchange|hostname of the mail server|
 
 
 ## DNS protocol
