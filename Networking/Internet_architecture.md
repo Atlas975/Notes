@@ -66,3 +66,6 @@ ___
 ## Web
 - An interconnected systems of public web pages that can be accessed through the internet 
 - Web pages are written in HTML and transferred between server and client
+- [[Network_architecture|Network]] protocols are used to hold the web together 
+
+![[Pasted image 20230506202421.png|300|300]]

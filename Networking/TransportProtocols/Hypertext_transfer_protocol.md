@@ -18,7 +18,7 @@ aliases: HTTP
 
 ___
 # Hypertext transfer protocol
-- An [[Protocol_stack#Application layer|Application layer]] [[Transmission_protocols|transmission protocol]] used to transfer data over the internet 
+- An [[Protocol_stack#Application layer|Application layer]] [[Transport_protocols|transmission protocol]] used to transfer data over the internet 
 - Used client-server model where clients sens a request and a server responds 
 
 ![[Pasted image 20230216101148.png|450|450]]

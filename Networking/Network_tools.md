@@ -23,7 +23,7 @@ ___
 
 ![[Pasted image 20230213231702.png|550|550]]
 
-- ping works in the following way with the ICMP/UDP [[Transmission_protocols|transmission protocols]]
+- ping works in the following way with the ICMP/UDP [[Transport_protocols|transmission protocols]]
 	1.  A user sends a ping request to a network host using the `ping` command.
 	2.  Request in form of an "echo request" packet.
 	3.  The destination host receives a request and sends back a "echo reply" packet.

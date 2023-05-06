@@ -14,7 +14,7 @@
 
 ___
 # Routing methods
-- A host sending function will take an application message, break it up into smaller packets of **bit length (L)** and transmit those packets at a **transmission rate / link bandwidth  (R)** 
+- A host sending function takes an application message, break it up into smaller packets of **bit length (L)** and transmit those packets at a **transmission rate / link bandwidth  (R)** 
 ## Packet switching
 - Routing method which divides data into small units called "packets" , packets use their [[Network_architecture#Network header|header]] information to be routed independently of each other
 - Packets are reassembled at the receiving end to form the original data. The [[Internet_architecture|Internet]] is  a packet-switched network, packets are sent from one device to another through routers.

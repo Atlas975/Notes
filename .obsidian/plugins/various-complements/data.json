@@ -154,8 +154,8 @@
     "communication": {
       "communication": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1683073641610
+          "count": 2,
+          "lastUpdated": 1683401911931
         }
       }
     },
@@ -260,6 +260,62 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1683111662733
+        }
+      }
+    },
+    "protocols": {
+      "protocols": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1683401560967
+        }
+      }
+    },
+    "socket": {
+      "socket": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1683401909509
+        }
+      }
+    },
+    "applications": {
+      "applications": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1683402272253
+        }
+      }
+    },
+    "segments": {
+      "segments": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1683402264933
+        }
+      }
+    },
+    "Processors": {
+      "Processors": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1683402589444
+        }
+      }
+    },
+    "Connectionless": {
+      "Connectionless": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1683402806976
+        }
+      }
+    },
+    "processes": {
+      "processes": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1683403484331
         }
       }
     }
