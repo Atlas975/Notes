@@ -53,4 +53,4 @@ $$\text{Throughput}\leq{\text{Capacity}}$$
 - Can either explicitly set sending rate or simply indicate congestion level
 
 ![[Pasted image 20230507215711.png|450|450]]
-- Receival of 3 duplicate ACKs
+- [[Transmission_control_protocol|TCP]] does not know if a duplicate ACK are due to segment loss or network reordering of segments, a 3rd duplicate ACK being sent is a strong indicator of segment loss
