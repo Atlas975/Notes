@@ -53,4 +53,4 @@ $$\text{Throughput}\leq{\text{Capacity}}$$
 - Can either explicitly set sending rate or simply indicate congestion level
 
 ![[Pasted image 20230507215711.png|450|450]]
-- Recieval of 
+- Receival of 3 duplicate ACKs

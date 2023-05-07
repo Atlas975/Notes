@@ -152,14 +152,27 @@
               "type": "markdown",
               "state": {
                 "file": "Networking/Congestion_control.md",
-                "mode": "preview",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "afba67fe2c1991ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -204,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Congestion_control.md",
+                "file": "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,7 +249,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Congestion_control.md"
+                "file": "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md"
               }
             }
           }
@@ -260,7 +273,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Congestion_control.md"
+                "file": "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md"
               }
             }
           },
@@ -286,7 +299,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Congestion_control.md",
+                "file": "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -333,11 +346,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f82f98da0c1cecd5",
+  "active": "afba67fe2c1991ae",
   "lastOpenFiles": [
+    "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
+    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
+    "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
+    "Networking/Congestion_control.md",
     "Networking/Transmission_mediums.md",
     "Networking/Routing_methods.md",
-    "Networking/Congestion_control.md",
     "XX-Attachments/Images/Pasted image 20230507215711.png",
     "Networking/TransportProtocols/Transmission_control_protocol.md",
     "Networking/Network_topology.md",
@@ -368,9 +384,6 @@
     "XX-Attachments/Images/Pasted image 20230507145334.png",
     "XX-Attachments/Images/Pasted image 20230507144750.png",
     "Networking/Network_architecture.md",
-    "Networking/Routing_protocols.md",
-    "Networking/Network_tools.md",
-    "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
     "Algorithms/Hash_algorithms",
     "Algorithms/SortAlgorithms",
     "XX-Attachments/Images/AdilW_Resume.docx",
