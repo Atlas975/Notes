@@ -31,19 +31,21 @@ ___
 ## Head recursion 
 - Recursive call occurs at beginning of calling function, prior to any processing 
 - Result propagates back to head call
-```ad-example
 ```python
-def factorial(n):
-    return n * factorial(n - 1) if n else 0
+def head_factorial(n):
+    if n == 0:
+        return 1
+    return n * head_factorial(n - 1)
 ```
 
 ## Tail recursion 
 - Recursive call made at end of function when all processing has been completed 
 - Result returned without propagating
-```ad-example
 ```python
-def factorial(n, res=1):
-    return factorial(n - 1, result * n) if n > 0 else res
+def tail_factorial(n, acc=1):
+    if n == 0:
+        return acc
+    return tail_factorial(n - 1, acc * n)
 ```
 
 # Recursive time complexity
