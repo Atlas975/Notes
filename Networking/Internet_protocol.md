@@ -12,7 +12,9 @@
 ___
 # Internet protocol
 
-
+## IPV4 
+- A **32 bit** address, typically written in dotted notation with the decimal system 
+- Each number is encoded in 8 bits eg `192.168.21.76`, leading zeroes unnecessary
 ## Routing tables
 - Needs to give the next hop for every possible IP with  2^32 possibilities existing for 32-bit addresses
 - This can be extremely slow to prcess 

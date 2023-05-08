@@ -86,7 +86,8 @@ ___
 - Handles data delivery between applications 
 - Lowest layer in which communication instead of packets are used. Eg. flow control, allowing devices to request lower or higher data transmission rates based on capabilities 
 ## Network layer
-- Handles logical addressing using IP addresses, scheduling and delivering packets 
+- Handles logical addressing using IP addresses, scheduling and delivering packets end-to-end
+- Least amount of flexibility, ties the whole protocol stack together 
 - Transfers data packets, in a WAN this involves creating a route as well. 
 ## Data link layer
 - Responsible for reliable transmission of data frames between devices on the same physical network, defines protocols such as ethernet, wifi and bluetooth,
