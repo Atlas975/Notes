@@ -99,7 +99,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Protocol_stack.md",
+                "file": "Networking/Internet_protocol.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -126,7 +126,33 @@
               "type": "markdown",
               "state": {
                 "file": "Networking/TransportProtocols/Transmission_control_protocol.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "868b1f907a32f2bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Routing_protocols.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "276b334d6552b5f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Internet_protocol.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -172,7 +198,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -217,7 +243,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Congestion_control.md",
+                "file": "Networking/Internet_protocol.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -249,7 +275,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Congestion_control.md"
+                "file": "Networking/Internet_protocol.md"
               }
             }
           }
@@ -273,7 +299,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Congestion_control.md"
+                "file": "Networking/Internet_protocol.md"
               }
             }
           },
@@ -299,7 +325,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Congestion_control.md",
+                "file": "Networking/Internet_protocol.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -346,16 +372,29 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f82f98da0c1cecd5",
+  "active": "4f7bf20d9555105f",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20230508004930.png",
+    "XX-Attachments/Images/Pasted image 20230508004630.png",
+    "Networking/Internet_headers.md",
+    "Networking/Internet_architecture.md",
+    "Networking/Internet_protocol.md",
+    "Networking/Protocol_stack.md",
+    "Networking/Routing_protocols.md",
+    "Networking/TransportProtocols/Dynamic_host_configuration_protocol.md",
+    "Networking/TransportProtocols/Transmission_control_protocol.md",
+    "Networking/Congestion_control.md",
+    "XX-Attachments/Images/Pasted image 20230508003354.png",
+    "XX-Attachments/Images/Pasted image 20230508000945.png",
+    "XX-Attachments/Images/Pasted image 20230508000834.png",
+    "XX-Attachments/Images/Pasted image 20230507235134.png",
+    "XX-Attachments/Images/Pasted image 20230507234918.png",
     "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
     "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
     "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
-    "Networking/Congestion_control.md",
     "Networking/Transmission_mediums.md",
     "Networking/Routing_methods.md",
     "XX-Attachments/Images/Pasted image 20230507215711.png",
-    "Networking/TransportProtocols/Transmission_control_protocol.md",
     "Networking/Network_topology.md",
     "OperatingSystems/FileSystems/Unix_file_system.md",
     "Networking/Network_delay.md",
@@ -368,22 +407,9 @@
     "MachineLearning/Machine_learning_notation.md",
     "MachineLearning/Regularization.md",
     "MachineLearning/Statistical_modeling.md",
-    "MachineLearning/Model_metrics.md",
-    "MachineLearning/Neural_networks.md",
     "XX-Attachments/Images/Pasted image 20230507164608.png",
     "XX-Attachments/Images/Pasted image 20230507164406.png",
     "XX-Attachments/Images/Pasted image 20230507164311.png",
-    "XX-Attachments/Images/Pasted image 20230507164032.png",
-    "XX-Attachments/Images/Pasted image 20230507163040.png",
-    "Networking/Internet_architecture.md",
-    "Networking/Checksum.md",
-    "Networking/Protocol_stack.md",
-    "XX-Attachments/Images/Pasted image 20230507151207.png",
-    "XX-Attachments/Images/Pasted image 20230507150316.png",
-    "Networking/Reliable_data_transfer.md",
-    "XX-Attachments/Images/Pasted image 20230507145334.png",
-    "XX-Attachments/Images/Pasted image 20230507144750.png",
-    "Networking/Network_architecture.md",
     "Algorithms/Hash_algorithms",
     "Algorithms/SortAlgorithms",
     "XX-Attachments/Images/AdilW_Resume.docx",

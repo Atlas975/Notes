@@ -17,8 +17,8 @@ ___
 # Transmission control protocol
 - A [[Transport_protocols|transport protocol]] that offers reliable / in-order data transfer
 - point-to-point with one sender and receiver that can also be [[Reliable_data_transfer#Pipelined protocol|pipelined]]
-- Tight flow control to prevent sender from overwhelming receiver, makes use of handshakes
-## TCP congestion control 
+- Tight flow control to prevent sender from overwhelming receiver, makes use of handshakes. The TCP receiver can advertise free buffer space with the **rwnd** field of the TCP header
+## TCP congestion control
 - TCP is valuable in [[Congestion_control|congestion control]] as it enables senders to limit the rate at which traffic is sent into its connection based on the networks current congestion level
 - This allows dynamic changes in send rate based on this congestion level 
 ## TCP segment structure

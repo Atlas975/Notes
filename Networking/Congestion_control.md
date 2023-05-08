@@ -23,8 +23,6 @@ ___
 $$\text{Delay}\propto \text{(Capacity remaining)} ^{-1}$$
 $$\text{Throughput}\propto(\text{pckt loss, retransmission, duplicates})^{-1}$$
 $$\text{Throughput}\leq{\text{Capacity}}$$
-
-
 ## Infinite buffer solution
 - Involves one router with an infinite buffer that requests pass through 
 - No retransmission required, max in/out capacity set at R. Here the bottleneck is the amount of packets that can leave the central router at a time, this also causes a growth in delay time
@@ -54,3 +52,40 @@ $$\text{Throughput}\leq{\text{Capacity}}$$
 
 ![[Pasted image 20230507215711.png|450|450]]
 - [[Transmission_control_protocol|TCP]] does not know if a duplicate ACK are due to segment loss or network reordering of segments, a 3rd duplicate ACK being sent is a strong indicator of segment loss
+
+## Sender rate limiting
+- A sender using [[Transmission_control_protocol|TCP]] limits transmission through the **cwnd (congestion window)**
+- This works by sending cwnd bytes before waiting for ACKs. The cwnd is dynamically adjusted based on observed network control. 
+
+$$\text{TCP rate}=\frac{cwnd}{RTT}\text{bytes/sec}$$
+![[Pasted image 20230507234918.png|350|350]]
+
+- The basic approach to adjusting the cwnd window is to increase send rate until packet loss occurs
+- **sshthresh** is the variable that controls the maximum number of transmissions that can occur
+
+![[Pasted image 20230507235134.png|450|450]]
+- Multiple congestion avoidance algorithms exist, each with distinct window growth / compress rates that are known to ideal for network stability
+- TCP Tahoe is the original with a slow start and fast retransmit, TCP Reno also has fast recovery 
+
+![[Pasted image 20230508000834.png|450|450]]
+![[Pasted image 20230508000945.png|450|450]]
+## Delay-based TCP congestion control 
+- Attempts reduce growth rate before packet loss occurs in buffers 
+- This is done by taking the minimum round trip time (RTT) as the un-congested path, and scaling the packet send rate based on how much slower future measured throughput is 
+
+```
+if measured throughput “very close” to uncongested throughput
+    increase cwnd linearly /* since path not congested */ 
+else if measured throughput “far below” uncongested throughout
+    decrease cwnd linearly /* since path is congested */
+```
+
+## Explicit congestion notification (ECN) 
+- TCP deployments often implement network-assisted congestion control:
+    - Two bits in IP header (ToS field) marked by network router to indicate congestion
+        - Policy to determine marking chosen by network operator
+    - Congestion indication carried to destination
+    - Destination sets ECE bit on ACK segment to notify sender of congestion
+    - Involves both IP (IP header ECN bit marking) and TCP (TCP header C,E bit marking)
+
+![[Pasted image 20230508003354.png|500|500]]
