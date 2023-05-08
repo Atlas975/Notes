@@ -15,14 +15,26 @@ ___
 ## IPV4
 - A **32 bit** address, typically written in dotted notation with the decimal system 
 - Each number is encoded in 8 bits eg `192.168.21.76`, leading zeroes unnecessary
+
+
 ## Routing tables
-- Needs to give the next hop for every possible IP with  2^32 possibilities existing for 32-bit addresses
-- This can be extremely slow to process 
+-   Data structure used by a router to determine the best path for forwarding an IP packet towards its dst
+-   Contains a list of network addrs, associated subnet masks, and next-hop IP addrs, which are used by the router to match the dst addr of an incoming packet to the appropriate outgoing interface.
+
 ![[Pasted image 20230508004630.png|500|500]]
+
+- Needs to give the next hop for every possible IP with  2^32 possibilities existing for 32-bit addresses
+- This can be extremely slow to process so a hierarchal addr scheme is used that separates this further:
 
 ![[Pasted image 20230508004930.png|400|400]]
 
 
+
+## Subnets 
+- A set of devices interfaces that can reach each other without an intermediate router 
+- All IP addrs in a subnet share a network part 
+
+![[Pasted image 20230508151334.png|250|250]]
 
 ## Reserved IP addresses
 1.  **Loopback address (127.0.0.0/8)** - This address range is reserved for loopback purposes, meaning that any traffic sent to this address range is looped back to the same machine. The most commonly used loopback address is 127.0.0.1, which is used to test network services on the local machine.
