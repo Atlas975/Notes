@@ -3,12 +3,13 @@ created: 2022-06-27 07:14
 #Programming 
 
 ---
+
+
 ## JS lists
 
 ![[Pasted image 20221215015230.png|450|450]]
 
 ## JS lambdas 
-```ad-example
 ```javascript
 let sum = (a, b) => a + b;
 
@@ -22,10 +23,14 @@ let sum = function(a, b) { return a + b; };
 [1,5,3,6,-4].sort( (a,b) => a - b );
 ```
 
+
 ![[Pasted image 20221215020134.png|450|450]]
+- Functions can also be created with the new keyword 
+```javascript
+let f = new Function ([arg1, arg2, ...argN], functionBody);
+```
 
 ## JS currying
-```ad-example
 ```javascript
 let f = x = y => x * y;
 let res1 = f(2);
@@ -35,18 +40,44 @@ console.log(res2); // 6>)
 ```
 
 
+## JS classes 
+```javascript
+class Student {
+    constructor(id) {
+        this.id = id;
+    }
+    get studentId() {
+        return this.id;
+    }
+
+    set studentId(id) {
+        this.id = id;
+    }
+}
+s1 = new Student(123);
+console.log(s1.studentId);
+s1.studentId = 456;
+console.log(s1.studentId);
+```
+
+
+## JS closure 
+- when a function is defined in a specific scope so that it explicitly has access to that scope.
+
+```javascript
+function test() { 
+    let name = 'Alice'; 
+    return function(){ console.log(name); } 
+} 
+console.log(name); //invalid 
+let f = test(); 
+f(); //Alice
+```
+
+
+## JS lexical environment 
+
+![[Pasted image 20230509000449.png|500|500]]
 # JS concurrency 
 - Multiple ways to handle [[Concurrency|asynchronous code]]
 
-
-## Functional JS
-
-```dataviewjs
-const degree = 2; // specify the degree of links
-let inLin = new Set(dv.current().file.inlinks.map((x) => x.path));
-for (let i = 0; i < degree; i++) {
-    inLin = new Set([...inLin]
-        .flatMap((x) => [...dv.page(x).file.inlinks]).map((x) => x.path));
-}
-dv.table([`${degree}-degree links`], [...inLin].map((x) => [dv.fileLink(x)]));
-```
