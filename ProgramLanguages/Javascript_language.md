@@ -81,3 +81,14 @@ f(); //Alice
 # JS concurrency 
 - Multiple ways to handle [[Concurrency|asynchronous code]]
 
+## JS promise 
+```javascript
+const promise1 = sendMessage('hi',socket1);
+const promise2 = sendMessage('hi',socket2);
+const promise3 = sendMessage('hi',socket3);
+Promise.all([promise1, promise2,promise3]).then((values) => {
+    console.log(values);
+}).catch(err => { // called on any reject
+    console.log('error', err);
+});
+```
