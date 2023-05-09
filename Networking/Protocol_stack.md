@@ -1,5 +1,5 @@
 ---
-aliases: IP, internet protocol 
+aliases: IP stack
 ---
 
 > [!important]- Metadata

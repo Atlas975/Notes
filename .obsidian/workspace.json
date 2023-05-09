@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "67a8e1a458755124",
+        "id": "d4237c359f26b6bd",
         "type": "tabs",
         "children": [
           {
-            "id": "a63c7053f11ede81",
+            "id": "15871c075875e831",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -16,12 +16,12 @@
             }
           },
           {
-            "id": "b682dc2ba0066d2a",
+            "id": "7a32ce63638651cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/TransportProtocols/Transport_protocols.md",
+                "file": "Networking/Routing_methods.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -29,38 +29,20 @@
             }
           },
           {
-            "id": "6dccbddf7776abf9",
+            "id": "50303b2e8a607c4c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/TransportProtocols/Transport_protocols.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
-            "id": "81cc5508ecb8e90e",
+            "id": "3f6d386c8edb32b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Application_architecture.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "658b9b4ced5b20b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Network_delay.md",
+                "file": "Networking/TransportProtocols/Dynamic_host_configuration_protocol.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -68,12 +50,20 @@
             }
           },
           {
-            "id": "88720e70653dd939",
+            "id": "58575b33a1433e16",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "7dee8c756c2823c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
+                "file": "Networking/TransportProtocols/Network_address_translation.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -81,215 +71,20 @@
             }
           },
           {
-            "id": "452ce04ca2f5c570",
+            "id": "c1f378efd50e8c15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Network_architecture.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d1611ba2afd55be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Internet_protocol.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aa64854c204a383c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SoftwareEngineering/Recursion.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2d866fd0e21ec9f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/Erlang_language.md",
+                "file": "Networking/Protocol_stack.md",
                 "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cdd5211c2cb267cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SoftwareEngineering/OOP_principles.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "057688792d7dd2e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/Java_language.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3cbcd96b746d50d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/Javascript_language.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9d193331601f71a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SoftwareEngineering/Functional_programming.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "15bc82b4695f1473",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DiscreteMath/Predicate_logic.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "76aeaf5c6811ea2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Convolutional_networks.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d42533862f1ef1f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/TransportProtocols/Transmission_control_protocol.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "868b1f907a32f2bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Routing_protocols.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "276b334d6552b5f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Internet_protocol.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e794d8f73544e074",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Transmission_mediums.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f82f98da0c1cecd5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Congestion_control.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "afba67fe2c1991ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
-                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -334,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareEngineering/OOP_principles.md",
+                "file": "Networking/TransportProtocols/Network_address_translation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -352,6 +147,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "d10fc8b81a0120b7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       },
@@ -366,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareEngineering/OOP_principles.md"
+                "file": "Networking/TransportProtocols/Network_address_translation.md"
               }
             }
           }
@@ -390,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareEngineering/OOP_principles.md"
+                "file": "Networking/TransportProtocols/Network_address_translation.md"
               }
             }
           },
@@ -416,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareEngineering/OOP_principles.md",
+                "file": "Networking/TransportProtocols/Network_address_translation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -463,44 +266,43 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "cdd5211c2cb267cc",
+  "active": "7dee8c756c2823c7",
   "lastOpenFiles": [
-    "ProgramLanguages/Erlang_language.md",
-    "ProgramLanguages/Java_language.md",
-    "SoftwareEngineering/OOP_principles.md",
-    "SoftwareEngineering/Recursion.md",
-    "SoftwareEngineering/Functional_programming.md",
-    "ProgramLanguages/Javascript_language.md",
-    "XX-Attachments/Images/Pasted image 20230509000449.png",
-    "XX-Attachments/Images/Pasted image 20230509000437.png",
-    "XX-Attachments/Images/Pasted image 20230509000433.png",
-    "Networking/TransportProtocols/Transport_protocols.md",
-    "Networking/Internet_protocol.md",
-    "XX-Attachments/Images/Pasted image 20230508151334.png",
-    "Networking/Network_architecture.md",
-    "DiscreteMath/Predicate_logic.md",
     "Networking/Protocol_stack.md",
-    "XX-Attachments/Images/Pasted image 20230508004930.png",
-    "XX-Attachments/Images/Pasted image 20230508004630.png",
-    "Networking/Internet_headers.md",
-    "Networking/Internet_architecture.md",
-    "Networking/Routing_protocols.md",
+    "Networking/TransportProtocols/Network_address_translation.md",
+    "XX-Attachments/Images/Pasted image 20230509162455.png",
+    "XX-Attachments/Images/Pasted image 20230509162158.png",
+    "Networking/Internet_protocol.md",
+    "XX-Attachments/Images/Pasted image 20230509161051.png",
     "Networking/TransportProtocols/Dynamic_host_configuration_protocol.md",
-    "Networking/TransportProtocols/Transmission_control_protocol.md",
-    "Networking/Congestion_control.md",
-    "XX-Attachments/Images/Pasted image 20230508003354.png",
-    "XX-Attachments/Images/Pasted image 20230508000945.png",
-    "XX-Attachments/Images/Pasted image 20230508000834.png",
-    "XX-Attachments/Images/Pasted image 20230507235134.png",
-    "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
-    "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
-    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
-    "Networking/Transmission_mediums.md",
+    "XX-Attachments/Images/Pasted image 20230509155657.png",
+    "XX-Attachments/Images/Pasted image 20230509153506.png",
+    "XX-Attachments/Images/Pasted image 20230509153000.png",
+    "XX-Attachments/Images/Pasted image 20230509152939.png",
     "Networking/Routing_methods.md",
     "Networking/Network_topology.md",
-    "OperatingSystems/FileSystems/Unix_file_system.md",
+    "Networking/Network_architecture.md",
     "Networking/Network_delay.md",
-    "SoftwareDesign/Finite_state_machines.md",
+    "Networking/Network_tools.md",
+    "Networking/Reliable_data_transfer.md",
+    "Networking/Routing_protocols.md",
+    "Networking/Transmission_mediums.md",
+    "OperatingSystems/Processors.md",
+    "OperatingSystems/Operating_system_design.md",
+    "OperatingSystems/Input&Output_systems.md",
+    "XX-Attachments/Images/Pasted image 20230509145446.png",
+    "XX-Attachments/Images/Pasted image 20230509143712.png",
+    "Networking/TransportProtocols/Transport_protocols.md",
+    "Networking/Application_architecture.md",
+    "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
+    "SoftwareEngineering/Recursion.md",
+    "ProgramLanguages/Erlang_language.md",
+    "ProgramLanguages/Java_language.md",
+    "ProgramLanguages/Javascript_language.md",
+    "SoftwareEngineering/Functional_programming.md",
+    "DiscreteMath/Predicate_logic.md",
+    "MachineLearning/Convolutional_networks.md",
+    "XX-Attachments/Images/Pasted image 20230509140301.png",
     "Algorithms/Hash_algorithms",
     "Algorithms/SortAlgorithms",
     "XX-Attachments/Images/AdilW_Resume.docx",
