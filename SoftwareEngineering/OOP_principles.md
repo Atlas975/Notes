@@ -36,7 +36,7 @@ ___
 - The **this** keyword returns an object reference to the instance object the method is currently being executed in
 ![[Pasted image 20220221093807.png|300|300]]
 
-## Abstract signature  
+## Abstract signature
 
 - Abstract classes and methods cannot be instantiated themselves but are instead built for inheritance. 
 - Unlike interfaces, abstract classes can be used to share code between other classes, these still require that the child class implements all abstract methods themselves
@@ -60,7 +60,7 @@ abstract class ChessPiece {
 ```
 
 
-## Interface signature 
+## Interface signature
 
 - Interfaces are completely abstract classes that can only group methods together with no bodies of their own. Including no constructor. This means all methods have the abstract signature built in.
 - Interfaces are best used to label common functionality between unrelated classees to allow for [[SOLID_principles#Dependency inversion (DIP)|loose coupling]] of functionality
@@ -85,7 +85,7 @@ class Pig implements Animal {
 }
 ```
 
-## Immutability 
+## Immutability
 
 -   Refers to the state of an object whose value cannot be changed once it is created.
 - Not common in OOP but vital in [[Functional_programming|functional programming]]
@@ -109,7 +109,7 @@ public final class Person {
    }
 }
 ```
-## Encapsulation:
+## Encapsulation
 
 - The practice of hiding an object's data and methods from outside access, and only allowing access through designated methods.
 -   This can protect the object's integrity and improve maintainability by limiting the effects of changes to the object's implementation.
@@ -142,7 +142,7 @@ account.deposit(500.0);
 account.withdraw(200.0);
 ```
 
-##  Polymorphism:
+## Polymorphism
 -   The ability of an object to take on many forms, such as through inheritance and interfaces.
 -   Allows different objects to be treated as  the same type, as long as they share a common supertype.
 
@@ -169,4 +169,33 @@ Animal animal1 = new Dog();
 Animal animal2 = new Cat();
 animal1.makeSound(); // calls the makeSound method of Dog, prints "Woof!"
 animal2.makeSound(); // calls the makeSound method of Cat, prints "Meow!"
+```
+
+
+## Reflection
+- Reflection is the ability of a program to examine its own structure and behavior at runtime. It allows for dynamic introspection and manipulation of objects, classes, and methods.
+
+
+```java
+class Person {
+  private String name;
+  private int age;
+
+  public Person(String name, int age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  public void sayHello() {
+    System.out.println("Hello, i am " + name + " and I am " + age + " years old.");
+  }
+}
+
+Person person = new Person("Alice", 25);
+
+Class<? extends Person> personClass = person.getClass();
+System.out.println(personClass.getName()); // Output: "Person"
+
+Method[] methods = personClass.getDeclaredMethods();
+for (Method method : methods
 ```
