@@ -113,6 +113,19 @@
               "type": "markdown",
               "state": {
                 "file": "SoftwareEngineering/Recursion.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2d866fd0e21ec9f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ProgramLanguages/Erlang_language.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -140,6 +153,19 @@
               "state": {
                 "file": "ProgramLanguages/Javascript_language.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9d193331601f71a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoftwareEngineering/Functional_programming.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -250,7 +276,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -295,7 +321,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/Javascript_language.md",
+                "file": "ProgramLanguages/Erlang_language.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -327,7 +353,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/Javascript_language.md"
+                "file": "ProgramLanguages/Erlang_language.md"
               }
             }
           }
@@ -351,7 +377,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/Javascript_language.md"
+                "file": "ProgramLanguages/Erlang_language.md"
               }
             }
           },
@@ -377,7 +403,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/Javascript_language.md",
+                "file": "ProgramLanguages/Erlang_language.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -424,14 +450,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3cbcd96b746d50d2",
+  "active": "2d866fd0e21ec9f4",
   "lastOpenFiles": [
+    "SoftwareEngineering/Recursion.md",
+    "SoftwareEngineering/Functional_programming.md",
+    "ProgramLanguages/Javascript_language.md",
     "XX-Attachments/Images/Pasted image 20230509000449.png",
     "XX-Attachments/Images/Pasted image 20230509000437.png",
     "XX-Attachments/Images/Pasted image 20230509000433.png",
     "SoftwareEngineering/OOP_principles.md",
     "Networking/TransportProtocols/Transport_protocols.md",
-    "SoftwareEngineering/Recursion.md",
     "Networking/Internet_protocol.md",
     "XX-Attachments/Images/Pasted image 20230508151334.png",
     "Networking/Network_architecture.md",
@@ -449,7 +477,6 @@
     "XX-Attachments/Images/Pasted image 20230508000945.png",
     "XX-Attachments/Images/Pasted image 20230508000834.png",
     "XX-Attachments/Images/Pasted image 20230507235134.png",
-    "XX-Attachments/Images/Pasted image 20230507234918.png",
     "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
     "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
     "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
@@ -461,7 +488,6 @@
     "SoftwareDesign/Finite_state_machines.md",
     "MachineLearning/Convolutional_networks.md",
     "MachineLearning/Computer_vision.md",
-    "MachineLearning/Activation_functions.md",
     "Algorithms/Hash_algorithms",
     "Algorithms/SortAlgorithms",
     "XX-Attachments/Images/AdilW_Resume.docx",

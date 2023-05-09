@@ -39,6 +39,7 @@ def head_factorial(n):
 ```
 
 ## Tail recursion 
+- Nothing left for the function to do when the call is done (except return)
 - Recursive call made at end of function when all processing has been completed 
 - Result returned without propagating
 ```python
