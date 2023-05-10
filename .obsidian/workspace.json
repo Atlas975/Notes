@@ -89,7 +89,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Link_layer.md",
+                "file": "Networking/Checksum.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -202,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Link_layer.md",
+                "file": "Networking/Checksum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Link_layer.md"
+                "file": "Networking/Checksum.md"
               }
             }
           }
@@ -267,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Link_layer.md"
+                "file": "Networking/Checksum.md"
               }
             }
           },
@@ -293,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Link_layer.md",
+                "file": "Networking/Checksum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -342,8 +342,11 @@
   },
   "active": "30b6cef1f5dd5aa9",
   "lastOpenFiles": [
-    "Networking/Internet_protocol.md",
+    "XX-Attachments/Images/Pasted image 20230510122757.png",
+    "Networking/Application_architecture.md",
+    "Networking/Network_delay.md",
     "Networking/Link_layer.md",
+    "Networking/Internet_protocol.md",
     "XX-Attachments/Images/Pasted image 20230510113316.png",
     "Networking/Network_topology.md",
     "XX-Attachments/Images/Pasted image 20230510112900.png",
@@ -355,7 +358,6 @@
     "Networking/Protocol_stack.md",
     "Networking/Reliable_data_transfer.md",
     "Networking/Routing_protocols.md",
-    "Networking/Network_delay.md",
     "Networking/Network_tools.md",
     "Networking/TransportProtocols/Dynamic_host_configuration_protocol.md",
     "Networking/TransportProtocols/Domain_name_server.md",
@@ -363,7 +365,6 @@
     "Networking/TransportProtocols/Simple_mail_transfer_protocol.md",
     "Networking/TransportProtocols/Transmission_control_protocol.md",
     "Networking/TransportProtocols/Transport_protocols.md",
-    "Networking/Application_architecture.md",
     "Networking/Transmission_mediums.md",
     "Networking/TransportProtocols/Hypertext_transfer_protocol.md",
     "Networking/Routing_methods.md",

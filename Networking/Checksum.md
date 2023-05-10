@@ -29,6 +29,8 @@ ___
 
 ## Parity bit check 
 - Add Extra bits to the keep number of 1s even
+
+![[Pasted image 20230510122757.png|450|450]]
 ### 1D parity check 
 ![[Pasted image 20230510013038.png|350|350]]
 ### 2D parity check 
