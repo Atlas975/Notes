@@ -32,6 +32,9 @@ ___
 
 ## Transmission delay
 - Dependent  on [[Routing_methods#Packet transmission delay|packet transmission delay]], since networks are store and forward, entire packets must be received before forwarding 
+$$\begin{align*}
+\text{packet transmission delay}=\frac{L_{bits}}{R_{\text{bits per second}}}
+\end{align*}$$
 - Transmission delay is the time taken to transmit all packet bits onto the link
 
 ![[Pasted image 20230210173557.png|400|400]]
