@@ -92,8 +92,9 @@ ___
 
 ## Hot potato routing
 - Choose local gateway with min intra-domain cost (e.g., 2d picks 2a, even though more AS hops to X)
-- 
+
 ![[Pasted image 20230510015637.png|450|450]]
+
 
 
 ## Policy-based routing 
