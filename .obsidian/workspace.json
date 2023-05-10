@@ -89,8 +89,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Routing_protocols.md",
-                "mode": "source",
+                "file": "Networking/Link_layer.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Reliable_data_transfer.md",
+                "file": "Networking/Network_topology.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -157,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -202,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Reliable_data_transfer.md",
+                "file": "Networking/Link_layer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Reliable_data_transfer.md"
+                "file": "Networking/Link_layer.md"
               }
             }
           }
@@ -250,7 +250,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5046501159668
+    "width": 259.5046501159668,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -266,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Reliable_data_transfer.md"
+                "file": "Networking/Link_layer.md"
               }
             }
           },
@@ -292,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Reliable_data_transfer.md",
+                "file": "Networking/Link_layer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -339,11 +340,23 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c1f378efd50e8c15",
+  "active": "30b6cef1f5dd5aa9",
   "lastOpenFiles": [
-    "Networking/Checksum.md",
     "Networking/Internet_protocol.md",
+    "Networking/Link_layer.md",
+    "XX-Attachments/Images/Pasted image 20230510113316.png",
+    "Networking/Network_topology.md",
+    "XX-Attachments/Images/Pasted image 20230510112900.png",
     "Networking/Network_architecture.md",
+    "Networking/Internet_headers.md",
+    "Networking/Internet_architecture.md",
+    "Networking/Congestion_control.md",
+    "Networking/Checksum.md",
+    "Networking/Protocol_stack.md",
+    "Networking/Reliable_data_transfer.md",
+    "Networking/Routing_protocols.md",
+    "Networking/Network_delay.md",
+    "Networking/Network_tools.md",
     "Networking/TransportProtocols/Dynamic_host_configuration_protocol.md",
     "Networking/TransportProtocols/Domain_name_server.md",
     "Networking/TransportProtocols/Network_address_translation.md",
@@ -351,32 +364,19 @@
     "Networking/TransportProtocols/Transmission_control_protocol.md",
     "Networking/TransportProtocols/Transport_protocols.md",
     "Networking/Application_architecture.md",
-    "Networking/Internet_architecture.md",
-    "Networking/Internet_headers.md",
     "Networking/Transmission_mediums.md",
-    "Networking/Reliable_data_transfer.md",
-    "Networking/Congestion_control.md",
-    "Networking/Network_tools.md",
-    "Networking/Network_delay.md",
-    "Networking/Protocol_stack.md",
-    "Networking/Network_topology.md",
     "Networking/TransportProtocols/Hypertext_transfer_protocol.md",
-    "Networking/Routing_protocols.md",
     "Networking/Routing_methods.md",
     "XX-Attachments/Images/Pasted image 20230510085807.png",
     "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "Networking/RoutingAlgorithms/Distance_vector_routing.md",
-    "Networking/RoutingAlgorithms/Link_state_routing.md",
     "XX-Attachments/Images/Pasted image 20230510015637.png",
     "XX-Attachments/Images/Pasted image 20230510015246.png",
     "XX-Attachments/Images/Pasted image 20230510013324.png",
     "XX-Attachments/Images/Pasted image 20230510013104.png",
     "XX-Attachments/Images/Pasted image 20230510013038.png",
     "XX-Attachments/Images/Pasted image 20230510012511.png",
-    "Networking/Link_layer.md",
     "XX-Attachments/Images/Pasted image 20230510011841.png",
-    "XX-Attachments/Images/Pasted image 20230510002832.png",
-    "XX-Attachments/Images/Pasted image 20230510002439.png",
     "Networking/RoutingAlgorithms",
     "Algorithms/Hash_algorithms",
     "Algorithms/SortAlgorithms",
