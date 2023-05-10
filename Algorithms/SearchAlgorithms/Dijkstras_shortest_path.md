@@ -1,3 +1,7 @@
+---
+aliases: "Dijiksta's"
+---
+
 > [!important]- Metadata
 > **Tags:** #Algorithms #Networking 
 > **Located:** Algorithms/SearchAlgorithms

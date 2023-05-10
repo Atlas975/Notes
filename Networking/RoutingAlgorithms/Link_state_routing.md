@@ -13,7 +13,7 @@ ___
 # Link state routing
 - **Centralised** routing where each node knows its neighbours and cost to direct neighbours 
 - This information is broadcasted to all nodes (flooding), each nodes learns complete [[Network_architecture|network]] [[Network_topology|topology]]
-- Broadcasting message takes $O(N^2)$ time
+- Message complexity of $O(N^2)$ time, messages must propagate everywhere
 
 
 ## Link state pitfalls 

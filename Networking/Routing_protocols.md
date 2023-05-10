@@ -20,8 +20,6 @@ ___
 	- **Routing**: determine route taken by packets from src to dst
 
 ![[Pasted image 20230507135259.png|450|450]]
-
-
 ## Routing algorithms
 - Responsible for determining ideal path through a network based on 
 	- **Shortest distance**
@@ -61,33 +59,43 @@ ___
 ![[Pasted image 20230510001407.png|450|450]]
 
 
-## Routing protocol scale 
+## Routing protocol scale
 - All destinations cannot be stored in routing tables, network admins may also want individual routing control within their networks giving administrative autonomy for distinct autonomous systems (**AS**) 
 
-### Intra-AS  / interior gateway protocol (IGP)
+### Intra-AS / interior gateway protocol (IGP)
 - Route within same network (inter-domain)
 - Links between gateway router edges between AS'es
+- Can focus on **performance**
 
-### Inter-AS  / exterior gateway protocol (EGP)
+### Inter-AS / exterior gateway protocol (EGP)
 - Route between different autonomous systems 
 - Routing protocols are under the control of multiple network administrators,
-
+- Controlled by **policy** over performance 
 
 ## OSPF
-
+- Each router runs [[Dijkstras_shortest_path|Dijiksta's]] with itself as root, determines shortest path to all subnets
 -   OSPF (Open Shortest Path First) is a link-state routing protocol used in computer networks to determine the best path for forwarding packets of data from one network node to another.
 -   OSPF uses a hierarchical network design with areas, allowing for efficient use of network resources and easier network management.
--   OSPF supports multiple paths to a destination and can quickly adapt to changes in the network topology.
+-   Supports multiple paths to a dst and can quickly adapt to changes in the network topology.
+### OSPF scaling 
+- [[Link_state_routing|Link state]] flood ads in single area / backbone 
+- Each node only knows the direction in which to reach other destinations
 
+![[Pasted image 20230510085807.png|500|500]]
 ## BGP
-
--   BGP (Border Gateway Protocol) is an interdomain routing protocol used in the internet to exchange routing information between different autonomous systems (AS).
+-   BGP (Border Gateway Protocol) is an interdomain routing protocol used in the internet to exchange routing information between different autonomous systems (AS). BGP provides ASs a means to: 
 -   BGP uses a path vector algorithm to select the best path for forwarding packets across different AS.
 -   BGP allows for policy-based routing, which gives network administrators more control over how traffic flows across different networks. Largest based on **business relationships**
 
 ![[Pasted image 20230510015246.png|450|450]]
 
 
-## Hot potato routing 
-
+## Hot potato routing
+- Choose local gateway with min intra-domain cost (e.g., 2d picks 2a, even though more AS hops to X)
+- 
 ![[Pasted image 20230510015637.png|450|450]]
+
+
+## Policy-based routing 
+- Gateway receiving route ad uses **import policy** to accept/decline path (e.g., never route through AS Y).
+- AS policy also determines whether to advertise path to other other neighbouring ASes
