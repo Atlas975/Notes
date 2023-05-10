@@ -55,7 +55,7 @@ ___
 - The structure of an internet can be divided into 3 core components 
 	- **Network edges**: endpoints of a network, also known as hosts / end systems / clients,  hosts applications on client devices, IOT and network servers 
 	- **Access networks**: wired / wireless communication links eg routers 
-	- **Network crore**: interconnected routers in a network of networks 
+	- **Network core**: interconnected routers in a network of networks 
 - Dedicated links between ISP's also exist, known as **internet exchange points (IXP)**
 
 ![[Pasted image 20230209185126.png|400|400]]
