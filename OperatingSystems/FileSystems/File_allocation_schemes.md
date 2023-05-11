@@ -14,7 +14,7 @@
 
 ___
 # File allocation schemes
--   File allocation schemes are methods used by a [[File_systems|file system]] to manage how files are stored on a storage medium such as a hard disk drive / solid-state drive.
+-   The methods used by a [[File_systems|file system]] to manage how files are stored on a storage medium such as a hard disk drive / solid-state drive.
 -   These schemes typically determine how file data is allocated and organised on the disk, how file metadata is stored, and how [[Computer_memory|memory]] on the disk is managed and allocated for new files.
 ## Continuous allocation
 - Each file fills set of adjacent blocks, fast access and minimal head movement 

@@ -109,7 +109,7 @@ $$P = \mathbb{P}\text{(page fault)}$$
 
 ![[Pasted image 20221212224501.png|400|400]]
 
-- the metadata in each process is used by the loader to ensure any requested libraries already exists in memory
+- Metadata in each process used by loader to ensure any requested libraries already exists in memory
 - Example of shared library execution:
 
 ![[Pasted image 20221213011529.png|400|400]]
@@ -120,7 +120,6 @@ $$P = \mathbb{P}\text{(page fault)}$$
 	- **Register based page tables**: fast but limited capacity
 	- **Memory based page tables**: capacity limited by memory, slow access (these still need to go through the translation table)
 	- **Translation  look-aside buffer**: hybrid, maintain cache of page to frame translations, each entry only valid for single process
-- A common caching pattern is to cache an already accessed location or the ones adjacent to it as these are likely to be frequently accessed 
 - Mappings such as for kernel processes may be pinned in the cache, pinning can free up space in mapping
 
 ![[Pasted image 20221213013402.png|450]]
@@ -150,7 +149,7 @@ $$P = \mathbb{P}\text{(page fault)}$$
 ![[Pasted image 20221213020655.png|400]]
 ![[Pasted image 20221213020722.png|400]]
 
-- Note how overhead only occurs for cloned processes when a write is performed, much more memory efficient than creating a deep copy of a parent process 
+- Additional memory only requested for cloned processes when a write is performed, much more memory efficient than creating a deep copy of entire parent process 
 
 # Virtual memory
 - A virtual page can theoretically be mapped to any physical frame on a system
