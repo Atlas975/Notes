@@ -18,7 +18,7 @@ ___
 -   These schemes typically determine how file data is allocated and organised on the disk, how file metadata is stored, and how [[Computer_memory|memory]] on the disk is managed and allocated for new files.
 ## Continuous allocation
 - Each file fills set of adjacent blocks, fast access and minimal head movement 
-- Requires knowing file size before finding a suitable hole for allocation, suffers from external fragmentation. File growth beyond allocated space can be costly due to copying
+- Requires knowing file size before finding a suitable hole for allocation, suffers from internal  fragmentation. File growth beyond allocated space can be costly due to copying
 
 ![[Pasted image 20230305205625.png|250|250]]
 ## Linked allocation

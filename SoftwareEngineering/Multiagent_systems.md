@@ -26,26 +26,26 @@ ___
 - A system that interacts with multiple intelligent agents 
 - Offers easy scalability, robustness, flexibility, adaptability, and diversity of systems
 - There can be handled as either a [[#Centralised systems|centralised]] or [[#Decentralised systems|decentralised]] system  
-# Multiagent system pitfalls
+## Multiagent system pitfalls
 - Interactions must maintain data integrity
 - This is often maintained by object specifications
 
 ![[Pasted image 20221105123506.png|450|450]]
 
 - Example challenges include 
-## Integrity violations
+### Integrity violations
 
 ![[Pasted image 20221105123657.png|450|450]]
 
-## Race conditions
+### Race conditions
 
 ![[Pasted image 20221105123726.png|400|400]]
 
-## Deadlock interactions
+### Deadlock interactions
 
 ![[Pasted image 20221105123821.png|400|400]]
 
-## Asynchronous communication
+### Asynchronous communication
 - Ordering send - receive communication has its own challenges such as required synchronization and tight coupling 
 
 ![[Pasted image 20221105124158.png|450|450]]
