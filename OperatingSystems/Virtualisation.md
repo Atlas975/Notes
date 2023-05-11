@@ -70,7 +70,7 @@ ___
 - Additional redirection may have performance penalties, device drivers commonly support this operation allowing for this to be minimised. This is an example of a **Hybrid VMM (Hypervisor + OS)**
 
 ## Page table virtualisation
-- In a virtual OS, page tables for the guest OS sit on top of page tables for the host OS in a nested structure 
+- In a virtual OS,  guest OS page tables sit on top of page tables for the host OS in a nested structure 
 - MMUs and processors may support [[Paging#Hierarchical / Multi-level paging|multilevel hierarchies ]] that expands upon the two level paging hierarchy in the host OS to remove the need for nesting
 
 ![[Pasted image 20230116191712.png|450|450]]

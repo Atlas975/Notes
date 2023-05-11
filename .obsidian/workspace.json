@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Page_replacement.md",
+                "file": "OperatingSystems/Virtualisation.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Page_replacement.md",
+                "file": "OperatingSystems/Virtualisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Page_replacement.md"
+                "file": "OperatingSystems/Virtualisation.md"
               }
             }
           }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Page_replacement.md"
+                "file": "OperatingSystems/Virtualisation.md"
               }
             }
           },
@@ -208,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Page_replacement.md",
+                "file": "OperatingSystems/Virtualisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,8 +258,9 @@
   "active": "910544129448a53a",
   "lastOpenFiles": [
     "OperatingSystems/Thread_types.md",
-    "OperatingSystems/Paging.md",
     "OperatingSystems/Processors.md",
+    "OperatingSystems/Page_replacement.md",
+    "OperatingSystems/Paging.md",
     "OperatingSystems/Virtualisation.md",
     "OperatingSystems/FileSystems/Unix_file_system.md",
     "OperatingSystems/DigitalSystems/Data_encoding.md",
@@ -268,7 +269,6 @@
     "OperatingSystems/Input&Output_systems.md",
     "OperatingSystems/Multi-Process_systems.md",
     "OperatingSystems/FileSystems/File_allocation_schemes.md",
-    "OperatingSystems/Page_replacement.md",
     "OperatingSystems/Operating_system_design.md",
     "OperatingSystems/Computer_memory.md",
     "SoftwareDesign/BSPL.md",
