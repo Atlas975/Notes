@@ -245,7 +245,7 @@ int main()
 - **Worst fit**: allocate largest memory hole of sufficient size, optimal to avoid fragmentation 
 - **Best fit**: search for and allocate smallest memory hole of sufficient size
 ## External fragmentation
-- Dynamic allocation schemes are an example of external fragmentation, where request amount of memory is allocated and fragmentation takes place outside / between memory that's already been allocated
+- When dynamic allocation schemes are used, where request amount of memory is allocated and fragmentation takes place outside / between memory that's already been allocated
 - This can result in a lack of continuous memory due to scattered small memory chunks that cannot be merged to fill a memory allocation request 
 ## Internal fragmentation 
 - Internal fragmentation is caused by fixed size schemes, memory is allocated in fixed size blocks, processes tend to get more memory than required rounded up to n * blocksize. less problematic as this is bounded by block allocation size and process lifetime
