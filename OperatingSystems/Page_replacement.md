@@ -58,7 +58,7 @@ a_{i}=\frac{s_{i}}{S\times m}\text{ frames}
 - The **locality of reference** suggests that page usage is repetitive
 
 ![[Pasted image 20230118182606.png|450|450]]
-- A process that runs for longer periods of time will require page replacement victims as the working set shifts 
+- A long running process will require page replacement victims as the working set shifts 
 - There are two types of page sets in memory 
     - **Working set**: set of pages a process would like in memory, varies throughout execution
     - **Resident set**: set of pages actually in memory, this is the maximum amount of pages during a processes lifetime
