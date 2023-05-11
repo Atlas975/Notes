@@ -308,7 +308,7 @@ int main()
 ![[Pasted image 20221212140135.png|400]]
 
 ## Memory management unit (MMU)
-- Processes still expect zero-based addresses, note that process addresses are non-deterministic on each run.
+- Processes still expect zero-based addresses, process addresses are non-deterministic on each run.
 - Ways to handle zero-based addresses include:
 	- Having a loader that rewrites each address after taking in a process (expensive)
 	- Have relative base addresses for each process at zero

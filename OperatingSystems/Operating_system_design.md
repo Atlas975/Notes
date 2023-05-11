@@ -164,7 +164,8 @@ ___
 ![[Pasted image 20221125111147.png|450|450]]
 
 # System calls
-- User programs cannot directly communicate with most hardware, unrestricted access would allow a program to read/write anything. System calls act as a standard interface and access control mechanism to OS / kernel  functions
+- System calls act as a standard interface and access control mechanism to OS / kernel  functions
+- User programs cannot directly communicate with most hardware, unrestricted access would allow a program to read/write anything. 
 - **fread** for example is a higher level application that calls the standard read function 
 - System calls work by loading passed in parameters in registers and then invoking an **interrupt** that acts as a trigger to call the kernel.
 - [[Input&Output_systems#Interrupts|Interrupts]] tell the kernel a system call was made

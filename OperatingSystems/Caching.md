@@ -31,60 +31,58 @@ ___
 	- **Spatial locality**:  nearby memory locations may be accessed next
 	- **Temporal locality:** follows [[LRU]] principle, recently accessed may be used again
 
-# Cache control bits 
+## Cache control bits
 - Control bits are often used by an [[Operating_system_design|OS]] to manage the operation of a system 
 - In caching these can be useful for holding metadata regarding a cache line
 
-## Valid bit 
+### Valid bit
 - Single bit used to indicate validity of a cache line (equivalent to an empty mailbox) 
 - An invalid bit (0) indicates a cache line is empty and that a [[Paging#Page fault|Page fault]] should be triggered
 - This is useful when a page table is initialised with empty entries and / or when a page has been  [[Page_replacement|evicted from the cache]]
-## Dirty bit 
+### Dirty bit
 - Single bit used to indicate that a cache line has data that has not yet been written into [[Computer_memory#Primary memory|Primary memory]] This is the case when data in the cache has been modified and it's shadow copy does not exists or is out of sync. 
 - This is checked in cache eviction, if the dirty bit is set (1) a write to main memory is required before eviction, a clean bit (0) means that a copy exists and the entry can be evicted safely
 
-## Access bit 
+### Access bit
 - Single bit used to indicate cache entry use recency, monitored by **cache controller** 
 - Useful for [[LRU]] / [[LFU]] cache eviction schemes 
 
-## Cache tag 
+### Cache tag
 - Identifies memory location of a cache lines data in main memory 
 - Size depends on main memory [[Processors#Address space|Address space]] 
 - Useful for detecting **cache hits**
 
-# Cache levels
-## Level 1 cache
+## Cache levels
+### Level 1 cache
 - Fastest memory in a computer system and the smallest, checked first
 - Holds data that a CPU is most likely to need when completing a task 
 - Typically split between two cache types **instruction** (information about what the CPU should perform) & **data** (the data the operation is performed on
 
-## Level 2 cache
+### Level 2 cache
 - Larger than the L1 cache, but slower due to longer search times
 - May also be part of the processor itself along with the L1 cache 
 
-## Level 3 cache
+### Level 3 cache
 - Largest and slowest cache 
 - Shared by multiple cores in [[Processors]]
 
 ![[Pasted image 20230115165412.png|450|450]]
 
-# Cache policies 
-
-## Write-through
+## Cache policies
+### Write-through
 - Data between cache and main memory is always kept in sync as data is immediately written into both locations on every access
-- Every write operation has more overhead,  only a valid bit is required 
-
-## Write-back
+- Every write operation has more overhead,  only a valid bit is required #
+### Write-back
 - Data is only written into cache, data only reaches main when explicitly requested or when the cache line is written out 
 - Less overhead for write operation, but both a valid and **dirty bit required** to maintain sync
-# Caching pitfalls
-## Coldstart initialisation
+## Caching pitfalls
+### Coldstart initialisation
 - When an empty cache is initialised, it offers no performance speed ups due to constant cache misses with the majority of reads coming directly from disk 
 - A cache is warm once its begun storing values and cache misses become less common
 
 ![[Pasted image 20230119131838.png|450|450]]
 
-## Coldstart replacement
+### Coldstart replacement
 - AKA the "new item problem" ,  when requests are being made before enough information is gathered to pick an effective eviction scheme such as [[LRU]] or [[LFU]] 
 - This can happen when the cache is empty or there's a sudden burst of new requests not already present in the cache 
 - Since the cache has no knowledge of how these new items are going to be used, **random replacement** may be more optimal due to it's reduced overhead and the lack of a need for more complex algorithmic eviction schemes
