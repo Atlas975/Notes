@@ -53,7 +53,7 @@ ___
 
 ![[Pasted image 20221213081845.png|550|550]]
 
-- Once a frame number is retrieved and cached in the page table, this process does not need to be run again.
+- Once a frame number is retrieved and cached, this process does not need to be run again.
 - The **effective access time** (EAT) of a paging scheme is: 
 
 $$\text{EAT}= (1-P) * \text{memory access} + (P*\text{page fault overhead})$$

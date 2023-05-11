@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Page_replacement.md",
+                "file": "OperatingSystems/Processors.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Page_replacement.md",
+                "file": "OperatingSystems/Processors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Page_replacement.md"
+                "file": "OperatingSystems/Processors.md"
               }
             }
           }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Page_replacement.md"
+                "file": "OperatingSystems/Processors.md"
               }
             }
           },
@@ -208,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Page_replacement.md",
+                "file": "OperatingSystems/Processors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,10 +257,17 @@
   },
   "active": "910544129448a53a",
   "lastOpenFiles": [
+    "OperatingSystems/Paging.md",
+    "OperatingSystems/FileSystems/Unix_file_system.md",
+    "OperatingSystems/FileSystems/New_technology_file_system.md",
+    "OperatingSystems/FileSystems/File_system_performance.md",
+    "OperatingSystems/Input&Output_systems.md",
     "OperatingSystems/Multi-Process_systems.md",
+    "OperatingSystems/FileSystems/File_allocation_schemes.md",
+    "OperatingSystems/Processors.md",
+    "OperatingSystems/Page_replacement.md",
     "OperatingSystems/Operating_system_design.md",
     "OperatingSystems/Computer_memory.md",
-    "OperatingSystems/FileSystems/File_allocation_schemes.md",
     "SoftwareDesign/BSPL.md",
     "SoftwareDesign/Software_architecture.md",
     "SoftwareDesign/SOLID_principles.md",
@@ -268,21 +275,14 @@
     "SoftwareDesign/Finite_state_machines.md",
     "SoftwareEngineering/Multiagent_systems.md",
     "SoftwareEngineering/Concurrency.md",
-    "OperatingSystems/FileSystems/File_system_performance.md",
     "OperatingSystems/FileSystems/File_systems.md",
     "OperatingSystems/FileSystems/FAT_file_system.md",
-    "OperatingSystems/FileSystems/New_technology_file_system.md",
-    "OperatingSystems/Paging.md",
     "OperatingSystems/Thread_types.md",
-    "OperatingSystems/Processors.md",
-    "OperatingSystems/Page_replacement.md",
-    "OperatingSystems/Input&Output_systems.md",
     "OperatingSystems/Virtualisation.md",
     "OperatingSystems/Caching.md",
     "OperatingSystems/Error_codes.md",
     "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
     "OperatingSystems/DigitalSystems/DigitalSystem_design.md",
-    "OperatingSystems/DigitalSystems/Data_encoding.md",
     "XX-Attachments/Images/Pasted image 20230510122757.png",
     "XX-Attachments/Images/Pasted image 20230510113316.png",
     "XX-Attachments/Images/Pasted image 20230510112900.png",
