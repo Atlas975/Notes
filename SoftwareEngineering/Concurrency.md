@@ -372,8 +372,8 @@ public class BarrierFinish extends Thread{
 public void run() {
     try {
         Thread.sleep(delay);
-        int other_threads = barrier.getParties() - barrier.getNumberWaiting() - 1;
-        System.out.println("Waiting for " + other_threads + " more threads to reach barrier");
+        int thread_cnt = barrier.getParties() - barrier.getNumberWaiting() - 1;
+        System.out.println("Waiting for " + thread_cnt + " to reach barrier");
         barrier.await();
     } catch (InterruptedException e) {
         e.printStackTrace();

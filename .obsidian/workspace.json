@@ -4,45 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d4237c359f26b6bd",
+        "id": "c63e1ee920de5aaa",
         "type": "tabs",
         "children": [
           {
-            "id": "15871c075875e831",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "7a32ce63638651cb",
+            "id": "5e7ce184b11178b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Routing_methods.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "50303b2e8a607c4c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "3f6d386c8edb32b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/TransportProtocols/Dynamic_host_configuration_protocol.md",
+                "file": "OperatingSystems/FileSystems/File_systems.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -50,106 +21,12 @@
             }
           },
           {
-            "id": "58575b33a1433e16",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "7dee8c756c2823c7",
+            "id": "f23347ce3f8251d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Routing_methods.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "03c7f012d09fd632",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "30b6cef1f5dd5aa9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Network_architecture.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9edff6f209836088",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/RoutingAlgorithms/Distance_vector_routing.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "74a5f84b404b6215",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "c25f8e2fd87204e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/RoutingAlgorithms/Distance_vector_routing.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d86bfa046aed453",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/RoutingAlgorithms/Distance_vector_routing.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c1f378efd50e8c15",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Network_topology.md",
+                "file": "OperatingSystems/Processors.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -157,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Network_architecture.md",
+                "file": "OperatingSystems/Processors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_architecture.md"
+                "file": "OperatingSystems/Processors.md"
               }
             }
           }
@@ -266,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_architecture.md"
+                "file": "OperatingSystems/Processors.md"
               }
             }
           },
@@ -292,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Network_architecture.md",
+                "file": "OperatingSystems/Processors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -339,38 +216,38 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "30b6cef1f5dd5aa9",
+  "active": "f23347ce3f8251d5",
   "lastOpenFiles": [
-    "Networking/Link_layer.md",
-    "Networking/Internet_protocol.md",
+    "OperatingSystems/Page_replacement.md",
+    "OperatingSystems/Multi-Process_systems.md",
+    "OperatingSystems/Paging.md",
+    "OperatingSystems/Input&Output_systems.md",
+    "OperatingSystems/Operating_system_design.md",
+    "OperatingSystems/Virtualisation.md",
+    "SoftwareEngineering/Concurrency.md",
+    "OperatingSystems/Thread_types.md",
+    "OperatingSystems/Processors.md",
+    "OperatingSystems/Caching.md",
+    "OperatingSystems/Error_codes.md",
+    "OperatingSystems/Computer_memory.md",
+    "OperatingSystems/FileSystems/File_systems.md",
+    "OperatingSystems/FileSystems/File_allocation_schemes.md",
+    "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
+    "OperatingSystems/DigitalSystems/DigitalSystem_design.md",
+    "OperatingSystems/DigitalSystems/Data_encoding.md",
+    "OperatingSystems/DigitalSystems/Computer_architecture.md",
+    "OperatingSystems/DigitalSystems/Bitwise_arithmatic.md",
+    "OperatingSystems/DigitalSystems/ASCII.md",
     "Networking/Network_topology.md",
-    "Networking/Application_architecture.md",
-    "Networking/Congestion_control.md",
-    "Networking/Internet_architecture.md",
-    "Networking/Internet_headers.md",
-    "Networking/Network_delay.md",
-    "Networking/Protocol_stack.md",
-    "Networking/TransportProtocols/Transmission_control_protocol.md",
-    "Networking/TransportProtocols/Transport_protocols.md",
-    "Networking/TransportProtocols/User_datagram_protocol.md",
-    "Networking/TransportProtocols/Dynamic_host_configuration_protocol.md",
-    "Networking/RoutingAlgorithms/Link_state_routing.md",
-    "Networking/TransportProtocols/Domain_name_server.md",
-    "Networking/TransportProtocols/Network_address_translation.md",
-    "Networking/TransportProtocols/Simple_mail_transfer_protocol.md",
-    "Networking/Checksum.md",
-    "Networking/Reliable_data_transfer.md",
+    "Networking/RoutingAlgorithms/Distance_vector_routing.md",
     "Networking/Routing_methods.md",
-    "Networking/Routing_protocols.md",
-    "Networking/Transmission_mediums.md",
+    "Networking/TransportProtocols/Dynamic_host_configuration_protocol.md",
+    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
+    "Networking/Reliable_data_transfer.md",
     "XX-Attachments/Images/Pasted image 20230510122757.png",
     "XX-Attachments/Images/Pasted image 20230510113316.png",
     "XX-Attachments/Images/Pasted image 20230510112900.png",
-    "Networking/Network_architecture.md",
-    "Networking/Network_tools.md",
-    "Networking/TransportProtocols/Hypertext_transfer_protocol.md",
     "XX-Attachments/Images/Pasted image 20230510085807.png",
-    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "XX-Attachments/Images/Pasted image 20230510015637.png",
     "XX-Attachments/Images/Pasted image 20230510015246.png",
     "XX-Attachments/Images/Pasted image 20230510013324.png",

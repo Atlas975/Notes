@@ -52,7 +52,7 @@ ___
 - Initializes the program counter and performs the basic hardware initialization, the first few sectors of a device are also loaded into memory.
 - The bootloader and kernel code of target OS is typically part of initialization
 ### Bootloader
-- Started by the BIOS, loads kernel image and the **initrd** image (initial ram disk & temp root file system) to memory. 
+- Started by BIOS, loads kernel img and  **initrd** img (initial ram disk & temp root file system) to memory. 
 - On linux, can be found in /boot/grub/grub.cfg
 ### Boot process
 - Root file system switched from memory to one on disk

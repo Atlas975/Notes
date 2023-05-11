@@ -39,7 +39,7 @@ a_{i}=\frac{s_{i}}{S\times m}\text{ frames}
 
 ## Thrashing problem
 - When too few frames are allocated to a process, resulting in a high number of [[Paging#Page fault|page faults]]
-- A high number of page faults is an indicator of this as pages keep getting pushed to disk
+- This is an indicator that too many mages are being pulled in and out of  disk
 - [[Processors|CPU]] work drops as resources allocated to paging in / out, resulting in minimal useful work
 
 ![[Pasted image 20230118114738.png|300|300]]
@@ -85,7 +85,7 @@ a_{i}=\frac{s_{i}}{S\times m}\text{ frames}
 
 ## Second chance / clock
 - A circular list of of pages is kept (page tables can be walked through recursively)
-- This looks for a frame whose access bit is set to 0 and then replaces it, less overhead than an [[LRU]] cache 
+- This looks for a frame whose access bit is set to 0 and then replaces it, less overhead than an [[LRU]] 
 
 ![[Pasted image 20230118185107.png|450|450]]
 
