@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "10db3f7e4cabbdb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoftwareDesign/Test_types.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f23347ce3f8251d5",
             "type": "leaf",
             "state": {
@@ -52,7 +65,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwareEngineering/Concurrency.md",
+                "file": "SoftwareEngineering/Multiagent_systems.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "674c236785b6eea0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EmbeddedSystems/LogicGates/Set_reset_latch.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b6b3dbde14709c95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoftwareDesign/UML_diagrams.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7fa154d7ea6d4515",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/FileSystems/File_system_performance.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -79,14 +131,14 @@
               "type": "markdown",
               "state": {
                 "file": "SoftwareDesign/Finite_state_machines.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -131,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareEngineering/Concurrency.md",
+                "file": "EmbeddedSystems/LogicGates/Set_reset_latch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareEngineering/Concurrency.md"
+                "file": "EmbeddedSystems/LogicGates/Set_reset_latch.md"
               }
             }
           }
@@ -195,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareEngineering/Concurrency.md"
+                "file": "EmbeddedSystems/LogicGates/Set_reset_latch.md"
               }
             }
           },
@@ -221,7 +273,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareEngineering/Concurrency.md",
+                "file": "EmbeddedSystems/LogicGates/Set_reset_latch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -268,44 +320,46 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "92a49b5f8fd3f9d2",
+  "active": "674c236785b6eea0",
   "lastOpenFiles": [
-    "OperatingSystems/Multi-Process_systems.md",
-    "OperatingSystems/FileSystems/File_systems.md",
-    "OperatingSystems/FileSystems/Unix_file_system.md",
-    "OperatingSystems/FileSystems/File_system_performance.md",
-    "OperatingSystems/FileSystems/FAT_file_system.md",
-    "OperatingSystems/Caching.md",
-    "OperatingSystems/Computer_memory.md",
-    "OperatingSystems/Error_codes.md",
-    "OperatingSystems/Operating_system_design.md",
-    "OperatingSystems/Paging.md",
-    "OperatingSystems/Virtualisation.md",
-    "OperatingSystems/Processors.md",
-    "OperatingSystems/Page_replacement.md",
-    "OperatingSystems/Input&Output_systems.md",
-    "OperatingSystems/Thread_types.md",
-    "OperatingSystems/DigitalSystems/Data_encoding.md",
-    "OperatingSystems/FileSystems/New_technology_file_system.md",
-    "OperatingSystems/FileSystems/File_allocation_schemes.md",
-    "SoftwareDesign/BSPL.md",
-    "SoftwareDesign/Software_architecture.md",
-    "SoftwareDesign/SOLID_principles.md",
-    "SoftwareDesign/Software_planning.md",
-    "SoftwareDesign/Finite_state_machines.md",
-    "SoftwareEngineering/Multiagent_systems.md",
-    "SoftwareEngineering/Concurrency.md",
+    "EmbeddedSystems/LogicGates/SR_latch 1.md",
+    "EmbeddedSystems/LogicGates/Set_reset_latch.md",
+    "EmbeddedSystems/LogicGates/Logic_gates.md",
+    "EmbeddedSystems/LogicGates",
     "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
+    "OperatingSystems/DigitalSystems/DigitalSystem_design.md",
+    "OperatingSystems/DigitalSystems/Data_encoding.md",
+    "OperatingSystems/DigitalSystems/Computer_architecture.md",
+    "OperatingSystems/DigitalSystems/ASCII.md",
+    "OperatingSystems/DigitalSystems/Bitwise_arithmatic.md",
+    "DiscreteMath/Relations.md",
+    "DiscreteMath/Propositional_logic.md",
+    "DiscreteMath/Predicate_logic.md",
+    "DiscreteMath/Functions.md",
+    "DiscreteMath/De_Morgans_law.md",
+    "DiscreteMath/Boolean_algebra.md",
+    "XX-Attachments/Images/Pasted image 20230513155841.png",
+    "XX-Attachments/Images/Pasted image 20230513155808.png",
+    "XX-Attachments/Images/Pasted image 20230513155710.png",
+    "XX-Attachments/Images/Pasted image 20230513155607.png",
+    "SoftwareEngineering/Multiagent_systems.md",
+    "XX-Attachments/Images/Pasted image 20230513155520.png",
+    "EmbeddedSystems/Transistors.md",
+    "XX-Attachments/Images/Pasted image 20230513154120.png",
+    "XX-Attachments/Images/Pasted image 20230513154111.png",
+    "XX-Attachments/Images/Pasted image 20230513153739.png",
+    "XX-Attachments/Images/Pasted image 20230513153636.png",
+    "OperatingSystems/FileSystems/File_allocation_schemes.md",
+    "SoftwareDesign/InformationSystems/Information_systems.md",
+    "SoftwareDesign/InformationSystems/Innovation_practice.md",
+    "SoftwareDesign/HCI/Usability.md",
+    "SoftwareDesign/BSPL.md",
+    "SoftwareDesign/InformationSystems/System_failure&dependability.md",
+    "SoftwareDesign/InformationSystems/Privacy&DataProtection.md",
+    "SoftwareDesign/InformationSystems/Malware.md",
+    "SoftwareDesign/InformationSystems/Liability&Intellectual_property.md",
+    "EmbeddedSystems",
     "XX-Attachments/Images/Pasted image 20230510122757.png",
-    "XX-Attachments/Images/Pasted image 20230510113316.png",
-    "XX-Attachments/Images/Pasted image 20230510112900.png",
-    "XX-Attachments/Images/Pasted image 20230510085807.png",
-    "XX-Attachments/Images/Pasted image 20230510015637.png",
-    "XX-Attachments/Images/Pasted image 20230510015246.png",
-    "XX-Attachments/Images/Pasted image 20230510013324.png",
-    "XX-Attachments/Images/Pasted image 20230510013104.png",
-    "XX-Attachments/Images/Pasted image 20230510013038.png",
-    "XX-Attachments/Images/Pasted image 20230510012511.png",
     "Networking/RoutingAlgorithms",
     "Algorithms/Hash_algorithms",
     "Algorithms/SortAlgorithms",
@@ -313,8 +367,6 @@
     "Algorithms/SearchAlgorithms",
     "ProgramLanguages/SQL/SQLversions",
     "XX-Attachments/Images/Home work 3 SOLUTIONS 2021-2022.pdf",
-    "ProgramLanguages/Python/sed7keQGo",
-    "DataStructures/sedMJAJlj",
-    "DataStructures/sed33kt9o"
+    "ProgramLanguages/Python/sed7keQGo"
   ]
 }

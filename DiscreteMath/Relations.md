@@ -60,7 +60,7 @@ A X B = {<1, 1>, <1, 3>, <2, 1>, <2, 3>} R={<1, 3>, <2, 3>}
 - A=B B=C A=C
 - Example:
 
-![[Pasted image 20211028232519.png|500]]
+![[Pasted image 20211028232519.png|350|350]]
 - Digraph: all points link
 
 ![[Pasted image 20211028232043.png|150]]

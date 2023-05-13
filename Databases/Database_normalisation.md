@@ -158,7 +158,7 @@ ___
     2. [[De_Morgans_law|Augmentation:]] if $X \to Y$ then $XZ \to YZ$ for any $Z$
     3. [[Relations#Transitivity|Transitivity:]] if $X \to Y$ and $Y\to Z$ then $X\to Y$
     4. [[Sets#Union|Union]]: if $X\to Y$ and $X\to Z$ then $X\to YZ$
-    5. [[Boolean_logic|Decomposition:]] if $X\to YZ$ then $X\to Y$ and $X \to Z$
+    5. [[Boolean_algebra|Decomposition:]] if $X\to YZ$ then $X\to Y$ and $X \to Z$
 - Example usage 
 
 ![[Pasted image 20230228154605.png|450|450]]

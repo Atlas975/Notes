@@ -69,16 +69,7 @@ ___
 
 ![[Pasted image 20221124002741.png|500|500]]
 
-- State concepts:
-	- **State**: condition object stays in where it behaves in a fixed way 
-	- **Transition**: move from one state to another 
-	- **Trigger**: external stimulus through a signal or event 
-	- **Guard**: a condition that must be true fro a trigger to cause transition 
-	- **Event**: action occurred as result of transition 
-- Transition syntax:
-```
-    trigger (list of input data) [guard] / effect
-```
+
 - Example class state change 
 
 ![[Pasted image 20221124145816.png|500]]

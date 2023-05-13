@@ -18,4 +18,16 @@ ___
 - Consists of a set of states, inputs, and transitions. FSM's starts in an initial state and can transition between states based on input. 
 - Each transition has a condition that determines when a state change occurs as well as secondary effects that occur when that transition happens
 
-![[Pasted image 20230506231513.png|650|650]]
+![[Pasted image 20230506231513.png|450|450]]
+
+
+- State concepts:
+	- **State**: condition object stays in where it behaves in a fixed way 
+	- **Transition**: move from one state to another 
+	- **Trigger**: external stimulus through a signal or event 
+	- **Guard**: a condition that must be true fro a trigger to cause transition 
+	- **Event**: action occurred as result of transition 
+- Transition syntax:
+```
+    trigger (list of input data) [guard] / effect
+```

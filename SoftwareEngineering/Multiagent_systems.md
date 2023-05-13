@@ -30,7 +30,7 @@ ___
 - Interactions must maintain data integrity
 - This is often maintained by object specifications
 
-![[Pasted image 20221105123506.png|450|450]]
+![[Pasted image 20221105123506.png|350|350]]
 
 - Example challenges include 
 ### Integrity violations
@@ -39,7 +39,7 @@ ___
 
 ### Race conditions
 
-![[Pasted image 20221105123726.png|400|400]]
+![[Pasted image 20221105123726.png|350|350]]
 
 ### Deadlock interactions
 
