@@ -28,7 +28,7 @@
 - Output is based on its inputs and on the sequence of past inputs.
 - Truth table representation:
 
-![[Pasted image 20211110132247.png|450|450]]
+![[Pasted image 20211110132247.png|250|250]]
 
 - Logic circuit representation:
 
@@ -39,9 +39,7 @@
 -  Both cannot occur at the same time.
 -  Having both S and R off stays where it is.
 -  Current step denoted by Q0, next step denoted by Q
-## S-R flip flop
 
-![[Pasted image 20211115231715.png|500|500]]
 
 # S-R Limitations
 - Issues when implementing a bit in a register, has distinct SET AND RESET inputs. Ideally this should be handled by a single input. 
