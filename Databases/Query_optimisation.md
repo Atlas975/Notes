@@ -40,11 +40,10 @@ ___
     - Minimise communication cost
 
 ## Semantic based optimisation 
-- Uses schema constraints to perform optimisation 
-- Eg if a value if already specified as needing to be UNIQUE / NOT NULL on a schema level
+- Uses schema constraints to perform optimisation such as when a value is already specified as needing to be UNIQUE / NOT NULL on a schema level
 - Queries based on these constraints can avoid overhead that's already managed on a schema level or in some cases recognise that the query is redundant and has no reason to run at all eg:
 ```sql
-SELECT * FROM TABLE WHERE NonNullField IS NULL /* won't run at all */
+SELECT * FROM MyTable WHERE NonNullField IS NULL /* won't run at all */
 ```
 
 
@@ -62,5 +61,5 @@ SELECT * FROM TABLE WHERE NonNullField IS NULL /* won't run at all */
 ![[Pasted image 20230503020659.png|500|500]]
 
 
-- Further optimisation can be done by moving branches around to ensure that the smallest cartesian products possible are produced upon joins that must happen 
+- Further optimisation can be done by moving branches around to ensure that the smallest cartesian products possible are produced upon joins that must happen
 - In general keep the most restrictive joins and selects as close to leaf level as possible 
