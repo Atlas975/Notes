@@ -16,6 +16,9 @@ ___
 # Logic gates
 -   Logic gates are electronic components that perform logical operations on one or more binary inputs and produce a single binary output based on those inputs.
 -   There are several types of logic gates, including AND gates, OR gates, NOT gates, NAND gates, NOR gates, and XOR gates, each with their own unique input/output behaviours.
+
+## Boolean laws 
+![[Pasted image 20211031135124.png|450|450]]
 ## NOT gate 
 ![[Pasted image 20230513155520.png|400|400]]
 
@@ -30,6 +33,7 @@ ___
 
 ![[Pasted image 20230513155841.png|400|400]]
 
-- Can also be expressed as:
+- On a lower level, this is created using only AND and OR which can be built as:
 
-![[Pasted image 20230513155808.png|400|400]]
+$$\overline{A}B +A\overline{B}$$
+$$(A+B)(\overline{A+B})$$
