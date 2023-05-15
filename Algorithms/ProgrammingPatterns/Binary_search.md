@@ -22,35 +22,37 @@ ___
 - The units of time taken to search for a record using binary search in an ordered file vs unordered is: 
 $$\log_{2}N$$
 $$N= \text{number of records}$$
-# Binary search algorithm 
+## Binary search algorithm 
 ```python
 def search(self, nums: List[int], target: int) -> int:
-    l,r=0,len(nums)-1
-    while l<=r:
-        mid=l+(r-l)//2
-        if target==nums[mid]: return mid
-        elif target<nums[mid]: r=mid-1
-        else: l=mid+1
+    l, r = 0, len(nums) - 1
+    while l <= r:
+        m = l + (r - l) // 2
+        if target == nums[m]:
+            return m
+        elif target < nums[m]:
+            r = m - 1
+        else:
+            l = m + 1
     return -1
 ```
 
 ## Search a 2D matrix
 ```python
 def searchMatrix(self, matrix: list[list[int]], target: int) -> bool:
-    n,m=len(matrix),len(matrix[0])
-    l,r=0,n*m-1
+    nr, nc = len(matrix), len(matrix[0])
+    l, r = 0, nr * nc - 1
 
-    while l<=r:
-        mid=l+(r-l)//2
-        mval=matrix[mid//m][mid%m]
+    while l <= r:
+        m = l + (r - l) // 2
+        mval = matrix[m // nc][m % nc]
 
-        if mval<target:
-            l=mid+1
-        elif mval>target:
-            r=mid-1
+        if mval < target:
+            l = m + 1
+        elif mval > target:
+            r = m - 1
         else:
             return True
-
     return False
 ```
 
@@ -66,40 +68,41 @@ def minEatingSpeed(self, piles: List[int], h: int) -> int:
             lo = k+1
         else:
             hi = k
-            
     return hi
 ```
 
 ## Search in rotated sorted array
 ```python
 def search(self, nums: List[int], target: int) -> int:
-    l,r = 0, len(nums)-1
-    while l<=r:
-        m = l + (r-l)//2
-        if target == nums[m]:
+    def binary_search(l, r) -> int:
+        if l > r:
+            return -1
+        m = l + (r - l) // 2
+        if nums[m] == target:
             return m
+        
+        if nums[l] <= nums[m]:
+            if target > nums[m] or target < nums[l]:
+                return binary_search(m + 1, r)
+            else:
+                return binary_search(l, m - 1)
+        if target < nums[m] or target > nums[r]:
+            return binary_search(l, m - 1)
+        return binary_search(m + 1, r)
 
-        if nums[l]<=nums[m]:
-            if target>nums[m] or target<nums[l] :
-                l = m+1
-            else:
-                r = m-1
-        else:
-            if target<nums[m] or target>nums[r]:
-                r = m-1
-            else:
-                l = m+1
-    return -1
+    return binary_search(0, len(nums) - 1)
 ```
 
 ## Find minimum in rotated sorted array
 ```python
 def findMin(self, nums: List[int]) -> int:
-    l,r= 0,len(nums)-1
-    while l<r:
-        m=l+(r-l)//2
-        if nums[m]>nums[r]: l=m+1
-        else: r=m
+    l, r = 0, len(nums) - 1
+    while l < r:
+        m = l + (r - l) // 2
+        if nums[m] > nums[r]:
+            l = m + 1
+        else:
+            r = m # cap at m
     return nums[l]
 ```
 

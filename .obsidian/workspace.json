@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
+                "file": "OperatingSystems/Operating_system_design.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
+                "file": "OperatingSystems/Operating_system_design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md"
+                "file": "OperatingSystems/Operating_system_design.md"
               }
             }
           }
@@ -196,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md"
+                "file": "OperatingSystems/Operating_system_design.md"
               }
             }
           },
@@ -222,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Sliding_window.md",
+                "file": "OperatingSystems/Operating_system_design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -271,6 +271,9 @@
   },
   "active": "07986a699dc7fac0",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Sliding_window.md",
+    "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Binary_search.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
     "OperatingSystems/DigitalSystems/ASCII.md",
     "OperatingSystems/FileSystems/File_system_performance.md",
@@ -288,15 +291,12 @@
     "Databases/Query_optimisation.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "DataStructures/B_trees.md",
-    "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "DataStructures/CacheStructures/LFU.md",
     "DataStructures/CacheStructures/LRU.md",
     "Databases/Database_storage.md",
     "Databases/Database_indexing.md",
     "Databases/Access_routines.md",
     "Databases/Database_concurrency.md",
-    "Algorithms/SearchAlgorithms/Search_algorithms.md",
-    "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
     "XX-Attachments/Images/Pasted image 20230514121608.png",
     "XX-Attachments/Images/Pasted image 20230514121459.png",
     "XX-Attachments/Images/Pasted image 20230514121103.png",
