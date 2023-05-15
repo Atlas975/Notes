@@ -66,22 +66,22 @@ def permute(self, nums: List[int]) -> List[List[int]]:
 ## Subsets no duplicates
 ```python
 def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
-    nums.sort()
-    res, n = deque(), len(nums)
-
+    res = []
     def dfs(i, path):
         if i == n:
             res.append(path.copy())
             return
 
         path.append(nums[i])
-        dfs(i + 1, path)
+        dfs(i + 1, path) # comb with nums[i]
         path.pop()
 
-        while i < n - 1 and nums[i] == nums[i + 1]:
+        while i < n - 1 and nums[i] == nums[i + 1]: 
             i += 1
-        dfs(i + 1, path)
+        dfs(i + 1, path) # comb without nums[i] (skip duplicates)
 
+    nums.sort()
+    n = len(nums)
     dfs(0, [])
     return res
 ```
