@@ -121,28 +121,29 @@ def exist(self, board: List[List[str]], word: str) -> bool:
     if wrdlen > m * n:
         return False
 
-    def dfs(r, c, i=0):
+    def dfs(r, c, i=0) -> bool:
+        if board[r][c] != word[i]:
+            return False
         if i == wrdlen - 1:
             return True
+        
         board[r][c] = "#"
-        i, ch = i + 1, word[i + 1]
+        i += 1
         valid = (
-            (r > 0 and board[r - 1][c] == ch and dfs(r - 1, c, i))
-            or (r < n - 1 and board[r + 1][c] == ch and dfs(r + 1, c, i))
-            or (c > 0 and board[r][c - 1] == ch and dfs(r, c - 1, i))
-            or (c < m - 1 and board[r][c + 1] == ch and dfs(r, c + 1, i))
+            (r > 0 and dfs(r - 1, c, i))
+            or (r < n - 1 and dfs(r + 1, c, i))
+            or (c > 0 and dfs(r, c - 1, i))
+            or (c < m - 1 and dfs(r, c + 1, i))
         )
         board[r][c] = word[i - 1]
         return valid
 
-    cnts = sum(map(Counter, board), Counter())
-    if cnts[word[0]] > cnts[word[-1]]:
+    cnts = [0] * 58
+    for r, c in product(range(n), range(m)):
+        cnts[ord(board[r][c]) - ord("A")] += 1
+    if cnts[ord(word[0]) - ord("A")] > cnts[ord(word[-1]) - ord("A")]:
         word = word[::-1]
-    return any(
-        dfs(r, c)
-        for r, c in product(range(n), range(m))
-        if board[r][c] == word[0]
-    )
+    return any(starmap(dfs, product(range(n), range(m))))
 ```
 ## N-Queens
 ```python
