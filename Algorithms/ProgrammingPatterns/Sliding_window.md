@@ -106,21 +106,41 @@ def checkInclusion(self, s1: str, s2: str) -> bool:
     return matches == 26
 ```
 
-## Max distance between pair of values 
-```rust
-pub fn max_distance(nums1: Vec<i32>, nums2: Vec<i32>) -> i32 {
-    let (n1, n2) = (nums1.len(), nums2.len());
-    let (mut i, mut j, mut mxdist) = (0, 1, 0);
+## Minimum window substring
+```python
+def minWindow(self, s: str, t: str) -> str:
+    sn, tn = len(s), len(t)
+    if tn > sn:
+        return ""
+    res, resN = (0, 0), float("inf")
+    idx = lambda x: ord(x) - ord("A")
 
-    while i < n1 && j < n2 {
-        if nums1[i] > nums2[j] {
-            i += 1;
-            j = j.max(1 + i);
-        } else {
-            mxdist = mxdist.max(j - i);
-            j += 1;
-        }
-    }
-    mxdist as i32
-}
+    tcnt, win = [0] * 58, [0] * 58
+    for tc, sc in zip(t, s):
+        tcnt[idx(tc)] += 1
+        win[idx(sc)] += 1
+
+    matches = sum(sc >= tc for sc, tc in zip(win, tcnt))
+    if matches == 58:
+        return s[:tn]
+
+    l = 0
+    for r in range(tn, sn):
+        rc = idx(s[r])
+        win[rc] += 1
+        if win[rc] != tcnt[rc]:
+            continue
+        matches += 1
+        if matches != 58:
+            continue
+        while matches == 58:
+            lc = idx(s[l])
+            win[lc] -= 1
+            if win[lc] < tcnt[lc]:
+                matches -= 1
+            l += 1
+        if (r - l + 2) < resN:
+            res, resN = (l - 1, r), r - l + 2
+
+    return s[res[0] : res[1] + 1] if resN != float("inf") else ""
 ```
