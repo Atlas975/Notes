@@ -112,35 +112,29 @@ def minWindow(self, s: str, t: str) -> str:
     sn, tn = len(s), len(t)
     if tn > sn:
         return ""
-    res, resN = (0, 0), float("inf")
     idx = lambda x: ord(x) - ord("A")
+    res = (0, float("inf"))
+    need = [0] * 58
+    
+    for c in map(idx, t):
+        need[c] += 1
+    l, needcnt = 0, len(t)
 
-    tcnt, win = [0] * 58, [0] * 58
-    for tc, sc in zip(t, s):
-        tcnt[idx(tc)] += 1
-        win[idx(sc)] += 1
-
-    matches = sum(sc >= tc for sc, tc in zip(win, tcnt))
-    if matches == 58:
-        return s[:tn]
-
-    l = 0
-    for r in range(tn, sn):
-        rc = idx(s[r])
-        win[rc] += 1
-        if win[rc] != tcnt[rc]:
+    for r, c in ((r, idx(c)) for r, c in enumerate(s)):
+        if need[c] > 0: # c is in t, 1 less char to match
+            needcnt -= 1
+        need[c] -= 1
+        if needcnt > 0: 
             continue
-        matches += 1
-        if matches != 58:
-            continue
-        while matches == 58:
-            lc = idx(s[l])
-            win[lc] -= 1
-            if win[lc] < tcnt[lc]:
-                matches -= 1
+
+        while need[i := idx(s[l])] < 0: # remove preceding chars not needed
+            need[i] += 1
             l += 1
-        if (r - l + 2) < resN:
-            res, resN = (l - 1, r), r - l + 2
+        if r - l < res[1] - res[0]: 
+            res = (l, r)
+        need[idx(s[l])] += 1
+        needcnt += 1
+        l += 1
 
-    return s[res[0] : res[1] + 1] if resN != float("inf") else ""
+    return s[res[0] : res[1] + 1] if res[1] != float("inf") else ""
 ```
