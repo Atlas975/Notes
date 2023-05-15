@@ -138,3 +138,24 @@ def minWindow(self, s: str, t: str) -> str:
 
     return s[res[0] : res[1] + 1] if res[1] != float("inf") else ""
 ```
+
+
+## Maximum sliding window 
+```python
+def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
+    deq = deque([nums[0]])
+    for cur in nums[1:k]:
+        while deq and deq[-1] < cur:  # keep deq in descending order
+            deq.pop()
+        deq.append(cur)
+    res = [deq[0]]
+
+    for i in range(k, len(nums)):
+        if deq[0] == nums[i - k]: # if out of window range, pop
+            deq.popleft()
+        while deq and deq[-1] < nums[i]:
+            deq.pop()
+        deq.append(nums[i])
+        res.append(deq[0])
+    return res
+```
