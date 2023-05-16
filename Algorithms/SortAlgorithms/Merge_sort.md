@@ -19,9 +19,9 @@ def merge_sort(data): # O(n log n) time O(n) space
     split = len(data) // 2
     left = merge_sort(data[:split])
     right = merge_sort(data[split:])
-    return merge_segement(left, right, data)
+    return merge(left, right, data)
 
-def merge_segement(left, right, data):
+def merge(left, right, data):
     i, j, k = 0, 0, 0
     while i < len(left) and j < len(right):
         if left[i] < right[j]:
@@ -31,12 +31,10 @@ def merge_segement(left, right, data):
             data[k] = right[j]
             j += 1
         k += 1
-    for i, num in enumerate(left[i:]):
-        data[k] = num
-        k += 1
-    for j, num in enumerate(right[j:]):
-        data[k] = num
-        k += 1
+    if i < len(left):
+        data[k:] = left[i:]
+    else:
+        data[k:] = right[j:]
     return data
 ```
 ![[Pasted image 20220321123512.png|400|400]]

@@ -163,10 +163,22 @@ def findDuplicate(self, nums: List[int]) -> int:
 ## LRU cache 
 - An [[LRU]] cache makes use of a doubly linked list 
 - This allows for quick access for the front element while appending from the back
-## Merge K sorted lists
+## Merge K-sorted lists
 
 ```python
 def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
+    # Min-heap solution
+    pq = [(ll.val, i, ll) for i, ll in enumerate(filter(None, lists))]
+    heapq.heapify(pq)
+
+    dmy = cur = ListNode()
+    while pq:
+        _, i, ll = heapq.heappop(pq)
+        cur.next, cur = ll, ll
+        if post := ll.next:
+            heapq.heappush(pq, (post.val, i, post))
+    return dmy.next
+
     # Merge-sort solution
     def merge(l1, l2):
         dmy = cur = ListNode()
@@ -193,15 +205,23 @@ def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
         lists = lists[: n // 2 + rem]
     return lists[0] if lists else None
 
-    # Min-heap solution
-    pq = [(ll.val, i, ll) for i, ll in enumerate(filter(None, lists))]
-    heapq.heapify(pq)
+```
 
-    dmy = cur = ListNode()
-    while pq:
-        _, i, ll = heapq.heappop(pq)
-        cur.next, cur = ll, ll
-        if post := ll.next:
-            heapq.heappush(pq, (post.val, i, post))
+## Reverse nodes in K-groups
+```python
+def reverseKGroup(self, head: ListNode, k: int) -> ListNode:
+    tailpre = dmy = ListNode(next=head)
+    def getKth(cur, k) -> ListNode:
+        for _ in range(k):
+            if not cur:
+                return None
+            cur = cur.next
+        return cur
+
+    while kth := getKth(tailpre, k):
+        cur, prev = tailpre.next, kth.next # head of group, tail of next group
+        for _ in range(k): # k nodes in group to reverse
+            cur.next, cur, prev = prev, cur.next, cur
+        tailpre.next, tailpre = kth, tailpre.next # connect prev group to old tail 
     return dmy.next
 ```

@@ -164,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -209,7 +209,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
+                "file": "Algorithms/SortAlgorithms/Merge_sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -249,7 +249,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md"
+                "file": "Algorithms/SortAlgorithms/Merge_sort.md"
               }
             }
           }
@@ -274,7 +274,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md"
+                "file": "Algorithms/SortAlgorithms/Merge_sort.md"
               }
             }
           },
@@ -300,7 +300,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
+                "file": "Algorithms/SortAlgorithms/Merge_sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -347,13 +347,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b3d20116cb393614",
+  "active": "28a85eb7c049b762",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
     "Algorithms/SortAlgorithms/Merge_sort.md",
     "DataStructures/CacheStructures/LFU.md",
     "DataStructures/CacheStructures/LRU.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
-    "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "OperatingSystems/Operating_system_design.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
