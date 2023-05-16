@@ -92,7 +92,46 @@
               "type": "markdown",
               "state": {
                 "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
-                "mode": "source",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f4f38140e0a25659",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DataStructures/CacheStructures/LRU.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "499f551e01fac472",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DataStructures/CacheStructures/LFU.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "28a85eb7c049b762",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/SortAlgorithms/Merge_sort.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -125,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -170,7 +209,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "file": "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +249,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
+                "file": "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md"
               }
             }
           }
@@ -235,7 +274,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
+                "file": "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md"
               }
             }
           },
@@ -261,7 +300,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "file": "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -308,8 +347,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0cefa86af71d75fa",
+  "active": "b3d20116cb393614",
   "lastOpenFiles": [
+    "Algorithms/SortAlgorithms/Merge_sort.md",
+    "DataStructures/CacheStructures/LFU.md",
+    "DataStructures/CacheStructures/LRU.md",
+    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "OperatingSystems/Operating_system_design.md",
@@ -332,10 +375,6 @@
     "Databases/Query_optimisation.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "DataStructures/B_trees.md",
-    "DataStructures/CacheStructures/LFU.md",
-    "DataStructures/CacheStructures/LRU.md",
-    "Databases/Database_storage.md",
-    "Databases/Database_indexing.md",
     "XX-Attachments/Images/Pasted image 20230514121608.png",
     "XX-Attachments/Images/Pasted image 20230514121459.png",
     "XX-Attachments/Images/Pasted image 20230514121103.png",
