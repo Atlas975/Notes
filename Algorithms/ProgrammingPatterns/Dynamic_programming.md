@@ -1,3 +1,6 @@
+---
+aliases: DP
+---
 > [!important|inIL]- Metadata
 > **Tags:** #ProgrammingPatterns 
 > **Located:** Algorithms/ProgrammingPatterns
@@ -129,7 +132,6 @@ def uniquePaths(self, m: int, n: int) -> int:
     dp = [[1] * n for _ in range(m)]
     for x, y in product(range(1, m), range(1, n)):
         dp[x][y] = dp[x - 1][y] + dp[x][y - 1]
-
     return dp[-1][-1]
 ```
 ## Longest common subsequence 
@@ -154,8 +156,7 @@ def longestCommonSubsequence(self, text1: str, text2: str) -> int:
             return 0
         if text1[i] == text2[j]:
             return helper(i - 1, j - 1) + 1
-        else:
-            return max(helper(i - 1, j), helper(i, j - 1))
+        return max(helper(i - 1, j), helper(i, j - 1))
 
     return helper(len(text1) - 1, len(text2) - 1)
 ```
