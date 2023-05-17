@@ -216,7 +216,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -261,7 +261,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataStructures/BinaryHeaps.md",
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -301,7 +301,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/BinaryHeaps.md"
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md"
               }
             }
           }
@@ -326,7 +326,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/BinaryHeaps.md"
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md"
               }
             }
           },
@@ -352,7 +352,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataStructures/BinaryHeaps.md",
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -399,8 +399,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c5fe39135bf234e1",
+  "active": "7ba1abc936b0133e",
   "lastOpenFiles": [
+    "DataStructures/BinaryHeaps.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "Algorithms/AlgorithmConcepts/Graph_traversal.md",
@@ -426,7 +427,6 @@
     "OperatingSystems/FileSystems/File_allocation_schemes.md",
     "OperatingSystems/Input&Output_systems.md",
     "EmbeddedSystems/LogicGates/Set_reset_latch.md",
-    "Databases/Query_optimisation.md",
     "XX-Attachments/Images/Pasted image 20230514121608.png",
     "XX-Attachments/Images/Pasted image 20230514121459.png",
     "XX-Attachments/Images/Pasted image 20230514121103.png",

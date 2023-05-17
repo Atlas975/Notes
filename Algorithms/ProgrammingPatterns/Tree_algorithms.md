@@ -392,3 +392,37 @@ def isValidBST(self, root: Optional[TreeNode]) -> bool:
         return dfs(node.left, l, node.val) and dfs(node.right, node.val, r)
     return dfs(root, float('-inf'), float('inf'))
 ```
+
+## Kth smallest element in BST 
+```python
+def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
+    # ITERATIVE
+    s = deque([root])
+    cur = root
+    while s or cur:
+        while cur:
+            s.append(cur)
+            cur = cur.left
+        cur = s.pop()
+        k -= 1
+        if k == 0:
+            return cur.val
+        cur = cur.right
+    return -1
+    
+    # RECURSIVE
+    self.k = k
+    self.res = -1 
+
+    def inorder(node) -> None:
+        if node is None:
+            return
+        inorder(node.left)
+        self.k -= 1
+        if self.k == 0:
+            self.res = node.val
+            return
+        inorder(node.right)
+    inorder(root)
+    return self.res
+```
