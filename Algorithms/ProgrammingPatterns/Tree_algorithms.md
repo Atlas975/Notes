@@ -102,7 +102,6 @@ def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
 ```
 
 ## Level order traversal **(BFS)**
-
 ```python
 def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
     res = []
@@ -137,7 +136,6 @@ def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
 ```
 
 # Tree algorithms
-
 ## Invert tree
 ```python
 def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
@@ -162,7 +160,6 @@ def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
 
     return root
 ```
-
 ## Maximum depth of binary tree
 ```python
 def maxDepth(self, root: Optional[TreeNode]) -> int:
@@ -184,7 +181,6 @@ def maxDepth(self, root: Optional[TreeNode]) -> int:
     if root is None: return 0
     return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
 ```
-
 ## Diameter of a binary tree
 ```python
 def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
@@ -313,11 +309,65 @@ def lowestCommonAncestor(self, root, p, q) -> "TreeNode":
             return check(node.right)
         elif node.val > p.val and node.val > q.val:
             return check(node.left)
-        else:
-            return node
+        return node
     return check(root)
 ```
+## Binary tree right side view 
+```python
+def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
+    res = []
 
+    # RECURSIVE
+    def r_search(node, level):
+        if node is None:
+            return
+        if level == len(res):
+            res.append(node.val)
+        r_search(node.right, level + 1) # right first
+        r_search(node.left, level + 1)
+    r_search(root, 0)
+    return res
+
+    # ITERATIVE
+    if root is None:
+        return []
+    q = deque([root])
+    while q:
+        for node in (q.popleft() for _ in range(len(q) - 1)): 
+            q.append(node.left) if node.left else None
+            q.append(node.right) if node.right else None
+        rightSide = q.popleft()
+        q.append(rightSide.left) if rightSide.left else None
+        q.append(rightSide.right) if rightSide.right else None
+        res.append(rightSide.val)
+    return res
+```
+## Count good nodes in binary tree 
+```python
+def goodNodes(self, root: TreeNode) -> int:
+    # ITERATIVE
+    res = 0
+    s = deque([(root, float('-inf'))])
+    while s:
+        node, maxVal = s.pop()
+        if node.val >= maxVal:
+            res += 1
+            s.append((node.left, node.val)) if node.left else None
+            s.append((node.right, node.val)) if node.right else None
+        else:
+            s.append((node.left, maxVal)) if node.left else None
+            s.append((node.right, maxVal)) if node.right else None
+    return res
+
+    # RECURSIVE
+    def check(node, maxVal):
+        if node is None:
+            return 0
+        if node.val >= maxVal:
+            return 1 + check(node.left, node.val) + check(node.right, node.val)
+        return check(node.left, maxVal) + check(node.right, maxVal)
+    return 1 + check(root.left, root.val) + check(root.right, root.val)
+```
 ## Validate binary search tree
 ```python
 def isValidBST(self, root: Optional[TreeNode]) -> bool:
@@ -337,8 +387,8 @@ def isValidBST(self, root: Optional[TreeNode]) -> bool:
     def dfs(node, l, r):
         if node is None:
             return True
-        if node.val <= l or node.val >= r:
+        if node.val <= l or node.val >= r: # tree has no duplicates
             return False
-        return dfs(node.left, l, node.val) and  dfs(node.right, node.val, r)
+        return dfs(node.left, l, node.val) and dfs(node.right, node.val, r)
     return dfs(root, float('-inf'), float('inf'))
 ```
