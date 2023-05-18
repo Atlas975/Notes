@@ -281,20 +281,22 @@ def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int
     bq, eq = deque([(1, beginWord)]), deque([(1, endWord)])
     bpos, epos = {beginWord: 1}, {endWord: 1}
 
-    def bfs(bq: deque, bp: dict, ep: dict) -> Optional[int]:
-        for bdist, w in (bq.popleft() for _ in range(len(bq))):
-            for st, c, en in ((w[:i], c, w[i + 1 :]) for i, c in enumerate(w)):
-                for nw in (st + l + en for l in ascii_lowercase if l != c):
-                    if edist := ep.get(nw):
-                        return bdist + edist
-                    if nw in word_set:
-                        bp[nw] = bdist + 1
-                        bq.append((bdist + 1, nw))
-                        word_set.remove(nw)
+    def bidirect_bfs(bdist: int, w: str) -> Optional[int]:
+        for st, c, en in ((w[:i], c, w[i + 1 :]) for i, c in enumerate(w)):
+            for nw in (f"{st}{l}{en}" for l in ascii_lowercase if l != c):
+                if edist := epos.get(nw): # BFS from both ends converge
+                    return bdist + edist
+                if nw in word_set:
+                    bpos[nw] = bdist + 1
+                    bq.append((bdist + 1, nw))
+                    word_set.remove(nw)
 
     while bq and eq:
-        if res := bfs(bq, bpos, epos) if len(bq) < len(eq) else bfs(eq, epos, bpos):
-            return res
+        for bdist, w in (bq.popleft() for _ in range(len(bq))):
+            if res := bidirect_bfs(bdist, w):
+                return res
+        if len(bq) > len(eq): # swap to minimize BFS tree
+            bq, bpos, eq, epos = eq, epos, bq, bpos
     return 0
 ```
 ## Network delay time 
