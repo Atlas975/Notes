@@ -151,6 +151,32 @@
             }
           },
           {
+            "id": "24ba0730e0b60439",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "645f067e3b68cc47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "89b4c38ec0a0a2d9",
             "type": "leaf",
             "state": {
@@ -216,7 +242,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -261,7 +287,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -301,7 +327,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
               }
             }
           }
@@ -326,7 +352,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
               }
             }
           },
@@ -352,7 +378,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -399,11 +425,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7ba1abc936b0133e",
+  "active": "645f067e3b68cc47",
   "lastOpenFiles": [
+    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
+    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "DataStructures/BinaryHeaps.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "Algorithms/AlgorithmConcepts/Graph_traversal.md",
     "Algorithms/SortAlgorithms/Merge_sort.md",
     "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
@@ -426,7 +453,6 @@
     "SoftwareDesign/Test_types.md",
     "OperatingSystems/FileSystems/File_allocation_schemes.md",
     "OperatingSystems/Input&Output_systems.md",
-    "EmbeddedSystems/LogicGates/Set_reset_latch.md",
     "XX-Attachments/Images/Pasted image 20230514121608.png",
     "XX-Attachments/Images/Pasted image 20230514121459.png",
     "XX-Attachments/Images/Pasted image 20230514121103.png",
