@@ -29,6 +29,19 @@
             }
           },
           {
+            "id": "3d0d9a9abc9c08c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Backtracking.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "bff0af5c62dee6fc",
             "type": "leaf",
             "state": {
@@ -42,7 +55,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Backtracking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Backtracking.md"
               }
             }
           }
@@ -152,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Backtracking.md"
               }
             }
           },
@@ -178,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Backtracking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,10 +238,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "99bc1386bdbf2c56",
+  "active": "3d0d9a9abc9c08c2",
   "lastOpenFiles": [
-    "SoftwareDesign/BSPL.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
+    "SoftwareDesign/BSPL.md",
     "SoftwareDesign/Finite_state_machines.md",
     "Algorithms/AlgorithmConcepts/Graph_traversal.md",
     "DataStructures/BinaryHeaps.md",
