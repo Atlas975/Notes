@@ -14,7 +14,7 @@
 
 ___
 # Tree traversal
-## Inorder traversal
+## Inorder traversal (left , mid, right)
 ```python
 def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
     res = []
@@ -41,7 +41,7 @@ def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
     return res
 ```
 
-## Preorder traversal
+## Preorder traversal (mid, left, right)
 ```python
 def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
     res = []
@@ -70,7 +70,7 @@ def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
     return res
 ```
 
-## Postorder traversal
+## Postorder traversal (right, left, mid)
 ```python
 def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
     res = []
