@@ -426,3 +426,96 @@ def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
     inorder(root)
     return self.res
 ```
+
+## Construct binary tree from preorder and inorder traversal 
+```python
+def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
+    preorder = deque(preorder)
+    inmap = {val: i for i, val in enumerate(inorder)}
+
+    def build(l, r):
+        if l > r:  # no nodes to left or right
+            return None
+        root = TreeNode(preorder.popleft())
+        inloc = inmap[root.val] # index of root in inorder
+        root.left, root.right = build(l, inloc - 1), build(inloc + 1, r)
+        return root
+    return build(0, len(inorder) - 1)
+```
+## Binary tree maximum path sum 
+```python
+def maxPathSum(self, root: Optional[TreeNode]) -> int:
+    # RECURSIVE
+    def dfs(node):
+        if node is None:
+            return 0
+        lgain = lgain if (lgain := dfs(node.left)) > 0 else 0
+        rgain = rgain if (rgain := dfs(node.right)) > 0 else 0
+        self.mxsum = max(self.mxsum, lgain + node.val + rgain)
+        return max(lgain, rgain) + node.val
+
+    self.mxsum = root.val
+    dfs(root)
+    return self.mxsum
+    
+    # ITERATIVE
+    mxpath = float("-inf")
+    gainmp = {}
+    s = deque([(root, False)])
+
+    while root or s:
+        while root:
+            s.append((root, False))
+            root = root.left
+        root, seen = s.pop()
+        if not seen:
+            s.append((root, True))
+            root = root.right
+            continue
+        lgain = max(0, gainmp[root.left]) if root.left else 0
+        rgain = max(0, gainmp[root.right]) if root.right else 0
+        mxpath = max(mxpath, lgain + root.val + rgain)
+        gainmp[root] = max(lgain, rgain) + root.val
+        root = None
+    return mxpath
+
+    # RECUSIVE NO GLOBAL
+    def dfs(node):
+        if node is None:
+            return 0, float("-inf")
+        lgain, lsum = dfs(node.left)
+        rgain, rsum = dfs(node.right)
+
+        mxsum = max(lsum, rsum, lgain + node.val + rgain)
+        mxgain = max(lgain, rgain) + node.val
+        return max(0, mxgain), mxsum
+    return dfs(root)[1]
+```
+
+## Serialise and deserialise binary tree 
+```python
+def serialize(self, root):
+        res = []
+        def postord(node):
+            if node is None:
+                res.append("#")
+                return
+            res.append(str(node.val))
+            postord(node.left)
+            postord(node.right)
+
+        postord(root)
+        return ",".join(res)
+
+    def deserialize(self, data):
+        def postord(serialiter):
+            val = next(serialiter)
+            if val == "#":
+                return None
+            node = TreeNode(int(val))
+            node.left = postord(serialiter)
+            node.right = postord(serialiter)
+            return node
+
+        return postord(iter(data.split(",")))
+```
