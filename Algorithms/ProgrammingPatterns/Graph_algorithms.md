@@ -299,6 +299,25 @@ def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int
             bq, bpos, eq, epos = eq, epos, bq, bpos
     return 0
 ```
+## Min cost to connect all points 
+```python
+def minCostConnectPoints(self, points: List[List[int]]) -> int:
+    need = set(range(len(points)))
+    pq = [(0, 0)]  # (dist, node)
+    res = 0
+
+    while need:
+        while pq[0][1] not in need:
+            heapq.heappop(pq)
+        udist, u = heapq.heappop(pq)
+        need.remove(u)
+        res += udist
+        x1, y1 = points[u]
+        for v, (x2, y2) in ((i2, points[i2]) for i2 in need):
+            heapq.heappush(pq, (abs(x1 - x2) + abs(y1 - y2), v))
+    return res
+```
+
 ## Network delay time 
 ```python
 def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
@@ -319,8 +338,6 @@ def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
                 hq.heappush(pq, (vdist, v))
     return res if (res := max(distmp[1:])) < float("inf") else -1
 ```
-
-
 ## Cheapest flights within K stops 
 ```python
 def findCheapestPrice(n, flights: List[List[int]], src, dst, k) -> int:
