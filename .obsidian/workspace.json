@@ -55,6 +55,19 @@
             }
           },
           {
+            "id": "c195b1b32b43702c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a58e7bec7f1bc4a2",
             "type": "leaf",
             "state": {
@@ -279,6 +292,8 @@
   },
   "active": "c3fb796eccbb39dd",
   "lastOpenFiles": [
+    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
+    "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
@@ -288,7 +303,6 @@
     "Algorithms/AlgorithmConcepts/Graph_traversal.md",
     "DataStructures/BinaryHeaps.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
-    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "OperatingSystems/FileSystems/File_system_performance.md",
     "OperatingSystems/DigitalSystems/ASCII.md",
     "OperatingSystems/Operating_system_design.md",
@@ -304,7 +318,6 @@
     "DiscreteMath/Boolean_algebra.md",
     "EmbeddedSystems/LogicGates/Full_adder.md",
     "EmbeddedSystems/LogicGates/Half_adder.md",
-    "OperatingSystems/FileSystems/File_systems.md",
     "XX-Attachments/Images/Pasted image 20230514121608.png",
     "XX-Attachments/Images/Pasted image 20230514121459.png",
     "XX-Attachments/Images/Pasted image 20230514121103.png",
