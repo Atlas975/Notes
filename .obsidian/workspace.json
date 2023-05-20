@@ -42,6 +42,19 @@
             }
           },
           {
+            "id": "a58e7bec7f1bc4a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "bff0af5c62dee6fc",
             "type": "leaf",
             "state": {
@@ -55,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -100,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Backtracking.md",
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Backtracking.md"
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
               }
             }
           }
@@ -165,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Backtracking.md"
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
               }
             }
           },
@@ -191,7 +204,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Backtracking.md",
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -238,8 +251,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3d0d9a9abc9c08c2",
+  "active": "a58e7bec7f1bc4a2",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "SoftwareDesign/BSPL.md",
     "SoftwareDesign/Finite_state_machines.md",
@@ -250,7 +264,6 @@
     "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "OperatingSystems/FileSystems/File_system_performance.md",
     "OperatingSystems/DigitalSystems/ASCII.md",
-    "Algorithms/ProgrammingPatterns/Backtracking.md",
     "OperatingSystems/Operating_system_design.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",

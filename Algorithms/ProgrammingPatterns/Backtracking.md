@@ -18,15 +18,12 @@ ___
 ## Subsets
 ```python
 def subsets(self, nums: List[int]) -> List[List[int]]:
-    res = []
-
-    def dfs(arr, subset):
-        res.append(subset[:])
+    def dfs(arr, sub) -> List[List[int]]:
+        subsets = [sub]
         for i, num in enumerate(arr):
-            dfs(arr[i + 1 :], subset + [num])
-
-    dfs(nums, [])
-    return res
+            subsets.extend(dfs(arr[i + 1 :], sub + [num]))
+        return subsets
+    return dfs(nums, [])
 ```
 ## Combination sum
 ```python
