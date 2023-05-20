@@ -120,7 +120,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+                "file": "Algorithms/SearchAlgorithms/Prims_algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
+                "file": "Algorithms/SearchAlgorithms/Prims_algorithm.md"
               }
             }
           }
@@ -230,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
+                "file": "Algorithms/SearchAlgorithms/Prims_algorithm.md"
               }
             }
           },
@@ -256,7 +256,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+                "file": "Algorithms/SearchAlgorithms/Prims_algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -303,11 +303,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3d0d9a9abc9c08c2",
+  "active": "a67562eecd7f73da",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20230520221634.png",
+    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "Algorithms/SearchAlgorithms/Prims_algorithm.md",
-    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
@@ -330,7 +331,6 @@
     "OperatingSystems/DigitalSystems/DigitalSystem_design.md",
     "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
     "DiscreteMath/Boolean_algebra.md",
-    "EmbeddedSystems/LogicGates/Full_adder.md",
     "XX-Attachments/Images/Pasted image 20230514121608.png",
     "XX-Attachments/Images/Pasted image 20230514121459.png",
     "XX-Attachments/Images/Pasted image 20230514121103.png",
