@@ -107,6 +107,35 @@ def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]
     return res
 ```
 
+
+## Letter combinations in a phone number 
+```python
+def letterCombinations(self, digits: str) -> List[str]:
+    if not digits:
+        return []
+    letmp = [
+        [],
+        [],
+        ["a", "b", "c"],
+        ["d", "e", "f"],
+        ["g", "h", "i"],
+        ["j", "k", "l"],
+        ["m", "n", "o"],
+        ["p", "q", "r", "s"],
+        ["t", "u", "v"],
+        ["w", "x", "y", "z"],
+    ]
+
+    def backtrack(i, s):
+        if i >= len(digits):
+            res.append(s)
+            return
+        for c in letmp[int(digits[i])]:
+            backtrack(i + 1, s + c)
+    res = []
+    backtrack(0, "")
+    return res
+```
 ## Word search 
 
 ```python

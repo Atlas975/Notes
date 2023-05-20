@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Backtracking.md",
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -81,7 +81,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
               }
             }
           }
@@ -191,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
               }
             }
           },
@@ -217,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -264,10 +264,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1627d4f034f97d72",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
-    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
+    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "SoftwareDesign/BSPL.md",
     "SoftwareDesign/Finite_state_machines.md",
@@ -280,7 +281,6 @@
     "OperatingSystems/Operating_system_design.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "DataStructures/CacheStructures/LRU.md",
     "DataStructures/CacheStructures/LFU.md",
     "Algorithms/SortAlgorithms/Merge_sort.md",
