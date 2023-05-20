@@ -79,6 +79,20 @@ def longestPalindrome(self, s: str) -> str:
     return res
 ```
 
+## Palindrome partition
+```python
+def partition(self, s: str) -> List[List[str]]:
+    n = len(s)
+    dp = [[] for _ in range(n + 1)]
+    dp[n] = [[]]  # used when the substring extends to the end of s
+    for l in reversed(range(n)):
+        dp[l].extend([[s[l]] + sub2 for sub2 in dp[l + 1]])  # single char is pali
+        for r in range(l + 2, n + 1):
+            sub1 = s[l:r]
+            if all(sub1[k] == sub1[-k - 1] for k in range(len(sub1) // 2)):
+                dp[l].extend([sub1] + sub2 for sub2 in dp[r])
+    return dp[0]
+```
 ## Decode ways
 ```python
 def numDecodings(self, s: str) -> int:
