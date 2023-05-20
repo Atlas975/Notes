@@ -319,3 +319,28 @@ def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
                 hq.heappush(pq, (vdist, v))
     return res if (res := max(distmp[1:])) < float("inf") else -1
 ```
+
+
+## Cheapest flights within K stops 
+```python
+def findCheapestPrice(n, flights: List[List[int]], src, dst, k) -> int:
+    graph = [[] for _ in range(n)]
+    for u, v, weight in flights:
+        graph[u].append((v, weight))
+    distmp = [float("inf")] * n
+    distmp[src] = 0
+    q = deque([(0, src)])
+
+    for _ in range(k):
+        for udist, u in (q.popleft() for _ in range(len(q))):
+            for v, weight in graph[u]:
+                if (vdist := udist + weight) < distmp[v]:
+                    distmp[v] = vdist
+                    q.append((vdist, v))
+        q = deque(sorted(q))
+
+    for udist, u in (q.popleft() for _ in range(len(q))):
+        for v, weight in graph[u]:
+            distmp[v] = min(distmp[v], udist + weight)
+    return res if (res := distmp[dst]) != float("inf") else -1
+```
