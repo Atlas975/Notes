@@ -359,36 +359,44 @@ def swimInWater(self, grid) -> int:
             or dfs(i - 1, j, t, seen, i == 0)
             or dfs(i, j - 1, t, seen, j == 0)
         )
-    
+
     while l < r:
-        m = l + (r - l) // 2 
+        m = l + (r - l) // 2
         seen.clear()
-        if dfs(0, 0, m, seen, False): 
+        if dfs(0, 0, m, seen, False):
             r = m
         else:
             l = m + 1
     return l
 
-    # DIJKSTRA ALGORITHM
+    # DIJKSTRA ALGORITHM + BFS
     n = len(grid)
-    seen = [[False] * n for _ in range(n)]
-    pq = [(grid[0][0], 0, 0)]
-    seen[0][0] = True
+    mxt = max(grid[0][0], grid[n - 1][n - 1])
+    visited = [[False] * n for _ in range(n)]
+    visited[0][0] = True
+    pq = [(mxt, 0, 0)]
 
-    def dfs(t, r, c, outbounds):
-        if outbounds or seen[r][c]:
+    def bfs_exp(mxt, r, c, outbounds):
+        if outbounds or visited[r][c]:
             return
-        seen[r][c] = True
-        heapq.heappush(pq, (max(t, grid[r][c]), r, c))
+        visited[r][c] = True
+        if grid[r][c] <= mxt:
+            bfs.append((r, c))
+        else:
+            heapq.heappush(pq, (grid[r][c], r, c))
 
     while pq:
         t, r, c = heapq.heappop(pq)
-        if r == c == n - 1:
-            return t
-        dfs(t, r - 1, c, r == 0)
-        dfs(t, r + 1, c, r == n - 1)
-        dfs(t, r, c - 1, c == 0)
-        dfs(t, r, c + 1, c == n - 1)
+        mxt = max(mxt, t)
+        bfs = deque([(r, c)])
+        while bfs:
+            nr, nc = bfs.popleft()
+            if nr == nc == n - 1:
+                return mxt
+            bfs_exp(mxt, nr - 1, nc, nr == 0)
+            bfs_exp(mxt, nr + 1, nc, nr == n - 1)
+            bfs_exp(mxt, nr, nc - 1, nc == 0)
+            bfs_exp(mxt, nr, nc + 1, nc == n - 1)
     return -1
 ```
 ## Cheapest flights within K stops 
