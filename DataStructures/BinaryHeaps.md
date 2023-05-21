@@ -59,4 +59,20 @@ class MaxHeap:
         val = self.heap.pop()
         self.heapify(0)
         return val
+        
+    def heappushpop(self, val): # more efficient than heappush followed by heappop 
+        if not self.heap:
+            Raise(ValueError("Heap is empty"))
+        if val >= self.heap[0]:
+            return val
+        self.heap[0], val = val, self.heap[0]
+        self.heapify(0)
+        return val
+        
+    def heapreplace(self, val): # more efficient than heappop followed by heappush
+        if not self.heap:
+            Raise(ValueError("Heap is empty"))
+        self.heap[0], val = val, self.heap[0]
+        self.heapify(0)
+        return val
 ```
