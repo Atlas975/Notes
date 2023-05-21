@@ -338,6 +338,59 @@ def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
                 hq.heappush(pq, (vdist, v))
     return res if (res := max(distmp[1:])) < float("inf") else -1
 ```
+## Swim in rising water
+```python
+def swimInWater(self, grid) -> int:
+    # BIARY SEARCH
+    n = len(grid)
+    l, r = grid[-1][-1], max(map(max, grid)) # min and max time
+    seen = set()
+
+    def dfs(i, j, t, seen, outbound):
+        if outbound or (grid[i][j] > t) or ((i, j) in seen):
+            return False
+        seen.add((i, j))
+
+        if i == j == n - 1:
+            return True
+        return (
+            dfs(i + 1, j, t, seen, i == n - 1)
+            or dfs(i, j + 1, t, seen, j == n - 1)
+            or dfs(i - 1, j, t, seen, i == 0)
+            or dfs(i, j - 1, t, seen, j == 0)
+        )
+    
+    while l < r:
+        m = l + (r - l) // 2 
+        seen.clear()
+        if dfs(0, 0, m, seen, False): 
+            r = m
+        else:
+            l = m + 1
+    return l
+
+    # DIJKSTRA ALGORITHM
+    n = len(grid)
+    seen = [[False] * n for _ in range(n)]
+    pq = [(grid[0][0], 0, 0)]
+    seen[0][0] = True
+
+    def dfs(t, r, c, outbounds):
+        if outbounds or seen[r][c]:
+            return
+        seen[r][c] = True
+        heapq.heappush(pq, (max(t, grid[r][c]), r, c))
+
+    while pq:
+        t, r, c = heapq.heappop(pq)
+        if r == c == n - 1:
+            return t
+        dfs(t, r - 1, c, r == 0)
+        dfs(t, r + 1, c, r == n - 1)
+        dfs(t, r, c - 1, c == 0)
+        dfs(t, r, c + 1, c == n - 1)
+    return -1
+```
 ## Cheapest flights within K stops 
 ```python
 def findCheapestPrice(n, flights: List[List[int]], src, dst, k) -> int:
