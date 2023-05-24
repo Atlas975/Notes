@@ -34,7 +34,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+                "file": "DataStructures/CacheStructures/LFU.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "77a13518baf0f5e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DataStructures/CacheStructures/LRU.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "204792c277293bc8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -133,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -226,8 +252,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5046501159668,
-    "collapsed": true
+    "width": 259.5046501159668
   },
   "right": {
     "id": "441e4249d5592193",
@@ -316,12 +341,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3d0d9a9abc9c08c2",
+  "active": "a58e7bec7f1bc4a2",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
+    "DataStructures/CacheStructures/LRU.md",
+    "DataStructures/CacheStructures/LFU.md",
+    "Databases/Database_transactions.md",
+    "Databases/Database_storage.md",
+    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "DataStructures/BinaryHeaps.md",
     "Algorithms/SearchAlgorithms/Prims_algorithm.md",
-    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "XX-Attachments/Images/Pasted image 20230520221634.png",
     "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
@@ -336,14 +366,10 @@
     "OperatingSystems/Operating_system_design.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
-    "DataStructures/CacheStructures/LRU.md",
-    "DataStructures/CacheStructures/LFU.md",
     "Algorithms/SortAlgorithms/Merge_sort.md",
     "Algorithms/ProgrammingPatterns/Binary_search.md",
     "SoftwareDesign/UML_diagrams.md",
     "OperatingSystems/DigitalSystems/DigitalSystem_design.md",
-    "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
-    "DiscreteMath/Boolean_algebra.md",
     "XX-Attachments/Images/Pasted image 20230514121608.png",
     "XX-Attachments/Images/Pasted image 20230514121459.png",
     "XX-Attachments/Images/Pasted image 20230514121103.png",
