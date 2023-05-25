@@ -138,7 +138,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -159,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -341,21 +341,21 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a58e7bec7f1bc4a2",
+  "active": "1627d4f034f97d72",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Backtracking.md",
+    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
     "DataStructures/CacheStructures/LRU.md",
     "DataStructures/CacheStructures/LFU.md",
     "Databases/Database_transactions.md",
     "Databases/Database_storage.md",
-    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "DataStructures/BinaryHeaps.md",
     "Algorithms/SearchAlgorithms/Prims_algorithm.md",
     "XX-Attachments/Images/Pasted image 20230520221634.png",
     "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
-    "Algorithms/ProgrammingPatterns/Backtracking.md",
-    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "SoftwareDesign/BSPL.md",
     "SoftwareDesign/Finite_state_machines.md",
