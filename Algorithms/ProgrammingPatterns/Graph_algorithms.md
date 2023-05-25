@@ -166,26 +166,24 @@ def walls_and_gates(self, rooms: List[List[int]]):
 ## Course schedule 
 ```python
 def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-    preMp = [[] for _ in range(numCourses)]
+    crsMp = [[] for _ in range(numCourses)]
+    needCnt = [0] * numCourses
+
     for crs, pre in prerequisites:
-        preMp[crs].append(pre)
-    seen = set()
+        crsMp[pre].append(crs)
+        needCnt[crs] += 1
 
-    def dfs(crs):
-        if len(preMp[crs]) == 0:
-            return True
-        if crs in seen:
-            return False
+    q = deque([i for i in range(numCourses) if needCnt[i] == 0])  # no preq
+    valid = 0
 
-        seen.add(crs)
-        if any(not dfs(pre) for pre in preMp[crs]):
-            return False
-        seen.remove(crs)
-
-        preMp[crs].clear() # caching result as True is also valid
-        return True
-
-    return all(map(dfs, range(numCourses)))
+    while q:
+        pre = q.popleft()
+        valid += 1
+        for crs in crsMp[pre]:
+            needCnt[crs] -= 1
+            if needCnt[crs] == 0:
+                q.append(crs)
+    return valid == numCourses
 ```
 
 ## Course schedule II

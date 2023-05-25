@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
+                "file": "Algorithms/ProgrammingPatterns/Backtracking.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -159,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -204,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Backtracking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +244,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Backtracking.md"
               }
             }
           }
@@ -268,7 +268,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Backtracking.md"
               }
             }
           },
@@ -294,7 +294,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Backtracking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -341,11 +341,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1627d4f034f97d72",
+  "active": "c3fb796eccbb39dd",
   "lastOpenFiles": [
-    "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
+    "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
+    "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
     "DataStructures/CacheStructures/LRU.md",
     "DataStructures/CacheStructures/LFU.md",
@@ -355,7 +357,6 @@
     "DataStructures/BinaryHeaps.md",
     "Algorithms/SearchAlgorithms/Prims_algorithm.md",
     "XX-Attachments/Images/Pasted image 20230520221634.png",
-    "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "SoftwareDesign/BSPL.md",
     "SoftwareDesign/Finite_state_machines.md",
@@ -369,7 +370,6 @@
     "Algorithms/SortAlgorithms/Merge_sort.md",
     "Algorithms/ProgrammingPatterns/Binary_search.md",
     "SoftwareDesign/UML_diagrams.md",
-    "OperatingSystems/DigitalSystems/DigitalSystem_design.md",
     "XX-Attachments/Images/Pasted image 20230514121608.png",
     "XX-Attachments/Images/Pasted image 20230514121459.png",
     "XX-Attachments/Images/Pasted image 20230514121103.png",
@@ -383,7 +383,7 @@
     "EmbeddedSystems/LogicGates",
     "EmbeddedSystems",
     "Networking/RoutingAlgorithms",
-    "Algorithms/Hash_algorithms",
+    "Algorithms/HashAlgorithms",
     "Algorithms/SortAlgorithms",
     "XX-Attachments/Images/AdilW_Resume.docx",
     "Algorithms/SearchAlgorithms",
