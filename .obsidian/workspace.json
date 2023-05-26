@@ -144,9 +144,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a77e5cd71ae94709",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -191,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +244,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
               }
             }
           }
@@ -255,7 +268,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
               }
             }
           },
@@ -281,7 +294,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -328,15 +341,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6a5ba0d791d602a7",
+  "active": "a77e5cd71ae94709",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "ContinuousMath/Catalan_numbers.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "SoftwareDesign/BSPL.md",
     "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
-    "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
     "DataStructures/CacheStructures/LRU.md",
     "DataStructures/CacheStructures/LFU.md",

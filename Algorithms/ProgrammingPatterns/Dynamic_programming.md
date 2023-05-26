@@ -143,6 +143,17 @@ def coinChange(self, coins: List[int], amount: int) -> int:
         dp[a] = 1 + min(dp[a - c] for c in coins)
     return dp[-1] if dp[-1] != float("inf") else -1
 ```
+## Maximum product subarray 
+```python
+def maxProduct(self, nums: list[int]) -> int:
+    a = b = res = nums[0]  # a: min, b: max
+    for num in nums[1:]:
+        if num < 0:  # a can be max if num < 0 twice
+            a, b = b, a
+        a, b = min(num, a * num), max(num, b * num)
+        res = max(res, b)
+    return res
+```
 # 2D dynamic programming 
 ## Unique paths 
 ```python
