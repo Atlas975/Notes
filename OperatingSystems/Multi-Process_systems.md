@@ -1,3 +1,6 @@
+---
+aliases: scheduling
+---
 > [!important|inIL]- Metadata
 > **Tags:** #OperatingSystems #Concurrency 
 > **Located:** OperatingSystems
@@ -18,7 +21,7 @@ ___
 ## Types of systems
 - **Batch systems**: periodic jobs, allowed to complete before moving on eg payroll processing. May use scheduling such as shortest or longest process first.
 - **Real-time systems**: time-critical elements, deadlines need to be followed in order to maintain data integrity / experience eg multimedia system
-- **Interactive systems**: prioritizes responsiveness eg a desktop
+- **Interactive systems**: prioritises responsiveness eg a desktop
 
 ## I/O Scheduling
 - [[Input&Output_systems|I/O]] is a natural scheduling point as data from a device may be needed to run a process
