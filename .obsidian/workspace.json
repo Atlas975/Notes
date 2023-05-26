@@ -68,19 +68,6 @@
             }
           },
           {
-            "id": "c3fb796eccbb39dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Backtracking.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c195b1b32b43702c",
             "type": "leaf",
             "state": {
@@ -146,20 +133,20 @@
             }
           },
           {
-            "id": "bff0af5c62dee6fc",
+            "id": "6a5ba0d791d602a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwareDesign/BSPL.md",
-                "mode": "source",
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -204,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Backtracking.md",
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Backtracking.md"
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
               }
             }
           }
@@ -268,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Backtracking.md"
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
               }
             }
           },
@@ -294,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Backtracking.md",
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -341,14 +328,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c3fb796eccbb39dd",
+  "active": "6a5ba0d791d602a7",
   "lastOpenFiles": [
+    "ContinuousMath/Catalan_numbers.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+    "SoftwareDesign/BSPL.md",
+    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
-    "Algorithms/ProgrammingPatterns/Backtracking.md",
-    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
     "DataStructures/CacheStructures/LRU.md",
     "DataStructures/CacheStructures/LFU.md",
     "Databases/Database_transactions.md",
@@ -358,7 +347,6 @@
     "Algorithms/SearchAlgorithms/Prims_algorithm.md",
     "XX-Attachments/Images/Pasted image 20230520221634.png",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
-    "SoftwareDesign/BSPL.md",
     "SoftwareDesign/Finite_state_machines.md",
     "Algorithms/AlgorithmConcepts/Graph_traversal.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
@@ -369,7 +357,6 @@
     "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
     "Algorithms/SortAlgorithms/Merge_sort.md",
     "Algorithms/ProgrammingPatterns/Binary_search.md",
-    "SoftwareDesign/UML_diagrams.md",
     "XX-Attachments/Images/Pasted image 20230514121608.png",
     "XX-Attachments/Images/Pasted image 20230514121459.png",
     "XX-Attachments/Images/Pasted image 20230514121103.png",

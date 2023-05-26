@@ -86,24 +86,29 @@ def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
 ## Combination sum no duplicates 
 
 ```python
-def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
-    def bfs(cand, path, pathsum):
-        n = len(cand)
-
-        def search(num, i):
-            if (npathsum := pathsum + num) == target:
-                res.append(path + [num])
-            elif npathsum < target and (ncand := cand[i + 1 :]):
-                bfs(ncand, path + [num], npathsum)
-
-        search(cand[0], 0)
-        for i in range(1, n):
-            if cand[i] != cand[i - 1]:
-                search(cand[i], i)
-
+def combinationSum2(self, cands: List[int], target: int) -> List[List[int]]:
+    candMp = defaultdict(int)
+    for c in cands:
+        candMp[c] += 1
+    keys = sorted(candMp.keys())
     res = []
-    candidates.sort()
-    bfs(candidates, [], 0)
+
+    def dfs(remain, path, i):
+        if remain == 0:
+            res.append(path)
+            return
+        for j, cur in enumerate(keys[i:], i):
+            if candMp[cur] == 0:
+                continue
+            if cur > remain:
+                break
+            candMp[cur] -= 1
+            path.append(cur)
+            dfs(remain - cur, path, j)
+            path.pop()
+            candMp[cur] += 1
+
+    dfs(target, [], 0)
     return res
 ```
 

@@ -48,7 +48,6 @@ def rob(self, nums: List[int]) -> int:
 ## House robber II 
 ```python
 def rob(self, nums: List[int]) -> int:
-
     def rob_group(start, end):
         a, b = 0, 0
         for num in nums[start:end]:
@@ -139,24 +138,7 @@ def coinChange(self, coins: List[int], amount: int) -> int:
         dp[a] = 1 + min(dp[a - c] for c in coins)
     return dp[-1] if dp[-1] != float("inf") else -1
 ```
-## Unique binary search trees 
-![[Catalan_numbers#Catalan number sequence|Catalan number sequence]]
-```python
-def numTrees(self, n: int) -> int:
-    # ITERATIVE
-    dp = [1] * (n + 1)
-    for i in range(2, n+1):
-        dp[i] = sum(dp[j] * dp[i-j-1] for j in range(i))
-    return dp[-1]
-
-    # RECURSIVE
-    @cache
-    def fact(x):
-        return 1 if x <= 1 else (x * fact(x - 1))
-    return fact(2 * n) // (fact(n) * fact(n + 1))
-```
 # 2D dynamic programming 
-
 ## Unique paths 
 ```python
 def uniquePaths(self, m: int, n: int) -> int:
