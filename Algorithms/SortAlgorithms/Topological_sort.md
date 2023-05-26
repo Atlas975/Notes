@@ -23,23 +23,23 @@ ___
 
 ## Topological sort algorithm 
 ```python
-def topological_sort(graph: dict[Any, set[Any]]) -> Optional[list[Any]]:
-    inlinks = defaultdict(int)  # number of inlinks for each node
+def topological_sort(graph) -> Optional[list[Any]]:
+    inlinks = {u: 0 for u in graph} # number of inlinks for each node
     for u in graph:
         for v in graph[u]:
             inlinks[v] += 1
-    q = deque([u for u in graph if (u not in inlinks)]) # nodes with no inlinks
+    q = deque([u for u in graph if inlinks[u] == 0])  # nodes with no inlinks
     res = []
 
     while q:
         u = q.popleft()
         res.append(u)
         for v in graph[u]:
-            inlinks[v] -= 1  # decouple outlinks to u
+            inlinks[v] -= 1  # remove v from graph
             if inlinks[v] == 0:
                 q.append(v)
 
-    if any(inlinks[u] > 0 for u in graph):
-        return None  # cycle detected
+    if len(res) < len(graph.keys()):  
+        return None  # cycle detected if nodes remain
     return res
 ```
