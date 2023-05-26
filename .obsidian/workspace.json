@@ -138,7 +138,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
+                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md"
               }
             }
           }
@@ -255,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
+                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md"
               }
             }
           },
@@ -281,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,8 +330,8 @@
   },
   "active": "6a5ba0d791d602a7",
   "lastOpenFiles": [
-    "ContinuousMath/Catalan_numbers.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+    "ContinuousMath/Catalan_numbers.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "SoftwareDesign/BSPL.md",
     "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
