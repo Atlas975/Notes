@@ -140,6 +140,38 @@ def maxProduct(self, nums: list[int]) -> int:
         res = max(res, b)
     return res
 ```
+
+## Longest increasing subsequence 
+```python
+def lengthOfLIS(self, nums: List[int]) -> int:
+    # DYANMIC PROGRAMMING
+    n = len(nums)
+    dp = [1] * n  # LIS ending at i
+    for i in reversed(range(n - 1)):
+        preLIS = (dp[j] for j in range(i + 1, n) if nums[j] > nums[i])
+        dp[i] = 1 + max(preLIS, default=0)
+    return max(dp)
+
+    # BINARY SEARCH (PATIENCE SORTING)
+    def bisect_left(data, element):
+        l, r = 0, len(data)
+        while l < r:
+            m = (l + r) // 2
+            if data[m] < element:
+                l = m + 1
+            else:
+                r = m
+        return l
+
+    lis = [nums[0]]
+    for num in nums[1:]:
+        i = bisect_left(lis, num)
+        if i == len(lis):  # num > all vals in LIS
+            lis.append(num)
+        else:  # find idx of first val >= num, replace val at idx with num
+            lis[i] = num  # same length but smaller val placed in LIS
+    return len(lis)
+```
 # 2D dynamic programming 
 ## Unique paths 
 ```python

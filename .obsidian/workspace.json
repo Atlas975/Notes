@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataStructures/CacheStructures/LFU.md",
+                "file": "Algorithms/SortAlgorithms/Patience_sort.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -193,6 +193,58 @@
             }
           },
           {
+            "id": "54e745957bd4d631",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8e5aac257111509f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/SortAlgorithms/Sorting_algorithms.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fee1eb7b58a884c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/SortAlgorithms/Merge_sort.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0fdb16c322d985fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/SortAlgorithms/Patience_sort.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "07a9588740257d3c",
             "type": "leaf",
             "state": {
@@ -206,7 +258,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -251,7 +303,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Bisect_algorithm.md",
+                "file": "Algorithms/SortAlgorithms/Patience_sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -291,7 +343,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Bisect_algorithm.md"
+                "file": "Algorithms/SortAlgorithms/Patience_sort.md"
               }
             }
           }
@@ -315,7 +367,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Bisect_algorithm.md"
+                "file": "Algorithms/SortAlgorithms/Patience_sort.md"
               }
             }
           },
@@ -341,7 +393,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Bisect_algorithm.md",
+                "file": "Algorithms/SortAlgorithms/Patience_sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -388,15 +440,19 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9e9f3fb3200a0bb1",
+  "active": "3d0d9a9abc9c08c2",
   "lastOpenFiles": [
+    "Algorithms/SortAlgorithms/Selection_sort.md",
+    "DataStructures/CacheStructures/LFU.md",
+    "Algorithms/SortAlgorithms/Patience_sort.md",
+    "Algorithms/SortAlgorithms/Merge_sort.md",
+    "Algorithms/SortAlgorithms/Sorting_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/Bisect_algorithm.md",
     "Algorithms/Union_find.md",
     "Algorithms/AlgorithmConcepts/Graph_traversal.md",
     "Algorithms/AlgorithmConcepts/Algorithm_fundamentals.md",
-    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/SortAlgorithms/Topological_sort.md",
-    "Algorithms/SortAlgorithms/Selection_sort.md",
     "XX-Attachments/Images/Pasted image 20230526205657.png",
     "OperatingSystems/Multi-Process_systems.md",
     "XX-Attachments/Images/Pasted image 20230526205122.png",
@@ -408,7 +464,6 @@
     "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
     "DataStructures/CacheStructures/LRU.md",
-    "DataStructures/CacheStructures/LFU.md",
     "Databases/Database_transactions.md",
     "Databases/Database_storage.md",
     "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
@@ -416,9 +471,6 @@
     "Algorithms/SearchAlgorithms/Prims_algorithm.md",
     "XX-Attachments/Images/Pasted image 20230520221634.png",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
-    "SoftwareDesign/Finite_state_machines.md",
-    "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
-    "OperatingSystems/FileSystems/File_system_performance.md",
     "XX-Attachments/Images/Pasted image 20230514121608.png",
     "XX-Attachments/Images/Pasted image 20230514121459.png",
     "XX-Attachments/Images/Pasted image 20230514121103.png",
