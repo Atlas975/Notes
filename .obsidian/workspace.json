@@ -175,9 +175,17 @@
             "id": "2279468308b84d02",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "9e9f3fb3200a0bb1",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "file": "Algorithms/Bisect_algorithm.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -198,7 +206,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -243,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "file": "Algorithms/Bisect_algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +291,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
+                "file": "Algorithms/Bisect_algorithm.md"
               }
             }
           }
@@ -307,7 +315,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
+                "file": "Algorithms/Bisect_algorithm.md"
               }
             }
           },
@@ -333,7 +341,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "file": "Algorithms/Bisect_algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -380,14 +388,18 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "2279468308b84d02",
+  "active": "9e9f3fb3200a0bb1",
   "lastOpenFiles": [
+    "Algorithms/Bisect_algorithm.md",
+    "Algorithms/Union_find.md",
+    "Algorithms/AlgorithmConcepts/Graph_traversal.md",
+    "Algorithms/AlgorithmConcepts/Algorithm_fundamentals.md",
+    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/SortAlgorithms/Topological_sort.md",
     "Algorithms/SortAlgorithms/Selection_sort.md",
     "XX-Attachments/Images/Pasted image 20230526205657.png",
     "OperatingSystems/Multi-Process_systems.md",
     "XX-Attachments/Images/Pasted image 20230526205122.png",
-    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "ContinuousMath/Catalan_numbers.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
@@ -405,12 +417,8 @@
     "XX-Attachments/Images/Pasted image 20230520221634.png",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "SoftwareDesign/Finite_state_machines.md",
-    "Algorithms/AlgorithmConcepts/Graph_traversal.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
     "OperatingSystems/FileSystems/File_system_performance.md",
-    "OperatingSystems/DigitalSystems/ASCII.md",
-    "OperatingSystems/Operating_system_design.md",
-    "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "XX-Attachments/Images/Pasted image 20230514121608.png",
     "XX-Attachments/Images/Pasted image 20230514121459.png",
     "XX-Attachments/Images/Pasted image 20230514121103.png",
