@@ -169,16 +169,22 @@ def longestCommonSubsequence(self, text1: str, text2: str) -> int:
 ```python
 def longestIncreasingPath(self, matrix: List[List[int]]) -> int:
     n, m = len(matrix), len(matrix[0])
+    dp = [[None] * m for _ in range(n)]
 
-    @cache
-    def dfs(r, c):
+    def dfs(r, c, outbound=False, prev=float("-inf")):
+        if outbound or prev >= matrix[r][c]:
+            return 0
+        if dp[r][c]:
+            return dp[r][c]
+
         cur = matrix[r][c]
-        return 1 + max(
-            dfs(r + 1, c) if r + 1 < n and matrix[r + 1][c] > cur else 0,
-            dfs(r - 1, c) if r >= 1 and matrix[r - 1][c] > cur else 0,
-            dfs(r, c + 1) if c + 1 < m and matrix[r][c + 1] > cur else 0,
-            dfs(r, c - 1) if c >= 1 and matrix[r][c - 1] > cur else 0,
+        dp[r][c] = 1 + max(
+            dfs(r + 1, c, r == n - 1, cur),
+            dfs(r - 1, c, r == 0, cur),
+            dfs(r, c + 1, c == m - 1, cur),
+            dfs(r, c - 1, c == 0, cur),
         )
+        return dp[r][c]
 
     return max(starmap(dfs, product(range(n), range(m))))
 ```
