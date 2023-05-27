@@ -100,7 +100,6 @@ def partition(self, s: str) -> List[List[str]]:
 ## Decode ways
 ```python
 def numDecodings(self, s: str) -> int:
-    # ITERATIVE
     n = len(s)
     dp = [0] * (n + 1)
     dp[-1] = 1
@@ -111,19 +110,6 @@ def numDecodings(self, s: str) -> int:
         if i < n - 1 and int(s[i : i + 2]) <= 26:
             dp[i] += dp[i + 2]
     return dp[0]
-
-    # RECURSIVE
-    @cache
-    def dfs(i):
-        if i == n:
-            return 1
-        if s[i] == "0":
-            return 0
-        res = dfs(i + 1)
-        if i < n - 1 and int(s[i : i + 2]) <= 26:
-            res += dfs(i + 2)
-        return res
-    return dfs(0)
 ```
 
 ## Coing change 
@@ -166,7 +152,6 @@ def uniquePaths(self, m: int, n: int) -> int:
 ## Longest common subsequence 
 ```python
 def longestCommonSubsequence(self, text1: str, text2: str) -> int:
-    # ITERATIVE
     n1, n2 = len(text1), len(text2)
     dp = [[0] * (n2 + 1) for _ in range(n1 + 1)]
 
@@ -177,17 +162,6 @@ def longestCommonSubsequence(self, text1: str, text2: str) -> int:
             else max(dp[i][j + 1], dp[i + 1][j])
         )
     return dp[-1][-1]
-
-    # RECURSIVE
-    @cache
-    def helper(i, j):
-        if i < 0 or j < 0:
-            return 0
-        if text1[i] == text2[j]:
-            return helper(i - 1, j - 1) + 1
-        return max(helper(i - 1, j), helper(i, j - 1))
-
-    return helper(len(text1) - 1, len(text2) - 1)
 ```
 
 
