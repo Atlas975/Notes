@@ -258,7 +258,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -303,7 +303,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/SortAlgorithms/Patience_sort.md",
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -343,7 +343,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/SortAlgorithms/Patience_sort.md"
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
               }
             }
           }
@@ -367,7 +367,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/SortAlgorithms/Patience_sort.md"
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
               }
             }
           },
@@ -393,7 +393,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/SortAlgorithms/Patience_sort.md",
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -440,11 +440,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3d0d9a9abc9c08c2",
+  "active": "54e745957bd4d631",
   "lastOpenFiles": [
+    "Algorithms/SortAlgorithms/Patience_sort.md",
     "Algorithms/SortAlgorithms/Selection_sort.md",
     "DataStructures/CacheStructures/LFU.md",
-    "Algorithms/SortAlgorithms/Patience_sort.md",
     "Algorithms/SortAlgorithms/Merge_sort.md",
     "Algorithms/SortAlgorithms/Sorting_algorithms.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",

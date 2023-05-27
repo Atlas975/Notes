@@ -153,23 +153,13 @@ def lengthOfLIS(self, nums: List[int]) -> int:
     return max(dp)
 
     # BINARY SEARCH (PATIENCE SORTING)
-    def bisect_left(data, element):
-        l, r = 0, len(data)
-        while l < r:
-            m = (l + r) // 2
-            if data[m] < element:
-                l = m + 1
-            else:
-                r = m
-        return l
-
     lis = [nums[0]]
     for num in nums[1:]:
         i = bisect_left(lis, num)
         if i == len(lis):  # num > all vals in LIS
             lis.append(num)
-        else:  # find idx of first val >= num, replace val at idx with num
-            lis[i] = num  # same length but smaller val placed in LIS
+        else:  
+            lis[bisect_left(lis, num)] = num  
     return len(lis)
 ```
 # 2D dynamic programming 
