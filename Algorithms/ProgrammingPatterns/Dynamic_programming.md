@@ -142,6 +142,27 @@ def maxProduct(self, nums: list[int]) -> int:
     return res
 ```
 
+## Word break 
+```python
+def wordBreak(self, s: str, wordDict: List[str]) -> bool:
+    ns = len(s)
+    dp = [False] * (ns + 1)
+    dp[-1] = True
+
+    wordmp = defaultdict(set)
+    for w in wordDict:
+        wordmp[len(w)].add(w)
+
+    for i in reversed(range(ns)):
+        for wlen in wordmp:
+            if i + wlen > ns:
+                continue
+            if s[i : i + wlen] in wordmp[wlen]:
+                dp[i] = dp[i + wlen]
+                if dp[i]:
+                    break
+    return dp[0]
+```
 ## Longest increasing subsequence 
 ```python
 def lengthOfLIS(self, nums: List[int]) -> int:
