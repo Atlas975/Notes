@@ -133,12 +133,12 @@
             }
           },
           {
-            "id": "096e0b99cce1c760",
+            "id": "02426f971eb66f9e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -329,7 +329,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -369,7 +369,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
               }
             }
           }
@@ -393,7 +393,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
               }
             }
           },
@@ -419,7 +419,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -466,13 +466,21 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "096e0b99cce1c760",
+  "active": "02426f971eb66f9e",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+    "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Two_pointers.md",
+    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Binary_search.md",
+    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Sliding_window.md",
+    "Algorithms/ProgrammingPatterns/3sum.md",
     "DataStructures/ChatGPT.md",
     "DataStructures/Graphs.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/Bisect_algorithm.md",
-    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/SortAlgorithms/Patience_sort.md",
     "Algorithms/SortAlgorithms/Selection_sort.md",
     "DataStructures/CacheStructures/LFU.md",
@@ -488,14 +496,6 @@
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "ContinuousMath/Catalan_numbers.md",
     "SoftwareDesign/BSPL.md",
-    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Backtracking.md",
-    "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
-    "DataStructures/CacheStructures/LRU.md",
-    "Databases/Database_transactions.md",
-    "Databases/Database_storage.md",
-    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
-    "DataStructures/BinaryHeaps.md",
     "XX-Attachments/Images/Pasted image 20230520221634.png",
     "XX-Attachments/Images/Pasted image 20230514121608.png",
     "XX-Attachments/Images/Pasted image 20230514121459.png",
