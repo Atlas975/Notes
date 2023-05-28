@@ -258,7 +258,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -303,7 +303,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "file": "Algorithms/Bisect_algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -343,7 +343,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
+                "file": "Algorithms/Bisect_algorithm.md"
               }
             }
           }
@@ -367,7 +367,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
+                "file": "Algorithms/Bisect_algorithm.md"
               }
             }
           },
@@ -393,7 +393,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "file": "Algorithms/Bisect_algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -440,14 +440,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "54e745957bd4d631",
+  "active": "9e9f3fb3200a0bb1",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/SortAlgorithms/Patience_sort.md",
     "Algorithms/SortAlgorithms/Selection_sort.md",
     "DataStructures/CacheStructures/LFU.md",
     "Algorithms/SortAlgorithms/Merge_sort.md",
     "Algorithms/SortAlgorithms/Sorting_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/Bisect_algorithm.md",
     "Algorithms/Union_find.md",
     "Algorithms/AlgorithmConcepts/Graph_traversal.md",

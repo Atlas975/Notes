@@ -115,13 +115,14 @@ def numDecodings(self, s: str) -> int:
 ## Coing change 
 ```python
 def coinChange(self, coins: List[int], amount: int) -> int:
-    coins = {coin for coin in coins if coin <= amount}  # remove coins > amt
+    coins = {coin for coin in coins if coin <= amount}
     if len(coins) == 0:  # no coins needed if amt = 0, no coins available if amt > 0
         return 0 if amount == 0 else -1
 
     dp = [float("inf")] * (amount + 1)
     minc, maxc = min(coins), max(coins)
-    dp[0], dp[minc], dp[maxc] = 0, 1, 1  # no coins, amt = min coin, amt = max coin
+    dp[0], dp[minc], dp[maxc] = 0, 1, 1  
+    
     for a in range(minc + 1, maxc):  # only a - c combs where a may be less than c
         dp[a] = 1 + min(dp[a - c] for c in coins if a - c >= 0)
 
@@ -144,23 +145,14 @@ def maxProduct(self, nums: list[int]) -> int:
 ## Longest increasing subsequence 
 ```python
 def lengthOfLIS(self, nums: List[int]) -> int:
-    # DYANMIC PROGRAMMING
-    n = len(nums)
-    dp = [1] * n  # LIS ending at i
-    for i in reversed(range(n - 1)):
-        preLIS = (dp[j] for j in range(i + 1, n) if nums[j] > nums[i])
-        dp[i] = 1 + max(preLIS, default=0)
-    return max(dp)
-
-    # BINARY SEARCH (PATIENCE SORTING)
-    lis = [nums[0]]
+    dp = [nums[0]] # BINARY SEARCH (PATIENCE SORTING)
     for num in nums[1:]:
-        i = bisect_left(lis, num)
-        if i == len(lis):  # num > all vals in LIS
-            lis.append(num)
+        i = bisect_left(dp, num)
+        if i == len(dp):  # num > all vals in LIS
+            dp.append(num)
         else:  
-            lis[bisect_left(lis, num)] = num  
-    return len(lis)
+            dp[i] = num  
+    return len(dp)
 ```
 # 2D dynamic programming 
 ## Unique paths 
