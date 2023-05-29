@@ -237,7 +237,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "file": "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -342,7 +342,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "file": "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -382,7 +382,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
+                "file": "Algorithms/ProgrammingPatterns/Interval_algorithms.md"
               }
             }
           }
@@ -406,7 +406,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
+                "file": "Algorithms/ProgrammingPatterns/Interval_algorithms.md"
               }
             }
           },
@@ -432,7 +432,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "file": "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -481,8 +481,8 @@
   },
   "active": "54e745957bd4d631",
   "lastOpenFiles": [
-    "DataStructures/Graphs.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+    "DataStructures/Graphs.md",
     "Algorithms/ProgrammingPatterns/Binary_search.md",
     "Algorithms/SearchAlgorithms/Search_algorithms.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",

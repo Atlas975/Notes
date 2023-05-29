@@ -15,46 +15,6 @@
 ___
 # Interval algorithms 
 
-## Meeting rooms 
-```python
-def canAttendMeetings(self, intervals):
-    intervals.sort(key=lambda i: i[0])
-    for i in range(1, len(intervals)):
-        i1, i2 = intervals[i - 1], intervals[i]
-        if i1[1] > i2[0]:
-            return False
-    return True
-```
-
-## Non-overlapping intervals 
-
-```python
-def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:
-    res, end = 0, float('-inf')
-    for l,r in sorted(intervals, key=lambda x:x[1]):
-        if l >= end:
-            end = r
-        else:
-            res += 1
-    return res
-```
-
-## Merge intervals
-```python
-def merge(self, intervals: List[List[int]]) -> List[List[int]]:
-    intervals.sort(key=lambda x: x[0])
-    res_stack = deque([intervals[0]])
-
-    for l, r in intervals[1:]:
-        topr = res_stack[-1][1]
-        if l <= topr:
-            res_stack[-1][1] = max(r, topr)
-        else:
-            res_stack.append([l, r])
-
-    return res_stack
-```
-
 ## Insert intervals 
 ```python
 def insert(self, intervals, newInterval) -> List[List[int]]:
@@ -77,6 +37,65 @@ def insert(self, intervals, newInterval) -> List[List[int]]:
     return res
 ```
 
+
+## Merge intervals
+```python
+def merge(self, intervals: List[List[int]]) -> List[List[int]]:
+    intervals.sort(key=lambda x: x[0])
+    res_stack = deque([intervals[0]])
+
+    for l, r in intervals[1:]:
+        topr = res_stack[-1][1]
+        if l <= topr:
+            res_stack[-1][1] = max(r, topr)
+        else:
+            res_stack.append([l, r])
+
+    return res_stack
+```
+
+## Non-overlapping intervals 
+
+```python
+def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:
+    res, end = 0, float('-inf')
+    for l,r in sorted(intervals, key=lambda x:x[1]):
+        if l >= end:
+            end = r
+        else:
+            res += 1
+    return res
+```
+
+## Meeting rooms 
+```python
+def canAttendMeetings(self, intervals):
+    intervals.sort(key=lambda i: i[0])
+    for i in range(1, len(intervals)):
+        i1, i2 = intervals[i - 1], intervals[i]
+        if i1[1] > i2[0]:
+            return False
+    return True
+```
+
+## Minimum  meeting rooms 
+```python
+def min_meeting_rooms(self, intervals: List[List[int]]) -> int:
+    staptrs = sorted(m[0] for m in intervals)
+    endptrs = sorted(m[1] for m in intervals)
+    sptr, eptr = 1, 0
+    rooms = mxrooms = 1
+
+    while sptr < len(staptrs):
+        if staptrs[sptr] >= endptrs[eptr]: # no overlap
+            eptr += 1
+            rooms -= 1
+        else:
+            sptr += 1
+            rooms += 1
+            mxrooms = max(mxrooms, rooms)
+    return mxrooms
+```
 
 ## Interval list intersection 
 ```python
@@ -101,4 +120,5 @@ def intervalIntersection(self, firstList, secondList) -> List[List[int]]:
             
     return res
 ```
+
 
