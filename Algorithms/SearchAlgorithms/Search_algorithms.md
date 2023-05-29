@@ -21,9 +21,4 @@ ___
 - Check if last element is the element being searched for, if not replace it with the element being searched for
 - Reduces the number of operations compared to linear search by removing the need for loop condition
 
-## Complexity compared to linear search
-![[Pasted image 20220217121917.png|450|450]]
 
-# Binary search
-![[Pasted image 20220217122641.png|450|450]]
-![[Pasted image 20220217122747.png|450|450]]

@@ -138,7 +138,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3494889f1164e487",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/SearchAlgorithms/Search_algorithms.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "62fd9c40f1d8359d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Binary_search.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -284,7 +310,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -329,7 +355,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Binary_search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -369,7 +395,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Binary_search.md"
               }
             }
           }
@@ -393,7 +419,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Binary_search.md"
               }
             }
           },
@@ -419,7 +445,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Binary_search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -466,9 +492,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "02426f971eb66f9e",
+  "active": "62fd9c40f1d8359d",
   "lastOpenFiles": [
+    "Algorithms/SearchAlgorithms/Search_algorithms.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "Algorithms/ProgrammingPatterns/Two_pointers.md",
@@ -479,7 +507,6 @@
     "Algorithms/ProgrammingPatterns/3sum.md",
     "DataStructures/ChatGPT.md",
     "DataStructures/Graphs.md",
-    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/Bisect_algorithm.md",
     "Algorithms/SortAlgorithms/Patience_sort.md",
     "Algorithms/SortAlgorithms/Selection_sort.md",
@@ -495,7 +522,6 @@
     "XX-Attachments/Images/Pasted image 20230526205122.png",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "ContinuousMath/Catalan_numbers.md",
-    "SoftwareDesign/BSPL.md",
     "XX-Attachments/Images/Pasted image 20230520221634.png",
     "XX-Attachments/Images/Pasted image 20230514121608.png",
     "XX-Attachments/Images/Pasted image 20230514121459.png",
