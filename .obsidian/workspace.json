@@ -133,19 +133,6 @@
             }
           },
           {
-            "id": "02426f971eb66f9e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3494889f1164e487",
             "type": "leaf",
             "state": {
@@ -310,7 +297,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 18
       }
     ],
     "direction": "vertical"
@@ -492,11 +479,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "02426f971eb66f9e",
+  "active": "54e745957bd4d631",
   "lastOpenFiles": [
+    "DataStructures/Graphs.md",
+    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/ProgrammingPatterns/Binary_search.md",
     "Algorithms/SearchAlgorithms/Search_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
@@ -506,7 +494,6 @@
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "Algorithms/ProgrammingPatterns/3sum.md",
     "DataStructures/ChatGPT.md",
-    "DataStructures/Graphs.md",
     "Algorithms/Bisect_algorithm.md",
     "Algorithms/SortAlgorithms/Patience_sort.md",
     "Algorithms/SortAlgorithms/Selection_sort.md",
