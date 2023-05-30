@@ -18,7 +18,7 @@ ___
 ## Insert intervals 
 ```python
 def insert(self, intervals, newInterval) -> List[List[int]]:
-    res = deque()
+    res = []
 
     for i, curr in enumerate(intervals):
         if curr[1] < newInterval[0]:
@@ -32,7 +32,6 @@ def insert(self, intervals, newInterval) -> List[List[int]]:
                 min(curr[0], newInterval[0]),
                 max(curr[1], newInterval[1]),
             )
-
     res.append(newInterval)
     return res
 ```
@@ -42,27 +41,28 @@ def insert(self, intervals, newInterval) -> List[List[int]]:
 ```python
 def merge(self, intervals: List[List[int]]) -> List[List[int]]:
     intervals.sort(key=lambda x: x[0])
-    res_stack = deque([intervals[0]])
+    res = deque([intervals[0]])
 
     for l, r in intervals[1:]:
-        topr = res_stack[-1][1]
-        if l <= topr:
-            res_stack[-1][1] = max(r, topr)
+        topr = res[-1][1]
+        if l <= topr: # overlap occurs, merge
+            res[-1][1] = max(r, topr)
         else:
-            res_stack.append([l, r])
-
-    return res_stack
+            res.append([l, r])
+    return res
 ```
 
 ## Non-overlapping intervals 
 
 ```python
 def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:
-    res, end = 0, float('-inf')
-    for l,r in sorted(intervals, key=lambda x:x[1]):
-        if l >= end:
+    intervals.sort(key=lambda x: x[1])
+    res, end = 0, intervals[0][0]
+
+    for l, r in intervals[1:]:
+        if l >= end: # no overlap, keep this interval
             end = r
-        else:
+        else: # overlap, 1 more interval to remove
             res += 1
     return res
 ```
