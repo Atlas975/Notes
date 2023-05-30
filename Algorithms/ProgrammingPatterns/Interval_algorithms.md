@@ -91,6 +91,27 @@ def min_meeting_rooms(self, intervals: List[List[int]]) -> int:
     return mxrooms
 ```
 
+
+## Minimum interval to include each query
+```python
+def minInterval(self, intervals: List[List[int]], queries: List[int]) -> List[int]:
+    intervals.sort(key=lambda x: x[0])
+    cache = {}
+    pq = []
+    l, r = 0, len(intervals)
+
+    for query in sorted(set(queries)):
+        for sta, end in (intervals[i] for i in range(l, r)):
+            if sta > query:
+                break
+            heapq.heappush(pq, (end - sta + 1, end))
+            l += 1
+        while pq and query > pq[0][1]: # intervals that are too small
+            heapq.heappop(pq)
+        cache[query] = pq[0][0] if pq else -1
+
+    return [cache[q] for q in queries]
+```
 ## Interval list intersection
 ```python
 def intervalIntersection(self, firstList, secondList) -> List[List[int]]:

@@ -8,20 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9abfb41d9a0364d5",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "e956fdef905f9f90",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Algorithms/SortAlgorithms/Merge_sort.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0d23367b58e974e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -55,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
+                "file": "Algorithms/ProgrammingPatterns/Interval_algorithms.md"
               }
             }
           }
@@ -131,7 +136,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5046501159668
+    "width": 259.5046501159668,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -173,11 +179,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "61b6b073dac95afd",
+  "active": "0d23367b58e974e4",
   "lastOpenFiles": [
-    "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
-    "OperatingSystems/Paging.md",
     "Algorithms/SortAlgorithms/Merge_sort.md",
+    "OperatingSystems/Paging.md",
+    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+    "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
     "OperatingSystems/FileSystems/File_allocation_schemes.md",
     "OperatingSystems/FileSystems/New_technology_file_system.md",
     "OperatingSystems/Input&Output_systems.md",
@@ -192,7 +199,6 @@
     "Algorithms/SortAlgorithms/Sorting_algorithms.md",
     "Algorithms/SortAlgorithms/Selection_sort.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "OperatingSystems/Processors.md",
     "OperatingSystems/Page_replacement.md",
     "Algorithms/SortAlgorithms/Patience_sort.md",
