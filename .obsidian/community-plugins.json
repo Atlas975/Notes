@@ -36,5 +36,6 @@
   "obsidian-image-toolkit",
   "link-headers-directly",
   "obsidian-style-settings",
-  "obsidian-minimal-settings"
+  "obsidian-minimal-settings",
+  "no-dupe-leaves"
 ]

@@ -7,7 +7,6 @@
   "symbolListCommand": "@",
   "workspaceListCommand": "+",
   "headingsListCommand": "#",
-  "starredListCommand": "'",
   "commandListCommand": ">",
   "relatedItemsListCommand": "~",
   "strictHeadingsOnly": false,
@@ -53,5 +52,7 @@
   ],
   "showOptionalIndicatorIcons": true,
   "overrideStandardModeBehaviors": true,
-  "enabledRibbonCommands": []
+  "enabledRibbonCommands": [],
+  "version": "1.0.0",
+  "bookmarksListCommand": "'"
 }

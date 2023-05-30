@@ -58,7 +58,8 @@ var DEFAULT_SETTINGS = {
   overrideTagClicking: false,
   useMultiPaneList: false,
   archiveTags: "",
-  disableNarrowingDown: false
+  disableNarrowingDown: false,
+  expandUntaggedToRoot: false
 };
 var VIEW_TYPE_SCROLL = "tagfolder-view-scroll";
 var EPOCH_MINUTE = 60;
@@ -659,7 +660,10 @@ function ancestorToTags(ancestors) {
   );
 }
 function ancestorToLongestTag(ancestors) {
-  return ancestors.reduceRight((a, e) => !a ? [e] : a[0].startsWith(e) ? a : [e, ...a], null);
+  return ancestors.reduceRight((a, e) => {
+    var _a;
+    return !a ? [e] : ((_a = a[0]) == null ? void 0 : _a.startsWith(e)) ? a : [e, ...a];
+  }, []);
 }
 function isSpecialTag(tagSrc) {
   const tag = tagSrc.startsWith(SUBTREE_MARK) ? tagSrc.substring(SUBTREE_MARK.length) : tagSrc;
@@ -1215,7 +1219,7 @@ var ScrollView = class extends import_obsidian2.ItemView {
 
 // TreeItemComponent.svelte
 function add_css3(target) {
-  append_styles(target, "svelte-ner10q", ".lsl-f.svelte-ner10q.svelte-ner10q{flex-direction:row;display:flex;flex-grow:1;overflow:hidden;max-width:calc(100%)}.tags.svelte-ner10q.svelte-ner10q{background-color:var(--background-secondary-alt);border-radius:4px;padding:2px 4px;margin-left:4px}.taglist.svelte-ner10q.svelte-ner10q{white-space:nowrap;text-overflow:ellipsis;padding-left:1em;overflow:hidden}.taglist.svelte-ner10q span.svelte-ner10q{color:var(--nav-item-color)}.tagfolder-titletagname.svelte-ner10q.svelte-ner10q{flex-grow:1;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tagfolder-quantity.svelte-ner10q span.svelte-ner10q{background-color:var(--background-secondary-alt);color:var(--nav-item-color);border-radius:4px;padding:2px 4px}.tagfolder-quantity.svelte-ner10q.svelte-ner10q{width:3em;text-align:right;cursor:pointer;margin-left:auto}.tag-folder-title.svelte-ner10q.svelte-ner10q{max-width:100%}.nav-folder-title.svelte-ner10q:hover .tagfolder-quantity.svelte-ner10q,.nav-file-title.svelte-ner10q:hover .taglist.svelte-ner10q{color:var(--text-on-accent)}.nav-folder-title.svelte-ner10q:hover .tagfolder-quantity span.svelte-ner10q,.nav-file-title.svelte-ner10q:hover .taglist .tags.svelte-ner10q{color:var(--text-on-accent);background-color:var(--interactive-accent-hover)}");
+  append_styles(target, "svelte-m9l3qf", ".lsl-f.svelte-m9l3qf.svelte-m9l3qf{flex-direction:row;display:flex;flex-grow:1;overflow:hidden;max-width:calc(100%);width:50%}.tags.svelte-m9l3qf.svelte-m9l3qf{background-color:var(--background-secondary-alt);border-radius:4px;padding:2px 4px;margin-left:4px}.taglist.svelte-m9l3qf.svelte-m9l3qf{white-space:nowrap;text-overflow:ellipsis;padding-left:1em;overflow:hidden;display:inline-block;flex-shrink:2;flex-grow:1;width:auto;min-width:5em;text-align:right}.taglist.svelte-m9l3qf span.svelte-m9l3qf{color:var(--nav-item-color)}.tagfolder-titletagname.svelte-m9l3qf.svelte-m9l3qf{flex-grow:1;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tagfolder-quantity.svelte-m9l3qf span.svelte-m9l3qf{background-color:var(--background-secondary-alt);color:var(--nav-item-color);border-radius:4px;padding:2px 4px}.tagfolder-quantity.svelte-m9l3qf.svelte-m9l3qf{width:3em;text-align:right;cursor:pointer;margin-left:auto}.tag-folder-title.svelte-m9l3qf.svelte-m9l3qf{max-width:100%}.nav-folder-title.svelte-m9l3qf:hover .tagfolder-quantity.svelte-m9l3qf,.nav-file-title.svelte-m9l3qf:hover .taglist.svelte-m9l3qf{color:var(--text-on-accent)}.nav-folder-title.svelte-m9l3qf:hover .tagfolder-quantity span.svelte-m9l3qf,.nav-file-title.svelte-m9l3qf:hover .taglist .tags.svelte-m9l3qf{color:var(--text-on-accent);background-color:var(--interactive-accent-hover)}");
 }
 function get_each_context_2(ctx, list, i) {
   const child_ctx = ctx.slice();
@@ -1258,11 +1262,11 @@ function create_if_block_4(ctx) {
       for (let i = 0; i < each_blocks.length; i += 1) {
         each_blocks[i].c();
       }
-      attr(div0, "class", "nav-file-title-content lsl-f svelte-ner10q");
-      attr(div1, "class", "taglist svelte-ner10q");
-      attr(div2, "class", "nav-file-title svelte-ner10q");
+      attr(div0, "class", "tree-item-inner nav-file-title-content lsl-f svelte-m9l3qf");
+      attr(div1, "class", "taglist svelte-m9l3qf");
+      attr(div2, "class", "tree-item-self is-clickable nav-file-title svelte-m9l3qf");
       toggle_class(div2, "is-active", ctx[14]);
-      attr(div3, "class", "nav-file");
+      attr(div3, "class", "tree-item nav-file");
     },
     m(target, anchor) {
       insert(target, div3, anchor);
@@ -1356,14 +1360,15 @@ function create_if_block_2(ctx) {
       t3 = space();
       if (if_block)
         if_block.c();
-      attr(div0, "class", "nav-folder-collapse-indicator collapse-icon");
-      attr(div1, "class", "tagfolder-titletagname svelte-ner10q");
-      attr(span, "class", "itemscount svelte-ner10q");
-      attr(div2, "class", "tagfolder-quantity itemscount svelte-ner10q");
-      attr(div3, "class", "nav-folder-title-content lsl-f svelte-ner10q");
-      attr(div4, "class", "nav-folder-title tag-folder-title svelte-ner10q");
+      attr(div0, "class", "tree-item-icon collapse-icon nav-folder-collapse-indicator");
+      toggle_class(div0, "is-collapsed", ctx[9]);
+      attr(div1, "class", "tagfolder-titletagname svelte-m9l3qf");
+      attr(span, "class", "itemscount svelte-m9l3qf");
+      attr(div2, "class", "tagfolder-quantity itemscount svelte-m9l3qf");
+      attr(div3, "class", "tree-item-inner nav-folder-title-content lsl-f svelte-m9l3qf");
+      attr(div4, "class", "tree-item-self is-clickable mod-collapsible nav-folder-title tag-folder-title svelte-m9l3qf");
       toggle_class(div4, "is-active", ctx[0].children && ctx[9] && ctx[14]);
-      attr(div5, "class", "nav-folder");
+      attr(div5, "class", "tree-item nav-folder");
       toggle_class(div5, "is-collapsed", ctx[9]);
     },
     m(target, anchor) {
@@ -1401,6 +1406,9 @@ function create_if_block_2(ctx) {
       if (!current || dirty[0] & 64)
         div0.innerHTML = ctx[6];
       ;
+      if (!current || dirty[0] & 512) {
+        toggle_class(div0, "is-collapsed", ctx[9]);
+      }
       if (!current || dirty[0] & 65536)
         div1.innerHTML = ctx[16];
       ;
@@ -1515,7 +1523,7 @@ function create_each_block_2(ctx) {
     c() {
       span = element("span");
       t = text(t_value);
-      attr(span, "class", "tags svelte-ner10q");
+      attr(span, "class", "tags svelte-m9l3qf");
     },
     m(target, anchor) {
       insert(target, span, anchor);
@@ -1548,7 +1556,7 @@ function create_if_block_3(ctx) {
       for (let i = 0; i < each_blocks.length; i += 1) {
         each_blocks[i].c();
       }
-      attr(div, "class", "nav-folder-children");
+      attr(div, "class", "tree-item-children nav-folder-children");
     },
     m(target, anchor) {
       insert(target, div, anchor);
@@ -2548,15 +2556,13 @@ function create_fragment4(ctx) {
   let t2;
   let t3;
   let t4;
-  let div9;
   let div8;
-  let div6;
+  let div7;
+  let div5;
   let div4;
   let t5;
-  let div5;
   let t6;
-  let t7;
-  let div7;
+  let div6;
   let current;
   let mounted;
   let dispose;
@@ -2588,15 +2594,13 @@ function create_fragment4(ctx) {
       if (if_block2)
         if_block2.c();
       t4 = space();
-      div9 = element("div");
       div8 = element("div");
-      div6 = element("div");
-      div4 = element("div");
-      t5 = space();
-      div5 = element("div");
-      t6 = text(ctx[21]);
-      t7 = space();
       div7 = element("div");
+      div5 = element("div");
+      div4 = element("div");
+      t5 = text(ctx[21]);
+      t6 = space();
+      div6 = element("div");
       for (let i = 0; i < each_blocks.length; i += 1) {
         each_blocks[i].c();
       }
@@ -2605,12 +2609,11 @@ function create_fragment4(ctx) {
       attr(div1, "aria-label", "New note");
       attr(div2, "class", "nav-buttons-container tagfolder-buttons-container");
       attr(div3, "class", "nav-header");
-      attr(div4, "class", "nav-folder-collapse-indicator collapse-icon");
-      attr(div5, "class", "nav-folder-title-content");
-      attr(div6, "class", "nav-folder-title");
-      attr(div7, "class", "nav-folder-children");
-      attr(div8, "class", "nav-folder mod-root");
-      attr(div9, "class", "nav-files-container svelte-1xm87ro");
+      attr(div4, "class", "tree-item-inner nav-folder-title-content");
+      attr(div5, "class", "tree-item-self nav-folder-title");
+      attr(div6, "class", "tree-item-children nav-folder-children");
+      attr(div7, "class", "tree-item nav-folder mod-root");
+      attr(div8, "class", "nav-files-container node-insert-event svelte-1xm87ro");
     },
     m(target, anchor) {
       insert(target, div0, anchor);
@@ -2630,17 +2633,15 @@ function create_fragment4(ctx) {
       if (if_block2)
         if_block2.m(target, anchor);
       insert(target, t4, anchor);
-      insert(target, div9, anchor);
-      append(div9, div8);
-      append(div8, div6);
-      append(div6, div4);
-      append(div6, t5);
-      append(div6, div5);
-      append(div5, t6);
-      append(div8, t7);
+      insert(target, div8, anchor);
       append(div8, div7);
+      append(div7, div5);
+      append(div5, div4);
+      append(div4, t5);
+      append(div7, t6);
+      append(div7, div6);
       for (let i = 0; i < each_blocks.length; i += 1) {
-        each_blocks[i].m(div7, null);
+        each_blocks[i].m(div6, null);
       }
       current = true;
       if (!mounted) {
@@ -2693,7 +2694,7 @@ function create_fragment4(ctx) {
         if_block2 = null;
       }
       if (!current || dirty[0] & 2097152)
-        set_data(t6, ctx[21]);
+        set_data(t5, ctx[21]);
       if (dirty[0] & 1081919) {
         each_value = ctx[0];
         let i;
@@ -2706,7 +2707,7 @@ function create_fragment4(ctx) {
             each_blocks[i] = create_each_block3(child_ctx);
             each_blocks[i].c();
             transition_in(each_blocks[i], 1);
-            each_blocks[i].m(div7, null);
+            each_blocks[i].m(div6, null);
           }
         }
         group_outros();
@@ -2750,7 +2751,7 @@ function create_fragment4(ctx) {
       if (detaching)
         detach(t4);
       if (detaching)
-        detach(div9);
+        detach(div8);
       destroy_each(each_blocks, detaching);
       mounted = false;
       dispose();
@@ -2814,7 +2815,7 @@ function instance4($$self, $$props, $$invalidate) {
     }
   }
   let iconDivEl;
-  let documentIcon = "";
+  let newNoteIcon = "";
   let folderIcon = "";
   let upAndDownArrowsIcon = "";
   let stackedLevels = "";
@@ -2823,8 +2824,8 @@ function instance4($$self, $$props, $$invalidate) {
   onMount(async () => {
     (0, import_obsidian3.setIcon)(iconDivEl, "right-triangle");
     $$invalidate(15, folderIcon = `${iconDivEl.innerHTML}`);
-    (0, import_obsidian3.setIcon)(iconDivEl, "document");
-    $$invalidate(14, documentIcon = `${iconDivEl.innerHTML}`);
+    (0, import_obsidian3.setIcon)(iconDivEl, "lucide-edit");
+    $$invalidate(14, newNoteIcon = `${iconDivEl.innerHTML}`);
     if (isMainTree) {
       (0, import_obsidian3.setIcon)(iconDivEl, "lucide-sort-asc");
       $$invalidate(16, upAndDownArrowsIcon = iconDivEl.innerHTML);
@@ -2906,7 +2907,7 @@ function instance4($$self, $$props, $$invalidate) {
     search,
     showSearch,
     iconDivEl,
-    documentIcon,
+    newNoteIcon,
     folderIcon,
     upAndDownArrowsIcon,
     stackedLevels,
@@ -3037,11 +3038,11 @@ var TagFolderViewBase = class extends import_obsidian5.ItemView {
               if (newSetting == this.plugin.settings.sortTypeTag) {
                 item2.setIcon("checkmark");
               }
-              menu2.showAtMouseEvent(evt);
               return item2;
             });
           }
         }
+        menu2.showAtPosition({ x: evt.x, y: evt.y });
       });
       return item;
     });
@@ -3062,11 +3063,11 @@ var TagFolderViewBase = class extends import_obsidian5.ItemView {
               if (newSetting == this.plugin.settings.sortType) {
                 item2.setIcon("checkmark");
               }
-              menu2.showAtMouseEvent(evt);
               return item2;
             });
           }
         }
+        menu2.showAtPosition({ x: evt.x, y: evt.y });
       });
       return item;
     });
@@ -3828,6 +3829,7 @@ var TagFolderPlugin = class extends import_obsidian6.Plugin {
       (leaf) => new ScrollView(leaf, this)
     );
     this.app.workspace.onLayoutReady(async () => {
+      await this.initView();
       if (this.settings.alwaysOpen) {
         await this.activateView();
       }
@@ -4009,15 +4011,22 @@ var TagFolderPlugin = class extends import_obsidian6.Plugin {
     root.children = [...root.children];
   }
   setRoot(root) {
-    var _a;
+    var _a, _b;
     rippleDirty(root);
     expandDescendants(root, this.settings.hideItems);
     this.snipEmpty(root);
     this.sortTree(root);
     if (this.settings.mergeRedundantCombination)
       this.mergeRedundantCombination(root);
+    if (this.settings.expandUntaggedToRoot) {
+      const untagged = (_a = root == null ? void 0 : root.children) == null ? void 0 : _a.find((e) => "tag" in e && e.tag == "_untagged");
+      if (untagged) {
+        root.children.push(...untagged.allDescendants.map((e) => ({ ...e, tags: [] })));
+        root.children.remove(untagged);
+      }
+    }
     this.root = root;
-    (_a = this.getView()) == null ? void 0 : _a.setTreeRoot(root);
+    (_b = this.getView()) == null ? void 0 : _b.setTreeRoot(root);
   }
   updateFileCaches(diff) {
     if (this.fileCaches.length == 0 || !diff) {
@@ -4105,6 +4114,8 @@ var TagFolderPlugin = class extends import_obsidian6.Plugin {
       }
       const w = searchItems.map((searchItem) => {
         let bx = false;
+        if (allTags2.length == 0)
+          return false;
         for (const search of searchItem) {
           if (search.startsWith("-")) {
             bx = bx || allTags2.some(
@@ -4210,9 +4221,6 @@ var TagFolderPlugin = class extends import_obsidian6.Plugin {
     await this.applyUpdateIntoScroll(diff);
   }
   onunload() {
-    this.app.workspace.detachLeavesOfType(VIEW_TYPE_TAGFOLDER);
-    this.app.workspace.detachLeavesOfType(VIEW_TYPE_TAGFOLDER_LIST);
-    this.app.workspace.detachLeavesOfType(VIEW_TYPE_SCROLL);
   }
   async openScrollView(leaf, title, tagPath, files) {
     if (!leaf) {
@@ -4288,16 +4296,29 @@ var TagFolderPlugin = class extends import_obsidian6.Plugin {
       }
     }
   }
-  async activateView() {
+  async initView() {
     this.loadFileInfo();
-    this.app.workspace.detachLeavesOfType(VIEW_TYPE_TAGFOLDER);
-    await this.app.workspace.getLeftLeaf(false).setViewState({
-      type: VIEW_TYPE_TAGFOLDER,
-      active: true
-    });
-    this.app.workspace.revealLeaf(
-      this.app.workspace.getLeavesOfType(VIEW_TYPE_TAGFOLDER)[0]
-    );
+    const leaves = this.app.workspace.getLeavesOfType(VIEW_TYPE_TAGFOLDER);
+    if (leaves.length == 0) {
+      await this.app.workspace.getLeftLeaf(false).setViewState({
+        type: VIEW_TYPE_TAGFOLDER,
+        active: true
+      });
+    } else {
+      leaves[0].setViewState({
+        type: VIEW_TYPE_TAGFOLDER,
+        active: true
+      });
+    }
+  }
+  async activateView() {
+    const leaves = this.app.workspace.getLeavesOfType(VIEW_TYPE_TAGFOLDER);
+    await this.initView();
+    if (leaves.length > 0) {
+      this.app.workspace.revealLeaf(
+        leaves[0]
+      );
+    }
   }
   async modifyFile(file) {
     if (!this.settings.useTagInfo)
@@ -4464,7 +4485,7 @@ var TagFolderSettingTab = class extends import_obsidian6.PluginSettingTab {
     containerEl.empty();
     containerEl.createEl("h2", { text: "Settings for TagFolder" });
     containerEl.createEl("h3", { text: "Behavior" });
-    new import_obsidian6.Setting(containerEl).setName("Always Open").setDesc("Open TagFolder automatically when obsidian has been launched").addToggle(
+    new import_obsidian6.Setting(containerEl).setName("Always Open").setDesc("Place TagFolder on the left pane and activate it at every Obsidian launch").addToggle(
       (toggle) => toggle.setValue(this.plugin.settings.alwaysOpen).onChange(async (value) => {
         this.plugin.settings.alwaysOpen = value;
         await this.plugin.saveSettings();
@@ -4610,6 +4631,12 @@ var TagFolderSettingTab = class extends import_obsidian6.PluginSettingTab {
     new import_obsidian6.Setting(containerEl).setName("Reduce duplicated parents in nested tags").setDesc("If enabled, #web/css, #web/javascript will merged into web -> css -> javascript").addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.reduceNestedParent).onChange(async (value) => {
         this.plugin.settings.reduceNestedParent = value;
+        await this.plugin.saveSettings();
+      });
+    });
+    new import_obsidian6.Setting(containerEl).setName("Keep untagged items on the root").addToggle((toggle) => {
+      toggle.setValue(this.plugin.settings.expandUntaggedToRoot).onChange(async (value) => {
+        this.plugin.settings.expandUntaggedToRoot = value;
         await this.plugin.saveSettings();
       });
     });

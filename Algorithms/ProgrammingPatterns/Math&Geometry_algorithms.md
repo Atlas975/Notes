@@ -35,7 +35,7 @@ def rotate(self, matrix: List[List[int]]) -> None:
             matrix[l][l + i] = matrix[r - i][l]
             matrix[r - i][l] = matrix[r][r - i]
             matrix[r][r - i] = matrix[l + i][r]
-            matrix[l + i][r] = tleft
+            matrix[l + i][r] = tleftı
         r -= 1
         l += 1
 ```

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ad24de2f93f4f6e9",
+        "id": "d9c8dfd11eeace81",
         "type": "tabs",
         "children": [
           {
-            "id": "48b12b7b0e4ba014",
+            "id": "9abfb41d9a0364d5",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -16,249 +16,7 @@
             }
           },
           {
-            "id": "99bc1386bdbf2c56",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3d0d9a9abc9c08c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/SortAlgorithms/Patience_sort.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "77a13518baf0f5e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DataStructures/CacheStructures/LRU.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "204792c277293bc8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c195b1b32b43702c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8f72330018c0bf5b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DataStructures/BinaryHeaps.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a67562eecd7f73da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/SearchAlgorithms/Prims_algorithm.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a58e7bec7f1bc4a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bb948a9ad0a47382",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DataStructures/Graphs.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3494889f1164e487",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/SearchAlgorithms/Search_algorithms.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "62fd9c40f1d8359d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Binary_search.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1627d4f034f97d72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a5ba0d791d602a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a77e5cd71ae94709",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/SortAlgorithms/Selection_sort.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c6df1d82881084e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/SortAlgorithms/Topological_sort.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2279468308b84d02",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "9e9f3fb3200a0bb1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/Bisect_algorithm.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "54e745957bd4d631",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8e5aac257111509f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/SortAlgorithms/Sorting_algorithms.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fee1eb7b58a884c3",
+            "id": "e956fdef905f9f90",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -269,35 +27,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "0fdb16c322d985fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/SortAlgorithms/Patience_sort.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "07a9588740257d3c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/Multi-Process_systems.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 18
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -309,7 +41,7 @@
       {
         "id": "686f58e7afd14325",
         "type": "tabs",
-        "dimension": 61.75413371675054,
+        "dimension": 72.94250281848929,
         "children": [
           {
             "id": "61b6b073dac95afd",
@@ -327,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Physology",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -337,52 +69,35 @@
             }
           },
           {
-            "id": "e23c00221c93b3b2",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "74a1d7b4722b06c3",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
             "id": "d10fc8b81a0120b7",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "4551ace807986438",
+            "type": "leaf",
+            "state": {
+              "type": "tagfolder-view",
+              "state": {}
+            }
           }
         ]
       },
       {
-        "id": "e76f9604c96a6f00",
+        "id": "3c8c11216e62f58c",
         "type": "tabs",
-        "dimension": 38.24586628324946,
+        "dimension": 27.05749718151071,
         "children": [
           {
-            "id": "f9b0d2190b3ff51e",
+            "id": "f9ef0de97216c2fd",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Interval_algorithms.md"
+                "file": "Algorithms/SortAlgorithms/Merge_sort.md"
               }
             }
           }
@@ -401,52 +116,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f9ef0de97216c2fd",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Interval_algorithms.md"
-              }
-            }
-          },
-          {
-            "id": "84daf507dc2e1a52",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "81a789696c03e73d",
-            "type": "leaf",
-            "state": {
-              "type": "graph-analysis",
-              "state": {}
-            }
-          },
-          {
-            "id": "c32bcce81a7d03bd",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "19b3ca56c64da146",
-            "type": "leaf",
-            "state": {
-              "type": "Saved Queries View",
-              "state": {}
-            }
-          },
-          {
             "id": "9863ed448e0c5948",
             "type": "leaf",
             "state": {
@@ -457,12 +126,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 339.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -479,36 +147,38 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "54e745957bd4d631",
+  "active": "e956fdef905f9f90",
   "lastOpenFiles": [
-    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
-    "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
-    "DataStructures/Graphs.md",
-    "Algorithms/ProgrammingPatterns/Binary_search.md",
-    "Algorithms/SearchAlgorithms/Search_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Two_pointers.md",
+    "OperatingSystems/FileSystems/File_allocation_schemes.md",
+    "OperatingSystems/FileSystems/New_technology_file_system.md",
+    "OperatingSystems/Input&Output_systems.md",
+    "OperatingSystems/FileSystems/FAT_file_system.md",
+    "Algorithms/SortAlgorithms/Quick_sort.md",
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Sliding_window.md",
-    "Algorithms/ProgrammingPatterns/3sum.md",
-    "DataStructures/ChatGPT.md",
-    "Algorithms/Bisect_algorithm.md",
-    "Algorithms/SortAlgorithms/Patience_sort.md",
-    "Algorithms/SortAlgorithms/Selection_sort.md",
-    "DataStructures/CacheStructures/LFU.md",
-    "Algorithms/SortAlgorithms/Merge_sort.md",
-    "Algorithms/SortAlgorithms/Sorting_algorithms.md",
+    "ProgramLanguages/C_language.md",
     "Algorithms/Union_find.md",
-    "Algorithms/AlgorithmConcepts/Graph_traversal.md",
-    "Algorithms/AlgorithmConcepts/Algorithm_fundamentals.md",
-    "Algorithms/SortAlgorithms/Topological_sort.md",
-    "XX-Attachments/Images/Pasted image 20230526205657.png",
+    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
+    "Algorithms/Bisect_algorithm.md",
+    "Algorithms/SortAlgorithms/Sorting_algorithms.md",
+    "Algorithms/SortAlgorithms/Selection_sort.md",
+    "Algorithms/SortAlgorithms/Merge_sort.md",
+    "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+    "OperatingSystems/Processors.md",
+    "OperatingSystems/Page_replacement.md",
+    "Algorithms/SortAlgorithms/Patience_sort.md",
+    "SoftwareEngineering/Multiagent_systems.md",
     "OperatingSystems/Multi-Process_systems.md",
+    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
+    "DataStructures/CacheStructures/LRU.md",
+    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
+    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
+    "DataStructures/BinaryHeaps.md",
+    "XX-Attachments/Images/Home work 3 SOLUTIONS 2021-2022.pdf",
+    "XX-Attachments/Images/Data_communications_HW.pdf",
+    "XX-Attachments/Images/Pasted image 20230526205657.png",
     "XX-Attachments/Images/Pasted image 20230526205122.png",
-    "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "XX-Attachments/Images/Pasted image 20230520221634.png",
     "XX-Attachments/Images/Pasted image 20230514121608.png",
     "XX-Attachments/Images/Pasted image 20230514121459.png",
@@ -524,8 +194,6 @@
     "Algorithms/HashAlgorithms",
     "Algorithms/SortAlgorithms",
     "XX-Attachments/Images/AdilW_Resume.docx",
-    "Algorithms/SearchAlgorithms",
-    "ProgramLanguages/SQL/SQLversions",
-    "XX-Attachments/Images/Home work 3 SOLUTIONS 2021-2022.pdf"
+    "Algorithms/SearchAlgorithms"
   ]
 }

@@ -52,7 +52,8 @@
   "devMode": false,
   "templateFolderPath": "",
   "announceUpdates": true,
-  "version": "0.23.0",
+  "version": "1.0.2",
+  "disableOnlineFeatures": true,
   "ai": {
     "OpenAIApiKey": "",
     "defaultModel": "Ask me",

@@ -4,7 +4,7 @@
   "textFontFamily": "Source Sans Pro,Roboto,Calibri,Arial",
   "monospaceFontFamily": "JetBrains Mono",
   "theme": "obsidian",
-  "interfaceFontFamily": "Source Sans Pro,Roboto,JetBrains Mono",
+  "interfaceFontFamily": "Source Sans Pro,JetBrains Mono,Roboto",
   "baseFontSizeAction": false,
   "translucency": false,
   "accentColor": "#8fbcbb",
