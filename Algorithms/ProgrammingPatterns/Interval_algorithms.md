@@ -13,21 +13,21 @@
 > ```
 
 ___
-# Interval algorithms 
+# Interval algorithms
 
-## Insert intervals 
+## Insert intervals
 ```python
 def insert(self, intervals, newInterval) -> List[List[int]]:
     res = []
 
     for i, curr in enumerate(intervals):
-        if curr[1] < newInterval[0]:
+        if curr[1] < newInterval[0]: # new interval comes after
             res.append(curr)
-        elif curr[0] > newInterval[1]:
+        elif curr[0] > newInterval[1]: # empty spot for interval exists
             res.append(newInterval)
             res.extend(intervals[i:])
             return res
-        else:
+        else: # cur[0] <= newInterval[1] & cur[1] >= newinterval[0]
             newInterval = (
                 min(curr[0], newInterval[0]),
                 max(curr[1], newInterval[1]),
@@ -35,8 +35,6 @@ def insert(self, intervals, newInterval) -> List[List[int]]:
     res.append(newInterval)
     return res
 ```
-
-
 ## Merge intervals
 ```python
 def merge(self, intervals: List[List[int]]) -> List[List[int]]:
@@ -52,7 +50,7 @@ def merge(self, intervals: List[List[int]]) -> List[List[int]]:
     return res
 ```
 
-## Non-overlapping intervals 
+## Non-overlapping intervals
 
 ```python
 def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:
@@ -67,18 +65,14 @@ def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:
     return res
 ```
 
-## Meeting rooms 
+## Meeting rooms
 ```python
-def canAttendMeetings(self, intervals):
+def canAttendMeetings(self, intervals: List[List[int]]) -> bool:
     intervals.sort(key=lambda i: i[0])
-    for i in range(1, len(intervals)):
-        i1, i2 = intervals[i - 1], intervals[i]
-        if i1[1] > i2[0]:
-            return False
-    return True
+    return all(m1[1] <= m2[0] for m1, m2 in zip(intervals, intervals[1:]))
 ```
 
-## Minimum  meeting rooms 
+## Minimum meeting rooms
 ```python
 def min_meeting_rooms(self, intervals: List[List[int]]) -> int:
     staptrs = sorted(m[0] for m in intervals)
@@ -97,7 +91,7 @@ def min_meeting_rooms(self, intervals: List[List[int]]) -> int:
     return mxrooms
 ```
 
-## Interval list intersection 
+## Interval list intersection
 ```python
 def intervalIntersection(self, firstList, secondList) -> List[List[int]]:
     if not firstList or not secondList:
@@ -120,5 +114,3 @@ def intervalIntersection(self, firstList, secondList) -> List[List[int]]:
             
     return res
 ```
-
-

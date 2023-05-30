@@ -27,9 +27,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dc5edf64fcc0eede",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/Paging.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c19b6916770c9292",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -97,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/SortAlgorithms/Merge_sort.md"
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
               }
             }
           }
@@ -147,8 +173,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e956fdef905f9f90",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
+    "OperatingSystems/Paging.md",
+    "Algorithms/SortAlgorithms/Merge_sort.md",
     "OperatingSystems/FileSystems/File_allocation_schemes.md",
     "OperatingSystems/FileSystems/New_technology_file_system.md",
     "OperatingSystems/Input&Output_systems.md",
@@ -162,7 +191,6 @@
     "Algorithms/Bisect_algorithm.md",
     "Algorithms/SortAlgorithms/Sorting_algorithms.md",
     "Algorithms/SortAlgorithms/Selection_sort.md",
-    "Algorithms/SortAlgorithms/Merge_sort.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "OperatingSystems/Processors.md",
@@ -173,8 +201,6 @@
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "DataStructures/CacheStructures/LRU.md",
     "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
-    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
-    "DataStructures/BinaryHeaps.md",
     "XX-Attachments/Images/Home work 3 SOLUTIONS 2021-2022.pdf",
     "XX-Attachments/Images/Data_communications_HW.pdf",
     "XX-Attachments/Images/Pasted image 20230526205657.png",
