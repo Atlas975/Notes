@@ -34,6 +34,32 @@
             }
           },
           {
+            "id": "74ad965f4b369a4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "985fa503208ca5a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/Union_find.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "dc5edf64fcc0eede",
             "type": "leaf",
             "state": {
@@ -60,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -128,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Interval_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Greedy_algorithms.md"
               }
             }
           }
@@ -179,12 +205,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0d23367b58e974e4",
+  "active": "74ad965f4b369a4c",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
+    "Algorithms/Union_find.md",
+    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/SortAlgorithms/Merge_sort.md",
     "OperatingSystems/Paging.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
-    "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
     "OperatingSystems/FileSystems/File_allocation_schemes.md",
     "OperatingSystems/FileSystems/New_technology_file_system.md",
     "OperatingSystems/Input&Output_systems.md",
@@ -192,8 +220,6 @@
     "Algorithms/SortAlgorithms/Quick_sort.md",
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
     "ProgramLanguages/C_language.md",
-    "Algorithms/Union_find.md",
-    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "Algorithms/Bisect_algorithm.md",
     "Algorithms/SortAlgorithms/Sorting_algorithms.md",
