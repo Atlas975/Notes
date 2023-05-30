@@ -50,6 +50,20 @@ def jump(self, nums: List[int]) -> int:
     return res
 ```
 
+## Gas station
+```python
+def canCompleteCircuit(self, gas: list[int], cost: list[int]) -> int:
+    if sum(cost) > sum(gas): # can't make a round trip
+        return -1
+    l = tank = 0
+
+    for r, (co, ga) in enumerate(zip(cost, gas)):
+        tank += ga - co
+        if tank < 0: # gas is needed from earlier stations
+            tank = 0
+            l = r + 1
+    return l
+```
 ## Partition labels 
 ```python
 def partitionLabels(self, s: str) -> List[int]:
