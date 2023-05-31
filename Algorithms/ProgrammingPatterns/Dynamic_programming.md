@@ -234,7 +234,23 @@ def longestCommonSubsequence(self, text1: str, text2: str) -> int:
     return dp[-1][-1]
 ```
 
+## Buy and sell stock with cooldown 
+```python
+def maxProfit(self, prices: List[int]) -> int:
+    @cache
+    def dfs(i, stockheld):
+        if i >= len(prices):
+            return 0
+        skip = dfs(i + 1, stockheld)
 
+        if stockheld:
+            sell = dfs(i + 2, False) + prices[i]
+            return max(sell, skip)
+        buy = dfs(i + 1, True) - prices[i] 
+        return max(buy, skip)
+
+    return dfs(0, False)
+```
 ## Longest increasing path in matrix 
 ```python
 def longestIncreasingPath(self, matrix: List[List[int]]) -> int:
