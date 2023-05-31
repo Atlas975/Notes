@@ -86,6 +86,21 @@ def isNStraightHand(self, hand: List[int], groupSize: int) -> bool:
                 heapq.heappop(keypq)
     return True
 ```
+
+## Merge triplets to form target triplet
+```python
+def mergeTriplets(self, triplets: List[List[int]], target: List[int]) -> bool:
+    res = 0
+    for t in triplets:
+        if t[0] > target[0] or t[1] > target[1] or t[2] > target[2]:
+            continue  # skip overszied triplets
+        for i, v in enumerate(t):
+            if target[i] == v:
+                res |= 1 << i
+                if res == 7: # all 3 bits are set
+                    return True
+    return False
+```
 ## Partition labels 
 ```python
 def partitionLabels(self, s: str) -> List[int]:
