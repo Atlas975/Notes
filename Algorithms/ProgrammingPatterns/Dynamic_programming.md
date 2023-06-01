@@ -238,6 +238,18 @@ def longestCommonSubsequence(self, text1: str, text2: str) -> int:
 ## Buy and sell stock with cooldown 
 ```python
 def maxProfit(self, prices: List[int]) -> int:
+    # ITERATIVE O(1) SPACE
+    nstck = twodaypre = 0 # wo/ stock held maxprof, 2 day pre maxprof wo/ stock
+    stck = -prices[0] # w/ stock held maxprof
+
+    for p in prices[1:]:
+        tmp = nstck
+        nstck = max(nstck, stck + p)  # sell
+        stck = max(stck, twodaypre - p) # buy
+        twodaypre = tmp
+    return nstck
+
+    # RECURSIVE O(N) SPACE
     @cache
     def dfs(i, stockheld):
         if i >= len(prices):
@@ -247,9 +259,8 @@ def maxProfit(self, prices: List[int]) -> int:
         if stockheld:
             sell = dfs(i + 2, False) + prices[i]
             return max(sell, skip)
-        buy = dfs(i + 1, True) - prices[i] 
+        buy = dfs(i + 1, True) - prices[i]
         return max(buy, skip)
-
     return dfs(0, False)
 ```
 ## Longest increasing path in matrix 
