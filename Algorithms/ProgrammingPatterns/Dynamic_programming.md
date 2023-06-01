@@ -134,7 +134,7 @@ def numDecodings(self, s: str) -> int:
 ## Coing change 
 ```python
 def coinChange(self, coins: list[int], amount: int) -> int:
-    coins = [coin for coin in coins if coin <= amount]
+    coins = [c for c in coins if c <= amount]
     if len(coins) == 0:  # no coins needed if amt = 0, no coins available if amt > 0
         return 0 if amount == 0 else -1
     minc, maxc = min(coins), max(coins)
