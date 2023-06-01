@@ -192,12 +192,11 @@ def wordBreak(self, s: str, wordDict: List[str]) -> bool:
 
     for i in reversed(range(ns)):
         for wlen in wordmp:
-            if i + wlen > ns:
+            if (i + wlen > ns) or (s[i : i + wlen] not in wordmp[wlen]):
                 continue
-            if s[i : i + wlen] in wordmp[wlen]:
-                dp[i] = dp[i + wlen]
-                if dp[i]:
-                    break
+            dp[i] = dp[i + wlen]
+            if dp[i]:
+                break
     return dp[0]
 ```
 ## Longest increasing subsequence 
