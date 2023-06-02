@@ -66,14 +66,14 @@ class Trie:
 
 ## Design Add and Search Words Data Structure
 ```python
-class dictNode:
+class DictNode:
     def __init__(self):
-        self.children = defaultdict(dictNode)
+        self.children = defaultdict(DictNode)
         self.is_word = False
 
 class WordDictionary:
     def __init__(self):
-        self.root = dictNode()
+        self.root = DictNode()
         self.wordsze = set()
 
     def addWord(self, word: str) -> None:

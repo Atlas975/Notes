@@ -245,9 +245,17 @@
               "type": "Saved Queries View",
               "state": {}
             }
+          },
+          {
+            "id": "608fb9c28a7b204a",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
