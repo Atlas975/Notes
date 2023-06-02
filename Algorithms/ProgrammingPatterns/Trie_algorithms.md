@@ -66,15 +66,19 @@ class Trie:
 
 ## Design Add and Search Words Data Structure
 ```python
+class dictNode:
+    def __init__(self):
+        self.children = defaultdict(dictNode)
+        self.is_word = False
+
 class WordDictionary:
     def __init__(self):
+        self.root = dictNode()
         self.wordsze = set()
-        self.children= defaultdict(WordDictionary)
-        self.is_word = False
 
     def addWord(self, word: str) -> None:
         self.wordsze.add(len(word))
-        node = self
+        node = self.root
         for c in word:
             node = node.children[c]
         node.is_word = True
@@ -87,11 +91,10 @@ class WordDictionary:
                 return node.is_word
             if word[i] == ".":
                 return any(dfs(i + 1, v) for v in node.children.values())
-            if word[i] not in node.children:
-                return False
-            return dfs(i + 1, node.children[word[i]])
-
-        return (n in self.wordsze) and dfs(0, self)
+            if word[i] in node.children:
+                return dfs(i + 1, node.children[word[i]])
+            return False
+        return (n in self.wordsze) and dfs(0, self.root)
 ```
 ## Word search II
 ![[Trie_algorithms#Trie data structure]]
