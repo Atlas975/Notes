@@ -99,6 +99,19 @@
             }
           },
           {
+            "id": "03c7f808d67abf0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3826c33b13260f79",
             "type": "leaf",
             "state": {
@@ -112,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -276,15 +289,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "868cde89fe661d15",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
-    "OperatingSystems/Paging.md",
+    "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
+    "OperatingSystems/Paging.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "OperatingSystems/DigitalSystems/ASCII.md",
