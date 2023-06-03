@@ -66,35 +66,25 @@ class Trie:
 
 ## Design Add and Search Words Data Structure
 ```python
-class DictNode:
-    def __init__(self):
-        self.children = defaultdict(DictNode)
-        self.is_word = False
-
 class WordDictionary:
     def __init__(self):
-        self.root = DictNode()
-        self.wordsze = set()
+        self.triemp = {}  # len -> {char -> {char -> ...}}
 
     def addWord(self, word: str) -> None:
-        self.wordsze.add(len(word))
-        node = self.root
+        node = self.triemp.setdefault(len(word), {})
         for c in word:
-            node = node.children[c]
-        node.is_word = True
+            node = node.setdefault(c, {})
 
     def search(self, word: str) -> bool:
-        n = len(word)
-
         def dfs(i, node):
             if i == n:
-                return node.is_word
-            if word[i] == ".":
-                return any(dfs(i + 1, v) for v in node.children.values())
-            if word[i] in node.children:
-                return dfs(i + 1, node.children[word[i]])
-            return False
-        return (n in self.wordsze) and dfs(0, self.root)
+                return True
+            if (c := word[i]) == ".":
+                return any(dfs(i + 1, v) for v in node.values())
+            return (c in node) and dfs(i + 1, node[c])
+
+        n = len(word)
+        return (trie := self.triemp.get(n)) and dfs(0, trie)
 ```
 ## Word search II
 
