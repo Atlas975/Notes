@@ -291,6 +291,7 @@
   },
   "active": "61b6b073dac95afd",
   "lastOpenFiles": [
+    "Algorithms/SortAlgorithms/Merge_sort.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "OperatingSystems/Paging.md",
@@ -305,7 +306,6 @@
     "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
     "Algorithms/Union_find.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-    "Algorithms/SortAlgorithms/Merge_sort.md",
     "OperatingSystems/FileSystems/File_allocation_schemes.md",
     "OperatingSystems/FileSystems/New_technology_file_system.md",
     "OperatingSystems/Input&Output_systems.md",

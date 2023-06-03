@@ -97,38 +97,69 @@ class WordDictionary:
         return (n in self.wordsze) and dfs(0, self.root)
 ```
 ## Word search II
-![[Trie_algorithms#Trie data structure]]
 
 ```python
-class Solution:
-    def findWords(self, board, words) -> List[str]:
-        res = []
-        n, m = len(board), len(board[0])
-        root = Trie()
-        for word in words:
-            root.insert(word)
+class TrieNode:
+    def __init__(self):
+        self.children = {}
+        self.refcnt = 0
+        self.is_word = False
 
-        def bfs(word: str, node: Trie, r: int, c: int) -> None:
-            if node.end:
-                res.append(word)
-                root.remove(word)
+class Trie:
+    def __init__(self):
+        self.root = TrieNode()
 
-            board[r][c] = '#'
+    def insert(self, word):
+        node = self.root
+        for c in word:
+            node = node.children.setdefault(c, TrieNode())
+            node.refcnt += 1
+        node.is_word = True
 
-            for nr, nc in ((r - 1, c), (r + 1, c), (r, c - 1), (r, c + 1)):
-                if (
-                    0 <= nr < n
-                    and 0 <= nc < m
-                    and (nex := node.children.get(board[nr][nc]))
-                    and nex.refs > 0
-                ):
-                    bfs(word + board[nr][nc], nex, nr, nc)
+    def remove(self, word):
+        node = self.root
+        for i, c in enumerate(word):
+            parent = node
+            node = node.children[c]
 
-            board[r][c] = word[-1]
+            if node.refcnt == 1:
+                path = [(parent, c)]
+                for c in word[i + 1 :]:
+                    path.append((node, c))
+                    node = node.children[c]
+                for parent, c in path:
+                    parent.children.pop(c)
+                return
+            node.refcnt -= 1
+        node.is_word = False
 
-        for r, c in product(range(n), range(m)):
-            if node := root.children.get(board[r][c]):
-                bfs(board[r][c], node, r, c)
-        return res
+def findWords(self, board, words) -> List[str]:
+    res = []
+    n, m = len(board), len(board[0])
+    trie = Trie()
+    for word in words:
+        trie.insert(word)
+
+    def dfs(r, c, parent) -> None:
+        if (val := board[r][c]) not in parent.children:
+            return
+        node = parent.children[val]
+        path.append(val)
+        board[r][c] = "#"
+        if node.is_word:
+            word = "".join(path)
+            res.append(word)
+            trie.remove(word)
+
+        dfs(r - 1, c, node) if r > 0 else None
+        dfs(r + 1, c, node) if r < n - 1 else None
+        dfs(r, c - 1, node) if c > 0 else None
+        dfs(r, c + 1, node) if c < m - 1 else None
+        board[r][c] = path.pop()
+
+    path = []
+    for r, c in product(range(n), range(m)):
+        dfs(r, c, trie.root)
+    return res
 ```
 
