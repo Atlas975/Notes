@@ -94,17 +94,19 @@ class TrieNode:
         self.children = {}
         self.refcnt = 0
         self.is_word = False
+        self.is_rev = False
 
 class Trie:
     def __init__(self):
         self.root = TrieNode()
 
-    def insert(self, word):
+    def insert(self, word, rev):
         node = self.root
         for c in word:
             node = node.children.setdefault(c, TrieNode())
             node.refcnt += 1
         node.is_word = True
+        node.is_rev = rev
 
     def remove(self, word):
         node = self.root
@@ -127,18 +129,24 @@ def findWords(self, board, words) -> List[str]:
     res = []
     n, m = len(board), len(board[0])
     trie = Trie()
-    for word in words:
-        trie.insert(word)
+
+    boardcnt = Counter(chain(*board))
+    for w, wrdcnt in ((w, Counter(w)) for w in words):
+        if any(wrdcnt[c] > boardcnt[c] for c in wrdcnt):
+            continue
+        if wrdcnt[w[0]] < wrdcnt[w[-1]]: 
+            trie.insert(w, False)
+        else: # word more likely to be found from end
+            trie.insert(w[::-1], True)
 
     def dfs(r, c, parent) -> None:
-        if (val := board[r][c]) not in parent.children:
+        if not (node := parent.children.get(board[r][c])):
             return
-        node = parent.children[val]
-        path.append(val)
+        path.append(board[r][c])
         board[r][c] = "#"
         if node.is_word:
             word = "".join(path)
-            res.append(word)
+            res.append(word[::-1] if node.is_rev else word)
             trie.remove(word)
 
         dfs(r - 1, c, node) if r > 0 else None
