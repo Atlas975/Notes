@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -193,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
               }
             }
           }
@@ -228,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,7 +245,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,9 +291,9 @@
   },
   "active": "03c7f808d67abf0a",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "Algorithms/SortAlgorithms/Merge_sort.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
-    "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "OperatingSystems/Paging.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "Algorithms/ProgrammingPatterns/Stack_algorithms.md",

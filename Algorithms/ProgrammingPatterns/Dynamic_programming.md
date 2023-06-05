@@ -262,6 +262,19 @@ def maxProfit(self, prices: List[int]) -> int:
         return max(buy, skip)
     return dfs(0, False)
 ```
+
+## Coin change II
+```python
+def change(self, amount: int, coins: List[int]) -> int:
+    dp = [0] * (amount + 1)
+    dp[0] = 1
+
+    for c in coins: # can only use each coin once (combination)
+        for a in range(c, amount + 1):
+            dp[a] += dp[a - c]
+    return dp[amount]
+```
+
 ## Longest increasing path in matrix 
 ```python
 def longestIncreasingPath(self, matrix: List[List[int]]) -> int:
