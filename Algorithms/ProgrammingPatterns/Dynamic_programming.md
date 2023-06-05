@@ -275,6 +275,18 @@ def change(self, amount: int, coins: List[int]) -> int:
     return dp[amount]
 ```
 
+## Target sum **(permutations)**
+```python
+def findTargetSumWays(self, nums: List[int], target: int) -> int:
+    dp = {0: 1}
+    for num in nums:
+        tdp = defaultdict(int)
+        for s, cnt in dp.items():
+            tdp[s + num] += cnt
+            tdp[s - num] += cnt
+        dp = tdp
+    return dp.get(target, 0)
+```
 ## Longest increasing path in matrix 
 ```python
 def longestIncreasingPath(self, matrix: List[List[int]]) -> int:
