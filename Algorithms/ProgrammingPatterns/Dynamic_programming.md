@@ -317,20 +317,48 @@ def longestIncreasingPath(self, matrix: List[List[int]]) -> int:
     n, m = len(matrix), len(matrix[0])
     dp = [[None] * m for _ in range(n)]
 
-    def dfs(r, c, outbound=False, prev=float("-inf")):
-        if outbound or prev >= matrix[r][c]:
+    def dfs(r, c, prev=float("-inf")):
+        if prev >= matrix[r][c]:
             return 0
         if dp[r][c]:
             return dp[r][c]
-
-        cur = matrix[r][c]
         dp[r][c] = 1 + max(
-            dfs(r + 1, c, r == n - 1, cur),
-            dfs(r - 1, c, r == 0, cur),
-            dfs(r, c + 1, c == m - 1, cur),
-            dfs(r, c - 1, c == 0, cur),
+            dfs(r + 1, c, matrix[r][c]) if r < n - 1 else 0,
+            dfs(r - 1, c, matrix[r][c]) if r > 0 else 0,
+            dfs(r, c + 1, matrix[r][c]) if c < m - 1 else 0,
+            dfs(r, c - 1, matrix[r][c]) if c > 0 else 0,
         )
         return dp[r][c]
 
     return max(starmap(dfs, product(range(n), range(m))))
+```
+
+
+## Distinct subsequences 
+```python
+def numDistinct(self, s: str, t: str) -> int:
+    # ITERATIVE
+    sn, tn = len(s), len(t)
+    if sn < tn:
+        return 0
+    dp = [1] + ([0] * tn)
+
+    for i in range(sn - tn + 1):
+        for j in range(tn):
+            if s[i + j] == t[j]:
+                dp[j + 1] += dp[j]
+    return dp[-1]
+    
+    # RECURSIVE
+    @cache
+    def dfs(i, j):
+        if j == len(t):
+            return 1
+        if i == len(s):
+            return 0
+        include, skip = dfs(i + 1, j + 1), dfs(i + 1, j)
+        if s[i] == t[j]:
+            return include + skip
+        return skip
+    return dfs(0, 0)
 ```
