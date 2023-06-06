@@ -1,6 +1,7 @@
 ---
 aliases: DP
 ---
+
 > [!important|inIL]- Metadata
 > **Tags:** #ProgrammingPatterns 
 > **Located:** Algorithms/ProgrammingPatterns
@@ -17,7 +18,7 @@ aliases: DP
 
 ___
 # Dynamic programming
-## Climbing stairs 
+## Climbing stairs
 ```python
 def climbStairs(self, n: int) -> int:
     if n <= 3:
@@ -28,7 +29,7 @@ def climbStairs(self, n: int) -> int:
     return b
 ```
 
-## Min cost climbing stairs 
+## Min cost climbing stairs
 ```python
 def minCostClimbingStairs(self, cost: List[int]) -> int:
     a, b = cost[0], cost[1]
@@ -45,7 +46,7 @@ def rob(self, nums: List[int]) -> int:
     return b
 ```
 
-## House robber II 
+## House robber II
 ```python
 def rob(self, nums: List[int]) -> int:
     def rob_group(start, end):
@@ -131,7 +132,7 @@ def numDecodings(self, s: str) -> int:
     return dp[0]
 ```
 
-## Coing change 
+## Coing change
 ```python
 def coinChange(self, coins: list[int], amount: int) -> int:
     coins = [c for c in coins if c <= amount]
@@ -149,7 +150,7 @@ def coinChange(self, coins: list[int], amount: int) -> int:
         dp[a % n] = 1 + min(dp[(a - c) % n] for c in coins)
     return dp[amount % n] if dp[amount % n] != float("inf") else -1
 ```
-## Maximum product subarray 
+## Maximum product subarray
 ```python
 def maxProduct(self, nums: list[int]) -> int:
     a = b = res = nums[0]  # a: min, b: max
@@ -178,7 +179,7 @@ def canPartition(self, nums: List[int]) -> bool:
     nums.sort() # adding largest nums first speeds up dfs
     return dfs(len(nums) - 1, 0)
 ```
-## Word break 
+## Word break
 ```python
 def wordBreak(self, s: str, wordDict: List[str]) -> bool:
     ns = len(s)
@@ -198,7 +199,7 @@ def wordBreak(self, s: str, wordDict: List[str]) -> bool:
                 break
     return dp[0]
 ```
-## Longest increasing subsequence 
+## Longest increasing subsequence
 ```python
 def lengthOfLIS(self, nums: List[int]) -> int:
     dp = [nums[0]] # BINARY SEARCH (PATIENCE SORTING)
@@ -210,8 +211,8 @@ def lengthOfLIS(self, nums: List[int]) -> int:
             dp[i] = num  
     return len(dp)
 ```
-# 2D dynamic programming 
-## Unique paths 
+# 2D Dynamic programming
+## Unique paths
 ```python
 def uniquePaths(self, m: int, n: int) -> int:
     dp = [[1] * n for _ in range(m)]
@@ -219,7 +220,7 @@ def uniquePaths(self, m: int, n: int) -> int:
         dp[x][y] = dp[x - 1][y] + dp[x][y - 1]
     return dp[-1][-1]
 ```
-## Longest common subsequence 
+## Longest common subsequence
 ```python
 def longestCommonSubsequence(self, text1: str, text2: str) -> int:
     n1, n2 = len(text1), len(text2)
@@ -234,7 +235,7 @@ def longestCommonSubsequence(self, text1: str, text2: str) -> int:
     return dp[-1][-1]
 ```
 
-## Buy and sell stock with cooldown 
+## Buy and sell stock with cooldown
 ```python
 def maxProfit(self, prices: List[int]) -> int:
     # ITERATIVE O(1) SPACE
@@ -287,7 +288,30 @@ def findTargetSumWays(self, nums: List[int], target: int) -> int:
         dp = tdp
     return dp.get(target, 0)
 ```
-## Longest increasing path in matrix 
+
+## Interleaving string
+```python
+def isInterleave(self, s1: str, s2: str, s3: str) -> bool:
+    n1, n2, n3 = len(s1), len(s2), len(s3)
+    if n1 + n2 != n3:  # too many or too few characters
+        return False
+    invalid = set()
+
+    def dfs(i, j):
+        if (i, j) in invalid: # invalid leaf node
+            return False
+        if (
+            (i < n1 and s1[i] == s3[i + j] and dfs(i + 1, j))
+            or (j < n2 and s2[j] == s3[i + j] and dfs(i, j + 1))
+            or (i + j == n3)
+        ):
+            return True # no cache, result propagates up
+        invalid.add((i, j))
+        return False
+
+    return dfs(0, 0)
+```
+## Longest increasing path in matrix
 ```python
 def longestIncreasingPath(self, matrix: List[List[int]]) -> int:
     n, m = len(matrix), len(matrix[0])
