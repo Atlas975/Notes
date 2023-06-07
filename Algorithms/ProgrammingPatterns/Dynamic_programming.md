@@ -344,7 +344,7 @@ def numDistinct(self, s: str, t: str) -> int:
     dp = [1] + ([0] * tn)
 
     for i in range(sn - tn + 1):
-        for j in range(tn):
+        for j in range(tn): # sliding window 
             if s[i + j] == t[j]:
                 dp[j + 1] += dp[j]
     return dp[-1]
@@ -360,5 +360,43 @@ def numDistinct(self, s: str, t: str) -> int:
         if s[i] == t[j]:
             return include + skip
         return skip
+    return dfs(0, 0)
+```
+
+## Edit distance 
+```python
+def minDistance(self, word1: str, word2: str) -> int:
+    n1, n2 = len(word1), len(word2)
+    
+    # ITERATIVE
+    res = 0
+    q = deque([(0, 0)])
+    seen = set()
+
+    while q:
+        for i, j in (q.popleft() for _ in range(len(q))):
+            if (i, j) in seen:
+                continue
+            seen.add((i, j))
+            while i < n1 and j < n2 and word1[i] == word2[j]:
+                i += 1
+                j += 1
+            if i == n1 and j == n2:
+                return res
+            q.extend([(i + 1, j), (i, j + 1), (i + 1, j + 1)])
+        res += 1
+    return res
+
+    # RECURSIVE
+    @cache
+    def dfs(i, j):  # i, j are idx of start, target
+        if i == n1:
+            return n2 - j  # number of insertions needed
+        if j == n2:
+            return n1 - i  # number of deletions needed
+        if word1[i] == word2[j]:  # no operation needed
+            return dfs(i + 1, j + 1)
+        insr, dele, repl = dfs(i, j + 1), dfs(i + 1, j), dfs(i + 1, j + 1)
+        return 1 + min(insr, dele, repl)
     return dfs(0, 0)
 ```
