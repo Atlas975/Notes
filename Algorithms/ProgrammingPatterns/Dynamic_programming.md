@@ -164,6 +164,12 @@ def maxProduct(self, nums: list[int]) -> int:
 ## Partition equal subset sum **(0/1 knapsack)**
 ```python
 def canPartition(self, nums: List[int]) -> bool:
+    total = sum(nums)
+    if total % 2:
+        return False
+    target = total // 2
+    nums.sort() # adding largest nums first speeds up dfs
+
     @cache
     def dfs(i, cursum) -> bool:
         if cursum == target:
@@ -172,11 +178,6 @@ def canPartition(self, nums: List[int]) -> bool:
             return False
         return dfs(i - 1, cursum + nums[i]) or dfs(i - 1, cursum)
     
-    total = sum(nums)
-    if total % 2:
-        return False
-    target = total // 2
-    nums.sort() # adding largest nums first speeds up dfs
     return dfs(len(nums) - 1, 0)
 ```
 ## Word break

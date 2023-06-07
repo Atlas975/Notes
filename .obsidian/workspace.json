@@ -131,7 +131,7 @@
               "type": "markdown",
               "state": {
                 "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -206,7 +206,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "3c8c11216e62f58c",
@@ -227,7 +228,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5046501159668
+    "width": 259.5046501159668,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
