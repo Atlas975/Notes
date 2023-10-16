@@ -99,6 +99,19 @@
             }
           },
           {
+            "id": "8ba18c1f8f8aa78e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DistributedSystems/Distributed_systems.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "affb823d060f984e",
             "type": "leaf",
             "state": {
@@ -133,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -209,8 +222,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -308,12 +320,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "53764e387fa03091",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
+    "DistributedSystems/Remote_invocation.md",
+    "DistributedSystems/Distributed_systems.md",
     "XX-Attachments/Images/Pasted image 20231016184020.png",
     "DistributedSystems/Two_general_problem.md",
     "Networking/TransportProtocols/Transmission_control_protocol.md",
-    "DistributedSystems/Distributed_systems.md",
     "XX-Attachments/Images/Pasted image 20231016182410.png",
     "XX-Attachments/Images/Pasted image 20231016174945.png",
     "XX-Attachments/Images/Pasted image 20231016174919.png",
@@ -327,7 +340,6 @@
     "MachineLearning/ArtificialIntelligence/Artificial_intelligence.md",
     "DistributedSystems",
     "XX-Attachments/Images/Pasted image 20231015131521.png",
-    "XX-Attachments/Images/Pasted image 20231015130758.png",
     "Networking/RoutingAlgorithms/Link_state_routing.md",
     "Networking/Transmission_mediums.md",
     "Networking/Protocol_stack.md",
