@@ -26,5 +26,7 @@ ___
 	- **Byzantine** (fail-arbitrarily): node suffers from  arbitrary / malicious behaviours
 - [[Network_architecture|Networks]] themselves can also fail, as a result of this an error may not be immediately known by other nodes. Timeouts are typically used to handle this 
 
-## Failure modes
-- **Reliable** (perfect) links: messages received when sent, can still  
+## Network Failure modes
+- **Reliable** **links**: messages received when sent, can also be reordered ([[Routing_methods#Packet switching|packet switching]])
+- **Fair-loss** **links**: messages can be lost / duplicated / reorders but works eventually 
+- **Arbitrary links**: messages may receive interference (modify / drop / listen)
