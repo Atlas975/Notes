@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "f5cc7a2354c32f99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DistributedSystems/Two_general_problem.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d32cbb3b993617fa",
             "type": "leaf",
             "state": {
@@ -66,7 +79,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/Distributed_systems.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -107,7 +120,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Distributed_systems.md"
+                "file": "DistributedSystems/Two_general_problem.md"
               }
             }
           }
@@ -183,8 +196,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -211,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Distributed_systems.md",
+                "file": "DistributedSystems/Two_general_problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -228,7 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Distributed_systems.md",
+                "file": "DistributedSystems/Two_general_problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -282,11 +294,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "53764e387fa03091",
+  "active": "f5cc7a2354c32f99",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
+    "DistributedSystems/Distributed_systems.md",
+    "DistributedSystems/Two_general_problem.md",
+    "XX-Attachments/Images/Pasted image 20231016173851.png",
     "XX-Attachments/Images/Pasted image 20231016153805.png",
     "Networking/RoutingAlgorithms/Distance_vector_routing.md",
-    "DistributedSystems/Distributed_systems.md",
     "MachineLearning/ArtificialIntelligence/Artificial_intelligence.md",
     "DistributedSystems",
     "XX-Attachments/Images/Pasted image 20231015131521.png",
@@ -314,7 +329,6 @@
     "MediaCoding&Processing/Computer_vision.md",
     "MachineLearning/Neural_networks.md",
     "MachineLearning/Machine_learning_notation.md",
-    "MachineLearning/0-GeneralConcepts/Log_odds.md",
     "XX-Attachments/Images/Pasted image 20231012154636.png",
     "MediaCoding&Processing",
     "Algorithms/Trees",
@@ -323,10 +337,8 @@
     "XX-Attachments/Images/Pasted image 20230811220411.png",
     "XX-Attachments/Images/Pasted image 20230811220045.png",
     "LinearProgramming",
-    "XX-Attachments/Images/Pasted image 20230617004635.png",
     "XX-Attachments/Images/Home work 3 SOLUTIONS 2021-2022.pdf",
     "XX-Attachments/Images/Data_communications_HW.pdf",
-    "XX-Attachments/Images/Pasted image 20230526205657.png",
     "EmbeddedSystems/BinaryArithmetic",
     "EmbeddedSystems/LogicGates",
     "EmbeddedSystems"
