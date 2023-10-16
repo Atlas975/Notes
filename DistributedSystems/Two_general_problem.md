@@ -28,7 +28,9 @@ ___
 ![[Pasted image 20231016174534.png|450|450]]
 
 ## Wait for acknowledgement
-- G1 attacks only when ACK is received from G2
+- G1 attacks only when ACK is received from G2, single request sent
 - However, G2 may be captured if ACK takes too long from being delayed or intercepted 
 
 ![[Pasted image 20231016174732.png|450|450]]
+
+## TCP style verification 
