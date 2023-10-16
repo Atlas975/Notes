@@ -17,7 +17,7 @@ ___
 - Greedy algorithms always approach the immediate best option, ignoring its effect on the quality of future choices or outcome 
 - This is not guaranteed to result in the optimal outcome.
 - Examples include [[Selection_sort|selection sort]] and [[Dijkstras_shortest_path|Dijkstras shortest path]]
-## Maximum subarray 
+## Maximum subarray **(Kadane's algorithm)**
 ```python
 def maxSubArray(self, nums: List[int]) -> int:
     mxsub = cursum = nums[0]
@@ -107,13 +107,33 @@ def partitionLabels(self, s: str) -> List[int]:
     res = []
     lstidx = [0] * 26
     for i, c in enumerate(s):
-        lstidx[ord(c) - ord("a")] = i
+        lstidx[ord(c) - 97] = i
 
     l, r = 0, 0
     for i, c in enumerate(s):
-        r = max(r, lstidx[ord(c) - ord("a")])
+        r = max(r, lstidx[ord(c) - 97])
         if i == r:
             res.append(r - l + 1)
             l = r + 1
     return res
+```
+
+## Valid parenthesis string 
+```python
+def checkValidString(self, s: str) -> bool:
+    opmin = opmax = 0 # min/max number of open parens
+    for c in s:
+        match c:
+            case "(": # 1 more open paren allowed
+                opmin += 1
+                opmax += 1
+            case ")": # 1 less open paren allowed
+                if opmax == 0: # too many closing parens
+                    return False
+                opmin = max(opmin - 1, 0) # ok, treat as empty string
+                opmax -= 1
+            case _: # is *, can be either open or close 
+                opmin = max(opmin - 1, 0)
+                opmax += 1
+    return opmin == 0
 ```

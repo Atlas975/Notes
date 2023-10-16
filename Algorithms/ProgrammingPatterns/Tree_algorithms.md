@@ -13,127 +13,6 @@
 > ```
 
 ___
-# Tree traversal
-## Inorder traversal (left , mid, right)
-```python
-def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
-    res = []
-
-    # ITERATIVE
-    s = deque()
-    while root or s:
-        while root:
-            s.append(root)
-            root = root.left
-        root = s.pop()
-        res.append(root.val)
-        root = root.right
-        
-    # RECURSIVE
-    def traverse(node):
-        if not node:
-            return
-        traverse(node.left)
-        res.append(node.val)
-        traverse(node.right)
-    traverse(root)
-    
-    return res
-```
-
-## Preorder traversal (mid, left, right)
-```python
-def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
-    res = []
-    
-    # ITERATIVE 
-    if root is None:
-        return res
-    s = deque([root])
-    while s:
-        node = s.pop()
-        res.append(node.val)
-        if node.right:
-            s.append(node.right)
-        if node.left:
-            s.append(node.left)
-            
-    # RECURSIVE
-    def traverse(node):
-        if not node:
-            return
-        res.append(node.val)
-        traverse(node.left)
-        traverse(node.right)
-    traverse(root)
-
-    return res
-```
-
-## Postorder traversal (right, left, mid)
-```python
-def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
-    res = []
-    
-    # ITERATIVE 
-    s = deque()
-    while root or s:
-        while root:
-            s.append((root, False))
-            root = root.left
-        root, seen = s.pop()
-        if seen:
-            res.append(root.val)
-            root = None
-        else:
-            s.append((root, True))
-            root = root.right
-    
-    # RECRUSIVE
-    def traverse(node):
-        if not node:
-            return
-        traverse(node.left)
-        traverse(node.right)
-        res.append(node.val)
-    traverse(root)
-
-    return res
-```
-
-## Level order traversal **(BFS)**
-```python
-def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
-    res = []
-
-    # ITERATIVE 
-    if root is None:
-        return res
-    q = deque([root])
-    while q:
-        level = []
-        for _ in range(len(q)):
-            node = q.popleft()
-            level.append(node.val)
-            if node.left:
-                q.append(node.left)
-            if node.right:
-                q.append(node.right)
-        res.append(level)
-
-    # RECURSIVE 
-    def traverse(node, level):
-        if node is None:
-            return
-        if len(res) == level:
-            res.append([])
-        res[level].append(node.val)
-        traverse(node.left, level + 1)
-        traverse(node.right, level + 1)
-    traverse(root, 0)
-    
-    return res
-```
 
 # Tree algorithms
 ## Invert tree
@@ -163,9 +42,10 @@ def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
 ## Maximum depth of binary tree
 ```python
 def maxDepth(self, root: Optional[TreeNode]) -> int:
-    # ITERATIVE 
     if root is None:
         return 0
+
+    # ITERATIVE 
     mxdpth = 0
     s = deque([(root, 1)])
     while s:
@@ -178,7 +58,6 @@ def maxDepth(self, root: Optional[TreeNode]) -> int:
     return mxdpth
 
     # RECURSIVE 
-    if root is None: return 0
     return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
 ```
 ## Diameter of a binary tree
@@ -214,6 +93,31 @@ def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
     dfs(root)
     
     return mxdpth
+```
+## Number of good leaf nodes pairs 
+```python
+def countPairs(self, root: TreeNode, distance: int) -> int:
+    self.res = 0
+
+    def dfs(x):
+        if not x.left and not x.right:  # is leaf node
+            return {1: 1}
+        l = dfs(x.left) if x.left else {}
+        r = dfs(x.right) if x.right else {}
+
+        if l and r:  # distinct leaf nodes to join
+            for (d1, cnt1), (d2, cnt2) in product(l.items(), r.items()):
+                if d1 + d2 <= distance:
+                    self.res += cnt1 * cnt2
+
+        distmp = defaultdict(int)  # all leaf ditances added by 1
+        for d, cnt in chain(l.items(), r.items()):
+            if d + 1 <= distance:
+                distmp[d + 1] += cnt
+        return distmp
+
+    dfs(root)
+    return self.res
 ```
 ## Is same tree
 ```python
@@ -345,52 +249,28 @@ def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
 ## Count good nodes in binary tree 
 ```python
 def goodNodes(self, root: TreeNode) -> int:
-    # ITERATIVE
-    res = 0
-    s = deque([(root, float('-inf'))])
-    while s:
-        node, maxVal = s.pop()
-        if node.val >= maxVal:
-            res += 1
-            s.append((node.left, node.val)) if node.left else None
-            s.append((node.right, node.val)) if node.right else None
-        else:
-            s.append((node.left, maxVal)) if node.left else None
-            s.append((node.right, maxVal)) if node.right else None
-    return res
-
-    # RECURSIVE
-    def check(node, maxVal):
+    def dfs(node, maxVal):
         if node is None:
             return 0
         if node.val >= maxVal:
-            return 1 + check(node.left, node.val) + check(node.right, node.val)
-        return check(node.left, maxVal) + check(node.right, maxVal)
-    return 1 + check(root.left, root.val) + check(root.right, root.val)
+            return 1 + dfs(node.left, node.val) + dfs(node.right, node.val)
+        return dfs(node.left, maxVal) + dfs(node.right, maxVal)
+        
+    return dfs(root, float('-inf'))
 ```
 ## Validate binary search tree
 ```python
 def isValidBST(self, root: Optional[TreeNode]) -> bool:
-    # ITERATIVE
     s = deque([(root, float('-inf'), float('inf'))])
     while s:
-        node, lower, upper = s.pop()
-        if node.val <= lower or node.val >= upper:
+        node, l, r = s.pop()
+        if node.val <= l or node.val >= r:
             return False
         if node.left:
-            s.append((node.left, lower, node.val))
+            s.append((node.left, l, node.val))
         if node.right:
-            s.append((node.right, node.val, upper))
+            s.append((node.right, node.val, r))
     return True
-
-    # RECURSIVE
-    def dfs(node, l, r):
-        if node is None:
-            return True
-        if node.val <= l or node.val >= r: # tree has no duplicates
-            return False
-        return dfs(node.left, l, node.val) and dfs(node.right, node.val, r)
-    return dfs(root, float('-inf'), float('inf'))
 ```
 
 ## Kth smallest element in BST 
@@ -495,27 +375,55 @@ def maxPathSum(self, root: Optional[TreeNode]) -> int:
 ## Serialise and deserialise binary tree 
 ```python
 def serialize(self, root):
-        res = []
-        def postord(node):
-            if node is None:
-                res.append("#")
-                return
-            res.append(str(node.val))
-            postord(node.left)
-            postord(node.right)
+    res = []
+    def postord(node):
+        if node is None:
+            res.append("#")
+            return
+        res.append(str(node.val))
+        postord(node.left)
+        postord(node.right)
 
-        postord(root)
-        return ",".join(res)
+    postord(root)
+    return ",".join(res)
 
-    def deserialize(self, data):
-        def postord(serialiter):
-            val = next(serialiter)
-            if val == "#":
-                return None
-            node = TreeNode(int(val))
-            node.left = postord(serialiter)
-            node.right = postord(serialiter)
-            return node
+def deserialize(self, data):
+    def postord(serial):
+        val = next(serial)
+        if val == "#":
+            return None
+        node = TreeNode(int(val))
+        node.left = postord(serial)
+        node.right = postord(serial)
+        return node
 
-        return postord(iter(data.split(",")))
+    return postord(iter(data.split(",")))
+```
+
+## Collect coins in a tree
+```python
+def collectTheCoins(self, coins: List[int], edges: List[List[int]]) -> int:
+    n = len(coins)
+    tree = [set() for _ in range(n)]
+    for u, v in edges:
+        tree[u].add(v)
+        tree[v].add(u)
+
+    q = deque()
+    for u in range(n):
+        while len(tree[u]) == 1 and coins[u] == 0: # remove leaf with no coin
+            v = tree[u].pop()
+            tree[v].remove(u)
+            u = v
+        if len(tree[u]) == 1:
+            q.append(u)
+
+    for _ in range(2):  # at most dist 2 to collect coins
+        for u in (q.popleft() for _ in range(len(q))):
+            if tree[u]: # connection may be removed in previous iteration
+                v = tree[u].pop()
+                tree[v].remove(u)
+                if len(tree[v]) == 1:
+                    q.append(v)
+    return sum(len(ecnt) for ecnt in tree) # traveral cost to and from
 ```

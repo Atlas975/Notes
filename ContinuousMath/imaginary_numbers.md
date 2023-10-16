@@ -12,4 +12,4 @@ print(abs(i))
 ```
 
 
-![[Pasted image 20220814083852.png|450|450]]
+![[Pasted image 20220814083852.png|250|250]]

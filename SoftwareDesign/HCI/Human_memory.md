@@ -48,7 +48,7 @@ ___
 - Note that this is still fuzzy
 - Routine tasks may be influenced by perception biased expectation
 
-![[Pasted image 20221105154931.png|450|450]]
+![[Pasted image 20221105154931.png|250|250]]
 
 # Attention
 - Attention is what allocates cognitive resources to activities and tasks

@@ -1,10 +1,16 @@
+> [!important]- Metadata
+> **Tags:** #StatisticalLearning 
+> **Located:** MachineLearning
+> **Created:** 25/10/2022 - 11:02
+> ```dataviewjs
+> let f = dv.current().file;
+> let paths = new Set([...f.inlinks, ...f.outlinks].map(p => p.path).filter(p => !p.endsWith(".png")));
+> paths.delete(f.path);
+> dv.table(["Connections", "Tags"], [...paths].map(p => [dv.fileLink(p), dv.page(p).file.tags.join("")]));
+> ```
 
-
-
-# Logistic_regression
-** 20-06-2022  16:08 **    
-#StatisticalLearning [[Statistical_modeling]]
 ___
+# Logistic regression
 ## Sigmoid function
 The logistic curve (sigmoid):
 > $$ h(x)=\frac{1}{1+ e^{-y}}$$

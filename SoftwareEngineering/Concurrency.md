@@ -322,7 +322,6 @@ public class Driver {
     first.start();
     second.start();
     third.start();
-
     latch.await();
 
     System.out.println("Main has finished");

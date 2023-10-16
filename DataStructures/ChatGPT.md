@@ -12,4 +12,4 @@
 ___
 # ChatGPT
 ## Summary prompt
->Please provide a concise explanation for the topic I prompt, using four bullet points. Include key concepts, relevant information, and a layman's definition if available. Avoid unnecessary details and focus on essential points.
+>Please provide a concise explanation for the topic I prompt, using four bullet points. 

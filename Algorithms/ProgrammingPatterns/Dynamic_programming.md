@@ -18,48 +18,6 @@ aliases: DP
 
 ___
 # Dynamic programming
-## Climbing stairs
-```python
-def climbStairs(self, n: int) -> int:
-    if n <= 3:
-        return n
-    a, b = 2, 3
-    for _ in range(4, n + 1):
-        a, b = b, a + b
-    return b
-```
-
-## Min cost climbing stairs
-```python
-def minCostClimbingStairs(self, cost: List[int]) -> int:
-    a, b = cost[0], cost[1]
-    for c in cost[2:]:
-        a, b = b, min(a, b) + c
-    return min(a, b)
-```
-## House robber
-```python
-def rob(self, nums: List[int]) -> int:
-    a, b = 0, 0
-    for num in nums:
-        a, b = b, max(a + num, b)
-    return b
-```
-
-## House robber II
-```python
-def rob(self, nums: List[int]) -> int:
-    def rob_group(start, end):
-        a, b = 0, 0
-        for num in nums[start:end]:
-            a, b = b, max(a + num, b)
-        return b
-
-    n = len(nums)
-    if n < 2: return nums[0]
-    return max(rob_group(0, n - 1), rob_group(1, n))
-```
-
 ## Longest palindromic substring
 ```python
 def longestPalindrome(self, s: str) -> str:
@@ -114,6 +72,32 @@ def partition(self, s: str) -> List[List[str]]:
             if isPali(lsub):
                 dp.extend([[lsub] + rsub for rsub in dfs(r)])
         return dp
+    return dfs(0)
+```
+
+## Palindrome partition II 
+```python
+def minCut(self, s: str) -> int:
+    n = len(s)
+    if s == s[::-1]: # accerelation
+        return 0
+    def add_ends(l, r):
+        while l >= 0 and r < n and s[l] == s[r]:
+            graph[l].add(r + 1) # add a shortcut
+            l -= 1
+            r += 1
+
+    graph = [set() for _ in range(n)] #
+    for i in range(n):
+        graph[i].add(i + 1)
+        add_ends(i - 1, i + 1) # odd length
+        add_ends(i - 1, i) # even length
+
+    @cache
+    def dfs(i):
+        if n in graph[i]: # slice reaches the end
+            return 0
+        return 1 + min(map(dfs, graph[i]))
     return dfs(0)
 ```
 ## Decode ways
@@ -212,14 +196,47 @@ def lengthOfLIS(self, nums: List[int]) -> int:
             dp[i] = num  
     return len(dp)
 ```
+
+## Split a String Into the Max Number of Unique Substrings
+```python
+def maxUniqueSplit(self, s: str) -> int:
+    n = len(s)
+    seen = set()
+    self.res = 0
+
+    def dfs(i):
+        if i == n:
+            self.res = max(self.res, len(seen))
+            return
+        for j in range(i, n):
+            sub = s[i : j + 1]
+            if (sub not in seen) and (len(seen) + n - j > self.res):
+                seen.add(sub)
+                dfs(j + 1)
+                seen.remove(sub)
+    dfs(0)
+    return self.res
+```
+## Total appeal of a string
+```python
+def appealSum(self, s: str) -> int:
+    res = dp = 0
+    prepos = defaultdict(lambda: -1)
+
+    for i, c in enumerate(s):
+        dp += i - prepos[c] # window size that gets a new char
+        prepos[c] = i 
+        res += dp # add appeals 
+    return res
+```
 # 2D Dynamic programming
 ## Unique paths
 ```python
 def uniquePaths(self, m: int, n: int) -> int:
-    dp = [[1] * n for _ in range(m)]
-    for x, y in product(range(1, m), range(1, n)):
-        dp[x][y] = dp[x - 1][y] + dp[x][y - 1]
-    return dp[-1][-1]
+    dp = [1] * m
+    for x, y in product(range(1, n), range(1, m)):
+        dp[y] += dp[y - 1]
+    return dp[-1]
 ```
 ## Longest common subsequence
 ```python
@@ -296,19 +313,15 @@ def isInterleave(self, s1: str, s2: str, s3: str) -> bool:
     n1, n2, n3 = len(s1), len(s2), len(s3)
     if n1 + n2 != n3:  # too many or too few characters
         return False
-    invalid = set()
 
+    @cache
     def dfs(i, j):
-        if (i, j) in invalid: # invalid leaf node
-            return False
-        if (
-            (i < n1 and s1[i] == s3[i + j] and dfs(i + 1, j))
-            or (j < n2 and s2[j] == s3[i + j] and dfs(i, j + 1))
-            or (i + j == n3)
-        ):
-            return True # no cache, result propagates up
-        invalid.add((i, j))
-        return False
+        k = i + j # index in s3
+        return (
+            (i < n1 and s1[i] == s3[k] and dfs(i + 1, j))
+            or (j < n2 and s2[j] == s3[k] and dfs(i, j + 1))
+            or (k == n3) # successfullly interleaved
+        )
 
     return dfs(0, 0)
 ```
@@ -368,12 +381,11 @@ def numDistinct(self, s: str, t: str) -> int:
 ```python
 def minDistance(self, word1: str, word2: str) -> int:
     n1, n2 = len(word1), len(word2)
-    
+
     # ITERATIVE
     res = 0
     q = deque([(0, 0)])
     seen = set()
-
     while q:
         for i, j in (q.popleft() for _ in range(len(q))):
             if (i, j) in seen:
@@ -382,9 +394,14 @@ def minDistance(self, word1: str, word2: str) -> int:
             while i < n1 and j < n2 and word1[i] == word2[j]:
                 i += 1
                 j += 1
-            if i == n1 and j == n2:
-                return res
-            q.extend([(i + 1, j), (i, j + 1), (i + 1, j + 1)])
+            if i == n1: 
+                if j == n2:
+                    return res
+                q.append((i, j + 1)) # insert
+            elif j == n2:
+                q.append((i + 1, j)) # delete
+            else: # try insert, delete, replace
+                q.extend([(i, j + 1), (i + 1, j), (i + 1, j + 1)])
         res += 1
     return res
 
@@ -400,4 +417,83 @@ def minDistance(self, word1: str, word2: str) -> int:
         insr, dele, repl = dfs(i, j + 1), dfs(i + 1, j), dfs(i + 1, j + 1)
         return 1 + min(insr, dele, repl)
     return dfs(0, 0)
+```
+
+## Partition array for maximum  sum 
+```python
+def maxSumAfterPartitioning(self, arr: List[int], k: int) -> int:
+    n = len(arr)
+    dp = [0] * n
+    dp[0] = mxval = arr[0]
+
+    for i in range(1, k):
+        mxval = max(mxval, arr[i])
+        dp[i] = mxval * (i + 1)
+
+    for i in range(k, n):
+        cur = [0] * k
+        cur[0] = mxval = arr[i]
+
+        for j in range(1, k):
+            mxval = max(mxval, arr[i - j])
+            cur[j] = mxval * (j + 1)
+
+        dp[i] = max(cur[j] + dp[i - j - 1] for j in range(k))
+    return dp[-1]
+```
+## Regular expression matching 
+```python
+def isMatch(self, s: str, p: str) -> bool:
+    @cache
+    def dfs(i, j):
+        if j == -1:  # pattern is empty
+            return i == -1  # string should be empty for a match
+        if i == -1: # string is empty
+            return p[j] == "*" and dfs(i, j - 2)  # a * can match 0 char
+
+        if p[j] in (s[i], "."): 
+            return dfs(i - 1, j - 1)
+        if p[j] == "*":  # match 0, match 1+
+            return dfs(i, j - 2) or (p[j - 1] in (s[i], ".") and dfs(i - 1, j))
+        return False
+
+    return dfs(len(s) - 1, len(p) - 1)
+```
+
+# Fibonacci pattern 
+## Climbing stairs
+```python
+def climbStairs(self, n: int) -> int:
+    if n <= 3:
+        return n
+    a, b = 2, 3
+    for _ in range(4, n + 1):
+        a, b = b, a + b
+    return b
+```
+## Min cost climbing stairs
+```python
+def minCostClimbingStairs(self, cost: List[int]) -> int:
+    a, b = cost[0], cost[1]
+    for c in cost[2:]:
+        a, b = b, min(a, b) + c
+    return min(a, b)
+```
+## House robber
+```python
+def rob(self, nums: List[int]) -> int:
+    a, b = 0, 0
+    for num in nums:
+        a, b = b, max(a + num, b)
+    return b
+```
+## House robber III
+```python
+def rob(self, root: Optional[TreeNode]) -> int:
+    def dfs(node):
+        if not node:
+            return (0, 0) # (take, skip)
+        (la, lb), (ra, rb) = dfs(node.left), dfs(node.right)
+        return (node.val + lb + rb, max(la, lb) + max(ra, rb))
+    return max(dfs(root))
 ```

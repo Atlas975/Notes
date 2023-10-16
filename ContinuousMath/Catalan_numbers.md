@@ -23,8 +23,9 @@ ___
 $$ n = \text{total number of objects in the set}$$
 $$ r = \text{number of choosing objects from the set}$$
 
-- Permutations count resulting sets of ABCD and DABC as seperate
+- Permutations count resulting sets of ABCD and DABC as separate
 - Results in the number of ways to order n items in r ways
+
 
 ## Combinations
 

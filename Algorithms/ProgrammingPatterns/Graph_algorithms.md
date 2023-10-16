@@ -52,17 +52,18 @@ def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
     n, m = len(grid), len(grid[0])
 
     def dfs(r, c):
+        if grid[r][c] == 0:
+            return 0
         grid[r][c] = 0
-        return 1 + sum(
-            dfs(dr, dc)
-            for dr, dc in ((r + 1, c), (r - 1, c), (r, c + 1), (r, c - 1))
-            if 0 <= dr < n and 0 <= dc < m and grid[dr][dc]
+        return (
+            1
+            + (dfs(r + 1, c) if r < n - 1 else 0)
+            + (dfs(r - 1, c) if r > 0 else 0)
+            + (dfs(r, c + 1) if c < m - 1 else 0)
+            + (dfs(r, c - 1) if c > 0 else 0)
         )
 
-    return max(
-        (dfs(r, c) for r, c in product(range(n), range(m)) if grid[r][c]),
-        default=0,
-    )
+    return max(starmap(dfs, product(range(n), range(m))), default=0)
 ```
 
 ## Pacific Atlantic water flow **(path intersection)**
@@ -71,17 +72,17 @@ def pacificAtlantic(self, heights: List[List[int]]) -> List[List[int]]:
     n, m = len(heights), len(heights[0])
     pac, atc = set(), set()
 
-    def bfs(r, c, visited):
-        visited.add((r, c))
-        node = heights[r][c]
-        for dr, dc in ((r - 1, c), (r + 1, c), (r, c - 1), (r, c + 1)):
-            if (
-                0 <= dr < n
-                and 0 <= dc < m
-                and (dr, dc) not in visited
-                and heights[dr][dc] >= node
-            ):
-                bfs(dr, dc, visited)
+    def bfs(r, c, ocean):
+        ocean.add((r, c))
+        for nr, nc, outbound in (
+            (r - 1, c, r == 0),
+            (r + 1, c, r == n - 1),
+            (r, c - 1, c == 0),
+            (r, c + 1, c == m - 1),
+        ):
+            if outbound or heights[nr][nc] < heights[r][c] or (nr, nc) in ocean:
+                continue
+            bfs(nr, nc, ocean)
 
     for r in range(n):
         bfs(r, 0, pac)
@@ -127,22 +128,28 @@ def orangesRotting(self, grid: List[List[int]]) -> int:
     q = deque()
     fresh = time = 0
 
-    for r,c in product(range(n), range(m)):
+    for r, c in product(range(n), range(m)):
         if grid[r][c] == 1:
             fresh += 1
         elif grid[r][c] == 2:
             q.append((r, c))
 
-    while fresh and q:
-        for _ in range(len(q)):
-            r, c = q.popleft()
-            for dr, dc in ((r - 1, c), (r + 1, c), (r, c - 1), (r, c + 1)):
-                if 0 <= dr < n and 0 <= dc < m and grid[dr][dc] == 1:
-                    grid[dr][dc] = 2
+    def neigh_iter(r, c) -> Generator:
+        (yield r + 1, c) if r < n - 1 else None
+        (yield r - 1, c) if r > 0 else None
+        (yield r, c + 1) if c < m - 1 else None
+        (yield r, c - 1) if c > 0 else None
+
+    while (fresh > 0) and q:
+        for r, c in (q.popleft() for _ in range(len(q))):
+            for nr, nc in neigh_iter(r, c):
+                if grid[nr][nc] == 1:
                     fresh -= 1
-                    q.append((dr, dc))
+                    grid[nr][nc] = 2
+                    q.append((nr, nc))
         time += 1
-    return -1 if fresh else time
+
+    return -1 if (fresh > 0) else time
 ```
 
 ## Walls and gates 
@@ -151,8 +158,8 @@ def walls_and_gates(self, rooms: List[List[int]]):
     n, m = len(rooms), len(rooms[0])
     q = deque((r, c) for r, c in product(range(n), range(m)) if rooms[r][c] == 0)
 
-    def expand(r, c, dist, valididx):
-        if valididx and (dist + 1) < rooms[r][c]:
+    def expand(r, c, dist, inbound):
+        if inbound and (dist + 1) < rooms[r][c]:
             rooms[r][c] = dist + 1
             q.append((r, c))
 
@@ -401,56 +408,116 @@ def swimInWater(self, grid) -> int:
 ## Alien dictionary **(Topological sort)**
 ```python
 def alienOrder(words: list[str]) -> str:
-    def topological_sort(graph):
-        inlinks = {u: 0 for u in graph}
-        for u in graph:
-            for v in graph[u]:
-                inlinks[v] += 1
-        pq = [u for u in graph if inlinks[u] == 0]
-        heapq.heapify(pq) # sorts in normal lexical order if multiple roots
-        res = []
-
-        while pq:
-            u = heapq.heappop(pq)
-            res.append(u)
-            for v in graph[u]:
-                inlinks[v] -= 1
-                if inlinks[v] == 0:
-                    heapq.heappush(pq, v)
-        return "".join(res) if len(res) == len(graph) else ""
-
     graph = {c : set() for c in chain(*words)}
-    for w1, w2 in ((words[i], words[i + 1]) for i in range(len(words) - 1)):
+    for w1, w2 in zip(words, words[1:]):
         ordinal = False
         for c1, c2 in zip(w1, w2):
             if c1 != c2:
-                graph[c1].add(c2)
+                graph[c1].add(c2) # c1 < c2
                 ordinal = True
                 break
         if not ordinal and len(w1) > len(w2):
             return ""
-    return topological_sort(graph)
+        
+    inlinks = {u: 0 for u in graph} # topological sort
+    for vertices in graph.values():
+        for v in vertices:
+            inlinks[v] += 1
+    pq = [u for u in graph if inlinks[u] == 0]
+    heapq.heapify(pq) # sorts in normal lexical order if multiple roots
+    res = []
+
+    while pq:
+        u = heapq.heappop(pq)
+        res.append(u)
+        for v in graph[u]:
+            inlinks[v] -= 1
+            if inlinks[v] == 0:
+                heapq.heappush(pq, v)
+    return "".join(res) if len(res) == len(graph) else ""
 ```
+
+## Create components with same values
+```python
+def componentValue(self, nums: List[int], edges: List[List[int]]) -> int:
+    n = len(nums)
+    graph = [[] for _ in range(n)]
+    for u, v in edges:
+        graph[u].append(v)
+        graph[v].append(u)
+
+    def dfs(u: int, prev: int, target: int) -> Optional[int]:
+        res = nums[u]
+        if res > target:
+            return None
+        for v in graph[u]: # all neighbours
+            if v == prev:
+                continue
+            sub = dfs(v, u, target)
+            if sub is None or res + sub > target:
+                return None
+            res += sub
+        return 0 if res == target else res # 0 means component is done
+
+    tot = sum(nums)
+    for x in range(n, 1, -1):
+        if tot % x == 0 and dfs(0, -1, tot // x) == 0:
+            return x - 1 # no of edge cuts = no of components - 1
+    return 0
+```
+
+
 ## Cheapest flights within K stops 
 ```python
-def findCheapestPrice(n, flights: List[List[int]], src, dst, k) -> int:
+def findCheapestPrice(self, n, flights, src, dst, k) -> int:
     graph = [[] for _ in range(n)]
     for u, v, weight in flights:
         graph[u].append((v, weight))
     distmp = [float("inf")] * n
     distmp[src] = 0
-    q = deque([(0, src)])
+    q = deque([(src, 0)])
 
     for _ in range(k):
-        for udist, u in (q.popleft() for _ in range(len(q))):
+        for u, udist in (q.popleft() for _ in range(len(q))):
             for v, weight in graph[u]:
                 if (vdist := udist + weight) < distmp[v]:
                     distmp[v] = vdist
-                    q.append((vdist, v))
-        q = deque(sorted(q))
+                    q.append((v, vdist))
 
-    for udist, u in (q.popleft() for _ in range(len(q))):
+    for u, udist in q:
         for v, weight in graph[u]:
             distmp[v] = min(distmp[v], udist + weight)
     return res if (res := distmp[dst]) != float("inf") else -1
+```
+
+## Shortest path in grid with obstacle elimination
+```python
+def shortestPath(self, grid: List[List[int]], k: int) -> int:
+    n, m = len(grid), len(grid[0])
+    mdist = lambda r, c: n - r + m - c - 2  # manhattan distance finder
+
+    def neigh_iter(r, c) -> Generator:
+        (yield r + 1, c) if r < n - 1 else None
+        (yield r - 1, c) if r > 0 else None
+        (yield r, c + 1) if c < m - 1 else None
+        (yield r, c - 1) if c > 0 else None
+
+    state = (0, 0, k)  # row, col, remaining obstacles
+    pq = [(n + m - 2, state, 0)]  # distance, state, steps (pops min dist)
+    seen = {state}
+
+    while pq:
+        dist, (r, c, tk), steps = heappop(pq)
+        if dist - steps <= tk:  # distance to target <= possible removals
+            return dist  # return remaining distance + steps taken
+        if (r, c) == (n - 1, m - 1):
+            return steps
+
+        for nr, nc in neigh_iter(r, c):
+            nk = tk - grid[nr][nc]
+            state = (nr, nc, nk)
+            if nk >= 0 and (state not in seen):
+                seen.add(state)
+                heappush(pq, ((mdist(nr, nc) + steps + 1), state, steps + 1))
+    return -1
 ```

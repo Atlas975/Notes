@@ -14,6 +14,19 @@
 
 ___
 # Stack algorithms
+
+## Validate stack sequence 
+```python
+def validateStackSequences(self, pushed: List[int], popped: List[int]) -> bool:
+    i = j = 0
+    for pu in pushed:
+        pushed[i] = pu
+        i += 1
+        while i and pushed[i - 1] == popped[j]:
+            i -= 1
+            j += 1
+    return i == 0
+```
 ## Valid parentheses
 
 ```python
@@ -32,33 +45,23 @@ def isValid(self, s: str) -> bool:
 ```
 
 ## Min stack
-```rust
-struct MinStack {
-    s: VecDeque<(i32, i32)>,
-}
+```python
+class MinStack:
+    def __init__(self):
+        self.s = deque()
 
-impl MinStack {
-    fn new() -> Self {
-        Self { s: VecDeque::new() }
-    }
+    def push(self, val: int) -> None:
+        stackmin = min(val, self.getMin()) if self.s else val
+        self.s.append((val, stackmin))
 
-    fn push(&mut self, val: i32) {
-        let smin = if self.s.is_empty() {val} else {self.get_min()};
-        self.s.push_back((val, val.min(smin)));
-    }
+    def pop(self) -> None:
+        self.s.pop()
 
-    fn pop(&mut self) {
-        self.s.pop_back();
-    }
+    def top(self) -> int:
+        return self.s[-1][0]
 
-    fn top(&self) -> i32 {
-        self.s.back().unwrap().0
-    }
-
-    fn get_min(&self) -> i32 {
-        self.s.back().unwrap().1
-    }
-}
+    def getMin(self) -> int:
+        return self.s[-1][1]
 ```
 
 ## Evaluate reverse polish notation
@@ -117,14 +120,14 @@ def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
 
 ## Car fleet
 ```python
-def carFleet(self, target, position, speed) -> int:
-    pairs = sorted(zip(position, speed), reverse=True)
+def carFleet(self, target: int, position: List[int], speed: List[int]) -> int:
+    pairs = sorted(zip(position, speed), reverse=True) # furthest is bottleneck
     p1, s1 = pairs[0]
     stack = deque([(p1, (target - p1) / s1)])
 
     for p, s in pairs[1:]:
-        t = (target - p) / s
-        if t > stack[-1][1]:
+        t = (target - p) / s # time to reach end
+        if t > stack[-1][1]: # can't catch up, new bottleneck / fleet
             stack.append((p, t))
     return len(stack)
 ```
@@ -134,12 +137,11 @@ def carFleet(self, target, position, speed) -> int:
 def largestRectangleArea(self, heights: List[int]) -> int:
     mxrea, s = 0, deque()
     for r, h in enumerate(heights):
-        l = r
-        while s and s[-1][1] > h:
+        l = r 
+        while s and h < s[-1][1]: # previous rec cant extend to current
             l, h0 = s.pop()
             mxrea = max(mxrea, h0 * (r - l))
-        s.append((l, h))
+        s.append((l, h)) # l is lestmost >= h
 
-    n = len(heights)
-    return max(mxrea, max((h * (n - l) for l, h in s)))
+    return max(mxrea, max(h * (len(heights) - l) for l, h in s))
 ```

@@ -161,3 +161,57 @@ def findWords(self, board, words) -> List[str]:
     return res
 ```
 
+## K divisible element subarrays
+```python
+def countDistinct(self, nums: List[int], k: int, p: int) -> int:
+    trie = {} # keeps track of distinct subarrays ending 
+    res = 0
+    for i in range(len(nums)):
+        cnt = 0
+        node = trie
+        for num in nums[i:]:
+            cnt += (num % p) == 0
+            if cnt > k: # too many divisible elements
+                break
+            if num not in node: # new permutation
+                res += 1
+                node[num] = {}
+            node = node[num]
+    return res
+```
+
+## Delete duplicate folders in system 
+```python
+def deleteDuplicateFolder(self, paths: list[list[str]]) -> list[list[str]]:
+    trie, seen = {}, {}
+    for folder in paths: # create trie
+        node = trie
+        for sub in folder:
+            node = node.setdefault(sub, {})
+
+    def dfs(n): # serialise tree
+        if not n:
+            return 0
+        key = tuple(sorted(((k, dfs(v)) for k, v in n.items()), key=lambda x: x[0]))
+        if key not in seen:
+            seen[key] = (n, len(seen) + 1) # unique id marks duplicate subtrees
+        else:
+            n["#"] = True # mark current node as duplicate
+            seen[key][0]["#"] = True # mark the node in seen as duplicate
+        return seen[key][1]
+
+    dfs(trie)
+    res = []
+
+    def build(node, path):
+        if "#" in node:
+            return
+        for folder, sub in node.items():
+            path.append(folder)
+            build(sub, path)
+            path.pop()
+        res.append(path.copy())
+
+    build(trie, deque())
+    return res[:-1] # exclude the empty root path
+```

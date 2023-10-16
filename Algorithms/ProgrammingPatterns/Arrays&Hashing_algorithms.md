@@ -70,6 +70,23 @@ def topKFrequent(self, nums: List[int], k: int) -> List[int]:
                 return res
 ```
 
+## Minimum operations to make the array alternating
+```python
+def minimumOperations(self, nums: List[int]) -> int:
+    def duomx(freqs) -> tuple[int, int, int]:
+        key = mx0 = mx1 = 0
+        for k, v in freqs.items():
+            if v > mx0:
+                key = k
+                mx0, mx1 = v, mx0
+            elif v > mx1:
+                mx1 = v
+        return key, mx0, mx1
+
+    ek, em0, em1 = duomx(Counter(nums[::2])) # even idx (key, max, 2nd max)
+    ok, om0, om1 = duomx(Counter(nums[1::2])) # odd idx (key, max, 2nd max)
+    return len(nums) - ((em0 + om0) if ek != ok else max(em0 + om1, em1 + om0))
+```
 ## Product of array except self **(prefix sum)**
 ```python
 def productExceptSelf(self, nums: List[int]) -> List[int]:
@@ -86,7 +103,6 @@ def productExceptSelf(self, nums: List[int]) -> List[int]:
 
     return res
 ```
-
 ## Valid Sudoku
 [[Bit_manipulation]]
 ```rust
@@ -126,4 +142,22 @@ def longestConsecutive(self, nums: List[int]) -> int:
                 size += 1
             mxlen = max(mxlen, size)
     return mxlen
+```
+
+## Number of continuous  subarrays 
+```python
+def continuousSubarrays(self, nums: List[int]) -> int:
+    l = 0
+    preidx = {} # most recent index of each num
+    res = len(nums) # all single elem subarrays
+
+    for r, x in enumerate(nums):
+        if x not in preidx: # l already in place if x in preidx 
+            for k in [k for k in preidx if abs(k - x) > 2]:
+                if preidx[k] >= l:
+                    l = preidx[k] + 1
+                del preidx[k]
+        res += r - l # amount of new subarrays (exclude single elem)
+        preidx[x] = r
+    return res
 ```

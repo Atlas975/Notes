@@ -119,16 +119,8 @@ def letterCombinations(self, digits: str) -> List[str]:
     if not digits:
         return []
     letmp = [
-        [],
-        [],
-        ["a", "b", "c"],
-        ["d", "e", "f"],
-        ["g", "h", "i"],
-        ["j", "k", "l"],
-        ["m", "n", "o"],
-        ["p", "q", "r", "s"],
-        ["t", "u", "v"],
-        ["w", "x", "y", "z"],
+        [], [], ["a", "b", "c"], ["d", "e", "f"], ["g", "h", "i"], ["j", "k", "l"],
+        ["m", "n", "o"], ["p", "q", "r", "s"], ["t", "u", "v"], ["w", "x", "y", "z"],
     ]
 
     def backtrack(i, s):
@@ -140,6 +132,65 @@ def letterCombinations(self, digits: str) -> List[str]:
     res = []
     backtrack(0, "")
     return res
+```
+
+## Special permutations 
+```python
+def specialPerm(self, nums: List[int]) -> int:
+    n = len(nums)
+    edges = 0
+    idxmp = defaultdict(list) # stores all potential paths at each idx
+    for i in range(n):
+        for j in range(i + 1, n):
+            if (nums[i] % nums[j] == 0) or (nums[j] % nums[i] == 0):
+                idxmp[i].append(j)
+                idxmp[j].append(i)
+                edges += 1
+    if edges == n * (n - 1) / 2: # complete graph, all permutations valid
+        return factorial(n) % (pow(10, 9) + 7)
+    
+    @cache
+    def dfs(i, mask):
+        if mask == (1 << n) - 1: # all bits are set
+            return 1
+        return sum(
+            dfs(j, mask | (1 << j))
+            for j in idxmp[i]
+            if (mask & (1 << j) == 0)
+        )
+    return sum(dfs(i, 1 << i) for i in range(n)) % (pow(10, 9) + 7)
+```
+
+## Partition to k equal sum subsets 
+```python
+def canPartitionKSubsets(self, nums: list[int], k: int) -> bool:
+    total = sum(nums)
+    if total % k:
+        return False
+    target = total // k
+    nums.sort(reverse=True)
+    if nums[0] > target:
+        return False
+    seen = [False] * len(nums)
+    seen[0] = True
+
+    def dfs(i, cur, k):
+        if cur == target:
+            return k == 1 or dfs(1, 0, k - 1)
+        for j in range(i, len(nums)):
+            if seen[j] or cur + nums[j] > target: # pruning
+                continue
+            if not seen[j - 1] and nums[j] == nums[j - 1]: # failed before
+                continue
+            seen[j] = True
+            if dfs(j + 1, cur + nums[j], k):
+                return True
+            seen[j] = False
+            if cur == 0:
+                return False
+        return False
+
+    return dfs(1, nums[0], k) if nums[0] < target else dfs(1, 0, k - 1)
 ```
 ## Word search 
 
@@ -180,13 +231,8 @@ def solveNQueens(self, n: int) -> List[List[str]]:
 
     def dfs(r, path, cols, pdiag, ndiag):
         for c in range(n):
-            if (
-                (cols & (1 << c))
-                or (pdiag & (1 << (r + c)))
-                or (ndiag & (1 << (r - c + n)))
-            ):
+            if cols & (1 << c) or pdiag & (1 << r + c) or ndiag & (1 << r - c + n):
                 continue
-
             if r == n - 1:
                 path.append(c)
                 res.append("." * c + "Q" + "." * (n - c - 1) for c in path)
@@ -203,10 +249,40 @@ def solveNQueens(self, n: int) -> List[List[str]]:
     dfs(0, [], 0, 0, 0)
     return res
 ```
+## Soduku solver 
+```python
+def solveSudoku(self, board: List[List[str]]) -> None:
+    rows = [[False] * 9 for _ in range(9)]
+    cols = [[False] * 9 for _ in range(9)]
+    grid = [[False] * 9 for _ in range(9)]
+    empty = deque()
 
+    def fill(d, i, j, state):
+        rows[d][i] = cols[d][j] = grid[d][(i // 3) * 3 + j // 3] = state
 
+    for r, c in product(range(9), repeat=2):
+        if (tile := board[r][c]) == ".":
+            empty.append((r, c))
+        else:
+            fill(int(tile) - 1, r, c, True)
 
+    def dfs():
+        if not empty:
+            return True
+        r, c = empty.pop()
 
+        for d in range(9):
+            if rows[d][r] or cols[d][c] or grid[d][(r // 3) * 3 + c // 3]:
+                continue # invalid insertion
+            fill(d, r, c, True)
+            board[r][c] = str(d + 1)
+            if dfs():
+                return True
+            board[r][c] = "."
+            fill(d, r, c, False)
 
+        empty.append((r, c))
+        return False
 
-
+    dfs()
+```

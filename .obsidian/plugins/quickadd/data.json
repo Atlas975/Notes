@@ -52,7 +52,7 @@
   "devMode": false,
   "templateFolderPath": "",
   "announceUpdates": true,
-  "version": "1.0.2",
+  "version": "1.4.0",
   "disableOnlineFeatures": true,
   "ai": {
     "OpenAIApiKey": "",

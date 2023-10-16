@@ -18,24 +18,15 @@ ___
 ## Rotate image 
 ```python
 def rotate(self, matrix: List[List[int]]) -> None:
-    """
-    matrix[l][l + i] = top left
-    matrix[l + i][r] = top right
-    matrix[r][r - i] = bottom right
-    matrix[r - i][l] = bottom left
-    """
+    l, r = 0, len(matrix) - 1
 
-    l = 0
-    r = len(matrix) - 1
-
-    # 90 degree clockwise
     while l < r:
         for i in range(r - l):
-            tleft = matrix[l][l + i]
-            matrix[l][l + i] = matrix[r - i][l]
-            matrix[r - i][l] = matrix[r][r - i]
-            matrix[r][r - i] = matrix[l + i][r]
-            matrix[l + i][r] = tleftı
+            tleft = matrix[l][l + i] 
+            matrix[l][l + i] = matrix[r - i][l] # top left = bottom left
+            matrix[r - i][l] = matrix[r][r - i] # bottom left = bottom right
+            matrix[r][r - i] = matrix[l + i][r] # bottom right = top right
+            matrix[l + i][r] = tleft # top right = top left
         r -= 1
         l += 1
 ```
@@ -82,35 +73,32 @@ def setZeroes(self, matrix: List[List[int]]) -> None:
 
 ## isHappy 
 ```rust
-pub fn is_happy(mut n: i32) -> bool {
-    let digsum = |mut n: i32| -> i32 {
-        let mut s = 0;
-        while n > 0 {
-            s += (n % 10).pow(2);
-            n /= 10;
-        }
-        s
-    };
-    while n != 1 && n != 4 {
-        n = digsum(n);
-    }
-    n == 1
-}
+def isHappy(self, n: int) -> bool:
+    if n < 10:
+        return n == 1 or n == 7
+
+    def digit_sum(num):
+        res = 0
+        while num:
+            res += (num % 10) ** 2
+            num //= 10
+        return res
+    
+    while n != 1 and n != 4:
+        n = digit_sum(n)
+    return n == 1
 ```
 
 ## Plus one 
-```rust
-pub fn plus_one(mut digits: Vec<i32>) -> Vec<i32> {
-    for dig in digits.iter_mut().rev() {
-        if *dig < 9 {
-            *dig += 1;
-            return digits;
-        }
-        *dig = 0;
-    }
-    digits.insert(0, 1);
-    digits
-}
+```python
+def plusOne(self, digits: List[int]) -> List[int]:
+    n = len(digits)
+    for i in reversed(range(n)):
+        if digits[i] < 9:
+            digits[i] += 1
+            return digits
+        digits[i] = 0
+    return [1] + digits
 ```
 
 ## Pow (x,n)
@@ -162,16 +150,41 @@ def multiply(self, num1: str, num2: str) -> str:
 ```python
 class DetectSquares:
     def __init__(self):
-        self.pntcnt = Counter()
+        self.xtoymp = defaultdict(lambda: defaultdict(int))
+        self.ytoxmp = defaultdict(lambda: defaultdict(int))
 
     def add(self, point: List[int]) -> None:
-        self.pntcnt[tuple(point)] += 1
+        x, y = point
+        self.xtoymp[x][y] += 1
+        self.ytoxmp[y][x] += 1
 
     def count(self, point: List[int]) -> int:
+        res = 0
         x1, y1 = point
-        return sum(
-            freq2 * self.pntcnt[x2, y1] * self.pntcnt[x1, y2]
-            for (x2, y2), freq2 in self.pntcnt.items()
-            if abs(x2 - x1) == abs(y2 - y1)
-        ) - (self.pntcnt[x1, y1] ** 3)
+        horiz, verti = self.ytoxmp[y1], self.xtoymp[x1]
+
+        for x2, p2f in horiz.items():  # point adj, point below org, point below adj
+            dif = x1 - x2  # side length
+            if (p3f := verti[y1 - dif]) and (p4f := self.ytoxmp[y1 - dif][x1 - dif]):
+                res += p2f * p3f * p4f
+            if (p3f := verti[y1 + dif]) and (p4f := self.ytoxmp[y1 + dif][x1 - dif]):
+                res += p2f * p3f * p4f
+        return res - (2 * horiz[x1] ** 3)  # remove the origin point from res
+```
+
+## Minimum lines to represent a line chart 
+```python
+def minimumLines(self, points: List[List[int]]) -> int:
+    if len(points) < 2:
+        return 0
+    points.sort(key=lambda x: x[0])
+    res = 1
+    predx, predy = points[1][0] - points[0][0], points[1][1] - points[0][1]
+
+    for (x1, y1), (x2, y2) in pairwise(points):
+        dy, dx = y2 - y1, x2 - x1
+        if dy * predx != dx * predy:
+            res += 1
+            predx, predy = dx, dy
+    return res
 ```
