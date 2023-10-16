@@ -66,7 +66,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/Distributed_systems.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -284,6 +284,7 @@
   },
   "active": "53764e387fa03091",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20231016153805.png",
     "Networking/RoutingAlgorithms/Distance_vector_routing.md",
     "DistributedSystems/Distributed_systems.md",
     "MachineLearning/ArtificialIntelligence/Artificial_intelligence.md",
@@ -314,7 +315,6 @@
     "MachineLearning/Neural_networks.md",
     "MachineLearning/Machine_learning_notation.md",
     "MachineLearning/0-GeneralConcepts/Log_odds.md",
-    "MachineLearning/0-GeneralConcepts/Inverse_matrices.md",
     "XX-Attachments/Images/Pasted image 20231012154636.png",
     "MediaCoding&Processing",
     "Algorithms/Trees",
