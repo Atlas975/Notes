@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/Two_general_problem.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -209,7 +209,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -309,10 +310,10 @@
   },
   "active": "53764e387fa03091",
   "lastOpenFiles": [
-    "Networking/TransportProtocols/Transmission_control_protocol.md",
     "DistributedSystems/Two_general_problem.md",
-    "XX-Attachments/Images/Pasted image 20231016182410.png",
+    "Networking/TransportProtocols/Transmission_control_protocol.md",
     "DistributedSystems/Distributed_systems.md",
+    "XX-Attachments/Images/Pasted image 20231016182410.png",
     "XX-Attachments/Images/Pasted image 20231016174945.png",
     "XX-Attachments/Images/Pasted image 20231016174919.png",
     "XX-Attachments/Images/Pasted image 20231016174732.png",

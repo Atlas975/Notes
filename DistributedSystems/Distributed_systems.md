@@ -35,4 +35,10 @@ ___
 ## System model 
 - **Synchronous**: node clocks synced with an upper bound on exclusive time for nodes
 - **Asynchronous**: arbitrary deliver / processing times, no guarantees as node clock drifts
-- **Partially-synchronous**:
+- **Partially synchronous**: unpredictable transitions from sync to async and vice versa 
+- **Bounded asynchrony**: assume there is a known  upper bound on message delivery time
+
+## FLP impossibility theorem 
+- The Fischer, Lynch and Patterson theorem details that it is impossible for distributed consensus with the possifaulty process 
+- If there is no known upper bound on how long it takes a process to complete it's impossible to distinguish from a node failure and a process taking a long time to complete it's work 
+- 
