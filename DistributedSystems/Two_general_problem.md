@@ -34,4 +34,10 @@ ___
 ![[Pasted image 20231016174732.png|450|450]]
 
 ## TCP style verification 
-- [[Transmission_control_protocol|TCP]]
+- [[Transmission_control_protocol|TCP]] style ascyc network with it being possible to delay messages 
+- Repeated failed transmissions eventually lead to giving up 
+
+![[Pasted image 20231016182410.png|450|450]]
+
+- This is generally seen as safe as an endpoint can assume a packet / ACK made it to the desired destination as in the worst case a simple timeout and retransmit can occur 
+- Making such assumptions can still result in errors ie data loss
