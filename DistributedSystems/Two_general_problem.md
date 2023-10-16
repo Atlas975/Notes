@@ -18,8 +18,17 @@ ___
 
 - An ACK is required but can be challenging with an unreliable network 
 - Various approaches exist to handle this limitation
-## Multiple messages 
+- The main issue with a consensus protocol is that it's impossible to reach total certainty, with infinite messages back and forth being require to do so 
+
+![[Pasted image 20231016174945.png|200|200]]
+## Multiple messages
 - G1 attacks after sending multiple messages to G2 for insurance if one fails
 - However, none of the messages arriving is a possibility
 
 ![[Pasted image 20231016174534.png|450|450]]
+
+## Wait for acknowledgement
+- G1 attacks only when ACK is received from G2
+- However, G2 may be captured if ACK takes too long from being delayed or intercepted 
+
+![[Pasted image 20231016174732.png|450|450]]
