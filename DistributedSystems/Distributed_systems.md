@@ -18,10 +18,13 @@ ___
 	- **Robustness**: allows for safe node failures eg distributed databases without data loss
 	- **Performance**: [[Concurrency|concurrency]] allows for joining forces for increased resources and availability 
 ## Distributed system challenges
-- Unlike standalone computers, distributed systems need to be able to account for node faulure while still remaining operational. This becomes a challenge especially when operations like bank transfers are partially completed 
+- Unlike standalone computers, distributed systems need to be able to account for node failure while still remaining operational. This becomes a challenge especially when operations like bank transfers are partially completed 
 - When a node stops working its referred to as a **fault**, ideal distributed systems need to achieve high fault tolerance 
 - Node failure modes include: 
 	- **Crash-stop** (fail-stop): unpredictable node failure due to hardware/software fault
 	- **Crash-recovery** (fail-recovery): node crashes but recovers and resumes as normal  
 	- **Byzantine** (fail-arbitrarily): node suffers from  arbitrary / malicious behaviours
 - [[Network_architecture|Networks]] themselves can also fail, as a result of this an error may not be immediately known by other nodes. Timeouts are typically used to handle this 
+
+## Failure modes
+- **Reliable** (perfect) links: messages received when sent, can still  
