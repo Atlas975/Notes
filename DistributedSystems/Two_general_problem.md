@@ -34,3 +34,4 @@ ___
 ![[Pasted image 20231016174732.png|450|450]]
 
 ## TCP style verification 
+- [[Transmission_control_protocol|TCP]]

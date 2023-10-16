@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Two_general_problem.md",
+                "file": "Networking/TransportProtocols/Transmission_control_protocol.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -120,7 +120,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -188,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Two_general_problem.md"
+                "file": "DistributedSystems/Distributed_systems.md"
               }
             }
           }
@@ -223,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Two_general_problem.md",
+                "file": "DistributedSystems/Distributed_systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -240,7 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Two_general_problem.md",
+                "file": "DistributedSystems/Distributed_systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,15 +294,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f5cc7a2354c32f99",
+  "active": "53764e387fa03091",
   "lastOpenFiles": [
+    "Networking/TransportProtocols/Transmission_control_protocol.md",
+    "DistributedSystems/Two_general_problem.md",
     "XX-Attachments/Images/Pasted image 20231016174945.png",
     "XX-Attachments/Images/Pasted image 20231016174919.png",
     "XX-Attachments/Images/Pasted image 20231016174732.png",
     "XX-Attachments/Images/Pasted image 20231016174534.png",
     "XX-Attachments/Images/Pasted image 20231016174155.png",
     "DistributedSystems/Distributed_systems.md",
-    "DistributedSystems/Two_general_problem.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "XX-Attachments/Images/Pasted image 20231016173851.png",
     "XX-Attachments/Images/Pasted image 20231016153805.png",
@@ -333,7 +334,6 @@
     "MediaCoding&Processing/Convolutional_networks.md",
     "MediaCoding&Processing/Computer_vision.md",
     "MachineLearning/Neural_networks.md",
-    "XX-Attachments/Images/Pasted image 20231012154636.png",
     "MediaCoding&Processing",
     "Algorithms/Trees",
     "LinearProgramming",
