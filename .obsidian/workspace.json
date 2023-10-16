@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/Two_general_problem.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -296,9 +296,11 @@
   },
   "active": "f5cc7a2354c32f99",
   "lastOpenFiles": [
-    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
+    "XX-Attachments/Images/Pasted image 20231016174534.png",
+    "XX-Attachments/Images/Pasted image 20231016174155.png",
     "DistributedSystems/Distributed_systems.md",
     "DistributedSystems/Two_general_problem.md",
+    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "XX-Attachments/Images/Pasted image 20231016173851.png",
     "XX-Attachments/Images/Pasted image 20231016153805.png",
     "Networking/RoutingAlgorithms/Distance_vector_routing.md",
@@ -328,14 +330,12 @@
     "MediaCoding&Processing/Convolutional_networks.md",
     "MediaCoding&Processing/Computer_vision.md",
     "MachineLearning/Neural_networks.md",
-    "MachineLearning/Machine_learning_notation.md",
     "XX-Attachments/Images/Pasted image 20231012154636.png",
     "MediaCoding&Processing",
     "Algorithms/Trees",
     "XX-Attachments/Images/Pasted image 20230921163711.png",
     "XX-Attachments/Images/Pasted image 20230830004438.png",
     "XX-Attachments/Images/Pasted image 20230811220411.png",
-    "XX-Attachments/Images/Pasted image 20230811220045.png",
     "LinearProgramming",
     "XX-Attachments/Images/Home work 3 SOLUTIONS 2021-2022.pdf",
     "XX-Attachments/Images/Data_communications_HW.pdf",
