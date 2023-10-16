@@ -133,7 +133,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Two_general_problem.md"
+                "file": "DistributedSystems/Distributed_systems.md"
               }
             }
           }
@@ -236,7 +236,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Two_general_problem.md",
+                "file": "DistributedSystems/Distributed_systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -253,7 +253,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Two_general_problem.md",
+                "file": "DistributedSystems/Distributed_systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -307,7 +307,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "01dadc12a7ec6ef8",
+  "active": "53764e387fa03091",
   "lastOpenFiles": [
     "Networking/TransportProtocols/Transmission_control_protocol.md",
     "DistributedSystems/Two_general_problem.md",

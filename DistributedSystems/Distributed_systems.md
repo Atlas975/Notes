@@ -32,4 +32,7 @@ ___
 - **Arbitrary links**: messages may receive interference (modify / drop / listen)
 
 
-
+## System model 
+- **Synchronous**: node clocks synced with an upper bound on exclusive time for nodes
+- **Asynchronous**: arbitrary deliver / processing times, no guarantees as node clock drifts
+- **Partially-synchronous**:
