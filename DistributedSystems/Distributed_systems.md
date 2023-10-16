@@ -25,7 +25,7 @@ ___
 	- **Crash-recovery** (fail-recovery): node crashes but recovers and resumes as normal  
 	- **Byzantine** (fail-arbitrarily): node suffers from  arbitrary / malicious behaviours
 - [[Network_architecture|Networks]] themselves can also fail, as a result of this an error may not be immediately known by other nodes. Timeouts are typically used to handle this 
-
+- Heterogeneity is also a challenge as nodes may exist with different privileges and formats
 ## Network Failure modes
 - **Reliable** **links**: messages received when sent,  may also be reordered ([[Routing_methods#Packet switching|packet switching]])
 - **Fair-loss** **links**: messages can be lost / duplicated / reorders but works eventually 
@@ -39,6 +39,17 @@ ___
 - **Bounded asynchrony**: assume there is a known  upper bound on message delivery time
 
 ## FLP impossibility theorem 
-- The Fischer, Lynch and Patterson theorem details that it is impossible for distributed consensus with the possifaulty process 
+- The Fischer, Lynch and Patterson theorem details that it is impossible for distributed consensus as long as there's the possibility of even one faulty process 
 - If there is no known upper bound on how long it takes a process to complete it's impossible to distinguish from a node failure and a process taking a long time to complete it's work 
-- 
+
+## Middleware 
+- Provides a high level programming abstraction 
+- Hides complexity of distributed system as well as underlying forms of heterogeneity 
+
+![[Pasted image 20231016184020.png|450|450]]
+
+- Middleware protocols support 
+    - Resource sharing through concurrency protocols 
+    - Transparency by allowing a distributed system to be viewed as a single computer 
+    - Opennes 
+    - Extensibility by providing a standard interface 
