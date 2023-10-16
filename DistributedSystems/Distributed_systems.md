@@ -30,18 +30,14 @@ ___
 - **Reliable** **links**: messages received when sent,  may also be reordered ([[Routing_methods#Packet switching|packet switching]])
 - **Fair-loss** **links**: messages can be lost / duplicated / reorders but works eventually 
 - **Arbitrary links**: messages may receive interference (modify / drop / listen)
-
-
 ## System model 
 - **Synchronous**: node clocks synced with an upper bound on exclusive time for nodes
 - **Asynchronous**: arbitrary deliver / processing times, no guarantees as node clock drifts
 - **Partially synchronous**: unpredictable transitions from sync to async and vice versa 
 - **Bounded asynchrony**: assume there is a known  upper bound on message delivery time
-
 ## FLP impossibility theorem 
 - The Fischer, Lynch and Patterson theorem details that it is impossible for distributed consensus as long as there's the possibility of even one faulty process 
 - If there is no known upper bound on how long it takes a process to complete it's impossible to distinguish from a node failure and a process taking a long time to complete it's work 
-
 ## Middleware 
 - Provides a high level programming abstraction 
 - Hides complexity of distributed system as well as underlying forms of heterogeneity 
@@ -49,7 +45,7 @@ ___
 ![[Pasted image 20231016184020.png|450|450]]
 
 - Middleware protocols support 
-    - Resource sharing through concurrency protocols 
-    - Transparency by allowing a distributed system to be viewed as a single computer 
-    - Opennes 
-    - Extensibility by providing a standard interface 
+    - **Resource sharing** through concurrency protocols 
+    - **Transparency** by allowing a distributed system to be viewed as a single computer 
+    - **Openness** by providing portability and a standard interface to work with 
+- Overall good middleware is essential for scalability, maintenance, fault tolerance and security 
