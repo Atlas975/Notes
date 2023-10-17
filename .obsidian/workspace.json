@@ -125,7 +125,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Network_delay.md",
+                "file": "Networking/Reliable_data_transfer.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -146,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -214,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/TransportProtocols/Transmission_control_protocol.md"
+                "file": "Networking/Reliable_data_transfer.md"
               }
             }
           }
@@ -249,7 +249,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/TransportProtocols/Transmission_control_protocol.md",
+                "file": "Networking/Reliable_data_transfer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -266,7 +266,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/TransportProtocols/Transmission_control_protocol.md",
+                "file": "Networking/Reliable_data_transfer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -320,13 +320,19 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f5cc7a2354c32f99",
+  "active": "b05537ee6210a919",
   "lastOpenFiles": [
+    "Networking/Protocol_stack.md",
+    "Networking/Network_topology.md",
+    "Networking/Application_architecture.md",
+    "Networking/Internet_headers.md",
+    "SoftwareDesign/BSPL.md",
+    "Networking/Network_delay.md",
+    "Networking/TransportProtocols/Transmission_control_protocol.md",
     "DistributedSystems/Two_general_problem.md",
     "DistributedSystems/Distributed_systems.md",
     "DistributedSystems/Remote_invocation.md",
     "XX-Attachments/Images/Pasted image 20231016184020.png",
-    "Networking/TransportProtocols/Transmission_control_protocol.md",
     "XX-Attachments/Images/Pasted image 20231016182410.png",
     "XX-Attachments/Images/Pasted image 20231016174945.png",
     "XX-Attachments/Images/Pasted image 20231016174919.png",
@@ -342,11 +348,9 @@
     "XX-Attachments/Images/Pasted image 20231015131521.png",
     "Networking/RoutingAlgorithms/Link_state_routing.md",
     "Networking/Transmission_mediums.md",
-    "Networking/Protocol_stack.md",
     "Networking/Routing_protocols.md",
     "Networking/Network_tools.md",
     "Networking/Internet_architecture.md",
-    "Networking/Network_delay.md",
     "MediaCoding&Processing/Detection_algorithms.md",
     "MediaCoding&Processing/Media_coding&processing.md",
     "Networking/Network_architecture.md",
@@ -356,10 +360,6 @@
     "MachineLearning/ArtificialIntelligence.md",
     "MachineLearning/Model_metrics.md",
     "MachineLearning/ArtificialIntelligence",
-    "MachineLearning/Logistic_regression.md",
-    "MachineLearning/Linear_regression.md",
-    "MediaCoding&Processing/Convolutional_networks.md",
-    "MediaCoding&Processing/Computer_vision.md",
     "MediaCoding&Processing",
     "Algorithms/Trees",
     "LinearProgramming",
