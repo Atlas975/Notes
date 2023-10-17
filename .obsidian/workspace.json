@@ -133,6 +133,19 @@
             }
           },
           {
+            "id": "1f98232dadddfdb1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DistributedSystems/Remote_invocation.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "8546c72806ab831b",
             "type": "leaf",
             "state": {
@@ -146,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -214,7 +227,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Reliable_data_transfer.md"
+                "file": "DistributedSystems/Remote_invocation.md"
               }
             }
           }
@@ -249,7 +262,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Reliable_data_transfer.md",
+                "file": "DistributedSystems/Remote_invocation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -266,7 +279,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Reliable_data_transfer.md",
+                "file": "DistributedSystems/Remote_invocation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -320,8 +333,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b05537ee6210a919",
+  "active": "1f98232dadddfdb1",
   "lastOpenFiles": [
+    "Networking/Reliable_data_transfer.md",
     "Networking/Protocol_stack.md",
     "Networking/Network_topology.md",
     "Networking/Application_architecture.md",
@@ -358,7 +372,6 @@
     "Networking/Congestion_control.md",
     "MachineLearning/Gradient_descent.md",
     "MachineLearning/ArtificialIntelligence.md",
-    "MachineLearning/Model_metrics.md",
     "MachineLearning/ArtificialIntelligence",
     "MediaCoding&Processing",
     "Algorithms/Trees",
