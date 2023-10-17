@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Distributed_systems.md",
+                "file": "DistributedSystems/Two_general_problem.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -146,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -214,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Distributed_systems.md"
+                "file": "Networking/TransportProtocols/Transmission_control_protocol.md"
               }
             }
           }
@@ -249,7 +249,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Distributed_systems.md",
+                "file": "Networking/TransportProtocols/Transmission_control_protocol.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -266,7 +266,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Distributed_systems.md",
+                "file": "Networking/TransportProtocols/Transmission_control_protocol.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -320,12 +320,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "61b6b073dac95afd",
+  "active": "f5cc7a2354c32f99",
   "lastOpenFiles": [
-    "DistributedSystems/Remote_invocation.md",
-    "DistributedSystems/Distributed_systems.md",
-    "XX-Attachments/Images/Pasted image 20231016184020.png",
     "DistributedSystems/Two_general_problem.md",
+    "DistributedSystems/Distributed_systems.md",
+    "DistributedSystems/Remote_invocation.md",
+    "XX-Attachments/Images/Pasted image 20231016184020.png",
     "Networking/TransportProtocols/Transmission_control_protocol.md",
     "XX-Attachments/Images/Pasted image 20231016182410.png",
     "XX-Attachments/Images/Pasted image 20231016174945.png",
