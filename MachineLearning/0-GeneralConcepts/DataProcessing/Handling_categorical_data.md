@@ -5,5 +5,6 @@
 ## Ordinal encoding
 ![[Pasted image 20220405174652.png|800|600]]
 
+
 ## One-hot encoding 
 ![[Pasted image 20220405174810.png|450|450]]
