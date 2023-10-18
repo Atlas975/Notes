@@ -41,6 +41,10 @@ ___
 - Increase accuracy (minimise human error)
 - Improve predictions (accurately evaluate choices and risks)
 
+## Ethical concerns with AI 
+- Explainability (AI output needs to be explainable if it's responsible for decision making)
+- Human biases and prejudices (may result from the type of data fed)
+- Job loss (technological social responsibility exists for AI to be useful for society)
 ## Machine learning
 - Original AI systems were primarily rule based, machine learning allows for a logical mapping from data to output to be created by a system itself
 - Machine learning can be defined as:
