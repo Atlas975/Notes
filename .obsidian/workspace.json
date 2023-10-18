@@ -164,8 +164,21 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "MachineLearning/Neural_networks.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5fdba0708aa4d877",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "NaturalLanguageProcessing/Term_frequency-inverse_document_frequency.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -198,7 +211,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -372,10 +385,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "30018637ed08afeb",
+  "active": "5fdba0708aa4d877",
   "lastOpenFiles": [
-    "NaturalLanguageProcessing/Untitled.md",
+    "MachineLearning/Neural_networks.md",
     "NaturalLanguageProcessing/Term_frequency-inverse_document_frequency.md",
+    "NaturalLanguageProcessing/Untitled.md",
     "MachineLearning/0-GeneralConcepts/DataProcessing/Missing_values_handling.md",
     "NaturalLanguageProcessing",
     "MachineLearning/0-GeneralConcepts/DataProcessing/Data_leakage.md",
@@ -411,7 +425,6 @@
     "Networking/Transmission_mediums.md",
     "Networking/Routing_protocols.md",
     "Networking/Network_tools.md",
-    "Networking/Internet_architecture.md",
     "MachineLearning/ArtificialIntelligence",
     "MediaCoding&Processing",
     "Algorithms/Trees",

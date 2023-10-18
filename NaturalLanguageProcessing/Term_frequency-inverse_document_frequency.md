@@ -18,4 +18,6 @@ aliases:
 
 ___
 # Term frequency-inverse document frequency
-- A statistical measure that evaluates how relevant a word is to a document in a collection of documents
+-  A measure that evaluates how relevant a word is to a document in a collection of documents
+- TF is the frequency of any term in an individual document 
+- IDF is constant for the entire corpus, accounting for the ratio of documents that include the specific term
