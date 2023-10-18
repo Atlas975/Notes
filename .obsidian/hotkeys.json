@@ -498,7 +498,16 @@
       "key": "S"
     }
   ],
-  "templater-obsidian:XX-Attachments/Templates/AliasNote.md": [],
+  "templater-obsidian:XX-Attachments/Templates/AliasNote.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "N"
+    }
+  ],
   "editor:fold-all": [
     {
       "modifiers": [],

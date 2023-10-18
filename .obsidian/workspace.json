@@ -164,7 +164,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/DataProcessing/Missing_values_handling.md",
+                "file": "NaturalLanguageProcessing/Term_frequency-inverse_document_frequency.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -266,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/DataProcessing/Missing_values_handling.md"
+                "file": "NaturalLanguageProcessing/Term_frequency-inverse_document_frequency.md"
               }
             }
           }
@@ -301,7 +301,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/DataProcessing/Missing_values_handling.md",
+                "file": "NaturalLanguageProcessing/Term_frequency-inverse_document_frequency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -318,7 +318,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/DataProcessing/Missing_values_handling.md",
+                "file": "NaturalLanguageProcessing/Term_frequency-inverse_document_frequency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -374,6 +374,10 @@
   },
   "active": "30018637ed08afeb",
   "lastOpenFiles": [
+    "NaturalLanguageProcessing/Untitled.md",
+    "NaturalLanguageProcessing/Term_frequency-inverse_document_frequency.md",
+    "MachineLearning/0-GeneralConcepts/DataProcessing/Missing_values_handling.md",
+    "NaturalLanguageProcessing",
     "MachineLearning/0-GeneralConcepts/DataProcessing/Data_leakage.md",
     "MachineLearning/0-GeneralConcepts/DataProcessing/Handling_categorical_data.md",
     "MachineLearning/Machine_learning_features.md",
@@ -408,9 +412,6 @@
     "Networking/Routing_protocols.md",
     "Networking/Network_tools.md",
     "Networking/Internet_architecture.md",
-    "MediaCoding&Processing/Detection_algorithms.md",
-    "MediaCoding&Processing/Media_coding&processing.md",
-    "Networking/Network_architecture.md",
     "MachineLearning/ArtificialIntelligence",
     "MediaCoding&Processing",
     "Algorithms/Trees",
@@ -418,7 +419,6 @@
     "XX-Attachments/Images/Home work 3 SOLUTIONS 2021-2022.pdf",
     "XX-Attachments/Images/Data_communications_HW.pdf",
     "EmbeddedSystems/BinaryArithmetic",
-    "EmbeddedSystems/LogicGates",
-    "EmbeddedSystems"
+    "EmbeddedSystems/LogicGates"
   ]
 }
