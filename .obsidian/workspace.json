@@ -248,7 +248,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -348,10 +349,12 @@
   },
   "active": "00ed8aa5506859f2",
   "lastOpenFiles": [
-    "MachineLearning/Feature_scaling.md",
-    "MachineLearning/Machine_learning_features.md",
-    "MachineLearning/ArtificialIntelligence/Artificial_intelligence.md",
     "DistributedSystems/Remote_invocation.md",
+    "Networking/RoutingAlgorithms/Distance_vector_routing.md",
+    "MachineLearning/Machine_learning_features.md",
+    "XX-Attachments/Images/Pasted image 20231018120325.png",
+    "MachineLearning/Feature_scaling.md",
+    "MachineLearning/ArtificialIntelligence/Artificial_intelligence.md",
     "Networking/Reliable_data_transfer.md",
     "Networking/Protocol_stack.md",
     "Networking/Network_topology.md",
@@ -372,9 +375,7 @@
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "XX-Attachments/Images/Pasted image 20231016173851.png",
     "XX-Attachments/Images/Pasted image 20231016153805.png",
-    "Networking/RoutingAlgorithms/Distance_vector_routing.md",
     "DistributedSystems",
-    "XX-Attachments/Images/Pasted image 20231015131521.png",
     "Networking/RoutingAlgorithms/Link_state_routing.md",
     "Networking/Transmission_mediums.md",
     "Networking/Routing_protocols.md",
@@ -384,7 +385,6 @@
     "MediaCoding&Processing/Media_coding&processing.md",
     "Networking/Network_architecture.md",
     "Networking/Internet_protocol.md",
-    "Networking/Congestion_control.md",
     "MachineLearning/ArtificialIntelligence",
     "MediaCoding&Processing",
     "Algorithms/Trees",

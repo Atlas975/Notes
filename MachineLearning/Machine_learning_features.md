@@ -12,3 +12,12 @@
 ___
 # Machine learning features
 - A feature is a measurable property from the phenomena being observed 
+- The feature set represents the information that can be extracted from given data
+- **Labels** are the named tags assigned to a feature set, these commonly relate to what the model is trying to learn from 
+
+![[Pasted image 20231018120325.png|425|425]]
+
+## Feature extraction 
+- The method set used to map input features to new output features 
+- This describes the process of transfo
+- Raw data needs to be transformed into numerical informat
