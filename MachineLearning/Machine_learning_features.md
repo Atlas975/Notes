@@ -17,7 +17,8 @@ ___
 
 ![[Pasted image 20231018120325.png|425|425]]
 
-- A feature vector is a structured collection of features that represent a data instance eg a feature vector for an image of 
+- A feature vector is a structured collection of features that represent a data instance eg a feature vector for a model identifying fruit may contain information such as colour distribution, shape, texture and size.
+- A good compact feature vector is essential as input for classification algorithms 
 
 ## Feature extraction
 - Raw data needs to be transformed into encodable numerical information whilst still preserving information. Feature extraction describes the process of mapping these raw input features to these new output features
@@ -25,7 +26,7 @@ ___
 
 ![[Pasted image 20231018122819.png|550|550]]
 
-
+- Feature detection is the process of identifying where to extract features from as not all parts of a piece of data may have relevant information
 
 ## Feature quality
 - A high quality feature needs to have three main characteristics 
