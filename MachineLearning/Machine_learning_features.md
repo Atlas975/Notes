@@ -26,3 +26,8 @@ ___
 
 ### Feature extraction methods 
 
+
+## Feature quality 
+- A high quality feature needs to have three main characteristics 
+- **Repeatability**: should be reliably detectable in different instances eg different angles / luminance when it comes to images 
+- **Saliency**: should be usefully descriptive and distinctive eg an image feature should contribute towards accurate analysis and decision making 
