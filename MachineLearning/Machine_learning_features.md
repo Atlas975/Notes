@@ -18,6 +18,11 @@ ___
 ![[Pasted image 20231018120325.png|425|425]]
 
 ## Feature extraction 
-- The method set used to map input features to new output features 
-- This describes the process of transfo
-- Raw data needs to be transformed into numerical informat
+- Raw data needs to be transformed into encodable numerical information whilst still preserving information. Feature extraction describes the process of mapping these raw input features to these new output features
+- These features are then fit to be used as input to a learning algorithm. This is necessary as real-world data is often generated in non-numeric formats
+
+![[Pasted image 20231018122819.png|550|550]]
+
+
+### Feature extraction methods 
+
