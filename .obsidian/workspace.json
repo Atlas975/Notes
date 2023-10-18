@@ -146,12 +146,25 @@
             }
           },
           {
-            "id": "00ed8aa5506859f2",
+            "id": "e12af4ffc5b7f29e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/Machine_learning_features.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00ed8aa5506859f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/ArtificialIntelligence/Artificial_intelligence.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -248,8 +261,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -347,15 +359,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "00ed8aa5506859f2",
+  "active": "e12af4ffc5b7f29e",
   "lastOpenFiles": [
-    "XX-Attachments/Images/Pasted image 20231018122819.png",
     "DistributedSystems/Remote_invocation.md",
-    "Networking/RoutingAlgorithms/Distance_vector_routing.md",
+    "MachineLearning/ArtificialIntelligence/Artificial_intelligence.md",
     "MachineLearning/Machine_learning_features.md",
+    "XX-Attachments/Images/Pasted image 20231018122819.png",
+    "Networking/RoutingAlgorithms/Distance_vector_routing.md",
     "XX-Attachments/Images/Pasted image 20231018120325.png",
     "MachineLearning/Feature_scaling.md",
-    "MachineLearning/ArtificialIntelligence/Artificial_intelligence.md",
     "Networking/Reliable_data_transfer.md",
     "Networking/Protocol_stack.md",
     "Networking/Network_topology.md",
@@ -375,7 +387,6 @@
     "XX-Attachments/Images/Pasted image 20231016174155.png",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "XX-Attachments/Images/Pasted image 20231016173851.png",
-    "XX-Attachments/Images/Pasted image 20231016153805.png",
     "DistributedSystems",
     "Networking/RoutingAlgorithms/Link_state_routing.md",
     "Networking/Transmission_mediums.md",
