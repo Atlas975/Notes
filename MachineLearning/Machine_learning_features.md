@@ -31,3 +31,5 @@ ___
 - A high quality feature needs to have three main characteristics 
 - **Repeatability**: should be reliably detectable in different instances eg different angles / luminance when it comes to images 
 - **Saliency**: should be usefully descriptive and distinctive eg an image feature should contribute towards accurate analysis and decision making 
+- **Compactness**: impacts matching speed, limited / smaller features can be beneficial in terms of memory use and how quickly a feature is matched. Especially crucial in real-time applications 
+
