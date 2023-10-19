@@ -177,8 +177,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NaturalLanguageProcessing/Term_frequency-inverse_document_frequency.md",
-                "mode": "source",
+                "file": "OperatingSystems/Linux_permissions.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -279,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NaturalLanguageProcessing/Term_frequency-inverse_document_frequency.md"
+                "file": "OperatingSystems/Linux_permissions.md"
               }
             }
           }
@@ -314,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NaturalLanguageProcessing/Term_frequency-inverse_document_frequency.md",
+                "file": "OperatingSystems/Linux_permissions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -331,7 +331,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NaturalLanguageProcessing/Term_frequency-inverse_document_frequency.md",
+                "file": "OperatingSystems/Linux_permissions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -385,10 +385,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5fdba0708aa4d877",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
-    "MachineLearning/Neural_networks.md",
+    "OperatingSystems/Multi-Process_systems.md",
+    "OperatingSystems/Computer_memory.md",
     "NaturalLanguageProcessing/Term_frequency-inverse_document_frequency.md",
+    "MachineLearning/Neural_networks.md",
     "NaturalLanguageProcessing/Untitled.md",
     "MachineLearning/0-GeneralConcepts/DataProcessing/Missing_values_handling.md",
     "NaturalLanguageProcessing",
@@ -423,8 +425,6 @@
     "DistributedSystems",
     "Networking/RoutingAlgorithms/Link_state_routing.md",
     "Networking/Transmission_mediums.md",
-    "Networking/Routing_protocols.md",
-    "Networking/Network_tools.md",
     "MachineLearning/ArtificialIntelligence",
     "MediaCoding&Processing",
     "Algorithms/Trees",
