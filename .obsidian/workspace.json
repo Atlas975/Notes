@@ -177,8 +177,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Linux_permissions.md",
-                "mode": "preview",
+                "file": "00-Main/1-Litnote.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -279,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Linux_permissions.md"
+                "file": "00-Main/1-Litnote.md"
               }
             }
           }
@@ -314,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Linux_permissions.md",
+                "file": "00-Main/1-Litnote.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -331,7 +331,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Linux_permissions.md",
+                "file": "00-Main/1-Litnote.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -385,8 +385,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "61b6b073dac95afd",
+  "active": "5fdba0708aa4d877",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20231020134046.png",
+    "00-Main/2-Litnote.md",
+    "OperatingSystems/Linux_permissions.md",
     "OperatingSystems/Multi-Process_systems.md",
     "OperatingSystems/Computer_memory.md",
     "NaturalLanguageProcessing/Term_frequency-inverse_document_frequency.md",
@@ -420,11 +423,8 @@
     "XX-Attachments/Images/Pasted image 20231016174732.png",
     "XX-Attachments/Images/Pasted image 20231016174534.png",
     "XX-Attachments/Images/Pasted image 20231016174155.png",
-    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "XX-Attachments/Images/Pasted image 20231016173851.png",
     "DistributedSystems",
-    "Networking/RoutingAlgorithms/Link_state_routing.md",
-    "Networking/Transmission_mediums.md",
     "MachineLearning/ArtificialIntelligence",
     "MediaCoding&Processing",
     "Algorithms/Trees",
