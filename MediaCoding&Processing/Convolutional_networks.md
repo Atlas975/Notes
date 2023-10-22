@@ -68,4 +68,7 @@ ___
 ## MobileNet
 [[Computer_vision#Computation cost of convolution]]
 
-![[Pasted image 20220623230550.png|450|450]]the bottle neck block allows the network the learn a richer function in the depth wise portion, the pointwise convolutions helps project back down to a smaller set of values, keeping the activations small
+
+![[Pasted image 20220623230550.png|450|450]]
+
+- The bottle neck block allows the network the learn a richer function in the depth wise portion, the pointwise convolutions helps project back down to a smaller set of values, keeping the activations small

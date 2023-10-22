@@ -22,8 +22,8 @@ this results in a wide variety of trees
 - Out of bag samples are useuful as they help us estimate how accurate our random forest actually is.	
 - We can even change the number of samples and use these entries as out of bag samples
 
-# Filling in data 
-- Using the median / most frequently occuring data
+# Filling in data
+- Using the median / most frequently occurring data
 ![[Pasted image 20220227174222.png|300|300]]
 - Now we need to refine these guesses
 1. Build a random forest
