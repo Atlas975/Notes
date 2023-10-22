@@ -23,7 +23,7 @@ ___
 ## One-hot encoding
 - No assumed ordering of categories (nominal values)
 - Does not perform well when a large amount of possible categories are present.
-- The boolean nature of this encoding scheme also gives it a high memory requirement, when analysing text for example, vector dimensions will likely be too high
+- The boolean nature of this encoding scheme also gives it a high memory requirement, when analysing multiple sentences for example, vector dimensions will likely be too high
 
 ![[Pasted image 20231022154301.png|550|550]]
 
@@ -33,4 +33,5 @@ ___
 
 ![[Pasted image 20231022155818.png|350|350]]
 
-- This has the advantage of having better similarity representation than one-hot but can also have the most common words dominate t
+- This has the advantage of having better similarity representation than one-hot but can also have the most common words dominate the count eg the,a,is
+- [[Term_frequency-inverse_document_frequency|TF-IDF]] is a common solution to this
