@@ -3,14 +3,6 @@ aliases:
   - PPMI
 ---
 
-
-
-
-
-
-
-
-
 > [!important]- Metadata
 > **Tags:** #StatisticalLearning 
 > **Located:** MediaCoding&Processing
@@ -24,3 +16,5 @@ aliases:
 
 ___
 # Pointwise mutual information
+- A measure that evaluates if  x and y co-occur more than if they were independent
+- This is useful for finding associations between items eg in recommender systems. This is also a vital measure for feature selection

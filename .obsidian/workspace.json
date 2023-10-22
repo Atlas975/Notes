@@ -185,13 +185,13 @@
             }
           },
           {
-            "id": "15b1f32c2ab2052a",
+            "id": "0d427431d153e1bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding&Processing/Pointwise_mutual_infromation.md",
-                "mode": "source",
+                "file": "MediaCoding&Processing/Pointwise_mutual_information.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -300,7 +300,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding&Processing/Pointwise_mutual_infromation.md"
+                "file": "MediaCoding&Processing/Pointwise_mutual_information.md"
               }
             }
           }
@@ -335,7 +335,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding&Processing/Pointwise_mutual_infromation.md",
+                "file": "MediaCoding&Processing/Pointwise_mutual_information.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -352,7 +352,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding&Processing/Pointwise_mutual_infromation.md",
+                "file": "MediaCoding&Processing/Pointwise_mutual_information.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -406,10 +406,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "15b1f32c2ab2052a",
+  "active": "0d427431d153e1bb",
   "lastOpenFiles": [
     "MediaCoding&Processing/Term_frequency-inverse_document_frequency.md",
-    "MediaCoding&Processing/Pointwise_mutual_infromation.md",
+    "MediaCoding&Processing/Pointwise_mutual_information.md",
+    "00-Main/1-Litnote.md",
     "MediaCoding&Processing/Media_coding&processing.md",
     "MediaCoding&Processing/Computer_vision.md",
     "MediaCoding&Processing/Detection_algorithms.md",
@@ -441,7 +442,6 @@
     "MachineLearning/0-GeneralConcepts/ML_tuning/End_to_end_learning.md",
     "MachineLearning/0-GeneralConcepts/TreeModels/Decision_Trees.md",
     "MachineLearning/0-GeneralConcepts/TreeModels/Random_forests.md",
-    "MachineLearning/0-GeneralConcepts/Vectorization/Vectorized_logistic_regression.md",
     "XX-Attachments/Images/Pasted image 20231020134046.png",
     "NaturalLanguageProcessing",
     "XX-Attachments/Images/Pasted image 20231018122819.png",
