@@ -190,7 +190,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding&Processing/Text_encoding.md",
+                "file": "MediaCoding&Processing/Categorical_data_handeling.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -201,13 +201,8 @@
             "id": "43fe408e1d946461",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-GeneralConcepts/DataProcessing/Categorical_data_handeling.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -237,7 +232,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -305,7 +300,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/DataProcessing/Categorical_data_handeling.md"
+                "file": "MediaCoding&Processing/Categorical_data_handeling.md"
               }
             }
           }
@@ -313,8 +308,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -341,7 +335,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/DataProcessing/Categorical_data_handeling.md",
+                "file": "MediaCoding&Processing/Categorical_data_handeling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -358,7 +352,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/DataProcessing/Categorical_data_handeling.md",
+                "file": "MediaCoding&Processing/Categorical_data_handeling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -412,25 +406,28 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "43fe408e1d946461",
+  "active": "15b1f32c2ab2052a",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20231022155818.png",
+    "MediaCoding&Processing/Text_encoding.md",
+    "MediaCoding&Processing/Categorical_data_handeling.md",
+    "MediaCoding&Processing/Term_frequency-inverse_document_frequency.md",
+    "MediaCoding&Processing/Detection_algorithms.md",
+    "MediaCoding&Processing/Computer_vision.md",
+    "MachineLearning/0-GeneralConcepts/DataProcessing/Untitled.md",
+    "XX-Attachments/Images/Pasted image 20231022154704.png",
     "XX-Attachments/Images/Pasted image 20231022154301.png",
     "XX-Attachments/Images/Pasted image 20231022153918.png",
-    "MediaCoding&Processing/Term_frequency-inverse_document_frequency.md",
     "MachineLearning/Model_metrics.md",
     "MachineLearning/Machine_learning_features.md",
     "MachineLearning/0-GeneralConcepts/DataProcessing/Missing_values_handling.md",
-    "MachineLearning/0-GeneralConcepts/DataProcessing/Categorical_data_handeling.md",
     "MachineLearning/0-GeneralConcepts/DataProcessing/Data_leakage.md",
     "MachineLearning/0-GeneralConcepts/DataProcessing/Batch_normalization.md",
     "MachineLearning/0-GeneralConcepts/DataProcessing/Boosting.md",
-    "MediaCoding&Processing/Text_encoding.md",
     "MediaCoding&Processing/Edge_detection.md",
     "XX-Attachments/Images/Pasted image 20231022153145.png",
     "XX-Attachments/Images/Pasted image 20231022152823.png",
-    "MediaCoding&Processing/Detection_algorithms.md",
     "MediaCoding&Processing/Convolutional_networks.md",
-    "MediaCoding&Processing/Computer_vision.md",
     "MediaCoding&Processing/Media_coding&processing.md",
     "XX-Attachments/Images/Pasted image 20231022151418.png",
     "MachineLearning/0-GeneralConcepts/GradientDescent/Adams_algorithm.md",
@@ -443,14 +440,11 @@
     "MachineLearning/0-GeneralConcepts/TreeModels/Decision_Trees.md",
     "MachineLearning/0-GeneralConcepts/TreeModels/Random_forests.md",
     "MachineLearning/0-GeneralConcepts/Vectorization/Vectorized_logistic_regression.md",
-    "MachineLearning/0-GeneralConcepts/Vectorization/Vectorized_neural_network.md",
     "XX-Attachments/Images/Pasted image 20231020134046.png",
     "NaturalLanguageProcessing",
     "XX-Attachments/Images/Pasted image 20231018122819.png",
     "XX-Attachments/Images/Pasted image 20231018120325.png",
     "XX-Attachments/Images/Pasted image 20231016184020.png",
-    "XX-Attachments/Images/Pasted image 20231016182410.png",
-    "XX-Attachments/Images/Pasted image 20231016174945.png",
     "DistributedSystems",
     "MachineLearning/ArtificialIntelligence",
     "MediaCoding&Processing",
