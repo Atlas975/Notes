@@ -30,16 +30,6 @@ ___
 > $p=\frac{f-1}{2}$
 
 - Convolutions without padding are known as valid convolutions
-## Edge detection
-- Edges in images are typically represented by a transition from darker to lighter pixels, multiple filters such as the one below for vertical detection can be used to find specific edge types
-- Being able to detect lower level features like edges is the first step in training a CNN
-
-![[Pasted image 20220621135948.png|550|550]]
-
-- note this filter can only detect light to dark transitions from left to right
-- Alternative edge detection approaches
-
-![[Pasted image 20231022151418.png|400|400]]
 ## Strided convolutions
 - Describes the jump size after each convolution, larger strides further compress an image, strides that fall out of bounds are skipped to where the number of strides in any given dimension is equal to the floor of n/f
 

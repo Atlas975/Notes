@@ -190,7 +190,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding&Processing/Convolutional_networks.md",
+                "file": "MediaCoding&Processing/Edge_detection.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -292,7 +292,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding&Processing/Convolutional_networks.md"
+                "file": "MediaCoding&Processing/Edge_detection.md"
               }
             }
           }
@@ -327,7 +327,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding&Processing/Convolutional_networks.md",
+                "file": "MediaCoding&Processing/Edge_detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -344,7 +344,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding&Processing/Convolutional_networks.md",
+                "file": "MediaCoding&Processing/Edge_detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -400,9 +400,12 @@
   },
   "active": "15b1f32c2ab2052a",
   "lastOpenFiles": [
-    "MediaCoding&Processing/Media_coding&processing.md",
+    "XX-Attachments/Images/Pasted image 20231022152823.png",
+    "MediaCoding&Processing/Detection_algorithms.md",
     "MediaCoding&Processing/Convolutional_networks.md",
     "MediaCoding&Processing/Computer_vision.md",
+    "MediaCoding&Processing/Edge_detection.md",
+    "MediaCoding&Processing/Media_coding&processing.md",
     "XX-Attachments/Images/Pasted image 20231022151418.png",
     "MachineLearning/0-GeneralConcepts/DataProcessing/Batch_normalization.md",
     "MachineLearning/0-GeneralConcepts/DataProcessing/Boosting.md",
@@ -424,9 +427,6 @@
     "MachineLearning/0-GeneralConcepts/Support_vector_machines.md",
     "MachineLearning/0-GeneralConcepts/Sampling_basics.md",
     "MachineLearning/Activation_functions.md",
-    "MachineLearning/Gradient_descent.md",
-    "MachineLearning/Statistical_modeling.md",
-    "MachineLearning/Regularization.md",
     "XX-Attachments/Images/Pasted image 20231020134046.png",
     "NaturalLanguageProcessing",
     "XX-Attachments/Images/Pasted image 20231018122819.png",
