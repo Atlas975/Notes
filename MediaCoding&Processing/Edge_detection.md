@@ -19,6 +19,8 @@ ___
 
 - An image channel is represented as a grid of rows and columns which map to it's respective pixel intensity value. For videos this mapping is from rows, columns and individual frames
 - Filters such as Sobel have larger values for the middle pixel in a row / column in order to reduce the influence of neighbouring pixels when calculating an output
+
+![[Pasted image 20231022153145.png|450|450]]
 ## Edge detection derivatives 
 - The first derivative / gradient of quantifies the change in pixel intensity 
 - The second derivative quantifies the rate of change in pixel intensity AKA the smoothness of the transition from light to dark or vice versa 
