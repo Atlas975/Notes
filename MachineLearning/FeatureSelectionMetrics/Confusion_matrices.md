@@ -13,7 +13,6 @@ ___
 # Confusion matrices
 - Accuracy as a measure only accounts for what percentage of results are wrong, it doesn't explain where the incorrect results came from. Confusion matrix measures solve this 
 
-
 >$$Accuracy=\frac{TP+TN}{TP+TN+FP+FN}$$
 
 ![[Pasted image 20231023144755.png|250|250]]
@@ -21,13 +20,21 @@ ___
 
 - Multiple measures can be derived from confusion matrices, these each tell different things and are emphasised differently depending on model purpose eg high sensitivity  in cancer diagnosis
 
-## Sensitivity / precision 
-- Probability of positive outcomes if truly positive 
+## Sensitivity 
+- Proportion of positive outcomes if truly positive (too many missed diagnosis if low)
+
 >$$\frac{TP}{TP + FN}$$
 
-
 ## Specificity
+- Proportion of negative outcomes if truly negative (too many false scares if low)
 
-- Probability of negative outcomes if truly negative 
 >$$\frac{TN}{TN+FP}$$
 
+## Precision
+- Proportion of positive outcomes to positive outcomes (too many false scares)
+
+>$$\frac{TP}{TP+FP}$$
+
+## Negative predicted value 
+- Proportion of truly negative outcomes to predicted negative (too many missed cases)
+>$$\frac{TN}{TN+FN}$$
