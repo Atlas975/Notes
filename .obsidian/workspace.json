@@ -190,7 +190,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/Sampling_basics.md",
+                "file": "MachineLearning/FeatureSelectionMetrics/F_score.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -313,7 +313,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/Sampling_basics.md"
+                "file": "MachineLearning/FeatureSelectionMetrics/F_score.md"
               }
             }
           }
@@ -348,7 +348,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/Sampling_basics.md",
+                "file": "MachineLearning/FeatureSelectionMetrics/F_score.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -365,7 +365,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/Sampling_basics.md",
+                "file": "MachineLearning/FeatureSelectionMetrics/F_score.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -421,17 +421,27 @@
   },
   "active": "aac6574bf70d86a2",
   "lastOpenFiles": [
+    "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+    "MachineLearning/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
+    "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/FeatureSelectionMetrics/F_score.md",
+    "MachineLearning/0-GeneralConcepts/Eigenthings.md",
+    "MachineLearning/0-GeneralConcepts/General_math.md",
+    "MachineLearning/0-GeneralConcepts/LinearRegression_math.md",
+    "MachineLearning/0-GeneralConcepts/Pearsons_correlation.md",
+    "MachineLearning/0-GeneralConcepts/P_value.md",
+    "MachineLearning/0-GeneralConcepts/ML_Data_usage.md",
+    "MachineLearning/0-GeneralConcepts/Markov_chains.md",
+    "MachineLearning/0-GeneralConcepts/Log_odds.md",
     "MachineLearning/0-GeneralConcepts/T_test.md",
     "MachineLearning/0-GeneralConcepts/Support_vector_machines.md",
+    "MachineLearning/0-GeneralConcepts/Sampling_basics.md",
     "MachineLearning/Activation_functions.md",
-    "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/Machine_learning_features.md",
     "MachineLearning/Machine_learning_notation.md",
-    "MachineLearning/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
     "MachineLearning/FeatureEngineering/Feature_scaling.md",
     "MachineLearning/FeatureEngineering",
     "MachineLearning/FeatureSelectionMetrics",
-    "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md",
     "XX-Attachments/Images/Pasted image 20231023141526.png",
     "XX-Attachments/Images/Pasted image 20231023141026.png",
     "XX-Attachments/Images/Pasted image 20231023140027.png",
@@ -444,21 +454,11 @@
     "MediaCoding&Processing/Categorical_data_handeling.md",
     "XX-Attachments/Images/Pasted image 20231022155818.png",
     "MediaCoding&Processing/Text_encoding.md",
-    "MachineLearning/0-GeneralConcepts/DataProcessing/Untitled.md",
     "XX-Attachments/Images/Pasted image 20231022154704.png",
     "XX-Attachments/Images/Pasted image 20231022154301.png",
     "XX-Attachments/Images/Pasted image 20231022153918.png",
-    "MachineLearning/Model_metrics.md",
-    "MachineLearning/0-GeneralConcepts/DataProcessing/Missing_values_handling.md",
-    "MachineLearning/0-GeneralConcepts/DataProcessing/Data_leakage.md",
-    "MachineLearning/0-GeneralConcepts/DataProcessing/Batch_normalization.md",
-    "MachineLearning/0-GeneralConcepts/DataProcessing/Boosting.md",
     "XX-Attachments/Images/Pasted image 20231022153145.png",
     "XX-Attachments/Images/Pasted image 20231022152823.png",
-    "MediaCoding&Processing/Convolutional_networks.md",
-    "MachineLearning/0-GeneralConcepts/GradientDescent/Adams_algorithm.md",
-    "MachineLearning/0-GeneralConcepts/GradientDescent/Gradient_descent_momentum.md",
-    "MachineLearning/0-GeneralConcepts/ML_tuning/Transfer_learning.md",
     "NaturalLanguageProcessing",
     "DistributedSystems",
     "MachineLearning/ArtificialIntelligence",

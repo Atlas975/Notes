@@ -1,4 +1,4 @@
-e# P-value
+# P-value
 - The P value is the measure of probability that an observed difference could have occurred through random chance. The greater the P value the greater the statistical significance of an observed value.
 - **A p-value less than 0.05 (typically ≤ 0.05) is statistically significant** getting a small p value when there is no difference is known as a false positive. This threshold can vary depending on needs
 - Example hypothesis:
@@ -13,14 +13,14 @@ e# P-value
 
 - This results in a p value of **0.5**, typically we only reject the null hypothesis is less than **0.05**. In this case we **fail** to reject the null hypothesis.
 - This means that the data getting two heads in a row wasen't enough to convince us our coin is special
-- Knowing that other outcomes are equally rare makes the hypothesis less special, the same goes for outcomes that are rarer thats why these values are added to the p value since the existence of rarer outcomes makes the hypothesis less special
+- Knowing that other outcomes are equally rare makes the hypothesis less special, the same goes for outcomes that are rarer that's why these values are added to the p value since the existence of rarer outcomes makes the hypothesis less special
 - P value for 4 heads and one tail example:
 ![[Pasted image 20220225121134.png|450|450]]
 ![[Pasted image 20220225121209.png|450|450]]
 ![[Pasted image 20220225121218.png|450|450]]
 
 # P-values for continuous data
-- In practice when we calculate probabilities for something continous like height we normally use a statistical distribution eg [[Gaussian_distribution]]
+- In practice when we calculate probabilities for something continuous like height we normally use a statistical distribution eg [[Gaussian_distribution]]
 ![[Pasted image 20220225122631.png|450|450]]
 ![[Pasted image 20220225122643.png|450|450]]
 - In this context the hypothesis asks if a measurement is far enough from the mean that we can reject the idea that it came from it, suggesting a distribution like the green one can explain it better
