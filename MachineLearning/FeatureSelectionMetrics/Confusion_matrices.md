@@ -20,7 +20,7 @@ ___
 
 - Multiple measures can be derived from confusion matrices, these each tell different things and are emphasised differently depending on model purpose eg high sensitivity  in cancer diagnosis
 
-## Sensitivity 
+## Sensitivity / recall
 - Proportion of positive outcomes if truly positive (too many missed diagnosis if low)
 
 >$$\frac{TP}{TP + FN}$$

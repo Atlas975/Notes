@@ -203,7 +203,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
+                "file": "MachineLearning/Clustering.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -313,8 +313,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "3c8c11216e62f58c",
@@ -327,7 +326,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md"
+                "file": "MachineLearning/Clustering.md"
               }
             }
           }
@@ -362,7 +361,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
+                "file": "MachineLearning/Clustering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -379,7 +378,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
+                "file": "MachineLearning/Clustering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -435,8 +434,10 @@
   },
   "active": "0d20f5a2b436bbb5",
   "lastOpenFiles": [
-    "MachineLearning/FeatureSelectionMetrics/F_score.md",
+    "XX-Attachments/Images/Pasted image 20231023152040.png",
     "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
+    "MachineLearning/Clustering.md",
+    "MachineLearning/FeatureSelectionMetrics/F_score.md",
     "00-Main/1-Litnote.md",
     "XX-Attachments/Images/Pasted image 20231023144755.png",
     "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md",
@@ -465,7 +466,6 @@
     "MediaCoding&Processing/Media_coding&processing.md",
     "MediaCoding&Processing/Computer_vision.md",
     "MediaCoding&Processing/Detection_algorithms.md",
-    "MediaCoding&Processing/Edge_detection.md",
     "XX-Attachments/Images/Pasted image 20231022160737.png",
     "XX-Attachments/Images/Pasted image 20231022155818.png",
     "XX-Attachments/Images/Pasted image 20231022154704.png",
