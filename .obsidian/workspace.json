@@ -185,12 +185,25 @@
             }
           },
           {
-            "id": "0d427431d153e1bb",
+            "id": "aac6574bf70d86a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "MediaCoding&Processing/Pointwise_mutual_information.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0d427431d153e1bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding&Processing/Term_frequency-inverse_document_frequency.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -406,11 +419,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0d427431d153e1bb",
+  "active": "aac6574bf70d86a2",
   "lastOpenFiles": [
+    "00-Main/1-Litnote.md",
     "MediaCoding&Processing/Term_frequency-inverse_document_frequency.md",
     "MediaCoding&Processing/Pointwise_mutual_information.md",
-    "00-Main/1-Litnote.md",
     "MediaCoding&Processing/Media_coding&processing.md",
     "MediaCoding&Processing/Computer_vision.md",
     "MediaCoding&Processing/Detection_algorithms.md",
