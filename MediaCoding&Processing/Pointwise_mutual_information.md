@@ -1,6 +1,6 @@
 ---
 aliases:
-  - PPMI
+  - PMI
 ---
 
 > [!important]- Metadata
@@ -18,3 +18,6 @@ ___
 # Pointwise mutual information
 - A measure that evaluates if  x and y co-occur more than if they were independent
 - This is useful for finding associations between items eg in recommender systems. This is also a vital measure for feature selection
+
+
+>$$PMI=\sum_{x \in X}\sum_{y \in Y} \mathbb{P}(x,y)\log\left[ \frac{\mathbb{P}(x,y)}{\mathbb{P}(x)\mathbb{P}(y)} \right]$$
