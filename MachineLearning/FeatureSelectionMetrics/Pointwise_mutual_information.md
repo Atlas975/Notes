@@ -21,7 +21,7 @@ ___
 
 ![[Pasted image 20231023141026.png|450|450]]
 
-- The measurement naturally adjusts to edge cases such as when a column only has a single value that never changes. In this scenario PMI = 0 indicating no usefulness in prediction 
+- The measurement naturally adjusts to edge cases such as when a one or both columns never changes. In this scenario PMI = 0 indicating no usefulness in prediction
 - When both columns change AND the change in one tell us more about what's going on in the other, then the PMI value will be larger
 ## PMI formula
 
@@ -30,9 +30,11 @@ ___
 - The two summations exist to indicate that all possible combinations for two columns are considered (the product of the two vectors
 
 
-![[Pasted image 20231023140027.png|550|550]]
+![[Pasted image 20231023140027.png|500|500]]
 
 
 ## Continuous mutual information
 - This can be handled using buckets, not ideal when values vary dramatically in which case ranges can be used instead
+
+![[Pasted image 20231023141526.png|500|500]]
 - 

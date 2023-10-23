@@ -190,8 +190,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding&Processing/Pointwise_mutual_information.md",
-                "mode": "source",
+                "file": "MachineLearning/0-GeneralConcepts/Sampling_basics.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -203,7 +203,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding&Processing/Term_frequency-inverse_document_frequency.md",
+                "file": "MachineLearning/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -224,7 +224,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/ArtificialIntelligence/Artificial_intelligence.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -313,7 +313,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding&Processing/Pointwise_mutual_information.md"
+                "file": "MachineLearning/0-GeneralConcepts/Sampling_basics.md"
               }
             }
           }
@@ -348,7 +348,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding&Processing/Pointwise_mutual_information.md",
+                "file": "MachineLearning/0-GeneralConcepts/Sampling_basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -365,7 +365,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding&Processing/Pointwise_mutual_information.md",
+                "file": "MachineLearning/0-GeneralConcepts/Sampling_basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -421,11 +421,21 @@
   },
   "active": "aac6574bf70d86a2",
   "lastOpenFiles": [
+    "MachineLearning/0-GeneralConcepts/T_test.md",
+    "MachineLearning/0-GeneralConcepts/Support_vector_machines.md",
+    "MachineLearning/Activation_functions.md",
+    "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/Machine_learning_features.md",
+    "MachineLearning/Machine_learning_notation.md",
+    "MachineLearning/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
+    "MachineLearning/FeatureEngineering/Feature_scaling.md",
+    "MachineLearning/FeatureEngineering",
+    "MachineLearning/FeatureSelectionMetrics",
+    "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+    "XX-Attachments/Images/Pasted image 20231023141526.png",
     "XX-Attachments/Images/Pasted image 20231023141026.png",
     "XX-Attachments/Images/Pasted image 20231023140027.png",
     "00-Main/1-Litnote.md",
-    "MediaCoding&Processing/Term_frequency-inverse_document_frequency.md",
-    "MediaCoding&Processing/Pointwise_mutual_information.md",
     "MediaCoding&Processing/Media_coding&processing.md",
     "MediaCoding&Processing/Computer_vision.md",
     "MediaCoding&Processing/Detection_algorithms.md",
@@ -439,7 +449,6 @@
     "XX-Attachments/Images/Pasted image 20231022154301.png",
     "XX-Attachments/Images/Pasted image 20231022153918.png",
     "MachineLearning/Model_metrics.md",
-    "MachineLearning/Machine_learning_features.md",
     "MachineLearning/0-GeneralConcepts/DataProcessing/Missing_values_handling.md",
     "MachineLearning/0-GeneralConcepts/DataProcessing/Data_leakage.md",
     "MachineLearning/0-GeneralConcepts/DataProcessing/Batch_normalization.md",
@@ -447,16 +456,9 @@
     "XX-Attachments/Images/Pasted image 20231022153145.png",
     "XX-Attachments/Images/Pasted image 20231022152823.png",
     "MediaCoding&Processing/Convolutional_networks.md",
-    "XX-Attachments/Images/Pasted image 20231022151418.png",
     "MachineLearning/0-GeneralConcepts/GradientDescent/Adams_algorithm.md",
     "MachineLearning/0-GeneralConcepts/GradientDescent/Gradient_descent_momentum.md",
     "MachineLearning/0-GeneralConcepts/ML_tuning/Transfer_learning.md",
-    "MachineLearning/0-GeneralConcepts/ML_tuning/ML_model_tuning.md",
-    "MachineLearning/0-GeneralConcepts/ML_tuning/Human_level_performance.md",
-    "MachineLearning/0-GeneralConcepts/ML_tuning/Evaluation_metrics.md",
-    "MachineLearning/0-GeneralConcepts/ML_tuning/End_to_end_learning.md",
-    "MachineLearning/0-GeneralConcepts/TreeModels/Decision_Trees.md",
-    "XX-Attachments/Images/Pasted image 20231020134046.png",
     "NaturalLanguageProcessing",
     "DistributedSystems",
     "MachineLearning/ArtificialIntelligence",
@@ -464,8 +466,6 @@
     "Algorithms/Trees",
     "LinearProgramming",
     "XX-Attachments/Images/Home work 3 SOLUTIONS 2021-2022.pdf",
-    "XX-Attachments/Images/Data_communications_HW.pdf",
-    "EmbeddedSystems/BinaryArithmetic",
-    "EmbeddedSystems/LogicGates"
+    "XX-Attachments/Images/Data_communications_HW.pdf"
   ]
 }

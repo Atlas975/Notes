@@ -57,3 +57,5 @@ ___
 >  $p=\text{padding dimensions}$
 > $s=\text{stride size}$
 $n_{c}=\text{number of channels}$
+
+
