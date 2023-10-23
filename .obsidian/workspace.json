@@ -191,7 +191,20 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/FeatureSelectionMetrics/F_score.md",
-                "mode": "preview",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d1e2f958696d4451",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -245,7 +258,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -300,7 +313,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "3c8c11216e62f58c",
@@ -313,7 +327,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/FeatureSelectionMetrics/F_score.md"
+                "file": "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md"
               }
             }
           }
@@ -348,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/FeatureSelectionMetrics/F_score.md",
+                "file": "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -365,7 +379,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/FeatureSelectionMetrics/F_score.md",
+                "file": "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -419,12 +433,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "aac6574bf70d86a2",
+  "active": "d1e2f958696d4451",
   "lastOpenFiles": [
+    "MachineLearning/FeatureSelectionMetrics/F_score.md",
+    "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
+    "00-Main/1-Litnote.md",
+    "XX-Attachments/Images/Pasted image 20231023144755.png",
     "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md",
     "MachineLearning/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
     "MachineLearning/Artificial_intelligence.md",
-    "MachineLearning/FeatureSelectionMetrics/F_score.md",
     "MachineLearning/0-GeneralConcepts/Eigenthings.md",
     "MachineLearning/0-GeneralConcepts/General_math.md",
     "MachineLearning/0-GeneralConcepts/LinearRegression_math.md",
@@ -445,20 +462,16 @@
     "XX-Attachments/Images/Pasted image 20231023141526.png",
     "XX-Attachments/Images/Pasted image 20231023141026.png",
     "XX-Attachments/Images/Pasted image 20231023140027.png",
-    "00-Main/1-Litnote.md",
     "MediaCoding&Processing/Media_coding&processing.md",
     "MediaCoding&Processing/Computer_vision.md",
     "MediaCoding&Processing/Detection_algorithms.md",
     "MediaCoding&Processing/Edge_detection.md",
     "XX-Attachments/Images/Pasted image 20231022160737.png",
-    "MediaCoding&Processing/Categorical_data_handeling.md",
     "XX-Attachments/Images/Pasted image 20231022155818.png",
-    "MediaCoding&Processing/Text_encoding.md",
     "XX-Attachments/Images/Pasted image 20231022154704.png",
     "XX-Attachments/Images/Pasted image 20231022154301.png",
     "XX-Attachments/Images/Pasted image 20231022153918.png",
     "XX-Attachments/Images/Pasted image 20231022153145.png",
-    "XX-Attachments/Images/Pasted image 20231022152823.png",
     "NaturalLanguageProcessing",
     "DistributedSystems",
     "MachineLearning/ArtificialIntelligence",
