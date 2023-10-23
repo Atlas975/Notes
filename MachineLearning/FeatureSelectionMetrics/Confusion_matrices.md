@@ -35,6 +35,9 @@ ___
 
 >$$\frac{TP}{TP+FP}$$
 
-## Negative predicted value 
+## Negative predicted value
 - Proportion of truly negative outcomes to predicted negative (too many missed cases)
+
 >$$\frac{TN}{TN+FN}$$
+
+## F1 score

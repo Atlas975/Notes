@@ -211,6 +211,19 @@
             }
           },
           {
+            "id": "2c972da4559b5fa9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0d427431d153e1bb",
             "type": "leaf",
             "state": {
@@ -258,7 +271,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -326,7 +339,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Clustering.md"
+                "file": "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md"
               }
             }
           }
@@ -361,7 +374,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Clustering.md",
+                "file": "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -378,7 +391,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Clustering.md",
+                "file": "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -432,11 +445,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0d20f5a2b436bbb5",
+  "active": "2c972da4559b5fa9",
   "lastOpenFiles": [
+    "MachineLearning/Clustering.md",
     "XX-Attachments/Images/Pasted image 20231023152040.png",
     "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
-    "MachineLearning/Clustering.md",
     "MachineLearning/FeatureSelectionMetrics/F_score.md",
     "00-Main/1-Litnote.md",
     "XX-Attachments/Images/Pasted image 20231023144755.png",
@@ -471,7 +484,6 @@
     "XX-Attachments/Images/Pasted image 20231022154704.png",
     "XX-Attachments/Images/Pasted image 20231022154301.png",
     "XX-Attachments/Images/Pasted image 20231022153918.png",
-    "XX-Attachments/Images/Pasted image 20231022153145.png",
     "NaturalLanguageProcessing",
     "DistributedSystems",
     "MachineLearning/ArtificialIntelligence",
