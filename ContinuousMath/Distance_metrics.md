@@ -29,17 +29,25 @@ ___
 >$$\sum_{i}|a_{i}-b_{i}|$$
 
 ## Cosine distance
-- Measures the cosine angle between two vectors in multidimensional space, 
+- Measures the cosine angle between two vectors in multidimensional space, useful for measuring document similarity when the magnitude of vectors is irrelavent  
 
 >$$\frac{\sum_{i}a_{i}b_{i}}{\sqrt{ \sum_{i}a_{i}^2}\sqrt{ \sum_{i}b_{i}^2 }}$$
-## Hamming distance 
+
+### Cosine similarity applications
+- Useful for finding the similarity between two pieces of text, ignoring frequency of repeats
+- Note that a and b are sentences while each element represents word frequency 
+
+![[Pasted image 20231024232458.png|350|350]]
+
+![[Pasted image 20231024233038.png|350|350]]
+## Hamming distance
 - Measures the dissimilarity between two [[Bit_manipulation|binary]] strings of equal length by counting the number of positions at which the corresponding elements differ. Useful for error detection 
 
 >$$\begin{align*}
+
 \mathcal{\sum_{i}} =
 \begin{cases}
 1 & \text{if }a_{i}=b_{i} \\
 0 & \text{otherwise}
 \end{cases}
 \end{align*}$$
-
