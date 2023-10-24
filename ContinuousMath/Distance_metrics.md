@@ -19,7 +19,7 @@ ___
 >$$\sqrt{\sum_{i}(a_{i}-b_{i})^2 }$$
 
 ## Square Euclidean distance
-- Computationally less expensive version of standard euclidean, used when the exact magnitude of distance between points does not need to be compared 
+- Lightweight version of standard euclidean
 
 >$$\sum_{i}(a_{i}-b_{i})^2$$
 
@@ -44,7 +44,6 @@ ___
 - Measures the dissimilarity between two [[Bit_manipulation|binary]] strings of equal length by counting the number of positions at which the corresponding elements differ. Useful for error detection 
 
 >$$\begin{align*}
-
 \mathcal{\sum_{i}} =
 \begin{cases}
 1 & \text{if }a_{i}=b_{i} \\
