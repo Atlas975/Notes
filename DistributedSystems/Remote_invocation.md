@@ -1,6 +1,7 @@
 ---
 aliases: []
 ---
+
 > [!important]- Metadata
 > **Tags:** #DistributedSystems 
 > **Located:** DistributedSystems
@@ -19,7 +20,7 @@ ___
 
 ![[Pasted image 20231025001951.png|350|350]]
 
-## Protocol styles 
+## Protocol styles
 - **R**: request through fire and forget with no blocking on server side 
 - **RR**: request-reply protocol, if reply lost a request may be repeated by client
 - **RRA**: second reply from client to acknowledge a resource has been received 
@@ -30,13 +31,24 @@ ___
 | RR    | Request | Reply  | -      |
 | RRA      |Request         |Reply        |Acknowledgement        |
 
-## Remote procedure calls 
+## Remote procedure calls
 - RPC's allow for functions to be called on other computers as if they were called locally, simplest form of communication middleware providing a high level request-response mechanism
 - Typically synchronous, client blocks while waiting for client function return 
 
 ![[Pasted image 20231025002102.png|400|400]]
 
-- RMI's rely on interfaces. Proxies, stubs and dispatchers are generated automatically by an IDL (interface defintion language) compiler 
-## Basic RMI procedure 
+- RMI's rely on interfaces. Proxies, stubs and dispatchers are generated automatically by an IDL (interface definition language) compiler 
+- Client side components:
+	- **Proxies**: masks as a local version of remote interface, redirecting calls to client stub 
+	- **Client stub**: marshalls (flattening) a call into a request message sent to remote end, also carries out the unmarshall process for returning replies 
+- Server side components:
+	- **Dispatchers**: receive incoming message to direct to appropriate stub 
+	- **Server stubs**: carries out the unmarshall process and invokes appropriate code body, also marshalls reply and afterwards initiates transmission back to client
+- RPC's end up looking like this on the client side 
+```
+thing = RPCService.getRemote(serverName);  // 
+thing.callFunction("hi");
+```
+## Basic RMI procedure
 
 ![[Pasted image 20231025001513.png|550|550]]
