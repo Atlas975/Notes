@@ -14,11 +14,17 @@ ___
 
 ## Arithmetic mean 
 - Use  to find the average of a set of values eg test scores or daily temperatures.
+
 >$$\frac{\sum x}{n}$$
 
 ## Geometric mean 
->$$\sqrt[n]{\prod x}$$
+
+- Use to find growth rates, eg calculating average annual ROI or population growth rates.
+
+>$$\sqrt[2]{\prod x}$$
 
 
 ## Harmonic mean 
+- Use when involving reciprocal rates, eg average speeds or resistance in parallel circuits.
+
 >$$\frac{n}{\sum x^{-1}}$$
