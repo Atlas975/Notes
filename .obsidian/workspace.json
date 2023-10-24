@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "40c15e63468790c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DistributedSystems/Remote_invocation.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c3ac45fbee05983c",
             "type": "leaf",
             "state": {
@@ -33,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ContinuousMath/Distance_metrics.md"
+                "file": "DistributedSystems/Remote_invocation.md"
               }
             }
           }
@@ -136,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ContinuousMath/Distance_metrics.md",
+                "file": "DistributedSystems/Remote_invocation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ContinuousMath/Distance_metrics.md",
+                "file": "DistributedSystems/Remote_invocation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,12 +221,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f20648035bc28460",
+  "active": "40c15e63468790c6",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20231025002102.png",
+    "XX-Attachments/Images/Pasted image 20231025001951.png",
+    "XX-Attachments/Images/Pasted image 20231025001513.png",
+    "XX-Attachments/Images/Pasted image 20231025001357.png",
+    "XX-Attachments/Images/Pasted image 20231025001236.png",
+    "ContinuousMath/Distance_metrics.md",
     "XX-Attachments/Images/Pasted image 20231024233038.png",
     "XX-Attachments/Images/Pasted image 20231024232458.png",
     "ContinuousMath/Mean.md",
-    "ContinuousMath/Distance_metrics.md",
     "DistributedSystems/Remote_invocation.md",
     "DistributedSystems/Distributed_systems.md",
     "Algorithms/Squareroot_decomposition.md",
@@ -242,11 +261,6 @@
     "MachineLearning/FeatureSelectionMetrics",
     "XX-Attachments/Images/Pasted image 20231023141526.png",
     "XX-Attachments/Images/Pasted image 20231023141026.png",
-    "XX-Attachments/Images/Pasted image 20231023140027.png",
-    "XX-Attachments/Images/Pasted image 20231022160737.png",
-    "XX-Attachments/Images/Pasted image 20231022155818.png",
-    "XX-Attachments/Images/Pasted image 20231022154704.png",
-    "XX-Attachments/Images/Pasted image 20231022154301.png",
     "NaturalLanguageProcessing",
     "DistributedSystems",
     "MachineLearning/ArtificialIntelligence",

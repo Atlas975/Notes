@@ -1,6 +1,5 @@
 ---
-aliases:
-  - RMI
+aliases: []
 ---
 > [!important]- Metadata
 > **Tags:** #DistributedSystems 
@@ -15,8 +14,10 @@ aliases:
 
 ___
 # Remote invocation
-- The process of invoking an operation on a separate computer using a given protocol 
+- The process of invoking an operation on a separate computer using a given protocol
 - Message exchange handled through agreed protocol, protocols vary in reliability, scalability and performance. Implementation of these is a communication [[Distributed_systems#Middleware|middleware]]
+
+![[Pasted image 20231025001951.png|350|350]]
 
 ## Protocol styles 
 - **R**: request through fire and forget with no blocking on server side 
@@ -28,66 +29,14 @@ ___
 | R     | Request | -      | -      |
 | RR    | Request | Reply  | -      |
 | RRA      |Request         |Reply        |Acknowledgement        |
-## Basic RMI procedure
-- Client side:
-```java
-const int SENSOR_READING = 1
-data Header { 
-    int msgType;
-    int payloadSize;
-}
-data SensorInfo {
-    int sensorID;
-    int reading
-}
-```
 
-```java
-TCPSocket socket = new TCPSocket() 
-socket.connect(“143.94.13.8”, 2945) // connect to remote computer
+## Remote procedure calls 
+- RPC's allow for functions to be called on other computers as if they were called locally, simplest form of communication middleware providing a high level request-response mechanism
+- Typically synchronous, client blocks while waiting for client function return 
 
-Header h = new Header()
-h.msgType = SENSOR_READING 
-h.payloadSize = size(SensorInfo) 
-socket.send(h) // send generic message header
+![[Pasted image 20231025002102.png|400|400]]
 
-SensorInfo info = new SensorInfo() 
-info.reading = mySensor.getReading()
-info.sensorID = MyID;
-socket.send(info) // send operation specific data
-socket.disconnect() // clean up
-```
-- Server side 
+- RMI's rely on interfaces. Proxies, stubs and dispatchers are generated automatically by an IDL (interface defintion language) compiler 
+## Basic RMI procedure 
 
-```java
-const int SENSOR_READING = 1
-data Header { 
-    int msgType
-    int payloadSize
-}
-data SensorInfo { 
-    int reading
-}
-```
-
-```java
-TCPServer server = new TCPServer() 
-server.bind(“localhost”, 2945)
-
-while (true) {
-    TCPSocket sock = server.accept()
-    if (client != null) {
-        byte buf[] = sock.resv(size(header))
-        Header hdr =
-    null) { 
-    sock.recv(size(Header)) 
-    (Header) buf
-    buf = sock.recv(hdr.payloadSize)
-    if (hdr.msgType == SENSOR_READING) {
-    SensorInfo info = (SensorInfo) buf
-    saveSensorData(info, sock.addr)
-    }
-sock.disconnect()
-}
-}
-```
+![[Pasted image 20231025001513.png|550|550]]
