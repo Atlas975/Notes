@@ -4,154 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8353151c7ca36c9d",
+        "id": "fce11d9cb475a42e",
         "type": "tabs",
         "children": [
           {
-            "id": "cd35a4cd9e7ca9e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f5cc7a2354c32f99",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/TransportProtocols/Transmission_control_protocol.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "01dadc12a7ec6ef8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DistributedSystems/Two_general_problem.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d32cbb3b993617fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding&Processing/Media_coding&processing.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e755523021af6114",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Network_delay.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "caad773dc78f55e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/RoutingAlgorithms/Distance_vector_routing.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "53764e387fa03091",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DistributedSystems/Two_general_problem.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8ba18c1f8f8aa78e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DistributedSystems/Distributed_systems.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "affb823d060f984e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "b05537ee6210a919",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Reliable_data_transfer.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1f98232dadddfdb1",
+            "id": "f20648035bc28460",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/Remote_invocation.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e12af4ffc5b7f29e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Machine_learning_features.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -159,111 +21,12 @@
             }
           },
           {
-            "id": "30018637ed08afeb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Neural_networks.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5fdba0708aa4d877",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-Main/1-Litnote.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aac6574bf70d86a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/FeatureSelectionMetrics/F_score.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0d20f5a2b436bbb5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Clustering.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2c972da4559b5fa9",
+            "id": "c3ac45fbee05983c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/Distributed_systems.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0d427431d153e1bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "43fe408e1d946461",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "00ed8aa5506859f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8546c72806ab831b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/Squareroot_decomposition.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -338,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md"
+                "file": "DistributedSystems/Remote_invocation.md"
               }
             }
           }
@@ -373,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
+                "file": "DistributedSystems/Remote_invocation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -390,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
+                "file": "DistributedSystems/Remote_invocation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -444,36 +207,36 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "cd35a4cd9e7ca9e5",
+  "active": "f20648035bc28460",
   "lastOpenFiles": [
     "DistributedSystems/Distributed_systems.md",
     "DistributedSystems/Remote_invocation.md",
+    "Algorithms/Squareroot_decomposition.md",
+    "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
+    "MachineLearning/Clustering.md",
+    "MachineLearning/FeatureSelectionMetrics/F_score.md",
+    "00-Main/1-Litnote.md",
+    "MachineLearning/Neural_networks.md",
+    "MachineLearning/Machine_learning_features.md",
+    "Networking/Reliable_data_transfer.md",
     "DistributedSystems/Two_general_problem.md",
+    "Networking/RoutingAlgorithms/Distance_vector_routing.md",
+    "Networking/Network_delay.md",
+    "MediaCoding&Processing/Media_coding&processing.md",
+    "Networking/TransportProtocols/Transmission_control_protocol.md",
+    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "ContinuousMath/Mean.md",
     "ContinuousMath/imaginary_numbers.md",
     "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
-    "MachineLearning/Clustering.md",
     "XX-Attachments/Images/Pasted image 20231023152040.png",
-    "MachineLearning/FeatureSelectionMetrics/F_score.md",
-    "00-Main/1-Litnote.md",
     "XX-Attachments/Images/Pasted image 20231023144755.png",
     "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md",
-    "MachineLearning/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
-    "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/0-GeneralConcepts/Eigenthings.md",
     "MachineLearning/0-GeneralConcepts/General_math.md",
     "MachineLearning/0-GeneralConcepts/LinearRegression_math.md",
     "MachineLearning/0-GeneralConcepts/Pearsons_correlation.md",
     "MachineLearning/0-GeneralConcepts/P_value.md",
-    "MachineLearning/0-GeneralConcepts/ML_Data_usage.md",
-    "MachineLearning/0-GeneralConcepts/Markov_chains.md",
-    "MachineLearning/0-GeneralConcepts/Log_odds.md",
-    "MachineLearning/0-GeneralConcepts/T_test.md",
-    "MachineLearning/0-GeneralConcepts/Support_vector_machines.md",
-    "MachineLearning/0-GeneralConcepts/Sampling_basics.md",
-    "MachineLearning/Activation_functions.md",
-    "MachineLearning/Machine_learning_features.md",
-    "MachineLearning/Machine_learning_notation.md",
     "MachineLearning/FeatureEngineering",
     "MachineLearning/FeatureSelectionMetrics",
     "XX-Attachments/Images/Pasted image 20231023141526.png",
