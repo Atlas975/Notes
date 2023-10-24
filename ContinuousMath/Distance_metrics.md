@@ -34,3 +34,15 @@ ___
 ## Maximum distance
 
 >$$max_{i}|a_{i}-b_{i}|$$
+
+
+## Hamming distance 
+- Measures the dissimilarity between two [[Bit_manipulation|binary]] strings of equal length by counting the number of positions at which the corresponding elements differ. Useful for error detection 
+$$\begin{align*}
+\mathcal{\sum} =
+  \begin{cases}
+    1 & \text{if $i = j$ and $deg_j \neq 0 $} \\
+    -\frac{1}{\sqrt{deg_i deg_j}} & \text{if $(i, j) \in E$} \\
+    0 & \text{otherwise}
+  \end{cases}/
+\end{align*}$$
