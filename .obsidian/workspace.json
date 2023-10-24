@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/Distributed_systems.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -223,6 +223,9 @@
   },
   "active": "40c15e63468790c6",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20231025004923.png",
+    "DistributedSystems/Distributed_systems.md",
+    "DistributedSystems/Remote_invocation.md",
     "XX-Attachments/Images/Pasted image 20231025002102.png",
     "XX-Attachments/Images/Pasted image 20231025001951.png",
     "XX-Attachments/Images/Pasted image 20231025001513.png",
@@ -232,8 +235,6 @@
     "XX-Attachments/Images/Pasted image 20231024233038.png",
     "XX-Attachments/Images/Pasted image 20231024232458.png",
     "ContinuousMath/Mean.md",
-    "DistributedSystems/Remote_invocation.md",
-    "DistributedSystems/Distributed_systems.md",
     "Algorithms/Squareroot_decomposition.md",
     "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
@@ -260,7 +261,6 @@
     "MachineLearning/FeatureEngineering",
     "MachineLearning/FeatureSelectionMetrics",
     "XX-Attachments/Images/Pasted image 20231023141526.png",
-    "XX-Attachments/Images/Pasted image 20231023141026.png",
     "NaturalLanguageProcessing",
     "DistributedSystems",
     "MachineLearning/ArtificialIntelligence",

@@ -45,10 +45,27 @@ ___
 	- **Dispatchers**: receive incoming message to direct to appropriate stub 
 	- **Server stubs**: carries out the unmarshall process and invokes appropriate code body, also marshalls reply and afterwards initiates transmission back to client
 - RPC's end up looking like this on the client side 
+```java
+thing = RPCService.getRemote(serverName);  // acquire access to remote entity 
+thing.callFunction(arg); // call function as normal
 ```
-thing = RPCService.getRemote(serverName);  // 
-thing.callFunction("hi");
-```
+
+### Remote procedure call challenges 
+- Remote calls have a different latency than local ones 
+- Memory access models are different (may need to pass references around )
+- Partial failures are possible
+- Local procedures have an exactly once guarantee, for RPC this depends on individual protocol implementation and may vary
+
+## Protocol semantics 
+- **Maybe**: send request to server, no guarantee of reply 
+- **At least once**: send request repeatedly until successful, possible for multiple responses
+- **At most once**: send request repeatedly until successful, filters duplicates 
+
+![[Pasted image 20231025004923.png|500|500]]
+
+- **Exactly once**: atomic version of at most, procedure carried out completely or not at all
+
+
 ## Basic RMI procedure
 
 ![[Pasted image 20231025001513.png|550|550]]
