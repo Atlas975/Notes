@@ -216,7 +216,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ContinuousMath/Mean.md",
+                "file": "DistributedSystems/Distributed_systems.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -270,8 +270,7 @@
               }
             }
           }
-        ],
-        "currentTab": 16
+        ]
       }
     ],
     "direction": "vertical"
@@ -339,7 +338,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ContinuousMath/Mean.md"
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md"
               }
             }
           }
@@ -374,7 +373,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ContinuousMath/Mean.md",
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -391,7 +390,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ContinuousMath/Mean.md",
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -445,10 +444,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "2c972da4559b5fa9",
+  "active": "cd35a4cd9e7ca9e5",
   "lastOpenFiles": [
-    "ContinuousMath/imaginary_numbers.md",
+    "DistributedSystems/Distributed_systems.md",
+    "DistributedSystems/Remote_invocation.md",
+    "DistributedSystems/Two_general_problem.md",
     "ContinuousMath/Mean.md",
+    "ContinuousMath/imaginary_numbers.md",
     "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
     "MachineLearning/Clustering.md",
     "XX-Attachments/Images/Pasted image 20231023152040.png",
@@ -472,14 +474,11 @@
     "MachineLearning/Activation_functions.md",
     "MachineLearning/Machine_learning_features.md",
     "MachineLearning/Machine_learning_notation.md",
-    "MachineLearning/FeatureEngineering/Feature_scaling.md",
     "MachineLearning/FeatureEngineering",
     "MachineLearning/FeatureSelectionMetrics",
     "XX-Attachments/Images/Pasted image 20231023141526.png",
     "XX-Attachments/Images/Pasted image 20231023141026.png",
     "XX-Attachments/Images/Pasted image 20231023140027.png",
-    "MediaCoding&Processing/Media_coding&processing.md",
-    "MediaCoding&Processing/Computer_vision.md",
     "XX-Attachments/Images/Pasted image 20231022160737.png",
     "XX-Attachments/Images/Pasted image 20231022155818.png",
     "XX-Attachments/Images/Pasted image 20231022154704.png",

@@ -19,12 +19,14 @@ ___
 
 ## Geometric mean 
 
-- Use to find growth rates, eg calculating average annual ROI or population growth rates.
+- Use to find growth rates, eg calculating average ROI over time or population growth rates.
 
->$$\sqrt[2]{\prod x}$$
+>$$\sqrt[n]{\prod x}$$
 
 
 ## Harmonic mean 
 - Use when involving reciprocal rates, eg average speeds or resistance in parallel circuits.
 
 >$$\frac{n}{\sum x^{-1}}$$
+
+
