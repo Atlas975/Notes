@@ -209,8 +209,9 @@
   },
   "active": "f20648035bc28460",
   "lastOpenFiles": [
-    "DistributedSystems/Remote_invocation.md",
+    "ContinuousMath/Mean.md",
     "ContinuousMath/Distance_metrics.md",
+    "DistributedSystems/Remote_invocation.md",
     "DistributedSystems/Distributed_systems.md",
     "Algorithms/Squareroot_decomposition.md",
     "MachineLearning/Artificial_intelligence.md",
@@ -227,7 +228,6 @@
     "MediaCoding&Processing/Media_coding&processing.md",
     "Networking/TransportProtocols/Transmission_control_protocol.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
-    "ContinuousMath/Mean.md",
     "ContinuousMath/imaginary_numbers.md",
     "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
     "XX-Attachments/Images/Pasted image 20231023152040.png",
