@@ -28,6 +28,66 @@ ___
 | R     | Request | -      | -      |
 | RR    | Request | Reply  | -      |
 | RRA      |Request         |Reply        |Acknowledgement        |
+## Basic RMI procedure
+- Client side:
+```java
+const int SENSOR_READING = 1
+data Header { 
+    int msgType;
+    int payloadSize;
+}
+data SensorInfo {
+    int sensorID;
+    int reading
+}
+```
 
+```java
+TCPSocket socket = new TCPSocket() 
+socket.connect(“143.94.13.8”, 2945) // connect to remote computer
 
-## Basic RMI procedur
+Header h = new Header()
+h.msgType = SENSOR_READING 
+h.payloadSize = size(SensorInfo) 
+socket.send(h) // send generic message header
+
+SensorInfo info = new SensorInfo() 
+info.reading = mySensor.getReading()
+info.sensorID = MyID;
+socket.send(info) // send operation specific data
+socket.disconnect() // clean up
+```
+- Server side 
+
+```java
+const int SENSOR_READING = 1
+data Header { 
+    int msgType
+    int payloadSize
+}
+data SensorInfo { 
+    int reading
+}
+```
+
+```java
+TCPServer server = new TCPServer() 
+server.bind(“localhost”, 2945)
+
+while (true) {
+    TCPSocket sock = server.accept()
+    if (client != null) {
+        byte buf[] = sock.resv(size(header))
+        Header hdr =
+    null) { 
+    sock.recv(size(Header)) 
+    (Header) buf
+    buf = sock.recv(hdr.payloadSize)
+    if (hdr.msgType == SENSOR_READING) {
+    SensorInfo info = (SensorInfo) buf
+    saveSensorData(info, sock.addr)
+    }
+sock.disconnect()
+}
+}
+```
