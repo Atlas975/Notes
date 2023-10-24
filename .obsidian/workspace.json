@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Remote_invocation.md",
-                "mode": "preview",
+                "file": "ContinuousMath/Distance_metrics.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Remote_invocation.md"
+                "file": "ContinuousMath/Distance_metrics.md"
               }
             }
           }
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Remote_invocation.md",
+                "file": "ContinuousMath/Distance_metrics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Remote_invocation.md",
+                "file": "ContinuousMath/Distance_metrics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,8 +209,9 @@
   },
   "active": "f20648035bc28460",
   "lastOpenFiles": [
-    "DistributedSystems/Distributed_systems.md",
     "DistributedSystems/Remote_invocation.md",
+    "ContinuousMath/Distance_metrics.md",
+    "DistributedSystems/Distributed_systems.md",
     "Algorithms/Squareroot_decomposition.md",
     "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
@@ -236,7 +237,6 @@
     "MachineLearning/0-GeneralConcepts/General_math.md",
     "MachineLearning/0-GeneralConcepts/LinearRegression_math.md",
     "MachineLearning/0-GeneralConcepts/Pearsons_correlation.md",
-    "MachineLearning/0-GeneralConcepts/P_value.md",
     "MachineLearning/FeatureEngineering",
     "MachineLearning/FeatureSelectionMetrics",
     "XX-Attachments/Images/Pasted image 20231023141526.png",
