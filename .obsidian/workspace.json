@@ -216,7 +216,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
+                "file": "ContinuousMath/Mean.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -339,7 +339,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md"
+                "file": "ContinuousMath/Mean.md"
               }
             }
           }
@@ -374,7 +374,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
+                "file": "ContinuousMath/Mean.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -391,7 +391,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
+                "file": "ContinuousMath/Mean.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -447,9 +447,11 @@
   },
   "active": "2c972da4559b5fa9",
   "lastOpenFiles": [
+    "ContinuousMath/imaginary_numbers.md",
+    "ContinuousMath/Mean.md",
+    "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
     "MachineLearning/Clustering.md",
     "XX-Attachments/Images/Pasted image 20231023152040.png",
-    "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
     "MachineLearning/FeatureSelectionMetrics/F_score.md",
     "00-Main/1-Litnote.md",
     "XX-Attachments/Images/Pasted image 20231023144755.png",
@@ -478,7 +480,6 @@
     "XX-Attachments/Images/Pasted image 20231023140027.png",
     "MediaCoding&Processing/Media_coding&processing.md",
     "MediaCoding&Processing/Computer_vision.md",
-    "MediaCoding&Processing/Detection_algorithms.md",
     "XX-Attachments/Images/Pasted image 20231022160737.png",
     "XX-Attachments/Images/Pasted image 20231022155818.png",
     "XX-Attachments/Images/Pasted image 20231022154704.png",
