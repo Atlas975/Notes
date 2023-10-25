@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Paging.md",
+                "file": "EmbeddedSystems/BinaryArithmetic/Binary_multiplication.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Paging.md"
+                "file": "EmbeddedSystems/BinaryArithmetic/Binary_multiplication.md"
               }
             }
           }
@@ -163,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Paging.md",
+                "file": "EmbeddedSystems/BinaryArithmetic/Binary_multiplication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Paging.md",
+                "file": "EmbeddedSystems/BinaryArithmetic/Binary_multiplication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,12 +236,26 @@
   },
   "active": "61b6b073dac95afd",
   "lastOpenFiles": [
+    "DistributedSystems/Two_general_problem.md",
+    "DistributedSystems/Remote_invocation.md",
+    "EmbeddedSystems/BinaryArithmetic/Binary_multiplication.md",
+    "OperatingSystems/FileSystems/New_technology_file_system.md",
+    "OperatingSystems/FileSystems/File_systems.md",
+    "OperatingSystems/FileSystems/FAT_file_system.md",
+    "OperatingSystems/FileSystems/File_allocation_schemes.md",
+    "ContinuousMath/Distance_metrics.md",
+    "ContinuousMath/imaginary_numbers.md",
+    "ContinuousMath/Center_of_rotation.md",
+    "ContinuousMath/Mean.md",
+    "ContinuousMath/Modulo.md",
+    "EmbeddedSystems/Transistors.md",
+    "LinearProgramming/Linear_programming.md",
+    "OperatingSystems/Paging.md",
+    "OperatingSystems/Linux_permissions.md",
+    "OperatingSystems/Processors.md",
     "OperatingSystems/Page_replacement.md",
     "OperatingSystems/Input&Output_systems.md",
     "OperatingSystems/Caching.md",
-    "EmbeddedSystems/Transistors.md",
-    "DistributedSystems/Remote_invocation.md",
-    "ContinuousMath/Mean.md",
     "XX-Attachments/Images/Pasted image 20231025004923.png",
     "DistributedSystems/Distributed_systems.md",
     "XX-Attachments/Images/Pasted image 20231025002102.png",
@@ -249,7 +263,6 @@
     "XX-Attachments/Images/Pasted image 20231025001513.png",
     "XX-Attachments/Images/Pasted image 20231025001357.png",
     "XX-Attachments/Images/Pasted image 20231025001236.png",
-    "ContinuousMath/Distance_metrics.md",
     "XX-Attachments/Images/Pasted image 20231024233038.png",
     "XX-Attachments/Images/Pasted image 20231024232458.png",
     "Algorithms/Squareroot_decomposition.md",
@@ -257,21 +270,8 @@
     "MachineLearning/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
     "MachineLearning/Clustering.md",
     "MachineLearning/FeatureSelectionMetrics/F_score.md",
-    "00-Main/1-Litnote.md",
-    "MachineLearning/Neural_networks.md",
-    "MachineLearning/Machine_learning_features.md",
-    "Networking/Reliable_data_transfer.md",
-    "DistributedSystems/Two_general_problem.md",
-    "Networking/RoutingAlgorithms/Distance_vector_routing.md",
-    "Networking/Network_delay.md",
-    "MediaCoding&Processing/Media_coding&processing.md",
-    "Networking/TransportProtocols/Transmission_control_protocol.md",
-    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
-    "ContinuousMath/imaginary_numbers.md",
-    "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
     "XX-Attachments/Images/Pasted image 20231023152040.png",
     "XX-Attachments/Images/Pasted image 20231023144755.png",
-    "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md",
     "MachineLearning/FeatureEngineering",
     "MachineLearning/FeatureSelectionMetrics",
     "NaturalLanguageProcessing",

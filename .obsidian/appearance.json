@@ -1,6 +1,6 @@
 {
-  "baseFontSize": 17,
-  "cssTheme": "Obsidian gruvbox",
+  "baseFontSize": 18,
+  "cssTheme": "Atom",
   "textFontFamily": "Source Sans Pro,Roboto,Calibri,Arial",
   "monospaceFontFamily": "JetBrains Mono",
   "theme": "obsidian",
