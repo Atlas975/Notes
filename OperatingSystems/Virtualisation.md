@@ -18,7 +18,6 @@ ___
 - The motivation behind this is that machines are often idle / under utilise their resources Some application-level protection  are also insufficient for providing services like server hosting or operating cloud computing. 
 
 ![[Pasted image 20221216124410.png|550|550]]
-
 ## Virtualisation features
 - **Base images / templates**: pre-canned OS installations, eg dual boot 
 - **Snapshots**: capture entire state of running OS and system to disk

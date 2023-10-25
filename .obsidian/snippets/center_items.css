@@ -9,6 +9,10 @@ img {
   margin-right: auto !important;
 }
 
+/* text {
+  font-size: 19px !important;
+} */
+
 mjx-math {
   font-size: 19px !important;
 }
@@ -18,3 +22,16 @@ mjx-math {
   /* padding: 10px 0px px 0px !important; */
   margin: 30px 0px 30px 0px !important;
 }
+
+
+/* .markdown-preview-view h1 {
+  margin-block-start: 2.5em;
+} */
+
+.cm-s-obsidian div.HyperMD-header {
+  line-height: 1.5em !important;
+
+  /* padding-top: 2em !important;  */
+}
+  
+  

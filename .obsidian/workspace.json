@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Distributed_systems.md",
-                "mode": "source",
+                "file": "Networking/Routing_methods.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -39,8 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Processors.md",
-                "mode": "preview",
+                "file": "XX-Attachments/Templates/InfoNote_v2.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Page_replacement.md",
+                "file": "OperatingSystems/Virtualisation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Page_replacement.md"
+                "file": "Networking/Routing_methods.md"
               }
             }
           }
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Page_replacement.md",
+                "file": "Networking/Routing_methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Page_replacement.md",
+                "file": "Networking/Routing_methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -247,9 +247,19 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3d7159ee1e4706e8",
+  "active": "c3ac45fbee05983c",
   "lastOpenFiles": [
+    "DistributedSystems/Distributed_systems.md",
+    "XX-Attachments/Templates/InfoNote_v2.md",
     "OperatingSystems/Processors.md",
+    "OperatingSystems/Virtualisation.md",
+    "ContinuousMath/Catalan_numbers.md",
+    "ContinuousMath/Distance_metrics.md",
+    "ContinuousMath/Mean.md",
+    "ContinuousMath/imaginary_numbers.md",
+    "ProgramLanguages/MIPS_assembly_language.md",
+    "ProgramLanguages/Regex.md",
+    "OperatingSystems/Page_replacement.md",
     "OperatingSystems/Operating_system_design.md",
     "ProgramLanguages/Rust/Rust_cargo.md",
     "OperatingSystems/Multi-Process_systems.md",
@@ -265,16 +275,6 @@
     "MachineLearning/Machine_learning_notation.md",
     "MediaCoding&Processing/Detection_algorithms.md",
     "MediaCoding&Processing/Edge_detection.md",
-    "OperatingSystems/Caching.md",
-    "OperatingSystems/Computer_memory.md",
-    "MachineLearning/Machine_learning_features.md",
-    "MachineLearning/Neural_networks.md",
-    "MachineLearning/Gradient_descent.md",
-    "MachineLearning/Linear_regression.md",
-    "DataStructures/Segment_trees.md",
-    "DataStructures/Hash_tables.md",
-    "DataStructures/Sets.md",
-    "DataStructures/Graphs.md",
     "XX-Attachments/Images/Pasted image 20231025004923.png",
     "XX-Attachments/Images/Pasted image 20231025002102.png",
     "XX-Attachments/Images/Pasted image 20231025001951.png",

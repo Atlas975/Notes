@@ -24,8 +24,6 @@ ___
 - [[Network_architecture#Network criteria|Timeliness]] is important as packets are dropped if acknowledgement isn't received in time, 
 - Packet switching is a cost effective routing method, as dedicated channels are not needed for routing making the method ideal when traffic is unpredictable
 - Routers act as [[Graphs|nodes]] in the network, redirecting packets based on various factors such as network congestion and distance while reading the packets header metadata 
-
-
 ### Packet transmission delay
 - The time taken for a host to push L bits is known as the packet transmission delay
 
@@ -35,14 +33,12 @@ $$\begin{align*}
 - Packets receive repeated transmission delays as the entire packet needs to be stored before it can be forwarded, this is known as the **store and forward** method
 
 ![[Pasted image 20230209180745.png|500|500]]
-
 ### Network core
 - A mesh of interconnected routers
 - Used to help route packets from source to destination 
 
 ![[Pasted image 20230209180433.png|450|450]]
 - Routers need to use forwarding rules, which are produced by the routing algorithm 
-
 ### Packet queuing
 - Occurs when packets arrive faster than they can be forwarded, causing congestion
 - If arrival rate exceeds transmission rate, a buildup occurs and queue will need to drop packets

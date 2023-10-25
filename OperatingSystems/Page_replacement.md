@@ -35,8 +35,6 @@ a_{i}=\frac{s_{i}}{S\times m}\text{ frames}
     5. Read originally requested page into the victim frame 
     6. Adjust page table, mark new page entry as valid 
     7. Restart process
-
-
 ## Thrashing problem
 - When too few frames are allocated to a process, resulting in a high number of [[Paging#Page fault|page faults]]
 - This is an indicator that too many mages are being pulled in and out of  disk
