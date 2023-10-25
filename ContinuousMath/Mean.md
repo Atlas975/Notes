@@ -11,14 +11,12 @@
 
 ___
 # Mean
-
 ## Arithmetic mean 
 - Use  to find the average of a set of values eg test scores or daily temperatures.
 
 >$$\frac{\sum x}{n}$$
 
 ## Geometric mean 
-
 - Use to find growth rates, eg calculating average ROI over time or population growth rates.
 
 >$$\sqrt[n]{\prod x}$$
@@ -28,5 +26,7 @@ ___
 - Use when involving reciprocal rates, eg average speeds or resistance in parallel circuits.
 
 >$$\frac{n}{\sum x^{-1}}$$
+
+
 
 
