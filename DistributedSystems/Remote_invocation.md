@@ -1,5 +1,7 @@
 ---
-aliases: []
+aliases:
+  - RMI
+  - RPC
 ---
 
 > [!important]- Metadata

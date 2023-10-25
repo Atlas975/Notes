@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ContinuousMath/Mean.md",
+                "file": "OperatingSystems/Paging.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ContinuousMath/Mean.md"
+                "file": "OperatingSystems/Paging.md"
               }
             }
           }
@@ -136,8 +136,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -164,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ContinuousMath/Mean.md",
+                "file": "OperatingSystems/Paging.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ContinuousMath/Mean.md",
+                "file": "OperatingSystems/Paging.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,9 +234,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f27f3180e87f3462",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
+    "OperatingSystems/Page_replacement.md",
+    "OperatingSystems/Input&Output_systems.md",
+    "OperatingSystems/Caching.md",
+    "EmbeddedSystems/Transistors.md",
     "DistributedSystems/Remote_invocation.md",
+    "ContinuousMath/Mean.md",
     "XX-Attachments/Images/Pasted image 20231025004923.png",
     "DistributedSystems/Distributed_systems.md",
     "XX-Attachments/Images/Pasted image 20231025002102.png",
@@ -248,7 +252,6 @@
     "ContinuousMath/Distance_metrics.md",
     "XX-Attachments/Images/Pasted image 20231024233038.png",
     "XX-Attachments/Images/Pasted image 20231024232458.png",
-    "ContinuousMath/Mean.md",
     "Algorithms/Squareroot_decomposition.md",
     "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
@@ -269,9 +272,6 @@
     "XX-Attachments/Images/Pasted image 20231023152040.png",
     "XX-Attachments/Images/Pasted image 20231023144755.png",
     "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md",
-    "MachineLearning/0-GeneralConcepts/Eigenthings.md",
-    "MachineLearning/0-GeneralConcepts/General_math.md",
-    "MachineLearning/0-GeneralConcepts/LinearRegression_math.md",
     "MachineLearning/FeatureEngineering",
     "MachineLearning/FeatureSelectionMetrics",
     "NaturalLanguageProcessing",
