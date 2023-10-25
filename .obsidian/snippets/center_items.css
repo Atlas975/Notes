@@ -14,7 +14,7 @@ mjx-math {
 }
 
 .markdown-reading-view .markdown-preview-view :is(h1, h2, h3, h4, h5, h6) {
-  line-height: 0.9em !important;
-  /* padding: 2px 0px 0px 0px !important; */
+  line-height: 0em !important;
+  padding: 5px 0px 0px 0px !important;
   margin: 0px 0px 5px 0px !important;
 }

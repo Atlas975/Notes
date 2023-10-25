@@ -26,7 +26,6 @@ for A in range(n)
         if join_condition:
             table.append([R[A], S[B]])
 ```
-
 ## J2: Single loop access structure
 - Used when an access structure is available 
 - Available when an [[Database_indexing|index]] or [[Hash_tables|hash key]]  exists for one of the the two join attributes (A or B)
@@ -34,7 +33,6 @@ for A in range(n)
 ## J3: Sort merge join
 - Only possible when R and S are physically ordered by join attributes A and B but is extremely efficient compared to other join methods
 - Both files can be scanned [[Concurrency|concurrently ]] and then have their records matched 
-
 ## J4: Hash-join 
 - R and S are hashed into the same hash file, single pass performed on each file to fill hash buckets, works as duplicate hash keys produce the same result 
 - Each bucket then examined for records that produce desired join result 

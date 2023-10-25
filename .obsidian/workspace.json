@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_systems.md",
+                "file": "Databases/Join_handling.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_systems.md"
+                "file": "Databases/Join_handling.md"
               }
             }
           }
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_systems.md",
+                "file": "Databases/Join_handling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_systems.md",
+                "file": "Databases/Join_handling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -249,6 +249,7 @@
   },
   "active": "3d7159ee1e4706e8",
   "lastOpenFiles": [
+    "Databases/Database_systems.md",
     "OperatingSystems/FileSystems/File_systems.md",
     "XX-Attachments/Templates/InfoNote.md",
     "OperatingSystems/ekk.md",
@@ -274,7 +275,6 @@
     "EmbeddedSystems/BinaryArithmetic/Binary_multiplication.md",
     "OperatingSystems/FileSystems/New_technology_file_system.md",
     "ContinuousMath/imaginary_numbers.md",
-    "ContinuousMath/Modulo.md",
     "XX-Attachments/Images/Pasted image 20231025004923.png",
     "XX-Attachments/Images/Pasted image 20231025002102.png",
     "XX-Attachments/Images/Pasted image 20231025001951.png",
