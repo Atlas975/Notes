@@ -6,7 +6,7 @@
   "theme": "obsidian",
   "interfaceFontFamily": "Source Sans Pro,JetBrains Mono,Roboto",
   "baseFontSizeAction": false,
-  "translucency": true,
+  "translucency": false,
   "accentColor": "#8fbcbb",
   "showViewHeader": false,
   "nativeMenus": false,
