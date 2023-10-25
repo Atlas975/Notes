@@ -50,13 +50,13 @@ thing = RPCService.getRemote(serverName);  // acquire access to remote entity
 thing.callFunction(arg); // call function as normal
 ```
 
-### Remote procedure call challenges 
+### Remote procedure call challenges
 - Remote calls have a different latency than local ones 
 - Memory access models are different (may need to pass references around )
 - Partial failures are possible
 - Local procedures have an exactly once guarantee, for RPC this depends on individual protocol implementation and may vary
 
-## Protocol semantics 
+## Protocol semantics
 - **Maybe**: send request to server, no guarantee of reply 
 - **At least once**: send request repeatedly until successful, possible for multiple responses
 - **At most once**: send request repeatedly until successful, filters duplicates 
@@ -65,7 +65,10 @@ thing.callFunction(arg); // call function as normal
 
 - **Exactly once**: atomic version of at most, procedure carried out completely or not at all
 
-
+## Remote method invocation
+- Uses interfaces to specify remote object, an object needs to implement this interface before it can be advertised for remote access. Allows the client to use the object through the interface 
+- Advertisement and lookup for remote objects done through the RMI registry (**rmiregistery**), this registry usually runs on same host as server but doesn't need to 
+- RMI can be handled by middleware such as Java RMI and REST
 ## Basic RMI procedure
 
 ![[Pasted image 20231025001513.png|550|550]]
