@@ -42,7 +42,9 @@ ___
 - The core of a computer OS, controls interactions between hardware and software components
 - Always resident in memory and handles use of processes such as use of the CPU, memory, disk I/O and networking
 ## Linux filesystem
-![[Pasted image 20220618155352.png|600|600]][[File_systems#Unix file system|Unix file system]]
+- The linux [[File_systems|file system]] tree:
+
+![[Pasted image 20220618155352.png|600|600]]
 
 ## Booting process
 

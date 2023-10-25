@@ -53,7 +53,6 @@ Largest Column: standard
 - Robustness, insensitive to infrastructure reordering
 
 === end-multi-column
-
 ## Initiate protocol
 ```rust
 Initiate {
@@ -63,7 +62,9 @@ Initiate {
 }
 ```
 
-![[Pasted image 20221115141615.png|550|550]] note the non deterministic arrival at seller
+![[Pasted image 20221115141615.png|550|550]] 
+
+- Note the non deterministic arrival at seller
 
 ## Offer protocol
 ```rust
@@ -113,8 +114,9 @@ Purchase {
 }
 ```
 
-![[Pasted image 20221115144216.png|600|600]] accept process on left, reject process on right
+![[Pasted image 20221115144216.png|600|600]] 
 
+- Accept process on left, reject process on right
 - A protocol is live if any enactment including empty may progress to completion
 ## Polymorphic message
 - Same message schema but through different possible paths
@@ -148,5 +150,3 @@ Flexible Purchase {
 - All of the following combinations are valid:
 
 ![[Pasted image 20221110132352.png|600|600]]
-
-

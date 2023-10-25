@@ -52,8 +52,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Model_metrics.md",
-                "mode": "preview",
+                "file": "OperatingSystems/Page_replacement.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Model_metrics.md"
+                "file": "OperatingSystems/Page_replacement.md"
               }
             }
           }
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Model_metrics.md",
+                "file": "OperatingSystems/Page_replacement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Model_metrics.md",
+                "file": "OperatingSystems/Page_replacement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -247,10 +247,20 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "61b6b073dac95afd",
+  "active": "3d7159ee1e4706e8",
   "lastOpenFiles": [
-    "MachineLearning/Regularization.md",
+    "OperatingSystems/Processors.md",
+    "OperatingSystems/Operating_system_design.md",
+    "ProgramLanguages/Rust/Rust_cargo.md",
     "OperatingSystems/Multi-Process_systems.md",
+    "SoftwareEngineering/Concurrency.md",
+    "OperatingSystems/FileSystems/New_technology_file_system.md",
+    "SoftwareDesign/BSPL.md",
+    "OperatingSystems/FileSystems/File_allocation_schemes.md",
+    "MediaCoding&Processing/Media_coding&processing.md",
+    "MachineLearning/Logistic_regression.md",
+    "MachineLearning/Model_metrics.md",
+    "MachineLearning/Regularization.md",
     "OperatingSystems/Input&Output_systems.md",
     "MachineLearning/Machine_learning_notation.md",
     "MediaCoding&Processing/Detection_algorithms.md",
@@ -265,16 +275,6 @@
     "DataStructures/Hash_tables.md",
     "DataStructures/Sets.md",
     "DataStructures/Graphs.md",
-    "MediaCoding&Processing/Media_coding&processing.md",
-    "MediaCoding&Processing/Convolutional_networks.md",
-    "MediaCoding&Processing/Categorical_data_handeling.md",
-    "Databases/Database_storage.md",
-    "Databases/Join_handling.md",
-    "Databases/Database_constraints.md",
-    "Databases/Database_design.md",
-    "00-Main/ChatGPT.md",
-    "DataStructures/DataStorage&Retrieval.md",
-    "DataStructures/Abstract_data_types.md",
     "XX-Attachments/Images/Pasted image 20231025004923.png",
     "XX-Attachments/Images/Pasted image 20231025002102.png",
     "XX-Attachments/Images/Pasted image 20231025001951.png",
