@@ -34,6 +34,19 @@
             }
           },
           {
+            "id": "f27f3180e87f3462",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ContinuousMath/Mean.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c3ac45fbee05983c",
             "type": "leaf",
             "state": {
@@ -47,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -115,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Remote_invocation.md"
+                "file": "ContinuousMath/Mean.md"
               }
             }
           }
@@ -150,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Remote_invocation.md",
+                "file": "ContinuousMath/Mean.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Remote_invocation.md",
+                "file": "ContinuousMath/Mean.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,11 +234,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "40c15e63468790c6",
+  "active": "f27f3180e87f3462",
   "lastOpenFiles": [
+    "DistributedSystems/Remote_invocation.md",
     "XX-Attachments/Images/Pasted image 20231025004923.png",
     "DistributedSystems/Distributed_systems.md",
-    "DistributedSystems/Remote_invocation.md",
     "XX-Attachments/Images/Pasted image 20231025002102.png",
     "XX-Attachments/Images/Pasted image 20231025001951.png",
     "XX-Attachments/Images/Pasted image 20231025001513.png",
@@ -260,7 +273,6 @@
     "MachineLearning/0-GeneralConcepts/LinearRegression_math.md",
     "MachineLearning/FeatureEngineering",
     "MachineLearning/FeatureSelectionMetrics",
-    "XX-Attachments/Images/Pasted image 20231023141526.png",
     "NaturalLanguageProcessing",
     "DistributedSystems",
     "MachineLearning/ArtificialIntelligence",
