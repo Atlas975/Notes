@@ -60,6 +60,19 @@
             }
           },
           {
+            "id": "492b0f2e20efc7a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ProgramLanguages/Bash.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7bc9e3f661416f07",
             "type": "leaf",
             "state": {
@@ -86,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -154,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ContinuousMath/Mean.md"
+                "file": "ProgramLanguages/Bash.md"
               }
             }
           }
@@ -189,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ContinuousMath/Mean.md",
+                "file": "ProgramLanguages/Bash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ContinuousMath/Mean.md",
+                "file": "ProgramLanguages/Bash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -260,8 +273,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c513c6e6ee7645b8",
+  "active": "492b0f2e20efc7a7",
   "lastOpenFiles": [
+    "ContinuousMath/Mean.md",
     "ContinuousMath/Distance_metrics.md",
     "Networking/Network_delay.md",
     "Networking/Link_layer.md",
@@ -287,7 +301,6 @@
     "OperatingSystems/FileSystems/Unix_file_system.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "SoftwareEngineering/Recursion.md",
-    "SoftwareDesign/SOLID_principles.md",
     "XX-Attachments/Images/Pasted image 20231025004923.png",
     "XX-Attachments/Images/Pasted image 20231025002102.png",
     "XX-Attachments/Images/Pasted image 20231025001951.png",
