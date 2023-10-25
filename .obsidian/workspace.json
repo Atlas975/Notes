@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "OperatingSystems/Processors.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Join_handling.md",
+                "file": "MachineLearning/Model_metrics.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Join_handling.md"
+                "file": "MachineLearning/Model_metrics.md"
               }
             }
           }
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Join_handling.md",
+                "file": "MachineLearning/Model_metrics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Join_handling.md",
+                "file": "MachineLearning/Model_metrics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -247,34 +247,34 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3d7159ee1e4706e8",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
-    "Databases/Database_systems.md",
-    "OperatingSystems/FileSystems/File_systems.md",
-    "XX-Attachments/Templates/InfoNote.md",
-    "OperatingSystems/ekk.md",
-    "XX-Attachments/Templates/AliasNote.md",
-    "OperatingSystems/Processors.md",
-    "XX-Attachments/Templates/InfoNote_v2.md",
-    "OperatingSystems/Thread_types.md",
-    "DistributedSystems/Distributed_systems.md",
-    "DistributedSystems/Remote_invocation.md",
-    "ContinuousMath/Distance_metrics.md",
-    "OperatingSystems/FileSystems/FAT_file_system.md",
-    "OperatingSystems/FileSystems/File_allocation_schemes.md",
-    "ContinuousMath/Poisson_distribution.md",
-    "ContinuousMath/Mean.md",
-    "EmbeddedSystems/Transistors.md",
-    "DistributedSystems/Two_general_problem.md",
-    "OperatingSystems/FileSystems/File_system_performance.md",
+    "MachineLearning/Regularization.md",
+    "OperatingSystems/Multi-Process_systems.md",
     "OperatingSystems/Input&Output_systems.md",
-    "OperatingSystems/Linux_permissions.md",
-    "ContinuousMath/Center_of_rotation.md",
-    "OperatingSystems/Paging.md",
-    "OperatingSystems/FileSystems/Unix_file_system.md",
-    "EmbeddedSystems/BinaryArithmetic/Binary_multiplication.md",
-    "OperatingSystems/FileSystems/New_technology_file_system.md",
-    "ContinuousMath/imaginary_numbers.md",
+    "MachineLearning/Machine_learning_notation.md",
+    "MediaCoding&Processing/Detection_algorithms.md",
+    "MediaCoding&Processing/Edge_detection.md",
+    "OperatingSystems/Caching.md",
+    "OperatingSystems/Computer_memory.md",
+    "MachineLearning/Machine_learning_features.md",
+    "MachineLearning/Neural_networks.md",
+    "MachineLearning/Gradient_descent.md",
+    "MachineLearning/Linear_regression.md",
+    "DataStructures/Segment_trees.md",
+    "DataStructures/Hash_tables.md",
+    "DataStructures/Sets.md",
+    "DataStructures/Graphs.md",
+    "MediaCoding&Processing/Media_coding&processing.md",
+    "MediaCoding&Processing/Convolutional_networks.md",
+    "MediaCoding&Processing/Categorical_data_handeling.md",
+    "Databases/Database_storage.md",
+    "Databases/Join_handling.md",
+    "Databases/Database_constraints.md",
+    "Databases/Database_design.md",
+    "00-Main/ChatGPT.md",
+    "DataStructures/DataStorage&Retrieval.md",
+    "DataStructures/Abstract_data_types.md",
     "XX-Attachments/Images/Pasted image 20231025004923.png",
     "XX-Attachments/Images/Pasted image 20231025002102.png",
     "XX-Attachments/Images/Pasted image 20231025001951.png",

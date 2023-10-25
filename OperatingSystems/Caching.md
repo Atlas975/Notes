@@ -24,13 +24,11 @@ ___
 ![[Pasted image 20230121153547.png|450|450]]
 
 ## Cache placement
-
-![[Pasted image 20230115165646.png|500|500]]
-
 - Data may be added to a cache based on two approaches:
 	- **Spatial locality**:  nearby memory locations may be accessed next
 	- **Temporal locality:** follows [[LRU]] principle, recently accessed may be used again
 
+![[Pasted image 20230115165646.png|500|500]]
 ## Cache control bits
 - Control bits are often used by an [[Operating_system_design|OS]] to manage the operation of a system 
 - In caching these can be useful for holding metadata regarding a cache line

@@ -23,7 +23,7 @@ ___
 ![[Pasted image 20211119220139.png|350|350]]
 
 # Interrupts
-- Alternative to **polling** which involves the code spinning whilst awaiting a status change on a busy flag. this method makes it difficult to interleave useful code and is also known as **synchronous I/O**
+- Alternative to **polling**, involves the code spinning whilst awaiting a status change on a busy flag. this method makes it difficult to interleave useful code and is also known as **synchronous I/O**
 ## Synchronous I/O
 - Simplest way to process I/O, the CPU waits for an input
 - Limited by how unless the device is ready instantly, the processor spends a lot of time polling (sampling status of input device) for the next byte

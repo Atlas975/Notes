@@ -22,7 +22,6 @@ ___
 
 ![[Pasted image 20231022153145.png|450|450]]
 ## Edge detection derivatives 
+![[Pasted image 20231022152823.png|550|550]]
 - The first derivative / gradient of quantifies the change in pixel intensity 
 - The second derivative quantifies the rate of change in pixel intensity AKA the smoothness of the transition from light to dark or vice versa 
-
-![[Pasted image 20231022152823.png|550|550]]

@@ -19,6 +19,7 @@ ___
 
 ![[Pasted image 20220307113748.png|450|450]]Nodes are sometimes called vertices and edges are sometimes called arcs.
 
+
 - Self-referencing graphs may also exists
 ![[Pasted image 20220307113909.png|450|450]]
 
