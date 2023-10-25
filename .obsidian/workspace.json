@@ -65,8 +65,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgramLanguages/Bash.md",
-                "mode": "preview",
+                "file": "MediaCoding&Processing/Computer_vision.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/Bash.md"
+                "file": "MediaCoding&Processing/Computer_vision.md"
               }
             }
           }
@@ -202,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/Bash.md",
+                "file": "MediaCoding&Processing/Computer_vision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/Bash.md",
+                "file": "MediaCoding&Processing/Computer_vision.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -275,6 +275,7 @@
   },
   "active": "492b0f2e20efc7a7",
   "lastOpenFiles": [
+    "ProgramLanguages/Bash.md",
     "ContinuousMath/Mean.md",
     "ContinuousMath/Distance_metrics.md",
     "Networking/Network_delay.md",
@@ -296,7 +297,6 @@
     "ProgramLanguages/Matlab_language.md",
     "ProgramLanguages/Rust/Rust_smart_pointers.md",
     "ProgramLanguages/Rust/Rust_message_passing.md",
-    "ProgramLanguages/Bash.md",
     "SoftwareDesign/BSPL.md",
     "OperatingSystems/FileSystems/Unix_file_system.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
