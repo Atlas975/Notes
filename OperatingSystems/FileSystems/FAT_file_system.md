@@ -1,5 +1,6 @@
 ---
-alias: FAT
+aliases:
+  - FAT
 ---
 > [!important]- Metadata
 > **Tags:** #OperatingSystems #ADTs 

@@ -8,38 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f20648035bc28460",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ContinuousMath/Distance_metrics.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "40c15e63468790c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DistributedSystems/Remote_invocation.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f27f3180e87f3462",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/FileSystems/File_system_performance.md",
+                "file": "DistributedSystems/Remote_invocation.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -58,9 +32,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7bc9e3f661416f07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/Processors.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3d7159ee1e4706e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/ekk.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/FileSystems/File_system_performance.md"
+                "file": "OperatingSystems/ekk.md"
               }
             }
           }
@@ -163,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/FileSystems/File_system_performance.md",
+                "file": "OperatingSystems/ekk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/FileSystems/File_system_performance.md",
+                "file": "OperatingSystems/ekk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,32 +234,34 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f27f3180e87f3462",
+  "active": "3d7159ee1e4706e8",
   "lastOpenFiles": [
+    "OperatingSystems/Processors.md",
+    "OperatingSystems/ekk.md",
+    "XX-Attachments/Templates/InfoNote_v2.md",
+    "XX-Attachments/Templates/InfoNote.md",
+    "XX-Attachments/Templates/AliasNote.md",
+    "OperatingSystems/Thread_types.md",
+    "DistributedSystems/Distributed_systems.md",
+    "DistributedSystems/Remote_invocation.md",
+    "ContinuousMath/Distance_metrics.md",
+    "OperatingSystems/FileSystems/FAT_file_system.md",
+    "OperatingSystems/FileSystems/File_allocation_schemes.md",
+    "ContinuousMath/Poisson_distribution.md",
+    "ContinuousMath/Mean.md",
+    "EmbeddedSystems/Transistors.md",
+    "DistributedSystems/Two_general_problem.md",
+    "OperatingSystems/FileSystems/File_system_performance.md",
     "OperatingSystems/Input&Output_systems.md",
     "OperatingSystems/Linux_permissions.md",
-    "OperatingSystems/FileSystems/FAT_file_system.md",
     "ContinuousMath/Center_of_rotation.md",
-    "ContinuousMath/Distance_metrics.md",
-    "ContinuousMath/Mean.md",
-    "ContinuousMath/Poisson_distribution.md",
-    "EmbeddedSystems/Transistors.md",
-    "DistributedSystems/Distributed_systems.md",
     "OperatingSystems/Paging.md",
-    "OperatingSystems/FileSystems/File_system_performance.md",
     "OperatingSystems/FileSystems/Unix_file_system.md",
     "OperatingSystems/FileSystems/File_systems.md",
-    "OperatingSystems/FileSystems/File_allocation_schemes.md",
-    "DistributedSystems/Remote_invocation.md",
     "EmbeddedSystems/BinaryArithmetic/Binary_multiplication.md",
-    "DistributedSystems/Two_general_problem.md",
     "OperatingSystems/FileSystems/New_technology_file_system.md",
     "ContinuousMath/imaginary_numbers.md",
     "ContinuousMath/Modulo.md",
-    "LinearProgramming/Linear_programming.md",
-    "OperatingSystems/Processors.md",
-    "OperatingSystems/Page_replacement.md",
-    "OperatingSystems/Caching.md",
     "XX-Attachments/Images/Pasted image 20231025004923.png",
     "XX-Attachments/Images/Pasted image 20231025002102.png",
     "XX-Attachments/Images/Pasted image 20231025001951.png",
@@ -268,8 +270,6 @@
     "XX-Attachments/Images/Pasted image 20231025001236.png",
     "XX-Attachments/Images/Pasted image 20231024233038.png",
     "XX-Attachments/Images/Pasted image 20231024232458.png",
-    "Algorithms/Squareroot_decomposition.md",
-    "MachineLearning/Artificial_intelligence.md",
     "XX-Attachments/Images/Pasted image 20231023152040.png",
     "XX-Attachments/Images/Pasted image 20231023144755.png",
     "MachineLearning/FeatureEngineering",

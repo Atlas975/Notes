@@ -2,8 +2,7 @@
 aliases:
   - RMI
   - RPC
-tags:
-  - DistributedSystems
+alias:
 ---
 
 > [!important]- Metadata

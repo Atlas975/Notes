@@ -6,15 +6,15 @@
   "theme": "obsidian",
   "interfaceFontFamily": "Source Sans Pro,JetBrains Mono,Roboto",
   "baseFontSizeAction": false,
-  "translucency": false,
+  "translucency": true,
   "accentColor": "#8fbcbb",
   "showViewHeader": false,
   "nativeMenus": false,
   "enabledCssSnippets": [
     "custom-admonitions.82cf9a",
-    "supercharged-links-gen",
-    "center_items",
     "dashboard",
-    "nord_col"
+    "nord_col",
+    "supercharged-links-gen",
+    "center_items"
   ]
 }
