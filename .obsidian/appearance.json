@@ -1,6 +1,6 @@
 {
-  "baseFontSize": 18,
-  "cssTheme": "Atom",
+  "baseFontSize": 17,
+  "cssTheme": "Minimal",
   "textFontFamily": "Source Sans Pro,Roboto,Calibri,Arial",
   "monospaceFontFamily": "JetBrains Mono",
   "theme": "obsidian",
@@ -11,9 +11,10 @@
   "showViewHeader": false,
   "nativeMenus": false,
   "enabledCssSnippets": [
-    "dashboard",
-    "center_items",
     "custom-admonitions.82cf9a",
+    "supercharged-links-gen",
+    "center_items",
+    "dashboard",
     "nord_col"
   ]
 }

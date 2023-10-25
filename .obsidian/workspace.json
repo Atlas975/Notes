@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EmbeddedSystems/BinaryArithmetic/Binary_multiplication.md",
+                "file": "OperatingSystems/FileSystems/File_system_performance.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EmbeddedSystems/BinaryArithmetic/Binary_multiplication.md"
+                "file": "OperatingSystems/FileSystems/File_system_performance.md"
               }
             }
           }
@@ -163,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EmbeddedSystems/BinaryArithmetic/Binary_multiplication.md",
+                "file": "OperatingSystems/FileSystems/File_system_performance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EmbeddedSystems/BinaryArithmetic/Binary_multiplication.md",
+                "file": "OperatingSystems/FileSystems/File_system_performance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,30 +234,33 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "61b6b073dac95afd",
+  "active": "f27f3180e87f3462",
   "lastOpenFiles": [
-    "DistributedSystems/Two_general_problem.md",
+    "OperatingSystems/Input&Output_systems.md",
+    "OperatingSystems/Linux_permissions.md",
+    "OperatingSystems/FileSystems/FAT_file_system.md",
+    "ContinuousMath/Center_of_rotation.md",
+    "ContinuousMath/Distance_metrics.md",
+    "ContinuousMath/Mean.md",
+    "ContinuousMath/Poisson_distribution.md",
+    "EmbeddedSystems/Transistors.md",
+    "DistributedSystems/Distributed_systems.md",
+    "OperatingSystems/Paging.md",
+    "OperatingSystems/FileSystems/File_system_performance.md",
+    "OperatingSystems/FileSystems/Unix_file_system.md",
+    "OperatingSystems/FileSystems/File_systems.md",
+    "OperatingSystems/FileSystems/File_allocation_schemes.md",
     "DistributedSystems/Remote_invocation.md",
     "EmbeddedSystems/BinaryArithmetic/Binary_multiplication.md",
+    "DistributedSystems/Two_general_problem.md",
     "OperatingSystems/FileSystems/New_technology_file_system.md",
-    "OperatingSystems/FileSystems/File_systems.md",
-    "OperatingSystems/FileSystems/FAT_file_system.md",
-    "OperatingSystems/FileSystems/File_allocation_schemes.md",
-    "ContinuousMath/Distance_metrics.md",
     "ContinuousMath/imaginary_numbers.md",
-    "ContinuousMath/Center_of_rotation.md",
-    "ContinuousMath/Mean.md",
     "ContinuousMath/Modulo.md",
-    "EmbeddedSystems/Transistors.md",
     "LinearProgramming/Linear_programming.md",
-    "OperatingSystems/Paging.md",
-    "OperatingSystems/Linux_permissions.md",
     "OperatingSystems/Processors.md",
     "OperatingSystems/Page_replacement.md",
-    "OperatingSystems/Input&Output_systems.md",
     "OperatingSystems/Caching.md",
     "XX-Attachments/Images/Pasted image 20231025004923.png",
-    "DistributedSystems/Distributed_systems.md",
     "XX-Attachments/Images/Pasted image 20231025002102.png",
     "XX-Attachments/Images/Pasted image 20231025001951.png",
     "XX-Attachments/Images/Pasted image 20231025001513.png",
@@ -267,9 +270,6 @@
     "XX-Attachments/Images/Pasted image 20231024232458.png",
     "Algorithms/Squareroot_decomposition.md",
     "MachineLearning/Artificial_intelligence.md",
-    "MachineLearning/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
-    "MachineLearning/Clustering.md",
-    "MachineLearning/FeatureSelectionMetrics/F_score.md",
     "XX-Attachments/Images/Pasted image 20231023152040.png",
     "XX-Attachments/Images/Pasted image 20231023144755.png",
     "MachineLearning/FeatureEngineering",

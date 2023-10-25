@@ -21,7 +21,7 @@
     --green:  #a3be8c;
     --purple: #b48ead;
 
-    --font-monospace: 'Jetbrains Mono', monospace;
+    --font-monospace: 'MesloLGS NF', 'Source Code Pro', monospace;
 }
 
 .theme-dark
@@ -33,11 +33,11 @@
     --text-normal:                var(--light2);
     --text-faint:                 var(--light0);
     --text-muted:                 var(--light1);
-    --text-title-h1:              var(--frost1);
-    --text-title-h2:              var(--frost0);
-    --text-title-h3:              var(--frost2);
-    --text-title-h4:              var(--purple);
-    --text-title-h5:              var(--green);
+    --text-title-h1:              var(--light2);
+    --text-title-h2:              var(--light2);
+    --text-title-h3:              var(--light2);
+    --text-title-h4:              var(--light2);
+    --text-title-h5:              var(--light2);
     --text-link:                  var(--frost0);
     --text-a:                     var(--frost3);
     --text-a-hover:               var(--frost2);
@@ -89,23 +89,23 @@
 .titlebar {
     background-color: var(--background-secondary-alt);
   }
-
+  
   .titlebar-inner {
     color: var(--text-faint);
   }
-
+  
   .titlebar-inner {
     color: var(--text-faint);
   }
-
+  
   .titlebar-button {
     opacity: 1;
   }
-
+  
   .titlebar-button:hover {
     color: var(--text-muted);
   }
-
+  
   .titlebar-button.mod-close:hover {
     background-color: var(--accent-5);
     color: var(--accent-2);
@@ -386,32 +386,32 @@ img
 .cm-header-1,
 .markdown-preview-section h1
 {
-    font-weight: 460 !important;
-    font-size: 31px !important;
+    font-weight: 500 !important;
+    font-size: 34px !important;
     color: var(--text-title-h1) !important;
 }
 
 .cm-header-2,
 .markdown-preview-section h2
 {
-    font-weight: 460 !important;
-    font-size: 23px !important;
+    font-weight: 500 !important;
+    font-size: 26px !important;
     color: var(--text-title-h2) !important;
 }
 
 .cm-header-3,
 .markdown-preview-section h3
 {
-    font-weight: 460 !important;
-    font-size: 19px !important;
+    font-weight: 500 !important;
+    font-size: 22px !important;
     color: var(--text-title-h3) !important;
 }
 
 .cm-header-4,
 .markdown-preview-section h4
 {
-    font-weight: 460 !important;
-    font-size: 17px !important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
     color: var(--text-title-h4) !important;
 }
 
@@ -420,8 +420,8 @@ img
 .markdown-preview-section h5,
 .markdown-preview-section h6
 {
-    font-weight: 460 !important;
-    font-size: 17px !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
     color: var(--text-title-h5) !important;
 }
 
@@ -494,7 +494,7 @@ input.task-list-item-checkbox:checked {
   color: #81a1c1;
 }
 .theme-dark .token.property,
-.theme-dark .token.tag
+.theme-dark .token.tag,
 .theme-dark .token.boolean,
 .theme-dark .token.number,
 .theme-dark .token.constant,
@@ -525,10 +525,6 @@ input.task-list-item-checkbox:checked {
 }
 .theme-dark .token.function {
   color: #8fbcbc;
-}
-
-.theme-dark  {
-  --bold-color: var(--yellow);
 }
 .theme-dark .token.regex,
 .theme-dark .token.important,
@@ -567,15 +563,6 @@ pre[class*="language-"] > code[class*="language-"] {
   pointer-events: none;
   line-height: inherit;
   white-space: pre;
-}
-
-.markdown-preview-view .internal-link {
-  font-weight: 460;
-  color: var(--purple)  !important;
-}
-.cm-s-obsidian span.cm-hmd-internal-link {
-  font-weight: 460;
-  color: var(--purple)  !important;
 }
 
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
@@ -619,25 +606,21 @@ section.has-light-background, section.has-light-background h1, section.has-light
     --selection-background-color: var(--dark3);
     --selection-color: var(--light1);
     }
-
+  
   .reveal-viewport {
     background: var(--background-color);
     background-color: var(--background-color);
    ; }
-
+  
   .reveal {
     color: var(--text-normal); }
-
+  
   .reveal ::selection {
     color: var(--text-normal);
     background: var(--selection-background-color);
     text-shadow: none; }
-
+  
   .reveal ::-moz-selection {
     color: var(--text-normal);
     background: var(--selection-background-color);
     text-shadow: none; }
-
-
-
-/* custom css */
