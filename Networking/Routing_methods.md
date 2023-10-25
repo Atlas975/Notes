@@ -41,7 +41,7 @@ $$\begin{align*}
 - Routers need to use forwarding rules, which are produced by the routing algorithm 
 ### Packet queuing
 - Occurs when packets arrive faster than they can be forwarded, causing congestion
-- If arrival rate exceeds transmission rate, a buildup occurs and queue will need to drop packets
+- If arrival rate exceeds transmission rate, buildup occurs and queue will drop packets
 
 ![[Pasted image 20230209181000.png|450|450]]
 ## Circuit switching (time division)

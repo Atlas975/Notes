@@ -1,6 +1,7 @@
 ---
 alias: unix file 
 ---
+
 > [!important]- Metadata
 > **Tags:** #OperatingSystems #DesignPatterns 
 > **Located:** OperatingSystems/FileSystems
@@ -24,11 +25,9 @@ ___
 ## Unix directory structure
 
 ![[Pasted image 20221209124941.png|450]]
-
-- File lookup follows a sequential approach, filename caches can be used to speed up access
-
 ![[Pasted image 20221209125500.png|450]]
 
+- File lookup follows a sequential approach, filename caches can be used to speed up access
 ## Block size efficiency
 - Large block sizes allow for quick access to large files as more blocks have reduced access time, this comes at the cost of disk space wastage as more files use more space than needed resulting in internal fragmentation
 

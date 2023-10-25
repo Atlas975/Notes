@@ -26,7 +26,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Routing_methods.md",
+                "file": "SoftwareDesign/SOLID_principles.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6c529117672337de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoftwareEngineering/Recursion.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c513c6e6ee7645b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ProgramLanguages/Rust/Rust_smart_pointers.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -58,22 +84,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "81e6fef5b3bc9778",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XX-Attachments/Templates/InfoNote.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -141,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Routing_methods.md"
+                "file": "ProgramLanguages/Rust/Rust_smart_pointers.md"
               }
             }
           }
@@ -176,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Routing_methods.md",
+                "file": "ProgramLanguages/Rust/Rust_smart_pointers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Routing_methods.md",
+                "file": "ProgramLanguages/Rust/Rust_smart_pointers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -247,34 +260,34 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c3ac45fbee05983c",
+  "active": "c513c6e6ee7645b8",
   "lastOpenFiles": [
+    "ProgramLanguages/Rust/Rust_message_passing.md",
+    "ProgramLanguages/Bash.md",
+    "SoftwareDesign/BSPL.md",
+    "OperatingSystems/FileSystems/Unix_file_system.md",
+    "Algorithms/ProgrammingPatterns/Sliding_window.md",
+    "SoftwareEngineering/Recursion.md",
+    "SoftwareDesign/SOLID_principles.md",
+    "SoftwareDesign/Test_types.md",
+    "OperatingSystems/Page_replacement.md",
+    "OperatingSystems/Thread_types.md",
+    "OperatingSystems/Virtualisation.md",
+    "OperatingSystems/Input&Output_systems.md",
+    "OperatingSystems/Error_codes.md",
+    "OperatingSystems/Operating_system_design.md",
+    "OperatingSystems/Computer_memory.md",
+    "XX-Attachments/Templates/InfoNote.md",
+    "SoftwareEngineering/Concurrency.md",
+    "SoftwareEngineering/Multiagent_systems.md",
+    "OperatingSystems/FileSystems/File_systems.md",
+    "OperatingSystems/FileSystems/New_technology_file_system.md",
+    "OperatingSystems/Paging.md",
+    "Networking/Routing_methods.md",
     "DistributedSystems/Distributed_systems.md",
     "XX-Attachments/Templates/InfoNote_v2.md",
     "OperatingSystems/Processors.md",
-    "OperatingSystems/Virtualisation.md",
     "ContinuousMath/Catalan_numbers.md",
-    "ContinuousMath/Distance_metrics.md",
-    "ContinuousMath/Mean.md",
-    "ContinuousMath/imaginary_numbers.md",
-    "ProgramLanguages/MIPS_assembly_language.md",
-    "ProgramLanguages/Regex.md",
-    "OperatingSystems/Page_replacement.md",
-    "OperatingSystems/Operating_system_design.md",
-    "ProgramLanguages/Rust/Rust_cargo.md",
-    "OperatingSystems/Multi-Process_systems.md",
-    "SoftwareEngineering/Concurrency.md",
-    "OperatingSystems/FileSystems/New_technology_file_system.md",
-    "SoftwareDesign/BSPL.md",
-    "OperatingSystems/FileSystems/File_allocation_schemes.md",
-    "MediaCoding&Processing/Media_coding&processing.md",
-    "MachineLearning/Logistic_regression.md",
-    "MachineLearning/Model_metrics.md",
-    "MachineLearning/Regularization.md",
-    "OperatingSystems/Input&Output_systems.md",
-    "MachineLearning/Machine_learning_notation.md",
-    "MediaCoding&Processing/Detection_algorithms.md",
-    "MediaCoding&Processing/Edge_detection.md",
     "XX-Attachments/Images/Pasted image 20231025004923.png",
     "XX-Attachments/Images/Pasted image 20231025002102.png",
     "XX-Attachments/Images/Pasted image 20231025001951.png",

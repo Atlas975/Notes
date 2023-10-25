@@ -22,6 +22,7 @@ ___
 - Recursion order manipulation:
 
 ![[Pasted image 20220303120416.png|550|550]]
+
 - Recursion is best used when a problem can be solved utilising solutions to smaller versions of the same problem, and the smaller versions reduce to easily solvable cases. 
 - Useful for [[Backtracking]] and [[Tree_algorithms|Tree trasveral]]
 ## Iterative vs recursive approach

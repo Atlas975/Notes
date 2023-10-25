@@ -11,7 +11,6 @@
 
 ___
 # Bash
-
 ## Operation ordering
 >
 $$\text{;}=\text{sequential ordering of operations}$$

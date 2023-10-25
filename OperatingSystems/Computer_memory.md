@@ -20,8 +20,7 @@ ___
 ## Primary memory
 - **Volatile memory**
 - Primary memory is a device designed for [[DigitalSystem_design|storing information]] (bits) for immediate use in a computer.
-- Not part of the CPU.
-- The CPU uses a program counter to get an address and then sends it to the memory to access this instruction.
+- Not part of the CPU. The CPU uses a program counter to get an address and then sends it to the memory to access this instruction.
 - Memory is usually organised into multiple memory chips
 
 ### Volatile memory
