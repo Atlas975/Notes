@@ -43,7 +43,7 @@ $$\frac{\sum_{i}a_{i}b_{i}}{\sqrt{ \sum_{i}a_{i}^2}\sqrt{ \sum_{i}b_{i}^2 }}$$
 ## Hamming distance
 - Measures the dissimilarity between two [[Bit_manipulation|binary]] strings of equal length by counting the number of positions at which the corresponding elements differ. Useful for error detection 
 
->$$\begin{align*}
+$$\begin{align*}
 \mathcal{\sum_{i}} =
 \begin{cases}
 1 & \text{if }a_{i}=b_{i} \\

@@ -52,8 +52,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ContinuousMath/Distance_metrics.md",
-                "mode": "source",
+                "file": "ContinuousMath/Mean.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ContinuousMath/Distance_metrics.md"
+                "file": "ContinuousMath/Mean.md"
               }
             }
           }
@@ -189,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ContinuousMath/Distance_metrics.md",
+                "file": "ContinuousMath/Mean.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ContinuousMath/Distance_metrics.md",
+                "file": "ContinuousMath/Mean.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -262,6 +262,7 @@
   },
   "active": "c513c6e6ee7645b8",
   "lastOpenFiles": [
+    "ContinuousMath/Distance_metrics.md",
     "Networking/Network_delay.md",
     "Networking/Link_layer.md",
     "Networking/Internet_architecture.md",
@@ -278,7 +279,6 @@
     "00-Main/Linux_usage.md",
     "00-Main/2-Noteview.md",
     "00-Main/ChatGPT.md",
-    "ContinuousMath/Distance_metrics.md",
     "ProgramLanguages/Matlab_language.md",
     "ProgramLanguages/Rust/Rust_smart_pointers.md",
     "ProgramLanguages/Rust/Rust_message_passing.md",
