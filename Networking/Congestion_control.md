@@ -58,6 +58,8 @@ $$\text{Throughput}\leq{\text{Capacity}}$$
 - This works by sending cwnd bytes before waiting for ACKs. The cwnd is dynamically adjusted based on observed network control. 
 
 $$\text{TCP rate}=\frac{cwnd}{RTT}\text{bytes/sec}$$
+
+
 ![[Pasted image 20230507234918.png|350|350]]
 
 - The basic approach to adjusting the cwnd window is to increase send rate until packet loss occurs

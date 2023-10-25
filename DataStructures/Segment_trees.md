@@ -14,7 +14,7 @@ ___
 - A data structure used for fast querying and updating of intervals or segments within an array.
 - They allow for operations such as finding the sum, min / max, or any other associative operation over a given range of elements in **logarithmic** time complexity,
 
-![[Pasted image 20230617004635.png|450|450]]
+![[Pasted image 20230617004635.png|400|400]]
 - Segment trees require n leaf nodes and n internal nodes resulting in 2n nodes being needed
 - This can be seen here with a segment tree for 16 elements:
 

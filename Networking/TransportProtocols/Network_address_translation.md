@@ -19,9 +19,7 @@ ___
 - Local network uses just one IP address as far as outside world is concerned, this reduce the range of IPs needed from an ISP
 - Works by translating the private IP addresses of devices on the local network into a single public IP address that is visible on the internet.
 
-
 ![[Pasted image 20230509162158.png|450|450]]
-
 ## NAT process
 1.  A device on the local network sends a request to access the internet.
 2.  The NAT device receives the request and replaces the source IP address of the request (the private IP address of the requesting device) with its own public IP address.

@@ -52,5 +52,8 @@
   "minimal-style@@maximize-tables-off": "maximize-tables",
   "minimal-advanced@@styled-scrollbars": true,
   "minimal-style@@sidebar-lines-off": false,
-  "minimal-style@@window-title-off": false
+  "minimal-style@@window-title-off": false,
+  "minimal-style@@folding-offset": 32,
+  "minimal-style@@list-spacing": 0.065,
+  "minimal-style@@minimal-strike-lists": false
 }

@@ -16,22 +16,22 @@ ___
 ## Euclidean distance
 - Measure straight line distance between two points in multidimensional space, useful when the geometric distance needs to be found 
 
->$$\sqrt{\sum_{i}(a_{i}-b_{i})^2 }$$
+$$\sqrt{\sum_{i}(a_{i}-b_{i})^2 }$$
 
 ## Square Euclidean distance
 - Lightweight version of standard euclidean
 
->$$\sum_{i}(a_{i}-b_{i})^2$$
+$$\sum_{i}(a_{i}-b_{i})^2$$
 
 ## Manhattan distance
 - Useful when a straight line distance isn't possible ie grid based systems where movement is contained to horizontal / vertical movements
 
->$$\sum_{i}|a_{i}-b_{i}|$$
+$$\sum_{i}|a_{i}-b_{i}|$$
 
 ## Cosine distance
 - Measures the cosine angle between two vectors in multidimensional space, useful for measuring document similarity when the magnitude of vectors is irrelavent  
 
->$$\frac{\sum_{i}a_{i}b_{i}}{\sqrt{ \sum_{i}a_{i}^2}\sqrt{ \sum_{i}b_{i}^2 }}$$
+$$\frac{\sum_{i}a_{i}b_{i}}{\sqrt{ \sum_{i}a_{i}^2}\sqrt{ \sum_{i}b_{i}^2 }}$$
 
 ### Cosine similarity applications
 - Useful for finding the similarity between two pieces of text, ignoring frequency of repeats

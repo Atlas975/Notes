@@ -52,8 +52,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgramLanguages/Rust/Rust_smart_pointers.md",
-                "mode": "preview",
+                "file": "ContinuousMath/Distance_metrics.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/Rust/Rust_smart_pointers.md"
+                "file": "ContinuousMath/Distance_metrics.md"
               }
             }
           }
@@ -189,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/Rust/Rust_smart_pointers.md",
+                "file": "ContinuousMath/Distance_metrics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/Rust/Rust_smart_pointers.md",
+                "file": "ContinuousMath/Distance_metrics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -262,6 +262,25 @@
   },
   "active": "c513c6e6ee7645b8",
   "lastOpenFiles": [
+    "Networking/Network_delay.md",
+    "Networking/Link_layer.md",
+    "Networking/Internet_architecture.md",
+    "Networking/Congestion_control.md",
+    "Networking/Checksum.md",
+    "Networking/TransportProtocols/Transmission_control_protocol.md",
+    "Networking/TransportProtocols/Network_address_translation.md",
+    "Networking/TransportProtocols/Domain_name_server.md",
+    "DistributedSystems/Distributed_system_security.md",
+    "DistributedSystems/Distributed_systems.md",
+    "DataStructures/Segment_trees.md",
+    "DataStructures/B_trees.md",
+    "DistributedSystems/Remote_invocation.md",
+    "00-Main/Linux_usage.md",
+    "00-Main/2-Noteview.md",
+    "00-Main/ChatGPT.md",
+    "ContinuousMath/Distance_metrics.md",
+    "ProgramLanguages/Matlab_language.md",
+    "ProgramLanguages/Rust/Rust_smart_pointers.md",
     "ProgramLanguages/Rust/Rust_message_passing.md",
     "ProgramLanguages/Bash.md",
     "SoftwareDesign/BSPL.md",
@@ -269,25 +288,6 @@
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "SoftwareEngineering/Recursion.md",
     "SoftwareDesign/SOLID_principles.md",
-    "SoftwareDesign/Test_types.md",
-    "OperatingSystems/Page_replacement.md",
-    "OperatingSystems/Thread_types.md",
-    "OperatingSystems/Virtualisation.md",
-    "OperatingSystems/Input&Output_systems.md",
-    "OperatingSystems/Error_codes.md",
-    "OperatingSystems/Operating_system_design.md",
-    "OperatingSystems/Computer_memory.md",
-    "XX-Attachments/Templates/InfoNote.md",
-    "SoftwareEngineering/Concurrency.md",
-    "SoftwareEngineering/Multiagent_systems.md",
-    "OperatingSystems/FileSystems/File_systems.md",
-    "OperatingSystems/FileSystems/New_technology_file_system.md",
-    "OperatingSystems/Paging.md",
-    "Networking/Routing_methods.md",
-    "DistributedSystems/Distributed_systems.md",
-    "XX-Attachments/Templates/InfoNote_v2.md",
-    "OperatingSystems/Processors.md",
-    "ContinuousMath/Catalan_numbers.md",
     "XX-Attachments/Images/Pasted image 20231025004923.png",
     "XX-Attachments/Images/Pasted image 20231025002102.png",
     "XX-Attachments/Images/Pasted image 20231025001951.png",
