@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding&Processing/Computer_vision.md",
+                "file": "MediaCoding&Processing/Media_coding&processing.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding&Processing/Computer_vision.md"
+                "file": "MediaCoding&Processing/Media_coding&processing.md"
               }
             }
           }
@@ -202,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding&Processing/Computer_vision.md",
+                "file": "MediaCoding&Processing/Media_coding&processing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding&Processing/Computer_vision.md",
+                "file": "MediaCoding&Processing/Media_coding&processing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -273,8 +273,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "492b0f2e20efc7a7",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
+    "MediaCoding&Processing/Edge_detection.md",
+    "MediaCoding&Processing/Detection_algorithms.md",
+    "MediaCoding&Processing/Convolutional_networks.md",
+    "MediaCoding&Processing/Computer_vision.md",
     "ProgramLanguages/Bash.md",
     "ContinuousMath/Mean.md",
     "ContinuousMath/Distance_metrics.md",
@@ -297,10 +301,6 @@
     "ProgramLanguages/Matlab_language.md",
     "ProgramLanguages/Rust/Rust_smart_pointers.md",
     "ProgramLanguages/Rust/Rust_message_passing.md",
-    "SoftwareDesign/BSPL.md",
-    "OperatingSystems/FileSystems/Unix_file_system.md",
-    "Algorithms/ProgrammingPatterns/Sliding_window.md",
-    "SoftwareEngineering/Recursion.md",
     "XX-Attachments/Images/Pasted image 20231025004923.png",
     "XX-Attachments/Images/Pasted image 20231025002102.png",
     "XX-Attachments/Images/Pasted image 20231025001951.png",
