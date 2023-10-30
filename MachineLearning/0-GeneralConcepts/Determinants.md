@@ -1,7 +1,9 @@
-# Determinants
+Ω# Determinants
 - Determinant formula:
-![[Pasted image 20220224143715.png|450|450]]
-![[Pasted image 20220224144004.png|450|450]]
+
+![[Pasted image 20220224143715.png|350|350]]
+
+![[Pasted image 20220224144004.png|350|350]]
 - When a matrix is stretched, the space around it changes as well. This scaling factor is known as the determinant
 ![[Pasted image 20220224134341.png|450|450]]
 - In this example it means the area has been increased by a factor of 6
