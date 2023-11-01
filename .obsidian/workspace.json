@@ -138,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/ASCII.md"
+                "file": "ContinuousMath/Distance_metrics.md"
               }
             }
           }
@@ -241,7 +241,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/ASCII.md",
+                "file": "ContinuousMath/Distance_metrics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -258,7 +258,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/ASCII.md",
+                "file": "ContinuousMath/Distance_metrics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -312,8 +312,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8181b0c65f08b400",
+  "active": "dbec5ecc3732e7ee",
   "lastOpenFiles": [
+    "OperatingSystems/DigitalSystems/ASCII.md",
     "ContinuousMath/Distance_metrics.md",
     "MachineLearning/0-GeneralConcepts/Determinants.md",
     "MediaCoding&Processing/Edge_detection.md",
@@ -339,7 +340,6 @@
     "00-Main/Linux_usage.md",
     "00-Main/2-Noteview.md",
     "00-Main/ChatGPT.md",
-    "ProgramLanguages/Matlab_language.md",
     "XX-Attachments/Images/Pasted image 20231025004923.png",
     "XX-Attachments/Images/Pasted image 20231025002102.png",
     "XX-Attachments/Images/Pasted image 20231025001951.png",
