@@ -11,7 +11,6 @@
 
 ___
 # Edge detection
-
 - Edges in images are typically represented by a transition from darker to lighter pixels, multiple filters such as the one below for vertical detection can be used to find specific edge types
 - Being able to detect lower level features like edges is the first step in training a CNN
 

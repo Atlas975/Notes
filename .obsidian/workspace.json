@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Main/1-Litnote.md",
+                "file": "MediaCoding&Processing/Edge_detection.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -232,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Main/1-Litnote.md"
+                "file": "MediaCoding&Processing/Edge_detection.md"
               }
             }
           }
@@ -267,7 +267,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Main/1-Litnote.md",
+                "file": "MediaCoding&Processing/Edge_detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,7 +284,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-Main/1-Litnote.md",
+                "file": "MediaCoding&Processing/Edge_detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -340,6 +340,14 @@
   },
   "active": "d115b84f4c426cc3",
   "lastOpenFiles": [
+    "MediaCoding&Processing/Computer_vision.md",
+    "ContinuousMath/Center_of_rotation.md",
+    "ContinuousMath/Modulo.md",
+    "ContinuousMath/Poisson_distribution.md",
+    "ContinuousMath/imaginary_numbers.md",
+    "00-Main/Linux_usage.md",
+    "00-Main/ChatGPT.md",
+    "00-Main/1-Litnote.md",
     "DataStructures/BinaryHeaps.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
     "ContinuousMath/Distance_metrics.md",
@@ -349,7 +357,6 @@
     "MediaCoding&Processing/Media_coding&processing.md",
     "MediaCoding&Processing/Detection_algorithms.md",
     "MediaCoding&Processing/Convolutional_networks.md",
-    "MediaCoding&Processing/Computer_vision.md",
     "ProgramLanguages/Bash.md",
     "ContinuousMath/Mean.md",
     "Networking/Network_delay.md",
@@ -359,13 +366,6 @@
     "Networking/Checksum.md",
     "Networking/TransportProtocols/Transmission_control_protocol.md",
     "Networking/TransportProtocols/Network_address_translation.md",
-    "Networking/TransportProtocols/Domain_name_server.md",
-    "DistributedSystems/Distributed_system_security.md",
-    "DistributedSystems/Distributed_systems.md",
-    "DataStructures/Segment_trees.md",
-    "DataStructures/B_trees.md",
-    "DistributedSystems/Remote_invocation.md",
-    "00-Main/Linux_usage.md",
     "XX-Attachments/Images/Pasted image 20231025004923.png",
     "XX-Attachments/Images/Pasted image 20231025002102.png",
     "XX-Attachments/Images/Pasted image 20231025001951.png",
