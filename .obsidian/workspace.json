@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding&Processing/Edge_detection.md",
+                "file": "Algorithms/GeneticAlgorithms/Genetic_algorithms.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -232,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding&Processing/Edge_detection.md"
+                "file": "Algorithms/GeneticAlgorithms/Genetic_algorithms.md"
               }
             }
           }
@@ -267,7 +267,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding&Processing/Edge_detection.md",
+                "file": "Algorithms/GeneticAlgorithms/Genetic_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,7 +284,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding&Processing/Edge_detection.md",
+                "file": "Algorithms/GeneticAlgorithms/Genetic_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -340,6 +340,9 @@
   },
   "active": "d115b84f4c426cc3",
   "lastOpenFiles": [
+    "MediaCoding&Processing/Edge_detection.md",
+    "Algorithms/GeneticAlgorithms/Genetic_algorithms.md",
+    "Algorithms/GeneticAlgorithms",
     "MediaCoding&Processing/Computer_vision.md",
     "ContinuousMath/Center_of_rotation.md",
     "ContinuousMath/Modulo.md",
@@ -353,7 +356,6 @@
     "ContinuousMath/Distance_metrics.md",
     "OperatingSystems/DigitalSystems/ASCII.md",
     "MachineLearning/0-GeneralConcepts/Determinants.md",
-    "MediaCoding&Processing/Edge_detection.md",
     "MediaCoding&Processing/Media_coding&processing.md",
     "MediaCoding&Processing/Detection_algorithms.md",
     "MediaCoding&Processing/Convolutional_networks.md",
@@ -365,7 +367,6 @@
     "Networking/Congestion_control.md",
     "Networking/Checksum.md",
     "Networking/TransportProtocols/Transmission_control_protocol.md",
-    "Networking/TransportProtocols/Network_address_translation.md",
     "XX-Attachments/Images/Pasted image 20231025004923.png",
     "XX-Attachments/Images/Pasted image 20231025002102.png",
     "XX-Attachments/Images/Pasted image 20231025001951.png",
@@ -384,7 +385,6 @@
     "MediaCoding&Processing",
     "Algorithms/Trees",
     "LinearProgramming",
-    "XX-Attachments/Images/Home work 3 SOLUTIONS 2021-2022.pdf",
-    "XX-Attachments/Images/Data_communications_HW.pdf"
+    "XX-Attachments/Images/Home work 3 SOLUTIONS 2021-2022.pdf"
   ]
 }
