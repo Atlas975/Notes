@@ -164,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -232,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/GeneticAlgorithms/Genetic_algorithms.md"
+                "file": "ContinuousMath/Distance_metrics.md"
               }
             }
           }
@@ -267,7 +267,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/GeneticAlgorithms/Genetic_algorithms.md",
+                "file": "ContinuousMath/Distance_metrics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,7 +284,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/GeneticAlgorithms/Genetic_algorithms.md",
+                "file": "ContinuousMath/Distance_metrics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -338,10 +338,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d115b84f4c426cc3",
+  "active": "dbec5ecc3732e7ee",
   "lastOpenFiles": [
-    "MediaCoding&Processing/Edge_detection.md",
     "Algorithms/GeneticAlgorithms/Genetic_algorithms.md",
+    "MediaCoding&Processing/Edge_detection.md",
     "Algorithms/GeneticAlgorithms",
     "MediaCoding&Processing/Computer_vision.md",
     "ContinuousMath/Center_of_rotation.md",
