@@ -14,4 +14,3 @@ ___
 - A guided random [[Search_algorithms|search]] strategy, ideal for navigating large search spaces for a ideal solution 
 - Outline of a genetic algorithm:
     1. 
-- 
