@@ -164,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -232,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ContinuousMath/Distance_metrics.md"
+                "file": "Algorithms/GeneticAlgorithms/Genetic_algorithms.md"
               }
             }
           }
@@ -267,7 +267,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ContinuousMath/Distance_metrics.md",
+                "file": "Algorithms/GeneticAlgorithms/Genetic_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,7 +284,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ContinuousMath/Distance_metrics.md",
+                "file": "Algorithms/GeneticAlgorithms/Genetic_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -338,8 +338,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "dbec5ecc3732e7ee",
+  "active": "d115b84f4c426cc3",
   "lastOpenFiles": [
+    "ContinuousMath/Distance_metrics.md",
     "Algorithms/GeneticAlgorithms/Genetic_algorithms.md",
     "MediaCoding&Processing/Edge_detection.md",
     "Algorithms/GeneticAlgorithms",
@@ -353,7 +354,6 @@
     "00-Main/1-Litnote.md",
     "DataStructures/BinaryHeaps.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
-    "ContinuousMath/Distance_metrics.md",
     "OperatingSystems/DigitalSystems/ASCII.md",
     "MachineLearning/0-GeneralConcepts/Determinants.md",
     "MediaCoding&Processing/Media_coding&processing.md",
