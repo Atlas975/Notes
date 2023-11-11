@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/GeneticAlgorithms/Genetic_algorithms.md",
+                "file": "Algorithms/GeneticAlgorithms/Genetic_encoding.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -232,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/GeneticAlgorithms/Genetic_algorithms.md"
+                "file": "Algorithms/GeneticAlgorithms/Genetic_encoding.md"
               }
             }
           }
@@ -267,7 +267,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/GeneticAlgorithms/Genetic_algorithms.md",
+                "file": "Algorithms/GeneticAlgorithms/Genetic_encoding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,7 +284,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/GeneticAlgorithms/Genetic_algorithms.md",
+                "file": "Algorithms/GeneticAlgorithms/Genetic_encoding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -340,8 +340,10 @@
   },
   "active": "d115b84f4c426cc3",
   "lastOpenFiles": [
-    "ContinuousMath/Distance_metrics.md",
     "Algorithms/GeneticAlgorithms/Genetic_algorithms.md",
+    "Algorithms/GeneticAlgorithms/Genetic_encoding.md",
+    "XX-Attachments/Images/Pasted image 20231111164640.png",
+    "ContinuousMath/Distance_metrics.md",
     "MediaCoding&Processing/Edge_detection.md",
     "Algorithms/GeneticAlgorithms",
     "MediaCoding&Processing/Computer_vision.md",
@@ -366,7 +368,6 @@
     "Networking/Internet_architecture.md",
     "Networking/Congestion_control.md",
     "Networking/Checksum.md",
-    "Networking/TransportProtocols/Transmission_control_protocol.md",
     "XX-Attachments/Images/Pasted image 20231025004923.png",
     "XX-Attachments/Images/Pasted image 20231025002102.png",
     "XX-Attachments/Images/Pasted image 20231025001951.png",
@@ -376,7 +377,6 @@
     "XX-Attachments/Images/Pasted image 20231024233038.png",
     "XX-Attachments/Images/Pasted image 20231024232458.png",
     "XX-Attachments/Images/Pasted image 20231023152040.png",
-    "XX-Attachments/Images/Pasted image 20231023144755.png",
     "MachineLearning/FeatureEngineering",
     "MachineLearning/FeatureSelectionMetrics",
     "NaturalLanguageProcessing",
