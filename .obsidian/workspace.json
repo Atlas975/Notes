@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dcfb8b0c109f9ece",
+            "id": "77542adf59b9358b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,13 +21,13 @@
             }
           },
           {
-            "id": "77542adf59b9358b",
+            "id": "09551d9f4441f820",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md"
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_selection.md"
               }
             }
           }
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,10 +207,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "dcfb8b0c109f9ece",
+  "active": "77542adf59b9358b",
   "lastOpenFiles": [
-    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/Activation_functions.md",
     "OperatingSystems/Virtualisation.md",
     "XX-Attachments/Templates/InfoNote_v2.md",
@@ -240,7 +241,6 @@
     "ContinuousMath/Modulo.md",
     "ContinuousMath/Poisson_distribution.md",
     "ContinuousMath/imaginary_numbers.md",
-    "00-Main/Linux_usage.md",
     "XX-Attachments/Images/Pasted image 20231025004923.png",
     "XX-Attachments/Images/Pasted image 20231025002102.png",
     "XX-Attachments/Images/Pasted image 20231025001951.png",

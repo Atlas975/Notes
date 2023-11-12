@@ -19,7 +19,7 @@ ___
 - **Gene**: a parameter in an individual chromosome 
 - **Allele**: value of an individual gene
 
-![[Pasted image 20231111164640.png|450|450]]
+![[Pasted image 20231111164640.png|400|400]]
 ## Genetic algorithm process
 1. **Start**: generate random population of N chromosomes
 2. **Fitness**: evaluate the fitness of each chromosome
@@ -32,12 +32,11 @@ ___
 4. **Replace**: generate a new population for a further run of algorithm 
 5. **Test**: check if end condition is satisfied, is so stop and return best solution in current population
 6. **Loop**: go to step 3
-
-## Fitness function 
+## Fitness function
 - When the correct answer is known, fitness is a distance metric towards it 
 - When the correct answer is unknown, fitness is an estimator of how valuable a solution is 
 - Fitness functions often have quantify multiple goals into a single numeric value, evolution is only as good as it's fitness function 
 - In general an ideal fitness function needs to be: 
-    1. **Clearly defined**
-    2. **Efficient** **(non-bottleneck of algorithm)**
-    3. 
+	1. **Clearly defined**
+	2. **Efficient** (non-bottleneck of algorithm)
+	3. **Intuitive in results** (best/worst chromosome should have best/worst score)
