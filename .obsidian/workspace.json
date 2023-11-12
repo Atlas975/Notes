@@ -91,7 +91,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ContinuousMath/Distance_metrics.md",
+                "file": "MachineLearning/0-GeneralConcepts/NeuralNetworks/Neural_Network_notation.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e9a77c07597c69ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LinearProgramming/Linear_programming.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -117,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/GeneticAlgorithms/Genetic_encoding.md",
+                "file": "MachineLearning/Neural_networks.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -164,7 +177,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -232,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ContinuousMath/Distance_metrics.md"
+                "file": "MachineLearning/Neural_networks.md"
               }
             }
           }
@@ -267,7 +280,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ContinuousMath/Distance_metrics.md",
+                "file": "MachineLearning/Neural_networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,7 +297,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ContinuousMath/Distance_metrics.md",
+                "file": "MachineLearning/Neural_networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -338,9 +351,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "dbec5ecc3732e7ee",
+  "active": "d115b84f4c426cc3",
   "lastOpenFiles": [
     "Algorithms/GeneticAlgorithms/Genetic_encoding.md",
+    "MachineLearning/0-GeneralConcepts/NeuralNetworks/Neural_Network_notation.md",
+    "LinearProgramming/Linear_programming.md",
+    "XX-Attachments/Images/Pasted image 20231112141958.png",
     "ContinuousMath/Distance_metrics.md",
     "Algorithms/GeneticAlgorithms/Genetic_algorithms.md",
     "XX-Attachments/Images/Pasted image 20231111164640.png",
@@ -366,8 +382,6 @@
     "Networking/Network_delay.md",
     "Networking/Link_layer.md",
     "Networking/Internet_architecture.md",
-    "Networking/Congestion_control.md",
-    "Networking/Checksum.md",
     "XX-Attachments/Images/Pasted image 20231025004923.png",
     "XX-Attachments/Images/Pasted image 20231025002102.png",
     "XX-Attachments/Images/Pasted image 20231025001951.png",
@@ -376,7 +390,6 @@
     "XX-Attachments/Images/Pasted image 20231025001236.png",
     "XX-Attachments/Images/Pasted image 20231024233038.png",
     "XX-Attachments/Images/Pasted image 20231024232458.png",
-    "XX-Attachments/Images/Pasted image 20231023152040.png",
     "MachineLearning/FeatureEngineering",
     "MachineLearning/FeatureSelectionMetrics",
     "NaturalLanguageProcessing",
