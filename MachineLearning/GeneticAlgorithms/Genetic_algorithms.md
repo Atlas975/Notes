@@ -13,8 +13,6 @@ ___
 # Genetic algorithms
 - A guided random [[Search_algorithms|search]] strategy, ideal for navigating large search spaces for a ideal solution.
 - Most problems can be generalised as a search problem a genetic algorithm can solve 
-- Outline of a genetic algorithm:
-
 ## Genetic algorithm terminology
 - **Population**: a set of chromosomes
 - **Chromosome**: a candidate solution
@@ -34,3 +32,12 @@ ___
 4. **Replace**: generate a new population for a further run of algorithm 
 5. **Test**: check if end condition is satisfied, is so stop and return best solution in current population
 6. **Loop**: go to step 3
+
+## Fitness function 
+- When the correct answer is known, fitness is a distance metric towards it 
+- When the correct answer is unknown, fitness is an estimator of how valuable a solution is 
+- Fitness functions often have quantify multiple goals into a single numeric value, evolution is only as good as it's fitness function 
+- In general an ideal fitness function needs to be: 
+    1. **Clearly defined**
+    2. **Efficient** **(non-bottleneck of algorithm)**
+    3. 

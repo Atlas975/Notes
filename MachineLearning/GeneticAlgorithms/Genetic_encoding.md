@@ -11,7 +11,8 @@
 
 ___
 # Genetic encoding
-
+- Encoding schemes are used to represent a potential solution to a [[Genetic_algorithms|genetic algorithm]] problem
+- Each gene in an encoded chromosome represents a decision variable
 ## Binary encoding 
 - Each chromosome is a string of bits that are either 0 / 1
 - Common used in [[Linear_programming#Knapsack problem|Knapsack]] style problems, meaning of bit groups can vary 
@@ -30,4 +31,7 @@ ___
 
 
 ## Tree encoding 
-- Use
+- Each chromosome is a tree of some objects eg functions or commands 
+- Mainly used for evolving programs or expressions where the goal is to fin a function that gives the best final output 
+
+![[Pasted image 20231112144712.png|350|350]]

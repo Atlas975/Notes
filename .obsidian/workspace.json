@@ -4,68 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fce11d9cb475a42e",
+        "id": "24933d35c906123b",
         "type": "tabs",
         "children": [
           {
-            "id": "f27f3180e87f3462",
+            "id": "dcfb8b0c109f9ece",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Remote_invocation.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c3ac45fbee05983c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SoftwareDesign/SOLID_principles.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c529117672337de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SoftwareEngineering/Recursion.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c513c6e6ee7645b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ContinuousMath/Mean.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "492b0f2e20efc7a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding&Processing/Edge_detection.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,124 +21,19 @@
             }
           },
           {
-            "id": "5404bcb9808b00e7",
+            "id": "77542adf59b9358b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/Determinants.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
                 "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dbec5ecc3732e7ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-GeneralConcepts/NeuralNetworks/Neural_Network_notation.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e9a77c07597c69ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LinearProgramming/Linear_programming.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "336ea8f77873749c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d115b84f4c426cc3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d63a677574620020",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/GeneticAlgorithms/Genetic_encoding.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8181b0c65f08b400",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/DigitalSystems/ASCII.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7bc9e3f661416f07",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XX-Attachments/Templates/InfoNote_v2.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3d7159ee1e4706e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/Virtualisation.md",
-                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 10
+        ]
       }
     ],
     "direction": "vertical"
@@ -258,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/GeneticAlgorithms/Genetic_encoding.md"
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md"
               }
             }
           }
@@ -293,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/GeneticAlgorithms/Genetic_encoding.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -310,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/GeneticAlgorithms/Genetic_encoding.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -364,45 +207,45 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d63a677574620020",
+  "active": "dcfb8b0c109f9ece",
   "lastOpenFiles": [
+    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+    "MachineLearning/Activation_functions.md",
+    "OperatingSystems/Virtualisation.md",
+    "XX-Attachments/Templates/InfoNote_v2.md",
+    "OperatingSystems/DigitalSystems/ASCII.md",
+    "MachineLearning/Artificial_intelligence.md",
+    "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
+    "LinearProgramming/Linear_programming.md",
+    "MachineLearning/0-GeneralConcepts/NeuralNetworks/Neural_Network_notation.md",
+    "MachineLearning/0-GeneralConcepts/Determinants.md",
+    "MediaCoding&Processing/Edge_detection.md",
+    "ContinuousMath/Mean.md",
+    "XX-Attachments/Images/Pasted image 20231112144712.png",
     "XX-Attachments/Images/Pasted image 20231112144450.png",
     "XX-Attachments/Images/Pasted image 20231112144014.png",
-    "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/Clustering.md",
     "MachineLearning/Logistic_regression.md",
     "MachineLearning/Linear_regression.md",
     "MachineLearning/Gradient_descent.md",
     "MachineLearning/Neural_networks.md",
     "MachineLearning/Model_metrics.md",
-    "Algorithms/GeneticAlgorithms/Genetic_encoding.md",
-    "MachineLearning/0-GeneralConcepts/NeuralNetworks/Neural_Network_notation.md",
-    "LinearProgramming/Linear_programming.md",
     "XX-Attachments/Images/Pasted image 20231112141958.png",
     "ContinuousMath/Distance_metrics.md",
-    "Algorithms/GeneticAlgorithms/Genetic_algorithms.md",
     "XX-Attachments/Images/Pasted image 20231111164640.png",
-    "MediaCoding&Processing/Edge_detection.md",
-    "Algorithms/GeneticAlgorithms",
+    "MachineLearning/GeneticAlgorithms",
     "MediaCoding&Processing/Computer_vision.md",
     "ContinuousMath/Center_of_rotation.md",
     "ContinuousMath/Modulo.md",
     "ContinuousMath/Poisson_distribution.md",
     "ContinuousMath/imaginary_numbers.md",
     "00-Main/Linux_usage.md",
-    "00-Main/ChatGPT.md",
-    "00-Main/1-Litnote.md",
-    "DataStructures/BinaryHeaps.md",
-    "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
-    "OperatingSystems/DigitalSystems/ASCII.md",
-    "MachineLearning/0-GeneralConcepts/Determinants.md",
     "XX-Attachments/Images/Pasted image 20231025004923.png",
     "XX-Attachments/Images/Pasted image 20231025002102.png",
     "XX-Attachments/Images/Pasted image 20231025001951.png",
     "XX-Attachments/Images/Pasted image 20231025001513.png",
     "XX-Attachments/Images/Pasted image 20231025001357.png",
-    "XX-Attachments/Images/Pasted image 20231025001236.png",
-    "XX-Attachments/Images/Pasted image 20231024233038.png",
     "MachineLearning/FeatureEngineering",
     "MachineLearning/FeatureSelectionMetrics",
     "NaturalLanguageProcessing",
