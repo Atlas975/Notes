@@ -40,3 +40,8 @@ ___
 	1. **Clearly defined**
 	2. **Efficient** (non-bottleneck of algorithm)
 	3. **Intuitive in results** (best/worst chromosome should have best/worst score)
+
+## End condition of a genetic algorithm 
+- The algorithm stops when it converges, this can take place in a variety of ways such as:
+    1. A high percentage (eg 90%) of the population has the same fitness value 
+    2. 

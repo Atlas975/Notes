@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_crossover.md"
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md"
               }
             }
           }
@@ -149,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,9 +197,17 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "a7770745c2640108",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -222,15 +230,18 @@
   },
   "active": "77542adf59b9358b",
   "lastOpenFiles": [
-    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+    "MachineLearning/Activation_functions.md",
+    "MachineLearning/Gradient_descent.md",
+    "MachineLearning/Clustering.md",
+    "XX-Attachments/Images/Pasted image 20231112153857.png",
+    "XX-Attachments/Images/Pasted image 20231112153542.png",
     "XX-Attachments/Images/Pasted image 20231112152606.png",
     "XX-Attachments/Images/Pasted image 20231112152113.png",
     "XX-Attachments/Images/Pasted image 20231112152006.png",
-    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
-    "MachineLearning/Activation_functions.md",
     "OperatingSystems/Virtualisation.md",
     "XX-Attachments/Templates/InfoNote_v2.md",
     "OperatingSystems/DigitalSystems/ASCII.md",
@@ -244,10 +255,8 @@
     "XX-Attachments/Images/Pasted image 20231112144712.png",
     "XX-Attachments/Images/Pasted image 20231112144450.png",
     "XX-Attachments/Images/Pasted image 20231112144014.png",
-    "MachineLearning/Clustering.md",
     "MachineLearning/Logistic_regression.md",
     "MachineLearning/Linear_regression.md",
-    "MachineLearning/Gradient_descent.md",
     "MachineLearning/Neural_networks.md",
     "MachineLearning/Model_metrics.md",
     "XX-Attachments/Images/Pasted image 20231112141958.png",
@@ -256,9 +265,6 @@
     "MachineLearning/GeneticAlgorithms",
     "MediaCoding&Processing/Computer_vision.md",
     "ContinuousMath/Center_of_rotation.md",
-    "ContinuousMath/Modulo.md",
-    "XX-Attachments/Images/Pasted image 20231025004923.png",
-    "XX-Attachments/Images/Pasted image 20231025002102.png",
     "MachineLearning/FeatureEngineering",
     "MachineLearning/FeatureSelectionMetrics",
     "NaturalLanguageProcessing",
