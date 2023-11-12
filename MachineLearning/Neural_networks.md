@@ -23,7 +23,8 @@ ___
 > b (bias) ensures that the result of the weight and input product is only meaningful after a certain threshold is met. It is added before squishing with an activation function and can be thought of as an additional neuron added to each layer
 # Backpropagation
 - Computation graph example:
-> ![[Pasted image 20220621204400.png|450|450]]
+
+![[Pasted image 20220621204400.png|450|450]]
 
 ![[Pasted image 20220305133049.png|450|450]]
 

@@ -130,7 +130,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Neural_networks.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d63a677574620020",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/GeneticAlgorithms/Genetic_encoding.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -177,7 +190,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -245,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Neural_networks.md"
+                "file": "Algorithms/GeneticAlgorithms/Genetic_encoding.md"
               }
             }
           }
@@ -280,7 +293,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Neural_networks.md",
+                "file": "Algorithms/GeneticAlgorithms/Genetic_encoding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -297,7 +310,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Neural_networks.md",
+                "file": "Algorithms/GeneticAlgorithms/Genetic_encoding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -351,8 +364,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d115b84f4c426cc3",
+  "active": "d63a677574620020",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20231112144450.png",
+    "XX-Attachments/Images/Pasted image 20231112144014.png",
+    "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/Clustering.md",
+    "MachineLearning/Logistic_regression.md",
+    "MachineLearning/Linear_regression.md",
+    "MachineLearning/Gradient_descent.md",
+    "MachineLearning/Neural_networks.md",
+    "MachineLearning/Model_metrics.md",
     "Algorithms/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/0-GeneralConcepts/NeuralNetworks/Neural_Network_notation.md",
     "LinearProgramming/Linear_programming.md",
@@ -374,14 +396,6 @@
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
     "OperatingSystems/DigitalSystems/ASCII.md",
     "MachineLearning/0-GeneralConcepts/Determinants.md",
-    "MediaCoding&Processing/Media_coding&processing.md",
-    "MediaCoding&Processing/Detection_algorithms.md",
-    "MediaCoding&Processing/Convolutional_networks.md",
-    "ProgramLanguages/Bash.md",
-    "ContinuousMath/Mean.md",
-    "Networking/Network_delay.md",
-    "Networking/Link_layer.md",
-    "Networking/Internet_architecture.md",
     "XX-Attachments/Images/Pasted image 20231025004923.png",
     "XX-Attachments/Images/Pasted image 20231025002102.png",
     "XX-Attachments/Images/Pasted image 20231025001951.png",
@@ -389,7 +403,6 @@
     "XX-Attachments/Images/Pasted image 20231025001357.png",
     "XX-Attachments/Images/Pasted image 20231025001236.png",
     "XX-Attachments/Images/Pasted image 20231024233038.png",
-    "XX-Attachments/Images/Pasted image 20231024232458.png",
     "MachineLearning/FeatureEngineering",
     "MachineLearning/FeatureSelectionMetrics",
     "NaturalLanguageProcessing",
