@@ -32,6 +32,11 @@ ___
 4. **Replace**: generate a new population for a further run of algorithm 
 5. **Test**: check if end condition is satisfied, is so stop and return best solution in current population
 6. **Loop**: go to step 3
+### End condition of a genetic algorithm 
+- The algorithm stops when it converges, this can take place in a variety of ways such as:
+    1. A high percentage (eg 90%) of the population has the same fitness value 
+    2. The number of generations exceeds a fixed number 
+    3. The average fitness is unchanged for several generations 
 ## Fitness function
 - When the correct answer is known, fitness is a distance metric towards it 
 - When the correct answer is unknown, fitness is an estimator of how valuable a solution is 
@@ -40,8 +45,3 @@ ___
 	1. **Clearly defined**
 	2. **Efficient** (non-bottleneck of algorithm)
 	3. **Intuitive in results** (best/worst chromosome should have best/worst score)
-
-## End condition of a genetic algorithm 
-- The algorithm stops when it converges, this can take place in a variety of ways such as:
-    1. A high percentage (eg 90%) of the population has the same fitness value 
-    2. 
