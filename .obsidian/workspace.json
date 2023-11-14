@@ -45,9 +45,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "85395a75d985c9a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -115,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/ASCII.md"
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_crossover.md"
               }
             }
           }
@@ -150,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/ASCII.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/ASCII.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,13 +242,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "41f7f46e62aae025",
+  "active": "85395a75d985c9a0",
   "lastOpenFiles": [
+    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
+    "OperatingSystems/DigitalSystems/ASCII.md",
     "Networking/Reliable_data_transfer.md",
     "Networking/Transmission_mediums.md",
     "Networking/Routing_protocols.md",
-    "OperatingSystems/DigitalSystems/ASCII.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
     "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
     "MachineLearning/GeneticAlgorithms/Mutation.md",
