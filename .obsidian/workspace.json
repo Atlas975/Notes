@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_encoding.md"
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md"
               }
             }
           }
@@ -163,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -244,8 +244,8 @@
   },
   "active": "85395a75d985c9a0",
   "lastOpenFiles": [
-    "MachineLearning/GeneticAlgorithms/Mutation.md",
     "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
+    "MachineLearning/GeneticAlgorithms/Mutation.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
     "OperatingSystems/DigitalSystems/ASCII.md",
