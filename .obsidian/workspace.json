@@ -84,9 +84,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "56b6c7eff5441f09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -154,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LinearProgramming/Linear_programming.md"
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_selection.md"
               }
             }
           }
@@ -189,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LinearProgramming/Linear_programming.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LinearProgramming/Linear_programming.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -268,8 +281,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "815bfe1d841207b7",
+  "active": "56b6c7eff5441f09",
   "lastOpenFiles": [
+    "LinearProgramming/Linear_programming.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
@@ -296,7 +310,6 @@
     "XX-Attachments/Templates/InfoNote_v2.md",
     "MachineLearning/Artificial_intelligence.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
-    "LinearProgramming/Linear_programming.md",
     "MachineLearning/0-GeneralConcepts/NeuralNetworks/Neural_Network_notation.md",
     "MachineLearning/0-GeneralConcepts/Determinants.md",
     "MediaCoding&Processing/Edge_detection.md",
