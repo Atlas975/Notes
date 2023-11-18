@@ -58,9 +58,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "67f7a6ccc965f181",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "815bfe1d841207b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LinearProgramming/Linear_programming.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -128,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md"
+                "file": "LinearProgramming/Linear_programming.md"
               }
             }
           }
@@ -163,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+                "file": "LinearProgramming/Linear_programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+                "file": "LinearProgramming/Linear_programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,8 +268,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "85395a75d985c9a0",
+  "active": "815bfe1d841207b7",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
     "MachineLearning/GeneticAlgorithms/Mutation.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
@@ -256,7 +284,6 @@
     "XX-Attachments/Images/Pasted image 20231112155944.png",
     "XX-Attachments/Images/Pasted image 20231112155807.png",
     "XX-Attachments/Images/Pasted image 20231112155721.png",
-    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "MachineLearning/Activation_functions.md",
     "MachineLearning/Gradient_descent.md",
     "MachineLearning/Clustering.md",
@@ -279,7 +306,6 @@
     "MachineLearning/Linear_regression.md",
     "MachineLearning/Neural_networks.md",
     "MachineLearning/Model_metrics.md",
-    "ContinuousMath/Distance_metrics.md",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
     "MachineLearning/FeatureSelectionMetrics",
