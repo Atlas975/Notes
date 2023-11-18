@@ -19,6 +19,6 @@ ___
 
 ![[Pasted image 20231112153542.png|450|450]]
 ## Uniform crossover
-- For each position position, exchange alleles with a given probability 
+- For each position, exchange alleles with a given probability 
 
 ![[Pasted image 20231112153857.png|450|450]]

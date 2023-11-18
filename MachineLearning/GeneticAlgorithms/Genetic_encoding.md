@@ -32,6 +32,6 @@ ___
 
 ## Tree encoding 
 - Each chromosome is a tree of some objects eg functions or commands 
-- Mainly used for evolving programs or expressions where the goal is to fin a function that gives the best final output 
+- Mainly used for evolving programs or expressions where the goal is to find a function that gives the best final output 
 
 ![[Pasted image 20231112144712.png|350|350]]

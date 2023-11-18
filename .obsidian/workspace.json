@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_selection.md"
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_encoding.md"
               }
             }
           }
@@ -163,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -244,14 +244,14 @@
   },
   "active": "85395a75d985c9a0",
   "lastOpenFiles": [
+    "MachineLearning/GeneticAlgorithms/Mutation.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
     "OperatingSystems/DigitalSystems/ASCII.md",
     "Networking/Reliable_data_transfer.md",
     "Networking/Transmission_mediums.md",
     "Networking/Routing_protocols.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
-    "MachineLearning/GeneticAlgorithms/Mutation.md",
     "XX-Attachments/Images/Pasted image 20231112160018.png",
     "XX-Attachments/Images/Pasted image 20231112155944.png",
     "XX-Attachments/Images/Pasted image 20231112155807.png",
