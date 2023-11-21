@@ -111,8 +111,7 @@
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md"
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md"
               }
             }
           }
@@ -215,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,8 +293,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "85b82cf3308e82d4",
+  "active": "09551d9f4441f820",
   "lastOpenFiles": [
+    "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
     "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
     "LinearProgramming/Linear_programming.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
@@ -331,7 +331,6 @@
     "MachineLearning/Logistic_regression.md",
     "MachineLearning/Linear_regression.md",
     "MachineLearning/Neural_networks.md",
-    "MachineLearning/Model_metrics.md",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
     "MachineLearning/FeatureSelectionMetrics",
