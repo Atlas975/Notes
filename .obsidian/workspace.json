@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
-                "mode": "source",
+                "file": "MachineLearning/GeneticAlgorithms/Mutation.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md"
+                "file": "MachineLearning/GeneticAlgorithms/Mutation.md"
               }
             }
           }
@@ -214,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+                "file": "MachineLearning/GeneticAlgorithms/Mutation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+                "file": "MachineLearning/GeneticAlgorithms/Mutation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -295,11 +295,11 @@
   },
   "active": "09551d9f4441f820",
   "lastOpenFiles": [
-    "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
     "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+    "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
     "LinearProgramming/Linear_programming.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "MachineLearning/GeneticAlgorithms/Mutation.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
