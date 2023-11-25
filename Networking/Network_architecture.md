@@ -120,7 +120,6 @@ ___
 - Network ports are identified by numbers ranging from 1 to 65535 and are associated with specific services or applications. 
 - Different network ports are used for different types of traffic, eg HTTP traffic on port 80 and SMTP traffic on port 25.
 - When data is sent over a network, it is routed to the correct port on the destination device based on the port number.
-
 ## Network socket
 - An endpoint for sending and receiving data across a computer network 
 - It's a combination of [[Protocol_stack|IP]] address and a port number that uniquely identifies a specific process running on a device

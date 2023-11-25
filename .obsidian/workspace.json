@@ -21,6 +21,32 @@
             }
           },
           {
+            "id": "29145728bd638edd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5e628d5c35bf1086",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Network_architecture.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d751fe2ef4e43add",
             "type": "leaf",
             "state": {
@@ -111,7 +137,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -179,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_crossover.md"
+                "file": "Networking/Network_architecture.md"
               }
             }
           }
@@ -214,7 +241,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
+                "file": "Networking/Network_architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +258,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
+                "file": "Networking/Network_architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -293,16 +320,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "61b6b073dac95afd",
+  "active": "5e628d5c35bf1086",
   "lastOpenFiles": [
+    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
+    "Networking/Network_architecture.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
     "MachineLearning/GeneticAlgorithms/Mutation.md",
     "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
     "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
     "LinearProgramming/Linear_programming.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
     "OperatingSystems/DigitalSystems/ASCII.md",
     "Networking/Reliable_data_transfer.md",
     "Networking/Transmission_mediums.md",
@@ -330,7 +358,6 @@
     "XX-Attachments/Images/Pasted image 20231112144712.png",
     "MachineLearning/Logistic_regression.md",
     "MachineLearning/Linear_regression.md",
-    "MachineLearning/Neural_networks.md",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
     "MachineLearning/FeatureSelectionMetrics",
