@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
+                "file": "MachineLearning/GeneticAlgorithms/Mutation.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -138,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network_architecture.md"
+                "file": "MachineLearning/GeneticAlgorithms/Mutation.md"
               }
             }
           }
@@ -241,7 +241,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Network_architecture.md",
+                "file": "MachineLearning/GeneticAlgorithms/Mutation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -258,7 +258,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Network_architecture.md",
+                "file": "MachineLearning/GeneticAlgorithms/Mutation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -320,13 +320,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5e628d5c35bf1086",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
-    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
     "Networking/Network_architecture.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
     "MachineLearning/GeneticAlgorithms/Mutation.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
     "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
     "LinearProgramming/Linear_programming.md",
