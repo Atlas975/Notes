@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Mutation.md"
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_crossover.md"
               }
             }
           }
@@ -241,7 +241,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Mutation.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -258,7 +258,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Mutation.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
