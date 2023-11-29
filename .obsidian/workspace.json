@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_crossover.md"
+                "file": "MachineLearning/GeneticAlgorithms/Mutation.md"
               }
             }
           }
@@ -241,7 +241,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
+                "file": "MachineLearning/GeneticAlgorithms/Mutation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -258,7 +258,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
+                "file": "MachineLearning/GeneticAlgorithms/Mutation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -320,12 +320,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "61b6b073dac95afd",
+  "active": "56b6c7eff5441f09",
   "lastOpenFiles": [
+    "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
     "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
     "Networking/Network_architecture.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
     "MachineLearning/GeneticAlgorithms/Mutation.md",
     "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
