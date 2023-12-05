@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+                "file": "Networking/Checksum.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md"
+                "file": "Networking/Checksum.md"
               }
             }
           }
@@ -254,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+                "file": "Networking/Checksum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+                "file": "Networking/Checksum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -335,11 +335,19 @@
   },
   "active": "0f193c64e0e26334",
   "lastOpenFiles": [
+    "Networking/Congestion_control.md",
+    "Networking/Internet_architecture.md",
+    "Networking/Internet_protocol.md",
+    "Networking/Link_layer.md",
+    "Networking/Transmission_mediums.md",
+    "Networking/Routing_protocols.md",
+    "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/Activation_functions.md",
+    "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md",
     "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
     "MachineLearning/FeatureEngineering/Feature_scaling.md",
     "MachineLearning/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
     "MachineLearning/GeneticAlgorithms/Mutation.md",
-    "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md",
     "MachineLearning/FeatureSelectionMetrics/F_score.md",
     "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
     "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
@@ -351,13 +359,10 @@
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "OperatingSystems/DigitalSystems/ASCII.md",
     "Networking/Reliable_data_transfer.md",
-    "Networking/Transmission_mediums.md",
-    "Networking/Routing_protocols.md",
     "XX-Attachments/Images/Pasted image 20231112160018.png",
     "XX-Attachments/Images/Pasted image 20231112155944.png",
     "XX-Attachments/Images/Pasted image 20231112155807.png",
     "XX-Attachments/Images/Pasted image 20231112155721.png",
-    "MachineLearning/Activation_functions.md",
     "MachineLearning/Gradient_descent.md",
     "MachineLearning/Clustering.md",
     "XX-Attachments/Images/Pasted image 20231112153857.png",
@@ -365,11 +370,6 @@
     "XX-Attachments/Images/Pasted image 20231112152606.png",
     "XX-Attachments/Images/Pasted image 20231112152113.png",
     "XX-Attachments/Images/Pasted image 20231112152006.png",
-    "OperatingSystems/Virtualisation.md",
-    "XX-Attachments/Templates/InfoNote_v2.md",
-    "MachineLearning/Artificial_intelligence.md",
-    "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
-    "MachineLearning/0-GeneralConcepts/NeuralNetworks/Neural_Network_notation.md",
     "XX-Attachments/Images/Pasted image 20231112144712.png",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
