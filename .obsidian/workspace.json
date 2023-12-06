@@ -138,6 +138,19 @@
             }
           },
           {
+            "id": "9aaafed77c8e3e00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/Squareroot_decomposition.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "85b82cf3308e82d4",
             "type": "leaf",
             "state": {
@@ -151,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -219,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Checksum.md"
+                "file": "Algorithms/Squareroot_decomposition.md"
               }
             }
           }
@@ -254,7 +267,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Checksum.md",
+                "file": "Algorithms/Squareroot_decomposition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +284,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Checksum.md",
+                "file": "Algorithms/Squareroot_decomposition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -333,8 +346,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0f193c64e0e26334",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
+    "Algorithms/Trees/Binary_index_tree.md",
+    "Algorithms/Trees/Tree_traversal.md",
+    "Algorithms/Bisect_algorithm.md",
+    "Algorithms/Squareroot_decomposition.md",
+    "Algorithms/Lazy_propagation.md",
+    "Networking/Checksum.md",
     "Networking/Congestion_control.md",
     "Networking/Internet_architecture.md",
     "Networking/Internet_protocol.md",
@@ -355,16 +374,10 @@
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
-    "LinearProgramming/Linear_programming.md",
-    "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
-    "OperatingSystems/DigitalSystems/ASCII.md",
-    "Networking/Reliable_data_transfer.md",
     "XX-Attachments/Images/Pasted image 20231112160018.png",
     "XX-Attachments/Images/Pasted image 20231112155944.png",
     "XX-Attachments/Images/Pasted image 20231112155807.png",
     "XX-Attachments/Images/Pasted image 20231112155721.png",
-    "MachineLearning/Gradient_descent.md",
-    "MachineLearning/Clustering.md",
     "XX-Attachments/Images/Pasted image 20231112153857.png",
     "XX-Attachments/Images/Pasted image 20231112153542.png",
     "XX-Attachments/Images/Pasted image 20231112152606.png",
