@@ -151,6 +151,19 @@
             }
           },
           {
+            "id": "a0af4b53b31d7035",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ProgramLanguages/Git.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "85b82cf3308e82d4",
             "type": "leaf",
             "state": {
@@ -164,7 +177,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -232,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Squareroot_decomposition.md"
+                "file": "ProgramLanguages/Git.md"
               }
             }
           }
@@ -267,7 +280,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Squareroot_decomposition.md",
+                "file": "ProgramLanguages/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,7 +297,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Squareroot_decomposition.md",
+                "file": "ProgramLanguages/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -346,12 +359,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "61b6b073dac95afd",
+  "active": "a0af4b53b31d7035",
   "lastOpenFiles": [
+    "Algorithms/Squareroot_decomposition.md",
     "Algorithms/Trees/Binary_index_tree.md",
     "Algorithms/Trees/Tree_traversal.md",
     "Algorithms/Bisect_algorithm.md",
-    "Algorithms/Squareroot_decomposition.md",
     "Algorithms/Lazy_propagation.md",
     "Networking/Checksum.md",
     "Networking/Congestion_control.md",
