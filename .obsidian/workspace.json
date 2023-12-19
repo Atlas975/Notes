@@ -156,7 +156,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgramLanguages/Git.md",
+                "file": "MediaCoding&Processing/Categorical_data_handeling.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -245,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/Git.md"
+                "file": "MediaCoding&Processing/Categorical_data_handeling.md"
               }
             }
           }
@@ -280,7 +280,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/Git.md",
+                "file": "MediaCoding&Processing/Categorical_data_handeling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -297,7 +297,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/Git.md",
+                "file": "MediaCoding&Processing/Categorical_data_handeling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -361,6 +361,22 @@
   },
   "active": "a0af4b53b31d7035",
   "lastOpenFiles": [
+    "SoftwareDesign/Software_architecture.md",
+    "SoftwareDesign/Test_types.md",
+    "SoftwareDesign/Software_planning.md",
+    "ProgramLanguages/C_language.md",
+    "ProgramLanguages/Rust/Rust_language.md",
+    "MediaCoding&Processing/Edge_detection.md",
+    "OperatingSystems/DigitalSystems/Bitwise_arithmatic.md",
+    "OperatingSystems/DigitalSystems/Computer_architecture.md",
+    "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
+    "OperatingSystems/FileSystems/New_technology_file_system.md",
+    "OperatingSystems/Virtualisation.md",
+    "OperatingSystems/Input&Output_systems.md",
+    "OperatingSystems/DigitalSystems/DigitalSystem_design.md",
+    "MediaCoding&Processing/Computer_vision.md",
+    "MediaCoding&Processing/Categorical_data_handeling.md",
+    "ProgramLanguages/Git.md",
     "Algorithms/Squareroot_decomposition.md",
     "Algorithms/Trees/Binary_index_tree.md",
     "Algorithms/Trees/Tree_traversal.md",
@@ -371,22 +387,6 @@
     "Networking/Internet_architecture.md",
     "Networking/Internet_protocol.md",
     "Networking/Link_layer.md",
-    "Networking/Transmission_mediums.md",
-    "Networking/Routing_protocols.md",
-    "MachineLearning/Artificial_intelligence.md",
-    "MachineLearning/Activation_functions.md",
-    "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md",
-    "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
-    "MachineLearning/FeatureEngineering/Feature_scaling.md",
-    "MachineLearning/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
-    "MachineLearning/GeneticAlgorithms/Mutation.md",
-    "MachineLearning/FeatureSelectionMetrics/F_score.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
-    "Networking/Network_architecture.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
-    "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
     "XX-Attachments/Images/Pasted image 20231112160018.png",
     "XX-Attachments/Images/Pasted image 20231112155944.png",
     "XX-Attachments/Images/Pasted image 20231112155807.png",

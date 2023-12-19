@@ -21,8 +21,9 @@ ___
 - Requirement engineering is essential as these kind of errors are more numerous, costly and persistent than software errors
 - It only describes what software should do without going into logistics AKA "the how". Implementation details should never be included initially, this allows for some level of creativity in how a project is completed
 
-![[Pasted image 20221010164519.png|550|550]]its best to consider these in a way that can be explained to anyone
+![[Pasted image 20221010164519.png|550|550]]
 
+-  Its best to consider these in a way that can be explained to anyone
 - The level of abstraction in requirements depends on stakeholders
 - Language should be consistent use **SHALL** for essential requirements and **SHOULD** for desirable requirements
 ## Functional vs non-functional requirements

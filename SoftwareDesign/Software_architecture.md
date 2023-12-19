@@ -25,7 +25,7 @@ ___
 # Software architecture
 - The architecture of a system can be divided into sub-systems and lower level components 
 
-![[Pasted image 20221105125845.png|600]]
+![[Pasted image 20221105125845.png|450|450]]
 
 ## Software design process
 
@@ -42,11 +42,11 @@ specified.
 
 - Example of broken down system as ball and socket diagram:
 
-![[Pasted image 20221105134023.png|550]]
+![[Pasted image 20221105134023.png|450|450]]
 
 - Possible exceptions should also be labeled, this can be charted in a table, example of an alarm control system:
 
-![[Pasted image 20221105134740.png|550]]
+![[Pasted image 20221105134740.png|450|450]]
 
 ## Architecture design process
 - [[Software_planning|Software planning]] is vital to creating a properly structured system, this can be done through the following design cycle

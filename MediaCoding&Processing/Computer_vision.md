@@ -18,7 +18,7 @@ ___
 - In image processing, a convolution is the process of transforming an image by applying a kernel to each pixel. A kernel in this context being a matrix of values whose size and values determine the transformation effect of the convolution process
 - A kernel is vital in compressing an image into an easier and less computationally expensive version of itself to operate on
 
-![[Pasted image 20220621135608.png|400|400]]
+![[Pasted image 20220621135608.png|350|350]]
 
 ## Padding
 - Padding prevents information from the images edges from being lost, useful for allowing a deeper [[Convolutional_networks| CNN]], example of padding=1
@@ -55,7 +55,7 @@ ___
 
 ## Pooling layers
 - Pooling layers offer another kind of image processing, operates the same way as a convolution but without a kernel with cell values. These are a useful layer for collapsing a network
-- **Pooling layers keep the depth dimension of a volume**
+- Pooling layers keep the depth dimension of a volume
 - Example of average and max pooling:
 
 ![[Pasted image 20220621153651.png|450|450]]

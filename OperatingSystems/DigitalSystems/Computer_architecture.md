@@ -19,8 +19,10 @@ ___
 - Describes the aspects of hardware required for a computer system to operate.
 # Von Neumman architecture 
 - Largely what modern computers are based on.
+
 ![[Pasted image 20211030190435.png|500|300]]
-- Alternatives may include cache memory as well
+- Alternatives may include cache memory as well:
+
 ![[Pasted image 20211030190812.png|500|300]]
 ## Cache memory
 - High speed memory stored near/in CPU containing frequently used data
