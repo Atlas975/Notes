@@ -156,7 +156,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding&Processing/Categorical_data_handeling.md",
+                "file": "DistributedSystems/Two_general_problem.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -245,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding&Processing/Categorical_data_handeling.md"
+                "file": "DistributedSystems/Two_general_problem.md"
               }
             }
           }
@@ -280,7 +280,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding&Processing/Categorical_data_handeling.md",
+                "file": "DistributedSystems/Two_general_problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -297,7 +297,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding&Processing/Categorical_data_handeling.md",
+                "file": "DistributedSystems/Two_general_problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -361,12 +361,19 @@
   },
   "active": "a0af4b53b31d7035",
   "lastOpenFiles": [
+    "DistributedSystems/Remote_invocation.md",
+    "DistributedSystems/Distributed_systems.md",
+    "DistributedSystems/Distributed_system_security.md",
+    "MediaCoding&Processing/Detection_algorithms.md",
+    "MediaCoding&Processing/Edge_detection.md",
+    "MediaCoding&Processing/Media_coding&processing.md",
+    "MediaCoding&Processing/Categorical_data_handeling.md",
+    "MediaCoding&Processing/Convolutional_networks.md",
     "SoftwareDesign/Software_architecture.md",
     "SoftwareDesign/Test_types.md",
     "SoftwareDesign/Software_planning.md",
     "ProgramLanguages/C_language.md",
     "ProgramLanguages/Rust/Rust_language.md",
-    "MediaCoding&Processing/Edge_detection.md",
     "OperatingSystems/DigitalSystems/Bitwise_arithmatic.md",
     "OperatingSystems/DigitalSystems/Computer_architecture.md",
     "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
@@ -375,18 +382,11 @@
     "OperatingSystems/Input&Output_systems.md",
     "OperatingSystems/DigitalSystems/DigitalSystem_design.md",
     "MediaCoding&Processing/Computer_vision.md",
-    "MediaCoding&Processing/Categorical_data_handeling.md",
     "ProgramLanguages/Git.md",
     "Algorithms/Squareroot_decomposition.md",
     "Algorithms/Trees/Binary_index_tree.md",
     "Algorithms/Trees/Tree_traversal.md",
     "Algorithms/Bisect_algorithm.md",
-    "Algorithms/Lazy_propagation.md",
-    "Networking/Checksum.md",
-    "Networking/Congestion_control.md",
-    "Networking/Internet_architecture.md",
-    "Networking/Internet_protocol.md",
-    "Networking/Link_layer.md",
     "XX-Attachments/Images/Pasted image 20231112160018.png",
     "XX-Attachments/Images/Pasted image 20231112155944.png",
     "XX-Attachments/Images/Pasted image 20231112155807.png",

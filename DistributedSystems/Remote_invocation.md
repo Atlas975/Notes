@@ -2,7 +2,6 @@
 aliases:
   - RMI
   - RPC
-alias:
 ---
 
 > [!important]- Metadata
