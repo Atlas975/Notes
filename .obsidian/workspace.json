@@ -156,8 +156,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Two_general_problem.md",
-                "mode": "preview",
+                "file": "DistributedSystems/Untitled.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -245,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Two_general_problem.md"
+                "file": "DistributedSystems/Untitled.md"
               }
             }
           }
@@ -280,7 +280,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Two_general_problem.md",
+                "file": "DistributedSystems/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -297,7 +297,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Two_general_problem.md",
+                "file": "DistributedSystems/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -361,6 +361,8 @@
   },
   "active": "a0af4b53b31d7035",
   "lastOpenFiles": [
+    "DistributedSystems/Two_general_problem.md",
+    "DistributedSystems/Untitled.md",
     "DistributedSystems/Remote_invocation.md",
     "DistributedSystems/Distributed_systems.md",
     "DistributedSystems/Distributed_system_security.md",
@@ -385,8 +387,6 @@
     "ProgramLanguages/Git.md",
     "Algorithms/Squareroot_decomposition.md",
     "Algorithms/Trees/Binary_index_tree.md",
-    "Algorithms/Trees/Tree_traversal.md",
-    "Algorithms/Bisect_algorithm.md",
     "XX-Attachments/Images/Pasted image 20231112160018.png",
     "XX-Attachments/Images/Pasted image 20231112155944.png",
     "XX-Attachments/Images/Pasted image 20231112155807.png",
