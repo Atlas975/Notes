@@ -164,6 +164,19 @@
             }
           },
           {
+            "id": "a464eec0eb57d5b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "85b82cf3308e82d4",
             "type": "leaf",
             "state": {
@@ -177,7 +190,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -245,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Time_keeping.md"
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
               }
             }
           }
@@ -280,7 +293,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Time_keeping.md",
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -297,7 +310,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Time_keeping.md",
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -359,10 +372,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a0af4b53b31d7035",
+  "active": "a464eec0eb57d5b2",
   "lastOpenFiles": [
-    "DistributedSystems/Two_general_problem.md",
     "DistributedSystems/Time_keeping.md",
+    "DistributedSystems/Two_general_problem.md",
     "DistributedSystems/Remote_invocation.md",
     "DistributedSystems/Distributed_systems.md",
     "DistributedSystems/Distributed_system_security.md",
