@@ -190,7 +190,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/ASCII.md"
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
               }
             }
           }
@@ -293,7 +293,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/ASCII.md",
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -310,7 +310,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/ASCII.md",
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -372,8 +372,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "41f7f46e62aae025",
+  "active": "a464eec0eb57d5b2",
   "lastOpenFiles": [
+    "OperatingSystems/DigitalSystems/ASCII.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "DistributedSystems/Time_keeping.md",
     "DistributedSystems/Two_general_problem.md",
@@ -399,7 +400,6 @@
     "OperatingSystems/DigitalSystems/DigitalSystem_design.md",
     "MediaCoding&Processing/Computer_vision.md",
     "ProgramLanguages/Git.md",
-    "Algorithms/Squareroot_decomposition.md",
     "XX-Attachments/Images/Pasted image 20231112160018.png",
     "XX-Attachments/Images/Pasted image 20231112155944.png",
     "XX-Attachments/Images/Pasted image 20231112155807.png",
