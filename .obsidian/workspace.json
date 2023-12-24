@@ -66,7 +66,7 @@
               "type": "markdown",
               "state": {
                 "file": "OperatingSystems/DigitalSystems/ASCII.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -190,7 +190,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
+                "file": "OperatingSystems/DigitalSystems/ASCII.md"
               }
             }
           }
@@ -293,7 +293,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+                "file": "OperatingSystems/DigitalSystems/ASCII.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -310,7 +310,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+                "file": "OperatingSystems/DigitalSystems/ASCII.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -372,8 +372,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a464eec0eb57d5b2",
+  "active": "41f7f46e62aae025",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "DistributedSystems/Time_keeping.md",
     "DistributedSystems/Two_general_problem.md",
     "DistributedSystems/Remote_invocation.md",
@@ -399,7 +400,6 @@
     "MediaCoding&Processing/Computer_vision.md",
     "ProgramLanguages/Git.md",
     "Algorithms/Squareroot_decomposition.md",
-    "Algorithms/Trees/Binary_index_tree.md",
     "XX-Attachments/Images/Pasted image 20231112160018.png",
     "XX-Attachments/Images/Pasted image 20231112155944.png",
     "XX-Attachments/Images/Pasted image 20231112155807.png",
