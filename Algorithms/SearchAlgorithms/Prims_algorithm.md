@@ -15,7 +15,7 @@ aliases: "Prim's"
 
 ___
 # Prims algorithm
--   A [[Greedy_algorithms|greedy algorithm]] used to find the minimum spanning tree (**MST**) of a weighted **undirected** graph.
+-   A [[Greedy_algorithms|greedy algorithm]] used to find the min spanning tree (**MST**) of a weighted **undirected** graph.
 -   The algorithm starts with an arbitrary vertex and grows the MST by iteratively adding the edge with the minimum weight that connects a vertex in the MST to a vertex outside the MST.
 
 ## Prims algorithm
@@ -36,7 +36,7 @@ def primsMST(graph, start) -> int:
     return mst_cost
 ```
 ## Prims vs Dijikstras 
-- Unlike [[Dijkstras_shortest_path|Dijiksta's]] algorithm, prims only count individual costs rather than costs from a specific node 
+- Unlike [[Dijkstras_shortest_path|Dijikstas]], prims only count individual costs rather than costs from a specific node 
 - Take the following traversal for both Dijiksta and Prim:
 
 ![[Pasted image 20230520221634.png|350|350]]

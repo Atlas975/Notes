@@ -195,7 +195,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
+                "file": "Algorithms/SearchAlgorithms/Prims_algorithm.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -284,7 +284,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md"
+                "file": "Algorithms/SearchAlgorithms/Prims_algorithm.md"
               }
             }
           }
@@ -319,7 +319,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
+                "file": "Algorithms/SearchAlgorithms/Prims_algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -336,7 +336,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
+                "file": "Algorithms/SearchAlgorithms/Prims_algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -400,6 +400,10 @@
   },
   "active": "49bcfbf76f2509cd",
   "lastOpenFiles": [
+    "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
+    "Algorithms/SearchAlgorithms/Prims_algorithm.md",
+    "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
+    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "Algorithms/SortAlgorithms/Topological_sort.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "OperatingSystems/DigitalSystems/ASCII.md",
@@ -422,10 +426,6 @@
     "OperatingSystems/DigitalSystems/Computer_architecture.md",
     "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
     "OperatingSystems/FileSystems/New_technology_file_system.md",
-    "OperatingSystems/Virtualisation.md",
-    "OperatingSystems/Input&Output_systems.md",
-    "OperatingSystems/DigitalSystems/DigitalSystem_design.md",
-    "MediaCoding&Processing/Computer_vision.md",
     "XX-Attachments/Images/Pasted image 20231112160018.png",
     "XX-Attachments/Images/Pasted image 20231112155944.png",
     "XX-Attachments/Images/Pasted image 20231112155807.png",
