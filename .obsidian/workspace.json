@@ -400,9 +400,9 @@
   },
   "active": "49bcfbf76f2509cd",
   "lastOpenFiles": [
-    "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
-    "Algorithms/SearchAlgorithms/Prims_algorithm.md",
     "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
+    "Algorithms/SearchAlgorithms/Prims_algorithm.md",
+    "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
     "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "Algorithms/SortAlgorithms/Topological_sort.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
