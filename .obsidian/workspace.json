@@ -190,6 +190,19 @@
             }
           },
           {
+            "id": "49bcfbf76f2509cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "85b82cf3308e82d4",
             "type": "leaf",
             "state": {
@@ -203,7 +216,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -271,7 +284,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/SortAlgorithms/Topological_sort.md"
+                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md"
               }
             }
           }
@@ -306,7 +319,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/SortAlgorithms/Topological_sort.md",
+                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -323,7 +336,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/SortAlgorithms/Topological_sort.md",
+                "file": "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -385,8 +398,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "78cb19378c8a0688",
+  "active": "49bcfbf76f2509cd",
   "lastOpenFiles": [
+    "Algorithms/SortAlgorithms/Topological_sort.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "OperatingSystems/DigitalSystems/ASCII.md",
     "DistributedSystems/Time_keeping.md",
@@ -412,7 +426,6 @@
     "OperatingSystems/Input&Output_systems.md",
     "OperatingSystems/DigitalSystems/DigitalSystem_design.md",
     "MediaCoding&Processing/Computer_vision.md",
-    "ProgramLanguages/Git.md",
     "XX-Attachments/Images/Pasted image 20231112160018.png",
     "XX-Attachments/Images/Pasted image 20231112155944.png",
     "XX-Attachments/Images/Pasted image 20231112155807.png",
