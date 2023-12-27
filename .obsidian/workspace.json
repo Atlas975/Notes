@@ -195,7 +195,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Prims_algorithm.md",
+                "file": "Algorithms/Trees/Tree_traversal.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -284,7 +284,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Prims_algorithm.md"
+                "file": "Algorithms/Trees/Tree_traversal.md"
               }
             }
           }
@@ -319,7 +319,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Prims_algorithm.md",
+                "file": "Algorithms/Trees/Tree_traversal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -336,7 +336,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Prims_algorithm.md",
+                "file": "Algorithms/Trees/Tree_traversal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -400,8 +400,8 @@
   },
   "active": "49bcfbf76f2509cd",
   "lastOpenFiles": [
-    "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
     "Algorithms/SearchAlgorithms/Prims_algorithm.md",
+    "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
     "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
     "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "Algorithms/SortAlgorithms/Topological_sort.md",
