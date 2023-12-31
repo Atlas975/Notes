@@ -195,7 +195,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Lazy_propagation.md",
+                "file": "Algorithms/Union_find.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -284,7 +284,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Lazy_propagation.md"
+                "file": "Algorithms/Union_find.md"
               }
             }
           }
@@ -319,7 +319,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Lazy_propagation.md",
+                "file": "Algorithms/Union_find.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -336,7 +336,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Lazy_propagation.md",
+                "file": "Algorithms/Union_find.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -398,8 +398,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "61b6b073dac95afd",
+  "active": "49bcfbf76f2509cd",
   "lastOpenFiles": [
+    "Algorithms/Lazy_propagation.md",
     "Algorithms/Trees/Tree_traversal.md",
     "Algorithms/SearchAlgorithms/Prims_algorithm.md",
     "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
@@ -425,7 +426,6 @@
     "ProgramLanguages/Rust/Rust_language.md",
     "OperatingSystems/DigitalSystems/Bitwise_arithmatic.md",
     "OperatingSystems/DigitalSystems/Computer_architecture.md",
-    "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
     "XX-Attachments/Images/Pasted image 20231112160018.png",
     "XX-Attachments/Images/Pasted image 20231112155944.png",
     "XX-Attachments/Images/Pasted image 20231112155807.png",
