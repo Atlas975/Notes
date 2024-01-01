@@ -203,6 +203,19 @@
             }
           },
           {
+            "id": "48dbf8041b18cbb3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "85b82cf3308e82d4",
             "type": "leaf",
             "state": {
@@ -216,7 +229,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -284,7 +297,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Union_find.md"
+                "file": "Algorithms/ProgrammingPatterns/Interval_algorithms.md"
               }
             }
           }
@@ -319,7 +332,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Union_find.md",
+                "file": "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -336,7 +349,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Union_find.md",
+                "file": "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -398,8 +411,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "49bcfbf76f2509cd",
+  "active": "48dbf8041b18cbb3",
   "lastOpenFiles": [
+    "Algorithms/Union_find.md",
     "Algorithms/Lazy_propagation.md",
     "Algorithms/Trees/Tree_traversal.md",
     "Algorithms/SearchAlgorithms/Prims_algorithm.md",
@@ -425,7 +439,6 @@
     "ProgramLanguages/C_language.md",
     "ProgramLanguages/Rust/Rust_language.md",
     "OperatingSystems/DigitalSystems/Bitwise_arithmatic.md",
-    "OperatingSystems/DigitalSystems/Computer_architecture.md",
     "XX-Attachments/Images/Pasted image 20231112160018.png",
     "XX-Attachments/Images/Pasted image 20231112155944.png",
     "XX-Attachments/Images/Pasted image 20231112155807.png",
