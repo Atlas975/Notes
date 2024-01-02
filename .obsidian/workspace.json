@@ -216,6 +216,19 @@
             }
           },
           {
+            "id": "2e2b5e474fe5c81e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Binary_search.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "85b82cf3308e82d4",
             "type": "leaf",
             "state": {
@@ -229,7 +242,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -297,7 +310,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Interval_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Binary_search.md"
               }
             }
           }
@@ -332,7 +345,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Binary_search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -349,7 +362,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Binary_search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -411,8 +424,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "48dbf8041b18cbb3",
+  "active": "2e2b5e474fe5c81e",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
     "Algorithms/Union_find.md",
     "Algorithms/Lazy_propagation.md",
     "Algorithms/Trees/Tree_traversal.md",
@@ -438,7 +452,6 @@
     "SoftwareDesign/Software_planning.md",
     "ProgramLanguages/C_language.md",
     "ProgramLanguages/Rust/Rust_language.md",
-    "OperatingSystems/DigitalSystems/Bitwise_arithmatic.md",
     "XX-Attachments/Images/Pasted image 20231112160018.png",
     "XX-Attachments/Images/Pasted image 20231112155944.png",
     "XX-Attachments/Images/Pasted image 20231112155807.png",
