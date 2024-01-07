@@ -108,8 +108,6 @@ def findMin(self, nums: List[int]) -> int:
 
 ## Time based key-value storage
 ```python
-from collections import defaultdict
-
 class TimeMap:
     def __init__(self):
         self.tmap = defaultdict(list)
