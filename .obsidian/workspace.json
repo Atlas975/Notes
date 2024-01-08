@@ -221,7 +221,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Binary_search.md",
+                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -310,7 +310,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Binary_search.md"
+                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md"
               }
             }
           }
@@ -345,7 +345,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Binary_search.md",
+                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -362,7 +362,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Binary_search.md",
+                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -426,6 +426,7 @@
   },
   "active": "2e2b5e474fe5c81e",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Binary_search.md",
     "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
     "Algorithms/Union_find.md",
     "Algorithms/Lazy_propagation.md",
@@ -451,7 +452,6 @@
     "SoftwareDesign/Test_types.md",
     "SoftwareDesign/Software_planning.md",
     "ProgramLanguages/C_language.md",
-    "ProgramLanguages/Rust/Rust_language.md",
     "XX-Attachments/Images/Pasted image 20231112160018.png",
     "XX-Attachments/Images/Pasted image 20231112155944.png",
     "XX-Attachments/Images/Pasted image 20231112155807.png",
