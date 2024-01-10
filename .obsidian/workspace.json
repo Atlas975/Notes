@@ -221,7 +221,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+                "file": "DistributedSystems/Two_general_problem.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -310,7 +310,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md"
+                "file": "DistributedSystems/Two_general_problem.md"
               }
             }
           }
@@ -345,7 +345,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+                "file": "DistributedSystems/Two_general_problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -362,7 +362,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+                "file": "DistributedSystems/Two_general_problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -428,6 +428,13 @@
   },
   "active": "2e2b5e474fe5c81e",
   "lastOpenFiles": [
+    "DistributedSystems/Byzantine_generals_problem.md",
+    "DistributedSystems/Two_general_problem.md",
+    "DistributedSystems/Remote_invocation.md",
+    "DistributedSystems/Distributed_systems.md",
+    "DistributedSystems/Time_keeping.md",
+    "DistributedSystems/Distributed_system_security.md",
+    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
     "Algorithms/ProgrammingPatterns/Binary_search.md",
     "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
     "Algorithms/Union_find.md",
@@ -440,11 +447,6 @@
     "Algorithms/SortAlgorithms/Topological_sort.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "OperatingSystems/DigitalSystems/ASCII.md",
-    "DistributedSystems/Time_keeping.md",
-    "DistributedSystems/Two_general_problem.md",
-    "DistributedSystems/Remote_invocation.md",
-    "DistributedSystems/Distributed_systems.md",
-    "DistributedSystems/Distributed_system_security.md",
     "MediaCoding&Processing/Detection_algorithms.md",
     "MediaCoding&Processing/Edge_detection.md",
     "MediaCoding&Processing/Media_coding&processing.md",
@@ -452,8 +454,6 @@
     "MediaCoding&Processing/Convolutional_networks.md",
     "SoftwareDesign/Software_architecture.md",
     "SoftwareDesign/Test_types.md",
-    "SoftwareDesign/Software_planning.md",
-    "ProgramLanguages/C_language.md",
     "XX-Attachments/Images/Pasted image 20231112160018.png",
     "XX-Attachments/Images/Pasted image 20231112155944.png",
     "XX-Attachments/Images/Pasted image 20231112155807.png",
