@@ -229,16 +229,6 @@
             }
           },
           {
-            "id": "b7fb69392e186f36",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.3"
-              }
-            }
-          },
-          {
             "id": "85b82cf3308e82d4",
             "type": "leaf",
             "state": {
@@ -252,7 +242,7 @@
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -436,7 +426,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b7fb69392e186f36",
+  "active": "2e2b5e474fe5c81e",
   "lastOpenFiles": [
     "Algorithms/ProgrammingPatterns/Binary_search.md",
     "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
