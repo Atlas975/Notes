@@ -14,7 +14,7 @@ aliases: FSM
 
 ___
 # Finite state machines
-- A finite state machine (FSM) is a mathematical model used to represent systems that change state
+- A finite state machine is a mathematical model used to represent systems that change state
 - Consists of a set of states, inputs, and transitions. FSM's starts in an initial state and can transition between states based on input. 
 - Each transition has a condition that determines when a state change occurs as well as secondary effects that occur when that transition happens
 
