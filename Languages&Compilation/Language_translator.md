@@ -15,7 +15,7 @@ ___
 - Translators also facilitates cross-language  development by translating higher level code into a intermediate format / machine code that's more cross-platform friendly
 
 ![[Pasted image 20240119155134.png|450|450]]
-
+- 
 ## Preprocessor
 - Responsible for macro expansion and inclusion, replacing macros with the code they're a shorthand for as well as inserting header file content into the source code. 
 - Additionally this also handles conditional compilation, the result of these steps is source code than can then be fed directly into a compiler
@@ -34,4 +34,7 @@ ___
 
 ![[Pasted image 20240119160254.png|500|500]]
 ## Linker-loader
-- Generates absolute machine code. This also redirects any references to external files to their respective location on the system. 
+- Generates absolute machine code. This also redirects any references to external files to their respective location on the system. The result of this is a program with exact memory locations 
+- The linking of libraries is called dynamic linking, allowing the program to interact with shared libraries at runtime
+
+![[Pasted image 20240119162659.png|550|550]]

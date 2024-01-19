@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Language_translator.md",
+                "file": "Languages&Compilation/Formal_languages.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Language_translator.md"
+                "file": "Languages&Compilation/Formal_languages.md"
               }
             }
           }
@@ -254,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Language_translator.md",
+                "file": "Languages&Compilation/Formal_languages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Language_translator.md",
+                "file": "Languages&Compilation/Formal_languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -337,12 +337,14 @@
   },
   "active": "657673667d5b8b6e",
   "lastOpenFiles": [
+    "Languages&Compilation/Language_translator.md",
+    "Languages&Compilation/Formal_languages.md",
+    "XX-Attachments/Images/Pasted image 20240119162659.png",
     "XX-Attachments/Images/Pasted image 20240119160254.png",
     "XX-Attachments/Images/Pasted image 20240119155905.png",
     "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
     "Networking/Reliable_data_transfer.md",
     "Algorithms/SortAlgorithms/Topological_sort.md",
-    "Languages&Compilation/Language_translator.md",
     "XX-Attachments/Images/Pasted image 20240119155319.png",
     "XX-Attachments/Images/Pasted image 20240119155134.png",
     "SoftwareDesign/Finite_state_machines.md",
@@ -372,8 +374,6 @@
     "XX-Attachments/Images/Pasted image 20231112155807.png",
     "XX-Attachments/Images/Pasted image 20231112155721.png",
     "XX-Attachments/Images/Pasted image 20231112153857.png",
-    "XX-Attachments/Images/Pasted image 20231112153542.png",
-    "XX-Attachments/Images/Pasted image 20231112152606.png",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
     "MachineLearning/FeatureSelectionMetrics",
