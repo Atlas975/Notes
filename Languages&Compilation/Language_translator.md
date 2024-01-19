@@ -33,3 +33,5 @@ ___
 - The output of this phase can be read directly by the [[Processors|CPU]]
 
 ![[Pasted image 20240119160254.png|500|500]]
+## Linker-loader
+- Generates absolute machine code. This also redirects any references to external files to their respective location on the system. 
