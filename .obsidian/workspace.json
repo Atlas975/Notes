@@ -260,7 +260,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwareEngineering/Concurrency.md",
+                "file": "SoftwareDesign/Finite_state_machines.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -349,7 +349,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareEngineering/Concurrency.md"
+                "file": "SoftwareDesign/Finite_state_machines.md"
               }
             }
           }
@@ -384,7 +384,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareEngineering/Concurrency.md",
+                "file": "SoftwareDesign/Finite_state_machines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -401,7 +401,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareEngineering/Concurrency.md",
+                "file": "SoftwareDesign/Finite_state_machines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -465,8 +465,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "61b6b073dac95afd",
+  "active": "657673667d5b8b6e",
   "lastOpenFiles": [
+    "SoftwareDesign/UML_diagrams.md",
+    "SoftwareDesign/SOLID_principles.md",
+    "SoftwareEngineering/Concurrency.md",
     "Languages&Compilation",
     "SoftwareDesign/BSPL.md",
     "SoftwareDesign/Finite_state_machines.md",
@@ -491,8 +494,6 @@
     "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
     "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "Algorithms/SortAlgorithms/Topological_sort.md",
-    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-    "OperatingSystems/DigitalSystems/ASCII.md",
     "XX-Attachments/Images/Pasted image 20231112160018.png",
     "XX-Attachments/Images/Pasted image 20231112155944.png",
     "XX-Attachments/Images/Pasted image 20231112155807.png",
@@ -511,7 +512,6 @@
     "MachineLearning/ArtificialIntelligence",
     "MediaCoding&Processing",
     "Algorithms/Trees",
-    "LinearProgramming",
-    "XX-Attachments/Images/Home work 3 SOLUTIONS 2021-2022.pdf"
+    "LinearProgramming"
   ]
 }
