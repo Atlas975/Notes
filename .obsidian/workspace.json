@@ -131,7 +131,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/Language_translator.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -337,6 +337,8 @@
   },
   "active": "657673667d5b8b6e",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240119160254.png",
+    "XX-Attachments/Images/Pasted image 20240119155905.png",
     "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
     "Networking/Reliable_data_transfer.md",
     "Algorithms/SortAlgorithms/Topological_sort.md",
@@ -365,7 +367,6 @@
     "Algorithms/Union_find.md",
     "Algorithms/Lazy_propagation.md",
     "Algorithms/Trees/Tree_traversal.md",
-    "Algorithms/SearchAlgorithms/Prims_algorithm.md",
     "XX-Attachments/Images/Pasted image 20231112160018.png",
     "XX-Attachments/Images/Pasted image 20231112155944.png",
     "XX-Attachments/Images/Pasted image 20231112155807.png",
@@ -373,7 +374,6 @@
     "XX-Attachments/Images/Pasted image 20231112153857.png",
     "XX-Attachments/Images/Pasted image 20231112153542.png",
     "XX-Attachments/Images/Pasted image 20231112152606.png",
-    "XX-Attachments/Images/Pasted image 20231112152113.png",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
     "MachineLearning/FeatureSelectionMetrics",

@@ -17,6 +17,19 @@ ___
 ![[Pasted image 20240119155134.png|450|450]]
 
 ## Preprocessor
-- Resp
+- Responsible for macro expansion and inclusion, replacing macros with the code they're a shorthand for as well as inserting header file content into the source code. 
+- Additionally this also handles conditional compilation, the result of these steps is source code than can then be fed directly into a compiler
 
 ![[Pasted image 20240119155319.png|600|600]]
+
+## Compiler
+- Performs lexical analysis, creating a parse tree that helps ensure the source code follows the languages grammar rules, this helps report syntax errors
+- Code optimisation and generation is also carried out at this phase eg loop unrolling
+
+![[Pasted image 20240119155905.png|550|550]]
+
+## Assembler
+- Defines the memory space variables / instructions will need to take, the exact memory locations are not known beforehand so this is created as a generalised **relocatable** format
+- The output of this phase can be read directly by the [[Processors|CPU]]
+
+![[Pasted image 20240119160254.png|500|500]]
