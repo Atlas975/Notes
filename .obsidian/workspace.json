@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Visitor_pattern.md",
+                "file": "SoftwarePatterns/Behavioral/Observer_pattern.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Visitor_pattern.md"
+                "file": "SoftwarePatterns/Behavioral/Observer_pattern.md"
               }
             }
           }
@@ -254,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Visitor_pattern.md",
+                "file": "SoftwarePatterns/Behavioral/Observer_pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Visitor_pattern.md",
+                "file": "SoftwarePatterns/Behavioral/Observer_pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -338,6 +338,7 @@
   "active": "657673667d5b8b6e",
   "lastOpenFiles": [
     "SoftwarePatterns/Behavioral/Template_pattern.md",
+    "SoftwarePatterns/Behavioral/Visitor_pattern.md",
     "SoftwarePatterns/Behavioral/Observer_pattern.md",
     "SoftwarePatterns/Behavioral/Iterator_pattern.md",
     "SoftwarePatterns/Behavioral/Command_pattern.md",
@@ -368,7 +369,6 @@
     "SoftwareDesign/Software_architecture.md",
     "ProgramLanguages/Regex.md",
     "DistributedSystems/Byzantine_generals_problem.md",
-    "DistributedSystems/Distributed_systems.md",
     "XX-Attachments/Images/Pasted image 20231112160018.png",
     "XX-Attachments/Images/Pasted image 20231112155944.png",
     "XX-Attachments/Images/Pasted image 20231112155807.png",
