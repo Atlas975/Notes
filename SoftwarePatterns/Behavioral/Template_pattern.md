@@ -62,5 +62,4 @@ let mut algo1 = CustomAlgo1(1, 2);
 let mut algo2 = CustomAlgo2(100, 200);
 algo1.run();
 algo2.run();
-
 ```

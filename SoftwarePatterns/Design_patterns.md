@@ -1,6 +1,7 @@
 ---
 alias: design pattern
 ---
+
 > [!important|inIL]- Metadata
 > **Tags:** #DesignPatterns 
 > **Located:** SoftwareDesign/DesignPatterns
@@ -30,8 +31,8 @@ ___
 - **Solution**: describes the elements that make up the design pattern as well as their relation to one another. Does not describe concrete solution
 - **Consequences**: results and trade-offs of applying pattern
 ## Design pattern categories
-- **Creational**: focuses on the creation of objects and classes,  helps abstract the instantiation process
+- **Creational**: focuses on the creation of objects and classes,  abstracts the instantiation process
 - **Structural:** focuses on composition and organisation of objects and classes 
-- **Behavioral**: focuses on the communication and coordination of objects and classes
+- **Behavioural**: focuses on the communication and coordination of objects and classes
 
 ![[Pasted image 20230127125603.png|550|550]]
