@@ -33,6 +33,35 @@ ___
 
 ## Length operation
 - The number of symbols in a string x
-- Denoted as |x| where 
+- Denoted as |x| eg |abcabc| = 6
+## Concatenation
+- Formed by appending two or more strings sequentially 
 
-> |abcabc| = 6
+
+
+$$\begin{align*}
+\text{let }x=abca\\
+\text{let }y=ca\\
+xy=abcaca\\
+yx=xaabca\\
+x\epsilon=abca
+
+\end{align*}$$
+
+> let x = abca
+> let y = ca
+> xy = abcaca, yx = caabca,  x$\epsilon$=abca
+
+## Power
+- Formed by writing n copies of string x
+- Denoted as $x^n$
+
+> let x = abc
+> $x^3$ = abcabcabc, $x^1$=abc, $x^0$ = $\epsilon$
+
+## Index
+- The nth symbol of string x
+- Denoted as $x_{n}$ (usually 1-indexed)
+
+>let x = abc 
+>$x_{1}$=a, $x_{2}$=b, $x_{3}$=c
