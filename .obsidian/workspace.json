@@ -130,8 +130,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Observer_pattern.md",
-                "mode": "preview",
+                "file": "Languages&Compilation/Formal_languages.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Observer_pattern.md"
+                "file": "Languages&Compilation/Formal_languages.md"
               }
             }
           }
@@ -254,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Observer_pattern.md",
+                "file": "Languages&Compilation/Formal_languages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwarePatterns/Behavioral/Observer_pattern.md",
+                "file": "Languages&Compilation/Formal_languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -337,9 +337,9 @@
   },
   "active": "657673667d5b8b6e",
   "lastOpenFiles": [
+    "SoftwarePatterns/Behavioral/Observer_pattern.md",
     "SoftwarePatterns/Behavioral/Template_pattern.md",
     "SoftwarePatterns/Behavioral/Visitor_pattern.md",
-    "SoftwarePatterns/Behavioral/Observer_pattern.md",
     "SoftwarePatterns/Behavioral/Iterator_pattern.md",
     "SoftwarePatterns/Behavioral/Command_pattern.md",
     "SoftwarePatterns/Creational/Builder_pattern.md",
