@@ -61,7 +61,6 @@ x^3=abcabcabc \\
 x^1=abc\\
 x^0=\epsilon
 \end{align*}$$
-
 ## Index
 - The nth symbol of string x
 - Denoted as $x_{n}$ (usually 1-indexed)
@@ -73,12 +72,20 @@ x_{2}=b\\
 x_{3}=c
 \end{align*}$$
 
-## Set definition of language 
+## Set definition of language
 - Used when strings follow a certain pattern, makes use of 4 operations 
 - A set definition itself has 3 parts:
 $$\begin{align*}
-\{ a^i,b^{i}\text{ : }i\geq{1}\} \\
+\{ a^ib^{i}\text{ : }i\geq{1}\} \\
 a^ib^{i}=\text{the string producing function} \\
 \text{: }=\text{is "such that" (sometimes as |)}\\
-
+i\geq{1=\text{range of function arguments}}
 \end{align*}$$
+
+## Decision programs
+- A program that tells you if a string belongs to a language 
+- The language of a decision is the set of strings that are marked as valid, a compiler is partly a decision program for its programming language 
+
+![[Pasted image 20240125172724.png|350|350]]
+
+## Grammers

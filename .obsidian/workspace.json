@@ -125,7 +125,7 @@
             }
           },
           {
-            "id": "657673667d5b8b6e",
+            "id": "222801064b7fbd59",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -336,10 +336,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "657673667d5b8b6e",
+  "active": "222801064b7fbd59",
   "lastOpenFiles": [
-    "Languages&Compilation/Language_translator.md",
+    "DistributedSystems/Remote_invocation.md",
     "Languages&Compilation/Formal_languages.md",
+    "XX-Attachments/Images/Pasted image 20240125172724.png",
+    "Languages&Compilation/Language_translator.md",
     "SoftwarePatterns/Behavioral/Observer_pattern.md",
     "SoftwarePatterns/Behavioral/Template_pattern.md",
     "SoftwarePatterns/Behavioral/Visitor_pattern.md",
@@ -363,18 +365,15 @@
     "SoftwareEngineering/Concurrency.md",
     "Languages&Compilation",
     "SoftwareDesign/BSPL.md",
-    "DistributedSystems/Remote_invocation.md",
     "DistributedSystems/Two_general_problem.md",
     "SoftwareDesign/HCI/Movement_input.md",
     "SoftwareDesign/HCI/User_interface.md",
     "SoftwareDesign/Software_architecture.md",
     "ProgramLanguages/Regex.md",
-    "DistributedSystems/Byzantine_generals_problem.md",
     "XX-Attachments/Images/Pasted image 20231112160018.png",
     "XX-Attachments/Images/Pasted image 20231112155944.png",
     "XX-Attachments/Images/Pasted image 20231112155807.png",
     "XX-Attachments/Images/Pasted image 20231112155721.png",
-    "XX-Attachments/Images/Pasted image 20231112153857.png",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
     "MachineLearning/FeatureSelectionMetrics",
