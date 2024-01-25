@@ -131,7 +131,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/Formal_languages.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -227,7 +227,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -337,6 +338,8 @@
   },
   "active": "657673667d5b8b6e",
   "lastOpenFiles": [
+    "Languages&Compilation/Language_translator.md",
+    "Languages&Compilation/Formal_languages.md",
     "SoftwarePatterns/Behavioral/Observer_pattern.md",
     "SoftwarePatterns/Behavioral/Template_pattern.md",
     "SoftwarePatterns/Behavioral/Visitor_pattern.md",
@@ -346,8 +349,6 @@
     "SoftwarePatterns/Structural/Proxy_pattern.md",
     "SoftwarePatterns/Structural/Adaptor_pattern.md",
     "SoftwarePatterns/Design_patterns.md",
-    "Languages&Compilation/Formal_languages.md",
-    "Languages&Compilation/Language_translator.md",
     "XX-Attachments/Images/Pasted image 20240119162659.png",
     "XX-Attachments/Images/Pasted image 20240119160254.png",
     "XX-Attachments/Images/Pasted image 20240119155905.png",
