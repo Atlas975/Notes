@@ -35,6 +35,7 @@ cat,aaa,tab \text{ are all in alphabet }\{a,b,c,e,t  \}
 $$\text{[a, b, aa, ab, ba, bb, aaa, aab, ...] are all derived from the alphabet {a, b}}$$
 ## Sentence
 - Any string thats a member of a language 
+$$ba \text{ is a member of language }\{ aa,ab,ba,bb \}$$
 
 
 
@@ -70,4 +71,14 @@ $$\begin{align*}
 x_{1}=a\\
 x_{2}=b\\
 x_{3}=c
+\end{align*}$$
+
+## Set definition of language 
+- Used when strings follow a certain pattern, makes use of 4 operations 
+- A set definition itself has 3 parts:
+$$\begin{align*}
+\{ a^i,b^{i}\text{ : }i\geq{1}\} \\
+a^ib^{i}=\text{the string producing function} \\
+\text{: }=\text{is "such that" (sometimes as |)}\\
+
 \end{align*}$$
