@@ -98,3 +98,13 @@ The dalek hates the doctor
 ```
 
 - Both these sentences are grammatical but have different meanings, this proves that order matters, strings may also only become grammatical when part of a larger string 
+- This is also true for tokens in a programming language eg a > b is not the same as b > a. 
+
+![[Pasted image 20240126183540.png|350|350]]
+
+- Derivation trees like this continue until it gets stuck of has a grammatical (valid) string
+- A top down [[Graph_algorithms|DFS]] can be used to find all possible derivations of grammatical strings for a language 
+
+### Parsing 
+- Basic principle of compilers, a bottom up approach
+- Multiple orders in which grammar rules can be applied, may not always result in the same tree diagram despite the trees all being valid
