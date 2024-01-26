@@ -118,3 +118,13 @@ The dalek hates the doctor
     2. A set of things like a condition in a programming language, used for structure but do not appear in final string. These are non-terminals 
     3. The start symbol that starts the derivation of a valid sentence, non-terminal
     4. A set of rules of the grammer such as assignment in a programming language (=, ->, :=)
+
+### Sentential form 
+- The intermediate stage between start symbol and the final sentence (may not result in sentence)
+- This applies to any string that can be derived in 0+ steps from start 
+
+### Backus-Naur form (BNF)
+- Another grammar notation, terminals written normally, non terminals written inside <> brackets 
+- Alternatives for same non-terminal written with | (or)
+
+![[Pasted image 20240126195042.png|350|350]]
