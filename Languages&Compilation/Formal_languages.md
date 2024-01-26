@@ -89,3 +89,4 @@ i\geq{1=\text{range of function arguments}}
 ![[Pasted image 20240125172724.png|350|350]]
 
 ## Grammers
+- Describes the set of rules that define which strings
