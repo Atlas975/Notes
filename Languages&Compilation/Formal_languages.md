@@ -115,4 +115,6 @@ The dalek hates the doctor
 ## Phase structure grammars
 - Comprised of 4 distinct parts:
     1. A set of basic objects of a language such as reserved keywords in a programming language eg: if, while, for. These are called **terminals** (vocabulary / alphabet) of the grammar. 
-    2. A set of things like a condition
+    2. A set of things like a condition in a programming language, used for structure but do not appear in final string. These are non-terminals 
+    3. The start symbol that starts the derivation of a valid sentence, non-terminal
+    4. A set of rules of the grammer such as assignment in a programming language (=, ->, :=)
