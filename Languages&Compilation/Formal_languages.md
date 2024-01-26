@@ -90,7 +90,7 @@ i\geq{1=\text{range of function arguments}}
 
 ## Grammers
 - Describes the set of rules that define which strings are grammatical (part of a language) or not
-- These do not give the meaning of a sentence, instead describing the structure of a string acting as a form of preprocessing input data
+- These do not give the meaning of a sentence, instead describing the structure of a string acting as a form of preprocessing input data. Grammars may be recursive in their definition
 
 ```
 The doctor hates the dalek 
@@ -105,6 +105,14 @@ The dalek hates the doctor
 - Derivation trees like this continue until it gets stuck of has a grammatical (valid) string
 - A top down [[Graph_algorithms|DFS]] can be used to find all possible derivations of grammatical strings for a language 
 
-### Parsing 
+
+![[Pasted image 20240126185051.png|350|350]]
+![[Pasted image 20240126185031.png|350|350]]
+### Parsing
 - Basic principle of compilers, a bottom up approach
 - Multiple orders in which grammar rules can be applied, may not always result in the same tree diagram despite the trees all being valid
+
+## Phase structure grammars
+- Comprised of 4 distinct parts:
+    1. A set of basic objects of a language such as reserved keywords in a programming language eg: if, while, for. These are called **terminals** (vocabulary / alphabet) of the grammar. 
+    2. A set of things like a condition

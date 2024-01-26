@@ -131,7 +131,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/Formal_languages.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -338,6 +338,8 @@
   },
   "active": "222801064b7fbd59",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240126185051.png",
+    "XX-Attachments/Images/Pasted image 20240126185031.png",
     "XX-Attachments/Images/Pasted image 20240126183540.png",
     "DistributedSystems/Remote_invocation.md",
     "Languages&Compilation/Formal_languages.md",
@@ -373,8 +375,6 @@
     "ProgramLanguages/Regex.md",
     "XX-Attachments/Images/Pasted image 20231112160018.png",
     "XX-Attachments/Images/Pasted image 20231112155944.png",
-    "XX-Attachments/Images/Pasted image 20231112155807.png",
-    "XX-Attachments/Images/Pasted image 20231112155721.png",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
     "MachineLearning/FeatureSelectionMetrics",
