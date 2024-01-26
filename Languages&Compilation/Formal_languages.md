@@ -89,4 +89,12 @@ i\geq{1=\text{range of function arguments}}
 ![[Pasted image 20240125172724.png|350|350]]
 
 ## Grammers
-- Describes the set of rules that define which strings
+- Describes the set of rules that define which strings are grammatical (part of a language) or not
+- These do not give the meaning of a sentence, instead describing the structure of a string acting as a form of preprocessing input data
+
+```
+The doctor hates the dalek 
+The dalek hates the doctor 
+```
+
+- Both these sentences are grammatical but have different meanings, this proves that order matters, strings may also only become grammatical when part of a larger string 
