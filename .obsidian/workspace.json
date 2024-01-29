@@ -128,13 +128,8 @@
             "id": "222801064b7fbd59",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Formal_languages.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -218,9 +213,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Languages&Compilation/Formal_languages.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -255,7 +248,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Formal_languages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +264,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Formal_languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -338,12 +329,12 @@
   },
   "active": "222801064b7fbd59",
   "lastOpenFiles": [
+    "Languages&Compilation/Formal_languages.md",
     "XX-Attachments/Images/Pasted image 20240126195042.png",
     "XX-Attachments/Images/Pasted image 20240126185051.png",
     "XX-Attachments/Images/Pasted image 20240126185031.png",
     "XX-Attachments/Images/Pasted image 20240126183540.png",
     "DistributedSystems/Remote_invocation.md",
-    "Languages&Compilation/Formal_languages.md",
     "XX-Attachments/Images/Pasted image 20240125172724.png",
     "Languages&Compilation/Language_translator.md",
     "SoftwarePatterns/Behavioral/Observer_pattern.md",
@@ -374,7 +365,6 @@
     "SoftwareDesign/HCI/User_interface.md",
     "SoftwareDesign/Software_architecture.md",
     "ProgramLanguages/Regex.md",
-    "XX-Attachments/Images/Pasted image 20231112160018.png",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
     "MachineLearning/FeatureSelectionMetrics",
