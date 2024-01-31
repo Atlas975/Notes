@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Regular_grammar.md",
+                "file": "Languages&Compilation/Formal_languages.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Regular_grammar.md"
+                "file": "Languages&Compilation/Formal_languages.md"
               }
             }
           }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Regular_grammar.md",
+                "file": "Languages&Compilation/Formal_languages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Regular_grammar.md",
+                "file": "Languages&Compilation/Formal_languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,12 +220,14 @@
   },
   "active": "b2414a9f5d006cd5",
   "lastOpenFiles": [
+    "Languages&Compilation/Regular_grammar.md",
+    "XX-Attachments/Images/Pasted image 20240131173859.png",
+    "XX-Attachments/Images/Pasted image 20240131173616.png",
     "XX-Attachments/Images/Pasted image 20240131171245.png",
     "XX-Attachments/Images/Pasted image 20240131170833.png",
     "XX-Attachments/Images/Pasted image 20240131170755.png",
     "XX-Attachments/Images/Pasted image 20240131170649.png",
     "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
-    "Languages&Compilation/Regular_grammar.md",
     "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "Networking/Network_architecture.md",
@@ -253,9 +255,6 @@
     "XX-Attachments/Images/Pasted image 20240126195042.png",
     "XX-Attachments/Images/Pasted image 20240126185051.png",
     "XX-Attachments/Images/Pasted image 20240126185031.png",
-    "XX-Attachments/Images/Pasted image 20240126183540.png",
-    "XX-Attachments/Images/Pasted image 20240125172724.png",
-    "XX-Attachments/Images/Pasted image 20240119162659.png",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
