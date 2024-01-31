@@ -27,14 +27,27 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/Formal_languages.md",
-                "mode": "source",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aa375c6d7404311a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Regular_grammar.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Formal_languages.md"
+                "file": "Languages&Compilation/Regular_grammar.md"
               }
             }
           }
@@ -137,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Formal_languages.md",
+                "file": "Languages&Compilation/Regular_grammar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Formal_languages.md",
+                "file": "Languages&Compilation/Regular_grammar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,15 +231,21 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b2414a9f5d006cd5",
+  "active": "aa375c6d7404311a",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240131175900.png",
+    "XX-Attachments/Images/Pasted image 20240131175808.png",
+    "XX-Attachments/Images/Pasted image 20240131175732.png",
+    "XX-Attachments/Images/Pasted image 20240131175709.png",
+    "XX-Attachments/Images/Pasted image 20240131175656.png",
+    "XX-Attachments/Images/Pasted image 20240131175556.png",
+    "XX-Attachments/Images/Pasted image 20240131175531.png",
+    "XX-Attachments/Images/Pasted image 20240131175424.png",
+    "Languages&Compilation/Formal_languages.md",
     "Languages&Compilation/Regular_grammar.md",
     "XX-Attachments/Images/Pasted image 20240131173859.png",
     "XX-Attachments/Images/Pasted image 20240131173616.png",
     "XX-Attachments/Images/Pasted image 20240131171245.png",
-    "XX-Attachments/Images/Pasted image 20240131170833.png",
-    "XX-Attachments/Images/Pasted image 20240131170755.png",
-    "XX-Attachments/Images/Pasted image 20240131170649.png",
     "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
     "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
@@ -249,12 +268,7 @@
     "MachineLearning/Logistic_regression.md",
     "MachineLearning/Machine_learning_notation.md",
     "MachineLearning/Model_metrics.md",
-    "Languages&Compilation/Formal_languages.md",
-    "XX-Attachments/Images/Pasted image 20240131155242.png",
     "Languages&Compilation/Language_translator.md",
-    "XX-Attachments/Images/Pasted image 20240126195042.png",
-    "XX-Attachments/Images/Pasted image 20240126185051.png",
-    "XX-Attachments/Images/Pasted image 20240126185031.png",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",

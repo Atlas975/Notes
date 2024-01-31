@@ -111,7 +111,7 @@ The dalek hates the doctor
 ### Parsing
 - Basic principle of compilers, a bottom up approach
 - Multiple orders in which grammar rules can be applied, may not always result in the same tree diagram despite the trees all being valid
-- Parsing is more common and involves processing the sentence (DFS) rather than the grammer 
+- Parsing is more common and involves processing the sentence (DFS) rather than the grammar through derivation (BFS)
 
 ## Phase structure grammars
 - Comprised of 4 distinct parts:
