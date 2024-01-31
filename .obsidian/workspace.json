@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Formal_languages.md",
+                "file": "Languages&Compilation/Regular_grammar.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -232,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Formal_languages.md"
+                "file": "Languages&Compilation/Regular_grammar.md"
               }
             }
           }
@@ -267,7 +267,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Formal_languages.md",
+                "file": "Languages&Compilation/Regular_grammar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,7 +284,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Formal_languages.md",
+                "file": "Languages&Compilation/Regular_grammar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -350,10 +350,11 @@
   },
   "active": "0056700305e62058",
   "lastOpenFiles": [
-    "DistributedSystems/Remote_invocation.md",
-    "Languages&Compilation/Formal_languages.md",
-    "Languages&Compilation/Regular_grammar.md",
+    "XX-Attachments/Images/Pasted image 20240131155242.png",
     "Languages&Compilation/Language_translator.md",
+    "Languages&Compilation/Formal_languages.md",
+    "DistributedSystems/Remote_invocation.md",
+    "Languages&Compilation/Regular_grammar.md",
     "XX-Attachments/Images/Pasted image 20240126195042.png",
     "XX-Attachments/Images/Pasted image 20240126185051.png",
     "XX-Attachments/Images/Pasted image 20240126185031.png",
@@ -386,7 +387,6 @@
     "SoftwareDesign/HCI/Movement_input.md",
     "SoftwareDesign/HCI/User_interface.md",
     "SoftwareDesign/Software_architecture.md",
-    "ProgramLanguages/Regex.md",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
     "MachineLearning/FeatureSelectionMetrics",

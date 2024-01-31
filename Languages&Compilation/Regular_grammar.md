@@ -11,3 +11,6 @@
 
 ___
 # Regular grammar
+
+
+![[Pasted image 20240131155242.png]]
