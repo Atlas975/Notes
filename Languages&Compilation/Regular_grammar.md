@@ -11,6 +11,10 @@
 
 ___
 # Regular grammar
+- Generate regular languages
+- All productions are in one of the following formats (only non-terminals are capital)
 
+$$\text{NON-TERMINAL}\to \text{terminal}\cdot \text{NON-TERMINAL}$$
+$$\text{NON-TERMINAL}\to \text{terminal}$$
 
 ![[Pasted image 20240131155242.png]]

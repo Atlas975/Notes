@@ -8,149 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "09551d9f4441f820",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "29145728bd638edd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5e628d5c35bf1086",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Network_architecture.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d751fe2ef4e43add",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Reliable_data_transfer.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "49bcfbf76f2509cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/Union_find.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "48dbf8041b18cbb3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2e2b5e474fe5c81e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DistributedSystems/Two_general_problem.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f7db471659e7caf6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/Regex.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6743541043d0e7cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DistributedSystems/Remote_invocation.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0056700305e62058",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Regular_grammar.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dfd5bec25aa5e095",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Regular_grammar.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "85b82cf3308e82d4",
             "type": "leaf",
             "state": {
@@ -162,9 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b2414a9f5d006cd5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Regular_grammar.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -348,45 +218,45 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0056700305e62058",
+  "active": "b2414a9f5d006cd5",
   "lastOpenFiles": [
+    "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
+    "Languages&Compilation/Regular_grammar.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
+    "Networking/Network_architecture.md",
+    "Networking/Reliable_data_transfer.md",
+    "Algorithms/Union_find.md",
+    "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
+    "DistributedSystems/Two_general_problem.md",
+    "ProgramLanguages/Regex.md",
+    "DistributedSystems/Remote_invocation.md",
+    "MachineLearning/Statistical_modeling.md",
+    "MachineLearning/Regularization.md",
+    "MachineLearning/Neural_networks.md",
+    "MachineLearning/Machine_learning_features.md",
+    "MachineLearning/Activation_functions.md",
+    "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/Clustering.md",
+    "MachineLearning/Gradient_descent.md",
+    "MachineLearning/Linear_regression.md",
+    "MachineLearning/Logistic_regression.md",
+    "MachineLearning/Machine_learning_notation.md",
+    "MachineLearning/Model_metrics.md",
+    "Languages&Compilation/Formal_languages.md",
     "XX-Attachments/Images/Pasted image 20240131155242.png",
     "Languages&Compilation/Language_translator.md",
-    "Languages&Compilation/Formal_languages.md",
-    "DistributedSystems/Remote_invocation.md",
-    "Languages&Compilation/Regular_grammar.md",
     "XX-Attachments/Images/Pasted image 20240126195042.png",
     "XX-Attachments/Images/Pasted image 20240126185051.png",
     "XX-Attachments/Images/Pasted image 20240126185031.png",
     "XX-Attachments/Images/Pasted image 20240126183540.png",
     "XX-Attachments/Images/Pasted image 20240125172724.png",
     "SoftwarePatterns/Behavioral/Observer_pattern.md",
-    "SoftwarePatterns/Behavioral/Template_pattern.md",
-    "SoftwarePatterns/Behavioral/Visitor_pattern.md",
-    "SoftwarePatterns/Behavioral/Iterator_pattern.md",
-    "SoftwarePatterns/Behavioral/Command_pattern.md",
-    "SoftwarePatterns/Creational/Builder_pattern.md",
-    "SoftwarePatterns/Structural/Proxy_pattern.md",
-    "SoftwarePatterns/Structural/Adaptor_pattern.md",
-    "SoftwarePatterns/Design_patterns.md",
     "XX-Attachments/Images/Pasted image 20240119162659.png",
     "XX-Attachments/Images/Pasted image 20240119160254.png",
     "XX-Attachments/Images/Pasted image 20240119155905.png",
-    "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
-    "Networking/Reliable_data_transfer.md",
-    "Algorithms/SortAlgorithms/Topological_sort.md",
     "XX-Attachments/Images/Pasted image 20240119155319.png",
-    "XX-Attachments/Images/Pasted image 20240119155134.png",
-    "SoftwareDesign/Finite_state_machines.md",
-    "SoftwareDesign/UML_diagrams.md",
-    "SoftwareDesign/SOLID_principles.md",
-    "SoftwareEngineering/Concurrency.md",
     "Languages&Compilation",
-    "SoftwareDesign/BSPL.md",
-    "DistributedSystems/Two_general_problem.md",
-    "SoftwareDesign/HCI/Movement_input.md",
-    "SoftwareDesign/HCI/User_interface.md",
-    "SoftwareDesign/Software_architecture.md",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
     "MachineLearning/FeatureSelectionMetrics",
