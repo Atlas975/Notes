@@ -17,4 +17,10 @@ ___
 $$\text{NON-TERMINAL}\to \text{terminal}\cdot \text{NON-TERMINAL}$$
 $$\text{NON-TERMINAL}\to \text{terminal}$$
 
+![[Pasted image 20240131171245.png|400|400]]
+
+
+
+
+
 ![[Pasted image 20240131155242.png]]
