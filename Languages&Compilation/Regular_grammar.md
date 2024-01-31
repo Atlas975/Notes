@@ -1,3 +1,7 @@
+---
+aliases:
+  - FSR
+---
 > [!important]- Metadata
 > **Tags:** #Languages 
 > **Located:** Languages&Compilation
@@ -12,7 +16,7 @@
 ___
 # Regular grammar
 - Generates regular languages, non-terminals can be considered as [[Finite_state_machines|states]]
-- A finite state recogniser does the same thing as a regular grammar and consists of a set of states, a start / end state and a set of arc labelled with a symbol from the input alphabet
+
 - All productions are in one of the following formats (only non-terminals are capital)
 
 $$\text{NON-TERMINAL}\to \text{terminal}\cdot \text{NON-TERMINAL}$$
@@ -29,6 +33,8 @@ $$\text{NON-TERMINAL}\to \text{terminal}$$
 
 
 ## Regular grammar diagrams
+- A finite state recogniser does the same thing as a regular grammar and consists of a set of states, a start / end state and a set of arc labelled with a symbol from the input alphabet
+- There are non-deterministic, finding a deterministic FSR requires eliminating choice 
 -  Non-terminals / states represented as circles 
 
 ![[Pasted image 20240131175424.png|250|250]]
@@ -44,3 +50,11 @@ $$\text{NON-TERMINAL}\to \text{terminal}$$
 - Example diagram of a [[Finite_state_machines|FSM]] (called finite there are a finite number of states): 
 
 ![[Pasted image 20240131175900.png|350|350]]
+
+- Example that generates multiples of 3 a's and 2 b's
+
+![[Pasted image 20240131180704.png|350|350]]
+
+- Adjacency matrix representation
+
+![[Pasted image 20240131180802.png|400|400]]
