@@ -60,8 +60,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Language_translator.md",
-                "mode": "preview",
+                "file": "Languages&Compilation/Regular_grammar.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Language_translator.md"
+                "file": "Languages&Compilation/Regular_grammar.md"
               }
             }
           }
@@ -210,7 +210,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Language_translator.md",
+                "file": "Languages&Compilation/Regular_grammar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -227,7 +227,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Language_translator.md",
+                "file": "Languages&Compilation/Regular_grammar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -293,6 +293,7 @@
   },
   "active": "6b0197230646b5df",
   "lastOpenFiles": [
+    "Languages&Compilation/Language_translator.md",
     "Languages&Compilation/Regular_expression_FSM.md",
     "XX-Attachments/Images/Pasted image 20240201183715.png",
     "XX-Attachments/Images/Pasted image 20240201183603.png",
@@ -307,7 +308,6 @@
     "XX-Attachments/Images/Pasted image 20240201174629.png",
     "XX-Attachments/Images/Pasted image 20240201174516.png",
     "XX-Attachments/Images/Pasted image 20240201173918.png",
-    "Languages&Compilation/Language_translator.md",
     "Languages&Compilation/Regular_grammar.md",
     "XX-Attachments/Images/Pasted image 20240201173648.png",
     "Languages&Compilation/Formal_languages.md",

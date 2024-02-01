@@ -2,6 +2,7 @@
 aliases:
   - FSR
 ---
+
 > [!important]- Metadata
 > **Tags:** #Languages 
 > **Located:** Languages&Compilation
@@ -16,7 +17,7 @@ aliases:
 ___
 # Regular grammar
 - Generates regular languages, non-terminals can be considered as [[Finite_state_machines|states]]
-
+- If a FSR can accept an infinite length string it must contain at least one loop
 - All productions are in one of the following formats (only non-terminals are capital)
 
 $$\text{NON-TERMINAL}\to \text{terminal}\cdot \text{NON-TERMINAL}$$
@@ -31,6 +32,13 @@ $$\text{NON-TERMINAL}\to \text{terminal}$$
 
 ![[Pasted image 20240131173859.png|400|400]]
 
+
+## Repeat state theorem - "vwx"
+- A string that is accepted can be expressed as 3 concatenated sub strings (vwx)
+	- V: string accepted before repeat stats)s
+	- W: the repeated string
+	- X: string accepted after repeat state(s) 
+- Note that while v and x may be empty, w is always non-empty
 
 ## Regular grammar diagrams
 - A finite state recogniser does the same thing as a regular grammar and consists of a set of states, a start / end state and a set of arc labelled with a symbol from the input alphabet
