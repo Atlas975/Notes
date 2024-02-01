@@ -15,7 +15,6 @@ ___
 - Translators also facilitates cross-language  development by translating higher level code into a intermediate format / machine code that's more cross-platform friendly
 
 ![[Pasted image 20240119155134.png|450|450]]
-- 
 ## Preprocessor
 - Responsible for macro expansion and inclusion, replacing macros with the code they're a shorthand for as well as inserting header file content into the source code. 
 - Additionally this also handles conditional compilation, the result of these steps is source code than can then be fed directly into a compiler

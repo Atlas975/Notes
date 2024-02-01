@@ -39,6 +39,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Languages&Compilation/Language_translator.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "197bdc1b54dce2e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Languages&Compilation/Subset_construction_algorithm.md",
                 "mode": "preview",
                 "backlinks": false,
@@ -60,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -244,11 +257,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "aa375c6d7404311a",
+  "active": "197bdc1b54dce2e4",
   "lastOpenFiles": [
-    "XX-Attachments/Images/Pasted image 20240131181442.png",
+    "XX-Attachments/Images/Pasted image 20240201173918.png",
+    "Languages&Compilation/Language_translator.md",
     "Languages&Compilation/Regular_grammar.md",
     "Languages&Compilation/Subset_construction_algorithm.md",
+    "XX-Attachments/Images/Pasted image 20240201173648.png",
+    "XX-Attachments/Images/Pasted image 20240131181442.png",
     "XX-Attachments/Images/Pasted image 20240131180802.png",
     "XX-Attachments/Images/Pasted image 20240131180704.png",
     "XX-Attachments/Images/Pasted image 20240131180545.png",
@@ -257,8 +273,6 @@
     "XX-Attachments/Images/Pasted image 20240131175732.png",
     "XX-Attachments/Images/Pasted image 20240131175709.png",
     "XX-Attachments/Images/Pasted image 20240131175656.png",
-    "XX-Attachments/Images/Pasted image 20240131175556.png",
-    "XX-Attachments/Images/Pasted image 20240131175531.png",
     "Languages&Compilation/Formal_languages.md",
     "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
     "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
@@ -281,7 +295,6 @@
     "MachineLearning/Linear_regression.md",
     "MachineLearning/Logistic_regression.md",
     "MachineLearning/Machine_learning_notation.md",
-    "MachineLearning/Model_metrics.md",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
