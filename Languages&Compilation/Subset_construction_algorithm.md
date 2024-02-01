@@ -20,4 +20,27 @@ ___
 
 
 
-![[Pasted image 20240201173648.png|350|350]]![[Pasted image 20240201173918.png]]
+## Subset construction process
+1. Mark the start state:
+
+![[Pasted image 20240201173648.png|350|350]]
+
+
+2. Group together all non-terminal (including the halt state denoted by H), the new set of non-terminals forms a new state in the FSR 
+
+![[Pasted image 20240201175523.png|350|350]]
+
+3. Repeat step 2 until complete and change state names in M' as they do not match original rules
+
+
+![[Pasted image 20240201174629.png|350|350]]
+
+
+
+
+
+
+
+
+
+
