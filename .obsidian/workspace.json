@@ -73,8 +73,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Untitled.md",
-                "mode": "source",
+                "file": "Languages&Compilation/Context_free_grammars.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -188,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Untitled.md"
+                "file": "Languages&Compilation/Context_free_grammars.md"
               }
             }
           }
@@ -196,7 +196,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -223,7 +224,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Untitled.md",
+                "file": "Languages&Compilation/Context_free_grammars.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -240,7 +241,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Untitled.md",
+                "file": "Languages&Compilation/Context_free_grammars.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,8 +307,10 @@
   },
   "active": "ead0cbea1a0be8f3",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240202164541.png",
     "Languages&Compilation/Regular_grammar.md",
-    "Languages&Compilation/Untitled.md",
+    "Languages&Compilation/Context_free_grammars.md",
+    "XX-Attachments/Images/Pasted image 20240202163902.png",
     "Languages&Compilation/Formal_languages.md",
     "Languages&Compilation/Language_translator.md",
     "Languages&Compilation/Regular_expression_FSM.md",
@@ -324,7 +327,6 @@
     "XX-Attachments/Images/Pasted image 20240201174629.png",
     "XX-Attachments/Images/Pasted image 20240201174516.png",
     "XX-Attachments/Images/Pasted image 20240201173918.png",
-    "XX-Attachments/Images/Pasted image 20240201173648.png",
     "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
     "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
@@ -341,7 +343,6 @@
     "MachineLearning/Activation_functions.md",
     "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/Clustering.md",
-    "MachineLearning/Gradient_descent.md",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
