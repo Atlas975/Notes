@@ -39,7 +39,7 @@ $$\text{NON-TERMINAL}\to \text{terminal}$$
 	- W: the repeated string
 	- X: string accepted after repeat state(s) 
 - Note that while v and x may be empty, w is always non-empty
-- This pattern applies 
+- This theorem also tells us whether or not a language is regular, for instance $\{ a^ib^{i}\text{ : }i\geq{1} \}$ is not regular as an FSM can only count by entering a new state, meaning it cannot parse this expression. The same logic also shows that regular grammars cannot match parenthesis  
 
 ## Regular grammar diagrams
 - A finite state recogniser does the same thing as a regular grammar and consists of a set of states, a start / end state and a set of arc labelled with a symbol from the input alphabet
