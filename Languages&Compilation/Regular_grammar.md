@@ -39,6 +39,7 @@ $$\text{NON-TERMINAL}\to \text{terminal}$$
 	- W: the repeated string
 	- X: string accepted after repeat state(s) 
 - Note that while v and x may be empty, w is always non-empty
+- This pattern applies 
 
 ## Regular grammar diagrams
 - A finite state recogniser does the same thing as a regular grammar and consists of a set of states, a start / end state and a set of arc labelled with a symbol from the input alphabet
