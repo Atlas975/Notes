@@ -61,7 +61,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/Regular_grammar.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -291,9 +291,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6b0197230646b5df",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
+    "Languages&Compilation/Formal_languages.md",
     "Languages&Compilation/Language_translator.md",
+    "Languages&Compilation/Regular_grammar.md",
     "Languages&Compilation/Regular_expression_FSM.md",
     "XX-Attachments/Images/Pasted image 20240201183715.png",
     "XX-Attachments/Images/Pasted image 20240201183603.png",
@@ -308,9 +310,7 @@
     "XX-Attachments/Images/Pasted image 20240201174629.png",
     "XX-Attachments/Images/Pasted image 20240201174516.png",
     "XX-Attachments/Images/Pasted image 20240201173918.png",
-    "Languages&Compilation/Regular_grammar.md",
     "XX-Attachments/Images/Pasted image 20240201173648.png",
-    "Languages&Compilation/Formal_languages.md",
     "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
     "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
