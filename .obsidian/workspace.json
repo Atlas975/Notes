@@ -81,6 +81,19 @@
             }
           },
           {
+            "id": "1f6730a67b5b39a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ContinuousMath/Catalan_numbers.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b6f9b56f7a389486",
             "type": "leaf",
             "state": {
@@ -120,7 +133,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -188,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Context_free_grammars.md"
+                "file": "ContinuousMath/Catalan_numbers.md"
               }
             }
           }
@@ -224,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Context_free_grammars.md",
+                "file": "ContinuousMath/Catalan_numbers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -241,7 +254,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Context_free_grammars.md",
+                "file": "ContinuousMath/Catalan_numbers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -305,11 +318,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ead0cbea1a0be8f3",
+  "active": "1f6730a67b5b39a7",
   "lastOpenFiles": [
+    "Languages&Compilation/Context_free_grammars.md",
     "XX-Attachments/Images/Pasted image 20240202164541.png",
     "Languages&Compilation/Regular_grammar.md",
-    "Languages&Compilation/Context_free_grammars.md",
     "XX-Attachments/Images/Pasted image 20240202163902.png",
     "Languages&Compilation/Formal_languages.md",
     "Languages&Compilation/Language_translator.md",
@@ -326,7 +339,6 @@
     "XX-Attachments/Images/Pasted image 20240201175523.png",
     "XX-Attachments/Images/Pasted image 20240201174629.png",
     "XX-Attachments/Images/Pasted image 20240201174516.png",
-    "XX-Attachments/Images/Pasted image 20240201173918.png",
     "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
     "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
