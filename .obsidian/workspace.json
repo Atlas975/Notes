@@ -113,7 +113,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/Pushdown_recogniser.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -345,6 +345,8 @@
   },
   "active": "89fb4722ce42c7d6",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240209163952.png",
+    "XX-Attachments/Images/Pasted image 20240209163021.png",
     "Languages&Compilation/Formal_languages.md",
     "Languages&Compilation/Pushdown_recogniser.md",
     "Languages&Compilation/Context_free_grammars.md",
@@ -365,7 +367,6 @@
     "XX-Attachments/Images/Pasted image 20240201175950.png",
     "XX-Attachments/Images/Pasted image 20240201175523.png",
     "XX-Attachments/Images/Pasted image 20240201174629.png",
-    "XX-Attachments/Images/Pasted image 20240201174516.png",
     "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
     "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
@@ -380,7 +381,6 @@
     "MachineLearning/Neural_networks.md",
     "MachineLearning/Machine_learning_features.md",
     "MachineLearning/Activation_functions.md",
-    "MachineLearning/Artificial_intelligence.md",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
