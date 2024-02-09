@@ -112,7 +112,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md",
+                "file": "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -227,7 +227,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md"
+                "file": "Algorithms/ProgrammingPatterns/Stack_algorithms.md"
               }
             }
           }
@@ -262,7 +262,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md",
+                "file": "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -279,7 +279,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md",
+                "file": "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -343,14 +343,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "89fb4722ce42c7d6",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Sliding_window.md",
+    "Algorithms/ProgrammingPatterns/Backtracking.md",
+    "Algorithms/AlgorithmConcepts/Graph_traversal.md",
+    "Languages&Compilation/Regular_grammar.md",
+    "Languages&Compilation/Pushdown_recogniser.md",
     "XX-Attachments/Images/Pasted image 20240209163952.png",
     "XX-Attachments/Images/Pasted image 20240209163021.png",
     "Languages&Compilation/Formal_languages.md",
-    "Languages&Compilation/Pushdown_recogniser.md",
     "Languages&Compilation/Context_free_grammars.md",
-    "Languages&Compilation/Regular_grammar.md",
     "Languages&Compilation/Regular_expression_FSM.md",
     "Languages&Compilation/Language_translator.md",
     "Languages&Compilation/Subset_construction_algorithm.md",
@@ -366,7 +369,6 @@
     "XX-Attachments/Images/Pasted image 20240201180132.png",
     "XX-Attachments/Images/Pasted image 20240201175950.png",
     "XX-Attachments/Images/Pasted image 20240201175523.png",
-    "XX-Attachments/Images/Pasted image 20240201174629.png",
     "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
     "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
@@ -379,8 +381,6 @@
     "MachineLearning/Statistical_modeling.md",
     "MachineLearning/Regularization.md",
     "MachineLearning/Neural_networks.md",
-    "MachineLearning/Machine_learning_features.md",
-    "MachineLearning/Activation_functions.md",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
