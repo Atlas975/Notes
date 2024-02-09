@@ -24,7 +24,7 @@ $$RHS =\text{any mix of terminals and NON-TERMINALS, can be empty}$$
 
 ![[Pasted image 20240202163902.png|400|400]]
 
-- Note how unlike [[Regular_grammar|regular grammars]] a context-free grammar must have both a terminal and non-terminal is not empty. Having only one of these will not suffice  
+- Note how unlike [[Regular_grammar|regular grammars]] a context-free grammar must have both a terminal and non-terminal if it is not empty. Having only one of these will not suffice  
 - This also allows for counting to take place:
 
 ![[Pasted image 20240202164541.png|450|450]]

@@ -99,8 +99,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Subset_construction_algorithm.md",
-                "mode": "preview",
+                "file": "Languages&Compilation/Context_free_grammars.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "89fb4722ce42c7d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Pushdown_recogniser.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -146,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -214,7 +227,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Subset_construction_algorithm.md"
+                "file": "Languages&Compilation/Pushdown_recogniser.md"
               }
             }
           }
@@ -222,8 +235,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -250,7 +262,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Subset_construction_algorithm.md",
+                "file": "Languages&Compilation/Pushdown_recogniser.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -267,7 +279,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Subset_construction_algorithm.md",
+                "file": "Languages&Compilation/Pushdown_recogniser.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -331,23 +343,24 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "642724326a42e8a1",
+  "active": "89fb4722ce42c7d6",
   "lastOpenFiles": [
+    "Languages&Compilation/Formal_languages.md",
+    "Languages&Compilation/Pushdown_recogniser.md",
+    "Languages&Compilation/Context_free_grammars.md",
     "Languages&Compilation/Regular_grammar.md",
     "Languages&Compilation/Regular_expression_FSM.md",
+    "Languages&Compilation/Language_translator.md",
+    "Languages&Compilation/Subset_construction_algorithm.md",
     "ContinuousMath/Catalan_numbers.md",
-    "Languages&Compilation/Context_free_grammars.md",
     "XX-Attachments/Images/Pasted image 20240202164541.png",
     "XX-Attachments/Images/Pasted image 20240202163902.png",
-    "Languages&Compilation/Formal_languages.md",
-    "Languages&Compilation/Language_translator.md",
     "XX-Attachments/Images/Pasted image 20240201183715.png",
     "XX-Attachments/Images/Pasted image 20240201183603.png",
     "XX-Attachments/Images/Pasted image 20240201183346.png",
     "ProgramLanguages/Regex.md",
     "ProgramLanguages/x86_assembly.md",
     "ProgramLanguages/Untitled.md",
-    "Languages&Compilation/Subset_construction_algorithm.md",
     "XX-Attachments/Images/Pasted image 20240201180132.png",
     "XX-Attachments/Images/Pasted image 20240201175950.png",
     "XX-Attachments/Images/Pasted image 20240201175523.png",
@@ -368,7 +381,6 @@
     "MachineLearning/Machine_learning_features.md",
     "MachineLearning/Activation_functions.md",
     "MachineLearning/Artificial_intelligence.md",
-    "MachineLearning/Clustering.md",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
