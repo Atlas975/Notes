@@ -157,9 +157,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e8f3d119be5bf18d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoftwareDesign/Finite_state_machines.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -227,7 +240,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Language_translator.md"
+                "file": "SoftwareDesign/Finite_state_machines.md"
               }
             }
           }
@@ -262,7 +275,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Language_translator.md",
+                "file": "SoftwareDesign/Finite_state_machines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -279,7 +292,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Language_translator.md",
+                "file": "SoftwareDesign/Finite_state_machines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -343,21 +356,21 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "aa375c6d7404311a",
+  "active": "e8f3d119be5bf18d",
   "lastOpenFiles": [
+    "Languages&Compilation/Regular_grammar.md",
+    "Languages&Compilation/Language_translator.md",
+    "Languages&Compilation/Pushdown_recogniser.md",
+    "Languages&Compilation/Formal_languages.md",
+    "Languages&Compilation/Context_free_grammars.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Algorithms/AlgorithmConcepts/Graph_traversal.md",
-    "Languages&Compilation/Regular_grammar.md",
-    "Languages&Compilation/Pushdown_recogniser.md",
     "XX-Attachments/Images/Pasted image 20240209163952.png",
     "XX-Attachments/Images/Pasted image 20240209163021.png",
-    "Languages&Compilation/Formal_languages.md",
-    "Languages&Compilation/Context_free_grammars.md",
     "Languages&Compilation/Regular_expression_FSM.md",
-    "Languages&Compilation/Language_translator.md",
     "Languages&Compilation/Subset_construction_algorithm.md",
     "ContinuousMath/Catalan_numbers.md",
     "XX-Attachments/Images/Pasted image 20240202164541.png",
