@@ -112,7 +112,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -159,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -227,7 +227,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Stack_algorithms.md"
+                "file": "Languages&Compilation/Language_translator.md"
               }
             }
           }
@@ -262,7 +262,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
+                "file": "Languages&Compilation/Language_translator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -279,7 +279,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
+                "file": "Languages&Compilation/Language_translator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -343,8 +343,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "61b6b073dac95afd",
+  "active": "aa375c6d7404311a",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Algorithms/AlgorithmConcepts/Graph_traversal.md",
@@ -379,8 +381,6 @@
     "DistributedSystems/Two_general_problem.md",
     "DistributedSystems/Remote_invocation.md",
     "MachineLearning/Statistical_modeling.md",
-    "MachineLearning/Regularization.md",
-    "MachineLearning/Neural_networks.md",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
