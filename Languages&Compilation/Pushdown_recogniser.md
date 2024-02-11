@@ -21,3 +21,6 @@ ___
 - The following format can be used to check what is pushed on the arc of the recogniser:
 
   ![[Pasted image 20240209163952.png|350|350]]
+
+
+## Constructing a pushdown register 

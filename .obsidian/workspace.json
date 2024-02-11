@@ -164,8 +164,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwareDesign/Finite_state_machines.md",
-                "mode": "preview",
+                "file": "Languages&Compilation/Pushdown_recogniser.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -240,7 +240,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/Finite_state_machines.md"
+                "file": "Languages&Compilation/Pushdown_recogniser.md"
               }
             }
           }
@@ -275,7 +275,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareDesign/Finite_state_machines.md",
+                "file": "Languages&Compilation/Pushdown_recogniser.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -292,7 +292,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareDesign/Finite_state_machines.md",
+                "file": "Languages&Compilation/Pushdown_recogniser.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -358,6 +358,7 @@
   },
   "active": "e8f3d119be5bf18d",
   "lastOpenFiles": [
+    "SoftwareDesign/Finite_state_machines.md",
     "Languages&Compilation/Regular_grammar.md",
     "Languages&Compilation/Language_translator.md",
     "Languages&Compilation/Pushdown_recogniser.md",
@@ -393,7 +394,6 @@
     "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
     "DistributedSystems/Two_general_problem.md",
     "DistributedSystems/Remote_invocation.md",
-    "MachineLearning/Statistical_modeling.md",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
