@@ -16,6 +16,7 @@ ___
 - The bottom marker of this stack is denoted by the $\perp$ symbol (z is used in JFlap instead)
 
 ![[Pasted image 20240209163021.png|350|350]]
+- A PDR effectively does a derivation on the stack beginning with the start symbol S, a string is only valid if halt (H) can be reached with no input string left
 ## Pushdown recogniser syntax
 - Pushing $\epsilon$ does nothing, PUSH(abc) is the the same as PUSH(c), PUSH(b), PUSH(a)
 - The following format can be used to check what is pushed on the arc of the recogniser:
@@ -43,6 +44,6 @@ ___
 
 ![[Pasted image 20240212154942.png|400|400]]
 
-5. For each terminal (t) in the grammar an arc from state 2 to 2 is created as t/t/$\epsilon$
+5. For each terminal (t) in the grammar an arc from state 2 to 2 is created as t/t/$\epsilon$. This is used to represent the pop operation without pushing to the stack 
 
 ![[Pasted image 20240212155338.png|400|400]]
