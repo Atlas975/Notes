@@ -170,9 +170,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "55fcab2231036994",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Pushdown_recogniser.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -240,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Union_find.md"
+                "file": "Languages&Compilation/Pushdown_recogniser.md"
               }
             }
           }
@@ -275,7 +288,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Union_find.md",
+                "file": "Languages&Compilation/Pushdown_recogniser.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -292,7 +305,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Union_find.md",
+                "file": "Languages&Compilation/Pushdown_recogniser.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -356,14 +369,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e8f3d119be5bf18d",
+  "active": "55fcab2231036994",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240212154110.png",
+    "XX-Attachments/Images/Pasted image 20240212153924.png",
+    "Languages&Compilation/Context_free_grammars.md",
     "Languages&Compilation/Pushdown_recogniser.md",
+    "Algorithms/Union_find.md",
     "SoftwareDesign/Finite_state_machines.md",
     "Languages&Compilation/Regular_grammar.md",
     "Languages&Compilation/Language_translator.md",
     "Languages&Compilation/Formal_languages.md",
-    "Languages&Compilation/Context_free_grammars.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
@@ -384,16 +400,13 @@
     "ProgramLanguages/Untitled.md",
     "XX-Attachments/Images/Pasted image 20240201180132.png",
     "XX-Attachments/Images/Pasted image 20240201175950.png",
-    "XX-Attachments/Images/Pasted image 20240201175523.png",
     "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
     "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "Networking/Network_architecture.md",
     "Networking/Reliable_data_transfer.md",
-    "Algorithms/Union_find.md",
     "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
     "DistributedSystems/Two_general_problem.md",
-    "DistributedSystems/Remote_invocation.md",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
