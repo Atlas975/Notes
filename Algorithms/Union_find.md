@@ -69,40 +69,40 @@ print("(0->1->2) (3->4)\nNo of connected:", union_find([[0, 1], [1, 2], [3, 4]])
 ## Union find for cycle length detection 
 ```python
 def findShortestCycle(self, n: int, edges: list[list[int]]) -> int:
-        def bfs(u, end):
-            seen = {u}
-            q = deque([u])
-            dist = 0
-            while q:
-                dist += 1
-                if dist > self.res:  # early stopping
-                    return float("inf")
-                for u in (q.popleft() for _ in range(len(q))):
-                    for v in graph[u]:
-                        if v not in seen:
-                            if v == end:
-                                return dist + 1  # +1 for unactivated
-                            seen.add(v)
-                            q.append(v)
-            return float("inf")
+    def bfs(u, end):
+        seen = {u}
+        q = deque([u])
+        dist = 0
+        while q:
+            dist += 1
+            if dist > self.res:  # early stopping
+                return float("inf")
+            for u in (q.popleft() for _ in range(len(q))):
+                for v in graph[u]:
+                    if v not in seen:
+                        if v == end:
+                            return dist + 1  # +1 for unactivated
+                        seen.add(v)
+                        q.append(v)
+        return float("inf")
 
-        def find(u):
-            while u != par[u]:
-                par[u] = par[par[u]]
-                u = par[u]
-            return u
+    def find(u):
+        while u != par[u]:
+            par[u] = par[par[u]]
+            u = par[u]
+        return u
 
-        graph = [[] for _ in range(n)]
-        self.res = float("inf")
-        par = list(range(n))
+    graph = [[] for _ in range(n)]
+    self.res = float("inf")
+    par = list(range(n))
 
-        for u, v in edges:
-            ru, rv = find(u), find(v)
-            if ru == rv:
-                self.res = min(self.res, bfs(u, v))
-            else:
-                par[ru] = rv
-            graph[u].append(v)
-            graph[v].append(u)
-        return -1 if self.res == float("inf") else self.res
+    for u, v in edges:
+        ru, rv = find(u), find(v)
+        if ru == rv:
+            self.res = min(self.res, bfs(u, v))
+        else:
+            par[ru] = rv
+        graph[u].append(v)
+        graph[v].append(u)
+    return -1 if self.res == float("inf") else self.res
 ```

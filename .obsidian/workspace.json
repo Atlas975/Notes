@@ -164,8 +164,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md",
-                "mode": "source",
+                "file": "Algorithms/Union_find.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -240,7 +240,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md"
+                "file": "Algorithms/Union_find.md"
               }
             }
           }
@@ -275,7 +275,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md",
+                "file": "Algorithms/Union_find.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -292,7 +292,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md",
+                "file": "Algorithms/Union_find.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -358,10 +358,10 @@
   },
   "active": "e8f3d119be5bf18d",
   "lastOpenFiles": [
+    "Languages&Compilation/Pushdown_recogniser.md",
     "SoftwareDesign/Finite_state_machines.md",
     "Languages&Compilation/Regular_grammar.md",
     "Languages&Compilation/Language_translator.md",
-    "Languages&Compilation/Pushdown_recogniser.md",
     "Languages&Compilation/Formal_languages.md",
     "Languages&Compilation/Context_free_grammars.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
