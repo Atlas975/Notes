@@ -18,13 +18,17 @@ ___
 - A set of transformations used to convert the intersection / union of a set [[Sets]] into its complement
 - Multiple use cases in [[Boolean_algebra|boolean algebra]], [[Predicate_logic|predicate logic]] and [[Propositional_logic|propositional logic]], also essential in simplifying logic circuits
 ## De-Morgan's theorem
->$$(\overline{A+B})=\overline{AB}$$
->$$\text{The complement of a sum is equal to the product of a complement}$$
->$$\overline{(AB)}=\overline{A}+\overline{B}$$
->$$\text{The complement of a product is equal to the sum of complement }$$
+$$\overline{A+B}=\overline{A} \text{ }\overline{B}$$
 
+$$\text{The complement of a sum is equal to the product of a complement}$$
+$$\overline{AB}=\overline{A}+\overline{B}$$
+$$\text{The complement of a product is equal to the sum of complement }$$
+
+![[Pasted image 20240213163632.png|450|450]]
 ## NAND building
-> example NAND building![[Pasted image 20211103113707.png|450|450]]
+- example NAND building:
+
+![[Pasted image 20211103113707.png|450|450]]
 
 ## De Morgan's quantifier law
 - Law can be applied in predicate logic to find complement expression
