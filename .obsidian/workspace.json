@@ -190,7 +190,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md",
+                "file": "Languages&Compilation/Language_translator.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -266,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md"
+                "file": "Languages&Compilation/Language_translator.md"
               }
             }
           }
@@ -301,7 +301,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md",
+                "file": "Languages&Compilation/Language_translator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -318,7 +318,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md",
+                "file": "Languages&Compilation/Language_translator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -382,10 +382,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3570aaf85fd37376",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
-    "Languages&Compilation/Regular_grammar.md",
     "Languages&Compilation/Pushdown_recogniser.md",
+    "Languages&Compilation/Regular_grammar.md",
     "XX-Attachments/Images/Pasted image 20240212155338.png",
     "XX-Attachments/Images/Pasted image 20240212154942.png",
     "XX-Attachments/Images/Pasted image 20240212154807.png",
