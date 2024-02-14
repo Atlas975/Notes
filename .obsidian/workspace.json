@@ -203,8 +203,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMath/De_Morgans_law.md",
-                "mode": "preview",
+                "file": "Statistics/Bessels_correction.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -279,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMath/De_Morgans_law.md"
+                "file": "Statistics/Bessels_correction.md"
               }
             }
           }
@@ -314,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMath/De_Morgans_law.md",
+                "file": "Statistics/Bessels_correction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -331,7 +331,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMath/De_Morgans_law.md",
+                "file": "Statistics/Bessels_correction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -397,6 +397,9 @@
   },
   "active": "ba0f32abd472493b",
   "lastOpenFiles": [
+    "DiscreteMath/De_Morgans_law.md",
+    "Statistics/Bessels_correction.md",
+    "Statistics",
     "XX-Attachments/Images/Pasted image 20240213163706.png",
     "XX-Attachments/Images/Pasted image 20240213163632.png",
     "Languages&Compilation/Language_translator.md",
@@ -419,7 +422,6 @@
     "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Algorithms/AlgorithmConcepts/Graph_traversal.md",
     "XX-Attachments/Images/Pasted image 20240209163952.png",
-    "XX-Attachments/Images/Pasted image 20240209163021.png",
     "Languages&Compilation/Regular_expression_FSM.md",
     "Languages&Compilation/Subset_construction_algorithm.md",
     "ContinuousMath/Catalan_numbers.md",
@@ -432,7 +434,6 @@
     "Networking/Network_architecture.md",
     "Networking/Reliable_data_transfer.md",
     "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
-    "DistributedSystems/Two_general_problem.md",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
@@ -441,7 +442,6 @@
     "DistributedSystems",
     "MachineLearning/ArtificialIntelligence",
     "MediaCoding&Processing",
-    "Algorithms/Trees",
-    "LinearProgramming"
+    "Algorithms/Trees"
   ]
 }
