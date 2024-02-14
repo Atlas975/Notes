@@ -16,8 +16,10 @@ ___
 - The correction involves dividing the sum of squared deviations by the sample size minus one (n - 1) instead of just by the sample size (n).
 
 ## Bessel corrected variance 
+
 $$s^2=\frac{\sum_{i=1}^{n}(x_{i}-\overline{x})^2}{n-1}$$
 ## Bessel corrected standard deviation
+$$s=\sqrt{\frac{\sum_{i=1}^{n}(x_{i}-\overline{x})^2}{n-1}}$$
 
 
 
