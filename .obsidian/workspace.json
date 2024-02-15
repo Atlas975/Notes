@@ -216,8 +216,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Compilers.md",
-                "mode": "preview",
+                "file": "Statistics/Bayes_theorem.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -292,7 +292,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Compilers.md"
+                "file": "Statistics/Bayes_theorem.md"
               }
             }
           }
@@ -327,7 +327,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Compilers.md",
+                "file": "Statistics/Bayes_theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -344,7 +344,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Compilers.md",
+                "file": "Statistics/Bayes_theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -410,10 +410,11 @@
   },
   "active": "639d6c3c4d20879c",
   "lastOpenFiles": [
+    "Languages&Compilation/Compilers.md",
+    "Statistics/Bayes_theorem.md",
     "XX-Attachments/Images/Pasted image 20240215124252.png",
     "XX-Attachments/Images/Pasted image 20240215122926.png",
     "Languages&Compilation/Language_translator.md",
-    "Languages&Compilation/Compilers.md",
     "Languages&Compilation/Pushdown_recogniser.md",
     "Languages&Compilation/Turing_thesis.md",
     "Languages&Compilation/Subset_construction_algorithm.md",
@@ -432,7 +433,6 @@
     "XX-Attachments/Images/Pasted image 20240212154705.png",
     "XX-Attachments/Images/Pasted image 20240212154535.png",
     "XX-Attachments/Images/Pasted image 20240212154110.png",
-    "XX-Attachments/Images/Pasted image 20240212153924.png",
     "Languages&Compilation/Context_free_grammars.md",
     "Algorithms/Union_find.md",
     "SoftwareDesign/Finite_state_machines.md",
