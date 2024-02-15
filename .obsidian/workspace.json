@@ -229,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Event_independence.md",
+                "file": "Languages&Compilation/Regular_grammar.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -305,7 +305,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Event_independence.md"
+                "file": "Languages&Compilation/Regular_grammar.md"
               }
             }
           }
@@ -340,7 +340,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Event_independence.md",
+                "file": "Languages&Compilation/Regular_grammar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -357,7 +357,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Event_independence.md",
+                "file": "Languages&Compilation/Regular_grammar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -421,10 +421,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "000b33a5d55fdb80",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
-    "Statistics/Bayes_theorem.md",
+    "Languages&Compilation/Regular_expression_FSM.md",
+    "Languages&Compilation/Context_free_grammars.md",
     "Statistics/Event_independence.md",
+    "Statistics/Bayes_theorem.md",
     "XX-Attachments/Images/Pasted image 20240215143252.png",
     "XX-Attachments/Images/Pasted image 20240215143217.png",
     "Languages&Compilation/Compilers.md",
@@ -435,7 +437,6 @@
     "Languages&Compilation/Turing_thesis.md",
     "Languages&Compilation/Subset_construction_algorithm.md",
     "Languages&Compilation/Regular_grammar.md",
-    "Languages&Compilation/Regular_expression_FSM.md",
     "Languages&Compilation/Formal_languages.md",
     "Languages&Compilation/Halting_problem.md",
     "Statistics/Bessels_correction.md",
@@ -447,7 +448,6 @@
     "XX-Attachments/Images/Pasted image 20240212154942.png",
     "XX-Attachments/Images/Pasted image 20240212154807.png",
     "XX-Attachments/Images/Pasted image 20240212154705.png",
-    "Languages&Compilation/Context_free_grammars.md",
     "Algorithms/Union_find.md",
     "SoftwareDesign/Finite_state_machines.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
