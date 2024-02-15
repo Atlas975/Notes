@@ -27,3 +27,5 @@ ___
 ### Analysis section 
 
 ### Synthesis section 
+- Code generation phase, may include 1 or more optimisation phases 
+- This may be turned off to have more control over source code, these phases may also run in parallel for additional performance  
