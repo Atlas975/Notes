@@ -11,6 +11,19 @@
 
 ___
 # Compilers
-
+- Takes **source program** in a **source language** and translates it into a **target program** in a **target language** while also providing error message 
+- 
 
 ![[Pasted image 20240215122926.png|300|300]]
+
+
+
+## Modular compilers 
+- Best to keep compilation components separate
+- 
+
+![[Pasted image 20240215124252.png|300|300]]
+
+### Analysis section 
+
+### Synthesis section 
