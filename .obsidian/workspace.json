@@ -203,15 +203,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Bessels_correction.md",
-                "mode": "preview",
+                "file": "Statistics/Halting_problem.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "639d6c3c4d20879c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Turing_thesis.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -279,7 +292,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Bessels_correction.md"
+                "file": "Statistics/Turing_thesis.md"
               }
             }
           }
@@ -287,7 +300,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -314,7 +328,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Bessels_correction.md",
+                "file": "Statistics/Turing_thesis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -331,7 +345,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Bessels_correction.md",
+                "file": "Statistics/Turing_thesis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -395,10 +409,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ba0f32abd472493b",
+  "active": "639d6c3c4d20879c",
   "lastOpenFiles": [
-    "DiscreteMath/De_Morgans_law.md",
+    "Statistics/Halting_problem.md",
+    "Statistics/Turing_thesis.md",
     "Statistics/Bessels_correction.md",
+    "DiscreteMath/De_Morgans_law.md",
     "Statistics",
     "XX-Attachments/Images/Pasted image 20240213163706.png",
     "XX-Attachments/Images/Pasted image 20240213163632.png",
@@ -432,8 +448,6 @@
     "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "Networking/Network_architecture.md",
-    "Networking/Reliable_data_transfer.md",
-    "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
