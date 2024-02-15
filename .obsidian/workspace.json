@@ -217,7 +217,7 @@
               "type": "markdown",
               "state": {
                 "file": "Statistics/Bayes_theorem.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -410,6 +410,8 @@
   },
   "active": "639d6c3c4d20879c",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240215143252.png",
+    "XX-Attachments/Images/Pasted image 20240215143217.png",
     "Languages&Compilation/Compilers.md",
     "Statistics/Bayes_theorem.md",
     "XX-Attachments/Images/Pasted image 20240215124252.png",
@@ -432,7 +434,6 @@
     "XX-Attachments/Images/Pasted image 20240212154807.png",
     "XX-Attachments/Images/Pasted image 20240212154705.png",
     "XX-Attachments/Images/Pasted image 20240212154535.png",
-    "XX-Attachments/Images/Pasted image 20240212154110.png",
     "Languages&Compilation/Context_free_grammars.md",
     "Algorithms/Union_find.md",
     "SoftwareDesign/Finite_state_machines.md",
@@ -446,7 +447,6 @@
     "ProgramLanguages/x86_assembly.md",
     "ProgramLanguages/Untitled.md",
     "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
