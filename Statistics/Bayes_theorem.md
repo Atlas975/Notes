@@ -26,3 +26,4 @@ $$\mathbb{P}(X)=\text{prior probability of X, the initial degree of belief in X}
 - **Liklihood $\mathbb{P}(A|B)$**:  probability of observing evidence given event occurs
 - **Marginal probability $\mathbb{P}(B)$**: the total probability of observing evidence 
 - **Posterior probability $\mathbb{P}(A|B)$**: the revised probability of an event accounting for evidence 
+- Note that $\mathbb{P}(B|A)\cdot\mathbb{P}(A)$ is the same as $\mathbb{P}(A \cap B)$
