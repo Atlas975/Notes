@@ -222,9 +222,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "000b33a5d55fdb80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Event_independence.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 16
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -292,7 +305,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Bayes_theorem.md"
+                "file": "Statistics/Event_independence.md"
               }
             }
           }
@@ -327,7 +340,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Bayes_theorem.md",
+                "file": "Statistics/Event_independence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -344,7 +357,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Bayes_theorem.md",
+                "file": "Statistics/Event_independence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -408,12 +421,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "639d6c3c4d20879c",
+  "active": "000b33a5d55fdb80",
   "lastOpenFiles": [
+    "Statistics/Bayes_theorem.md",
+    "Statistics/Event_independence.md",
     "XX-Attachments/Images/Pasted image 20240215143252.png",
     "XX-Attachments/Images/Pasted image 20240215143217.png",
     "Languages&Compilation/Compilers.md",
-    "Statistics/Bayes_theorem.md",
     "XX-Attachments/Images/Pasted image 20240215124252.png",
     "XX-Attachments/Images/Pasted image 20240215122926.png",
     "Languages&Compilation/Language_translator.md",
@@ -433,7 +447,6 @@
     "XX-Attachments/Images/Pasted image 20240212154942.png",
     "XX-Attachments/Images/Pasted image 20240212154807.png",
     "XX-Attachments/Images/Pasted image 20240212154705.png",
-    "XX-Attachments/Images/Pasted image 20240212154535.png",
     "Languages&Compilation/Context_free_grammars.md",
     "Algorithms/Union_find.md",
     "SoftwareDesign/Finite_state_machines.md",
