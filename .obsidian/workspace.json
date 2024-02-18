@@ -235,9 +235,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1a05bac4a960d0e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/DigitalSystems/ASCII.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 17
+        "currentTab": 18
       }
     ],
     "direction": "vertical"
@@ -305,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Regular_grammar.md"
+                "file": "OperatingSystems/DigitalSystems/ASCII.md"
               }
             }
           }
@@ -340,7 +353,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Regular_grammar.md",
+                "file": "OperatingSystems/DigitalSystems/ASCII.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -357,7 +370,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Regular_grammar.md",
+                "file": "OperatingSystems/DigitalSystems/ASCII.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -421,8 +434,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "61b6b073dac95afd",
+  "active": "1a05bac4a960d0e8",
   "lastOpenFiles": [
+    "Languages&Compilation/Regular_grammar.md",
     "Languages&Compilation/Regular_expression_FSM.md",
     "Languages&Compilation/Context_free_grammars.md",
     "Statistics/Event_independence.md",
@@ -436,7 +450,6 @@
     "Languages&Compilation/Pushdown_recogniser.md",
     "Languages&Compilation/Turing_thesis.md",
     "Languages&Compilation/Subset_construction_algorithm.md",
-    "Languages&Compilation/Regular_grammar.md",
     "Languages&Compilation/Formal_languages.md",
     "Languages&Compilation/Halting_problem.md",
     "Statistics/Bessels_correction.md",
