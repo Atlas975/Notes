@@ -242,7 +242,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/ASCII.md",
+                "file": "Languages&Compilation/Subset_construction_algorithm.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2dcd663bd1f1697c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Regular_expression_FSM.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8cda036f9973fdc5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -250,7 +276,7 @@
             }
           }
         ],
-        "currentTab": 18
+        "currentTab": 20
       }
     ],
     "direction": "vertical"
@@ -318,7 +344,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/ASCII.md"
+                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md"
               }
             }
           }
@@ -353,7 +379,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/ASCII.md",
+                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -370,7 +396,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/DigitalSystems/ASCII.md",
+                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -434,10 +460,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1a05bac4a960d0e8",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
-    "Languages&Compilation/Regular_grammar.md",
+    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
     "Languages&Compilation/Regular_expression_FSM.md",
+    "Languages&Compilation/Subset_construction_algorithm.md",
+    "OperatingSystems/DigitalSystems/ASCII.md",
+    "Languages&Compilation/Regular_grammar.md",
     "Languages&Compilation/Context_free_grammars.md",
     "Statistics/Event_independence.md",
     "Statistics/Bayes_theorem.md",
@@ -449,7 +479,6 @@
     "Languages&Compilation/Language_translator.md",
     "Languages&Compilation/Pushdown_recogniser.md",
     "Languages&Compilation/Turing_thesis.md",
-    "Languages&Compilation/Subset_construction_algorithm.md",
     "Languages&Compilation/Formal_languages.md",
     "Languages&Compilation/Halting_problem.md",
     "Statistics/Bessels_correction.md",
@@ -470,9 +499,6 @@
     "Algorithms/AlgorithmConcepts/Graph_traversal.md",
     "ContinuousMath/Catalan_numbers.md",
     "ProgramLanguages/Regex.md",
-    "ProgramLanguages/x86_assembly.md",
-    "ProgramLanguages/Untitled.md",
-    "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
