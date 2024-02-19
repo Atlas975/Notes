@@ -274,9 +274,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5cdeaa936a23ba3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Poisson_distribution.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 20
+        "currentTab": 21
       }
     ],
     "direction": "vertical"
@@ -344,7 +357,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md"
+                "file": "Statistics/Poisson_distribution.md"
               }
             }
           }
@@ -379,7 +392,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
+                "file": "Statistics/Poisson_distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -396,7 +409,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
+                "file": "Statistics/Poisson_distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -462,6 +475,12 @@
   },
   "active": "61b6b073dac95afd",
   "lastOpenFiles": [
+    "ContinuousMath/imaginary_numbers.md",
+    "ContinuousMath/Catalan_numbers.md",
+    "ContinuousMath/Distance_metrics.md",
+    "ContinuousMath/Center_of_rotation.md",
+    "Statistics/Mean.md",
+    "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
     "Languages&Compilation/Regular_expression_FSM.md",
@@ -493,12 +512,6 @@
     "Algorithms/Union_find.md",
     "SoftwareDesign/Finite_state_machines.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Sliding_window.md",
-    "Algorithms/ProgrammingPatterns/Backtracking.md",
-    "Algorithms/AlgorithmConcepts/Graph_traversal.md",
-    "ContinuousMath/Catalan_numbers.md",
-    "ProgramLanguages/Regex.md",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
