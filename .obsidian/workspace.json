@@ -281,7 +281,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Mean.md",
+                "file": "Statistics/Bessels_correction.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -357,7 +357,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Mean.md"
+                "file": "Statistics/Bessels_correction.md"
               }
             }
           }
@@ -392,7 +392,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Mean.md",
+                "file": "Statistics/Bessels_correction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -409,7 +409,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Mean.md",
+                "file": "Statistics/Bessels_correction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -473,14 +473,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5cdeaa936a23ba3f",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
+    "Statistics/Event_independence.md",
     "Statistics/Poisson_distribution.md",
+    "Statistics/Mean.md",
     "ContinuousMath/imaginary_numbers.md",
     "ContinuousMath/Catalan_numbers.md",
     "ContinuousMath/Distance_metrics.md",
     "ContinuousMath/Center_of_rotation.md",
-    "Statistics/Mean.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
@@ -489,7 +490,6 @@
     "OperatingSystems/DigitalSystems/ASCII.md",
     "Languages&Compilation/Regular_grammar.md",
     "Languages&Compilation/Context_free_grammars.md",
-    "Statistics/Event_independence.md",
     "Statistics/Bayes_theorem.md",
     "XX-Attachments/Images/Pasted image 20240215143252.png",
     "XX-Attachments/Images/Pasted image 20240215143217.png",
