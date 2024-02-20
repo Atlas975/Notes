@@ -357,7 +357,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Bessels_correction.md"
+                "file": "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md"
               }
             }
           }
@@ -392,7 +392,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Bessels_correction.md",
+                "file": "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -409,7 +409,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Bessels_correction.md",
+                "file": "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
