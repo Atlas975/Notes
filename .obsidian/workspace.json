@@ -281,7 +281,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Poisson_distribution.md",
+                "file": "Statistics/Mean.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -357,7 +357,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Poisson_distribution.md"
+                "file": "Statistics/Mean.md"
               }
             }
           }
@@ -392,7 +392,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Poisson_distribution.md",
+                "file": "Statistics/Mean.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -409,7 +409,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Poisson_distribution.md",
+                "file": "Statistics/Mean.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -473,8 +473,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "61b6b073dac95afd",
+  "active": "5cdeaa936a23ba3f",
   "lastOpenFiles": [
+    "Statistics/Poisson_distribution.md",
     "ContinuousMath/imaginary_numbers.md",
     "ContinuousMath/Catalan_numbers.md",
     "ContinuousMath/Distance_metrics.md",
@@ -511,7 +512,6 @@
     "XX-Attachments/Images/Pasted image 20240212154705.png",
     "Algorithms/Union_find.md",
     "SoftwareDesign/Finite_state_machines.md",
-    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
