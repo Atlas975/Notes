@@ -39,8 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Language_translator.md",
-                "mode": "preview",
+                "file": "Languages&Compilation/Lexical_analyser.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -289,7 +289,7 @@
             }
           }
         ],
-        "currentTab": 21
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -357,7 +357,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md"
+                "file": "Languages&Compilation/Lexical_analyser.md"
               }
             }
           }
@@ -392,7 +392,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
+                "file": "Languages&Compilation/Lexical_analyser.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -409,7 +409,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
+                "file": "Languages&Compilation/Lexical_analyser.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -473,8 +473,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "61b6b073dac95afd",
+  "active": "aa375c6d7404311a",
   "lastOpenFiles": [
+    "Languages&Compilation/Language_translator.md",
+    "Languages&Compilation/Lexical_analyser.md",
+    "Languages&Compilation/Formal_languages.md",
+    "Languages&Compilation/Context_free_grammars.md",
+    "Languages&Compilation/Regular_expression_FSM.md",
+    "Languages&Compilation/Pushdown_recogniser.md",
+    "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
     "Statistics/Event_independence.md",
     "Statistics/Poisson_distribution.md",
     "Statistics/Mean.md",
@@ -485,21 +492,16 @@
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
-    "Languages&Compilation/Regular_expression_FSM.md",
     "Languages&Compilation/Subset_construction_algorithm.md",
     "OperatingSystems/DigitalSystems/ASCII.md",
     "Languages&Compilation/Regular_grammar.md",
-    "Languages&Compilation/Context_free_grammars.md",
     "Statistics/Bayes_theorem.md",
     "XX-Attachments/Images/Pasted image 20240215143252.png",
     "XX-Attachments/Images/Pasted image 20240215143217.png",
     "Languages&Compilation/Compilers.md",
     "XX-Attachments/Images/Pasted image 20240215124252.png",
     "XX-Attachments/Images/Pasted image 20240215122926.png",
-    "Languages&Compilation/Language_translator.md",
-    "Languages&Compilation/Pushdown_recogniser.md",
     "Languages&Compilation/Turing_thesis.md",
-    "Languages&Compilation/Formal_languages.md",
     "Languages&Compilation/Halting_problem.md",
     "Statistics/Bessels_correction.md",
     "DiscreteMath/De_Morgans_law.md",
@@ -510,8 +512,6 @@
     "XX-Attachments/Images/Pasted image 20240212154942.png",
     "XX-Attachments/Images/Pasted image 20240212154807.png",
     "XX-Attachments/Images/Pasted image 20240212154705.png",
-    "Algorithms/Union_find.md",
-    "SoftwareDesign/Finite_state_machines.md",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
