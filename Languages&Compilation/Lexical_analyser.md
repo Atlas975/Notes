@@ -11,4 +11,6 @@
 
 ___
 # Lexical analyser
-- Simplifies input by throwing away unnecessary info 
+- Simplifies input by throwing away unnecessary information (eg comments) and by classifying language components, producing a token stream
+
+![[Pasted image 20240221163241.png|400|400]]

@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/Lexical_analyser.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -475,6 +475,7 @@
   },
   "active": "aa375c6d7404311a",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240221163241.png",
     "Languages&Compilation/Language_translator.md",
     "Languages&Compilation/Lexical_analyser.md",
     "Languages&Compilation/Formal_languages.md",
@@ -504,7 +505,6 @@
     "Languages&Compilation/Turing_thesis.md",
     "Languages&Compilation/Halting_problem.md",
     "Statistics/Bessels_correction.md",
-    "DiscreteMath/De_Morgans_law.md",
     "Statistics",
     "XX-Attachments/Images/Pasted image 20240213163706.png",
     "XX-Attachments/Images/Pasted image 20240213163632.png",
