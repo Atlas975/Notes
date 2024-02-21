@@ -14,3 +14,9 @@ ___
 - Simplifies input by throwing away unnecessary information (eg comments) and by classifying language components, producing a token stream
 
 ![[Pasted image 20240221163241.png|400|400]]
+
+## Tokens 
+- Tokens refer to:
+    - **Language symbols**: This includes keywords (=, :, +,  /, if, while, else )
+    - **Identifiers**: variable / method / class names, constants etc
+    - **Literal constants**: 
