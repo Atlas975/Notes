@@ -14,7 +14,6 @@
 
 ___
 # Database design
-
 ## Database Sharding
 - When data is too large to fit into a machine or searching for data is computationally expensive, Sharding can help counteract this.
 - This distributes processing of data and provides easier horizontal scaling
