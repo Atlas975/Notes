@@ -86,7 +86,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Context_free_grammars.md",
+                "file": "Languages&Compilation/Regular_grammar.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -302,7 +302,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -370,7 +370,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md"
+                "file": "Languages&Compilation/Regular_grammar.md"
               }
             }
           }
@@ -405,7 +405,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md",
+                "file": "Languages&Compilation/Regular_grammar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -422,7 +422,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md",
+                "file": "Languages&Compilation/Regular_grammar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -486,15 +486,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e06269cc156d4f68",
+  "active": "ead0cbea1a0be8f3",
   "lastOpenFiles": [
-    "Languages&Compilation/Subset_construction_algorithm.md",
-    "Languages&Compilation/Language_translator.md",
-    "Languages&Compilation/Pushdown_recogniser.md",
-    "Languages&Compilation/Turing_thesis.md",
-    "Languages&Compilation/Regular_grammar.md",
     "Languages&Compilation/Regular_expression_FSM.md",
     "Languages&Compilation/Lexical_analyser.md",
+    "Languages&Compilation/Context_free_grammars.md",
+    "Languages&Compilation/Pushdown_recogniser.md",
+    "Languages&Compilation/Subset_construction_algorithm.md",
+    "Languages&Compilation/Language_translator.md",
+    "Languages&Compilation/Turing_thesis.md",
+    "Languages&Compilation/Regular_grammar.md",
     "Languages&Compilation/Formal_languages.md",
     "Languages&Compilation/Halting_problem.md",
     "Languages&Compilation/Untitled.md",
@@ -513,7 +514,6 @@
     "DataStructures/BinaryHeaps.md",
     "DataStructures/Abstract_data_types.md",
     "DistributedSystems/Two_general_problem.md",
-    "DistributedSystems/Remote_invocation.md",
     "XX-Attachments/Images/Pasted image 20240221163241.png",
     "XX-Attachments/Images/Pasted image 20240215143252.png",
     "XX-Attachments/Images/Pasted image 20240215143217.png",
