@@ -126,7 +126,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/Pushdown_recogniser.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -501,6 +501,8 @@
   },
   "active": "0174d13d6090ee76",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240222170153.png",
+    "XX-Attachments/Images/Pasted image 20240222165447.png",
     "Languages&Compilation/Context_free_grammars.md",
     "Languages&Compilation/Formal_languages.md",
     "Languages&Compilation/Pushdown_recogniser.md",
@@ -536,7 +538,6 @@
     "XX-Attachments/Images/Pasted image 20240215124252.png",
     "XX-Attachments/Images/Pasted image 20240215122926.png",
     "Statistics",
-    "XX-Attachments/Images/Pasted image 20240213163706.png",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
