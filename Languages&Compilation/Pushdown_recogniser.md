@@ -29,9 +29,10 @@ ___
 
 - The $\epsilon$ symbol can be used to ignore the read operation / not move pointer eg $\epsilon$/b/c
 
-## Deterministic pushdown register 
-- No formula 
-## Constructing a pushdown register 
+## Deterministic pushdown recogniser
+- No formula exists for crafting a deterministic PDR due to the variance in strings that can be built from a non-deterministic PDR. 
+- Example deterministic PDR for the grammar ${\{ \}}$
+## Constructing a pushdown recogniser
 1. Create 3 states (start state, intermediate state, halt state)
 
 ![[Pasted image 20240212154535.png|400|400]]
