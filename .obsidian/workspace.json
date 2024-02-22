@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Formal_languages.md",
+                "file": "Languages&Compilation/Lexical_analyser.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -383,7 +383,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Formal_languages.md"
+                "file": "Languages&Compilation/Lexical_analyser.md"
               }
             }
           }
@@ -418,7 +418,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Formal_languages.md",
+                "file": "Languages&Compilation/Lexical_analyser.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -435,7 +435,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Formal_languages.md",
+                "file": "Languages&Compilation/Lexical_analyser.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -501,8 +501,9 @@
   },
   "active": "b2414a9f5d006cd5",
   "lastOpenFiles": [
-    "Languages&Compilation/Language_ambiguity.md",
+    "Languages&Compilation/Halting_problem.md",
     "Languages&Compilation/Formal_languages.md",
+    "Languages&Compilation/Language_ambiguity.md",
     "XX-Attachments/Images/Pasted image 20240222171836.png",
     "Languages&Compilation/Pushdown_recogniser.md",
     "XX-Attachments/Images/Pasted image 20240222170153.png",
@@ -518,7 +519,6 @@
     "Languages&Compilation/Subset_construction_algorithm.md",
     "Languages&Compilation/Language_translator.md",
     "Languages&Compilation/Turing_thesis.md",
-    "Languages&Compilation/Halting_problem.md",
     "Languages&Compilation/Compilers.md",
     "Databases/Database_normalisation.md",
     "Databases/Database_relations.md",
