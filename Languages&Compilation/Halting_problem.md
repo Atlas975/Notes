@@ -11,4 +11,5 @@
 
 ___
 # Halting problem
-- A problem that defines how it's impossible to write a program that can detect 
+- A decision problem that defines the impossibility of a universal algorithm that can correctly determine if a program will halt or run indefinitely regardless of input
+- This is a computational limit 

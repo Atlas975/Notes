@@ -47,6 +47,19 @@
             }
           },
           {
+            "id": "e06269cc156d4f68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Halting_problem.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "197bdc1b54dce2e4",
             "type": "leaf",
             "state": {
@@ -289,7 +302,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -357,7 +370,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "Languages&Compilation/Halting_problem.md"
               }
             }
           }
@@ -392,7 +405,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Languages&Compilation/Halting_problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -409,7 +422,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Languages&Compilation/Halting_problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -473,8 +486,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "aa375c6d7404311a",
+  "active": "e06269cc156d4f68",
   "lastOpenFiles": [
+    "Languages&Compilation/Untitled.md",
+    "Languages&Compilation/Compilers.md",
+    "Databases/Database_normalisation.md",
     "Databases/Database_relations.md",
     "Databases/Database_keys.md",
     "Databases/Database_indexing.md",
@@ -499,9 +515,6 @@
     "XX-Attachments/Images/Pasted image 20240221163241.png",
     "Languages&Compilation/Language_translator.md",
     "Languages&Compilation/Formal_languages.md",
-    "Languages&Compilation/Context_free_grammars.md",
-    "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
-    "Statistics/Event_independence.md",
     "XX-Attachments/Images/Pasted image 20240215143252.png",
     "XX-Attachments/Images/Pasted image 20240215143217.png",
     "XX-Attachments/Images/Pasted image 20240215124252.png",
