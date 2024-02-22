@@ -28,6 +28,9 @@ ___
 ![[Pasted image 20240212153924.png|400|400]]
 
 - The $\epsilon$ symbol can be used to ignore the read operation / not move pointer eg $\epsilon$/b/c
+
+## Deterministic pushdown register 
+- No formula 
 ## Constructing a pushdown register 
 1. Create 3 states (start state, intermediate state, halt state)
 
@@ -48,3 +51,13 @@ ___
 5. For each terminal (t) in the grammar an arc from state 2 to 2 is created as t/t/$\epsilon$. This is used to represent the pop operation without pushing to the stack 
 
 ![[Pasted image 20240212155338.png|400|400]]
+
+### Example PDA construction 
+- PDR for a non-regular language:
+
+![[Pasted image 20240222162905.png|350|350]]
+
+- Example parsing for the string 'aaabbb'
+
+![[Pasted image 20240222163545.png|350|350]]
+![[Pasted image 20240222163602.png|350|350]]

@@ -56,6 +56,8 @@ $$\text{NON-TERMINAL}\to \text{terminal}$$
 - Halt / final state represented as a square 
 
 ![[Pasted image 20240131175808.png|250|250]]
+
+### Regular grammar example diagrams 
 - Example diagram of a [[Finite_state_machines|FSM]] (called finite there are a finite number of states): 
 
 ![[Pasted image 20240131175900.png|350|350]]
@@ -64,6 +66,6 @@ $$\text{NON-TERMINAL}\to \text{terminal}$$
 
 ![[Pasted image 20240131180704.png|350|350]]
 
-- Adjacency matrix representation
+### Regular grammar adjacency matrix 
 
 ![[Pasted image 20240131180802.png|400|400]]
