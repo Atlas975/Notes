@@ -17,6 +17,7 @@ ___
 
 ![[Pasted image 20240209163021.png|350|350]]
 - A PDR effectively does a derivation on the stack beginning with the start symbol S, a string is only valid if halt (H) can be reached with no input string left
+- These are needed as a FSR cannot be designed to be equivalent to a [[Context_free_grammars|context free language]]
 ## Pushdown recogniser syntax
 - Pushing $\epsilon$ does nothing, PUSH(abc) is the the same as PUSH(c), PUSH(b), PUSH(a)
 - The following format can be used to check what is pushed on the arc of the recogniser:

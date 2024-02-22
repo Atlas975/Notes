@@ -52,8 +52,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Halting_problem.md",
-                "mode": "source",
+                "file": "Languages&Compilation/Pushdown_recogniser.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -370,7 +370,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Halting_problem.md"
+                "file": "Languages&Compilation/Pushdown_recogniser.md"
               }
             }
           }
@@ -405,7 +405,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Halting_problem.md",
+                "file": "Languages&Compilation/Pushdown_recogniser.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -422,7 +422,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Halting_problem.md",
+                "file": "Languages&Compilation/Pushdown_recogniser.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -488,6 +488,15 @@
   },
   "active": "e06269cc156d4f68",
   "lastOpenFiles": [
+    "Languages&Compilation/Subset_construction_algorithm.md",
+    "Languages&Compilation/Language_translator.md",
+    "Languages&Compilation/Pushdown_recogniser.md",
+    "Languages&Compilation/Turing_thesis.md",
+    "Languages&Compilation/Regular_grammar.md",
+    "Languages&Compilation/Regular_expression_FSM.md",
+    "Languages&Compilation/Lexical_analyser.md",
+    "Languages&Compilation/Formal_languages.md",
+    "Languages&Compilation/Halting_problem.md",
     "Languages&Compilation/Untitled.md",
     "Languages&Compilation/Compilers.md",
     "Databases/Database_normalisation.md",
@@ -505,16 +514,7 @@
     "DataStructures/Abstract_data_types.md",
     "DistributedSystems/Two_general_problem.md",
     "DistributedSystems/Remote_invocation.md",
-    "DistributedSystems/Time_keeping.md",
-    "DistributedSystems/Distributed_systems.md",
-    "DistributedSystems/Distributed_system_security.md",
-    "DistributedSystems/Byzantine_generals_problem.md",
-    "Languages&Compilation/Pushdown_recogniser.md",
-    "Languages&Compilation/Regular_expression_FSM.md",
-    "Languages&Compilation/Lexical_analyser.md",
     "XX-Attachments/Images/Pasted image 20240221163241.png",
-    "Languages&Compilation/Language_translator.md",
-    "Languages&Compilation/Formal_languages.md",
     "XX-Attachments/Images/Pasted image 20240215143252.png",
     "XX-Attachments/Images/Pasted image 20240215143217.png",
     "XX-Attachments/Images/Pasted image 20240215124252.png",
