@@ -129,3 +129,12 @@ The dalek hates the doctor
 - Alternatives for same non-terminal written with | (or)
 
 ![[Pasted image 20240126195042.png|350|350]]
+
+- Example. parse tree for a - b \* c (ambiguous grammar)
+
+![[Pasted image 20240222171836.png|300|300]]
+
+
+## Language ambiguity
+- Languages always have meaning **(Semantics)** and structure **(Syntax)** but they can still be highly ambiguous (have 1+ meanings) eg "fruit flies like a banana"
+- A common example of this are arithmetic expressions where operator precedence matters

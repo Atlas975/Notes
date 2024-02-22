@@ -315,7 +315,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -383,7 +383,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md"
+                "file": "Languages&Compilation/Formal_languages.md"
               }
             }
           }
@@ -418,7 +418,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md",
+                "file": "Languages&Compilation/Formal_languages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -435,7 +435,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md",
+                "file": "Languages&Compilation/Formal_languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -499,13 +499,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0174d13d6090ee76",
+  "active": "b2414a9f5d006cd5",
   "lastOpenFiles": [
+    "Languages&Compilation/Language_ambiguity.md",
+    "Languages&Compilation/Formal_languages.md",
+    "XX-Attachments/Images/Pasted image 20240222171836.png",
+    "Languages&Compilation/Pushdown_recogniser.md",
     "XX-Attachments/Images/Pasted image 20240222170153.png",
     "XX-Attachments/Images/Pasted image 20240222165447.png",
     "Languages&Compilation/Context_free_grammars.md",
-    "Languages&Compilation/Formal_languages.md",
-    "Languages&Compilation/Pushdown_recogniser.md",
     "XX-Attachments/Images/Pasted image 20240222163602.png",
     "XX-Attachments/Images/Pasted image 20240222163545.png",
     "XX-Attachments/Images/Pasted image 20240222162905.png",
@@ -517,7 +519,6 @@
     "Languages&Compilation/Language_translator.md",
     "Languages&Compilation/Turing_thesis.md",
     "Languages&Compilation/Halting_problem.md",
-    "Languages&Compilation/Untitled.md",
     "Languages&Compilation/Compilers.md",
     "Databases/Database_normalisation.md",
     "Databases/Database_relations.md",
@@ -535,8 +536,6 @@
     "XX-Attachments/Images/Pasted image 20240221163241.png",
     "XX-Attachments/Images/Pasted image 20240215143252.png",
     "XX-Attachments/Images/Pasted image 20240215143217.png",
-    "XX-Attachments/Images/Pasted image 20240215124252.png",
-    "XX-Attachments/Images/Pasted image 20240215122926.png",
     "Statistics",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
