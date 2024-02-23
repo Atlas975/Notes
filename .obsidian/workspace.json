@@ -315,7 +315,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -383,7 +383,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Regular_expression_FSM.md"
+                "file": "Languages&Compilation/Context_free_grammars.md"
               }
             }
           }
@@ -418,7 +418,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Regular_expression_FSM.md",
+                "file": "Languages&Compilation/Context_free_grammars.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -435,7 +435,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Regular_expression_FSM.md",
+                "file": "Languages&Compilation/Context_free_grammars.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -499,12 +499,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "61b6b073dac95afd",
+  "active": "642724326a42e8a1",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240223164936.png",
+    "XX-Attachments/Images/Pasted image 20240223164920.png",
+    "Languages&Compilation/Regular_expression_FSM.md",
     "Languages&Compilation/Pushdown_recogniser.md",
     "Languages&Compilation/Regular_grammar.md",
     "Languages&Compilation/Subset_construction_algorithm.md",
-    "Languages&Compilation/Regular_expression_FSM.md",
     "Languages&Compilation/Lexical_analyser.md",
     "Languages&Compilation/Halting_problem.md",
     "Languages&Compilation/Context_free_grammars.md",
@@ -535,7 +537,6 @@
     "DataStructures/BinaryHeaps.md",
     "DataStructures/Abstract_data_types.md",
     "XX-Attachments/Images/Pasted image 20240221163241.png",
-    "XX-Attachments/Images/Pasted image 20240215143252.png",
     "Statistics",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
