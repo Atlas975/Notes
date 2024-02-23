@@ -25,6 +25,11 @@ $$RHS =\text{any mix of terminals and NON-TERMINALS, can be empty}$$
 ![[Pasted image 20240202163902.png|400|400]]
 
 - Note how unlike [[Regular_grammar|regular grammars]] a context-free grammar must have both a terminal and non-terminal if it is not empty. Having only one of these will not suffice  
-- This also allows for counting to take place:
 
 ![[Pasted image 20240202164541.png|450|450]]
+
+- Note how this also allows counting to take place 
+## Context free derivation tree 
+- Derivation trees for long context free grammars require repeating a NON TERMINAL (in this case X):
+
+![[Pasted image 20240223140242.png|350|350]]
