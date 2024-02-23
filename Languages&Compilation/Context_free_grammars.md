@@ -30,6 +30,9 @@ $$RHS =\text{any mix of terminals and NON-TERMINALS, can be empty}$$
 
 - Note how this also allows counting to take place 
 ## Context free derivation tree 
-- Derivation trees for long context free grammars require repeating a NON TERMINAL (in this case X):
+
+
+
+- Derivation trees for long context free grammars require repeating a NON TERMINAL (X here):
 
 ![[Pasted image 20240223140242.png|350|350]]

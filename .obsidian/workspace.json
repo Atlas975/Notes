@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Context_free_grammars.md",
+                "file": "Languages&Compilation/Regular_grammar.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -383,7 +383,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Context_free_grammars.md"
+                "file": "Languages&Compilation/Regular_grammar.md"
               }
             }
           }
@@ -418,7 +418,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Context_free_grammars.md",
+                "file": "Languages&Compilation/Regular_grammar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -435,7 +435,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Context_free_grammars.md",
+                "file": "Languages&Compilation/Regular_grammar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -501,15 +501,16 @@
   },
   "active": "b2414a9f5d006cd5",
   "lastOpenFiles": [
-    "XX-Attachments/Images/Pasted image 20240223140242.png",
-    "Languages&Compilation/Regular_grammar.md",
-    "Languages&Compilation/Pushdown_recogniser.md",
     "Languages&Compilation/Regular_expression_FSM.md",
-    "Languages&Compilation/Context_free_grammars.md",
-    "Languages&Compilation/Compilers.md",
-    "Languages&Compilation/Language_translator.md",
     "Languages&Compilation/Lexical_analyser.md",
     "Languages&Compilation/Halting_problem.md",
+    "Languages&Compilation/Subset_construction_algorithm.md",
+    "Languages&Compilation/Regular_grammar.md",
+    "Languages&Compilation/Context_free_grammars.md",
+    "XX-Attachments/Images/Pasted image 20240223140242.png",
+    "Languages&Compilation/Pushdown_recogniser.md",
+    "Languages&Compilation/Compilers.md",
+    "Languages&Compilation/Language_translator.md",
     "Languages&Compilation/Formal_languages.md",
     "Languages&Compilation/Language_ambiguity.md",
     "XX-Attachments/Images/Pasted image 20240222171836.png",
@@ -519,7 +520,6 @@
     "XX-Attachments/Images/Pasted image 20240222163545.png",
     "XX-Attachments/Images/Pasted image 20240222162905.png",
     "XX-Attachments/Images/Pasted image 20240222162851.png",
-    "Languages&Compilation/Subset_construction_algorithm.md",
     "Languages&Compilation/Turing_thesis.md",
     "Databases/Database_normalisation.md",
     "Databases/Database_relations.md",
@@ -536,7 +536,6 @@
     "DataStructures/Abstract_data_types.md",
     "XX-Attachments/Images/Pasted image 20240221163241.png",
     "XX-Attachments/Images/Pasted image 20240215143252.png",
-    "XX-Attachments/Images/Pasted image 20240215143217.png",
     "Statistics",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
