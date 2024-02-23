@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Regular_grammar.md",
+                "file": "Languages&Compilation/Subset_construction_algorithm.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -383,7 +383,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Regular_grammar.md"
+                "file": "Languages&Compilation/Subset_construction_algorithm.md"
               }
             }
           }
@@ -418,7 +418,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Regular_grammar.md",
+                "file": "Languages&Compilation/Subset_construction_algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -435,7 +435,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Regular_grammar.md",
+                "file": "Languages&Compilation/Subset_construction_algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -499,13 +499,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b2414a9f5d006cd5",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
+    "Languages&Compilation/Regular_grammar.md",
     "Languages&Compilation/Regular_expression_FSM.md",
     "Languages&Compilation/Lexical_analyser.md",
     "Languages&Compilation/Halting_problem.md",
     "Languages&Compilation/Subset_construction_algorithm.md",
-    "Languages&Compilation/Regular_grammar.md",
     "Languages&Compilation/Context_free_grammars.md",
     "XX-Attachments/Images/Pasted image 20240223140242.png",
     "Languages&Compilation/Pushdown_recogniser.md",
