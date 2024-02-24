@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/Turing_machine.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -246,6 +246,7 @@
   },
   "active": "e882b2607cfc930b",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240224194235.png",
     "XX-Attachments/Images/Pasted image 20240224193254.png",
     "XX-Attachments/Images/Pasted image 20240224192812.png",
     "XX-Attachments/Images/Pasted image 20240224192804.png",
@@ -276,7 +277,6 @@
     "XX-Attachments/Images/Pasted image 20240224184217.png",
     "XX-Attachments/Images/Pasted image 20240224184144.png",
     "XX-Attachments/Images/Pasted image 20240224184108.png",
-    "XX-Attachments/Images/Pasted image 20240224183638.png",
     "Languages&Compilation/Lexical_analyser.md",
     "Languages&Compilation/Compilers.md",
     "Languages&Compilation/Formal_languages.md",

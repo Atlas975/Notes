@@ -22,7 +22,7 @@ ___
 ![[Pasted image 20240224192537.png|400|400]]
 
 ## Turing machine instructions
-- Behaviour can be specified similar to that of an FSM
+- Behaviour can be specified similar to that of an FSM, the machine remembers what to write by being in one state rather than another.
 - An arc is labeled with:
     - Symbol read 
     - Symbol written
@@ -34,8 +34,14 @@ ___
 - In this case a/bL means read a, write b and move left 
 - 0/1R means read, write 1 and move right 
 - These arcs can be repeated as many times as needed
-- Example of a more complex and complete TM
+
+### Turing machine instruction examples 
+- Example of a more complex and complete TM:
+- This machine writes the left most 0 as 1 and returns to start, if no leftmost 0 exists it goes right until it reaches B where it then returns to start as well
 
 ![[Pasted image 20240224193254.png|400|400]]
 
-- This machine writes the left most 0 as 1 and returns to start, if no leftmost 0 exists it goes right until it reaches B where it then returns to start as well
+- Recogniser TM for $\{ a^ib^ic^{j}\text{ : }i\geq{1} \}$:
+- Writes T for true if successful and halts
+
+![[Pasted image 20240224194235.png|450|450]]
