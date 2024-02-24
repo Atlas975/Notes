@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/Turing_machine.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -246,6 +246,11 @@
   },
   "active": "e882b2607cfc930b",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240224193254.png",
+    "XX-Attachments/Images/Pasted image 20240224192812.png",
+    "XX-Attachments/Images/Pasted image 20240224192804.png",
+    "XX-Attachments/Images/Pasted image 20240224192537.png",
+    "XX-Attachments/Images/Pasted image 20240224192523.png",
     "Languages&Compilation/Unrestricted_grammars.md",
     "Languages&Compilation/Turing_machine.md",
     "Languages&Compilation/Context_sensitive_grammars.md",
@@ -272,16 +277,11 @@
     "XX-Attachments/Images/Pasted image 20240224184144.png",
     "XX-Attachments/Images/Pasted image 20240224184108.png",
     "XX-Attachments/Images/Pasted image 20240224183638.png",
-    "XX-Attachments/Images/Pasted image 20240224182441.png",
-    "XX-Attachments/Images/Pasted image 20240224182433.png",
-    "XX-Attachments/Images/Pasted image 20240223164936.png",
-    "XX-Attachments/Images/Pasted image 20240223164920.png",
     "Languages&Compilation/Lexical_analyser.md",
     "Languages&Compilation/Compilers.md",
     "Languages&Compilation/Formal_languages.md",
     "Languages&Compilation/Language_ambiguity.md",
     "Databases/Database_relations.md",
-    "Databases/Database_keys.md",
     "Statistics",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
