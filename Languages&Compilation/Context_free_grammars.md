@@ -39,7 +39,9 @@ $$RHS =\text{any mix of terminals and NON-TERMINALS, can be empty}$$
 ![[Pasted image 20240223164936.png|200|200]]
 ![[Pasted image 20240224182441.png|200|200]]
 
-- This allows for any string to be constructed as [[Regular_grammar#Repeat state theorem - "vwx"|vwx form]], if v and w are empty these appear as being raised to the power 0. This applies to all infinite context free languages 
-- This is better represented as **uvwxy** for context free languages:
+- This allows for any string to be constructed as [[Regular_grammar#Repeat state theorem - "vwx"|vwx form]], This is  **uvwxy** form for CF languages:
     - **u, y**: accepted before and after repeated state (may be empty)
     - **v, x**: repeated strings (non empty)
+    - **w**: string accepted between v and x (non empty)
+
+![[Pasted image 20240224183638.png|350|300]]![[Pasted image 20240224184217.png|350|350]]

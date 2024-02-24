@@ -126,7 +126,33 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/Context_free_grammars.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c8b419379b9a124a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Context_free_grammars.md",
                 "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7ac4e08e0cb9c655",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Context_sensitive_grammars.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -514,8 +540,13 @@
   },
   "active": "6655e066f33b4482",
   "lastOpenFiles": [
-    "Languages&Compilation/Regular_grammar.md",
+    "Languages&Compilation/Context_sensitive_grammars.md",
     "Languages&Compilation/Context_free_grammars.md",
+    "XX-Attachments/Images/Pasted image 20240224184217.png",
+    "XX-Attachments/Images/Pasted image 20240224184144.png",
+    "XX-Attachments/Images/Pasted image 20240224184108.png",
+    "XX-Attachments/Images/Pasted image 20240224183638.png",
+    "Languages&Compilation/Regular_grammar.md",
     "XX-Attachments/Images/Pasted image 20240224182441.png",
     "XX-Attachments/Images/Pasted image 20240224182433.png",
     "XX-Attachments/Images/Pasted image 20240223164936.png",
@@ -531,10 +562,6 @@
     "Languages&Compilation/Formal_languages.md",
     "Languages&Compilation/Language_ambiguity.md",
     "XX-Attachments/Images/Pasted image 20240222171836.png",
-    "XX-Attachments/Images/Pasted image 20240222170153.png",
-    "XX-Attachments/Images/Pasted image 20240222165447.png",
-    "XX-Attachments/Images/Pasted image 20240222163602.png",
-    "XX-Attachments/Images/Pasted image 20240222163545.png",
     "Languages&Compilation/Turing_thesis.md",
     "Databases/Database_normalisation.md",
     "Databases/Database_relations.md",
