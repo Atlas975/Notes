@@ -4,149 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "24933d35c906123b",
+        "id": "476b1548c06453d6",
         "type": "tabs",
         "children": [
           {
-            "id": "85b82cf3308e82d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b2414a9f5d006cd5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Regular_expression_FSM.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aa375c6d7404311a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Database_normalisation.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e06269cc156d4f68",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Formal_languages.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "197bdc1b54dce2e4",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "6b0197230646b5df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Regular_grammar.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ead0cbea1a0be8f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Regular_grammar.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1f6730a67b5b39a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ContinuousMath/Catalan_numbers.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "642724326a42e8a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Regular_grammar.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6655e066f33b4482",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Context_free_grammars.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c8b419379b9a124a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Context_free_grammars.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7ac4e08e0cb9c655",
+            "id": "1f83ce08db3c14f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -157,204 +19,27 @@
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "73effc225a13218f",
+        "type": "tabs",
+        "children": [
           {
-            "id": "0174d13d6090ee76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "89fb4722ce42c7d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b6f9b56f7a389486",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/x86_assembly.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "472499cf3c1872a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/Regex.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a9e04082219687d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Regular_grammar.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e8f3d119be5bf18d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/Union_find.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "55fcab2231036994",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Regular_grammar.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3570aaf85fd37376",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Language_translator.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ba0f32abd472493b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Halting_problem.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "639d6c3c4d20879c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/Bayes_theorem.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "000b33a5d55fdb80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Regular_grammar.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1a05bac4a960d0e8",
+            "id": "fa6b21f3ce8cdd30",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/Subset_construction_algorithm.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2dcd663bd1f1697c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Regular_expression_FSM.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
-          },
-          {
-            "id": "8cda036f9973fdc5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5cdeaa936a23ba3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/Bessels_correction.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "vertical"
@@ -422,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Context_free_grammars.md"
+                "file": "Languages&Compilation/Subset_construction_algorithm.md"
               }
             }
           }
@@ -457,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Context_free_grammars.md",
+                "file": "Languages&Compilation/Subset_construction_algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -474,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Context_free_grammars.md",
+                "file": "Languages&Compilation/Subset_construction_algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -538,44 +223,44 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6655e066f33b4482",
+  "active": "fa6b21f3ce8cdd30",
   "lastOpenFiles": [
+    "Languages&Compilation/Turing_thesis.md",
+    "Languages&Compilation/Unrestricted_grammars.md",
     "Languages&Compilation/Context_sensitive_grammars.md",
     "Languages&Compilation/Context_free_grammars.md",
+    "Statistics/Bessels_correction.md",
+    "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
+    "Languages&Compilation/Regular_expression_FSM.md",
+    "Languages&Compilation/Subset_construction_algorithm.md",
+    "Languages&Compilation/Regular_grammar.md",
+    "Statistics/Bayes_theorem.md",
+    "Languages&Compilation/Halting_problem.md",
+    "Languages&Compilation/Language_translator.md",
+    "Algorithms/Union_find.md",
+    "ProgramLanguages/Regex.md",
+    "ProgramLanguages/x86_assembly.md",
+    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+    "Languages&Compilation/Pushdown_recogniser.md",
+    "ContinuousMath/Catalan_numbers.md",
+    "Databases/Database_normalisation.md",
+    "XX-Attachments/Images/Pasted image 20240224185021.png",
     "XX-Attachments/Images/Pasted image 20240224184217.png",
     "XX-Attachments/Images/Pasted image 20240224184144.png",
     "XX-Attachments/Images/Pasted image 20240224184108.png",
     "XX-Attachments/Images/Pasted image 20240224183638.png",
-    "Languages&Compilation/Regular_grammar.md",
     "XX-Attachments/Images/Pasted image 20240224182441.png",
     "XX-Attachments/Images/Pasted image 20240224182433.png",
     "XX-Attachments/Images/Pasted image 20240223164936.png",
     "XX-Attachments/Images/Pasted image 20240223164920.png",
-    "Languages&Compilation/Regular_expression_FSM.md",
-    "Languages&Compilation/Pushdown_recogniser.md",
-    "Languages&Compilation/Subset_construction_algorithm.md",
     "Languages&Compilation/Lexical_analyser.md",
-    "Languages&Compilation/Halting_problem.md",
     "XX-Attachments/Images/Pasted image 20240223140242.png",
     "Languages&Compilation/Compilers.md",
-    "Languages&Compilation/Language_translator.md",
     "Languages&Compilation/Formal_languages.md",
     "Languages&Compilation/Language_ambiguity.md",
-    "XX-Attachments/Images/Pasted image 20240222171836.png",
-    "Languages&Compilation/Turing_thesis.md",
-    "Databases/Database_normalisation.md",
     "Databases/Database_relations.md",
     "Databases/Database_keys.md",
     "Databases/Database_indexing.md",
-    "Databases/Relational_algebra.md",
-    "Databases/Query_optimisation.md",
-    "Databases/Join_handling.md",
-    "Databases/Database_storage.md",
-    "Databases/Database_systems.md",
-    "Databases/Database_concurrency.md",
-    "Databases/Database_design.md",
-    "DataStructures/BinaryHeaps.md",
-    "DataStructures/Abstract_data_types.md",
     "Statistics",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
