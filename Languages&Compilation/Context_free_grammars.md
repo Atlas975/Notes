@@ -24,7 +24,7 @@ $$RHS =\text{any mix of terminals and NON-TERMINALS, can be empty}$$
 
 ![[Pasted image 20240202163902.png|400|400]]
 
-- Note how unlike [[Regular_grammar|regular grammars]] a context-free grammar must have both a terminal and non-terminal if it is not empty. Having only one of these will not suffice  
+- Note how unlike [[Regular_grammars|regular grammars]] a context-free grammar must have both a terminal and non-terminal if it is not empty. Having only one of these will not suffice  
 
 ![[Pasted image 20240202164541.png|450|450]]
 
@@ -39,7 +39,7 @@ $$RHS =\text{any mix of terminals and NON-TERMINALS, can be empty}$$
 ![[Pasted image 20240223164936.png|200|200]]
 ![[Pasted image 20240224182441.png|200|200]]
 
-- This allows for any string to be constructed as [[Regular_grammar#Repeat state theorem - "vwx"|vwx form]], This is  **uvwxy** form for CF languages:
+- This allows for any string to be constructed as [[Regular_grammars#Repeat state theorem - "vwx"|vwx form]], This is  **uvwxy** form for CF languages:
     - **u, y**: accepted before and after repeated state (may be empty)
     - **v, x**: repeated strings (non empty)
     - **w**: string accepted between v and x (non empty)

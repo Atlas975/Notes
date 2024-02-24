@@ -11,7 +11,7 @@
 
 ___
 # Subset construction algorithm
-- An algorithm for turning a non-deterministic [[Regular_grammar|FSR]] into a deterministic FSR
+- An algorithm for turning a non-deterministic [[Regular_grammars|FSR]] into a deterministic FSR
 - The states in machine M' correspond to the set of states in M, note both of these are equivalent
 
 

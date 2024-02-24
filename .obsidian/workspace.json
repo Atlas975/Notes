@@ -13,33 +13,54 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Languages&Compilation/Unrestricted_grammars.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e882b2607cfc930b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Turing_machine.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7656bb00262a7cef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Languages&Compilation/Context_sensitive_grammars.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "73effc225a13218f",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "fa6b21f3ce8cdd30",
+            "id": "0d791ed2566180af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Subset_construction_algorithm.md",
-                "mode": "source",
+                "file": "Languages&Compilation/Unrestricted_grammars.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Subset_construction_algorithm.md"
+                "file": "Languages&Compilation/Turing_machine.md"
               }
             }
           }
@@ -142,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Subset_construction_algorithm.md",
+                "file": "Languages&Compilation/Turing_machine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Subset_construction_algorithm.md",
+                "file": "Languages&Compilation/Turing_machine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,17 +244,19 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fa6b21f3ce8cdd30",
+  "active": "e882b2607cfc930b",
   "lastOpenFiles": [
-    "Languages&Compilation/Turing_thesis.md",
     "Languages&Compilation/Unrestricted_grammars.md",
+    "Languages&Compilation/Turing_machine.md",
     "Languages&Compilation/Context_sensitive_grammars.md",
+    "XX-Attachments/Images/Pasted image 20240224191701.png",
+    "Languages&Compilation/Subset_construction_algorithm.md",
+    "Languages&Compilation/Regular_grammars.md",
+    "Languages&Compilation/Turing_thesis.md",
     "Languages&Compilation/Context_free_grammars.md",
     "Statistics/Bessels_correction.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "Languages&Compilation/Regular_expression_FSM.md",
-    "Languages&Compilation/Subset_construction_algorithm.md",
-    "Languages&Compilation/Regular_grammar.md",
     "Statistics/Bayes_theorem.md",
     "Languages&Compilation/Halting_problem.md",
     "Languages&Compilation/Language_translator.md",
@@ -254,13 +277,11 @@
     "XX-Attachments/Images/Pasted image 20240223164936.png",
     "XX-Attachments/Images/Pasted image 20240223164920.png",
     "Languages&Compilation/Lexical_analyser.md",
-    "XX-Attachments/Images/Pasted image 20240223140242.png",
     "Languages&Compilation/Compilers.md",
     "Languages&Compilation/Formal_languages.md",
     "Languages&Compilation/Language_ambiguity.md",
     "Databases/Database_relations.md",
     "Databases/Database_keys.md",
-    "Databases/Database_indexing.md",
     "Statistics",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",

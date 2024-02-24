@@ -15,7 +15,7 @@ aliases:
 > ```
 
 ___
-# Regular grammar
+# Regular grammars
 - Generates regular languages, non-terminals can be considered as [[Finite_state_machines|states]]
 - If a FSR can accept an infinite length string it must contain at least one loop
 - All productions are in one of the following formats (only non-terminals are capital)
