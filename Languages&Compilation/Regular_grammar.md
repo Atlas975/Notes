@@ -35,7 +35,7 @@ $$\text{NON-TERMINAL}\to \text{terminal}$$
 
 ## Repeat state theorem - "vwx"
 - A string that is accepted can be expressed as 3 concatenated sub strings (vwx)
-	- V: string accepted before repeat stats)s
+	- V: string accepted before repeat state(s)
 	- W: the repeated string
 	- X: string accepted after repeat state(s) 
 - Note that while v and x may be empty, w is always non-empty

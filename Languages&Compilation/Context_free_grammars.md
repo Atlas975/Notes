@@ -37,3 +37,9 @@ $$RHS =\text{any mix of terminals and NON-TERMINALS, can be empty}$$
 - A formal derivation of an CF grammar into substrings, each letter here represents generic terminals rather than members of a language:
 
 ![[Pasted image 20240223164936.png|200|200]]
+![[Pasted image 20240224182441.png|200|200]]
+
+- This allows for any string to be constructed as [[Regular_grammar#Repeat state theorem - "vwx"|vwx form]], if v and w are empty these appear as being raised to the power 0. This applies to all infinite context free languages 
+- This is better represented as **uvwxy** for context free languages:
+    - **u, y**: accepted before and after repeated state (may be empty)
+    - **v, x**: repeated strings (non empty)

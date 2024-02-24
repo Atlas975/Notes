@@ -112,6 +112,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Languages&Compilation/Regular_grammar.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6655e066f33b4482",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Languages&Compilation/Context_free_grammars.md",
                 "mode": "source",
                 "backlinks": false,
@@ -256,7 +269,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/Regular_grammar.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -315,7 +328,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -499,17 +512,19 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "642724326a42e8a1",
+  "active": "6655e066f33b4482",
   "lastOpenFiles": [
+    "Languages&Compilation/Regular_grammar.md",
+    "Languages&Compilation/Context_free_grammars.md",
+    "XX-Attachments/Images/Pasted image 20240224182441.png",
+    "XX-Attachments/Images/Pasted image 20240224182433.png",
     "XX-Attachments/Images/Pasted image 20240223164936.png",
     "XX-Attachments/Images/Pasted image 20240223164920.png",
     "Languages&Compilation/Regular_expression_FSM.md",
     "Languages&Compilation/Pushdown_recogniser.md",
-    "Languages&Compilation/Regular_grammar.md",
     "Languages&Compilation/Subset_construction_algorithm.md",
     "Languages&Compilation/Lexical_analyser.md",
     "Languages&Compilation/Halting_problem.md",
-    "Languages&Compilation/Context_free_grammars.md",
     "XX-Attachments/Images/Pasted image 20240223140242.png",
     "Languages&Compilation/Compilers.md",
     "Languages&Compilation/Language_translator.md",
@@ -520,8 +535,6 @@
     "XX-Attachments/Images/Pasted image 20240222165447.png",
     "XX-Attachments/Images/Pasted image 20240222163602.png",
     "XX-Attachments/Images/Pasted image 20240222163545.png",
-    "XX-Attachments/Images/Pasted image 20240222162905.png",
-    "XX-Attachments/Images/Pasted image 20240222162851.png",
     "Languages&Compilation/Turing_thesis.md",
     "Databases/Database_normalisation.md",
     "Databases/Database_relations.md",
@@ -536,7 +549,6 @@
     "Databases/Database_design.md",
     "DataStructures/BinaryHeaps.md",
     "DataStructures/Abstract_data_types.md",
-    "XX-Attachments/Images/Pasted image 20240221163241.png",
     "Statistics",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
