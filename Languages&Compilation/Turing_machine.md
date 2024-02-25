@@ -42,6 +42,10 @@ ___
 ![[Pasted image 20240224193254.png|400|400]]
 
 - Recogniser TM for $\{ a^ib^ic^{j}\text{ : }i\geq{1} \}$:
-- Writes T for true if successful and halts
+- Writes T for true if successful and halts, this is a linear bounded machine
 
 ![[Pasted image 20240224194235.png|450|450]]
+
+## Turing machine bounds 
+- TM's that only use the space taken by the input string are called **linear bounded Turing machine**. This can include a fixed number of extra squares. These are limited in what they can solve
+- Standard TM's do not have this memory limit, instead having access to an infinite tape
