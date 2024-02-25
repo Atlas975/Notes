@@ -48,4 +48,12 @@ ___
 
 ## Turing machine bounds 
 - TM's that only use the space taken by the input string are called **linear bounded Turing machine**. This can include a fixed number of extra squares. These are limited in what they can solve
+    - This bound is sufficient for any CF grammar ($|L|\leq{|R|}$) as derivation only grows
 - Standard TM's do not have this memory limit, instead having access to an infinite tape
+
+
+## Turing machine vs finite state register 
+
+- An FSR being less powerful than a TM, is effectively writing the same symbol it read each arc:
+
+![[Pasted image 20240225114002.png|350|350]]
