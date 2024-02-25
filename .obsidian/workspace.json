@@ -47,6 +47,19 @@
             }
           },
           {
+            "id": "b5fde73db352b012",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Chomsky_hierarchy.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7656bb00262a7cef",
             "type": "leaf",
             "state": {
@@ -73,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -141,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Turing_machine.md"
+                "file": "Languages&Compilation/Chomsky_hierarchy.md"
               }
             }
           }
@@ -176,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Turing_machine.md",
+                "file": "Languages&Compilation/Chomsky_hierarchy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Turing_machine.md",
+                "file": "Languages&Compilation/Chomsky_hierarchy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,11 +270,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d8406752e8cd4a89",
+  "active": "b5fde73db352b012",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240225163340.png",
+    "XX-Attachments/Images/Pasted image 20240225163241.png",
+    "Languages&Compilation/Turing_machine.md",
+    "Languages&Compilation/Chomsky_hierarchy.md",
     "XX-Attachments/Images/Pasted image 20240225114002.png",
     "Languages&Compilation/Context_free_grammars.md",
-    "Languages&Compilation/Turing_machine.md",
     "XX-Attachments/Images/Pasted image 20240224194235.png",
     "XX-Attachments/Images/Pasted image 20240224193254.png",
     "XX-Attachments/Images/Pasted image 20240224192812.png",
@@ -288,13 +304,10 @@
     "ContinuousMath/Catalan_numbers.md",
     "Databases/Database_normalisation.md",
     "XX-Attachments/Images/Pasted image 20240224185021.png",
-    "XX-Attachments/Images/Pasted image 20240224184217.png",
-    "XX-Attachments/Images/Pasted image 20240224184144.png",
     "Languages&Compilation/Lexical_analyser.md",
     "Languages&Compilation/Compilers.md",
     "Languages&Compilation/Formal_languages.md",
     "Languages&Compilation/Language_ambiguity.md",
-    "Databases/Database_relations.md",
     "Statistics",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
