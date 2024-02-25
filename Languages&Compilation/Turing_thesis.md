@@ -12,7 +12,7 @@
 ___
 # Turing thesis
 - There is no machine more powerful than a Turing machine, the limitations of a Turing machine are the minimum limitations of any computer
-- This doesn't compare the number of steps needed or how much storage is required. The Thesis only describes power in terms of  
+- This doesn't compare the number of steps needed or how much storage is required. The Thesis only describes power in terms of weather or not something can be computed 
 
 
 ## Turing completeness
@@ -20,5 +20,5 @@ ___
 	1. **Conditional Logic**: It must support operations like 'if-then-else'. This allows the system to make decisions based on conditions.
 	2. **Variables and State Manipulation**: The ability to store and manipulate data is crucial. This often involves variables and some form of memory.    
 	3. **Infinite Loops or Recursion**: The system should be able to perform operations indefinitely, subject to external constraints like physical memory limits.
-	4. **Input/Output Operations**: It should be able to interact with input data and produce output.
+	4. **[[Input&Output_systems|I/O]] Operations**: It should be able to interact with input data and produce output.
 - Two systems are Turing equivalent if they can simulate each other
