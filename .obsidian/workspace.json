@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Chomsky_hierarchy.md",
+                "file": "Languages&Compilation/Regular_grammars.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Chomsky_hierarchy.md"
+                "file": "Languages&Compilation/Regular_grammars.md"
               }
             }
           }
@@ -189,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Chomsky_hierarchy.md",
+                "file": "Languages&Compilation/Regular_grammars.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Chomsky_hierarchy.md",
+                "file": "Languages&Compilation/Regular_grammars.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,12 +270,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b5fde73db352b012",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
+    "Languages&Compilation/Unrestricted_grammars.md",
+    "Languages&Compilation/Chomsky_hierarchy.md",
     "XX-Attachments/Images/Pasted image 20240225163340.png",
     "XX-Attachments/Images/Pasted image 20240225163241.png",
     "Languages&Compilation/Turing_machine.md",
-    "Languages&Compilation/Chomsky_hierarchy.md",
     "XX-Attachments/Images/Pasted image 20240225114002.png",
     "Languages&Compilation/Context_free_grammars.md",
     "XX-Attachments/Images/Pasted image 20240224194235.png",
@@ -284,7 +285,6 @@
     "XX-Attachments/Images/Pasted image 20240224192804.png",
     "XX-Attachments/Images/Pasted image 20240224192537.png",
     "XX-Attachments/Images/Pasted image 20240224192523.png",
-    "Languages&Compilation/Unrestricted_grammars.md",
     "Languages&Compilation/Context_sensitive_grammars.md",
     "XX-Attachments/Images/Pasted image 20240224191701.png",
     "Languages&Compilation/Subset_construction_algorithm.md",
@@ -303,7 +303,6 @@
     "Languages&Compilation/Pushdown_recogniser.md",
     "ContinuousMath/Catalan_numbers.md",
     "Databases/Database_normalisation.md",
-    "XX-Attachments/Images/Pasted image 20240224185021.png",
     "Languages&Compilation/Lexical_analyser.md",
     "Languages&Compilation/Compilers.md",
     "Languages&Compilation/Formal_languages.md",
