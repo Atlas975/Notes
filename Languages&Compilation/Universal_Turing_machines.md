@@ -13,7 +13,11 @@ ___
 # Universal Turing machines
 - Runs any problem as a separate Turing machine as if it were a program, this avoids the need for creating a separate TM for each problem
 - This makes a UTM the counterpart of a computer but is of course much more powerful
-- Takes in a 
+- Takes in a coded version of a TM and its input string, producing the same output as a standard TM, the difference in process can be seen here:
+
+![[Pasted image 20240225192207.png|400|400]]
+
+
 
 • We can represent any Turing machine as a set of quintuples (groups of 5 things) 
 	1. Current state
