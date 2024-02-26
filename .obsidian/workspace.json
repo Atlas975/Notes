@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/Probability_basics.md",
+                "file": "Languages&Compilation/Language_translator.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/Probability_basics.md"
+                "file": "Languages&Compilation/Language_translator.md"
               }
             }
           }
@@ -202,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/Probability_basics.md",
+                "file": "Languages&Compilation/Language_translator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/Probability_basics.md",
+                "file": "Languages&Compilation/Language_translator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,8 +283,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ae54435670d3d3da",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
+    "Languages&Compilation/Regular_expression_FSM.md",
+    "Languages&Compilation/Turing_thesis.md",
+    "MachineLearning/0-GeneralConcepts/Probability_basics.md",
     "Languages&Compilation/Universal_Turing_machines.md",
     "XX-Attachments/Images/Pasted image 20240225192207.png",
     "Languages&Compilation/Halting_problem.md",
@@ -292,7 +295,6 @@
     "XX-Attachments/Images/Pasted image 20240225191532.png",
     "XX-Attachments/Images/Pasted image 20240225191352.png",
     "OperatingSystems/Input&Output_systems.md",
-    "Languages&Compilation/Turing_thesis.md",
     "Languages&Compilation/Turing_machine.md",
     "Languages&Compilation/Regular_grammars.md",
     "Languages&Compilation/Unrestricted_grammars.md",
@@ -308,7 +310,6 @@
     "Languages&Compilation/Subset_construction_algorithm.md",
     "Statistics/Bessels_correction.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
-    "Languages&Compilation/Regular_expression_FSM.md",
     "Statistics/Bayes_theorem.md",
     "Languages&Compilation/Language_translator.md",
     "Algorithms/Union_find.md",
