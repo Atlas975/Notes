@@ -73,6 +73,19 @@
             }
           },
           {
+            "id": "ae54435670d3d3da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/0-GeneralConcepts/Probability_basics.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0d791ed2566180af",
             "type": "leaf",
             "state": {
@@ -86,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -154,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Universal_Turing_machines.md"
+                "file": "MachineLearning/0-GeneralConcepts/Probability_basics.md"
               }
             }
           }
@@ -189,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Universal_Turing_machines.md",
+                "file": "MachineLearning/0-GeneralConcepts/Probability_basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Universal_Turing_machines.md",
+                "file": "MachineLearning/0-GeneralConcepts/Probability_basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,13 +283,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4c20a9f10a963629",
+  "active": "ae54435670d3d3da",
   "lastOpenFiles": [
+    "Languages&Compilation/Universal_Turing_machines.md",
     "XX-Attachments/Images/Pasted image 20240225192207.png",
     "Languages&Compilation/Halting_problem.md",
     "XX-Attachments/Images/Pasted image 20240225191623.png",
     "XX-Attachments/Images/Pasted image 20240225191532.png",
-    "Languages&Compilation/Universal_Turing_machines.md",
     "XX-Attachments/Images/Pasted image 20240225191352.png",
     "OperatingSystems/Input&Output_systems.md",
     "Languages&Compilation/Turing_thesis.md",
@@ -291,7 +304,6 @@
     "XX-Attachments/Images/Pasted image 20240224194235.png",
     "XX-Attachments/Images/Pasted image 20240224193254.png",
     "XX-Attachments/Images/Pasted image 20240224192812.png",
-    "XX-Attachments/Images/Pasted image 20240224192804.png",
     "Languages&Compilation/Context_sensitive_grammars.md",
     "Languages&Compilation/Subset_construction_algorithm.md",
     "Statistics/Bessels_correction.md",
