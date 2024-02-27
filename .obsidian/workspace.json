@@ -92,7 +92,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/Finite_state_transducer.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -312,6 +312,7 @@
   },
   "active": "69180187dd95a65e",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240227141758.png",
     "Languages&Compilation/Formal_languages.md",
     "Languages&Compilation/Finite_state_transducer.md",
     "Languages&Compilation/Turing_thesis.md",
@@ -347,7 +348,6 @@
     "Statistics/Bayes_theorem.md",
     "Algorithms/Union_find.md",
     "ProgramLanguages/Regex.md",
-    "ProgramLanguages/x86_assembly.md",
     "Statistics",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",

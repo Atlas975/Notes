@@ -26,3 +26,9 @@ $$a=\text{read}$$
 $$b=\text{write}$$
 
 - The addition of output allows for functions other than parsing to be performed 
+- Example of a simple FST, reads digits one by one and switches states appropriately:
+
+![[Pasted image 20240227141758.png|450|450]]
+
+- While FSTs are powerful, they do have limited memory, this makes operations such as the multiplication of two arbitrarily long numbers impossible as this grows with input size
+- FST's also process input linearly, one symbol at a time. State is determined by current state + input symb
