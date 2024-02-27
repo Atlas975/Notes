@@ -11,7 +11,7 @@
 
 ___
 # Universal Turing machines
-- Runs any problem as a separate Turing machine as if it were a program, this avoids the need for creating a separate TM for each problem
+- Runs problems as a separate [[Turing_machine|TM]] program, avoids the need for separate TMs for each problem
 - This makes a UTM the counterpart of a computer but is of course much more powerful
 - Takes in a coded version of a TM and its input string, producing the same output as a standard TM, the difference in process can be seen here:
 

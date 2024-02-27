@@ -36,3 +36,6 @@ $$b=\text{write}$$
 ## Finite state transducer limitations
 - While FSTs are powerful, they do have limited memory, this makes operations such as the multiplication of two arbitrarily long numbers impossible as this grows with input size
 - FST's also process input linearly, one symbol at a time. State is determined by current state + input symbol. Operations like multiplication are non-linear due to intermediate steps
+- This limitation can be overcome with a Turing machine:
+
+![[Pasted image 20240227144837.png|400|400]]

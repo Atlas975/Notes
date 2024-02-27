@@ -35,7 +35,9 @@ ___
 - In this case a/bL means read a, write b and move left 
 - 0/1R means read, write 1 and move right 
 - These arcs can be repeated as many times as needed
+- Additional abbreviation exist such as 
 
+$$X,YL \text{ means }X/XL,\text{ }Y/YL$$
 ### Turing machine instruction examples
 - Example of a more complex and complete TM:
 - This machine writes the left most 0 as 1 and returns to start, if no leftmost 0 exists it goes right until it reaches B where it then returns to start as well
