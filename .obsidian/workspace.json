@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md",
+                "file": "Languages&Compilation/Compilers.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md"
+                "file": "Languages&Compilation/Compilers.md"
               }
             }
           }
@@ -202,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md",
+                "file": "Languages&Compilation/Compilers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md",
+                "file": "Languages&Compilation/Compilers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -285,6 +285,9 @@
   },
   "active": "ae54435670d3d3da",
   "lastOpenFiles": [
+    "Languages&Compilation/Context_sensitive_grammars.md",
+    "Languages&Compilation/Regular_grammars.md",
+    "Languages&Compilation/Pushdown_recogniser.md",
     "Languages&Compilation/Turing_machine.md",
     "Languages&Compilation/Turing_thesis.md",
     "Languages&Compilation/Language_translator.md",
@@ -297,7 +300,6 @@
     "XX-Attachments/Images/Pasted image 20240225191532.png",
     "XX-Attachments/Images/Pasted image 20240225191352.png",
     "OperatingSystems/Input&Output_systems.md",
-    "Languages&Compilation/Regular_grammars.md",
     "Languages&Compilation/Unrestricted_grammars.md",
     "Languages&Compilation/Chomsky_hierarchy.md",
     "XX-Attachments/Images/Pasted image 20240225163340.png",
@@ -307,7 +309,6 @@
     "XX-Attachments/Images/Pasted image 20240224194235.png",
     "XX-Attachments/Images/Pasted image 20240224193254.png",
     "XX-Attachments/Images/Pasted image 20240224192812.png",
-    "Languages&Compilation/Context_sensitive_grammars.md",
     "Languages&Compilation/Subset_construction_algorithm.md",
     "Statistics/Bessels_correction.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
@@ -316,7 +317,6 @@
     "ProgramLanguages/Regex.md",
     "ProgramLanguages/x86_assembly.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-    "Languages&Compilation/Pushdown_recogniser.md",
     "ContinuousMath/Catalan_numbers.md",
     "Databases/Database_normalisation.md",
     "Languages&Compilation/Lexical_analyser.md",

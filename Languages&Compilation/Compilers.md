@@ -11,8 +11,8 @@
 
 ___
 # Compilers
-- Takes **source program** in a **source language** and translates it into a **target program** in a **target language** while also providing error message 
-- 
+- Takes **source program** in a **source language** and translates it into a **target program** in a **target language** while also providing error messages
+- Essentially a machine that determines if a program is valid based on its understanding of syntax. This also means a programming language specified by it's  grammar is computable
 
 ![[Pasted image 20240215122926.png|300|300]]
 
