@@ -19,14 +19,16 @@ ___
 
 
 
-• We can represent any Turing machine as a set of quintuples (groups of 5 things) 
-	1. Current state
-	2. Symbol being read 
-	3. Symbol to write 
-	4. Move (L or R) 
-	5. New State
+## Turing machine encoding 
+- We can represent any Turing machine as a set of 5 items (quintuple):
+    1. Current state 
+    2. Symbol being read 
+    3. Symbol to write 
+    4. Move (L/R)
+    5. New state 
+- Each arc becomes a quintuple:
 
-
+![[Pasted image 20240227150504.png|350|350]]
 
 ## Universal Turing machine process
 

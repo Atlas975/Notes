@@ -138,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Universal_Turing_machines.md"
+                "file": "Languages&Compilation/Turing_thesis.md"
               }
             }
           }
@@ -242,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Universal_Turing_machines.md",
+                "file": "Languages&Compilation/Turing_thesis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Universal_Turing_machines.md",
+                "file": "Languages&Compilation/Turing_thesis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -323,8 +323,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4c20a9f10a963629",
+  "active": "ae54435670d3d3da",
   "lastOpenFiles": [
+    "Languages&Compilation/Universal_Turing_machines.md",
+    "XX-Attachments/Images/Pasted image 20240227150504.png",
     "Languages&Compilation/Finite_state_transducer.md",
     "Languages&Compilation/Turing_machine.md",
     "XX-Attachments/Images/Pasted image 20240227144837.png",
@@ -346,7 +348,6 @@
     "Languages&Compilation/Subset_construction_algorithm.md",
     "SoftwareDesign/Finite_state_machines.md",
     "MachineLearning/0-GeneralConcepts/Probability_basics.md",
-    "Languages&Compilation/Universal_Turing_machines.md",
     "XX-Attachments/Images/Pasted image 20240225192207.png",
     "XX-Attachments/Images/Pasted image 20240225191623.png",
     "XX-Attachments/Images/Pasted image 20240225191532.png",
@@ -354,7 +355,6 @@
     "OperatingSystems/Input&Output_systems.md",
     "XX-Attachments/Images/Pasted image 20240225163340.png",
     "XX-Attachments/Images/Pasted image 20240225163241.png",
-    "XX-Attachments/Images/Pasted image 20240225114002.png",
     "Statistics/Bessels_correction.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "Statistics/Bayes_theorem.md",
