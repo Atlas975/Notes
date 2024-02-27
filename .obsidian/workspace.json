@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Language_translator.md",
+                "file": "Languages&Compilation/Pushdown_recogniser.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Language_translator.md"
+                "file": "Languages&Compilation/Pushdown_recogniser.md"
               }
             }
           }
@@ -202,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Language_translator.md",
+                "file": "Languages&Compilation/Pushdown_recogniser.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Language_translator.md",
+                "file": "Languages&Compilation/Pushdown_recogniser.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,10 +283,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "61b6b073dac95afd",
+  "active": "ae54435670d3d3da",
   "lastOpenFiles": [
-    "Languages&Compilation/Regular_expression_FSM.md",
+    "Languages&Compilation/Turing_machine.md",
     "Languages&Compilation/Turing_thesis.md",
+    "Languages&Compilation/Language_translator.md",
+    "Languages&Compilation/Regular_expression_FSM.md",
     "MachineLearning/0-GeneralConcepts/Probability_basics.md",
     "Languages&Compilation/Universal_Turing_machines.md",
     "XX-Attachments/Images/Pasted image 20240225192207.png",
@@ -295,7 +297,6 @@
     "XX-Attachments/Images/Pasted image 20240225191532.png",
     "XX-Attachments/Images/Pasted image 20240225191352.png",
     "OperatingSystems/Input&Output_systems.md",
-    "Languages&Compilation/Turing_machine.md",
     "Languages&Compilation/Regular_grammars.md",
     "Languages&Compilation/Unrestricted_grammars.md",
     "Languages&Compilation/Chomsky_hierarchy.md",
@@ -311,7 +312,6 @@
     "Statistics/Bessels_correction.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "Statistics/Bayes_theorem.md",
-    "Languages&Compilation/Language_translator.md",
     "Algorithms/Union_find.md",
     "ProgramLanguages/Regex.md",
     "ProgramLanguages/x86_assembly.md",
