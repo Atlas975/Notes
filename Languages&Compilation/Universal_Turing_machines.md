@@ -19,18 +19,23 @@ ___
 
 
 
-## Turing machine encoding 
+## Turing machine encoding
 - We can represent any Turing machine as a set of 5 items (quintuple):
-    1. Current state 
-    2. Symbol being read 
-    3. Symbol to write 
-    4. Move (L/R)
-    5. New state 
-- Each arc becomes a quintuple:
+	1. Current state 
+	2. Symbol being read 
+	3. Symbol to write 
+	4. Move (L/R)
+	5. New state 
+- Each arc becomes it's own quintuple:
 
 ![[Pasted image 20240227150504.png|350|350]]
 
-## Universal Turing machine process
+
+## Universal Turing machine tape
+- This needs to store the following:
+    1. The quintuples of the machine being simulated 
+    2. Start state of simulated machine 
+    3. 
 
 
 

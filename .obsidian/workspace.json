@@ -66,7 +66,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/Universal_Turing_machines.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -138,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Turing_thesis.md"
+                "file": "Languages&Compilation/Universal_Turing_machines.md"
               }
             }
           }
@@ -242,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Turing_thesis.md",
+                "file": "Languages&Compilation/Universal_Turing_machines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Turing_thesis.md",
+                "file": "Languages&Compilation/Universal_Turing_machines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -323,8 +323,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ae54435670d3d3da",
+  "active": "4c20a9f10a963629",
   "lastOpenFiles": [
+    "Languages&Compilation/Turing_thesis.md",
     "Languages&Compilation/Universal_Turing_machines.md",
     "XX-Attachments/Images/Pasted image 20240227150504.png",
     "Languages&Compilation/Finite_state_transducer.md",
@@ -333,7 +334,6 @@
     "XX-Attachments/Images/Pasted image 20240227144825.png",
     "XX-Attachments/Images/Pasted image 20240227141758.png",
     "Languages&Compilation/Formal_languages.md",
-    "Languages&Compilation/Turing_thesis.md",
     "Languages&Compilation/Unrestricted_grammars.md",
     "Languages&Compilation/Regular_expression_FSM.md",
     "Languages&Compilation/Context_sensitive_grammars.md",
