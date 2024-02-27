@@ -40,3 +40,7 @@ ___
 
 
 ![[Pasted image 20240225191352.png|450|450]]
+
+
+## Universal Turing machine process 
+- 
