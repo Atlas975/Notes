@@ -30,5 +30,9 @@ $$b=\text{write}$$
 
 ![[Pasted image 20240227141758.png|450|450]]
 
+- A computer is essentially a very large FST at a given moment in time, however instead of a separate output it can overwrite it's input for memory  
+- Computer are instead akin to a [[Turing_machine|Turing machine]] which is an FST equipped with a tape 
+
+## Finite state transducer limitations
 - While FSTs are powerful, they do have limited memory, this makes operations such as the multiplication of two arbitrarily long numbers impossible as this grows with input size
-- FST's also process input linearly, one symbol at a time. State is determined by current state + input symb
+- FST's also process input linearly, one symbol at a time. State is determined by current state + input symbol. Operations like multiplication are non-linear due to intermediate steps
