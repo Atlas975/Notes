@@ -16,8 +16,17 @@ ___
 
 ![[Pasted image 20240215122926.png|300|300]]
 
+## Programming languages
+- Early programs were coded in binary and controlled using switches, assembly essentially acts as a 1-to-1 mapping of machine instructions to a more human readable language (eg add, sub, mul)
+- **Assemblers** are much simpler programs than compilers, but do still act as a translator 
 
+![[Pasted image 20240228161609.png|350|350]]
 
+- Higher level languages are further away from the machine, becoming more abstract (eg objects)
+- As a result of this, the compilation also involves more steps such as [[Paging#Shared memory paging|linking]]
+
+![[Pasted image 20240228162012.png|300|300]]
+- The [[Language_translator#Linker-loader|loader]] is acts as the final step to creating a program suitable for
 ## Modular compilers 
 - Best to keep compilation components separate
 - 

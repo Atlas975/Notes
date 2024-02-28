@@ -117,7 +117,33 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Languages&Compilation/Language_translator.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e95c54375fff8fa7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Languages&Compilation/Compilers.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "42016505f1f0ea47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/Paging.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -190,7 +216,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -374,16 +400,19 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a21ef61ac1573889",
+  "active": "e95c54375fff8fa7",
   "lastOpenFiles": [
     "Languages&Compilation/Language_translator.md",
+    "Languages&Compilation/Compilers.md",
+    "XX-Attachments/Images/Pasted image 20240228162012.png",
+    "OperatingSystems/Paging.md",
+    "XX-Attachments/Images/Pasted image 20240228161609.png",
     "Languages&Compilation/Universal_Turing_machines.md",
     "Languages&Compilation/Turing_thesis.md",
     "Languages&Compilation/Regular_expression_FSM.md",
     "Languages&Compilation/Lexical_analyser.md",
     "Languages&Compilation/Formal_languages.md",
     "Languages&Compilation/Context_sensitive_grammars.md",
-    "Languages&Compilation/Compilers.md",
     "Languages&Compilation/Halting_problem.md",
     "XX-Attachments/Images/Pasted image 20240228145104.png",
     "Cybersecurity/Advanced_encryption_standard.md",
@@ -408,10 +437,7 @@
     "XX-Attachments/Images/Pasted image 20240225192207.png",
     "XX-Attachments/Images/Pasted image 20240225191623.png",
     "XX-Attachments/Images/Pasted image 20240225191532.png",
-    "XX-Attachments/Images/Pasted image 20240225191352.png",
     "OperatingSystems/Input&Output_systems.md",
-    "XX-Attachments/Images/Pasted image 20240225163340.png",
-    "Statistics/Bessels_correction.md",
     "Statistics",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
