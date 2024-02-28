@@ -11,8 +11,9 @@
 
 ___
 # Halting problem
-- A decision problem that defines the impossibility of a **universal** algorithm that can correctly determine if a program will halt or run indefinitely regardless of input
-- This is a computational limit as its impossible for a program to 
+- A decision problem that defines the impossibility of a **universal** algorithm that can correctly determine if a program will halt or run indefinitely regardless for any given input
+- This problem presents a computational limit for all computer 
+## Halting problem proof
+- This is done via a proof
 
-
-![[Pasted image 20240225191623.png|250|250]]
+![[Pasted image 20240228145104.png|250|250]]
