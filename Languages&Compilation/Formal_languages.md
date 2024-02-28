@@ -1,3 +1,7 @@
+---
+aliases:
+  - grammar
+---
 > [!important]- Metadata
 > **Tags:** #Languages 
 > **Located:** Languages&Compilation

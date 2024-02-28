@@ -26,7 +26,12 @@ ___
 - As a result of this, the compilation also involves more steps such as [[Paging#Shared memory paging|linking]]
 
 ![[Pasted image 20240228162012.png|300|300]]
-- The [[Language_translator#Linker-loader|loader]] is acts as the final step to creating a program suitable for
+- The [[Language_translator#Linker-loader|loader]] acts as the final step to creating a program executable, this may not always exist
+### Alternate compile situations 
+- Other methods than translation to machine code exist for compilation, such as:
+- **Interpretation**: the process of executing a program directly from its source or intermediate code
+- **Just in time (JIT)**: source code is compiled into intermediate code, which is then compiled into machine code at runtime 
+- **Transpiler**: translates source code written in one programming language into equivalent code in another language
 ## Modular compilers 
 - Best to keep compilation components separate
 - 
