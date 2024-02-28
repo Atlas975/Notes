@@ -35,8 +35,8 @@ ___
 - This needs to store the following:
     1. The quintuples of the machine being simulated 
     2. Start state of simulated machine 
-    3. 
-
+    3. Contents of non-blank part of data 
+    4. A mark on simulated tape to indicate r/w head location
 
 
 ![[Pasted image 20240225191352.png|450|450]]
