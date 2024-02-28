@@ -16,6 +16,22 @@ ___
 
 ![[Pasted image 20240215122926.png|300|300]]
 
+## Modular compilers
+- A general model for designing compilers is to keep distinct compilation phases modular (although some cross-communication may still be necessary) 
+- This was done as it was seen as a good idea to keep certain sub-components seperate
+
+![[Pasted image 20240215124252.png|300|300]]
+
+### Analysis section (front-end)
+- Generates some intermediate representation of the symbol table, may perform semantic analysis
+- This stage is what checks for syntax errors as well
+
+![[Pasted image 20240228164729.png|400|400]]
+
+### Synthesis section
+- Code generation phase, may include 1 or more optimisation phases 
+- This may be turned off to have more control over source code, these phases may also run in parallel for additional performance  
+
 ## Programming languages
 - Early programs were coded in binary and controlled using switches, assembly essentially acts as a 1-to-1 mapping of machine instructions to a more human readable language (eg add, sub, mul)
 - **Assemblers** are much simpler programs than compilers, but do still act as a translator 
@@ -27,19 +43,8 @@ ___
 
 ![[Pasted image 20240228162012.png|300|300]]
 - The [[Language_translator#Linker-loader|loader]] acts as the final step to creating a program executable, this may not always exist
-### Alternate compile situations 
+### Alternate compile situations
 - Other methods than translation to machine code exist for compilation, such as:
-- **Interpretation**: the process of executing a program directly from its source or intermediate code
+- **[[Interpreter|Interpretation]]**: the process of executing a program directly from its source or intermediate code
 - **Just in time (JIT)**: source code is compiled into intermediate code, which is then compiled into machine code at runtime 
 - **Transpiler**: translates source code written in one programming language into equivalent code in another language
-## Modular compilers 
-- Best to keep compilation components separate
-- 
-
-![[Pasted image 20240215124252.png|300|300]]
-
-### Analysis section 
-
-### Synthesis section 
-- Code generation phase, may include 1 or more optimisation phases 
-- This may be turned off to have more control over source code, these phases may also run in parallel for additional performance  

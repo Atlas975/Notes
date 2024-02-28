@@ -17,4 +17,4 @@ ___
 
 ![[Pasted image 20240228163509.png|350|350]]
 
-- The generation of byte code allows for code to be run on interpreters designed for a specific [[Computer_architecture|machine architecture]]
+- The generation of byte code allows for code to be run on interpreters designed for a specific [[Computer_architecture|machine architecture]], altering what's done on the metal level while keeping program logic 

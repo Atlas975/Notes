@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Compilers.md",
+                "file": "Languages&Compilation/Lexical_analyser.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -242,7 +242,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -310,7 +310,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Interpreter.md"
+                "file": "Languages&Compilation/Lexical_analyser.md"
               }
             }
           }
@@ -345,7 +345,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Interpreter.md",
+                "file": "Languages&Compilation/Lexical_analyser.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -362,7 +362,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Interpreter.md",
+                "file": "Languages&Compilation/Lexical_analyser.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -426,12 +426,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "62df11ffeea71905",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
+    "Languages&Compilation/Compilers.md",
+    "XX-Attachments/Images/Pasted image 20240228164729.png",
+    "Languages&Compilation/Interpreter.md",
     "XX-Attachments/Images/Pasted image 20240228163509.png",
     "Languages&Compilation/Formal_languages.md",
-    "Languages&Compilation/Interpreter.md",
-    "Languages&Compilation/Compilers.md",
     "Languages&Compilation/Language_translator.md",
     "XX-Attachments/Images/Pasted image 20240228162012.png",
     "OperatingSystems/Paging.md",
@@ -463,8 +464,6 @@
     "SoftwareDesign/Finite_state_machines.md",
     "MachineLearning/0-GeneralConcepts/Probability_basics.md",
     "XX-Attachments/Images/Pasted image 20240225192207.png",
-    "XX-Attachments/Images/Pasted image 20240225191623.png",
-    "XX-Attachments/Images/Pasted image 20240225191532.png",
     "Statistics",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
