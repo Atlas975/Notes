@@ -22,7 +22,7 @@ ___
 ![[Pasted image 20240119155319.png|600|600]]
 
 ## Compiler stage
-- Performs lexical analysis, creating a parse tree that helps ensure the source code follows the languages grammar rules, this helps report syntax errors
+- The [[Compilers|compiler]] performs lexical analysis, creating a parse tree that helps ensure the source code follows the languages grammar rules, this helps report syntax errors
 - Code optimisation and generation is also carried out at this phase eg loop unrolling
 
 ![[Pasted image 20240119155905.png|550|550]]
