@@ -79,6 +79,19 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/Universal_Turing_machines.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4b216b2df8498f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Halting_problem.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -151,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -219,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Universal_Turing_machines.md"
+                "file": "Languages&Compilation/Halting_problem.md"
               }
             }
           }
@@ -227,7 +240,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -254,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Universal_Turing_machines.md",
+                "file": "Languages&Compilation/Halting_problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Universal_Turing_machines.md",
+                "file": "Languages&Compilation/Halting_problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -335,14 +349,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1d39e9e89580173c",
+  "active": "b4b216b2df8498f0",
   "lastOpenFiles": [
+    "Languages&Compilation/Universal_Turing_machines.md",
     "Cybersecurity/Advanced_encryption_standard.md",
     "Cybersecurity/Untitled.md",
     "LinearProgramming/Linear_programming.md",
     "Cybersecurity",
     "DistributedSystems/Byzantine_generals_problem.md",
-    "Languages&Compilation/Universal_Turing_machines.md",
     "Languages&Compilation/Turing_thesis.md",
     "XX-Attachments/Images/Pasted image 20240227150504.png",
     "Languages&Compilation/Finite_state_transducer.md",

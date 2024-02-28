@@ -12,7 +12,7 @@
 ___
 # Universal Turing machines
 - Runs problems as a separate [[Turing_machine|TM]] program, avoids the need for separate TMs for each problem
-- This makes a UTM the counterpart of a computer but is of course much more powerful
+- A computer can only be as powerful as a UTM given unlimited storage, the UTM itself is a close analogy of a program fed to a computer 
 - Takes in a coded version of a TM and its input string, producing the same output as a standard TM, the difference in process can be seen here:
 
 ![[Pasted image 20240225192207.png|400|400]]
@@ -33,14 +33,16 @@ ___
 
 ## Universal Turing machine tape
 - This needs to store the following:
-    1. The quintuples of the machine being simulated 
-    2. Start state of simulated machine 
-    3. Contents of non-blank part of data 
-    4. A mark on simulated tape to indicate r/w head location
+	1. The quintuples of the machine being simulated 
+	2. Start state of simulated machine 
+	3. Contents of non-blank part of data 
+	4. A mark on simulated tape to indicate r/w head location
 
 
 ![[Pasted image 20240225191352.png|450|450]]
 
 
-## Universal Turing machine process 
-- 
+## Universal Turing machine process
+1. Find first quintuple matching the simulated machine's current state, quintuples that don't match are changed from Q to F. If a Q is followed by a second Q, the machine has halted
+2. Compare data symbol under simulated r/w head with quintuple from previous step, if this doesn't match change Q to F and go back to step 1 to find another quintuple 
+3. Copy new data symbol from matching quintuple to data square under r/w head
