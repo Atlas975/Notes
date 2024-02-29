@@ -16,8 +16,12 @@ ___
 
 ![[Pasted image 20240221163241.png|400|400]]
 
-## Tokens 
+## Tokens
 - Tokens refer to:
-    - **Language symbols**: This includes keywords (=, :, +,  /, if, while, else )
-    - **Identifiers**: variable / method / class names, constants etc
-    - **Literal constants**: 
+	- **Language symbols**: This includes keywords (=, :, +,  /, if, while, else )
+	- **Identifiers**: variable / method / class names, constants etc
+	- **Literal constants**: 
+
+
+
+This is a sentence written while my keyboard is on top of a standing desk, I hope my typing speed is still suffecient for this problem but if not i will lower my desk back down 
