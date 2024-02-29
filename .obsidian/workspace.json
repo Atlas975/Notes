@@ -130,6 +130,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Languages&Compilation/Syntax_analyser.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5cd529d19c22260d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Languages&Compilation/Lexical_analyser.md",
                 "mode": "preview",
                 "backlinks": false,
@@ -242,7 +255,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -318,7 +331,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -426,8 +440,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "61b6b073dac95afd",
+  "active": "5cd529d19c22260d",
   "lastOpenFiles": [
+    "Languages&Compilation/Syntax_analyser.md",
+    "Languages&Compilation/Lexical_analyser.md",
     "Languages&Compilation/Compilers.md",
     "XX-Attachments/Images/Pasted image 20240228164729.png",
     "Languages&Compilation/Interpreter.md",
@@ -440,7 +456,6 @@
     "Languages&Compilation/Universal_Turing_machines.md",
     "Languages&Compilation/Turing_thesis.md",
     "Languages&Compilation/Regular_expression_FSM.md",
-    "Languages&Compilation/Lexical_analyser.md",
     "Languages&Compilation/Context_sensitive_grammars.md",
     "Languages&Compilation/Halting_problem.md",
     "XX-Attachments/Images/Pasted image 20240228145104.png",
