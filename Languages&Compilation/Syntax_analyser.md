@@ -11,3 +11,4 @@
 
 ___
 # Syntax analyser
+ - Tasked with essentially building a parse tree

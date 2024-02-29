@@ -24,6 +24,21 @@ ___
 - Example toke stream for `int count = 5;`
 
 ![[Pasted image 20240229162558.png|350|350]]
+
+## Reserved keywords
+- The set of words reserved for a languages syntax (eg if, while, function, return)
+- These words typically cannot be used as identifiers
+- A character string is recognised as reserved by looking into the table of reserved keywords
+
+### Example processing of input stream 
+- Whitespace indicates that the current token buffer can be checked and then emptied 
+
+![[Pasted image 20240229164033.png|300|300]]
+
+- Semicolons can also indicate that the buffer can be emptied, but this time to get an identifier
+
+![[Pasted image 20240229164351.png|300|300]]
 ## Lexical analyser limitations
 - Requires a language that allows for the lexical and syntax analysis phase to be split 
 - Languages such as Fortran may have **semantic ambiguity** that can only be resolved by the syntax analyser, this is because how a token is processed may depend on program logic
+
