@@ -17,11 +17,10 @@ ___
 ![[Pasted image 20240221163241.png|400|400]]
 
 ## Tokens
-- Tokens refer to:
-	- **Language symbols**: This includes keywords (=, :, +,  /, if, while, else )
-	- **Identifiers**: variable / method / class names, constants etc
-	- **Literal constants**: 
+- Tokens refer to what a phase breaks the source program
+	- **Language symbols**:  keywords (=, :, +,  /, if, while, else etc. )
+	- **Identifiers**: variable / method / class names etc. for elements in a program
+	- **Literal constants**: fixed values (numbers, character constants, string literals etc.)
+- The LA ensuring that only valid tokens exist prevents errors from propagating to the SA
 
-
-
-This is a sentence written while my keyboard is on top of a standing desk, I hope my typing speed is still suffecient for this problem but if not i will lower my desk back down 
+## Lexical analyser limitations
