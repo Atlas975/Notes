@@ -144,7 +144,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/Lexical_analyser.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -442,6 +442,8 @@
   },
   "active": "5cd529d19c22260d",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240229162558.png",
+    "XX-Attachments/Images/Pasted image 20240229162544.png",
     "Languages&Compilation/Syntax_analyser.md",
     "Languages&Compilation/Lexical_analyser.md",
     "Languages&Compilation/Compilers.md",
@@ -477,8 +479,6 @@
     "Languages&Compilation/Regular_grammars.md",
     "Languages&Compilation/Subset_construction_algorithm.md",
     "SoftwareDesign/Finite_state_machines.md",
-    "MachineLearning/0-GeneralConcepts/Probability_basics.md",
-    "XX-Attachments/Images/Pasted image 20240225192207.png",
     "Statistics",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",

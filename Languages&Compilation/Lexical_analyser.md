@@ -12,15 +12,18 @@
 ___
 # Lexical analyser
 - Simplifies input by throwing away unnecessary information eg comments and whitespace (in a whitespace agnostic language), this simplifies the job of the [[Syntax_analyser|syntax analyser]]
-- Also classifies language components, producing a token stream
+- Also classifies language components, producing a stream of tokens (the basic building blocks of the syntax of a language)
 
 ![[Pasted image 20240221163241.png|400|400]]
-
 ## Tokens
-- Tokens refer to what a phase breaks the source program
+- Tokens refer to what a phase breaks the source program into, these include:
 	- **Language symbols**:  keywords (=, :, +,  /, if, while, else etc. )
 	- **Identifiers**: variable / method / class names etc. for elements in a program
 	- **Literal constants**: fixed values (numbers, character constants, string literals etc.)
 - The LA ensuring that only valid tokens exist prevents errors from propagating to the SA
+- Example toke stream for `int count = 5;`
 
+![[Pasted image 20240229162558.png|350|350]]
 ## Lexical analyser limitations
+- Requires a language that allows for the lexical and syntax analysis phase to be split 
+- Languages such as Fortran may have **semantic ambiguity** that can only be resolved by the syntax analyser, this is because how a token is processed may depend on program logic
