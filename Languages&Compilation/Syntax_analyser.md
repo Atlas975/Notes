@@ -23,7 +23,6 @@ ___
 
 
 ## Parse trees 
-
 - Syntax analysis is done this by building a parse tree structured as the following:
 	- The root as a distinguished symbol such as `<program>`
 	- The leaves being the sequence of tokens from the [[Lexical_analyser|lexical analysis]] phase
@@ -32,9 +31,12 @@ ___
 ![[Pasted image 20240301163252.png|350|350]]
 
 - This can be generated using either of the two approaches:
-    - **Top-down**: start with,
+    - **Top-down**: start with `<program>`, work downwards until token leaves are found
     - **Bottom-up**: start with tokens, generate [[Formal_languages|non-terminals]] until reaching `<program>`
-- either a bottom up (start with tokens from lexical analysis stage and built to)
+- Simple approaches like these can take an exponential amount of time to parse a string (when n is len(String)) for instance `S -> S+S | S*S | a`  where possible parses grows dramatically
+- Other strategies that exist to include: 
+    - **Earley's algorithm ($O(n^3)$)**: top-down with a [[Context_free_grammars|context free grammar]]
+    -  **CYK algorithm**
 ## Parsing strategy criteria
 - **Power**: be able to deal with any input strings given as input 
 - **Avoid back-tracking**: try avoid going over the same string multiple times 
