@@ -27,3 +27,9 @@ ___
 - **Avoid lookahead**: try read only whats needed to avoided repeated reads later on
 - **Efficiency**: keep low memory use while still being fast 
 - **Small**: should not be too cumbersome to maintain 
+
+
+### LL(K) and LR(K) parsers
+$$L_{(L |R)}(K)$$$$L_{1}=\text{first L indicates reading is left to right}$$
+$$K=\text{the number of lookahead tokens (usually 0 or 1) }$$
+$$(L_{2}R)=\text{second letter indicates derivation }L_{L}\text{ is top-down }L_{R} \text{ is bottom-up}$$
