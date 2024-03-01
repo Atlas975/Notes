@@ -15,16 +15,26 @@ aliases:
 
 ___
 # Syntax analyser
-- A crucial component in both a [[Compilers|compiler]] and [[Interpreter|interpreter]] tasked with created a nested set of controls that describe what a program does
- - Tasked with essentially building a parse tree structured as the following:
-	- The root as a distinguished symbol such as `<program>`
-	- The leaves being the sequence of tokens from the [[Lexical_analyser|lexical analysis]] phase
-	- The branch point in the tree being sanctioned by a rule from the grammar
+- A component in both a [[Compilers|compiler]] and [[Interpreter|interpreter]] tasked with created a nested set of controls that describe what a program does
+ 
 - Also may need to perform semantic checks. This may include generating intermediate code in a compiler or provide the code for direct execution with a interpreter 
 - If syntax is invalid, error messages need to be provided
 
 
 
+## Parse trees 
+
+- Syntax analysis is done this by building a parse tree structured as the following:
+	- The root as a distinguished symbol such as `<program>`
+	- The leaves being the sequence of tokens from the [[Lexical_analyser|lexical analysis]] phase
+	- The branch point in the tree being sanctioned by a rule from the grammar
+
+![[Pasted image 20240301163252.png|350|350]]
+
+- This can be generated using either of the two approaches:
+    - **Top-down**: start with,
+    - **Bottom-up**: start with tokens, generate [[Formal_languages|non-terminals]] until reaching `<program>`
+- either a bottom up (start with tokens from lexical analysis stage and built to)
 ## Parsing strategy criteria
 - **Power**: be able to deal with any input strings given as input 
 - **Avoid back-tracking**: try avoid going over the same string multiple times 
