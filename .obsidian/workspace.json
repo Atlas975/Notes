@@ -159,6 +159,19 @@
             }
           },
           {
+            "id": "10778df8cbe7e7b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/First_sets.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5cd529d19c22260d",
             "type": "leaf",
             "state": {
@@ -276,7 +289,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -344,7 +357,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Syntax_analyser.md"
+                "file": "Languages&Compilation/First_sets.md"
               }
             }
           }
@@ -379,7 +392,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Syntax_analyser.md",
+                "file": "Languages&Compilation/First_sets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -396,7 +409,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Syntax_analyser.md",
+                "file": "Languages&Compilation/First_sets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -460,13 +473,18 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1bedf37690038b32",
+  "active": "10778df8cbe7e7b1",
   "lastOpenFiles": [
+    "Languages&Compilation/Finite_state_transducer.md",
+    "Languages&Compilation/Context_sensitive_grammars.md",
+    "Languages&Compilation/Formal_languages.md",
+    "Languages&Compilation/Regular_grammars.md",
+    "Languages&Compilation/Regular_expression_FSM.md",
+    "Languages&Compilation/First_sets.md",
     "Languages&Compilation/Syntax_analyser.md",
     "XX-Attachments/Images/Pasted image 20240301164351.png",
     "XX-Attachments/Images/Pasted image 20240301164306.png",
     "XX-Attachments/Images/Pasted image 20240301164055.png",
-    "Languages&Compilation/Formal_languages.md",
     "XX-Attachments/Images/Pasted image 20240301163252.png",
     "Languages&Compilation/Compilers.md",
     "Languages&Compilation/Lexical_analyser.md",
@@ -481,21 +499,17 @@
     "OperatingSystems/Paging.md",
     "Languages&Compilation/Universal_Turing_machines.md",
     "Languages&Compilation/Turing_thesis.md",
-    "Languages&Compilation/Regular_expression_FSM.md",
-    "Languages&Compilation/Context_sensitive_grammars.md",
     "Languages&Compilation/Halting_problem.md",
     "Cybersecurity/Advanced_encryption_standard.md",
     "Cybersecurity/Untitled.md",
     "LinearProgramming/Linear_programming.md",
     "Cybersecurity",
     "DistributedSystems/Byzantine_generals_problem.md",
-    "Languages&Compilation/Finite_state_transducer.md",
     "Languages&Compilation/Turing_machine.md",
     "Languages&Compilation/Unrestricted_grammars.md",
     "Languages&Compilation/Context_free_grammars.md",
     "Languages&Compilation/Chomsky_hierarchy.md",
     "Languages&Compilation/Pushdown_recogniser.md",
-    "Languages&Compilation/Regular_grammars.md",
     "Languages&Compilation/Subset_construction_algorithm.md",
     "SoftwareDesign/Finite_state_machines.md",
     "Statistics",
