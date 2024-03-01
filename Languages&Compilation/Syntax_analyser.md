@@ -11,6 +11,7 @@
 
 ___
 # Syntax analyser
+- 
  - Tasked with essentially building a parse tree structured as the following:
     - The root as a distinguished symbol such as `<program>`
     - The leaves being the sequence of tokens from the [[Lexical_analyser|lexical analysis]] phase
@@ -20,4 +21,4 @@ ___
 
 
 
-## 
+## b
