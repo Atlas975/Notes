@@ -130,8 +130,21 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Languages&Compilation/Compilers.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "276b16fb4f44abad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Languages&Compilation/Syntax_analyser.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -255,7 +268,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -331,8 +344,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -440,15 +452,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e95c54375fff8fa7",
+  "active": "276b16fb4f44abad",
   "lastOpenFiles": [
+    "Languages&Compilation/Compilers.md",
+    "Languages&Compilation/Syntax_analyser.md",
     "Languages&Compilation/Lexical_analyser.md",
     "XX-Attachments/Images/Pasted image 20240229164351.png",
     "XX-Attachments/Images/Pasted image 20240229164033.png",
     "XX-Attachments/Images/Pasted image 20240229162558.png",
     "XX-Attachments/Images/Pasted image 20240229162544.png",
-    "Languages&Compilation/Syntax_analyser.md",
-    "Languages&Compilation/Compilers.md",
     "XX-Attachments/Images/Pasted image 20240228164729.png",
     "Languages&Compilation/Interpreter.md",
     "XX-Attachments/Images/Pasted image 20240228163509.png",

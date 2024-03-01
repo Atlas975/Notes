@@ -1,3 +1,7 @@
+---
+aliases:
+  - Parser
+---
 > [!important]- Metadata
 > **Tags:** #Compilers 
 > **Located:** Languages&Compilation
@@ -11,12 +15,12 @@
 
 ___
 # Syntax analyser
-- 
+- A crucial component in both a [[Compilers|compiler]] and [[Interpreter|interpreter]] tasked with created a nested set of controls that describe what a program does
  - Tasked with essentially building a parse tree structured as the following:
 	- The root as a distinguished symbol such as `<program>`
 	- The leaves being the sequence of tokens from the [[Lexical_analyser|lexical analysis]] phase
 	- The branch point in the tree being sanctioned by a rule from the grammar
-- Also may need to perform semantic checks. This may include generating intermediate code in a [[Compilers|compiler]] or provide the code for direct execution with a [[Interpreter|interpreter]]
+- Also may need to perform semantic checks. This may include generating intermediate code in a compiler or provide the code for direct execution with a interpreter 
 - If syntax is invalid, error messages need to be provided
 
 
