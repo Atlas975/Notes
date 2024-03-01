@@ -33,10 +33,12 @@ ___
 - This can be generated using either of the two approaches:
     - **Top-down**: start with `<program>`, work downwards until token leaves are found
     - **Bottom-up**: start with tokens, generate [[Formal_languages|non-terminals]] until reaching `<program>`
-- Simple approaches like these can take an exponential amount of time to parse a string (when n is len(String)) for instance `S -> S+S | S*S | a`  where possible parses grows dramatically
+
+## Parsing speed
+- Simple approaches can take an exponential amount of time to parse a string (when n is len(String)) for instance `S -> S+S | S*S | a`  where possible parses grows dramatically
 - Other strategies that exist to include: 
     - **Earley's algorithm ($O(n^3)$)**: top-down with a [[Context_free_grammars|context free grammar]]
-    -  **CYK algorithm**
+    -  **CYK algorithm ($O(n^3)$)**: bottom-up, context free needs conversion to Chomsky normal form
 ## Parsing strategy criteria
 - **Power**: be able to deal with any input strings given as input 
 - **Avoid back-tracking**: try avoid going over the same string multiple times 
