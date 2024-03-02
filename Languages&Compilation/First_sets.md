@@ -17,6 +17,8 @@ ___
 
 
 ![[Pasted image 20240302214525.png|350|350]]
+
+> 
 ## First set rules 
 1. If $\alpha$ is a terminal, FIRST($\alpha$) = $\{ \alpha \}$
 2. If $\alpha$ is a non-terminal and $\alpha\to\beta$ is a production, add FIRST($\beta$) to FIRST($\alpha$).

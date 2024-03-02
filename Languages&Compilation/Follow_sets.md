@@ -19,8 +19,8 @@ ___
 ![[Pasted image 20240302214844.png|350|350]]
 ## Follow set rules
 1. For the start symbol S, add $ (representing the end of input) to Follow(S).
-2. If there is a production A → αBβ, then everything in First($\beta$) except $\epsilon$ is in Follow(B).
-3. If there is a production A → αB or a production A → αBβ where everything in β can derive $\epsilon$ (i.e., First(β) contains ε), then everything in Follow(A) is in Follow(B).
+2. If there is a production A → $\alpha$B$\beta$, then everything in First($\beta$) except $\epsilon$ is in Follow(B).
+3. If there is a production A → $\alpha$B or a production A → $\alpha$Bβ where everything in β can derive $\epsilon$ (i.e., First($\beta$) contains $\epsilon$), then everything in Follow(A) is in Follow(B).
 ## Follow set usage 
 - FOLLOW sets are used in the parsing table construction for predictive parsers.
 - They help in deciding which production to use based on the next input symbol.
