@@ -14,14 +14,13 @@ ___
 
 - The [[Sets|set]] of terminals that can appear as the last terminal of a string derived by a given rule
 - Also known as the **Right Terminal Set** as it contains terminals that appear left of a rule
-- For example, in the expression `IF boolean THEN statement ELSE statement`, the Follow Set of the non-terminal `statement` includes `ELSE`.
+- In programming terms `First(IF boolean THEN statement ELSE STATEMENT)` would contain `ELSE`
 
+![[Pasted image 20240302214844.png|350|350]]
 ## Follow set rules
-
-1. For the start symbol of the grammar, add `$` (end of input marker) to its Follow Set.
-2. If there is a production $A \to \alpha B \beta$, where $A, B$ are non-terminals and $\alpha, \beta$ are any grammar symbols, then everything in FIRST($\beta$) except $\epsilon$ is in FOLLOW($B$).
-3. If there is a production $A \to \alpha B$, or a production $A \to \alpha B \beta$ where FIRST($\beta$) contains $\epsilon$, then everything in FOLLOW($A$) is in FOLLOW($B$). This rule can be applied recursively.
-4. If a non-terminal $B$ occurs at the end of the production, then FOLLOW($A$) (where $A$ is the non-terminal on the left-hand side of the production) is included in FOLLOW($B$).
+1. For the start symbol S, add $ (representing the end of input) to Follow(S).
+2. If there is a production A → αBβ, then everything in First($\beta$) except $\epsilon$ is in Follow(B).
+3. If there is a production A → αB or a production A → αBβ where everything in β can derive $\epsilon$ (i.e., First(β) contains ε), then everything in Follow(A) is in Follow(B).
 ## Follow set usage 
 - FOLLOW sets are used in the parsing table construction for predictive parsers.
 - They help in deciding which production to use based on the next input symbol.

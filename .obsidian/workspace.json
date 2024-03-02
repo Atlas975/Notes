@@ -191,7 +191,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/First_sets.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -229,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/First_sets.md",
+                "file": "Languages&Compilation/Follow_sets.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -435,7 +435,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/First_sets.md"
+                "file": "Languages&Compilation/Follow_sets.md"
               }
             }
           }
@@ -443,7 +443,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -470,7 +471,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/First_sets.md",
+                "file": "Languages&Compilation/Follow_sets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -487,7 +488,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/First_sets.md",
+                "file": "Languages&Compilation/Follow_sets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -553,8 +554,10 @@
   },
   "active": "d8a30831485393c8",
   "lastOpenFiles": [
-    "Languages&Compilation/Follow_sets.md",
+    "XX-Attachments/Images/Pasted image 20240302214844.png",
     "Languages&Compilation/First_sets.md",
+    "XX-Attachments/Images/Pasted image 20240302214525.png",
+    "Languages&Compilation/Follow_sets.md",
     "XX-Attachments/Images/Pasted image 20240302212447.png",
     "Languages&Compilation/Formal_languages.md",
     "Languages&Compilation/Pushdown_recogniser.md",
@@ -573,7 +576,6 @@
     "XX-Attachments/Images/Pasted image 20240229164033.png",
     "XX-Attachments/Images/Pasted image 20240229162558.png",
     "XX-Attachments/Images/Pasted image 20240229162544.png",
-    "XX-Attachments/Images/Pasted image 20240228164729.png",
     "Languages&Compilation/Interpreter.md",
     "Languages&Compilation/Language_translator.md",
     "OperatingSystems/Paging.md",
@@ -589,7 +591,6 @@
     "Languages&Compilation/Unrestricted_grammars.md",
     "Languages&Compilation/Context_free_grammars.md",
     "Languages&Compilation/Chomsky_hierarchy.md",
-    "Languages&Compilation/Subset_construction_algorithm.md",
     "Statistics",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",

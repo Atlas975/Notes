@@ -15,6 +15,8 @@ ___
 - Also known as the **Left Terminal Set** as it contains terminals that appear left of a rule
 - In terms of programming `First(IF boolean THEN statement)` would contain `IF`
 
+
+![[Pasted image 20240302214525.png|350|350]]
 ## First set rules 
 1. If $\alpha$ is a terminal, FIRST($\alpha$) = $\{ \alpha \}$
 2. If $\alpha$ is a non-terminal and $\alpha\to\beta$ is a production, add FIRST($\beta$) to FIRST($\alpha$).
