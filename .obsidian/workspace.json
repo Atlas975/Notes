@@ -191,7 +191,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/First_sets.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -367,7 +367,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -435,7 +435,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/First_sets.md"
+                "file": "Languages&Compilation/Follow_sets.md"
               }
             }
           }
@@ -471,7 +471,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/First_sets.md",
+                "file": "Languages&Compilation/Follow_sets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -488,7 +488,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/First_sets.md",
+                "file": "Languages&Compilation/Follow_sets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -552,11 +552,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4ea208a1513a3585",
+  "active": "d8a30831485393c8",
   "lastOpenFiles": [
+    "Languages&Compilation/First_sets.md",
     "Languages&Compilation/Follow_sets.md",
     "XX-Attachments/Images/Pasted image 20240302214844.png",
-    "Languages&Compilation/First_sets.md",
     "XX-Attachments/Images/Pasted image 20240302214525.png",
     "XX-Attachments/Images/Pasted image 20240302212447.png",
     "Languages&Compilation/Formal_languages.md",

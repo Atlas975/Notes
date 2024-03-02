@@ -21,6 +21,14 @@ ___
 1. For the start symbol S, add $ (representing the end of input) to Follow(S).
 2. If there is a production A → $\alpha$B$\beta$, then everything in First($\beta$) except $\epsilon$ is in Follow(B).
 3. If there is a production A → $\alpha$B or a production A → $\alpha$Bβ where everything in β can derive $\epsilon$ (i.e., First($\beta$) contains $\epsilon$), then everything in Follow(A) is in Follow(B).
+
+```ad-example
+$$\text{meal}  \rightarrow \text{first\_course} \ \text{second\_course} \ \text{dessert};$$
+$$\text{first\_course}  \rightarrow \text{SOUP} \ | \ \text{SALAD}| \epsilon$$
+$$\text{second\_course}  \rightarrow \text{CHICKEN} \ | \ \text{FISH} \ | \ \text{BEEF} \ | \ \text{LAMB};$$
+$$\text{FOLLOW(first\_course)}=\{ \text{CHICKEN}, \text{FISH}, \text{BEEF}, \text{LAMB} \}$$
+$$\text{FOLLOW(second\_course)}=\{ \text{CHICKEN}, \text{FISH}, \text{BEEF}, \text{LAMB} \}$$
+```
 ## Follow set usage 
 - FOLLOW sets are used in the parsing table construction for predictive parsers.
 - They help in deciding which production to use based on the next input symbol.
