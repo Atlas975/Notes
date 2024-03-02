@@ -25,6 +25,12 @@ ___
 3. If $\alpha$ → $\epsilon$ is a production, then $\epsilon$ is in First($\alpha$).
 4. If $\alpha$ is a sequence of grammar symbols ($\alpha_1 ,\alpha_2 ... \alpha_{n}$), add FIRST($\alpha_{1}$) to FIRST($\alpha$), then if $\alpha_{1}$ can derive $\epsilon$, add FIRST($\alpha_{2}$) and so on until a non-$\epsilon$-deriving symbol is found
 
+
+$$\text{meal}  \rightarrow \text{first\_course} | \text{second\_course} | \text{dessert};$$
+$$\text{first\_course}  \rightarrow \text{SOUP} \ | \ \text{SALAD}| \epsilon$$
+$$\text{second\_course}  \rightarrow \text{CHICKEN} \ | \ \text{FISH} \ | \ \text{BEEF} \ | \ \text{LAMB};$$
+$$\text{FOLLOW(first\_course)}=\{  \}$$
+
 ## First set usage
 - First sets are used to determine which production rule to apply when a particular terminal is encountered at the beginning of a string.
 - These guide the parser in selecting the correct production based on the current input symbol.
