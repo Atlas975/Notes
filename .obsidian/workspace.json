@@ -177,8 +177,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/First_sets.md",
-                "mode": "source",
+                "file": "Languages&Compilation/Finite_state_transducer.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -383,7 +383,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/First_sets.md"
+                "file": "Languages&Compilation/Finite_state_transducer.md"
               }
             }
           }
@@ -418,7 +418,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/First_sets.md",
+                "file": "Languages&Compilation/Finite_state_transducer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -435,7 +435,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/First_sets.md",
+                "file": "Languages&Compilation/Finite_state_transducer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -501,9 +501,9 @@
   },
   "active": "3d9c824a24f92fbf",
   "lastOpenFiles": [
+    "Languages&Compilation/First_sets.md",
     "Languages&Compilation/Regular_grammars.md",
     "Languages&Compilation/Regular_expression_FSM.md",
-    "Languages&Compilation/First_sets.md",
     "Languages&Compilation/Finite_state_transducer.md",
     "Languages&Compilation/Context_sensitive_grammars.md",
     "Languages&Compilation/Formal_languages.md",
