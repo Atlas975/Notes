@@ -11,16 +11,21 @@
 
 ___
 # Recursive descent
-- A top down [[Lexical_analyser|parser]], useful for hand-generation of a compiler from a grammar allowing 
+- A top down [[Lexical_analyser|parser]], useful for hand-generation of a compiler from a grammar. 
+- Works by beginning at the start symbol and attempts to construct a parse tree, branching out according to the rules of the grammar. 
+- Reads the input tokens one by one, decides which rule to apply based current token + grammar
 
 ![[Pasted image 20240303164608.png|300|300]]
 
+## Recursive descent parse structure
+- Needs to know all possible [[First_sets|first]] terminals / tokens for each non-terminal. This is why Recursive descent is done using [[Syntax_analyser#LL(K) and LR(K) parsers|LL(1)]]  lookahead
+- 
 
-## Dangling else problem 
+## Dangling else problem
 - The grammar is not unambiguous, there are two parses of `if E1 then if E2 then S1 else S2`:
-    - `if E1 then { if E2 then S1 else S2 }`
-    - `if E1 then { if E2 then S1 } else S2`
+	- `if E1 then { if E2 then S1 else S2 }`
+	- `if E1 then { if E2 then S1 } else S2`
 
 
-## Recursive error reporting 
+## Recursive error reporting
 - RD parsers are good 

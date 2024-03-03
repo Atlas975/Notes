@@ -243,7 +243,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/Recursive_descent.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -268,8 +268,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Recursive_descent.md",
-                "mode": "source",
+                "file": "Languages&Compilation/Regular_grammars.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -380,7 +380,7 @@
             }
           }
         ],
-        "currentTab": 20
+        "currentTab": 18
       }
     ],
     "direction": "vertical"
@@ -564,26 +564,26 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5cd529d19c22260d",
+  "active": "c0457daf6dbbb6c4",
   "lastOpenFiles": [
+    "Languages&Compilation/Regular_expression_FSM.md",
+    "Languages&Compilation/Regular_grammars.md",
+    "Languages&Compilation/Pushdown_recogniser.md",
+    "Languages&Compilation/Lexical_analyser.md",
+    "Languages&Compilation/Recursive_descent.md",
     "XX-Attachments/Images/Pasted image 20240303164608.png",
     "Languages&Compilation/Syntax_analyser.md",
     "Languages&Compilation/Subset_construction_algorithm.md",
-    "Languages&Compilation/Regular_expression_FSM.md",
-    "Languages&Compilation/Regular_grammars.md",
     "Languages&Compilation/Compilers.md",
     "Languages&Compilation/Context_sensitive_grammars.md",
     "Languages&Compilation/First_sets.md",
     "Languages&Compilation/Formal_languages.md",
     "Languages&Compilation/Halting_problem.md",
     "Languages&Compilation/Language_translator.md",
-    "Languages&Compilation/Lexical_analyser.md",
-    "Languages&Compilation/Recursive_descent.md",
     "Languages&Compilation/Follow_sets.md",
     "XX-Attachments/Images/Pasted image 20240302214844.png",
     "XX-Attachments/Images/Pasted image 20240302214525.png",
     "XX-Attachments/Images/Pasted image 20240302212447.png",
-    "Languages&Compilation/Pushdown_recogniser.md",
     "Languages&Compilation/Finite_state_transducer.md",
     "XX-Attachments/Images/Pasted image 20240301164351.png",
     "XX-Attachments/Images/Pasted image 20240301164306.png",
@@ -591,7 +591,6 @@
     "XX-Attachments/Images/Pasted image 20240301163252.png",
     "XX-Attachments/Images/Pasted image 20240229164351.png",
     "XX-Attachments/Images/Pasted image 20240229164033.png",
-    "XX-Attachments/Images/Pasted image 20240229162558.png",
     "Languages&Compilation/Interpreter.md",
     "OperatingSystems/Paging.md",
     "Languages&Compilation/Universal_Turing_machines.md",
