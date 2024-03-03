@@ -367,7 +367,7 @@
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -435,7 +435,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Follow_sets.md"
+                "file": "Languages&Compilation/Lexical_analyser.md"
               }
             }
           }
@@ -471,7 +471,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Follow_sets.md",
+                "file": "Languages&Compilation/Lexical_analyser.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -488,7 +488,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Follow_sets.md",
+                "file": "Languages&Compilation/Lexical_analyser.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -552,10 +552,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d8a30831485393c8",
+  "active": "5cd529d19c22260d",
   "lastOpenFiles": [
-    "Languages&Compilation/First_sets.md",
+    "Languages&Compilation/Syntax_analyser.md",
     "Languages&Compilation/Follow_sets.md",
+    "Languages&Compilation/First_sets.md",
     "XX-Attachments/Images/Pasted image 20240302214844.png",
     "XX-Attachments/Images/Pasted image 20240302214525.png",
     "XX-Attachments/Images/Pasted image 20240302212447.png",
@@ -565,7 +566,6 @@
     "Languages&Compilation/Regular_grammars.md",
     "Languages&Compilation/Regular_expression_FSM.md",
     "Languages&Compilation/Context_sensitive_grammars.md",
-    "Languages&Compilation/Syntax_analyser.md",
     "XX-Attachments/Images/Pasted image 20240301164351.png",
     "XX-Attachments/Images/Pasted image 20240301164306.png",
     "XX-Attachments/Images/Pasted image 20240301164055.png",
