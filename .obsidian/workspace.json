@@ -269,7 +269,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/Recursive_descent.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -592,6 +592,7 @@
   },
   "active": "06c6967f749b3b6a",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240303232228.png",
     "Languages&Compilation/Subset_construction_algorithm.md",
     "Languages&Compilation/Regular_grammars.md",
     "Languages&Compilation/Recursive_descent.md",

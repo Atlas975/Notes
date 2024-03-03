@@ -19,9 +19,10 @@ ___
 
 
 ## Non-terminal parsing
-- Each NON-TERMINAl roughly has one function to build its part of the parse tree
-- For $$
+- Each NON-TERMINAL roughly has one function to build its part of the parse tree
+- For NON-TERMINAL $X::=\alpha$, the production needs to handle $\alpha$ being one of 4 possibilities:
 
+![[Pasted image 20240303232228.png|450|450]]
 ## Recursive descent parse structure
 - Needs to know all possible [[First_sets|first]] terminals / tokens for each non-terminal. This is why Recursive descent is done using [[Syntax_analyser#LL(K) and LR(K) parsers|LL(1)]]  lookahead, this is done using the variable `nextSymbol`
 - This also requires moving the lexical analyser to the next token if a lookahead is accepted 
