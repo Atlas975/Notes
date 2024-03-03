@@ -20,3 +20,7 @@ ___
 - The grammar is not unambiguous, there are two parses of `if E1 then if E2 then S1 else S2`:
     - `if E1 then { if E2 then S1 else S2 }`
     - `if E1 then { if E2 then S1 } else S2`
+
+
+## Recursive error reporting 
+- 
