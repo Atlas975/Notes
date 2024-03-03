@@ -11,7 +11,7 @@
 
 ___
 # Recursive descent
-
+- A top down [[Lexical_analyser|parser]], useful for hand-generation of a compiler from a grammar allowing 
 
 ![[Pasted image 20240303164608.png|300|300]]
 
@@ -23,4 +23,4 @@ ___
 
 
 ## Recursive error reporting 
-- 
+- RD parsers are good 
