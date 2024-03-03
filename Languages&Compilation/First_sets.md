@@ -37,16 +37,14 @@ $$\text{FOLLOW(second\_course)}=\{ \text{CHICKEN}, \text{FISH}, \text{BEEF}, \te
 - For simple [[Formal_languages#Backus-Naur form (BNF)|BNF]] format and if there are no null-productions, a possible FIRST algorithm is:
 ```
 for each non-terminal X
-    set FIRST(X) to empty ;
-do
-    {
-        for each production X → Y...
-            if Y is a terminal
-                add Y to FIRST(X) ;
-            else // Y is a non-terminal
-                add FIRST(Y) to FIRST(X) ;
-    }
-while there are changes to at least one FIRST set;
+    set FIRST(X) to empty;
+do {
+    for each production X → Y...
+        if Y is a terminal
+            add Y to FIRST(X);
+        else // Y is a non-terminal
+            add FIRST(Y) to FIRST(X);
+} while there are changes to at least one FIRST set;
 ```
 ## First set usage
 - First sets are used to determine which production rule to apply when a particular terminal is encountered at the beginning of a string.

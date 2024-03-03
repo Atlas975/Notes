@@ -29,6 +29,26 @@ $$\text{second\_course}  \rightarrow \text{CHICKEN} \ | \ \text{FISH} \ | \ \tex
 $$\text{FOLLOW(first\_course)}=\{ \text{CHICKEN}, \text{FISH}, \text{BEEF}, \text{LAMB} \}$$
 $$\text{FOLLOW(second\_course)}=\{ \text{CHICKEN}, \text{FISH}, \text{BEEF}, \text{LAMB} \}$$
 ```
+
+### Follow set algorithm
+- For simple [[Formal_languages#Backus-Naur form (BNF)|BNF]] format and if there are no null-productions, a possible FOLLOW algorithm is:
+```
+for each non-terminal X
+    set FOLLOW(X) to empty ;
+insert EOF in FOLLOW (distinguished symbol);
+do {
+    for each production X → Y1 Y2 Y3 ... Yn
+    {
+        for each non-terminal Yi with i from 1 to n-1
+            if Yi+1 is a terminal
+                add Yi+1 to FOLLOW(Yi);
+            else // Yi+1 is a non-terminal 
+                add FIRST(Yi+1) to FOLLOW(Yi);
+        if Yn is a non-terminal
+            add FOLLOW(X) to FOLLOW(Yn) ;
+    }
+} while there are changes to at least one FOLLOW set;
+```
 ## Follow set usage 
 - FOLLOW sets are used in the parsing table construction for predictive parsers.
 - They help in deciding which production to use based on the next input symbol.
