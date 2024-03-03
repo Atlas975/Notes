@@ -20,7 +20,7 @@ ___
 ## Follow set rules
 1. For the start symbol S, add $ (the root of the syntax) to Follow(S).
 2. If there is a production A → $\alpha$B$\beta$, then everything in First($\beta$) except $\epsilon$ is in Follow(B).
-3. If there is a production A → $\alpha$B or  A → $\alpha$Bβ where everything in β can derive $\epsilon$ (i.e., First($\beta$) contains $\epsilon$), then everything in Follow(A) is in Follow(B) (B is last non $\epsilon$ deriving terminal)
+3. If there is a production A → $\alpha$B or  A → $\alpha$Bβ where First($\beta$) contains $\epsilon$, then everything in Follow(A) is in Follow(B) (B is last non $\epsilon$ deriving terminal)
 
 ```ad-example
 $$(0) S\to AbB$$
