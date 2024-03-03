@@ -242,8 +242,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Recursive_descent.md",
+                "file": "Languages&Compilation/Regular_grammars.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ae42d718407e0a99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Subset_construction_algorithm.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "06c6967f749b3b6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Recursive_descent.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -380,7 +406,7 @@
             }
           }
         ],
-        "currentTab": 18
+        "currentTab": 20
       }
     ],
     "direction": "vertical"
@@ -564,16 +590,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c0457daf6dbbb6c4",
+  "active": "06c6967f749b3b6a",
   "lastOpenFiles": [
-    "Languages&Compilation/Regular_expression_FSM.md",
+    "Languages&Compilation/Subset_construction_algorithm.md",
     "Languages&Compilation/Regular_grammars.md",
+    "Languages&Compilation/Recursive_descent.md",
+    "Languages&Compilation/Regular_expression_FSM.md",
     "Languages&Compilation/Pushdown_recogniser.md",
     "Languages&Compilation/Lexical_analyser.md",
-    "Languages&Compilation/Recursive_descent.md",
     "XX-Attachments/Images/Pasted image 20240303164608.png",
     "Languages&Compilation/Syntax_analyser.md",
-    "Languages&Compilation/Subset_construction_algorithm.md",
     "Languages&Compilation/Compilers.md",
     "Languages&Compilation/Context_sensitive_grammars.md",
     "Languages&Compilation/First_sets.md",

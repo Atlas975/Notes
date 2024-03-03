@@ -17,18 +17,21 @@ ___
 
 ![[Pasted image 20240303164608.png|300|300]]
 
+
+## Non-terminal parsing
+- Each NON-TERMINAl roughly has one function to build its part of the parse tree
+- For $$
+
 ## Recursive descent parse structure
 - Needs to know all possible [[First_sets|first]] terminals / tokens for each non-terminal. This is why Recursive descent is done using [[Syntax_analyser#LL(K) and LR(K) parsers|LL(1)]]  lookahead, this is done using the variable `nextSymbol`
 - This also requires moving the lexical analyser to the next token if a lookahead is accepted 
 
 ```
-acceptTerminal (t):
-
-if ( nextSymbol == t )
-    get next token from lexical
-        analyser into nextSymbol;
-else
-    report error;
+acceptTerminal(t):
+    if ( nextSymbol == t )
+        get next token from lexical analyser into nextSymbol;
+    else
+        report error;
 ```
 
 ## Dangling else problem
