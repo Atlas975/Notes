@@ -23,19 +23,16 @@ ___
 3. If there is a production A → $\alpha$B or  A → $\alpha$Bβ where everything in β can derive $\epsilon$ (i.e., First($\beta$) contains $\epsilon$), then everything in Follow(A) is in Follow(B).
 
 ```ad-example
-$$\text{meal}  \rightarrow \text{first\_course} \ \text{second\_course} \ \text{dessert};$$
-$$\text{first\_course}  \rightarrow \text{SOUP} \ | \ \text{SALAD}| \epsilon$$
-$$\text{second\_course}  \rightarrow \text{CHICKEN} \ | \ \text{FISH} \ | \ \text{BEEF} \ | \ \text{LAMB};$$
-$$\text{FOLLOW(first\_course)}=\{ \text{CHICKEN}, \text{FISH}, \text{BEEF}, \text{LAMB} \}$$
-$$\text{FOLLOW(second\_course)}=\{ \text{CHICKEN}, \text{FISH}, \text{BEEF}, \text{LAMB} \}$$
-```
-
-
 $$(0) S\to AbB$$
 $$(1)S \to B$$
 $$(2)A\to aB$$
 $$(3)A \to c$$
 $$(4)B\to A$$
+
+$$\text{FOLLOW(S)}=\{ $, a,c \}$$
+$$\text{FOLLOW(A)}=\{ b, $ \}$$
+$$\text{FOLLOW(B)}=\{ b, $ \}$$
+```
 ### Follow set algorithm
 - For simple [[Formal_languages#Backus-Naur form (BNF)|BNF]] format and if there are no null-productions, a possible FOLLOW algorithm is:
 ```

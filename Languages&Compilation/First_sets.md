@@ -26,13 +26,16 @@ ___
 4. If $\alpha$ is a sequence of grammar symbols ($\alpha_1 ,\alpha_2 ... \alpha_{n}$), add FIRST($\alpha_{1}$) to FIRST($\alpha$), then if $\alpha_{1}$ can derive $\epsilon$, add FIRST($\alpha_{2}$) and so on until a non-$\epsilon$-deriving symbol is found
 
 ```ad-example
-$$\text{meal}  \rightarrow \text{first\_course} \ \text{second\_course} \ \text{dessert};$$
-$$\text{first\_course}  \rightarrow \text{SOUP} \ | \ \text{SALAD}| \epsilon$$
-$$\text{second\_course}  \rightarrow \text{CHICKEN} \ | \ \text{FISH} \ | \ \text{BEEF} \ | \ \text{LAMB};$$
-$$\text{FOLLOW(first\_course)}=\{ \text{SOUP}, \text{SALAD}, \epsilon \}$$
-$$\text{FOLLOW(second\_course)}=\{ \text{CHICKEN}, \text{FISH}, \text{BEEF}, \text{LAMB} \}$$
-```
+$$(0) S\to AbB$$
+$$(1)S \to B$$
+$$(2)A\to aB$$
+$$(3)A \to c$$
+$$(4)B\to A$$
 
+$$\text{FIRST(S)}=\{ a,c \}$$
+$$\text{FIRST(A)}=\{ a,c \}$$
+$$\text{FIRST(B)}=\{ a,c \}$$
+```
 ### First set algorithm
 - For simple [[Formal_languages#Backus-Naur form (BNF)|BNF]] format and if there are no null-productions, a possible FIRST algorithm is:
 ```
