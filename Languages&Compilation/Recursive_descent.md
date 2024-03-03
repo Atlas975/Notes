@@ -18,8 +18,18 @@ ___
 ![[Pasted image 20240303164608.png|300|300]]
 
 ## Recursive descent parse structure
-- Needs to know all possible [[First_sets|first]] terminals / tokens for each non-terminal. This is why Recursive descent is done using [[Syntax_analyser#LL(K) and LR(K) parsers|LL(1)]]  lookahead
-- 
+- Needs to know all possible [[First_sets|first]] terminals / tokens for each non-terminal. This is why Recursive descent is done using [[Syntax_analyser#LL(K) and LR(K) parsers|LL(1)]]  lookahead, this is done using the variable `nextSymbol`
+- This also requires moving the lexical analyser to the next token if a lookahead is accepted 
+
+```
+acceptTerminal (t):
+
+if ( nextSymbol == t )
+    get next token from lexical
+        analyser into nextSymbol;
+else
+    report error;
+```
 
 ## Dangling else problem
 - The grammar is not unambiguous, there are two parses of `if E1 then if E2 then S1 else S2`:
