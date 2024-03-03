@@ -268,7 +268,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Syntax_analyser.md",
+                "file": "Languages&Compilation/Recursive_descent.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -448,7 +448,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Syntax_analyser.md"
+                "file": "Languages&Compilation/Recursive_descent.md"
               }
             }
           }
@@ -483,7 +483,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Syntax_analyser.md",
+                "file": "Languages&Compilation/Recursive_descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -500,7 +500,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Syntax_analyser.md",
+                "file": "Languages&Compilation/Recursive_descent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -566,6 +566,8 @@
   },
   "active": "5cd529d19c22260d",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240303164608.png",
+    "Languages&Compilation/Syntax_analyser.md",
     "Languages&Compilation/Subset_construction_algorithm.md",
     "Languages&Compilation/Regular_expression_FSM.md",
     "Languages&Compilation/Regular_grammars.md",
@@ -578,7 +580,6 @@
     "Languages&Compilation/Lexical_analyser.md",
     "Languages&Compilation/Recursive_descent.md",
     "Languages&Compilation/Follow_sets.md",
-    "Languages&Compilation/Syntax_analyser.md",
     "XX-Attachments/Images/Pasted image 20240302214844.png",
     "XX-Attachments/Images/Pasted image 20240302214525.png",
     "XX-Attachments/Images/Pasted image 20240302212447.png",
@@ -602,7 +603,6 @@
     "DistributedSystems/Byzantine_generals_problem.md",
     "Languages&Compilation/Turing_machine.md",
     "Languages&Compilation/Unrestricted_grammars.md",
-    "Languages&Compilation/Context_free_grammars.md",
     "Statistics",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
