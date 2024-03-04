@@ -62,6 +62,16 @@ void acceptTerminal(t):
         report error
 ```
 
+### Recursive descent main method 
+- The main method used to get parsing started typically takes the following form:
+
+```
+get first token from lexical analyser into nextSymbol
+<program>() # or whatever the distinguished symbol is 
+acceptTerminal (eofSymbol) # used to ensure there are no unprocessed tokens
+report success
+```
+
 ## Recursive error reporting
 - Recursive descent works well with error reporting due to the lack of backtracking, this means errors detected are likely to be recognised close to where they they occurred
 - This is typically done by the `acceptTerminal` function reporting what token it was searching for and what it actually found

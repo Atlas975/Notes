@@ -471,7 +471,7 @@
             }
           }
         ],
-        "currentTab": 24
+        "currentTab": 22
       }
     ],
     "direction": "vertical"
@@ -539,7 +539,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LinearProgramming/Linear_programming.md"
+                "file": "Languages&Compilation/Recursive_descent.md"
               }
             }
           }
@@ -575,7 +575,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LinearProgramming/Linear_programming.md",
+                "file": "Languages&Compilation/Recursive_descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -592,7 +592,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LinearProgramming/Linear_programming.md",
+                "file": "Languages&Compilation/Recursive_descent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -656,8 +656,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d76b44c158847bf4",
+  "active": "6fe3bfb68896cd3c",
   "lastOpenFiles": [
+    "LinearProgramming/Linear_programming.md",
     "MachineLearning/0-CoursesPart2/StatisticalLearning_book/Linear_regression.md",
     "Languages&Compilation/Recursive_descent.md",
     "Languages&Compilation/Context_free_grammars.md",
@@ -693,7 +694,6 @@
     "Languages&Compilation/Universal_Turing_machines.md",
     "Languages&Compilation/Turing_thesis.md",
     "Cybersecurity/Advanced_encryption_standard.md",
-    "Cybersecurity/Untitled.md",
     "Cybersecurity",
     "Statistics",
     "Languages&Compilation",
