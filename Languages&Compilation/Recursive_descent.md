@@ -18,25 +18,7 @@ ___
 ![[Pasted image 20240303164608.png|300|300]]
 
 
-## Non-terminal parsing
-- Each NON-TERMINAL roughly has one function to build its part of the parse tree
-- For NON-TERMINAL $X::=\alpha$, the production needs to handle $\alpha$ being one of 4 possibilities:
-
-![[Pasted image 20240303232228.png|450|450]]
-
-- Example function that handles an expression that allows terms to be added (this can be extended) 
-## Recursive descent parse structure
-- Needs to know all possible [[First_sets|first]] terminals / tokens for each non-terminal. This is why Recursive descent is done using [[Syntax_analyser#LL(K) and LR(K) parsers|LL(1)]]  lookahead, this is done using the variable `nextSymbol`
-- This also requires moving the lexical analyser to the next token if a lookahead is accepted 
-
-```
-acceptTerminal(t):
-    if ( nextSymbol == t )
-        get next token from lexical analyser into nextSymbol;
-    else
-        report error;
-```
-## Extended BNF recursive 
+## Extended BNF recursive
 - Some versions of BNF are extended, so that $\{ X \}$ means 0+ repetitions of $X$:
 ```
 while (nextSymbol is in FIRST(x)) { 
@@ -53,11 +35,39 @@ if (nextSymbol is in FIRST(x)) {
 ```
 
 
-## Main method 
+## Non-terminal parsing
+- Each NON-TERMINAL roughly has one function to build its part of the parse tree
+- For NON-TERMINAL $X::=\alpha$, the production needs to handle $\alpha$ being one of 4 possibilities:
+
+![[Pasted image 20240303232228.png|450|450]]
+
+- Example function that handles an expression that allows terms to be added using + symbol. {} indicates 0+ terms to be added, note functionality can be extended to handle other arithmetic 
+- This also emits the process of error handling
+
 
 ```
 
+void <expression>():
+    <term>() ;
+    while (nextSymbol == plusSymbol):
+        acceptTerminal (plusSymbol) ;
+        <term>() ;
 ```
+![[Pasted image 20240304140610.png|350|350]]
+
+## Recursive descent parse structure
+- Needs to know all possible [[First_sets|first]] terminals / tokens for each non-terminal. This is why Recursive descent is done using [[Syntax_analyser#LL(K) and LR(K) parsers|LL(1)]]  lookahead, this is done using the variable `nextSymbol`
+- This also requires moving the lexical analyser to the next token if a lookahead is accepted 
+
+```
+void acceptTerminal(t):
+    if ( nextSymbol == t )
+        get next token from lexical analyser into nextSymbol;
+    else
+        report error;
+```
+
+
 ## Dangling else problem
 - The grammar is not unambiguous, there are two parses of `if E1 then if E2 then S1 else S2`:
 	- `if E1 then { if E2 then S1 else S2 }`
@@ -65,4 +75,13 @@ if (nextSymbol is in FIRST(x)) {
 
 
 ## Recursive error reporting
-- RD parsers are good 
+- This is typically done by the `acceptTerminal` function reporting what token it was searching for and what it actually found
+- Parsers should indicate what source text line it was reading (row), where on the line (column) and the error that occurred 
+
+```
+void acceptTerminal (Token t):
+    if (nextSymbol == t)
+        get next token from lexical analyser into nextSymbol ;
+    else
+        report error – expected t, found nextSymbol, at line/char ;
+```
