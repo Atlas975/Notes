@@ -68,7 +68,7 @@ void acceptTerminal(t):
 
 
 ## Recursive error reporting
-- Recursive descent is
+- Recursive descent works well with error reporting due to the lack of backtracking, this means errors detected are likely to be recognised close to where they they occurred
 - This is typically done by the `acceptTerminal` function reporting what token it was searching for and what it actually found
 - Parsers should indicate what source text line it was reading (row), where on the line (column) and the error that occurred 
 
@@ -84,5 +84,3 @@ void acceptTerminal (Token t):
 - The grammar is not unambiguous, there are two parses of `if E1 then if E2 then S1 else S2`:
 	- `if E1 then { if E2 then S1 else S2 }`
 	- `if E1 then { if E2 then S1 } else S2`
-
-
