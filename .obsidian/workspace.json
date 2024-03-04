@@ -289,13 +289,13 @@
             }
           },
           {
-            "id": "6fe3bfb68896cd3c",
+            "id": "de535cae24f335b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/Recursive_descent.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -656,15 +656,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6fe3bfb68896cd3c",
+  "active": "de535cae24f335b3",
   "lastOpenFiles": [
+    "Statistics/Triangular_distribution.md",
+    "Languages&Compilation/Recursive_descent.md",
     "XX-Attachments/Images/Pasted image 20240304195249.png",
     "LinearProgramming/Linear_programming.md",
     "MachineLearning/0-CoursesPart2/StatisticalLearning_book/Linear_regression.md",
-    "Languages&Compilation/Recursive_descent.md",
     "Languages&Compilation/Context_free_grammars.md",
     "XX-Attachments/Images/Pasted image 20240304140610.png",
-    "Statistics/Triangular_distribution.md",
     "Statistics/PERT_distribution.md",
     "Statistics/Poisson_distribution.md",
     "XX-Attachments/Images/Pasted image 20240303232228.png",
@@ -689,7 +689,6 @@
     "XX-Attachments/Images/Pasted image 20240301164351.png",
     "XX-Attachments/Images/Pasted image 20240301164306.png",
     "XX-Attachments/Images/Pasted image 20240301164055.png",
-    "XX-Attachments/Images/Pasted image 20240301163252.png",
     "Languages&Compilation/Interpreter.md",
     "OperatingSystems/Paging.md",
     "Languages&Compilation/Universal_Turing_machines.md",

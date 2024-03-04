@@ -83,7 +83,8 @@ report success
 <statement>::= if <expression> then <statement> fi | <variable> := <expression>
 ```
 
-- However, this is not always an option such as with an if statement that can also accept and else clause, this get around the LL(1) limitation, the grammar must be able to branch out at a specifc
+- This is not always an option such as with an if statement that can accept an else clause, to get around the LL(1) limitation, the grammar must be able to branch out at a specific terminal
+- This effectively cuts a grammar rule in half to allow for another lookahead 
 
 ![[Pasted image 20240304195249.png|350|350]]
 ## Recursive error reporting
