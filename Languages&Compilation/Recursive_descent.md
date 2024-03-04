@@ -50,6 +50,7 @@ void <expression>(): # emits error handling process
         acceptTerminal (plusSymbol) 
         <term>() 
 ```
+
 ## Recursive descent parse structure
 - Needs to know all possible [[First_sets|first]] terminals / tokens for each non-terminal. This is why Recursive descent is done using [[Syntax_analyser#LL(K) and LR(K) parsers|LL(1)]]  lookahead, this is done using the variable `nextSymbol`
 - This also requires moving the lexical analyser to the next token if a lookahead is accepted 
@@ -72,6 +73,19 @@ acceptTerminal (eofSymbol) # used to ensure there are no unprocessed tokens
 report success
 ```
 
+
+## Left factoring 
+- When dealing with grammar rules with multiple alternatives, LL(1) lookahead is used to determine what to do next 
+- This means the **FIRST** set of all alternatives (a | b | c) must be disjoint to avoid ambiguity
+
+```
+# The right-hand side of the first rule here has FIRST sets {ifSymbol} and {ident}
+<statement>::= if <expression> then <statement> fi | <variable> := <expression>
+```
+
+- However, this is not always an option such as with an if statement that can also accept and else clause, this get around the LL(1) limitation, the grammar must be able to branch out at a specifc
+
+![[Pasted image 20240304195249.png|350|350]]
 ## Recursive error reporting
 - Recursive descent works well with error reporting due to the lack of backtracking, this means errors detected are likely to be recognised close to where they they occurred
 - This is typically done by the `acceptTerminal` function reporting what token it was searching for and what it actually found

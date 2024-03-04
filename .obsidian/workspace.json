@@ -295,7 +295,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/Recursive_descent.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -658,6 +658,7 @@
   },
   "active": "6fe3bfb68896cd3c",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240304195249.png",
     "LinearProgramming/Linear_programming.md",
     "MachineLearning/0-CoursesPart2/StatisticalLearning_book/Linear_regression.md",
     "Languages&Compilation/Recursive_descent.md",
@@ -693,7 +694,6 @@
     "OperatingSystems/Paging.md",
     "Languages&Compilation/Universal_Turing_machines.md",
     "Languages&Compilation/Turing_thesis.md",
-    "Cybersecurity/Advanced_encryption_standard.md",
     "Cybersecurity",
     "Statistics",
     "Languages&Compilation",
