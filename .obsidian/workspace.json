@@ -281,8 +281,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Poisson_distribution.md",
-                "mode": "source",
+                "file": "Statistics/Triangular_distribution.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -500,7 +500,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Poisson_distribution.md"
+                "file": "Statistics/Triangular_distribution.md"
               }
             }
           }
@@ -535,7 +535,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Poisson_distribution.md",
+                "file": "Statistics/Triangular_distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -552,7 +552,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Poisson_distribution.md",
+                "file": "Statistics/Triangular_distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -616,11 +616,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "545efa64fca41f45",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
     "Statistics/PERT_distribution.md",
-    "Statistics/Poisson_distribution.md",
     "Statistics/Triangular_distribution.md",
+    "Statistics/Poisson_distribution.md",
     "Languages&Compilation/Recursive_descent.md",
     "XX-Attachments/Images/Pasted image 20240303232228.png",
     "Languages&Compilation/Subset_construction_algorithm.md",

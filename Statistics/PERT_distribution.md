@@ -23,10 +23,9 @@ ___
 
 
 ## Probability density function
-$$\text{For } a \leq x \leq c: f(x) = \frac{2(x - a)}{(b - a)(c - a)}$$
-
-$$\text{For } c < x \leq b: f(x) = \frac{2(b - x)}{(b - a)(b - c)}$$
+$$f(x; \ a, b, c) = \frac{(x - a)^{\alpha - 1} \cdot (b - x)^{\beta - 1}}{B(\alpha, \beta) \cdot (b - a)^{\alpha + \beta - 1}}$$
+$$\text{where } \alpha = 1 + \frac{4(c - a)}{b - a} \text{ and } \beta = 1 + \frac{4(b - c)}{b - a}, \text{ and } B(\alpha, \beta) \text{ is the Beta function.}$$
 ## Mean
-$$\text{Mean: } \mu = \frac{a + b + c}{3}$$
+$$\text{Mean: } \mu = \frac{a + 4c + b}{6}$$
 ## Variance
-$$\text{Variance: } \sigma^2 = \frac{a^2 + b^2 + c^2 - ab - ac - bc}{18}$$
+$$\text{Variance: } \sigma^2 = \frac{(b - a)^2}{36}$$
