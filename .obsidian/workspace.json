@@ -268,7 +268,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Recursive_descent.md",
+                "file": "Statistics/Triangular_distribution.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -474,7 +474,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Recursive_descent.md"
+                "file": "Statistics/Triangular_distribution.md"
               }
             }
           }
@@ -509,7 +509,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Recursive_descent.md",
+                "file": "Statistics/Triangular_distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -526,7 +526,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Recursive_descent.md",
+                "file": "Statistics/Triangular_distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -592,10 +592,11 @@
   },
   "active": "06c6967f749b3b6a",
   "lastOpenFiles": [
+    "Languages&Compilation/Recursive_descent.md",
+    "Statistics/Triangular_distribution.md",
     "XX-Attachments/Images/Pasted image 20240303232228.png",
     "Languages&Compilation/Subset_construction_algorithm.md",
     "Languages&Compilation/Regular_grammars.md",
-    "Languages&Compilation/Recursive_descent.md",
     "Languages&Compilation/Regular_expression_FSM.md",
     "Languages&Compilation/Pushdown_recogniser.md",
     "Languages&Compilation/Lexical_analyser.md",
@@ -617,7 +618,6 @@
     "XX-Attachments/Images/Pasted image 20240301164055.png",
     "XX-Attachments/Images/Pasted image 20240301163252.png",
     "XX-Attachments/Images/Pasted image 20240229164351.png",
-    "XX-Attachments/Images/Pasted image 20240229164033.png",
     "Languages&Compilation/Interpreter.md",
     "OperatingSystems/Paging.md",
     "Languages&Compilation/Universal_Turing_machines.md",
