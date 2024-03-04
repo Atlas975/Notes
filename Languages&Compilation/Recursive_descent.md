@@ -81,6 +81,7 @@ void acceptTerminal (Token t):
 ```
 
 ## Dangling else problem
+- An ambiguity problem that effects recursive descent, this can result in unintended parsing effects
 - The grammar is not unambiguous, there are two parses of `if E1 then if E2 then S1 else S2`:
 	- `if E1 then { if E2 then S1 else S2 }`
 	- `if E1 then { if E2 then S1 } else S2`
