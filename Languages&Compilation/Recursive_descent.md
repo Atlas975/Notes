@@ -33,8 +33,6 @@ if (nextSymbol is in FIRST(x)) {
     T(x); 
 } // end of if
 ```
-
-
 ## Non-terminal parsing
 - Each NON-TERMINAL roughly has one function to build its part of the parse tree
 - For NON-TERMINAL $X::=\alpha$, the production needs to handle $\alpha$ being one of 4 possibilities:
@@ -43,17 +41,15 @@ if (nextSymbol is in FIRST(x)) {
 
 - Example function that handles an expression that allows terms to be added using + symbol. {} indicates 0+ terms to be added, note functionality can be extended to handle other arithmetic 
 
-
 ```
 <expression> ::= <term> {+<term>} # example grammar rule 
 
 void <expression>(): # emits error handling process
-    <term>() ;
+    <term>() 
     while (nextSymbol == plusSymbol):
-        acceptTerminal (plusSymbol) ;
-        <term>() ;
+        acceptTerminal (plusSymbol) 
+        <term>() 
 ```
-
 ## Recursive descent parse structure
 - Needs to know all possible [[First_sets|first]] terminals / tokens for each non-terminal. This is why Recursive descent is done using [[Syntax_analyser#LL(K) and LR(K) parsers|LL(1)]]  lookahead, this is done using the variable `nextSymbol`
 - This also requires moving the lexical analyser to the next token if a lookahead is accepted 
@@ -63,9 +59,8 @@ void acceptTerminal(t):
     if ( nextSymbol == t )
         get next token from lexical analyser into nextSymbol;
     else
-        report error;
+        report error
 ```
-
 
 ## Recursive error reporting
 - Recursive descent works well with error reporting due to the lack of backtracking, this means errors detected are likely to be recognised close to where they they occurred
@@ -75,9 +70,9 @@ void acceptTerminal(t):
 ```
 void acceptTerminal (Token t):
     if (nextSymbol == t)
-        get next token from lexical analyser into nextSymbol ;
+        get next token from lexical analyser into nextSymbol 
     else
-        report error – expected t, found nextSymbol, at line/char ;
+        report error – expected t, found nextSymbol, at line/char 
 ```
 
 ## Dangling else problem
@@ -85,3 +80,4 @@ void acceptTerminal (Token t):
 - The grammar is not unambiguous, there are two parses of `if E1 then if E2 then S1 else S2`:
 	- `if E1 then { if E2 then S1 else S2 }`
 	- `if E1 then { if E2 then S1 } else S2`
+- In [[Compilers|compiler]] design this must be resolved at the grammar level to ensure predictable and correct interpretation. An end of if token such as a close bracket makes this clear

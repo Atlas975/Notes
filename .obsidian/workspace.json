@@ -295,7 +295,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/Recursive_descent.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -521,7 +521,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -631,11 +632,12 @@
   },
   "active": "6fe3bfb68896cd3c",
   "lastOpenFiles": [
+    "Languages&Compilation/Context_free_grammars.md",
+    "Languages&Compilation/Recursive_descent.md",
     "XX-Attachments/Images/Pasted image 20240304140610.png",
     "Statistics/Triangular_distribution.md",
     "Statistics/PERT_distribution.md",
     "Statistics/Poisson_distribution.md",
-    "Languages&Compilation/Recursive_descent.md",
     "XX-Attachments/Images/Pasted image 20240303232228.png",
     "Languages&Compilation/Subset_construction_algorithm.md",
     "Languages&Compilation/Regular_grammars.md",
@@ -659,7 +661,6 @@
     "XX-Attachments/Images/Pasted image 20240301164306.png",
     "XX-Attachments/Images/Pasted image 20240301164055.png",
     "XX-Attachments/Images/Pasted image 20240301163252.png",
-    "XX-Attachments/Images/Pasted image 20240229164351.png",
     "Languages&Compilation/Interpreter.md",
     "OperatingSystems/Paging.md",
     "Languages&Compilation/Universal_Turing_machines.md",
