@@ -302,6 +302,32 @@
             }
           },
           {
+            "id": "ef48a25998192a32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/0-CoursesPart2/StatisticalLearning_book/Linear_regression.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d76b44c158847bf4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LinearProgramming/Linear_programming.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5e9a9ffacf132925",
             "type": "leaf",
             "state": {
@@ -445,7 +471,7 @@
             }
           }
         ],
-        "currentTab": 22
+        "currentTab": 24
       }
     ],
     "direction": "vertical"
@@ -513,7 +539,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Recursive_descent.md"
+                "file": "LinearProgramming/Linear_programming.md"
               }
             }
           }
@@ -549,7 +575,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Recursive_descent.md",
+                "file": "LinearProgramming/Linear_programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -566,7 +592,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Recursive_descent.md",
+                "file": "LinearProgramming/Linear_programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -630,10 +656,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6fe3bfb68896cd3c",
+  "active": "d76b44c158847bf4",
   "lastOpenFiles": [
-    "Languages&Compilation/Context_free_grammars.md",
+    "MachineLearning/0-CoursesPart2/StatisticalLearning_book/Linear_regression.md",
     "Languages&Compilation/Recursive_descent.md",
+    "Languages&Compilation/Context_free_grammars.md",
     "XX-Attachments/Images/Pasted image 20240304140610.png",
     "Statistics/Triangular_distribution.md",
     "Statistics/PERT_distribution.md",
@@ -667,7 +694,6 @@
     "Languages&Compilation/Turing_thesis.md",
     "Cybersecurity/Advanced_encryption_standard.md",
     "Cybersecurity/Untitled.md",
-    "LinearProgramming/Linear_programming.md",
     "Cybersecurity",
     "Statistics",
     "Languages&Compilation",
