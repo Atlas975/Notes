@@ -282,7 +282,7 @@
               "type": "markdown",
               "state": {
                 "file": "Statistics/Triangular_distribution.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -616,7 +616,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "61b6b073dac95afd",
+  "active": "545efa64fca41f45",
   "lastOpenFiles": [
     "Statistics/PERT_distribution.md",
     "Statistics/Triangular_distribution.md",

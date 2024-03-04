@@ -16,14 +16,20 @@ ___
 - Defined by three parameters: minimum (optimistic) value a, most likely (mode) value c, and  maximum (pessimistic) value b.
 - These three parameters fall in the range $a\leq{c}\leq{b}$
 
+## Mean 
+$$\text{Mean: } \mu = \frac{a + b + c}{3}$$
+
+## Variance 
+$$\text{Variance: } \sigma^2 = \frac{a^2 + b^2 + c^2 - ab - ac - bc}{18}$$
+
 ## Probability density function 
 $$\text{For } a \leq x \leq c: f(x) = \frac{2(x - a)}{(b - a)(c - a)}$$
 
 
 $$\text{For } c < x \leq b: f(x) = \frac{2(b - x)}{(b - a)(b - c)}$$
 
-## Mean 
-$$\text{Mean: } \mu = \frac{a + b + c}{3}$$
 
-## Variance 
-$$\text{Variance: } \sigma^2 = \frac{a^2 + b^2 + c^2 - ab - ac - bc}{18}$$
+## Cumulative distribution function 
+$$\text{For } x < a: \ \ \ F(x) = 0 $$
+$$\text{For } x > b: \ \ \ F(x) = 1 $$
+$$\text{For } a \leq x \leq c: \ \ \ F(x) = \frac{(x - a)^2}{(b - a)(c - a)} $$$$\text{For } c < x \leq b: \ \ \  F(x) = 1 - \frac{(b - x)^2}{(b - a)(b - c)}$$
