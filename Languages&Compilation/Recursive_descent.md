@@ -37,12 +37,19 @@ acceptTerminal(t):
 
 
 ## Extended BNF recursive 
-- Some versions of BNF are extended, so that {x} means zero or more repetitions of x
-- Then this would be transformed to:
+- Some versions of BNF are extended, so that $\{ X \}$ means zero or more repetitions of $X$:
 ```
 while (nextSymbol is in FIRST(x)) { 
     T(x); 
 } // end of while
+```
+
+- Similarly $[X]$ means zero or one occurrence of $X$ in some extensions of BNF:
+
+```
+if (nextSymbol is in FIRST(x)) { 
+    T(x); 
+} // end of if
 ```
 ## Dangling else problem
 - The grammar is not unambiguous, there are two parses of `if E1 then if E2 then S1 else S2`:
