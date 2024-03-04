@@ -23,6 +23,8 @@ ___
 - For NON-TERMINAL $X::=\alpha$, the production needs to handle $\alpha$ being one of 4 possibilities:
 
 ![[Pasted image 20240303232228.png|450|450]]
+
+- Example function that handles an expression that allows terms to be added (this can be extended) 
 ## Recursive descent parse structure
 - Needs to know all possible [[First_sets|first]] terminals / tokens for each non-terminal. This is why Recursive descent is done using [[Syntax_analyser#LL(K) and LR(K) parsers|LL(1)]]  lookahead, this is done using the variable `nextSymbol`
 - This also requires moving the lexical analyser to the next token if a lookahead is accepted 
@@ -34,22 +36,27 @@ acceptTerminal(t):
     else
         report error;
 ```
-
-
 ## Extended BNF recursive 
-- Some versions of BNF are extended, so that $\{ X \}$ means zero or more repetitions of $X$:
+- Some versions of BNF are extended, so that $\{ X \}$ means 0+ repetitions of $X$:
 ```
 while (nextSymbol is in FIRST(x)) { 
     T(x); 
 } // end of while
 ```
 
-- Similarly $[X]$ means zero or one occurrence of $X$ in some extensions of BNF:
+- Similarly $[X]$ means 0/1 occurrence of $X$ in some extensions of BNF:
 
 ```
 if (nextSymbol is in FIRST(x)) { 
     T(x); 
 } // end of if
+```
+
+
+## Main method 
+
+```
+
 ```
 ## Dangling else problem
 - The grammar is not unambiguous, there are two parses of `if E1 then if E2 then S1 else S2`:
