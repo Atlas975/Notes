@@ -295,7 +295,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/Recursive_descent.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -684,9 +684,9 @@
   },
   "active": "33a06a9887aad831",
   "lastOpenFiles": [
-    "Languages&Compilation/Formal_languages.md",
-    "Languages&Compilation/Left_recursion.md",
     "Languages&Compilation/Recursive_descent.md",
+    "Languages&Compilation/Left_recursion.md",
+    "Languages&Compilation/Formal_languages.md",
     "Statistics/Triangular_distribution.md",
     "XX-Attachments/Images/Pasted image 20240304195249.png",
     "LinearProgramming/Linear_programming.md",

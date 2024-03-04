@@ -21,7 +21,7 @@ ___
 - Take the following grammar for example: 
 
 $$A\to Av \ | \ u$$
-- This can be transformed into:
+- This can be transformed into (with equivalent functions):
 
 $$A\to uB$$
 ```
@@ -31,28 +31,19 @@ void A():
 ```
 $$B\to vB \ | \ \epsilon$$
 ```
-void B()
-    switch (nextSymbol)
-        case vSymbol :
-            acceptTerminal (vSymbol) ;
-            B(); break ;
-        case FOLLOW(B) :
-    break ; // i.e. do nothing 
-    } // end of switch
-    } // end of method B
+void B():
+    switch (nextSymbol):
+        case vSymbol:
+            acceptTerminal (vSymbol)
+            B(); break
+        case FOLLOW(B): # checks for null terminal, allows rule to be sactioned
+            break // i.e. do nothing 
 ```
-- Both grammars will generate the same sentence (`u{v}+`) but the grammar now needs to be able to sanction a null production
+- Both grammars will generate the same sentence (`u{v}+`) but the grammar now needs to be able to sanction a null production using FOLLOW
+- Note in order for this to be an LL(1) grammar to work with a recursive descent  parser, the following condition must also apply for NON-TERMINAL X
 
+$$\text{For NON-TERMINAL}\ X: \ \text{FIRST}(X)\ \cap \ \text{FOLLOW}(X)= \emptyset$$
 
-```
-switch (nextSymbol):
-    case FIRST(a1):
-        T(a1); break 
-    case FIRST(a2):
-        T(an); break
-    case FOLLOW(X): # Checks for null terminal, allows rule to be sactioned
-        break # i.e. do nothing 
-```
 ## Left recursion types 
 
 - **Immediate Left Recursion**: recursion occurs directly, like in `A → Aα`.

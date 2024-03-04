@@ -29,10 +29,12 @@ while (nextSymbol is in FIRST(x)) {
 - Similarly $[X]$ means 0/1 occurrence of $X$ in some extensions of BNF:
 
 ```
-if (nextSymbol is in FIRST(x)) { 
+if (nextSymbol is in FIRST(x)) {  
     T(x); 
 } // end of if
 ```
+
+- A recursive descent parser requires that a grammar must be [[Syntax_analyser#LL(K) and LR(K) parsers|LL(1)]] and using BNF without extensions. However, rules can be reformatted to deal with extended BNF
 ## Non-terminal parsing
 - Each NON-TERMINAL roughly has one function to build its part of the parse tree
 - For NON-TERMINAL $X::=\alpha$, the production needs to handle $\alpha$ being one of 4 possibilities:
@@ -46,7 +48,7 @@ if (nextSymbol is in FIRST(x)) {
 
 void <expression>(): # emits error handling process
     <term>() 
-    while (nextSymbol == plusSymbol):
+    while (nextSymbol == plusSymbol): # a + symbol is needed in order to iterate
         acceptTerminal (plusSymbol) 
         <term>() 
 ```
@@ -63,7 +65,7 @@ void acceptTerminal(t):
         report error
 ```
 
-### Recursive descent main method 
+### Recursive descent main method
 - The main method used to get parsing started typically takes the following form:
 
 ```
@@ -74,7 +76,7 @@ report success
 ```
 
 
-## Left factoring 
+## Left factoring
 - When dealing with grammar rules with multiple alternatives, LL(1) lookahead is used to determine what to do next 
 - This means the **FIRST** set of all alternatives (a | b | c) must be disjoint to avoid ambiguity
 
