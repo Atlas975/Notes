@@ -107,4 +107,26 @@ void acceptTerminal (Token t):
 - The grammar is not unambiguous, there are two parses of `if E1 then if E2 then S1 else S2`:
 	- `if E1 then { if E2 then S1 else S2 }`
 	- `if E1 then { if E2 then S1 } else S2`
+
+![[Pasted image 20240304214508.png|350|350]]
+
 - In [[Compilers|compiler]] design this must be resolved at the grammar level to ensure predictable and correct interpretation. An end of if token such as a close bracket makes this clear
+- The following function can be used to define `if E1 then {if E2 then S1 else S2}` explicitly:
+
+```
+<statement> ::= if <expression> then <statement> [ else <statement> ] # production
+
+void <statement>()
+    if ifSymbol:
+        acceptTerminal (ifSymbol) 
+        <expression>() 
+        acceptTerminal (thenSymbol)
+        <statement>() 
+        if (nextSymbol == elseSymbol):
+            acceptTerminal (elseSymbol)
+            <statement>()
+    else:
+        report error
+```
+
+- This should be encoded by the grammar rather than the parser, but this assumes that any dangling else belongs to the innermost if

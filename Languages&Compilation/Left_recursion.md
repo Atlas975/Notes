@@ -40,9 +40,9 @@ void B():
             break // i.e. do nothing 
 ```
 - Both grammars will generate the same sentence (`u{v}+`) but the grammar now needs to be able to sanction a null production using FOLLOW
-- Note in order for this to be an LL(1) grammar to work with a recursive descent  parser, the following condition must also apply for NON-TERMINAL X
+- Note in order for this to be an LL(1) grammar to work with a recursive descent  parser, the following condition must also apply for NON-TERMINAL X:
 
-$$\text{For NON-TERMINAL}\ X: \ \text{FIRST}(X)\ \cap \ \text{FOLLOW}(X)= \emptyset$$
+$$\text{FIRST}(X)\ \cap \ \text{FOLLOW}(X)= \emptyset$$
 
 ## Left recursion types 
 
