@@ -269,7 +269,33 @@
               "type": "markdown",
               "state": {
                 "file": "Statistics/Triangular_distribution.md",
-                "mode": "preview",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "545efa64fca41f45",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Poisson_distribution.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5e9a9ffacf132925",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/PERT_distribution.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -406,7 +432,7 @@
             }
           }
         ],
-        "currentTab": 20
+        "currentTab": 21
       }
     ],
     "direction": "vertical"
@@ -474,7 +500,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Triangular_distribution.md"
+                "file": "Statistics/Poisson_distribution.md"
               }
             }
           }
@@ -509,7 +535,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Triangular_distribution.md",
+                "file": "Statistics/Poisson_distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -526,7 +552,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Triangular_distribution.md",
+                "file": "Statistics/Poisson_distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -590,10 +616,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "06c6967f749b3b6a",
+  "active": "545efa64fca41f45",
   "lastOpenFiles": [
-    "Languages&Compilation/Recursive_descent.md",
+    "Statistics/PERT_distribution.md",
+    "Statistics/Poisson_distribution.md",
     "Statistics/Triangular_distribution.md",
+    "Languages&Compilation/Recursive_descent.md",
     "XX-Attachments/Images/Pasted image 20240303232228.png",
     "Languages&Compilation/Subset_construction_algorithm.md",
     "Languages&Compilation/Regular_grammars.md",
@@ -627,8 +655,6 @@
     "LinearProgramming/Linear_programming.md",
     "Cybersecurity",
     "DistributedSystems/Byzantine_generals_problem.md",
-    "Languages&Compilation/Turing_machine.md",
-    "Languages&Compilation/Unrestricted_grammars.md",
     "Statistics",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
