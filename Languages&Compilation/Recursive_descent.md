@@ -35,6 +35,15 @@ acceptTerminal(t):
         report error;
 ```
 
+
+## Extended BNF recursive 
+- Some versions of BNF are extended, so that {x} means zero or more repetitions of x
+- Then this would be transformed to:
+```
+while (nextSymbol is in FIRST(x)) { 
+    T(x); 
+} // end of while
+```
 ## Dangling else problem
 - The grammar is not unambiguous, there are two parses of `if E1 then if E2 then S1 else S2`:
 	- `if E1 then { if E2 then S1 else S2 }`

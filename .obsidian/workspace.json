@@ -282,7 +282,20 @@
               "type": "markdown",
               "state": {
                 "file": "Statistics/Triangular_distribution.md",
-                "mode": "source",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6fe3bfb68896cd3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Recursive_descent.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -432,7 +445,7 @@
             }
           }
         ],
-        "currentTab": 21
+        "currentTab": 22
       }
     ],
     "direction": "vertical"
@@ -500,7 +513,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Triangular_distribution.md"
+                "file": "Languages&Compilation/Recursive_descent.md"
               }
             }
           }
@@ -535,7 +548,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Triangular_distribution.md",
+                "file": "Languages&Compilation/Recursive_descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -552,7 +565,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Triangular_distribution.md",
+                "file": "Languages&Compilation/Recursive_descent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -616,10 +629,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "545efa64fca41f45",
+  "active": "6fe3bfb68896cd3c",
   "lastOpenFiles": [
-    "Statistics/PERT_distribution.md",
     "Statistics/Triangular_distribution.md",
+    "Statistics/PERT_distribution.md",
     "Statistics/Poisson_distribution.md",
     "Languages&Compilation/Recursive_descent.md",
     "XX-Attachments/Images/Pasted image 20240303232228.png",
