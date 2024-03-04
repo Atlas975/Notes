@@ -302,6 +302,32 @@
             }
           },
           {
+            "id": "a38f35a80e059cc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Formal_languages.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "33a06a9887aad831",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Left_recursion.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ef48a25998192a32",
             "type": "leaf",
             "state": {
@@ -471,7 +497,7 @@
             }
           }
         ],
-        "currentTab": 22
+        "currentTab": 24
       }
     ],
     "direction": "vertical"
@@ -539,7 +565,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Recursive_descent.md"
+                "file": "Languages&Compilation/Left_recursion.md"
               }
             }
           }
@@ -547,8 +573,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -575,7 +600,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Recursive_descent.md",
+                "file": "Languages&Compilation/Left_recursion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -592,7 +617,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Recursive_descent.md",
+                "file": "Languages&Compilation/Left_recursion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -656,10 +681,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "de535cae24f335b3",
+  "active": "33a06a9887aad831",
   "lastOpenFiles": [
-    "Statistics/Triangular_distribution.md",
+    "Languages&Compilation/Formal_languages.md",
+    "Languages&Compilation/Left_recursion.md",
     "Languages&Compilation/Recursive_descent.md",
+    "Statistics/Triangular_distribution.md",
     "XX-Attachments/Images/Pasted image 20240304195249.png",
     "LinearProgramming/Linear_programming.md",
     "MachineLearning/0-CoursesPart2/StatisticalLearning_book/Linear_regression.md",
@@ -678,7 +705,6 @@
     "Languages&Compilation/Compilers.md",
     "Languages&Compilation/Context_sensitive_grammars.md",
     "Languages&Compilation/First_sets.md",
-    "Languages&Compilation/Formal_languages.md",
     "Languages&Compilation/Halting_problem.md",
     "Languages&Compilation/Language_translator.md",
     "Languages&Compilation/Follow_sets.md",
