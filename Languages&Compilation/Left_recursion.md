@@ -12,7 +12,22 @@
 ___
 # Left recursion
 
-- Occurs in a [[Formal_languages|grammar]] when a NON-TERMINAL appears on the LHS of a rule and is also the leftmost symbol on the right-hand side of a rule.
+- Occurs in a [[Formal_languages|grammar]] when a NON-TERMINAL appears on the LHS of a rule and is also the leftmost symbol on the RHS of a rule.
+- Take `A -> Av | u`, the terminal u is the FIRST set for both Av and u so a [[Recursive_descent|recursive descent parser]] cannot handle this directly. Trying to do so would result in infinite recursion
+- Left recursion needs to be eliminated or transformed to work with these kinds of parsers
 
 
-$$A\to Av \ | \ u\implies A\to uB, \ B\to vB \ | \ \epsilon$$
+## Eliminating left recursion 
+- Take the following grammar for example: 
+
+$$A\to Av \ | \ u$$
+- This can be transformed into:
+
+$$A\to uB$$
+$$B\to vB \ | \ \epsilon$$
+- Both grammars will generate the same sentence (`u{v}+`)
+
+## Left recursion types 
+
+- **Immediate Left Recursion**: recursion occurs directly, like in `A → Aα`.
+- **Indirect Left Recursion**: recursion is not direct and involves several rules, like `A → Bα` and `B → Aβ`.

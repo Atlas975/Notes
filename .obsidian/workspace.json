@@ -321,7 +321,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/Left_recursion.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -573,7 +573,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
