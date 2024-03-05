@@ -565,7 +565,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Recursive_descent.md"
+                "file": "Languages&Compilation/Untitled.md"
               }
             }
           }
@@ -600,7 +600,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Recursive_descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -617,7 +616,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Recursive_descent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -681,15 +679,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "33a06a9887aad831",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
+    "Languages&Compilation/Recursive_descent.md",
+    "Languages&Compilation/Untitled.md",
     "XX-Attachments/Images/Pasted image 20240304214508.png",
     "Languages&Compilation/Lexical_analyser.md",
     "Languages&Compilation/Halting_problem.md",
     "Languages&Compilation/Context_sensitive_grammars.md",
     "Languages&Compilation/Chomsky_hierarchy.md",
     "Languages&Compilation/Left_recursion.md",
-    "Languages&Compilation/Recursive_descent.md",
     "Languages&Compilation/Formal_languages.md",
     "Statistics/Triangular_distribution.md",
     "XX-Attachments/Images/Pasted image 20240304195249.png",
@@ -716,7 +715,6 @@
     "Languages&Compilation/Finite_state_transducer.md",
     "XX-Attachments/Images/Pasted image 20240301164351.png",
     "XX-Attachments/Images/Pasted image 20240301164306.png",
-    "XX-Attachments/Images/Pasted image 20240301164055.png",
     "Languages&Compilation/Interpreter.md",
     "OperatingSystems/Paging.md",
     "Cybersecurity",
