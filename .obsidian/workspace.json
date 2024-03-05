@@ -328,6 +328,16 @@
             }
           },
           {
+            "id": "23d38fe8b0b3a1d3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
+          },
+          {
             "id": "ef48a25998192a32",
             "type": "leaf",
             "state": {
@@ -497,7 +507,7 @@
             }
           }
         ],
-        "currentTab": 24
+        "currentTab": 25
       }
     ],
     "direction": "vertical"
@@ -681,7 +691,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "33a06a9887aad831",
+  "active": "23d38fe8b0b3a1d3",
   "lastOpenFiles": [
     "XX-Attachments/Images/Pasted image 20240304214508.png",
     "Languages&Compilation/Lexical_analyser.md",
