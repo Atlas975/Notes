@@ -320,7 +320,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Recursive_descent.md",
+                "file": "Languages&Compilation/Left_recursion.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -565,7 +565,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Untitled.md"
+                "file": "Languages&Compilation/Left_recursion.md"
               }
             }
           }
@@ -600,6 +600,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Languages&Compilation/Left_recursion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -616,6 +617,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Languages&Compilation/Left_recursion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -679,9 +681,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "61b6b073dac95afd",
+  "active": "33a06a9887aad831",
   "lastOpenFiles": [
     "Languages&Compilation/Recursive_descent.md",
+    "Languages&Compilation/Regular_grammars.md",
     "Languages&Compilation/Untitled.md",
     "XX-Attachments/Images/Pasted image 20240304214508.png",
     "Languages&Compilation/Lexical_analyser.md",
@@ -700,7 +703,6 @@
     "Statistics/Poisson_distribution.md",
     "XX-Attachments/Images/Pasted image 20240303232228.png",
     "Languages&Compilation/Subset_construction_algorithm.md",
-    "Languages&Compilation/Regular_grammars.md",
     "Languages&Compilation/Regular_expression_FSM.md",
     "Languages&Compilation/Pushdown_recogniser.md",
     "XX-Attachments/Images/Pasted image 20240303164608.png",
