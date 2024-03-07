@@ -328,6 +328,19 @@
             }
           },
           {
+            "id": "acbe7a28888d0862",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Bayes_theorem.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ef48a25998192a32",
             "type": "leaf",
             "state": {
@@ -497,7 +510,7 @@
             }
           }
         ],
-        "currentTab": 24
+        "currentTab": 25
       }
     ],
     "direction": "vertical"
@@ -565,7 +578,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Recursive_descent.md"
+                "file": "Statistics/Bayes_theorem.md"
               }
             }
           }
@@ -601,7 +614,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Recursive_descent.md",
+                "file": "Statistics/Bayes_theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -618,7 +631,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Recursive_descent.md",
+                "file": "Statistics/Bayes_theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -682,12 +695,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "33a06a9887aad831",
+  "active": "acbe7a28888d0862",
   "lastOpenFiles": [
+    "Languages&Compilation/Recursive_descent.md",
     "Languages&Compilation/Regular_expression_FSM.md",
     "Languages&Compilation/Pushdown_recogniser.md",
     "Languages&Compilation/Left_recursion.md",
-    "Languages&Compilation/Recursive_descent.md",
     "Languages&Compilation/Regular_grammars.md",
     "Languages&Compilation/Untitled.md",
     "XX-Attachments/Images/Pasted image 20240304214508.png",
