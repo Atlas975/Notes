@@ -341,6 +341,19 @@
             }
           },
           {
+            "id": "f8a84eaecc187dd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Bessels_correction.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ef48a25998192a32",
             "type": "leaf",
             "state": {
@@ -510,7 +523,7 @@
             }
           }
         ],
-        "currentTab": 25
+        "currentTab": 26
       }
     ],
     "direction": "vertical"
@@ -578,7 +591,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Bayes_theorem.md"
+                "file": "Statistics/Bessels_correction.md"
               }
             }
           }
@@ -586,8 +599,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -614,7 +626,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Bayes_theorem.md",
+                "file": "Statistics/Bessels_correction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -631,7 +643,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Bayes_theorem.md",
+                "file": "Statistics/Bessels_correction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -695,8 +707,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "acbe7a28888d0862",
+  "active": "f8a84eaecc187dd0",
   "lastOpenFiles": [
+    "Statistics/Event_independence.md",
+    "Statistics/Mean.md",
+    "Statistics/PERT_distribution.md",
+    "Statistics/Poisson_distribution.md",
+    "Statistics/Bessels_correction.md",
+    "Statistics/Bayes_theorem.md",
+    "Statistics/Triangular_distribution.md",
+    "MachineLearning/0-GeneralConcepts/Probability_basics.md",
     "Languages&Compilation/Recursive_descent.md",
     "Languages&Compilation/Regular_expression_FSM.md",
     "Languages&Compilation/Pushdown_recogniser.md",
@@ -709,30 +729,22 @@
     "Languages&Compilation/Context_sensitive_grammars.md",
     "Languages&Compilation/Chomsky_hierarchy.md",
     "Languages&Compilation/Formal_languages.md",
-    "Statistics/Triangular_distribution.md",
     "XX-Attachments/Images/Pasted image 20240304195249.png",
     "LinearProgramming/Linear_programming.md",
     "MachineLearning/0-CoursesPart2/StatisticalLearning_book/Linear_regression.md",
     "Languages&Compilation/Context_free_grammars.md",
     "XX-Attachments/Images/Pasted image 20240304140610.png",
-    "Statistics/PERT_distribution.md",
-    "Statistics/Poisson_distribution.md",
     "XX-Attachments/Images/Pasted image 20240303232228.png",
     "Languages&Compilation/Subset_construction_algorithm.md",
     "XX-Attachments/Images/Pasted image 20240303164608.png",
     "Languages&Compilation/Syntax_analyser.md",
     "Languages&Compilation/Compilers.md",
     "Languages&Compilation/First_sets.md",
-    "Languages&Compilation/Language_translator.md",
-    "Languages&Compilation/Follow_sets.md",
     "XX-Attachments/Images/Pasted image 20240302214844.png",
     "XX-Attachments/Images/Pasted image 20240302214525.png",
     "XX-Attachments/Images/Pasted image 20240302212447.png",
-    "Languages&Compilation/Finite_state_transducer.md",
     "XX-Attachments/Images/Pasted image 20240301164351.png",
     "XX-Attachments/Images/Pasted image 20240301164306.png",
-    "Languages&Compilation/Interpreter.md",
-    "OperatingSystems/Paging.md",
     "Cybersecurity",
     "Statistics",
     "Languages&Compilation",
