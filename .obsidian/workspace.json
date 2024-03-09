@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f8e0dd395f24d7a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LinearProgramming/Linear_programming.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/Annualised_loss_expectancy.md"
+                "file": "LinearProgramming/Linear_programming.md"
               }
             }
           }
@@ -123,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/Annualised_loss_expectancy.md",
+                "file": "LinearProgramming/Linear_programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/Annualised_loss_expectancy.md",
+                "file": "LinearProgramming/Linear_programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,8 +218,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f0b0301e403d5d76",
+  "active": "f8e0dd395f24d7a6",
   "lastOpenFiles": [
+    "Cybersecurity/Annualised_loss_expectancy.md",
     "Languages&Compilation/Unrestricted_grammars.md",
     "SoftwareDesign/Finite_state_machines.md",
     "Languages&Compilation/Finite_state_transducer.md",
@@ -219,7 +234,6 @@
     "Statistics/PERT_distribution.md",
     "LinearProgramming/Linear_programming.md",
     "MachineLearning/0-CoursesPart2/StatisticalLearning_book/Linear_regression.md",
-    "Cybersecurity/Annualised_loss_expectancy.md",
     "Statistics/Bayes_theorem.md",
     "Languages&Compilation/Recursive_descent.md",
     "Statistics/Triangular_distribution.md",
