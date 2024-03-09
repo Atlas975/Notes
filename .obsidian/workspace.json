@@ -4,526 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "476b1548c06453d6",
+        "id": "d55e2bf55a1de894",
         "type": "tabs",
         "children": [
           {
-            "id": "1f83ce08db3c14f5",
+            "id": "f0b0301e403d5d76",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Unrestricted_grammars.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e882b2607cfc930b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Context_free_grammars.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d8406752e8cd4a89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/Input&Output_systems.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7656bb00262a7cef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Context_sensitive_grammars.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4c20a9f10a963629",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cybersecurity/Advanced_encryption_standard.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1d39e9e89580173c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Universal_Turing_machines.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b4b216b2df8498f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Halting_problem.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5c7baf280d53ef63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Language_translator.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a21ef61ac1573889",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Language_translator.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e95c54375fff8fa7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Compilers.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "276b16fb4f44abad",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "1bedf37690038b32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Syntax_analyser.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "10778df8cbe7e7b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Regular_grammars.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3d9c824a24f92fbf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Formal_languages.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4ea208a1513a3585",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/First_sets.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d19bcd7cbf403cc9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/First_sets.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b5be2780bd8ca621",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/First_sets.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d8a30831485393c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Follow_sets.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c0457daf6dbbb6c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Regular_grammars.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ae42d718407e0a99",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Subset_construction_algorithm.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "06c6967f749b3b6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/Triangular_distribution.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "545efa64fca41f45",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/Triangular_distribution.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "de535cae24f335b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Recursive_descent.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a38f35a80e059cc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Formal_languages.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "33a06a9887aad831",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Recursive_descent.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "acbe7a28888d0862",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/Bayes_theorem.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f8a84eaecc187dd0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cybersecurity/Untitled.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ef48a25998192a32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-CoursesPart2/StatisticalLearning_book/Linear_regression.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d76b44c158847bf4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LinearProgramming/Linear_programming.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5e9a9ffacf132925",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/PERT_distribution.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "69e2599997253db7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Regular_expression_FSM.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5cd529d19c22260d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Regular_grammars.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9e26c904fceb64b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Formal_languages.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "62df11ffeea71905",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Interpreter.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "42016505f1f0ea47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/Paging.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ae54435670d3d3da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Turing_thesis.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "69180187dd95a65e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Turing_machine.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "011a4f0685bab20b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Finite_state_transducer.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a4e27b02e7ee5f1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SoftwareDesign/Finite_state_machines.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0d791ed2566180af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Unrestricted_grammars.md",
+                "file": "Cybersecurity/Annualised_loss_expectancy.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 26
+        ]
       }
     ],
     "direction": "vertical"
@@ -591,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/Untitled.md"
+                "file": "Cybersecurity/Annualised_loss_expectancy.md"
               }
             }
           }
@@ -626,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/Untitled.md",
+                "file": "Cybersecurity/Annualised_loss_expectancy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -643,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/Untitled.md",
+                "file": "Cybersecurity/Annualised_loss_expectancy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -707,40 +204,40 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f8a84eaecc187dd0",
+  "active": "f0b0301e403d5d76",
   "lastOpenFiles": [
-    "Cybersecurity/Advanced_encryption_standard.md",
-    "Cybersecurity/Untitled.md",
-    "Statistics/Bessels_correction.md",
-    "Statistics/Untitled",
-    "Statistics/Event_independence.md",
-    "Statistics/Mean.md",
-    "Statistics/PERT_distribution.md",
-    "Statistics/Poisson_distribution.md",
-    "Statistics/Bayes_theorem.md",
-    "Statistics/Triangular_distribution.md",
-    "MachineLearning/0-GeneralConcepts/Probability_basics.md",
-    "Languages&Compilation/Recursive_descent.md",
-    "Languages&Compilation/Regular_expression_FSM.md",
-    "Languages&Compilation/Pushdown_recogniser.md",
-    "Languages&Compilation/Left_recursion.md",
-    "Languages&Compilation/Regular_grammars.md",
-    "Languages&Compilation/Untitled.md",
-    "XX-Attachments/Images/Pasted image 20240304214508.png",
-    "Languages&Compilation/Lexical_analyser.md",
-    "Languages&Compilation/Halting_problem.md",
-    "Languages&Compilation/Context_sensitive_grammars.md",
-    "Languages&Compilation/Chomsky_hierarchy.md",
+    "Languages&Compilation/Unrestricted_grammars.md",
+    "SoftwareDesign/Finite_state_machines.md",
+    "Languages&Compilation/Finite_state_transducer.md",
+    "Languages&Compilation/Turing_machine.md",
+    "Languages&Compilation/Turing_thesis.md",
+    "OperatingSystems/Paging.md",
+    "Languages&Compilation/Interpreter.md",
     "Languages&Compilation/Formal_languages.md",
-    "XX-Attachments/Images/Pasted image 20240304195249.png",
+    "Languages&Compilation/Regular_grammars.md",
+    "Languages&Compilation/Regular_expression_FSM.md",
+    "Statistics/PERT_distribution.md",
     "LinearProgramming/Linear_programming.md",
     "MachineLearning/0-CoursesPart2/StatisticalLearning_book/Linear_regression.md",
-    "Languages&Compilation/Context_free_grammars.md",
+    "Cybersecurity/Annualised_loss_expectancy.md",
+    "Statistics/Bayes_theorem.md",
+    "Languages&Compilation/Recursive_descent.md",
+    "Statistics/Triangular_distribution.md",
+    "Languages&Compilation/Subset_construction_algorithm.md",
+    "Languages&Compilation/Follow_sets.md",
+    "Languages&Compilation/First_sets.md",
+    "Languages&Compilation/Syntax_analyser.md",
+    "Languages&Compilation/Compilers.md",
+    "Languages&Compilation/Language_translator.md",
+    "Languages&Compilation/Halting_problem.md",
+    "Languages&Compilation/Universal_Turing_machines.md",
+    "Cybersecurity/Advanced_encryption_standard.md",
+    "Statistics/Untitled",
+    "XX-Attachments/Images/Pasted image 20240304214508.png",
+    "XX-Attachments/Images/Pasted image 20240304195249.png",
     "XX-Attachments/Images/Pasted image 20240304140610.png",
     "XX-Attachments/Images/Pasted image 20240303232228.png",
-    "Languages&Compilation/Subset_construction_algorithm.md",
     "XX-Attachments/Images/Pasted image 20240303164608.png",
-    "Languages&Compilation/Syntax_analyser.md",
     "XX-Attachments/Images/Pasted image 20240302214844.png",
     "XX-Attachments/Images/Pasted image 20240302214525.png",
     "XX-Attachments/Images/Pasted image 20240302212447.png",
