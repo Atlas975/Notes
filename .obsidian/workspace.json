@@ -346,8 +346,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Bessels_correction.md",
-                "mode": "preview",
+                "file": "Cybersecurity/Untitled.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -591,7 +591,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Bessels_correction.md"
+                "file": "Cybersecurity/Untitled.md"
               }
             }
           }
@@ -626,7 +626,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Bessels_correction.md",
+                "file": "Cybersecurity/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -643,7 +643,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Bessels_correction.md",
+                "file": "Cybersecurity/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -709,11 +709,14 @@
   },
   "active": "f8a84eaecc187dd0",
   "lastOpenFiles": [
+    "Cybersecurity/Advanced_encryption_standard.md",
+    "Cybersecurity/Untitled.md",
+    "Statistics/Bessels_correction.md",
+    "Statistics/Untitled",
     "Statistics/Event_independence.md",
     "Statistics/Mean.md",
     "Statistics/PERT_distribution.md",
     "Statistics/Poisson_distribution.md",
-    "Statistics/Bessels_correction.md",
     "Statistics/Bayes_theorem.md",
     "Statistics/Triangular_distribution.md",
     "MachineLearning/0-GeneralConcepts/Probability_basics.md",
@@ -738,8 +741,6 @@
     "Languages&Compilation/Subset_construction_algorithm.md",
     "XX-Attachments/Images/Pasted image 20240303164608.png",
     "Languages&Compilation/Syntax_analyser.md",
-    "Languages&Compilation/Compilers.md",
-    "Languages&Compilation/First_sets.md",
     "XX-Attachments/Images/Pasted image 20240302214844.png",
     "XX-Attachments/Images/Pasted image 20240302214525.png",
     "XX-Attachments/Images/Pasted image 20240302212447.png",
@@ -753,7 +754,6 @@
     "MachineLearning/FeatureSelectionMetrics",
     "NaturalLanguageProcessing",
     "DistributedSystems",
-    "MachineLearning/ArtificialIntelligence",
-    "MediaCoding&Processing"
+    "MachineLearning/ArtificialIntelligence"
   ]
 }
