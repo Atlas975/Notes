@@ -13,6 +13,9 @@ ___
 # Linear programming
 - Linear programming is a mathematical optimisation technique used to find the best outcome in a mathematical model with linear relationships, subject to a set of constraints.
 - It involves maximising or minimising a linear objective function while satisfying linear equality and inequality constraints, often represented as a system of linear equations and inequalities.
+
+
+![[Pasted image 20240309205713.png|250|250]]
 ## Linear Programming terms
 - **Objective Function:** The main aim of the problem, either to maximise of to minimise.
 - **Decision Variables:** The variables used to decide the output as decision variables. They are the unknowns of the mathematical programming model.
