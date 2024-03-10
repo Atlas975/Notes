@@ -32,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0f2d111343b578cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Bayes_theorem.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LinearProgramming/Linear_programming.md"
+                "file": "Statistics/Bayes_theorem.md"
               }
             }
           }
@@ -137,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LinearProgramming/Linear_programming.md",
+                "file": "Statistics/Bayes_theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LinearProgramming/Linear_programming.md",
+                "file": "Statistics/Bayes_theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,8 +231,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f8e0dd395f24d7a6",
+  "active": "0f2d111343b578cf",
   "lastOpenFiles": [
+    "LinearProgramming/Linear_programming.md",
     "XX-Attachments/Images/Pasted image 20240309205713.png",
     "Cybersecurity/Annualised_loss_expectancy.md",
     "Languages&Compilation/Unrestricted_grammars.md",
@@ -233,7 +247,6 @@
     "Languages&Compilation/Regular_grammars.md",
     "Languages&Compilation/Regular_expression_FSM.md",
     "Statistics/PERT_distribution.md",
-    "LinearProgramming/Linear_programming.md",
     "MachineLearning/0-CoursesPart2/StatisticalLearning_book/Linear_regression.md",
     "Statistics/Bayes_theorem.md",
     "Languages&Compilation/Recursive_descent.md",
@@ -256,7 +269,6 @@
     "XX-Attachments/Images/Pasted image 20240302214525.png",
     "XX-Attachments/Images/Pasted image 20240302212447.png",
     "XX-Attachments/Images/Pasted image 20240301164351.png",
-    "XX-Attachments/Images/Pasted image 20240301164306.png",
     "Cybersecurity",
     "Statistics",
     "Languages&Compilation",
