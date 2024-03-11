@@ -47,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Bayes_theorem.md"
+                "file": "LinearProgramming/Linear_programming.md"
               }
             }
           }
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Bayes_theorem.md",
+                "file": "LinearProgramming/Linear_programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Bayes_theorem.md",
+                "file": "LinearProgramming/Linear_programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,8 +231,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0f2d111343b578cf",
+  "active": "f8e0dd395f24d7a6",
   "lastOpenFiles": [
+    "Statistics/Bayes_theorem.md",
     "LinearProgramming/Linear_programming.md",
     "XX-Attachments/Images/Pasted image 20240309205713.png",
     "Cybersecurity/Annualised_loss_expectancy.md",
@@ -248,7 +249,6 @@
     "Languages&Compilation/Regular_expression_FSM.md",
     "Statistics/PERT_distribution.md",
     "MachineLearning/0-CoursesPart2/StatisticalLearning_book/Linear_regression.md",
-    "Statistics/Bayes_theorem.md",
     "Languages&Compilation/Recursive_descent.md",
     "Statistics/Triangular_distribution.md",
     "Languages&Compilation/Subset_construction_algorithm.md",
