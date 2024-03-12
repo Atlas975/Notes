@@ -47,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LinearProgramming/Linear_programming.md"
+                "file": "Statistics/Bayes_theorem.md"
               }
             }
           }
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LinearProgramming/Linear_programming.md",
+                "file": "Statistics/Bayes_theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LinearProgramming/Linear_programming.md",
+                "file": "Statistics/Bayes_theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,10 +231,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f8e0dd395f24d7a6",
+  "active": "0f2d111343b578cf",
   "lastOpenFiles": [
-    "Statistics/Bayes_theorem.md",
     "LinearProgramming/Linear_programming.md",
+    "Statistics/Bayes_theorem.md",
     "XX-Attachments/Images/Pasted image 20240309205713.png",
     "Cybersecurity/Annualised_loss_expectancy.md",
     "Languages&Compilation/Unrestricted_grammars.md",
