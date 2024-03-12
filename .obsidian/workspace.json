@@ -45,9 +45,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c19ef10e2bf5f822",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ContinuousMath/Catalan_numbers.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -115,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Bayes_theorem.md"
+                "file": "ContinuousMath/Catalan_numbers.md"
               }
             }
           }
@@ -150,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Bayes_theorem.md",
+                "file": "ContinuousMath/Catalan_numbers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Bayes_theorem.md",
+                "file": "ContinuousMath/Catalan_numbers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,10 +244,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0f2d111343b578cf",
+  "active": "c19ef10e2bf5f822",
   "lastOpenFiles": [
-    "LinearProgramming/Linear_programming.md",
     "Statistics/Bayes_theorem.md",
+    "LinearProgramming/Linear_programming.md",
     "XX-Attachments/Images/Pasted image 20240309205713.png",
     "Cybersecurity/Annualised_loss_expectancy.md",
     "Languages&Compilation/Unrestricted_grammars.md",
