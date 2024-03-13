@@ -26,7 +26,7 @@ ___
 - Recursion is best used when a problem can be solved utilising solutions to smaller versions of the same problem, and the smaller versions reduce to easily solvable cases. 
 - Useful for [[Backtracking]] and [[Tree_algorithms|Tree trasveral]]
 ## Iterative vs recursive approach
-![[Pasted image 20220303120603.png|550|550]]
+![[Pasted image 20220303120603.png|450|450]]
 
 
 ## Head recursion 
