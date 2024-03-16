@@ -11,3 +11,9 @@
 
 ___
 # Bottom-up parsing
+- Work by reducing a [[Formal_languages#Sentence|sentence]] to the sentence symbol by applying productions of the grammar
+- Done via a **parse stack**, each symbol read is immediately placed on the top of the stack 
+
+
+## Bottom-up parsing process 
+

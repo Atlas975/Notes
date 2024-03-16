@@ -78,8 +78,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Recursive_descent.md",
+                "file": "Languages&Compilation/Regular_expression_FSM.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f81b54ecc5c29d1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Turing_machine.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -99,6 +112,19 @@
             }
           },
           {
+            "id": "e2373cba8e6f8872",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Recursive_descent.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c19ef10e2bf5f822",
             "type": "leaf",
             "state": {
@@ -112,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -180,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Recursive_descent.md"
+                "file": "Languages&Compilation/Bottom-up_parsing.md"
               }
             }
           }
@@ -216,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Recursive_descent.md",
+                "file": "Languages&Compilation/Bottom-up_parsing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -233,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Recursive_descent.md",
+                "file": "Languages&Compilation/Bottom-up_parsing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -297,35 +323,35 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8601b246a6802d9a",
+  "active": "e7bffa141604afe6",
   "lastOpenFiles": [
+    "Languages&Compilation/Turing_machine.md",
+    "Languages&Compilation/Regular_expression_FSM.md",
+    "Languages&Compilation/Unrestricted_grammars.md",
+    "Languages&Compilation/Subset_construction_algorithm.md",
+    "Languages&Compilation/Pushdown_recogniser.md",
+    "Languages&Compilation/Language_translator.md",
+    "Languages&Compilation/Context_free_grammars.md",
+    "Languages&Compilation/Finite_state_transducer.md",
+    "Languages&Compilation/First_sets.md",
+    "Languages&Compilation/Follow_sets.md",
+    "Languages&Compilation/Formal_languages.md",
+    "Languages&Compilation/Left_recursion.md",
+    "Languages&Compilation/Regular_grammars.md",
     "Languages&Compilation/Bottom-up_parsing.md",
     "Languages&Compilation/Recursive_descent.md",
+    "Languages&Compilation/Turing_thesis.md",
+    "Languages&Compilation/Universal_Turing_machines.md",
+    "Languages&Compilation/Interpreter.md",
+    "Languages&Compilation/Compilers.md",
+    "Languages&Compilation/Chomsky_hierarchy.md",
+    "Languages&Compilation/Halting_problem.md",
+    "Languages&Compilation/Lexical_analyser.md",
     "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
     "SoftwareEngineering/Recursion.md",
     "Statistics/Bayes_theorem.md",
     "ContinuousMath/Catalan_numbers.md",
-    "LinearProgramming/Linear_programming.md",
     "XX-Attachments/Images/Pasted image 20240309205713.png",
-    "Cybersecurity/Annualised_loss_expectancy.md",
-    "Languages&Compilation/Unrestricted_grammars.md",
-    "SoftwareDesign/Finite_state_machines.md",
-    "Languages&Compilation/Finite_state_transducer.md",
-    "Languages&Compilation/Turing_machine.md",
-    "Languages&Compilation/Turing_thesis.md",
-    "OperatingSystems/Paging.md",
-    "Languages&Compilation/Interpreter.md",
-    "Languages&Compilation/Formal_languages.md",
-    "Languages&Compilation/Regular_grammars.md",
-    "Languages&Compilation/Regular_expression_FSM.md",
-    "Statistics/PERT_distribution.md",
-    "MachineLearning/0-CoursesPart2/StatisticalLearning_book/Linear_regression.md",
-    "Statistics/Triangular_distribution.md",
-    "Languages&Compilation/Subset_construction_algorithm.md",
-    "Languages&Compilation/Follow_sets.md",
-    "Languages&Compilation/First_sets.md",
-    "Languages&Compilation/Syntax_analyser.md",
-    "Languages&Compilation/Compilers.md",
     "Statistics/Untitled",
     "XX-Attachments/Images/Pasted image 20240304214508.png",
     "XX-Attachments/Images/Pasted image 20240304195249.png",
