@@ -105,7 +105,54 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/Bottom-up_parsing.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b13bb9034fe4349c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Syntax_analyser.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6ee877a9144d543f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Left_recursion.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7163e29d8beca0a5",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "4c46a59d332d5eb8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/LR(0)_parsing.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -138,7 +185,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -206,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Bottom-up_parsing.md"
+                "file": "Languages&Compilation/LR(0)_parsing.md"
               }
             }
           }
@@ -214,8 +261,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -242,7 +288,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Bottom-up_parsing.md",
+                "file": "Languages&Compilation/LR(0)_parsing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +305,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Bottom-up_parsing.md",
+                "file": "Languages&Compilation/LR(0)_parsing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -323,45 +369,45 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e7bffa141604afe6",
+  "active": "4c46a59d332d5eb8",
   "lastOpenFiles": [
+    "Languages&Compilation/Bottom-up_parsing.md",
+    "Languages&Compilation/LR(0)_parsing.md",
+    "Languages&Compilation/Left_recursion.md",
+    "Languages&Compilation/Lexical_analyser.md",
+    "Languages&Compilation/Syntax_analyser.md",
+    "Languages&Compilation/Subset_construction_algorithm.md",
+    "Languages&Compilation/Turing_thesis.md",
+    "Languages&Compilation/Regular_grammars.md",
+    "Languages&Compilation/Regular_expression_FSM.md",
+    "Languages&Compilation/Recursive_descent.md",
+    "Languages&Compilation/Pushdown_recogniser.md",
+    "Languages&Compilation/Language_translator.md",
+    "Languages&Compilation/Interpreter.md",
+    "Languages&Compilation/Halting_problem.md",
+    "Languages&Compilation/Formal_languages.md",
+    "Languages&Compilation/Follow_sets.md",
+    "Languages&Compilation/First_sets.md",
+    "Languages&Compilation/Finite_state_transducer.md",
+    "Languages&Compilation/Context_sensitive_grammars.md",
+    "Languages&Compilation/Context_free_grammars.md",
+    "Languages&Compilation/Chomsky_hierarchy.md",
+    "Languages&Compilation/Compilers.md",
+    "Languages&Compilation/Universal_Turing_machines.md",
+    "Languages&Compilation/Unrestricted_grammars.md",
     "XX-Attachments/Images/Pasted image 20240316200141.png",
     "XX-Attachments/Images/Pasted image 20240316200108.png",
     "XX-Attachments/Images/Pasted image 20240316200046.png",
     "XX-Attachments/Images/Pasted image 20240316195517.png",
     "XX-Attachments/Images/Pasted image 20240316195109.png",
     "Languages&Compilation/Turing_machine.md",
-    "Languages&Compilation/Regular_expression_FSM.md",
-    "Languages&Compilation/Unrestricted_grammars.md",
-    "Languages&Compilation/Subset_construction_algorithm.md",
-    "Languages&Compilation/Pushdown_recogniser.md",
-    "Languages&Compilation/Language_translator.md",
-    "Languages&Compilation/Context_free_grammars.md",
-    "Languages&Compilation/Finite_state_transducer.md",
-    "Languages&Compilation/First_sets.md",
-    "Languages&Compilation/Follow_sets.md",
-    "Languages&Compilation/Formal_languages.md",
-    "Languages&Compilation/Left_recursion.md",
-    "Languages&Compilation/Regular_grammars.md",
-    "Languages&Compilation/Bottom-up_parsing.md",
-    "Languages&Compilation/Recursive_descent.md",
-    "Languages&Compilation/Turing_thesis.md",
-    "Languages&Compilation/Universal_Turing_machines.md",
-    "Languages&Compilation/Interpreter.md",
-    "Languages&Compilation/Compilers.md",
-    "Languages&Compilation/Chomsky_hierarchy.md",
-    "Languages&Compilation/Halting_problem.md",
-    "Languages&Compilation/Lexical_analyser.md",
     "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
-    "SoftwareEngineering/Recursion.md",
-    "Statistics/Bayes_theorem.md",
     "XX-Attachments/Images/Pasted image 20240309205713.png",
     "Statistics/Untitled",
     "XX-Attachments/Images/Pasted image 20240304214508.png",
     "XX-Attachments/Images/Pasted image 20240304195249.png",
     "XX-Attachments/Images/Pasted image 20240304140610.png",
     "XX-Attachments/Images/Pasted image 20240303232228.png",
-    "XX-Attachments/Images/Pasted image 20240303164608.png",
     "Cybersecurity",
     "Statistics",
     "Languages&Compilation",

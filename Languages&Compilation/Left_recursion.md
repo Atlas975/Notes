@@ -17,7 +17,7 @@ ___
 - Left recursion needs to be eliminated or transformed to work with these kinds of parsers
 
 
-## Eliminating left recursion 
+## Eliminating left recursion
 - Take the following grammar for example: 
 
 $$A\to Av \ | \ u$$
@@ -44,7 +44,7 @@ void B():
 
 $$\text{FIRST}(X)\ \cap \ \text{FOLLOW}(X)= \emptyset$$
 
-## Left recursion types 
+## Left recursion types
 
 - **Immediate Left Recursion**: recursion occurs directly, like in `A → Aα`.
 - **Indirect Left Recursion**: recursion is not direct and involves several rules, like `A → Bα` and `B → Aβ`.
