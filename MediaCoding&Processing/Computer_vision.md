@@ -18,10 +18,10 @@ ___
 - In image processing, a convolution is the process of transforming an image by applying a kernel to each pixel. A kernel in this context being a matrix of values whose size and values determine the transformation effect of the convolution process
 - A kernel is vital in compressing an image into an easier and less computationally expensive version of itself to operate on
 
-![[Pasted image 20220621135608.png|350|350]]
+![[Pasted image 20220621135608.png|250|250]]
 
 ## Padding
-- Padding prevents information from the images edges from being lost, useful for allowing a deeper [[Convolutional_networks| CNN]], example of padding=1
+- Prevents information from the images edges from being lost, useful for allowing a deeper [[Convolutional_networks| CNN]]
 
 ![[Pasted image 20220621141454.png|550|550]]
 
@@ -38,11 +38,11 @@ ___
 ## Kernel output dimensions:
 - Valid convolution (no padding):
 
-> $[n-f+1,n-f+1]$
+ $$\text{Valid convolution (no padding)}= [n-f+1,n-f+1]$$
 
-- With padding
+- With padding:
 
-> $[n+2p-f+1,n+2p-f+1]$
+$$[n+2p-f+1,n+2p-f+1]$$
 
 - With increased stride size
 

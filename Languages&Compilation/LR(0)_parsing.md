@@ -11,7 +11,7 @@
 
 ___
 # LR(0) Parsing
-- A [[Bottom-up_parsing|botttom-up parser]] with no lookahead, consists of the following components: 
+- A [[Bottom-up_parsing|bottom-up parser]] with no lookahead, consists of the following components: 
 	- **Input buffer**: holds string to be passed
 	- **Stack**: keeps a list of states it has been in 
 	- **Action table**: guides parser on to the next state based on current state  and the terminal / NON-TERMINAL that was read 

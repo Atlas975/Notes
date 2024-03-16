@@ -151,8 +151,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/LR(0)_parsing.md",
-                "mode": "source",
+                "file": "MediaCoding&Processing/Computer_vision.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -253,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/LR(0)_parsing.md"
+                "file": "MediaCoding&Processing/Computer_vision.md"
               }
             }
           }
@@ -288,7 +288,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/LR(0)_parsing.md",
+                "file": "MediaCoding&Processing/Computer_vision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -305,7 +305,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/LR(0)_parsing.md",
+                "file": "MediaCoding&Processing/Computer_vision.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -371,8 +371,9 @@
   },
   "active": "4c46a59d332d5eb8",
   "lastOpenFiles": [
-    "Languages&Compilation/Bottom-up_parsing.md",
+    "MediaCoding&Processing/Categorical_data_handeling.md",
     "Languages&Compilation/LR(0)_parsing.md",
+    "Languages&Compilation/Bottom-up_parsing.md",
     "Languages&Compilation/Left_recursion.md",
     "Languages&Compilation/Lexical_analyser.md",
     "Languages&Compilation/Syntax_analyser.md",
@@ -401,7 +402,6 @@
     "XX-Attachments/Images/Pasted image 20240316195517.png",
     "XX-Attachments/Images/Pasted image 20240316195109.png",
     "Languages&Compilation/Turing_machine.md",
-    "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
     "XX-Attachments/Images/Pasted image 20240309205713.png",
     "Statistics/Untitled",
     "XX-Attachments/Images/Pasted image 20240304214508.png",
