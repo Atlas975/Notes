@@ -38,7 +38,7 @@ ___
 ## Kernel output dimensions:
 - Valid convolution (no padding):
 
- $$\text{Valid convolution (no padding)}= [n-f+1,n-f+1]$$
+ $$[n-f+1,n-f+1]$$
 
 - With padding:
 
