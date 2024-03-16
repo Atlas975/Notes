@@ -13,6 +13,11 @@ ___
 # Bottom-up parsing
 - Reduces a [[Formal_languages#Sentence|sentence]] to the sentence symbol by applying productions of the grammar
 - Done via a **parse stack**, each symbol read is immediately placed on the top of the stack 
+
+## Parse stack operations 
+- **Shift**: symbol is read and pushed to stack 
+- **Reduce**: top `n` elements are replaced by a non-terminal of the grammar
+
 ## Bottom-up parsing process
 
 - The following example grammar will be used: 
@@ -32,4 +37,12 @@ $$(4) \ \text{ID} \to A|B|C|D$$
 
 ![[Pasted image 20240316195517.png|350|350]]
 
-3. The tokens `real` and `IDLIST` cannot be merged to become the distig
+3. The tokens `real` and `IDLIST` cannot be merged to become the distinguished symbol `S` unless there are no more tokens to parse, there is more to read so this cannot take place. Once the final symbols `,C` have been processed this can occur:
+
+
+![[Pasted image 20240316200108.png|250|250]]
+![[Pasted image 20240316200141.png|250|250]]
+
+4. The parse stops in two scenarios:  when the distinguished symbol `S` is reached or when there are no more reductions left to do after finished reading (input is invalid)
+-  While the parser should ideally be deterministic, it can be left ambiguous weather SHIFT or REDUCE are to be used (shown in step 3) in this case a lookahead is needed to recognise that there are more symbols to parse without halting by reducing to `S`
+- 
