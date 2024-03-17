@@ -35,23 +35,19 @@ ___
 
 ![[Pasted image 20220621142807.png|450|450]]
 
-## Kernel output dimensions:
+## Kernel output dimensions
 - Valid convolution (no padding):
 
  $$[n-f+1,n-f+1]$$
 
-- With padding:
+- With padding
 
 $$[n+2p-f+1,n+2p-f+1]$$
 
 - With increased stride size
 
-> $\text{floor}(\left[ \frac{n+2p-f}{s}+1,\frac{n+2p-f}{s}+1 \right])$
+$$\text{floor}(\left[ \frac{n+2p-f}{s}+1,\frac{n+2p-f}{s}+1 \right])$$
 
-- With multiple channels
-
-> $\text{floor}(\left[ \frac{n+2p-f}{s}+1,\frac{n+2p-f}{s}+1 \right])\times{nc}$
-> $\text{note that nc is the same as the number of filters}$
 
 ## Pooling layers
 - Pooling layers offer another kind of image processing, operates the same way as a convolution but without a kernel with cell values. These are a useful layer for collapsing a network

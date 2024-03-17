@@ -25,7 +25,7 @@ ___
 - When both columns change AND the change in one tell us more about what's going on in the other, then the PMI value will be larger
 ## PMI formula
 
->$$PMI=\sum_{x \in X}\sum_{y \in Y} \mathbb{P}(x,y)\log\left[ \frac{\mathbb{P}(x,y)}{\mathbb{P}(x)\mathbb{P}(y)} \right]$$
+$$PMI=\sum_{x \in X}\sum_{y \in Y} \mathbb{P}(x,y)\log\left[ \frac{\mathbb{P}(x,y)}{\mathbb{P}(x)\mathbb{P}(y)} \right]$$
 
 - The two summations exist to indicate that all possible combinations for two columns are considered (the product of the two vectors
 
