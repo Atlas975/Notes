@@ -27,12 +27,10 @@ $$\text{Grey-value}=0.299 \color{red}R\color{white}+0.587\color{lime}G\color{whi
 
 ## Binary images
 - Consist of only two colours, typically black and white, represented by two pixel values (0 for black and 1 for white, or vice versa), simplifying the image data significantly.
-- Widely used in applications like document scanning, shape analysis, and pattern recognition, where the focus is on the structure or outline of objects
-- Conversion from uses a threshold function:
+- Widely used in applications like document scanning, shape analysis, and pattern recognition, where the focus is on the structure or outline of objects  
 
-
-
-$$$$
+$$\text{Binary}=1 \text{ if Grey-value}> T \text{ else }0$$
+$$T=\text{threshold where Grey-value is closer to white than black}$$
 ## YCbCR
 - Decomposes images into a luminance component (Y) for brightness and two chrominance components (Cb for blue-difference and Cr for red-difference) for colour information.
 - This allows for the intensity component to be modified directly, used extensively in video compression and broadcasting for efficient data transmission.
