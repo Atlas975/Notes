@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding&Processing/Image_processing.md",
+                "file": "MediaCoding&Processing/IntensityTransforms/Piecewise_linear_transform.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding&Processing/Image_processing.md"
+                "file": "MediaCoding&Processing/IntensityTransforms/Piecewise_linear_transform.md"
               }
             }
           }
@@ -202,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding&Processing/Image_processing.md",
+                "file": "MediaCoding&Processing/IntensityTransforms/Piecewise_linear_transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding&Processing/Image_processing.md",
+                "file": "MediaCoding&Processing/IntensityTransforms/Piecewise_linear_transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -285,8 +285,11 @@
   },
   "active": "171e421e376297aa",
   "lastOpenFiles": [
-    "MediaCoding&Processing/Colour_models.md",
+    "XX-Attachments/Images/Pasted image 20240317230137.png",
     "MediaCoding&Processing/Image_processing.md",
+    "MediaCoding&Processing/IntensityTransforms/Piecewise_linear_transform.md",
+    "MediaCoding&Processing/IntensityTransforms",
+    "MediaCoding&Processing/Colour_models.md",
     "MediaCoding&Processing/Media_coding&processing.md",
     "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
     "MachineLearning/FeatureSelectionMetrics/F_score.md",
@@ -309,8 +312,6 @@
     "Languages&Compilation/Regular_expression_FSM.md",
     "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
     "SoftwareEngineering/Recursion.md",
-    "Cybersecurity/Annualised_loss_expectancy.md",
-    "LinearProgramming/Linear_programming.md",
     "XX-Attachments/Images/Pasted image 20240316200141.png",
     "XX-Attachments/Images/Pasted image 20240316200108.png",
     "XX-Attachments/Images/Pasted image 20240316200046.png",
@@ -329,7 +330,6 @@
     "MachineLearning/FeatureEngineering",
     "MachineLearning/FeatureSelectionMetrics",
     "NaturalLanguageProcessing",
-    "DistributedSystems",
-    "MachineLearning/ArtificialIntelligence"
+    "DistributedSystems"
   ]
 }
