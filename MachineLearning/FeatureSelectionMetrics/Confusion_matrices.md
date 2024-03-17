@@ -31,13 +31,15 @@ $$\frac{TP}{TP + FN}$$
 $$\frac{TN}{TN+FP}$$
 
 ## Precision
-- Proportion of positive outcomes to positive outcomes (too many false scares)
+- Proportion of true positive outcomes to positive outcomes (too many false scares if low)
 
 $$\frac{TP}{TP+FP}$$
 
 ## Negative predicted value
-- Proportion of truly negative outcomes to predicted negative (too many missed cases)
+- Proportion of truly negative outcomes to predicted negative (too many missed cases if low)
 
 $$\frac{TN}{TN+FN}$$
 
-## F1 score
+## F-score 
+- A single metric that balances both **precision** and **recall**, this is useful as trying to increase either of the metrics often has a tradeoff with the other. 
+- This may be more informative than accuracy 

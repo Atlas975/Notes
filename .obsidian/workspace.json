@@ -13,8 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
+                "file": "MachineLearning/FeatureSelectionMetrics/F_score.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "158d2f27cbf28968",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -46,7 +59,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_selection.md"
+                "file": "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md"
               }
             }
           }
@@ -149,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
+                "file": "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
+                "file": "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,17 +244,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4c46a59d332d5eb8",
+  "active": "158d2f27cbf28968",
   "lastOpenFiles": [
-    "MachineLearning/GeneticAlgorithms/Mutation.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "MachineLearning/FeatureSelectionMetrics/F_score.md",
+    "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
     "MachineLearning/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
     "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md",
-    "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
+    "MachineLearning/GeneticAlgorithms/Mutation.md",
     "MediaCoding&Processing/Categorical_data_handeling.md",
     "MediaCoding&Processing/Computer_vision.md",
     "MediaCoding&Processing/Convolutional_networks.md",
