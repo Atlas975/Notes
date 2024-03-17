@@ -40,6 +40,8 @@ $$\frac{TP}{TP+FP}$$
 
 $$\frac{TN}{TN+FN}$$
 
-## F-score 
-- A single metric that balances both **precision** and **recall**, this is useful as trying to increase either of the metrics often has a tradeoff with the other. 
-- This may be more informative than accuracy 
+## F-score
+- A single metric that balances both **precision** and **recall**, this is useful as trying to increase either of the metrics often has a tradeoff with the other.  This uses a [[Mean#Harmonic mean|harmonic mean]] of the two 
+
+$$  2 \cdot\frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}$$
+- This may be more informative than accuracy in cases such as dataset imbalance eg. making only one prediction may result in high accuracy, but a F-score will give a more realistic measurement of a models effectiveness
