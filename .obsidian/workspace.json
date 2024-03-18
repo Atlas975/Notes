@@ -117,7 +117,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Gradient_descent.md",
+                "file": "MediaCoding&Processing/Media_coding&processing.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2b861f0a786990d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/Computer_memory.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -219,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Gradient_descent.md"
+                "file": "MediaCoding&Processing/Media_coding&processing.md"
               }
             }
           }
@@ -254,7 +267,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Gradient_descent.md",
+                "file": "MediaCoding&Processing/Media_coding&processing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +284,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Gradient_descent.md",
+                "file": "MediaCoding&Processing/Media_coding&processing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -337,11 +350,19 @@
   },
   "active": "6b407b3789bffac2",
   "lastOpenFiles": [
+    "MediaCoding&Processing/Edge_detection.md",
+    "MediaCoding&Processing/Detection_algorithms.md",
+    "MediaCoding&Processing/Convolutional_networks.md",
+    "MediaCoding&Processing/Computer_vision.md",
+    "MediaCoding&Processing/IntensityTransforms/Bit-plane_slicing.md",
+    "XX-Attachments/Images/Pasted image 20240318192347.png",
+    "XX-Attachments/Images/Pasted image 20240318192031.png",
+    "XX-Attachments/Images/Pasted image 20240318191546.png",
+    "OperatingSystems/Computer_memory.md",
+    "MachineLearning/Gradient_descent.md",
     "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/Activation_functions.md",
-    "MediaCoding&Processing/Edge_detection.md",
-    "MediaCoding&Processing/Detection_algorithms.md",
     "MediaCoding&Processing/IntensityTransforms/Gamma_transform.md",
     "MediaCoding&Processing/IntensityTransforms/Image_negatives.md",
     "MediaCoding&Processing/IntensityTransforms/Log_transform.md",
@@ -353,9 +374,6 @@
     "XX-Attachments/Images/Pasted image 20240318185719.png",
     "XX-Attachments/Images/Pasted image 20240318185704.png",
     "XX-Attachments/Images/Pasted image 20240318185647.png",
-    "XX-Attachments/Images/Pasted image 20240318185617.png",
-    "XX-Attachments/Images/Pasted image 20240318185242.png",
-    "XX-Attachments/Images/Pasted image 20240318185229.png",
     "MediaCoding&Processing/Colour_models.md",
     "MediaCoding&Processing/Image_processing.md",
     "MediaCoding&Processing/IntensityTransforms",
@@ -369,11 +387,6 @@
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
     "MachineLearning/GeneticAlgorithms/Mutation.md",
-    "MediaCoding&Processing/Computer_vision.md",
-    "MediaCoding&Processing/Convolutional_networks.md",
-    "Languages&Compilation/Left_recursion.md",
-    "Languages&Compilation/Syntax_analyser.md",
-    "Languages&Compilation/Bottom-up_parsing.md",
     "Statistics/Untitled",
     "Cybersecurity",
     "Statistics",
