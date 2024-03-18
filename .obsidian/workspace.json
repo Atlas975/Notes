@@ -104,7 +104,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding&Processing/IntensityTransforms/Piecewise_linear_transform.md",
+                "file": "MediaCoding&Processing/IntensityTransforms/Image_negatives.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6b407b3789bffac2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Gradient_descent.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -138,7 +151,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -206,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding&Processing/IntensityTransforms/Piecewise_linear_transform.md"
+                "file": "MachineLearning/Gradient_descent.md"
               }
             }
           }
@@ -241,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding&Processing/IntensityTransforms/Piecewise_linear_transform.md",
+                "file": "MachineLearning/Gradient_descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -258,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding&Processing/IntensityTransforms/Piecewise_linear_transform.md",
+                "file": "MachineLearning/Gradient_descent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -322,23 +335,28 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e81ea72665c7dada",
+  "active": "6b407b3789bffac2",
   "lastOpenFiles": [
-    "XX-Attachments/Images/Pasted image 20240318185617.png",
+    "MachineLearning/Categorical_data_handeling.md",
+    "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/Activation_functions.md",
+    "MediaCoding&Processing/Edge_detection.md",
+    "MediaCoding&Processing/Detection_algorithms.md",
+    "MediaCoding&Processing/IntensityTransforms/Gamma_transform.md",
     "MediaCoding&Processing/IntensityTransforms/Image_negatives.md",
     "MediaCoding&Processing/IntensityTransforms/Log_transform.md",
     "MediaCoding&Processing/IntensityTransforms/Piecewise_linear_transform.md",
+    "XX-Attachments/Images/Pasted image 20240318190524.png",
+    "XX-Attachments/Images/Pasted image 20240318190206.png",
+    "XX-Attachments/Images/Pasted image 20240318185745.png",
+    "XX-Attachments/Images/Pasted image 20240318185728.png",
+    "XX-Attachments/Images/Pasted image 20240318185719.png",
+    "XX-Attachments/Images/Pasted image 20240318185704.png",
+    "XX-Attachments/Images/Pasted image 20240318185647.png",
+    "XX-Attachments/Images/Pasted image 20240318185617.png",
     "XX-Attachments/Images/Pasted image 20240318185242.png",
     "XX-Attachments/Images/Pasted image 20240318185229.png",
-    "XX-Attachments/Images/Pasted image 20240318185003.png",
-    "XX-Attachments/Images/Pasted image 20240318184842.png",
-    "XX-Attachments/Images/Pasted image 20240318184748.png",
     "MediaCoding&Processing/Colour_models.md",
-    "XX-Attachments/Images/Pasted image 20240317230955.png",
-    "XX-Attachments/Images/Pasted image 20240317230724.png",
-    "XX-Attachments/Images/Pasted image 20240317230706.png",
-    "XX-Attachments/Images/Pasted image 20240317230448.png",
-    "XX-Attachments/Images/Pasted image 20240317230137.png",
     "MediaCoding&Processing/Image_processing.md",
     "MediaCoding&Processing/IntensityTransforms",
     "MediaCoding&Processing/Media_coding&processing.md",
@@ -351,16 +369,11 @@
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
     "MachineLearning/GeneticAlgorithms/Mutation.md",
-    "MediaCoding&Processing/Categorical_data_handeling.md",
     "MediaCoding&Processing/Computer_vision.md",
     "MediaCoding&Processing/Convolutional_networks.md",
-    "MediaCoding&Processing/Detection_algorithms.md",
-    "MediaCoding&Processing/Edge_detection.md",
     "Languages&Compilation/Left_recursion.md",
     "Languages&Compilation/Syntax_analyser.md",
     "Languages&Compilation/Bottom-up_parsing.md",
-    "Languages&Compilation/Turing_machine.md",
-    "Languages&Compilation/Regular_expression_FSM.md",
     "Statistics/Untitled",
     "Cybersecurity",
     "Statistics",
