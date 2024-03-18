@@ -16,7 +16,7 @@ ___
 
 ![[Pasted image 20240318195059.png|350|350]]
 
-- Note that images cannot be reconstructed by a histogram as different images can have the same histogram distribution
+- Note that images cannot be reconstructed by a histogram as multiple images can have the same histogram distribution. This technique does not impact shape patterns in an image
 - Histograms convey no information on the spatial distribution of pixels with a certain grey level.
 
 ![[Pasted image 20240318195626.png|350|350]]
@@ -29,6 +29,6 @@ ___
 def histogram_equalisation(intensity_channel):
     histogram = accumarray(intensity_channel) 
     cdf = cumsum(histogram) / n 
-    equalised_intensity = cdf[intensity_channel] * MAX_INTENSITY 
+    equalised_intensity = floor(cdf[intensity_channel] * MAX_INTENSITY)
     return equalised_intensity
 ```
