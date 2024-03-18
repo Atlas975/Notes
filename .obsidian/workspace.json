@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding&Processing/IntensityTransforms/Log_transform.md",
+                "file": "MediaCoding&Processing/Colour_models.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding&Processing/IntensityTransforms/Log_transform.md"
+                "file": "MediaCoding&Processing/Colour_models.md"
               }
             }
           }
@@ -188,8 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -216,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding&Processing/IntensityTransforms/Log_transform.md",
+                "file": "MediaCoding&Processing/Colour_models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -233,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding&Processing/IntensityTransforms/Log_transform.md",
+                "file": "MediaCoding&Processing/Colour_models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -299,11 +298,11 @@
   },
   "active": "0d490c7a509b6417",
   "lastOpenFiles": [
+    "MediaCoding&Processing/IntensityTransforms/Piecewise_linear_transform.md",
+    "MediaCoding&Processing/IntensityTransforms/Log_transform.md",
     "XX-Attachments/Images/Pasted image 20240317230955.png",
     "XX-Attachments/Images/Pasted image 20240317230724.png",
     "XX-Attachments/Images/Pasted image 20240317230706.png",
-    "MediaCoding&Processing/IntensityTransforms/Piecewise_linear_transform.md",
-    "MediaCoding&Processing/IntensityTransforms/Log_transform.md",
     "XX-Attachments/Images/Pasted image 20240317230448.png",
     "XX-Attachments/Images/Pasted image 20240317230137.png",
     "MediaCoding&Processing/Image_processing.md",
@@ -335,7 +334,6 @@
     "XX-Attachments/Images/Pasted image 20240316200046.png",
     "XX-Attachments/Images/Pasted image 20240316195517.png",
     "XX-Attachments/Images/Pasted image 20240316195109.png",
-    "XX-Attachments/Images/Pasted image 20240309205713.png",
     "Statistics/Untitled",
     "Cybersecurity",
     "Statistics",
