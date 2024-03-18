@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding&Processing/Media_coding&processing.md",
+                "file": "MediaCoding/Media_coding.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding&Processing/Colour_models.md",
+                "file": "MediaCoding/Colour_models.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding&Processing/IntensityTransforms/Piecewise_linear_transform.md",
+                "file": "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding&Processing/IntensityTransforms/Log_transform.md",
+                "file": "MediaCoding/IntensityTransforms/Log_transform.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding&Processing/IntensityTransforms/Log_transform.md",
+                "file": "MediaCoding/IntensityTransforms/Log_transform.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding&Processing/IntensityTransforms/Image_negatives.md",
+                "file": "MediaCoding/IntensityTransforms/Image_negatives.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -117,8 +117,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding&Processing/Media_coding&processing.md",
-                "mode": "preview",
+                "file": "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -232,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding&Processing/Media_coding&processing.md"
+                "file": "MediaCoding/IntensityTransforms/Histogram_equalisation.md"
               }
             }
           }
@@ -267,7 +267,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding&Processing/Media_coding&processing.md",
+                "file": "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,7 +284,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding&Processing/Media_coding&processing.md",
+                "file": "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -350,11 +350,17 @@
   },
   "active": "6b407b3789bffac2",
   "lastOpenFiles": [
-    "MediaCoding&Processing/Edge_detection.md",
-    "MediaCoding&Processing/Detection_algorithms.md",
-    "MediaCoding&Processing/Convolutional_networks.md",
-    "MediaCoding&Processing/Computer_vision.md",
-    "MediaCoding&Processing/IntensityTransforms/Bit-plane_slicing.md",
+    "MediaCoding/Computer_vision.md",
+    "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
+    "MediaCoding/Colour_models.md",
+    "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
+    "MediaCoding/Convolutional_networks.md",
+    "MediaCoding/Detection_algorithms.md",
+    "MediaCoding/Image_processing.md",
+    "MediaCoding/Media_coding.md",
+    "MediaCoding/IntensityTransforms/Log_transform.md",
+    "MediaCoding/Edge_detection.md",
+    "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
     "XX-Attachments/Images/Pasted image 20240318192347.png",
     "XX-Attachments/Images/Pasted image 20240318192031.png",
     "XX-Attachments/Images/Pasted image 20240318191546.png",
@@ -363,10 +369,8 @@
     "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/Activation_functions.md",
-    "MediaCoding&Processing/IntensityTransforms/Gamma_transform.md",
-    "MediaCoding&Processing/IntensityTransforms/Image_negatives.md",
-    "MediaCoding&Processing/IntensityTransforms/Log_transform.md",
-    "MediaCoding&Processing/IntensityTransforms/Piecewise_linear_transform.md",
+    "MediaCoding/IntensityTransforms/Gamma_transform.md",
+    "MediaCoding/IntensityTransforms/Image_negatives.md",
     "XX-Attachments/Images/Pasted image 20240318190524.png",
     "XX-Attachments/Images/Pasted image 20240318190206.png",
     "XX-Attachments/Images/Pasted image 20240318185745.png",
@@ -374,10 +378,7 @@
     "XX-Attachments/Images/Pasted image 20240318185719.png",
     "XX-Attachments/Images/Pasted image 20240318185704.png",
     "XX-Attachments/Images/Pasted image 20240318185647.png",
-    "MediaCoding&Processing/Colour_models.md",
-    "MediaCoding&Processing/Image_processing.md",
-    "MediaCoding&Processing/IntensityTransforms",
-    "MediaCoding&Processing/Media_coding&processing.md",
+    "MediaCoding/IntensityTransforms",
     "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
     "MachineLearning/FeatureSelectionMetrics/F_score.md",
     "MachineLearning/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
@@ -386,7 +387,6 @@
     "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
-    "MachineLearning/GeneticAlgorithms/Mutation.md",
     "Statistics/Untitled",
     "Cybersecurity",
     "Statistics",

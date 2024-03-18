@@ -1,6 +1,6 @@
 > [!important]- Metadata
 > **Tags:** #MediaEncoding 
-> **Located:** MediaEncoding
+> **Located:** MediaCoding&Processing
 > **Created:** 12/10/2023 - 08:44
 > ```dataviewjs
 > let f = dv.current().file;
@@ -10,7 +10,7 @@
 > ```
 
 ___
-# Media coding and processing
+# Media coding
 - **Media coding**: how media is encoded within the digital domain
 - **Media processing**: how additional information can be generated through processing 
 
