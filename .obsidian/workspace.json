@@ -143,8 +143,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Filters/Sharpening_filter.md",
-                "mode": "source",
+                "file": "MediaCoding/Convolutional_networks.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8787bc881be36f49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Edge_detection.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -190,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -258,7 +271,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Filters/Sharpening_filter.md"
+                "file": "MediaCoding/Edge_detection.md"
               }
             }
           }
@@ -293,7 +306,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Filters/Sharpening_filter.md",
+                "file": "MediaCoding/Edge_detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -310,7 +323,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Filters/Sharpening_filter.md",
+                "file": "MediaCoding/Edge_detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -374,10 +387,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8d7c14527f97de12",
+  "active": "8787bc881be36f49",
   "lastOpenFiles": [
-    "MediaCoding/IntensityTransforms/Histogram_matching.md",
+    "XX-Attachments/Images/Pasted image 20240318212535.png",
+    "XX-Attachments/Images/Pasted image 20240318212449.png",
+    "XX-Attachments/Images/Pasted image 20240318212315.png",
+    "MediaCoding/Convolutional_networks.md",
+    "MediaCoding/Edge_detection.md",
     "MediaCoding/Filters/Sharpening_filter.md",
+    "MediaCoding/IntensityTransforms/Histogram_matching.md",
     "MediaCoding/Filters",
     "XX-Attachments/Images/Pasted image 20240318203908.png",
     "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
@@ -389,11 +407,9 @@
     "XX-Attachments/Images/Pasted image 20240318195059.png",
     "MediaCoding/Computer_vision.md",
     "MediaCoding/Colour_models.md",
-    "MediaCoding/Convolutional_networks.md",
     "MediaCoding/Detection_algorithms.md",
     "MediaCoding/Image_processing.md",
     "MediaCoding/Media_coding.md",
-    "MediaCoding/Edge_detection.md",
     "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
     "XX-Attachments/Images/Pasted image 20240318192347.png",
     "XX-Attachments/Images/Pasted image 20240318192031.png",
@@ -405,15 +421,12 @@
     "MachineLearning/Activation_functions.md",
     "XX-Attachments/Images/Pasted image 20240318190524.png",
     "XX-Attachments/Images/Pasted image 20240318190206.png",
-    "XX-Attachments/Images/Pasted image 20240318185745.png",
-    "XX-Attachments/Images/Pasted image 20240318185728.png",
     "MediaCoding/IntensityTransforms",
     "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
     "MachineLearning/FeatureSelectionMetrics/F_score.md",
     "MachineLearning/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
     "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md",
     "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
     "Statistics/Untitled",
     "Cybersecurity",
     "Statistics",

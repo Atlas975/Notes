@@ -11,12 +11,11 @@
 
 ___
 # Edge detection
-- Edges in images are typically represented by a transition from darker to lighter pixels, multiple filters such as the one below for vertical detection can be used to find specific edge types
-- Being able to detect lower level features like edges is the first step in training a CNN
+- An edge is a significant local change in the image intensity, It is the boundary between two regions with distinct intensity level properties (eg light to dark to light again)
+- The goal of edge detection is to identify the points where image intensity sees rapid change
 
 ![[Pasted image 20220621135948.png|450|450]]
 
-- An image channel is represented as a grid of rows and columns which map to it's respective pixel intensity value. For videos this mapping is from rows, columns and individual frames
 - Filters such as Sobel have larger values for the middle pixel in a row / column in order to reduce the influence of neighbouring pixels when calculating an output
 
 ![[Pasted image 20231022153145.png|450|450]]
@@ -25,3 +24,17 @@ ___
 
 - The first derivative / gradient quantifies the change in pixel intensity 
 - The second derivative quantifies the rate of change in pixel intensity AKA the smoothness of the transition from light to dark or vice versa 
+
+
+## Edge types 
+- **Step edge**: the image intensity sharply changes from one value to a different value, can occur over a distance as small as 1 pixel. Common in 
+
+
+![[Pasted image 20240318212535.png|300|300]]
+- **Ramp edge**: where the intensity change is not immediate but occurs over a finite distance
+
+![[Pasted image 20240318212315.png|250|250]]
+
+- **Roof edge**: the intensity changes from one value to another value over a finite distance and then returns to the starting value over the same distance. Common with thin features (eg roads)
+
+![[Pasted image 20240318212449.png|250|250]]
