@@ -20,7 +20,7 @@ ___
 - Histograms convey no information on the spatial distribution of pixels with a certain grey level.
 
 ![[Pasted image 20240318195626.png|350|350]]
-## Histogram equalisation process
+## Histogram equalisation algorithm
 1. Gets the histogram of image intensities ordered by intensity (lowest to highest)
 2. Get the normalised histogram by dividing by the total number of the pixels (n) of the image. It gives a measure of how likely is for a pixel to have a certain intensity (i.e., probability)
 3. Map the intensities of the original image to the new equalised intensities.
