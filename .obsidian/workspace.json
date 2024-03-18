@@ -156,7 +156,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Edge_detection.md",
+                "file": "MediaCoding/Image_processing.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -271,7 +271,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Edge_detection.md"
+                "file": "MediaCoding/Image_processing.md"
               }
             }
           }
@@ -306,7 +306,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Edge_detection.md",
+                "file": "MediaCoding/Image_processing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -323,7 +323,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Edge_detection.md",
+                "file": "MediaCoding/Image_processing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -389,28 +389,28 @@
   },
   "active": "8787bc881be36f49",
   "lastOpenFiles": [
+    "MediaCoding/Media_coding.md",
+    "MediaCoding/Image_processing.md",
+    "MediaCoding/IntensityTransforms/Histogram_matching.md",
+    "MediaCoding/IntensityTransforms/Gamma_transform.md",
+    "MediaCoding/Filters/Sharpening_filter.md",
+    "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
+    "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
+    "MediaCoding/IntensityTransforms/Log_transform.md",
+    "MediaCoding/IntensityTransforms/Image_negatives.md",
+    "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
+    "MediaCoding/Edge_detection.md",
     "XX-Attachments/Images/Pasted image 20240318212535.png",
     "XX-Attachments/Images/Pasted image 20240318212449.png",
     "XX-Attachments/Images/Pasted image 20240318212315.png",
     "MediaCoding/Convolutional_networks.md",
-    "MediaCoding/Edge_detection.md",
-    "MediaCoding/Filters/Sharpening_filter.md",
-    "MediaCoding/IntensityTransforms/Histogram_matching.md",
     "MediaCoding/Filters",
     "XX-Attachments/Images/Pasted image 20240318203908.png",
-    "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
-    "MediaCoding/IntensityTransforms/Gamma_transform.md",
-    "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
-    "MediaCoding/IntensityTransforms/Log_transform.md",
-    "MediaCoding/IntensityTransforms/Image_negatives.md",
     "XX-Attachments/Images/Pasted image 20240318195626.png",
     "XX-Attachments/Images/Pasted image 20240318195059.png",
     "MediaCoding/Computer_vision.md",
     "MediaCoding/Colour_models.md",
     "MediaCoding/Detection_algorithms.md",
-    "MediaCoding/Image_processing.md",
-    "MediaCoding/Media_coding.md",
-    "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
     "XX-Attachments/Images/Pasted image 20240318192347.png",
     "XX-Attachments/Images/Pasted image 20240318192031.png",
     "XX-Attachments/Images/Pasted image 20240318191546.png",
@@ -420,7 +420,6 @@
     "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/Activation_functions.md",
     "XX-Attachments/Images/Pasted image 20240318190524.png",
-    "XX-Attachments/Images/Pasted image 20240318190206.png",
     "MediaCoding/IntensityTransforms",
     "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
     "MachineLearning/FeatureSelectionMetrics/F_score.md",
