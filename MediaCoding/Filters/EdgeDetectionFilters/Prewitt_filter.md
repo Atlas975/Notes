@@ -16,3 +16,5 @@ ___
 - **Noise Response**: Tends to be slightly more sensitive to noise than Sobel, as it does not put more emphasis on the central pixels in the kernel.
 - **Edge Detection**: Offers a basic form of edge detection, highlighting horizontal and vertical edges.
 ## Prewitt filter kernel
+
+![[Pasted image 20240318234147.png|450|450]]

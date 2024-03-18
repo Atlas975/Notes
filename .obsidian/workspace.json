@@ -156,8 +156,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
-                "mode": "source",
+                "file": "MediaCoding/Media_coding.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -167,13 +167,8 @@
             "id": "5a86bc7311308260",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -255,7 +250,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -323,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md"
+                "file": "MediaCoding/Media_coding.md"
               }
             }
           }
@@ -358,7 +353,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
+                "file": "MediaCoding/Media_coding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -375,7 +370,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
+                "file": "MediaCoding/Media_coding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -439,19 +434,23 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5a86bc7311308260",
+  "active": "8787bc881be36f49",
   "lastOpenFiles": [
-    "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
-    "MediaCoding/Edge_detection.md",
     "MediaCoding/Image_processing.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
+    "MediaCoding/Filters/Sharpening_filter.md",
+    "XX-Attachments/Images/Pasted image 20240318234718.png",
+    "MediaCoding/Filters/EdgeDetectionFilters/Roberts_filter.md",
+    "XX-Attachments/Images/Pasted image 20240318234524.png",
+    "XX-Attachments/Images/Pasted image 20240318234147.png",
+    "MediaCoding/Edge_detection.md",
     "XX-Attachments/Images/Pasted image 20240318233339.png",
     "MediaCoding/Filters/EdgeDetectionFilters",
     "MediaCoding/Filters/Untitled.md",
     "MediaCoding/Media_coding.md",
     "MediaCoding/IntensityTransforms/Histogram_matching.md",
     "MediaCoding/IntensityTransforms/Gamma_transform.md",
-    "MediaCoding/Filters/Sharpening_filter.md",
     "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
     "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
     "MediaCoding/IntensityTransforms/Log_transform.md",
@@ -468,9 +467,6 @@
     "MediaCoding/Computer_vision.md",
     "MediaCoding/Colour_models.md",
     "MediaCoding/Detection_algorithms.md",
-    "XX-Attachments/Images/Pasted image 20240318192347.png",
-    "XX-Attachments/Images/Pasted image 20240318192031.png",
-    "XX-Attachments/Images/Pasted image 20240318191546.png",
     "OperatingSystems/Computer_memory.md",
     "MachineLearning/Gradient_descent.md",
     "MachineLearning/Categorical_data_handeling.md",
@@ -478,8 +474,6 @@
     "MachineLearning/Activation_functions.md",
     "MediaCoding/IntensityTransforms",
     "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
-    "MachineLearning/FeatureSelectionMetrics/F_score.md",
-    "MachineLearning/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
     "Statistics/Untitled",
     "Cybersecurity",
     "Statistics",
