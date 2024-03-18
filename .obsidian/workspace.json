@@ -78,7 +78,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding&Processing/Colour_models.md",
+                "file": "MediaCoding&Processing/IntensityTransforms/Log_transform.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "89b981c6640faa14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding&Processing/IntensityTransforms/Log_transform.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e81ea72665c7dada",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding&Processing/IntensityTransforms/Piecewise_linear_transform.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -112,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -180,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding&Processing/Colour_models.md"
+                "file": "MediaCoding&Processing/IntensityTransforms/Piecewise_linear_transform.md"
               }
             }
           }
@@ -215,7 +241,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding&Processing/Colour_models.md",
+                "file": "MediaCoding&Processing/IntensityTransforms/Piecewise_linear_transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +258,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding&Processing/Colour_models.md",
+                "file": "MediaCoding&Processing/IntensityTransforms/Piecewise_linear_transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -296,10 +322,18 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0d490c7a509b6417",
+  "active": "e81ea72665c7dada",
   "lastOpenFiles": [
-    "MediaCoding&Processing/IntensityTransforms/Piecewise_linear_transform.md",
+    "XX-Attachments/Images/Pasted image 20240318185617.png",
+    "MediaCoding&Processing/IntensityTransforms/Image_negatives.md",
     "MediaCoding&Processing/IntensityTransforms/Log_transform.md",
+    "MediaCoding&Processing/IntensityTransforms/Piecewise_linear_transform.md",
+    "XX-Attachments/Images/Pasted image 20240318185242.png",
+    "XX-Attachments/Images/Pasted image 20240318185229.png",
+    "XX-Attachments/Images/Pasted image 20240318185003.png",
+    "XX-Attachments/Images/Pasted image 20240318184842.png",
+    "XX-Attachments/Images/Pasted image 20240318184748.png",
+    "MediaCoding&Processing/Colour_models.md",
     "XX-Attachments/Images/Pasted image 20240317230955.png",
     "XX-Attachments/Images/Pasted image 20240317230724.png",
     "XX-Attachments/Images/Pasted image 20240317230706.png",
@@ -307,7 +341,6 @@
     "XX-Attachments/Images/Pasted image 20240317230137.png",
     "MediaCoding&Processing/Image_processing.md",
     "MediaCoding&Processing/IntensityTransforms",
-    "MediaCoding&Processing/Colour_models.md",
     "MediaCoding&Processing/Media_coding&processing.md",
     "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
     "MachineLearning/FeatureSelectionMetrics/F_score.md",
@@ -328,12 +361,6 @@
     "Languages&Compilation/Bottom-up_parsing.md",
     "Languages&Compilation/Turing_machine.md",
     "Languages&Compilation/Regular_expression_FSM.md",
-    "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
-    "XX-Attachments/Images/Pasted image 20240316200141.png",
-    "XX-Attachments/Images/Pasted image 20240316200108.png",
-    "XX-Attachments/Images/Pasted image 20240316200046.png",
-    "XX-Attachments/Images/Pasted image 20240316195517.png",
-    "XX-Attachments/Images/Pasted image 20240316195109.png",
     "Statistics/Untitled",
     "Cybersecurity",
     "Statistics",
