@@ -156,6 +156,58 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5a86bc7311308260",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9f8d8499d0dc7588",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b54926c9aeddc853",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Edge_detection.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a3e97cebf341a997",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "MediaCoding/Image_processing.md",
                 "mode": "source",
                 "backlinks": false,
@@ -203,7 +255,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -271,7 +323,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Image_processing.md"
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md"
               }
             }
           }
@@ -306,7 +358,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Image_processing.md",
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -323,7 +375,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Image_processing.md",
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -387,10 +439,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8787bc881be36f49",
+  "active": "5a86bc7311308260",
   "lastOpenFiles": [
-    "MediaCoding/Media_coding.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
+    "MediaCoding/Edge_detection.md",
     "MediaCoding/Image_processing.md",
+    "XX-Attachments/Images/Pasted image 20240318233339.png",
+    "MediaCoding/Filters/EdgeDetectionFilters",
+    "MediaCoding/Filters/Untitled.md",
+    "MediaCoding/Media_coding.md",
     "MediaCoding/IntensityTransforms/Histogram_matching.md",
     "MediaCoding/IntensityTransforms/Gamma_transform.md",
     "MediaCoding/Filters/Sharpening_filter.md",
@@ -399,7 +457,6 @@
     "MediaCoding/IntensityTransforms/Log_transform.md",
     "MediaCoding/IntensityTransforms/Image_negatives.md",
     "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
-    "MediaCoding/Edge_detection.md",
     "XX-Attachments/Images/Pasted image 20240318212535.png",
     "XX-Attachments/Images/Pasted image 20240318212449.png",
     "XX-Attachments/Images/Pasted image 20240318212315.png",
@@ -419,20 +476,16 @@
     "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/Activation_functions.md",
-    "XX-Attachments/Images/Pasted image 20240318190524.png",
     "MediaCoding/IntensityTransforms",
     "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
     "MachineLearning/FeatureSelectionMetrics/F_score.md",
     "MachineLearning/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
-    "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "Statistics/Untitled",
     "Cybersecurity",
     "Statistics",
     "Languages&Compilation",
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
-    "MachineLearning/FeatureSelectionMetrics",
-    "NaturalLanguageProcessing"
+    "MachineLearning/FeatureSelectionMetrics"
   ]
 }

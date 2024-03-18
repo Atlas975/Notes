@@ -24,7 +24,3 @@ ___
 - Achieved by putting an image through a Fourier transform. This process converts the spatial information into frequency information (how often certain patterns or variations occur).
 
 
-
-$$\begin{bmatrix}
-
-\end{bmatrix}$$
