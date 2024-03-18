@@ -14,4 +14,4 @@ ___
 $$I_{\text{original}}-I_{\text{blur}}=I_{\text{detail}}$$
 $$I_{\text{original}}-I_{\text{detail}}=\color{red}I_{\text{sharp}}\color{white}$$
 $$I_{\text{original}}+(I_{\text{original}}-I_{\text{blur}})=\color{red}I_{\text{sharp}}\color{white}$$
-$$2 \cdot I_{\text{original}}-I_{\text{blur}}=\color{red}I_{\text{sharp}}\color{white}$$
+$$2 \cdot I_{\text{original}}-I_{\text{blur}}=\color{red}I_{\text{sharp}}\color{white}$$`

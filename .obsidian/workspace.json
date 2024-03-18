@@ -130,8 +130,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Filters/Sharpening_filter.md",
+                "file": "MediaCoding/IntensityTransforms/Histogram_matching.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8d7c14527f97de12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Filters/Sharpening_filter.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -177,7 +190,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -361,7 +374,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "bbd408f5cde65b07",
+  "active": "8d7c14527f97de12",
   "lastOpenFiles": [
     "MediaCoding/IntensityTransforms/Histogram_matching.md",
     "MediaCoding/Filters/Sharpening_filter.md",
