@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Histogram_matching.md",
+                "file": "MediaCoding/Filters/Sharpening_filter.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -245,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Histogram_matching.md"
+                "file": "MediaCoding/Filters/Sharpening_filter.md"
               }
             }
           }
@@ -280,7 +280,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Histogram_matching.md",
+                "file": "MediaCoding/Filters/Sharpening_filter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -297,7 +297,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Histogram_matching.md",
+                "file": "MediaCoding/Filters/Sharpening_filter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -363,9 +363,11 @@
   },
   "active": "bbd408f5cde65b07",
   "lastOpenFiles": [
+    "MediaCoding/IntensityTransforms/Histogram_matching.md",
+    "MediaCoding/Filters/Sharpening_filter.md",
+    "MediaCoding/Filters",
     "XX-Attachments/Images/Pasted image 20240318203908.png",
     "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
-    "MediaCoding/IntensityTransforms/Histogram_matching.md",
     "MediaCoding/IntensityTransforms/Gamma_transform.md",
     "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
     "MediaCoding/IntensityTransforms/Log_transform.md",
@@ -392,7 +394,6 @@
     "XX-Attachments/Images/Pasted image 20240318190206.png",
     "XX-Attachments/Images/Pasted image 20240318185745.png",
     "XX-Attachments/Images/Pasted image 20240318185728.png",
-    "XX-Attachments/Images/Pasted image 20240318185719.png",
     "MediaCoding/IntensityTransforms",
     "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
     "MachineLearning/FeatureSelectionMetrics/F_score.md",
@@ -407,7 +408,6 @@
     "MachineLearning/GeneticAlgorithms",
     "MachineLearning/FeatureEngineering",
     "MachineLearning/FeatureSelectionMetrics",
-    "NaturalLanguageProcessing",
-    "DistributedSystems"
+    "NaturalLanguageProcessing"
   ]
 }
