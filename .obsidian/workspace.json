@@ -208,7 +208,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Image_negatives.md",
+                "file": "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -370,7 +370,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Image_negatives.md"
+                "file": "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md"
               }
             }
           }
@@ -405,7 +405,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Image_negatives.md",
+                "file": "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -422,7 +422,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Image_negatives.md",
+                "file": "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -488,15 +488,18 @@
   },
   "active": "8f225bb02336368d",
   "lastOpenFiles": [
+    "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
+    "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
+    "XX-Attachments/Images/Pasted image 20240319193105.png",
+    "XX-Attachments/Images/Pasted image 20240319193051.png",
+    "MediaCoding/IntensityTransforms/Image_negatives.md",
     "MediaCoding/IntensityTransforms/Histogram_matching.md",
     "MediaCoding/IntensityTransforms/Log_transform.md",
     "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
     "MediaCoding/Filters/SmoothingFilters/Smoothing_spatial_filtering.md",
     "MediaCoding/Filters/SmoothingFilters/Median_filter.md",
-    "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Roberts_filter.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
     "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
     "XX-Attachments/Images/Pasted image 20240319191339.png",
@@ -519,13 +522,10 @@
     "XX-Attachments/Images/Pasted image 20240318234147.png",
     "XX-Attachments/Images/Pasted image 20240318233339.png",
     "MediaCoding/Filters/EdgeDetectionFilters",
-    "MediaCoding/IntensityTransforms/Image_negatives.md",
     "XX-Attachments/Images/Pasted image 20240318212535.png",
     "XX-Attachments/Images/Pasted image 20240318212449.png",
     "XX-Attachments/Images/Pasted image 20240318212315.png",
     "MediaCoding/Filters",
-    "XX-Attachments/Images/Pasted image 20240318203908.png",
-    "XX-Attachments/Images/Pasted image 20240318195626.png",
     "MediaCoding/IntensityTransforms",
     "Statistics/Untitled",
     "Cybersecurity",

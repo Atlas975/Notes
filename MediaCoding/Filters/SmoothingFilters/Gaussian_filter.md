@@ -11,3 +11,10 @@
 
 ___
 # Gaussian filter
+- A kernel with values following a Gaussian (bell-shaped) distribution, emphasising the central pixels and gradually decreasing influence towards the edges
+- This makes them effective for blurring images, removing detail and noise, and creating a smoothing effect thanks to the tendency to place more weight on central pixels
+
+![[Pasted image 20240319193105.png|250|250]]
+
+## Gaussian filter formula 
+$$g(x,y)=\frac{1}{2\pi \sigma^2}e^{-\frac{x^2+y^2}{2\sigma^2}}$$
