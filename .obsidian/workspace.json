@@ -209,7 +209,7 @@
               "type": "markdown",
               "state": {
                 "file": "MediaCoding/Convolution.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -488,9 +488,10 @@
   },
   "active": "8f225bb02336368d",
   "lastOpenFiles": [
+    "MediaCoding/Colour_models.md",
+    "MediaCoding/Convolution.md",
     "MediaCoding/Computer_vision.md",
     "MediaCoding/Image_processing.md",
-    "MediaCoding/Convolution.md",
     "MediaCoding/Detection_algorithms.md",
     "MediaCoding/Filters/SmoothingFilters/Smoothing_spatial_filtering.md",
     "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
@@ -506,7 +507,6 @@
     "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
     "MediaCoding/Media_coding.md",
     "MediaCoding/Convolutional_networks.md",
-    "MediaCoding/Colour_models.md",
     "MediaCoding/Edge_detection.md",
     "Networking/Routing_methods.md",
     "Networking/Internet_architecture.md",

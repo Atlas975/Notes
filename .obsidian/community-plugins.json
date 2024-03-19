@@ -35,5 +35,6 @@
   "link-headers-directly",
   "obsidian-style-settings",
   "obsidian-minimal-settings",
-  "no-dupe-leaves"
+  "no-dupe-leaves",
+  "quick-latex"
 ]

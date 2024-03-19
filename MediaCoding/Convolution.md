@@ -18,9 +18,11 @@ ___
 
 ![[Pasted image 20220621141454.png|550|550]]
 
+
+##
 - The padding required to have the input size equal output size (also known as a same convolution) can be found using:
 
-> $p=\frac{f-1}{2}$
+$$P=\frac{F-1}{2}$$
 
 - Convolutions without padding are known as valid convolutions
 
@@ -33,14 +35,17 @@ ___
 ![[Pasted image 20220621142807.png|450|450]]
 
 ## Kernel output dimensions
+- These output sizes assume the x and y dimension sizes are the same
 - Valid convolution (no padding):
 
- $$[n-f+1,n-f+1]$$
+ $$[N-F+1,\ N-F+1]$$
+$$N=\text{image size}$$
+$$F=\text{filter size}$$
+- Same convolution (with padding):
 
-- With padding
+$$[N+2P-F+1,\ N+2P-F+1]$$
+$$P=\text{padding size}$$
+- Convolution with increased stride size:
 
-$$[n+2p-f+1,n+2p-f+1]$$
-
-- With increased stride size
-
-$$\text{floor}(\left[ \frac{n+2p-f}{s}+1,\frac{n+2p-f}{s}+1 \right])$$
+$$\text{floor}(\left[ \frac{N+2P-F}{S}+1,\ \frac{N+2P-F}{S}+1 \right])$$
+$$S=\text{stride size}$$
