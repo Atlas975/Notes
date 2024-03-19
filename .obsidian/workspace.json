@@ -156,8 +156,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Media_coding.md",
-                "mode": "preview",
+                "file": "MediaCoding/Image_processing.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -318,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Media_coding.md"
+                "file": "MediaCoding/Image_processing.md"
               }
             }
           }
@@ -353,7 +353,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Media_coding.md",
+                "file": "MediaCoding/Image_processing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -370,7 +370,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Media_coding.md",
+                "file": "MediaCoding/Image_processing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -436,19 +436,23 @@
   },
   "active": "8787bc881be36f49",
   "lastOpenFiles": [
+    "MediaCoding/Media_coding.md",
     "MediaCoding/Image_processing.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
-    "MediaCoding/Filters/Sharpening_filter.md",
-    "XX-Attachments/Images/Pasted image 20240318234718.png",
+    "MediaCoding/Computer_vision.md",
+    "MediaCoding/Convolutional_networks.md",
+    "MediaCoding/Detection_algorithms.md",
+    "MediaCoding/Edge_detection.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Roberts_filter.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
+    "MediaCoding/Filters/Sharpening_filter.md",
+    "MediaCoding/Colour_models.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
+    "XX-Attachments/Images/Pasted image 20240318234718.png",
     "XX-Attachments/Images/Pasted image 20240318234524.png",
     "XX-Attachments/Images/Pasted image 20240318234147.png",
-    "MediaCoding/Edge_detection.md",
     "XX-Attachments/Images/Pasted image 20240318233339.png",
     "MediaCoding/Filters/EdgeDetectionFilters",
     "MediaCoding/Filters/Untitled.md",
-    "MediaCoding/Media_coding.md",
     "MediaCoding/IntensityTransforms/Histogram_matching.md",
     "MediaCoding/IntensityTransforms/Gamma_transform.md",
     "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
@@ -459,14 +463,10 @@
     "XX-Attachments/Images/Pasted image 20240318212535.png",
     "XX-Attachments/Images/Pasted image 20240318212449.png",
     "XX-Attachments/Images/Pasted image 20240318212315.png",
-    "MediaCoding/Convolutional_networks.md",
     "MediaCoding/Filters",
     "XX-Attachments/Images/Pasted image 20240318203908.png",
     "XX-Attachments/Images/Pasted image 20240318195626.png",
     "XX-Attachments/Images/Pasted image 20240318195059.png",
-    "MediaCoding/Computer_vision.md",
-    "MediaCoding/Colour_models.md",
-    "MediaCoding/Detection_algorithms.md",
     "OperatingSystems/Computer_memory.md",
     "MachineLearning/Gradient_descent.md",
     "MachineLearning/Categorical_data_handeling.md",

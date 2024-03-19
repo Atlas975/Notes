@@ -16,8 +16,9 @@ ___
 - The spatial and frequency domains are complementary in image processing
 
 ## Spatial domain
-- Processing deals with direct manipulation of image pixels in their physical coorindate
+- Processing deals with direct manipulation of image pixels in their physical coordinate 
 - Involves directly manipulating these pixel values, such as applying filters
+    - 
 
 ## Frequency domain 
 - Represents an image / signal in terms of its frequency content rather than spatial coordinates
