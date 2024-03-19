@@ -14,17 +14,20 @@ ___
 - A mathematical operation where a filter (kernel) is slid over an image, at each position, a new pixel value is calculated by `sum(overlapping pixel values * filter coefficients)`
 - This technique is fundamental for applying various [[Image_processing#Spatial domain|spatial]] transformations, like [[Smoothing_spatial_filtering|smoothing]], [[Sharpening_filter|sharpening]], or [[Edge_detection|edge detection]].
 ## Image padding
-- Prevents information from the images edges from being lost, useful for allowing a deeper [[Convolutional_networks| CNN]]
+- Involves adding extra pixels around the edge of an image. This is done to change the image size, maintain spatial dimensions after applying filters or kernels
+- Prevents information from the images edges from being lost, vital in a creating a deep [[Convolutional_networks| CNN]]
 
 ![[Pasted image 20220621141454.png|550|550]]
 
-
-##
-- The padding required to have the input size equal output size (also known as a same convolution) can be found using:
+- Padding can be implemented in various ways, such as replicating border pixels, adding constant value pixels (like zeroes), or reflecting the image content near edges.
+### Same convolutions 
+- The padding required to have the output size equal to the input size, this can be found using:
 
 $$P=\frac{F-1}{2}$$
 
-- Convolutions without padding are known as valid convolutions
+### Valid convolutions 
+- Convolutions performed when an image is given no padding 
+- This results in an output image smaller than the input image 
 
 
 
@@ -47,5 +50,5 @@ $$[N+2P-F+1,\ N+2P-F+1]$$
 $$P=\text{padding size}$$
 - Convolution with increased stride size:
 
-$$\text{floor}(\left[ \frac{N+2P-F}{S}+1,\ \frac{N+2P-F}{S}+1 \right])$$
+$$\lfloor{}\rfloor\text{floor}(\left[ \frac{N+2P-F}{S}+1,\ \frac{N+2P-F}{S}+1 \right])$$
 $$S=\text{stride size}$$
