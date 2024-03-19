@@ -208,7 +208,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
+                "file": "MediaCoding/Convolution.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -370,7 +370,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md"
+                "file": "MediaCoding/Convolution.md"
               }
             }
           }
@@ -405,7 +405,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
+                "file": "MediaCoding/Convolution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -422,7 +422,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
+                "file": "MediaCoding/Convolution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -488,8 +488,13 @@
   },
   "active": "8f225bb02336368d",
   "lastOpenFiles": [
-    "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
+    "MediaCoding/Convolutional_networks.md",
+    "MediaCoding/Detection_algorithms.md",
+    "MediaCoding/Media_coding.md",
+    "MediaCoding/Image_processing.md",
+    "MediaCoding/Edge_detection.md",
     "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
     "XX-Attachments/Images/Pasted image 20240319193105.png",
     "XX-Attachments/Images/Pasted image 20240319193051.png",
     "MediaCoding/IntensityTransforms/Image_negatives.md",
@@ -506,15 +511,10 @@
     "MediaCoding/Convolution.md",
     "MediaCoding/Colour_models.md",
     "MediaCoding/Computer_vision.md",
-    "MediaCoding/Image_processing.md",
-    "MediaCoding/Detection_algorithms.md",
     "MediaCoding/Filters/SmoothingFilters",
     "MediaCoding/IntensityTransforms/Gamma_transform.md",
     "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
     "MediaCoding/IntensityTransforms/Untitled.md",
-    "MediaCoding/Media_coding.md",
-    "MediaCoding/Convolutional_networks.md",
-    "MediaCoding/Edge_detection.md",
     "Networking/Routing_methods.md",
     "Networking/Internet_architecture.md",
     "XX-Attachments/Images/Pasted image 20240318234718.png",
