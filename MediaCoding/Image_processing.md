@@ -17,8 +17,6 @@ ___
 ## Spatial domain
 - Processing deals with direct manipulation of image pixels in their physical coordinate 
 - Involves directly manipulating these pixel values, such as applying filters
-    - 
-
 ## Frequency domain 
 - Represents an image / signal in terms of its frequency content rather than spatial coordinates
 - Achieved by putting an image through a Fourier transform. This process converts the spatial information into frequency information (how often certain patterns or variations occur).

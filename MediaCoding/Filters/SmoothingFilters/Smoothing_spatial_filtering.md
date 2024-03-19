@@ -13,5 +13,6 @@ ___
 # Smoothing spatial filtering
 - Smoothing spatial filters describes the family of filter used for blurring and noise reduction 
 - Blurring is a pre-processing step for removal of  noise in an image 
-## Smoothing filter types 
-**Linear fi**
+## Smoothing filter types
+- **Linear (mean) filters**: have coefficients that vary linearly eg mean, [[Gaussian_filter|Gaussian]] filters
+- **Non-linear (order statistics) filters**: do not follow linear characteristics and are useful in different contexts, like removing certain types of noise eg median, minimum, and maximum filters

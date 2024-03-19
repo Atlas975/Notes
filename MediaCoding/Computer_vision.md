@@ -20,33 +20,6 @@ ___
 
 ![[Pasted image 20220621135608.png|250|250]]
 
-## Padding
-- Prevents information from the images edges from being lost, useful for allowing a deeper [[Convolutional_networks| CNN]]
-
-![[Pasted image 20220621141454.png|550|550]]
-
-- The padding required to have the input size equal output size (also known as a same convolution) can be found using:
-
-> $p=\frac{f-1}{2}$
-
-- Convolutions without padding are known as valid convolutions
-## Strided convolutions
-- Describes the jump size after each convolution, larger strides further compress an image, strides that fall out of bounds are skipped to where the number of strides in any given dimension is equal to the floor of n/f
-
-![[Pasted image 20220621142807.png|450|450]]
-
-## Kernel output dimensions
-- Valid convolution (no padding):
-
- $$[n-f+1,n-f+1]$$
-
-- With padding
-
-$$[n+2p-f+1,n+2p-f+1]$$
-
-- With increased stride size
-
-$$\text{floor}(\left[ \frac{n+2p-f}{s}+1,\frac{n+2p-f}{s}+1 \right])$$
 
 
 ## Pooling layers

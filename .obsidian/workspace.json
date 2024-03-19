@@ -182,8 +182,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Filters/SmoothingFilters/Smoothing_spatial_filtering.md",
+                "file": "MediaCoding/Computer_vision.md",
                 "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "61119082a23263e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Image_processing.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8f225bb02336368d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Convolution.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -276,7 +302,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -344,7 +370,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Filters/SmoothingFilters/Smoothing_spatial_filtering.md"
+                "file": "MediaCoding/Convolution.md"
               }
             }
           }
@@ -379,7 +405,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Filters/SmoothingFilters/Smoothing_spatial_filtering.md",
+                "file": "MediaCoding/Convolution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -396,7 +422,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Filters/SmoothingFilters/Smoothing_spatial_filtering.md",
+                "file": "MediaCoding/Convolution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -460,10 +486,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4abde6d418ed6935",
+  "active": "8f225bb02336368d",
   "lastOpenFiles": [
-    "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
+    "MediaCoding/Computer_vision.md",
+    "MediaCoding/Image_processing.md",
+    "MediaCoding/Convolution.md",
+    "MediaCoding/Detection_algorithms.md",
     "MediaCoding/Filters/SmoothingFilters/Smoothing_spatial_filtering.md",
+    "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
     "MediaCoding/Filters/SmoothingFilters",
     "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Roberts_filter.md",
@@ -474,14 +505,11 @@
     "MediaCoding/IntensityTransforms/Untitled.md",
     "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
     "MediaCoding/Media_coding.md",
-    "MediaCoding/Image_processing.md",
-    "MediaCoding/Detection_algorithms.md",
     "MediaCoding/Convolutional_networks.md",
     "MediaCoding/Colour_models.md",
     "MediaCoding/Edge_detection.md",
     "Networking/Routing_methods.md",
     "Networking/Internet_architecture.md",
-    "MediaCoding/Computer_vision.md",
     "XX-Attachments/Images/Pasted image 20240318234718.png",
     "XX-Attachments/Images/Pasted image 20240318234524.png",
     "XX-Attachments/Images/Pasted image 20240318234147.png",
@@ -499,7 +527,6 @@
     "XX-Attachments/Images/Pasted image 20240318195059.png",
     "OperatingSystems/Computer_memory.md",
     "MachineLearning/Gradient_descent.md",
-    "MachineLearning/Categorical_data_handeling.md",
     "MediaCoding/IntensityTransforms",
     "Statistics/Untitled",
     "Cybersecurity",
