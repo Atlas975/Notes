@@ -14,7 +14,6 @@ ___
 - The techniques and algorithms applied to images to enhance them, extract useful information, or convert them to a desired format 
 - Uses operations like filtering, noise reduction, and image compression
 - The spatial and frequency domains are complementary in image processing
-
 ## Spatial domain
 - Processing deals with direct manipulation of image pixels in their physical coordinate 
 - Involves directly manipulating these pixel values, such as applying filters

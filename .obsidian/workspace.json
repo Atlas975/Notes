@@ -156,8 +156,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Image_processing.md",
-                "mode": "source",
+                "file": "MediaCoding/IntensityTransforms/Gamma_transform.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -262,7 +262,7 @@
       {
         "id": "686f58e7afd14325",
         "type": "tabs",
-        "dimension": 72.94250281848929,
+        "dimension": 73.95061728395062,
         "children": [
           {
             "id": "61b6b073dac95afd",
@@ -310,7 +310,7 @@
       {
         "id": "3c8c11216e62f58c",
         "type": "tabs",
-        "dimension": 27.05749718151071,
+        "dimension": 26.049382716049386,
         "children": [
           {
             "id": "f9ef0de97216c2fd",
@@ -318,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Image_processing.md"
+                "file": "MediaCoding/IntensityTransforms/Gamma_transform.md"
               }
             }
           }
@@ -353,7 +353,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Image_processing.md",
+                "file": "MediaCoding/IntensityTransforms/Gamma_transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -370,7 +370,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Image_processing.md",
+                "file": "MediaCoding/IntensityTransforms/Gamma_transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -436,17 +436,23 @@
   },
   "active": "8787bc881be36f49",
   "lastOpenFiles": [
+    "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
+    "MediaCoding/Filters/Sharpening_filter.md",
+    "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
+    "MediaCoding/IntensityTransforms/Untitled.md",
+    "MediaCoding/IntensityTransforms/Gamma_transform.md",
+    "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
     "MediaCoding/Media_coding.md",
     "MediaCoding/Image_processing.md",
-    "MediaCoding/Computer_vision.md",
-    "MediaCoding/Convolutional_networks.md",
     "MediaCoding/Detection_algorithms.md",
-    "MediaCoding/Edge_detection.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Roberts_filter.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
-    "MediaCoding/Filters/Sharpening_filter.md",
+    "MediaCoding/Convolutional_networks.md",
     "MediaCoding/Colour_models.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Roberts_filter.md",
+    "MediaCoding/Edge_detection.md",
+    "Networking/Routing_methods.md",
+    "Networking/Internet_architecture.md",
+    "MediaCoding/Computer_vision.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
     "XX-Attachments/Images/Pasted image 20240318234718.png",
     "XX-Attachments/Images/Pasted image 20240318234524.png",
     "XX-Attachments/Images/Pasted image 20240318234147.png",
@@ -454,12 +460,9 @@
     "MediaCoding/Filters/EdgeDetectionFilters",
     "MediaCoding/Filters/Untitled.md",
     "MediaCoding/IntensityTransforms/Histogram_matching.md",
-    "MediaCoding/IntensityTransforms/Gamma_transform.md",
-    "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
     "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
     "MediaCoding/IntensityTransforms/Log_transform.md",
     "MediaCoding/IntensityTransforms/Image_negatives.md",
-    "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
     "XX-Attachments/Images/Pasted image 20240318212535.png",
     "XX-Attachments/Images/Pasted image 20240318212449.png",
     "XX-Attachments/Images/Pasted image 20240318212315.png",
@@ -471,9 +474,7 @@
     "MachineLearning/Gradient_descent.md",
     "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/Artificial_intelligence.md",
-    "MachineLearning/Activation_functions.md",
     "MediaCoding/IntensityTransforms",
-    "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
     "Statistics/Untitled",
     "Cybersecurity",
     "Statistics",
