@@ -156,7 +156,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Gamma_transform.md",
+                "file": "MediaCoding/IntensityTransforms/Histogram_matching.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -318,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Gamma_transform.md"
+                "file": "MediaCoding/IntensityTransforms/Histogram_matching.md"
               }
             }
           }
@@ -353,7 +353,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Gamma_transform.md",
+                "file": "MediaCoding/IntensityTransforms/Histogram_matching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -370,7 +370,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Gamma_transform.md",
+                "file": "MediaCoding/IntensityTransforms/Histogram_matching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -436,11 +436,11 @@
   },
   "active": "8787bc881be36f49",
   "lastOpenFiles": [
+    "MediaCoding/IntensityTransforms/Gamma_transform.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
     "MediaCoding/Filters/Sharpening_filter.md",
     "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
     "MediaCoding/IntensityTransforms/Untitled.md",
-    "MediaCoding/IntensityTransforms/Gamma_transform.md",
     "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
     "MediaCoding/Media_coding.md",
     "MediaCoding/Image_processing.md",
