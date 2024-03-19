@@ -208,7 +208,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Convolution.md",
+                "file": "MediaCoding/Edge_detection.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -370,7 +370,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Convolution.md"
+                "file": "MediaCoding/Edge_detection.md"
               }
             }
           }
@@ -405,7 +405,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Convolution.md",
+                "file": "MediaCoding/Edge_detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -422,7 +422,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Convolution.md",
+                "file": "MediaCoding/Edge_detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -488,6 +488,7 @@
   },
   "active": "8f225bb02336368d",
   "lastOpenFiles": [
+    "MediaCoding/Convolution.md",
     "MediaCoding/Convolutional_networks.md",
     "MediaCoding/Detection_algorithms.md",
     "MediaCoding/Media_coding.md",
@@ -508,7 +509,6 @@
     "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
     "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
     "XX-Attachments/Images/Pasted image 20240319191339.png",
-    "MediaCoding/Convolution.md",
     "MediaCoding/Colour_models.md",
     "MediaCoding/Computer_vision.md",
     "MediaCoding/Filters/SmoothingFilters",
