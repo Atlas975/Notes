@@ -17,7 +17,7 @@ ___
 - Involves adding extra pixels around the edge of an image. This is done to change the image size, maintain spatial dimensions after applying filters or kernels
 - Prevents information from the images edges from being lost, vital in a creating a deep [[Convolutional_networks| CNN]]
 
-![[Pasted image 20220621141454.png|550|550]]
+![[Pasted image 20220621141454.png|400|400]]
 
 - Padding can be implemented in various ways, such as replicating border pixels, adding constant value pixels (like zeroes), or reflecting the image content near edges.
 ### Same convolutions 
@@ -33,7 +33,8 @@ $$P=\frac{F-1}{2}$$
 
 
 ## Strided convolutions
-- Describes the jump size after each convolution, larger strides further compress an image, strides that fall out of bounds are skipped to where the number of strides in any given dimension is equal to the floor of n/f
+- Describes the jump size after each convolution, larger strides further compress an image, strides that fall out of bounds are skipped
+- Effective for downsampling an image, also computationally efficient by reducing the number of times the kernel is applied
 
 ![[Pasted image 20220621142807.png|450|450]]
 
@@ -41,14 +42,15 @@ $$P=\frac{F-1}{2}$$
 - These output sizes assume the x and y dimension sizes are the same
 - Valid convolution (no padding):
 
- $$[N-F+1,\ N-F+1]$$
+ $$N-F+1$$
 $$N=\text{image size}$$
 $$F=\text{filter size}$$
 - Same convolution (with padding):
 
-$$[N+2P-F+1,\ N+2P-F+1]$$
+$$N+2P-F+1$$
 $$P=\text{padding size}$$
 - Convolution with increased stride size:
 
-$$\lfloor{}\rfloor\text{floor}(\left[ \frac{N+2P-F}{S}+1,\ \frac{N+2P-F}{S}+1 \right])$$
+
+$$\lfloor{\frac{N+2P-F}{S}+1}\rfloor$$
 $$S=\text{stride size}$$
