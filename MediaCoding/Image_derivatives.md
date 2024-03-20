@@ -21,8 +21,9 @@ ___
 - The second derivative quantifies the rate of change in pixel intensity AKA the smoothness of the transition from light to dark or vice versa
 
 
-## Gradient direction 
-$$\text{Gradient direction }(\theta)=\tan^{-1} \left( \frac{\partial f}{\partial y'}/ \frac{\partial f}{\partial x} \right)$$
-
 ## Gradient magnitude 
-$\| \nabla f \| = \sqrt{\left( \frac{\partial f}{\partial x} \right)^2 + \left( \frac{\partial f}{\partial y} \right)^2}$
+$$\| \nabla f \|= \sqrt{\left( \frac{\partial f}{\partial x} \right)^2 + \left( \frac{\partial f}{\partial y} \right)^2}$$
+
+## Gradient direction 
+$$\theta=\tan^{-1} \left( \frac{\partial f}{\partial y'}/ \frac{\partial f}{\partial x} \right)$$
+

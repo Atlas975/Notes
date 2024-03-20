@@ -195,8 +195,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Image_derivatives.md",
-                "mode": "source",
+                "file": "MediaCoding/Convolution.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -409,7 +409,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Image_derivatives.md"
+                "file": "MediaCoding/Convolution.md"
               }
             }
           }
@@ -417,7 +417,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -444,7 +445,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Image_derivatives.md",
+                "file": "MediaCoding/Convolution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -461,7 +462,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Image_derivatives.md",
+                "file": "MediaCoding/Convolution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -527,9 +528,11 @@
   },
   "active": "26e3601a4d57fd2f",
   "lastOpenFiles": [
-    "MediaCoding/Edge_detection.md",
-    "MediaCoding/Image_derivatives.md",
+    "MediaCoding/Media_coding.md",
     "MediaCoding/Image_processing.md",
+    "MediaCoding/Image_derivatives.md",
+    "MediaCoding/Edge_detection.md",
+    "MediaCoding/Detection_algorithms.md",
     "XX-Attachments/Images/Pasted image 20240320192424.png",
     "XX-Attachments/Images/Pasted image 20240320192405.png",
     "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
@@ -539,8 +542,6 @@
     "XX-Attachments/Images/Pasted image 20240320182537.png",
     "MediaCoding/Convolution.md",
     "MediaCoding/Convolutional_networks.md",
-    "MediaCoding/Detection_algorithms.md",
-    "MediaCoding/Media_coding.md",
     "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
     "XX-Attachments/Images/Pasted image 20240319193105.png",
     "XX-Attachments/Images/Pasted image 20240319193051.png",

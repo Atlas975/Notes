@@ -20,7 +20,7 @@ ___
 
 ![[Pasted image 20231022153145.png|450|450]]
 ## Edge types 
-- **Step edge**: the image intensity sharply changes from one value to a different value, can occur over a distance as small as 1 pixel. Common in 
+- **Step edge**: the image intensity sharply changes from one value to a different value, can occur over a distance as small as 1 pixel. 
 
 
 ![[Pasted image 20240318212535.png|300|300]]
