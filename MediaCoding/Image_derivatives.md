@@ -29,3 +29,4 @@ $$\| \nabla f \| = \left| \frac{\partial f}{\partial x} \right| + \left| \frac{\
 ## Gradient direction 
 $$\theta=\tan^{-1} \left( \frac{\partial f}{\partial y'}/ \frac{\partial f}{\partial x} \right)$$
 
+
