@@ -12,7 +12,7 @@
 ___
 # Edge detection
 - An edge is a significant local change in the image intensity, It is the boundary between two regions with distinct intensity level properties (eg light to dark to light again)
-- The goal of edge detection is to identify the points where image intensity sees rapid change
+- The goal of edge detection is to identify the points where image intensity sees rapid change. This is useful as edges are more compact than pixels while still storing semantic / shape information.
 
 ![[Pasted image 20220621135948.png|450|450]]
 
