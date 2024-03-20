@@ -164,6 +164,45 @@
             }
           },
           {
+            "id": "66a96d8a9635fa09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Image_processing.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6ccb1ba3d884fd05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Edge_detection.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "26e3601a4d57fd2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Image_derivatives.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "9c8b9130cf771b64",
             "type": "leaf",
             "state": {
@@ -242,7 +281,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Edge_detection.md",
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -302,7 +341,7 @@
             }
           }
         ],
-        "currentTab": 18
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -370,7 +409,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Edge_detection.md"
+                "file": "MediaCoding/Image_derivatives.md"
               }
             }
           }
@@ -405,7 +444,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Edge_detection.md",
+                "file": "MediaCoding/Image_derivatives.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -422,7 +461,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Edge_detection.md",
+                "file": "MediaCoding/Image_derivatives.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -486,18 +525,22 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b54926c9aeddc853",
+  "active": "26e3601a4d57fd2f",
   "lastOpenFiles": [
+    "MediaCoding/Edge_detection.md",
+    "MediaCoding/Image_derivatives.md",
+    "MediaCoding/Image_processing.md",
+    "XX-Attachments/Images/Pasted image 20240320192424.png",
+    "XX-Attachments/Images/Pasted image 20240320192405.png",
+    "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Roberts_filter.md",
-    "MediaCoding/Edge_detection.md",
     "XX-Attachments/Images/Pasted image 20240320182537.png",
     "MediaCoding/Convolution.md",
     "MediaCoding/Convolutional_networks.md",
     "MediaCoding/Detection_algorithms.md",
     "MediaCoding/Media_coding.md",
-    "MediaCoding/Image_processing.md",
     "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
     "XX-Attachments/Images/Pasted image 20240319193105.png",
     "XX-Attachments/Images/Pasted image 20240319193051.png",
@@ -507,7 +550,6 @@
     "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
     "MediaCoding/Filters/SmoothingFilters/Smoothing_spatial_filtering.md",
     "MediaCoding/Filters/SmoothingFilters/Median_filter.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
     "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
     "XX-Attachments/Images/Pasted image 20240319191339.png",
     "MediaCoding/Colour_models.md",
@@ -523,8 +565,6 @@
     "XX-Attachments/Images/Pasted image 20240318234147.png",
     "XX-Attachments/Images/Pasted image 20240318233339.png",
     "MediaCoding/Filters/EdgeDetectionFilters",
-    "XX-Attachments/Images/Pasted image 20240318212535.png",
-    "XX-Attachments/Images/Pasted image 20240318212449.png",
     "MediaCoding/Filters",
     "MediaCoding/IntensityTransforms",
     "Statistics/Untitled",

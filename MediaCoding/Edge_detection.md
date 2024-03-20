@@ -19,13 +19,6 @@ ___
 - Filters such as Sobel have larger values for the middle pixel in a row / column in order to reduce the influence of neighbouring pixels when calculating an output
 
 ![[Pasted image 20231022153145.png|450|450]]
-## Edge detection derivatives 
-![[Pasted image 20231022152823.png|550|550]]
-
-- The first derivative / gradient quantifies the change in pixel intensity 
-- The second derivative quantifies the rate of change in pixel intensity AKA the smoothness of the transition from light to dark or vice versa 
-
-
 ## Edge types 
 - **Step edge**: the image intensity sharply changes from one value to a different value, can occur over a distance as small as 1 pixel. Common in 
 
@@ -44,3 +37,8 @@ ___
 - Detecting vanishing points can provide information about the perspective and orientation of the camera, which is crucial for understanding the viewpoint
 
 ![[Pasted image 20240320182537.png|450|450]]
+
+
+
+
+##  Image 
