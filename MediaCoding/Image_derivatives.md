@@ -24,6 +24,8 @@ ___
 ## Gradient magnitude 
 $$\| \nabla f \|= \sqrt{\left( \frac{\partial f}{\partial x} \right)^2 + \left( \frac{\partial f}{\partial y} \right)^2}$$
 
+- An alternative formula that's less accurate but more computationally efficient:
+$$\| \nabla f \| = \left| \frac{\partial f}{\partial x} \right| + \left| \frac{\partial f}{\partial y} \right|$$
 ## Gradient direction 
 $$\theta=\tan^{-1} \left( \frac{\partial f}{\partial y'}/ \frac{\partial f}{\partial x} \right)$$
 
