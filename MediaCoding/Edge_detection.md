@@ -38,3 +38,9 @@ ___
 - **Roof edge**: the intensity changes from one value to another value over a finite distance and then returns to the starting value over the same distance. Common with thin features (eg roads)
 
 ![[Pasted image 20240318212449.png|250|250]]
+
+## Edge geometry recover 
+- Edges that converge to a point in an image represent the **vanishing point**
+- Detecting vanishing points can provide information about the perspective and orientation of the camera, which is crucial for understanding the viewpoint
+
+![[Pasted image 20240320182537.png|450|450]]

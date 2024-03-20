@@ -208,7 +208,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Edge_detection.md",
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -243,7 +243,7 @@
               "type": "markdown",
               "state": {
                 "file": "MediaCoding/Edge_detection.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -302,7 +302,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 18
       }
     ],
     "direction": "vertical"
@@ -486,16 +486,19 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8f225bb02336368d",
+  "active": "b54926c9aeddc853",
   "lastOpenFiles": [
+    "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Roberts_filter.md",
+    "MediaCoding/Edge_detection.md",
+    "XX-Attachments/Images/Pasted image 20240320182537.png",
     "MediaCoding/Convolution.md",
     "MediaCoding/Convolutional_networks.md",
     "MediaCoding/Detection_algorithms.md",
     "MediaCoding/Media_coding.md",
     "MediaCoding/Image_processing.md",
-    "MediaCoding/Edge_detection.md",
     "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
     "XX-Attachments/Images/Pasted image 20240319193105.png",
     "XX-Attachments/Images/Pasted image 20240319193051.png",
     "MediaCoding/IntensityTransforms/Image_negatives.md",
@@ -505,8 +508,6 @@
     "MediaCoding/Filters/SmoothingFilters/Smoothing_spatial_filtering.md",
     "MediaCoding/Filters/SmoothingFilters/Median_filter.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Roberts_filter.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
     "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
     "XX-Attachments/Images/Pasted image 20240319191339.png",
     "MediaCoding/Colour_models.md",
@@ -524,7 +525,6 @@
     "MediaCoding/Filters/EdgeDetectionFilters",
     "XX-Attachments/Images/Pasted image 20240318212535.png",
     "XX-Attachments/Images/Pasted image 20240318212449.png",
-    "XX-Attachments/Images/Pasted image 20240318212315.png",
     "MediaCoding/Filters",
     "MediaCoding/IntensityTransforms",
     "Statistics/Untitled",

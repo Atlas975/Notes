@@ -17,4 +17,6 @@ ___
 - **Edge Detection**: Overall, it provides a more refined edge detection output, particularly for images with varying levels of brightness and contrast.
 
 ## Sobel filter kernel
+- Filter is based on finding central difference $\left( \frac{\partial f}{\partial x}=f(x+1)-f(x-1) \right)$
+
 ![[Pasted image 20240318233339.png|450|450]]
