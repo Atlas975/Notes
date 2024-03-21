@@ -19,9 +19,9 @@ ___
 	4. Double thresholding
 	5. Edge tracking by hysteresis
 - Performance depends on the following parameters: 
-    -  Value of high threshold 
-    - Value of low threshold 
-    - Size of the Gaussian blurring filter and Sigma of Gaussian
+	-  Value of high threshold 
+	- Value of low threshold 
+	- Size of the Gaussian blurring filter and Sigma of Gaussian
 
 
 ## Noise reduction
@@ -34,7 +34,8 @@ ___
 
 ![[Pasted image 20240321020301.png|450|450]]
 
-- Strong edges are found by comparing gradient magnitudes with that of neighbouring pixels that point in the same (rounded) gradient direction 
+- Edges have their gradient magnitudes compared with that of neighbouring pixels that point in the same (rounded) gradient direction 
+- If the magnitude of a pixel is less than the magnitudes at one or both neighbours along the gradient direction, the pixels magnitude is set to 0
 ## Double thresholding
 - Gradient magnitude are classified in three categories strong, weak, and non-edge pixels:
 	- Pixels with magnitudes ==less than the low threshold== are discarded, i.e value set to 0 
@@ -43,8 +44,11 @@ ___
 
 ![[Pasted image 20240321021254.png|450|450]]
 
-## Edge tracking by hysteria 
+## Edge tracking by hysteria
 - Finally, weak edges that are not connected to strong edges are suppressed
 - All other weak edges are preserved if they connect to strong edges as these are marked as meaningful (true) edges 
 
 ![[Pasted image 20240321021610.png|450|450]]
+
+- This is handled by iterating over each weak edge and comparing the magnitude of the pixel being processed with its eight surrounding pixels. 
+- If at least one of the surrounding pixels belongs to the strong edges group, the gradient magnitude of the pixel being processed is preserved. Otherwise, it is discarded
