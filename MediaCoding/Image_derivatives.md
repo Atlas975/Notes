@@ -22,11 +22,10 @@ ___
 
 
 ## Gradient magnitude 
+- L2 norm is more computationally expensive but more sensitive to outliers:
 $$\| \nabla f \|= \sqrt{\left( \frac{\partial f}{\partial x} \right)^2 + \left( \frac{\partial f}{\partial y} \right)^2}$$
-
-- An alternative formula that's less accurate but more computationally efficient:
+- L1 norm is computationally cheap but less outlier sensitive:
 $$\| \nabla f \| = \left| \frac{\partial f}{\partial x} \right| + \left| \frac{\partial f}{\partial y} \right|$$
 ## Gradient direction 
 $$\theta=\tan^{-1} \left( \frac{\partial f}{\partial y'}/ \frac{\partial f}{\partial x} \right)$$
-
 
