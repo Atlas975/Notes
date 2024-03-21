@@ -18,7 +18,6 @@ ___
 # Histogram of oriented gradients
 - A feature descriptor used in [[Image_matching|local image matching]]
 - Captures the features of an image via analysing the distribution of it's intensity gradients. 
-- This uses  making it variations of a feature (eg lighting or scale variation)
 
 ![[Pasted image 20240321212543.png|450|450]]
 - Follows the 
