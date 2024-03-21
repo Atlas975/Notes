@@ -393,7 +393,7 @@
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -461,7 +461,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md"
+                "file": "MediaCoding/Canny_edge_detection.md"
               }
             }
           }
@@ -496,7 +496,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
+                "file": "MediaCoding/Canny_edge_detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -513,7 +513,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
+                "file": "MediaCoding/Canny_edge_detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -577,10 +577,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1537a8b1eb611520",
+  "active": "0ebe9be8915f87e6",
   "lastOpenFiles": [
-    "MediaCoding/Edge_detection.md",
     "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
+    "MediaCoding/Edge_detection.md",
     "MediaCoding/Convolution.md",
     "MediaCoding/Media_coding.md",
     "MediaCoding/Image_derivatives.md",

@@ -2,6 +2,7 @@
 aliases:
   - HOG
 ---
+
 > [!important]- Metadata
 > **Tags:** #MediaEncoding 
 > **Located:** MediaCoding/ImageMatching
@@ -15,3 +16,10 @@ aliases:
 
 ___
 # Histogram of oriented gradients
+
+
+1. Calculate magnitude and direction of gradient at each pixel in the image
+2. Divide the image into 8×8 cells
+3. Calculate histogram of gradients in each cell
+4. Block Normalisation
+5. Form HOG feature vector
