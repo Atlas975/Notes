@@ -208,7 +208,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Canny_edge_detection.md",
+                "file": "MediaCoding/Media_coding.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -448,7 +448,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Canny_edge_detection.md"
+                "file": "MediaCoding/Media_coding.md"
               }
             }
           }
@@ -456,8 +456,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -484,7 +483,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Canny_edge_detection.md",
+                "file": "MediaCoding/Media_coding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -501,7 +500,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Canny_edge_detection.md",
+                "file": "MediaCoding/Media_coding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -567,13 +566,13 @@
   },
   "active": "704dfe0ad647a5db",
   "lastOpenFiles": [
+    "MediaCoding/Image_processing.md",
+    "MediaCoding/Canny_edge_detection.md",
     "MediaCoding/Colour_models.md",
     "MediaCoding/Convolution.md",
     "MediaCoding/Convolutional_networks.md",
     "MediaCoding/Image_derivatives.md",
-    "MediaCoding/Image_processing.md",
     "MediaCoding/Computer_vision.md",
-    "MediaCoding/Canny_edge_detection.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
     "XX-Attachments/Images/Pasted image 20240321182355.png",
     "XX-Attachments/Images/Pasted image 20240321180926.png",
