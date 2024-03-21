@@ -1,7 +1,11 @@
+---
+aliases:
+  - HOG
+---
 > [!important]- Metadata
 > **Tags:** #MediaEncoding 
-> **Located:** MediaCoding
-> **Created:** 21/03/2024 - 20:26
+> **Located:** MediaCoding/ImageMatching
+> **Created:** 21/03/2024 - 20:46
 > ```dataviewjs
 > let f = dv.current().file;
 > let paths = new Set([...f.inlinks, ...f.outlinks].map(p => p.path).filter(p => !p.endsWith(".png")));
@@ -10,9 +14,4 @@
 > ```
 
 ___
-# Image matching 
-- The process of finding matching pairs of features between images that correspond to the same point in the scene, despite differences in viewpoint, illumination, or scale.
-- Vital for 
-
-
-![[Pasted image 20240321203137.png|450|450]]
+# Histogram of oriented gradients
