@@ -17,11 +17,12 @@ ___
 ![[Pasted image 20240321180926.png|450|450]]
 
 ## Laplacian of Gaussian (LoG)
-- The process of applying both a [[Gaussian_filter|Gaussian]] and Laplacian filter at the same time 
-- This provides a blur to remove noice while using the Laplacian filter detects 
+- The Laplacian of Gaussian (LoG) filter applies a [[Gaussian_filter|Gaussian]] blur to smooth an image before performing Laplacian edge detection.
+- This combination helps reduce the noise sensitivity of the Laplacian operator, as the Gaussian blur suppresses noise in the image's intensity before the edges are enhanced by the Laplacian.
 
 ![[Pasted image 20240321182355.png|250|250]]
 
+- The scale of the Gaussian blur determines the size of edges that the LoG filter will detect; a larger std ($\sigma$) blurs over a wider area, allowing the filter to detect larger-scale edges
 ## Laplacian formula
 - The Laplacian $L(x,y)$ of an image with pixel intensity values $f(x,y)$ is given by:
 
