@@ -13,9 +13,11 @@ ___
 # Image derivatives
 
 - The [[Sobel_filter|first derivative]] / gradient quantifies the change in pixel intensity with filters this is typically found using the central difference $\left( \frac{\partial f}{\partial x}=f(x+1)-f(x-1) \right)$
-- The second derivative quantifies the rate of change in pixel intensity AKA the smoothness of the transition from light to dark or vice versa
+- The second derivative quantifies the rate of change in pixel intensity AKA the smoothness of the transition from light to dark or vice versa. This makes it ideal for detecting random noise 
 
 ![[Pasted image 20231022152823.png|550|550]]
+
+
 
 ## Gradient magnitude
 - L2 norm is more computationally expensive but more sensitive to outliers:

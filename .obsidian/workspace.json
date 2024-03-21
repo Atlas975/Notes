@@ -208,8 +208,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Image_derivatives.md",
-                "mode": "preview",
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -367,7 +367,7 @@
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -435,7 +435,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Canny_edge_detection.md"
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md"
               }
             }
           }
@@ -470,7 +470,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Canny_edge_detection.md",
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -487,7 +487,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Canny_edge_detection.md",
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -551,12 +551,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0ebe9be8915f87e6",
+  "active": "704dfe0ad647a5db",
   "lastOpenFiles": [
+    "MediaCoding/Image_derivatives.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
+    "MediaCoding/Canny_edge_detection.md",
     "XX-Attachments/Images/Pasted image 20240321021610.png",
     "XX-Attachments/Images/Pasted image 20240321021254.png",
-    "MediaCoding/Image_derivatives.md",
-    "MediaCoding/Canny_edge_detection.md",
     "XX-Attachments/Images/Pasted image 20240321020301.png",
     "XX-Attachments/Images/Pasted image 20240321015537.png",
     "XX-Attachments/Images/Pasted image 20240321015521.png",
@@ -565,7 +566,6 @@
     "XX-Attachments/Images/Pasted image 20240321015420.png",
     "XX-Attachments/Images/Pasted image 20240321015345.png",
     "XX-Attachments/Images/Pasted image 20240321015330.png",
-    "XX-Attachments/Images/Pasted image 20240321014027.png",
     "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
     "MediaCoding/Convolution.md",
     "MediaCoding/Media_coding.md",
