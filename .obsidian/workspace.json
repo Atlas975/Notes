@@ -216,6 +216,19 @@
             }
           },
           {
+            "id": "e8bbe3c871eb4b52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Image_derivatives.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0ebe9be8915f87e6",
             "type": "leaf",
             "state": {
@@ -553,6 +566,7 @@
   },
   "active": "704dfe0ad647a5db",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240321180926.png",
     "MediaCoding/Image_derivatives.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
     "MediaCoding/Canny_edge_detection.md",
@@ -589,7 +603,6 @@
     "MediaCoding/Filters/SmoothingFilters",
     "MediaCoding/IntensityTransforms/Gamma_transform.md",
     "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
-    "MediaCoding/IntensityTransforms/Untitled.md",
     "MediaCoding/Filters/EdgeDetectionFilters",
     "MediaCoding/Filters",
     "MediaCoding/IntensityTransforms",

@@ -11,3 +11,4 @@
 
 ___
 # Laplacian edge detector
+![[Pasted image 20240321180926.png|450|450]]
