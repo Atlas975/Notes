@@ -593,6 +593,7 @@
   },
   "active": "1537a8b1eb611520",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240321212543.png",
     "MediaCoding/ImageMatching/Image_matching.md",
     "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
     "MediaCoding/Canny_edge_detection.md",
@@ -629,7 +630,6 @@
     "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
     "MediaCoding/Filters/SmoothingFilters/Smoothing_spatial_filtering.md",
     "MediaCoding/Filters/SmoothingFilters/Median_filter.md",
-    "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
     "MediaCoding/Filters/SmoothingFilters",
     "MediaCoding/Filters/EdgeDetectionFilters",
     "MediaCoding/Filters",
