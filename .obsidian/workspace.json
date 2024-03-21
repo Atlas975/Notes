@@ -209,6 +209,19 @@
               "type": "markdown",
               "state": {
                 "file": "MediaCoding/Image_derivatives.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0ebe9be8915f87e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Canny_edge_detection.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -354,7 +367,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -422,7 +435,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Image_derivatives.md"
+                "file": "MediaCoding/Canny_edge_detection.md"
               }
             }
           }
@@ -430,8 +443,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -458,7 +470,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Image_derivatives.md",
+                "file": "MediaCoding/Canny_edge_detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -475,7 +487,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Image_derivatives.md",
+                "file": "MediaCoding/Canny_edge_detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -539,11 +551,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "704dfe0ad647a5db",
+  "active": "0ebe9be8915f87e6",
   "lastOpenFiles": [
+    "MediaCoding/Image_derivatives.md",
+    "MediaCoding/Canny_edge_detection.md",
+    "XX-Attachments/Images/Pasted image 20240321014027.png",
     "XX-Attachments/Images/Pasted image 20240321013031.png",
     "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
-    "MediaCoding/Image_derivatives.md",
     "MediaCoding/Convolution.md",
     "MediaCoding/Media_coding.md",
     "MediaCoding/Image_processing.md",
@@ -576,8 +590,6 @@
     "Networking/Routing_methods.md",
     "XX-Attachments/Images/Pasted image 20240318234718.png",
     "XX-Attachments/Images/Pasted image 20240318234524.png",
-    "XX-Attachments/Images/Pasted image 20240318234147.png",
-    "XX-Attachments/Images/Pasted image 20240318233339.png",
     "MediaCoding/Filters/EdgeDetectionFilters",
     "MediaCoding/Filters",
     "MediaCoding/IntensityTransforms",
