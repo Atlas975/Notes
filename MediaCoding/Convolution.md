@@ -12,7 +12,7 @@
 ___
 # Convolution
 - A mathematical operation where a filter (kernel) is slid over an image, at each position, a new pixel value is calculated by `sum(overlapping pixel values * filter coefficients)`
-- This technique is fundamental for applying various [[Image_processing#Spatial domain|spatial]] transformations, like [[Smoothing_spatial_filtering|smoothing]], [[Sharpening_filter|sharpening]], or [[Edge_detection|edge detection]].
+- This technique is fundamental for applying various [[Media_coding#Spatial domain|spatial]] transformations, like [[Smoothing_spatial_filtering|smoothing]], [[Sharpening_filter|sharpening]], or [[Edge_detection|edge detection]].
 ## Image padding
 - Involves adding extra pixels around the edge of an image. This is done to change the image size, maintain spatial dimensions after applying filters or kernels
 - Prevents information from the images edges from being lost, vital in a creating a deep [[Convolutional_networks| CNN]]
