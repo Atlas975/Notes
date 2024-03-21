@@ -16,7 +16,7 @@ aliases:
 
 ___
 # Histogram of oriented gradients
-
+- A 
 
 1. Calculate magnitude and direction of gradient at each pixel in the image
 2. Divide the image into 8×8 cells
