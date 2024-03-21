@@ -295,7 +295,7 @@
               "type": "markdown",
               "state": {
                 "file": "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -541,16 +541,17 @@
   },
   "active": "704dfe0ad647a5db",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240321013031.png",
+    "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
+    "MediaCoding/Image_derivatives.md",
     "MediaCoding/Convolution.md",
     "MediaCoding/Media_coding.md",
     "MediaCoding/Image_processing.md",
-    "MediaCoding/Image_derivatives.md",
     "MediaCoding/Edge_detection.md",
     "MediaCoding/Detection_algorithms.md",
     "XX-Attachments/Images/Pasted image 20240320192424.png",
     "XX-Attachments/Images/Pasted image 20240320192405.png",
     "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Roberts_filter.md",
     "XX-Attachments/Images/Pasted image 20240320182537.png",
@@ -573,7 +574,6 @@
     "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
     "MediaCoding/IntensityTransforms/Untitled.md",
     "Networking/Routing_methods.md",
-    "Networking/Internet_architecture.md",
     "XX-Attachments/Images/Pasted image 20240318234718.png",
     "XX-Attachments/Images/Pasted image 20240318234524.png",
     "XX-Attachments/Images/Pasted image 20240318234147.png",

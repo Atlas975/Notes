@@ -11,21 +11,20 @@
 
 ___
 # Image derivatives
-
-
-
-## Edge detection derivatives 
 ![[Pasted image 20231022152823.png|550|550]]
 
-- The [[Sobel_filter|first derivative]] / gradient quantifies the change in pixel intensity 
+- The [[Sobel_filter|first derivative]] / gradient quantifies the change in pixel intensity with filters this is typically found using the central difference $\left( \frac{\partial f}{\partial x}=f(x+1)-f(x-1) \right)$
 - The second derivative quantifies the rate of change in pixel intensity AKA the smoothness of the transition from light to dark or vice versa
 
 
-## Gradient magnitude 
+## Gradient magnitude
 - L2 norm is more computationally expensive but more sensitive to outliers:
 $$\| \nabla f \|= \sqrt{\left( \frac{\partial f}{\partial x} \right)^2 + \left( \frac{\partial f}{\partial y} \right)^2}$$
 - L1 norm is computationally cheap but less outlier sensitive:
 $$\| \nabla f \| = \left| \frac{\partial f}{\partial x} \right| + \left| \frac{\partial f}{\partial y} \right|$$
-## Gradient direction 
-$$\theta=\tan^{-1} \left( \frac{\partial f}{\partial y'}/ \frac{\partial f}{\partial x} \right)$$
 
+![[Pasted image 20240321013031.png|350|350]]
+## Gradient direction / edge normal
+- The gradient direction (ie edge normal) can be found using the following:
+$$\theta=\tan^{-1} \left( \frac{\partial f}{\partial y'}/ \frac{\partial f}{\partial x} \right)$$
+- The edge direction is perpendicular to the gradient vector direction
