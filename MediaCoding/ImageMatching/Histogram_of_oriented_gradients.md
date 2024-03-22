@@ -18,16 +18,16 @@ ___
 # Histogram of oriented gradients
 - A feature descriptor calculating algorithm used in [[Image_matching#Local image matching|local image matching]]
 - Captures the features of an image via analysing the distribution of it's intensity gradients. 
-- The output of HOG is a feature vector, which encode histogram information in a way that describes the shapes and patterns within an image
 
 ![[Pasted image 20240321212543.png|450|450]]
+
 - Follows the 
 1. Calculate magnitude and direction of gradient at each pixel in the image
 2. Divide the image into 8×8 cells
 3. Calculate histogram of gradients in each cell
 4. Block Normalisation
+- The output of HOG is a feature vector, which encode histogram information in a way that describes the shapes and patterns within an image. 
 5. Form HOG feature vector
-
 
 - In essence, the HOG feature vector transforms an image into a form that emphasises structural information. This can then be compared with other feature vectors using metrics like [[Sum_of_squared_differences|SSD]]
 
