@@ -18,11 +18,19 @@ ___
 	- Robustness to noise, lighting conditions, compression and blur
 	- Distinctness of descriptor 
 
-## Patch matching 
+## Patch matching
 - Matches elements are of fixed size, this needs to be large enough for patches to be distinctive resulting in ideally one obvious match
 
 ![[Pasted image 20240322173855.png|450|450]]
 
 - A small patch fails to be distinctive as many possible matches could exist 
+- This results in what's called a **flat** region
 
 ![[Pasted image 20240322174012.png|450|450]]
+
+## Interest point quality
+- In general the best interest points are those where shifting a window in any direction results in a significant change to the window's content 
+
+![[Pasted image 20240322175415.png|350|350]]
+
+- This makes **corners** the ideal interest point as the largest window changes occur when focused on these regions in an image. This is the intuition behind [[Harris_corner_detection|Harris corner detection]] 

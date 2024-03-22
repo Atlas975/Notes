@@ -260,6 +260,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5b92dbfb4b766800",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "MediaCoding/ImageMatching/Image_features.md",
                 "mode": "preview",
                 "backlinks": false,
@@ -500,7 +513,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/ImageMatching/Image_features.md"
+                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md"
               }
             }
           }
@@ -508,7 +521,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -535,7 +549,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/ImageMatching/Image_features.md",
+                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -552,7 +566,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/ImageMatching/Image_features.md",
+                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -618,8 +632,10 @@
   },
   "active": "6dd59daf9da14615",
   "lastOpenFiles": [
-    "MediaCoding/ImageMatching/Image_matching.md",
     "MediaCoding/ImageMatching/Image_features.md",
+    "MediaCoding/ImageMatching/Harris_corner_detection.md",
+    "XX-Attachments/Images/Pasted image 20240322175415.png",
+    "MediaCoding/ImageMatching/Image_matching.md",
     "XX-Attachments/Images/Pasted image 20240322174012.png",
     "XX-Attachments/Images/Pasted image 20240322173951.png",
     "XX-Attachments/Images/Pasted image 20240322173942.png",
@@ -631,7 +647,6 @@
     "XX-Attachments/Images/Pasted image 20240322171941.png",
     "XX-Attachments/Images/Pasted image 20240322171847.png",
     "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
-    "XX-Attachments/Images/Pasted image 20240321212543.png",
     "MediaCoding/Canny_edge_detection.md",
     "MediaCoding/Edge_detection.md",
     "MediaCoding/Convolution.md",
