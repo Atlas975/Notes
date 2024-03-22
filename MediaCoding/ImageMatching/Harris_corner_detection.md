@@ -11,5 +11,8 @@
 
 ___
 # Harris corner detection
-- Identifies corners in an image by detecting significant changes in all directions of a window sliding over the image. This is done using the [[Sum_of_squared_differences|SSD]]
-- Larger SSD errors from a window to it's neighbours indicates that an int
+- An algorithm that identifies corners in an image by detecting significant changes in all directions of a window sliding over the image. This is done using the [[Sum_of_squared_differences|SSD]]
+- Larger SSD errors from a window to it's neighbours indicates that a corner has been found, flat regions will result in low SSD errors indicating that they're not corners (bad [[Image_features|interest points]])
+
+## Small motion assumption
+- Used to make 
