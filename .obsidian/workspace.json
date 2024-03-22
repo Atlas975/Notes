@@ -247,8 +247,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/ImageMatching/Untitled.md",
-                "mode": "source",
+                "file": "MediaCoding/ImageMatching/Image_matching.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6dd59daf9da14615",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/ImageMatching/Image_features.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -419,7 +432,7 @@
             }
           }
         ],
-        "currentTab": 18
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -487,7 +500,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/ImageMatching/Untitled.md"
+                "file": "MediaCoding/ImageMatching/Image_features.md"
               }
             }
           }
@@ -495,8 +508,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -523,7 +535,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/ImageMatching/Untitled.md",
+                "file": "MediaCoding/ImageMatching/Image_features.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -540,7 +552,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/ImageMatching/Untitled.md",
+                "file": "MediaCoding/ImageMatching/Image_features.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -604,10 +616,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1d47d60202ebc26f",
+  "active": "6dd59daf9da14615",
   "lastOpenFiles": [
     "MediaCoding/ImageMatching/Image_matching.md",
-    "MediaCoding/ImageMatching/Untitled.md",
+    "MediaCoding/ImageMatching/Image_features.md",
+    "XX-Attachments/Images/Pasted image 20240322174012.png",
+    "XX-Attachments/Images/Pasted image 20240322173951.png",
+    "XX-Attachments/Images/Pasted image 20240322173942.png",
+    "XX-Attachments/Images/Pasted image 20240322173855.png",
     "XX-Attachments/Images/Pasted image 20240322173032.png",
     "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
     "XX-Attachments/Images/Pasted image 20240322172114.png",
@@ -622,10 +638,6 @@
     "MediaCoding/Media_coding.md",
     "MediaCoding/Image_derivatives.md",
     "MediaCoding/ImageMatching",
-    "XX-Attachments/Images/Pasted image 20240321204346.png",
-    "XX-Attachments/Images/Pasted image 20240321204337.png",
-    "XX-Attachments/Images/Pasted image 20240321204322.png",
-    "XX-Attachments/Images/Pasted image 20240321204250.png",
     "MediaCoding/Image_processing.md",
     "MediaCoding/Colour_models.md",
     "MediaCoding/Convolutional_networks.md",
@@ -642,7 +654,6 @@
     "MediaCoding/IntensityTransforms/Log_transform.md",
     "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
     "MediaCoding/Filters/SmoothingFilters/Smoothing_spatial_filtering.md",
-    "MediaCoding/Filters/SmoothingFilters/Median_filter.md",
     "MediaCoding/Filters/SmoothingFilters",
     "MediaCoding/Filters/EdgeDetectionFilters",
     "MediaCoding/Filters",
