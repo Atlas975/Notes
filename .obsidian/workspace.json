@@ -242,6 +242,19 @@
             }
           },
           {
+            "id": "1d47d60202ebc26f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/ImageMatching/Untitled.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "bf76db227694fdef",
             "type": "leaf",
             "state": {
@@ -406,7 +419,7 @@
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 18
       }
     ],
     "direction": "vertical"
@@ -474,7 +487,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md"
+                "file": "MediaCoding/ImageMatching/Untitled.md"
               }
             }
           }
@@ -510,7 +523,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
+                "file": "MediaCoding/ImageMatching/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -527,7 +540,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
+                "file": "MediaCoding/ImageMatching/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -591,11 +604,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1537a8b1eb611520",
+  "active": "1d47d60202ebc26f",
   "lastOpenFiles": [
-    "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
     "MediaCoding/ImageMatching/Image_matching.md",
+    "MediaCoding/ImageMatching/Untitled.md",
+    "XX-Attachments/Images/Pasted image 20240322173032.png",
     "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
+    "XX-Attachments/Images/Pasted image 20240322172114.png",
+    "XX-Attachments/Images/Pasted image 20240322172009.png",
+    "XX-Attachments/Images/Pasted image 20240322171941.png",
+    "XX-Attachments/Images/Pasted image 20240322171847.png",
+    "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
     "XX-Attachments/Images/Pasted image 20240321212543.png",
     "MediaCoding/Canny_edge_detection.md",
     "MediaCoding/Edge_detection.md",
@@ -607,16 +626,11 @@
     "XX-Attachments/Images/Pasted image 20240321204337.png",
     "XX-Attachments/Images/Pasted image 20240321204322.png",
     "XX-Attachments/Images/Pasted image 20240321204250.png",
-    "XX-Attachments/Images/Pasted image 20240321203137.png",
     "MediaCoding/Image_processing.md",
     "MediaCoding/Colour_models.md",
     "MediaCoding/Convolutional_networks.md",
     "MediaCoding/Computer_vision.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
-    "XX-Attachments/Images/Pasted image 20240321182355.png",
-    "XX-Attachments/Images/Pasted image 20240321180926.png",
-    "XX-Attachments/Images/Pasted image 20240321021610.png",
-    "XX-Attachments/Images/Pasted image 20240321021254.png",
     "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
     "MediaCoding/Detection_algorithms.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",

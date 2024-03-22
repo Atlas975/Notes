@@ -24,6 +24,7 @@ ___
 - Focuses on distinct, individual **features** or small areas within an image, analysing detailed aspects like corners, edges, or texture patterns. More robust to image variation 
 - Excels in recognising objects in conditions where the appearance of an image might change (eg different viewpoints, lighting, or rotation) making it ideal for applications like object tracking
 
+![[Pasted image 20240322173032.png|450|450]]
 ## Image matching challenges
 -  Illumination Variation
 - Scale Variation

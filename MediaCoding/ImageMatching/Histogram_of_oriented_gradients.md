@@ -16,24 +16,36 @@ aliases:
 
 ___
 # Histogram of oriented gradients
-- A feature descriptor calculating algorithm used in [[Image_matching#Local image matching|local image matching]]
+- A feature descriptor calculating algorithm used in [[Image_matching#Local image matching|local image matching]] making it more robust to noise and other sparse representations of an image 
 - Captures the features of an image via analysing the distribution of it's intensity gradients. 
 
 ![[Pasted image 20240321212543.png|450|450]]
 
-- Follows the 
-1. Calculate magnitude and direction of gradient at each pixel in the image
-2. Divide the image into 8×8 cells
-3. Calculate histogram of gradients in each cell
-4. Block Normalisation
+- The HOG algorithm follows these steps:
+    1. Gradient computation 
+    2. Orientation binning
+    3. Block normalisation 
+    4. Feature vector construction
 - The output of HOG is a feature vector, which encode histogram information in a way that describes the shapes and patterns within an image. 
-5. Form HOG feature vector
-
-- In essence, the HOG feature vector transforms an image into a form that emphasises structural information. This can then be compared with other feature vectors using metrics like [[Sum_of_squared_differences|SSD]]
+- This feature vector can be compared to other feature vectors via metrics such as [[Sum_of_squared_differences|SSD]]
 
 
+## Gradient computation
+![[Pasted image 20240322171847.png|450|450]]
 
-## HOG algorithm 
+## Orientation binning
+- The image is then divided into small spatial regions called "cells", and for each cell, a histogram of gradient directions (or orientations) is compiled.
+- The gradients of all the pixels in a cell are binned according to their quanternised orientation. This process essentially captures the distribution of directions for the edges in each cell
+
+![[Pasted image 20240322172009.png|250|250]]
+
+
+## Block normalisation
+- To improve accuracy and robustness against changes in illumination and contrast, the histograms are normalised.
+- This is typically done over larger regions of the image called "blocks", which overlap with each other and consist of multiple cells
+
+![[Pasted image 20240322172114.png|300|300]]
+## HOG algorithm
 
 ```matlab
 function extractedHOGFeatures = HOG(inputImage)
