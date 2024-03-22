@@ -16,7 +16,7 @@ aliases:
 
 ___
 # Histogram of oriented gradients
-- A feature descriptor used in [[Image_matching|local image matching]]
+- A feature descriptor used in [[Image_matching#Local image matching|local image matching]]
 - Captures the features of an image via analysing the distribution of it's intensity gradients. 
 
 ![[Pasted image 20240321212543.png|450|450]]

@@ -406,7 +406,7 @@
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -474,7 +474,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md"
+                "file": "MediaCoding/ImageMatching/Image_matching.md"
               }
             }
           }
@@ -510,7 +510,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
+                "file": "MediaCoding/ImageMatching/Image_matching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -527,7 +527,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
+                "file": "MediaCoding/ImageMatching/Image_matching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -591,11 +591,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1537a8b1eb611520",
+  "active": "1148840804f890e0",
   "lastOpenFiles": [
-    "XX-Attachments/Images/Pasted image 20240321212543.png",
-    "MediaCoding/ImageMatching/Image_matching.md",
     "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
+    "MediaCoding/ImageMatching/Image_matching.md",
+    "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
+    "XX-Attachments/Images/Pasted image 20240321212543.png",
     "MediaCoding/Canny_edge_detection.md",
     "MediaCoding/Edge_detection.md",
     "MediaCoding/Convolution.md",
@@ -606,7 +607,6 @@
     "XX-Attachments/Images/Pasted image 20240321204337.png",
     "XX-Attachments/Images/Pasted image 20240321204322.png",
     "XX-Attachments/Images/Pasted image 20240321204250.png",
-    "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
     "XX-Attachments/Images/Pasted image 20240321203137.png",
     "MediaCoding/Image_processing.md",
     "MediaCoding/Colour_models.md",
@@ -617,7 +617,6 @@
     "XX-Attachments/Images/Pasted image 20240321180926.png",
     "XX-Attachments/Images/Pasted image 20240321021610.png",
     "XX-Attachments/Images/Pasted image 20240321021254.png",
-    "XX-Attachments/Images/Pasted image 20240321020301.png",
     "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
     "MediaCoding/Detection_algorithms.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
