@@ -16,7 +16,7 @@ aliases:
 ___
 # Sum of squared differences
 - A metric used in image matching, calculating the sum of squared differences between elements of two vectors (images).
-- This is used for [[Image_matching|holistic image matching]] which means it may not work in cases such as when the image is shifted even slightly
+- Used for [[Image_matching#Holistic image matching|holistic image matching]] by comparing entire images with every other sample. Used in [[Image_matching#Local image matching|local image matching]] via comparing feature vectors
 
 
 ## SSD formula 

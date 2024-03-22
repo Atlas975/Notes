@@ -406,7 +406,7 @@
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -474,7 +474,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/ImageMatching/Image_matching.md"
+                "file": "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md"
               }
             }
           }
@@ -510,7 +510,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/ImageMatching/Image_matching.md",
+                "file": "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -527,7 +527,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/ImageMatching/Image_matching.md",
+                "file": "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -591,11 +591,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1148840804f890e0",
+  "active": "1537a8b1eb611520",
   "lastOpenFiles": [
-    "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
-    "MediaCoding/ImageMatching/Image_matching.md",
     "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
+    "MediaCoding/ImageMatching/Image_matching.md",
+    "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
     "XX-Attachments/Images/Pasted image 20240321212543.png",
     "MediaCoding/Canny_edge_detection.md",
     "MediaCoding/Edge_detection.md",
