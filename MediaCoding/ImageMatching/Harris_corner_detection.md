@@ -28,7 +28,7 @@ ___
 ## Small motion assumption
 - Assumes that pixel shifts are so slight that the image's intensity change can be estimated using only the first-order gradient information 
 - This avoids complex calculations for every possible small displacement.
-- Streamlines the algorithm by enabling the use of a linear approximation (Taylor expansion) for intensity changes, which significantly reduces speeds up the corner detection process
+- Streamlines the algorithm by enabling the use of a linear approximation (Taylor expansion) for intensity changes, which significantly speeds up the corner detection process
 
 $$\begin{equation}
 \begin{split}
@@ -40,7 +40,7 @@ E(u,v) &= \sum_{(x,y)\in W} [ I(x + u, y + v) - I(x, y) ]^2 \\
 \end{split}
 \end{equation}$$
 - This formula can be produced using a **second moment matrix** 
-- This allows for the equation as the ellipses formula, allowing for the use of the major semi ($\lambda_{1}$) and minor semi ($\lambda_{2}$) axis in a corner response metric 
+- This equation then becomes the ellipses formula, allowing for the use of the major semi ($\lambda_{1}$) and minor semi ($\lambda_{2}$) axis in a corner response metric 
 
 ![[Pasted image 20240323182608.png|350|350]]![[Pasted image 20240323182713.png|350|350]]
 ## Corner response metric
@@ -54,7 +54,7 @@ R = \lambda_1 \lambda_2 - k(\lambda_1 + \lambda_2)^2\\
 $$k=\text{is an empirically determined constant eg. }k=0.04 \text{ to }0.06$$
 - A higher $R$ value indicates a larger ellipses and a higher probability of a pixel being a corner
 
-
+![[Pasted image 20240323203148.png|250|250]]
 
 ## Non-maxima suppression
 - Refers to the method used to classify if a pixel is a corner or not using the following steps:
@@ -65,3 +65,15 @@ $$R(x,y)>0.1\cdot max(R)$$
 2. The candidate becomes a corner if it's R value is a local maximum in a 3x3 window, further filtering down pixels to ones that are most likely to be a corner:
 
 $$R(x,y) > \{ R(x-1,y-1), R(x-1,y), R(x-1,y+1)\dots \}$$
+
+## Spatial scaling robustness 
+- HSD is not robust to image scaling, a larger image requires a larger window to detect corners 
+- This is because HSD uses a fixed sized window that cannot adapt to larger corners
+
+
+![[Pasted image 20240323204134.png|300|300]]
+
+- A simple way to adapt to this is to test various window sizes and see which one gives the highest R values, however this testing method is inefficient
+
+![[Pasted image 20240323204430.png|150|150]]
+
