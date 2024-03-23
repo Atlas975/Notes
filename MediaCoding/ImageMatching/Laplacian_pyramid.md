@@ -30,4 +30,4 @@ $$\text{Image}-\text{GaussianBlur}(\text{Image})=Residual$$
 
 ![[Pasted image 20240323212808.png|450|450]]
 - The difference between the image prior to a Gaussian pyramid step and the reconstructed image gives the residual, this is what's stored
-- These residuals are all that's needed from the current Gaussian pyramid step to reconstruct the whole image back to it's base form
+- These residuals are all that's needed alongside the image from the current Gaussian pyramid step to reconstruct the whole image back to it's base form
