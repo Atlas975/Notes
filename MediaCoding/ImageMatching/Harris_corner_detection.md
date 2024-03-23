@@ -44,6 +44,7 @@ E(u,v) &= \sum_{(x,y)\in W} [ I(x + u, y + v) - I(x, y) ]^2 \\
 
 ![[Pasted image 20240323182608.png|350|350]]![[Pasted image 20240323182713.png|350|350]]
 ## Corner response metric 
+- Both axis can be used to calculate a corner response metric using the following formula:
 $$\begin{equation}
 \begin{split}
 R = \lambda_1 \lambda_2 - k(\lambda_1 + \lambda_2)^2\\
@@ -51,3 +52,5 @@ R = \lambda_1 \lambda_2 - k(\lambda_1 + \lambda_2)^2\\
 \end{split}
 \end{equation}$$
 $$k=\text{is an empirically determined constant eg. }k=0.04 \text{ to }0.06$$
+- A higher $R$ value indicates a larger ellipses and a higher probability of a window being a corner
+- Using a threshold to determine if a window
