@@ -15,4 +15,12 @@ ___
 - Larger SSD errors from a window to it's neighbours indicates that a corner has been found, flat regions will result in low SSD errors indicating that they're not corners (bad [[Image_features|interest points]])
 
 ## Small motion assumption
-- Used to make 
+
+$$\begin{equation}
+\begin{split}
+E(u,v) &= \sum_{(x,y)\in W} \left[ I(x + u, y + v) - I(x, y) \right]^2 \\
+&\approx \sum_{(x,y)\in W} \left[ I(x, y) + I_x u + I_y v - I(x, y) \right]^2 \\
+&\approx \sum_{(x,y)\in W} \left[ I_x u + I_y v \right]^2 \\
+&&\text{shorthand: } I_x = \frac{\partial I}{\partial x} \\
+\end{split}
+\end{equation}$$

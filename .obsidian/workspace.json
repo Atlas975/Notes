@@ -261,7 +261,7 @@
               "type": "markdown",
               "state": {
                 "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -630,7 +630,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6dd59daf9da14615",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
     "MediaCoding/ImageMatching/Image_features.md",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
