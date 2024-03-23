@@ -261,6 +261,19 @@
               "type": "markdown",
               "state": {
                 "file": "MediaCoding/Optical_flow.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ce93117938d5751b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/ImageMatching/Laplacian_pyramid.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -471,7 +484,7 @@
             }
           }
         ],
-        "currentTab": 19
+        "currentTab": 20
       }
     ],
     "direction": "vertical"
@@ -539,7 +552,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Optical_flow.md"
+                "file": "MediaCoding/ImageMatching/Laplacian_pyramid.md"
               }
             }
           }
@@ -575,7 +588,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Optical_flow.md",
+                "file": "MediaCoding/ImageMatching/Laplacian_pyramid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -592,7 +605,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Optical_flow.md",
+                "file": "MediaCoding/ImageMatching/Laplacian_pyramid.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -656,12 +669,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "70a4eaaab53edec5",
+  "active": "ce93117938d5751b",
   "lastOpenFiles": [
+    "MediaCoding/Optical_flow.md",
     "XX-Attachments/Images/Pasted image 20240323220001.png",
     "XX-Attachments/Images/Pasted image 20240323214320.png",
     "MediaCoding/ImageMatching/Laplacian_pyramid.md",
-    "MediaCoding/Optical_flow.md",
     "XX-Attachments/Images/Pasted image 20240323212808.png",
     "XX-Attachments/Images/Pasted image 20240323212402.png",
     "MediaCoding/ImageMatching/Gaussian_pyramid.md",
@@ -673,7 +686,6 @@
     "XX-Attachments/Images/Pasted image 20240323204430.png",
     "XX-Attachments/Images/Pasted image 20240323204134.png",
     "XX-Attachments/Images/Pasted image 20240323204017.png",
-    "XX-Attachments/Images/Pasted image 20240323203148.png",
     "MediaCoding/ImageMatching/Image_features.md",
     "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
     "MediaCoding/ImageMatching/Sum_of_squared_differences.md",

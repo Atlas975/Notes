@@ -22,11 +22,8 @@ ___
 	- **Neighbours move together**: neighbouring patches of pixels have the same motion vector, allowing for correspondence to be found at the patch level 
 
 ## Colour consistency equation 
-- Used to calculate motion be
-- Because motion is assumed to be small, the 
+- Used to calculate motion between two frames under the optical flow assumptions 
 
-
-- Used to estimate t
 
 $$I_{x}u+I_{y}v+I_{t}=0$$
 $$I_{x},I_{y}=\text{Image gradients}$$
