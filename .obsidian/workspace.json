@@ -261,7 +261,7 @@
               "type": "markdown",
               "state": {
                 "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -632,6 +632,8 @@
   },
   "active": "6dd59daf9da14615",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240323182713.png",
+    "XX-Attachments/Images/Pasted image 20240323182608.png",
     "XX-Attachments/Images/Pasted image 20240323181714.png",
     "XX-Attachments/Images/Pasted image 20240323181647.png",
     "XX-Attachments/Images/Pasted image 20240323181435.png",
@@ -645,8 +647,6 @@
     "XX-Attachments/Images/Pasted image 20240322173855.png",
     "XX-Attachments/Images/Pasted image 20240322173032.png",
     "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
-    "XX-Attachments/Images/Pasted image 20240322172114.png",
-    "XX-Attachments/Images/Pasted image 20240322172009.png",
     "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
     "MediaCoding/Canny_edge_detection.md",
     "MediaCoding/Edge_detection.md",

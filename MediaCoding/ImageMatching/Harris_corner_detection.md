@@ -18,9 +18,9 @@ ___
 ![[Pasted image 20240323181435.png|250|250]]
 
 - An intuitive way of looking at HCD is the following 
-    1. Treat gradient vectors as a set of $(I_{x},I_{y})$ points with a centre of mass at (0,0)
-    2. Fit an ellipse to that set of points via scatter matrix
-    3. Analyse ellipse parameters for varying cases
+	1. Treat gradient vectors as a set of $(I_{x},I_{y})$ points with a centre of mass at (0,0)
+	2. Fit an ellipse to that set of points via scatter matrix
+	3. Analyse ellipse parameters for varying cases
 
 
 
@@ -40,4 +40,14 @@ E(u,v) &= \sum_{(x,y)\in W} [ I(x + u, y + v) - I(x, y) ]^2 \\
 \end{split}
 \end{equation}$$
 - This formula can be produced using a **second moment matrix** 
-- This allows for the equation as the elipses formula, allowing for the use of the major semi ($\lambda_{1}$) and minor semi ($$)
+- This allows for the equation as the ellipses formula, allowing for the use of the major semi ($\lambda_{1}$) and minor semi ($\lambda_{2}$) axis in a corner response metric 
+
+![[Pasted image 20240323182608.png|350|350]]![[Pasted image 20240323182713.png|350|350]]
+## Corner response metric 
+$$\begin{equation}
+\begin{split}
+R = \lambda_1 \lambda_2 - k(\lambda_1 + \lambda_2)^2\\
+= \text{det}(H) - k \cdot \text{tr}(H)^2
+\end{split}
+\end{equation}$$
+$$k=\text{is an empirically determined constant eg. }k=0.04 \text{ to }0.06$$
