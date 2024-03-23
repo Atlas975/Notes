@@ -16,9 +16,9 @@ ___
 - This is the first step in calculating a feature vector using algorithms like [[Histogram_of_oriented_gradients|HOG]]
 
 ## Small motion assumption
-- An assumption using the Taylor series can be made that approximates how much a pixel intensity will change when moved by a small displacement.
-- Here, $I_{x}$​ and $I_{y}$​ represent the partial derivatives of the image intensity with respect to the $x$ and $y$ directions. This leaves an expression that depends only on the image gradients and the shift
-- This small motion assumption makes the computation needed more efficient 
+- Assumes that pixel shifts are so slight that the image's intensity change can be estimated using only the first-order gradient information 
+- This avoids complex calculations for every possible small displacement.
+- Streamlines the algorithm by enabling the use of a linear approximation (Taylor expansion) for intensity changes, which significantly reduces speeds up the corner detection process
 
 $$\begin{equation}
 \begin{split}
@@ -28,3 +28,5 @@ E(u,v) &= \sum_{(x,y)\in W} \left[ I(x + u, y + v) - I(x, y) \right]^2 \\
 &&\text{shorthand: } I_x = \frac{\partial I}{\partial x} \\
 \end{split}
 \end{equation}$$
+- This formula can be produced using a **second moment matrix** 
+- 
