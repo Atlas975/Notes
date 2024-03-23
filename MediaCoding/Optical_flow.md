@@ -11,6 +11,17 @@
 
 ___
 # Optical flow
-- Motion is the main form of extracting information from videos. Optical flow techniques involve finding the vector that describes the transition from one frame to another. This information also allows the magnitude of motion to be computed
+- Motion is the main form of extracting information from videos. Optical flow techniques involve finding the displacement vector of all pixels in an image sequence. 
+
 
 ![[Pasted image 20240323214320.png|350|350]]
+## Optical flow assumptions
+- Optical flow methods rely on assumptions about frame transitions such as:
+	- **Colour consistency**: pixels mostly remain the same colour between frames
+	- **Small motion**: pixels do not move far between frames
+	- **Neighbours move together**: neighbouring patches of pixels have the same motion vector, allowing for correspondence to be found at the patch level 
+
+## Colour consistency equation 
+
+
+![[Pasted image 20240323220001.png|350|350]]

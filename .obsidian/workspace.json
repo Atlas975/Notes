@@ -261,7 +261,7 @@
               "type": "markdown",
               "state": {
                 "file": "MediaCoding/Optical_flow.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -657,6 +657,7 @@
   },
   "active": "70a4eaaab53edec5",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240323220001.png",
     "XX-Attachments/Images/Pasted image 20240323214320.png",
     "MediaCoding/ImageMatching/Laplacian_pyramid.md",
     "MediaCoding/Optical_flow.md",
@@ -672,7 +673,6 @@
     "XX-Attachments/Images/Pasted image 20240323204134.png",
     "XX-Attachments/Images/Pasted image 20240323204017.png",
     "XX-Attachments/Images/Pasted image 20240323203148.png",
-    "XX-Attachments/Images/Pasted image 20240323182713.png",
     "MediaCoding/ImageMatching/Image_features.md",
     "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
     "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
