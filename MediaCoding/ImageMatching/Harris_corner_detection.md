@@ -43,7 +43,7 @@ E(u,v) &= \sum_{(x,y)\in W} [ I(x + u, y + v) - I(x, y) ]^2 \\
 - This allows for the equation as the ellipses formula, allowing for the use of the major semi ($\lambda_{1}$) and minor semi ($\lambda_{2}$) axis in a corner response metric 
 
 ![[Pasted image 20240323182608.png|350|350]]![[Pasted image 20240323182713.png|350|350]]
-## Corner response metric 
+## Corner response metric
 - Both axis can be used to calculate a corner response metric using the following formula:
 $$\begin{equation}
 \begin{split}
@@ -52,5 +52,16 @@ R = \lambda_1 \lambda_2 - k(\lambda_1 + \lambda_2)^2\\
 \end{split}
 \end{equation}$$
 $$k=\text{is an empirically determined constant eg. }k=0.04 \text{ to }0.06$$
-- A higher $R$ value indicates a larger ellipses and a higher probability of a window being a corner
-- Using a threshold to determine if a window
+- A higher $R$ value indicates a larger ellipses and a higher probability of a pixel being a corner
+
+
+
+## Non-maxima suppression
+- Refers to the method used to classify if a pixel is a corner or not using the following steps:
+1.  Using a threshold to determine if a pixel is a corner is not ideal as this will vary between images. Instead the following based on the maximum R value in the image is used:
+
+$$R(x,y)>0.1\cdot max(R)$$
+
+2. The candidate becomes a corner if it's R value is a local maximum in a 3x3 window, further filtering down pixels to ones that are most likely to be a corner:
+
+$$R(x,y) > \{ R(x-1,y-1), R(x-1,y), R(x-1,y+1)\dots \}$$
