@@ -15,6 +15,16 @@ ___
 - Larger SSD errors from a window to it's neighbours indicates that a corner has been found, flat regions will result in low SSD errors indicating that they're not corners (bad [[Image_features|interest points]])
 - This is the first step in calculating a feature vector using algorithms like [[Histogram_of_oriented_gradients|HOG]]
 
+![[Pasted image 20240323181435.png|250|250]]
+
+- An intuitive way of looking at HCD is the following 
+    1. Treat gradient vectors as a set of $(I_{x},I_{y})$ points with a centre of mass at (0,0)
+    2. Fit an ellipse to that set of points via scatter matrix
+    3. Analyse ellipse parameters for varying cases
+
+
+
+![[Pasted image 20240323181714.png|350|350]]
 ## Small motion assumption
 - Assumes that pixel shifts are so slight that the image's intensity change can be estimated using only the first-order gradient information 
 - This avoids complex calculations for every possible small displacement.
@@ -22,11 +32,12 @@ ___
 
 $$\begin{equation}
 \begin{split}
-E(u,v) &= \sum_{(x,y)\in W} \left[ I(x + u, y + v) - I(x, y) \right]^2 \\
-&\approx \sum_{(x,y)\in W} \left[ I(x, y) + I_x u + I_y v - I(x, y) \right]^2 \\
-&\approx \sum_{(x,y)\in W} \left[ I_x u + I_y v \right]^2 \\
+E(u,v) &= \sum_{(x,y)\in W} [ I(x + u, y + v) - I(x, y) ]^2 \\
+&\approx \sum_{(x,y)\in W} [ I(x, y) + I_x u + I_y v - I(x, y) ]^2 \\
+&\approx \sum_{(x,y)\in W} [ I_x u + I_y v ]^2 \\
+&\approx \sum_{(x,y)\in W}(I_{x}u)^2+2I_{x}I_{y}uv+(I_{y}v)^2
 &&\text{shorthand: } I_x = \frac{\partial I}{\partial x} \\
 \end{split}
 \end{equation}$$
 - This formula can be produced using a **second moment matrix** 
-- 
+- This allows for the equation as the elipses formula, allowing for the use of the major semi ($\lambda_{1}$) and minor semi ($$)
