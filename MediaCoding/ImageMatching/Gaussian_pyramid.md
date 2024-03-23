@@ -19,7 +19,7 @@ ___
 
 ## Aliasing 
 - Refers to how an image is downsampled, a good method for this requires that as much of the images [[Media_coding#Spatial domain|spatial]] information is retained as possible
-- Note that the image cannot be reconstructed from its downsampled counterpart
+- Note that the image cannot be reconstructed from its downsampled counterpart, this can instead be done by also using a [[Laplacian_pyramid|Laplacian pyramid]] 
 
 ![[Pasted image 20240323205033.png|300|300]]
 
