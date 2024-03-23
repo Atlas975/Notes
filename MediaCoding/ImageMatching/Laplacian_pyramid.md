@@ -12,4 +12,22 @@
 ___
 # Laplacian pyramid
 - Allows for the reconstruction of an image from using a [[Gaussian_pyramid|Gaussian pyramid]]
-- Has the benefit of being more memory efficient than 
+- Has the benefit of being more memory efficient than storing the entire image at each step, instead using a binary image containing the image residual
+
+
+![[Pasted image 20240323212402.png|350|350]]
+
+## Image residual 
+- The residual of an image is calculated using the following formula:
+
+$$\text{Image}-\text{GaussianBlur}(\text{Image})=Residual$$
+
+![[Pasted image 20240323211830.png|400|400]]
+
+## Image reconstruction 
+- This process involves applying a gaussian filter a second time 
+- This also required inserting zeros as placeholder space 
+
+![[Pasted image 20240323212808.png|450|450]]
+- The difference between the image prior to a Gaussian pyramid step and the reconstructed image gives the residual, this is what's stored
+- These residuals are all that's needed from the current Gaussian pyramid step to reconstruct the whole image back to it's base form

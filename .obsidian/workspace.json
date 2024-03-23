@@ -261,7 +261,7 @@
               "type": "markdown",
               "state": {
                 "file": "MediaCoding/ImageMatching/Laplacian_pyramid.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -657,8 +657,11 @@
   },
   "active": "70a4eaaab53edec5",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240323212808.png",
+    "XX-Attachments/Images/Pasted image 20240323212402.png",
     "MediaCoding/ImageMatching/Gaussian_pyramid.md",
     "MediaCoding/ImageMatching/Laplacian_pyramid.md",
+    "XX-Attachments/Images/Pasted image 20240323211830.png",
     "MediaCoding/ImageMatching/Image_matching.md",
     "XX-Attachments/Images/Pasted image 20240323205033.png",
     "XX-Attachments/Images/Pasted image 20240323204731.png",
@@ -669,8 +672,6 @@
     "XX-Attachments/Images/Pasted image 20240323203148.png",
     "XX-Attachments/Images/Pasted image 20240323182713.png",
     "XX-Attachments/Images/Pasted image 20240323182608.png",
-    "XX-Attachments/Images/Pasted image 20240323181714.png",
-    "XX-Attachments/Images/Pasted image 20240323181647.png",
     "MediaCoding/ImageMatching/Image_features.md",
     "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
     "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
@@ -693,7 +694,6 @@
     "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
     "MediaCoding/IntensityTransforms/Image_negatives.md",
     "MediaCoding/IntensityTransforms/Histogram_matching.md",
-    "MediaCoding/IntensityTransforms/Log_transform.md",
     "MediaCoding/Filters/SmoothingFilters",
     "MediaCoding/Filters/EdgeDetectionFilters",
     "MediaCoding/Filters",
