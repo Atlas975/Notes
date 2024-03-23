@@ -73,7 +73,6 @@ $$R(x,y) > \{ R(x-1,y-1), R(x-1,y), R(x-1,y+1)\dots \}$$
 
 ![[Pasted image 20240323204134.png|300|300]]
 
-- A simple way to adapt to this is to test various window sizes and see which one gives the highest R values, however this testing method is inefficient
+- A simple way to adapt to this is to test various window sizes and see which one gives the highest R values, however this testing method is inefficient. Instead a [[Gaussian_pyramid|Gaussian pyramid]] is used
 
 ![[Pasted image 20240323204430.png|150|150]]
-
