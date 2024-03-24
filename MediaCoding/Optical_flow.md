@@ -21,7 +21,7 @@ ___
 	- **Small motion**: pixels do not move far between frames
 	- **Neighbours move together**: neighbouring patches of pixels have the same motion vector, allowing for correspondence to be found at the patch level 
 
-## Colour consistency equation 
+## Colour consistency equation
 - Used to calculate motion between two frames under the optical flow assumptions 
 
 
@@ -30,5 +30,6 @@ $$I_{x},I_{y}=\text{Image gradients}$$
 $$u,v =\text{flow velocity}$$
 $$I_{t}=\text{temporal gradient}$$
 
-![[Pasted image 20240323220001.png|350|350]]
+- **Aperture problem**: flow velocities are unknown when viewed through a limited FOV, making the direction of motion uncertain. Mainly caused by a lack of context about the object's environment.
 
+![[Pasted image 20240323220001.png|350|350]]
