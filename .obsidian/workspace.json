@@ -260,8 +260,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
-                "mode": "source",
+                "file": "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -327,6 +327,19 @@
               "state": {
                 "file": "MediaCoding/ImageMatching/Gaussian_pyramid.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "997f2be18de08544",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Discrete_cosine_transform.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -523,7 +536,7 @@
             }
           }
         ],
-        "currentTab": 19
+        "currentTab": 25
       }
     ],
     "direction": "vertical"
@@ -591,7 +604,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md"
+                "file": "MediaCoding/Discrete_cosine_transform.md"
               }
             }
           }
@@ -626,7 +639,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
+                "file": "MediaCoding/Discrete_cosine_transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -643,7 +656,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
+                "file": "MediaCoding/Discrete_cosine_transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -707,47 +720,47 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "70a4eaaab53edec5",
+  "active": "997f2be18de08544",
   "lastOpenFiles": [
-    "MachineLearning/0-GeneralConcepts/Inverse_matrices.md",
+    "XX-Attachments/Images/Pasted image 20240325224602.png",
+    "ContinuousMath/Catalan_numbers.md",
+    "MediaCoding/Discrete_cosine_transform.md",
+    "XX-Attachments/Images/Pasted image 20240325224006.png",
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
-    "LinearAlgebra/Inverse_matrices.md",
-    "MachineLearning/0-GeneralConcepts/Determinants.md",
+    "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
+    "MediaCoding/Filters/SmoothingFilters/Median_filter.md",
+    "MediaCoding/Filters/SmoothingFilters/Smoothing_spatial_filtering.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Roberts_filter.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
+    "MediaCoding/ImageMatching/Image_features.md",
+    "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
+    "MediaCoding/ImageMatching/Harris_corner_detection.md",
+    "MediaCoding/ImageMatching/Gaussian_pyramid.md",
+    "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
+    "MediaCoding/ImageMatching/Image_matching.md",
+    "MediaCoding/ImageMatching/Laplacian_pyramid.md",
+    "MediaCoding/Media_coding.md",
+    "MediaCoding/Image_derivatives.md",
+    "MediaCoding/Edge_detection.md",
+    "MediaCoding/Detection_algorithms.md",
+    "MediaCoding/Convolutional_networks.md",
+    "MediaCoding/Convolution.md",
+    "MediaCoding/Computer_vision.md",
+    "MediaCoding/Colour_models.md",
+    "XX-Attachments/Images/Pasted image 20240325223114.png",
     "LinearAlgebra",
     "XX-Attachments/Images/Pasted image 20240325215100.png",
-    "MediaCoding/OpticalFlow/Optical_flow.md",
     "MediaCoding/OpticalFlow",
-    "MediaCoding/ImageMatching/Laplacian_pyramid.md",
     "XX-Attachments/Images/Pasted image 20240323220001.png",
     "XX-Attachments/Images/Pasted image 20240323214320.png",
     "XX-Attachments/Images/Pasted image 20240323212808.png",
     "XX-Attachments/Images/Pasted image 20240323212402.png",
-    "MediaCoding/ImageMatching/Gaussian_pyramid.md",
     "XX-Attachments/Images/Pasted image 20240323211830.png",
-    "MediaCoding/ImageMatching/Image_matching.md",
     "XX-Attachments/Images/Pasted image 20240323205033.png",
     "XX-Attachments/Images/Pasted image 20240323204731.png",
-    "MediaCoding/ImageMatching/Harris_corner_detection.md",
-    "XX-Attachments/Images/Pasted image 20240323204430.png",
-    "XX-Attachments/Images/Pasted image 20240323204134.png",
-    "MediaCoding/ImageMatching/Image_features.md",
-    "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
-    "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
-    "MediaCoding/Canny_edge_detection.md",
-    "MediaCoding/Edge_detection.md",
-    "MediaCoding/Convolution.md",
-    "MediaCoding/Media_coding.md",
-    "MediaCoding/Image_derivatives.md",
     "MediaCoding/ImageMatching",
-    "MediaCoding/Image_processing.md",
-    "MediaCoding/Colour_models.md",
-    "MediaCoding/Convolutional_networks.md",
-    "MediaCoding/Computer_vision.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
-    "MediaCoding/Detection_algorithms.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
     "MediaCoding/Filters/SmoothingFilters",
     "MediaCoding/Filters/EdgeDetectionFilters",
     "MediaCoding/Filters",

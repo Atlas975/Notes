@@ -39,4 +39,6 @@ $$d=(A^{T}\cdot A)^{-1}\cdot A^T\cdot b$$
 
 ## Smooth region limitation
 - This method does not perform well on smooth regions
-- This is because flow cannot 
+- This is because flow cannot reliably be computed, this method works best with corners using similar logic to [[Harris_corner_detection|HCD]]
+
+![[Pasted image 20240325223114.png|450|450]]
