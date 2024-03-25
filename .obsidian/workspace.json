@@ -268,6 +268,19 @@
             }
           },
           {
+            "id": "8923fdc3a0037ec8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/0-GeneralConcepts/Inverse_matrices.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "be5e125b0f2a0cf9",
             "type": "leaf",
             "state": {
@@ -510,7 +523,7 @@
             }
           }
         ],
-        "currentTab": 20
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -578,7 +591,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LinearAlgebra/Inverse_matrices.md"
+                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md"
               }
             }
           }
@@ -613,7 +626,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LinearAlgebra/Inverse_matrices.md",
+                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -630,7 +643,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LinearAlgebra/Inverse_matrices.md",
+                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -694,12 +707,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "be5e125b0f2a0cf9",
+  "active": "70a4eaaab53edec5",
   "lastOpenFiles": [
-    "MachineLearning/0-GeneralConcepts/Determinants.md",
-    "LinearAlgebra/Inverse_matrices.md",
-    "LinearAlgebra",
+    "MachineLearning/0-GeneralConcepts/Inverse_matrices.md",
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
+    "LinearAlgebra/Inverse_matrices.md",
+    "MachineLearning/0-GeneralConcepts/Determinants.md",
+    "LinearAlgebra",
     "XX-Attachments/Images/Pasted image 20240325215100.png",
     "MediaCoding/OpticalFlow/Optical_flow.md",
     "MediaCoding/OpticalFlow",
@@ -734,7 +748,6 @@
     "MediaCoding/Detection_algorithms.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Roberts_filter.md",
     "MediaCoding/Filters/SmoothingFilters",
     "MediaCoding/Filters/EdgeDetectionFilters",
     "MediaCoding/Filters",
