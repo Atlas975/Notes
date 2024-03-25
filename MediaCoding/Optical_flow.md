@@ -23,7 +23,7 @@ ___
 
 ## Colour consistency equation
 - Used to calculate motion between two frames under the optical flow assumptions 
-
+- Note the small motion allows for the first order Taylor series approximation to be used
 
 $$I_{x}u+I_{y}v+I_{t}=0$$
 $$I_{x},I_{y}=\text{Image gradients}$$
