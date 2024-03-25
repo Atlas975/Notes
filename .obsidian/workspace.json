@@ -260,7 +260,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Optical_flow.md",
+                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d8429c3f8adbde40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/OpticalFlow/Optical_flow.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -552,7 +565,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Optical_flow.md"
+                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md"
               }
             }
           }
@@ -560,8 +573,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -588,7 +600,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Optical_flow.md",
+                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -605,7 +617,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Optical_flow.md",
+                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -671,8 +683,10 @@
   },
   "active": "70a4eaaab53edec5",
   "lastOpenFiles": [
+    "MediaCoding/OpticalFlow/Optical_flow.md",
+    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
+    "MediaCoding/OpticalFlow",
     "MediaCoding/ImageMatching/Laplacian_pyramid.md",
-    "MediaCoding/Optical_flow.md",
     "XX-Attachments/Images/Pasted image 20240323220001.png",
     "XX-Attachments/Images/Pasted image 20240323214320.png",
     "XX-Attachments/Images/Pasted image 20240323212808.png",
@@ -714,7 +728,6 @@
     "Statistics/Untitled",
     "Cybersecurity",
     "Statistics",
-    "Languages&Compilation",
-    "MachineLearning/GeneticAlgorithms"
+    "Languages&Compilation"
   ]
 }

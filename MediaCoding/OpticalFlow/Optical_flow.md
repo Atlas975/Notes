@@ -27,9 +27,9 @@ ___
 
 $$I_{x}u+I_{y}v+I_{t}=0$$
 $$I_{x},I_{y}=\text{Image gradients}$$
-$$u,v =\text{flow velocity}$$
+$$u,v =\text{flow velocity (unknowns)}$$
 $$I_{t}=\text{temporal gradient}$$
 
+![[Pasted image 20240323220001.png|350|350]]
 - **Aperture problem**: flow velocities are unknown when viewed through a limited FOV, making the direction of motion uncertain. Mainly caused by a lack of context about the object's environment.
 
-![[Pasted image 20240323220001.png|350|350]]
