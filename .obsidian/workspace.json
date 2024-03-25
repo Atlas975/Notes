@@ -273,7 +273,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/Determinants.md",
+                "file": "LinearAlgebra/Inverse_matrices.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -578,7 +578,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/Determinants.md"
+                "file": "LinearAlgebra/Inverse_matrices.md"
               }
             }
           }
@@ -613,7 +613,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/Determinants.md",
+                "file": "LinearAlgebra/Inverse_matrices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -630,7 +630,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/Determinants.md",
+                "file": "LinearAlgebra/Inverse_matrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -696,6 +696,9 @@
   },
   "active": "be5e125b0f2a0cf9",
   "lastOpenFiles": [
+    "MachineLearning/0-GeneralConcepts/Determinants.md",
+    "LinearAlgebra/Inverse_matrices.md",
+    "LinearAlgebra",
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "XX-Attachments/Images/Pasted image 20240325215100.png",
     "MediaCoding/OpticalFlow/Optical_flow.md",
@@ -732,14 +735,12 @@
     "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Roberts_filter.md",
-    "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
     "MediaCoding/Filters/SmoothingFilters",
     "MediaCoding/Filters/EdgeDetectionFilters",
     "MediaCoding/Filters",
     "MediaCoding/IntensityTransforms",
     "Statistics/Untitled",
     "Cybersecurity",
-    "Statistics",
-    "Languages&Compilation"
+    "Statistics"
   ]
 }
