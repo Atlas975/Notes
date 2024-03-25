@@ -15,3 +15,6 @@ ___
 - Eg. using a 5x5 image patch gives 25 equations:  
 
 $$[I_{x}(p_{1})u+ I_{y}(p_{1})v+I_{t}(p_{1})=0, \ I_{x}(p_{2})u+ I_{y}(p_{2})v+I_{t}(p_{2})=0,\ \dots]$$
+
+
+$$\begin{bmatrix} I_x(p_1) & I_y(p_1) \\ I_x(p_2) & I_y(p_2) \\ \vdots & \vdots \\ I_x(p_{25}) & I_y(p_{25}) \end{bmatrix} \begin{bmatrix} u \\ v \end{bmatrix} = - \begin{bmatrix} I_t(p_1) \\ I_t(p_2) \\ \vdots \\ I_t(p_{25}) \end{bmatrix}$$
