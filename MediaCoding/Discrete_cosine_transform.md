@@ -38,8 +38,9 @@ ___
 
 ![[Pasted image 20240326175413.png|450|450]]
 
-- This results in a DCT basis vector that stores the samples taken, normalisation is also typically performed for each of these vectors.
-- These basis vectors are what make up the basis matrix
-
+- This results in a DCT basis vector that stores the samples taken, normalisation is also typically performed for each of these vectors. 
+- These basis vectors are what make up the basis matrix, each row being a digitised signal which when used together can reconstruct the original data.
 
 ![[Pasted image 20240326180412.png|450|450]]
+
+- Each wave may also be weighted differently to have some components contribute more to the original signals reconstruction than others (weighted average)
