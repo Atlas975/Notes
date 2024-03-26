@@ -31,3 +31,15 @@ ___
 - Using more waves typically allows for a better approximation of a target wave
 - Low frequency components contribute to overall shape 
 - High frequency components add fine detail
+
+## Digitised cosine waves
+- Continuous waves need to be digitised in a discrete format to be stored
+- This is typically done by gathering 8 samples, these need to follow the wave's shape
+
+![[Pasted image 20240326175413.png|450|450]]
+
+- This results in a DCT basis vector that stores the samples taken, normalisation is also typically performed for each of these vectors.
+- These basis vectors are what make up the basis matrix
+
+
+![[Pasted image 20240326180412.png|450|450]]
