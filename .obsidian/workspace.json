@@ -612,8 +612,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -723,6 +722,7 @@
   },
   "active": "14fcded7c1d8a54e",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240326223554.png",
     "XX-Attachments/Images/Pasted image 20240326220504.png",
     "MediaCoding/ImageMatching/Gaussian_pyramid.md",
     "MediaCoding/Discrete_cosine_transform.md",
@@ -735,7 +735,6 @@
     "XX-Attachments/Images/Pasted image 20240326175719.png",
     "XX-Attachments/Images/Pasted image 20240326175413.png",
     "XX-Attachments/Images/Pasted image 20240326175349.png",
-    "XX-Attachments/Images/Pasted image 20240325224951.png",
     "ContinuousMath/Catalan_numbers.md",
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",

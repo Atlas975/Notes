@@ -43,8 +43,7 @@ ___
 
 ![[Pasted image 20240326180412.png|450|450]]
 
-
-
+- The number of sampling points used to digitise a wave must be the same as the the number of cosine waves used ie B must be an (nxn) matrix
 ## Transform stage
 - Each vector (digitised cosine wave) in the basis matrix is weighted according to how much that wave is needed to contribute to reconstructing x (original image)
 - These weights are calculated by the DCT function
@@ -54,13 +53,18 @@ ___
 $$B\cdot x=\text{DCT}(x)$$
 
 - Removing high frequency signals by placing no weight on them can also act similarly to a blur, as these types of signals contribute to an image's fine details 
-
-
-## Inverse discrete cosine transform
-- Transforms data from the frequency domain back to the spatial domain (original row vector)
+## Inverse DCT
+- Transforms data from the frequency domain back to the spatial domain (original row data)
 - For a cosine transform $B^T=B^{-1}$
 - Steps to inverting the transform:
 
 $$B\cdot x=\text{DCT}(x)$$
 $$B^{-1}\cdot B\cdot x=B^{-1}\cdot\text{DCT}(x)$$
 $$x=B^{T}\cdot \text{DCT}(x)$$
+
+## 2D DCT
+- A 2D cosine wave is created by taking the product of two cosine waves, a 2D basis matrix is what's needed for processing data such as 2D images 
+
+$$b_{jk}=b_{j}^T\cdot b_{k}$$
+
+![[Pasted image 20240326223554.png|450|450]]
