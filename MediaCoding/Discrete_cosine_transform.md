@@ -47,5 +47,9 @@ ___
 - Removing high frequency signals by placing no weight on them can also act similarly to a blur, as these types of signals contribute to an image's fine details 
 
 
-## DCT to Spatial conversion
-- 
+## Inverse discrete cosine transform 
+- Transforms data from the frequency domain back to the spatial domain
+
+$$B\cdot x=\text{DCT}(x)$$
+$$B^{-1}\cdot B\cdot x=B^{-1}\cdot\text{DCT}(x)$$
+$$x=B^{T}\cdot \text{DCT}(x)$$
