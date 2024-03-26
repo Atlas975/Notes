@@ -33,7 +33,7 @@ ___
 - High frequency components add fine detail
 
 ## Digitised cosine waves
-- Continuous waves need to be digitised in a discrete format to be stored
+- Due to the cosine wave being infinite in nature, it needs to be digitised into a 
 - This is typically done by gathering 8 samples, these need to follow the wave's shape
 
 ![[Pasted image 20240326175413.png|450|450]]
@@ -53,3 +53,4 @@ ___
 $$B\cdot x=\text{DCT}(x)$$
 $$B^{-1}\cdot B\cdot x=B^{-1}\cdot\text{DCT}(x)$$
 $$x=B^{T}\cdot \text{DCT}(x)$$
+- For a cosine transform $B^T=B^{-1}$ 
