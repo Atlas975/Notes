@@ -44,3 +44,8 @@ ___
 ![[Pasted image 20240326180412.png|450|450]]
 
 - Each wave may also be weighted differently to have some components contribute more to the original signals reconstruction than others (weighted average)
+- Removing high frequency signals by placing no weight on them can also act similarly to a blur, as these types of signals contribute to an image's fine details 
+
+
+## DCT to Spatial conversion
+- 
