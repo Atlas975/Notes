@@ -19,6 +19,15 @@ ___
 - The process of taking data and representing it as the sum of multiple cosine waves 
 - This offers a lot of flexibility as adding waves can create new complex shaped waves, however because of constructive interference the average of added waves is usually taken
 
-![[Pasted image 20240325224006.png|450|450]]
-![[Pasted image 20240325224602.png|350|350]]
+![[Pasted image 20240325224641.png|450|450]]
 
+
+## Cosine wave reconstruction
+- The signal can be reconstructed from a combination of selected cosine functions
+- Eg. reconstruct signal $x$ as closely as possible using weights $b_{i}$
+
+![[Pasted image 20240325224951.png|450|450]]
+
+- Using more waves typically allows for a better approximation of a target wave
+- Low frequency components contribute to overall shape 
+- High frequency components add fine detail

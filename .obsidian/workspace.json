@@ -339,7 +339,7 @@
               "type": "markdown",
               "state": {
                 "file": "MediaCoding/Discrete_cosine_transform.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -722,6 +722,8 @@
   },
   "active": "997f2be18de08544",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240325224951.png",
+    "XX-Attachments/Images/Pasted image 20240325224641.png",
     "XX-Attachments/Images/Pasted image 20240325224602.png",
     "ContinuousMath/Catalan_numbers.md",
     "MediaCoding/Discrete_cosine_transform.md",
@@ -758,8 +760,6 @@
     "XX-Attachments/Images/Pasted image 20240323212808.png",
     "XX-Attachments/Images/Pasted image 20240323212402.png",
     "XX-Attachments/Images/Pasted image 20240323211830.png",
-    "XX-Attachments/Images/Pasted image 20240323205033.png",
-    "XX-Attachments/Images/Pasted image 20240323204731.png",
     "MediaCoding/ImageMatching",
     "MediaCoding/Filters/SmoothingFilters",
     "MediaCoding/Filters/EdgeDetectionFilters",
