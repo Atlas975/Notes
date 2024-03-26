@@ -34,13 +34,12 @@ ___
 
 ## Digitised cosine waves
 - Due to the cosine waves being infinite, they need to be digitised, with a discrete number of points used in sampling it. These can then be stored to reconstruct data in the [[Media_coding#Frequency domain|frequency domain]]
-- The number of cosine waves needed to reconstruct a signal depends on the range of values eg 10 possible values needs 10 different cosine waves
-- Example using 8 cosine waves taking 8 samples (8x8):
+- The number of cosine waves needed to reconstruct a signal depends on the length of values the signal can assume. In practice a signal with 8 possible values is typically used
 
 ![[Pasted image 20240326175413.png|450|450]]
 
 - This results in a DCT basis vector that stores the samples taken, normalisation is also typically performed for each of these vectors. 
-- These basis vectors are what make up the **basis matrix**, each row being a digitised cosine wave. These vectors can then be used to reconstruct data
+- These basis vectors are what make up the **basis matrix**, each row being a digitised cosine wave. These vectors can then be used to reconstruct data and are constant
 
 ![[Pasted image 20240326180412.png|450|450]]
 
@@ -52,13 +51,16 @@ ___
 
 ![[Pasted image 20240326220504.png|450|450]]
 
+$$B\cdot x=\text{DCT}(x)$$
+
 - Removing high frequency signals by placing no weight on them can also act similarly to a blur, as these types of signals contribute to an image's fine details 
 
 
 ## Inverse discrete cosine transform
-- Transforms data from the frequency domain back to the spatial domain (original signal)
+- Transforms data from the frequency domain back to the spatial domain (original row vector)
+- For a cosine transform $B^T=B^{-1}$
+- Steps to inverting the transform:
 
 $$B\cdot x=\text{DCT}(x)$$
 $$B^{-1}\cdot B\cdot x=B^{-1}\cdot\text{DCT}(x)$$
 $$x=B^{T}\cdot \text{DCT}(x)$$
-- For a cosine transform $B^T=B^{-1}$ 
