@@ -63,8 +63,13 @@ $$B^{-1}\cdot B\cdot x=B^{-1}\cdot\text{DCT}(x)$$
 $$x=B^{T}\cdot \text{DCT}(x)$$
 
 ## 2D DCT
-- A 2D cosine wave is created by taking the product of two cosine waves, a 2D basis matrix is what's needed for processing data such as 2D images 
-
+- A 2D cosine wave is created by taking the product of two cosine waves, a 2D basis matrix is what's needed for processing data such as 2D images
+- This 2D basis matrix is found by performing $B\cdot B^T$ using a 1D basis matrix
 $$b_{jk}=b_{j}^T\cdot b_{k}$$
 
 ![[Pasted image 20240326223554.png|450|450]]
+
+- The order of wave frequencies follows a zig-zag pattern 
+- The following shows 64 images of size 8x8, these images are called DCT basis images
+
+![[Pasted image 20240326224410.png|450|450]]
