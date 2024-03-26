@@ -48,7 +48,7 @@ ___
 
 
 ## Inverse discrete cosine transform 
-- Transforms data from the frequency domain back to the spatial domain
+- Transforms data from the frequency domain back to the spatial domain (original signal)
 
 $$B\cdot x=\text{DCT}(x)$$
 $$B^{-1}\cdot B\cdot x=B^{-1}\cdot\text{DCT}(x)$$
