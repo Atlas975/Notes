@@ -33,21 +33,29 @@ ___
 - High frequency components add fine detail
 
 ## Digitised cosine waves
-- Due to the cosine wave being infinite in nature, it needs to be digitised into a 
-- This is typically done by gathering 8 samples, these need to follow the wave's shape
+- Due to the cosine waves being infinite, they need to be digitised, with a discrete number of points used in sampling it. These can then be stored to reconstruct data in the [[Media_coding#Frequency domain|frequency domain]]
+- The number of cosine waves needed to reconstruct a signal depends on the range of values eg 10 possible values needs 10 different cosine waves
+- Example using 8 cosine waves taking 8 samples (8x8):
 
 ![[Pasted image 20240326175413.png|450|450]]
 
 - This results in a DCT basis vector that stores the samples taken, normalisation is also typically performed for each of these vectors. 
-- These basis vectors are what make up the basis matrix, each row being a digitised signal which when used together can reconstruct the original data.
+- These basis vectors are what make up the **basis matrix**, each row being a digitised cosine wave. These vectors can then be used to reconstruct data
 
 ![[Pasted image 20240326180412.png|450|450]]
 
-- Each wave may also be weighted differently to have some components contribute more to the original signals reconstruction than others (weighted average)
+
+
+## Transform stage
+- Each vector (digitised cosine wave) in the basis matrix is weighted according to how much that wave is needed to contribute to reconstructing x (original image)
+- These weights are calculated by the DCT function
+
+![[Pasted image 20240326220504.png|450|450]]
+
 - Removing high frequency signals by placing no weight on them can also act similarly to a blur, as these types of signals contribute to an image's fine details 
 
 
-## Inverse discrete cosine transform 
+## Inverse discrete cosine transform
 - Transforms data from the frequency domain back to the spatial domain (original signal)
 
 $$B\cdot x=\text{DCT}(x)$$
