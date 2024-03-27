@@ -69,6 +69,11 @@ $$b_{jk}=b_{j}^T\cdot b_{k}$$
 
 ![[Pasted image 20240326223554.png|450|450]]
 
-- The following shows 64 images of size 8x8, these images are called DCT basis images and are each a 2D cosine wave pattern. This basis matrix can transform an 8x8 window in an image
+- The following shows 64 images of size 8x8, these images are called DCT basis images and are each a 2D cosine wave pattern. This basis matrix can transform an 8x8 window in an image:
+
 
 ![[Pasted image 20240326224410.png|450|450]]
+
+- The transform stage for 2D DCT is the same as 1D DCT, but with a 2D cosine wave applied to each value in the input window (x). The goal of finding the combination weights also remains the same
+
+![[Pasted image 20240327183548.png|400|400]]

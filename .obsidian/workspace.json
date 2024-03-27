@@ -339,7 +339,7 @@
               "type": "markdown",
               "state": {
                 "file": "MediaCoding/Discrete_cosine_transform.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -722,6 +722,7 @@
   },
   "active": "14fcded7c1d8a54e",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240327183548.png",
     "ContinuousMath/Catalan_numbers.md",
     "MediaCoding/Discrete_cosine_transform.md",
     "XX-Attachments/Images/Pasted image 20240326224410.png",
