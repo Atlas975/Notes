@@ -378,7 +378,7 @@
               "type": "markdown",
               "state": {
                 "file": "MediaCoding/DiscreteCosineTansform/JPEG_compression.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -748,6 +748,8 @@
   },
   "active": "2ea2f17062370a37",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240327225122.png",
+    "XX-Attachments/Images/Pasted image 20240327224639.png",
     "XX-Attachments/Images/Pasted image 20240327223708.png",
     "SoftwareDesign/HCI/Human_memory.md",
     "SoftwareDesign/HCI/Movement_input.md",
@@ -778,8 +780,6 @@
     "XX-Attachments/Images/Pasted image 20240326220504.png",
     "XX-Attachments/Images/Pasted image 20240326180412.png",
     "XX-Attachments/Images/Pasted image 20240326180327.png",
-    "XX-Attachments/Images/Pasted image 20240326180301.png",
-    "XX-Attachments/Images/Pasted image 20240326180221.png",
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
     "MediaCoding/Filters/SmoothingFilters/Median_filter.md",

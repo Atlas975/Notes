@@ -16,13 +16,19 @@ ___
 
 ![[Pasted image 20240327220258.png|350|350]]
 
+- The block based processing scheme used allows for easy [[Concurrency|parallelisation]] of this process 
+- Note that the DCT process itself is lossless, and can be performed as many times as needed, the lossy component of this algorithm comes from the threshold function
 
+![[Pasted image 20240327224639.png|300|300]]
 ## YCbCr importance in JPEG
 - The main limitation with formats like RGB is that each channel contains an equal level of information, this greatly limits compression opportunity 
 - [[Visual_perception|Human vision]] is more sensitive to luminosity than colour variation which is solely encoded in the Y channel in YCbCr. This allows for the colour channels to be down-sampled without major loss
-
+- Compression can then be performed solely on the Y(luminance) channel
 
 ![[Pasted image 20240327223708.png|350|350]]
-## Pre-processing steps
 
-![[Pasted image 20240327222408.png]]
+
+## JPEG Threshold function 
+- The 
+
+![[Pasted image 20240327225122.png|350|350]]
