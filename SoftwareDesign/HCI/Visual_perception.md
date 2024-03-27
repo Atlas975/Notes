@@ -1,10 +1,16 @@
+> [!important]- Metadata
+> **Tags:** #DesignTheory 
+> **Located:** SoftwareDesign/HCI
+> **Created:** 27/02/2023 - 11:31
+> ```dataviewjs
+> let f = dv.current().file;
+> let paths = new Set([...f.inlinks, ...f.outlinks].map(p => p.path).filter(p => !p.endsWith(".png")));
+> paths.delete(f.path);
+> dv.table(["Connections", "Tags"], [...paths].map(p => [dv.fileLink(p), dv.page(p).file.tags.join("")]));
+> ```
 
-# Human_perception
-created: 2022-11-02 10:15
-#DesignTheory 
-
----
-# Visual perception 
+___
+# Visual perception
 - Humans are sensitive to both brightness and colour, both should be used in conjunction to aid in perception.
 - **Cones** are sensitive to colour, **Rods** are sensitive to brightness
 - Cones differ in light sensitivity, less sensitivity towards blue
