@@ -69,7 +69,6 @@ $$b_{jk}=b_{j}^T\cdot b_{k}$$
 
 ![[Pasted image 20240326223554.png|450|450]]
 
-- The order of wave frequencies follows a zig-zag pattern 
-- The following shows 64 images of size 8x8, these images are called DCT basis images
+- The following shows 64 images of size 8x8, these images are called DCT basis images and are each a 2D cosine wave pattern. This basis matrix can transform an 8x8 window in an image
 
 ![[Pasted image 20240326224410.png|450|450]]

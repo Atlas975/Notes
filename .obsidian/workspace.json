@@ -339,7 +339,7 @@
               "type": "markdown",
               "state": {
                 "file": "MediaCoding/Discrete_cosine_transform.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -722,11 +722,12 @@
   },
   "active": "14fcded7c1d8a54e",
   "lastOpenFiles": [
+    "ContinuousMath/Catalan_numbers.md",
+    "MediaCoding/Discrete_cosine_transform.md",
     "XX-Attachments/Images/Pasted image 20240326224410.png",
     "XX-Attachments/Images/Pasted image 20240326223554.png",
     "XX-Attachments/Images/Pasted image 20240326220504.png",
     "MediaCoding/ImageMatching/Gaussian_pyramid.md",
-    "MediaCoding/Discrete_cosine_transform.md",
     "XX-Attachments/Images/Pasted image 20240326180412.png",
     "XX-Attachments/Images/Pasted image 20240326180327.png",
     "XX-Attachments/Images/Pasted image 20240326180301.png",
@@ -734,8 +735,6 @@
     "XX-Attachments/Images/Pasted image 20240326180158.png",
     "XX-Attachments/Images/Pasted image 20240326180138.png",
     "XX-Attachments/Images/Pasted image 20240326175719.png",
-    "XX-Attachments/Images/Pasted image 20240326175413.png",
-    "ContinuousMath/Catalan_numbers.md",
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
     "MediaCoding/Filters/SmoothingFilters/Median_filter.md",
