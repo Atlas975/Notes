@@ -338,7 +338,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Discrete_cosine_transform.md",
+                "file": "MediaCoding/ImageMatching/Gaussian_pyramid.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -604,7 +604,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Discrete_cosine_transform.md"
+                "file": "MediaCoding/ImageMatching/Gaussian_pyramid.md"
               }
             }
           }
@@ -639,7 +639,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Discrete_cosine_transform.md",
+                "file": "MediaCoding/ImageMatching/Gaussian_pyramid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -656,7 +656,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Discrete_cosine_transform.md",
+                "file": "MediaCoding/ImageMatching/Gaussian_pyramid.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -722,20 +722,32 @@
   },
   "active": "14fcded7c1d8a54e",
   "lastOpenFiles": [
+    "MediaCoding/ImageMatching/Harris_corner_detection.md",
+    "MediaCoding/ImageMatching/Gaussian_pyramid.md",
+    "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
+    "MediaCoding/IntensityTransforms/Log_transform.md",
+    "MediaCoding/Convolution.md",
+    "MediaCoding/Colour_models.md",
+    "MediaCoding/Convolutional_networks.md",
+    "MediaCoding/Detection_algorithms.md",
+    "MediaCoding/Image_derivatives.md",
+    "MediaCoding/Media_coding.md",
+    "MediaCoding/Edge_detection.md",
+    "MediaCoding/DiscreteCosineTansform/JPEG_compression.md",
+    "XX-Attachments/Images/Pasted image 20240327220258.png",
+    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
+    "MediaCoding/DiscreteCosineTansform",
+    "MediaCoding/DiscreteCosineTansform.md",
     "XX-Attachments/Images/Pasted image 20240327183548.png",
     "ContinuousMath/Catalan_numbers.md",
-    "MediaCoding/Discrete_cosine_transform.md",
     "XX-Attachments/Images/Pasted image 20240326224410.png",
     "XX-Attachments/Images/Pasted image 20240326223554.png",
     "XX-Attachments/Images/Pasted image 20240326220504.png",
-    "MediaCoding/ImageMatching/Gaussian_pyramid.md",
     "XX-Attachments/Images/Pasted image 20240326180412.png",
     "XX-Attachments/Images/Pasted image 20240326180327.png",
     "XX-Attachments/Images/Pasted image 20240326180301.png",
     "XX-Attachments/Images/Pasted image 20240326180221.png",
     "XX-Attachments/Images/Pasted image 20240326180158.png",
-    "XX-Attachments/Images/Pasted image 20240326180138.png",
-    "XX-Attachments/Images/Pasted image 20240326175719.png",
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
     "MediaCoding/Filters/SmoothingFilters/Median_filter.md",
@@ -746,18 +758,7 @@
     "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
     "MediaCoding/ImageMatching/Image_features.md",
     "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
-    "MediaCoding/ImageMatching/Harris_corner_detection.md",
     "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
-    "MediaCoding/ImageMatching/Image_matching.md",
-    "MediaCoding/ImageMatching/Laplacian_pyramid.md",
-    "MediaCoding/Media_coding.md",
-    "MediaCoding/Image_derivatives.md",
-    "MediaCoding/Edge_detection.md",
-    "MediaCoding/Detection_algorithms.md",
-    "MediaCoding/Convolutional_networks.md",
-    "MediaCoding/Convolution.md",
-    "MediaCoding/Computer_vision.md",
-    "MediaCoding/Colour_models.md",
     "LinearAlgebra",
     "MediaCoding/OpticalFlow",
     "MediaCoding/ImageMatching",
@@ -766,7 +767,6 @@
     "MediaCoding/Filters",
     "MediaCoding/IntensityTransforms",
     "Statistics/Untitled",
-    "Cybersecurity",
-    "Statistics"
+    "Cybersecurity"
   ]
 }

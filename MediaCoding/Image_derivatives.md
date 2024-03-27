@@ -17,8 +17,6 @@ ___
 
 ![[Pasted image 20231022152823.png|550|550]]
 
-
-
 ## Gradient magnitude
 - L2 norm is more computationally expensive but more sensitive to outliers:
 $$\| \nabla f \|= \sqrt{\left( \frac{\partial f}{\partial x} \right)^2 + \left( \frac{\partial f}{\partial y} \right)^2}$$
