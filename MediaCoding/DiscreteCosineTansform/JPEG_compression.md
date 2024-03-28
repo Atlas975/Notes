@@ -28,7 +28,11 @@ ___
 ![[Pasted image 20240327223708.png|350|350]]
 
 
-## JPEG Threshold function 
-- The 
+## JPEG threshold function
+- This involves setting the highest frequency coefficients after a specified threshold to 0, this discards information about the image while maintaining the perceived quality of it
+- This works because only the lower frequency components contribute the the core shape of the image while high frequency components contribute to the image's fine details
 
 ![[Pasted image 20240327225122.png|350|350]]
+
+## JPEG quantisation
+- Controls the compression ratio of the JPEG process, this is done using a quantisation matrix, which is predefined 
