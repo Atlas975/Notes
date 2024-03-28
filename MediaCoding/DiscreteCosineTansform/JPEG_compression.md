@@ -29,10 +29,17 @@ ___
 
 
 ## JPEG threshold function
-- This involves setting the highest frequency coefficients after a specified threshold to 0, this discards information about the image while maintaining the perceived quality of it
+- This involves setting the highest frequency coefficients to 0, this discards information about the image while maintaining the perceived quality of it. This is done by the quantisation step
 - This works because only the lower frequency components contribute the the core shape of the image while high frequency components contribute to the image's fine details
 
 ![[Pasted image 20240327225122.png|350|350]]
 
 ## JPEG quantisation
-- Controls the compression ratio of the JPEG process, this is done using a quantisation matrix, which is predefined 
+- Controls the compression ratio of the JPEG process, this is done using a quantisation matrix, which is predefined. Higher values in this matrix result in more aggressive compression
+- This first requires scaling the input block into values between (min value - max value) as a preprocessing step. This is because cosine waves have values between -1 to 1
+
+![[Pasted image 20240328175019.png|350|350]]
+
+- 2D DCT can then be applied, each DCT value can then be divided by it's corresponding match in the quantisation table. 
+
+![[Pasted image 20240328175734.png|400|400]]
