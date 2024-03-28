@@ -43,9 +43,21 @@ ___
 - 2D DCT can then be applied, each DCT value can then be divided by it's corresponding match in the quantisation table. The quantised DCT values ($C$) is equal to $\lfloor{D/Q}\rfloor$
 - Note how higher values are used in the quantisation table for higher frequency components, this is to ensure that these values are compressed more than lower frequency components 
 
-![[Pasted image 20240328175734.png|400|400]]
+![[Pasted image 20240328175734.png|350|350]]
 
-## Entropy encoding 
+## Entropy encoding
+- After the quantisation step, long strings of 0's will likely be present.
+- A DCT block can be separated into DC (lowest frequency block) and AC (all other blocks). This is used in entropy encoding to further compress the 
 
 
-![[Pasted image 20240328180855.png|400|400]]
+![[Pasted image 20240328180855.png|350|350]]
+
+### DC encoding 
+- For DC values, this works on the assumption that adjacent blocks carry similar intensity values
+- This allows for the use of **DPCM** (differential pulse code modulation) which involves storing the difference between each DCT number and it's predecessor
+
+
+![[Pasted image 20240328183457.png|350|350]]
+
+- These numbers tend to be much small than their original DCM counterpart. This allows for data to be represented using fewer bits
+### AC endoing
