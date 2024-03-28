@@ -40,6 +40,12 @@ ___
 
 ![[Pasted image 20240328175019.png|350|350]]
 
-- 2D DCT can then be applied, each DCT value can then be divided by it's corresponding match in the quantisation table. 
+- 2D DCT can then be applied, each DCT value can then be divided by it's corresponding match in the quantisation table. The quantised DCT values ($C$) is equal to $\lfloor{D/Q}\rfloor$
+- Note how higher values are used in the quantisation table for higher frequency components, this is to ensure that these values are compressed more than lower frequency components 
 
 ![[Pasted image 20240328175734.png|400|400]]
+
+## Entropy encoding 
+
+
+![[Pasted image 20240328180855.png|400|400]]
