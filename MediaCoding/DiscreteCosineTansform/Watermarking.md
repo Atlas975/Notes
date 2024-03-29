@@ -15,7 +15,7 @@ ___
 - This signal may represent any piece of data, but the watermark should be carried in any copy
 
 
-## Watermark lifecycle
+## Watermark phases
 
 
 ![[Pasted image 20240329154306.png|450|450]]
@@ -31,13 +31,16 @@ ___
 ### Attack phase
 - When an attempted modification is made to the watermarked data by an outside entity
 - Attacks fall into two main categories 
-	- **Robustness attack**: intended to remove watermark eg. cropping, filtering, compression etc
-	- **Presentation attack**: 
+	- **Robustness attack**: targeted removal of a watermark eg. cropping, filtering or compression
+	- **Presentation attack**: geometric transformations such as rotations or scaling
 
 ### Detection phase
-
+- An algorithm applied to an attacked watermarked to attempt to extract it's watermark 
+- The attacked image is always fed as input (I') but may also optionally need the original image or original watermarked image. Additionally 
 
 ![[Pasted image 20240329155625.png|400|400]]
+- The optional key used in embedding may be required to correctly extract and authenticate the watermark. This helps in confirming the source and integrity of the watermarked data
+- This also helps avoid false positive detections of a watermark, as detection requires specific keys
 
 ## Watermark perception
 - **Visible:** watermark is a translucent, used to show visible noticeable ownership 
