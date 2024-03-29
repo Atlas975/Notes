@@ -390,8 +390,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/Watermarking.md",
-                "mode": "preview",
+                "file": "MediaCoding/Watermarking/Watermarking.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "832e4a7d9838c4d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Watermarking/Watermarking.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -588,7 +601,7 @@
             }
           }
         ],
-        "currentTab": 29
+        "currentTab": 30
       }
     ],
     "direction": "vertical"
@@ -656,7 +669,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/Watermarking.md"
+                "file": "MediaCoding/Watermarking/Watermarking.md"
               }
             }
           }
@@ -691,7 +704,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/Watermarking.md",
+                "file": "MediaCoding/Watermarking/Watermarking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -708,7 +721,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/Watermarking.md",
+                "file": "MediaCoding/Watermarking/Watermarking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -772,8 +785,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8aecb050c220b5c5",
+  "active": "832e4a7d9838c4d8",
   "lastOpenFiles": [
+    "MediaCoding/Watermarking/Untitled.md",
+    "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
+    "MediaCoding/Watermarking/Watermarking.md",
+    "XX-Attachments/Images/Pasted image 20240329183206.png",
+    "MediaCoding/Watermarking",
     "XX-Attachments/Images/Pasted image 20240329162310.png",
     "XX-Attachments/Images/Pasted image 20240329155625.png",
     "XX-Attachments/Images/Pasted image 20240329155600.png",
@@ -782,11 +800,8 @@
     "XX-Attachments/Images/Pasted image 20240329154227.png",
     "MediaCoding/DiscreteCosineTansform/JPEG_compression.md",
     "XX-Attachments/Images/Pasted image 20240328213440.png",
-    "MediaCoding/DiscreteCosineTansform/Watermarking.md",
     "XX-Attachments/Images/Pasted image 20240328184110.png",
     "XX-Attachments/Images/Pasted image 20240328183457.png",
-    "XX-Attachments/Images/Pasted image 20240328180855.png",
-    "XX-Attachments/Images/Pasted image 20240328175734.png",
     "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "SoftwareDesign/HCI/Human_memory.md",
     "SoftwareDesign/HCI/Movement_input.md",
@@ -810,7 +825,6 @@
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
     "MediaCoding/Filters/SmoothingFilters/Median_filter.md",
-    "MediaCoding/Filters/SmoothingFilters/Smoothing_spatial_filtering.md",
     "LinearAlgebra",
     "MediaCoding/OpticalFlow",
     "MediaCoding/ImageMatching",
@@ -818,7 +832,6 @@
     "MediaCoding/Filters/EdgeDetectionFilters",
     "MediaCoding/Filters",
     "MediaCoding/IntensityTransforms",
-    "Statistics/Untitled",
-    "Cybersecurity"
+    "Statistics/Untitled"
   ]
 }

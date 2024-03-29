@@ -74,5 +74,4 @@ ___
 - **Content Protection:** protecting multimedia content previews by embedding visible watermarks.
 - **Usage Control and Copy Protection:** controlling the number of permissible copies using digital watermarks that indicate the number of copies permitted 
 
-## Spatial domain watermarking
-- Modifies the leas
+## Frequency domain [[Watermarking]] 
