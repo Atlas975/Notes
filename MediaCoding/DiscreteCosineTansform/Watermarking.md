@@ -15,15 +15,29 @@ ___
 - This signal may represent any piece of data, but the watermark should be carried in any copy
 
 
-## Watermark lifecycle 
+## Watermark lifecycle
 
 
 ![[Pasted image 20240329154306.png|450|450]]
 
+### Embedding phase
 
-### Embedding stage 
-- Algorithm accepts the host image (I) and the data to be embedded (W) and produces the watermarked image
-![[Pasted image 20240329154439.png|350|350]]
+- Uses the host image (I) and the data to be embedded (W) and produces the watermarked images. 
+- An optional secret key is used during the embedding phase, making it unique and secure. 
+- This ensures that only  key owners can embed, detect, or correctly extract the watermark
+
+![[Pasted image 20240329154439.png|400|400]]
+
+### Attack phase
+- When an attempted modification is made to the watermarked data by an outside entity
+- Attacks fall into two main categories 
+	- **Robustness attack**: intended to remove watermark eg. cropping, filtering, compression etc
+	- **Presentation attack**: 
+
+### Detection phase
+
+
+![[Pasted image 20240329155625.png|400|400]]
 
 ## Watermark perception
 - **Visible:** watermark is a translucent, used to show visible noticeable ownership 
