@@ -391,7 +391,7 @@
               "type": "markdown",
               "state": {
                 "file": "MediaCoding/DiscreteCosineTansform/Watermarking.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -774,6 +774,7 @@
   },
   "active": "8aecb050c220b5c5",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240329162310.png",
     "XX-Attachments/Images/Pasted image 20240329155625.png",
     "XX-Attachments/Images/Pasted image 20240329155600.png",
     "XX-Attachments/Images/Pasted image 20240329154439.png",
@@ -786,7 +787,6 @@
     "XX-Attachments/Images/Pasted image 20240328183457.png",
     "XX-Attachments/Images/Pasted image 20240328180855.png",
     "XX-Attachments/Images/Pasted image 20240328175734.png",
-    "XX-Attachments/Images/Pasted image 20240328175019.png",
     "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "SoftwareDesign/HCI/Human_memory.md",
     "SoftwareDesign/HCI/Movement_input.md",

@@ -14,6 +14,15 @@ ___
 - The process of embedding information into a digital signal in a way that's difficult to remove
 - This signal may represent any piece of data, but the watermark should be carried in any copy
 
+![[Pasted image 20240329162310.png|350|350]]
+- Spa
+- Watermarks need to consider the following parameters 
+	- Tranparancy / perception
+	- Robustness 
+	- Security
+	- Capacity
+	- Reversibility
+	- Complexity / cost
 
 ## Watermark phases
 
@@ -42,6 +51,11 @@ ___
 - The optional key used in embedding may be required to correctly extract and authenticate the watermark. This helps in confirming the source and integrity of the watermarked data
 - This also helps avoid false positive detections of a watermark, as detection requires specific keys
 
+
+## Watermark detection types
+- **Non-blind**: needs the original media 
+- **Semi-blind**: requires only the watermark and possibly some side information 
+- **Blind**: requires neither the original media nor it's watermark
 ## Watermark perception
 - **Visible:** watermark is a translucent, used to show visible noticeable ownership 
 - **Invisible:** watermark is embedded into the data in a way that's not noticed in the visible data, used as covert evidence of ownership
@@ -57,3 +71,6 @@ ___
 - **Fingerprinting:** preventing unauthorised duplication by embedding a unique watermark in each copy. Allows for the origin of this comprised copy to be determined by it's fingerprint 
 - **Content Protection:** protecting multimedia content previews by embedding visible watermarks.
 - **Usage Control and Copy Protection:** controlling the number of permissible copies using digital watermarks that indicate the number of copies permitted 
+
+## Spatial domain watermarking 
+- Modifies the leas
