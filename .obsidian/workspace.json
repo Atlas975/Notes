@@ -403,7 +403,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Watermarking/Watermarking.md",
+                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -601,7 +601,7 @@
             }
           }
         ],
-        "currentTab": 30
+        "currentTab": 29
       }
     ],
     "direction": "vertical"
@@ -785,11 +785,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "832e4a7d9838c4d8",
+  "active": "8aecb050c220b5c5",
   "lastOpenFiles": [
-    "MediaCoding/Watermarking/Untitled.md",
-    "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
+    "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
     "MediaCoding/Watermarking/Watermarking.md",
+    "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
     "XX-Attachments/Images/Pasted image 20240329183206.png",
     "MediaCoding/Watermarking",
     "XX-Attachments/Images/Pasted image 20240329162310.png",

@@ -67,11 +67,12 @@ ___
 - **Fragile**: easily destructible upon any tampering, suitable for ==image authentication==
 - **Robust**: designed to survive various changes such as geometric attacks (rotation, scaling etc) and general noise such as that caused from compression,  suitable for ==ownership protection==
 - **Semi-fragile**: survives general noise and compression but will be sensitive to geometric attacks, suitable for ==content authentication==
+
+## Watermark insertion strategy
+- **Luminance sensitivity**: higher brightness $$
 ## Watermark uses
 - **Ownership Assertion:** proving ownership by embedding a watermark using a private key.
 - **Data Authentication:** detecting modifications to ensure data authenticity (fraud detection)
 - **Fingerprinting:** preventing unauthorised duplication by embedding a unique watermark in each copy. Allows for the origin of this comprised copy to be determined by it's fingerprint 
 - **Content Protection:** protecting multimedia content previews by embedding visible watermarks.
 - **Usage Control and Copy Protection:** controlling the number of permissible copies using digital watermarks that indicate the number of copies permitted 
-
-## Frequency domain [[Watermarking]] 
