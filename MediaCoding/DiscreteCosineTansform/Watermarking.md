@@ -15,7 +15,9 @@ ___
 - This signal may represent any piece of data, but the watermark should be carried in any copy
 
 ![[Pasted image 20240329162310.png|350|350]]
-- Spa
+
+- [[Media_coding#Spatial domain|Spatial domain]] watermarking involves direct modification of pixels, not robust to compression 
+- [[Media_coding#Frequency domain|Frequency domain]] watermarking involves frequency coefficients, location and strength based on perception rules and is more robust
 - Watermarks need to consider the following parameters 
 	- Tranparancy / perception
 	- Robustness 
@@ -72,5 +74,5 @@ ___
 - **Content Protection:** protecting multimedia content previews by embedding visible watermarks.
 - **Usage Control and Copy Protection:** controlling the number of permissible copies using digital watermarks that indicate the number of copies permitted 
 
-## Spatial domain watermarking 
+## Spatial domain watermarking
 - Modifies the leas
