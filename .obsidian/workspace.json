@@ -377,7 +377,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/JPEG_compression.md",
+                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -390,8 +390,21 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ac52f798d7d223e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "MediaCoding/Watermarking/Watermarking.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -601,7 +614,7 @@
             }
           }
         ],
-        "currentTab": 29
+        "currentTab": 30
       }
     ],
     "direction": "vertical"
@@ -677,7 +690,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -785,10 +799,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8aecb050c220b5c5",
+  "active": "ac52f798d7d223e2",
   "lastOpenFiles": [
-    "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
+    "XX-Attachments/Images/Pasted image 20240329233401.png",
+    "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "MediaCoding/Watermarking/Watermarking.md",
+    "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
+    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
     "XX-Attachments/Images/Pasted image 20240329183206.png",
     "MediaCoding/Watermarking",
@@ -798,11 +815,9 @@
     "XX-Attachments/Images/Pasted image 20240329154439.png",
     "XX-Attachments/Images/Pasted image 20240329154306.png",
     "XX-Attachments/Images/Pasted image 20240329154227.png",
-    "MediaCoding/DiscreteCosineTansform/JPEG_compression.md",
     "XX-Attachments/Images/Pasted image 20240328213440.png",
     "XX-Attachments/Images/Pasted image 20240328184110.png",
     "XX-Attachments/Images/Pasted image 20240328183457.png",
-    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "SoftwareDesign/HCI/Human_memory.md",
     "SoftwareDesign/HCI/Movement_input.md",
     "SoftwareDesign/HCI/Visual_perception.md",
@@ -824,7 +839,6 @@
     "ContinuousMath/Catalan_numbers.md",
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
-    "MediaCoding/Filters/SmoothingFilters/Median_filter.md",
     "LinearAlgebra",
     "MediaCoding/OpticalFlow",
     "MediaCoding/ImageMatching",

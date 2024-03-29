@@ -10,7 +10,7 @@
 > ```
 
 ___
-# JPEG compression
+# JPEG
 - A lossy compression method that makes use of [[Discrete_cosine_transform|DCT]], this results in a image with a much lower file size whilst still retaining visual fidelity. 
 - This starts by converting an input image (eg [[Colour_models#RGB|RGB]] format) to [[Colour_models#YCbCR|YCbCR]] format and then subsampling the Cb and Cr channels. The rest of the algorithm than works using this image format
 

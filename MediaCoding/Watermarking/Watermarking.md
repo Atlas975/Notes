@@ -69,7 +69,13 @@ ___
 - **Semi-fragile**: survives general noise and compression but will be sensitive to geometric attacks, suitable for ==content authentication==
 
 ## Watermark insertion strategy
-- **Luminance sensitivity**: higher brightness $$
+- The following need to be considered when inserting a watermark:
+- **Luminance sensitivity**: higher background brightness $\to$ lower watermark visibility 
+- **Texture sensitivity**: stronger texture $\to$ lower watermark visibility 
+    - Texture is estimated after quantising the [[Discrete_cosine_transform|DCT]] coefficients using [[JPEG#JPEG quantisation|JPEG quantisation]] , the more non-zero coefficients left the higher the texture. 
+
+![[Pasted image 20240329233401.png|200|200]]
+- **Location sensitivity**: the centre of an image is perceptually the most important to an image 
 ## Watermark uses
 - **Ownership Assertion:** proving ownership by embedding a watermark using a private key.
 - **Data Authentication:** detecting modifications to ensure data authenticity (fraud detection)
