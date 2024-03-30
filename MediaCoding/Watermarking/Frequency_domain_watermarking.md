@@ -17,4 +17,16 @@ ___
 ![[Pasted image 20240330175537.png|400|400]]
 
 
+## Embedding position choice
+- The middle most frequencies are typically modified to embed the watermark 
+- This frequency band is both robust and won't modify the image's core visible components
+
 ![[Pasted image 20240330004624.png|300|300]]
+
+## One bit embedding 
+- A single bit in the watermark can be embedded by picking two random coefficients in the DCT matrix, comparing them and embed it according to the rule $P$
+- If the necessary condition is not met (eg trying to embed 1 but coefficients are in the wrong order) then the coefficients must be modified 
+
+![[Pasted image 20240330181206.png|450|450]]
+
+- The modification done to get two coefficients 

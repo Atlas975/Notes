@@ -398,26 +398,13 @@
             }
           },
           {
-            "id": "ac52f798d7d223e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/Watermarking/Watermarking.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7c58ae48c696b0a9",
+            "id": "7e7fa9a64feb2eba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -682,7 +669,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Watermarking/Watermarking.md"
+                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md"
               }
             }
           }
@@ -718,7 +705,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Watermarking/Watermarking.md",
+                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -735,7 +722,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Watermarking/Watermarking.md",
+                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -799,15 +786,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ac52f798d7d223e2",
+  "active": "7e7fa9a64feb2eba",
   "lastOpenFiles": [
-    "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
     "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
+    "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
+    "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "MediaCoding/Watermarking/Watermarking.md",
+    "XX-Attachments/Images/Pasted image 20240330181206.png",
     "XX-Attachments/Images/Pasted image 20240330175537.png",
     "XX-Attachments/Images/Pasted image 20240330004624.png",
     "XX-Attachments/Images/Pasted image 20240329233401.png",
-    "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
     "XX-Attachments/Images/Pasted image 20240329183206.png",
     "MediaCoding/Watermarking",
@@ -816,7 +804,6 @@
     "XX-Attachments/Images/Pasted image 20240329155600.png",
     "XX-Attachments/Images/Pasted image 20240329154439.png",
     "XX-Attachments/Images/Pasted image 20240329154306.png",
-    "XX-Attachments/Images/Pasted image 20240329154227.png",
     "SoftwareDesign/HCI/Human_memory.md",
     "SoftwareDesign/HCI/Movement_input.md",
     "SoftwareDesign/HCI/Visual_perception.md",

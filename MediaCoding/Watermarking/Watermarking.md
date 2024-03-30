@@ -55,9 +55,9 @@ ___
 
 
 ## Watermark detection types
-- **Non-blind**: needs the original media 
-- **Semi-blind**: requires only the watermark and possibly some side information 
-- **Blind**: requires neither the original media nor it's watermark
+- **Non-blind**: requires the original image and the watermark
+- **Semi-blind**: requires the watermark  
+- **Blind**: requires no additional information
 ## Watermark perception
 - **Visible:** watermark is a translucent, used to show visible noticeable ownership 
 - **Invisible:** watermark is embedded into the data in a way that's not noticed in the visible data, used as covert evidence of ownership
