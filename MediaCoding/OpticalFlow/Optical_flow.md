@@ -31,5 +31,5 @@ $$u,v =\text{flow velocity (unknowns)}$$
 $$I_{t}=\text{temporal gradient}$$
 
 ![[Pasted image 20240323220001.png|350|350]]
+- The flow velocities represent the movement from one frame to the next
 - **Aperture problem**: flow velocities are unknown when viewed through a limited FOV, making the direction of motion uncertain. Mainly caused by a lack of context about the object's environment.
-
