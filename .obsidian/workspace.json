@@ -416,7 +416,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
+                "file": "MediaCoding/OpticalFlow/Optical_flow.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -682,7 +682,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md"
+                "file": "MediaCoding/OpticalFlow/Optical_flow.md"
               }
             }
           }
@@ -690,8 +690,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -718,7 +717,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
+                "file": "MediaCoding/OpticalFlow/Optical_flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -735,7 +734,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
+                "file": "MediaCoding/OpticalFlow/Optical_flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -801,9 +800,11 @@
   },
   "active": "272fa10614a9c45b",
   "lastOpenFiles": [
+    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
+    "MediaCoding/OpticalFlow/Optical_flow.md",
+    "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
     "XX-Attachments/Images/Pasted image 20240330183946.png",
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
-    "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
     "XX-Attachments/Images/Pasted image 20240330183004.png",
     "MediaCoding/Watermarking/Watermarking.md",
     "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
@@ -817,7 +818,6 @@
     "XX-Attachments/Images/Pasted image 20240329162310.png",
     "XX-Attachments/Images/Pasted image 20240329155625.png",
     "XX-Attachments/Images/Pasted image 20240329155600.png",
-    "XX-Attachments/Images/Pasted image 20240329154439.png",
     "SoftwareDesign/HCI/Human_memory.md",
     "SoftwareDesign/HCI/Movement_input.md",
     "SoftwareDesign/HCI/Visual_perception.md",
@@ -837,7 +837,6 @@
     "MediaCoding/DiscreteCosineTansform",
     "MediaCoding/DiscreteCosineTansform.md",
     "ContinuousMath/Catalan_numbers.md",
-    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
     "LinearAlgebra",
     "MediaCoding/OpticalFlow",
