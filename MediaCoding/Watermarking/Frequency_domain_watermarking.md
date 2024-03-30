@@ -11,6 +11,10 @@
 
 ___
 # Frequency domain watermarking
+- Involves embedding a [[Watermarking|watermark]] using the [[Media_coding#Frequency domain|frequency domain]]
+- Typically uses a [[Discrete_cosine_transform|DCT]] to do this, making the inserted watermark more robust 
+
+![[Pasted image 20240330175537.png|400|400]]
 
 
 ![[Pasted image 20240330004624.png|300|300]]

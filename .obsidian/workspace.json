@@ -404,14 +404,14 @@
               "type": "markdown",
               "state": {
                 "file": "MediaCoding/Watermarking/Watermarking.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           },
           {
-            "id": "832e4a7d9838c4d8",
+            "id": "7c58ae48c696b0a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -614,7 +614,7 @@
             }
           }
         ],
-        "currentTab": 31
+        "currentTab": 30
       }
     ],
     "direction": "vertical"
@@ -682,7 +682,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md"
+                "file": "MediaCoding/Watermarking/Watermarking.md"
               }
             }
           }
@@ -718,7 +718,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
+                "file": "MediaCoding/Watermarking/Watermarking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -735,7 +735,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
+                "file": "MediaCoding/Watermarking/Watermarking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -799,14 +799,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "832e4a7d9838c4d8",
+  "active": "ac52f798d7d223e2",
   "lastOpenFiles": [
-    "XX-Attachments/Images/Pasted image 20240330004624.png",
-    "MediaCoding/Watermarking/Watermarking.md",
-    "XX-Attachments/Images/Pasted image 20240329233401.png",
-    "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
     "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
+    "MediaCoding/Watermarking/Watermarking.md",
+    "XX-Attachments/Images/Pasted image 20240330175537.png",
+    "XX-Attachments/Images/Pasted image 20240330004624.png",
+    "XX-Attachments/Images/Pasted image 20240329233401.png",
+    "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
     "XX-Attachments/Images/Pasted image 20240329183206.png",
     "MediaCoding/Watermarking",
@@ -816,8 +817,6 @@
     "XX-Attachments/Images/Pasted image 20240329154439.png",
     "XX-Attachments/Images/Pasted image 20240329154306.png",
     "XX-Attachments/Images/Pasted image 20240329154227.png",
-    "XX-Attachments/Images/Pasted image 20240328213440.png",
-    "XX-Attachments/Images/Pasted image 20240328184110.png",
     "SoftwareDesign/HCI/Human_memory.md",
     "SoftwareDesign/HCI/Movement_input.md",
     "SoftwareDesign/HCI/Visual_perception.md",
