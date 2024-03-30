@@ -52,7 +52,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Colour_models.md",
+                "file": "Cybersecurity/Annualised_loss_expectancy.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b00bb650e3951f61",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/Cryptography.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -437,6 +450,19 @@
             }
           },
           {
+            "id": "8900ff5ead4024e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ContinuousMath/Modulo.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "10ca42ab966dac0b",
             "type": "leaf",
             "state": {
@@ -627,7 +653,7 @@
             }
           }
         ],
-        "currentTab": 32
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -695,7 +721,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md"
+                "file": "Cybersecurity/Cryptography.md"
               }
             }
           }
@@ -730,7 +756,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
+                "file": "Cybersecurity/Cryptography.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -747,7 +773,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
+                "file": "Cybersecurity/Cryptography.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -811,10 +837,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7e1ca8cdab45506c",
+  "active": "b00bb650e3951f61",
   "lastOpenFiles": [
-    "MediaCoding/OpticalFlow/Optical_flow.md",
+    "Cybersecurity/Annualised_loss_expectancy.md",
+    "Cybersecurity/Cryptography.md",
+    "Cybersecurity/Advanced_encryption_standard.md",
+    "MediaCoding/Colour_models.md",
+    "ContinuousMath/Modulo.md",
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
+    "MediaCoding/OpticalFlow/Optical_flow.md",
     "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
     "XX-Attachments/Images/Pasted image 20240330183946.png",
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
@@ -841,16 +872,11 @@
     "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
     "MediaCoding/IntensityTransforms/Log_transform.md",
     "MediaCoding/Convolution.md",
-    "MediaCoding/Colour_models.md",
     "MediaCoding/Convolutional_networks.md",
     "MediaCoding/Detection_algorithms.md",
     "MediaCoding/Image_derivatives.md",
     "MediaCoding/Media_coding.md",
-    "MediaCoding/Edge_detection.md",
     "MediaCoding/DiscreteCosineTansform",
-    "MediaCoding/DiscreteCosineTansform.md",
-    "ContinuousMath/Catalan_numbers.md",
-    "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
     "LinearAlgebra",
     "MediaCoding/OpticalFlow",
     "MediaCoding/ImageMatching",
