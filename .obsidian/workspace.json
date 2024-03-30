@@ -417,7 +417,7 @@
               "type": "markdown",
               "state": {
                 "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -614,7 +614,7 @@
             }
           }
         ],
-        "currentTab": 30
+        "currentTab": 31
       }
     ],
     "direction": "vertical"
@@ -682,7 +682,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Watermarking/Watermarking.md"
+                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md"
               }
             }
           }
@@ -718,7 +718,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Watermarking/Watermarking.md",
+                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -735,7 +735,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Watermarking/Watermarking.md",
+                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -799,11 +799,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ac52f798d7d223e2",
+  "active": "832e4a7d9838c4d8",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240330004624.png",
+    "MediaCoding/Watermarking/Watermarking.md",
     "XX-Attachments/Images/Pasted image 20240329233401.png",
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
-    "MediaCoding/Watermarking/Watermarking.md",
     "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
     "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
@@ -817,7 +818,6 @@
     "XX-Attachments/Images/Pasted image 20240329154227.png",
     "XX-Attachments/Images/Pasted image 20240328213440.png",
     "XX-Attachments/Images/Pasted image 20240328184110.png",
-    "XX-Attachments/Images/Pasted image 20240328183457.png",
     "SoftwareDesign/HCI/Human_memory.md",
     "SoftwareDesign/HCI/Movement_input.md",
     "SoftwareDesign/HCI/Visual_perception.md",

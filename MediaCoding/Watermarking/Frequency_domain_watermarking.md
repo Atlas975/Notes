@@ -11,3 +11,6 @@
 
 ___
 # Frequency domain watermarking
+
+
+![[Pasted image 20240330004624.png|300|300]]
