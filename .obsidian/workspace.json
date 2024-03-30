@@ -403,6 +403,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "MediaCoding/Watermarking/Watermarking.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "272fa10614a9c45b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
                 "mode": "source",
                 "backlinks": false,
@@ -601,7 +614,7 @@
             }
           }
         ],
-        "currentTab": 30
+        "currentTab": 31
       }
     ],
     "direction": "vertical"
@@ -786,12 +799,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7e7fa9a64feb2eba",
+  "active": "272fa10614a9c45b",
   "lastOpenFiles": [
-    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
-    "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
+    "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
+    "XX-Attachments/Images/Pasted image 20240330183004.png",
     "MediaCoding/Watermarking/Watermarking.md",
+    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "XX-Attachments/Images/Pasted image 20240330181206.png",
     "XX-Attachments/Images/Pasted image 20240330175537.png",
     "XX-Attachments/Images/Pasted image 20240330004624.png",
@@ -803,7 +817,6 @@
     "XX-Attachments/Images/Pasted image 20240329155625.png",
     "XX-Attachments/Images/Pasted image 20240329155600.png",
     "XX-Attachments/Images/Pasted image 20240329154439.png",
-    "XX-Attachments/Images/Pasted image 20240329154306.png",
     "SoftwareDesign/HCI/Human_memory.md",
     "SoftwareDesign/HCI/Movement_input.md",
     "SoftwareDesign/HCI/Visual_perception.md",

@@ -54,10 +54,10 @@ ___
 - This also helps avoid false positive detections of a watermark, as detection requires specific keys
 
 
-## Watermark detection types
+## Watermark extraction types
 - **Non-blind**: requires the original image and the watermark
 - **Semi-blind**: requires the watermark  
-- **Blind**: requires no additional information
+- **Blind**: does not require the original image or it's watermark
 ## Watermark perception
 - **Visible:** watermark is a translucent, used to show visible noticeable ownership 
 - **Invisible:** watermark is embedded into the data in a way that's not noticed in the visible data, used as covert evidence of ownership

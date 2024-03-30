@@ -23,10 +23,20 @@ ___
 
 ![[Pasted image 20240330004624.png|300|300]]
 
-## One bit embedding 
+## One bit embedding
 - A single bit in the watermark can be embedded by picking two random coefficients in the DCT matrix, comparing them and embed it according to the rule $P$
-- If the necessary condition is not met (eg trying to embed 1 but coefficients are in the wrong order) then the coefficients must be modified 
+- If the necessary condition is not met (eg trying to embed 1 but coefficients are in the wrong order) then the coefficients must be modified
 
 ![[Pasted image 20240330181206.png|450|450]]
 
-- The modification done to get two coefficients 
+- The modification done to get two coefficients to satisfy the rule $P$ involves first making both of them equal by adding $\frac{\text{diff}}{2}$ to the smaller coefficient and subtracting it from the larger one
+- A threshold value is then added to the desired larger coefficient and subtracted from the desired smaller coefficient, this is predetermined and it's size is calculated using experimentation
+- This method allows for [[Watermarking#Watermark extraction types|blind]] watermark extraction, only needing the RNG seed
+
+
+## AC-DC embedding
+- More robust then using two random coefficients, always uses an AC coefficient in rule $P$
+- The other location is picked randomly in the mid frrequency band, the use of both a low and mid frequency coefficient makes the watermark 
+
+
+![[Pasted image 20240330183004.png|200|200]]
