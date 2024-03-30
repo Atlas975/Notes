@@ -23,7 +23,7 @@ I_{x}(p_{i})u+ I_{y}(p_{i})v+I_{t}(p_{i})=0
 \end{split}
 \end{equation}$$
 $$\begin{bmatrix} I_x(p_1) & I_y(p_1) \\ I_x(p_2) & I_y(p_2) \\ \vdots & \vdots \\ I_x(p_{25}) & I_y(p_{25}) \end{bmatrix} \begin{bmatrix} u \\ v \end{bmatrix} = - \begin{bmatrix} I_t(p_1) \\ I_t(p_2) \\ \vdots \\ I_t(p_{25}) \end{bmatrix}$$
-
+- The equation comes from the assumption that the brightness of a pixel remains constant between consecutive frames but its position may change due to motion
 - This can be represented as $A\cdot d=b$, the goal is to find d which represents the unknowns
 ## Least squares solution
 - One solution to finding d is the following:
