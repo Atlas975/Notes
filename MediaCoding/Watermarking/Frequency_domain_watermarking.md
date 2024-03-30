@@ -36,7 +36,11 @@ ___
 
 ## AC-DC embedding
 - More robust then using two random coefficients, always uses an AC coefficient in rule $P$
-- The other location is picked randomly in the mid frrequency band, the use of both a low and mid frequency coefficient makes the watermark 
-
+- The other location is picked randomly in the mid frequency band, the use of both a low and mid frequency coefficient makes the watermark embedding more robust
 
 ![[Pasted image 20240330183004.png|200|200]]
+
+- This can be made more robust to [[JPEG]] specifically by considering it's quantisation table 
+
+
+![[Pasted image 20240330183946.png|300|300]]

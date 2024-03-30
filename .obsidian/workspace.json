@@ -417,7 +417,7 @@
               "type": "markdown",
               "state": {
                 "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -801,6 +801,7 @@
   },
   "active": "272fa10614a9c45b",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240330183946.png",
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
     "XX-Attachments/Images/Pasted image 20240330183004.png",
