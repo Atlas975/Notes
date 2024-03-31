@@ -65,7 +65,46 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Cybersecurity/Annualised_loss_expectancy.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "39019ab75c950124",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Cybersecurity/Cryptography.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cb3a7bb487b7910a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/Hashing.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "81ea4b6cca579feb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DataStructures/Hash_tables.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -653,7 +692,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -729,7 +768,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -837,10 +877,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b00bb650e3951f61",
+  "active": "39019ab75c950124",
   "lastOpenFiles": [
     "Cybersecurity/Annualised_loss_expectancy.md",
     "Cybersecurity/Cryptography.md",
+    "Cybersecurity/Hashing.md",
+    "DataStructures/Hash_tables.md",
     "Cybersecurity/Advanced_encryption_standard.md",
     "MediaCoding/Colour_models.md",
     "ContinuousMath/Modulo.md",
@@ -874,8 +916,6 @@
     "MediaCoding/Convolution.md",
     "MediaCoding/Convolutional_networks.md",
     "MediaCoding/Detection_algorithms.md",
-    "MediaCoding/Image_derivatives.md",
-    "MediaCoding/Media_coding.md",
     "MediaCoding/DiscreteCosineTansform",
     "LinearAlgebra",
     "MediaCoding/OpticalFlow",

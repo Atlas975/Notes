@@ -1,5 +1,5 @@
 > [!important]- Metadata
-> **Tags:** #Cr
+> **Tags:** #Cybersecurity 
 > **Located:** Cybersecurity
 > **Created:** 30/03/2024 - 22:45
 > ```dataviewjs
@@ -16,7 +16,26 @@ ___
 
 ## Cryptosystem Components
 - A cryptosystem is a five-tuple (P, C, K, E, D), where P is plain texts, C is cipher texts, K is key space, E is encryption function, and D is decryption function
-- Central to security, based on Kerckhoff’s principle (security depends on the key's secrecy)
+- Central to security, based on **Kerckhoff’s principle** (should be secure even if everything about the system except the key is public knowledge)
 
 $$E_{k}:P\to C,k\in K$$
 $$D_{k}:C\to P,k\in K$$
+
+## Cryptographic key 
+- Used as an input to a cryptographic function
+- The security of the cryptosystem is based on the key secret
+## One-time Pad
+- Uses XOR operation between message stream and key-stream
+- Considered unbreakable if used correctly (one time use, secure distribution, random)
+
+```
+Message stream:    1001010111 
+Keystream:         0011101010 
+Ciphertext stream: 1010111101
+```
+
+
+
+## Symmetric encryption 
+- Uses the same or easily computable keys for encryption and decryption. 
+- Includes block-based and stream-based ciphers
