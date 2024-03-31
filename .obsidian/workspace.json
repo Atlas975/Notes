@@ -91,7 +91,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/Advanced_encryption_standard.md",
+                "file": "Cybersecurity/Symmetric_encryption.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00a0ed81084a5adb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/Asymmetric_encryption.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -705,7 +718,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -773,7 +786,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/Advanced_encryption_standard.md"
+                "file": "Cybersecurity/Asymmetric_encryption.md"
               }
             }
           }
@@ -808,7 +821,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/Advanced_encryption_standard.md",
+                "file": "Cybersecurity/Asymmetric_encryption.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -825,7 +838,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/Advanced_encryption_standard.md",
+                "file": "Cybersecurity/Asymmetric_encryption.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -889,16 +902,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a4989bf2139f1cc4",
+  "active": "00a0ed81084a5adb",
   "lastOpenFiles": [
-    "XX-Attachments/Images/Pasted image 20240331223419.png",
     "Cybersecurity/Symmetric_encryption.md",
+    "Cybersecurity/Asymmetric_encryption.md",
     "Cybersecurity/Cryptography.md",
+    "Cybersecurity/Advanced_encryption_standard.md",
+    "XX-Attachments/Images/Pasted image 20240331223419.png",
     "XX-Attachments/Images/Pasted image 20240331193809.png",
     "Cybersecurity/Annualised_loss_expectancy.md",
     "Cybersecurity/Hashing.md",
     "DataStructures/Hash_tables.md",
-    "Cybersecurity/Advanced_encryption_standard.md",
     "MediaCoding/Colour_models.md",
     "ContinuousMath/Modulo.md",
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
@@ -917,7 +931,6 @@
     "XX-Attachments/Images/Pasted image 20240329183206.png",
     "MediaCoding/Watermarking",
     "XX-Attachments/Images/Pasted image 20240329162310.png",
-    "XX-Attachments/Images/Pasted image 20240329155625.png",
     "SoftwareDesign/HCI/Human_memory.md",
     "SoftwareDesign/HCI/Movement_input.md",
     "SoftwareDesign/HCI/Visual_perception.md",

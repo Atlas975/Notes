@@ -13,6 +13,7 @@ ___
 # Symmetric encryption
 - Uses the same or easily computable keys for encryption and decryption
 - Requires $\frac{N(N-1)}{2}$ keys between $N$ parties, making this costly to scale
+- Also requires secure key exchange making key management a challenge. 
 
 
 
@@ -22,12 +23,14 @@ ___
 
 
 ## Block-based ciphers
-- Encrypts block of information sequentially 
+- Encrypts block of information sequentially (eg [[Advanced_encryption_standard|AES]])
 - Stronger than stream based but slower 
 - Relies on two properties 
 	- **Confusion**: key cannot be determined from ciphertext 
 	- **Diffusion**: should demonstrate the avalanche effect, modifying even a small amount of the input data should result in a significant change to the output
 
 
-## Stream-based ciphers 
-- 
+## Stream-based ciphers
+- Works one bit at a time, mixing plaintext with key-stream
+- Good for real-time services, this method is fast and easy to implement
+- Less secure than block ciphers 
