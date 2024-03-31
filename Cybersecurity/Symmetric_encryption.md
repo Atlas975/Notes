@@ -1,0 +1,20 @@
+> [!important]- Metadata
+> **Tags:** #Cybersecurity 
+> **Located:** Cybersecurity
+> **Created:** 31/03/2024 - 19:37
+> ```dataviewjs
+> let f = dv.current().file;
+> let paths = new Set([...f.inlinks, ...f.outlinks].map(p => p.path).filter(p => !p.endsWith(".png")));
+> paths.delete(f.path);
+> dv.table(["Connections", "Tags"], [...paths].map(p => [dv.fileLink(p), dv.page(p).file.tags.join("")]));
+> ```
+
+___
+# Symmetric encryption
+
+
+
+
+
+![[Pasted image 20240331193809.png|350|350]]
+
