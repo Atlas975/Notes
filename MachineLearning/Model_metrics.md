@@ -16,26 +16,24 @@ ___
 # Model metrics
 
 ## Mean squared error (MSE)
-> $$\text{MSE}=\frac{1}{m}\sum_{i=1}^{m}(y-\hat{y})^2$$
+$$\text{MSE}=\frac{1}{m}\sum_{i=1}^{m}(y-\hat{y})^2$$
 
 
 ## Root mean square error (RMSE) 
 - More sensitive to outliers in predictions
 
->$$\text{RMSE}=\sqrt{ \frac{1}{m}\sum_{1}^{m}(y-\hat{y})^2}$$
+$$\text{RMSE}=\sqrt{ \frac{1}{m}\sum_{1}^{m}(y-\hat{y})^2}$$
 
 
 ## Mean absolute error (MAE)
 - Preferred for bell curves 
 
->$$\text{MAE}=\frac{1}{m}\sum_{1}^{m}|y-\hat{y}| $$
+$$\text{MAE}=\frac{1}{m}\sum_{1}^{m}|y-\hat{y}| $$
 
 ## Classification accuracy
 - Where the prediction is qualitative, the training error rate may be used to find the number of made, can be summarized as:
 
-> $$\text{Accuracy}=\frac{1}{m}\sum_{i=1}^{m}y\neq{\hat{y}}$$
+$$\text{Accuracy}=\frac{1}{m}\sum_{i=1}^{m}y\neq{\hat{y}}$$
 ## F-score / F-statistic
-
-> $$\text{Precision}=\frac{\text{True positives}}{\text{True Positives}+\text{False positives}}$$
-> $$\text{Recall}=\frac{\text{True positives}}{\text{True Positives}+\text{False negatives}}$$
+- Makes use of the [[Confusion_matrices|confusion matrix]]
 

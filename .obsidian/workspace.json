@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4c46a59d332d5eb8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/FeatureSelectionMetrics/F_score.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "158d2f27cbf28968",
             "type": "leaf",
             "state": {
@@ -104,8 +91,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Machine_learning_notation.md",
-                "mode": "source",
+                "file": "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d9daa71f7f4cf208",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ContinuousMath/Distance_metrics.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -718,7 +718,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -786,7 +786,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Machine_learning_notation.md"
+                "file": "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md"
               }
             }
           }
@@ -821,7 +821,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Machine_learning_notation.md",
+                "file": "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -838,7 +838,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Machine_learning_notation.md",
+                "file": "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -904,32 +904,32 @@
   },
   "active": "00a0ed81084a5adb",
   "lastOpenFiles": [
+    "MachineLearning/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
+    "MachineLearning/Categorical_data_handeling.md",
+    "MachineLearning/Clustering.md",
+    "MachineLearning/Gradient_descent.md",
+    "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/Linear_regression.md",
+    "MachineLearning/Logistic_regression.md",
+    "MachineLearning/Machine_learning_features.md",
     "MachineLearning/Statistical_modeling.md",
-    "MachineLearning/Regularization.md",
     "MachineLearning/Neural_networks.md",
     "MachineLearning/Model_metrics.md",
     "MachineLearning/Machine_learning_notation.md",
-    "MachineLearning/Machine_learning_features.md",
-    "MachineLearning/Linear_regression.md",
+    "MachineLearning/Activation_functions.md",
+    "MachineLearning/0-GeneralConcepts/Vectorization/Vectorized_logistic_regression.md",
+    "MachineLearning/0-GeneralConcepts/Vectorization/Vectorized_backpropagation.md",
+    "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
+    "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+    "MachineLearning/FeatureSelectionMetrics/F_score.md",
+    "ContinuousMath/Distance_metrics.md",
+    "MachineLearning/Regularization.md",
     "MachineLearning/0-GeneralConcepts/Markov_chains.md",
     "MachineLearning/0-GeneralConcepts/Log_odds.md",
     "MachineLearning/0-GeneralConcepts/LinearRegression_math.md",
     "MachineLearning/0-GeneralConcepts/Inverse_matrices.md",
     "MachineLearning/0-GeneralConcepts/Hyperparameters.md",
     "MachineLearning/0-GeneralConcepts/Hypothesis_testing.md",
-    "MachineLearning/0-GeneralConcepts/Feature_scaling.md",
-    "MachineLearning/0-GeneralConcepts/Eigenthings.md",
-    "MachineLearning/0-GeneralConcepts/Determinants.md",
-    "MachineLearning/0-GeneralConcepts/DefiningAGroup.md",
-    "MachineLearning/0-GeneralConcepts/Cross_entropy.md",
-    "MachineLearning/0-GeneralConcepts/Computation_graph.md",
-    "MachineLearning/0-GeneralConcepts/Bootstrapping.md",
-    "MachineLearning/0-GeneralConcepts/Bayes_theorem.md",
-    "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
-    "MachineLearning/0-GeneralConcepts/ANOVA.md",
-    "MachineLearning/0-GeneralConcepts/Albelian_group.md",
-    "MachineLearning/0-GeneralConcepts/NeuralNetworks/Activation_functions.md",
-    "MachineLearning/0-GeneralConcepts/ML_tuning/Transfer_learning.md",
     "XX-Attachments/Images/Pasted image 20240331223419.png",
     "XX-Attachments/Images/Pasted image 20240331193809.png",
     "XX-Attachments/Images/Pasted image 20240330183946.png",

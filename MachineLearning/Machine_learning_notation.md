@@ -41,22 +41,18 @@ $$z=\text{output (activation of the next layer)}$$
 ### Parameter notation
 
  $$a_{j}^{[i][t][k]}$$
-$\text{Superscript i indicates layer, subscript j indicates neuron in layer vector }$
-$$\text{parameters t to denote batch number and k to denote example may also be present}$$
+$$i=\text{layer}$$
+$$j=\text{neuron in layer vector}$$
+$$t=\text{batch number}$$
+$$k=\text{example}$$
 
-### Parameter dimensions
-
-> $a^{[l]}=(n^{[l]},m)$
-> $w^{[l]}=(n^{[l]},n^{[l-1]})$
-> $b^{[l]}=(n^{[l]},1)$
-> $\text{where n denotes network shape}$
 
 ## Convolutional network notation
-> 
-> $n=\text{image dimensions}$
-> $f=\text{filter(kernal) dimensions}$
->  $p=\text{padding dimensions}$
-> $s=\text{stride size}$
-$n_{c}=\text{number of channels}$
+
+$$n=\text{image dimensions}$$
+$$f=\text{filter(kernal) dimensions}$$
+ $$p=\text{padding dimensions}$$
+$$s=\text{stride size}$$
+$$n_{c}=\text{number of channels}$$
 
 
