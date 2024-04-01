@@ -104,10 +104,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/Asymmetric_encryption.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "5b7b82209ed3c464",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
               }
             }
           },
@@ -718,7 +728,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -786,7 +796,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/Asymmetric_encryption.md"
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md"
               }
             }
           }
@@ -821,7 +831,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/Asymmetric_encryption.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -838,7 +848,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/Asymmetric_encryption.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -902,12 +912,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "00a0ed81084a5adb",
+  "active": "5b7b82209ed3c464",
   "lastOpenFiles": [
-    "Cybersecurity/Symmetric_encryption.md",
-    "Cybersecurity/Asymmetric_encryption.md",
-    "Cybersecurity/Cryptography.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
+    "MachineLearning/GeneticAlgorithms/Mutation.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "Cybersecurity/Advanced_encryption_standard.md",
+    "Cybersecurity/Asymmetric_encryption.md",
+    "Cybersecurity/Symmetric_encryption.md",
+    "Cybersecurity/Cryptography.md",
     "XX-Attachments/Images/Pasted image 20240331223419.png",
     "XX-Attachments/Images/Pasted image 20240331193809.png",
     "Cybersecurity/Annualised_loss_expectancy.md",
@@ -936,11 +951,6 @@
     "SoftwareDesign/HCI/Visual_perception.md",
     "SoftwareDesign/HCI/Human_computer_interaction.md",
     "SoftwareDesign/HCI/HCI_formulas.md",
-    "MediaCoding/ImageMatching/Harris_corner_detection.md",
-    "MediaCoding/ImageMatching/Gaussian_pyramid.md",
-    "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
-    "MediaCoding/IntensityTransforms/Log_transform.md",
-    "MediaCoding/Convolution.md",
     "MediaCoding/DiscreteCosineTansform",
     "LinearAlgebra",
     "MediaCoding/OpticalFlow",
