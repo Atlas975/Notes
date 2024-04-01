@@ -338,7 +338,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
+                "file": "MediaCoding/Image_derivatives.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2574bb3348e66cfc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Convolution.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -718,7 +731,7 @@
             }
           }
         ],
-        "currentTab": 25
+        "currentTab": 26
       }
     ],
     "direction": "vertical"
@@ -786,7 +799,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md"
+                "file": "MediaCoding/Convolution.md"
               }
             }
           }
@@ -821,7 +834,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
+                "file": "MediaCoding/Convolution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -838,7 +851,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
+                "file": "MediaCoding/Convolution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -902,34 +915,34 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "70a4eaaab53edec5",
+  "active": "2574bb3348e66cfc",
   "lastOpenFiles": [
+    "MediaCoding/Colour_models.md",
+    "MediaCoding/IntensityTransforms/Log_transform.md",
+    "MediaCoding/Canny_edge_detection.md",
+    "MediaCoding/Computer_vision.md",
+    "MediaCoding/Convolutional_networks.md",
+    "MediaCoding/Detection_algorithms.md",
+    "MediaCoding/Media_coding.md",
+    "MediaCoding/Image_derivatives.md",
+    "MediaCoding/Edge_detection.md",
+    "MediaCoding/Convolution.md",
+    "Statistics/Event_independence.md",
+    "Statistics/Bessels_correction.md",
+    "Statistics/Bayes_theorem.md",
+    "Statistics/Mean.md",
+    "MachineLearning/Linear_regression.md",
+    "MachineLearning/Categorical_data_handeling.md",
+    "MachineLearning/Clustering.md",
+    "MachineLearning/Artificial_intelligence.md",
+    "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
+    "MediaCoding/ImageMatching/Gaussian_pyramid.md",
+    "MediaCoding/Filters/SmoothingFilters/Smoothing_spatial_filtering.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
     "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
     "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md",
     "MachineLearning/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
     "ContinuousMath/Distance_metrics.md",
-    "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
-    "MachineLearning/FeatureEngineering/Feature_scaling.md",
-    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
-    "MachineLearning/0-GeneralConcepts/Computation_graph.md",
-    "MachineLearning/0-GeneralConcepts/Calculating_mean,variance&SD.md",
-    "MachineLearning/0-GeneralConcepts/Bayes_theorem.md",
-    "MachineLearning/0-GeneralConcepts/Bayes_classifier.md",
-    "MachineLearning/0-GeneralConcepts/ANOVA.md",
-    "MachineLearning/0-GeneralConcepts/Albelian_group.md",
-    "MachineLearning/0-GeneralConcepts/Vectorization/Vectorized_logistic_regression.md",
-    "MachineLearning/0-GeneralConcepts/Vectorization/Vectorized_backpropagation.md",
-    "MachineLearning/0-GeneralConcepts/TreeModels/Regression_trees.md",
-    "MachineLearning/0-GeneralConcepts/TreeModels/Random_forests.md",
-    "MachineLearning/0-GeneralConcepts/TreeModels/Decision_Trees.md",
-    "MachineLearning/0-GeneralConcepts/TimeSeriesAnalysis/Exponentially_weighted_averages.md",
-    "MachineLearning/0-GeneralConcepts/TimeSeriesAnalysis/Bias_correction.md",
-    "MachineLearning/0-GeneralConcepts/NeuralNetworks/NeuralNetwork_intuition.md",
-    "MachineLearning/0-GeneralConcepts/NeuralNetworks/NeuralNetwork_fitting.md",
-    "MachineLearning/0-GeneralConcepts/NeuralNetworks/Neural_Network_notation.md",
-    "MachineLearning/0-GeneralConcepts/NeuralNetworks/Backpropagation_math.md",
     "XX-Attachments/Images/Pasted image 20240331223419.png",
     "XX-Attachments/Images/Pasted image 20240331193809.png",
     "XX-Attachments/Images/Pasted image 20240330183946.png",
