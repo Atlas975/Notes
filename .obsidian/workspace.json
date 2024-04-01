@@ -104,20 +104,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
-                "mode": "preview",
+                "file": "MachineLearning/Machine_learning_notation.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "5b7b82209ed3c464",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.12"
               }
             }
           },
@@ -728,7 +718,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -796,7 +786,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md"
+                "file": "MachineLearning/Machine_learning_notation.md"
               }
             }
           }
@@ -831,7 +821,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+                "file": "MachineLearning/Machine_learning_notation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -848,7 +838,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+                "file": "MachineLearning/Machine_learning_notation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -912,45 +902,45 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5b7b82209ed3c464",
+  "active": "00a0ed81084a5adb",
   "lastOpenFiles": [
-    "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
-    "MachineLearning/GeneticAlgorithms/Mutation.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
-    "Cybersecurity/Advanced_encryption_standard.md",
-    "Cybersecurity/Asymmetric_encryption.md",
-    "Cybersecurity/Symmetric_encryption.md",
-    "Cybersecurity/Cryptography.md",
+    "MachineLearning/Statistical_modeling.md",
+    "MachineLearning/Regularization.md",
+    "MachineLearning/Neural_networks.md",
+    "MachineLearning/Model_metrics.md",
+    "MachineLearning/Machine_learning_notation.md",
+    "MachineLearning/Machine_learning_features.md",
+    "MachineLearning/Linear_regression.md",
+    "MachineLearning/0-GeneralConcepts/Markov_chains.md",
+    "MachineLearning/0-GeneralConcepts/Log_odds.md",
+    "MachineLearning/0-GeneralConcepts/LinearRegression_math.md",
+    "MachineLearning/0-GeneralConcepts/Inverse_matrices.md",
+    "MachineLearning/0-GeneralConcepts/Hyperparameters.md",
+    "MachineLearning/0-GeneralConcepts/Hypothesis_testing.md",
+    "MachineLearning/0-GeneralConcepts/Feature_scaling.md",
+    "MachineLearning/0-GeneralConcepts/Eigenthings.md",
+    "MachineLearning/0-GeneralConcepts/Determinants.md",
+    "MachineLearning/0-GeneralConcepts/DefiningAGroup.md",
+    "MachineLearning/0-GeneralConcepts/Cross_entropy.md",
+    "MachineLearning/0-GeneralConcepts/Computation_graph.md",
+    "MachineLearning/0-GeneralConcepts/Bootstrapping.md",
+    "MachineLearning/0-GeneralConcepts/Bayes_theorem.md",
+    "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
+    "MachineLearning/0-GeneralConcepts/ANOVA.md",
+    "MachineLearning/0-GeneralConcepts/Albelian_group.md",
+    "MachineLearning/0-GeneralConcepts/NeuralNetworks/Activation_functions.md",
+    "MachineLearning/0-GeneralConcepts/ML_tuning/Transfer_learning.md",
     "XX-Attachments/Images/Pasted image 20240331223419.png",
     "XX-Attachments/Images/Pasted image 20240331193809.png",
-    "Cybersecurity/Annualised_loss_expectancy.md",
-    "Cybersecurity/Hashing.md",
-    "DataStructures/Hash_tables.md",
-    "MediaCoding/Colour_models.md",
-    "ContinuousMath/Modulo.md",
-    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
-    "MediaCoding/OpticalFlow/Optical_flow.md",
-    "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
     "XX-Attachments/Images/Pasted image 20240330183946.png",
-    "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "XX-Attachments/Images/Pasted image 20240330183004.png",
-    "MediaCoding/Watermarking/Watermarking.md",
-    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "XX-Attachments/Images/Pasted image 20240330181206.png",
     "XX-Attachments/Images/Pasted image 20240330175537.png",
     "XX-Attachments/Images/Pasted image 20240330004624.png",
     "XX-Attachments/Images/Pasted image 20240329233401.png",
-    "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
     "XX-Attachments/Images/Pasted image 20240329183206.png",
     "MediaCoding/Watermarking",
     "XX-Attachments/Images/Pasted image 20240329162310.png",
-    "SoftwareDesign/HCI/Human_memory.md",
-    "SoftwareDesign/HCI/Movement_input.md",
-    "SoftwareDesign/HCI/Visual_perception.md",
-    "SoftwareDesign/HCI/Human_computer_interaction.md",
-    "SoftwareDesign/HCI/HCI_formulas.md",
     "MediaCoding/DiscreteCosineTansform",
     "LinearAlgebra",
     "MediaCoding/OpticalFlow",

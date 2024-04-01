@@ -1,5 +1,6 @@
 # Data Leakage
-- Occurs when training set contains data not found in the validation set, potentially leading to high bias with the training set with lackluster performance on the validation set. There are two main kinds of Leakage
+- Occurs when training set contains data not found in the validation set, potentially leading to high bias with the training set with lacklustre performance on the validation set. 
+- There are two main kinds of Leakage
 
 ## Target Leakage 
 - When data is included that isn't available when actually making predictions, therefore its important to consider how data is used chronologically and not only if a feature is useful for predictions
