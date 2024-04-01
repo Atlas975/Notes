@@ -338,7 +338,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -718,7 +718,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 25
       }
     ],
     "direction": "vertical"
@@ -786,7 +786,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md"
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md"
               }
             }
           }
@@ -821,7 +821,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -838,7 +838,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -902,34 +902,34 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "00a0ed81084a5adb",
+  "active": "70a4eaaab53edec5",
   "lastOpenFiles": [
+    "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
+    "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md",
     "MachineLearning/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
-    "MachineLearning/Categorical_data_handeling.md",
-    "MachineLearning/Clustering.md",
-    "MachineLearning/Gradient_descent.md",
-    "MachineLearning/Artificial_intelligence.md",
-    "MachineLearning/Linear_regression.md",
-    "MachineLearning/Logistic_regression.md",
-    "MachineLearning/Machine_learning_features.md",
-    "MachineLearning/Statistical_modeling.md",
-    "MachineLearning/Neural_networks.md",
-    "MachineLearning/Model_metrics.md",
-    "MachineLearning/Machine_learning_notation.md",
-    "MachineLearning/Activation_functions.md",
+    "ContinuousMath/Distance_metrics.md",
+    "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_crossover.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+    "MachineLearning/FeatureEngineering/Feature_scaling.md",
+    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
+    "MachineLearning/0-GeneralConcepts/Computation_graph.md",
+    "MachineLearning/0-GeneralConcepts/Calculating_mean,variance&SD.md",
+    "MachineLearning/0-GeneralConcepts/Bayes_theorem.md",
+    "MachineLearning/0-GeneralConcepts/Bayes_classifier.md",
+    "MachineLearning/0-GeneralConcepts/ANOVA.md",
+    "MachineLearning/0-GeneralConcepts/Albelian_group.md",
     "MachineLearning/0-GeneralConcepts/Vectorization/Vectorized_logistic_regression.md",
     "MachineLearning/0-GeneralConcepts/Vectorization/Vectorized_backpropagation.md",
-    "MachineLearning/FeatureSelectionMetrics/Confusion_matrices.md",
-    "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md",
-    "MachineLearning/FeatureSelectionMetrics/F_score.md",
-    "ContinuousMath/Distance_metrics.md",
-    "MachineLearning/Regularization.md",
-    "MachineLearning/0-GeneralConcepts/Markov_chains.md",
-    "MachineLearning/0-GeneralConcepts/Log_odds.md",
-    "MachineLearning/0-GeneralConcepts/LinearRegression_math.md",
-    "MachineLearning/0-GeneralConcepts/Inverse_matrices.md",
-    "MachineLearning/0-GeneralConcepts/Hyperparameters.md",
-    "MachineLearning/0-GeneralConcepts/Hypothesis_testing.md",
+    "MachineLearning/0-GeneralConcepts/TreeModels/Regression_trees.md",
+    "MachineLearning/0-GeneralConcepts/TreeModels/Random_forests.md",
+    "MachineLearning/0-GeneralConcepts/TreeModels/Decision_Trees.md",
+    "MachineLearning/0-GeneralConcepts/TimeSeriesAnalysis/Exponentially_weighted_averages.md",
+    "MachineLearning/0-GeneralConcepts/TimeSeriesAnalysis/Bias_correction.md",
+    "MachineLearning/0-GeneralConcepts/NeuralNetworks/NeuralNetwork_intuition.md",
+    "MachineLearning/0-GeneralConcepts/NeuralNetworks/NeuralNetwork_fitting.md",
+    "MachineLearning/0-GeneralConcepts/NeuralNetworks/Neural_Network_notation.md",
+    "MachineLearning/0-GeneralConcepts/NeuralNetworks/Backpropagation_math.md",
     "XX-Attachments/Images/Pasted image 20240331223419.png",
     "XX-Attachments/Images/Pasted image 20240331193809.png",
     "XX-Attachments/Images/Pasted image 20240330183946.png",
