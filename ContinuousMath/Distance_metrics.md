@@ -50,3 +50,7 @@ $$\begin{align*}
 0 & \text{otherwise}
 \end{cases}
 \end{align*}$$
+
+## Levenshtein distance 
+- The minimum number of changes needed to turn string $a$ into string $b$
+![[Dynamic_programming#Edit distance]]

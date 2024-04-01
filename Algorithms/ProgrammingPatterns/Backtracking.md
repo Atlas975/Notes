@@ -150,7 +150,7 @@ def specialPerm(self, nums: List[int]) -> int:
         return factorial(n) % (pow(10, 9) + 7)
     
     @cache
-    def dfs(i, mask):
+    def dfs(i, mask): 
         if mask == (1 << n) - 1: # all bits are set
             return 1
         return sum(
