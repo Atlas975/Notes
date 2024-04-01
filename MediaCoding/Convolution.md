@@ -24,12 +24,10 @@ ___
 - The padding required to have the output size equal to the input size, this can be found using:
 
 $$P=\frac{F-1}{2}$$
-
+- This is necessary to avoid information at the borders being lost too quickly when performing several operations such as in a [[Convolutional_networks|CNN]]
 ### Valid convolutions 
 - Convolutions performed when an image is given no padding 
 - This results in an output image smaller than the input image 
-
-
 
 
 ## Strided convolutions

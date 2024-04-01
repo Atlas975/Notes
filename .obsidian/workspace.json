@@ -731,7 +731,7 @@
             }
           }
         ],
-        "currentTab": 26
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -799,7 +799,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Convolution.md"
+                "file": "ContinuousMath/Distance_metrics.md"
               }
             }
           }
@@ -834,7 +834,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Convolution.md",
+                "file": "ContinuousMath/Distance_metrics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -851,7 +851,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Convolution.md",
+                "file": "ContinuousMath/Distance_metrics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -915,8 +915,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "2574bb3348e66cfc",
+  "active": "d9daa71f7f4cf208",
   "lastOpenFiles": [
+    "ContinuousMath/imaginary_numbers.md",
+    "ContinuousMath/Catalan_numbers.md",
+    "ContinuousMath/Center_of_rotation.md",
+    "ContinuousMath/Distance_metrics.md",
+    "MediaCoding/Convolution.md",
     "MediaCoding/Colour_models.md",
     "MediaCoding/IntensityTransforms/Log_transform.md",
     "MediaCoding/Canny_edge_detection.md",
@@ -926,7 +931,6 @@
     "MediaCoding/Media_coding.md",
     "MediaCoding/Image_derivatives.md",
     "MediaCoding/Edge_detection.md",
-    "MediaCoding/Convolution.md",
     "Statistics/Event_independence.md",
     "Statistics/Bessels_correction.md",
     "Statistics/Bayes_theorem.md",
@@ -939,10 +943,6 @@
     "MediaCoding/ImageMatching/Gaussian_pyramid.md",
     "MediaCoding/Filters/SmoothingFilters/Smoothing_spatial_filtering.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
-    "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
-    "MachineLearning/FeatureSelectionMetrics/Pointwise_mutual_information.md",
-    "MachineLearning/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
-    "ContinuousMath/Distance_metrics.md",
     "XX-Attachments/Images/Pasted image 20240331223419.png",
     "XX-Attachments/Images/Pasted image 20240331193809.png",
     "XX-Attachments/Images/Pasted image 20240330183946.png",
