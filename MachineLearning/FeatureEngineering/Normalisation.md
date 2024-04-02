@@ -32,7 +32,9 @@ $$\mathcal{x'}=\frac{x-\overline{x}}{\sigma}$$
 
 $$\mathcal{x'}=\frac{x-x_{min}}{x_{max}-x_{min}}$$
 
-
-## Sum-based normalisation 
+## Manhattan (L1) normalisation 
+## L2  normalisation 
+- The Euclidean norm, reduces bias towards features with larger magnitudes 
+- In machine learning this can help in regularising the model, preventing overfitting by ensuring that the magnitude of weights doesn't grow too large.
 
 $$x'=\frac{x}{\sum x_{i}}$$

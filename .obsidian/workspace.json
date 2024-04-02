@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/FeatureEngineering/Normalisation.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -233,8 +233,9 @@
   },
   "active": "a6ffcf7baf129bf4",
   "lastOpenFiles": [
-    "MachineLearning/FeatureEngineering/Scaling.md",
+    "MachineLearning/0-GeneralConcepts/Feature_scaling.md",
     "MachineLearning/FeatureEngineering/Normalisation.md",
+    "MachineLearning/FeatureEngineering/Scaling.md",
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
     "MachineLearning/FeatureEngineering/Feature_scaling.md",
     "MachineLearning/0-GeneralConcepts/DataProcessing/Normalization_vs_scaling.md",
@@ -258,7 +259,6 @@
     "SoftwareDesign/HCI/Human_memory.md",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
     "MediaCoding/ImageMatching/Gaussian_pyramid.md",
-    "MediaCoding/ImageMatching/Laplacian_pyramid.md",
     "MachineLearning/ErrorMeasures",
     "XX-Attachments/Images/Pasted image 20240402185951.png",
     "XX-Attachments/Images/Pasted image 20240402184402.png",
