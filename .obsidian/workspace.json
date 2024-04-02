@@ -92,7 +92,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -298,6 +298,8 @@
   },
   "active": "794011006bf4112b",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240402224744.png",
+    "XX-Attachments/Images/Pasted image 20240402224313.png",
     "XX-Attachments/Images/Pasted image 20240402223242.png",
     "MachineLearning/ClusteringAlgorithms/Clustering.md",
     "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
@@ -334,8 +336,6 @@
     "XX-Attachments/Images/Pasted image 20240402092104.png",
     "XX-Attachments/Images/Pasted image 20240402091815.png",
     "XX-Attachments/Images/Pasted image 20240402091746.png",
-    "XX-Attachments/Images/Pasted image 20240402091700.png",
-    "XX-Attachments/Images/Pasted image 20240402091627.png",
     "MediaCoding/Watermarking",
     "MediaCoding/DiscreteCosineTansform",
     "LinearAlgebra",
