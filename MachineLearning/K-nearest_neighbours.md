@@ -2,6 +2,7 @@
 aliases:
   - KNN
 ---
+
 > [!important]- Metadata
 > **Tags:** #StatisticalLearning 
 > **Located:** MachineLearning
@@ -15,29 +16,18 @@ aliases:
 
 ___
 # K-nearest neighbours
+- A [[Artificial_intelligence#Supervised learning|supervised learning]] algorithms that identifies the $k$ closest training examples in the feature space and assigns the most frequent label among them
+- The performance of this method varies based on the [[Distance_metrics|distance metric]] used to determine the nearest neighbour. With each offering tradeoffs between speed and accuracy
 
-- A Pidentifying the $k$ closest training examples in the feature space and assigning the most frequent label among them
-- It uses a distance metric, like Euclidean distance, to determine the "nearest" neighbors, with no explicit training phase involved
 ![[Pasted image 20240402184402.png|450|450]]
 
 
 
 
+## K value choice
+- The choice of the $k$ parameter has different effects on computation speed and accuracy 
+- A low K value like 1-NN is sensitive to mis-labelled / outlier data
+- A higher value like 3-NN reduces the classification error, but is slower to classify 
 
+![[Pasted image 20240402185951.png|250|250]]
 
-## Linkage types 
-
-![[Pasted image 20231023152040.png|450|450]]
-
-
-
-
-
-
-## Automated clustering
-- The number of distinct clusters that can be formed with p number of predictors is:
-$$\frac{p(p-1)}{2}$$
-
-- When these can't easily be seen like with the below example, a method is needed to find these clusters automatically
-
-![[Pasted image 20220225161220.png|450|450]]

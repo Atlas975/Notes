@@ -138,7 +138,7 @@
             }
           },
           {
-            "id": "27792393202a5508",
+            "id": "c68ba5d00dfaf320",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -157,6 +157,19 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/Artificial_intelligence.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6e26756e0eaad8e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Clustering.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -809,7 +822,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -877,7 +890,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md"
+                "file": "MachineLearning/K-nearest_neighbours.md"
               }
             }
           }
@@ -912,7 +925,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "MachineLearning/K-nearest_neighbours.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -929,7 +942,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "MachineLearning/K-nearest_neighbours.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -993,13 +1006,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "aa61321048f28e00",
+  "active": "c68ba5d00dfaf320",
   "lastOpenFiles": [
-    "MachineLearning/Clustering.md",
-    "MachineLearning/K-nearest_neighbours.md",
     "MachineLearning/Statistical_modeling.md",
-    "XX-Attachments/Images/Pasted image 20240402184402.png",
+    "MachineLearning/K-nearest_neighbours.md",
+    "XX-Attachments/Images/Pasted image 20240402185951.png",
     "MachineLearning/0-GeneralConcepts/KNN_methods.md",
+    "MachineLearning/Clustering.md",
+    "MachineLearning/Artificial_intelligence.md",
+    "XX-Attachments/Images/Pasted image 20240402184402.png",
     "MachineLearning/Softmax.md",
     "XX-Attachments/Images/Pasted image 20240402092233.png",
     "XX-Attachments/Images/Pasted image 20240402092104.png",
@@ -1028,8 +1043,6 @@
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
     "ContinuousMath/imaginary_numbers.md",
-    "ContinuousMath/Catalan_numbers.md",
-    "XX-Attachments/Images/Pasted image 20240331223419.png",
     "MediaCoding/Watermarking",
     "MediaCoding/DiscreteCosineTansform",
     "LinearAlgebra",
