@@ -105,7 +105,7 @@
               "type": "markdown",
               "state": {
                 "file": "ContinuousMath/Distance_metrics.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -822,7 +822,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -890,7 +890,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/K-nearest_neighbours.md"
+                "file": "ContinuousMath/Distance_metrics.md"
               }
             }
           }
@@ -898,7 +898,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -925,7 +926,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/K-nearest_neighbours.md",
+                "file": "ContinuousMath/Distance_metrics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -942,7 +943,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/K-nearest_neighbours.md",
+                "file": "ContinuousMath/Distance_metrics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1006,10 +1007,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c68ba5d00dfaf320",
+  "active": "d9daa71f7f4cf208",
   "lastOpenFiles": [
-    "MachineLearning/Statistical_modeling.md",
     "MachineLearning/K-nearest_neighbours.md",
+    "MachineLearning/Statistical_modeling.md",
     "XX-Attachments/Images/Pasted image 20240402185951.png",
     "MachineLearning/0-GeneralConcepts/KNN_methods.md",
     "MachineLearning/Clustering.md",
