@@ -125,6 +125,58 @@
             }
           },
           {
+            "id": "9d827a3b2ca5bde6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Statistical_modeling.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "27792393202a5508",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/K-nearest_neighbours.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aa61321048f28e00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Artificial_intelligence.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "225a0f1ee256ad45",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/0-GeneralConcepts/KNN_methods.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "125c1fbb4ab3bf67",
             "type": "leaf",
             "state": {
@@ -757,7 +809,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -825,7 +877,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Softmax.md"
+                "file": "MachineLearning/Artificial_intelligence.md"
               }
             }
           }
@@ -860,7 +912,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Softmax.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -877,7 +929,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Softmax.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -941,8 +993,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ec741a182eeccc96",
+  "active": "aa61321048f28e00",
   "lastOpenFiles": [
+    "MachineLearning/Clustering.md",
+    "MachineLearning/K-nearest_neighbours.md",
+    "MachineLearning/Statistical_modeling.md",
+    "XX-Attachments/Images/Pasted image 20240402184402.png",
+    "MachineLearning/0-GeneralConcepts/KNN_methods.md",
+    "MachineLearning/Softmax.md",
     "XX-Attachments/Images/Pasted image 20240402092233.png",
     "XX-Attachments/Images/Pasted image 20240402092104.png",
     "XX-Attachments/Images/Pasted image 20240402091815.png",
@@ -952,7 +1010,6 @@
     "XX-Attachments/Images/Pasted image 20240402091553.png",
     "XX-Attachments/Images/Pasted image 20240402091432.png",
     "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
-    "MachineLearning/Softmax.md",
     "ContinuousMath/Distance_metrics.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
@@ -972,13 +1029,7 @@
     "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
     "ContinuousMath/imaginary_numbers.md",
     "ContinuousMath/Catalan_numbers.md",
-    "ContinuousMath/Center_of_rotation.md",
-    "MediaCoding/Convolution.md",
-    "MediaCoding/Colour_models.md",
-    "MediaCoding/IntensityTransforms/Log_transform.md",
     "XX-Attachments/Images/Pasted image 20240331223419.png",
-    "XX-Attachments/Images/Pasted image 20240331193809.png",
-    "XX-Attachments/Images/Pasted image 20240330183946.png",
     "MediaCoding/Watermarking",
     "MediaCoding/DiscreteCosineTansform",
     "LinearAlgebra",
