@@ -15,13 +15,12 @@
 ___
 # Feature scaling
 - Feature scaling keeps the step size in [[MachineLearning/Gradient_descent|gradient descent]] small, allowing for more stable oscillations and resulting in faster convergence
-## Min-max normalization 
+## Min-max normalisation 
 - Causes all feature values to be pushed between a range of 0 to 1
 
->$$\mathcal{x'}=\frac{x-x_{min}}{x_{max}-x_{min}}$$
+$$\mathcal{x'}=\frac{x-x_{min}}{x_{max}-x_{min}}$$
 
 
-## Standardization 
-- Makes the mean 0 and standard deviation 1
+- Makes the mean 0 and standard deviation 1, useful when normally distributed data is assumed 
 
->$$\mathcal{x'}=\frac{x-\overline{x}}{\sigma}$$
+$$\mathcal{x'}=\frac{x-\overline{x}}{\sigma}$$
