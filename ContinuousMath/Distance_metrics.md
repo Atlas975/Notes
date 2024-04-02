@@ -2,6 +2,7 @@
 aliases:
   - distance
 ---
+
 > [!important]- Metadata
 > **Tags:** #ContinuousMath 
 > **Located:** ContinuousMath
@@ -39,7 +40,7 @@ $$\frac{\sum_{i}a_{i}b_{i}}{\sqrt{ \sum_{i}a_{i}^2}\sqrt{ \sum_{i}b_{i}^2 }}$$
 
 - To have values range from 0:2 rather than -1:1 the following can be used: 
 
-$$\text{Cosine distance()}$$
+$$\text{Cosine distance(A,B)}=1-\text{Cosine distance(A,B)}$$
 
 ### Cosine similarity applications
 - Useful for finding the similarity between two pieces of text, ignoring frequency of repeats
@@ -59,7 +60,16 @@ $$\begin{align*}
 \end{cases}
 \end{align*}$$
 
-## Levenshtein distance 
+## Levenshtein distance
 - measures the minimum number of single-character edits (insertions, deletions, or substitutions) required to change one word into another.
 - idely used in applications like spell checking, DNA sequencing, and natural language processing to assess the similarity or distance between two strings of text
 ![[Dynamic_programming#Edit distance]]
+
+
+
+## Bray-curtis distance
+- Highlights the common elements between two sets
+- $\text{Score} \propto \text{Overlap}^{-1}$
+
+
+$$1-\frac{2\cdot \sum_{i}\text{min}(a_{i},b_{i})}{|A|,|B|}$$
