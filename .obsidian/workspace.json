@@ -118,7 +118,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/Softmax.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -943,6 +943,8 @@
   },
   "active": "ec741a182eeccc96",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240402092233.png",
+    "XX-Attachments/Images/Pasted image 20240402092104.png",
     "XX-Attachments/Images/Pasted image 20240402091815.png",
     "XX-Attachments/Images/Pasted image 20240402091746.png",
     "XX-Attachments/Images/Pasted image 20240402091700.png",
@@ -977,8 +979,6 @@
     "XX-Attachments/Images/Pasted image 20240331223419.png",
     "XX-Attachments/Images/Pasted image 20240331193809.png",
     "XX-Attachments/Images/Pasted image 20240330183946.png",
-    "XX-Attachments/Images/Pasted image 20240330183004.png",
-    "XX-Attachments/Images/Pasted image 20240330181206.png",
     "MediaCoding/Watermarking",
     "MediaCoding/DiscreteCosineTansform",
     "LinearAlgebra",
