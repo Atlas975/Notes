@@ -11,6 +11,19 @@
 
 ___
 # Softmax
+- Normalises raw model outputs, ensuring they sum to one and are proportionate to the relative scale of input values
+- This accentuates the largest scores and suppresses smaller ones, effectively highlighting the most likely outcome
+$$\frac{e^x}{\sum e^{x_{i}}}$$
 
-$$\frac{e^{x_{}}}{\sum_{j=0}^{n}e^{x_{j}}}$$
-$$$$
+
+![[Pasted image 20240402091432.png|450|450]]
+## Temperature 
+- Temperature ($T$) adjusts the probability spread; higher temperatures yield a flatter distribution, while lower temperatures produce gives more weight to larger values 
+- Regulates the trade-off between exploring new options (high temperature) and exploring known ones (low temperature).
+
+$$\frac{e^{x/T}}{\sum e^{x_{i}/T}}$$
+
+
+
+![[Pasted image 20240402091746.png|450|450]]
+![[Pasted image 20240402091815.png|350|350]]
