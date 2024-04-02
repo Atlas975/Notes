@@ -112,6 +112,19 @@
             }
           },
           {
+            "id": "ec741a182eeccc96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Softmax.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "125c1fbb4ab3bf67",
             "type": "leaf",
             "state": {
@@ -744,7 +757,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -812,7 +825,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ContinuousMath/Distance_metrics.md"
+                "file": "MachineLearning/Softmax.md"
               }
             }
           }
@@ -847,7 +860,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ContinuousMath/Distance_metrics.md",
+                "file": "MachineLearning/Softmax.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -864,7 +877,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ContinuousMath/Distance_metrics.md",
+                "file": "MachineLearning/Softmax.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -928,8 +941,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d9daa71f7f4cf208",
+  "active": "ec741a182eeccc96",
   "lastOpenFiles": [
+    "MachineLearning/0-GeneralConcepts/ArgMax&SoftMax.md",
+    "MachineLearning/Softmax.md",
+    "ContinuousMath/Distance_metrics.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
@@ -946,7 +962,6 @@
     "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Algorithms/ProgrammingPatterns/Bit_manipulation.md",
     "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
-    "ContinuousMath/Distance_metrics.md",
     "ContinuousMath/imaginary_numbers.md",
     "ContinuousMath/Catalan_numbers.md",
     "ContinuousMath/Center_of_rotation.md",
@@ -954,8 +969,6 @@
     "MediaCoding/Colour_models.md",
     "MediaCoding/IntensityTransforms/Log_transform.md",
     "MediaCoding/Canny_edge_detection.md",
-    "MediaCoding/Computer_vision.md",
-    "MediaCoding/Convolutional_networks.md",
     "XX-Attachments/Images/Pasted image 20240331223419.png",
     "XX-Attachments/Images/Pasted image 20240331193809.png",
     "XX-Attachments/Images/Pasted image 20240330183946.png",
