@@ -11,10 +11,14 @@
 
 ___
 # Hierarchal clustering
-- 
+- A deterministic way to pick a $k$ value for [[K-means_clustering|K-means clustering]]
 
 
 
+
+## Cluster creation approach 
+- **Agglomerative (bottom up)**: iteratively merges the closest pairs of clusters
+- **Divisive (top-down)**: splits a single cluster into smaller clusters
 
 
 ## Hierarchal clustering algorithm 

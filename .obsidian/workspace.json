@@ -104,8 +104,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
+                "file": "MachineLearning/0-CoursesPart1/MachineLearning/K-Means_algorithm.md",
                 "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a1548c4c116594bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -125,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -309,10 +322,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "98fc0f1206756e63",
+  "active": "a1548c4c116594bb",
   "lastOpenFiles": [
-    "MachineLearning/ClusteringAlgorithms/Clustering.md",
+    "MachineLearning/0-CoursesPart1/MachineLearning/K-Means_algorithm.md",
     "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
+    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
+    "XX-Attachments/Images/Pasted image 20240403000814.png",
+    "MachineLearning/ClusteringAlgorithms/Clustering.md",
     "XX-Attachments/Images/Pasted image 20240402230238.png",
     "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
     "XX-Attachments/Images/Pasted image 20240402224744.png",
@@ -330,7 +346,6 @@
     "MachineLearning/Softmax.md",
     "MachineLearning/Statistical_modeling.md",
     "MachineLearning/Machine_learning_notation.md",
-    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
     "MachineLearning/FeatureEngineering/Normalisation.md",
@@ -347,7 +362,6 @@
     "XX-Attachments/Images/Pasted image 20240402185951.png",
     "XX-Attachments/Images/Pasted image 20240402184402.png",
     "XX-Attachments/Images/Pasted image 20240402092233.png",
-    "XX-Attachments/Images/Pasted image 20240402092104.png",
     "MediaCoding/Watermarking",
     "MediaCoding/DiscreteCosineTansform",
     "LinearAlgebra",
