@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/FeatureEngineering/Normalisation.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/Feature_scaling.md",
-                "mode": "source",
+                "file": "MachineLearning/FeatureEngineering/Normalisation.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -39,27 +39,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/Normalisation.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "70454797cf335d96",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/FeatureEngineering/Scaling.md",
-                "mode": "source",
+                "file": "MachineLearning/FeatureEngineering/Machine_learning_features.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -243,13 +231,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0d1302336a44d359",
+  "active": "a6ffcf7baf129bf4",
   "lastOpenFiles": [
-    "MachineLearning/FeatureEngineering/Feature_scaling.md",
-    "MachineLearning/FeatureEngineering/Normalisation.md",
     "MachineLearning/FeatureEngineering/Scaling.md",
-    "MachineLearning/0-GeneralConcepts/DataProcessing/Normalization_vs_scaling.md",
+    "MachineLearning/FeatureEngineering/Normalisation.md",
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
+    "MachineLearning/FeatureEngineering/Feature_scaling.md",
+    "MachineLearning/0-GeneralConcepts/DataProcessing/Normalization_vs_scaling.md",
     "ContinuousMath/Catalan_numbers.md",
     "Languages&Compilation/Recursive_descent.md",
     "OperatingSystems/Computer_memory.md",

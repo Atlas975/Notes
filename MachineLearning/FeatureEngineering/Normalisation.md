@@ -19,27 +19,20 @@ ___
 
 ![[Pasted image 20220406164101.png|450|450]]
 
-- This is also known as z-scaling as the new valye
-# Scaling
-- Scaling is done to ensure that data thats scaled differently can still be compared without the difference in scale influencing results
-- Examples include currency value and difference in measurement standards
+- This is also known as z-scaling as the new value is it's z-score in the distribution
+
+$$\mathcal{x'}=\frac{x-\overline{x}}{\sigma}$$
+
+
+## Min-max normalisation 
+- Rescales the feature to a fixed range, usually 0 to 1, or -1 to 1.
+
+
 ![[Pasted image 20220406164052.png|450|450]]
 
-```
-# select the usd_goal_real column
-original_data = pd.DataFrame(kickstarters_2017.usd_goal_real)
+$$\mathcal{x'}=\frac{x-x_{min}}{x_{max}-x_{min}}$$
 
-# scale the goals from 0 to 1
-scaled_data = minmax_scaling(original_data, columns=['usd_goal_real'])
-```
 
-```
-# get the index of all positive pledges (Box-Cox only takes positive values)
-index_of_positive_pledges = kickstarters_2017.usd_pledged_real > 0
-# get only positive pledges (using their indexes)
-positive_pledges = kickstarters_2017.usd_pledged_real.loc[index_of_positive_pledges]
+## Sum-based normalisation 
 
-# normalize the pledges (w/ Box-Cox)
-normalized_pledges = pd.Series(stats.boxcox(positive_pledges)[0], 
-                               name='usd_pledged_real', index=positive_pledges.index)
-```
+$$x'=\frac{x}{\sum x_{i}}$$
