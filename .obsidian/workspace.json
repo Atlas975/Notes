@@ -91,8 +91,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
+                "file": "MachineLearning/ClusteringAlgorithms/Clustering.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "98fc0f1206756e63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -112,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -180,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/ClusteringAlgorithms/K-means_clustering.md"
+                "file": "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md"
               }
             }
           }
@@ -215,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
+                "file": "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +245,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
+                "file": "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -296,13 +309,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "794011006bf4112b",
+  "active": "98fc0f1206756e63",
   "lastOpenFiles": [
+    "MachineLearning/ClusteringAlgorithms/Clustering.md",
+    "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
+    "XX-Attachments/Images/Pasted image 20240402230238.png",
+    "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
     "XX-Attachments/Images/Pasted image 20240402224744.png",
     "XX-Attachments/Images/Pasted image 20240402224313.png",
     "XX-Attachments/Images/Pasted image 20240402223242.png",
-    "MachineLearning/ClusteringAlgorithms/Clustering.md",
-    "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
     "XX-Attachments/Images/Pasted image 20240402222257.png",
     "MachineLearning/ClusteringAlgorithms",
     "MachineLearning/Gradient_descent.md",
@@ -328,14 +343,11 @@
     "MachineLearning/FeatureEngineering/Feature_scaling.md",
     "MachineLearning/0-GeneralConcepts/DataProcessing/Normalization_vs_scaling.md",
     "ContinuousMath/Catalan_numbers.md",
-    "Languages&Compilation/Recursive_descent.md",
     "MachineLearning/ErrorMeasures",
     "XX-Attachments/Images/Pasted image 20240402185951.png",
     "XX-Attachments/Images/Pasted image 20240402184402.png",
     "XX-Attachments/Images/Pasted image 20240402092233.png",
     "XX-Attachments/Images/Pasted image 20240402092104.png",
-    "XX-Attachments/Images/Pasted image 20240402091815.png",
-    "XX-Attachments/Images/Pasted image 20240402091746.png",
     "MediaCoding/Watermarking",
     "MediaCoding/DiscreteCosineTansform",
     "LinearAlgebra",

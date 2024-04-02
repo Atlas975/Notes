@@ -22,7 +22,3 @@ ___
 - Minimum distance between clusters
 - The number of distinct clusters that can be formed with $p$ number of predictors is:
 $$\frac{p(p-1)}{2}$$
-## Linkage types 
-
-![[Pasted image 20231023152040.png|450|450]]
-
