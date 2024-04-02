@@ -33,8 +33,10 @@ $$\mathcal{x'}=\frac{x-\overline{x}}{\sigma}$$
 $$\mathcal{x'}=\frac{x-x_{min}}{x_{max}-x_{min}}$$
 
 ## Manhattan (L1) normalisation 
-## L2  normalisation 
-- The Euclidean norm, reduces bias towards features with larger magnitudes 
+- Useful for promoting sparsity in the coefficients of a model, as it tends to push the solutions towards vectors with fewer non-zero components
+$$x'=\frac{x}{\sum x_{i}}$$
+## Euclidean (L2) normalisation 
+- Converts data into unit vectors with magnitudes equal to 1
 - In machine learning this can help in regularising the model, preventing overfitting by ensuring that the magnitude of weights doesn't grow too large.
 
-$$x'=\frac{x}{\sum x_{i}}$$
+$$x'=\frac{x}{\sqrt{ \sum x_{i}^2 }}$$

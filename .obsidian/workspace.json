@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/Normalisation.md",
-                "mode": "source",
+                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/Normalisation.md"
+                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md"
               }
             }
           }
@@ -123,7 +123,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -150,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/Normalisation.md",
+                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/Normalisation.md",
+                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -233,10 +234,12 @@
   },
   "active": "a6ffcf7baf129bf4",
   "lastOpenFiles": [
-    "MachineLearning/0-GeneralConcepts/Feature_scaling.md",
     "MachineLearning/FeatureEngineering/Normalisation.md",
-    "MachineLearning/FeatureEngineering/Scaling.md",
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
+    "MachineLearning/0-GeneralConcepts/Feature_scaling.md",
+    "MachineLearning/FeatureEngineering/Scaling.md",
     "MachineLearning/FeatureEngineering/Feature_scaling.md",
     "MachineLearning/0-GeneralConcepts/DataProcessing/Normalization_vs_scaling.md",
     "ContinuousMath/Catalan_numbers.md",
@@ -257,8 +260,6 @@
     "MediaCoding/Watermarking/Watermarking.md",
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "SoftwareDesign/HCI/Human_memory.md",
-    "MediaCoding/ImageMatching/Harris_corner_detection.md",
-    "MediaCoding/ImageMatching/Gaussian_pyramid.md",
     "MachineLearning/ErrorMeasures",
     "XX-Attachments/Images/Pasted image 20240402185951.png",
     "XX-Attachments/Images/Pasted image 20240402184402.png",
