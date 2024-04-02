@@ -118,6 +118,19 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cb6e0741d547e3c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -324,13 +337,18 @@
   },
   "active": "a1548c4c116594bb",
   "lastOpenFiles": [
-    "MachineLearning/0-CoursesPart1/MachineLearning/K-Means_algorithm.md",
+    "XX-Attachments/Images/Pasted image 20240403004506.png",
+    "XX-Attachments/Images/Pasted image 20240403004427.png",
+    "XX-Attachments/Images/Pasted image 20240403004405.png",
+    "XX-Attachments/Images/Pasted image 20240403004339.png",
+    "XX-Attachments/Images/Pasted image 20240403004313.png",
+    "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
     "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
+    "MachineLearning/0-CoursesPart1/MachineLearning/K-Means_algorithm.md",
     "MachineLearning/ErrorMeasures/Confusion_matrices.md",
     "XX-Attachments/Images/Pasted image 20240403000814.png",
     "MachineLearning/ClusteringAlgorithms/Clustering.md",
     "XX-Attachments/Images/Pasted image 20240402230238.png",
-    "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
     "XX-Attachments/Images/Pasted image 20240402224744.png",
     "XX-Attachments/Images/Pasted image 20240402224313.png",
     "XX-Attachments/Images/Pasted image 20240402223242.png",
@@ -352,16 +370,11 @@
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
     "MachineLearning/K-nearest_neighbours.md",
     "MachineLearning/Categorical_data_handeling.md",
-    "XX-Attachments/Images/Pasted image 20240402221738.png",
     "MachineLearning/0-GeneralConcepts/Feature_scaling.md",
     "MachineLearning/FeatureEngineering/Scaling.md",
     "MachineLearning/FeatureEngineering/Feature_scaling.md",
     "MachineLearning/0-GeneralConcepts/DataProcessing/Normalization_vs_scaling.md",
-    "ContinuousMath/Catalan_numbers.md",
     "MachineLearning/ErrorMeasures",
-    "XX-Attachments/Images/Pasted image 20240402185951.png",
-    "XX-Attachments/Images/Pasted image 20240402184402.png",
-    "XX-Attachments/Images/Pasted image 20240402092233.png",
     "MediaCoding/Watermarking",
     "MediaCoding/DiscreteCosineTansform",
     "LinearAlgebra",
