@@ -79,7 +79,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/Decision_trees.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -255,7 +255,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -323,7 +323,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/Entropy_legacy.md"
+                "file": "MachineLearning/Decision_trees.md"
               }
             }
           }
@@ -331,7 +331,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -358,7 +359,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/Entropy_legacy.md",
+                "file": "MachineLearning/Decision_trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -375,7 +376,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/Entropy_legacy.md",
+                "file": "MachineLearning/Decision_trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -439,11 +440,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "29f638dc4b74d940",
+  "active": "7d186001ec769efd",
   "lastOpenFiles": [
-    "MachineLearning/Decision_trees.md",
-    "MachineLearning/0-GeneralConcepts/Entropy_legacy.md",
     "Statistics/Entropy.md",
+    "XX-Attachments/Images/Pasted image 20240403192328.png",
+    "MachineLearning/0-GeneralConcepts/Entropy_legacy.md",
+    "MachineLearning/Decision_trees.md",
     "Statistics/Bayes_theorem.md",
     "MachineLearning/Untitled.md",
     "XX-Attachments/Images/Pasted image 20240403185819.png",
@@ -468,7 +470,6 @@
     "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
     "MachineLearning/ClusteringAlgorithms/Clustering.md",
     "MachineLearning/0-GeneralConcepts/TreeModels/Regression_trees.md",
-    "MachineLearning/0-GeneralConcepts/TreeModels/Random_forests.md",
     "XX-Attachments/Images/Pasted image 20240403004506.png",
     "XX-Attachments/Images/Pasted image 20240403004427.png",
     "XX-Attachments/Images/Pasted image 20240403004405.png",
@@ -476,7 +477,6 @@
     "XX-Attachments/Images/Pasted image 20240403004313.png",
     "XX-Attachments/Images/Pasted image 20240403000814.png",
     "XX-Attachments/Images/Pasted image 20240402230238.png",
-    "XX-Attachments/Images/Pasted image 20240402224744.png",
     "MachineLearning/ClusteringAlgorithms",
     "MachineLearning/ErrorMeasures",
     "MediaCoding/Watermarking",
