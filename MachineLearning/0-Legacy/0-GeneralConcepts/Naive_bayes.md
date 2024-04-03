@@ -1,5 +1,5 @@
 # Naive Bayes
-[[MachineLearning/0-GeneralConcepts/Bayes_theorem]]
+[[MachineLearning/0-Legacy/0-GeneralConcepts/Bayes_theorem]]
 - Example with spam classification 
 - Calculating the probability of each word occurring given that it is a normal (non spam) message, 17 words in the non-spam training set
 ![[Pasted image 20220224075153.png|450|450]] 

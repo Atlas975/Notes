@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/0-CoursesPart2/StatisticalLearning_book/TreeBased_modeling.md",
+                "file": "MachineLearning/0-Legacy/0-CoursesPart2/StatisticalLearning_book/TreeBased_modeling.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/ML_tuning/End_to_end_learning.md",
+                "file": "MachineLearning/0-Legacy/0-GeneralConcepts/ML_tuning/End_to_end_learning.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Decision_trees.md",
+                "file": "MachineLearning/K-nearest_neighbours.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/General_math.md",
+                "file": "MachineLearning/0-Legacy/0-GeneralConcepts/P_value.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -143,7 +143,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/TreeModels/Decision_Trees_legacy.md",
+                "file": "MachineLearning/0-Legacy/0-GeneralConcepts/TreeModels/Decision_Trees_legacy.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "15de98f640e6cc1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/ErrorMeasures/Model_metrics.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -169,7 +182,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/0-CoursesPart1/MachineLearning/ML_error_analysis.md",
+                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/ML_error_analysis.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -208,7 +221,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/0-CoursesPart1/MachineLearning/K-Means_algorithm.md",
+                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/K-Means_algorithm.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -255,7 +268,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -323,7 +336,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/General_math.md"
+                "file": "MachineLearning/ErrorMeasures/Model_metrics.md"
               }
             }
           }
@@ -358,7 +371,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/General_math.md",
+                "file": "MachineLearning/ErrorMeasures/Model_metrics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -375,7 +388,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/General_math.md",
+                "file": "MachineLearning/ErrorMeasures/Model_metrics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -439,39 +452,40 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "29f638dc4b74d940",
+  "active": "15de98f640e6cc1b",
   "lastOpenFiles": [
-    "MachineLearning/0-GeneralConcepts/Entropy_legacy.md",
-    "Statistics/Entropy.md",
-    "MachineLearning/0-GeneralConcepts/TreeModels/Decision_Trees_legacy.md",
+    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
+    "MachineLearning/FeatureEngineering/Normalisation.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+    "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/Decision_trees.md",
+    "MachineLearning/Gradient_descent.md",
+    "MachineLearning/K-nearest_neighbours.md",
+    "MachineLearning/Logistic_regression.md",
+    "MachineLearning/Machine_learning_notation.md",
+    "MachineLearning/Neural_networks.md",
+    "MachineLearning/Statistical_modeling.md",
+    "MachineLearning/Softmax.md",
+    "MachineLearning/ErrorMeasures/Model_metrics.md",
+    "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
+    "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/TreeModels/Random_forests.md",
+    "MachineLearning/0-Legacy",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/TreeModels/Decision_Trees_legacy.md",
+    "MachineLearning/0-Legacy/0-CoursesPart2/StatisticalLearning_book/TreeBased_modeling.md",
+    "Statistics/Entropy.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/P_value.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/Pearsons_correlation.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/Log_odds.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/LinearRegression_math.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/TimeSeriesAnalysis/Exponentially_weighted_averages.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/Hyperparameters.md",
     "XX-Attachments/Images/Pasted image 20240403194722.png",
     "XX-Attachments/Images/Pasted image 20240403194644.png",
     "XX-Attachments/Images/Pasted image 20240403192328.png",
-    "Statistics/Bayes_theorem.md",
-    "MachineLearning/Untitled.md",
     "XX-Attachments/Images/Pasted image 20240403185819.png",
     "XX-Attachments/Images/Pasted image 20240403184944.png",
-    "MachineLearning/Neural_networks.md",
-    "MachineLearning/Softmax.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
-    "MachineLearning/GeneticAlgorithms/Crossover.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
-    "MachineLearning/GeneticAlgorithms/Mutation.md",
-    "MachineLearning/Activation_functions.md",
-    "MachineLearning/Artificial_intelligence.md",
-    "MachineLearning/FeatureEngineering/Normalisation.md",
-    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
-    "MachineLearning/ErrorMeasures/Model_metrics.md",
-    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
-    "MachineLearning/ClusteringAlgorithms/Untitled.md",
-    "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
-    "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
-    "MachineLearning/ClusteringAlgorithms/Clustering.md",
-    "MachineLearning/0-GeneralConcepts/TreeModels/Regression_trees.md",
     "XX-Attachments/Images/Pasted image 20240403004506.png",
     "XX-Attachments/Images/Pasted image 20240403004427.png",
     "XX-Attachments/Images/Pasted image 20240403004405.png",
@@ -485,7 +499,6 @@
     "MediaCoding/OpticalFlow",
     "MediaCoding/ImageMatching",
     "MediaCoding/Filters/SmoothingFilters",
-    "MediaCoding/Filters/EdgeDetectionFilters",
-    "MediaCoding/Filters"
+    "MediaCoding/Filters/EdgeDetectionFilters"
   ]
 }

@@ -14,7 +14,9 @@
 
 ___
 # Model metrics
+- Used to determine the 
 
+- Various methods exist for evaluating the performance of a machine learning model in predicting both categorical and numerical data
 ## Mean squared error (MSE)
 $$\text{MSE}=\frac{1}{m}\sum_{i=1}^{m}(y-\hat{y})^2$$
 

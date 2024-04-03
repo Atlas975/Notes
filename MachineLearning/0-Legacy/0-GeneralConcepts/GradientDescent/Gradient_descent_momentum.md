@@ -1,5 +1,5 @@
 # Gradient descent momentum
-- Ideal [[MachineLearning/0-CoursesPart1/MachineLearning/Gradient_descent]]  momentum looks like the following
+- Ideal [[MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Gradient_descent]]  momentum looks like the following
 ![[Pasted image 20220413180449.png|450|450]]
 - This can be smoothed out by doing the following 
 ![[Pasted image 20220413181107.png|450|450]]
