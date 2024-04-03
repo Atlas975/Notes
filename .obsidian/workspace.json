@@ -73,6 +73,19 @@
             }
           },
           {
+            "id": "7d186001ec769efd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Decision_trees.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "13e60f27d5180f43",
             "type": "leaf",
             "state": {
@@ -203,7 +216,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -271,7 +284,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Neural_networks.md"
+                "file": "MachineLearning/Decision_trees.md"
               }
             }
           }
@@ -279,7 +292,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -306,7 +320,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Neural_networks.md",
+                "file": "MachineLearning/Decision_trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -323,7 +337,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Neural_networks.md",
+                "file": "MachineLearning/Decision_trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -387,8 +401,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "77bd044de66a837c",
+  "active": "7d186001ec769efd",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240403184944.png",
+    "MachineLearning/Neural_networks.md",
     "MachineLearning/Softmax.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/GeneticAlgorithms/Crossover.md",
@@ -413,8 +429,6 @@
     "MachineLearning/FeatureEngineering/Untitled.md",
     "MachineLearning/Decision_trees.md",
     "MachineLearning/0-GeneralConcepts/ML_tuning/End_to_end_learning.md",
-    "MachineLearning/0-GeneralConcepts/GradientDescent/RMS_prop.md",
-    "MachineLearning/0-GeneralConcepts/GradientDescent/Mini_batch_descent.md",
     "XX-Attachments/Images/Pasted image 20240403004506.png",
     "XX-Attachments/Images/Pasted image 20240403004427.png",
     "XX-Attachments/Images/Pasted image 20240403004405.png",
