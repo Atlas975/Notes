@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/K-nearest_neighbours.md",
+                "file": "MachineLearning/0-CoursesPart2/StatisticalLearning_book/TreeBased_modeling.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -151,7 +151,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md"
+                "file": "MachineLearning/0-CoursesPart2/StatisticalLearning_book/TreeBased_modeling.md"
               }
             }
           }
@@ -254,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
+                "file": "MachineLearning/0-CoursesPart2/StatisticalLearning_book/TreeBased_modeling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
+                "file": "MachineLearning/0-CoursesPart2/StatisticalLearning_book/TreeBased_modeling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -335,15 +335,19 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a1548c4c116594bb",
+  "active": "5e9596bb5df94775",
   "lastOpenFiles": [
+    "MachineLearning/0-CoursesPart2/DeepLearningCourse/Early_stopping.md",
+    "MachineLearning/0-CoursesPart2/DeepLearningCourse/Dropout_regularization.md",
+    "MachineLearning/0-CoursesPart2/DeepLearningCourse/BinaryClassification.md",
+    "MachineLearning/K-nearest_neighbours.md",
+    "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
     "XX-Attachments/Images/Pasted image 20240403004506.png",
     "XX-Attachments/Images/Pasted image 20240403004427.png",
     "XX-Attachments/Images/Pasted image 20240403004405.png",
     "XX-Attachments/Images/Pasted image 20240403004339.png",
     "XX-Attachments/Images/Pasted image 20240403004313.png",
     "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
-    "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
     "MachineLearning/0-CoursesPart1/MachineLearning/K-Means_algorithm.md",
     "MachineLearning/ErrorMeasures/Confusion_matrices.md",
     "XX-Attachments/Images/Pasted image 20240403000814.png",
@@ -352,7 +356,6 @@
     "XX-Attachments/Images/Pasted image 20240402224744.png",
     "XX-Attachments/Images/Pasted image 20240402224313.png",
     "XX-Attachments/Images/Pasted image 20240402223242.png",
-    "XX-Attachments/Images/Pasted image 20240402222257.png",
     "MachineLearning/ClusteringAlgorithms",
     "MachineLearning/Gradient_descent.md",
     "MachineLearning/Artificial_intelligence.md",
@@ -368,12 +371,9 @@
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
     "MachineLearning/FeatureEngineering/Normalisation.md",
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
-    "MachineLearning/K-nearest_neighbours.md",
     "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/0-GeneralConcepts/Feature_scaling.md",
     "MachineLearning/FeatureEngineering/Scaling.md",
-    "MachineLearning/FeatureEngineering/Feature_scaling.md",
-    "MachineLearning/0-GeneralConcepts/DataProcessing/Normalization_vs_scaling.md",
     "MachineLearning/ErrorMeasures",
     "MediaCoding/Watermarking",
     "MediaCoding/DiscreteCosineTansform",
