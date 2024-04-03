@@ -1,7 +1,7 @@
 > [!important]- Metadata
 > **Tags:** #StatisticalLearning 
-> **Located:** MachineLearning/TreeModels
-> **Created:** 03/04/2024 - 21:37
+> **Located:** MachineLearning
+> **Created:** 04/04/2024 - 00:18
 > ```dataviewjs
 > let f = dv.current().file;
 > let paths = new Set([...f.inlinks, ...f.outlinks].map(p => p.path).filter(p => !p.endsWith(".png")));
@@ -10,6 +10,4 @@
 > ```
 
 ___
-# Random forest
-- An ML model that makes use of [[Ensemble_learning#Bagging ensemble|ensemble bagging]] with multiple [[Decision_trees|decision trees]] 
-- This avoids the risk of overfitting found when using a single tree, making it more versatile 
+# Naive bayes

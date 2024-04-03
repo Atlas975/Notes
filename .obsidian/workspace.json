@@ -164,7 +164,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/TreeModels/Random_forest.md",
+                "file": "MachineLearning/Naive_bayes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -289,7 +289,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -357,7 +357,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/TreeModels/Ensemble_learning.md"
+                "file": "MachineLearning/Naive_bayes.md"
               }
             }
           }
@@ -392,7 +392,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/TreeModels/Ensemble_learning.md",
+                "file": "MachineLearning/Naive_bayes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -409,7 +409,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/TreeModels/Ensemble_learning.md",
+                "file": "MachineLearning/Naive_bayes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -473,13 +473,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6b3db0216459bfc3",
+  "active": "fad4d24fb40ca318",
   "lastOpenFiles": [
+    "MachineLearning/TreeModels/Random_forest.md",
+    "MachineLearning/Naive_bayes.md",
+    "MachineLearning/TreeModels/Ensemble_learning.md",
     "XX-Attachments/Images/Pasted image 20240403222848.png",
     "XX-Attachments/Images/Pasted image 20240403222826.png",
     "XX-Attachments/Images/Pasted image 20240403222749.png",
-    "MachineLearning/TreeModels/Random_forest.md",
-    "MachineLearning/TreeModels/Ensemble_learning.md",
     "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
     "MachineLearning/TreeModels",
     "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
@@ -512,7 +513,6 @@
     "XX-Attachments/Images/Pasted image 20240403184944.png",
     "XX-Attachments/Images/Pasted image 20240403004506.png",
     "XX-Attachments/Images/Pasted image 20240403004427.png",
-    "XX-Attachments/Images/Pasted image 20240403004405.png",
     "MachineLearning/ClusteringAlgorithms",
     "MachineLearning/ErrorMeasures",
     "MediaCoding/Watermarking",
