@@ -86,6 +86,32 @@
             }
           },
           {
+            "id": "ea83985f9fcfbf02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Bayes_theorem.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "29f638dc4b74d940",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/0-GeneralConcepts/Entropy.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "13e60f27d5180f43",
             "type": "leaf",
             "state": {
@@ -216,7 +242,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -284,7 +310,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Decision_trees.md"
+                "file": "MachineLearning/0-GeneralConcepts/Entropy.md"
               }
             }
           }
@@ -292,8 +318,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -320,7 +345,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Decision_trees.md",
+                "file": "MachineLearning/0-GeneralConcepts/Entropy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -337,7 +362,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Decision_trees.md",
+                "file": "MachineLearning/0-GeneralConcepts/Entropy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -401,8 +426,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7d186001ec769efd",
+  "active": "29f638dc4b74d940",
   "lastOpenFiles": [
+    "MachineLearning/Decision_trees.md",
+    "MachineLearning/0-GeneralConcepts/Entropy.md",
+    "Statistics/Bayes_theorem.md",
+    "XX-Attachments/Images/Pasted image 20240403185819.png",
     "XX-Attachments/Images/Pasted image 20240403184944.png",
     "MachineLearning/Neural_networks.md",
     "MachineLearning/Softmax.md",
@@ -427,8 +456,6 @@
     "MachineLearning/0-GeneralConcepts/TreeModels/Random_forests.md",
     "MachineLearning/0-GeneralConcepts/TreeModels/Decision_Trees_legacy.md",
     "MachineLearning/FeatureEngineering/Untitled.md",
-    "MachineLearning/Decision_trees.md",
-    "MachineLearning/0-GeneralConcepts/ML_tuning/End_to_end_learning.md",
     "XX-Attachments/Images/Pasted image 20240403004506.png",
     "XX-Attachments/Images/Pasted image 20240403004427.png",
     "XX-Attachments/Images/Pasted image 20240403004405.png",
@@ -437,8 +464,6 @@
     "XX-Attachments/Images/Pasted image 20240403000814.png",
     "XX-Attachments/Images/Pasted image 20240402230238.png",
     "XX-Attachments/Images/Pasted image 20240402224744.png",
-    "XX-Attachments/Images/Pasted image 20240402224313.png",
-    "XX-Attachments/Images/Pasted image 20240402223242.png",
     "MachineLearning/ClusteringAlgorithms",
     "MachineLearning/ErrorMeasures",
     "MediaCoding/Watermarking",
