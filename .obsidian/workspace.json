@@ -154,9 +154,30 @@
             "id": "15de98f640e6cc1b",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "fad4d24fb40ca318",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Model_metrics.md",
+                "file": "MachineLearning/TreeModels/Random_forest.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6b3db0216459bfc3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/TreeModels/Untitled.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -268,7 +289,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -336,7 +357,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Model_metrics.md"
+                "file": "MachineLearning/TreeModels/Untitled.md"
               }
             }
           }
@@ -371,7 +392,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Model_metrics.md",
+                "file": "MachineLearning/TreeModels/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -388,7 +409,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Model_metrics.md",
+                "file": "MachineLearning/TreeModels/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -452,35 +473,36 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "15de98f640e6cc1b",
+  "active": "6b3db0216459bfc3",
   "lastOpenFiles": [
+    "MachineLearning/TreeModels/Random_forest.md",
+    "MachineLearning/TreeModels/Untitled.md",
+    "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
+    "MachineLearning/TreeModels",
+    "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
+    "MachineLearning/ClusteringAlgorithms/Clustering.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+    "MachineLearning/GeneticAlgorithms/Crossover.md",
+    "MachineLearning/Categorical_data_handeling.md",
+    "MachineLearning/Gradient_descent.md",
+    "MachineLearning/TreeModels/Decision_trees.md",
+    "MachineLearning/K-nearest_neighbours.md",
+    "MachineLearning/Linear_regression.md",
+    "MachineLearning/Logistic_regression.md",
+    "MachineLearning/Statistical_modeling.md",
+    "MachineLearning/Softmax.md",
+    "MachineLearning/Neural_networks.md",
+    "MachineLearning/Machine_learning_notation.md",
+    "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/Activation_functions.md",
+    "MachineLearning/ErrorMeasures/Model_metrics.md",
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
     "MachineLearning/FeatureEngineering/Normalisation.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
-    "MachineLearning/Categorical_data_handeling.md",
-    "MachineLearning/Decision_trees.md",
-    "MachineLearning/Gradient_descent.md",
-    "MachineLearning/K-nearest_neighbours.md",
-    "MachineLearning/Logistic_regression.md",
-    "MachineLearning/Machine_learning_notation.md",
-    "MachineLearning/Neural_networks.md",
-    "MachineLearning/Statistical_modeling.md",
-    "MachineLearning/Softmax.md",
-    "MachineLearning/ErrorMeasures/Model_metrics.md",
-    "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
-    "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/TreeModels/Random_forests.md",
     "MachineLearning/0-Legacy",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/TreeModels/Decision_Trees_legacy.md",
-    "MachineLearning/0-Legacy/0-CoursesPart2/StatisticalLearning_book/TreeBased_modeling.md",
-    "Statistics/Entropy.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/P_value.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/Pearsons_correlation.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/Log_odds.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/LinearRegression_math.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/TimeSeriesAnalysis/Exponentially_weighted_averages.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/Hyperparameters.md",
     "XX-Attachments/Images/Pasted image 20240403194722.png",
     "XX-Attachments/Images/Pasted image 20240403194644.png",
     "XX-Attachments/Images/Pasted image 20240403192328.png",
@@ -498,7 +520,6 @@
     "LinearAlgebra",
     "MediaCoding/OpticalFlow",
     "MediaCoding/ImageMatching",
-    "MediaCoding/Filters/SmoothingFilters",
-    "MediaCoding/Filters/EdgeDetectionFilters"
+    "MediaCoding/Filters/SmoothingFilters"
   ]
 }

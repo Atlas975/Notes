@@ -14,7 +14,7 @@
 
 ___
 # Model metrics
-- Used to determine the 
+- Used to evaluate the performance of a machine learning model 
 
 - Various methods exist for evaluating the performance of a machine learning model in predicting both categorical and numerical data
 ## Mean squared error (MSE)
