@@ -1,5 +1,5 @@
 # Regression trees
-[[Decision_Trees]]
+[[Decision_Trees_legacy]]
 - A decision tree where the target can take continuous variables 
 ![[Pasted image 20220227092034.png|450|450]]
 ![[Pasted image 20220227092103.png|450|450]]

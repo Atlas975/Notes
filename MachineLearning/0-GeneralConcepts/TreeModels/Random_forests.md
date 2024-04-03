@@ -1,5 +1,5 @@
 # Random forest method
-[[Decision_Trees]]  [[Regression_trees]]
+[[Decision_Trees_legacy]]  [[Regression_trees]]
 - Decision trees are great for the data used to train them but lack flexibility in classifying new samples. Random forests can improve flexibility (reduce variance)
 - Building a random forest model:
 1. Create a bootstrapped dataset

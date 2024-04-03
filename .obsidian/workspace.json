@@ -39,7 +39,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/0-CoursesPart2/StatisticalLearning_book/TreeBased_modeling.md",
+                "file": "MachineLearning/0-CoursesPart2/DeepLearningCourse/BinaryClassification.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "13e60f27d5180f43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/K-nearest_neighbours.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b4c91849cb47f78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/0-GeneralConcepts/TreeModels/Decision_Trees_legacy.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -219,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/0-CoursesPart2/StatisticalLearning_book/TreeBased_modeling.md"
+                "file": "MachineLearning/0-CoursesPart2/DeepLearningCourse/BinaryClassification.md"
               }
             }
           }
@@ -254,7 +280,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/0-CoursesPart2/StatisticalLearning_book/TreeBased_modeling.md",
+                "file": "MachineLearning/0-CoursesPart2/DeepLearningCourse/BinaryClassification.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +297,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/0-CoursesPart2/StatisticalLearning_book/TreeBased_modeling.md",
+                "file": "MachineLearning/0-CoursesPart2/DeepLearningCourse/BinaryClassification.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -337,10 +363,16 @@
   },
   "active": "5e9596bb5df94775",
   "lastOpenFiles": [
+    "MachineLearning/0-CoursesPart1/MachineLearning/Anomaly_detection_building.md",
+    "MachineLearning/0-CoursesPart1/MachineLearning/Anomaly_detection.md",
+    "MachineLearning/0-CoursesPart1/MachineLearning/AI_BiasTypes.md",
+    "MachineLearning/Decision_trees.md",
+    "MachineLearning/K-nearest_neighbours.md",
+    "MachineLearning/0-GeneralConcepts/TreeModels/Decision_Trees_legacy.md",
+    "MachineLearning/0-CoursesPart2/StatisticalLearning_book/TreeBased_modeling.md",
     "MachineLearning/0-CoursesPart2/DeepLearningCourse/Early_stopping.md",
     "MachineLearning/0-CoursesPart2/DeepLearningCourse/Dropout_regularization.md",
     "MachineLearning/0-CoursesPart2/DeepLearningCourse/BinaryClassification.md",
-    "MachineLearning/K-nearest_neighbours.md",
     "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
     "XX-Attachments/Images/Pasted image 20240403004506.png",
     "XX-Attachments/Images/Pasted image 20240403004427.png",
@@ -368,12 +400,6 @@
     "MachineLearning/Statistical_modeling.md",
     "MachineLearning/Machine_learning_notation.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
-    "MachineLearning/FeatureEngineering/Normalisation.md",
-    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
-    "MachineLearning/Categorical_data_handeling.md",
-    "MachineLearning/0-GeneralConcepts/Feature_scaling.md",
-    "MachineLearning/FeatureEngineering/Scaling.md",
     "MachineLearning/ErrorMeasures",
     "MediaCoding/Watermarking",
     "MediaCoding/DiscreteCosineTansform",
