@@ -17,7 +17,7 @@ ___
 
 ![[Pasted image 20231018120325.png|425|425]]
 
-- A feature vector is a structured collection of features that represent a data instance eg a feature vector for a model identifying fruit may contain information such as colour distribution, shape, texture and size.
+- A feature vector is a structured collection of features representing a data instance eg for a fruit this may contain information such as colour distribution, shape and texture 
 - A good compact feature vector is essential as input for classification algorithms 
 
 ## Feature extraction

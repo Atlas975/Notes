@@ -10,7 +10,7 @@
 > ```
 
 ___
-# Genetic crossover
+# Crossover
 - The process of chromosomes being recombined / crossed over to create the next iteration of chromosomes. Takes place after [[Genetic_selection|genetic selection]] 
 - In most recombination operators, the probability two chromosomes are combined is referred to as the crossover probability 
 ## K point crossover 

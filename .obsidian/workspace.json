@@ -39,8 +39,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/0-CoursesPart2/DeepLearningCourse/BinaryClassification.md",
+                "file": "MachineLearning/0-CoursesPart2/StatisticalLearning_book/TreeBased_modeling.md",
                 "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "04078575d632a274",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/0-GeneralConcepts/ML_tuning/End_to_end_learning.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "77bd044de66a837c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Neural_networks.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -177,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -245,7 +271,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/0-CoursesPart2/DeepLearningCourse/BinaryClassification.md"
+                "file": "MachineLearning/Neural_networks.md"
               }
             }
           }
@@ -280,7 +306,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/0-CoursesPart2/DeepLearningCourse/BinaryClassification.md",
+                "file": "MachineLearning/Neural_networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -297,7 +323,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/0-CoursesPart2/DeepLearningCourse/BinaryClassification.md",
+                "file": "MachineLearning/Neural_networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -361,45 +387,45 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5e9596bb5df94775",
+  "active": "77bd044de66a837c",
   "lastOpenFiles": [
-    "MachineLearning/0-CoursesPart1/MachineLearning/Anomaly_detection_building.md",
-    "MachineLearning/0-CoursesPart1/MachineLearning/Anomaly_detection.md",
-    "MachineLearning/0-CoursesPart1/MachineLearning/AI_BiasTypes.md",
-    "MachineLearning/Decision_trees.md",
-    "MachineLearning/K-nearest_neighbours.md",
-    "MachineLearning/0-GeneralConcepts/TreeModels/Decision_Trees_legacy.md",
-    "MachineLearning/0-CoursesPart2/StatisticalLearning_book/TreeBased_modeling.md",
-    "MachineLearning/0-CoursesPart2/DeepLearningCourse/Early_stopping.md",
-    "MachineLearning/0-CoursesPart2/DeepLearningCourse/Dropout_regularization.md",
-    "MachineLearning/0-CoursesPart2/DeepLearningCourse/BinaryClassification.md",
+    "MachineLearning/Softmax.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
+    "MachineLearning/GeneticAlgorithms/Crossover.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
+    "MachineLearning/GeneticAlgorithms/Mutation.md",
+    "MachineLearning/Activation_functions.md",
+    "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/FeatureEngineering/Normalisation.md",
+    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
+    "MachineLearning/ErrorMeasures/Model_metrics.md",
+    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
+    "MachineLearning/ClusteringAlgorithms/Untitled.md",
+    "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
     "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
+    "MachineLearning/ClusteringAlgorithms/Clustering.md",
+    "MachineLearning/0-GeneralConcepts/TreeModels/Regression_trees.md",
+    "MachineLearning/0-GeneralConcepts/TreeModels/Random_forests.md",
+    "MachineLearning/0-GeneralConcepts/TreeModels/Decision_Trees_legacy.md",
+    "MachineLearning/FeatureEngineering/Untitled.md",
+    "MachineLearning/Decision_trees.md",
+    "MachineLearning/0-GeneralConcepts/ML_tuning/End_to_end_learning.md",
+    "MachineLearning/0-GeneralConcepts/GradientDescent/RMS_prop.md",
+    "MachineLearning/0-GeneralConcepts/GradientDescent/Mini_batch_descent.md",
     "XX-Attachments/Images/Pasted image 20240403004506.png",
     "XX-Attachments/Images/Pasted image 20240403004427.png",
     "XX-Attachments/Images/Pasted image 20240403004405.png",
     "XX-Attachments/Images/Pasted image 20240403004339.png",
     "XX-Attachments/Images/Pasted image 20240403004313.png",
-    "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
-    "MachineLearning/0-CoursesPart1/MachineLearning/K-Means_algorithm.md",
-    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
     "XX-Attachments/Images/Pasted image 20240403000814.png",
-    "MachineLearning/ClusteringAlgorithms/Clustering.md",
     "XX-Attachments/Images/Pasted image 20240402230238.png",
     "XX-Attachments/Images/Pasted image 20240402224744.png",
     "XX-Attachments/Images/Pasted image 20240402224313.png",
     "XX-Attachments/Images/Pasted image 20240402223242.png",
     "MachineLearning/ClusteringAlgorithms",
-    "MachineLearning/Gradient_descent.md",
-    "MachineLearning/Artificial_intelligence.md",
-    "MachineLearning/Activation_functions.md",
-    "MachineLearning/ErrorMeasures/Model_metrics.md",
-    "MachineLearning/0-CoursesPart1/MachineLearning/ML_error_analysis.md",
-    "MachineLearning/Linear_regression.md",
-    "MachineLearning/Logistic_regression.md",
-    "MachineLearning/Softmax.md",
-    "MachineLearning/Statistical_modeling.md",
-    "MachineLearning/Machine_learning_notation.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
     "MachineLearning/ErrorMeasures",
     "MediaCoding/Watermarking",
     "MediaCoding/DiscreteCosineTansform",
