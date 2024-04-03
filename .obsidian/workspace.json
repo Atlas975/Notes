@@ -99,12 +99,25 @@
             }
           },
           {
+            "id": "924514eb092db613",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Entropy.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "29f638dc4b74d940",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/Entropy.md",
+                "file": "MachineLearning/0-GeneralConcepts/Entropy_legacy.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -242,7 +255,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -310,7 +323,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/Entropy.md"
+                "file": "MachineLearning/0-GeneralConcepts/Entropy_legacy.md"
               }
             }
           }
@@ -345,7 +358,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/Entropy.md",
+                "file": "MachineLearning/0-GeneralConcepts/Entropy_legacy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -362,7 +375,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/0-GeneralConcepts/Entropy.md",
+                "file": "MachineLearning/0-GeneralConcepts/Entropy_legacy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -429,8 +442,10 @@
   "active": "29f638dc4b74d940",
   "lastOpenFiles": [
     "MachineLearning/Decision_trees.md",
-    "MachineLearning/0-GeneralConcepts/Entropy.md",
+    "MachineLearning/0-GeneralConcepts/Entropy_legacy.md",
+    "Statistics/Entropy.md",
     "Statistics/Bayes_theorem.md",
+    "MachineLearning/Untitled.md",
     "XX-Attachments/Images/Pasted image 20240403185819.png",
     "XX-Attachments/Images/Pasted image 20240403184944.png",
     "MachineLearning/Neural_networks.md",
@@ -454,8 +469,6 @@
     "MachineLearning/ClusteringAlgorithms/Clustering.md",
     "MachineLearning/0-GeneralConcepts/TreeModels/Regression_trees.md",
     "MachineLearning/0-GeneralConcepts/TreeModels/Random_forests.md",
-    "MachineLearning/0-GeneralConcepts/TreeModels/Decision_Trees_legacy.md",
-    "MachineLearning/FeatureEngineering/Untitled.md",
     "XX-Attachments/Images/Pasted image 20240403004506.png",
     "XX-Attachments/Images/Pasted image 20240403004427.png",
     "XX-Attachments/Images/Pasted image 20240403004405.png",
