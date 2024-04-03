@@ -177,8 +177,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/TreeModels/Untitled.md",
-                "mode": "source",
+                "file": "MachineLearning/TreeModels/Ensemble_learning.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -357,7 +357,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/TreeModels/Untitled.md"
+                "file": "MachineLearning/TreeModels/Ensemble_learning.md"
               }
             }
           }
@@ -392,7 +392,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/TreeModels/Untitled.md",
+                "file": "MachineLearning/TreeModels/Ensemble_learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -409,7 +409,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/TreeModels/Untitled.md",
+                "file": "MachineLearning/TreeModels/Ensemble_learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -475,8 +475,11 @@
   },
   "active": "6b3db0216459bfc3",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240403222848.png",
+    "XX-Attachments/Images/Pasted image 20240403222826.png",
+    "XX-Attachments/Images/Pasted image 20240403222749.png",
     "MachineLearning/TreeModels/Random_forest.md",
-    "MachineLearning/TreeModels/Untitled.md",
+    "MachineLearning/TreeModels/Ensemble_learning.md",
     "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
     "MachineLearning/TreeModels",
     "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
@@ -501,7 +504,6 @@
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
     "MachineLearning/FeatureEngineering/Normalisation.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
     "MachineLearning/0-Legacy",
     "XX-Attachments/Images/Pasted image 20240403194722.png",
     "XX-Attachments/Images/Pasted image 20240403194644.png",
@@ -511,8 +513,6 @@
     "XX-Attachments/Images/Pasted image 20240403004506.png",
     "XX-Attachments/Images/Pasted image 20240403004427.png",
     "XX-Attachments/Images/Pasted image 20240403004405.png",
-    "XX-Attachments/Images/Pasted image 20240403004339.png",
-    "XX-Attachments/Images/Pasted image 20240403004313.png",
     "MachineLearning/ClusteringAlgorithms",
     "MachineLearning/ErrorMeasures",
     "MediaCoding/Watermarking",
