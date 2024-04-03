@@ -79,7 +79,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/Decision_trees.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -442,6 +442,8 @@
   },
   "active": "7d186001ec769efd",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240403194722.png",
+    "XX-Attachments/Images/Pasted image 20240403194644.png",
     "Statistics/Entropy.md",
     "XX-Attachments/Images/Pasted image 20240403192328.png",
     "MachineLearning/0-GeneralConcepts/Entropy_legacy.md",
@@ -476,7 +478,6 @@
     "XX-Attachments/Images/Pasted image 20240403004339.png",
     "XX-Attachments/Images/Pasted image 20240403004313.png",
     "XX-Attachments/Images/Pasted image 20240403000814.png",
-    "XX-Attachments/Images/Pasted image 20240402230238.png",
     "MachineLearning/ClusteringAlgorithms",
     "MachineLearning/ErrorMeasures",
     "MediaCoding/Watermarking",

@@ -18,17 +18,16 @@ ___
 ![[Pasted image 20240403184944.png|400|400]]
 
 - Trees need to give both accurate predictions and be kept as shallow as possible (avoid overfitting), a good decision tree needs to balance both of these 
-- The simplest way of handling this is to divide by the most important features in order until only a single datapoint is left / a max tree depth is reached 
+- The simplest way of handling this is to divide by the most important features in order until only a single datapoint is left / a max tree depth is reached.  
 
-
-
+![[Pasted image 20240403194722.png|450|450]]
 
 
 
 ## Information gain 
 - The expected reduction in [[Entropy]], decision trees seek to maximise this
-- This metric can be used for either numerical and categorical data 
+- This also needs to scale entropy to the size of the dataset to give fair influence
 
-$$\text{Gain}(S,\text{condition})=E(\text{parent})-[]$$
+$$\text{Gain}(S,\text{condition})=E(\text{parent})-[\text{weighted average}]E(\text{children})$$
 
 ![[Pasted image 20240403185819.png|450|450]]
