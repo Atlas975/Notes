@@ -43,8 +43,6 @@ Repeat until convergence:
 ## K-means weaknesses
 - **Non deterministic**: initial centroids chosen randomly 
 - **Cluster choice**: the number of clusters may not be known beforehand, picking the wrong $k$ value can result in unpredictable behaviour 
-
-
 ## Elbow method 
 - Helps pick the $k$ value, involves trying different values and looking for abrupt result changes (the result being the sum of the Euclidean distances from each point to its assigned centroid)
 - The value of k where the improvement is seen is the best choice, any more points past plateau creates unnecessary classes

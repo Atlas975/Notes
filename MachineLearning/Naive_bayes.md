@@ -11,4 +11,10 @@
 
 ___
 # Naive bayes
-- This is a naive approach to classification as it assumes events are [[Event_independence|independent]] despite that rarely being the case when used in real world eg a spam filter looking at words and not grammar
+
+
+
+
+## Naive classification
+- This is a naive approach as it assumes events used for prediction are [[Event_independence|independent]] which is not always the case eg a spam filter may only look at word frequency and ignore grammar
+- This gives it high bias but low variance
