@@ -18,6 +18,6 @@ ___
 ![[Pasted image 20240404063622.png|500|500]]
 
 - The random forest method can also easily handle a large number of features, something which using a single decision tree may struggle with 
--  This also allows for determining  feature importance by looking at the [[Entropy]] reduction at various splits in different trees
+-  This also allows for easy determination of the most important features in the dataset
 
 ![[Pasted image 20240404195206.png|300|300]]
