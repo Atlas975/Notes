@@ -211,6 +211,19 @@
             }
           },
           {
+            "id": "0a067c07f62284e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/TreeModels/Random_forest.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6b3db0216459bfc3",
             "type": "leaf",
             "state": {
