@@ -92,7 +92,7 @@
               "type": "markdown",
               "state": {
                 "file": "Statistics/Bayes_theorem.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -475,8 +475,10 @@
   },
   "active": "fad4d24fb40ca318",
   "lastOpenFiles": [
-    "MachineLearning/TreeModels/Random_forest.md",
+    "Statistics/Bayes_theorem.md",
+    "XX-Attachments/Images/Pasted image 20240404061535.png",
     "MachineLearning/Naive_bayes.md",
+    "MachineLearning/TreeModels/Random_forest.md",
     "MachineLearning/TreeModels/Ensemble_learning.md",
     "XX-Attachments/Images/Pasted image 20240403222848.png",
     "XX-Attachments/Images/Pasted image 20240403222826.png",
@@ -504,7 +506,6 @@
     "MachineLearning/ErrorMeasures/Model_metrics.md",
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
     "MachineLearning/FeatureEngineering/Normalisation.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
     "MachineLearning/0-Legacy",
     "XX-Attachments/Images/Pasted image 20240403194722.png",
     "XX-Attachments/Images/Pasted image 20240403194644.png",
@@ -512,7 +513,6 @@
     "XX-Attachments/Images/Pasted image 20240403185819.png",
     "XX-Attachments/Images/Pasted image 20240403184944.png",
     "XX-Attachments/Images/Pasted image 20240403004506.png",
-    "XX-Attachments/Images/Pasted image 20240403004427.png",
     "MachineLearning/ClusteringAlgorithms",
     "MachineLearning/ErrorMeasures",
     "MediaCoding/Watermarking",

@@ -24,6 +24,8 @@ $$\mathbb{P}(X|Y)=\text{probability of event X occurring given that Y is true}$$
 $$\mathbb{P}(X)=\text{prior probability of X, the initial degree of belief in X}$$
 ## Components of Bayes theorem 
 - **Prior $\mathbb{P(A)}$** : Initial probability of an event prior to considering new evidence 
-- **Liklihood $\mathbb{P}(A|B)$**:  probability of observing evidence given event occurs
-- **Marginal probability $\mathbb{P}(B)$**: the total probability of observing evidence 
+- **Likelihood $\mathbb{P}(A|B)$**:  probability of observing evidence given event occurs
+- **Evidence / Marginal probability $\mathbb{P}(B)$**: the total probability of observing evidence 
 - **Posterior probability $\mathbb{P}(A|B)$**: the revised probability of an event accounting for evidence 
+
+![[Pasted image 20240404061535.png|450|450]]

@@ -11,3 +11,4 @@
 
 ___
 # Naive bayes
+- This is a naive approach to classification as it assumes events are [[Event_independence|independent]] despite that rarely being the case when used in real world eg a spam filter looking at words and not grammar
