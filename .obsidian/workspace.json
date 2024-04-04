@@ -327,7 +327,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -395,7 +396,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/Normalisation.md"
+                "file": "MachineLearning/TreeModels/Random_forest.md"
               }
             }
           }
@@ -430,7 +431,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/Normalisation.md",
+                "file": "MachineLearning/TreeModels/Random_forest.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -447,7 +448,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/Normalisation.md",
+                "file": "MachineLearning/TreeModels/Random_forest.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -511,9 +512,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0d1302336a44d359",
+  "active": "26800625f9a0a7e0",
   "lastOpenFiles": [
+    "MachineLearning/TreeModels/Decision_trees.md",
     "MachineLearning/TreeModels/Random_forest.md",
+    "XX-Attachments/Images/Pasted image 20240404195206.png",
+    "MachineLearning/FeatureEngineering/Normalisation.md",
     "MachineLearning/Activation_functions.md",
     "MachineLearning/TreeModels/Ensemble_learning.md",
     "MachineLearning/Artificial_intelligence.md",
@@ -526,7 +530,6 @@
     "MachineLearning/Naive_bayes.md",
     "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/K-Means_algorithm.md",
-    "MachineLearning/TreeModels/Decision_trees.md",
     "XX-Attachments/Images/Pasted image 20240404063622.png",
     "Statistics/Bayes_theorem.md",
     "XX-Attachments/Images/Pasted image 20240404061535.png",
@@ -543,14 +546,11 @@
     "MachineLearning/Gradient_descent.md",
     "MachineLearning/Linear_regression.md",
     "MachineLearning/Machine_learning_notation.md",
-    "MachineLearning/ErrorMeasures/Model_metrics.md",
-    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
     "MachineLearning/0-Legacy",
     "XX-Attachments/Images/Pasted image 20240403194722.png",
     "XX-Attachments/Images/Pasted image 20240403194644.png",
     "XX-Attachments/Images/Pasted image 20240403192328.png",
     "XX-Attachments/Images/Pasted image 20240403185819.png",
-    "XX-Attachments/Images/Pasted image 20240403184944.png",
     "MachineLearning/ClusteringAlgorithms",
     "MachineLearning/ErrorMeasures",
     "MediaCoding/Watermarking",
