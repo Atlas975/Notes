@@ -12,7 +12,8 @@
 ___
 # Normalisation
 - Involves adjusting data from different scales to a common scale without distorting the differences between them, making it easier to compare and analyse.
-- Also improves the performance and accuracy of machine learning algorithms by ensuring that each feature contributes proportionately to the final prediction
+- Improves the performance and accuracy of ML algorithms by ensuring that each feature contributes proportionately to the final prediction
+- Features being within similar ranges is also vital for fast convergence in gradient descent
 ## Standardisation 
 - Done to ensure that data falls within a normal distribution
 - Useful for various statistical models that assume normally distributed data

@@ -327,8 +327,7 @@
               }
             }
           }
-        ],
-        "currentTab": 14
+        ]
       }
     ],
     "direction": "vertical"
@@ -396,7 +395,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/TreeModels/Random_forest.md"
+                "file": "MachineLearning/FeatureEngineering/Normalisation.md"
               }
             }
           }
@@ -431,7 +430,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/TreeModels/Random_forest.md",
+                "file": "MachineLearning/FeatureEngineering/Normalisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -448,7 +447,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/TreeModels/Random_forest.md",
+                "file": "MachineLearning/FeatureEngineering/Normalisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -512,8 +511,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "26800625f9a0a7e0",
+  "active": "0d1302336a44d359",
   "lastOpenFiles": [
+    "MachineLearning/TreeModels/Random_forest.md",
     "MachineLearning/Activation_functions.md",
     "MachineLearning/TreeModels/Ensemble_learning.md",
     "MachineLearning/Artificial_intelligence.md",
@@ -527,7 +527,6 @@
     "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/K-Means_algorithm.md",
     "MachineLearning/TreeModels/Decision_trees.md",
-    "MachineLearning/TreeModels/Random_forest.md",
     "XX-Attachments/Images/Pasted image 20240404063622.png",
     "Statistics/Bayes_theorem.md",
     "XX-Attachments/Images/Pasted image 20240404061535.png",
