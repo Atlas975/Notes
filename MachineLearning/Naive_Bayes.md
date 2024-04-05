@@ -13,13 +13,15 @@ ___
 # Naive Bayes
 - A family of probabilistic [[Artificial_intelligence#Supervised learning|supervised learning]] classifiers that make use of [[Bayes_theorem|Bayes theorem]] 
 - Assumes [[Event_independence|independence]] between all pairs of features, making it computationally efficient 
-- This method can be summed up as finding the class $C$ that maximises $P(C|x_{1},\dots,x_{n})$
-- Note that because the evidence / denominator for each class is the th 
+- Naive Bayes is able to make fast predictions but can be slow to train 
 
-$$P(C_{1}|X)>P(C_{2}|X)?$$
-$$P(X\cap C_{1})>P(X\cap C_{2})$$
+$$P(C_{i}|X)>P(C_{i..n}|X)\text{ is found out by using:}$$
+$$P(X\cap C_{i})>P(X\cap C_{i..n})$$
+$$C=\text{possible classes}$$
+$$X / x$$
+- This method can be summed up as finding the class $c$ that maximises $P(C|X)$ 
+- Note that because the evidence / denominator for each class is the same, it can be ignored when making predictions. Only $P(X \cap C)$  is required for comparison sake
 
-![[Pasted image 20240405213340.png|450|450]]
 ## Naive classification weakness
 - This is a naive approach as it assumes events used for prediction are independent which is not always the case eg a spam filter may only look at word frequency and ignore grammar
 - This gives it high bias but low variance
