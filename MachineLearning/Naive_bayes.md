@@ -22,7 +22,11 @@ $$X=\text{list of probabilities of each attribute occuring}$$
 - This method can be summed up as finding the class $c$ that maximises $P(C|X)$ 
 - Note that because the evidence / denominator for each class is the same, it can be ignored when making predictions. Only $P(X \cap C)$  is required for comparison sake
 
-## Naive classification weakness 
+
+## Categorical data handling
+
+$$P(X_{i}|C)=\frac{1}{\sqrt{2\pi \sigma^2 }}$$
+## Naive classification weakness
 - This is a naive approach as it assumes events used for prediction are independent which is not always the case eg a spam filter may only look at word frequency and ignore grammar
 - This gives it high bias but low variance
 
