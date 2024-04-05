@@ -177,8 +177,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Naive_Bayes.md",
+                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
                 "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "972a60355b5fdb10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Naive_Bayes.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -364,7 +377,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -548,11 +561,25 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fad4d24fb40ca318",
+  "active": "972a60355b5fdb10",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240406002550.png",
+    "XX-Attachments/Images/Pasted image 20240406002445.png",
+    "MediaCoding/ImageMatching/Harris_corner_detection.md",
+    "MachineLearning/Naive_Bayes.md",
+    "MediaCoding/ImageMatching/Gaussian_pyramid.md",
+    "MediaCoding/Filters/SmoothingFilters/Smoothing_spatial_filtering.md",
+    "MediaCoding/Filters/SmoothingFilters/Median_filter.md",
+    "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Roberts_filter.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
+    "MediaCoding/DiscreteCosineTansform/JPEG.md",
+    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "Statistics/Bayes_theorem.md",
     "XX-Attachments/Images/Pasted image 20240405213340.png",
-    "MachineLearning/Naive_Bayes.md",
     "Statistics/Event_independence.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/Bayes_theorem.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/Naive_bayes.md",
@@ -564,29 +591,16 @@
     "MachineLearning/Neural_networks.md",
     "MachineLearning/Machine_learning_notation.md",
     "MachineLearning/Artificial_intelligence.md",
-    "MachineLearning/Activation_functions.md",
-    "MachineLearning/TreeModels/Ensemble_learning.md",
     "XX-Attachments/Images/Pasted image 20240404195206.png",
-    "MachineLearning/FeatureEngineering/Normalisation.md",
-    "MachineLearning/Categorical_data_handeling.md",
-    "MachineLearning/Logistic_regression.md",
-    "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
-    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/K-Means_algorithm.md",
     "XX-Attachments/Images/Pasted image 20240404063622.png",
     "XX-Attachments/Images/Pasted image 20240404061535.png",
     "XX-Attachments/Images/Pasted image 20240403222848.png",
     "XX-Attachments/Images/Pasted image 20240403222826.png",
     "XX-Attachments/Images/Pasted image 20240403222749.png",
     "MachineLearning/TreeModels",
-    "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
-    "MachineLearning/ClusteringAlgorithms/Clustering.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "MachineLearning/0-Legacy",
     "XX-Attachments/Images/Pasted image 20240403194722.png",
     "XX-Attachments/Images/Pasted image 20240403194644.png",
-    "XX-Attachments/Images/Pasted image 20240403192328.png",
     "MachineLearning/ClusteringAlgorithms",
     "MachineLearning/ErrorMeasures",
     "MediaCoding/Watermarking",
