@@ -190,7 +190,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -445,7 +445,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md"
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_encoding.md"
               }
             }
           }
@@ -480,7 +480,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -497,7 +497,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -563,6 +563,8 @@
   },
   "active": "972a60355b5fdb10",
   "lastOpenFiles": [
+    "MachineLearning/GeneticAlgorithms/Crossover.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
     "MachineLearning/GeneticAlgorithms/Mutation.md",
     "MachineLearning/TreeModels/Decision_trees.md",
@@ -577,7 +579,6 @@
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "MachineLearning/Logistic_regression.md",
     "MachineLearning/Machine_learning_notation.md",
     "MachineLearning/Naive_Bayes.md",
@@ -590,7 +591,6 @@
     "MediaCoding/ImageMatching/Gaussian_pyramid.md",
     "MediaCoding/Filters/SmoothingFilters/Smoothing_spatial_filtering.md",
     "MediaCoding/Filters/SmoothingFilters/Median_filter.md",
-    "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
     "XX-Attachments/Images/Pasted image 20240405213340.png",
     "XX-Attachments/Images/Pasted image 20240404195206.png",
     "XX-Attachments/Images/Pasted image 20240404063622.png",
