@@ -1,4 +1,16 @@
-# Conditional probability
+> [!important]- Metadata
+> **Tags:** #
+> **Located:** MachineLearning/0-Legacy/0-GeneralConcepts
+> **Created:** 27/02/2023 - 11:31
+> ```dataviewjs
+> let f = dv.current().file;
+> let paths = new Set([...f.inlinks, ...f.outlinks].map(p => p.path).filter(p => !p.endsWith(".png")));
+> paths.delete(f.path);
+> dv.table(["Connections", "Tags"], [...paths].map(p => [dv.fileLink(p), dv.page(p).file.tags.join("")]));
+> ```
+
+___
+# Bayes theorem
 - Finding the probability of an event given what we know
 ![[Pasted image 20220202092517.png|450|450]]
 ![[Pasted image 20220202092639.png|450|450]]
