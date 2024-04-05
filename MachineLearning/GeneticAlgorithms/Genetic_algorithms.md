@@ -11,7 +11,7 @@
 
 ___
 # Genetic algorithms
-- A guided random [[Search_algorithms|search]] strategy, ideal for navigating large search spaces for a ideal solution.
+- A guided random [[Search_algorithms|search]] strategy, ideal for navigating large search spaces for an ideal solution
 - Most problems can be generalised as a search problem a genetic algorithm can solve 
 ## Genetic algorithm terminology
 - **Population**: a set of chromosomes

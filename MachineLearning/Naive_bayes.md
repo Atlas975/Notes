@@ -24,10 +24,11 @@ $$X=\text{list of attributes}$$
 $$P(X=x_{1}\dots x_{n}|c)=P(x_{1}|c)\cdot P(x_{2}|c)\cdot P(x_{3}|c)\dots$$
 
 
-## Numerical data handling
-- For numerical attributes in Naive bayes
+## Continuous data handling
+- For numerical attributes in Naive bayes, the most common way of getting $P(x|C)$ is to use the normal distribution of that attribute to calculate the **probability density estimation**
+- This requires pre-calculating the mean and variance for the whole attribute column, after which the test sample attribute value can be fed into the following:
 
-$$P(X_{i}|C)=\frac{1}{\sqrt{2\pi \sigma^{2}}}e^{-\frac{(x-\mu)^2}{2\sigma^{2}}}$$
+$$P(x|C)=\frac{1}{\sqrt{2\pi \sigma^{2}}}e^{-\frac{(x-\mu)^2}{2\sigma^{2}}}$$
 
 ![[Pasted image 20240406002550.png|500|500]]
 ## Naive classification weakness
