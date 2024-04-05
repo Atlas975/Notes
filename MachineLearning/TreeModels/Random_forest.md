@@ -11,7 +11,7 @@
 
 ___
 # Random forest
-- An ML model that makes use of [[Ensemble_learning#Bagging ensemble|ensemble bagging]] with multiple [[Decision_trees|decision trees]] 
+- An ML model that makes use of [[Ensemble_learning#Bagging ensemble|bagging]] with multiple [[Decision_trees|decision trees]] 
 - This avoids the risk of overfitting found when using a single tree, making it more versatile 
 
 
