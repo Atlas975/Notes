@@ -203,7 +203,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Linear_regression.md",
+                "file": "MachineLearning/LinearRegression/Linear_regression.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -231,6 +231,71 @@
               "state": {
                 "file": "MachineLearning/Naive_Bayes.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "91abbc1d2192e723",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Neural_networks.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4d317d275777992a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Backpropagation.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d3a1170e6ad6c258",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Linear_regression_legacy.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ec5962b0172d55a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/LinearRegression/Linear_regression.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0dc5c4cf3c2f5902",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/LinearRegression/Synergy_effect.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -429,7 +494,7 @@
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 22
       }
     ],
     "direction": "vertical"
@@ -497,7 +562,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Naive_Bayes.md"
+                "file": "MachineLearning/LinearRegression/Synergy_effect.md"
               }
             }
           }
@@ -532,7 +597,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Naive_Bayes.md",
+                "file": "MachineLearning/LinearRegression/Synergy_effect.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -549,7 +614,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Naive_Bayes.md",
+                "file": "MachineLearning/LinearRegression/Synergy_effect.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -613,15 +678,22 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c187662b7e3710e5",
+  "active": "0dc5c4cf3c2f5902",
   "lastOpenFiles": [
+    "MachineLearning/LinearRegression/Linear_regression.md",
+    "MachineLearning/LinearRegression/Synergy_effect.md",
+    "MachineLearning/0-Legacy/0-CoursesPart2/StatisticalLearning_book/Linear_regression.md",
+    "MachineLearning/LinearRegression",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Linear_regression_legacy.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Backpropagation.md",
+    "MachineLearning/Neural_networks.md",
+    "MachineLearning/Untitled.md",
+    "MachineLearning/Naive_Bayes.md",
     "MachineLearning/Softmax.md",
     "MachineLearning/Argmax.md",
     "XX-Attachments/Images/Pasted image 20240406191756.png",
     "MachineLearning/0-Legacy/0-GeneralConcepts/ArgMax&SoftMax.md",
-    "MachineLearning/Linear_regression.md",
     "MachineLearning/K-nearest_neighbours.md",
-    "MachineLearning/Neural_networks.md",
     "MachineLearning/Statistical_modeling.md",
     "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/Artificial_intelligence.md",
@@ -636,13 +708,8 @@
     "MachineLearning/Activation_functions.md",
     "MachineLearning/Gradient_descent.md",
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
-    "MachineLearning/Logistic_regression.md",
-    "MachineLearning/Machine_learning_notation.md",
-    "MachineLearning/Naive_Bayes.md",
     "XX-Attachments/Images/Pasted image 20240406002550.png",
     "XX-Attachments/Images/Pasted image 20240406002445.png",
-    "MediaCoding/ImageMatching/Harris_corner_detection.md",
     "XX-Attachments/Images/Pasted image 20240405213340.png",
     "XX-Attachments/Images/Pasted image 20240404195206.png",
     "XX-Attachments/Images/Pasted image 20240404063622.png",
@@ -658,7 +725,6 @@
     "MediaCoding/DiscreteCosineTansform",
     "LinearAlgebra",
     "MediaCoding/OpticalFlow",
-    "MediaCoding/ImageMatching",
-    "MediaCoding/Filters/SmoothingFilters"
+    "MediaCoding/ImageMatching"
   ]
 }

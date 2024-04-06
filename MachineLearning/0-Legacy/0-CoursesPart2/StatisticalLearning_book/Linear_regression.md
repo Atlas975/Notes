@@ -1,6 +1,7 @@
 # Linear regression
 - A model that assumes a linear relationship between a variable x and y
-$$ˆy = ˆβ0 + ˆβ1 x$$
+$$Y_{i} = β_{0} + β_{1}\cdot X_{i}+\epsilon_{i}$$
+$$$$
 - Other things to consider include
 1. Strength of relationship
 2. How large is the association of x and y for an increase in x
