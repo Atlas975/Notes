@@ -11,7 +11,7 @@
 
 ___
 # Softmax
-- Normalises raw model outputs, ensuring they sum to one and are proportionate to the relative scale of input values. Also needed to map negative neural network outputs to a positive value
+- Converts a vector of numbers into a vector of probabilities, where the probabilities of each value are proportional to the relative scale of each value in the vector
 - This accentuates the largest scores and suppresses smaller ones, effectively highlighting the most likely outcome:
 $$\frac{e^x}{\sum e^{x_{i}}}$$
 
