@@ -229,8 +229,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Argmax.md",
-                "mode": "source",
+                "file": "MachineLearning/Naive_Bayes.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -429,7 +429,7 @@
             }
           }
         ],
-        "currentTab": 18
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -497,7 +497,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/0-Legacy/0-GeneralConcepts/ArgMax&SoftMax.md"
+                "file": "MachineLearning/Naive_Bayes.md"
               }
             }
           }
@@ -532,7 +532,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/0-Legacy/0-GeneralConcepts/ArgMax&SoftMax.md",
+                "file": "MachineLearning/Naive_Bayes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -549,7 +549,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/0-Legacy/0-GeneralConcepts/ArgMax&SoftMax.md",
+                "file": "MachineLearning/Naive_Bayes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -613,10 +613,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c4f9e1a3b3468de0",
+  "active": "c187662b7e3710e5",
   "lastOpenFiles": [
-    "MachineLearning/Argmax.md",
     "MachineLearning/Softmax.md",
+    "MachineLearning/Argmax.md",
+    "XX-Attachments/Images/Pasted image 20240406191756.png",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/ArgMax&SoftMax.md",
     "MachineLearning/Linear_regression.md",
     "MachineLearning/K-nearest_neighbours.md",
     "MachineLearning/Neural_networks.md",
@@ -641,8 +643,6 @@
     "XX-Attachments/Images/Pasted image 20240406002550.png",
     "XX-Attachments/Images/Pasted image 20240406002445.png",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
-    "MediaCoding/ImageMatching/Gaussian_pyramid.md",
-    "MediaCoding/Filters/SmoothingFilters/Smoothing_spatial_filtering.md",
     "XX-Attachments/Images/Pasted image 20240405213340.png",
     "XX-Attachments/Images/Pasted image 20240404195206.png",
     "XX-Attachments/Images/Pasted image 20240404063622.png",
@@ -652,7 +652,6 @@
     "XX-Attachments/Images/Pasted image 20240403222749.png",
     "MachineLearning/TreeModels",
     "MachineLearning/0-Legacy",
-    "XX-Attachments/Images/Pasted image 20240403194722.png",
     "MachineLearning/ClusteringAlgorithms",
     "MachineLearning/ErrorMeasures",
     "MediaCoding/Watermarking",
