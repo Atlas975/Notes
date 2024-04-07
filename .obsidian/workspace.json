@@ -294,7 +294,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/LinearRegression/Linear_regression.md",
+                "file": "MachineLearning/0-Legacy/0-CoursesPart2/DeepLearningCourse/Early_stopping.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -562,7 +562,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/LinearRegression/Linear_regression.md"
+                "file": "MachineLearning/0-Legacy/0-CoursesPart2/DeepLearningCourse/Early_stopping.md"
               }
             }
           }
@@ -597,7 +597,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/LinearRegression/Linear_regression.md",
+                "file": "MachineLearning/0-Legacy/0-CoursesPart2/DeepLearningCourse/Early_stopping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -614,7 +614,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/LinearRegression/Linear_regression.md",
+                "file": "MachineLearning/0-Legacy/0-CoursesPart2/DeepLearningCourse/Early_stopping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -680,9 +680,15 @@
   },
   "active": "0dc5c4cf3c2f5902",
   "lastOpenFiles": [
+    "MachineLearning/0-Legacy/0-CoursesPart2/DeepLearningCourse/Gradient_checking.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/DataProcessing/Batch_normalization.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/GradientDescent/RMS_prop.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/GradientDescent/Mini_batch_descent.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/GradientDescent/Learning_rate_decay.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/GradientDescent/Gradient_descent_momentum.md",
+    "MachineLearning/LinearRegression/Linear_regression.md",
     "MachineLearning/LinearRegression/Leverage_statistic.md",
     "MachineLearning/LinearRegression/Synergy_effect.md",
-    "MachineLearning/LinearRegression/Linear_regression.md",
     "MachineLearning/0-Legacy/0-CoursesPart2/StatisticalLearning_book/Linear_regression.md",
     "MachineLearning/LinearRegression",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Linear_regression_legacy.md",
@@ -702,12 +708,6 @@
     "MachineLearning/GeneticAlgorithms/Crossover.md",
     "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
-    "MachineLearning/GeneticAlgorithms/Mutation.md",
-    "MachineLearning/TreeModels/Decision_trees.md",
-    "MachineLearning/TreeModels/Random_forest.md",
-    "MachineLearning/Ensemble_learning.md",
-    "MachineLearning/Activation_functions.md",
-    "MachineLearning/Gradient_descent.md",
     "XX-Attachments/Images/Pasted image 20240406002550.png",
     "XX-Attachments/Images/Pasted image 20240406002445.png",
     "XX-Attachments/Images/Pasted image 20240405213340.png",
