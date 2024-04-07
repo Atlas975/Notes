@@ -43,13 +43,3 @@ $$y = \beta_0 + \beta_1x + \epsilon$$
 
 Linear regression is a foundational tool in statistics, providing a simple yet powerful way to understand and predict relationships between variables.
 
-
-$$\begin{equation}
-\begin{split}
-\textbf{Step 0) Initialization} \\
-\textbf{The parameters \( \theta_0, \theta_1 \) are set to zero.}
-
-
-
-\end{split}
-\end{equation}$$
