@@ -294,7 +294,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/LinearRegression/Leverage_statistic.md",
+                "file": "MachineLearning/LinearRegression/Linear_regression.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -562,7 +562,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/LinearRegression/Leverage_statistic.md"
+                "file": "MachineLearning/LinearRegression/Linear_regression.md"
               }
             }
           }
@@ -597,7 +597,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/LinearRegression/Leverage_statistic.md",
+                "file": "MachineLearning/LinearRegression/Linear_regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -614,7 +614,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/LinearRegression/Leverage_statistic.md",
+                "file": "MachineLearning/LinearRegression/Linear_regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -680,9 +680,9 @@
   },
   "active": "0dc5c4cf3c2f5902",
   "lastOpenFiles": [
+    "MachineLearning/LinearRegression/Leverage_statistic.md",
     "MachineLearning/LinearRegression/Synergy_effect.md",
     "MachineLearning/LinearRegression/Linear_regression.md",
-    "MachineLearning/LinearRegression/Leverage_statistic.md",
     "MachineLearning/0-Legacy/0-CoursesPart2/StatisticalLearning_book/Linear_regression.md",
     "MachineLearning/LinearRegression",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Linear_regression_legacy.md",
