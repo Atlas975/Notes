@@ -21,12 +21,37 @@ $$\theta=\text{model parameters}$$
 $$\alpha=\text{learning rate}$$
 $$\nabla J=\text{gradient of the cost function}$$
 
-![[Pasted image 20220621092922.png|500|500]]
+
+![[Pasted image 20240408224948.png|350|350]]
 
 
-![[Pasted image 20220621204846.png|350|350]]
 
-faster iteration = less precision
+## Gradient descent variants 
+
+
+![[Pasted image 20220621092922.png||400|400]]
+
+
+
+### Batch gradient descent 
+
+
+### Stochastic gradient descent 
+
+
+### Mini-batch gradient descent 
+
+
+
+
+
+
+
+
+## Variants
+- **Batch Gradient Descent**: Computes the gradient of the cost function w.r.t. to the parameters for the entire training dataset.
+- **Stochastic Gradient Descent**: Computes the gradient for each training example and updates parameters continuously.
+- **Mini-Batch Gradient Descent**: A compromise between batch and stochastic, computes the gradient on small batches of training data.
 ## Learning rate decay
 - Steps can be taken to have the learning rate decay as the minimum approaches, this is necessary to allow for 
 - When training takes long periods of time this may also be done manually

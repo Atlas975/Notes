@@ -256,7 +256,20 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
-                "mode": "source",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ed7413f98345cf6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Stochastic_gradient_descent.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -693,11 +706,14 @@
   },
   "active": "4d317d275777992a",
   "lastOpenFiles": [
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Stochastic_gradient_descent.md",
+    "MachineLearning/NeuralNetworks/Gradient_descent.md",
+    "XX-Attachments/Images/Pasted image 20240408224948.png",
+    "MachineLearning/NeuralNetworks/Neural_networks.md",
     "MachineLearning/GradientDescent",
     "XX-Attachments/Images/Pasted image 20240408161829.png",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Backpropagation_legacy.md",
     "MachineLearning/NeuralNetworks/Backpropagation.md",
-    "MachineLearning/NeuralNetworks/Neural_networks.md",
     "MachineLearning/NeuralNetworks",
     "MachineLearning/Untitled.md",
     "MachineLearning/Machine_learning_notation.md",
@@ -722,7 +738,6 @@
     "MachineLearning/0-Legacy/0-GeneralConcepts/ArgMax&SoftMax.md",
     "MachineLearning/K-nearest_neighbours.md",
     "MachineLearning/Statistical_modeling.md",
-    "MachineLearning/Categorical_data_handeling.md",
     "XX-Attachments/Images/Pasted image 20240406002550.png",
     "XX-Attachments/Images/Pasted image 20240406002445.png",
     "XX-Attachments/Images/Pasted image 20240405213340.png",
@@ -730,14 +745,12 @@
     "XX-Attachments/Images/Pasted image 20240404063622.png",
     "XX-Attachments/Images/Pasted image 20240404061535.png",
     "XX-Attachments/Images/Pasted image 20240403222848.png",
-    "XX-Attachments/Images/Pasted image 20240403222826.png",
     "MachineLearning/TreeModels",
     "MachineLearning/0-Legacy",
     "MachineLearning/ClusteringAlgorithms",
     "MachineLearning/ErrorMeasures",
     "MediaCoding/Watermarking",
     "MediaCoding/DiscreteCosineTansform",
-    "LinearAlgebra",
-    "MediaCoding/OpticalFlow"
+    "LinearAlgebra"
   ]
 }
