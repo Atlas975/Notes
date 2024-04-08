@@ -28,15 +28,10 @@ faster iteration = less precision
 
 ![[Pasted image 20240408161829.png|500|500]]
 ### Decay rate approach
-
-$$\alpha={1+\text{decay rate}\times \text{epoch num}}\alpha$$
 $$\alpha=(1+\text{decay rate}\cdot \text{epoch num})^{-1}\cdot \alpha_{0}$$
-
 ### Exponential decay
-
 $$\alpha=k^\text{epoch num}$$
 $$\text{where k is a number between 0-1}$$
 
 ### Root decay
-
-$$\alpha=\frac{k}{\sqrt{\text{epoch num} }}\alpha$$
+$$\alpha=\frac{k}{\sqrt{\text{epoch num} }}\alpha_{0}$$
