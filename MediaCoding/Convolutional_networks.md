@@ -18,7 +18,7 @@ aliases: [CNN]
 
 ___
 # Convolutional networks
-- A constitutional [[MachineLearning/Neural_networks|neural network]] can be used to process images, in the context of a neural network this is done by breaking an image down to into its edges, shape patterns, colour etc
+- A constitutional [[Neural_networks|neural network]] can be used to process images, in the context of a neural network this is done by breaking an image down to into its edges, shape patterns, colour etc
 - Example network
 
 ![[Pasted image 20220621152515.png|450|450]]

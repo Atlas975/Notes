@@ -9,7 +9,7 @@ because the slopes of both these lines are zero, their derivative is also zero.
 plugging in 0 within gradient descent means that we wont make steps towards the optimal parameters
 
 # Softmax
-- While Argmax is often used for output, softmax will often be used for actual training, can be used with [[Backpropagation]]
+- While Argmax is often used for output, softmax will often be used for actual training, can be used with [[MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Backpropagation]]
 - Softmax formula:
 ![[Pasted image 20220302204721.png|450|450]]
 -Implementation on last layer 

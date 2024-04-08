@@ -65,8 +65,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Neural_networks.md",
-                "mode": "preview",
+                "file": "MachineLearning/NeuralNetworks/Backpropagation.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -242,7 +242,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Neural_networks.md",
+                "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -296,6 +296,19 @@
               "state": {
                 "file": "MachineLearning/0-Legacy/0-CoursesPart2/DeepLearningCourse/Early_stopping.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "54e7528799d1eb4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Machine_learning_notation.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -494,7 +507,7 @@
             }
           }
         ],
-        "currentTab": 22
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -562,7 +575,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/0-Legacy/0-CoursesPart2/DeepLearningCourse/Early_stopping.md"
+                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Backpropagation.md"
               }
             }
           }
@@ -597,7 +610,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/0-Legacy/0-CoursesPart2/DeepLearningCourse/Early_stopping.md",
+                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Backpropagation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -614,7 +627,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/0-Legacy/0-CoursesPart2/DeepLearningCourse/Early_stopping.md",
+                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Backpropagation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -678,8 +691,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0dc5c4cf3c2f5902",
+  "active": "4d317d275777992a",
   "lastOpenFiles": [
+    "MachineLearning/NeuralNetworks/Backpropagation.md",
+    "MachineLearning/NeuralNetworks/Neural_networks.md",
+    "MachineLearning/NeuralNetworks",
+    "MachineLearning/Untitled.md",
+    "MachineLearning/Machine_learning_notation.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/Calculus/Neural_networks_legacy.md",
+    "MachineLearning/0-Legacy/0-CoursesPart2/DeepLearningCourse/Early_stopping.md",
     "MachineLearning/0-Legacy/0-CoursesPart2/DeepLearningCourse/Gradient_checking.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/DataProcessing/Batch_normalization.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/GradientDescent/RMS_prop.md",
@@ -693,8 +713,6 @@
     "MachineLearning/LinearRegression",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Linear_regression_legacy.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Backpropagation.md",
-    "MachineLearning/Neural_networks.md",
-    "MachineLearning/Untitled.md",
     "MachineLearning/Naive_Bayes.md",
     "MachineLearning/Softmax.md",
     "MachineLearning/Argmax.md",
@@ -704,10 +722,6 @@
     "MachineLearning/Statistical_modeling.md",
     "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/Artificial_intelligence.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
-    "MachineLearning/GeneticAlgorithms/Crossover.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_selection.md",
     "XX-Attachments/Images/Pasted image 20240406002550.png",
     "XX-Attachments/Images/Pasted image 20240406002445.png",
     "XX-Attachments/Images/Pasted image 20240405213340.png",
@@ -724,7 +738,6 @@
     "MediaCoding/Watermarking",
     "MediaCoding/DiscreteCosineTansform",
     "LinearAlgebra",
-    "MediaCoding/OpticalFlow",
-    "MediaCoding/ImageMatching"
+    "MediaCoding/OpticalFlow"
   ]
 }
