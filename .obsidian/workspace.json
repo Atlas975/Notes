@@ -255,7 +255,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Backpropagation.md",
+                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -408,7 +408,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Gradient_descent.md",
+                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -575,7 +575,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Backpropagation.md"
+                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md"
               }
             }
           }
@@ -610,7 +610,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Backpropagation.md",
+                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -627,7 +627,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Backpropagation.md",
+                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -693,6 +693,8 @@
   },
   "active": "4d317d275777992a",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240408161829.png",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Backpropagation_legacy.md",
     "MachineLearning/NeuralNetworks/Backpropagation.md",
     "MachineLearning/NeuralNetworks/Neural_networks.md",
     "MachineLearning/NeuralNetworks",
@@ -712,7 +714,6 @@
     "MachineLearning/0-Legacy/0-CoursesPart2/StatisticalLearning_book/Linear_regression.md",
     "MachineLearning/LinearRegression",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Linear_regression_legacy.md",
-    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Backpropagation.md",
     "MachineLearning/Naive_Bayes.md",
     "MachineLearning/Softmax.md",
     "MachineLearning/Argmax.md",
@@ -721,7 +722,6 @@
     "MachineLearning/K-nearest_neighbours.md",
     "MachineLearning/Statistical_modeling.md",
     "MachineLearning/Categorical_data_handeling.md",
-    "MachineLearning/Artificial_intelligence.md",
     "XX-Attachments/Images/Pasted image 20240406002550.png",
     "XX-Attachments/Images/Pasted image 20240406002445.png",
     "XX-Attachments/Images/Pasted image 20240405213340.png",

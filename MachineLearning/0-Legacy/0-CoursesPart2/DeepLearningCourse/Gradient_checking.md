@@ -6,7 +6,7 @@
 
 
 # Gradient checking
-- A useful method in finding bugs in implementing techniques such as [[MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Backpropagation]]
+- A useful method in finding bugs in implementing techniques such as [[Backpropagation_legacy]]
 - The first step of this is to take the weights and biases and to reshape this into a single vector 
 ![[Pasted image 20220407200204.png|450|450]]
 - After this, each element in theta is iterated over, comparing the gradient approximation to that calculated by the derivative, a good error rate would be in the range of 10^-7
