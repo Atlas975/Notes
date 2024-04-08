@@ -256,7 +256,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -693,6 +693,7 @@
   },
   "active": "4d317d275777992a",
   "lastOpenFiles": [
+    "MachineLearning/GradientDescent",
     "XX-Attachments/Images/Pasted image 20240408161829.png",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Backpropagation_legacy.md",
     "MachineLearning/NeuralNetworks/Backpropagation.md",
@@ -730,7 +731,6 @@
     "XX-Attachments/Images/Pasted image 20240404061535.png",
     "XX-Attachments/Images/Pasted image 20240403222848.png",
     "XX-Attachments/Images/Pasted image 20240403222826.png",
-    "XX-Attachments/Images/Pasted image 20240403222749.png",
     "MachineLearning/TreeModels",
     "MachineLearning/0-Legacy",
     "MachineLearning/ClusteringAlgorithms",

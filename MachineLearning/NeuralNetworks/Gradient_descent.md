@@ -14,11 +14,16 @@
 
 ___
 # Gradient descent
- - Generalized formula for gradient descent
-
-> $$J(\theta)=\frac{1}{m}\sum_{i=1}^{m} \mathcal{L} ({y,\hat{y}})$$
+- An optimisation algorithm used for minimising the cost function in various machine learning algorithms, especially in [[Neural_networks|neural networks]].
+- Adjusts the initial parameters in small steps proportional to the negative of the gradient of the function at the current point. This continues until it converges to the function minimum
+$$\theta = \theta - \alpha \cdot \nabla_{\theta}J(\theta)$$
+$$\theta=\text{model parameters}$$
+$$\alpha=\text{learning rate}$$
+$$\nabla J=\text{gradient of the cost function}$$
 
 ![[Pasted image 20220621092922.png|500|500]]
+
+
 ![[Pasted image 20220621204846.png|350|350]]
 
 faster iteration = less precision
