@@ -26,21 +26,23 @@ $$\nabla J=\text{gradient of the cost function}$$
 
 
 
-## Gradient descent variants 
+## Gradient descent variants
 
 
 ![[Pasted image 20220621092922.png||400|400]]
 
 
 
-### Batch gradient descent 
+### Batch gradient descent
+- Processes entire training set every iteration, computationally expensive for large datasets.
+- Offers stable convergence to the global minimum for convex error surfaces and a local minimum for non-convex surfaces, with consistent error gradient calculation
 
-
-### Stochastic gradient descent 
-
-
-### Mini-batch gradient descent 
-
+### Stochastic gradient descent
+- Updates the parameters for each training example, leading to faster iterations but more noise in the convergence path.
+- Provides the advantage of potentially escaping local minima due to the noisy steps, making it suitable for non-convex error functions
+### Mini-batch gradient descent
+- Combines the advantages of both batch and stochastic gradient descent by processing a subset of the training data in each iteration, balancing speed and computational efficiency.
+- Reduces the variance in the parameter updates compared to SGD, leading to a more stable convergence while still being faster than full batch processing.
 
 
 
@@ -53,10 +55,15 @@ $$\nabla J=\text{gradient of the cost function}$$
 - **Stochastic Gradient Descent**: Computes the gradient for each training example and updates parameters continuously.
 - **Mini-Batch Gradient Descent**: A compromise between batch and stochastic, computes the gradient on small batches of training data.
 ## Learning rate decay
-- Steps can be taken to have the learning rate decay as the minimum approaches, this is necessary to allow for 
+- A technique used to adjust the learning rate in training machine learning models during the optimisation process
+- Aims to allow a model to learn quickly initially and then fine-tune the learning as it converges towards the minimum of the cost function.
 - When training takes long periods of time this may also be done manually
 
 ![[Pasted image 20240408161829.png|500|500]]
+
+### Learning rate decay strategies
+
+
 ### Decay rate approach
 $$\alpha=(1+\text{decay rate}\cdot \text{epoch num})^{-1}\cdot \alpha_{0}$$
 ### Exponential decay

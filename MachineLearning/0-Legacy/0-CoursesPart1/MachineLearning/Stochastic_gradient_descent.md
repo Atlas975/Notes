@@ -1,5 +1,5 @@
 # Stochastic gradient descent 
-[[MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Gradient_descent]]
+[[Gradient_descent_legacy]]
 [[Large_data_ML]]
 - A much less computationally expensive version of gradient descent
 - Summary:
