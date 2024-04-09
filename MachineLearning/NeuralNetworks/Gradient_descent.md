@@ -53,16 +53,15 @@ $$\nabla J=\text{gradient of the cost function}$$
 
 ![[Pasted image 20240408161829.png|500|500]]
 
-### Decay rate approach
+### Step decay 
 - Reduces the learning rate by a factor after every fixed number of epochs.
-$$\alpha=(1+\text{decay rate}\cdot \text{epoch})^{-1}\cdot \alpha_{0}$$
-$$\alpha = \alpha_{0} \times (\text{decay\_factor})^{\lfloor \frac{\text{epoch}}{\text{step\_size}} \rfloor}$$
+$$\alpha = \alpha_0 \cdot \text{decay\_rate}^{\left\lfloor \frac{\text{epoch}}{\text{step\_size}} \right\rfloor}$$
 ### Exponential decay
 - Decreases the learning rate exponentially, based on the decay rate and the epoch number
 
 
-$$\alpha=k^\text{epoch}$$
-$$\text{where k is a number between 0-1}$$
+$$\alpha = \alpha_0 \times e^{-\text{decay\_rate} \cdot \text{epoch}}$$
+### Time-based decay 
+- Reduces the learning rate inversely proportional to the epoch number
 
-### Root decay
-$$\alpha=\frac{k}{\sqrt{\text{epoch} }}\alpha_{0}$$
+$$\alpha = \frac{\alpha_0}{1 + \text{decay\_rate} \cdot \text{epoch\_num}}$$
