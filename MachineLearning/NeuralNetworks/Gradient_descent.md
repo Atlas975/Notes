@@ -27,7 +27,7 @@ $$\nabla J=\text{gradient of the cost function}$$
 
 
 ## Gradient descent variants
-- Variants of the gradient descent algorithm exist differing in how much data is used to calculate the gradient during each iteration, addressing different trade-offs in speed, accuracy and memory
+- Variants of the algorithm exist differing in how much data is used to calculate the gradient each iteration, offering different trade-offs in speed, accuracy and computational resources
 - This addresses specific challenges like large data volumes, computational limitations, and the need for faster convergence or more stable learning
 
 
@@ -47,20 +47,22 @@ $$\nabla J=\text{gradient of the cost function}$$
 - Reduces the variance in the parameter updates compared to SGD, leading to a more stable convergence while still being faster than full batch processing.
 
 ## Learning rate decay
-- A technique used to adjust the learning rate in training machine learning models during the optimisation process
-- Aims to allow a model to learn quickly initially and then fine-tune the learning as it converges towards the minimum of the cost function.
+- A technique used to adjust the learning rate while optimising the cost function
+- Aims to allow a model to learn quickly initially and then fine-tune the learning as it converges towards the minimum of the cost function
 - When training takes long periods of time this may also be done manually
 
 ![[Pasted image 20240408161829.png|500|500]]
 
-### Learning rate decay strategies
-
-
 ### Decay rate approach
-$$\alpha=(1+\text{decay rate}\cdot \text{epoch num})^{-1}\cdot \alpha_{0}$$
+- Reduces the learning rate by a factor after every fixed number of epochs.
+$$\alpha=(1+\text{decay rate}\cdot \text{epoch})^{-1}\cdot \alpha_{0}$$
+$$\alpha = \alpha_{0} \times (\text{decay\_factor})^{\lfloor \frac{\text{epoch}}{\text{step\_size}} \rfloor}$$
 ### Exponential decay
-$$\alpha=k^\text{epoch num}$$
+- Decreases the learning rate exponentially, based on the decay rate and the epoch number
+
+
+$$\alpha=k^\text{epoch}$$
 $$\text{where k is a number between 0-1}$$
 
 ### Root decay
-$$\alpha=\frac{k}{\sqrt{\text{epoch num} }}\alpha_{0}$$
+$$\alpha=\frac{k}{\sqrt{\text{epoch} }}\alpha_{0}$$
