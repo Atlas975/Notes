@@ -62,6 +62,6 @@ $$\alpha = \alpha_0 \cdot \text{decay\_rate}^{\left\lfloor \frac{\text{epoch}}{\
 
 $$\alpha = \alpha_0 \times e^{-\text{decay\_rate} \cdot \text{epoch}}$$
 ### Time-based decay 
-- Reduces the learning rate inversely proportional to the epoch number
+- Learning rate is reduced over time, inversely proportional to the time number of epochs
 
-$$\alpha = \frac{\alpha_0}{1 + \text{decay\_rate} \cdot \text{epoch\_num}}$$
+$$\alpha = \frac{\alpha_0}{1 + \text{decay\_rate} \cdot \text{epoch}}$$
