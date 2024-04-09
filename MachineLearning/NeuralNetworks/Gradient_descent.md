@@ -14,8 +14,8 @@
 
 ___
 # Gradient descent
-- An optimisation algorithm used for minimising the cost function in various machine learning algorithms, especially in [[Neural_networks|neural networks]].
-- Adjusts the initial parameters in small steps proportional to the negative of the gradient of the function at the current point. This continues until it converges to the function minimum
+- An optimisation algorithm typically used for minimising the cost function in [[Neural_networks|neural networks]].
+- Adjusts the initial parameters in small steps proportional to the negative of the function gradient at the current point. This continues until it converges to the function minimum
 $$\theta = \theta - \alpha \cdot \nabla_{\theta}J(\theta)$$
 $$\theta=\text{model parameters}$$
 $$\alpha=\text{learning rate}$$
@@ -27,6 +27,8 @@ $$\nabla J=\text{gradient of the cost function}$$
 
 
 ## Gradient descent variants
+- Variants of the gradient descent algorithm exist differing in how much data is used to calculate the gradient during each iteration, addressing different trade-offs in speed, accuracy and memory
+- This addresses specific challenges like large data volumes, computational limitations, and the need for faster convergence or more stable learning
 
 
 ![[Pasted image 20220621092922.png||400|400]]
@@ -44,16 +46,6 @@ $$\nabla J=\text{gradient of the cost function}$$
 - Combines the advantages of both batch and stochastic gradient descent by processing a subset of the training data in each iteration, balancing speed and computational efficiency.
 - Reduces the variance in the parameter updates compared to SGD, leading to a more stable convergence while still being faster than full batch processing.
 
-
-
-
-
-
-
-## Variants
-- **Batch Gradient Descent**: Computes the gradient of the cost function w.r.t. to the parameters for the entire training dataset.
-- **Stochastic Gradient Descent**: Computes the gradient for each training example and updates parameters continuously.
-- **Mini-Batch Gradient Descent**: A compromise between batch and stochastic, computes the gradient on small batches of training data.
 ## Learning rate decay
 - A technique used to adjust the learning rate in training machine learning models during the optimisation process
 - Aims to allow a model to learn quickly initially and then fine-tune the learning as it converges towards the minimum of the cost function.
