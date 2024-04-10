@@ -19,7 +19,7 @@ ___
 $$\theta = \theta - \alpha \cdot \nabla_{\theta}J(\theta)$$
 $$\theta=\text{model parameters}$$
 $$\alpha=\text{learning rate}$$
-$$\nabla J=\text{gradient of the cost function}$$
+$$\nabla J=\text{cost function gradient with respect to each parameter}$$
 
 
 ![[Pasted image 20240408224948.png|350|350]]
@@ -48,7 +48,7 @@ $$\nabla J=\text{gradient of the cost function}$$
 
 ## Learning rate decay
 - A technique used to adjust the learning rate while optimising the cost function
-- Aims to allow a model to learn quickly initially and then fine-tune the learning as it converges towards the minimum of the cost function
+- Aims for quick learning initially and then fine-tuned learning nearing convergence 
 - When training takes long periods of time this may also be done manually
 
 ![[Pasted image 20240408161829.png|500|500]]
