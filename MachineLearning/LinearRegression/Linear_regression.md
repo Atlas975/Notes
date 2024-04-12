@@ -17,7 +17,8 @@ ___
 $$y = \beta_0 + \beta_1x + \epsilon$$
 $$\beta=\text{model coefficients}$$
 $$\epsilon=\text{error term}$$
-
+## Linear regression error term
+- represents the difference between the observed values and the values predicted by the model
 
 ## Linear regression steps
 1. Initialisation (all model coefficients $\beta$ set to 0)
@@ -31,25 +32,19 @@ $$\dots$$
 $$E(\beta_{0},\beta_{1})=\frac{1}{2n}\sum_{i=1}^{n}(y_{i}-\hat{y}_{i})^2$$
 
 4. Calculate cost function's partial derivatives for each parameter:
-$$\frac{\partial}{\partial \beta_0} E(\beta_0, \beta_1) = \frac{1}{m} \sum_{i=1}^{m} (h_i(x) - y_i)$$
-$$\frac{\partial}{\partial \beta_1} E(\beta_0, \beta_1) = \frac{1}{m} \sum_{i=1}^{m} (h_i(x) - y_i) \cdot x_i$$
-5. Update the parameters for the next iteration:
+$$I_{\beta_{0}}=\frac{\partial}{\partial \beta_0}  = \frac{1}{m} \sum_{i=1}^{m} (h_i(x) - y_i)$$
+$$I_{\beta_{1}}=\frac{\partial}{\partial \beta_1}  = \frac{1}{m} \sum_{i=1}^{m} (h_i(x) - y_i) \cdot x_i$$
+5. Update the parameters using the learning rate and partial derivatives:
 
-$$\beta_0 := \beta_0 - \alpha \frac{\partial}{\partial \beta_0} E(\beta_0, \beta_1)$$
-## Multivariate Linear RegressionSS
-- Extends to multiple independent variables:
-  $\( y = \beta_0 + \beta_1x_1 + \beta_2x_2 + ... + \beta_nx_n + \epsilon \)$
+$$\beta_0 := \beta_0 - \alpha \cdot I_{\beta_{0}}$$
+$$\beta_1 := \beta_1 - \alpha \cdot I_{\beta_{1}}$$
 
-## Assumptions
-- Includes linearity, independence, homoscedasticity (constant variance of errors), and normal distribution of errors.
+6. Repeat steps 2-5 until convergence / max iteration is reached 
+## Multivariate linear regression
+- An extension of simple linear regression that allows for predicting a dependent variable based on two or more independent variables.
+- This uses a multi-dimensional plane for fitting but follows the same general algorithm
 
-## Coefficient Estimation
-- Coefficients are typically estimated using the least squares method, which minimizes the sum of the squared differences between the observed and predicted values.
+  $$y = \beta_0 + \beta_1x_1 + \beta_2x_2 + ... + \beta_nx_n + \epsilon$$
 
-## Evaluation Metrics
-- Common metrics for evaluating the model include R-squared, Adjusted R-squared, Mean Squared Error (MSE), and Root Mean Squared Error (RMSE).
+![[Pasted image 20240412180216.png|300|300]]
 
-## Applications
-- Used across various fields like economics, biology, engineering, and social sciences for both prediction and inference.
-
-Linear regression is a foundational tool in statistics, providing a simple yet powerful way to understand and predict relationships between variables.

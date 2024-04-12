@@ -360,7 +360,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/LinearRegression/Linear_regression.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -385,7 +385,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
+                "file": "MediaCoding/OpticalFlow/Optical_flow.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -611,7 +611,7 @@
             }
           }
         ],
-        "currentTab": 29
+        "currentTab": 27
       }
     ],
     "direction": "vertical"
@@ -679,7 +679,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md"
+                "file": "MachineLearning/LinearRegression/Linear_regression.md"
               }
             }
           }
@@ -687,7 +687,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -714,7 +715,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
+                "file": "MachineLearning/LinearRegression/Linear_regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -731,7 +732,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
+                "file": "MachineLearning/LinearRegression/Linear_regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -795,8 +796,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b4b6663945074f4a",
+  "active": "4f60426f80c343c5",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240412180216.png",
+    "XX-Attachments/Images/Pasted image 20240412180133.png",
+    "MediaCoding/OpticalFlow/Optical_flow.md",
+    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/Media_coding.md",
     "MediaCoding/Image_derivatives.md",
     "MediaCoding/Edge_detection.md",
@@ -820,9 +825,6 @@
     "MachineLearning/NeuralNetworks/Backpropagation.md",
     "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/Artificial_intelligence.md",
-    "MachineLearning/Machine_learning_notation.md",
-    "MachineLearning/Naive_Bayes.md",
-    "MachineLearning/Statistical_modeling.md",
     "XX-Attachments/Images/Pasted image 20240408224948.png",
     "MachineLearning/GradientDescent",
     "XX-Attachments/Images/Pasted image 20240408161829.png",
@@ -835,7 +837,6 @@
     "XX-Attachments/Images/Pasted image 20240404195206.png",
     "XX-Attachments/Images/Pasted image 20240404063622.png",
     "XX-Attachments/Images/Pasted image 20240404061535.png",
-    "XX-Attachments/Images/Pasted image 20240403222848.png",
     "MachineLearning/TreeModels",
     "MachineLearning/0-Legacy",
     "MachineLearning/ClusteringAlgorithms",
