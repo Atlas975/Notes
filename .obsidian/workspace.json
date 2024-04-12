@@ -346,8 +346,47 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "MediaCoding/Image_derivatives.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4f60426f80c343c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "MachineLearning/LinearRegression/Linear_regression.md",
                 "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "59bcaf10ddb3699e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Detection_algorithms.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4b6663945074f4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -572,7 +611,7 @@
             }
           }
         ],
-        "currentTab": 26
+        "currentTab": 29
       }
     ],
     "direction": "vertical"
@@ -640,7 +679,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/LinearRegression/Linear_regression.md"
+                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md"
               }
             }
           }
@@ -675,7 +714,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/LinearRegression/Linear_regression.md",
+                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -692,7 +731,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/LinearRegression/Linear_regression.md",
+                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -756,38 +795,38 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ec5962b0172d55a6",
+  "active": "b4b6663945074f4a",
   "lastOpenFiles": [
-    "MachineLearning/ErrorMeasures/Model_metrics.md",
+    "MediaCoding/Media_coding.md",
+    "MediaCoding/Image_derivatives.md",
+    "MediaCoding/Edge_detection.md",
+    "MediaCoding/Detection_algorithms.md",
     "MachineLearning/LinearRegression/Linear_regression.md",
-    "MachineLearning/0-Legacy/0-CoursesPart2/StatisticalLearning_book/Linear_regression.md",
-    "MachineLearning/Artificial_intelligence.md",
-    "MachineLearning/NeuralNetworks/Gradient_descent.md",
-    "MachineLearning/0-Legacy/0-CoursesPart2/StatisticalLearning_book/TreeBased_modeling.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/ML_tuning/End_to_end_learning.md",
-    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Mini-batch_gradient_descent.md",
-    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Large_data_ML.md",
-    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Stochastic_gradient_descent.md",
-    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Gradient_descent_legacy.md",
-    "XX-Attachments/Images/Pasted image 20240408224948.png",
+    "MediaCoding/Convolution.md",
+    "MachineLearning/Logistic_regression.md",
+    "MachineLearning/Ensemble_learning.md",
+    "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
+    "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
+    "MachineLearning/ClusteringAlgorithms/Clustering.md",
+    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
+    "MachineLearning/ErrorMeasures/Model_metrics.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
+    "MachineLearning/Activation_functions.md",
+    "MachineLearning/Argmax.md",
     "MachineLearning/NeuralNetworks/Neural_networks.md",
+    "MachineLearning/NeuralNetworks/Gradient_descent.md",
+    "MachineLearning/NeuralNetworks/Backpropagation.md",
+    "MachineLearning/Categorical_data_handeling.md",
+    "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/Machine_learning_notation.md",
+    "MachineLearning/Naive_Bayes.md",
+    "MachineLearning/Statistical_modeling.md",
+    "XX-Attachments/Images/Pasted image 20240408224948.png",
     "MachineLearning/GradientDescent",
     "XX-Attachments/Images/Pasted image 20240408161829.png",
-    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Backpropagation_legacy.md",
-    "MachineLearning/NeuralNetworks/Backpropagation.md",
     "MachineLearning/NeuralNetworks",
-    "MachineLearning/Untitled.md",
-    "MachineLearning/Machine_learning_notation.md",
-    "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/Calculus/Neural_networks_legacy.md",
-    "MachineLearning/0-Legacy/0-CoursesPart2/DeepLearningCourse/Early_stopping.md",
-    "MachineLearning/0-Legacy/0-CoursesPart2/DeepLearningCourse/Gradient_checking.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/DataProcessing/Batch_normalization.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/GradientDescent/RMS_prop.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/GradientDescent/Mini_batch_descent.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/GradientDescent/Learning_rate_decay.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/GradientDescent/Gradient_descent_momentum.md",
-    "MachineLearning/LinearRegression/Leverage_statistic.md",
-    "MachineLearning/LinearRegression/Synergy_effect.md",
     "MachineLearning/LinearRegression",
     "XX-Attachments/Images/Pasted image 20240406191756.png",
     "XX-Attachments/Images/Pasted image 20240406002550.png",

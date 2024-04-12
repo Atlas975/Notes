@@ -25,7 +25,7 @@ ___
 ![[Pasted image 20231022160737.png|550|550]]
 
 ## TF-IDF formula 
->$$w_{x,y}=tf_{x,y}*\log\left( \frac{N}{df_{x}} \right)$$
->$$tf_{x,y}=\text{freq of x in y}$$
+$$w_{x,y}=tf_{x,y}*\log\left( \frac{N}{df_{x}} \right)$$
+$$tf_{x,y}=\text{freq of x in y}$$
 $$df_{x}=\text{\# documents containing x}$$
 $$N=\text{total documents (corpus length)}$$

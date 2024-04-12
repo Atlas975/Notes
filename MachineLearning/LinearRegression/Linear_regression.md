@@ -21,18 +21,21 @@ $$\epsilon=\text{error term}$$
 
 ## Linear regression steps
 1. Initialisation (all model coefficients $\beta$ set to 0)
-2. Calculate hypothesis for each data point (
+2. Calculate hypothesis for each data point:
 
 $$\overline{y}_{1}=h_{1}(x_{i})=\beta_{0}+\beta_{1}x_{1}$$
 $$\overline{y}_{2}=\beta_{0}+\beta_{1}x_{1}$$
 $$\dots$$
 
-3. Calculate the cost function (eg [[Model_metrics#Mean squared error (MSE)|MSE]])
-$$E(\beta_{0},\beta_{1})=\frac{1}{n}\sum_{i=1}^{n}(y_{i}-\hat{y}_{i})^2$$
+3. Calculate the cost function (eg modified [[Model_metrics#Mean squared error (MSE)|MSE]]):
+$$E(\beta_{0},\beta_{1})=\frac{1}{2n}\sum_{i=1}^{n}(y_{i}-\hat{y}_{i})^2$$
 
-- Calculate cost function's parital 
+4. Calculate cost function's partial derivatives for each parameter:
 $$\frac{\partial}{\partial \beta_0} E(\beta_0, \beta_1) = \frac{1}{m} \sum_{i=1}^{m} (h_i(x) - y_i)$$
 $$\frac{\partial}{\partial \beta_1} E(\beta_0, \beta_1) = \frac{1}{m} \sum_{i=1}^{m} (h_i(x) - y_i) \cdot x_i$$
+5. Update the parameters for the next iteration:
+
+$$\beta_0 := \beta_0 - \alpha \frac{\partial}{\partial \beta_0} E(\beta_0, \beta_1)$$
 ## Multivariate Linear RegressionSS
 - Extends to multiple independent variables:
   $\( y = \beta_0 + \beta_1x_1 + \beta_2x_2 + ... + \beta_nx_n + \epsilon \)$
