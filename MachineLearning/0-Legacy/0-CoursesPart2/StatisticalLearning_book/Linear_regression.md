@@ -52,4 +52,4 @@ $$RSS =sum((y i − ˆy i )^2)$$
 ![[Pasted image 20220311215812.png|450|450]]
 
 # Leverage statistic
-![[Pasted image 20220312180325.png|450|450]]
+![[Pasted image 20220312180325.png|450|450]]zawwaaa

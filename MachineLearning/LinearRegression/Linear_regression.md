@@ -12,18 +12,11 @@
 ___
 # Linear regression
 
-- Linear regression is a statistical method used to model the relationship between a dependent variable and one or more independent variables. 
-- It assumes that the relationship between the variables is linear and provides a simple yet powerful way to understand and predict relationships between variables 
+- A statistical method used to model the relationship between a dependent variable and one or more independent variables. 
+- It assumes that the relationship between the variables is linear making it a computationally cheap way to predict relationships between variables 
 $$y = \beta_0 + \beta_1x + \epsilon$$
-
-## Basic Concept
-- The basic form of a linear regression model with one independent variable is:
-  
-  where:
-  - \( y \) is the dependent variable.
-  - \( x \) is the independent variable.
-  - \( \beta_0 \) and \( \beta_1 \) are the model coefficients.
-  - \( \epsilon \) is the error term.
+$$\beta=\text{model coefficients}$$
+$$\epsilon=\text{error term}$$
 
 ## Multivariate Linear Regression
 - Extends to multiple independent variables:
