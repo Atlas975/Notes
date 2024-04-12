@@ -17,6 +17,9 @@ ___
 $$y = \beta_0 + \beta_1x + \epsilon$$
 $$\beta=\text{model coefficients}$$
 $$\epsilon=\text{error term}$$
+
+
+![[Pasted image 20240412180359.png|350|350]]
 ## Linear regression error term
 - represents the difference between the observed values and the values predicted by the model
 
@@ -24,8 +27,8 @@ $$\epsilon=\text{error term}$$
 1. Initialisation (all model coefficients $\beta$ set to 0)
 2. Calculate hypothesis for each data point:
 
-$$\overline{y}_{1}=h_{1}(x_{i})=\beta_{0}+\beta_{1}x_{1}$$
-$$\overline{y}_{2}=\beta_{0}+\beta_{1}x_{1}$$
+$$\hat{y}_{1}=h_{1}(x_{i})=\beta_{0}+\beta_{1}x_{1}$$
+$$\hat{y}_{2}=\beta_{0}+\beta_{1}x_{1}$$
 $$\dots$$
 
 3. Calculate the cost function (eg modified [[Model_metrics#Mean squared error (MSE)|MSE]]):
