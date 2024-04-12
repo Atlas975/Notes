@@ -18,6 +18,20 @@ $$y = \beta_0 + \beta_1x + \epsilon$$
 $$\beta=\text{model coefficients}$$
 $$\epsilon=\text{error term}$$
 
+
+## Linear regression steps
+1. Initialisation (all model coefficients $\beta$ set to 0)
+2. Calculate hypothesis for each data point (
+
+> $$\overline{y}_{1}=h_{1}(x_{i})=\beta_{0}+\beta_{1}x_{1}$$
+ > $$h_{1}(x_{i})=\beta_{0}+\beta_{1}x_{1}$$
+> $$\dots$$
+
+3. Calculate the cost function (eg [[Model_metrics#Mean squared error (MSE)|MSE]])
+$$E(\beta_{0},\beta_{1})=\frac{1}{n}\sum_{i=1}^{n}(y-\hat{y})^2$$
+
+$$E(\beta_{0})$$
+
 ## Multivariate Linear Regression
 - Extends to multiple independent variables:
   $\( y = \beta_0 + \beta_1x_1 + \beta_2x_2 + ... + \beta_nx_n + \epsilon \)$
@@ -35,4 +49,3 @@ $$\epsilon=\text{error term}$$
 - Used across various fields like economics, biology, engineering, and social sciences for both prediction and inference.
 
 Linear regression is a foundational tool in statistics, providing a simple yet powerful way to understand and predict relationships between variables.
-

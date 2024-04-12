@@ -190,7 +190,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/LinearRegression/Linear_regression.md",
+                "file": "MachineLearning/ErrorMeasures/Model_metrics.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -572,7 +572,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 26
       }
     ],
     "direction": "vertical"
@@ -640,7 +640,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md"
+                "file": "MachineLearning/LinearRegression/Linear_regression.md"
               }
             }
           }
@@ -675,7 +675,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "MachineLearning/LinearRegression/Linear_regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -692,7 +692,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "MachineLearning/LinearRegression/Linear_regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -756,10 +756,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3e3d26f706bcd177",
+  "active": "ec5962b0172d55a6",
   "lastOpenFiles": [
+    "MachineLearning/ErrorMeasures/Model_metrics.md",
     "MachineLearning/LinearRegression/Linear_regression.md",
     "MachineLearning/0-Legacy/0-CoursesPart2/StatisticalLearning_book/Linear_regression.md",
+    "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/NeuralNetworks/Gradient_descent.md",
     "MachineLearning/0-Legacy/0-CoursesPart2/StatisticalLearning_book/TreeBased_modeling.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/ML_tuning/End_to_end_learning.md",
@@ -787,8 +789,6 @@
     "MachineLearning/LinearRegression/Leverage_statistic.md",
     "MachineLearning/LinearRegression/Synergy_effect.md",
     "MachineLearning/LinearRegression",
-    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Linear_regression_legacy.md",
-    "MachineLearning/Naive_Bayes.md",
     "XX-Attachments/Images/Pasted image 20240406191756.png",
     "XX-Attachments/Images/Pasted image 20240406002550.png",
     "XX-Attachments/Images/Pasted image 20240406002445.png",
