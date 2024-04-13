@@ -78,8 +78,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Activation_functions.md",
-                "mode": "source",
+                "file": "MachineLearning/FeatureEngineering/Normalisation.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -216,7 +216,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Softmax.md",
+                "file": "MachineLearning/ActivationFunctions/Softmax.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -372,8 +372,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/ActivationFunctions/Sigmoid_function.md",
+                "file": "MachineLearning/ActivationFunctions/Activation_functions.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eb0c526b5829af36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/ActivationFunctions/Sigmoid_function.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2d645eb4fc7cfd4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/0-Legacy/0-GeneralConcepts/NeuralNetworks/Activation_functions.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -624,7 +650,7 @@
             }
           }
         ],
-        "currentTab": 28
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -692,7 +718,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/ActivationFunctions/Sigmoid_function.md"
+                "file": "MachineLearning/FeatureEngineering/Normalisation.md"
               }
             }
           }
@@ -727,7 +753,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/ActivationFunctions/Sigmoid_function.md",
+                "file": "MachineLearning/FeatureEngineering/Normalisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -744,7 +770,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/ActivationFunctions/Sigmoid_function.md",
+                "file": "MachineLearning/FeatureEngineering/Normalisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -808,11 +834,20 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "12394d3cc799ddf5",
+  "active": "ad40e5cb4d9c07f3",
   "lastOpenFiles": [
-    "MachineLearning/NeuralNetworks/Neural_networks.md",
+    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
+    "MachineLearning/ErrorMeasures/Model_metrics.md",
+    "MachineLearning/ActivationFunctions/Softmax.md",
+    "MachineLearning/ActivationFunctions/Activation_functions.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/NeuralNetworks/Activation_functions.md",
     "MachineLearning/ActivationFunctions/Sigmoid_function.md",
-    "MachineLearning/Activation_functions.md",
+    "XX-Attachments/Images/Pasted image 20240413161103.png",
+    "XX-Attachments/Images/Pasted image 20240413161039.png",
+    "MachineLearning/NeuralNetworks/Neural_networks.md",
     "MachineLearning/ActivationFunctions",
     "MachineLearning/NeuralNetworks/Gradient_descent.md",
     "MachineLearning/NeuralNetworks/Backpropagation.md",
@@ -832,14 +867,7 @@
     "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
     "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
     "MachineLearning/ClusteringAlgorithms/Clustering.md",
-    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
-    "MachineLearning/ErrorMeasures/Model_metrics.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
-    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
-    "MachineLearning/Argmax.md",
-    "MachineLearning/Categorical_data_handeling.md",
-    "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/ActivationFunctions/Argmax.md",
     "XX-Attachments/Images/Pasted image 20240408224948.png",
     "MachineLearning/GradientDescent",
     "XX-Attachments/Images/Pasted image 20240408161829.png",
@@ -848,8 +876,6 @@
     "XX-Attachments/Images/Pasted image 20240406191756.png",
     "XX-Attachments/Images/Pasted image 20240406002550.png",
     "XX-Attachments/Images/Pasted image 20240406002445.png",
-    "XX-Attachments/Images/Pasted image 20240405213340.png",
-    "XX-Attachments/Images/Pasted image 20240404195206.png",
     "MachineLearning/TreeModels",
     "MachineLearning/0-Legacy",
     "MachineLearning/ClusteringAlgorithms",
