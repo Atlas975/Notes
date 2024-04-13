@@ -256,7 +256,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -268,8 +268,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/0-Legacy/0-CoursesPart2/StatisticalLearning_book/Linear_regression.md",
-                "mode": "source",
+                "file": "MachineLearning/0-Legacy/0-CoursesPart2/StatisticalLearning_book/Linear_regression_legacy.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -360,7 +360,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/LinearRegression/Linear_regression.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -372,8 +372,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
-                "mode": "preview",
+                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -386,7 +386,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -650,7 +650,7 @@
             }
           }
         ],
-        "currentTab": 29
+        "currentTab": 27
       }
     ],
     "direction": "vertical"
@@ -718,7 +718,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md"
+                "file": "MachineLearning/LinearRegression/Linear_regression.md"
               }
             }
           }
@@ -753,7 +753,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
+                "file": "MachineLearning/LinearRegression/Linear_regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -770,7 +770,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
+                "file": "MachineLearning/LinearRegression/Linear_regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -834,18 +834,21 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "eb0c526b5829af36",
+  "active": "4f60426f80c343c5",
   "lastOpenFiles": [
+    "MachineLearning/NeuralNetworks/Gradient_descent.md",
+    "MachineLearning/0-Legacy/0-CoursesPart2/StatisticalLearning_book/Linear_regression_legacy.md",
+    "XX-Attachments/Images/Pasted image 20240413172514.png",
+    "MachineLearning/NeuralNetworks/Backpropagation.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
+    "XX-Attachments/Images/Pasted image 20240413171954.png",
     "MachineLearning/TreeModels/Decision_trees.md",
     "MachineLearning/TreeModels/Random_forest.md",
     "MachineLearning/Ensemble_learning.md",
     "MachineLearning/NeuralNetworks/Neural_networks.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
-    "MachineLearning/NeuralNetworks/Backpropagation.md",
-    "MachineLearning/NeuralNetworks/Gradient_descent.md",
     "MachineLearning/K-nearest_neighbours.md",
     "MachineLearning/Logistic_regression.md",
     "MachineLearning/Machine_learning_notation.md",
@@ -861,7 +864,6 @@
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
     "MachineLearning/ErrorMeasures/Confusion_matrices.md",
     "MachineLearning/ErrorMeasures/Model_metrics.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/NeuralNetworks/Activation_functions.md",
     "XX-Attachments/Images/Pasted image 20240413161103.png",
     "XX-Attachments/Images/Pasted image 20240413161039.png",
     "MachineLearning/NeuralNetworks/ActivationFunctions",
@@ -874,8 +876,6 @@
     "MachineLearning/NeuralNetworks",
     "MachineLearning/LinearRegression",
     "XX-Attachments/Images/Pasted image 20240406191756.png",
-    "XX-Attachments/Images/Pasted image 20240406002550.png",
-    "XX-Attachments/Images/Pasted image 20240406002445.png",
     "MachineLearning/TreeModels",
     "MachineLearning/0-Legacy",
     "MachineLearning/ClusteringAlgorithms",

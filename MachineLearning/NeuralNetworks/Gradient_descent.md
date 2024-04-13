@@ -16,15 +16,20 @@ ___
 # Gradient descent
 - An optimisation algorithm typically used for minimising the cost function in [[Neural_networks|neural networks]].
 - Adjusts the initial parameters in small steps proportional to the negative of the function gradient at the current point. This continues until it converges to the function minimum
-$$\theta = \theta - \alpha \cdot \nabla_{\theta}J(\theta)$$
-$$\theta=\text{model parameters}$$
+$$\beta = \beta - \alpha \cdot I_{\beta}$$
+$$\beta=\text{model parameters}$$
 $$\alpha=\text{learning rate}$$
-$$\nabla J=\text{cost function gradient with respect to each parameter}$$
+$$I_{\beta}=\text{cost function gradient with respect to each parameter}$$
 
 
 ![[Pasted image 20240408224948.png|350|350]]
 
 
+## Gradient descent process 
+
+![[Pasted image 20240413172514.png|500|500]]
+
+1. 
 
 ## Gradient descent variants
 - Variants of the algorithm exist differing in how much data is used to calculate the gradient each iteration, offering different trade-offs in speed, accuracy and computational resources

@@ -13,13 +13,13 @@ ___
 # Sigmoid function
 
 - Maps any real-valued number into a value between 0 and 1. It's an [[MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions|activation]] function commonly used in logistic regression and neural networks, particularly in layers that predict probabilities.
+- **Output range**: (0, 1)
 
   $$ \sigma(x) = \frac{1}{1 + e^{-x}} $$
 
 
 ![[Pasted image 20240413161039.png|350|350]]
 
-- **Output range**: (0, 1)
 ## Sigmoid derivative 
 
   $$ \sigma'(x) = \sigma(x)(1 - \sigma(x)) $$
@@ -28,9 +28,6 @@ ___
 ![[Pasted image 20240413161103.png|300|300]]
 
 
-## Applications
-- **Binary Classification**: In binary classification, it's used to predict the probability that a given input point belongs to a certain class.
-- **Neural Networks**: As an activation function in neural networks to introduce nonlinearity in the model and help the network learn complex patterns.
 
 ## Advantages
 - Smooth gradient, preventing "jumps" in output values.
