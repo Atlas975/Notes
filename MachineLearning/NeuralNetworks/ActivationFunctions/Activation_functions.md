@@ -21,13 +21,9 @@ ___
 
 
 ![[Pasted image 20220729224901.png|600|600]]
-
-
-
 ## Purpose
 - **Non-linearity**: introduces non-linearities into the network, which allows the model to handle non-linearly separable data, meaning it can make more complex decisions.
 - **Control of Activation**: Determine how much a neuron should be activated, affecting how much of the signal from the input should pass to the next layer.
-
 ## Vanishing gradient problem 
 - In deep networks using activations like sigmoid or tanh, gradients can diminish rapidly through layers, exponentially decreasing to near zero.
 - Tiny gradients fail to adjust weights in initial layers, impeding learning, causing slow or stalled training, and leading to suboptimal deep neural network performance.
