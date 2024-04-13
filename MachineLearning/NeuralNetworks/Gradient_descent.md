@@ -25,11 +25,16 @@ $$I_{\beta}=\text{cost function gradient with respect to each parameter}$$
 ![[Pasted image 20240408224948.png|350|350]]
 
 
-## Gradient descent process 
+## Forward pass process
+- The following will be used as an e
 
-![[Pasted image 20240413172514.png|500|500]]
+![[Pasted image 20240413173732.png|600|600]]
+1.  Randomly initialise the network weight $w$, typically done with values between 0-1
+2. Get the input values for the current sample / batch($x_{1}\dots x_{n}$)
+3. Calculate the activations for the hidden layer neurons using an [[Activation_functions|activation]] function
 
-1. 
+$$a^{(2)}_1 = \sigma(w^{(1)}_{11} x_1 + w^{(2)}_{21} x_2)$$
+$$a^{(1)}_1 = \sigma(w^{(1)}_{11} x_1 + w^{(2)}_{21} x_2)$$
 
 ## Gradient descent variants
 - Variants of the algorithm exist differing in how much data is used to calculate the gradient each iteration, offering different trade-offs in speed, accuracy and computational resources
@@ -58,7 +63,7 @@ $$I_{\beta}=\text{cost function gradient with respect to each parameter}$$
 
 ![[Pasted image 20240408161829.png|500|500]]
 
-### Step decay 
+### Step decay
 - Reduces the learning rate by a factor after every fixed number of epochs.
 $$\alpha = \alpha_0 \cdot \text{decay\_rate}^{\left\lfloor \frac{\text{epoch}}{\text{step\_size}} \right\rfloor}$$
 ### Exponential decay
@@ -66,7 +71,7 @@ $$\alpha = \alpha_0 \cdot \text{decay\_rate}^{\left\lfloor \frac{\text{epoch}}{\
 
 
 $$\alpha = \alpha_0 \times e^{-\text{decay\_rate} \cdot \text{epoch}}$$
-### Time-based decay 
+### Time-based decay
 - Learning rate is reduced over time, inversely proportional to the time number of epochs
 
 $$\alpha = \frac{\alpha_0}{1 + \text{decay\_rate} \cdot \text{epoch}}$$

@@ -4,253 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "081999006ad5069c",
+        "id": "a0d431f725ade4db",
         "type": "tabs",
         "children": [
           {
-            "id": "0d1302336a44d359",
+            "id": "e74113bc84c3f9c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a6ffcf7baf129bf4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5e9596bb5df94775",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-Legacy/0-CoursesPart2/StatisticalLearning_book/TreeBased_modeling.md",
+                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "5d4ed997ac60854d",
+        "type": "tabs",
+        "children": [
           {
-            "id": "77bd044de66a837c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/NeuralNetworks/Backpropagation.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d186001ec769efd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Ensemble_learning.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ad40e5cb4d9c07f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ea83985f9fcfbf02",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/Bayes_theorem.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "924514eb092db613",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/Entropy.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "29f638dc4b74d940",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-Legacy/0-GeneralConcepts/P_value.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "13e60f27d5180f43",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/K-nearest_neighbours.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1b4c91849cb47f78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-Legacy/0-GeneralConcepts/TreeModels/Decision_Trees_legacy.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "15de98f640e6cc1b",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "fad4d24fb40ca318",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "972a60355b5fdb10",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "187d894059e50e7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/ErrorMeasures/Model_metrics.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3e3d26f706bcd177",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2487c32a5b144327",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c187662b7e3710e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Naive_Bayes.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "91abbc1d2192e723",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4d317d275777992a",
+            "id": "aff2130f9cd9a893",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -263,98 +40,7 @@
             }
           },
           {
-            "id": "f6eea85270fd3300",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-Legacy/0-CoursesPart2/StatisticalLearning_book/Linear_regression_legacy.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e9fd2a2ef52661c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Gradient_descent_legacy.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ed7413f98345cf6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Stochastic_gradient_descent.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7572bbe40bb50714",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Large_data_ML.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "49d5c723a3ed4c23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Mini-batch_gradient_descent.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d3a1170e6ad6c258",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Linear_regression_legacy.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ec5962b0172d55a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/Image_derivatives.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4f60426f80c343c5",
+            "id": "f6432c6862c76489",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -365,292 +51,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "12394d3cc799ddf5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eb0c526b5829af36",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2d645eb4fc7cfd4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-Legacy/0-GeneralConcepts/NeuralNetworks/Activation_functions.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "59bcaf10ddb3699e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/Detection_algorithms.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b4b6663945074f4a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/OpticalFlow/Optical_flow.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0dc5c4cf3c2f5902",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-Legacy/0-CoursesPart2/DeepLearningCourse/Early_stopping.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "54e7528799d1eb4b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Machine_learning_notation.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c4f9e1a3b3468de0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-Legacy/0-GeneralConcepts/ArgMax&SoftMax.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eab9d391fa543847",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "XX-Attachments/Images/Pasted image 20240405213340.png"
-              }
-            }
-          },
-          {
-            "id": "962743fb38e26d20",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/Event_independence.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "26800625f9a0a7e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/K-nearest_neighbours.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b591ae7a3a4a4bf2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/TreeModels/Decision_trees.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0a067c07f62284e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/TreeModels/Random_forest.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6b3db0216459bfc3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Ensemble_learning.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ac3a88623f86b424",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "104a3df6583cb039",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/ML_error_analysis.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a7e0100d89f7458",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/ClusteringAlgorithms/Clustering.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "794011006bf4112b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/ClusteringAlgorithms/Clustering.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "98fc0f1206756e63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/K-Means_algorithm.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a1548c4c116594bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cb6e0741d547e3c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "731effe322a9679d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/FeatureEngineering/Machine_learning_features.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 27
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -718,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/LinearRegression/Linear_regression.md"
+                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md"
               }
             }
           }
@@ -753,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/LinearRegression/Linear_regression.md",
+                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -770,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/LinearRegression/Linear_regression.md",
+                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -834,36 +237,38 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4f60426f80c343c5",
+  "active": "e74113bc84c3f9c9",
   "lastOpenFiles": [
+    "MachineLearning/K-nearest_neighbours.md",
+    "MachineLearning/Ensemble_learning.md",
+    "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/NeuralNetworks/Gradient_descent.md",
-    "MachineLearning/0-Legacy/0-CoursesPart2/StatisticalLearning_book/Linear_regression_legacy.md",
-    "XX-Attachments/Images/Pasted image 20240413172514.png",
-    "MachineLearning/NeuralNetworks/Backpropagation.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+    "MachineLearning/NeuralNetworks/Neural_networks.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Neural_networks(depreciated).md",
+    "Neural_Network_notation.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/NeuralNetworks/Neural_Network_notation.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/NeuralNetworks/Activation_functions.md",
+    "XX-Attachments/Images/Pasted image 20240413173732.png",
+    "MachineLearning/LinearRegression/Linear_regression.md",
+    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
+    "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
+    "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/K-Means_algorithm.md",
+    "MachineLearning/ClusteringAlgorithms/Clustering.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/ML_error_analysis.md",
+    "MachineLearning/TreeModels/Random_forest.md",
+    "MachineLearning/TreeModels/Decision_trees.md",
+    "Statistics/Event_independence.md",
+    "XX-Attachments/Images/Pasted image 20240405213340.png",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/ArgMax&SoftMax.md",
+    "MachineLearning/Machine_learning_notation.md",
+    "MachineLearning/0-Legacy/0-CoursesPart2/DeepLearningCourse/Early_stopping.md",
+    "MediaCoding/OpticalFlow/Optical_flow.md",
+    "MediaCoding/Detection_algorithms.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
+    "XX-Attachments/Images/Pasted image 20240413172514.png",
     "XX-Attachments/Images/Pasted image 20240413171954.png",
-    "MachineLearning/TreeModels/Decision_trees.md",
-    "MachineLearning/TreeModels/Random_forest.md",
-    "MachineLearning/Ensemble_learning.md",
-    "MachineLearning/NeuralNetworks/Neural_networks.md",
-    "MachineLearning/K-nearest_neighbours.md",
-    "MachineLearning/Logistic_regression.md",
-    "MachineLearning/Machine_learning_notation.md",
-    "MachineLearning/Naive_Bayes.md",
-    "MachineLearning/Statistical_modeling.md",
-    "MachineLearning/GeneticAlgorithms/Mutation.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
-    "MachineLearning/GeneticAlgorithms/Crossover.md",
-    "MachineLearning/FeatureEngineering/Normalisation.md",
-    "MachineLearning/Artificial_intelligence.md",
-    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
-    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
-    "MachineLearning/ErrorMeasures/Model_metrics.md",
     "XX-Attachments/Images/Pasted image 20240413161103.png",
     "XX-Attachments/Images/Pasted image 20240413161039.png",
     "MachineLearning/NeuralNetworks/ActivationFunctions",
@@ -872,10 +277,8 @@
     "XX-Attachments/Images/Pasted image 20240412180133.png",
     "XX-Attachments/Images/Pasted image 20240408224948.png",
     "MachineLearning/GradientDescent",
-    "XX-Attachments/Images/Pasted image 20240408161829.png",
     "MachineLearning/NeuralNetworks",
     "MachineLearning/LinearRegression",
-    "XX-Attachments/Images/Pasted image 20240406191756.png",
     "MachineLearning/TreeModels",
     "MachineLearning/0-Legacy",
     "MachineLearning/ClusteringAlgorithms",
