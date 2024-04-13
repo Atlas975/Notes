@@ -35,7 +35,7 @@ $$\dots$$
 $$E(\beta_{0},\beta_{1})=\frac{1}{2n}\sum_{i=1}^{n}(y_{i}-\hat{y}_{i})^2$$
 
 4. Calculate cost function's partial derivatives for each parameter:
-$$E_{\beta_{0}}=\frac{\partial}{\partial \beta_0}  = \frac{1}{m} \sum_{i=1}^{m} (h_i(x) - y_i)$$
+$$I_{\beta_{0}}=\frac{\partial}{\partial \beta_0}  = \frac{1}{m} \sum_{i=1}^{m} (h_i(x) - y_i)$$
 $$I_{\beta_{1}}=\frac{\partial}{\partial \beta_1}  = \frac{1}{m} \sum_{i=1}^{m} (h_i(x) - y_i) \cdot x_i$$
 5. Update the parameters using the learning rate and partial derivatives:
 

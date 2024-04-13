@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/NeuralNetworks/Backpropagation.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
+                "file": "MachineLearning/0-Legacy/0-GeneralConcepts/TimeSeriesAnalysis/Bias_correction.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "5d4ed997ac60854d",
@@ -86,7 +86,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/LinearRegression/Linear_regression.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Backpropagation.md"
+                "file": "MachineLearning/0-Legacy/0-GeneralConcepts/TimeSeriesAnalysis/Bias_correction.md"
               }
             }
           }
@@ -195,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Backpropagation.md",
+                "file": "MachineLearning/0-Legacy/0-GeneralConcepts/TimeSeriesAnalysis/Bias_correction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Backpropagation.md",
+                "file": "MachineLearning/0-Legacy/0-GeneralConcepts/TimeSeriesAnalysis/Bias_correction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -276,9 +276,23 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "aff2130f9cd9a893",
+  "active": "f4cdb434e48cd8b6",
   "lastOpenFiles": [
+    "MachineLearning/0-Legacy/0-GeneralConcepts/TimeSeriesAnalysis/Exponentially_weighted_averages.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/TreeModels/Regression_trees.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/TreeModels/Random_forests.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/TreeModels/Decision_Trees_legacy.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/Bayes_classifier.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/Bootstrapping.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/Calculating_mean,variance&SD.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/Computation_graph.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/Determinants.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/DefiningAGroup.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/Cross_entropy.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/NeuralNetworks/NeuralNetwork_intuition.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/NeuralNetworks/NeuralNetwork_fitting.md",
     "MachineLearning/NeuralNetworks/Neural_networks.md",
+    "MachineLearning/NeuralNetworks/Neural_Network_notation.md",
     "MachineLearning/NeuralNetworks/Backpropagation.md",
     "MachineLearning/LinearRegression/Linear_regression.md",
     "MachineLearning/NeuralNetworks/Gradient_descent.md",
@@ -290,22 +304,8 @@
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Neural_networks(depreciated).md",
     "Neural_Network_notation.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/NeuralNetworks/Neural_Network_notation.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/NeuralNetworks/Activation_functions.md",
     "XX-Attachments/Images/Pasted image 20240413173732.png",
-    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
-    "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
-    "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
-    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/K-Means_algorithm.md",
-    "MachineLearning/ClusteringAlgorithms/Clustering.md",
-    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/ML_error_analysis.md",
-    "MachineLearning/TreeModels/Random_forest.md",
-    "MachineLearning/TreeModels/Decision_trees.md",
-    "Statistics/Event_independence.md",
     "XX-Attachments/Images/Pasted image 20240405213340.png",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/ArgMax&SoftMax.md",
-    "MachineLearning/Machine_learning_notation.md",
-    "MachineLearning/0-Legacy/0-CoursesPart2/DeepLearningCourse/Early_stopping.md",
-    "MediaCoding/OpticalFlow/Optical_flow.md",
     "XX-Attachments/Images/Pasted image 20240413172514.png",
     "XX-Attachments/Images/Pasted image 20240413171954.png",
     "XX-Attachments/Images/Pasted image 20240413161103.png",

@@ -15,7 +15,7 @@ ___
 
 
 
-## Bac. propagation in Neural Networks
+## Bacpropagation in Neural Networks
 
 Backpropagation is a fundamental algorithm used for training neural networks. It efficiently computes the gradient of the loss function with respect to the weights of the network.
 
@@ -26,42 +26,35 @@ Backpropagation is a fundamental algorithm used for training neural networks. It
 
 ### Process
 
-1. **Forward Pass**:
-   - Compute the output of each neuron layer by layer until the final output is obtained.
+- **Forward Pass**:
+    -  Input \(x\) is passed through the network layers.
+      - Each neuron output is computed using $$z = wx + b$$ and passed through an activation function $$a = f(z)$$
 
-2. **Loss Calculation**:
-   - Determine the error at the output by comparing the network's prediction with the true target values using a loss function.
+- **Loss Calculation**:
+  - For regression with Mean Squared Error: $$L = \frac{1}{2}(y - \hat{y})^2$$
+  - For classification with Cross-Entropy: $$L = -y \log(\hat{y}) - (1-y) \log(1-\hat{y})$$
+  - Here, \(y\) is the true label and \(\hat{y}\) is the predicted label from the forward pass.
 
-3. **Backward Pass**:
-   - Compute the gradient of the loss function with respect to each weight by propagating the error backward through the network.
+- **Backward Pass (Backpropagation)**:
+  - Compute the gradient of the loss function with respect to the output from the last layer: $$\frac{\partial L}{\partial \hat{y}}$$
+  - Propagate this gradient back through the network using the chain rule: $$\frac{\partial L}{\partial w} = \frac{\partial L}{\partial \hat{y}}\cdot \frac{\partial \hat{y}}{\partial z} \cdot\frac{\partial z}{\partial w}$$
 
-### Key Steps
+- **Gradient Calculation**:
+  - For weights: $$\frac{\partial L}{\partial w} = \frac{\partial L}{\partial a} f'(z) x$$
+  - For biases: $$\frac{\partial L}{\partial b} = \frac{\partial L}{\partial a} f'(z)$$
+  - \(f'(z)\) is the derivative of the activation function, which varies depending on the function used (e.g., sigmoid, ReLU).
 
-1. **Calculate Output Error**:
-   - For the output layer, calculate the difference between the network output and the true target.
-   $$
-   \delta^{(\text{output})} = \text{Derived Error based on loss function}
-   $$
+- **Update Weights**:
+  - Update rule for weights using Gradient Descent: $$w = w - \eta \frac{\partial L}{\partial w}$$
+  - Here, \(\eta\) is the learning rate, a small positive scalar determining the size of the step to take on each iteration.
 
-2. **Propagate Error Backwards**:
-   - For each layer, starting from the last hidden layer to the input layer, propagate the error.
-   $$
-   \delta^{(l)} = (\Theta^{(l+1)})^T \delta^{(l+1)} \odot f'(z^{(l)})
-   $$
-   - Here, \( \odot \) represents element-wise multiplication, and \( f'(z^{(l)}) \) is the derivative of the activation function.
+- **Iteration**:
+  - Repeat the forward pass, loss calculation, backward pass, and weight update for each batch of data or epoch.
 
-3. **Gradient Calculation**:
-   - Compute the gradient of the loss function for each weight.
-   $$
-   \frac{\partial}{\partial \Theta^{(l)}_{ij}} = a^{(l)}_j \delta^{(l+1)}_i
-   $$
+- **Convergence**:
+  - Continue iterations until the network’s performance stops improving significantly on a hold-out validation set, or a maximum number of epochs is reached.
 
-4. **Update Weights**:
-   - Adjust the weights in the negative direction of the gradient to minimize the loss.
-   $$
-   \Theta^{(l)}_{ij} = \Theta^{(l)}_{ij} - \alpha \frac{\partial}{\partial \Theta^{(l)}_{ij}}
-   $$
-   - \( \alpha \) is the learning rate.
+
 
 ### Considerations
 
