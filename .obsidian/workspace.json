@@ -26,15 +26,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
+                "file": "MachineLearning/NeuralNetworks/Backpropagation.md",
                 "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d4cfdd1b8f073bb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ec67deac5f07853d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "5d4ed997ac60854d",
@@ -237,9 +263,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "aff2130f9cd9a893",
+  "active": "ec67deac5f07853d",
   "lastOpenFiles": [
     "MachineLearning/NeuralNetworks/Gradient_descent.md",
+    "MachineLearning/NeuralNetworks/Backpropagation.md",
+    "MachineLearning/NeuralNetworks/Untitled.md",
+    "MachineLearning/LinearRegression/Linear_regression.md",
     "MachineLearning/NeuralNetworks/Neural_networks.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
     "MachineLearning/K-nearest_neighbours.md",
@@ -250,7 +279,6 @@
     "MachineLearning/0-Legacy/0-GeneralConcepts/NeuralNetworks/Neural_Network_notation.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/NeuralNetworks/Activation_functions.md",
     "XX-Attachments/Images/Pasted image 20240413173732.png",
-    "MachineLearning/LinearRegression/Linear_regression.md",
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
     "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
     "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
@@ -265,8 +293,6 @@
     "MachineLearning/Machine_learning_notation.md",
     "MachineLearning/0-Legacy/0-CoursesPart2/DeepLearningCourse/Early_stopping.md",
     "MediaCoding/OpticalFlow/Optical_flow.md",
-    "MediaCoding/Detection_algorithms.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
     "XX-Attachments/Images/Pasted image 20240413172514.png",
     "XX-Attachments/Images/Pasted image 20240413171954.png",
     "XX-Attachments/Images/Pasted image 20240413161103.png",

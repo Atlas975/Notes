@@ -25,20 +25,7 @@ $$I_{\beta}=\text{cost function gradient with respect to each parameter}$$
 ![[Pasted image 20240408224948.png|350|350]]
 
 
-## Forward pass process
-- The following will be used to demonstrate the process, with more hidden layers this would involve repeating step 1-3 using the previous activations as input
 
-![[Pasted image 20240413173732.png|600|600]]
-
-1.  Randomly initialise the network weight $w$, typically done with values between 0-1
-2. Get the input values for the current sample / batch($x_{1}\dots x_{n}$)
-3. Calculate the activations for the hidden layer neuron's using an [[Activation_functions|activation]] function ($\sigma$)
-
-$$a^{(2)}_1 = \sigma(w^{(2)}_{11} x_1 + w^{(2)}_{21} x_2)$$
-$$a^{(2)}_2 = \sigma(w^{(2)}_{12} x_1 + w^{(2)}_{22} x_2)$$
-$$\dots$$
-4. Calculate cost at the output layer ($a^{(n)}_{1}=\hat{y}$)
-$$E=\frac{1}{2}(y-\hat{y})$$
 ## Gradient descent variants
 - Variants of the algorithm exist differing in how much data is used to calculate the gradient each iteration, offering different trade-offs in speed, accuracy and computational resources
 - This addresses specific challenges like large data volumes, computational limitations, and the need for faster convergence or more stable learning

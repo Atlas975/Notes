@@ -18,13 +18,28 @@ ___
 
 - A deep learning framework, operates by tuning the weights and bias parameters to minimise the cost function, [[Activation_functions|activation]] layers are placed in a network style layout
 
+- A neural network consists of the following components:
+    - $w$ (weights) correspond to how strong a connection from one neuron to another is
+    - $a$ (activation function) squishes the results of the weights and inputs so that the result is a value ranging between 0 and 1.
+    - $b$ (bias) added before squishing with an activation function and can be thought of as an additional neuron added to each layer. Acts as a y-intercept
 
 
-$w$ (weights) correspond to how strong a connection from one neuron to another is
 
-$a$ (activation function) squishes the results of the weights and inputs so that the result is a value ranging between 0 and 1.
+## Forward pass process
+- The following will be used to demonstrate the process, with more hidden layers this would involve repeating step 1-3 using the previous activations as input
 
-$b$ (bias) ensures that the result of the weight and input product is only meaningful after a certain threshold is met. It is added before squishing with an activation function and can be thought of as an additional neuron added to each layer
+![[Pasted image 20240413173732.png|600|600]]
+
+1.  Randomly initialise the network weight $w$, typically done with values between 0-1
+2. Get the input values for the current sample / batch($x_{1}\dots x_{n}$)
+3. Calculate the activations for the hidden layer neuron's using an [[Activation_functions|activation]] function ($\sigma$)
+
+$$a^{(2)}_1 = \sigma(w^{(2)}_{11} x_1 + w^{(2)}_{21} x_2)$$
+$$a^{(2)}_2 = \sigma(w^{(2)}_{12} x_1 + w^{(2)}_{22} x_2)$$
+$$\dots$$
+
+4. Calculate cost at the output layer ($a^{(n)}_{1}=\hat{y}$) \*note that this is for binary classification
+$$E=\frac{1}{2}(y-\hat{y})$$
 # Backpropagation
 - Computation graph example:
 
