@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/Normalisation.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/Normalisation.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -216,7 +216,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/ActivationFunctions/Softmax.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -372,7 +372,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/ActivationFunctions/Activation_functions.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -385,7 +385,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/ActivationFunctions/Sigmoid_function.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -649,8 +649,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -718,7 +717,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/Normalisation.md"
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md"
               }
             }
           }
@@ -753,7 +752,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/Normalisation.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -770,7 +769,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/Normalisation.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -834,40 +833,40 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ad40e5cb4d9c07f3",
+  "active": "0d1302336a44d359",
   "lastOpenFiles": [
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
+    "MachineLearning/TreeModels/Decision_trees.md",
+    "MachineLearning/TreeModels/Random_forest.md",
+    "MachineLearning/Ensemble_learning.md",
+    "MachineLearning/NeuralNetworks/Neural_networks.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
+    "MachineLearning/NeuralNetworks/Backpropagation.md",
+    "MachineLearning/NeuralNetworks/Gradient_descent.md",
+    "MachineLearning/K-nearest_neighbours.md",
+    "MachineLearning/Logistic_regression.md",
+    "MachineLearning/Machine_learning_notation.md",
+    "MachineLearning/Naive_Bayes.md",
+    "MachineLearning/Statistical_modeling.md",
+    "MachineLearning/GeneticAlgorithms/Mutation.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+    "MachineLearning/GeneticAlgorithms/Crossover.md",
+    "MachineLearning/FeatureEngineering/Normalisation.md",
+    "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
     "MachineLearning/ErrorMeasures/Confusion_matrices.md",
     "MachineLearning/ErrorMeasures/Model_metrics.md",
-    "MachineLearning/ActivationFunctions/Softmax.md",
-    "MachineLearning/ActivationFunctions/Activation_functions.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/NeuralNetworks/Activation_functions.md",
-    "MachineLearning/ActivationFunctions/Sigmoid_function.md",
     "XX-Attachments/Images/Pasted image 20240413161103.png",
     "XX-Attachments/Images/Pasted image 20240413161039.png",
-    "MachineLearning/NeuralNetworks/Neural_networks.md",
-    "MachineLearning/ActivationFunctions",
-    "MachineLearning/NeuralNetworks/Gradient_descent.md",
-    "MachineLearning/NeuralNetworks/Backpropagation.md",
-    "MachineLearning/Logistic_regression.md",
-    "MachineLearning/LinearRegression/Linear_regression.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions",
     "XX-Attachments/Images/Pasted image 20240412180359.png",
     "XX-Attachments/Images/Pasted image 20240412180216.png",
     "XX-Attachments/Images/Pasted image 20240412180133.png",
-    "MediaCoding/OpticalFlow/Optical_flow.md",
-    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
-    "MediaCoding/Media_coding.md",
-    "MediaCoding/Image_derivatives.md",
-    "MediaCoding/Edge_detection.md",
-    "MediaCoding/Detection_algorithms.md",
-    "MediaCoding/Convolution.md",
-    "MachineLearning/Ensemble_learning.md",
-    "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
-    "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
-    "MachineLearning/ClusteringAlgorithms/Clustering.md",
-    "MachineLearning/ActivationFunctions/Argmax.md",
     "XX-Attachments/Images/Pasted image 20240408224948.png",
     "MachineLearning/GradientDescent",
     "XX-Attachments/Images/Pasted image 20240408161829.png",

@@ -12,7 +12,7 @@
 ___
 # Normalisation
 - Involves adjusting differently scaled data to use a common scale without distorting the differences between them, making it easier to compare and analyse.
-- Improves the performance and accuracy of ML algorithms by ensuring that each feature contributes proportionately to the final prediction
+- Improves the performance and accuracy of [[Artificial_intelligence|ML]] algorithms by ensuring that each feature contributes proportionately to the final prediction
 - Features being within similar ranges is also vital for fast convergence in gradient descent
 ## Standardisation 
 - Done to ensure that data falls within a normal distribution
@@ -38,6 +38,6 @@ $$\mathcal{x'}=\frac{x-x_{min}}{x_{max}-x_{min}}$$
 $$x'=\frac{x}{\sum x_{i}}$$
 ## Euclidean (L2) normalisation 
 - Converts data into unit vectors with magnitudes equal to 1
-- In machine learning this can help in regularising the model, preventing overfitting by ensuring that the magnitude of weights doesn't grow too large.
+- In [[Artificial_intelligence|ML]] this can help in regularising the model, preventing overfitting by ensuring that the magnitude of weights doesn't grow too large.
 
 $$x'=\frac{x}{\sqrt{ \sum x_{i}^2 }}$$

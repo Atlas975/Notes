@@ -1,7 +1,8 @@
 ---
 aliases:
   - AI
-tags: []
+  - ML
+tags:
 ---
 
 > [!important]- Metadata

@@ -12,7 +12,7 @@
 ___
 # Sigmoid function
 
-- Maps any real-valued number into a value between 0 and 1. It's an [[MachineLearning/ActivationFunctions/Activation_functions|activation]] function commonly used in logistic regression and neural networks, particularly in layers that predict probabilities.
+- Maps any real-valued number into a value between 0 and 1. It's an [[MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions|activation]] function commonly used in logistic regression and neural networks, particularly in layers that predict probabilities.
 
   $$ \sigma(x) = \frac{1}{1 + e^{-x}} $$
 
