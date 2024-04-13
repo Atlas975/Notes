@@ -47,3 +47,19 @@ $$E=\frac{1}{2}(y-\hat{y})$$
 ![[Pasted image 20220621204400.png|450|450]]
 
 ![[Pasted image 20220305133049.png|450|450]]
+
+
+## Neural network notation
+
+$$w=\text{weights}$$
+$$b=\text{bias}$$
+$$a=\text{activation}$$
+$$z=\text{output (activation of the next layer)}$$
+
+### Parameter notation
+
+ $$a_{j}^{[i][t][k]}$$
+$$i=\text{layer}$$
+$$j=\text{neuron in layer vector}$$
+$$t=\text{batch number}$$
+$$k=\text{example}$$
