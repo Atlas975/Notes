@@ -1,3 +1,7 @@
+---
+aliases:
+  - NN
+---
 > [!important]- Metadata
 > **Tags:** #StatisticalLearning 
 > **Located:** MachineLearning

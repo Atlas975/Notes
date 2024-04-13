@@ -367,6 +367,19 @@
             }
           },
           {
+            "id": "12394d3cc799ddf5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/ActivationFunctions/Sigmoid_function.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "59bcaf10ddb3699e",
             "type": "leaf",
             "state": {
@@ -611,7 +624,7 @@
             }
           }
         ],
-        "currentTab": 27
+        "currentTab": 28
       }
     ],
     "direction": "vertical"
@@ -679,7 +692,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/LinearRegression/Linear_regression.md"
+                "file": "MachineLearning/ActivationFunctions/Sigmoid_function.md"
               }
             }
           }
@@ -687,8 +700,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -715,7 +727,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/LinearRegression/Linear_regression.md",
+                "file": "MachineLearning/ActivationFunctions/Sigmoid_function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -732,7 +744,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/LinearRegression/Linear_regression.md",
+                "file": "MachineLearning/ActivationFunctions/Sigmoid_function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -796,8 +808,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4f60426f80c343c5",
+  "active": "12394d3cc799ddf5",
   "lastOpenFiles": [
+    "MachineLearning/NeuralNetworks/Neural_networks.md",
+    "MachineLearning/ActivationFunctions/Sigmoid_function.md",
+    "MachineLearning/Activation_functions.md",
+    "MachineLearning/ActivationFunctions",
+    "MachineLearning/NeuralNetworks/Gradient_descent.md",
+    "MachineLearning/NeuralNetworks/Backpropagation.md",
+    "MachineLearning/Logistic_regression.md",
+    "MachineLearning/LinearRegression/Linear_regression.md",
     "XX-Attachments/Images/Pasted image 20240412180359.png",
     "XX-Attachments/Images/Pasted image 20240412180216.png",
     "XX-Attachments/Images/Pasted image 20240412180133.png",
@@ -807,9 +827,7 @@
     "MediaCoding/Image_derivatives.md",
     "MediaCoding/Edge_detection.md",
     "MediaCoding/Detection_algorithms.md",
-    "MachineLearning/LinearRegression/Linear_regression.md",
     "MediaCoding/Convolution.md",
-    "MachineLearning/Logistic_regression.md",
     "MachineLearning/Ensemble_learning.md",
     "MachineLearning/ClusteringAlgorithms/K-means_clustering.md",
     "MachineLearning/ClusteringAlgorithms/Hierarchal_clustering.md",
@@ -819,11 +837,7 @@
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
-    "MachineLearning/Activation_functions.md",
     "MachineLearning/Argmax.md",
-    "MachineLearning/NeuralNetworks/Neural_networks.md",
-    "MachineLearning/NeuralNetworks/Gradient_descent.md",
-    "MachineLearning/NeuralNetworks/Backpropagation.md",
     "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/Artificial_intelligence.md",
     "XX-Attachments/Images/Pasted image 20240408224948.png",
@@ -836,13 +850,11 @@
     "XX-Attachments/Images/Pasted image 20240406002445.png",
     "XX-Attachments/Images/Pasted image 20240405213340.png",
     "XX-Attachments/Images/Pasted image 20240404195206.png",
-    "XX-Attachments/Images/Pasted image 20240404063622.png",
     "MachineLearning/TreeModels",
     "MachineLearning/0-Legacy",
     "MachineLearning/ClusteringAlgorithms",
     "MachineLearning/ErrorMeasures",
     "MediaCoding/Watermarking",
-    "MediaCoding/DiscreteCosineTansform",
-    "LinearAlgebra"
+    "MediaCoding/DiscreteCosineTansform"
   ]
 }
