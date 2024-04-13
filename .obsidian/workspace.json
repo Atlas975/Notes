@@ -649,7 +649,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 29
       }
     ],
     "direction": "vertical"
@@ -717,7 +718,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md"
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md"
               }
             }
           }
@@ -752,7 +753,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -769,7 +770,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -833,8 +834,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0d1302336a44d359",
+  "active": "eb0c526b5829af36",
   "lastOpenFiles": [
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
     "MachineLearning/TreeModels/Decision_trees.md",
     "MachineLearning/TreeModels/Random_forest.md",
@@ -842,7 +844,6 @@
     "MachineLearning/NeuralNetworks/Neural_networks.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
     "MachineLearning/NeuralNetworks/Backpropagation.md",
     "MachineLearning/NeuralNetworks/Gradient_descent.md",
     "MachineLearning/K-nearest_neighbours.md",
