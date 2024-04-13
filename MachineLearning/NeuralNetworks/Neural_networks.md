@@ -2,6 +2,7 @@
 aliases:
   - NN
 ---
+
 > [!important]- Metadata
 > **Tags:** #StatisticalLearning 
 > **Located:** MachineLearning
@@ -19,9 +20,9 @@ ___
 - A deep learning framework, operates by tuning the weights and bias parameters to minimise the cost function, [[Activation_functions|activation]] layers are placed in a network style layout
 
 - A neural network consists of the following components:
-    - $w$ (weights) correspond to how strong a connection from one neuron to another is
-    - $a$ (activation function) squishes the results of the weights and inputs so that the result is a value ranging between 0 and 1.
-    - $b$ (bias) added before squishing with an activation function and can be thought of as an additional neuron added to each layer. Acts as a y-intercept
+	- $w$ (weights) correspond to how strong a connection from one neuron to another is
+	- $a$ (activation function) squishes the results of the weights and inputs so that the result is a value ranging between 0 and 1.
+	- $b$ (bias) Iadded before squishing with an activation function and can be thought of as an additional neuron added to each layer. Acts as a y-intercept
 
 
 
@@ -34,8 +35,8 @@ ___
 2. Get the input values for the current sample / batch($x_{1}\dots x_{n}$)
 3. Calculate the activations for the hidden layer neuron's using an [[Activation_functions|activation]] function ($\sigma$)
 
-$$a^{(2)}_1 = \sigma(w^{(2)}_{11} x_1 + w^{(2)}_{21} x_2)$$
-$$a^{(2)}_2 = \sigma(w^{(2)}_{12} x_1 + w^{(2)}_{22} x_2)$$
+$$z^{(2)}_1 = \sigma(w^{(2)}_{11} x_1 + w^{(2)}_{21} x_2)$$
+$$z^{(2)}_2 = \sigma(w^{(2)}_{12} x_1 + w^{(2)}_{22} x_2)$$
 $$\dots$$
 
 4. Calculate cost at the output layer ($a^{(n)}_{1}=\hat{y}$) \*note that this is for binary classification
@@ -46,5 +47,3 @@ $$E=\frac{1}{2}(y-\hat{y})$$
 ![[Pasted image 20220621204400.png|450|450]]
 
 ![[Pasted image 20220305133049.png|450|450]]
-
-

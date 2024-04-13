@@ -52,6 +52,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "MachineLearning/NeuralNetworks/Backpropagation.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f4cdb434e48cd8b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
                 "mode": "preview",
                 "backlinks": false,
@@ -60,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "5d4ed997ac60854d",
@@ -147,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Neural_networks.md"
+                "file": "MachineLearning/NeuralNetworks/Backpropagation.md"
               }
             }
           }
@@ -182,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
+                "file": "MachineLearning/NeuralNetworks/Backpropagation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
+                "file": "MachineLearning/NeuralNetworks/Backpropagation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -263,13 +276,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ec67deac5f07853d",
+  "active": "aff2130f9cd9a893",
   "lastOpenFiles": [
-    "MachineLearning/NeuralNetworks/Gradient_descent.md",
-    "MachineLearning/NeuralNetworks/Backpropagation.md",
-    "MachineLearning/NeuralNetworks/Untitled.md",
-    "MachineLearning/LinearRegression/Linear_regression.md",
     "MachineLearning/NeuralNetworks/Neural_networks.md",
+    "MachineLearning/NeuralNetworks/Backpropagation.md",
+    "MachineLearning/LinearRegression/Linear_regression.md",
+    "MachineLearning/NeuralNetworks/Gradient_descent.md",
+    "MachineLearning/NeuralNetworks/Untitled.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
     "MachineLearning/K-nearest_neighbours.md",
     "MachineLearning/Ensemble_learning.md",
