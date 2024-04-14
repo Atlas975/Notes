@@ -47,6 +47,19 @@
             }
           },
           {
+            "id": "069410be87277b3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Entropy.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ec67deac5f07853d",
             "type": "leaf",
             "state": {
@@ -60,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -128,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md"
+                "file": "Statistics/Entropy.md"
               }
             }
           }
@@ -163,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
+                "file": "Statistics/Entropy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
+                "file": "Statistics/Entropy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,8 +265,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d4cfdd1b8f073bb9",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
+    "MachineLearning/NeuralNetworks/Gradient_descent.md",
     "MachineLearning/NeuralNetworks/Backpropagation.md",
     "MachineLearning/Machine_learning_notation.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/Support_vector_machines.md",
@@ -261,7 +275,6 @@
     "MachineLearning/NeuralNetworks/Neural_networks.md",
     "MachineLearning/Logistic_regression.md",
     "MachineLearning/K-nearest_neighbours.md",
-    "MachineLearning/NeuralNetworks/Gradient_descent.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/T_test.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/Sampling_basics.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/Probability_basics.md",
