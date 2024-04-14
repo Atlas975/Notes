@@ -60,6 +60,19 @@
             }
           },
           {
+            "id": "4933650c7f57f7a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/ErrorMeasures/Model_metrics.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ec67deac5f07853d",
             "type": "leaf",
             "state": {
@@ -73,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -141,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Entropy.md"
+                "file": "MachineLearning/ErrorMeasures/Model_metrics.md"
               }
             }
           }
@@ -176,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Entropy.md",
+                "file": "MachineLearning/ErrorMeasures/Model_metrics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Entropy.md",
+                "file": "MachineLearning/ErrorMeasures/Model_metrics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,8 +278,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "61b6b073dac95afd",
+  "active": "4933650c7f57f7a1",
   "lastOpenFiles": [
+    "Statistics/Entropy.md",
     "MachineLearning/NeuralNetworks/Gradient_descent.md",
     "MachineLearning/NeuralNetworks/Backpropagation.md",
     "MachineLearning/Machine_learning_notation.md",
@@ -292,7 +306,6 @@
     "MachineLearning/0-Legacy/0-GeneralConcepts/TreeModels/Decision_Trees_legacy.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/TimeSeriesAnalysis/Exponentially_weighted_averages.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/TimeSeriesAnalysis/Bias_correction.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/TreeModels/Regression_trees.md",
     "XX-Attachments/Images/Pasted image 20240413173732.png",
     "XX-Attachments/Images/Pasted image 20240405213340.png",
     "XX-Attachments/Images/Pasted image 20240413172514.png",
