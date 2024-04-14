@@ -221,9 +221,17 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "9793c220506a78d3",
+            "type": "leaf",
+            "state": {
+              "type": "markpilot-chat-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -244,7 +252,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d4cfdd1b8f073bb9",
+  "active": "9793c220506a78d3",
   "lastOpenFiles": [
     "MachineLearning/NeuralNetworks/Backpropagation.md",
     "MachineLearning/Machine_learning_notation.md",
