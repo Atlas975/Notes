@@ -15,6 +15,9 @@ ___
 
 
 
+![[Pasted image 20240414221901.png|200|200]]
+
+## Backpropagation algorithm 
 ## Bacpropagation in Neural Networks
 
 Backpropagation is a fundamental algorithm used for training neural networks. It efficiently computes the gradient of the loss function with respect to the weights of the network.
@@ -53,8 +56,6 @@ Backpropagation is a fundamental algorithm used for training neural networks. It
 
 - **Convergence**:
   - Continue iterations until the network’s performance stops improving significantly on a hold-out validation set, or a maximum number of epochs is reached.
-
-
 
 ### Considerations
 
