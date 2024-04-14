@@ -58,54 +58,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f4cdb434e48cd8b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Machine_learning_notation.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d2d28b62e9a06d1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 5
-      },
-      {
-        "id": "5d4ed997ac60854d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f6432c6862c76489",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/LinearRegression/Linear_regression.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          }
-        ]
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -173,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Neural_networks.md"
+                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md"
               }
             }
           }
@@ -208,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
+                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
+                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -289,15 +244,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d2d28b62e9a06d1c",
+  "active": "d4cfdd1b8f073bb9",
   "lastOpenFiles": [
+    "MachineLearning/NeuralNetworks/Backpropagation.md",
     "MachineLearning/Machine_learning_notation.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/Support_vector_machines.md",
+    "MachineLearning/LinearRegression/Linear_regression.md",
+    "MachineLearning/NeuralNetworks/Neural_networks.md",
     "MachineLearning/Logistic_regression.md",
     "MachineLearning/K-nearest_neighbours.md",
-    "MachineLearning/NeuralNetworks/Neural_networks.md",
     "MachineLearning/NeuralNetworks/Gradient_descent.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/T_test.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/Support_vector_machines.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/Sampling_basics.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/Probability_basics.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/P_value.md",
@@ -315,8 +272,6 @@
     "MachineLearning/0-Legacy/0-GeneralConcepts/TimeSeriesAnalysis/Exponentially_weighted_averages.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/TimeSeriesAnalysis/Bias_correction.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/TreeModels/Regression_trees.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/TreeModels/Random_forests.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/Bayes_classifier.md",
     "XX-Attachments/Images/Pasted image 20240413173732.png",
     "XX-Attachments/Images/Pasted image 20240405213340.png",
     "XX-Attachments/Images/Pasted image 20240413172514.png",
