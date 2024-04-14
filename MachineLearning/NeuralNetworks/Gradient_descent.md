@@ -65,3 +65,4 @@ $$\alpha = \alpha_0 \times e^{-\text{decay\_rate} \cdot \text{epoch}}$$
 - Learning rate is reduced over time, inversely proportional to the time number of epochs
 
 $$\alpha = \frac{\alpha_0}{1 + \text{decay\_rate} \cdot \text{epoch}}$$
+
