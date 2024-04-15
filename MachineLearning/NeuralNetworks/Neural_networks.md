@@ -22,9 +22,16 @@ ___
 - A neural network consists of the following components:
 	- $w$ (weights) correspond to how strong a connection from one neuron to another is
 	- $a$ (activation function) squishes the results of the weights and inputs so that the result is a value ranging between 0 and 1.
-	- $b$ (bias) Iadded before squishing with an activation function and can be thought of as an additional neuron added to each layer. Acts as a y-intercept
+	- $b$ (bias) added before squishing with an activation function and can be thought of as an additional neuron added to each layer. Acts as a y-intercept
 
 
+
+## Network structure
+-  **Input Layer**: Receives raw data. Each neuron in this layer represents a feature of the input data.
+-  **Hidden Layers**: Perform computations and feature transformations. A network may have multiple hidden layers, allowing it to learn complex patterns.
+-  **Output Layer**: Produces the final results or predictions, often in the form of classifications (e.g., identifying the content of an image) or continuous values (e.g., predicting prices).
+
+##
 
 ## Forward pass process
 - The following will be used to demonstrate the process, with more hidden layers this would involve repeating step 1-3 using the previous activations as input
@@ -51,10 +58,10 @@ $$E=\frac{1}{2}(y-\hat{y})$$
 
 ## Neural network notation
 
-$$w=\text{weights}$$
-$$b=\text{bias}$$
-$$a=\text{activation}$$
-$$z=\text{output (activation of the next layer)}$$
+$$w=\text{weights, strength of a connection between neurons}$$
+$$b=\text{bias, }$$
+$$z=\text{net input to neurons (fed to activation)}$$
+$$a=\text{activation output, }\sigma(z) \text{ }$$
 
 ### Parameter notation
 
