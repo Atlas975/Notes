@@ -17,7 +17,12 @@ ___
 
 ![[Pasted image 20240414221901.png|200|200]]
 
+
+
 ## Backpropagation algorithm 
+- The derivates with respect to the loss function $L$ follow a general pattern:
+    - $@c$
+- $$\frac{ \partial L }{ \partial z }=\frac{ \partial L }{ \partial a }  $$
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
