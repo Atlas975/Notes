@@ -17,7 +17,7 @@ ___
 
 
 
-## Derivatives in backpropagation 
+## Derivatives in backpropagation
 - Derivatives provide essential information on both the direction and magnitude for adjusting network parameters, this is performed using the chain rule 
 - This is crucial for dealing with non-linear activation functions in the network, ensuring proper propagation of gradients through multiple layers and efficient cost function minimisation
 
@@ -31,8 +31,13 @@ $$\text{output layer}=z\to \sigma(z) \to L(a)$$
 $$\frac{ \partial L }{ \partial z }= \frac{ \partial a }{ \partial z } \cdot \frac{ \partial L }{ \partial a }   $$
 $$\text{hidden layer}=z\to \sigma(z) \to w\cdot a+b$$
 $$\frac{ \partial L }{ \partial z }= \frac{ \partial a }{ \partial z } \cdot \frac{ \partial L }{ \partial w }\cdot \frac{ \partial L }{ \partial a }\cdot \frac{ \partial L }{ \partial b }  $$
-- w.r.t the net input
-$$\text{hidden layer}=\frac{ \partial a }{ \partial z }z $$
+- w.r.t the net input, multiple activation ($\sigma$) and cost ($C$) functions exist each with unique derivatives so the function derivatives will be marked with $\sigma'$ and $C'$ respectively 
+$$\text{hidden layer}=\frac{ \partial a }{ \partial z }\sigma(z)\to a $$
+
+$$\frac{ \partial C }{ \partial z } = \sigma'(z)\cdot \frac{ \partial C }{ \partial a }  $$
+
+$$\text{ouput layer}=\frac{ \partial C }{ \partial z }C(z)\to $$
+
 - w.r.t the activations 
  $$\frac{ \partial z }{ \partial a } (w\cdot a+b)\to z$$
  $$\frac{ \partial C }{ \partial a }= w \cdot \frac{ \partial C }{ \partial z } $$
@@ -162,5 +167,3 @@ Backpropagation is a fundamental algorithm used for training neural networks. It
 
 
 - Computation graph example:
-
-
