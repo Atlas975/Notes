@@ -24,23 +24,19 @@ ___
 ![[Pasted image 20220621204400.png||350|350]]
 
 - The cost function ($C$) guides network performance, so all derivatives are calculated with respect to it, this propagates backwards and allows for efficient cost function navigation 
-- The derivates w.r.t the loss function $C$ follow a general pattern:
--  w.r.t the net inputs 
+- These follow a general pattern, multiple activation ($\sigma$) and cost ($C$) functions exist with unique derivatives so these will be marked with $\sigma'$ and $C'$ respectively
 
-$$\text{output layer}=z\to \sigma(z) \to L(a)$$
-$$\frac{ \partial L }{ \partial z }= \frac{ \partial a }{ \partial z } \cdot \frac{ \partial L }{ \partial a }   $$
-$$\text{hidden layer}=z\to \sigma(z) \to w\cdot a+b$$
-$$\frac{ \partial L }{ \partial z }= \frac{ \partial a }{ \partial z } \cdot \frac{ \partial L }{ \partial w }\cdot \frac{ \partial L }{ \partial a }\cdot \frac{ \partial L }{ \partial b }  $$
-- w.r.t the net input, multiple activation ($\sigma$) and cost ($C$) functions exist each with unique derivatives so the function derivatives will be marked with $\sigma'$ and $C'$ respectively 
-$$\text{hidden layer}=\frac{ \partial a }{ \partial z }\sigma(z)\to a $$
+- w.r.t the activations
+ $$\text{hidden layer: }\frac{ \partial z }{ \partial a } (w\cdot a+b)\to z$$
+ $$\frac{ \partial C }{ \partial a }= w \cdot \frac{ \partial C }{ \partial z } $$
 
+$$\text{ouput layer: }\frac{ \partial C }{ \partial a }C(a)\to \text{cost value}  $$
+$$\frac{ \partial C }{ \partial a }=C'(a) $$
+- w.r.t the net input
+$$\frac{ \partial a }{ \partial z }\sigma(z)\to a $$
 $$\frac{ \partial C }{ \partial z } = \sigma'(z)\cdot \frac{ \partial C }{ \partial a }  $$
 
-$$\text{ouput layer}=\frac{ \partial C }{ \partial z }C(z)\to $$
 
-- w.r.t the activations 
- $$\frac{ \partial z }{ \partial a } (w\cdot a+b)\to z$$
- $$\frac{ \partial C }{ \partial a }= w \cdot \frac{ \partial C }{ \partial z } $$
 - w.r.t the weights
 
 $$\frac{ \partial z }{ \partial w } (w\cdot a+b)\to z$$
@@ -83,7 +79,7 @@ w2 = np.random.uniform(-1, 1, size=(hidden_sz, output_sz))  # output weights
 b1 = np.random.uniform(-1, 1, size=(1, hidden_sz))  # hidden biases
 b2 = np.random.uniform(-1, 1, size=(1, output_sz))  # output biases
 
-for epoch in range(max_iterations):  # perform batch gradient descent
+for epoch in range(1):  # perform batch gradient descent
     # forward pass
     z1 = X.dot(w1) + b1
     a1 = activation(z1)  # hidden layer activation
@@ -99,11 +95,12 @@ for epoch in range(max_iterations):  # perform batch gradient descent
     dA1 = dZ2.dot(w2.T) # dL/dA1 = dZ2 * W2
     dZ1 = dA1 * activation_deriv(a1) # dL/dZ1 = dL/dA1 * dA1/dZ1
     dW1 = X.T.dot(dZ1) # dL/dW1 = dX * dZ1
-    dB1 = np.sum(dZ1, axis=0, keepdims=True) # dL/dB1 = dZ1
+    dB1 = sum(dZ1) # dL/dB1 = dZ1
 
     # update weights and biases
     w2 -= learning_rate * dW2 # update weights
     w1 -= learning_rate * dW1
+    print(dZ1)
     b2 -= learning_rate * dB2 # update biases
     b1 -= learning_rate * dB1
 
