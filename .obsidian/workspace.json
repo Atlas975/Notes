@@ -125,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -193,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Backpropagation.md"
+                "file": "MachineLearning/NeuralNetworks/Neural_networks.md"
               }
             }
           }
@@ -228,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Backpropagation.md",
+                "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,7 +245,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Backpropagation.md",
+                "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -317,8 +317,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ec67deac5f07853d",
+  "active": "91d4f13a0955458d",
   "lastOpenFiles": [
+    "MachineLearning/NeuralNetworks/Backpropagation.md",
     "MediaCoding/Image_derivatives.md",
     "MediaCoding/Edge_detection.md",
     "MediaCoding/Detection_algorithms.md",
@@ -334,7 +335,6 @@
     "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
     "MediaCoding/ImageMatching/Gaussian_pyramid.md",
-    "MachineLearning/NeuralNetworks/Backpropagation.md",
     "MachineLearning/NeuralNetworks/Neural_networks.md",
     "XX-Attachments/Images/Pasted image 20240415141755.png",
     "MachineLearning/ErrorMeasures/Model_metrics.md",
