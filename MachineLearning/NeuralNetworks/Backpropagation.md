@@ -23,9 +23,8 @@ ___
 
 ![[Pasted image 20220621204400.png||350|350]]
 
-- Backpropagation starts from the loss function and propagates backwards1
-- The cost function ($C$) guides network performance, so all derivatives ar
-- The derivates w.r.t the loss function $L$ follow a general pattern:
+- The cost function ($C$) guides network performance, so all derivatives are calculated with respect to it, this propagates backwards and allows for efficient cost function navigation 
+- The derivates w.r.t the loss function $C$ follow a general pattern:
 -  w.r.t the net inputs 
 
 $$\text{output layer}=z\to \sigma(z) \to L(a)$$
@@ -33,17 +32,16 @@ $$\frac{ \partial L }{ \partial z }= \frac{ \partial a }{ \partial z } \cdot \fr
 $$\text{hidden layer}=z\to \sigma(z) \to w\cdot a+b$$
 $$\frac{ \partial L }{ \partial z }= \frac{ \partial a }{ \partial z } \cdot \frac{ \partial L }{ \partial w }\cdot \frac{ \partial L }{ \partial a }\cdot \frac{ \partial L }{ \partial b }  $$
 - w.r.t the net input
-
-
+$$\text{hidden layer}=\frac{ \partial a }{ \partial z }z $$
 - w.r.t the activations 
- $$\frac{ \partial C }{ \partial a } (w\cdot a+b)\to\sigma(z)$$
- $$\frac{ \partial C }{ \partial a }= w\cdot \frac{ \partial C }{ \partial z } $$
+ $$\frac{ \partial z }{ \partial a } (w\cdot a+b)\to z$$
+ $$\frac{ \partial C }{ \partial a }= w \cdot \frac{ \partial C }{ \partial z } $$
 - w.r.t the weights
 
-$$\frac{ \partial C }{ \partial w } (w\cdot a+b)\to\sigma(z)$$
-$$\frac{ \partial C }{ \partial a }= w\cdot \frac{ \partial C }{ \partial z } $$
+$$\frac{ \partial z }{ \partial w } (w\cdot a+b)\to z$$
+$$\frac{ \partial C }{ \partial a }= a \cdot \frac{ \partial C }{ \partial z } $$
 - w.r.t the bias
-$$\frac{ \partial C }{ \partial b } (w\cdot a+b)\to\sigma(z)$$
+$$\frac{ \partial z }{ \partial b } (w\cdot a+b)\to z$$
 $$\frac{ \partial C }{ \partial b }=1\cdot \frac{ \partial C }{ \partial z }  $$
 
 ## Backpropagation algorithm
