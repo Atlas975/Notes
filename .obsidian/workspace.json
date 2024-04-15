@@ -99,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Backpropagation.md"
+                "file": "MachineLearning/ErrorMeasures/Model_metrics.md"
               }
             }
           }
@@ -202,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Backpropagation.md",
+                "file": "MachineLearning/ErrorMeasures/Model_metrics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Backpropagation.md",
+                "file": "MachineLearning/ErrorMeasures/Model_metrics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,14 +291,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "aff2130f9cd9a893",
+  "active": "4933650c7f57f7a1",
   "lastOpenFiles": [
+    "MachineLearning/NeuralNetworks/Backpropagation.md",
     "XX-Attachments/Images/Pasted image 20240414221901.png",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
     "MachineLearning/ErrorMeasures/Model_metrics.md",
     "Statistics/Entropy.md",
     "MachineLearning/NeuralNetworks/Gradient_descent.md",
-    "MachineLearning/NeuralNetworks/Backpropagation.md",
     "MachineLearning/Machine_learning_notation.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/Support_vector_machines.md",
     "MachineLearning/LinearRegression/Linear_regression.md",
@@ -329,7 +329,6 @@
     "XX-Attachments/Images/Pasted image 20240412180359.png",
     "XX-Attachments/Images/Pasted image 20240412180216.png",
     "XX-Attachments/Images/Pasted image 20240412180133.png",
-    "XX-Attachments/Images/Pasted image 20240408224948.png",
     "MachineLearning/GradientDescent",
     "MachineLearning/NeuralNetworks",
     "MachineLearning/LinearRegression",
