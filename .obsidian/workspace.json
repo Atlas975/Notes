@@ -118,14 +118,14 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/NeuralNetworks/Backpropagation.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -193,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md"
+                "file": "MachineLearning/NeuralNetworks/Backpropagation.md"
               }
             }
           }
@@ -228,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
+                "file": "MachineLearning/NeuralNetworks/Backpropagation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,7 +245,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
+                "file": "MachineLearning/NeuralNetworks/Backpropagation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -317,10 +317,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d4cfdd1b8f073bb9",
+  "active": "ec67deac5f07853d",
   "lastOpenFiles": [
-    "MediaCoding/Image_derivatives.md",
     "MachineLearning/NeuralNetworks/Gradient_descent.md",
+    "MediaCoding/Image_derivatives.md",
     "MachineLearning/NeuralNetworks/Neural_networks.md",
     "MachineLearning/NeuralNetworks/Backpropagation.md",
     "MediaCoding/Edge_detection.md",
