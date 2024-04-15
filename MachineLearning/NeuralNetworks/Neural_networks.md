@@ -26,12 +26,15 @@ ___
 
 
 
+## Neuron 
+
+
+![[Pasted image 20240415141755.png|300|300]]
 ## Network structure
 -  **Input Layer**: Receives raw data. Each neuron in this layer represents a feature of the input data.
 -  **Hidden Layers**: Perform computations and feature transformations. A network may have multiple hidden layers, allowing it to learn complex patterns.
 -  **Output Layer**: Produces the final results or predictions, often in the form of classifications (e.g., identifying the content of an image) or continuous values (e.g., predicting prices).
 
-##
 
 ## Forward pass process
 - The following will be used to demonstrate the process, with more hidden layers this would involve repeating step 1-3 using the previous activations as input

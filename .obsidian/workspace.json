@@ -79,7 +79,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -112,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Neural_networks.md"
+                "file": "MachineLearning/NeuralNetworks/Backpropagation.md"
               }
             }
           }
@@ -215,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
+                "file": "MachineLearning/NeuralNetworks/Backpropagation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
+                "file": "MachineLearning/NeuralNetworks/Backpropagation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -304,8 +304,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "91d4f13a0955458d",
+  "active": "aff2130f9cd9a893",
   "lastOpenFiles": [
+    "MachineLearning/NeuralNetworks/Neural_networks.md",
+    "XX-Attachments/Images/Pasted image 20240415141755.png",
     "MachineLearning/ErrorMeasures/Model_metrics.md",
     "MachineLearning/NeuralNetworks/Backpropagation.md",
     "XX-Attachments/Images/Pasted image 20240414221901.png",
@@ -315,7 +317,6 @@
     "MachineLearning/Machine_learning_notation.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/Support_vector_machines.md",
     "MachineLearning/LinearRegression/Linear_regression.md",
-    "MachineLearning/NeuralNetworks/Neural_networks.md",
     "MachineLearning/Logistic_regression.md",
     "MachineLearning/K-nearest_neighbours.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/T_test.md",
@@ -341,7 +342,6 @@
     "MachineLearning/NeuralNetworks/ActivationFunctions",
     "XX-Attachments/Images/Pasted image 20240412180359.png",
     "XX-Attachments/Images/Pasted image 20240412180216.png",
-    "XX-Attachments/Images/Pasted image 20240412180133.png",
     "MachineLearning/GradientDescent",
     "MachineLearning/NeuralNetworks",
     "MachineLearning/LinearRegression",
