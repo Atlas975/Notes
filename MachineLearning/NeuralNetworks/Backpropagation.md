@@ -11,15 +11,20 @@
 
 ___
 # Backpropagation
-- An algorithm used to train [[Neural_networks|neural networks]] by optimising the weights ($w$) and biases ($b$) to minimise the cost function typically 
-- These optimisations are performed using [[Gradient_descent|gradient descent]], adjustments 
+- An algorithm used to train [[Neural_networks|neural networks]] by optimising the weights ($w$) and biases ($b$) to minimise the cost function typically by using [[Gradient_descent|gradient descent]]
+- The gradients calculation helps the model adjust parameters proportional to how much influence they have on changing the cost function. 
+- This continues iteratively until the network’s performance stops noticeably improving on a hold-out validation set, or a maximum number of epochs is reached.
 
 
 
+## Derivatives in backpropagation 
+- Derivatives provide essential information on both the direction and magnitude for adjusting network parameters, this is performed using the chain rule 
+- This is crucial for dealing with non-linear activation functions in the network, ensuring proper propagation of gradients through multiple layers and efficient cost function minimisation
 
+![[Pasted image 20220621204400.png||350|350]]
 
-
-## Backpropagation algorithm
+- Backpropagation starts from the loss function and propagates backwards1
+- The loss function ($L$) guides network performance, so all derivatives ar
 - The derivates w.r.t the loss function $L$ follow a general pattern:
 -  w.r.t the net inputs 
 
@@ -32,8 +37,8 @@ $$a\to w\cdot a+b\to\sigma(z)$$
 $$\frac{ \partial L }{ \partial a }=\frac{ \partial L }{ \partial z }\cdot  $$
 
 
+## Backpropagation algorithm
 
-- w.r.t
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -101,7 +106,7 @@ plt.xlabel("Iterations")
 plt.ylabel("Cost")
 plt.show()
 ```
-![[Pasted image 20220621204400.png|450|450]]
+
 ## Bacpropagation in Neural Networks
 
 Backpropagation is a fundamental algorithm used for training neural networks. It efficiently computes the gradient of the loss function with respect to the weights of the network.
@@ -152,4 +157,3 @@ Backpropagation is a fundamental algorithm used for training neural networks. It
 - Computation graph example:
 
 
-![[Pasted image 20220305133049.png|450|450]]
