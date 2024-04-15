@@ -24,7 +24,7 @@ ___
 ![[Pasted image 20220621204400.png||350|350]]
 
 - Backpropagation starts from the loss function and propagates backwards1
-- The loss function ($L$) guides network performance, so all derivatives ar
+- The cost function ($C$) guides network performance, so all derivatives ar
 - The derivates w.r.t the loss function $L$ follow a general pattern:
 -  w.r.t the net inputs 
 
