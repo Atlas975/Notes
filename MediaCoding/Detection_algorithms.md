@@ -46,4 +46,4 @@ b_{w}=\text{expressed as fraction of overall width of box}\\
 
 # U-net
 ![[Pasted image 20220801223553.png|450|450]]
-$$$
+

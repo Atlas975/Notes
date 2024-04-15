@@ -20,9 +20,15 @@ ___
 
 
 ## Backpropagation algorithm 
-- The derivates with respect to the loss function $L$ follow a general pattern:
-    - $@c$
-- $$\frac{ \partial L }{ \partial z }=\frac{ \partial L }{ \partial a }  $$
+- The derivates w.r.t the loss function $L$ follow a general pattern:
+-  w.r.t the net inputs
+
+$$\sigma(z)\to a \to L$$
+$$\frac{ \partial L }{ \partial z }=\frac{ \partial L }{ \partial a }\cdot \frac{ \partial a }{ \partial z }   $$
+- w.r.t the activations 
+$$\frac{ \partial L }{ \partial a }=\frac{ \partial L }{ \partial z_{next} } \cdot w $$
+
+- w.r.t
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
