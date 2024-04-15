@@ -53,7 +53,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -125,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -193,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Neural_networks.md"
+                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md"
               }
             }
           }
@@ -228,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
+                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,7 +245,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
+                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -317,10 +317,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "91d4f13a0955458d",
+  "active": "d4cfdd1b8f073bb9",
   "lastOpenFiles": [
-    "MachineLearning/NeuralNetworks/Backpropagation.md",
     "MediaCoding/Image_derivatives.md",
+    "MachineLearning/NeuralNetworks/Gradient_descent.md",
+    "MachineLearning/NeuralNetworks/Neural_networks.md",
+    "MachineLearning/NeuralNetworks/Backpropagation.md",
     "MediaCoding/Edge_detection.md",
     "MediaCoding/Detection_algorithms.md",
     "MediaCoding/Convolutional_networks.md",
@@ -335,13 +337,11 @@
     "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
     "MediaCoding/ImageMatching/Gaussian_pyramid.md",
-    "MachineLearning/NeuralNetworks/Neural_networks.md",
     "XX-Attachments/Images/Pasted image 20240415141755.png",
     "MachineLearning/ErrorMeasures/Model_metrics.md",
     "XX-Attachments/Images/Pasted image 20240414221901.png",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Statistics/Entropy.md",
-    "MachineLearning/NeuralNetworks/Gradient_descent.md",
     "MachineLearning/Machine_learning_notation.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/Support_vector_machines.md",
     "MachineLearning/LinearRegression/Linear_regression.md",

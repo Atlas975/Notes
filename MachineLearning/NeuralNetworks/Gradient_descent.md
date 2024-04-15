@@ -15,7 +15,7 @@
 ___
 # Gradient descent
 - An optimisation algorithm typically used for minimising the cost function in [[Neural_networks|neural networks]].
-- Adjusts the initial parameters in small steps proportional to the negative of the function gradient at the current point. This continues until it converges to the function minimum
+- The **gradient** is the direction of steepest increase, this can be used to adjust parameters in small steps in proportion to the negative of the gradient until a function's minimum is reached
 $$\beta = \beta - \alpha \cdot I_{\beta}$$
 $$\beta=\text{model parameters}$$
 $$\alpha=\text{learning rate}$$
@@ -40,7 +40,7 @@ $$I_{\beta}=\text{cost function gradient with respect to each parameter}$$
 - Offers stable convergence to the global minimum for convex error surfaces and a local minimum for non-convex surfaces, with consistent error gradient calculation
 
 ### Stochastic gradient descent
-- Updates the parameters for each training example, leading to faster iterations but more noise in the convergence path.
+- Updates the parameters after each training example, leading to faster iterations but more noise in the convergence path.
 - Provides the advantage of potentially escaping local minima due to the noisy steps, making it suitable for non-convex error functions
 ### Mini-batch gradient descent
 - Combines the advantages of both batch and stochastic gradient descent by processing a subset of the training data in each iteration, balancing speed and computational efficiency.
