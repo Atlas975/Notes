@@ -15,9 +15,9 @@ ___
 
 
 
-![[Pasted image 20240414221901.png|200|200]]
 
 
+![[Pasted image 20220621204400.png|450|450]]
 
 ## Backpropagation algorithm 
 - The derivates w.r.t the loss function $L$ follow a general pattern:
@@ -146,4 +146,9 @@ Backpropagation is a fundamental algorithm used for training neural networks. It
 - **Learning Rate**: The size of the weight updates is controlled by the learning rate \( \alpha \).
 - **Vanishing/Exploding Gradient**: Problems can occur when gradients are too small (vanish) or too large (explode), making the network hard to train.
 
-Backpropagation is the backbone of neural network learning, allowing for the adjustment of weights based on the error rate obtained in the previous epoch (i.e., iteration), thereby improving the model's accuracy over time.
+
+
+- Computation graph example:
+
+
+![[Pasted image 20220305133049.png|450|450]]

@@ -18,21 +18,16 @@ ___
 # Neural networks
 
 - A deep learning framework, operates by tuning the weights and bias parameters to minimise the cost function, [[Activation_functions|activation]] layers are placed in a network style layout
+- Each individual neuron is able to offer linear separation between data, the use of these in a network allows for a model to learn complex patterns
 
-- A neural network consists of the following components:
-	- $w$ (weights) correspond to how strong a connection from one neuron to another is
-	- $a$ (activation function) squishes the results of the weights and inputs so that the result is a value ranging between 0 and 1.
-	- $b$ (bias) added before squishing with an activation function and can be thought of as an additional neuron added to each layer. Acts as a y-intercept
+![[Pasted image 20240414221901.png|150|150]]
 
-
-
-## Neuron 
-- 
-![[Pasted image 20240415141755.png|300|300]]
 ## Network structure
 -  **Input Layer**: Receives raw data. Each neuron in this layer represents a feature of the input data.
 -  **Hidden Layers**: Perform computations and feature transformations. A network may have multiple hidden layers, allowing it to learn complex patterns.
 -  **Output Layer**: Produces the final results or predictions, often in the form of classifications (e.g., identifying the content of an image) or continuous values (e.g., predicting prices).
+
+## Network components 
 
 
 ## Forward pass process
@@ -50,18 +45,13 @@ $$\dots$$
 
 4. Calculate cost at the output layer ($a^{(n)}_{1}=\hat{y}$) \*note that this is for binary classification
 $$E=\frac{1}{2}(y-\hat{y})$$
-# Backpropagation
-- Computation graph example:
 
-![[Pasted image 20220621204400.png|450|450]]
-
-![[Pasted image 20220305133049.png|450|450]]
 
 
 ## Neural network notation
 
-$$w=\text{weights, strength of a connection between neurons}$$
-$$b=\text{bias, }$$
+$$w=\text{weights, influence stregnth of an input to an output}$$
+$$b=\text{bias, optional parameter that can shift a function left o}$$
 $$z=\text{net input to neurons (fed to activation)}$$
 $$a=\text{activation output, }\sigma(z) \text{ }$$
 

@@ -118,7 +118,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/NeuralNetworks/Backpropagation.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -320,9 +320,10 @@
   "active": "91d4f13a0955458d",
   "lastOpenFiles": [
     "MachineLearning/NeuralNetworks/Backpropagation.md",
+    "MachineLearning/NeuralNetworks/Neural_networks.md",
+    "XX-Attachments/Images/Pasted image 20240415184318.png",
     "MachineLearning/NeuralNetworks/Gradient_descent.md",
     "MediaCoding/Image_derivatives.md",
-    "MachineLearning/NeuralNetworks/Neural_networks.md",
     "MediaCoding/Edge_detection.md",
     "MediaCoding/Detection_algorithms.md",
     "MediaCoding/Convolutional_networks.md",
@@ -346,7 +347,6 @@
     "MachineLearning/0-Legacy/0-GeneralConcepts/Support_vector_machines.md",
     "MachineLearning/LinearRegression/Linear_regression.md",
     "MachineLearning/Logistic_regression.md",
-    "MachineLearning/K-nearest_neighbours.md",
     "XX-Attachments/Images/Pasted image 20240413173732.png",
     "XX-Attachments/Images/Pasted image 20240405213340.png",
     "XX-Attachments/Images/Pasted image 20240413172514.png",
@@ -355,7 +355,6 @@
     "XX-Attachments/Images/Pasted image 20240413161039.png",
     "MachineLearning/NeuralNetworks/ActivationFunctions",
     "XX-Attachments/Images/Pasted image 20240412180359.png",
-    "XX-Attachments/Images/Pasted image 20240412180216.png",
     "MachineLearning/GradientDescent",
     "MachineLearning/NeuralNetworks",
     "MachineLearning/LinearRegression",
