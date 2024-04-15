@@ -92,7 +92,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -125,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -193,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Neural_networks.md"
+                "file": "MachineLearning/NeuralNetworks/Backpropagation.md"
               }
             }
           }
@@ -228,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
+                "file": "MachineLearning/NeuralNetworks/Backpropagation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,7 +245,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
+                "file": "MachineLearning/NeuralNetworks/Backpropagation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -317,10 +317,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "91d4f13a0955458d",
+  "active": "ec67deac5f07853d",
   "lastOpenFiles": [
-    "MachineLearning/NeuralNetworks/Backpropagation.md",
     "MachineLearning/NeuralNetworks/Neural_networks.md",
+    "XX-Attachments/Images/Pasted image 20240415190257.png",
+    "MachineLearning/NeuralNetworks/Backpropagation.md",
     "XX-Attachments/Images/Pasted image 20240415184318.png",
     "MachineLearning/NeuralNetworks/Gradient_descent.md",
     "MediaCoding/Image_derivatives.md",
@@ -354,7 +355,6 @@
     "XX-Attachments/Images/Pasted image 20240413161103.png",
     "XX-Attachments/Images/Pasted image 20240413161039.png",
     "MachineLearning/NeuralNetworks/ActivationFunctions",
-    "XX-Attachments/Images/Pasted image 20240412180359.png",
     "MachineLearning/GradientDescent",
     "MachineLearning/NeuralNetworks",
     "MachineLearning/LinearRegression",

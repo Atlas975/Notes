@@ -11,15 +11,15 @@
 
 ___
 # Backpropagation
-- An algorithm used to train [[Neural_networks|neural networks]] by optimising the weights ($w$) 
+- An algorithm used to train [[Neural_networks|neural networks]] by optimising the weights ($w$) and biases ($b$) to minimise the cost function typically 
+- These optimisations are performed using [[Gradient_descent|gradient descent]], adjustments 
 
 
 
 
 
-![[Pasted image 20220621204400.png|450|450]]
 
-## Backpropagation algorithm 
+## Backpropagation algorithm
 - The derivates w.r.t the loss function $L$ follow a general pattern:
 -  w.r.t the net inputs 
 
@@ -101,6 +101,7 @@ plt.xlabel("Iterations")
 plt.ylabel("Cost")
 plt.show()
 ```
+![[Pasted image 20220621204400.png|450|450]]
 ## Bacpropagation in Neural Networks
 
 Backpropagation is a fundamental algorithm used for training neural networks. It efficiently computes the gradient of the loss function with respect to the weights of the network.
@@ -113,8 +114,8 @@ Backpropagation is a fundamental algorithm used for training neural networks. It
 ### Process
 
 - **Forward Pass**:
-    -  Input \(x\) is passed through the network layers.
-      - Each neuron output is computed using $$z = wx + b$$ and passed through an activation function $$a = f(z)$$
+	-  Input \(x\) is passed through the network layers.
+	  - Each neuron output is computed using $$z = wx + b$$ and passed through an activation function $$a = f(z)$$
 
 - **Loss Calculation**:
   - For regression with Mean Squared Error: $$L = \frac{1}{2}(y - \hat{y})^2$$
