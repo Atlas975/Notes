@@ -21,12 +21,15 @@ ___
 
 ## Backpropagation algorithm 
 - The derivates w.r.t the loss function $L$ follow a general pattern:
--  w.r.t the net inputs
+-  w.r.t the net inputs 
 
-$$\sigma(z)\to a \to L$$
-$$\frac{ \partial L }{ \partial z }=\frac{ \partial L }{ \partial a }\cdot \frac{ \partial a }{ \partial z }   $$
+$$\text{output layer}=z\to \sigma(z) \to L(a)$$
+$$\frac{ \partial L }{ \partial z }= \frac{ \partial a }{ \partial z } \cdot \frac{ \partial L }{ \partial a }   $$
+$$\text{hidden layer}=z\to \sigma(z) \to w\cdot a+b$$
+$$\frac{ \partial L }{ \partial z }= \frac{ \partial a }{ \partial z } \cdot \frac{ \partial L }{ \partial z_{next} }$$
 - w.r.t the activations 
-$$\frac{ \partial L }{ \partial a }=\frac{ \partial L }{ \partial z_{next} } \cdot w $$
+$$a\to w\cdot a+b\to\sigma(z)$$
+$$\frac{ \partial L }{ \partial a }=\frac{ \partial L }{ \partial z }\cdot  $$
 
 - w.r.t
 ```python
