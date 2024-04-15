@@ -32,10 +32,19 @@ $$\text{output layer}=z\to \sigma(z) \to L(a)$$
 $$\frac{ \partial L }{ \partial z }= \frac{ \partial a }{ \partial z } \cdot \frac{ \partial L }{ \partial a }   $$
 $$\text{hidden layer}=z\to \sigma(z) \to w\cdot a+b$$
 $$\frac{ \partial L }{ \partial z }= \frac{ \partial a }{ \partial z } \cdot \frac{ \partial L }{ \partial w }\cdot \frac{ \partial L }{ \partial a }\cdot \frac{ \partial L }{ \partial b }  $$
-- w.r.t the activations 
-$$a\to w\cdot a+b\to\sigma(z)$$
-$$\frac{ \partial L }{ \partial a }=\frac{ \partial L }{ \partial z }\cdot  $$
+- w.r.t the net input
 
+
+- w.r.t the activations 
+ $$\frac{ \partial C }{ \partial a } (w\cdot a+b)\to\sigma(z)$$
+ $$\frac{ \partial C }{ \partial a }= w\cdot \frac{ \partial C }{ \partial z } $$
+- w.r.t the weights
+
+$$\frac{ \partial C }{ \partial w } (w\cdot a+b)\to\sigma(z)$$
+$$\frac{ \partial C }{ \partial a }= w\cdot \frac{ \partial C }{ \partial z } $$
+- w.r.t the bias
+$$\frac{ \partial C }{ \partial b } (w\cdot a+b)\to\sigma(z)$$
+$$\frac{ \partial C }{ \partial b }=1\cdot \frac{ \partial C }{ \partial z }  $$
 
 ## Backpropagation algorithm
 
