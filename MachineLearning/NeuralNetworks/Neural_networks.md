@@ -27,8 +27,7 @@ ___
 
 
 ## Neuron 
-
-
+- 
 ![[Pasted image 20240415141755.png|300|300]]
 ## Network structure
 -  **Input Layer**: Receives raw data. Each neuron in this layer represents a feature of the input data.

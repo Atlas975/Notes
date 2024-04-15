@@ -92,7 +92,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -125,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -193,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Backpropagation.md"
+                "file": "MachineLearning/NeuralNetworks/Neural_networks.md"
               }
             }
           }
@@ -228,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Backpropagation.md",
+                "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,7 +245,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Backpropagation.md",
+                "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -317,12 +317,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ec67deac5f07853d",
+  "active": "91d4f13a0955458d",
   "lastOpenFiles": [
+    "MachineLearning/NeuralNetworks/Backpropagation.md",
     "MachineLearning/NeuralNetworks/Gradient_descent.md",
     "MediaCoding/Image_derivatives.md",
     "MachineLearning/NeuralNetworks/Neural_networks.md",
-    "MachineLearning/NeuralNetworks/Backpropagation.md",
     "MediaCoding/Edge_detection.md",
     "MediaCoding/Detection_algorithms.md",
     "MediaCoding/Convolutional_networks.md",
