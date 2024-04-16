@@ -156,7 +156,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md",
+                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -245,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md"
+                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md"
               }
             }
           }
@@ -253,8 +253,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -281,7 +280,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md",
+                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -298,7 +297,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md",
+                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -372,36 +371,36 @@
   },
   "active": "6c63c957fc84f229",
   "lastOpenFiles": [
+    "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
+    "MediaCoding/ImageMatching/Image_features.md",
+    "MediaCoding/ImageMatching/Image_matching.md",
+    "MediaCoding/ImageMatching/Laplacian_pyramid.md",
+    "MediaCoding/IntensityTransforms/Gamma_transform.md",
+    "MediaCoding/IntensityTransforms/Histogram_matching.md",
+    "MediaCoding/IntensityTransforms/Image_negatives.md",
+    "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
+    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
+    "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
+    "MediaCoding/Watermarking/Watermarking.md",
+    "MediaCoding/Canny_edge_detection.md",
+    "MediaCoding/Colour_models.md",
+    "MediaCoding/Convolution.md",
+    "MediaCoding/Image_derivatives.md",
+    "MediaCoding/Detection_algorithms.md",
+    "MediaCoding/OpticalFlow/Optical_flow.md",
+    "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
+    "MediaCoding/ImageMatching/Harris_corner_detection.md",
+    "MediaCoding/DiscreteCosineTansform/JPEG.md",
+    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
+    "Languages&Compilation/Pushdown_recogniser.md",
     "Networking/Internet_protocol.md",
     "Languages&Compilation/Context_free_grammars.md",
     "Languages&Compilation/Context_sensitive_grammars.md",
     "MachineLearning/NeuralNetworks/Backpropagation.md",
-    "MachineLearning/NeuralNetworks/Neural_networks.md",
     "XX-Attachments/Images/Pasted image 20240415190257.png",
     "XX-Attachments/Images/Pasted image 20240415184318.png",
-    "MachineLearning/NeuralNetworks/Gradient_descent.md",
-    "MediaCoding/Image_derivatives.md",
-    "MediaCoding/Edge_detection.md",
-    "MediaCoding/Detection_algorithms.md",
-    "MediaCoding/Convolutional_networks.md",
-    "MediaCoding/Colour_models.md",
-    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
-    "MediaCoding/OpticalFlow/Optical_flow.md",
-    "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
-    "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
-    "MediaCoding/ImageMatching/Laplacian_pyramid.md",
-    "MediaCoding/ImageMatching/Image_matching.md",
-    "MediaCoding/ImageMatching/Image_features.md",
-    "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
-    "MediaCoding/ImageMatching/Harris_corner_detection.md",
-    "MediaCoding/ImageMatching/Gaussian_pyramid.md",
     "XX-Attachments/Images/Pasted image 20240415141755.png",
-    "MachineLearning/ErrorMeasures/Model_metrics.md",
     "XX-Attachments/Images/Pasted image 20240414221901.png",
-    "Algorithms/ProgrammingPatterns/Backtracking.md",
-    "Statistics/Entropy.md",
-    "MachineLearning/Machine_learning_notation.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/Support_vector_machines.md",
     "XX-Attachments/Images/Pasted image 20240413173732.png",
     "XX-Attachments/Images/Pasted image 20240405213340.png",
     "XX-Attachments/Images/Pasted image 20240413172514.png",
