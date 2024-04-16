@@ -138,6 +138,32 @@
             }
           },
           {
+            "id": "dd7ff5bbe64f4b42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Internet_protocol.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6c63c957fc84f229",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Pushdown_recogniser.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "49774041341798fc",
             "type": "leaf",
             "state": {
@@ -151,7 +177,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -219,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Context_free_grammars.md"
+                "file": "Languages&Compilation/Pushdown_recogniser.md"
               }
             }
           }
@@ -255,7 +281,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Context_free_grammars.md",
+                "file": "Languages&Compilation/Pushdown_recogniser.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +298,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Context_free_grammars.md",
+                "file": "Languages&Compilation/Pushdown_recogniser.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -344,10 +370,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "84001f53170df5c5",
+  "active": "6c63c957fc84f229",
   "lastOpenFiles": [
-    "Languages&Compilation/Context_sensitive_grammars.md",
+    "Networking/Internet_protocol.md",
     "Languages&Compilation/Context_free_grammars.md",
+    "Languages&Compilation/Context_sensitive_grammars.md",
     "MachineLearning/NeuralNetworks/Backpropagation.md",
     "MachineLearning/NeuralNetworks/Neural_networks.md",
     "XX-Attachments/Images/Pasted image 20240415190257.png",
@@ -375,7 +402,6 @@
     "Statistics/Entropy.md",
     "MachineLearning/Machine_learning_notation.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/Support_vector_machines.md",
-    "MachineLearning/LinearRegression/Linear_regression.md",
     "XX-Attachments/Images/Pasted image 20240413173732.png",
     "XX-Attachments/Images/Pasted image 20240405213340.png",
     "XX-Attachments/Images/Pasted image 20240413172514.png",
