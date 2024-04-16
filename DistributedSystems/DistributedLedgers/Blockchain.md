@@ -15,3 +15,7 @@ ___
 - This use of linking via hash makes the technology highly resistant to tampering 
 
 ![[Pasted image 20240416173625.png|450|450]]
+
+
+$$\text{Sign}(\text{Message},\text{PrivateKey})=\text{Signature}$$
+$$\text{Verify}(\text{Message},\text{Signiture},\text{PublicKey})=\text{True}/\text{False}$$
