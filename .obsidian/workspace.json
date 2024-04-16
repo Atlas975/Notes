@@ -156,8 +156,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/DistributedLedgers/Blockchain.md",
-                "mode": "preview",
+                "file": "Statistics/Sampling_methods.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -245,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/DistributedLedgers/Blockchain.md"
+                "file": "Statistics/Sampling_methods.md"
               }
             }
           }
@@ -281,7 +281,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/DistributedLedgers/Blockchain.md",
+                "file": "Statistics/Sampling_methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -298,7 +298,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/DistributedLedgers/Blockchain.md",
+                "file": "Statistics/Sampling_methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -372,9 +372,13 @@
   },
   "active": "6c63c957fc84f229",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240416191031.png",
+    "XX-Attachments/Images/Pasted image 20240416190958.png",
+    "XX-Attachments/Images/Pasted image 20240416190915.png",
+    "DistributedSystems/DistributedLedgers/Blockchain.md",
+    "Statistics/Sampling_methods.md",
     "XX-Attachments/Images/Pasted image 20240416173625.png",
     "DistributedSystems/DistributedLedgers/Distributed_ledger.md",
-    "DistributedSystems/DistributedLedgers/Blockchain.md",
     "DistributedSystems/DistributedLedgers",
     "DistributedSystems/Byzantine_generals_problem.md",
     "DistributedSystems/Distributed_system_security.md",
@@ -398,7 +402,6 @@
     "MediaCoding/Convolution.md",
     "MediaCoding/Image_derivatives.md",
     "MediaCoding/Detection_algorithms.md",
-    "MediaCoding/OpticalFlow/Optical_flow.md",
     "XX-Attachments/Images/Pasted image 20240415190257.png",
     "XX-Attachments/Images/Pasted image 20240415184318.png",
     "XX-Attachments/Images/Pasted image 20240415141755.png",
@@ -406,9 +409,6 @@
     "XX-Attachments/Images/Pasted image 20240413173732.png",
     "XX-Attachments/Images/Pasted image 20240405213340.png",
     "XX-Attachments/Images/Pasted image 20240413172514.png",
-    "XX-Attachments/Images/Pasted image 20240413171954.png",
-    "XX-Attachments/Images/Pasted image 20240413161103.png",
-    "XX-Attachments/Images/Pasted image 20240413161039.png",
     "MachineLearning/NeuralNetworks/ActivationFunctions",
     "MachineLearning/GradientDescent",
     "MachineLearning/NeuralNetworks",
