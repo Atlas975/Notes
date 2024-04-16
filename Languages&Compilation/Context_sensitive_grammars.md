@@ -15,7 +15,7 @@ ___
 - All productions are in the format:
 
 $$LHS \to RHS$$
-$$LHS=\text{any mix of terminals and/or NON-TERMINALS, min 1 symbol}$$
+$$LHS=\text{any mix of terminals and/or NON-TERMINALS, min 1 symbol}$$ 
 $$RHS =\text{any mix of terminals and NON-TERMINALS, this must NOT be empty}$$
 $$LHS\leq{RHS}$$
 

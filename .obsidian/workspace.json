@@ -123,9 +123,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "84001f53170df5c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Context_free_grammars.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "49774041341798fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Context_sensitive_grammars.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -193,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Backpropagation.md"
+                "file": "Languages&Compilation/Context_free_grammars.md"
               }
             }
           }
@@ -201,7 +227,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -228,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Backpropagation.md",
+                "file": "Languages&Compilation/Context_free_grammars.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Backpropagation.md",
+                "file": "Languages&Compilation/Context_free_grammars.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -317,10 +344,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ec67deac5f07853d",
+  "active": "84001f53170df5c5",
   "lastOpenFiles": [
-    "MachineLearning/NeuralNetworks/Neural_networks.md",
+    "Languages&Compilation/Context_sensitive_grammars.md",
+    "Languages&Compilation/Context_free_grammars.md",
     "MachineLearning/NeuralNetworks/Backpropagation.md",
+    "MachineLearning/NeuralNetworks/Neural_networks.md",
     "XX-Attachments/Images/Pasted image 20240415190257.png",
     "XX-Attachments/Images/Pasted image 20240415184318.png",
     "MachineLearning/NeuralNetworks/Gradient_descent.md",
@@ -347,7 +376,6 @@
     "MachineLearning/Machine_learning_notation.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/Support_vector_machines.md",
     "MachineLearning/LinearRegression/Linear_regression.md",
-    "MachineLearning/Logistic_regression.md",
     "XX-Attachments/Images/Pasted image 20240413173732.png",
     "XX-Attachments/Images/Pasted image 20240405213340.png",
     "XX-Attachments/Images/Pasted image 20240413172514.png",
