@@ -242,7 +242,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -310,7 +310,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/0-Legacy/0-GeneralConcepts/Sampling_basics.md"
+                "file": "Statistics/Sampling_methods.md"
               }
             }
           }
@@ -346,7 +346,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/0-Legacy/0-GeneralConcepts/Sampling_basics.md",
+                "file": "Statistics/Sampling_methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -363,7 +363,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/0-Legacy/0-GeneralConcepts/Sampling_basics.md",
+                "file": "Statistics/Sampling_methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -435,10 +435,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ae447ba131b698e1",
+  "active": "6c63c957fc84f229",
   "lastOpenFiles": [
-    "Statistics/Sampling_methods.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/Sampling_basics.md",
+    "Statistics/Sampling_methods.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
     "MachineLearning/Logistic_regression.md",
     "MachineLearning/LinearRegression/Linear_regression.md",
