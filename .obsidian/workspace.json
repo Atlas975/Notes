@@ -157,7 +157,7 @@
               "type": "markdown",
               "state": {
                 "file": "Statistics/Sampling_methods.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -372,6 +372,7 @@
   },
   "active": "6c63c957fc84f229",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240417104859.png",
     "XX-Attachments/Images/Pasted image 20240416191031.png",
     "XX-Attachments/Images/Pasted image 20240416190958.png",
     "XX-Attachments/Images/Pasted image 20240416190915.png",
@@ -408,7 +409,6 @@
     "XX-Attachments/Images/Pasted image 20240414221901.png",
     "XX-Attachments/Images/Pasted image 20240413173732.png",
     "XX-Attachments/Images/Pasted image 20240405213340.png",
-    "XX-Attachments/Images/Pasted image 20240413172514.png",
     "MachineLearning/NeuralNetworks/ActivationFunctions",
     "MachineLearning/GradientDescent",
     "MachineLearning/NeuralNetworks",
