@@ -151,6 +151,32 @@
             }
           },
           {
+            "id": "5924a3d962e9d741",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Logistic_regression.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "628fea5949e07c5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "84001f53170df5c5",
             "type": "leaf",
             "state": {
@@ -203,7 +229,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -271,7 +297,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/LinearRegression/Linear_regression.md"
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md"
               }
             }
           }
@@ -307,7 +333,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/LinearRegression/Linear_regression.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -324,7 +350,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/LinearRegression/Linear_regression.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -396,8 +422,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "405f9dd543028363",
+  "active": "628fea5949e07c5f",
   "lastOpenFiles": [
+    "MachineLearning/Logistic_regression.md",
+    "MachineLearning/LinearRegression/Linear_regression.md",
     "LinearProgramming/Linear_programming.md",
     "MachineLearning/NeuralNetworks/Backpropagation.md",
     "Statistics/Sampling_methods.md",
@@ -428,8 +456,6 @@
     "MediaCoding/Watermarking/Watermarking.md",
     "MediaCoding/Canny_edge_detection.md",
     "MediaCoding/Colour_models.md",
-    "MediaCoding/Convolution.md",
-    "MediaCoding/Image_derivatives.md",
     "XX-Attachments/Images/Pasted image 20240415190257.png",
     "XX-Attachments/Images/Pasted image 20240415184318.png",
     "XX-Attachments/Images/Pasted image 20240415141755.png",
