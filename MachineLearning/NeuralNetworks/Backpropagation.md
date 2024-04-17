@@ -40,7 +40,7 @@ $$\frac{ \partial C }{ \partial z } = \sigma'(z)\cdot \frac{ \partial C }{ \part
 - w.r.t the weights
 
 $$\frac{ \partial z }{ \partial w } (w\cdot a+b)\to z$$
-$$\frac{ \partial C }{ \partial a }= a \cdot \frac{ \partial C }{ \partial z } $$
+$$\frac{ \partial C }{ \partial w }= a \cdot \frac{ \partial C }{ \partial z } $$
 - w.r.t the bias
 $$\frac{ \partial z }{ \partial b } (w\cdot a+b)\to z$$
 $$\frac{ \partial C }{ \partial b }=1\cdot \frac{ \partial C }{ \partial z }  $$

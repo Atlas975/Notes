@@ -11,7 +11,8 @@
 
 ___
 # Sampling methods
-
+- Sampling involves selecting a subset of individuals, items, or data points from a larger population to make statistical inferences about the whole group.
+- This allows for manageable data collection while striving to maintain accuracy and representativeness of the larger group.
 
 ## Simple random sampling
 - Sampling taken randomly from each subset with no bias, this is simple and cheap to implement but can't handle cases where information is needed on specific subgroups

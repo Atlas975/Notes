@@ -12,7 +12,7 @@
 ___
 # Linear regression
 
-- A statistical method used to model the relationship between a dependent variable and one or more independent variables. 
+- A statistical method used to linearly model the relationship between a dependent variable and one or more independent variables. 
 - It assumes that the relationship between the variables is linear making it a computationally cheap way to predict relationships between variables 
 $$y = \beta_0 + \beta_1x + \epsilon$$
 $$\beta=\text{model coefficients}$$

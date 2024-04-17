@@ -125,6 +125,32 @@
             }
           },
           {
+            "id": "a01d01526f9f29d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LinearProgramming/Linear_programming.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "405f9dd543028363",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/LinearRegression/Linear_regression.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "84001f53170df5c5",
             "type": "leaf",
             "state": {
@@ -177,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -245,7 +271,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Sampling_methods.md"
+                "file": "MachineLearning/LinearRegression/Linear_regression.md"
               }
             }
           }
@@ -281,7 +307,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Sampling_methods.md",
+                "file": "MachineLearning/LinearRegression/Linear_regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -298,7 +324,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Sampling_methods.md",
+                "file": "MachineLearning/LinearRegression/Linear_regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -370,14 +396,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6c63c957fc84f229",
+  "active": "405f9dd543028363",
   "lastOpenFiles": [
+    "LinearProgramming/Linear_programming.md",
+    "MachineLearning/NeuralNetworks/Backpropagation.md",
+    "Statistics/Sampling_methods.md",
     "XX-Attachments/Images/Pasted image 20240417104859.png",
     "XX-Attachments/Images/Pasted image 20240416191031.png",
     "XX-Attachments/Images/Pasted image 20240416190958.png",
     "XX-Attachments/Images/Pasted image 20240416190915.png",
     "DistributedSystems/DistributedLedgers/Blockchain.md",
-    "Statistics/Sampling_methods.md",
     "XX-Attachments/Images/Pasted image 20240416173625.png",
     "DistributedSystems/DistributedLedgers/Distributed_ledger.md",
     "DistributedSystems/DistributedLedgers",
@@ -402,13 +430,11 @@
     "MediaCoding/Colour_models.md",
     "MediaCoding/Convolution.md",
     "MediaCoding/Image_derivatives.md",
-    "MediaCoding/Detection_algorithms.md",
     "XX-Attachments/Images/Pasted image 20240415190257.png",
     "XX-Attachments/Images/Pasted image 20240415184318.png",
     "XX-Attachments/Images/Pasted image 20240415141755.png",
     "XX-Attachments/Images/Pasted image 20240414221901.png",
     "XX-Attachments/Images/Pasted image 20240413173732.png",
-    "XX-Attachments/Images/Pasted image 20240405213340.png",
     "MachineLearning/NeuralNetworks/ActivationFunctions",
     "MachineLearning/GradientDescent",
     "MachineLearning/NeuralNetworks",
