@@ -10,14 +10,15 @@
 > ```
 
 ___
-# Loss function
+# Loss functions
 - Used to evaluate the performance of a machine learning model 
 - Various methods exist for evaluating the performance of a machine learning model in predicting both categorical and regression data
 ## Mean squared error (MSE)
+- Commonly used for measuring loss in [[Linear_regression|regression]] problems
 $$\text{MSE}=\frac{1}{m}\sum(y-\hat{y})^2$$
 
 
-## Root mean square error (RMSE) 
+## Root mean square error (RMSE)
 - More sensitive to outliers in predictions
 
 $$\text{RMSE}=\sqrt{ \frac{1}{m}\sum(y-\hat{y})^2}$$
@@ -39,4 +40,3 @@ $$\text{Accuracy}=\frac{1}{m}\sum y\neq{\hat{y}}$$
 
 ## F-score / F-statistic
 - Makes use of the [[Confusion_matrices|confusion matrix]]
-
