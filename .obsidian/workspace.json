@@ -130,8 +130,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Cross-entropy.md",
+                "file": "MediaCoding/ImageMatching/Image_matching.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fb11c9cef527e165",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Computer_vision.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "db900d7f64f4a8c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Filters/Pooling.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -294,7 +320,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -362,7 +388,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Cross-entropy.md"
+                "file": "MediaCoding/Computer_vision.md"
               }
             }
           }
@@ -370,8 +396,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -398,7 +423,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Cross-entropy.md",
+                "file": "MediaCoding/Computer_vision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -415,7 +440,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Cross-entropy.md",
+                "file": "MediaCoding/Computer_vision.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -487,45 +512,46 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "19d020a54ce68cc9",
+  "active": "fb11c9cef527e165",
   "lastOpenFiles": [
+    "MediaCoding/Filters/Pooling.md",
+    "MediaCoding/Computer_vision.md",
+    "MediaCoding/Filters/Untitled",
+    "MediaCoding/Colour_models.md",
+    "MediaCoding/Canny_edge_detection.md",
+    "MediaCoding/Image_derivatives.md",
+    "MediaCoding/Edge_detection.md",
+    "MediaCoding/Detection_algorithms.md",
+    "MediaCoding/Convolution.md",
+    "MediaCoding/OpticalFlow/Optical_flow.md",
+    "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
+    "MediaCoding/IntensityTransforms/Gamma_transform.md",
+    "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
+    "MediaCoding/ImageMatching/Laplacian_pyramid.md",
+    "MediaCoding/ImageMatching/Image_matching.md",
+    "MediaCoding/ImageMatching/Harris_corner_detection.md",
+    "MediaCoding/Convolutional_networks.md",
+    "MediaCoding/Media_coding.md",
+    "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
+    "MediaCoding/Filters/SmoothingFilters/Smoothing_spatial_filtering.md",
+    "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
+    "MachineLearning/NeuralNetworks/Neural_networks.md",
+    "MachineLearning/ErrorMeasures/Cross-entropy.md",
     "XX-Attachments/Images/Pasted image 20240418154821.png",
     "MachineLearning/0-Legacy/0-GeneralConcepts/Cross_entropy_legacy.md",
-    "MachineLearning/ErrorMeasures/Cross-entropy.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/Calculus/Taylor_series.md",
     "MachineLearning/ErrorMeasures/Loss_functions.md",
     "MachineLearning/LinearRegression/Linear_regression.md",
-    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
-    "Statistics/Entropy.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
     "XX-Attachments/Images/Pasted image 20240418141416.png",
-    "MachineLearning/NeuralNetworks/Gradient_descent.md",
     "XX-Attachments/Images/Pasted image 20240418140229.png",
     "XX-Attachments/Images/Pasted image 20240418140147.png",
-    "MachineLearning/NeuralNetworks/Neural_networks.md",
-    "LinearProgramming/Linear_programming.md",
-    "Statistics/Sampling_methods.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/Sampling_basics.md",
-    "MachineLearning/Logistic_regression.md",
-    "MachineLearning/NeuralNetworks/Backpropagation.md",
     "XX-Attachments/Images/Pasted image 20240417104859.png",
     "XX-Attachments/Images/Pasted image 20240416191031.png",
     "XX-Attachments/Images/Pasted image 20240416190958.png",
     "XX-Attachments/Images/Pasted image 20240416190915.png",
-    "DistributedSystems/DistributedLedgers/Blockchain.md",
     "XX-Attachments/Images/Pasted image 20240416173625.png",
-    "DistributedSystems/DistributedLedgers/Distributed_ledger.md",
     "DistributedSystems/DistributedLedgers",
-    "DistributedSystems/Byzantine_generals_problem.md",
-    "DistributedSystems/Distributed_system_security.md",
-    "DistributedSystems/Distributed_systems.md",
-    "DistributedSystems/Two_general_problem.md",
-    "DistributedSystems/Time_keeping.md",
-    "MediaCoding/ImageMatching/Harris_corner_detection.md",
-    "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
     "XX-Attachments/Images/Pasted image 20240415190257.png",
-    "XX-Attachments/Images/Pasted image 20240415184318.png",
     "MachineLearning/NeuralNetworks/ActivationFunctions",
     "MachineLearning/GradientDescent",
     "MachineLearning/NeuralNetworks",
@@ -533,7 +559,6 @@
     "MachineLearning/TreeModels",
     "MachineLearning/0-Legacy",
     "MachineLearning/ClusteringAlgorithms",
-    "MachineLearning/ErrorMeasures",
-    "MediaCoding/Watermarking"
+    "MachineLearning/ErrorMeasures"
   ]
 }
