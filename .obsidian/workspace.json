@@ -242,7 +242,7 @@
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -310,7 +310,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Sampling_methods.md"
+                "file": "LinearProgramming/Linear_programming.md"
               }
             }
           }
@@ -346,7 +346,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Sampling_methods.md",
+                "file": "LinearProgramming/Linear_programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -363,7 +363,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Sampling_methods.md",
+                "file": "LinearProgramming/Linear_programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -435,10 +435,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6c63c957fc84f229",
+  "active": "a01d01526f9f29d0",
   "lastOpenFiles": [
-    "MachineLearning/0-Legacy/0-GeneralConcepts/Sampling_basics.md",
     "Statistics/Sampling_methods.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/Sampling_basics.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
     "MachineLearning/Logistic_regression.md",
     "MachineLearning/LinearRegression/Linear_regression.md",

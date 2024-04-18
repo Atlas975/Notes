@@ -16,11 +16,11 @@ ___
 
 
 ![[Pasted image 20240309205713.png|250|250]]
-## Linear Programming terms
-- **Objective Function:** The main aim of the problem, either to maximise of to minimise.
-- **Decision Variables:** The variables used to decide the output as decision variables. They are the unknowns of the mathematical programming model.
-- **Constraints:** These are the restrictions on the decision variables. The limitations on the decision variables given under subject to the constraints in the below problem are the constraints of the Linear programming.
-# Linear programming examples
+## Linear Programming components
+- **Objective Function:** main aim of the problem, either to maximise of to minimise.
+- **Decision Variables:** variables used to decide the output as decision variables. 
+- **Constraints:** restrictions on the decision variables 
+# Linear programming
 ## Farmers problem
 
 > You have 3 tons of potato seeds and 4 tons of carrot seeds. To grow the crops efficiently, you also have 5 tons of fertiliser, which has to be used when planting in a 1:1 ratio. The profit is 1.2\$ for potato seeds and 1.7\$/kg for carrot seeds. How many potatoes and carrots should you plant to maximize your profit this season?
@@ -65,6 +65,7 @@ print("take:", *(int(v.value()) for v in variables))
 ## Bin packing
 
 > Given $n$ items with weights $w_{1}$,…$w_{n}$​ and an arbitrary number of bins with maximum carry weight $C$, determine the lowest number of bins to contain all  items without exceeding their carry weight.
+
 ```python
 from pulp import *
 from itertools import product
