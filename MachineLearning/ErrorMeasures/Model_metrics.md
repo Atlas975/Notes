@@ -15,8 +15,7 @@
 ___
 # Model metrics
 - Used to evaluate the performance of a machine learning model 
-
-- Various methods exist for evaluating the performance of a machine learning model in predicting both categorical and numerical data
+- Various methods exist for evaluating the performance of a machine learning model in predicting both categorical and regression data
 ## Mean squared error (MSE)
 $$\text{MSE}=\frac{1}{m}\sum_{i=1}^{m}(y-\hat{y})^2$$
 
@@ -36,6 +35,11 @@ $$\text{MAE}=\frac{1}{m}\sum_{1}^{m}|y-\hat{y}| $$
 - Where the prediction is qualitative, the training error rate may be used to find the number of made, can be summarized as:
 
 $$\text{Accuracy}=\frac{1}{m}\sum_{i=1}^{m}y\neq{\hat{y}}$$
+
+## Cross-entropy
+- Useful for multi-class classification problems by estimating [[Cross-entropy]]
+
+
 ## F-score / F-statistic
 - Makes use of the [[Confusion_matrices|confusion matrix]]
 

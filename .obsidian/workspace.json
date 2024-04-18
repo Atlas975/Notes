@@ -92,7 +92,33 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/ErrorMeasures/Model_metrics.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "74cfc7073b681e59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/0-Legacy/0-GeneralConcepts/Cross_entropy_legacy.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "19d020a54ce68cc9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/ErrorMeasures/Cross-entropy.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -255,7 +281,26 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
+      },
+      {
+        "id": "788def930563b867",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a32a2606fff8a141",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/0-Legacy/0-GeneralConcepts/Cross_entropy_legacy.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -323,7 +368,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Entropy.md"
+                "file": "MachineLearning/ErrorMeasures/Cross-entropy.md"
               }
             }
           }
@@ -331,8 +376,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -359,7 +403,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Entropy.md",
+                "file": "MachineLearning/ErrorMeasures/Cross-entropy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -376,7 +420,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Entropy.md",
+                "file": "MachineLearning/ErrorMeasures/Cross-entropy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -448,8 +492,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "069410be87277b3a",
+  "active": "19d020a54ce68cc9",
   "lastOpenFiles": [
+    "MachineLearning/0-Legacy/0-GeneralConcepts/Cross_entropy_legacy.md",
+    "MachineLearning/ErrorMeasures/Model_metrics.md",
+    "MachineLearning/ErrorMeasures/Cross-entropy.md",
+    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
+    "Statistics/Entropy.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
     "XX-Attachments/Images/Pasted image 20240418141416.png",
@@ -480,11 +529,6 @@
     "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
     "MediaCoding/ImageMatching/Image_features.md",
     "MediaCoding/ImageMatching/Image_matching.md",
-    "MediaCoding/ImageMatching/Laplacian_pyramid.md",
-    "MediaCoding/IntensityTransforms/Gamma_transform.md",
-    "MediaCoding/IntensityTransforms/Histogram_matching.md",
-    "MediaCoding/IntensityTransforms/Image_negatives.md",
-    "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
     "XX-Attachments/Images/Pasted image 20240415190257.png",
     "XX-Attachments/Images/Pasted image 20240415184318.png",
     "MachineLearning/NeuralNetworks/ActivationFunctions",
