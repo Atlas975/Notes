@@ -12,9 +12,11 @@
 ___
 # Cross-entropy
 - Measures the difference between the distribution of the true labels and the distribution predicted by the model.  Lower cross-entropy = model predictions closer to the actual distribution
-- This is often used as a loss function for multi-class classification problems
+- This is often used as a loss function for multi-class classification problems and is calculate by taking the negative sum of the log probabilities
 
 $$L=-\frac{1}{m}\sum y_{i}\cdot \log(\hat{y_{i}})$$
 
 $$y=\text{binary indicator (0/1), will only be 1 for the correct class }i $$
 $$\hat{y}=\text{predicted probability that observation }i \text{ is that class}$$
+
+![[Pasted image 20240418154821.png|500|500]]
