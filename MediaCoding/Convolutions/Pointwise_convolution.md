@@ -11,5 +11,9 @@
 
 ___
 # Pointwise convolution
-- A 1x1 [[Convolution]] primarily used in a [[Convolutional_networks|CNN]] to reduce the number of channels 
-- This does not impact the spatial dimensions of an input 
+- A  [[Convolution]] that uses a 1x1 kernel, often used in a [[Convolutional_networks|CNN]] to modify the number of channels 
+- Can both increase or decrease the number of channels, this is typically done by using multiple 1x1 filters separately with each filter performing different channel reduction operations
+- This does not impact the spatial dimensions of an input
+
+
+![[Pasted image 20240418175903.png|450|450]]

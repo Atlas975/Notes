@@ -1,7 +1,7 @@
 > [!important]- Metadata
-> **Tags:** #
+> **Tags:** #MediaEncoding 
 > **Located:** MediaCoding/Convolutions
-> **Created:** 18/04/2024 - 17:30
+> **Created:** 18/04/2024 - 18:12
 > ```dataviewjs
 > let f = dv.current().file;
 > let paths = new Set([...f.inlinks, ...f.outlinks].map(p => p.path).filter(p => !p.endsWith(".png")));
@@ -10,9 +10,4 @@
 > ```
 
 ___
-# Depthwise convolution
-- A type of [[Convolution]] that has each channel convolved separately with its own kernel 
-- The lack of cross-channel operations can makes this convolution type efficient 
-- This does not impact the channel dimensionality of an input
-
-![[Pasted image 20240418180107.png|450|450]]
+# Depthwise separable convolution
