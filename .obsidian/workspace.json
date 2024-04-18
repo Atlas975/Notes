@@ -156,7 +156,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Convolutions/Depthwise_convolution.md",
+                "file": "MediaCoding/Convolutions/Pointwise_convolution.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -401,7 +401,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Convolutions/Depthwise_convolution.md"
+                "file": "MediaCoding/Convolutions/Pointwise_convolution.md"
               }
             }
           }
@@ -436,7 +436,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Convolutions/Depthwise_convolution.md",
+                "file": "MediaCoding/Convolutions/Pointwise_convolution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -453,7 +453,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Convolutions/Depthwise_convolution.md",
+                "file": "MediaCoding/Convolutions/Pointwise_convolution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -527,17 +527,22 @@
   },
   "active": "138e577e8efafdbd",
   "lastOpenFiles": [
-    "MediaCoding/Convolutions/Convolution.md",
-    "MediaCoding/Convolutions/Depthwise_convolution.md",
-    "MediaCoding/Computer_vision.md",
-    "MediaCoding/Convolutions/Pointwise_convolution.md",
-    "MediaCoding/Colour_models.md",
-    "MediaCoding/Edge_detection.md",
-    "MediaCoding/Image_derivatives.md",
     "MediaCoding/Convolutional_networks.md",
+    "MediaCoding/Computer_vision.md",
+    "MediaCoding/Edge_detection.md",
+    "XX-Attachments/Templates/InfoNote_v2.md",
+    "Networking/Network_delay.md",
+    "Networking/Network delay.md",
+    "XX-Attachments/Templates/InfoNote.md",
+    "XX-Attachments/Templates/AliasNote.md",
     "MediaCoding/Media_coding.md",
-    "MediaCoding/Convolutions",
+    "MediaCoding/Image_derivatives.md",
+    "MediaCoding/Colour_models.md",
     "MediaCoding/Canny_edge_detection.md",
+    "MediaCoding/Convolutions/Depthwise_convolution.md",
+    "MediaCoding/Convolutions/Convolution.md",
+    "MediaCoding/Convolutions/Pointwise_convolution.md",
+    "MediaCoding/Convolutions",
     "MediaCoding/0Legacy/Detection_algorithms.md",
     "MediaCoding/0Legacy",
     "MediaCoding/Filters/Pooling.md",
@@ -551,12 +556,7 @@
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
     "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
     "MediaCoding/Filters/SmoothingFilters/Smoothing_spatial_filtering.md",
-    "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
-    "MachineLearning/NeuralNetworks/Neural_networks.md",
-    "MachineLearning/ErrorMeasures/Cross-entropy.md",
     "XX-Attachments/Images/Pasted image 20240418154821.png",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/Cross_entropy_legacy.md",
-    "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/Calculus/Taylor_series.md",
     "XX-Attachments/Images/Pasted image 20240418141416.png",
     "XX-Attachments/Images/Pasted image 20240418140229.png",
     "XX-Attachments/Images/Pasted image 20240418140147.png",

@@ -8,7 +8,7 @@
   "baseFontSizeAction": false,
   "translucency": false,
   "accentColor": "#8fbcbb",
-  "showViewHeader": false,
+  "showViewHeader": true,
   "nativeMenus": false,
   "enabledCssSnippets": [
     "custom-admonitions.82cf9a",
