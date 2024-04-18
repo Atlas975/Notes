@@ -1,40 +1,37 @@
 > [!important]- Metadata
 > **Tags:** #StatisticalLearning 
-> **Located:** MachineLearning
-> **Created:** 26/12/2022 - 09:23
+> **Located:** MachineLearning/ErrorMeasures
+> **Created:** 28/02/2023 - 12:00
 > ```dataviewjs
->let loc = dv.current().file.path;
->let cur = dv.page(loc).file;
->let links = cur.inlinks.concat(cur.outlinks).array().map(p => p.path);
->let paths = new Set(links.filter(p => !p.endsWith(".png")));
->paths.delete(loc);
->dv.table(["Connections",  "Tags"], dv.array(Array.from(paths)).map(p => [
->   dv.fileLink(p),dv.page(p).file.tags.join("")]).slice(0, 20));
+> let f = dv.current().file;
+> let paths = new Set([...f.inlinks, ...f.outlinks].map(p => p.path).filter(p => !p.endsWith(".png")));
+> paths.delete(f.path);
+> dv.table(["Connections", "Tags"], [...paths].map(p => [dv.fileLink(p), dv.page(p).file.tags.join("")]));
 > ```
 
 ___
-# Model metrics
+# Loss function
 - Used to evaluate the performance of a machine learning model 
 - Various methods exist for evaluating the performance of a machine learning model in predicting both categorical and regression data
 ## Mean squared error (MSE)
-$$\text{MSE}=\frac{1}{m}\sum_{i=1}^{m}(y-\hat{y})^2$$
+$$\text{MSE}=\frac{1}{m}\sum(y-\hat{y})^2$$
 
 
 ## Root mean square error (RMSE) 
 - More sensitive to outliers in predictions
 
-$$\text{RMSE}=\sqrt{ \frac{1}{m}\sum_{1}^{m}(y-\hat{y})^2}$$
+$$\text{RMSE}=\sqrt{ \frac{1}{m}\sum(y-\hat{y})^2}$$
 
 
 ## Mean absolute error (MAE)
 - Preferred for bell curves 
 
-$$\text{MAE}=\frac{1}{m}\sum_{1}^{m}|y-\hat{y}| $$
+$$\text{MAE}=\frac{1}{m}\sum|y-\hat{y}| $$
 
 ## Classification accuracy
 - Where the prediction is qualitative, the training error rate may be used to find the number of made, can be summarized as:
 
-$$\text{Accuracy}=\frac{1}{m}\sum_{i=1}^{m}y\neq{\hat{y}}$$
+$$\text{Accuracy}=\frac{1}{m}\sum y\neq{\hat{y}}$$
 
 ## Cross-entropy
 - Useful for multi-class classification problems by estimating [[Cross-entropy]]

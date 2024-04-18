@@ -31,7 +31,7 @@ $$\hat{y}_{1}=h_{1}(x_{i})=\beta_{0}+\beta_{1}x_{1}$$
 $$\hat{y}_{2}=\beta_{0}+\beta_{1}x_{1}$$
 $$\dots$$
 
-3. Calculate the cost function (eg modified [[Model_metrics#Mean squared error (MSE)|MSE]]):
+3. Calculate the cost function (eg modified [[Loss_functions#Mean squared error (MSE)|MSE]]):
 $$E(\beta_{0},\beta_{1})=\frac{1}{2n}\sum_{i=1}^{n}(y_{i}-\hat{y}_{i})^2$$
 
 4. Calculate cost function's partial derivatives for each parameter:

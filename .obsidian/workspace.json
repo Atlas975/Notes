@@ -91,8 +91,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Model_metrics.md",
-                "mode": "source",
+                "file": "MachineLearning/ErrorMeasures/Loss_functions.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -281,26 +281,7 @@
             }
           }
         ],
-        "currentTab": 8
-      },
-      {
-        "id": "788def930563b867",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a32a2606fff8a141",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-Legacy/0-GeneralConcepts/Cross_entropy_legacy.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          }
-        ]
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -368,7 +349,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Cross-entropy.md"
+                "file": "MachineLearning/ErrorMeasures/Loss_functions.md"
               }
             }
           }
@@ -403,7 +384,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Cross-entropy.md",
+                "file": "MachineLearning/ErrorMeasures/Loss_functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -420,7 +401,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Cross-entropy.md",
+                "file": "MachineLearning/ErrorMeasures/Loss_functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -492,11 +473,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "19d020a54ce68cc9",
+  "active": "4933650c7f57f7a1",
   "lastOpenFiles": [
-    "MachineLearning/0-Legacy/0-GeneralConcepts/Cross_entropy_legacy.md",
-    "MachineLearning/ErrorMeasures/Model_metrics.md",
+    "MachineLearning/LinearRegression/Linear_regression.md",
+    "MachineLearning/ErrorMeasures/Loss_functions.md",
     "MachineLearning/ErrorMeasures/Cross-entropy.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/Cross_entropy_legacy.md",
     "MachineLearning/ErrorMeasures/Confusion_matrices.md",
     "Statistics/Entropy.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
@@ -510,7 +492,6 @@
     "Statistics/Sampling_methods.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/Sampling_basics.md",
     "MachineLearning/Logistic_regression.md",
-    "MachineLearning/LinearRegression/Linear_regression.md",
     "MachineLearning/NeuralNetworks/Backpropagation.md",
     "XX-Attachments/Images/Pasted image 20240417104859.png",
     "XX-Attachments/Images/Pasted image 20240416191031.png",
