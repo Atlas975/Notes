@@ -60,6 +60,19 @@
             }
           },
           {
+            "id": "d59645aba6ee7212",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "069410be87277b3a",
             "type": "leaf",
             "state": {
@@ -242,7 +255,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -310,7 +323,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md"
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md"
               }
             }
           }
@@ -346,7 +359,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -363,7 +376,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -435,8 +448,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d4cfdd1b8f073bb9",
+  "active": "d59645aba6ee7212",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240418141416.png",
+    "MachineLearning/NeuralNetworks/Gradient_descent.md",
     "XX-Attachments/Images/Pasted image 20240418140229.png",
     "XX-Attachments/Images/Pasted image 20240418140147.png",
     "MachineLearning/NeuralNetworks/Neural_networks.md",
@@ -469,11 +484,9 @@
     "MediaCoding/IntensityTransforms/Histogram_matching.md",
     "MediaCoding/IntensityTransforms/Image_negatives.md",
     "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
-    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "XX-Attachments/Images/Pasted image 20240415190257.png",
     "XX-Attachments/Images/Pasted image 20240415184318.png",
     "XX-Attachments/Images/Pasted image 20240415141755.png",
-    "XX-Attachments/Images/Pasted image 20240414221901.png",
     "MachineLearning/NeuralNetworks/ActivationFunctions",
     "MachineLearning/GradientDescent",
     "MachineLearning/NeuralNetworks",

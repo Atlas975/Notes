@@ -12,12 +12,17 @@
 ___
 # Softmax
 - Converts a vector of numbers into a vector of probabilities, where the probabilities of each value are proportional to the relative scale of each value in the vector
-- This accentuates the largest scores and suppresses smaller ones, effectively highlighting the most likely outcome:
+- This accentuates the largest scores and suppresses smaller ones, effectively highlighting the most likely outcome to be predicted. 
 $$\frac{e^x}{\sum e^{x_{i}}}$$
 
 
 ![[Pasted image 20240402091432.png|400|400]]
-## Temperature 
+
+- This combination of turning each value positive + normalising is vital in multi-class classification
+- This function does however assume that classes are [[Event_independence|independent]] of each other, in cases where this is not the case the [[Sigmoid_function|sigmoid function ]] is more appropriate as it treats outputs independently
+
+![[Pasted image 20240418141416.png|400|400]]
+## Temperature
 - Temperature ($T$) adjusts the probability spread; higher temperatures yield a flatter distribution, while lower temperatures produce gives more weight to larger values 
 - Regulates the trade-off between exploring new options (high temperature) and exploring known ones (low temperature).
 
