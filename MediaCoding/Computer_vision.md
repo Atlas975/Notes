@@ -15,22 +15,6 @@
 ___
 # Computer vision
 
-- In image processing, a convolution is the process of transforming an image by applying a kernel to each pixel. A kernel in this context being a matrix of values whose size and values determine the transformation effect of the convolution process
-- A kernel is vital in compressing an image into an easier and less computationally expensive version of itself to operate on
-
-![[Pasted image 20220621135608.png|250|250]]
-
-
-
-
-## Convolutions over volume
-- Needed over RGB images (3 layers correspond to 3 channels for an image)
-- Filter and image channels must match, channels act as a 3rd dimension
-- Note that each filter compresses the image to one channel each
-- The number of filters denote the number  of output channels
-
-![[Pasted image 20220621145255.png|450|450]]
-
 ## 1x1 Convolutions
 - 1x1 convolutions allow for a dimension to be compressed into a single channel
 - Pooling layers allow for the height and width layers to be compressed, 1x1 convolutions should be used to compress the number of channels

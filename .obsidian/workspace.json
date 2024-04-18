@@ -151,6 +151,19 @@
             }
           },
           {
+            "id": "138e577e8efafdbd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Convolutions/Depthwise_convolution.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "db900d7f64f4a8c2",
             "type": "leaf",
             "state": {
@@ -320,7 +333,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -388,7 +401,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Canny_edge_detection.md"
+                "file": "MediaCoding/Convolutions/Depthwise_convolution.md"
               }
             }
           }
@@ -423,7 +436,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Canny_edge_detection.md",
+                "file": "MediaCoding/Convolutions/Depthwise_convolution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -440,7 +453,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Canny_edge_detection.md",
+                "file": "MediaCoding/Convolutions/Depthwise_convolution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -512,20 +525,23 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fb11c9cef527e165",
+  "active": "138e577e8efafdbd",
   "lastOpenFiles": [
-    "MediaCoding/Convolutional_networks.md",
-    "MediaCoding/Convolution.md",
+    "MediaCoding/Convolutions/Convolution.md",
+    "MediaCoding/Convolutions/Depthwise_convolution.md",
+    "MediaCoding/Computer_vision.md",
+    "MediaCoding/Convolutions/Pointwise_convolution.md",
+    "MediaCoding/Colour_models.md",
     "MediaCoding/Edge_detection.md",
-    "MediaCoding/Media_coding.md",
     "MediaCoding/Image_derivatives.md",
+    "MediaCoding/Convolutional_networks.md",
+    "MediaCoding/Media_coding.md",
+    "MediaCoding/Convolutions",
+    "MediaCoding/Canny_edge_detection.md",
     "MediaCoding/0Legacy/Detection_algorithms.md",
     "MediaCoding/0Legacy",
-    "MediaCoding/Computer_vision.md",
     "MediaCoding/Filters/Pooling.md",
     "MediaCoding/Filters/Untitled",
-    "MediaCoding/Colour_models.md",
-    "MediaCoding/Canny_edge_detection.md",
     "MediaCoding/OpticalFlow/Optical_flow.md",
     "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
     "MediaCoding/IntensityTransforms/Gamma_transform.md",
@@ -541,7 +557,6 @@
     "XX-Attachments/Images/Pasted image 20240418154821.png",
     "MachineLearning/0-Legacy/0-GeneralConcepts/Cross_entropy_legacy.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/Calculus/Taylor_series.md",
-    "MachineLearning/ErrorMeasures/Loss_functions.md",
     "XX-Attachments/Images/Pasted image 20240418141416.png",
     "XX-Attachments/Images/Pasted image 20240418140229.png",
     "XX-Attachments/Images/Pasted image 20240418140147.png",
@@ -557,7 +572,6 @@
     "MachineLearning/NeuralNetworks",
     "MachineLearning/LinearRegression",
     "MachineLearning/TreeModels",
-    "MachineLearning/0-Legacy",
-    "MachineLearning/ClusteringAlgorithms"
+    "MachineLearning/0-Legacy"
   ]
 }

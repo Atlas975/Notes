@@ -28,8 +28,6 @@ $$P=\frac{F-1}{2}$$
 ### Valid convolutions 
 - Convolutions performed when an image is given no padding 
 - This results in an output image smaller than the input image 
-
-
 ## Strided convolutions
 - Describes the jump size after each convolution, larger strides further compress an image, strides that fall out of bounds are skipped
 - Effective for downsampling an image, also computationally efficient by reducing the number of times the kernel is applied
@@ -52,3 +50,5 @@ $$P=\text{padding size}$$
 
 $$\lfloor{\frac{N+2P-F}{S}+1}\rfloor$$
 $$S=\text{stride size}$$
+
+
