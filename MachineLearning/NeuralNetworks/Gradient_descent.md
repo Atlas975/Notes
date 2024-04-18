@@ -51,8 +51,8 @@ $$I_{\beta}=\text{cost function gradient with respect to each parameter}$$
 - Aims for quick learning initially and then fine-tuned learning nearing convergence 
 - When training takes long periods of time this may also be done manually
 
-![[Pasted image 20240408161829.png|500|500]]
 
+![[Pasted image 20240418140229.png|400|400]]
 ### Step decay
 - Reduces the learning rate by a factor after every fixed number of epochs.
 $$\alpha = \alpha_0 \cdot \text{decay\_rate}^{\left\lfloor \frac{\text{epoch}}{\text{step\_size}} \right\rfloor}$$

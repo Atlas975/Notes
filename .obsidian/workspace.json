@@ -242,7 +242,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -310,7 +310,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Neural_networks.md"
+                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md"
               }
             }
           }
@@ -346,7 +346,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
+                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -363,7 +363,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
+                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -435,8 +435,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "91d4f13a0955458d",
+  "active": "d4cfdd1b8f073bb9",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240418140229.png",
+    "XX-Attachments/Images/Pasted image 20240418140147.png",
+    "MachineLearning/NeuralNetworks/Neural_networks.md",
     "LinearProgramming/Linear_programming.md",
     "Statistics/Sampling_methods.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/Sampling_basics.md",
@@ -467,13 +470,10 @@
     "MediaCoding/IntensityTransforms/Image_negatives.md",
     "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
-    "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
-    "MediaCoding/Watermarking/Watermarking.md",
     "XX-Attachments/Images/Pasted image 20240415190257.png",
     "XX-Attachments/Images/Pasted image 20240415184318.png",
     "XX-Attachments/Images/Pasted image 20240415141755.png",
     "XX-Attachments/Images/Pasted image 20240414221901.png",
-    "XX-Attachments/Images/Pasted image 20240413173732.png",
     "MachineLearning/NeuralNetworks/ActivationFunctions",
     "MachineLearning/GradientDescent",
     "MachineLearning/NeuralNetworks",
