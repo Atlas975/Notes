@@ -20,8 +20,12 @@ ___
 - **Objective Function:** main aim of the problem, either to maximise of to minimise.
 - **Decision Variables:** variables used to decide the output as decision variables. 
 - **Constraints:** restrictions on the decision variables 
-# Linear programming
-## Farmers problem
+
+
+## Linear programming formulation 
+
+## Linear programming problem types 
+### Value optimisation 
 
 > You have 3 tons of potato seeds and 4 tons of carrot seeds. To grow the crops efficiently, you also have 5 tons of fertiliser, which has to be used when planting in a 1:1 ratio. The profit is 1.2\$ for potato seeds and 1.7\$/kg for carrot seeds. How many potatoes and carrots should you plant to maximize your profit this season?
 
@@ -42,7 +46,7 @@ print("carrots:", x_c.value())
 print("profit:", model.objective.value())
 ```
 
-## Knapsack problem
+### Knapsack problem
 
 >Given $N$ items, each with a weight ​ and price​, our task is to maximise the price of the items we take into our backpack without exceeding its carry weight $M$.
 
@@ -62,7 +66,7 @@ print("price:", model.objective.value())
 print("take:", *(int(v.value()) for v in variables))
 ```
 
-## Bin packing
+### Bin packing
 
 > Given $n$ items with weights $w_{1}$,…$w_{n}$​ and an arbitrary number of bins with maximum carry weight $C$, determine the lowest number of bins to contain all  items without exceeding their carry weight.
 
