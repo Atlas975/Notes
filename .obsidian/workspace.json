@@ -79,7 +79,7 @@
               "type": "markdown",
               "state": {
                 "file": "Statistics/Entropy.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -183,7 +183,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -255,7 +255,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -323,7 +323,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md"
+                "file": "Statistics/Entropy.md"
               }
             }
           }
@@ -359,7 +359,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+                "file": "Statistics/Entropy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -376,7 +376,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+                "file": "Statistics/Entropy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -448,8 +448,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d59645aba6ee7212",
+  "active": "069410be87277b3a",
   "lastOpenFiles": [
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
     "XX-Attachments/Images/Pasted image 20240418141416.png",
     "MachineLearning/NeuralNetworks/Gradient_descent.md",
     "XX-Attachments/Images/Pasted image 20240418140229.png",
@@ -458,7 +460,6 @@
     "LinearProgramming/Linear_programming.md",
     "Statistics/Sampling_methods.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/Sampling_basics.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
     "MachineLearning/Logistic_regression.md",
     "MachineLearning/LinearRegression/Linear_regression.md",
     "MachineLearning/NeuralNetworks/Backpropagation.md",
@@ -486,7 +487,6 @@
     "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
     "XX-Attachments/Images/Pasted image 20240415190257.png",
     "XX-Attachments/Images/Pasted image 20240415184318.png",
-    "XX-Attachments/Images/Pasted image 20240415141755.png",
     "MachineLearning/NeuralNetworks/ActivationFunctions",
     "MachineLearning/GradientDescent",
     "MachineLearning/NeuralNetworks",

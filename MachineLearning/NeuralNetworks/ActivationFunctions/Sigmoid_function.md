@@ -31,9 +31,8 @@ ___
 
 ## Advantages
 - Smooth gradient, preventing "jumps" in output values.
-- Output interpretation is straightforward as a probability.
+- Output interpretation is straightforward as a probability for binary classification
 ## Disadvantages
 
 - **Vanishing Gradient Problem**: the function saturates for very high or very low values of \( x \), making the gradient near zero. This can slow down /  stop the training process for [[Neural_networks|NN]] due to very small weight updates during [[Backpropagation]].
-- **Not zero-centred**: This can lead to the gradients of weights being all positive or all negative, potentially leading to zig-zagging dynamics during optimization.
-- 
+- **Not zero-centred**: This can lead to the gradients of weights being all positive or all negative, potentially leading to zig-zagging dynamics during optimisation.
