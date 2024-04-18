@@ -18,7 +18,7 @@ ___
 # Neural networks
 
 - A deep learning framework, operates by tuning the weights and bias parameters to minimise the cost function, [[Activation_functions|activation]] layers are placed in a network style layout
-- Each individual neuron is able to offer linear separation between data, the use of these in a network allows for a model to learn complex patterns
+- Each individual neuron (perceptron) is able to offer linear separation between data, the use of these in a network with non-linear activation functions allows a model to learn complex patterns
 
 ![[Pasted image 20240414221901.png|150|150]]
 

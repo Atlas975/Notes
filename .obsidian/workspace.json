@@ -242,7 +242,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -310,7 +310,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LinearProgramming/Linear_programming.md"
+                "file": "MachineLearning/NeuralNetworks/Neural_networks.md"
               }
             }
           }
@@ -346,7 +346,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LinearProgramming/Linear_programming.md",
+                "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -363,7 +363,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LinearProgramming/Linear_programming.md",
+                "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -435,14 +435,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a01d01526f9f29d0",
+  "active": "91d4f13a0955458d",
   "lastOpenFiles": [
+    "LinearProgramming/Linear_programming.md",
     "Statistics/Sampling_methods.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/Sampling_basics.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
     "MachineLearning/Logistic_regression.md",
     "MachineLearning/LinearRegression/Linear_regression.md",
-    "LinearProgramming/Linear_programming.md",
     "MachineLearning/NeuralNetworks/Backpropagation.md",
     "XX-Attachments/Images/Pasted image 20240417104859.png",
     "XX-Attachments/Images/Pasted image 20240416191031.png",
