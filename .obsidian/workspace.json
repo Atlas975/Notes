@@ -8,176 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e74113bc84c3f9c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aff2130f9cd9a893",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/Image_derivatives.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "965c3d8619100ba9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/Edge_detection.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d4cfdd1b8f073bb9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d59645aba6ee7212",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "069410be87277b3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/Entropy.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4933650c7f57f7a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/ErrorMeasures/Loss_functions.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cb9decd2292fd23d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/Calculus/Taylor_series.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "74cfc7073b681e59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-Legacy/0-GeneralConcepts/Cross_entropy_legacy.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "19d020a54ce68cc9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/ImageMatching/Image_matching.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fb11c9cef527e165",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/Canny_edge_detection.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "138e577e8efafdbd",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "ba0d8fe30f16e9c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/Convolutions/Depthwise_seperable_convolution.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "608bac7becd2c119",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "MediaCoding/Convolutions/Depthwise_convolution.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "71b3e47f7f9941bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Convolutional_networks.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -354,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -422,7 +271,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Convolutions/Depthwise_seperable_convolution.md"
+                "file": "MediaCoding/Convolutional_networks.md"
               }
             }
           }
@@ -457,7 +306,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Convolutions/Depthwise_seperable_convolution.md",
+                "file": "MediaCoding/Convolutional_networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -474,7 +323,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Convolutions/Depthwise_seperable_convolution.md",
+                "file": "MediaCoding/Convolutional_networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -546,39 +395,39 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ba0d8fe30f16e9c0",
+  "active": "71b3e47f7f9941bb",
   "lastOpenFiles": [
-    "MediaCoding/0Legacy/Detection_algorithms.md",
-    "MediaCoding/Convolutions/Depthwise_seperable_convolution.md",
-    "MediaCoding/Convolutions/Depthwise_convolution.md",
-    "MediaCoding/Convolutions/Pointwise_convolution.md",
-    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
-    "MediaCoding/Convolutions/Convolution.md",
-    "XX-Attachments/Images/Pasted image 20240418180107.png",
-    "XX-Attachments/Images/Pasted image 20240418175903.png",
-    "MediaCoding/Convolutional_networks.md",
     "MediaCoding/Computer_vision.md",
     "MediaCoding/Edge_detection.md",
+    "MediaCoding/Media_coding.md",
+    "MediaCoding/Image_derivatives.md",
+    "MediaCoding/Convolutional_networks.md",
+    "MediaCoding/Convolutions/Depthwise_convolution.md",
+    "MediaCoding/Convolutions/Depthwise_separable_convolution.md",
+    "MediaCoding/Convolutions/Pointwise_convolution.md",
+    "MediaCoding/Convolutions/Convolution.md",
+    "XX-Attachments/Images/Pasted image 20240418181840.png",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
+    "MachineLearning/NeuralNetworks/Gradient_descent.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+    "Statistics/Entropy.md",
+    "MachineLearning/ErrorMeasures/Loss_functions.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/Calculus/Taylor_series.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/Cross_entropy_legacy.md",
+    "MediaCoding/ImageMatching/Image_matching.md",
+    "MediaCoding/Canny_edge_detection.md",
+    "MediaCoding/0Legacy/Detection_algorithms.md",
+    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
+    "XX-Attachments/Images/Pasted image 20240418180107.png",
+    "XX-Attachments/Images/Pasted image 20240418175903.png",
     "XX-Attachments/Templates/InfoNote_v2.md",
     "Networking/Network_delay.md",
     "Networking/Network delay.md",
     "XX-Attachments/Templates/InfoNote.md",
     "XX-Attachments/Templates/AliasNote.md",
-    "MediaCoding/Media_coding.md",
-    "MediaCoding/Image_derivatives.md",
-    "MediaCoding/Colour_models.md",
-    "MediaCoding/Canny_edge_detection.md",
     "MediaCoding/Convolutions",
     "MediaCoding/0Legacy",
-    "MediaCoding/Filters/Pooling.md",
     "MediaCoding/Filters/Untitled",
-    "MediaCoding/OpticalFlow/Optical_flow.md",
-    "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
-    "MediaCoding/IntensityTransforms/Gamma_transform.md",
-    "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
-    "MediaCoding/ImageMatching/Laplacian_pyramid.md",
-    "MediaCoding/ImageMatching/Image_matching.md",
-    "MediaCoding/ImageMatching/Harris_corner_detection.md",
     "XX-Attachments/Images/Pasted image 20240418154821.png",
     "XX-Attachments/Images/Pasted image 20240418141416.png",
     "XX-Attachments/Images/Pasted image 20240418140229.png",
@@ -586,7 +435,6 @@
     "XX-Attachments/Images/Pasted image 20240417104859.png",
     "XX-Attachments/Images/Pasted image 20240416191031.png",
     "XX-Attachments/Images/Pasted image 20240416190958.png",
-    "XX-Attachments/Images/Pasted image 20240416190915.png",
     "DistributedSystems/DistributedLedgers",
     "MachineLearning/NeuralNetworks/ActivationFunctions",
     "MachineLearning/GradientDescent",
