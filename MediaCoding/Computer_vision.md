@@ -22,12 +22,6 @@ ___
 
 
 
-## Pooling layers
-- Pooling layers offer another kind of image processing, operates the same way as a convolution but without a kernel with cell values. These are a useful layer for collapsing a network
-- Pooling layers keep the depth dimension of a volume
-- Example of average and max pooling:
-
-![[Pasted image 20220621153651.png|450|450]]
 
 ## Convolutions over volume
 - Needed over RGB images (3 layers correspond to 3 channels for an image)

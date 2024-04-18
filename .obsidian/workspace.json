@@ -143,8 +143,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Computer_vision.md",
-                "mode": "source",
+                "file": "MediaCoding/Canny_edge_detection.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -157,7 +157,7 @@
               "type": "markdown",
               "state": {
                 "file": "MediaCoding/Filters/Pooling.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -388,7 +388,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Computer_vision.md"
+                "file": "MediaCoding/Canny_edge_detection.md"
               }
             }
           }
@@ -423,7 +423,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Computer_vision.md",
+                "file": "MediaCoding/Canny_edge_detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -440,7 +440,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Computer_vision.md",
+                "file": "MediaCoding/Canny_edge_detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -514,15 +514,18 @@
   },
   "active": "fb11c9cef527e165",
   "lastOpenFiles": [
-    "MediaCoding/Filters/Pooling.md",
+    "MediaCoding/Convolutional_networks.md",
+    "MediaCoding/Convolution.md",
+    "MediaCoding/Edge_detection.md",
+    "MediaCoding/Media_coding.md",
+    "MediaCoding/Image_derivatives.md",
+    "MediaCoding/0Legacy/Detection_algorithms.md",
+    "MediaCoding/0Legacy",
     "MediaCoding/Computer_vision.md",
+    "MediaCoding/Filters/Pooling.md",
     "MediaCoding/Filters/Untitled",
     "MediaCoding/Colour_models.md",
     "MediaCoding/Canny_edge_detection.md",
-    "MediaCoding/Image_derivatives.md",
-    "MediaCoding/Edge_detection.md",
-    "MediaCoding/Detection_algorithms.md",
-    "MediaCoding/Convolution.md",
     "MediaCoding/OpticalFlow/Optical_flow.md",
     "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
     "MediaCoding/IntensityTransforms/Gamma_transform.md",
@@ -530,8 +533,6 @@
     "MediaCoding/ImageMatching/Laplacian_pyramid.md",
     "MediaCoding/ImageMatching/Image_matching.md",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
-    "MediaCoding/Convolutional_networks.md",
-    "MediaCoding/Media_coding.md",
     "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
     "MediaCoding/Filters/SmoothingFilters/Smoothing_spatial_filtering.md",
     "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
@@ -541,7 +542,6 @@
     "MachineLearning/0-Legacy/0-GeneralConcepts/Cross_entropy_legacy.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/Calculus/Taylor_series.md",
     "MachineLearning/ErrorMeasures/Loss_functions.md",
-    "MachineLearning/LinearRegression/Linear_regression.md",
     "XX-Attachments/Images/Pasted image 20240418141416.png",
     "XX-Attachments/Images/Pasted image 20240418140229.png",
     "XX-Attachments/Images/Pasted image 20240418140147.png",
@@ -558,7 +558,6 @@
     "MachineLearning/LinearRegression",
     "MachineLearning/TreeModels",
     "MachineLearning/0-Legacy",
-    "MachineLearning/ClusteringAlgorithms",
-    "MachineLearning/ErrorMeasures"
+    "MachineLearning/ClusteringAlgorithms"
   ]
 }

@@ -11,3 +11,9 @@
 
 ___
 # Pooling
+- A type of filter often used in a [[Convolutional_networks|CNN]], helps capture the essence of features in an image whilst reducing the spatial dimensions (downsampling)
+- This helps reduces the number of parameters making computation cheaper (allowing for a deep [[Neural_networks|NN]]) and avoiding overfitting. This is also needed to collapse the network
+
+
+![[Pasted image 20220621153651.png|300|300]]
+
