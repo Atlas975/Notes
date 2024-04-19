@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "MediaCoding/Filters/Pooling.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -203,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -271,7 +271,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Convolutional_networks.md"
+                "file": "MediaCoding/Filters/Pooling.md"
               }
             }
           }
@@ -279,7 +279,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -306,7 +307,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Convolutional_networks.md",
+                "file": "MediaCoding/Filters/Pooling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -323,7 +324,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Convolutional_networks.md",
+                "file": "MediaCoding/Filters/Pooling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -395,13 +396,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "71b3e47f7f9941bb",
+  "active": "db900d7f64f4a8c2",
   "lastOpenFiles": [
+    "MediaCoding/Convolutional_networks.md",
     "MediaCoding/Computer_vision.md",
     "MediaCoding/Edge_detection.md",
     "MediaCoding/Media_coding.md",
     "MediaCoding/Image_derivatives.md",
-    "MediaCoding/Convolutional_networks.md",
     "MediaCoding/Convolutions/Depthwise_convolution.md",
     "MediaCoding/Convolutions/Depthwise_separable_convolution.md",
     "MediaCoding/Convolutions/Pointwise_convolution.md",
