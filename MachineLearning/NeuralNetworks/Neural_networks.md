@@ -51,7 +51,7 @@ $$k=\text{example}$$
 
 
 ### Adding more layers (depth)
-- **Feature complexity**: deeper networks can learn complex and abstract features, building a layered understanding of the input data
+- **Feature complexity**: deeper networks can learn complex and abstract features, building a layered understanding of the input data eg edges -> object -> scenes in image processing
 - **Hierarchical Processing**: allows the network to build up a more detailed understanding of the input data, layer by layer. Crucial for tasks requiring detailed semantic interpretation.
 - **Challenges**: increased depth can lead to training difficulties such as overfitting and vanishing/exploding gradients, requiring more sophisticated training techniques 
 ### Adding more neurons to a layer (width)
