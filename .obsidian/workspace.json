@@ -26,6 +26,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "MediaCoding/Convolutions/Convolution.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b46aa24c0320f200",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "MediaCoding/Convolutional_networks.md",
                 "mode": "source",
                 "backlinks": false,
@@ -216,7 +229,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -284,7 +297,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Neural_networks.md"
+                "file": "MediaCoding/Convolutional_networks.md"
               }
             }
           }
@@ -292,8 +305,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -320,7 +332,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
+                "file": "MediaCoding/Convolutional_networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -337,7 +349,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
+                "file": "MediaCoding/Convolutional_networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -409,20 +421,20 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "91d4f13a0955458d",
+  "active": "b46aa24c0320f200",
   "lastOpenFiles": [
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
-    "MachineLearning/NeuralNetworks/Neural_networks.md",
-    "MediaCoding/Filters/Pooling.md",
-    "MediaCoding/Convolutional_networks.md",
-    "MediaCoding/Computer_vision.md",
-    "MediaCoding/Edge_detection.md",
-    "MediaCoding/Media_coding.md",
+    "MediaCoding/Convolutions/Convolution.md",
     "MediaCoding/Image_derivatives.md",
+    "MediaCoding/Computer_vision.md",
+    "MediaCoding/Media_coding.md",
+    "MediaCoding/Edge_detection.md",
+    "MediaCoding/Convolutional_networks.md",
+    "MachineLearning/NeuralNetworks/Neural_networks.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
+    "MediaCoding/Filters/Pooling.md",
     "MediaCoding/Convolutions/Depthwise_convolution.md",
     "MediaCoding/Convolutions/Depthwise_separable_convolution.md",
     "MediaCoding/Convolutions/Pointwise_convolution.md",
-    "MediaCoding/Convolutions/Convolution.md",
     "XX-Attachments/Images/Pasted image 20240418181840.png",
     "MachineLearning/NeuralNetworks/Gradient_descent.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
