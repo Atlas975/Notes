@@ -45,17 +45,21 @@ $$j=\text{neuron in layer vector}$$
 $$t=\text{batch number}$$
 $$k=\text{example}$$
 
-## Neural network structure 
+## Neural network structure
 - Adding more layers to a network (making it deeper) versus adding more neurons to a single layer (making it wider) affects the network's capabilities and performance in different ways. 
 - Knowing which to modify is crucial for effectively designing networks for specific problems
 
 
 ### Adding more layers (depth)
-- **Feature complexity**: deeper networks can learn complex and abstract features, building a layered understanding of the input data eg edges -> object -> scenes in image processing
-- **Hierarchical Processing**: allows the network to build up a more detailed understanding of the input data, layer by layer. Crucial for tasks requiring detailed semantic interpretation.
-- **Challenges**: increased depth can lead to training difficulties such as overfitting and vanishing/exploding gradients, requiring more sophisticated training techniques 
+- Deeper networks can learn complex and abstract features, building a layered understanding of input data eg edges -> object -> scenes in image processing
+- This allows the network to build up a more detailed understanding of the input data, layer by layer. Crucial for tasks requiring detailed semantic interpretation
+- However, this is reliant on having enough data to learn these patterns without overfitting, deeper networks are also more prone to the [[Activation_functions#Vanishing gradient problem|vanishing gradient problem]] than wider ones
+
+$$\text{Feature complexity}\propto \text{Network depth}$$
 ### Adding more neurons to a layer (width)
 
-- **Increased Layer Capacity**: more neurons in a layer allow for a richer representation of data at that level, improving the network's ability to capture diverse features and nuances.
-- **Efficiency Considerations**: wider layers can simplify network architecture, but they still increase the number of parameters, potentially leading to overfitting and higher computational costs.
+- Adding more neurons in a layer allows for a richer representation of data at that level of abstraction, this means more capacity to capture varied aspects of the data at once
+- This improves the network's ability to capture diverse features and nuances by giving the model more flexibility in how it represents data 
+- This increases the number of parameters at a layer, while this can help avoid deeper networks this also has the potential of increasing computational cost and still overfitting
 
+$$\text{Rich representation}\propto \text{Network width}$$

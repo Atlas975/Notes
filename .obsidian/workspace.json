@@ -60,6 +60,19 @@
             }
           },
           {
+            "id": "00486dc158a3fa34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0d16b0374afaf0c1",
             "type": "leaf",
             "state": {
@@ -398,6 +411,8 @@
   },
   "active": "91d4f13a0955458d",
   "lastOpenFiles": [
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
+    "MachineLearning/NeuralNetworks/Neural_networks.md",
     "MediaCoding/Filters/Pooling.md",
     "MediaCoding/Convolutional_networks.md",
     "MediaCoding/Computer_vision.md",
@@ -409,7 +424,6 @@
     "MediaCoding/Convolutions/Pointwise_convolution.md",
     "MediaCoding/Convolutions/Convolution.md",
     "XX-Attachments/Images/Pasted image 20240418181840.png",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
     "MachineLearning/NeuralNetworks/Gradient_descent.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
     "Statistics/Entropy.md",
@@ -426,7 +440,6 @@
     "Networking/Network_delay.md",
     "Networking/Network delay.md",
     "XX-Attachments/Templates/InfoNote.md",
-    "XX-Attachments/Templates/AliasNote.md",
     "MediaCoding/Convolutions",
     "MediaCoding/0Legacy",
     "MediaCoding/Filters/Untitled",
