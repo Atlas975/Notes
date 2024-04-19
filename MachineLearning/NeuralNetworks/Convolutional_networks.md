@@ -19,6 +19,7 @@ aliases: [CNN]
 ___
 # Convolutional networks
 - A  [[Neural_networks|neural network]] can be used to process images, in the context of a neural network this is done by breaking an image down to into its edges, shape patterns, colour etc
+- The motivation behind this is creating a network that can automatically learn [[Image_features|features]] without having to be familiar with the original data and it's content
 - Example network
 
 ![[Pasted image 20220621152515.png|450|450]]
@@ -30,4 +31,7 @@ ___
 - **Parameter sharing**: instead of each neuron being linked to every neuron in the next layer
 - operates on lower and higher level features, saving computation power. A feature detector for instance that's useful in part of an image will likely be usefil in other parts of an image
 - **Connection sparsity**: each output in a layer depends on a small number of inputs
+
+
+![[Pasted image 20240419182533.png|350|350]]
 - Generally while going deeper in a CNN, height and width tend to decline while number of channels increases ($H,W \downarrow  \implies C\uparrow$)

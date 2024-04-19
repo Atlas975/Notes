@@ -30,7 +30,7 @@ ___
 
 ## Interest point quality
 - In general the best interest points are those where shifting a window in any direction results in a significant change to the window's content 
+- This makes **corners** the ideal interest point as the largest window changes occur when focused on these regions in an image. This is the intuition behind [[Harris_corner_detection|Harris corner detection]] 
 
 ![[Pasted image 20240322175415.png|350|350]]
 
-- This makes **corners** the ideal interest point as the largest window changes occur when focused on these regions in an image. This is the intuition behind [[Harris_corner_detection|Harris corner detection]] 

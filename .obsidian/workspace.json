@@ -39,8 +39,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Convolutional_networks.md",
-                "mode": "source",
+                "file": "MediaCoding/ImageMatching/Image_features.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ea4f0698e79408a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NeuralNetworks/Convolutional_networks.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -229,7 +242,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -297,7 +310,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Convolutional_networks.md"
+                "file": "MachineLearning/NeuralNetworks/Convolutional_networks.md"
               }
             }
           }
@@ -332,7 +345,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Convolutional_networks.md",
+                "file": "MachineLearning/NeuralNetworks/Convolutional_networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -349,7 +362,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Convolutional_networks.md",
+                "file": "MachineLearning/NeuralNetworks/Convolutional_networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -421,14 +434,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b46aa24c0320f200",
+  "active": "ea4f0698e79408a5",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240419182533.png",
+    "MediaCoding/ImageMatching/Image_features.md",
+    "MachineLearning/NeuralNetworks/Convolutional_networks.md",
     "MediaCoding/Convolutions/Convolution.md",
     "MediaCoding/Image_derivatives.md",
     "MediaCoding/Computer_vision.md",
     "MediaCoding/Media_coding.md",
     "MediaCoding/Edge_detection.md",
-    "MediaCoding/Convolutional_networks.md",
     "MachineLearning/NeuralNetworks/Neural_networks.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
     "MediaCoding/Filters/Pooling.md",
@@ -450,8 +465,6 @@
     "XX-Attachments/Images/Pasted image 20240418175903.png",
     "XX-Attachments/Templates/InfoNote_v2.md",
     "Networking/Network_delay.md",
-    "Networking/Network delay.md",
-    "XX-Attachments/Templates/InfoNote.md",
     "MediaCoding/Convolutions",
     "MediaCoding/0Legacy",
     "MediaCoding/Filters/Untitled",
