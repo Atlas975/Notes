@@ -23,7 +23,6 @@ ___
 ![[Pasted image 20240414221901.png|150|150]]
 
 
-## Network structure
 -  **Input Layer**: Receives raw data. Each neuron in this layer represents a feature of the input data.
 -  **Hidden Layers**: Perform computations and feature transformations. A network may have multiple hidden layers, allowing it to learn complex patterns.
 -  **Output Layer**: Produces the final results or predictions (either classification or regression)
@@ -45,3 +44,18 @@ $$i=\text{layer}$$
 $$j=\text{neuron in layer vector}$$
 $$t=\text{batch number}$$
 $$k=\text{example}$$
+
+## Neural network structure 
+- Adding more layers to a network (making it deeper) versus adding more neurons to a single layer (making it wider) affects the network's capabilities and performance in different ways. 
+- Knowing which to modify is crucial for effectively designing networks for specific problems
+
+
+### Adding more layers (depth)
+- **Feature complexity**: deeper networks can learn complex and abstract features, building a layered understanding of the input data
+- **Hierarchical Processing**: allows the network to build up a more detailed understanding of the input data, layer by layer. Crucial for tasks requiring detailed semantic interpretation.
+- **Challenges**: increased depth can lead to training difficulties such as overfitting and vanishing/exploding gradients, requiring more sophisticated training techniques 
+### Adding more neurons to a layer (width)
+
+- **Increased Layer Capacity**: more neurons in a layer allow for a richer representation of data at that level, improving the network's ability to capture diverse features and nuances.
+- **Efficiency Considerations**: wider layers can simplify network architecture, but they still increase the number of parameters, potentially leading to overfitting and higher computational costs.
+

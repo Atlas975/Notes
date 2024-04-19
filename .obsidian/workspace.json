@@ -203,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -271,7 +271,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Filters/Pooling.md"
+                "file": "MachineLearning/NeuralNetworks/Neural_networks.md"
               }
             }
           }
@@ -307,7 +307,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Filters/Pooling.md",
+                "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -324,7 +324,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Filters/Pooling.md",
+                "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -396,8 +396,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "db900d7f64f4a8c2",
+  "active": "91d4f13a0955458d",
   "lastOpenFiles": [
+    "MediaCoding/Filters/Pooling.md",
     "MediaCoding/Convolutional_networks.md",
     "MediaCoding/Computer_vision.md",
     "MediaCoding/Edge_detection.md",
