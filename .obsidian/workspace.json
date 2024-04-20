@@ -133,6 +133,19 @@
             }
           },
           {
+            "id": "ff89a40906fc848e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "91d4f13a0955458d",
             "type": "leaf",
             "state": {
@@ -302,7 +315,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -370,7 +383,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Filters/Unpooling.md"
+                "file": "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md"
               }
             }
           }
@@ -405,7 +418,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Filters/Unpooling.md",
+                "file": "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -422,7 +435,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Filters/Unpooling.md",
+                "file": "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -494,13 +507,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1ecd14e49eb6b109",
+  "active": "ff89a40906fc848e",
   "lastOpenFiles": [
+    "MediaCoding/Filters/Unpooling.md",
     "XX-Attachments/Images/Pasted image 20240420204625.png",
     "XX-Attachments/Images/Pasted image 20240420204539.png",
     "XX-Attachments/Images/Pasted image 20240420204414.png",
     "XX-Attachments/Images/Pasted image 20240420204307.png",
-    "MediaCoding/Filters/Unpooling.md",
     "MediaCoding/Filters/Pooling.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
@@ -523,7 +536,6 @@
     "MediaCoding/Convolutions/Convolution.md",
     "XX-Attachments/Images/Pasted image 20240420020729.png",
     "XX-Attachments/Images/Pasted image 20240420015929.png",
-    "XX-Attachments/Images/Pasted image 20240420015209.png",
     "MediaCoding/ImageMatching/Image_features.md",
     "MediaCoding/Image_derivatives.md",
     "MediaCoding/Computer_vision.md",
