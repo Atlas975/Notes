@@ -23,6 +23,11 @@ ___
 
 ![[Pasted image 20240420015209.png|400|400]]
 
+
+
+## CNN structure 
+![[Pasted image 20240420195543.png|450|450]]
+
 ## Differences from standard networks
 - **Parameter sharing**: instead of each neuron being linked to every neuron in the next layer
 - operates on lower and higher level features, saving computation power. A feature detector for instance that's useful in part of an image will likely be usefil in other parts of an image

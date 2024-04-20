@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
+                "file": "MachineLearning/0-Legacy/Weakly_supervised_learning.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -268,7 +268,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -336,7 +336,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md"
+                "file": "MachineLearning/NeuralNetworks/Convolutional_networks.md"
               }
             }
           }
@@ -371,7 +371,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
+                "file": "MachineLearning/NeuralNetworks/Convolutional_networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -388,7 +388,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
+                "file": "MachineLearning/NeuralNetworks/Convolutional_networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -460,10 +460,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d189a17239927881",
+  "active": "ea4f0698e79408a5",
   "lastOpenFiles": [
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
+    "XX-Attachments/Images/Pasted image 20240420195543.png",
+    "MachineLearning/0-Legacy/Weakly_supervised_learning.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
+    "MachineLearning/Untitled",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
     "XX-Attachments/Images/Pasted image 20240420022511.png",
     "MachineLearning/NeuralNetworks/Untitled.md",
     "XX-Attachments/Images/Pasted image 20240420021114.png",
@@ -493,7 +496,6 @@
     "MachineLearning/ErrorMeasures/Loss_functions.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/Calculus/Taylor_series.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/Cross_entropy_legacy.md",
-    "MediaCoding/ImageMatching/Image_matching.md",
     "XX-Attachments/Images/Pasted image 20240418180107.png",
     "XX-Attachments/Images/Pasted image 20240418175903.png",
     "MediaCoding/Convolutions",
@@ -505,7 +507,6 @@
     "MachineLearning/GradientDescent",
     "MachineLearning/NeuralNetworks",
     "MachineLearning/LinearRegression",
-    "MachineLearning/TreeModels",
-    "MachineLearning/0-Legacy"
+    "MachineLearning/TreeModels"
   ]
 }
