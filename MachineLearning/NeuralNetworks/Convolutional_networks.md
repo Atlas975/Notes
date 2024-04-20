@@ -25,17 +25,19 @@ ___
 
 
 
-## CNN structure 
+## CNN structure
 - CNN's typically follow a similar structure, this involves starting with a [[Convolution|Convolution layers]] followed by an [[Activation_functions|activation function]] to add non-linearity such as [[Rectified_linear_unit|ReLU]]
 - [[Pooling|Pooling layers]] are used to perform non-linear down-sampling, this provides translation invariance, useful when checking for feature presence while ignoring spatial information 
 
 ![[Pasted image 20240420195543.png|450|450]]
 
 ## Differences from standard networks
-- **Parameter sharing**: instead of each neuron being linked to every neuron in the next layer
-- operates on lower and higher level features, saving computation power. A feature detector for instance that's useful in part of an image will likely be usefil in other parts of an image
-- **Connection sparsity**: each output in a layer depends on a small number of inputs, this is done with shared weights. Each neuron shares a weight based on it's position in a filter 
+- **Parameter sharing**: uses the same weights for more than one function by convolving a matrix of weights with the input. This significantly reduces the number of parameters to optimise
+- **Sparse interactions**: each output in a layer depends on a small number of inputs, this is done with shared weights. Each neuron shares a weight based on it's position in a filter 
 
 
 ![[Pasted image 20240419182533.png|350|350]]
+
+- These characteristics help to manage complexity with a large number of features
+- This architecture is also designed to pick up on hierarchical patterns eg edges may combine in deeper layers to become more abstract features like shapes or objects
 - Generally while going deeper in a CNN, height and width tend to decline while number of channels increases ($H,W \downarrow  \implies C\uparrow$)
