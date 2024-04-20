@@ -18,7 +18,8 @@ aliases: [CNN]
 
 ___
 # Convolutional networks
-- A  [[Neural_networks|neural network]] can be used to process images, in the context of a neural network this is done by breaking an image down to into its edges, shape patterns, colour etc
+- A  specialised [[Neural_networks|neural network]] can be used to process images, in the context of a neural network this is done by breaking an image down to into its edges, shape patterns, colour etc
+- Specialised for data with grid-like topology 
 - The motivation behind this is creating a network that can automatically learn [[Image_features|features]] without having to be familiar with the original data and it's content
 - Example network
 
