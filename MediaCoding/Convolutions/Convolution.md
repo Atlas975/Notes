@@ -32,7 +32,7 @@ $$P=\frac{F-1}{2}$$
 - Describes the jump size after each convolution, larger strides further compress an image, strides that fall out of bounds are skipped
 - Effective for downsampling an image, also computationally efficient by reducing the number of times the kernel is applied
 
-![[Pasted image 20220621142807.png|450|450]]
+![[Pasted image 20220621142807.png|400|400]]
 
 ## Kernel output dimensions
 - These output sizes assume the x and y dimension sizes are the same
@@ -52,3 +52,7 @@ $$\lfloor{\frac{N+2P-F}{S}+1}\rfloor$$
 $$S=\text{stride size}$$
 
 
+
+## Unshared convolutions 
+
+![[Pasted image 20240420015929.png|400|400]]

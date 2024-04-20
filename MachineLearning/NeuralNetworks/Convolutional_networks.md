@@ -18,20 +18,15 @@ aliases: [CNN]
 
 ___
 # Convolutional networks
-- A  specialised [[Neural_networks|neural network]] can be used to process images, in the context of a neural network this is done by breaking an image down to into its edges, shape patterns, colour etc
-- Specialised for data with grid-like topology 
+- A  specialised [[Neural_networks|neural network]] designed for processing data that has a grid-like topology, these allow a network to have a fixed, controllable number of parameters despite input size
 - The motivation behind this is creating a network that can automatically learn [[Image_features|features]] without having to be familiar with the original data and it's content
-- Example network
 
-![[Pasted image 20220621152515.png|450|450]]
-![[Pasted image 20220621152421.png|450|450]]
+![[Pasted image 20240420015209.png|400|400]]
 
-- The dimensions of a filter correspond to the number of parameters eg with 10 filters of 3x3x3 in a layer, the resulting output will 270 parameters, with a bias this would be 280.
-- Note how the original image size doesn't influence the number of parameters
 ## Differences from standard networks
 - **Parameter sharing**: instead of each neuron being linked to every neuron in the next layer
 - operates on lower and higher level features, saving computation power. A feature detector for instance that's useful in part of an image will likely be usefil in other parts of an image
-- **Connection sparsity**: each output in a layer depends on a small number of inputs
+- **Connection sparsity**: each output in a layer depends on a small number of inputs, this is done with shared weights. Each neuron shares a weight based on it's position in a filter 
 
 
 ![[Pasted image 20240419182533.png|350|350]]

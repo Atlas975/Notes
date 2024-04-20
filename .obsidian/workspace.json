@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "MediaCoding/Convolutions/Convolution.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -53,7 +53,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/NeuralNetworks/Convolutional_networks.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -242,7 +242,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -310,7 +310,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Convolutional_networks.md"
+                "file": "MediaCoding/Convolutions/Convolution.md"
               }
             }
           }
@@ -318,7 +318,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -345,7 +346,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Convolutional_networks.md",
+                "file": "MediaCoding/Convolutions/Convolution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -362,7 +363,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Convolutional_networks.md",
+                "file": "MediaCoding/Convolutions/Convolution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -434,12 +435,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ea4f0698e79408a5",
+  "active": "71b3e47f7f9941bb",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240420015929.png",
+    "MachineLearning/NeuralNetworks/Convolutional_networks.md",
+    "XX-Attachments/Images/Pasted image 20240420015209.png",
+    "MediaCoding/Convolutions/Convolution.md",
     "XX-Attachments/Images/Pasted image 20240419182533.png",
     "MediaCoding/ImageMatching/Image_features.md",
-    "MachineLearning/NeuralNetworks/Convolutional_networks.md",
-    "MediaCoding/Convolutions/Convolution.md",
     "MediaCoding/Image_derivatives.md",
     "MediaCoding/Computer_vision.md",
     "MediaCoding/Media_coding.md",
@@ -473,8 +476,6 @@
     "XX-Attachments/Images/Pasted image 20240418140229.png",
     "XX-Attachments/Images/Pasted image 20240418140147.png",
     "XX-Attachments/Images/Pasted image 20240417104859.png",
-    "XX-Attachments/Images/Pasted image 20240416191031.png",
-    "XX-Attachments/Images/Pasted image 20240416190958.png",
     "DistributedSystems/DistributedLedgers",
     "MachineLearning/NeuralNetworks/ActivationFunctions",
     "MachineLearning/GradientDescent",
