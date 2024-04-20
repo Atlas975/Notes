@@ -27,7 +27,33 @@
               "type": "markdown",
               "state": {
                 "file": "MediaCoding/Convolutions/Convolution.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aadb53d2aa465232",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
                 "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d189a17239927881",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -242,7 +268,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -310,7 +336,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Convolutions/Convolution.md"
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md"
               }
             }
           }
@@ -318,8 +344,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -346,7 +371,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Convolutions/Convolution.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -363,7 +388,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Convolutions/Convolution.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -435,12 +460,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "71b3e47f7f9941bb",
+  "active": "d189a17239927881",
   "lastOpenFiles": [
-    "XX-Attachments/Images/Pasted image 20240420015929.png",
-    "MachineLearning/NeuralNetworks/Convolutional_networks.md",
-    "XX-Attachments/Images/Pasted image 20240420015209.png",
+    "XX-Attachments/Images/Pasted image 20240420021114.png",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/ReLU_function_legacy.md",
     "MediaCoding/Convolutions/Convolution.md",
+    "XX-Attachments/Images/Pasted image 20240420020729.png",
+    "MachineLearning/NeuralNetworks/Convolutional_networks.md",
+    "XX-Attachments/Images/Pasted image 20240420015929.png",
+    "XX-Attachments/Images/Pasted image 20240420015209.png",
     "XX-Attachments/Images/Pasted image 20240419182533.png",
     "MediaCoding/ImageMatching/Image_features.md",
     "MediaCoding/Image_derivatives.md",
@@ -463,19 +493,14 @@
     "MediaCoding/ImageMatching/Image_matching.md",
     "MediaCoding/Canny_edge_detection.md",
     "MediaCoding/0Legacy/Detection_algorithms.md",
-    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "XX-Attachments/Images/Pasted image 20240418180107.png",
     "XX-Attachments/Images/Pasted image 20240418175903.png",
-    "XX-Attachments/Templates/InfoNote_v2.md",
-    "Networking/Network_delay.md",
     "MediaCoding/Convolutions",
     "MediaCoding/0Legacy",
     "MediaCoding/Filters/Untitled",
     "XX-Attachments/Images/Pasted image 20240418154821.png",
     "XX-Attachments/Images/Pasted image 20240418141416.png",
     "XX-Attachments/Images/Pasted image 20240418140229.png",
-    "XX-Attachments/Images/Pasted image 20240418140147.png",
-    "XX-Attachments/Images/Pasted image 20240417104859.png",
     "DistributedSystems/DistributedLedgers",
     "MachineLearning/NeuralNetworks/ActivationFunctions",
     "MachineLearning/GradientDescent",

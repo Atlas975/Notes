@@ -53,6 +53,14 @@ $$S=\text{stride size}$$
 
 
 
-## Unshared convolutions 
+## Unshared convolution
+- A convolution where each filter has its own learnable parameters / weights. This means each filter's weights are applied independently with no sharing
+- Allow for more flexible feature learning compared to shared convolutions, as each filter can learn distinct features at different locations in the input data. More computationally expensive
 
 ![[Pasted image 20240420015929.png|400|400]]
+
+## Tiled convolution 
+- Alternates between filters while performing convolutions 
+- This allows more flexibility when filtering on the spatial domain 
+
+![[Pasted image 20240420020729.png|400|400]]
