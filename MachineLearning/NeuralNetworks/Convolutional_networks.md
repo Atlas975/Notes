@@ -26,6 +26,9 @@ ___
 
 
 ## CNN structure 
+- CNN's typically follow a similar structure, this involves starting with a [[Convolution|Convolution layers]] followed by an [[Activation_functions|activation function]] to add non-linearity such as [[Rectified_linear_unit|ReLU]]
+- [[Pooling|Pooling layers]] are used to perform non-linear down-sampling, this provides translation invariance, useful when checking for feature presence while ignoring spatial information 
+
 ![[Pasted image 20240420195543.png|450|450]]
 
 ## Differences from standard networks
