@@ -17,6 +17,7 @@ aliases:
 ___
 # Generative adversarial networks
 - A specialised [[Neural_networks|neural net]] designed for generating data that resembles it's training data, this is done in an adversarial setting where generated data must compete with real data
+- GAN's make use of two models, a generator that creates new data and the discriminator which acts as an expert that labels 
 
 
 

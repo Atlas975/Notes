@@ -11,9 +11,8 @@
 
 ___
 # Semantic segmentation
-- Involves partitioning an image into multiple segments or regions, where each segment corresponds to a specific class label
-- This is typically done using a [[Convolutional_networks|CNN]]
--
+- Involves partitioning an image into multiple segments, where each segment corresponds to a specific class label. This requires the use of an encoder and decoder step
+- This is done using a [[Convolutional_networks|CNN]] until a small feature map is constructed and then reconstructing the semantic map using operations like [[Transposed_convolution|Deconv]] and [[Unpooling]]
 
 
 ![[Pasted image 20240421191732.png|400|400]]

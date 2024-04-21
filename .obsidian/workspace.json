@@ -178,6 +178,19 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/Classification/Semantic_segmentation.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d469b9ef76052942",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -354,7 +367,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -422,7 +435,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Classification/Semantic_segmentation.md"
+                "file": "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md"
               }
             }
           }
@@ -430,7 +443,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -457,7 +471,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Classification/Semantic_segmentation.md",
+                "file": "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -474,7 +488,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Classification/Semantic_segmentation.md",
+                "file": "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -546,11 +560,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "bc578b7f26dff38b",
+  "active": "d469b9ef76052942",
   "lastOpenFiles": [
+    "MachineLearning/Classification/Semantic_segmentation.md",
     "XX-Attachments/Images/Pasted image 20240421191732.png",
     "MachineLearning/Classification/Naive_Bayes.md",
-    "MachineLearning/Classification/Semantic_segmentation.md",
     "MachineLearning/Machine_learning_notation.md",
     "MachineLearning/Classification/K-nearest_neighbours.md",
     "ContinuousMath/Distance_metrics.md",
@@ -584,7 +598,6 @@
     "XX-Attachments/Images/Pasted image 20240420195543.png",
     "XX-Attachments/Images/Pasted image 20240420022511.png",
     "XX-Attachments/Images/Pasted image 20240420021114.png",
-    "XX-Attachments/Images/Pasted image 20240420020729.png",
     "MediaCoding/Convolutions",
     "MediaCoding/0Legacy",
     "MediaCoding/Filters/Untitled",
