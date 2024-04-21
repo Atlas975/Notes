@@ -21,3 +21,6 @@ ___
 
 
 ![[Pasted image 20240420203909.png|450|450]]
+
+
+## Transposed convolution (deconv)
