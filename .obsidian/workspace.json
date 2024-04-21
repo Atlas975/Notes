@@ -138,7 +138,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
+                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -383,7 +383,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md"
+                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md"
               }
             }
           }
@@ -418,7 +418,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
+                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -435,7 +435,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
+                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -509,6 +509,7 @@
   },
   "active": "ff89a40906fc848e",
   "lastOpenFiles": [
+    "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
     "MediaCoding/Filters/Unpooling.md",
     "XX-Attachments/Images/Pasted image 20240420204625.png",
     "XX-Attachments/Images/Pasted image 20240420204539.png",
@@ -518,7 +519,6 @@
     "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
-    "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
     "MachineLearning/NeuralNetworks/Gradient_descent.md",
     "MachineLearning/NeuralNetworks/Neural_networks.md",
     "MachineLearning/NeuralNetworks/Convolutional_networks.md",
