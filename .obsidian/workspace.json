@@ -191,7 +191,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -575,6 +575,7 @@
   },
   "active": "d469b9ef76052942",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240421202212.png",
     "MachineLearning/ErrorMeasures/Cross-entropy.md",
     "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
     "MachineLearning/Classification/Semantic_segmentation.md",
@@ -607,7 +608,6 @@
     "XX-Attachments/Images/Pasted image 20240420204307.png",
     "MediaCoding/Filters/Pooling.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
     "XX-Attachments/Images/Pasted image 20240420203909.png",
     "XX-Attachments/Images/Pasted image 20240420195543.png",
     "XX-Attachments/Images/Pasted image 20240420022511.png",
