@@ -177,8 +177,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Classification/Naive_Bayes.md",
-                "mode": "preview",
+                "file": "MachineLearning/Classification/Semantic_segmentation.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -422,7 +422,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Classification/Naive_Bayes.md"
+                "file": "MachineLearning/Classification/Semantic_segmentation.md"
               }
             }
           }
@@ -457,7 +457,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Classification/Naive_Bayes.md",
+                "file": "MachineLearning/Classification/Semantic_segmentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -474,7 +474,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Classification/Naive_Bayes.md",
+                "file": "MachineLearning/Classification/Semantic_segmentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -546,8 +546,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "61b6b073dac95afd",
+  "active": "bc578b7f26dff38b",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240421191732.png",
+    "MachineLearning/Classification/Naive_Bayes.md",
+    "MachineLearning/Classification/Semantic_segmentation.md",
     "MachineLearning/Machine_learning_notation.md",
     "MachineLearning/Classification/K-nearest_neighbours.md",
     "ContinuousMath/Distance_metrics.md",
@@ -556,7 +559,6 @@
     "MachineLearning/Untitled.md",
     "MachineLearning/Ensemble_learning.md",
     "MachineLearning/Statistical_modeling.md",
-    "MachineLearning/Classification/Naive_Bayes.md",
     "MachineLearning/Clustering/K-means_clustering.md",
     "MachineLearning/Clustering/Hierarchal_clustering.md",
     "MachineLearning/Clustering/Clustering.md",
@@ -578,8 +580,6 @@
     "MediaCoding/Filters/Pooling.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
-    "MachineLearning/NeuralNetworks/Neural_networks.md",
     "XX-Attachments/Images/Pasted image 20240420203909.png",
     "XX-Attachments/Images/Pasted image 20240420195543.png",
     "XX-Attachments/Images/Pasted image 20240420022511.png",
