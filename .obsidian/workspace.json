@@ -191,6 +191,19 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9665d09f50742077",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/ErrorMeasures/Cross-entropy.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -562,6 +575,8 @@
   },
   "active": "d469b9ef76052942",
   "lastOpenFiles": [
+    "MachineLearning/ErrorMeasures/Cross-entropy.md",
+    "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
     "MachineLearning/Classification/Semantic_segmentation.md",
     "XX-Attachments/Images/Pasted image 20240421191732.png",
     "MachineLearning/Classification/Naive_Bayes.md",
@@ -580,7 +595,6 @@
     "XX-Attachments/Images/Pasted image 20240421174526.png",
     "MediaCoding/Convolutions/Convolution.md",
     "MediaCoding/Convolutions/Depthwise_convolution.md",
-    "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
     "MediaCoding/Filters/Unpooling.md",
     "MediaCoding/Canny_edge_detection.md",
     "MediaCoding/Convolutions/Depthwise_separable_convolution.md",
