@@ -16,7 +16,7 @@ aliases:
 
 ___
 # K-nearest neighbours
-- A [[Artificial_intelligence#Supervised learning|supervised learning]] algorithms that identifies the $k$ closest training examples in the feature space and assigns the most frequent label among them
+- A [[Artificial_intelligence#Supervised learning|supervised learning]] algorithms that classifies by identifies the $k$ closest training examples in the feature space and assigns the most frequent label among them
 - The performance of this method varies based on the [[Distance_metrics|distance metric]] used to determine the nearest neighbour. With each offering tradeoffs between speed and accuracy
 
 ![[Pasted image 20240402184402.png|500|500]]
@@ -30,4 +30,3 @@ ___
 - A higher value like 3-NN reduces the classification error, but is slower to classify 
 
 ![[Pasted image 20240402185951.png|250|250]]
-

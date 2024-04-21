@@ -1,6 +1,6 @@
 ---
 aliases:
-  - deconv
+  - Deconv
 ---
 
 > [!important]- Metadata

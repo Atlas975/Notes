@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Naive_Bayes.md",
+                "file": "MachineLearning/Classification/Naive_Bayes.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -164,7 +164,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Convolutions/Transposed_convolution.md",
+                "file": "ContinuousMath/Distance_metrics.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bc578b7f26dff38b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Classification/Naive_Bayes.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -341,7 +354,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -409,7 +422,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Convolutions/Transposed_convolution.md"
+                "file": "MachineLearning/Classification/Naive_Bayes.md"
               }
             }
           }
@@ -444,7 +457,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Convolutions/Transposed_convolution.md",
+                "file": "MachineLearning/Classification/Naive_Bayes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -461,7 +474,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Convolutions/Transposed_convolution.md",
+                "file": "MachineLearning/Classification/Naive_Bayes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -533,12 +546,24 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b47ea3b4ead2b554",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
+    "MachineLearning/Machine_learning_notation.md",
+    "MachineLearning/Classification/K-nearest_neighbours.md",
+    "ContinuousMath/Distance_metrics.md",
+    "MachineLearning/Categorical_data_handeling.md",
+    "MachineLearning/Classification",
+    "MachineLearning/Untitled.md",
+    "MachineLearning/Ensemble_learning.md",
+    "MachineLearning/Statistical_modeling.md",
+    "MachineLearning/Classification/Naive_Bayes.md",
+    "MachineLearning/Clustering/K-means_clustering.md",
+    "MachineLearning/Clustering/Hierarchal_clustering.md",
+    "MachineLearning/Clustering/Clustering.md",
+    "MediaCoding/Convolutions/Transposed_convolution.md",
     "XX-Attachments/Images/Pasted image 20240421174526.png",
     "MediaCoding/Convolutions/Convolution.md",
     "MediaCoding/Convolutions/Depthwise_convolution.md",
-    "MediaCoding/Convolutions/Transposed_convolution.md",
     "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
     "MediaCoding/Filters/Unpooling.md",
     "MediaCoding/Canny_edge_detection.md",
@@ -555,23 +580,11 @@
     "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
     "MachineLearning/NeuralNetworks/Neural_networks.md",
-    "MachineLearning/NeuralNetworks/Convolutional_networks.md",
     "XX-Attachments/Images/Pasted image 20240420203909.png",
-    "MachineLearning/Naive_Bayes.md",
-    "MachineLearning/Machine_learning_notation.md",
-    "MachineLearning/K-nearest_neighbours.md",
     "XX-Attachments/Images/Pasted image 20240420195543.png",
-    "MachineLearning/0-Legacy/Weakly_supervised_learning.md",
-    "MachineLearning/Untitled",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
     "XX-Attachments/Images/Pasted image 20240420022511.png",
     "XX-Attachments/Images/Pasted image 20240420021114.png",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/ReLU_function_legacy.md",
     "XX-Attachments/Images/Pasted image 20240420020729.png",
-    "XX-Attachments/Images/Pasted image 20240420015929.png",
-    "MediaCoding/ImageMatching/Image_features.md",
-    "MediaCoding/Image_derivatives.md",
-    "MediaCoding/Computer_vision.md",
     "MediaCoding/Convolutions",
     "MediaCoding/0Legacy",
     "MediaCoding/Filters/Untitled",
