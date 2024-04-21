@@ -33,6 +33,7 @@ ___
 
 
 ## Position unpooling
-- Memorises 
+- Involves keeping the spatial locations that the original pooling operation took it's data from, this can then be used to map the post-processed data back to those original locations
+- All other locations that the pooling operation did not take a value from are left as 0
 
 ![[Pasted image 20240420204414.png|450|450]]

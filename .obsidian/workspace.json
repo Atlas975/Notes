@@ -125,6 +125,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "MediaCoding/Canny_edge_detection.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6118e64b823328f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "MediaCoding/Filters/Unpooling.md",
                 "mode": "preview",
                 "backlinks": false,
@@ -139,6 +152,19 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b47ea3b4ead2b554",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -315,7 +341,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -383,7 +409,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md"
+                "file": "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md"
               }
             }
           }
@@ -418,7 +444,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
+                "file": "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -435,7 +461,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
+                "file": "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -507,10 +533,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ff89a40906fc848e",
+  "active": "b47ea3b4ead2b554",
   "lastOpenFiles": [
-    "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
     "MediaCoding/Filters/Unpooling.md",
+    "MediaCoding/Canny_edge_detection.md",
+    "MediaCoding/Convolutions/Depthwise_convolution.md",
+    "MediaCoding/Convolutions/Convolution.md",
+    "MediaCoding/Convolutions/Depthwise_separable_convolution.md",
+    "MediaCoding/Convolutions/Pointwise_convolution.md",
+    "MediaCoding/0Legacy/Detection_algorithms.md",
+    "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
+    "MachineLearning/NeuralNetworks/Gradient_descent.md",
     "XX-Attachments/Images/Pasted image 20240420204625.png",
     "XX-Attachments/Images/Pasted image 20240420204539.png",
     "XX-Attachments/Images/Pasted image 20240420204414.png",
@@ -519,7 +552,6 @@
     "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
-    "MachineLearning/NeuralNetworks/Gradient_descent.md",
     "MachineLearning/NeuralNetworks/Neural_networks.md",
     "MachineLearning/NeuralNetworks/Convolutional_networks.md",
     "XX-Attachments/Images/Pasted image 20240420203909.png",
@@ -533,7 +565,6 @@
     "XX-Attachments/Images/Pasted image 20240420022511.png",
     "XX-Attachments/Images/Pasted image 20240420021114.png",
     "MachineLearning/0-Legacy/0-GeneralConcepts/ReLU_function_legacy.md",
-    "MediaCoding/Convolutions/Convolution.md",
     "XX-Attachments/Images/Pasted image 20240420020729.png",
     "XX-Attachments/Images/Pasted image 20240420015929.png",
     "MediaCoding/ImageMatching/Image_features.md",
@@ -541,10 +572,6 @@
     "MediaCoding/Computer_vision.md",
     "MediaCoding/Media_coding.md",
     "MediaCoding/Edge_detection.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
-    "MediaCoding/Convolutions/Depthwise_convolution.md",
-    "MediaCoding/Convolutions/Depthwise_separable_convolution.md",
-    "MediaCoding/Convolutions/Pointwise_convolution.md",
     "MediaCoding/Convolutions",
     "MediaCoding/0Legacy",
     "MediaCoding/Filters/Untitled",

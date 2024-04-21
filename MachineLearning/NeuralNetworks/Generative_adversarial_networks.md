@@ -16,8 +16,7 @@ aliases:
 
 ___
 # Generative adversarial networks
-- A specialised [[Neural_networks|neural net]] designed for generating data that resembles it's training data
-- This involves learning a **generative model** and training it in an **adversarial** setting
+- A specialised [[Neural_networks|neural net]] designed for generating data that resembles it's training data, this is done in an adversarial setting where generated data must compete with real data
 
 
 
