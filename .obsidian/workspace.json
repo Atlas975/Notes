@@ -191,7 +191,20 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
-                "mode": "source",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "97ec2078e39302c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -588,8 +601,9 @@
   },
   "active": "d469b9ef76052942",
   "lastOpenFiles": [
-    "Economics/Game_theory.md",
+    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
     "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
+    "Economics/Game_theory.md",
     "XX-Attachments/Images/Pasted image 20240422145528.png",
     "XX-Attachments/Images/Pasted image 20240422145458.png",
     "XX-Attachments/Images/Pasted image 20240422145422.png",
@@ -624,7 +638,6 @@
     "XX-Attachments/Images/Pasted image 20240420204539.png",
     "XX-Attachments/Images/Pasted image 20240420204414.png",
     "MediaCoding/Filters/Pooling.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
     "MediaCoding/Convolutions",
     "MediaCoding/0Legacy",
     "MediaCoding/Filters/Untitled",

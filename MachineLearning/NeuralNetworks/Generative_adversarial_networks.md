@@ -28,7 +28,7 @@ ___
 ![[Pasted image 20240421202212.png|400|400]]
 ## Discriminator
 - Trained on a mixture of real data from the dataset and fake data from the generator. It must learn to correctly classify  in a way that maximises both the true positive and true negative rate
-- Success in the generator component must also drive the discriminator to improve
+- Success in the generator component must also drive the discriminator to improve, which estimates the probability that data is real / synthetic using the [[Sigmoid_function|sigmoid]] function
 
 ![[Pasted image 20240422145528.png|400|400]]
 
@@ -42,7 +42,15 @@ $$G(z)=\text{generator output from noise input }z$$
 $$D(G(z))=\text{discriminator prediction for }\color{#FF033E}\text{fake data}\color{white}\text{ produced by generator}$$
 ## Discriminator loss 
 
-$$\text{Discriminator loss}=-\ln(D(x))-\ln(1-D(g))$$
+$$L_{D}=-\ln(D(x))-\ln(1-D(G(z)))$$
+- This can be broken down into two components, the true negative rate: 
 
 $$\color{#FF033E}\text{Synthetic input error (want 0)}=-\ln(1-\hat{y})\color{white}$$
+- And the true positive rate: 
 $$\color{#8DB600}\text{Real input error (want 1)}=-\ln(\hat{y})\color{white}$$
+
+## Generator loss 
+$$L_{G}=-\ln(D(G(z)))$$
+
+- The generator's goal is to maximise the probability that $D$ predicts its output as real, which is equivalent to minimising the negative log probability
+- When the generator is doing poorly $D(G(z))$ is close to 0 due to the synthetic input error resulting in a large number, which in turn makes $L_{G}$
