@@ -191,7 +191,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -393,7 +393,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -461,7 +461,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Economics/Game_theory.md"
+                "file": "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md"
               }
             }
           }
@@ -497,7 +497,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Economics/Game_theory.md",
+                "file": "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -514,7 +514,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Economics/Game_theory.md",
+                "file": "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -586,8 +586,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "97c1de49a1d4d7f5",
+  "active": "d469b9ef76052942",
   "lastOpenFiles": [
+    "Economics/Game_theory.md",
     "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
     "XX-Attachments/Images/Pasted image 20240422145528.png",
     "XX-Attachments/Images/Pasted image 20240422145458.png",

@@ -33,6 +33,8 @@ ___
 ![[Pasted image 20240422145528.png|400|400]]
 
 ## GAN loss function 
-- **Discriminator loss**: typically uses binary [[Cross-entropy]], needs to evaluate success in both recognising synthetic data and recognising real data
-$$\text{Synthetic input error (want 0)}=-\ln(1-\hat{y})$$
-$$\text{Real input error (want 1)}=-\ln(\hat{y})$$
+- **Discriminator loss ($D(x))$**: typically uses binary [[Cross-entropy]], needs to evaluate success in both recognising synthetic data and recognising real data
+- This id 
+$$\color{#FF033E}\text{Synthetic input error (want 0)}=-\ln(1-\hat{y})\color{white}$$
+$$\color{#8DB600}\text{Real input error (want 1)}=-\ln(\hat{y})\color{white}$$
+- **Generator loss ($G(x))$**: 
