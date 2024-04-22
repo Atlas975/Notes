@@ -28,13 +28,21 @@ ___
 ![[Pasted image 20240421202212.png|400|400]]
 ## Discriminator
 - Trained on a mixture of real data from the dataset and fake data from the generator. It must learn to correctly classify  in a way that maximises both the true positive and true negative rate
-- Success in the generator component must also drive the discriminator to improve, this dynamic is what drives both networks to improve so the opposite of each loss function is fed as input
+- Success in the generator component must also drive the discriminator to improve
 
 ![[Pasted image 20240422145528.png|400|400]]
 
 ## GAN loss function 
-- **Discriminator loss ($D(x))$**: typically uses binary [[Cross-entropy]], needs to evaluate success in both recognising synthetic data and recognising real data
-- This id 
+- The discriminator and generator have competing goals, making this setup adversarial
+- Discriminator loss involves calculating the probability that the discriminator correctly classifies both real and fake data. This is typically calculated using binary [[Cross-entropy]]
+- Generator loss is typically based on how often the discriminator incorrectly classifies the fake data as real, so ideally this increases as discriminator loss increases 
+
+$$D(x)=\text{disciminator prediction for}\color{#8DB600}\text{ real}\color{white}\text{ data }x$$
+$$G(z)=\text{generator output from noise input }z$$
+$$D(G(z))=\text{discriminator prediction for }\color{#FF033E}\text{fake data}\color{white}\text{ produced by generator}$$
+## Discriminator loss 
+
+$$\text{Discriminator loss}=-\ln(D(x))-\ln(1-D(g))$$
+
 $$\color{#FF033E}\text{Synthetic input error (want 0)}=-\ln(1-\hat{y})\color{white}$$
 $$\color{#8DB600}\text{Real input error (want 1)}=-\ln(\hat{y})\color{white}$$
-- **Generator loss ($G(x))$**: 
