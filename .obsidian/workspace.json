@@ -242,7 +242,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "Languages&Compilation/LR(0)_parsing.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -547,7 +547,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md"
+                "file": "Languages&Compilation/LR(0)_parsing.md"
               }
             }
           }
@@ -582,7 +582,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "Languages&Compilation/LR(0)_parsing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -599,7 +599,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "Languages&Compilation/LR(0)_parsing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -673,10 +673,14 @@
   },
   "active": "60fc4edb6edb9e78",
   "lastOpenFiles": [
+    "Languages&Compilation/Left_recursion.md",
+    "Languages&Compilation/Finite_state_transducer.md",
+    "Languages&Compilation/TuringMachines/Universal_Turing_machines.md",
+    "Languages&Compilation/TuringMachines/Turing_thesis.md",
+    "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/Statistical_modeling.md",
     "MachineLearning/Ensemble_learning.md",
-    "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/Bias_variance_tradeoff.md",
     "MachineLearning/Logistic_regression.md",
     "XX-Attachments/Images/Pasted image 20240422201428.png",
@@ -696,9 +700,6 @@
     "MachineLearning/Clustering/Hierarchal_clustering.md",
     "MachineLearning/Clustering/Clustering.md",
     "MachineLearning/Classification/Semantic_segmentation.md",
-    "MachineLearning/Classification/Naive_Bayes.md",
-    "MachineLearning/Classification/K-nearest_neighbours.md",
-    "Languages&Compilation/Subset_construction_algorithm.md",
     "Languages&Compilation/Grammars",
     "Languages&Compilation/TuringMachines",
     "XX-Attachments/Images/Pasted image 20240422165914.png",
