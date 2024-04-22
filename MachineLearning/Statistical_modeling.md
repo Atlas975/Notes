@@ -24,7 +24,6 @@
 
 # Bias vs variance
 
-![[Pasted image 20220225163602.png|450|450]]
 ![[Pasted image 20220306175135.png|450|450]]
 
 ## Parametric vs non-parametric approaches
