@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Convolutional_networks.md",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -151,7 +151,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Gradient_descent.md",
+                "file": "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -190,7 +190,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/Generative_adversarial_networks.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "31889be39824ea82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/DCGAN.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -242,7 +255,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Neural_networks.md",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -281,7 +294,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Backpropagation.md",
+                "file": "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -406,7 +419,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -474,7 +487,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md"
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/DCGAN.md"
               }
             }
           }
@@ -482,8 +495,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -510,7 +522,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/DCGAN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -527,7 +539,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/DCGAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -599,10 +611,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d469b9ef76052942",
+  "active": "31889be39824ea82",
   "lastOpenFiles": [
-    "MachineLearning/NeuralNetworks/Convolutional_networks.md",
-    "MachineLearning/NeuralNetworks/Generative_adversarial_networks.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/Generative_adversarial_networks.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/DCGAN.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes",
+    "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
+    "MachineLearning/NeuralNetworks/Training",
+    "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
+    "MachineLearning/NeuralNetworks/GAN",
     "MachineLearning/ErrorMeasures/Confusion_matrices.md",
     "Economics/Game_theory.md",
     "XX-Attachments/Images/Pasted image 20240422145528.png",
@@ -631,10 +650,6 @@
     "MediaCoding/Convolutions/Depthwise_convolution.md",
     "MediaCoding/Filters/Unpooling.md",
     "MediaCoding/Canny_edge_detection.md",
-    "MediaCoding/Convolutions/Depthwise_separable_convolution.md",
-    "MediaCoding/Convolutions/Pointwise_convolution.md",
-    "MediaCoding/0Legacy/Detection_algorithms.md",
-    "MachineLearning/NeuralNetworks/Gradient_descent.md",
     "XX-Attachments/Images/Pasted image 20240420204625.png",
     "XX-Attachments/Images/Pasted image 20240420204539.png",
     "XX-Attachments/Images/Pasted image 20240420204414.png",
@@ -643,9 +658,6 @@
     "MediaCoding/Filters/Untitled",
     "DistributedSystems/DistributedLedgers",
     "MachineLearning/NeuralNetworks/ActivationFunctions",
-    "MachineLearning/GradientDescent",
-    "MachineLearning/NeuralNetworks",
-    "MachineLearning/LinearRegression",
-    "MachineLearning/TreeModels"
+    "MachineLearning/GradientDescent"
   ]
 }

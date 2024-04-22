@@ -53,5 +53,5 @@ $$\color{#FF033E}\text{Synthetic input error (want 0)}=-\ln(1-\hat{y})\color{whi
 $$L_{G}=-\ln(D(G(z)))$$
 
 - The generator's goal is to maximise the probability that $D$ predicts its output as real, which is equivalent to minimising the negative log probability
-- When the generator is doing poorly $D(G(z))$ is close to 0 (can tell data is fake), resulting in a large positive number for $L_{G}$
+- When the generator is failing, $D(G(z))$ is close to 0 (can tell data is fake), resulting in a large positive  $L_{G}$ (loss is increasing). The inverse happens when $D(G(z))$ is close to 1
 $$L_{G}\downarrow \implies L_{D}\uparrow $$
