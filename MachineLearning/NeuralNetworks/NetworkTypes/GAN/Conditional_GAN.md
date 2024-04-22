@@ -1,7 +1,7 @@
 > [!important]- Metadata
 > **Tags:** #StatisticalLearning 
-> **Located:** MachineLearning/NeuralNetworks/NetworkTypes
-> **Created:** 22/04/2024 - 16:05
+> **Located:** MachineLearning/NeuralNetworks/NetworkTypes/GAN
+> **Created:** 22/04/2024 - 16:32
 > ```dataviewjs
 > let f = dv.current().file;
 > let paths = new Set([...f.inlinks, ...f.outlinks].map(p => p.path).filter(p => !p.endsWith(".png")));
@@ -10,5 +10,7 @@
 > ```
 
 ___
-# DCGAN
-- A deep convolution [[Generative_adversarial_networks|GAN]] that makes use of [[Convolutional_networks|CNN]] layers and [[Transposed_convolution|Deconv]] layers
+# Conditional GAN
+- A variation of [[Generative_adversarial_networks|GAN]] that allows control over generator output
+
+![[Pasted image 20240422163329.png|500|500]]

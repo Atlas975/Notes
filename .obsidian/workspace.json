@@ -190,8 +190,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/Generative_adversarial_networks.md",
-                "mode": "preview",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -201,9 +201,17 @@
             "id": "31889be39824ea82",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "5ae690b4d2e269ff",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/DCGAN.md",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -419,7 +427,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -487,7 +495,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/DCGAN.md"
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md"
               }
             }
           }
@@ -522,7 +530,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/DCGAN.md",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -539,7 +547,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/DCGAN.md",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -611,10 +619,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "31889be39824ea82",
+  "active": "d469b9ef76052942",
   "lastOpenFiles": [
-    "MachineLearning/NeuralNetworks/NetworkTypes/Generative_adversarial_networks.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/DCGAN.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
+    "XX-Attachments/Images/Pasted image 20240422163329.png",
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN",
+    "XX-Attachments/Images/Pasted image 20240422162804.png",
     "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
     "MachineLearning/NeuralNetworks/NetworkTypes",
@@ -648,16 +660,11 @@
     "XX-Attachments/Images/Pasted image 20240421174526.png",
     "MediaCoding/Convolutions/Convolution.md",
     "MediaCoding/Convolutions/Depthwise_convolution.md",
-    "MediaCoding/Filters/Unpooling.md",
-    "MediaCoding/Canny_edge_detection.md",
     "XX-Attachments/Images/Pasted image 20240420204625.png",
-    "XX-Attachments/Images/Pasted image 20240420204539.png",
-    "XX-Attachments/Images/Pasted image 20240420204414.png",
     "MediaCoding/Convolutions",
     "MediaCoding/0Legacy",
     "MediaCoding/Filters/Untitled",
     "DistributedSystems/DistributedLedgers",
-    "MachineLearning/NeuralNetworks/ActivationFunctions",
-    "MachineLearning/GradientDescent"
+    "MachineLearning/NeuralNetworks/ActivationFunctions"
   ]
 }
