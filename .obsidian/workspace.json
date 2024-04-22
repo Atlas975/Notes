@@ -203,7 +203,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/LR(0)_parsing.md",
+                "file": "Languages&Compilation/Subset_construction_algorithm.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -393,7 +393,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Context_free_grammars.md",
+                "file": "Languages&Compilation/Grammars/Context_free_grammars.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -432,7 +432,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Context_sensitive_grammars.md",
+                "file": "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -508,7 +508,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/LR(0)_parsing.md"
+                "file": "Languages&Compilation/Subset_construction_algorithm.md"
               }
             }
           }
@@ -543,7 +543,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/LR(0)_parsing.md",
+                "file": "Languages&Compilation/Subset_construction_algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -560,7 +560,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/LR(0)_parsing.md",
+                "file": "Languages&Compilation/Subset_construction_algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -634,51 +634,51 @@
   },
   "active": "2ff3ffb13110d934",
   "lastOpenFiles": [
-    "Languages&Compilation/Syntax_analyser.md",
-    "Languages&Compilation/Language_translator.md",
-    "Languages&Compilation/Bottom-up_parsing.md",
-    "Languages&Compilation/LR(0)_parsing.md",
-    "Languages&Compilation/Left_recursion.md",
-    "Languages&Compilation/Halting_problem.md",
-    "Languages&Compilation/Interpreter.md",
-    "Languages&Compilation/Turing_machine.md",
-    "Languages&Compilation/Universal_Turing_machines.md",
-    "Languages&Compilation/Subset_construction_algorithm.md",
-    "Languages&Compilation/Recursive_descent.md",
+    "Languages&Compilation/Regular_expression_FSM.md",
     "Languages&Compilation/Pushdown_recogniser.md",
+    "Languages&Compilation/Chomsky_hierarchy.md",
+    "Languages&Compilation/Grammars/Regular_grammars.md",
+    "Languages&Compilation/Grammars/Formal_languages.md",
+    "Languages&Compilation/Grammars/Context_free_grammars.md",
+    "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
+    "Languages&Compilation/Grammars/Unrestricted_grammars.md",
+    "Languages&Compilation/TuringMachines/Turing_thesis.md",
+    "Languages&Compilation/TuringMachines/Halting_problem.md",
+    "Languages&Compilation/Recursive_descent.md",
     "Languages&Compilation/Lexical_analyser.md",
+    "Languages&Compilation/LR(0)_parsing.md",
+    "Languages&Compilation/Interpreter.md",
     "Languages&Compilation/Finite_state_transducer.md",
-    "Languages&Compilation/Context_free_grammars.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
+    "Languages&Compilation/Compilers.md",
+    "Languages&Compilation/Bottom-up_parsing.md",
+    "Languages&Compilation/Grammars",
+    "Languages&Compilation/Untitled.md",
+    "Languages&Compilation/Language_translator.md",
+    "Languages&Compilation/Follow_sets.md",
+    "Languages&Compilation/First_sets.md",
+    "Languages&Compilation/Syntax_analyser.md",
+    "Languages&Compilation/TuringMachines/Universal_Turing_machines.md",
+    "Languages&Compilation/TuringMachines/Turing_machine.md",
+    "Languages&Compilation/TuringMachines",
+    "Languages&Compilation/Left_recursion.md",
+    "Languages&Compilation/Subset_construction_algorithm.md",
     "XX-Attachments/Images/Pasted image 20240422165914.png",
     "XX-Attachments/Images/Pasted image 20240422165615.png",
     "XX-Attachments/Images/Pasted image 20240422165321.png",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
     "XX-Attachments/Images/Pasted image 20240422163329.png",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN",
     "XX-Attachments/Images/Pasted image 20240422162804.png",
-    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
     "MachineLearning/NeuralNetworks/NetworkTypes",
-    "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
     "MachineLearning/NeuralNetworks/Training",
-    "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
     "MachineLearning/NeuralNetworks/GAN",
-    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
-    "Economics/Game_theory.md",
     "XX-Attachments/Images/Pasted image 20240422145528.png",
     "XX-Attachments/Images/Pasted image 20240422145458.png",
     "XX-Attachments/Images/Pasted image 20240422145422.png",
     "XX-Attachments/Images/Pasted image 20240422144954.png",
     "XX-Attachments/Images/Pasted image 20240421202212.png",
-    "MachineLearning/ErrorMeasures/Cross-entropy.md",
-    "MachineLearning/Classification/Semantic_segmentation.md",
     "MachineLearning/Classification",
     "MediaCoding/Convolutions",
     "MediaCoding/0Legacy",
-    "MediaCoding/Filters/Untitled",
-    "DistributedSystems/DistributedLedgers",
-    "MachineLearning/NeuralNetworks/ActivationFunctions"
+    "MediaCoding/Filters/Untitled"
   ]
 }

@@ -79,12 +79,11 @@ x_{3}=c
 ## Set definition of language
 - Used when strings follow a certain pattern, makes use of 4 operations 
 - A set definition itself has 3 parts:
-$$\begin{align*}
-\{ a^ib^{i}\text{ : }i\geq{1}\} \\
-a^ib^{i}=\text{the string producing function} \\
-\text{: }=\text{is "such that" (sometimes as |)}\\
-i\geq{1=\text{range of function arguments}}
-\end{align*}$$
+
+$$\{ a^ib^{i}\text{ : }i\geq{1}\} $$
+$$a^ib^{i}=\text{the string producing function}$$
+$$\text{: }=\text{is "such that" (sometimes as |)}$$
+$$i\geq{1=\text{range of function arguments}}$$
 
 ## Decision programs
 - A program that tells you if a string belongs to a language 
