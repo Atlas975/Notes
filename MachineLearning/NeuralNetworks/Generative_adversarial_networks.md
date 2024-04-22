@@ -28,7 +28,11 @@ ___
 ![[Pasted image 20240421202212.png|400|400]]
 ## Discriminator
 - Trained on a mixture of real data from the dataset and fake data from the generator. It must learn to correctly classify  in a way that maximises both the true positive and true negative rate
-- Success in the generator component must also drive the discriminator to improve, this dynamic is what drives both networks to improve. 
+- Success in the generator component must also drive the discriminator to improve, this dynamic is what drives both networks to improve so the opposite of each loss function is fed as input
 
+![[Pasted image 20240422145528.png|400|400]]
 
-## GAN architecture
+## GAN loss function 
+- **Discriminator loss**: typically uses binary [[Cross-entropy]], needs to evaluate success in both recognising synthetic data and recognising real data
+$$\text{Synthetic input error (want 0)}=-\ln(1-\hat{y})$$
+$$\text{Real input error (want 1)}=-\ln(\hat{y})$$
