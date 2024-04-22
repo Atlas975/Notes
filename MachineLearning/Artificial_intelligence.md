@@ -70,3 +70,11 @@ ___
 ## Semi-supervised learning 
 - Mix of labeled and unlabelled data, relies on a flexible algorithm that can incorporate both 
 - Frequently used as total labelling can often be expensive 
+
+
+## Flexibility vs interpretability tradeoff
+
+- Flexibility describes how complex a model can be eg a quadratic function is more flexible than a linear one. Useful for pure prediction eg stock prices
+- Interpretability describes how easy the model is to understand, making it easier to interpret how an individual predictor effects a response. Useful for inference eg sales factors
+
+![[Pasted image 20220225155757.png|450|450]]

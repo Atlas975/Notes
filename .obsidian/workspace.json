@@ -203,7 +203,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Subset_construction_algorithm.md",
+                "file": "MachineLearning/Statistical_modeling.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4e322df6bfa924c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/0-Legacy/0-GeneralConcepts/TimeSeriesAnalysis/Bias_correction.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4b27b1d09bfa2cb6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Artificial_intelligence.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -440,7 +466,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -508,7 +534,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Subset_construction_algorithm.md"
+                "file": "MachineLearning/Artificial_intelligence.md"
               }
             }
           }
@@ -543,7 +569,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Subset_construction_algorithm.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -560,7 +586,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Subset_construction_algorithm.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -632,36 +658,36 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "2ff3ffb13110d934",
+  "active": "4b27b1d09bfa2cb6",
   "lastOpenFiles": [
+    "MachineLearning/Statistical_modeling.md",
+    "MachineLearning/Ensemble_learning.md",
+    "MachineLearning/Logistic_regression.md",
+    "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/Covariance.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/TimeSeriesAnalysis/Bias_correction.md",
+    "MachineLearning/Categorical_data_handeling.md",
+    "MachineLearning/Machine_learning_notation.md",
+    "MachineLearning/ErrorMeasures/Cross-entropy.md",
+    "MachineLearning/ErrorMeasures/Loss_functions.md",
+    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/NeuralNetworks/NeuralNetwork_intuition.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/NeuralNetworks/NeuralNetwork_fitting.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/NeuralNetworks/Backpropagation_math.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/DataProcessing/Boosting.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/DataProcessing/Data_leakage.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/DataProcessing/Batch_normalization.md",
+    "MachineLearning/0-Legacy/Weakly_supervised_learning.md",
+    "MachineLearning/Clustering/Hierarchal_clustering.md",
+    "MachineLearning/Clustering/Clustering.md",
+    "MachineLearning/Classification/Semantic_segmentation.md",
+    "MachineLearning/Classification/Naive_Bayes.md",
+    "MachineLearning/Classification/K-nearest_neighbours.md",
+    "Languages&Compilation/Subset_construction_algorithm.md",
     "Languages&Compilation/Regular_expression_FSM.md",
     "Languages&Compilation/Pushdown_recogniser.md",
-    "Languages&Compilation/Chomsky_hierarchy.md",
-    "Languages&Compilation/Grammars/Regular_grammars.md",
-    "Languages&Compilation/Grammars/Formal_languages.md",
-    "Languages&Compilation/Grammars/Context_free_grammars.md",
-    "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
-    "Languages&Compilation/Grammars/Unrestricted_grammars.md",
-    "Languages&Compilation/TuringMachines/Turing_thesis.md",
-    "Languages&Compilation/TuringMachines/Halting_problem.md",
-    "Languages&Compilation/Recursive_descent.md",
-    "Languages&Compilation/Lexical_analyser.md",
-    "Languages&Compilation/LR(0)_parsing.md",
-    "Languages&Compilation/Interpreter.md",
-    "Languages&Compilation/Finite_state_transducer.md",
-    "Languages&Compilation/Compilers.md",
-    "Languages&Compilation/Bottom-up_parsing.md",
     "Languages&Compilation/Grammars",
-    "Languages&Compilation/Untitled.md",
-    "Languages&Compilation/Language_translator.md",
-    "Languages&Compilation/Follow_sets.md",
-    "Languages&Compilation/First_sets.md",
-    "Languages&Compilation/Syntax_analyser.md",
-    "Languages&Compilation/TuringMachines/Universal_Turing_machines.md",
-    "Languages&Compilation/TuringMachines/Turing_machine.md",
     "Languages&Compilation/TuringMachines",
-    "Languages&Compilation/Left_recursion.md",
-    "Languages&Compilation/Subset_construction_algorithm.md",
     "XX-Attachments/Images/Pasted image 20240422165914.png",
     "XX-Attachments/Images/Pasted image 20240422165615.png",
     "XX-Attachments/Images/Pasted image 20240422165321.png",
