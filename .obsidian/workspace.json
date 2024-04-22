@@ -242,7 +242,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/LR(0)_parsing.md",
+                "file": "Languages&Compilation/Follow_sets.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -547,7 +547,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/LR(0)_parsing.md"
+                "file": "Languages&Compilation/Follow_sets.md"
               }
             }
           }
@@ -582,7 +582,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/LR(0)_parsing.md",
+                "file": "Languages&Compilation/Follow_sets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -599,7 +599,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/LR(0)_parsing.md",
+                "file": "Languages&Compilation/Follow_sets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -673,6 +673,7 @@
   },
   "active": "60fc4edb6edb9e78",
   "lastOpenFiles": [
+    "Languages&Compilation/LR(0)_parsing.md",
     "Languages&Compilation/Left_recursion.md",
     "Languages&Compilation/Finite_state_transducer.md",
     "Languages&Compilation/TuringMachines/Universal_Turing_machines.md",
@@ -699,7 +700,6 @@
     "MachineLearning/0-Legacy/Weakly_supervised_learning.md",
     "MachineLearning/Clustering/Hierarchal_clustering.md",
     "MachineLearning/Clustering/Clustering.md",
-    "MachineLearning/Classification/Semantic_segmentation.md",
     "Languages&Compilation/Grammars",
     "Languages&Compilation/TuringMachines",
     "XX-Attachments/Images/Pasted image 20240422165914.png",
