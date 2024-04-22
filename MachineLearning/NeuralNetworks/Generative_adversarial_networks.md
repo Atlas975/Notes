@@ -23,12 +23,12 @@ ___
 
 ## Generator
 - Tries to produce data that will be classified as real by the discriminator. The generator’s weights are adjusted based on how well it tricks the discriminator
-- At the end of the training process the generator must be able to reliably fool the discriminator. New data is generated using random initial values
+- At the end of the training process the generator must be able to reliably fool the discriminator by taking a vector of randomly initialised variables and mapping it to convincing synthetic data
 
 ![[Pasted image 20240421202212.png|400|400]]
 ## Discriminator
 - Trained on a mixture of real data from the dataset and fake data from the generator. It must learn to correctly classify  in a way that maximises both the true positive and true negative rate
-- Success in the generator component must also drive the discriminator to improve, this dynamic is what drives both networks to improve
+- Success in the generator component must also drive the discriminator to improve, this dynamic is what drives both networks to improve. 
 
 
 ## GAN architecture
