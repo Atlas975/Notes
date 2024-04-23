@@ -2,7 +2,7 @@
 > **Tags:** #Languages 
 > **Located:** Languages&Compilation
 > **Created:** 01/03/2024 - 21:10
-> ```dataviewjs
+ > ```dataviewjs
 > let f = dv.current().file;
 > let paths = new Set([...f.inlinks, ...f.outlinks].map(p => p.path).filter(p => !p.endsWith(".png")));
 > paths.delete(f.path);

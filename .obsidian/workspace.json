@@ -242,7 +242,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Follow_sets.md",
+                "file": "Languages&Compilation/TuringMachines/Halting_problem.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8428cd24bb8b024d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a13c9764956e700b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Compilers.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -479,7 +505,7 @@
             }
           }
         ],
-        "currentTab": 18
+        "currentTab": 20
       }
     ],
     "direction": "vertical"
@@ -547,7 +573,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Follow_sets.md"
+                "file": "Languages&Compilation/Compilers.md"
               }
             }
           }
@@ -555,7 +581,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -582,7 +609,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Follow_sets.md",
+                "file": "Languages&Compilation/Compilers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -599,7 +626,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Follow_sets.md",
+                "file": "Languages&Compilation/Compilers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -671,13 +698,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "60fc4edb6edb9e78",
+  "active": "a13c9764956e700b",
   "lastOpenFiles": [
-    "Languages&Compilation/LR(0)_parsing.md",
-    "Languages&Compilation/Left_recursion.md",
+    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
+    "Languages&Compilation/First_sets.md",
+    "Languages&Compilation/TuringMachines/Halting_problem.md",
     "Languages&Compilation/Finite_state_transducer.md",
     "Languages&Compilation/TuringMachines/Universal_Turing_machines.md",
     "Languages&Compilation/TuringMachines/Turing_thesis.md",
+    "Languages&Compilation/Follow_sets.md",
+    "Languages&Compilation/LR(0)_parsing.md",
+    "Languages&Compilation/Left_recursion.md",
     "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/Statistical_modeling.md",
@@ -696,10 +727,6 @@
     "MachineLearning/0-Legacy/0-GeneralConcepts/NeuralNetworks/Backpropagation_math.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/DataProcessing/Boosting.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/DataProcessing/Data_leakage.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/DataProcessing/Batch_normalization.md",
-    "MachineLearning/0-Legacy/Weakly_supervised_learning.md",
-    "MachineLearning/Clustering/Hierarchal_clustering.md",
-    "MachineLearning/Clustering/Clustering.md",
     "Languages&Compilation/Grammars",
     "Languages&Compilation/TuringMachines",
     "XX-Attachments/Images/Pasted image 20240422165914.png",
