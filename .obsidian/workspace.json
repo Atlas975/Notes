@@ -294,7 +294,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/Hashing.md",
+                "file": "Cybersecurity/Cryptography.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -570,7 +570,7 @@
             }
           }
         ],
-        "currentTab": 24
+        "currentTab": 22
       }
     ],
     "direction": "vertical"
@@ -638,7 +638,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Watermarking/Watermarking.md"
+                "file": "Cybersecurity/Cryptography.md"
               }
             }
           }
@@ -646,8 +646,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -674,7 +673,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Watermarking/Watermarking.md",
+                "file": "Cybersecurity/Cryptography.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -691,7 +690,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Watermarking/Watermarking.md",
+                "file": "Cybersecurity/Cryptography.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -763,15 +762,21 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "70367be3d2b52f23",
+  "active": "db026d193411f8ad",
   "lastOpenFiles": [
-    "MediaCoding/Filters/Unpooling.md",
+    "Cybersecurity/Hashing.md",
+    "XX-Attachments/Images/Pasted image 20240423162848.png",
+    "Cybersecurity/Symmetric_encryption.md",
+    "Cybersecurity/Cryptography.md",
+    "Cybersecurity/Asymmetric_encryption.md",
+    "Cybersecurity/Advanced_encryption_standard.md",
+    "Cybersecurity/Annualised_loss_expectancy.md",
     "MediaCoding/Watermarking/Watermarking.md",
+    "MediaCoding/Filters/Unpooling.md",
     "MediaCoding/Filters/Pooling.md",
     "MediaCoding/Convolutions/Pointwise_convolution.md",
     "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
-    "Cybersecurity/Hashing.md",
     "XX-Attachments/Images/Pasted image 20240423160604.png",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
     "Databases/Relational_algebra.md",
@@ -781,11 +786,6 @@
     "Databases/Database_systems.md",
     "Databases/Database_concurrency.md",
     "Databases/Database_constraints.md",
-    "Cybersecurity/Advanced_encryption_standard.md",
-    "Cybersecurity/Cryptography.md",
-    "Cybersecurity/Annualised_loss_expectancy.md",
-    "Cybersecurity/Asymmetric_encryption.md",
-    "Cybersecurity/Symmetric_encryption.md",
     "Languages&Compilation/Three_address_code.md",
     "Languages&Compilation/Compilers.md",
     "XX-Attachments/Images/Pasted image 20240423151949.png",
@@ -794,7 +794,6 @@
     "XX-Attachments/Images/Pasted image 20240423143128.png",
     "Languages&Compilation/First_sets.md",
     "Languages&Compilation/TuringMachines/Halting_problem.md",
-    "Languages&Compilation/Finite_state_transducer.md",
     "XX-Attachments/Images/Pasted image 20240422201428.png",
     "Languages&Compilation/Grammars",
     "Languages&Compilation/TuringMachines",
@@ -803,7 +802,6 @@
     "XX-Attachments/Images/Pasted image 20240422165321.png",
     "XX-Attachments/Images/Pasted image 20240422163329.png",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN",
-    "XX-Attachments/Images/Pasted image 20240422162804.png",
     "MachineLearning/NeuralNetworks/NetworkTypes",
     "MachineLearning/NeuralNetworks/Training",
     "MachineLearning/NeuralNetworks/GAN",

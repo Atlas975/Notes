@@ -29,3 +29,10 @@ ___
 
 
 ![[Pasted image 20240423160604.png|400|400]]
+
+
+## Avalanche effect
+- Requires that even a small change to input results in a large change to it's hash, this is quantified by the number of bits changed after a small input modification
+- This greatly increases a hash function's resistance to collision based attacks
+
+![[Pasted image 20240423162848.png|300|300]]

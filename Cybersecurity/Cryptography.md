@@ -20,6 +20,10 @@ ___
 
 $$E_{k}:P\to C,k\in K$$
 $$D_{k}:C\to P,k\in K$$
+## Cryptosystem goals 
+- **Confidentiality**: ensure only authorised users have information access 
+- **Integrity**: safeguarding the accuracy and completeness of information 
+- **Availability**: ensure authorised users are able to access information 
 
 ## Cryptographic key 
 - Used as an input to a cryptographic function
@@ -34,8 +38,3 @@ Keystream:         0011101010
 Ciphertext stream: 1010111101
 ```
 
-
-
-## Symmetric encryption 
-- Uses the same or easily computable keys for encryption and decryption. 
-- Includes block-based and stream-based ciphers
