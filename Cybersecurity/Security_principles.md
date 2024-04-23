@@ -40,4 +40,4 @@ ___
 - Prevents single points of failure AKA defence in depth
 
 ## Usability 
-- 
+- Security mechanisms should be easy to use 

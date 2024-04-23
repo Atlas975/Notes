@@ -583,7 +583,7 @@
             }
           }
         ],
-        "currentTab": 23
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -651,7 +651,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/Security_principles.md"
+                "file": "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md"
               }
             }
           }
@@ -687,7 +687,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/Security_principles.md",
+                "file": "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -704,7 +704,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/Security_principles.md",
+                "file": "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -776,10 +776,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "824fad556def3ee1",
+  "active": "8428cd24bb8b024d",
   "lastOpenFiles": [
-    "Cybersecurity/Cryptography.md",
+    "MediaCoding/Watermarking/Watermarking.md",
     "Cybersecurity/Security_principles.md",
+    "Cybersecurity/Cryptography.md",
     "XX-Attachments/Images/Pasted image 20240423170256.png",
     "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
@@ -789,7 +790,6 @@
     "Cybersecurity/Asymmetric_encryption.md",
     "Cybersecurity/Advanced_encryption_standard.md",
     "Cybersecurity/Annualised_loss_expectancy.md",
-    "MediaCoding/Watermarking/Watermarking.md",
     "MediaCoding/Filters/Unpooling.md",
     "MediaCoding/Filters/Pooling.md",
     "MediaCoding/Convolutions/Pointwise_convolution.md",
