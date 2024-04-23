@@ -12,8 +12,20 @@
 ___
 # Hashing
 - A hash function must provide 
-	- **Compression** 
-	- **Efficiency**
+	- **Compression**: should reduce the size of input data 
+	- **Efficiency**: should be fast to apply
 	- **One-way**: infeasible to find x from y: h(x) = y
-	- **Weak collision resistance**: should be difficult to find two preimages $(x_{1},x_{2}, x_{1}\neq x_{2})$ that have the same hash value $(h(x_{1})= h(x_{}))$
-	- **Strong collision resistance**
+	- **Weak collision resistance**: should be hard to find two inputs with same output 
+	- **Strong collision resistance**: should be hard to find two identical hashes
+
+## Cryptographic attacks
+- **Cipher-only**: obtained output from several messages using the same encryption
+- **Known-plaintext**: has input, output pair of one or more messages 
+- **Chosen-plaintext**: has control over what input gets encrypted 
+- **Chosen-ciphertext**: has control over what output get decrypted
+- **Differential cryptanalysis**: look at statistical differences in encrypted inputs
+- **Side-channel**: gather outside information (eg clock speed)
+- **Social engineering**: non-technical, carried out on people
+
+
+![[Pasted image 20240423160604.png|400|400]]
