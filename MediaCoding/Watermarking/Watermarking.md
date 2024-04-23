@@ -1,3 +1,8 @@
+---
+aliases:
+  - Steganography
+---
+
 > [!important]- Metadata
 > **Tags:** #MediaEncoding 
 > **Located:** MediaCoding/DiscreteCosineTansform

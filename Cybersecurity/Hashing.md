@@ -15,7 +15,7 @@ ___
 	- **Compression**: should reduce the size of input data 
 	- **Efficiency**: should be fast to apply
 	- **One-way**: infeasible to find x from y: h(x) = y
-	- **Weak collision resistance**: should be hard to find two inputs with same output 
+	- **Weak collision resistance**: should be hard to find two inputs with same hash
 	- **Strong collision resistance**: should be hard to find two identical hashes
 
 ## Cryptographic attacks

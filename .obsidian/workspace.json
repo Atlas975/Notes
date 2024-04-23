@@ -302,6 +302,32 @@
             }
           },
           {
+            "id": "336948f95c62dd0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Filters/Unpooling.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "70367be3d2b52f23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Watermarking/Watermarking.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7b24ec396e787790",
             "type": "leaf",
             "state": {
@@ -544,7 +570,7 @@
             }
           }
         ],
-        "currentTab": 22
+        "currentTab": 24
       }
     ],
     "direction": "vertical"
@@ -612,7 +638,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/Hashing.md"
+                "file": "MediaCoding/Watermarking/Watermarking.md"
               }
             }
           }
@@ -620,7 +646,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -647,7 +674,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/Hashing.md",
+                "file": "MediaCoding/Watermarking/Watermarking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -664,7 +691,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/Hashing.md",
+                "file": "MediaCoding/Watermarking/Watermarking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -736,11 +763,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "db026d193411f8ad",
+  "active": "70367be3d2b52f23",
   "lastOpenFiles": [
+    "MediaCoding/Filters/Unpooling.md",
+    "MediaCoding/Watermarking/Watermarking.md",
+    "MediaCoding/Filters/Pooling.md",
+    "MediaCoding/Convolutions/Pointwise_convolution.md",
+    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
+    "MediaCoding/DiscreteCosineTansform/JPEG.md",
+    "Cybersecurity/Hashing.md",
     "XX-Attachments/Images/Pasted image 20240423160604.png",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
-    "Cybersecurity/Hashing.md",
     "Databases/Relational_algebra.md",
     "DataStructures/B+_trees.md",
     "DataStructures/Hash_tables.md",
@@ -759,14 +792,9 @@
     "Languages&Compilation/LR(0)_parsing.md",
     "XX-Attachments/Images/Pasted image 20240423143319.png",
     "XX-Attachments/Images/Pasted image 20240423143128.png",
-    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "Languages&Compilation/First_sets.md",
     "Languages&Compilation/TuringMachines/Halting_problem.md",
     "Languages&Compilation/Finite_state_transducer.md",
-    "Languages&Compilation/TuringMachines/Universal_Turing_machines.md",
-    "Languages&Compilation/TuringMachines/Turing_thesis.md",
-    "Languages&Compilation/Follow_sets.md",
-    "Languages&Compilation/Left_recursion.md",
     "XX-Attachments/Images/Pasted image 20240422201428.png",
     "Languages&Compilation/Grammars",
     "Languages&Compilation/TuringMachines",
@@ -779,7 +807,6 @@
     "MachineLearning/NeuralNetworks/NetworkTypes",
     "MachineLearning/NeuralNetworks/Training",
     "MachineLearning/NeuralNetworks/GAN",
-    "XX-Attachments/Images/Pasted image 20240422145528.png",
     "MachineLearning/Classification",
     "MediaCoding/Convolutions",
     "MediaCoding/0Legacy",
