@@ -12,6 +12,8 @@
 ___
 # Hashing
 - A hash function must provide 
-    - **Compression** 
-    - **Efficiency**
-    - **One-way**: infeasabile to 
+	- **Compression** 
+	- **Efficiency**
+	- **One-way**: infeasible to find x from y: h(x) = y
+	- **Weak collision resistance**: should be difficult to find two preimages $(x_{1},x_{2}, x_{1}\neq x_{2})$ that have the same hash value $(h(x_{1})= h(x_{}))$
+	- **Strong collision resistance**
