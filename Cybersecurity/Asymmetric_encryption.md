@@ -13,3 +13,6 @@ ___
 # Asymmetric encryption
 - Anyone can use the public key to encrypt, but only the private key owner can decrypt
 - This has the benefit of not requiring secure key exchange, but is often slow to encrypt 
+
+
+![[Pasted image 20240423151949.png|450|450]]

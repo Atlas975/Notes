@@ -294,8 +294,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/LR(0)_parsing.md",
-                "mode": "preview",
+                "file": "Cybersecurity/Hashing.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -599,7 +599,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/LR(0)_parsing.md"
+                "file": "Cybersecurity/Hashing.md"
               }
             }
           }
@@ -607,8 +607,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -635,7 +634,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/LR(0)_parsing.md",
+                "file": "Cybersecurity/Hashing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -652,7 +651,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/LR(0)_parsing.md",
+                "file": "Cybersecurity/Hashing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -726,10 +725,18 @@
   },
   "active": "db026d193411f8ad",
   "lastOpenFiles": [
+    "Cybersecurity/Advanced_encryption_standard.md",
+    "Cybersecurity/Cryptography.md",
+    "Cybersecurity/Annualised_loss_expectancy.md",
+    "Cybersecurity/Hashing.md",
+    "Cybersecurity/Asymmetric_encryption.md",
+    "Cybersecurity/Symmetric_encryption.md",
     "Languages&Compilation/Three_address_code.md",
+    "Languages&Compilation/Compilers.md",
+    "XX-Attachments/Images/Pasted image 20240423151949.png",
+    "Languages&Compilation/LR(0)_parsing.md",
     "XX-Attachments/Images/Pasted image 20240423143319.png",
     "XX-Attachments/Images/Pasted image 20240423143128.png",
-    "Languages&Compilation/Compilers.md",
     "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "Languages&Compilation/First_sets.md",
     "Languages&Compilation/TuringMachines/Halting_problem.md",
@@ -737,7 +744,6 @@
     "Languages&Compilation/TuringMachines/Universal_Turing_machines.md",
     "Languages&Compilation/TuringMachines/Turing_thesis.md",
     "Languages&Compilation/Follow_sets.md",
-    "Languages&Compilation/LR(0)_parsing.md",
     "Languages&Compilation/Left_recursion.md",
     "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/Categorical_data_handeling.md",
@@ -749,11 +755,6 @@
     "MachineLearning/0-Legacy/0-GeneralConcepts/Covariance.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/TimeSeriesAnalysis/Bias_correction.md",
     "MachineLearning/Machine_learning_notation.md",
-    "MachineLearning/ErrorMeasures/Cross-entropy.md",
-    "MachineLearning/ErrorMeasures/Loss_functions.md",
-    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/NeuralNetworks/NeuralNetwork_intuition.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/NeuralNetworks/NeuralNetwork_fitting.md",
     "Languages&Compilation/Grammars",
     "Languages&Compilation/TuringMachines",
     "XX-Attachments/Images/Pasted image 20240422165914.png",
@@ -766,7 +767,6 @@
     "MachineLearning/NeuralNetworks/Training",
     "MachineLearning/NeuralNetworks/GAN",
     "XX-Attachments/Images/Pasted image 20240422145528.png",
-    "XX-Attachments/Images/Pasted image 20240422145458.png",
     "MachineLearning/Classification",
     "MediaCoding/Convolutions",
     "MediaCoding/0Legacy",

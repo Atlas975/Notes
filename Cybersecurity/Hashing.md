@@ -11,3 +11,7 @@
 
 ___
 # Hashing
+- A hash function must provide 
+    - **Compression** 
+    - **Efficiency**
+    - **One-way**: infeasabile to 
