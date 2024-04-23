@@ -307,6 +307,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "56778b0ac2ab82d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Cybersecurity/Security_principles.md",
                 "mode": "preview",
                 "backlinks": false,
@@ -583,7 +596,7 @@
             }
           }
         ],
-        "currentTab": 23
+        "currentTab": 24
       }
     ],
     "direction": "vertical"
@@ -659,8 +672,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -776,10 +788,19 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "824fad556def3ee1",
+  "active": "56778b0ac2ab82d5",
   "lastOpenFiles": [
-    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
+    "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
+    "MediaCoding/Colour_models.md",
     "MediaCoding/Watermarking/Watermarking.md",
+    "MediaCoding/OpticalFlow/Optical_flow.md",
+    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
+    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
+    "MediaCoding/Convolutions/Transposed_convolution.md",
+    "MediaCoding/Convolutions/Pointwise_convolution.md",
+    "MediaCoding/Convolutions/Depthwise_separable_convolution.md",
+    "MediaCoding/Convolutions/Depthwise_convolution.md",
+    "MediaCoding/Convolutions/Convolution.md",
     "Cybersecurity/Security_principles.md",
     "Cybersecurity/Cryptography.md",
     "XX-Attachments/Images/Pasted image 20240423170256.png",
@@ -793,21 +814,12 @@
     "Cybersecurity/Annualised_loss_expectancy.md",
     "MediaCoding/Filters/Unpooling.md",
     "MediaCoding/Filters/Pooling.md",
-    "MediaCoding/Convolutions/Pointwise_convolution.md",
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "XX-Attachments/Images/Pasted image 20240423160604.png",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
     "Databases/Relational_algebra.md",
     "DataStructures/B+_trees.md",
-    "DataStructures/Hash_tables.md",
-    "Databases/Join_handling.md",
-    "Databases/Database_systems.md",
-    "Databases/Database_concurrency.md",
-    "Databases/Database_constraints.md",
-    "Languages&Compilation/Three_address_code.md",
-    "Languages&Compilation/Compilers.md",
     "XX-Attachments/Images/Pasted image 20240423151949.png",
-    "Languages&Compilation/LR(0)_parsing.md",
     "XX-Attachments/Images/Pasted image 20240423143319.png",
     "XX-Attachments/Images/Pasted image 20240423143128.png",
     "XX-Attachments/Images/Pasted image 20240422201428.png",
