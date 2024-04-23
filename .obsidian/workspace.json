@@ -289,6 +289,19 @@
             }
           },
           {
+            "id": "db026d193411f8ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/LR(0)_parsing.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "31889be39824ea82",
             "type": "leaf",
             "state": {
@@ -518,7 +531,7 @@
             }
           }
         ],
-        "currentTab": 21
+        "currentTab": 22
       }
     ],
     "direction": "vertical"
@@ -586,7 +599,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Three_address_code.md"
+                "file": "Languages&Compilation/LR(0)_parsing.md"
               }
             }
           }
@@ -622,7 +635,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Three_address_code.md",
+                "file": "Languages&Compilation/LR(0)_parsing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -639,7 +652,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Three_address_code.md",
+                "file": "Languages&Compilation/LR(0)_parsing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -711,12 +724,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "dd074297be2f9868",
+  "active": "db026d193411f8ad",
   "lastOpenFiles": [
+    "Languages&Compilation/Three_address_code.md",
     "XX-Attachments/Images/Pasted image 20240423143319.png",
     "XX-Attachments/Images/Pasted image 20240423143128.png",
     "Languages&Compilation/Compilers.md",
-    "Languages&Compilation/Three_address_code.md",
     "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "Languages&Compilation/First_sets.md",
     "Languages&Compilation/TuringMachines/Halting_problem.md",
@@ -754,7 +767,6 @@
     "MachineLearning/NeuralNetworks/GAN",
     "XX-Attachments/Images/Pasted image 20240422145528.png",
     "XX-Attachments/Images/Pasted image 20240422145458.png",
-    "XX-Attachments/Images/Pasted image 20240422145422.png",
     "MachineLearning/Classification",
     "MediaCoding/Convolutions",
     "MediaCoding/0Legacy",

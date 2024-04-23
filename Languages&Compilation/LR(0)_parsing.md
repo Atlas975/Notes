@@ -16,6 +16,7 @@ ___
 	- **Stack**: keeps a list of states it has been in 
 	- **Action table**: guides parser on to the next state based on current state  and the terminal / NON-TERMINAL that was read 
 	- **Goto table**: dictates what [[Formal_languages|grammar rule]] to apply considering current state and the terminal / NON-TERMINAL that was read 
+- With no lookahead, the grammar must have no ambiguity 
 
 ## Action table entries
 - **Shift (`sn`):** Move to state `n`.
