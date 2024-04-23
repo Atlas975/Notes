@@ -276,6 +276,19 @@
             }
           },
           {
+            "id": "dd074297be2f9868",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Three_address_code.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "31889be39824ea82",
             "type": "leaf",
             "state": {
@@ -505,7 +518,7 @@
             }
           }
         ],
-        "currentTab": 20
+        "currentTab": 21
       }
     ],
     "direction": "vertical"
@@ -573,7 +586,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Compilers.md"
+                "file": "Languages&Compilation/Three_address_code.md"
               }
             }
           }
@@ -609,7 +622,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Compilers.md",
+                "file": "Languages&Compilation/Three_address_code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -626,7 +639,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Compilers.md",
+                "file": "Languages&Compilation/Three_address_code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -698,8 +711,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a13c9764956e700b",
+  "active": "dd074297be2f9868",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240423143319.png",
+    "XX-Attachments/Images/Pasted image 20240423143128.png",
+    "Languages&Compilation/Compilers.md",
+    "Languages&Compilation/Three_address_code.md",
     "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "Languages&Compilation/First_sets.md",
     "Languages&Compilation/TuringMachines/Halting_problem.md",
@@ -724,9 +741,6 @@
     "MachineLearning/ErrorMeasures/Confusion_matrices.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/NeuralNetworks/NeuralNetwork_intuition.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/NeuralNetworks/NeuralNetwork_fitting.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/NeuralNetworks/Backpropagation_math.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/DataProcessing/Boosting.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/DataProcessing/Data_leakage.md",
     "Languages&Compilation/Grammars",
     "Languages&Compilation/TuringMachines",
     "XX-Attachments/Images/Pasted image 20240422165914.png",
@@ -741,7 +755,6 @@
     "XX-Attachments/Images/Pasted image 20240422145528.png",
     "XX-Attachments/Images/Pasted image 20240422145458.png",
     "XX-Attachments/Images/Pasted image 20240422145422.png",
-    "XX-Attachments/Images/Pasted image 20240422144954.png",
     "MachineLearning/Classification",
     "MediaCoding/Convolutions",
     "MediaCoding/0Legacy",
