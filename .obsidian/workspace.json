@@ -308,7 +308,7 @@
               "type": "markdown",
               "state": {
                 "file": "Cybersecurity/Security_principles.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -583,7 +583,7 @@
             }
           }
         ],
-        "currentTab": 19
+        "currentTab": 23
       }
     ],
     "direction": "vertical"
@@ -651,7 +651,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md"
+                "file": "Cybersecurity/Security_principles.md"
               }
             }
           }
@@ -687,7 +687,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
+                "file": "Cybersecurity/Security_principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -704,7 +704,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
+                "file": "Cybersecurity/Security_principles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -776,8 +776,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8428cd24bb8b024d",
+  "active": "824fad556def3ee1",
   "lastOpenFiles": [
+    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "MediaCoding/Watermarking/Watermarking.md",
     "Cybersecurity/Security_principles.md",
     "Cybersecurity/Cryptography.md",
@@ -793,7 +794,6 @@
     "MediaCoding/Filters/Unpooling.md",
     "MediaCoding/Filters/Pooling.md",
     "MediaCoding/Convolutions/Pointwise_convolution.md",
-    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "XX-Attachments/Images/Pasted image 20240423160604.png",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
