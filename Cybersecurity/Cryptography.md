@@ -25,6 +25,8 @@ $$D_{k}:C\to P,k\in K$$
 - **Integrity**: safeguarding the accuracy and completeness of information 
 - **Availability**: ensure authorised users are able to access information 
 
+![[Pasted image 20240423170256.png|350|350]]
+
 ## Cryptographic key 
 - Used as an input to a cryptographic function
 - The security of the cryptosystem is based on the key secret

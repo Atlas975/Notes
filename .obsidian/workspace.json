@@ -302,6 +302,19 @@
             }
           },
           {
+            "id": "824fad556def3ee1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/Security_principles.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "336948f95c62dd0a",
             "type": "leaf",
             "state": {
@@ -570,7 +583,7 @@
             }
           }
         ],
-        "currentTab": 22
+        "currentTab": 23
       }
     ],
     "direction": "vertical"
@@ -638,7 +651,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/Cryptography.md"
+                "file": "Cybersecurity/Security_principles.md"
               }
             }
           }
@@ -646,7 +659,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -673,7 +687,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/Cryptography.md",
+                "file": "Cybersecurity/Security_principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -690,7 +704,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/Cryptography.md",
+                "file": "Cybersecurity/Security_principles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -762,12 +776,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "db026d193411f8ad",
+  "active": "824fad556def3ee1",
   "lastOpenFiles": [
+    "Cybersecurity/Cryptography.md",
+    "Cybersecurity/Security_principles.md",
+    "XX-Attachments/Images/Pasted image 20240423170256.png",
+    "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
+    "Algorithms/ProgrammingPatterns/Backtracking.md",
     "Cybersecurity/Hashing.md",
     "XX-Attachments/Images/Pasted image 20240423162848.png",
     "Cybersecurity/Symmetric_encryption.md",
-    "Cybersecurity/Cryptography.md",
     "Cybersecurity/Asymmetric_encryption.md",
     "Cybersecurity/Advanced_encryption_standard.md",
     "Cybersecurity/Annualised_loss_expectancy.md",
@@ -792,15 +810,12 @@
     "Languages&Compilation/LR(0)_parsing.md",
     "XX-Attachments/Images/Pasted image 20240423143319.png",
     "XX-Attachments/Images/Pasted image 20240423143128.png",
-    "Languages&Compilation/First_sets.md",
-    "Languages&Compilation/TuringMachines/Halting_problem.md",
     "XX-Attachments/Images/Pasted image 20240422201428.png",
     "Languages&Compilation/Grammars",
     "Languages&Compilation/TuringMachines",
     "XX-Attachments/Images/Pasted image 20240422165914.png",
     "XX-Attachments/Images/Pasted image 20240422165615.png",
     "XX-Attachments/Images/Pasted image 20240422165321.png",
-    "XX-Attachments/Images/Pasted image 20240422163329.png",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN",
     "MachineLearning/NeuralNetworks/NetworkTypes",
     "MachineLearning/NeuralNetworks/Training",
