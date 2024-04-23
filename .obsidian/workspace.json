@@ -302,6 +302,19 @@
             }
           },
           {
+            "id": "33a54d1ba9b102b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Relational_algebra.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "31889be39824ea82",
             "type": "leaf",
             "state": {
@@ -531,7 +544,7 @@
             }
           }
         ],
-        "currentTab": 22
+        "currentTab": 23
       }
     ],
     "direction": "vertical"
@@ -599,7 +612,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/Hashing.md"
+                "file": "Databases/Relational_algebra.md"
               }
             }
           }
@@ -607,8 +620,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -635,7 +647,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/Hashing.md",
+                "file": "Databases/Relational_algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -652,7 +664,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/Hashing.md",
+                "file": "Databases/Relational_algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -724,12 +736,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "db026d193411f8ad",
+  "active": "33a54d1ba9b102b0",
   "lastOpenFiles": [
+    "Databases/Join_handling.md",
+    "Databases/Database_systems.md",
+    "Databases/Database_concurrency.md",
+    "Databases/Database_constraints.md",
+    "Databases/Relational_algebra.md",
+    "Cybersecurity/Hashing.md",
     "Cybersecurity/Advanced_encryption_standard.md",
     "Cybersecurity/Cryptography.md",
     "Cybersecurity/Annualised_loss_expectancy.md",
-    "Cybersecurity/Hashing.md",
     "Cybersecurity/Asymmetric_encryption.md",
     "Cybersecurity/Symmetric_encryption.md",
     "Languages&Compilation/Three_address_code.md",
@@ -750,12 +767,7 @@
     "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/Statistical_modeling.md",
     "MachineLearning/Ensemble_learning.md",
-    "MachineLearning/Bias_variance_tradeoff.md",
-    "MachineLearning/Logistic_regression.md",
     "XX-Attachments/Images/Pasted image 20240422201428.png",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/Covariance.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/TimeSeriesAnalysis/Bias_correction.md",
-    "MachineLearning/Machine_learning_notation.md",
     "Languages&Compilation/Grammars",
     "Languages&Compilation/TuringMachines",
     "XX-Attachments/Images/Pasted image 20240422165914.png",
