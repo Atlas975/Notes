@@ -25,7 +25,6 @@ $$D_{k}:C\to P,k\in K$$
 - Used as an input to a cryptographic function
 - The security of the cryptosystem is based on the key secret
 
-![[Pasted image 20240424151954.png|400|400]]
 ## Cryptosystem goals 
 - **Confidentiality**: ensure only authorised users have information access 
 - **Integrity**: safeguarding the accuracy and completeness of information 
