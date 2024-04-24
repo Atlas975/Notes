@@ -13,16 +13,12 @@ ___
 # Hashing
 - A one-way deterministic function that converts an input into a fixed-size character string
 - The strength of a hash function often relies on NP hard problems such as prime factorisation
-
-
-
 ## Hash function requirements
 - **Compression**: should reduce the size of input data 
 - **Efficiency**: should be fast to apply
 - **One-way**: infeasible to find x from y: h(x) = y
 - **Weak collision resistance**: should be hard to find two inputs with same hash
 - **Strong collision resistance**: should be hard to find two identical hashes
-
 ## Cryptographic attacks
 - **Cipher-only**: obtained output from several messages using the same encryption
 - **Known-plaintext**: has input, output pair of one or more messages 

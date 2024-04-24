@@ -341,6 +341,19 @@
             }
           },
           {
+            "id": "e059c107d3b9327e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/Keys.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "336948f95c62dd0a",
             "type": "leaf",
             "state": {
@@ -609,7 +622,7 @@
             }
           }
         ],
-        "currentTab": 25
+        "currentTab": 26
       }
     ],
     "direction": "vertical"
@@ -677,7 +690,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/AlgorithmConcepts/Algorithm_fundamentals.md"
+                "file": "Cybersecurity/Keys.md"
               }
             }
           }
@@ -685,7 +698,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -712,7 +726,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/AlgorithmConcepts/Algorithm_fundamentals.md",
+                "file": "Cybersecurity/Keys.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -729,7 +743,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/AlgorithmConcepts/Algorithm_fundamentals.md",
+                "file": "Cybersecurity/Keys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -801,8 +815,18 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8fa2a0ed35da6174",
+  "active": "e059c107d3b9327e",
   "lastOpenFiles": [
+    "Cybersecurity/Symmetric_encryption.md",
+    "Cybersecurity/Keys.md",
+    "Cybersecurity/Asymmetric_encryption.md",
+    "Cybersecurity/Advanced_encryption_standard.md",
+    "Cybersecurity/Annualised_loss_expectancy.md",
+    "Cybersecurity/Security_principles.md",
+    "Cybersecurity/Cryptography.md",
+    "XX-Attachments/Images/Pasted image 20240424151954.png",
+    "Cybersecurity/Hashing.md",
+    "Algorithms/AlgorithmConcepts/Algorithm_fundamentals.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
@@ -820,16 +844,7 @@
     "Algorithms/SortAlgorithms/Merge_sort.md",
     "Algorithms/SortAlgorithms/Sorting_algorithms.md",
     "Algorithms/SortAlgorithms/Insertion_sort.md",
-    "Algorithms/TimeComplexity/Omega&Theta_Notation.md",
-    "Algorithms/TimeComplexity/Big-O_notation.md",
-    "Algorithms/Union_find.md",
-    "Algorithms/Squareroot_decomposition.md",
-    "Algorithms/Lazy_propagation.md",
-    "Algorithms/Bisect_algorithm.md",
-    "Cybersecurity/Hashing.md",
     "XX-Attachments/Images/Pasted image 20240424150500.png",
-    "MediaCoding/IntensityTransforms/Histogram_matching.md",
-    "MediaCoding/IntensityTransforms/Log_transform.md",
     "XX-Attachments/Images/Pasted image 20240423170256.png",
     "XX-Attachments/Images/Pasted image 20240423162848.png",
     "XX-Attachments/Images/Pasted image 20240423160604.png",
@@ -840,7 +855,6 @@
     "Languages&Compilation/Grammars",
     "Languages&Compilation/TuringMachines",
     "XX-Attachments/Images/Pasted image 20240422165914.png",
-    "XX-Attachments/Images/Pasted image 20240422165615.png",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN",
     "MachineLearning/NeuralNetworks/NetworkTypes",
     "MachineLearning/NeuralNetworks/Training",

@@ -20,6 +20,12 @@ ___
 
 $$E_{k}:P\to C,k\in K$$
 $$D_{k}:C\to P,k\in K$$
+
+### Cryptographic key 
+- Used as an input to a cryptographic function
+- The security of the cryptosystem is based on the key secret
+
+![[Pasted image 20240424151954.png|400|400]]
 ## Cryptosystem goals 
 - **Confidentiality**: ensure only authorised users have information access 
 - **Integrity**: safeguarding the accuracy and completeness of information 
@@ -27,9 +33,7 @@ $$D_{k}:C\to P,k\in K$$
 
 ![[Pasted image 20240423170256.png|350|350]]
 
-## Cryptographic key 
-- Used as an input to a cryptographic function
-- The security of the cryptosystem is based on the key secret
+
 ## One-time Pad
 - Uses XOR operation between message stream and key-stream
 - Considered unbreakable if used correctly (one time use, secure distribution, random)
