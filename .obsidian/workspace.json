@@ -393,13 +393,26 @@
             }
           },
           {
+            "id": "dcc02eec1e58e746",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/Vulnerability_analysis.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3625422baacf2b0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Cybersecurity/Hashing.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -742,7 +755,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/Hashing.md"
+                "file": "Cybersecurity/Vulnerability_analysis.md"
               }
             }
           }
@@ -777,7 +790,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/Hashing.md",
+                "file": "Cybersecurity/Vulnerability_analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -794,7 +807,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/Hashing.md",
+                "file": "Cybersecurity/Vulnerability_analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -866,9 +879,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3625422baacf2b0a",
+  "active": "dcc02eec1e58e746",
   "lastOpenFiles": [
     "Cybersecurity/Advanced_encryption_standard.md",
+    "Cybersecurity/Vulnerability_analysis.md",
+    "XX-Attachments/Images/Pasted image 20240424164251.png",
+    "Cybersecurity/Hashing.md",
     "Cybersecurity/Annualised_loss_expectancy.md",
     "Cybersecurity/Asymmetric_encryption.md",
     "Cybersecurity/Symmetric_encryption.md",
@@ -876,7 +892,6 @@
     "Cybersecurity/Security_principles.md",
     "Cybersecurity/Cryptography.md",
     "XX-Attachments/Images/Pasted image 20240424151954.png",
-    "Cybersecurity/Hashing.md",
     "Algorithms/AlgorithmConcepts/Algorithm_fundamentals.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
@@ -894,7 +909,6 @@
     "Algorithms/SortAlgorithms/Bubble_sort.md",
     "Algorithms/SortAlgorithms/Merge_sort.md",
     "Algorithms/SortAlgorithms/Sorting_algorithms.md",
-    "Algorithms/SortAlgorithms/Insertion_sort.md",
     "XX-Attachments/Images/Pasted image 20240424150500.png",
     "XX-Attachments/Images/Pasted image 20240423170256.png",
     "XX-Attachments/Images/Pasted image 20240423162848.png",
@@ -905,7 +919,6 @@
     "XX-Attachments/Images/Pasted image 20240422201428.png",
     "Languages&Compilation/Grammars",
     "Languages&Compilation/TuringMachines",
-    "XX-Attachments/Images/Pasted image 20240422165914.png",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN",
     "MachineLearning/NeuralNetworks/NetworkTypes",
     "MachineLearning/NeuralNetworks/Training",

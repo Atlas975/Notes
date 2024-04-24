@@ -20,12 +20,7 @@ ___
 - Supports multiple key lengths (128, 192, or 256 bits) offering trade-off between speed / security
 
 
-
-- **Confusion**: each bit in the ciphertext depends on many bits in the key
-- **Diffusion**: spread out statistical structure by spreading out data evenly (avalanche effect)
-
-
-
+![[Pasted image 20240424164251.png|450|450]]
 ## AES counter mode 
 - Ensures that identical plaintext input blocks wont result in the same ciphertext 
 - This is done by using a unique counter value each block
