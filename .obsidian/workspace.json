@@ -320,7 +320,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Log_transform.md",
+                "file": "MediaCoding/IntensityTransforms/Histogram_matching.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -664,7 +664,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Log_transform.md"
+                "file": "MediaCoding/IntensityTransforms/Histogram_matching.md"
               }
             }
           }
@@ -699,7 +699,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Log_transform.md",
+                "file": "MediaCoding/IntensityTransforms/Histogram_matching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -716,7 +716,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Log_transform.md",
+                "file": "MediaCoding/IntensityTransforms/Histogram_matching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -790,6 +790,7 @@
   },
   "active": "56778b0ac2ab82d5",
   "lastOpenFiles": [
+    "MediaCoding/IntensityTransforms/Log_transform.md",
     "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
     "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
@@ -817,7 +818,6 @@
     "Cybersecurity/Symmetric_encryption.md",
     "Cybersecurity/Asymmetric_encryption.md",
     "Cybersecurity/Advanced_encryption_standard.md",
-    "Cybersecurity/Annualised_loss_expectancy.md",
     "XX-Attachments/Images/Pasted image 20240423160604.png",
     "XX-Attachments/Images/Pasted image 20240423151949.png",
     "XX-Attachments/Images/Pasted image 20240423143319.png",
