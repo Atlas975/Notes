@@ -27,6 +27,20 @@ ___
 - **Differential cryptanalysis**: look at statistical differences in encrypted inputs
 - **Side-channel**: gather outside information (eg clock speed)
 - **Social engineering**: non-technical, carried out on people
+
+## Collision-resistance properties 
+- Confusion and diffusion are used synergistically to enhance hash algorithm security
+- This includes resistance to:
+    - Preimage attacks (finding an input corresponding to a specific hash)
+    - Second preimage attacks (finding an input with the same hash as another input)
+    - Collision attacks (finding two different inputs that produce the same hash).
+
+### Confusion 
+- Requires that the output hash be highly sensitive to input data in a non-predictable fashion
+- This is achieved through mathematical functions that ensure the relationship between the input and output is non-linear
+### Diffusion 
+- Requires that the output hash values are uniformly distributed over the output space so that changes to the input data (even minor ones) spread to affect many bits in the output hash
+- This is crucial 
 ## Avalanche effect
 - Requires that even a small change to input results in a large change to it's hash, this is quantified by the number of bits changed after a small input modification
 - This greatly increases a hash function's resistance to collision based attacks

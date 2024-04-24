@@ -11,6 +11,7 @@
 
 ___
 # Asymmetric encryption
+- Uses different but related [[Keys#Asymmetric|keys]] for encryption and decryption
 - Anyone can use the public key to encrypt, but only the private key owner can decrypt
 - This has the benefit of not requiring secure key exchange, but is often slow to encrypt 
 

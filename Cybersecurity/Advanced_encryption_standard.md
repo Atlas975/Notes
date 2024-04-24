@@ -16,7 +16,8 @@ aliases:
 
 ___
 # Advanced encryption standard
-
+- A [[Symmetric_encryption|symmetric]] encryption algorithm that makes use of block ciphers
+- Supports multiple key lengths (128, 192, or 256 bits) offering trade-off between speed / security
 
 
 

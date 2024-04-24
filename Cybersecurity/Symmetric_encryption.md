@@ -11,12 +11,9 @@
 
 ___
 # Symmetric encryption
-- Uses the same or easily computable keys for encryption and decryption
+- Uses the same or easily computable [[Keys#Symmetric|key]] for encryption and decryption
 - Requires $\frac{N(N-1)}{2}$ keys between $N$ parties, making this costly to scale
 - Also requires secure key exchange making key management a challenge. 
-
-
-
 
 
 ![[Pasted image 20240331193809.png|350|350]]
