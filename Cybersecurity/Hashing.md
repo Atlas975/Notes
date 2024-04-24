@@ -11,6 +11,8 @@
 
 ___
 # Hashing
+- A one-way deterministic function that converts an input into a fixed-size character string
+- The strength of a hash function often 
 - A hash function must provide 
 	- **Compression**: should reduce the size of input data 
 	- **Efficiency**: should be fast to apply

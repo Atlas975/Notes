@@ -328,6 +328,19 @@
             }
           },
           {
+            "id": "8fa2a0ed35da6174",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/Hashing.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "336948f95c62dd0a",
             "type": "leaf",
             "state": {
@@ -596,7 +609,7 @@
             }
           }
         ],
-        "currentTab": 24
+        "currentTab": 25
       }
     ],
     "direction": "vertical"
@@ -664,7 +677,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Histogram_matching.md"
+                "file": "Cybersecurity/Hashing.md"
               }
             }
           }
@@ -699,7 +712,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Histogram_matching.md",
+                "file": "Cybersecurity/Hashing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -716,7 +729,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Histogram_matching.md",
+                "file": "Cybersecurity/Hashing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -788,8 +801,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "56778b0ac2ab82d5",
+  "active": "8fa2a0ed35da6174",
   "lastOpenFiles": [
+    "MediaCoding/IntensityTransforms/Histogram_matching.md",
     "MediaCoding/IntensityTransforms/Log_transform.md",
     "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
     "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
@@ -817,7 +831,6 @@
     "XX-Attachments/Images/Pasted image 20240423162848.png",
     "Cybersecurity/Symmetric_encryption.md",
     "Cybersecurity/Asymmetric_encryption.md",
-    "Cybersecurity/Advanced_encryption_standard.md",
     "XX-Attachments/Images/Pasted image 20240423160604.png",
     "XX-Attachments/Images/Pasted image 20240423151949.png",
     "XX-Attachments/Images/Pasted image 20240423143319.png",
