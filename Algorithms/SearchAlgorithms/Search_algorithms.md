@@ -15,9 +15,8 @@ aliases: search algorithm
 ___
 # Search algorithms
 ## Common search algorithm time Complexity 
-[[Time_complexity]]
 ![[Pasted image 20220612171916.png|450|450]]
-# Sentinel search
+## Sentinel search
 - Check if last element is the element being searched for, if not replace it with the element being searched for
 - Reduces the number of operations compared to linear search by removing the need for loop condition
 

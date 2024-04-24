@@ -12,29 +12,28 @@
 ___
 # Hashing
 - A one-way deterministic function that converts an input into a fixed-size character string
-- The strength of a hash function often 
-- A hash function must provide 
-	- **Compression**: should reduce the size of input data 
-	- **Efficiency**: should be fast to apply
-	- **One-way**: infeasible to find x from y: h(x) = y
-	- **Weak collision resistance**: should be hard to find two inputs with same hash
-	- **Strong collision resistance**: should be hard to find two identical hashes
+- The strength of a hash function often relies on NP hard problems such as prime factorisation
+
+
+
+## Hash function requirements
+- **Compression**: should reduce the size of input data 
+- **Efficiency**: should be fast to apply
+- **One-way**: infeasible to find x from y: h(x) = y
+- **Weak collision resistance**: should be hard to find two inputs with same hash
+- **Strong collision resistance**: should be hard to find two identical hashes
 
 ## Cryptographic attacks
 - **Cipher-only**: obtained output from several messages using the same encryption
 - **Known-plaintext**: has input, output pair of one or more messages 
-- **Chosen-plaintext**: has control over what input gets encrypted 
-- **Chosen-ciphertext**: has control over what output get decrypted
+- **Chosen-plaintext**: has control over what inputs gets encrypted 
+- **Chosen-ciphertext**: has control over what outputs get decrypted
 - **Differential cryptanalysis**: look at statistical differences in encrypted inputs
 - **Side-channel**: gather outside information (eg clock speed)
 - **Social engineering**: non-technical, carried out on people
-
-
-![[Pasted image 20240423160604.png|400|400]]
-
-
 ## Avalanche effect
 - Requires that even a small change to input results in a large change to it's hash, this is quantified by the number of bits changed after a small input modification
 - This greatly increases a hash function's resistance to collision based attacks
 
-![[Pasted image 20240423162848.png|300|300]]
+
+![[Pasted image 20240424150500.png|450|450]]
