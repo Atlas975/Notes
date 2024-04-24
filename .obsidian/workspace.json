@@ -406,6 +406,32 @@
             }
           },
           {
+            "id": "27f426a4b5ebdb0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/PKCS7.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "07cfe815810d269f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/Keys.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3625422baacf2b0a",
             "type": "leaf",
             "state": {
@@ -687,7 +713,7 @@
             }
           }
         ],
-        "currentTab": 30
+        "currentTab": 32
       }
     ],
     "direction": "vertical"
@@ -755,7 +781,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/Vulnerability_analysis.md"
+                "file": "Cybersecurity/Keys.md"
               }
             }
           }
@@ -790,7 +816,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/Vulnerability_analysis.md",
+                "file": "Cybersecurity/Keys.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -807,7 +833,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/Vulnerability_analysis.md",
+                "file": "Cybersecurity/Keys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -879,20 +905,22 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "dcc02eec1e58e746",
+  "active": "07cfe815810d269f",
   "lastOpenFiles": [
-    "XX-Attachments/Images/Pasted image 20240424170031.png",
+    "Cybersecurity/Symmetric_encryption.md",
     "Cybersecurity/Security_principles.md",
+    "Cybersecurity/Cryptography.md",
+    "Cybersecurity/Access_control.md",
+    "Cybersecurity/PKCS7.md",
     "Cybersecurity/Vulnerability_analysis.md",
+    "XX-Attachments/Images/Pasted image 20240424170031.png",
     "XX-Attachments/Images/Pasted image 20240424165559.png",
     "Cybersecurity/Advanced_encryption_standard.md",
     "XX-Attachments/Images/Pasted image 20240424164251.png",
     "Cybersecurity/Hashing.md",
     "Cybersecurity/Annualised_loss_expectancy.md",
     "Cybersecurity/Asymmetric_encryption.md",
-    "Cybersecurity/Symmetric_encryption.md",
     "Cybersecurity/Keys.md",
-    "Cybersecurity/Cryptography.md",
     "XX-Attachments/Images/Pasted image 20240424151954.png",
     "Algorithms/AlgorithmConcepts/Algorithm_fundamentals.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
@@ -909,14 +937,12 @@
     "Algorithms/SortAlgorithms/Selection_sort.md",
     "Algorithms/SortAlgorithms/Topological_sort.md",
     "Algorithms/SortAlgorithms/Bubble_sort.md",
-    "Algorithms/SortAlgorithms/Merge_sort.md",
     "XX-Attachments/Images/Pasted image 20240424150500.png",
     "XX-Attachments/Images/Pasted image 20240423170256.png",
     "XX-Attachments/Images/Pasted image 20240423162848.png",
     "XX-Attachments/Images/Pasted image 20240423160604.png",
     "XX-Attachments/Images/Pasted image 20240423151949.png",
     "XX-Attachments/Images/Pasted image 20240423143319.png",
-    "XX-Attachments/Images/Pasted image 20240423143128.png",
     "Languages&Compilation/Grammars",
     "Languages&Compilation/TuringMachines",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN",
