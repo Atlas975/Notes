@@ -320,7 +320,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/Security_principles.md",
+                "file": "MediaCoding/IntensityTransforms/Log_transform.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -664,7 +664,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/Security_principles.md"
+                "file": "MediaCoding/IntensityTransforms/Log_transform.md"
               }
             }
           }
@@ -699,7 +699,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/Security_principles.md",
+                "file": "MediaCoding/IntensityTransforms/Log_transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -716,7 +716,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/Security_principles.md",
+                "file": "MediaCoding/IntensityTransforms/Log_transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -790,18 +790,24 @@
   },
   "active": "56778b0ac2ab82d5",
   "lastOpenFiles": [
-    "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
+    "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
+    "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
+    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
+    "MediaCoding/Media_coding.md",
+    "MediaCoding/Image_derivatives.md",
     "MediaCoding/Colour_models.md",
+    "MediaCoding/Canny_edge_detection.md",
+    "MediaCoding/Edge_detection.md",
+    "Cybersecurity/Security_principles.md",
+    "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
     "MediaCoding/Watermarking/Watermarking.md",
     "MediaCoding/OpticalFlow/Optical_flow.md",
-    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "MediaCoding/Convolutions/Transposed_convolution.md",
     "MediaCoding/Convolutions/Pointwise_convolution.md",
     "MediaCoding/Convolutions/Depthwise_separable_convolution.md",
     "MediaCoding/Convolutions/Depthwise_convolution.md",
     "MediaCoding/Convolutions/Convolution.md",
-    "Cybersecurity/Security_principles.md",
     "Cybersecurity/Cryptography.md",
     "XX-Attachments/Images/Pasted image 20240423170256.png",
     "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
@@ -812,13 +818,7 @@
     "Cybersecurity/Asymmetric_encryption.md",
     "Cybersecurity/Advanced_encryption_standard.md",
     "Cybersecurity/Annualised_loss_expectancy.md",
-    "MediaCoding/Filters/Unpooling.md",
-    "MediaCoding/Filters/Pooling.md",
-    "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "XX-Attachments/Images/Pasted image 20240423160604.png",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
-    "Databases/Relational_algebra.md",
-    "DataStructures/B+_trees.md",
     "XX-Attachments/Images/Pasted image 20240423151949.png",
     "XX-Attachments/Images/Pasted image 20240423143319.png",
     "XX-Attachments/Images/Pasted image 20240423143128.png",
