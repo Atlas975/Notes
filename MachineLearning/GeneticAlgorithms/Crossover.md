@@ -11,8 +11,8 @@
 
 ___
 # Crossover
-- The process of chromosomes being recombined / crossed over to create the next iteration of chromosomes. Takes place after [[Selection|genetic selection]] and is used to potentially combine successful traits
-- The frequency of this occurring is controlled by the **crossover rate**. This needs to be high enough to combine successful traits while low enough to avoid losing the integrity of these traits
+- The process of chromosomes being recombined / crossed over to create the next iteration of chromosomes. Takes place after [[Selection|genetic selection]], used to potentially combine successful traits
+- The frequency of this occurring is controlled by the **crossover rate**. This needs to be high enough to combine successful traits while moderate enough to avoid loosing the integrity of these traits
 ## K point crossover 
 
 ![[Pasted image 20231112153542.png|450|450]]

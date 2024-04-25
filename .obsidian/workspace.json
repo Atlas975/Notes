@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Selection.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -807,7 +807,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Selection.md"
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md"
               }
             }
           }
@@ -842,7 +842,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Selection.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -859,7 +859,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Selection.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -933,14 +933,14 @@
   },
   "active": "4c48c743dc920778",
   "lastOpenFiles": [
+    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
+    "MachineLearning/GeneticAlgorithms/Selection.md",
     "MachineLearning/GeneticAlgorithms/Mutation.md",
     "MachineLearning/GeneticAlgorithms/Crossover.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
     "MachineLearning/FeatureEngineering/Normalisation.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
-    "MachineLearning/GeneticAlgorithms/Selection.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "MachineLearning/Statistical_modeling.md",
     "MachineLearning/Logistic_regression.md",
     "MachineLearning/Categorical_data_handeling.md",

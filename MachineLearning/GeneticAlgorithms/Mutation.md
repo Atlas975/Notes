@@ -11,10 +11,9 @@
 
 ___
 # Mutation
-- Introduces random changes to new offspring (typically after [[Crossover]])
-- Adds diversity to search space, this is vital to allow for more exploration and to avoid getting stuck at a local minima of the cost function
-- This prevents all chromosomes from exploring similar trees all at once
-- The frequency of this occurring is controlled by the **mutation rate**. This needs to be high enough to explore while still being low enough to not disrupt convergence 
+- Introduces random changes to new offsprings (typically after [[Crossover]])
+- Adds diversity to search space, this is vital to prevent chromosomes from exploring the same search tree and to avoid getting stuck at a local minima of the cost function
+- The frequency of this occurring is controlled by the **mutation rate**. This needs to be high enough to explore while still being moderate enough to not disrupt convergence 
 
 ## Bit flip mutation
 
