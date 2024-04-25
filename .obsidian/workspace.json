@@ -117,8 +117,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Quantitative_privacy.md",
-                "mode": "source",
+                "file": "Cybersecurity/RiskManagement/Access_controls.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -385,7 +385,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/Security_principles.md",
+                "file": "Cybersecurity/RiskManagement/Security_principles.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -807,7 +807,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Quantitative_privacy.md"
+                "file": "Cybersecurity/RiskManagement/Access_controls.md"
               }
             }
           }
@@ -842,7 +842,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Quantitative_privacy.md",
+                "file": "Cybersecurity/RiskManagement/Access_controls.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -859,7 +859,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Quantitative_privacy.md",
+                "file": "Cybersecurity/RiskManagement/Access_controls.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -931,20 +931,22 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "61b6b073dac95afd",
+  "active": "4c48c743dc920778",
   "lastOpenFiles": [
-    "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
+    "XX-Attachments/Images/Pasted image 20240425151529.png",
     "Cybersecurity/RiskManagement/Quantitative_privacy.md",
-    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
+    "Cybersecurity/RiskManagement/Security_principles.md",
+    "Cybersecurity/RiskManagement/Access_controls.md",
     "Cybersecurity/Symmetric_encryption.md",
-    "Cybersecurity/Security_principles.md",
     "Cybersecurity/PKCS7.md",
+    "Cybersecurity/Keys.md",
     "Cybersecurity/Hashing.md",
-    "Cybersecurity/Access_control.md",
+    "Cybersecurity/Cryptography.md",
     "Cybersecurity/Asymmetric_encryption.md",
     "Cybersecurity/Advanced_encryption_standard.md",
+    "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
+    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
     "Cybersecurity/RiskManagement",
-    "Cybersecurity/Keys.md",
     "Databases/Query_optimisation.md",
     "Databases/Relational_algebra.md",
     "Databases/Database_transactions.md",
@@ -958,8 +960,6 @@
     "SoftwareDesign/Software_architecture.md",
     "SoftwareDesign/Finite_state_machines.md",
     "SoftwareDesign/Entity_relationship_model.md",
-    "SoftwareDesign/BSPL.md",
-    "SoftwareEngineering/Recursion.md",
     "XX-Attachments/Images/Pasted image 20240424170031.png",
     "XX-Attachments/Images/Pasted image 20240424165559.png",
     "XX-Attachments/Images/Pasted image 20240424164251.png",
