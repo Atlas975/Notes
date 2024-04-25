@@ -12,10 +12,8 @@
 ___
 # Link state routing
 - **Centralised** routing where each node knows its neighbours and cost to direct neighbours 
-- This information is broadcasted to all nodes (flooding), each nodes learns complete [[Network_architecture|network]] [[Network_topology|topology]]
+- Information is flooded to all nodes, each nodes knows complete [[Network_architecture|network]] [[Network_topology|topology]]
 - Message complexity of $O(N^2)$ time, messages must propagate everywhere
-
-
 ## Link state pitfalls 
 - Router can advertise incorrect link cost 
 - Each router computes only its own table

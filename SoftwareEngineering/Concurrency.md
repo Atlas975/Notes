@@ -74,8 +74,10 @@ t.start();
 // … do other useful things while message prints
 ```
 ## Concurrency vs parallelism
+- Processes are always concurrent but not always parallel 
 
-![[Pasted image 20221022125124.png|500|500]] processes are always concurrent but not always parallel 
+![[Pasted image 20221022125124.png|500|500]] 
+
 
 # Shared memory synchronization
 - Coordination is needed when accessing critical sections 

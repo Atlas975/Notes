@@ -91,12 +91,12 @@ ___
 
 
 ## Hot potato routing
-- Choose local gateway with min intra-domain cost (e.g., 2d picks 2a, even though more AS hops to X)
+- Choose local gateway with min intra-domain cost (eg 2d picks 2a, despite more AS hops to X)
 
 ![[Pasted image 20230510015637.png|450|450]]
 
 
 
 ## Policy-based routing 
-- Gateway receiving route ad uses **import policy** to accept/decline path (e.g., never route through AS Y).
+- Gateway receiving route ad uses **import policy** to accept/decline path (eg never route through AS Y).
 - AS policy also determines whether to advertise path to other other neighbouring ASes

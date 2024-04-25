@@ -32,27 +32,16 @@ ___
 - The **In** parameter transmits knowledge
 
 ## Control vs information flow
+- **Control flow**
+    - Natural in single threads
+    - Conditional branching is core
+    - Impossible between mutually autonomous parties
+- **Information flow**
+    - Natural across multiple threads
+    - Tied to causality with no hidden coordination
+    - Keys are the basis for completion
+    - Robustness, insensitive to infrastructure reordering
 
-```start-multi-column
-ID: ID_ckyk
-Number of Columns: 2
-Largest Column: standard
-```
-
-**Control flow**
-- Natural in single threads
-- Conditional branching is core
-- Impossible between mutually autonomous parties
-
---- column-end ---
-
-**Information flow**
-- Natural across multiple threads
-- Tied to causality with no hidden coordination
-- Keys are the basis for completion
-- Robustness, insensitive to infrastructure reordering
-
-=== end-multi-column
 ## Initiate protocol
 ```rust
 Initiate {
