@@ -19,7 +19,7 @@ ___
 - An [[Artificial_intelligence|ML]] technique where multiple models are trained and combined to improve performance
 - Typically results in better predictive performance compared to using a single model, as they combine the strengths and mitigate the weaknesses of various base models.
 ## Bagging ensemble
-- Also known as bootstrap aggregation, trains models in parallel on random subsets of data (created with replacement AKA bootstrap sampling)
+- Also known as bootstrap aggregation, trains models in parallel on random subsets of the training data (created with replacement AKA bootstrap sampling)
 - Prediction done using mode(prediction) for classification or average(prediction) for regression
 
 ![[Pasted image 20240403222848.png|250|250]]

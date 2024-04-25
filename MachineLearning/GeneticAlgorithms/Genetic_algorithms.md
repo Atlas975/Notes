@@ -40,7 +40,7 @@ ___
 ## Fitness function
 - When the correct answer is known, fitness is a distance metric towards it 
 - When the correct answer is unknown, fitness is an estimator of how valuable a solution is 
-- Fitness functions often have quantify multiple goals into a single numeric value, evolution is only as good as it's fitness function 
+- Fitness functions often need to quantify multiple goals into a single numeric value, evolution is only as good as it's fitness function 
 - In general an ideal fitness function needs to be: 
 	1. **Clearly defined**
 	2. **Efficient** (non-bottleneck of algorithm)

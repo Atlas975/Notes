@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Convolutions/Convolution.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -781,7 +781,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Convolutions/Convolution.md"
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md"
               }
             }
           }
@@ -816,7 +816,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Convolutions/Convolution.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -833,7 +833,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Convolutions/Convolution.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -907,6 +907,12 @@
   },
   "active": "d7a159548a6ce6b2",
   "lastOpenFiles": [
+    "MachineLearning/GeneticAlgorithms/Crossover.md",
+    "MachineLearning/Statistical_modeling.md",
+    "MachineLearning/Logistic_regression.md",
+    "MachineLearning/Categorical_data_handeling.md",
+    "MachineLearning/Ensemble_learning.md",
+    "MediaCoding/Convolutions/Convolution.md",
     "MediaCoding/Canny_edge_detection.md",
     "MediaCoding/Colour_models.md",
     "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
@@ -927,12 +933,6 @@
     "MediaCoding/IntensityTransforms/Gamma_transform.md",
     "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
     "MediaCoding/IntensityTransforms/Log_transform.md",
-    "MediaCoding/IntensityTransforms/Image_negatives.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
-    "MediaCoding/Convolutions/Convolution.md",
-    "Cybersecurity/Access_control.md",
-    "Cybersecurity/Advanced_encryption_standard.md",
-    "Cybersecurity/Annualised_loss_expectancy.md",
     "XX-Attachments/Images/Pasted image 20240424170031.png",
     "XX-Attachments/Images/Pasted image 20240424165559.png",
     "XX-Attachments/Images/Pasted image 20240424164251.png",

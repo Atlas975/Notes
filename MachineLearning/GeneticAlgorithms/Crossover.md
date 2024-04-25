@@ -11,8 +11,8 @@
 
 ___
 # Crossover
-- The process of chromosomes being recombined / crossed over to create the next iteration of chromosomes. Takes place after [[Genetic_selection|genetic selection]] 
-- In most recombination operators, the probability two chromosomes are combined is referred to as the crossover probability 
+- The process of chromosomes being recombined / crossed over to create the next iteration of chromosomes. Takes place after [[Genetic_selection|genetic selection]] and is used to potentially combine successful traits
+- In most recombination operators, the probability two chromosomes are combined is referred to as the crossover probability
 ## K point crossover 
 - The 1-point and 2-point crossover is the simplest and most widely used crossover method
 - This involves two parents being selected with crossover points generated randomly 
