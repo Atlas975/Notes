@@ -23,8 +23,6 @@ ___
 - This is also known as z-scaling as the new value is it's z-score in the distribution
 
 $$\mathcal{x'}=\frac{x-\overline{x}}{\sigma}$$
-
-
 ## Min-max normalisation 
 - Rescales the feature to a fixed range, usually 0 to 1, or -1 to 1.
 

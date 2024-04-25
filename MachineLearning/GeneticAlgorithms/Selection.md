@@ -10,8 +10,8 @@
 > ```
 
 ___
-# Genetic selection
-- The first operation in the reproductive phase of a [[Genetic_algorithms|genetic algorithm]], used to choose the fittest chromosomes to carry on
+# Selection
+- The first operation in the reproductive phase of a [[Genetic_algorithms|genetic algorithm]], used to choose the fittest chromosomes to carry on to the next generation
 - These procedures can be broadly classified as ordinal / fitness proportionate selection
 ## Tournament selection
 - Chromosomes are randomly selected from the population,  the best chromosome from this group is then selected to carry on

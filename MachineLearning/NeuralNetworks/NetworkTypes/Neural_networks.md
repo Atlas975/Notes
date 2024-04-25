@@ -1,6 +1,6 @@
 ---
 aliases:
-  - NN
+  - neural nets
 ---
 
 > [!important]- Metadata

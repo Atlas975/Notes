@@ -20,7 +20,7 @@ ___
 ![[Pasted image 20231112141958.png|350|350]]
 ## Value encoding 
 - Each chromosome is a string of values, easier to encode non binary information
-- Useful for [[Neural_Network_notation|neural networks]] where weights can be encoded as individual genes 
+- Useful for [[Neural_networks|neural nets]] where weights can be encoded as individual genes 
 
 ![[Pasted image 20231112144014.png|350|350]]
 ## Permutation encoding 
