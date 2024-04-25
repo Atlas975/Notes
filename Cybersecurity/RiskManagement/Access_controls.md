@@ -15,7 +15,7 @@ ___
 - Helps enforce [[Security_principles|security principles]] by prevent unauthorised access
 - Level of authorisation is determined after successful authentication
 
-## Access control components 
+## Access control components
 - **Access**: flow of information between subject and an object 
 - **Subjects**: active entities that requests access to an object or it's data 
 - **Objects**:  passive entities that contain information
@@ -23,14 +23,20 @@ ___
 ## Steps for subject to access an object
 ![[Pasted image 20240425151529.png|275|275]]
 
-### Identification 
+### Identification
 - Ensure subject is the entity it claims to be 
 - Identification info may be public (eg a username), this needs to be unique
 - An identity management system (IdM) describes the management of these identities 
 
-### Authentication 
+### Authentication
 - Authentication is done based on private information, this comes in 3 forms:
-    - **Authentication by knowledge**: something a person knows 
-    - **Authentication by ownership**: something a person has 
-    - **Authentication by characteristic**: something a person is
+	- **Authentication by knowledge**: something a person knows 
+	- **Authentication by ownership**: something a person has 
+	- **Authentication by characteristic**: something a person is
 - Strong authentication uses multiple of these (eg two-factor authentication)
+### Authorisation
+- Access criteria based on trust and need-to-know.
+- Enforced by roles, location, and time.
+### Accountability
+- Tracked through user, system, and application activities.
+- Tools used for audit and legal documentation.

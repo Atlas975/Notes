@@ -320,8 +320,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/Keys.md",
-                "mode": "preview",
+                "file": "Cybersecurity/Salt.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -807,7 +807,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/Keys.md"
+                "file": "Cybersecurity/Salt.md"
               }
             }
           }
@@ -842,7 +842,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/Keys.md",
+                "file": "Cybersecurity/Salt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -859,7 +859,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/Keys.md",
+                "file": "Cybersecurity/Salt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -933,18 +933,21 @@
   },
   "active": "db026d193411f8ad",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240425154354.png",
+    "Cybersecurity/RiskManagement/Password_storage.md",
+    "Cybersecurity/Salt.md",
+    "Cybersecurity/Symmetric_encryption.md",
+    "Cybersecurity/PKCS7.md",
+    "Cybersecurity/Keys.md",
+    "Cybersecurity/Hashing.md",
     "Cybersecurity/Cryptography.md",
+    "Cybersecurity/Asymmetric_encryption.md",
+    "Cybersecurity/Advanced_encryption_standard.md",
+    "Cybersecurity/RiskManagement/Access_controls.md",
     "Cybersecurity/RiskManagement/Security_principles.md",
     "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
     "Cybersecurity/RiskManagement/Quantitative_privacy.md",
     "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
-    "Cybersecurity/Advanced_encryption_standard.md",
-    "Cybersecurity/Asymmetric_encryption.md",
-    "Cybersecurity/Symmetric_encryption.md",
-    "Cybersecurity/PKCS7.md",
-    "Cybersecurity/Hashing.md",
-    "Cybersecurity/Keys.md",
-    "Cybersecurity/RiskManagement/Access_controls.md",
     "XX-Attachments/Images/Pasted image 20240425151529.png",
     "Cybersecurity/RiskManagement",
     "Databases/Query_optimisation.md",
@@ -958,8 +961,6 @@
     "Databases/Database_storage.md",
     "Databases/Database_normalisation.md",
     "SoftwareDesign/Software_architecture.md",
-    "SoftwareDesign/Finite_state_machines.md",
-    "SoftwareDesign/Entity_relationship_model.md",
     "XX-Attachments/Images/Pasted image 20240424170031.png",
     "XX-Attachments/Images/Pasted image 20240424165559.png",
     "XX-Attachments/Images/Pasted image 20240424164251.png",
