@@ -44,24 +44,24 @@ ___
 - Tracks all activity in a system in order to traceback any potential issues 
 - This can create a large amount of data, so auditing tools are needed to filter it
 
-## Access control policies 
+## Access control policies
 - The set of rules established by an organisation to regulate who can view or use resources in a computing environment. These are central to information security 
-- Various policies exist often depending on how strict these need to be
+- Various policies exist that offer tradeoffs based in security and practicality 
 ### Mandatory Access Control (MAC)
 - **Predefined Access Control**: access is decided by strict, fixed rules set only by the sysadmin
-- **Security Labels**: every file and user has a label that says who can open it
+- **Security Labels**: every file has a label stating the clearence level  
 ### Discretionary Access Control (DAC)
-- **User-Set Permissions**: All==ows resource owners to decide and set access permissions for other users.==
-- **Access Control Lists**: Implements Access Control Lists (ACLs) for specifying individual user access to various objects.
+- **User-Set Permissions**: the person who makes a file can control permissions regarding it 
+- **Access Control Lists**: each file has a list saying which users can access it 
 ### Role-Based Access Control (RBAC)
-- **Role-Dependent Access**: Assigns access rights based on roles within an organization, streamlining permissions management.
-- **Least Privilege & Separation of Duties**: Enforces the principles of least privilege and separation of duties to minimize insider threats.
+- **Role-Dependent Access**: what a user can access depends on their role 
+- **Least Privilege & Separation of Duties**: enforces least privilege needed to avoid internal threats
 ### Attribute-Based Access Control (ABAC)
-- **Attribute-Based Rules**: Determines access by evaluating attributes (user, resource, context) against defined policies.
-- **Dynamic and Fine-Grained**: Provides highly dynamic and granular access control, adaptable to a variety of scenarios.
+- **Attribute-Based Rules**: evaluates attributes (user, resource, context) to determine access
+- **Dynamic and Fine-Grained**: provides dynamic and adaptable access control
 ### Rule-Based Access Control (RB-RAC)
-- **Rule-Defined Restrictions**: Access is determined by rules, such as time or location-based restrictions, set by administrators.
-- **Automated Enforcement**: Rules are automatically applied by the system, often used for system-level control over user access.
+- **Rule-Defined Restrictions**: access is controlled by automatic rules 
+- **Automated Enforcement**: Rules are automatically applied by the system
 ### Risk-Adaptive Access Control (RAdAC)
-- **Risk Evaluation**: Access rights are dynamically adjusted based on the real-time assessment of risk factors and threat levels.
-- **Context-Sensitive Adaptation**: Policy adapts to the changing context, enhancing security responsiveness to potential threats.
+- **Risk Evaluation**: access rights can change based on real-time risks 
+- **Context-Sensitive Adaptation**: increased security responsiveness to potential threats
