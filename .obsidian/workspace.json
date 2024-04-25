@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Access_controls.md",
+                "file": "Cybersecurity/RiskManagement/Security_principles.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -320,8 +320,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/Cryptography.md",
-                "mode": "source",
+                "file": "Cybersecurity/Keys.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -739,7 +739,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 24
       }
     ],
     "direction": "vertical"
@@ -807,7 +807,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Access_controls.md"
+                "file": "Cybersecurity/Keys.md"
               }
             }
           }
@@ -842,7 +842,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Access_controls.md",
+                "file": "Cybersecurity/Keys.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -859,7 +859,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Access_controls.md",
+                "file": "Cybersecurity/Keys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -931,21 +931,21 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4c48c743dc920778",
+  "active": "db026d193411f8ad",
   "lastOpenFiles": [
-    "XX-Attachments/Images/Pasted image 20240425151529.png",
-    "Cybersecurity/RiskManagement/Quantitative_privacy.md",
+    "Cybersecurity/Cryptography.md",
     "Cybersecurity/RiskManagement/Security_principles.md",
-    "Cybersecurity/RiskManagement/Access_controls.md",
+    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
+    "Cybersecurity/RiskManagement/Quantitative_privacy.md",
+    "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
+    "Cybersecurity/Advanced_encryption_standard.md",
+    "Cybersecurity/Asymmetric_encryption.md",
     "Cybersecurity/Symmetric_encryption.md",
     "Cybersecurity/PKCS7.md",
-    "Cybersecurity/Keys.md",
     "Cybersecurity/Hashing.md",
-    "Cybersecurity/Cryptography.md",
-    "Cybersecurity/Asymmetric_encryption.md",
-    "Cybersecurity/Advanced_encryption_standard.md",
-    "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
-    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
+    "Cybersecurity/Keys.md",
+    "Cybersecurity/RiskManagement/Access_controls.md",
+    "XX-Attachments/Images/Pasted image 20240425151529.png",
     "Cybersecurity/RiskManagement",
     "Databases/Query_optimisation.md",
     "Databases/Relational_algebra.md",
@@ -969,7 +969,6 @@
     "XX-Attachments/Images/Pasted image 20240423162848.png",
     "XX-Attachments/Images/Pasted image 20240423160604.png",
     "XX-Attachments/Images/Pasted image 20240423151949.png",
-    "XX-Attachments/Images/Pasted image 20240423143319.png",
     "Languages&Compilation/Grammars",
     "Languages&Compilation/TuringMachines",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN",

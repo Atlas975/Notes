@@ -21,7 +21,7 @@ ___
 - **Strong collision resistance**: should be hard to find two identical hashes
 ## Cryptographic attacks
 - **Cipher-only**: obtained output from several messages using the same encryption
-- **Known-plaintext**: has input, output pair of one or more messages 
+- **Known-plaintext**: has input, output pair of one or more messages (==rainbow tables==)
 - **Chosen-plaintext**: has control over what inputs gets encrypted 
 - **Chosen-ciphertext**: has control over what outputs get decrypted
 - **Differential cryptanalysis**: look at statistical differences in encrypted inputs

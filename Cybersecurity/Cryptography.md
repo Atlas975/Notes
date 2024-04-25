@@ -27,13 +27,5 @@ $$D_{k}:C\to P,k\in K$$
 
 ![[Pasted image 20240423170256.png|350|350]]
 
-## One-time Pad
-- Uses XOR operation between message stream and key-stream
-- Considered unbreakable if used correctly (one time use, secure distribution, random)
 
-```
-Message stream:    1001010111 
-Keystream:         0011101010 
-Ciphertext stream: 1010111101
-```
 
