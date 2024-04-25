@@ -117,8 +117,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwareDesign/Software_architecture.md",
-                "mode": "preview",
+                "file": "Cybersecurity/RiskManagement/Quantitative_privacy.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -424,7 +424,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/Vulnerability_analysis.md",
+                "file": "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -807,7 +807,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/Software_architecture.md"
+                "file": "Cybersecurity/RiskManagement/Quantitative_privacy.md"
               }
             }
           }
@@ -842,7 +842,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftwareDesign/Software_architecture.md",
+                "file": "Cybersecurity/RiskManagement/Quantitative_privacy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -859,7 +859,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftwareDesign/Software_architecture.md",
+                "file": "Cybersecurity/RiskManagement/Quantitative_privacy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -931,34 +931,35 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4c48c743dc920778",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
+    "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
+    "Cybersecurity/RiskManagement/Quantitative_privacy.md",
+    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
+    "Cybersecurity/Symmetric_encryption.md",
+    "Cybersecurity/Security_principles.md",
+    "Cybersecurity/PKCS7.md",
+    "Cybersecurity/Hashing.md",
+    "Cybersecurity/Access_control.md",
+    "Cybersecurity/Asymmetric_encryption.md",
+    "Cybersecurity/Advanced_encryption_standard.md",
+    "Cybersecurity/RiskManagement",
+    "Cybersecurity/Keys.md",
+    "Databases/Query_optimisation.md",
+    "Databases/Relational_algebra.md",
+    "Databases/Database_transactions.md",
+    "Databases/Database_systems.md",
+    "Databases/Access_routines.md",
+    "Databases/Database_keys.md",
+    "Databases/Database_concurrency.md",
+    "Databases/Join_handling.md",
+    "Databases/Database_storage.md",
+    "Databases/Database_normalisation.md",
+    "SoftwareDesign/Software_architecture.md",
     "SoftwareDesign/Finite_state_machines.md",
     "SoftwareDesign/Entity_relationship_model.md",
     "SoftwareDesign/BSPL.md",
     "SoftwareEngineering/Recursion.md",
-    "SoftwareEngineering/Programming_paradigms.md",
-    "SoftwareEngineering/Multiagent_systems.md",
-    "SoftwareEngineering/Concurrency.md",
-    "Statistics/Bayes_theorem.md",
-    "Statistics/Mean.md",
-    "Statistics/Event_independence.md",
-    "Statistics/Entropy.md",
-    "Statistics/Bessels_correction.md",
-    "Statistics/Sampling_methods.md",
-    "Statistics/PERT_distribution.md",
-    "Statistics/Triangular_distribution.md",
-    "Statistics/Poisson_distribution.md",
-    "SoftwarePatterns/Behavioral/Visitor_pattern.md",
-    "SoftwarePatterns/Behavioral/Template_pattern.md",
-    "SoftwarePatterns/Behavioral/Observer_pattern.md",
-    "SoftwarePatterns/Behavioral/Command_pattern.md",
-    "OperatingSystems/DigitalSystems/InstructionSet_architecture.md",
-    "OperatingSystems/DigitalSystems/DigitalSystem_design.md",
-    "OperatingSystems/DigitalSystems/Data_encoding.md",
-    "OperatingSystems/DigitalSystems/Computer_architecture.md",
-    "OperatingSystems/DigitalSystems/Bitwise_arithmatic.md",
-    "OperatingSystems/Virtualisation.md",
     "XX-Attachments/Images/Pasted image 20240424170031.png",
     "XX-Attachments/Images/Pasted image 20240424165559.png",
     "XX-Attachments/Images/Pasted image 20240424164251.png",
@@ -977,7 +978,6 @@
     "MachineLearning/NeuralNetworks/GAN",
     "MachineLearning/Classification",
     "MediaCoding/Convolutions",
-    "MediaCoding/0Legacy",
-    "MediaCoding/Filters/Untitled"
+    "MediaCoding/0Legacy"
   ]
 }
