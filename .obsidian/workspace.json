@@ -91,8 +91,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
-                "mode": "source",
+                "file": "MediaCoding/IntensityTransforms/Histogram_matching.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -424,7 +424,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/Advanced_encryption_standard.md",
+                "file": "MediaCoding/Convolutions/Convolution.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -713,7 +713,7 @@
             }
           }
         ],
-        "currentTab": 32
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -781,7 +781,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/Advanced_encryption_standard.md"
+                "file": "MediaCoding/IntensityTransforms/Histogram_matching.md"
               }
             }
           }
@@ -816,7 +816,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/Advanced_encryption_standard.md",
+                "file": "MediaCoding/IntensityTransforms/Histogram_matching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -833,7 +833,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/Advanced_encryption_standard.md",
+                "file": "MediaCoding/IntensityTransforms/Histogram_matching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -905,19 +905,23 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "07cfe815810d269f",
+  "active": "d7a159548a6ce6b2",
   "lastOpenFiles": [
+    "MediaCoding/IntensityTransforms/Gamma_transform.md",
+    "MediaCoding/IntensityTransforms/Image_negatives.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
+    "MediaCoding/Convolutions/Convolution.md",
+    "Cybersecurity/Access_control.md",
+    "Cybersecurity/Advanced_encryption_standard.md",
     "Cybersecurity/Annualised_loss_expectancy.md",
     "Cybersecurity/Cryptography.md",
     "Cybersecurity/Keys.md",
     "Cybersecurity/Symmetric_encryption.md",
     "Cybersecurity/Security_principles.md",
-    "Cybersecurity/Access_control.md",
     "Cybersecurity/PKCS7.md",
     "Cybersecurity/Vulnerability_analysis.md",
     "XX-Attachments/Images/Pasted image 20240424170031.png",
     "XX-Attachments/Images/Pasted image 20240424165559.png",
-    "Cybersecurity/Advanced_encryption_standard.md",
     "XX-Attachments/Images/Pasted image 20240424164251.png",
     "Cybersecurity/Hashing.md",
     "Cybersecurity/Asymmetric_encryption.md",
@@ -933,10 +937,6 @@
     "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
     "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
     "Algorithms/SortAlgorithms/Patience_sort.md",
-    "Algorithms/SortAlgorithms/Quick_sort.md",
-    "Algorithms/SortAlgorithms/Selection_sort.md",
-    "Algorithms/SortAlgorithms/Topological_sort.md",
-    "Algorithms/SortAlgorithms/Bubble_sort.md",
     "XX-Attachments/Images/Pasted image 20240424150500.png",
     "XX-Attachments/Images/Pasted image 20240423170256.png",
     "XX-Attachments/Images/Pasted image 20240423162848.png",
