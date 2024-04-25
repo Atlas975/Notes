@@ -333,8 +333,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Access_controls.md",
-                "mode": "source",
+                "file": "Cybersecurity/Keys.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -820,7 +820,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Access_controls.md"
+                "file": "Cybersecurity/Keys.md"
               }
             }
           }
@@ -855,7 +855,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Access_controls.md",
+                "file": "Cybersecurity/Keys.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -872,7 +872,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Access_controls.md",
+                "file": "Cybersecurity/Keys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -946,15 +946,15 @@
   },
   "active": "6d4545cd7ad48d41",
   "lastOpenFiles": [
+    "Cybersecurity/Asymmetric_encryption.md",
+    "Cybersecurity/RiskManagement/Access_controls.md",
     "XX-Attachments/Images/Pasted image 20240425160551.png",
     "Cybersecurity/RiskManagement/Security_principles.md",
     "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
     "Cybersecurity/Salt.md",
     "Cybersecurity/Symmetric_encryption.md",
     "Cybersecurity/PKCS7.md",
-    "Cybersecurity/Asymmetric_encryption.md",
     "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
-    "Cybersecurity/RiskManagement/Access_controls.md",
     "Cybersecurity/RiskManagement/Password_storage.md",
     "Cybersecurity/Keys.md",
     "XX-Attachments/Images/Pasted image 20240425154354.png",
@@ -982,7 +982,6 @@
     "XX-Attachments/Images/Pasted image 20240424150500.png",
     "XX-Attachments/Images/Pasted image 20240423170256.png",
     "XX-Attachments/Images/Pasted image 20240423162848.png",
-    "XX-Attachments/Images/Pasted image 20240423160604.png",
     "Languages&Compilation/Grammars",
     "Languages&Compilation/TuringMachines",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN",

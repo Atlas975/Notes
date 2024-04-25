@@ -47,9 +47,11 @@ ___
 ## Access control policies
 - The set of rules established by an organisation to regulate who can view or use resources in a computing environment. These are central to information security 
 - Various policies exist that offer tradeoffs based in security and practicality 
+- These often make use of the ==Bella-LaPadula== model (subject clearance compared with object's classification). Subject are also unable to write down so no unauthorised lower security writing
+- The ==Biba model== is also commonly used (can read up and write down only)
 ### Mandatory Access Control (MAC)
 - **Predefined Access Control**: access is decided by strict, fixed rules set only by the sysadmin
-- **Security Labels**: every file has a label stating the clearence level  
+- **Security Labels**: every file has a label stating the clearance level required for access 
 ### Discretionary Access Control (DAC)
 - **User-Set Permissions**: the person who makes a file can control permissions regarding it 
 - **Access Control Lists**: each file has a list saying which users can access it 
@@ -59,9 +61,6 @@ ___
 ### Attribute-Based Access Control (ABAC)
 - **Attribute-Based Rules**: evaluates attributes (user, resource, context) to determine access
 - **Dynamic and Fine-Grained**: provides dynamic and adaptable access control
-### Rule-Based Access Control (RB-RAC)
-- **Rule-Defined Restrictions**: access is controlled by automatic rules 
-- **Automated Enforcement**: Rules are automatically applied by the system
 ### Risk-Adaptive Access Control (RAdAC)
 - **Risk Evaluation**: access rights can change based on real-time risks 
 - **Context-Sensitive Adaptation**: increased security responsiveness to potential threats
