@@ -27,16 +27,16 @@ ___
 - Ensure subject is the entity it claims to be 
 - Identification info may be public (eg a username), this needs to be unique
 - An identity management system (IdM) describes the management of these identities 
-
 ### Authentication
 - Authentication is done based on private information, this comes in 3 forms:
 	- **Authentication by knowledge**: something a person knows 
 	- **Authentication by ownership**: something a person has 
 	- **Authentication by characteristic**: something a person is
-- Strong authentication uses multiple of these (eg two-factor authentication)
+- Strong authentication uses multiple of these (eg two-factor authentication
+- Single sign
 ### Authorisation
-- Access criteria based on trust and need-to-know.
-- Enforced by roles, location, and time.
+- The access given to the subject based on trust and subject's need-to-know.
+- Enforced by roles, location, and time (eg a root user can have all permissions)
 ### Accountability
 - Tracked through user, system, and application activities.
 - Tools used for audit and legal documentation.
