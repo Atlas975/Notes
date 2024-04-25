@@ -250,6 +250,19 @@
             }
           },
           {
+            "id": "8fb8b97fcd86c1fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Bias_variance_tradeoff.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4b27b1d09bfa2cb6",
             "type": "leaf",
             "state": {
@@ -752,7 +765,7 @@
             }
           }
         ],
-        "currentTab": 25
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -820,7 +833,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/Keys.md"
+                "file": "MachineLearning/Bias_variance_tradeoff.md"
               }
             }
           }
@@ -855,7 +868,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/Keys.md",
+                "file": "MachineLearning/Bias_variance_tradeoff.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -872,7 +885,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/Keys.md",
+                "file": "MachineLearning/Bias_variance_tradeoff.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -944,8 +957,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6d4545cd7ad48d41",
+  "active": "8fb8b97fcd86c1fc",
   "lastOpenFiles": [
+    "MachineLearning/0-Legacy/0-GeneralConcepts/TimeSeriesAnalysis/Bias_correction.md",
+    "Cybersecurity/Keys.md",
     "Cybersecurity/Asymmetric_encryption.md",
     "Cybersecurity/RiskManagement/Access_controls.md",
     "XX-Attachments/Images/Pasted image 20240425160551.png",
@@ -956,7 +971,6 @@
     "Cybersecurity/PKCS7.md",
     "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
     "Cybersecurity/RiskManagement/Password_storage.md",
-    "Cybersecurity/Keys.md",
     "XX-Attachments/Images/Pasted image 20240425154354.png",
     "Cybersecurity/Hashing.md",
     "Cybersecurity/Cryptography.md",
