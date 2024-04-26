@@ -30,3 +30,17 @@ ___
 ### Dynamic packet filtering 
 - An extension of stateful firewalls that can modify rules dynamically based on traffic behaviour 
 - This involves communication with the application layer to determine the ports needed
+
+
+## Internet protocol security (IPSec)
+- A suite of protocols designed to secure IP communications by encrypting and authenticating each IP packet in a communication session
+
+
+### Key Components:
+- **AH (Authentication Header)**: Provides data integrity, origin authentication, and protection against replay attacks, but does not encrypt data.
+- **ESP (Encapsulation Security Payload)**: Offers the same protections as AH but also encrypts
+- **Security Associations (SA)**: Defines the protocols and algorithms for securing data, established through the Internet Key Exchange (IKE) protocol.
+
+### Modes of Operation:
+- **Transport Mode**: Encrypts/authenticates only the data payload of IP packets; used for end-to-end communication.
+- **Tunnel Mode**: Encrypts and encapsulates the entire IP packet, used mainly in VPNs to link two networks.
