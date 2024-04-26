@@ -263,6 +263,19 @@
             }
           },
           {
+            "id": "a35b1cc220cf5152",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/RiskManagement/Access_controls.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4b27b1d09bfa2cb6",
             "type": "leaf",
             "state": {
@@ -765,7 +778,7 @@
             }
           }
         ],
-        "currentTab": 19
+        "currentTab": 20
       }
     ],
     "direction": "vertical"
@@ -833,7 +846,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/LinearRegression/Linear_regression.md"
+                "file": "Cybersecurity/RiskManagement/Access_controls.md"
               }
             }
           }
@@ -868,7 +881,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/LinearRegression/Linear_regression.md",
+                "file": "Cybersecurity/RiskManagement/Access_controls.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -885,7 +898,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/LinearRegression/Linear_regression.md",
+                "file": "Cybersecurity/RiskManagement/Access_controls.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -957,8 +970,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8fb8b97fcd86c1fc",
+  "active": "a35b1cc220cf5152",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240426150555.png",
+    "XX-Attachments/Images/Pasted image 20240426150517.png",
+    "MachineLearning/LinearRegression/Linear_regression.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/Bias_variance_tradeoff.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/TimeSeriesAnalysis/Bias_correction.md",
@@ -987,15 +1003,12 @@
     "Databases/Access_routines.md",
     "Databases/Database_keys.md",
     "Databases/Database_concurrency.md",
-    "Databases/Join_handling.md",
-    "Databases/Database_storage.md",
     "XX-Attachments/Images/Pasted image 20240424170031.png",
     "XX-Attachments/Images/Pasted image 20240424165559.png",
     "XX-Attachments/Images/Pasted image 20240424164251.png",
     "XX-Attachments/Images/Pasted image 20240424151954.png",
     "XX-Attachments/Images/Pasted image 20240424150500.png",
     "XX-Attachments/Images/Pasted image 20240423170256.png",
-    "XX-Attachments/Images/Pasted image 20240423162848.png",
     "Languages&Compilation/Grammars",
     "Languages&Compilation/TuringMachines",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN",

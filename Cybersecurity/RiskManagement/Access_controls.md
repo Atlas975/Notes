@@ -58,9 +58,13 @@ ___
 ### Role-Based Access Control (RBAC)
 - **Role-Dependent Access**: what a user can access depends on their role 
 - **Least Privilege & Separation of Duties**: enforces least privilege needed to avoid internal threats
+
+![[Pasted image 20240426150555.png|350|350]]
 ### Attribute-Based Access Control (ABAC)
 - **Attribute-Based Rules**: evaluates attributes (user, resource, context) to determine access
 - **Dynamic and Fine-Grained**: provides dynamic and adaptable access control
+
+![[Pasted image 20240426150517.png|250|250]]
 ### Risk-Adaptive Access Control (RAdAC)
 - **Risk Evaluation**: access rights can change based on real-time risks 
 - **Context-Sensitive Adaptation**: increased security responsiveness to potential threats
