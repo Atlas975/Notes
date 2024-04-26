@@ -11,6 +11,8 @@
 
 ___
 # RSA
+- An [[Asymmetric_encryption|asymmetric]] [[Cryptography|cryptography]] algorithm widely used for data transmission
+- Since this algorithm is fairly slow, this is typically used to exchange a key
 
 
 ## RSA functionality 
@@ -22,8 +24,8 @@ p = generate_large_prime()
 q = generate_large_prime()
 n = p * q
 φ = (p - 1) * (q - 1)
-e = find_coprime(φ)
-d = modular_inverse(e, φ)
+e = find_coprime(φ) # public exponent
+d = modular_inverse(e, φ) # private exponent
 public_key = (e, n)
 private_key = (d, n)
 ```
