@@ -18,7 +18,8 @@ ___
 
 ![[Pasted image 20240331193809.png|350|350]]
 
-
+$$\color{#8DB600}e \text{ goes public}\color{white}$$
+$$\color{#8DB600}d \text{ goes public}\color{white}$$
 ## Block-based ciphers
 - Encrypts block of information sequentially (eg [[Advanced_encryption_standard|AES]])
 - Stronger than stream based but slower 

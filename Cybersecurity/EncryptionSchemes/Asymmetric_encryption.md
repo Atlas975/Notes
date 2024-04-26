@@ -17,3 +17,7 @@ ___
 
 
 ![[Pasted image 20240423151949.png|450|450]]
+
+
+$$\color{#8DB600}e \text{ goes public}\color{white}$$
+$$\color{#FF033E}d \text{ kept as a secret}\color{white}$$
