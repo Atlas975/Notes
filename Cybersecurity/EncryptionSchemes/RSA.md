@@ -38,3 +38,7 @@ $$C=M^{e}\mod n $$
 - To decrypt the ciphertext $C$ using the private key, compute the original message $M$:
 
 $$M=C^d\mod n$$
+
+### Serialisation 
+- The process of converting RSA keys into a format that's easy to store and send. This makes keys safe, manageable and functional across diverse environments. **PEM** format is usually used
+- When the keys need to be used they must be unserialised using the header information
