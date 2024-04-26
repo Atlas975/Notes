@@ -1,3 +1,7 @@
+---
+aliases:
+  - cryptographic
+---
 > [!important]- Metadata
 > **Tags:** #Cybersecurity 
 > **Located:** Cybersecurity
