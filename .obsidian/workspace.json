@@ -302,6 +302,19 @@
             }
           },
           {
+            "id": "73ed968eed5d5a3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Protocol_stack.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "89f138c7cb95beed",
             "type": "leaf",
             "state": {
@@ -856,7 +869,7 @@
             }
           }
         ],
-        "currentTab": 22
+        "currentTab": 23
       }
     ],
     "direction": "vertical"
@@ -924,7 +937,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md"
+                "file": "Networking/Protocol_stack.md"
               }
             }
           }
@@ -959,7 +972,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
+                "file": "Networking/Protocol_stack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -976,7 +989,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
+                "file": "Networking/Protocol_stack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1048,11 +1061,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "bbb622ef2926e27a",
+  "active": "73ed968eed5d5a3a",
   "lastOpenFiles": [
+    "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
     "Cybersecurity/EncryptionSchemes/RSA.md",
     "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
-    "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
     "Cybersecurity/Cryptography.md",
     "XX-Attachments/Images/Pasted image 20240426173621.png",
     "XX-Attachments/Images/Pasted image 20240426172457.png",
