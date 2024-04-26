@@ -268,6 +268,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "OperatingSystems/Linux_permissions.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a75df9f05abf54f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Cybersecurity/RiskManagement/Access_controls.md",
                 "mode": "preview",
                 "backlinks": false,
@@ -778,7 +791,7 @@
             }
           }
         ],
-        "currentTab": 20
+        "currentTab": 21
       }
     ],
     "direction": "vertical"
@@ -854,7 +867,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -970,8 +984,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a35b1cc220cf5152",
+  "active": "a75df9f05abf54f9",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240426160116.png",
+    "XX-Attachments/Images/Pasted image 20240426155632.png",
+    "OperatingSystems/Linux_permissions.md",
+    "Cybersecurity/RiskManagement/Access_controls.md",
     "XX-Attachments/Images/Pasted image 20240426150555.png",
     "XX-Attachments/Images/Pasted image 20240426150517.png",
     "MachineLearning/LinearRegression/Linear_regression.md",
@@ -980,7 +998,6 @@
     "MachineLearning/0-Legacy/0-GeneralConcepts/TimeSeriesAnalysis/Bias_correction.md",
     "Cybersecurity/Keys.md",
     "Cybersecurity/Asymmetric_encryption.md",
-    "Cybersecurity/RiskManagement/Access_controls.md",
     "XX-Attachments/Images/Pasted image 20240425160551.png",
     "Cybersecurity/RiskManagement/Security_principles.md",
     "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
@@ -1002,13 +1019,10 @@
     "Databases/Database_systems.md",
     "Databases/Access_routines.md",
     "Databases/Database_keys.md",
-    "Databases/Database_concurrency.md",
     "XX-Attachments/Images/Pasted image 20240424170031.png",
     "XX-Attachments/Images/Pasted image 20240424165559.png",
     "XX-Attachments/Images/Pasted image 20240424164251.png",
     "XX-Attachments/Images/Pasted image 20240424151954.png",
-    "XX-Attachments/Images/Pasted image 20240424150500.png",
-    "XX-Attachments/Images/Pasted image 20240423170256.png",
     "Languages&Compilation/Grammars",
     "Languages&Compilation/TuringMachines",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN",

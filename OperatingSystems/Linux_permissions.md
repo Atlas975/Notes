@@ -23,8 +23,8 @@ ___
 - Allows for grouped permission assignment
 ## Other / World (o)
 - Users that don't fall in either category
-# Permission assignment
-- Permissions for file or directory can be managed by the **chmod** command, this follows the format:
+## Permission assignment
+- Permissions can be managed by the **chmod** command, this follows the format:
 
 ```bash
 chmod permissions filename

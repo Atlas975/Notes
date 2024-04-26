@@ -54,12 +54,15 @@ ___
 - **Security Labels**: every file has a label stating the clearance level required for access 
 ### Discretionary Access Control (DAC)
 - **User-Set Permissions**: the person who makes a file can control permissions regarding it 
-- **Access Control Lists**: each file has a list saying which users can access it 
-### Role-Based Access Control (RBAC)
-- **Role-Dependent Access**: what a user can access depends on their role 
-- **Least Privilege & Separation of Duties**: enforces least privilege needed to avoid internal threats
+- **Access Control tuple**: access rules are defined as [[Linux_permissions|tuples]] (object, source, access)
 
-![[Pasted image 20240426150555.png|350|350]]
+![[Pasted image 20240426155632.png|400|400]]
+### Role-Based Access Control (RBAC)
+- **Role-Dependent Access**: what a user can access depends on their role, useful with high turnover
+- **Least Privilege & Separation of Duties**: enforces both of these principles 
+
+
+![[Pasted image 20240426160116.png|300|300]]
 ### Attribute-Based Access Control (ABAC)
 - **Attribute-Based Rules**: evaluates attributes (user, resource, context) to determine access
 - **Dynamic and Fine-Grained**: provides dynamic and adaptable access control
