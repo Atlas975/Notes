@@ -24,9 +24,9 @@ ___
 - Can track the state of active connections and filter based on packets that go through an already established connection that's more likely to be safe
 
 ### Proxy firewalls
+- Act as an intermediary for requests from clients seeking resources from other servers, inspecting incoming traffic at the application level
+- This can significantly degrade traffic performance 
 
-
-
-
-- **Proxy Firewalls**: These act as an intermediary for requests from clients seeking resources from other servers, inspecting incoming traffic at the application level.
-- **Dynamic Packet Filtering**: An extension of stateful firewalls that can modify firewall rules dynamically based on traffic behavior 
+### Dynamic packet filtering 
+- An extension of stateful firewalls that can modify rules dynamically based on traffic behaviour 
+- This involves communication with the application layer to determine the ports needed

@@ -125,6 +125,19 @@
             }
           },
           {
+            "id": "fa17ab2c588fe698",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/Network_security.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "712241335e741145",
             "type": "leaf",
             "state": {
@@ -320,7 +333,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/Network_security.md",
+                "file": "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -908,7 +921,7 @@
             }
           }
         ],
-        "currentTab": 24
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -1100,10 +1113,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "100cf9fc17a3b1bc",
+  "active": "fa17ab2c588fe698",
   "lastOpenFiles": [
-    "SoftwarePatterns/Structural/Proxy_pattern.md",
+    "Cybersecurity/RiskManagement/Security_principles.md",
+    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
+    "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
+    "Cybersecurity/RiskManagement/Access_controls.md",
     "Cybersecurity/Network_security.md",
+    "SoftwarePatterns/Structural/Proxy_pattern.md",
     "Networking/Network_architecture.md",
     "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
     "Networking/Protocol_stack.md",
@@ -1119,7 +1136,6 @@
     "Cybersecurity/EncryptionSchemes",
     "Cybersecurity/Keys.md",
     "Cybersecurity/PKCS7.md",
-    "Cybersecurity/RiskManagement/Access_controls.md",
     "XX-Attachments/Images/Pasted image 20240426160116.png",
     "XX-Attachments/Images/Pasted image 20240426155632.png",
     "OperatingSystems/Linux_permissions.md",
@@ -1130,9 +1146,6 @@
     "MachineLearning/Bias_variance_tradeoff.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/TimeSeriesAnalysis/Bias_correction.md",
     "XX-Attachments/Images/Pasted image 20240425160551.png",
-    "Cybersecurity/RiskManagement/Security_principles.md",
-    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
-    "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
     "Cybersecurity/RiskManagement/Password_storage.md",
     "XX-Attachments/Images/Pasted image 20240425154354.png",
     "Cybersecurity/RiskManagement/Quantitative_privacy.md",
