@@ -12,7 +12,7 @@
 ___
 # RSA
 - An [[Asymmetric_encryption|asymmetric]] [[Cryptography|cryptography]] algorithm widely used for data transmission
-- Since this algorithm is fairly slow, this is typically used to exchange a key
+- Plaintext is encrypted in blocks, with each block having a binary value less than $n$
 
 
 ## RSA functionality 
@@ -23,9 +23,9 @@ ___
 p = generate_large_prime()
 q = generate_large_prime()
 n = p * q
-φ = (p - 1) * (q - 1)
-e = find_coprime(φ) # public exponent
-d = modular_inverse(e, φ) # private exponent
+phi = (p - 1) * (q - 1)
+e = find_coprime(phi) # public exponent
+d = modular_inverse(e, phi) # private exponent
 public_key = (e, n)
 private_key = (d, n)
 ```

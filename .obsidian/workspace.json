@@ -320,8 +320,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
+                "file": "Cybersecurity/EncryptionSchemes/RSA.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "765633c61485510b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -843,7 +856,7 @@
             }
           }
         ],
-        "currentTab": 24
+        "currentTab": 22
       }
     ],
     "direction": "vertical"
@@ -911,7 +924,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md"
+                "file": "Cybersecurity/EncryptionSchemes/RSA.md"
               }
             }
           }
@@ -946,7 +959,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
+                "file": "Cybersecurity/EncryptionSchemes/RSA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -963,7 +976,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
+                "file": "Cybersecurity/EncryptionSchemes/RSA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1035,14 +1048,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4ed67350d4ca9d1a",
+  "active": "bbb622ef2926e27a",
   "lastOpenFiles": [
-    "Cybersecurity/Cryptography.md",
+    "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
+    "Cybersecurity/EncryptionSchemes/RSA.md",
     "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
+    "Cybersecurity/Cryptography.md",
     "XX-Attachments/Images/Pasted image 20240426173621.png",
     "XX-Attachments/Images/Pasted image 20240426172457.png",
-    "Cybersecurity/EncryptionSchemes/RSA.md",
-    "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
     "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
     "Cybersecurity/Hashing.md",
     "Cybersecurity/Salt.md",
