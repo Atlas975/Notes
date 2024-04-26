@@ -13,11 +13,20 @@ ___
 # Network security
 - A critical aspect of IT that involves the policies, practices, and tools designed to protect computer [[Network_architecture|networks]] and data from unauthorised access
 - The technologies used to handle this can operate on various parts of the [[Protocol_stack|protocol stack]]
+## Firewalls
+- Monitor and control incoming \/ outgoing network traffic based on predetermined security rules
+- Essentially act as a barrier between a trusted internal network and untrusted external network
+### Packet filtering
+- Operates at the network layer, filters based on information from the packet header 
+- Cannot prevent attacks using the layers above and is complex to configure
+### Stateful inspection
+-  Operates at the transport and network layer, more advanced than packet filtering as 
+- Can track the state of active connections and filter based on packets that go through an already established connection that's more likely to be safe
+
+### Proxy firewalls
 
 
-## Firewall Technologies:
 
-- **Packet Filtering**: This is a basic form of firewall technology that blocks or allows traffic based on pre-set rules in the network layer.
-- **Stateful Inspection**: More advanced than packet filtering, it monitors the state of active connections and can block or allow traffic based on the state of the connection.
+
 - **Proxy Firewalls**: These act as an intermediary for requests from clients seeking resources from other servers, inspecting incoming traffic at the application level.
 - **Dynamic Packet Filtering**: An extension of stateful firewalls that can modify firewall rules dynamically based on traffic behavior 

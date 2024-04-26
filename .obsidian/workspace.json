@@ -307,7 +307,33 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Networking/Network_architecture.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "100cf9fc17a3b1bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Cybersecurity/Network_security.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "12f8437aa74f7eb3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoftwarePatterns/Structural/Proxy_pattern.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -882,7 +908,7 @@
             }
           }
         ],
-        "currentTab": 23
+        "currentTab": 24
       }
     ],
     "direction": "vertical"
@@ -1074,10 +1100,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d53a2220a24639e5",
+  "active": "100cf9fc17a3b1bc",
   "lastOpenFiles": [
-    "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
+    "SoftwarePatterns/Structural/Proxy_pattern.md",
     "Cybersecurity/Network_security.md",
+    "Networking/Network_architecture.md",
+    "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
     "Networking/Protocol_stack.md",
     "Cybersecurity/EncryptionSchemes/RSA.md",
     "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
@@ -1111,8 +1139,6 @@
     "XX-Attachments/Images/Pasted image 20240425151529.png",
     "Cybersecurity/RiskManagement",
     "Databases/Query_optimisation.md",
-    "Databases/Relational_algebra.md",
-    "Databases/Database_transactions.md",
     "XX-Attachments/Images/Pasted image 20240424170031.png",
     "Languages&Compilation/Grammars",
     "Languages&Compilation/TuringMachines",
