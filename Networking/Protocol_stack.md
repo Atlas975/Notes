@@ -83,10 +83,10 @@ ___
 - Defines the protocols and services used by applications to communicate over the network.
 - File transfer, email and [[Domain_name_server|DNS]] all fall here
 ## Transport layer
-- Handles data delivery between applications 
+- Handles end-to-end data delivery between applications 
 - Lowest layer in which communication instead of packets are used. Eg. flow control, allowing devices to request lower or higher data transmission rates based on capabilities 
 ## Network layer
-- Handles logical addressing using IP addresses, scheduling and delivering packets end-to-end
+- Inserts information into a packets header to be properly addressed and routed
 - Least amount of flexibility, ties the whole protocol stack together 
 - Transfers data packets, in a WAN this involves creating a route as well. 
 ## Data link layer

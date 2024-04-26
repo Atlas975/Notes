@@ -302,6 +302,19 @@
             }
           },
           {
+            "id": "d53a2220a24639e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/Network_security.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "73ed968eed5d5a3a",
             "type": "leaf",
             "state": {
@@ -937,7 +950,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Protocol_stack.md"
+                "file": "Cybersecurity/Network_security.md"
               }
             }
           }
@@ -972,7 +985,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Protocol_stack.md",
+                "file": "Cybersecurity/Network_security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -989,7 +1002,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Protocol_stack.md",
+                "file": "Cybersecurity/Network_security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1061,9 +1074,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "73ed968eed5d5a3a",
+  "active": "d53a2220a24639e5",
   "lastOpenFiles": [
     "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
+    "Cybersecurity/Network_security.md",
+    "Networking/Protocol_stack.md",
     "Cybersecurity/EncryptionSchemes/RSA.md",
     "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
     "Cybersecurity/Cryptography.md",
@@ -1098,7 +1113,6 @@
     "Databases/Query_optimisation.md",
     "Databases/Relational_algebra.md",
     "Databases/Database_transactions.md",
-    "Databases/Database_systems.md",
     "XX-Attachments/Images/Pasted image 20240424170031.png",
     "Languages&Compilation/Grammars",
     "Languages&Compilation/TuringMachines",
