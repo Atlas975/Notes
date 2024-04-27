@@ -16,7 +16,7 @@ aliases:
 
 ___
 # Annualised loss expectancy
-- A risk management concept, often used in cybersecurity and business continuity planning. 
+- A [[Risk_management|risk management]] concept, often used in cybersecurity and business continuity planning. 
 - It helps in understanding and quantifying the potential losses from risks, aiding in making informed decisions about investing in security measures
 ## Annualised loss expectancy formula 
 $$ALE = ARO \cdot ALE$$

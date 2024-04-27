@@ -13,10 +13,11 @@ ___
 # Logistic regression
 
 ## Logistic loss
-$$Cost=-\frac{1}{m} \sum_{i=1}^{m} y \log{(\hat{y})} + {(1-y)}\log{(1-\hat{y})}$$
+$$Cost=-\frac{1}{m} \suwm_{i=1}^{m} y \log{(\hat{y})} + {(1-y)}\log{(1-\hat{y})}$$
 > 
 ## Regularized logistic loss 
 
 $$\text{Regularized Cost}=-\frac{1}{m} \sum_{i=1}^{m} y \log{(\hat{y})} + {(1-y)}\log{(1-\hat{y})\color{cyan}+ \frac{\lambda} {2m}\sum_{i=1}^{n}\theta^2}$$
 > 
 
+w

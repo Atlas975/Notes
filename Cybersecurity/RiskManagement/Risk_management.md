@@ -12,9 +12,10 @@
 ___
 # Risk management
 - The process of identifying, analysing, and either accepting or mitigating risks.
-- A risk is the potential for loss, damage, or any other negative occurrence that is caused by a vulnerability. Risk management aims to avoid this through preemptive ac
+- A risk is the potential for loss, damage, or any other negative occurrence that is caused by a vulnerability. Risk management aims to avoid this through preemptive action
 - Focused on maintaining confidentiality, integrity, availability and non-repudiation
 
+![[Pasted image 20240427213318.png|350|350]]
 ## Risk management components
 - **Risk treatment**: methods used to manage risks (reduction, transfer, avoidance, or acceptance)
 - **Risk Assessment**: Process of identification, analysis, and evaluation of risks.
@@ -23,13 +24,17 @@ ___
 - **Security Controls**: Measures implemented to mitigate risks.
 - **Incident Management**: Processes for responding to security incidents.
 
-## Threats
-- Possible events or actions that can cause harm by exploiting vulnerabilities
-- Consists of two main components:
-	- **Threats**: The possibility of damaging actions against socio-technical systems.
-	- **Attacks**: Actions carried out by threat agents by exploiting vulnerabilities 
+![[Pasted image 20240427213531.png|450|450]]
+### Sources of risk uncertainty
+- Who the attacker is 
+- What the attacker's goal is 
+- What's the likelihood their attack succeeds
+- What is the impact if they succeed
 
-## Vulnerabilities 
+### CISP risk analysis 
+
+![[Pasted image 20240427213632.png|350|350]]
+
 ## Risk assessment types
-- **Qualitative Assessment**: Evaluates risks based on scenarios, ranking the seriousness of threats and the validity of countermeasures using judgment and experience.
-- **Quantitative Assessment**: Attempts to assign numerical values or percentages to components like safeguard costs, asset value, and threat frequency
+- **Qualitative Assessment**: the ranking of threat seriousness based on judgement / experience
+- **Quantitative Assessment**: assigns numerical values or percentages to components like safeguard costs, asset value, and threat frequency
