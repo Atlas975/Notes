@@ -973,7 +973,7 @@
             }
           }
         ],
-        "currentTab": 72
+        "currentTab": 71
       }
     ],
     "direction": "vertical"
@@ -1041,7 +1041,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Checksum.md"
+                "file": "Cybersecurity/Network_security.md"
               }
             }
           }
@@ -1077,7 +1077,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Checksum.md",
+                "file": "Cybersecurity/Network_security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1094,7 +1094,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Checksum.md",
+                "file": "Cybersecurity/Network_security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1166,8 +1166,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d84d0f37e26640d1",
+  "active": "76ef57bfe800af26",
   "lastOpenFiles": [
+    "Networking/Checksum.md",
     "Cybersecurity/Network_security.md",
     "XX-Attachments/Images/Pasted image 20240427144347.png",
     "XX-Attachments/Images/Pasted image 20240427144120.png",

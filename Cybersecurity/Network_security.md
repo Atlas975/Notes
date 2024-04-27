@@ -36,20 +36,20 @@ ___
 
 ### Authentication header (AH)
 - Provides data integrity, origin authentication, and protection against replay attacks
-- These traits ensure data has not been tampered with in transit 
+- These traits ensure data has not been tampered with in transit (using [[Checksum]])
 - Does not encrypt the data payload so no guarantee of data confidentiality 
 
 ![[Pasted image 20240427144120.png|400|400]]
 
 
-
-### Key Components
-
-- **AH (Authentication Header)**: Provides data integrity, origin authentication, and protection against replay attacks, but does not encrypt data so not data confidentiality 
-
-- **ESP (Encapsulation Security Payload)**: Offers the same protections as AH but also encrypts
+### Encapsulation Security Payload (ESP)
+- Provides all the services of AH but also encrypts adding data confidentiality 
+- This ensures that payload cannot be read by unauthorised parties 
+- The IP header is not protected as this needs to be read in transit 
 
 ![[Pasted image 20240427144347.png|400|400]]
+
+
 - **Security Associations (SA)**: Defines the protocols and algorithms for securing data, established through the Internet Key Exchange (IKE) protocol.
 
 ### Modes of Operation
