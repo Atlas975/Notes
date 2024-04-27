@@ -934,6 +934,19 @@
             }
           },
           {
+            "id": "32144840c7364d95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/Operating_system_security.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d84d0f37e26640d1",
             "type": "leaf",
             "state": {
@@ -973,7 +986,7 @@
             }
           }
         ],
-        "currentTab": 71
+        "currentTab": 72
       }
     ],
     "direction": "vertical"
@@ -1041,7 +1054,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/Network_security.md"
+                "file": "Cybersecurity/Operating_system_security.md"
               }
             }
           }
@@ -1077,7 +1090,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/Network_security.md",
+                "file": "Cybersecurity/Operating_system_security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1094,7 +1107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/Network_security.md",
+                "file": "Cybersecurity/Operating_system_security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1166,12 +1179,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "76ef57bfe800af26",
+  "active": "32144840c7364d95",
   "lastOpenFiles": [
+    "Cybersecurity/Network_security.md",
+    "Cybersecurity/Operating_system_security.md",
     "XX-Attachments/Images/Pasted image 20240427154217.png",
     "XX-Attachments/Images/Pasted image 20240427154140.png",
     "Networking/Checksum.md",
-    "Cybersecurity/Network_security.md",
     "XX-Attachments/Images/Pasted image 20240427144347.png",
     "XX-Attachments/Images/Pasted image 20240427144120.png",
     "Databases/Access_routines.md",
@@ -1204,7 +1218,6 @@
     "XX-Attachments/Images/Pasted image 20240426155632.png",
     "XX-Attachments/Images/Pasted image 20240426150555.png",
     "XX-Attachments/Images/Pasted image 20240426150517.png",
-    "XX-Attachments/Images/Pasted image 20240425160551.png",
     "Cybersecurity/RiskManagement",
     "Languages&Compilation/Grammars",
     "Languages&Compilation/TuringMachines",

@@ -62,3 +62,6 @@ ___
 - This improves anonymity over the internet using [[Transmission_control_protocol|TCP]] over TLS. This often makes use of the onion routing protocol where only the next router knows the key of the previous router 
 
 ![[Pasted image 20240427154217.png|300|300]]
+
+- This method is vulnerable to multiple attacks such as DNS leaks and traffic analysis 
+- Traffic from the exit node to the target is also not encrypted, leading to potential risk
