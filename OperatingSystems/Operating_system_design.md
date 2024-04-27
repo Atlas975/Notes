@@ -18,6 +18,7 @@ aliases: [OS]
 
 ___
 # Operating system design
+- A software layer that simplifies the computer model for programs and manages system resources
 - An OS does the following:
 	- Manages hardware and system resources 
 	- Offers a secure environment for applications and multiple users

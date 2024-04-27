@@ -939,8 +939,21 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "OperatingSystems/Operating_system_design.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0fa0004468fbdffa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Cybersecurity/Operating_system_security.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -986,7 +999,7 @@
             }
           }
         ],
-        "currentTab": 72
+        "currentTab": 73
       }
     ],
     "direction": "vertical"
@@ -1179,10 +1192,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "32144840c7364d95",
+  "active": "0fa0004468fbdffa",
   "lastOpenFiles": [
-    "Cybersecurity/Network_security.md",
+    "XX-Attachments/Images/Pasted image 20240427165716.png",
+    "OperatingSystems/Operating_system_design.md",
     "Cybersecurity/Operating_system_security.md",
+    "Cybersecurity/Network_security.md",
     "XX-Attachments/Images/Pasted image 20240427154217.png",
     "XX-Attachments/Images/Pasted image 20240427154140.png",
     "Networking/Checksum.md",
@@ -1209,8 +1224,6 @@
     "Cybersecurity/Keys.md",
     "Cybersecurity/RiskManagement/Access_controls.md",
     "SoftwarePatterns/Structural/Proxy_pattern.md",
-    "Networking/Network_architecture.md",
-    "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
     "XX-Attachments/Images/Pasted image 20240426173621.png",
     "XX-Attachments/Images/Pasted image 20240426172457.png",
     "Cybersecurity/EncryptionSchemes",
