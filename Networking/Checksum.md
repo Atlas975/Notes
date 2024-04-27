@@ -21,7 +21,7 @@ ___
 
 ![[Pasted image 20230215110458.png|450|450]]
 
-- Checksum-8/16/32/64 are simple algorithms that create fixed-length checksum values of that szie
+- Checksum-8/16/32/64 are simple algorithms that create fixed-length checksum values
 - These are fast and easy to implement but less reliable than CRC or cryptographic hash functions.
 - Error detection not 100% reliable, no correction methods present either 
 
