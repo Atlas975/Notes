@@ -921,6 +921,19 @@
             }
           },
           {
+            "id": "76ef57bfe800af26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/Network_security.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6c63c957fc84f229",
             "type": "leaf",
             "state": {
@@ -947,7 +960,7 @@
             }
           }
         ],
-        "currentTab": 70
+        "currentTab": 71
       }
     ],
     "direction": "vertical"
@@ -1015,7 +1028,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Access_routines.md"
+                "file": "Cybersecurity/Network_security.md"
               }
             }
           }
@@ -1023,7 +1036,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -1050,7 +1064,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Access_routines.md",
+                "file": "Cybersecurity/Network_security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1067,7 +1081,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Access_routines.md",
+                "file": "Cybersecurity/Network_security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1139,8 +1153,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9694363a64f80b90",
+  "active": "76ef57bfe800af26",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240427144120.png",
+    "Databases/Access_routines.md",
     "Languages&Compilation/Grammars/Context_free_grammars.md",
     "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
     "Languages&Compilation/Grammars/Formal_languages.md",
@@ -1165,8 +1181,6 @@
     "Networking/Network_architecture.md",
     "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
     "Networking/Protocol_stack.md",
-    "Cybersecurity/EncryptionSchemes/RSA.md",
-    "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
     "XX-Attachments/Images/Pasted image 20240426173621.png",
     "XX-Attachments/Images/Pasted image 20240426172457.png",
     "Cybersecurity/EncryptionSchemes",
