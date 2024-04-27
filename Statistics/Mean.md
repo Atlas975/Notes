@@ -16,7 +16,12 @@ ___
 
 $$\frac{\sum x}{n}$$
 
-### 
+### Arithmetic variance 
+- A statistical measure that represents the spread of numbers in a data set. It shows how far each number in the set is from the mean (the spread of the distribution)
+
+
+$$\sigma^2=\frac{\sum(x-\mu)^2}{n}$$
+
 ## Geometric mean 
 - Use to find growth rates, eg calculating average ROI over time or population growth rates.
 

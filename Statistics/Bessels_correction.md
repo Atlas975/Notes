@@ -17,9 +17,9 @@ ___
 
 ## Bessel corrected variance 
 
-$$s^2=\frac{\sum_{i=1}^{n}(x_{i}-\overline{x})^2}{n-1}$$
+$$\sigma^2=\frac{\sum_{i=1}^{n}(x_{i}-\overline{x})^2}{n-1}$$
 ## Bessel corrected standard deviation
-$$s=\sqrt{\frac{\sum_{i=1}^{n}(x_{i}-\overline{x})^2}{n-1}}$$
+$$\sigma=\sqrt{\frac{\sum_{i=1}^{n}(x_{i}-\overline{x})^2}{n-1}}$$
 
 
 
