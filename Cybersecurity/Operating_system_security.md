@@ -30,3 +30,4 @@ ___
 ### Trusted platform module
 - A hardware implemented cryptoprocessor, this can perform cryptographic operations in main memory and use secondary memory for key storage 
 - Due to being hardware implemented, this is both fast and secure
+
