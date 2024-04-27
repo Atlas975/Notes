@@ -12,19 +12,23 @@
 ___
 # Risk management
 - The process of identifying, analysing, and either accepting or mitigating risks.
-
+- Focused on maintaining confidentiality, integrity, availability and non-repudation
 
 ## Risk management components
 - **Risk treatment**: methods used to manage risks (reduction, transfer, avoidance, or acceptance)
 - **Risk Assessment**: Process of identification, analysis, and evaluation of risks.
-    - **Risk Analysis**: Understanding the nature and impact of risks.
+	- **Risk Analysis**: Understanding the nature and impact of risks.
+- **Residual Risk**: The risk that remains after all efforts to identify and eliminate risk.
+- **Security Controls**: Measures implemented to mitigate risks.
+- **Incident Management**: Processes for responding to security incidents.
 
 ## Threats
 - Possible events or actions that can cause harm by exploiting vulnerabilities
 - Consists of two main components:
-    - **Threat Agents**: Entities that can pose a security risk by exploiting a vulnerability.
-    - **Attacks**: The actual exploitation of vulnerabilities by threats to cause harm
+	- **Threats**: The possibility of damaging actions against socio-technical systems.
+	- **Attacks**: Actions carried out by threat agents by exploiting vulnerabilities 
 
-## Risk assessment types 
-- **Qualitative assessment**: Involves scenarios of risk possibilities and relies on judgment, best practices, intuition, and experience.
-- **Quantitative assessment**: Attempts to assign numerical values to risks to estimate factors such as cost, asset value, business impact, threat frequency, and effectiveness of safeguards.
+## Vulnerabilities 
+## Risk assessment types
+- **Qualitative Assessment**: Evaluates risks based on scenarios, ranking the seriousness of threats and the validity of countermeasures using judgment and experience.
+- **Quantitative Assessment**: Attempts to assign numerical values or percentages to components like safeguard costs, asset value, and threat frequency
