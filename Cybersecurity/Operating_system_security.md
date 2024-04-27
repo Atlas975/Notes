@@ -25,9 +25,19 @@ ___
 - Data confidentiality can be handled via [[Cryptography|cryptographic]] methods such as [[Symmetric_encryption|symmetric]] \/ [[Asymmetric_encryption|asymmetric]]  cryptography and [[Hashing|hash functions]] 
 - The main risk regarding this is the potential for keys to be compromised (secrets hard to protect)
 
-
 ![[Pasted image 20240427171524.png|400|400]]
 ### Trusted platform module
 - A hardware implemented cryptoprocessor, this can perform cryptographic operations in main memory and use secondary memory for key storage 
 - Due to being hardware implemented, this is both fast and secure
 
+## OS access control
+- Permissions in an OS are controlled via an [[Linux_permissions|access matrix]]
+- [[Security_models|Multilevel security]] models are also useful for handling this 
+
+## Persistent security concerns
+- **Confinement problem**: prevents processes from transmitting data outside its intended scope
+- **Covert Channels**: unintended paths of communication that may be exploited
+
+## Technical attacks
+- **Memory leaks**: when memory allocated to a process is not freed,  processes that do this can be exploited leading to a DDOS attack via memory starvation
+- **Buffer overflow**: 
