@@ -11,10 +11,10 @@
 
 ___
 # Event independence
-- A concept in conditional probability that indicates weather or not the occurrence of an event impacts another event.
-- Two events being independent of each other can be checked with the following formula 
+- A conditional probability concept, indicates if the occurrence of an event impacts another event.
+- For instance if event A has occurred,
 
 ## Event independence formula 
 $$\mathbb{P}(A\cap B)==\mathbb{P}(A)\cdot \mathbb{P}(B)$$
 - If this condition holds events A and B are independent 
-- If this is not the case it means the probability of event B has influence over event A and vise versa, this also means $\mathbb{P}(A|B)\neq \mathbb{P}(A)$ and $\mathbb{P}(B|A)\neq \mathbb{P}(B)$
+- If this is not the case it means the probability of event B has influence over event A and vice versa, this also means $\mathbb{P}(A|B)\neq \mathbb{P}(A)$ and $\mathbb{P}(B|A)\neq \mathbb{P}(B)$

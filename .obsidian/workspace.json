@@ -91,7 +91,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Sample_space.md",
+                "file": "Statistics/Random_variables.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "122e3df99706e597",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Event_independence.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -99,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -167,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Sample_space.md"
+                "file": "Statistics/Event_independence.md"
               }
             }
           }
@@ -202,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Sample_space.md",
+                "file": "Statistics/Event_independence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Sample_space.md",
+                "file": "Statistics/Event_independence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,19 +304,19 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6628d58575f1910c",
+  "active": "122e3df99706e597",
   "lastOpenFiles": [
-    "Statistics/Mean.md",
-    "Statistics/Sample_space.md",
-    "Statistics/Bessels_correction.md",
-    "Statistics/Gaussian_distribution.md",
-    "Statistics/PERT_distribution.md",
     "Statistics/Random_variables.md",
+    "Statistics/PERT_distribution.md",
+    "Statistics/Gaussian_distribution.md",
+    "Statistics/Entropy.md",
+    "Statistics/Sample_space.md",
+    "Statistics/Mean.md",
+    "Statistics/Bessels_correction.md",
     "Statistics/Sampling_methods.md",
     "Statistics/Poisson_distribution.md",
     "Statistics/Event_independence.md",
     "Statistics/Triangular_distribution.md",
-    "Statistics/Entropy.md",
     "Statistics/Bayes_theorem.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/Probability_basics.md",
     "XX-Attachments/Images/Pasted image 20240427214821.png",
