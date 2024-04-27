@@ -888,7 +888,20 @@
               "type": "markdown",
               "state": {
                 "file": "Networking/Internet_protocol.md",
-                "mode": "source",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a3ad7104efca5780",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -921,7 +934,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 69
       }
     ],
     "direction": "vertical"
@@ -989,7 +1002,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/Salt.md"
+                "file": "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md"
               }
             }
           }
@@ -1024,7 +1037,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/Salt.md",
+                "file": "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1041,7 +1054,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/Salt.md",
+                "file": "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1113,30 +1126,31 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fa17ab2c588fe698",
+  "active": "a3ad7104efca5780",
   "lastOpenFiles": [
-    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
-    "Cybersecurity/RiskManagement/Security_principles.md",
     "Cybersecurity/RiskManagement/Quantitative_privacy.md",
+    "Cybersecurity/RiskManagement/Security_principles.md",
+    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
+    "Cybersecurity/Cryptography.md",
+    "Cybersecurity/Hashing.md",
+    "Cybersecurity/Salt.md",
+    "Cybersecurity/PKCS7.md",
+    "Cybersecurity/Network_security.md",
+    "Networking/Internet_protocol.md",
+    "Cybersecurity/Keys.md",
     "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
     "Cybersecurity/RiskManagement/Access_controls.md",
-    "Cybersecurity/Network_security.md",
     "SoftwarePatterns/Structural/Proxy_pattern.md",
     "Networking/Network_architecture.md",
     "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
     "Networking/Protocol_stack.md",
     "Cybersecurity/EncryptionSchemes/RSA.md",
     "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
-    "Cybersecurity/Cryptography.md",
     "XX-Attachments/Images/Pasted image 20240426173621.png",
     "XX-Attachments/Images/Pasted image 20240426172457.png",
     "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
-    "Cybersecurity/Hashing.md",
-    "Cybersecurity/Salt.md",
     "Cybersecurity/EncryptionSchemes/Advanced_encryption_standard.md",
     "Cybersecurity/EncryptionSchemes",
-    "Cybersecurity/Keys.md",
-    "Cybersecurity/PKCS7.md",
     "XX-Attachments/Images/Pasted image 20240426160116.png",
     "XX-Attachments/Images/Pasted image 20240426155632.png",
     "OperatingSystems/Linux_permissions.md",
@@ -1151,7 +1165,6 @@
     "XX-Attachments/Images/Pasted image 20240425154354.png",
     "XX-Attachments/Images/Pasted image 20240425151529.png",
     "Cybersecurity/RiskManagement",
-    "Databases/Query_optimisation.md",
     "XX-Attachments/Images/Pasted image 20240424170031.png",
     "Languages&Compilation/Grammars",
     "Languages&Compilation/TuringMachines",
