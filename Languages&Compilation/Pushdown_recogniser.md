@@ -23,22 +23,12 @@ ___
 - The following format can be used to check what is pushed on the arc of the recogniser:
 
 ![[Pasted image 20240212154110.png|350|350]]
+
+- The $\epsilon$ symbol can be used to ignore the read operation / not move pointer eg $\epsilon$/b/c
 - Example of transition with this format, note how its at symbol a, pops the top symbol from the stack and pushes c at the end:
 
 ![[Pasted image 20240212153924.png|400|400]]
 
-- The $\epsilon$ symbol can be used to ignore the read operation / not move pointer eg $\epsilon$/b/c
-
-## Deterministic pushdown recogniser
-- No formula exists for crafting a deterministic PDR due to the variance in strings that can be built from a non-deterministic PDR.  
-- Many context free languages are non-deterministic and cannot become a deterministic PDR
-- Example deterministic PDR for the grammar ${\{a^ib^{i}\text{ : }i\geq{1} \}}$:
-
-![[Pasted image 20240222165447.png|450|450]]
-
-- These can also include multiple edges, example where string optionally starts with 'c' characters, note how the number of 'c' does not need to be remembered on the stack
-
-![[Pasted image 20240222170153.png|450|450]]
 
 ## Constructing a pushdown recogniser
 1. Create 3 states (start state, intermediate state, halt state)
@@ -70,3 +60,15 @@ ___
 
 ![[Pasted image 20240222163545.png|350|350]]
 ![[Pasted image 20240222163602.png|350|350]]
+
+## Deterministic pushdown recogniser
+- No formula exists for crafting a deterministic PDR due to the variance in strings that can be built from a non-deterministic PDR.  
+- Many context free languages are non-deterministic and cannot become a deterministic PDR
+- Example deterministic PDR for the grammar ${\{a^ib^{i}\text{ : }i\geq{1} \}}$:
+
+![[Pasted image 20240222165447.png|450|450]]
+
+- These can also include multiple edges, example where string optionally starts with 'c' characters, note how the number of 'c' does not need to be remembered on the stack
+
+![[Pasted image 20240222170153.png|450|450]]
+

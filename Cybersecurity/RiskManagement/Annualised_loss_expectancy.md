@@ -18,15 +18,11 @@ ___
 # Annualised loss expectancy
 - A risk management concept, often used in cybersecurity and business continuity planning. 
 - It helps in understanding and quantifying the potential losses from risks, aiding in making informed decisions about investing in security measures
-
-## Annualised loss expectancy components
+## Annualised loss expectancy formula 
+$$ALE = ARO \cdot ALE$$
+$$SLE=AV \cdot EF$$
 - **Annualised Loss Expectancy (ALE):**  estimate of potential cost of a risk taken
 - **Annual Rate of Occurrence (ARO):** estimate of how often a specific threat is expected to occur 
 - **Single Loss Expectancy (SLE):** expected monetary loss every time a risk event occurs
 - **Typical Asset Value (AV):** This is the value of the asset that is at risk
 - **Exposure Factor (EF):** percentage of the asset value likely to be lost when a risk event occurs 
-
-
-## Annualised loss expectancy formula 
-$$ALE = ARO \cdot ALE$$
-$$SLE=AV \cdot EF$$

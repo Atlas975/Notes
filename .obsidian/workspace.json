@@ -900,7 +900,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
+                "file": "Cybersecurity/Hashing.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9694363a64f80b90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Pushdown_recogniser.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -934,7 +947,7 @@
             }
           }
         ],
-        "currentTab": 69
+        "currentTab": 70
       }
     ],
     "direction": "vertical"
@@ -1002,7 +1015,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md"
+                "file": "Languages&Compilation/Pushdown_recogniser.md"
               }
             }
           }
@@ -1037,7 +1050,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
+                "file": "Languages&Compilation/Pushdown_recogniser.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1054,7 +1067,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
+                "file": "Languages&Compilation/Pushdown_recogniser.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1126,19 +1139,19 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a3ad7104efca5780",
+  "active": "9694363a64f80b90",
   "lastOpenFiles": [
-    "Cybersecurity/RiskManagement/Quantitative_privacy.md",
-    "Cybersecurity/RiskManagement/Security_principles.md",
-    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
-    "Cybersecurity/Cryptography.md",
     "Cybersecurity/Hashing.md",
+    "Cybersecurity/Cryptography.md",
+    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
+    "Cybersecurity/RiskManagement/Security_principles.md",
+    "Cybersecurity/RiskManagement/Quantitative_privacy.md",
+    "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
     "Cybersecurity/Salt.md",
     "Cybersecurity/PKCS7.md",
     "Cybersecurity/Network_security.md",
     "Networking/Internet_protocol.md",
     "Cybersecurity/Keys.md",
-    "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
     "Cybersecurity/RiskManagement/Access_controls.md",
     "SoftwarePatterns/Structural/Proxy_pattern.md",
     "Networking/Network_architecture.md",
