@@ -41,3 +41,4 @@ ___
 ## Technical attacks
 - **Memory leaks**: when memory allocated to a process is not freed,  processes that do this can be exploited leading to a DDOS attack via memory starvation
 - **Buffer overflow**: 
+- **Code Injection**: makes a program execute malicious commands,   input validation.
