@@ -12,7 +12,7 @@
 ___
 # Event independence
 - A conditional probability concept, indicates if the occurrence of an event impacts another event.
-- For instance if event A has occurred,
+- For instance if event $A$ has occurred, the probability of event $B$ occurring may be raised, lowered or stay the same. If it stays the same both events are independent of each other
 
 ## Event independence formula 
 $$\mathbb{P}(A\cap B)==\mathbb{P}(A)\cdot \mathbb{P}(B)$$
