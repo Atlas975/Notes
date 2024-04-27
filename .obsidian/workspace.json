@@ -913,7 +913,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md",
+                "file": "Databases/Access_routines.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -1015,7 +1015,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md"
+                "file": "Databases/Access_routines.md"
               }
             }
           }
@@ -1050,7 +1050,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md",
+                "file": "Databases/Access_routines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1067,7 +1067,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Pushdown_recogniser.md",
+                "file": "Databases/Access_routines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1141,6 +1141,14 @@
   },
   "active": "9694363a64f80b90",
   "lastOpenFiles": [
+    "Languages&Compilation/Grammars/Context_free_grammars.md",
+    "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
+    "Languages&Compilation/Grammars/Formal_languages.md",
+    "Languages&Compilation/Grammars/Unrestricted_grammars.md",
+    "Languages&Compilation/Grammars/Regular_grammars.md",
+    "Languages&Compilation/Follow_sets.md",
+    "Languages&Compilation/Language_translator.md",
+    "Languages&Compilation/Pushdown_recogniser.md",
     "Cybersecurity/Hashing.md",
     "Cybersecurity/Cryptography.md",
     "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
@@ -1161,20 +1169,12 @@
     "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
     "XX-Attachments/Images/Pasted image 20240426173621.png",
     "XX-Attachments/Images/Pasted image 20240426172457.png",
-    "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
-    "Cybersecurity/EncryptionSchemes/Advanced_encryption_standard.md",
     "Cybersecurity/EncryptionSchemes",
     "XX-Attachments/Images/Pasted image 20240426160116.png",
     "XX-Attachments/Images/Pasted image 20240426155632.png",
-    "OperatingSystems/Linux_permissions.md",
     "XX-Attachments/Images/Pasted image 20240426150555.png",
     "XX-Attachments/Images/Pasted image 20240426150517.png",
-    "MachineLearning/LinearRegression/Linear_regression.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
-    "MachineLearning/Bias_variance_tradeoff.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/TimeSeriesAnalysis/Bias_correction.md",
     "XX-Attachments/Images/Pasted image 20240425160551.png",
-    "Cybersecurity/RiskManagement/Password_storage.md",
     "XX-Attachments/Images/Pasted image 20240425154354.png",
     "XX-Attachments/Images/Pasted image 20240425151529.png",
     "Cybersecurity/RiskManagement",
