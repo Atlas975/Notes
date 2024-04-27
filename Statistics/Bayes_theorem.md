@@ -20,7 +20,6 @@ ___
 ## Bayes formula 
 $$\mathbb{P}(A|B)=\frac{\mathbb{P}(B|A)\cdot\mathbb{P}(A)}{\mathbb{P}(B)}$$
 $$\mathbb{P}(X|Y)=\text{probability of event X occurring given that Y is true}$$
-
 $$\mathbb{P}(X)=\text{prior probability of X, the initial degree of belief in X}$$
 ## Components of Bayes theorem 
 - **Prior $\mathbb{P(A)}$** : Initial probability of an event prior to considering new evidence 
