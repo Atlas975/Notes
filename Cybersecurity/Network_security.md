@@ -53,5 +53,12 @@ ___
 - **Security Associations (SA)**: Defines the protocols and algorithms for securing data, established through the Internet Key Exchange (IKE) protocol.
 
 ### Modes of Operation
-- **Transport Mode**: Encrypts/authenticates only the data payload of IP packets; used for end-to-end communication.
-- **Tunnel Mode**: Encrypts and encapsulates the entire IP packet, used mainly in VPNs to link two networks.
+- Both AH and ESP can operate in two distinct modes:
+	- **Transport Mode**: Encrypts/authenticates data payload; used for end-to-end communication.
+	- **Tunnel Mode**: Encrypts/encapsulates entire packet, used in VPNs to link two networks.
+
+## Anonymous network
+- Involves using a overlaying network over an existing network (eg Tor)
+- This improves anonymity over the internet using [[Transmission_control_protocol|TCP]] over TLS. This often makes use of the onion routing protocol where only the next router knows the key of the previous router 
+
+![[Pasted image 20240427154217.png|300|300]]
