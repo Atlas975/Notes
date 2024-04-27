@@ -20,7 +20,7 @@
 ![[Pasted image 20220225121218.png|450|450]]
 
 # P-values for continuous data
-- In practice when we calculate probabilities for something continuous like height we normally use a statistical distribution eg [[Gaussian_distribution]]
+- In practice when we calculate probabilities for something continuous like height we normally use a statistical distribution eg [[MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Gaussian_distribution]]
 ![[Pasted image 20220225122631.png|450|450]]
 ![[Pasted image 20220225122643.png|450|450]]
 - In this context the hypothesis asks if a measurement is far enough from the mean that we can reject the idea that it came from it, suggesting a distribution like the green one can explain it better

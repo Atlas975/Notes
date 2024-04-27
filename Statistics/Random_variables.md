@@ -11,13 +11,17 @@
 
 ___
 # Random variables
-- A re
+- A measurable outcome representation of a repeated experiment
+- Assigns values to each element of the sample space $S$
+- Commonly denoted by capital letters (eg $X$, $Y$,$Z$)
 
 
 ## Types of Random Variables
-- **Discrete Random Variable**
+- **Discrete Random Variable (probability mass)**
     - Can take a countable number of distinct values.
     - Example: Sum of two dice faces.
-- **Continuous Random Variable**
+- **Continuous Random Variable (culminate distribution function)**
     - Can assume any numerical value within a specified range or intervals.
     - Example: Heights of individuals in a population.
+
+![[Pasted image 20240427214821.png|450|450]]

@@ -16,6 +16,7 @@ ___
 
 $$\frac{\sum x}{n}$$
 
+### 
 ## Geometric mean 
 - Use to find growth rates, eg calculating average ROI over time or population growth rates.
 

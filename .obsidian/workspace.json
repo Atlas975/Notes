@@ -14,13 +14,66 @@
               "type": "markdown",
               "state": {
                 "file": "Statistics/Random_variables.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00755df7b11b8132",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Triangular_distribution.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
+          },
+          {
+            "id": "e99bd82037559954",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Sampling_methods.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9c4dc5099d9370cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/PERT_distribution.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e7b754fa8787f2d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Mean.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -88,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Random_variables.md"
+                "file": "Statistics/Mean.md"
               }
             }
           }
@@ -123,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Random_variables.md",
+                "file": "Statistics/Mean.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Random_variables.md",
+                "file": "Statistics/Mean.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,11 +265,22 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "af5644366eea3469",
+  "active": "e7b754fa8787f2d1",
   "lastOpenFiles": [
+    "Statistics/Gaussian_distribution.md",
+    "Statistics/PERT_distribution.md",
     "Statistics/Random_variables.md",
-    "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
     "Statistics/Sampling_methods.md",
+    "Statistics/Poisson_distribution.md",
+    "Statistics/Mean.md",
+    "Statistics/Bessels_correction.md",
+    "Statistics/Event_independence.md",
+    "Statistics/Triangular_distribution.md",
+    "Statistics/Entropy.md",
+    "Statistics/Bayes_theorem.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/Probability_basics.md",
+    "XX-Attachments/Images/Pasted image 20240427214821.png",
+    "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
     "Networking/Checksum.md",
     "Cybersecurity/Operating_system_security.md",
     "OperatingSystems/Operating_system_design.md",
@@ -230,16 +294,6 @@
     "MachineLearning/Logistic_regression.md",
     "MachineLearning/LinearRegression/Linear_regression.md",
     "LinearProgramming/Linear_programming.md",
-    "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
-    "MachineLearning/ErrorMeasures/Cross-entropy.md",
-    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
-    "MediaCoding/Watermarking/Watermarking.md",
-    "MediaCoding/Filters/Unpooling.md",
-    "MediaCoding/Convolutions/Convolution.md",
     "XX-Attachments/Images/Pasted image 20240427213713.png",
     "XX-Attachments/Images/Pasted image 20240427213632.png",
     "XX-Attachments/Images/Pasted image 20240427213531.png",
@@ -249,7 +303,6 @@
     "XX-Attachments/Images/Pasted image 20240427165716.png",
     "XX-Attachments/Images/Pasted image 20240427154217.png",
     "XX-Attachments/Images/Pasted image 20240427154140.png",
-    "XX-Attachments/Images/Pasted image 20240427144347.png",
     "Cybersecurity/EncryptionSchemes",
     "Cybersecurity/RiskManagement",
     "Languages&Compilation/Grammars",
