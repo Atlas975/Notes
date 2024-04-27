@@ -117,8 +117,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Access_controls.md",
-                "mode": "preview",
+                "file": "Cybersecurity/Operating_system_security.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -1012,7 +1012,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -1080,7 +1080,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Security_models.md"
+                "file": "Cybersecurity/Operating_system_security.md"
               }
             }
           }
@@ -1115,7 +1115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Security_models.md",
+                "file": "Cybersecurity/Operating_system_security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1132,7 +1132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Security_models.md",
+                "file": "Cybersecurity/Operating_system_security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1204,11 +1204,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7e36479e1dc2389c",
+  "active": "4c48c743dc920778",
   "lastOpenFiles": [
-    "Cybersecurity/RiskManagement/Access_controls.md",
     "Cybersecurity/RiskManagement/Security_models.md",
     "Cybersecurity/RiskManagement/Security_principles.md",
+    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
+    "Cybersecurity/RiskManagement/Access_controls.md",
     "Cybersecurity/Operating_system_security.md",
     "XX-Attachments/Images/Pasted image 20240427171524.png",
     "XX-Attachments/Images/Pasted image 20240427165716.png",
@@ -1230,7 +1231,6 @@
     "Languages&Compilation/Pushdown_recogniser.md",
     "Cybersecurity/Hashing.md",
     "Cybersecurity/Cryptography.md",
-    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
     "Cybersecurity/RiskManagement/Quantitative_privacy.md",
     "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
     "Cybersecurity/Salt.md",

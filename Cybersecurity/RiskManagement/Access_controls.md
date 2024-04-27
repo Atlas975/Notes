@@ -46,9 +46,7 @@ ___
 
 ## Access control policies
 - The set of rules established by an organisation to regulate who can view or use resources in a computing environment. These are central to information security 
-- Various policies exist that offer tradeoffs based in security and practicality 
-- These often make use of the ==Bella-LaPadula== model (subject clearance compared with object's classification). Subject are also unable to write down so no unauthorised lower security writing
-- The ==Biba model== is also commonly used (can read up and write down only)
+- Various policies exist offering tradeoffs in security/practicality, often make use of [[Security_models|security models]]
 ### Mandatory Access Control (MAC)
 - **Predefined Access Control**: access is decided by strict, fixed rules set only by the sysadmin
 - **Security Labels**: every file has a label stating the clearance level required for access 
