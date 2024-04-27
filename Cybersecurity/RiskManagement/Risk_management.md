@@ -12,7 +12,8 @@
 ___
 # Risk management
 - The process of identifying, analysing, and either accepting or mitigating risks.
-- Focused on maintaining confidentiality, integrity, availability and non-repudation
+- A risk is the potential for loss, damage, or any other negative occurrence that is caused by a vulnerability. Risk management aims to avoid this through preemptive ac
+- Focused on maintaining confidentiality, integrity, availability and non-repudiation
 
 ## Risk management components
 - **Risk treatment**: methods used to manage risks (reduction, transfer, avoidance, or acceptance)
