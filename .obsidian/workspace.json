@@ -4,102 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e259f95a04e86c6b",
+        "id": "53afac95ed042f66",
         "type": "tabs",
         "children": [
           {
-            "id": "af5644366eea3469",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/Random_variables.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "00755df7b11b8132",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/Triangular_distribution.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e99bd82037559954",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/Sampling_methods.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9c4dc5099d9370cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/PERT_distribution.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e7b754fa8787f2d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/Bessels_correction.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e520923c1543a8ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/Mean.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6628d58575f1910c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/Random_variables.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3a6a4976190453ac",
+            "id": "4fee176b247d48dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -110,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4b3556bb0944894d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Economics/Banking_systems.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -317,23 +213,27 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3a6a4976190453ac",
+  "active": "4fee176b247d48dc",
   "lastOpenFiles": [
     "Economics/Banking_systems.md",
+    "Statistics/Random_variables.md",
+    "Statistics/Triangular_distribution.md",
+    "Statistics/Sampling_methods.md",
+    "Statistics/PERT_distribution.md",
+    "Statistics/Bessels_correction.md",
+    "Statistics/Mean.md",
     "Cybersecurity/RiskManagement/Security_economics.md",
     "Economics/Consumer_theory.md",
     "Economics/SocialSystems.md",
     "Economics/Producer_theory.md",
     "Economics/Microeconomics.md",
     "Cybersecurity/RiskManagement/econ.md",
-    "Statistics/Random_variables.md",
     "Statistics/Event_independence.md",
     "XX-Attachments/Images/Pasted image 20240428163647.png",
     "Statistics/Monte_Carlo_method.md",
     "LinearProgramming/Linear_programming.md",
     "XX-Attachments/Images/Pasted image 20240428223122.png",
     "Statistics/Bayes_theorem.md",
-    "Statistics/PERT_distribution.md",
     "Statistics/Gaussian_distribution.md",
     "XX-Attachments/Images/Pasted image 20240428163703.png",
     "XX-Attachments/Images/Pasted image 20240428163629.png",
@@ -347,10 +247,6 @@
     "Cybersecurity/Operating_system_security.md",
     "Cybersecurity/PKCS7.md",
     "Cybersecurity/Salt.md",
-    "Cybersecurity/RiskManagement/Access_controls.md",
-    "Cybersecurity/RiskManagement/Security_models.md",
-    "Cybersecurity/RiskManagement/Risk_management.md",
-    "Cybersecurity/RiskManagement/Quantitative_privacy.md",
     "XX-Attachments/Images/Pasted image 20240427214821.png",
     "XX-Attachments/Images/Pasted image 20240427213713.png",
     "XX-Attachments/Images/Pasted image 20240427213632.png",
