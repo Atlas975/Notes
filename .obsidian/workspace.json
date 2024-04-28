@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Bayes_theorem.md",
+                "file": "Statistics/Random_variables.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -193,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Bayes_theorem.md"
+                "file": "Statistics/Random_variables.md"
               }
             }
           }
@@ -228,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Bayes_theorem.md",
+                "file": "Statistics/Random_variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,7 +245,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Bayes_theorem.md",
+                "file": "Statistics/Random_variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -319,18 +319,18 @@
   },
   "active": "8cb83ae2a6e36062",
   "lastOpenFiles": [
-    "Statistics/Event_independence.md",
-    "Statistics/Random_variables.md",
+    "Statistics/Poisson_distribution.md",
     "Statistics/PERT_distribution.md",
     "Statistics/Gaussian_distribution.md",
-    "Statistics/Entropy.md",
-    "Statistics/Sample_space.md",
-    "Statistics/Mean.md",
-    "Statistics/Bessels_correction.md",
-    "Statistics/Sampling_methods.md",
-    "Statistics/Poisson_distribution.md",
-    "Statistics/Triangular_distribution.md",
+    "Statistics/Event_independence.md",
     "Statistics/Bayes_theorem.md",
+    "Statistics/Bessels_correction.md",
+    "Statistics/Entropy.md",
+    "Statistics/Mean.md",
+    "Statistics/Random_variables.md",
+    "Statistics/Sampling_methods.md",
+    "Statistics/Triangular_distribution.md",
+    "Statistics/Sample_space.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/Probability_basics.md",
     "XX-Attachments/Images/Pasted image 20240427214821.png",
     "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
