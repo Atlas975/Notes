@@ -107,5 +107,4 @@ print("bin count:", int(bin_cnt.value()))
 
 ### Solving graphically 
 ![[Pasted image 20240428163619.png|350|350]]
-![[Pasted image 20240428163703.png|350|350]]
-
+![[Pasted image 20240428223122.png|350|350]]
