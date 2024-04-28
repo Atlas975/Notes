@@ -11,5 +11,12 @@
 
 ___
 # Security economics
-- The study of the economic principles that drive security, this is vital to understand as good security requires good incentives to drive security design and policy 
-- Explores how economic factors influence security decisions and policies
+- The study of the economic principles that drive security, vital in understanding the incentives that drive the creation of good security design and policy 
+- The main question that arises in this involves asking who should bear the cost of security
+
+
+## Public good
+- A good that has two key characteristics:
+	- **Non-rivalrous**: consumption by one entity does not reduce the good's availability 
+	- **Non-excludible**: difficult or impossible to prevent people from using the good
+

@@ -105,7 +105,20 @@
               "type": "markdown",
               "state": {
                 "file": "Cybersecurity/RiskManagement/Security_economics.md",
-                "mode": "source",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4b3556bb0944894d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Economics/Banking_systems.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -306,11 +319,17 @@
   },
   "active": "3a6a4976190453ac",
   "lastOpenFiles": [
+    "Economics/Banking_systems.md",
+    "Cybersecurity/RiskManagement/Security_economics.md",
+    "Economics/Consumer_theory.md",
+    "Economics/SocialSystems.md",
+    "Economics/Producer_theory.md",
+    "Economics/Microeconomics.md",
+    "Cybersecurity/RiskManagement/econ.md",
     "Statistics/Random_variables.md",
     "Statistics/Event_independence.md",
     "XX-Attachments/Images/Pasted image 20240428163647.png",
     "Statistics/Monte_Carlo_method.md",
-    "Cybersecurity/RiskManagement/Security_economics.md",
     "LinearProgramming/Linear_programming.md",
     "XX-Attachments/Images/Pasted image 20240428223122.png",
     "Statistics/Bayes_theorem.md",
@@ -332,12 +351,6 @@
     "Cybersecurity/RiskManagement/Security_models.md",
     "Cybersecurity/RiskManagement/Risk_management.md",
     "Cybersecurity/RiskManagement/Quantitative_privacy.md",
-    "Cybersecurity/RiskManagement/Security_principles.md",
-    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
-    "Cybersecurity/Cryptography.md",
-    "Cybersecurity/Hashing.md",
-    "Cybersecurity/Network_security.md",
-    "Cybersecurity/Keys.md",
     "XX-Attachments/Images/Pasted image 20240427214821.png",
     "XX-Attachments/Images/Pasted image 20240427213713.png",
     "XX-Attachments/Images/Pasted image 20240427213632.png",
