@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LinearProgramming/Linear_programming.md",
+                "file": "Statistics/Monte_Carlo_method.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LinearProgramming/Linear_programming.md"
+                "file": "Statistics/Monte_Carlo_method.md"
               }
             }
           }
@@ -241,7 +241,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LinearProgramming/Linear_programming.md",
+                "file": "Statistics/Monte_Carlo_method.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -258,7 +258,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LinearProgramming/Linear_programming.md",
+                "file": "Statistics/Monte_Carlo_method.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -332,6 +332,11 @@
   },
   "active": "25d1c4de368508ac",
   "lastOpenFiles": [
+    "Statistics/Bayes_theorem.md",
+    "Statistics/PERT_distribution.md",
+    "Statistics/Gaussian_distribution.md",
+    "Statistics/Event_independence.md",
+    "LinearProgramming/Linear_programming.md",
     "XX-Attachments/Images/Pasted image 20240428163703.png",
     "XX-Attachments/Images/Pasted image 20240428163647.png",
     "XX-Attachments/Images/Pasted image 20240428163629.png",
@@ -358,16 +363,11 @@
     "Cybersecurity/Keys.md",
     "SoftwareEngineering/Multiagent_systems.md",
     "Statistics/Random_variables.md",
-    "Statistics/Entropy.md",
-    "Statistics/Poisson_distribution.md",
-    "Statistics/PERT_distribution.md",
-    "Statistics/Gaussian_distribution.md",
     "XX-Attachments/Images/Pasted image 20240427214821.png",
     "XX-Attachments/Images/Pasted image 20240427213713.png",
     "XX-Attachments/Images/Pasted image 20240427213632.png",
     "XX-Attachments/Images/Pasted image 20240427213531.png",
     "XX-Attachments/Images/Pasted image 20240427213318.png",
-    "XX-Attachments/Images/Pasted image 20240427200252.png",
     "Cybersecurity/EncryptionSchemes",
     "Cybersecurity/RiskManagement",
     "Languages&Compilation/Grammars",
