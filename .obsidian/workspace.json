@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Random_variables.md",
+                "file": "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -193,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Random_variables.md"
+                "file": "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md"
               }
             }
           }
@@ -228,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Random_variables.md",
+                "file": "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,7 +245,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Random_variables.md",
+                "file": "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -319,33 +319,33 @@
   },
   "active": "8cb83ae2a6e36062",
   "lastOpenFiles": [
+    "Cybersecurity/EncryptionSchemes/RSA.md",
+    "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
+    "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
+    "Cybersecurity/EncryptionSchemes/Advanced_encryption_standard.md",
+    "Cybersecurity/Operating_system_security.md",
+    "Cybersecurity/PKCS7.md",
+    "Cybersecurity/Salt.md",
+    "Cybersecurity/RiskManagement/Access_controls.md",
+    "Cybersecurity/RiskManagement/Security_models.md",
+    "Cybersecurity/RiskManagement/Risk_management.md",
+    "Cybersecurity/RiskManagement/Quantitative_privacy.md",
+    "Cybersecurity/RiskManagement/Security_principles.md",
+    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
+    "Cybersecurity/Cryptography.md",
+    "Cybersecurity/Hashing.md",
+    "Cybersecurity/Network_security.md",
+    "Cybersecurity/Keys.md",
+    "SoftwareEngineering/Multiagent_systems.md",
+    "Statistics/Random_variables.md",
+    "Statistics/Entropy.md",
     "Statistics/Poisson_distribution.md",
     "Statistics/PERT_distribution.md",
     "Statistics/Gaussian_distribution.md",
     "Statistics/Event_independence.md",
     "Statistics/Bayes_theorem.md",
     "Statistics/Bessels_correction.md",
-    "Statistics/Entropy.md",
-    "Statistics/Mean.md",
-    "Statistics/Random_variables.md",
-    "Statistics/Sampling_methods.md",
-    "Statistics/Triangular_distribution.md",
-    "Statistics/Sample_space.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/Probability_basics.md",
     "XX-Attachments/Images/Pasted image 20240427214821.png",
-    "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
-    "Networking/Checksum.md",
-    "Cybersecurity/Operating_system_security.md",
-    "OperatingSystems/Operating_system_design.md",
-    "Cybersecurity/Network_security.md",
-    "Databases/Access_routines.md",
-    "Cybersecurity/Hashing.md",
-    "Networking/Internet_protocol.md",
-    "Languages&Compilation/Grammars/Context_free_grammars.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/Sampling_basics.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
-    "MachineLearning/Logistic_regression.md",
-    "MachineLearning/LinearRegression/Linear_regression.md",
     "XX-Attachments/Images/Pasted image 20240427213713.png",
     "XX-Attachments/Images/Pasted image 20240427213632.png",
     "XX-Attachments/Images/Pasted image 20240427213531.png",
