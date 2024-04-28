@@ -117,8 +117,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
-                "mode": "preview",
+                "file": "Statistics/Monte_Carlo_method.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -193,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md"
+                "file": "Statistics/Monte_Carlo_method.md"
               }
             }
           }
@@ -228,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
+                "file": "Statistics/Monte_Carlo_method.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,7 +245,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
+                "file": "Statistics/Monte_Carlo_method.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -319,6 +319,8 @@
   },
   "active": "8cb83ae2a6e36062",
   "lastOpenFiles": [
+    "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
+    "Statistics/Monte_Carlo_method.md",
     "Cybersecurity/EncryptionSchemes/RSA.md",
     "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
     "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
@@ -343,8 +345,6 @@
     "Statistics/PERT_distribution.md",
     "Statistics/Gaussian_distribution.md",
     "Statistics/Event_independence.md",
-    "Statistics/Bayes_theorem.md",
-    "Statistics/Bessels_correction.md",
     "XX-Attachments/Images/Pasted image 20240427214821.png",
     "XX-Attachments/Images/Pasted image 20240427213713.png",
     "XX-Attachments/Images/Pasted image 20240427213632.png",
