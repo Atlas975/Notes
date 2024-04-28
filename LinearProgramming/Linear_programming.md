@@ -33,9 +33,6 @@ $$s.t=\text{subject to, defines constraints}$$
 $$A=\text{coefficients for }x \text{, defines each variable's contribution to constaints}$$
 $$b=\text{bound for each constraint}$$
 
-### Solving graphically 
-![[Pasted image 20240428163619.png|350|350]]
-![[Pasted image 20240428163703.png|350|350]]
 ## Problem types 
 ### Value optimisation 
 
@@ -107,3 +104,8 @@ for j in range(n):
         print(f"bin {j+1}: {item_list}")
 print("bin count:", int(bin_cnt.value()))
 ```
+
+### Solving graphically 
+![[Pasted image 20240428163619.png|350|350]]
+![[Pasted image 20240428163703.png|350|350]]
+
