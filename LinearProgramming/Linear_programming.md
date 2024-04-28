@@ -22,8 +22,20 @@ ___
 - **Constraints:** restrictions on the decision variables 
 ## Canonical form 
 
-$$\text{max}_{}$$
+$$\text{max}_{x}(c^{T}\cdot x)$$
+$$s.t.\text{   }Ax\leq{b}$$
 
+- Components of canonical form : 
+
+$$x=\text{decision variables }$$
+$$c=\text{weight of each decision variable}$$
+$$s.t=\text{subject to, defines constraints}$$
+$$A=\text{coefficients for }x \text{, defines each variable's contribution to constaints}$$
+$$b=\text{bound for each constraint}$$
+
+### Solving graphically 
+![[Pasted image 20240428163619.png|350|350]]
+![[Pasted image 20240428163703.png|350|350]]
 ## Problem types 
 ### Value optimisation 
 
