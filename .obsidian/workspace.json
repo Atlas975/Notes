@@ -136,9 +136,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "41025ce89c01fdbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LinearProgramming/Linear_programming.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -206,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Monte_Carlo_method.md"
+                "file": "LinearProgramming/Linear_programming.md"
               }
             }
           }
@@ -241,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Monte_Carlo_method.md",
+                "file": "LinearProgramming/Linear_programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -258,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Monte_Carlo_method.md",
+                "file": "LinearProgramming/Linear_programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,8 +343,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "25d1c4de368508ac",
+  "active": "41025ce89c01fdbf",
   "lastOpenFiles": [
+    "Statistics/Monte_Carlo_method.md",
     "Statistics/Bayes_theorem.md",
     "Statistics/PERT_distribution.md",
     "Statistics/Gaussian_distribution.md",
@@ -342,7 +356,6 @@
     "XX-Attachments/Images/Pasted image 20240428163629.png",
     "XX-Attachments/Images/Pasted image 20240428163619.png",
     "XX-Attachments/Images/Pasted image 20240428163525.png",
-    "Statistics/Monte_Carlo_method.md",
     "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
     "Cybersecurity/EncryptionSchemes/RSA.md",
     "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
