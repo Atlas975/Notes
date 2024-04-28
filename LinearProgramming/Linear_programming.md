@@ -20,11 +20,11 @@ ___
 - **Objective Function:** main aim of the problem, either to maximise of to minimise.
 - **Decision Variables:** variables used to decide the output as decision variables. 
 - **Constraints:** restrictions on the decision variables 
+## Canonical form 
 
+$$\text{max}_{}$$
 
-## Linear programming formulation 
-
-## Linear programming problem types 
+## Problem types 
 ### Value optimisation 
 
 > You have 3 tons of potato seeds and 4 tons of carrot seeds. To grow the crops efficiently, you also have 5 tons of fertiliser, which has to be used when planting in a 1:1 ratio. The profit is 1.2\$ for potato seeds and 1.7\$/kg for carrot seeds. How many potatoes and carrots should you plant to maximize your profit this season?

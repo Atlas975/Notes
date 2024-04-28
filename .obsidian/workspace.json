@@ -118,6 +118,19 @@
               "type": "markdown",
               "state": {
                 "file": "Statistics/Monte_Carlo_method.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "25d1c4de368508ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LinearProgramming/Linear_programming.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -125,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -193,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Monte_Carlo_method.md"
+                "file": "LinearProgramming/Linear_programming.md"
               }
             }
           }
@@ -228,7 +241,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Monte_Carlo_method.md",
+                "file": "LinearProgramming/Linear_programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,7 +258,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Monte_Carlo_method.md",
+                "file": "LinearProgramming/Linear_programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -317,10 +330,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8cb83ae2a6e36062",
+  "active": "25d1c4de368508ac",
   "lastOpenFiles": [
-    "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
     "Statistics/Monte_Carlo_method.md",
+    "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
     "Cybersecurity/EncryptionSchemes/RSA.md",
     "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
     "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",

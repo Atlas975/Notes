@@ -23,14 +23,22 @@ ___
 5. **Aggregate results**:  summarise outcomes of the individual computations into a final result
 
 ```ad-example
-
-
 ```python
+import numpy as np 
+import matplotlib.pyplot as plt
+sims = 10_000 # number of simulations
 
+task_A = np.random.uniform(1, 5, sims) # hours needed for task A 
+task_B = np.random.uniform(2, 6, sims) # hours needed for task B
+duration = task_A + task_B # total hours needed for both tasks (uniform dist)
+print(f"Probability of finishing in 9 hours: {np.mean(duration <= 9):.1%}")
+
+plt.figure(figsize=(6, 4))
+plt.hist(duration, density=True)
+plt.axvline(9, color='r')
+plt.xlabel("Duration")
+plt.ylabel("Density")
+plt.show()
 ```
 
 
-
-```python
-import numpy as np
-```
