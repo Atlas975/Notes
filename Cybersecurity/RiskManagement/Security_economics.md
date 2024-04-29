@@ -39,3 +39,5 @@ ___
 - This can lead to overall weaker security across the system as stakeholders do not take the appropriate cybersecurity measures 
 
 ## Digital rights management 
+- DRM is a set of access control technologies used by publishers, manufacturers, and copyright holders to restrict the use of digital content 
+- Designed to prevent unauthorised distribution, also allows for usage tracking. However, heavy handed DRM measures can largely be seen as anti-consumer

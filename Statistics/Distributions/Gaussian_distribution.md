@@ -1,3 +1,7 @@
+---
+aliases:
+  - Normal  distribution
+---
 > [!important]- Metadata
 > **Tags:** #Statistics 
 > **Located:** Statistics
