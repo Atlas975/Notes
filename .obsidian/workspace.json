@@ -52,6 +52,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Statistics/Distributions/Gaussian_distribution.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d93740c8eed69ebd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Statistics/Distributions/Log-Normal_distribution.md",
                 "mode": "source",
                 "backlinks": false,
@@ -148,7 +161,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -340,12 +353,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "30dfe8f30f3801a2",
+  "active": "d93740c8eed69ebd",
   "lastOpenFiles": [
     "Statistics/Distributions/Gaussian_distribution.md",
     "Statistics/Distributions/Log-Normal_distribution.md",
     "Statistics/Distributions/PERT_distribution.md",
     "Statistics/Distributions/Triangular_distribution.md",
+    "Statistics/Bayes_theorem.md",
     "Statistics/Distributions/Poisson_distribution.md",
     "XX-Attachments/Images/Pasted image 20240429185419.png",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Debugging_ML_algorithms.md",
