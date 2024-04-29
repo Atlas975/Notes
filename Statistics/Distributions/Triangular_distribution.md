@@ -17,10 +17,10 @@ ___
 - These three parameters fall in the range $a\leq{c}\leq{b}$
 
 ## Mean 
-$$\text{Mean: } \mu = \frac{a + b + c}{3}$$
+$$\mu = \frac{a + b + c}{3}$$
 
 ## Variance 
-$$\text{Variance: } \sigma^2 = \frac{a^2 + b^2 + c^2 - ab - ac - bc}{18}$$
+$$\sigma^2 = \frac{a^2 + b^2 + c^2 - ab - ac - bc}{18}$$
 
 ## Probability density function 
 $$\text{For } a \leq x \leq c: f(x) = \frac{2(x - a)}{(b - a)(c - a)}$$

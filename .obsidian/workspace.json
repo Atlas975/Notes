@@ -40,6 +40,19 @@
               "type": "markdown",
               "state": {
                 "file": "Statistics/Distributions/Log-Normal_distribution.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8581458322f7f0a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Distributions/Gaussian_distribution.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -122,7 +135,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -190,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Debugging_ML_algorithms.md"
+                "file": "Statistics/Distributions/Log-Normal_distribution.md"
               }
             }
           }
@@ -225,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Debugging_ML_algorithms.md",
+                "file": "Statistics/Distributions/Log-Normal_distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +255,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Debugging_ML_algorithms.md",
+                "file": "Statistics/Distributions/Log-Normal_distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -314,19 +327,21 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f428b5b4de35eeff",
+  "active": "f4dc51562e54e379",
   "lastOpenFiles": [
-    "Statistics/Distributions/Gaussian_distribution.md",
+    "Statistics/Distributions/PERT_distribution.md",
+    "Statistics/Distributions/Triangular_distribution.md",
     "Statistics/Distributions/Log-Normal_distribution.md",
+    "Statistics/Distributions/Poisson_distribution.md",
+    "Statistics/Distributions/Gaussian_distribution.md",
+    "XX-Attachments/Images/Pasted image 20240429185419.png",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Debugging_ML_algorithms.md",
     "XX-Attachments/Images/Pasted image 20240429182212.png",
     "XX-Attachments/Images/Pasted image 20240429182124.png",
     "XX-Attachments/Images/Pasted image 20240429182030.png",
     "XX-Attachments/Images/Pasted image 20240429181804.png",
     "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Gaussian_distribution.md",
-    "Statistics/Distributions/PERT_distribution.md",
-    "Statistics/Distributions/Poisson_distribution.md",
-    "Statistics/Distributions/Triangular_distribution.md",
     "Statistics/Monte_Carlo_method.md",
     "Statistics/Random_variables.md",
     "Statistics/Sample_space.md",
@@ -348,10 +363,8 @@
     "XX-Attachments/Images/Pasted image 20240429134947.png",
     "XX-Attachments/Images/Pasted image 20240429134945.png",
     "XX-Attachments/Images/Pasted image 20240429134906.png",
-    "XX-Attachments/Images/Pasted image 20240429131923.png",
     "Economics/Banking_systems.md",
     "Statistics/Bessels_correction.md",
-    "Statistics/Mean.md",
     "Cybersecurity/EncryptionSchemes",
     "Cybersecurity/RiskManagement",
     "Languages&Compilation/Grammars",

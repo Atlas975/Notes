@@ -26,6 +26,6 @@ ___
 $$f(x; \ a, b, c) = \frac{(x - a)^{\alpha - 1} \cdot (b - x)^{\beta - 1}}{B(\alpha, \beta) \cdot (b - a)^{\alpha + \beta - 1}}$$
 $$\text{where } \alpha = 1 + \frac{4(c - a)}{b - a} \text{ and } \beta = 1 + \frac{4(b - c)}{b - a}, \text{ and } B(\alpha, \beta) \text{ is the Beta function.}$$
 ## Mean
-$$\text{Mean: } \mu = \frac{a + 4c + b}{6}$$
+$$\mu = \frac{a + 4c + b}{6}$$
 ## Variance
-$$\text{Variance: } \sigma^2 = \frac{(b - a)^2}{36}$$
+$$\sigma^2 = \frac{(b - a)^2}{36}$$
