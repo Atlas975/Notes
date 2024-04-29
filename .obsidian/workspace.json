@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Distributions/Log-Normal_distribution.md",
+                "file": "Statistics/Distributions/PERT_distribution.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Distributions/Log-Normal_distribution.md"
+                "file": "Statistics/Distributions/PERT_distribution.md"
               }
             }
           }
@@ -237,7 +237,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -264,7 +265,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Distributions/Log-Normal_distribution.md",
+                "file": "Statistics/Distributions/PERT_distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +282,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Distributions/Log-Normal_distribution.md",
+                "file": "Statistics/Distributions/PERT_distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -355,12 +356,12 @@
   },
   "active": "d93740c8eed69ebd",
   "lastOpenFiles": [
-    "Statistics/Distributions/Gaussian_distribution.md",
     "Statistics/Distributions/Log-Normal_distribution.md",
+    "Statistics/Distributions/Gaussian_distribution.md",
     "Statistics/Distributions/PERT_distribution.md",
+    "Statistics/Distributions/Poisson_distribution.md",
     "Statistics/Distributions/Triangular_distribution.md",
     "Statistics/Bayes_theorem.md",
-    "Statistics/Distributions/Poisson_distribution.md",
     "XX-Attachments/Images/Pasted image 20240429185419.png",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Debugging_ML_algorithms.md",
     "XX-Attachments/Images/Pasted image 20240429182212.png",

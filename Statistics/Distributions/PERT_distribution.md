@@ -18,7 +18,8 @@ ___
 # PERT distribution
 - A continuous probability distribution often used in project management and risk analysis.
 - Stands for "Program Evaluation and Review Technique".
-- Defined by three parameters: minimum (optimistic) value a, most likely (mode) value c, and  maximum (pessimistic) value b.
+- Defined by three parameters:
+    - minimum (optimistic) value a, most likely (mode) value c, and  maximum (pessimistic) value b.
 - These three parameters fall in the range $a\leq{c}\leq{b}$
 
 

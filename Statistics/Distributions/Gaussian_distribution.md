@@ -23,7 +23,7 @@ ___
 
 ![[Pasted image 20240429181804.png|350|350]]
 ## Probability density function
-$$f(x|\mu,\sigma)=\frac{1}{\sigma\cdot \sqrt{ 2\pi }}\cdot e^{-\frac{(x-\mu)^2}{2\sigma^2}}$$
+$$\frac{1}{\sigma\cdot \sqrt{ 2\pi }}\cdot e^{-\frac{(x-\mu)^2}{2\sigma^2}}$$
 
 ## Cumulative distribution function 
 
