@@ -28,7 +28,14 @@ ___
 ## Information asymmetry
 - The phenomena where low quality products drive out high quality ones due to buyers not being able to tell the difference. This leads to cheap low-quality products dominating the market 
 - This often applies to security with poor security products racing to the bottom in price 
-
-## Free-rider problem 
+## System reliability
+- System reliability can stem from any of the 3 following categories:
+	- **Total effort**: reliability depends on the sum of effort exerted 
+	- **Weakest link**: reliability depends on the minimum effort
+	- **Best shot**: reliability depends on the maximum effort
+- Total effort cases typically have the best reliability as there is an incentive for all individuals to make a high quality contribution
+### Free-rider problem
 - Since individual efforts in cybersecurity benefit everyone, temptation is created for stakeholders to underinvest in their own cybersecurity measures 
 - This can lead to overall weaker security across the system as stakeholders do not take the appropriate cybersecurity measures 
+
+## Digital rights management 
