@@ -12,7 +12,8 @@
 ___
 # Quantitative privacy
 - Involves using numerical methods to measure and ensure individual privacy in datasets
-- Focuses on [[Risk_management|risk assessment]] and the application of privacy-preserving techniques to balance the utility of data with the need to protect individual identities
+- Focuses on [[Risk_management|risk assessment]] and the application of privacy-preserving techniques to balance the utility of data with the need to protect individual identities when data is shared publicly
+- This also needs to avoid **linkage attacks** where anonymised data is correlated with an individual 
 
 ![[Pasted image 20240429131841.png|350|350]]
 ## K-anonymity
@@ -20,6 +21,12 @@ ___
 - Techniques:
 	- **Suppression**: Hiding information by replacing it with asterisks or other placeholders.
 	- **Generalisation**: replace non-sensitive attribute wi
-- This can still lead to linkage attacks 
+- This can still lead to linkage attacks such as when a category contains the same sensitive data for all individuals in a class (eg class 3 here, guaranteed to have cancer)
 
 ![[Pasted image 20240429131923.png|400|400]]
+## Ell diversity
+- Ell $(\ell)$ diversity is an extension of K-anonymity where each equivalent class must contain $\ell$ unique values for their sensitive attributes 
+- This susceptible to linkage attacks such as when the datasets's statistical distrinitoo
+
+
+![[Pasted image 20240429134947.png|400|400]]
