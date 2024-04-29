@@ -30,6 +30,6 @@ $$\text{For } c < x \leq b: f(x) = \frac{2(b - x)}{(b - a)(b - c)}$$
 
 
 ## Cumulative distribution function 
-$$\text{For } x < a: \ \ \ F(x) = 0 $$
-$$\text{For } x > b: \ \ \ F(x) = 1 $$
-$$\text{For } a \leq x \leq c: \ \ \ F(x) = \frac{(x - a)^2}{(b - a)(c - a)} $$$$\text{For } c < x \leq b: \ \ \  F(x) = 1 - \frac{(b - x)^2}{(b - a)(b - c)}$$
+$$\text{For } x < a: \ \ \ f(x) = 0 $$
+$$\text{For } x > b: \ \ \ f(x) = 1 $$
+$$\text{For } a \leq x \leq c: \ \ \ f(x) = \frac{(x - a)^2}{(b - a)(c - a)} $$$$\text{For } c < x \leq b: \ \ \  f(x) = 1 - \frac{(b - x)^2}{(b - a)(b - c)}$$

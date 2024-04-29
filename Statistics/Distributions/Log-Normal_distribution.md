@@ -11,9 +11,14 @@
 
 ___
 # Log-Normal distribution
-- A continuous distribution of a random variable whose log is normally distributed
+- A continuous distribution of a random variable whose log is [[Gaussian_distribution|normally  distributed]]
 - Helps in understanding and modelling phenomena where growth, multiplication, and positive constraints are inherently part of the process
 
+## Probability density function
+$$f(x|\mu,\sigma)=\frac{1}{x\cdot\sigma\cdot \sqrt{ 2\pi }}\cdot e^{-\frac{\log(x-\mu)^2}{2\sigma^2}}$$
 
-## Probability density function 
-$$f(x|)$$
+## Cumulative distribution function
+
+$$f(x)=\phi\left( \frac{\log(x-\mu)}{\sigma} \right)$$
+
+$$\phi=\text{CDF of standard normal distribution }$$

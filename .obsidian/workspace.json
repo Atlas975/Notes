@@ -27,7 +27,20 @@
               "type": "markdown",
               "state": {
                 "file": "Statistics/Distributions/Triangular_distribution.md",
-                "mode": "source",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f4dc51562e54e379",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Distributions/Log-Normal_distribution.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -66,7 +79,7 @@
               "type": "markdown",
               "state": {
                 "file": "Statistics/Distributions/Gaussian_distribution.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -99,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -167,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Distributions/Triangular_distribution.md"
+                "file": "Statistics/Distributions/Gaussian_distribution.md"
               }
             }
           }
@@ -202,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Distributions/Triangular_distribution.md",
+                "file": "Statistics/Distributions/Gaussian_distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Distributions/Triangular_distribution.md",
+                "file": "Statistics/Distributions/Gaussian_distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,13 +304,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "38b818a1c7ffbb7c",
+  "active": "f428b5b4de35eeff",
   "lastOpenFiles": [
-    "Statistics/Distributions/Poisson_distribution.md",
-    "Statistics/Distributions/PERT_distribution.md",
-    "Statistics/Distributions/Log-Normal_distribution.md",
-    "Statistics/Distributions/Gaussian_distribution.md",
+    "XX-Attachments/Images/Pasted image 20240429181804.png",
     "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
+    "Statistics/Distributions/Log-Normal_distribution.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Gaussian_distribution.md",
+    "Statistics/Distributions/Gaussian_distribution.md",
+    "Statistics/Distributions/PERT_distribution.md",
+    "Statistics/Distributions/Poisson_distribution.md",
     "Statistics/Distributions/Triangular_distribution.md",
     "Statistics/Monte_Carlo_method.md",
     "Statistics/Random_variables.md",
@@ -325,8 +340,6 @@
     "Economics/Banking_systems.md",
     "Statistics/Bessels_correction.md",
     "Statistics/Mean.md",
-    "Economics/Consumer_theory.md",
-    "Economics/SocialSystems.md",
     "XX-Attachments/Images/Pasted image 20240428163647.png",
     "XX-Attachments/Images/Pasted image 20240428223122.png",
     "XX-Attachments/Images/Pasted image 20240428163703.png",
