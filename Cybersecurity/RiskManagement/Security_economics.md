@@ -13,6 +13,7 @@ ___
 # Security economics
 - The study of the economic principles that drive security design and policy, driven by incentives 
 - This can often lead to suboptimal outcomes due to misaligned stakeholder goals
+- Security often fails as it's guards don't suffer a point of failure, risks are dumped on others
 ## Public good
 - A good that has two key characteristics:
 	- **Non-rivalrous**: consumption by one entity does not reduce the good's availability 
@@ -27,3 +28,7 @@ ___
 ## Information asymmetry
 - The phenomena where low quality products drive out high quality ones due to buyers not being able to tell the difference. This leads to cheap low-quality products dominating the market 
 - This often applies to security with poor security products racing to the bottom in price 
+
+## Free-rider problem 
+- Since individual efforts in cybersecurity benefit everyone, temptation is created for stakeholders to underinvest in their own cybersecurity measures 
+- This can lead to overall weaker security across the system as stakeholders do not take the appropriate cybersecurity measures 
