@@ -32,6 +32,11 @@ ___
 ![[Pasted image 20240429134947.png|400|400]]
 
 ## t-closeness
-- **Earth Mover’s distance (EMD)**: the minimal amount of work required to transform one distribution to another via moving probability mass between each other.
+- An extension of $\ell$ diversity, a table has t-closeness when all classes have t-closeness
+- A class has t-closeness if the Wasserstein distance between the distribution of a sensitive attribute in this class and it's distribution in the whole dataset is <= t
+- This ideally means no new information can be found from an individual class's distribution 
 
 ![[Pasted image 20240429141121.png|400|400]]
+
+## Differential privacy
+- A method that's highly resistant to linkage attacks, protects privacy by adding random noise to true answers
