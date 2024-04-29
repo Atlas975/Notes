@@ -115,7 +115,7 @@
               "type": "markdown",
               "state": {
                 "file": "Statistics/Distributions/Poisson_distribution.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -161,7 +161,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Distributions/PERT_distribution.md"
+                "file": "Statistics/Distributions/Poisson_distribution.md"
               }
             }
           }
@@ -265,7 +265,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Distributions/PERT_distribution.md",
+                "file": "Statistics/Distributions/Poisson_distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -282,7 +282,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Distributions/PERT_distribution.md",
+                "file": "Statistics/Distributions/Poisson_distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,11 +354,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d93740c8eed69ebd",
+  "active": "fcf6a14685043f78",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240429203005.png",
+    "Statistics/Distributions/PERT_distribution.md",
     "Statistics/Distributions/Log-Normal_distribution.md",
     "Statistics/Distributions/Gaussian_distribution.md",
-    "Statistics/Distributions/PERT_distribution.md",
     "Statistics/Distributions/Poisson_distribution.md",
     "Statistics/Distributions/Triangular_distribution.md",
     "Statistics/Bayes_theorem.md",
@@ -392,7 +393,6 @@
     "XX-Attachments/Images/Pasted image 20240429134945.png",
     "XX-Attachments/Images/Pasted image 20240429134906.png",
     "Economics/Banking_systems.md",
-    "Statistics/Bessels_correction.md",
     "Cybersecurity/EncryptionSchemes",
     "Cybersecurity/RiskManagement",
     "Languages&Compilation/Grammars",

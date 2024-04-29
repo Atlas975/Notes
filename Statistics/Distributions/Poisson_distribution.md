@@ -18,6 +18,6 @@ $$P(X=x)=\frac{\mu^{x}e^{-\mu}}{x!}$$
 
 
 
-
+![[Pasted image 20240429203005.png|450|450]]
 ## Variance 
 $$\text{Variance}=\lambda$$

@@ -16,17 +16,24 @@ aliases:
 
 ___
 # PERT distribution
-- A continuous probability distribution often used in project management and risk analysis.
+- A continuous probability distribution often used in project management and [[Risk_management|risk analysis]].
 - Stands for "Program Evaluation and Review Technique".
 - Defined by three parameters:
-    - minimum (optimistic) value a, most likely (mode) value c, and  maximum (pessimistic) value b.
-- These three parameters fall in the range $a\leq{c}\leq{b}$
+    - a = minimum (optimistic) value 
+    - b = most likely (mode) value
+    - c = maximum (pessimistic) value 
+- These three parameters fall in the range $a\leq{b}\leq{c}$
 
 
 ## Probability density function
-$$f(x; \ a, b, c) = \frac{(x - a)^{\alpha - 1} \cdot (b - x)^{\beta - 1}}{B(\alpha, \beta) \cdot (b - a)^{\alpha + \beta - 1}}$$
-$$\text{where } \alpha = 1 + \frac{4(c - a)}{b - a} \text{ and } \beta = 1 + \frac{4(b - c)}{b - a}, \text{ and } B(\alpha, \beta) \text{ is the Beta function.}$$
+$$f(x; \ a, b, c) = \frac{(x - a)^{\alpha - 1} \cdot (c - x)^{\beta - 1}}{B(\alpha, \beta) \cdot (c - a)^{\alpha + \beta - 1}}$$
+
+$$\text{where } \alpha = 1 + \frac{4(b - a)}{c - a} \text{ and } \beta = 1 + \frac{4(c - b)}{c - a}, \text{ and } B(\alpha, \beta) \text{ is the Beta function.}$$
 ## Mean
-$$\mu = \frac{a + 4c + b}{6}$$
+$$\mu = \frac{a + 4b + c}{6}$$
 ## Variance
-$$\sigma^2 = \frac{(b - a)^2}{36}$$
+$$\sigma^2 = \frac{(c - a)^2}{36}$$
+## Modified PERT distribution 
+- Introduces a 4th parameters $\nu$ which controls the weight of b
+
+$$\mu = \frac{a + \nu\cdot b + c}{\nu + 2}.$$
