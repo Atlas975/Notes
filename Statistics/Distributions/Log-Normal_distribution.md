@@ -26,8 +26,8 @@ $$\phi'=\text{CDF of standard normal distribution }$$
 ![[Pasted image 20240429185419.png|400|400]]
 
 
-## Mean
-$$E(x)=\exp({\mu+\frac{\sigma^2}{2}})$$
+## Expectation
+$$E(x)=e^{\mu+\frac{\sigma^2}{2}}$$
 
-## Expected variance 
-$$\sigma^2=$$
+## Variance
+$$\text{Var}(x)=e^{2\cdot\mu+\sigma^2}(e^{\sigma^2}-1)$$
