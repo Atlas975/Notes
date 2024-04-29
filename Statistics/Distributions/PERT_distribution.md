@@ -27,8 +27,13 @@ ___
 
 ## Probability density function
 $$P(X=x) = \frac{(x - a)^{\alpha - 1} \cdot (c - x)^{\beta - 1}}{B(\alpha, \beta) \cdot (c - a)^{\alpha + \beta - 1}}$$
+$$\text{where} \quad \alpha = 1 + \frac{4(b - a)}{c - a} \quad \text{and} \quad \beta = 1 + \frac{4(c - b)}{c - a}$$
 
-$$\text{where } \alpha = 1 + \frac{4(b - a)}{c - a} \text{ and } \beta = 1 + \frac{4(c - b)}{c - a}, \text{ and } B(\alpha, \beta) \text{ is the Beta function.}$$
+## Cumulative distribution function 
+
+$$P(X=x) = I_{\frac{x-a}{c-a}}(\alpha, \beta)$$
+$$\text{where} \quad \alpha = 1 + \frac{4(b - a)}{c - a} \quad \text{and} \quad \beta = 1 + \frac{4(c - b)}{c - a}$$
+$$\text{and \( I \) is the regularized incomplete Beta function.}$$
 ## Mean
 $$\mu = \frac{a + 4b + c}{6}$$
 ## Variance

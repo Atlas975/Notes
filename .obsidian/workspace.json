@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4fee176b247d48dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/Distributions/PERT_distribution.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "38b818a1c7ffbb7c",
             "type": "leaf",
             "state": {
@@ -40,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "Statistics/Distributions/Gaussian_distribution.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -66,7 +53,7 @@
               "type": "markdown",
               "state": {
                 "file": "Statistics/Distributions/PERT_distribution.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -186,7 +173,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -254,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Distributions/PERT_distribution.md"
+                "file": "Statistics/Distributions/Gaussian_distribution.md"
               }
             }
           }
@@ -290,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Distributions/PERT_distribution.md",
+                "file": "Statistics/Distributions/Gaussian_distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +295,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Distributions/PERT_distribution.md",
+                "file": "Statistics/Distributions/Gaussian_distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -379,14 +367,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4fee176b247d48dc",
+  "active": "f4dc51562e54e379",
   "lastOpenFiles": [
+    "Statistics/Distributions/PERT_distribution.md",
+    "Statistics/Distributions/Triangular_distribution.md",
     "Statistics/Distributions/Log-Normal_distribution.md",
     "Statistics/Distributions/Poisson_distribution.md",
     "Statistics/Distributions/Gaussian_distribution.md",
     "XX-Attachments/Images/Pasted image 20240429203005.png",
-    "Statistics/Distributions/PERT_distribution.md",
-    "Statistics/Distributions/Triangular_distribution.md",
     "Statistics/Bayes_theorem.md",
     "XX-Attachments/Images/Pasted image 20240429185419.png",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Debugging_ML_algorithms.md",
