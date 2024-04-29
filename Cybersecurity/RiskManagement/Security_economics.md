@@ -25,4 +25,5 @@ ___
 - With software, technical lock in becomes a valuable incentive, where the cost of switching to free software is higher than the cost of a paid software licence  
 
 ## Information asymmetry
-- The phenomena where low quality products drive out high quality ones due to buyers not being able to tell the difference. This leads to a decline in product quality 
+- The phenomena where low quality products drive out high quality ones due to buyers not being able to tell the difference. This leads to cheap low-quality products dominating the market 
+- This often applies to security with poor security products racing to the bottom in price 
