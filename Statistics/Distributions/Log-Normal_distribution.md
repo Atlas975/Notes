@@ -15,7 +15,7 @@ ___
 - Helps in understanding and modelling phenomena where growth, multiplication, and positive constraints are inherently part of the process
 
 ## Probability density function
-$$f(x|\mu,\sigma)=\frac{1}{x\cdot\sigma\cdot \sqrt{ 2\pi }}\cdot e^{-\frac{\log(x-\mu)^2}{2\sigma^2}}$$
+$$f(x|\mu,\sigma)=\frac{1}{x\cdot\sigma\cdot \sqrt{ 2\pi }}\cdot \exp({-\frac{\log(x-\mu)^2}{2\sigma^2}})$$
 
 ## Cumulative distribution function
 
@@ -26,8 +26,8 @@ $$\phi'=\text{CDF of standard normal distribution }$$
 ![[Pasted image 20240429185419.png|400|400]]
 
 
-## Expected value
-$$E(x)=e^{\mu+\frac{\sigma^2}{2}}$$
+## Mean
+$$E(x)=\exp({\mu+\frac{\sigma^2}{2}})$$
 
-## Variance 
+## Expected variance 
 $$\sigma^2=$$
