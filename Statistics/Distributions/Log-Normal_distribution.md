@@ -11,4 +11,9 @@
 
 ___
 # Log-Normal distribution
-- a continuous probability distribution of a random variable whose log is normally distributed
+- A continuous distribution of a random variable whose log is normally distributed
+- Helps in understanding and modelling phenomena where growth, multiplication, and positive constraints are inherently part of the process
+
+
+## Probability density function 
+$$f(x|)$$
