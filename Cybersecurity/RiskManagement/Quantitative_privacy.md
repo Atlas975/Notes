@@ -26,7 +26,12 @@ ___
 ![[Pasted image 20240429131923.png|400|400]]
 ## Ell diversity
 - Ell $(\ell)$ diversity is an extension of K-anonymity where each equivalent class must contain $\ell$ unique values for their sensitive attributes 
-- This susceptible to linkage attacks such as when the datasets's statistical distrinitoo
-
+- This susceptible to linkage attacks such as when the dataset's statistical distribution is known
+- This occurs when the non-sensitive attributes of an individual are known 
 
 ![[Pasted image 20240429134947.png|400|400]]
+
+## t-closeness
+- **Earth Mover’s distance (EMD)**: the minimal amount of work required to transform one distribution to another via moving probability mass between each other.
+
+![[Pasted image 20240429141121.png|400|400]]
