@@ -11,13 +11,13 @@
 
 ___
 # Poisson distribution
-
-- The Poisson distribution is used to show how many times an event is likely to occur over a specific period, in other words it counts distribution. 
+- The discrete distribution used to show how many times an event is likely to occur over a specific period, in other words it counts distribution. 
+- The $\lambda$ is the rate parameter, denotes the typical rate of occurrence
 
 $$P(X=x)=\frac{\mu^{x}e^{-\mu}}{x!}$$
 
 
-$$\mu=\text{ average event occurance}$$
-$$x= \text{the number of time the event occurs}$$
 
 
+## Variance 
+$$\text{Variance}=\lambda$$
