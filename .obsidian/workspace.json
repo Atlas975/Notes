@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "Cybersecurity/RiskManagement/Quantitative_privacy.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -46,8 +46,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Quantitative_privacy.md"
+                "file": "Cybersecurity/RiskManagement/Security_economics.md"
               }
             }
           }
@@ -151,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Quantitative_privacy.md",
+                "file": "Cybersecurity/RiskManagement/Security_economics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Quantitative_privacy.md",
+                "file": "Cybersecurity/RiskManagement/Security_economics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,10 +239,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "bc2314b9e44e2268",
+  "active": "4fee176b247d48dc",
   "lastOpenFiles": [
-    "ContinuousMath/Distance_metrics.md",
     "Cybersecurity/RiskManagement/Quantitative_privacy.md",
+    "XX-Attachments/Images/Pasted image 20240429143220.png",
+    "ContinuousMath/Distance_metrics.md",
     "XX-Attachments/Images/Pasted image 20240429141121.png",
     "XX-Attachments/Images/Pasted image 20240429134947.png",
     "XX-Attachments/Images/Pasted image 20240429134945.png",
@@ -271,13 +271,11 @@
     "Statistics/Bayes_theorem.md",
     "Statistics/Gaussian_distribution.md",
     "XX-Attachments/Images/Pasted image 20240428163703.png",
-    "XX-Attachments/Images/Pasted image 20240428163629.png",
     "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
     "Cybersecurity/EncryptionSchemes/RSA.md",
     "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
     "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
     "Cybersecurity/EncryptionSchemes/Advanced_encryption_standard.md",
-    "Cybersecurity/Operating_system_security.md",
     "Cybersecurity/EncryptionSchemes",
     "Cybersecurity/RiskManagement",
     "Languages&Compilation/Grammars",

@@ -39,4 +39,7 @@ ___
 ![[Pasted image 20240429141121.png|400|400]]
 
 ## Differential privacy
-- A method that's highly resistant to linkage attacks, protects privacy by adding random noise to true answers
+- A method that's highly resistant to linkage attacks, protects privacy by adding random noise to true answers. Works on an interactive query model instead of releasing data
+- The noise that's added is typically sampled from a Laplace distribution 
+
+![[Pasted image 20240429143220.png|400|400]]
