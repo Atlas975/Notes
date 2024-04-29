@@ -6,7 +6,7 @@
 ![[Pasted image 20220130114217.png|450|450]]
 ![[Pasted image 20220130113814.png|450|450]]
 
-# Choosing lambda or degree of polynomial for a training set
+
 - These are known as model selection problems
 - A hypothesis fitting a training set well doesen't guarantee a good fit in terms of how well the hypothesis generalizes to new examples.
 - Training error tends to decrease with the degree of the polynomial

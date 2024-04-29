@@ -17,11 +17,17 @@ ___
 # Gaussian distribution
 - A continuous distribution that is symmetric about the mean, showing that data near the mean are more frequent in occurrence than data far from the mean
 - Defined by two parameters:
-    - **Mean ($\mu$)**: Determines the centre of the distribution.
-    - **Standard Deviation ($\sigma$)**: Measures the dispersion or spread of the distribution
+    - **Mean ($\mu$)**: determines the centre of the distribution.
+    - **Standard Deviation ($\sigma$)**: measures the dispersion of the distribution
+    - **Variance ($\sigma^2$)**:  measures how spread out the numbers are in the distribution
 
-![[Pasted image 20240429181804.png|400|400]]
+![[Pasted image 20240429181804.png|350|350]]
 ## Probability density function
 $$f(x|\mu,\sigma)=\frac{1}{\sigma\cdot \sqrt{ 2\pi }}\cdot e^{-\frac{(x-\mu)^2}{2\sigma^2}}$$
-## Variance 
-$$\text{Variance}=\sigma^2$$
+
+
+## Cumulative  distribution function
+
+$$\Phi(x; \mu, \sigma) = \frac{1}{\sigma \sqrt{2\pi}} \int_{-\infty}^{x} e^{-\frac{(t-\mu)^2}{2\sigma^2}} dt$$
+
+![[Pasted image 20240429182212.png|450|450]]

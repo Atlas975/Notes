@@ -14,6 +14,7 @@ ___
 - A continuous distribution of a random variable whose log is [[Gaussian_distribution|normally  distributed]]
 - Helps in understanding and modelling phenomena where growth, multiplication, and positive constraints are inherently part of the process
 
+![[Pasted image 20240429182030.png|500|500]]
 ## Probability density function
 $$f(x|\mu,\sigma)=\frac{1}{x\cdot\sigma\cdot \sqrt{ 2\pi }}\cdot e^{-\frac{\log(x-\mu)^2}{2\sigma^2}}$$
 
