@@ -122,6 +122,32 @@
             }
           },
           {
+            "id": "034778fe29a61778",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Distributions/Poisson_distribution.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "72a249cde88808d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Distributions/Log-Normal_distribution.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f428b5b4de35eeff",
             "type": "leaf",
             "state": {
@@ -160,8 +186,7 @@
               }
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -229,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Distributions/Gaussian_distribution.md"
+                "file": "Statistics/Distributions/PERT_distribution.md"
               }
             }
           }
@@ -265,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Distributions/Gaussian_distribution.md",
+                "file": "Statistics/Distributions/PERT_distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -282,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Distributions/Gaussian_distribution.md",
+                "file": "Statistics/Distributions/PERT_distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,13 +379,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fcf6a14685043f78",
+  "active": "4fee176b247d48dc",
   "lastOpenFiles": [
+    "Statistics/Distributions/Log-Normal_distribution.md",
     "Statistics/Distributions/Poisson_distribution.md",
+    "Statistics/Distributions/Gaussian_distribution.md",
     "XX-Attachments/Images/Pasted image 20240429203005.png",
     "Statistics/Distributions/PERT_distribution.md",
-    "Statistics/Distributions/Log-Normal_distribution.md",
-    "Statistics/Distributions/Gaussian_distribution.md",
     "Statistics/Distributions/Triangular_distribution.md",
     "Statistics/Bayes_theorem.md",
     "XX-Attachments/Images/Pasted image 20240429185419.png",

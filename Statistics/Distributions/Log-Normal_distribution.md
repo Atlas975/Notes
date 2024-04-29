@@ -16,10 +16,10 @@ ___
 $$\mu=\text{mean of log of random variable}$$
 $$\sigma=\text{standard deviation of log of random variable}$$
 ## Probability density function
-$$f(x|\mu,\sigma)=\frac{1}{x\cdot\sigma\cdot \sqrt{ 2\pi }}\cdot \exp({-\frac{(\ln(x)-\mu)^2}{2\sigma^2}})$$
+$$P(X=x)=\frac{1}{x\cdot\sigma\cdot \sqrt{ 2\pi }}\cdot \exp({-\frac{(\ln(x)-\mu)^2}{2\sigma^2}})$$
 
 ## Cumulative distribution function
-$$\phi\left( \frac{\ln(x)-\mu}{\sigma} \right)$$
+$$P(X\leq x)=\phi\left( \frac{\ln(x)-\mu}{\sigma} \right)$$
 
 
 ![[Pasted image 20240429185419.png|400|400]]

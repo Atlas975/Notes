@@ -23,11 +23,11 @@ ___
 
 ![[Pasted image 20240429181804.png|350|350]]
 ## Probability density function
-$$\frac{1}{\sigma\cdot \sqrt{ 2\pi }}\cdot \exp (-\frac{(x-\mu)^2}{2\sigma^2})$$
+$$P(X=x)=\frac{1}{\sigma\cdot \sqrt{ 2\pi }}\cdot \exp (-\frac{(x-\mu)^2}{2\sigma^2})$$
 
 ## Cumulative distribution function 
 
-$$\phi\left( \frac{x-\mu}{\sigma} \right)$$
+$$P(X\leq{x})=\phi\left( \frac{x-\mu}{\sigma} \right)$$
 
 ![[Pasted image 20240429182212.png|450|450]]
 

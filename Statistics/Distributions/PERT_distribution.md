@@ -26,7 +26,7 @@ ___
 
 
 ## Probability density function
-$$f(x; \ a, b, c) = \frac{(x - a)^{\alpha - 1} \cdot (c - x)^{\beta - 1}}{B(\alpha, \beta) \cdot (c - a)^{\alpha + \beta - 1}}$$
+$$P(X=x) = \frac{(x - a)^{\alpha - 1} \cdot (c - x)^{\beta - 1}}{B(\alpha, \beta) \cdot (c - a)^{\alpha + \beta - 1}}$$
 
 $$\text{where } \alpha = 1 + \frac{4(b - a)}{c - a} \text{ and } \beta = 1 + \frac{4(c - b)}{c - a}, \text{ and } B(\alpha, \beta) \text{ is the Beta function.}$$
 ## Mean

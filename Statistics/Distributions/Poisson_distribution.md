@@ -19,5 +19,11 @@ $$P(X=x)=\frac{\mu^{x}e^{-\mu}}{x!}$$
 
 
 ![[Pasted image 20240429203005.png|450|450]]
+
+
+## Cumulative distribution function 
+- Discrete distribution, so involves summing the PDF for all values in a range 
+
+
 ## Variance 
 $$\text{Variance}=\lambda$$
