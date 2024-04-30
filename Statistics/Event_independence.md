@@ -24,6 +24,8 @@ $$P(A\cap B)=={P}(A)\cdot {P}(B)$$
 
 $$P(X=x\cap Y=y)=P(X=x)\cdot P(Y=y)$$
 
+
+
 ## Discrete random variable independence 
 
 

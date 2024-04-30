@@ -144,6 +144,19 @@
               "type": "markdown",
               "state": {
                 "file": "Statistics/Event_independence.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7813e296b8dc5172",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Bayes_theorem.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -265,7 +278,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -333,7 +346,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Event_independence.md"
+                "file": "Statistics/Bayes_theorem.md"
               }
             }
           }
@@ -369,7 +382,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Event_independence.md",
+                "file": "Statistics/Bayes_theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -386,7 +399,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Event_independence.md",
+                "file": "Statistics/Bayes_theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -458,8 +471,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7f62d2e77e3b7745",
+  "active": "7813e296b8dc5172",
   "lastOpenFiles": [
+    "Statistics/Event_independence.md",
+    "XX-Attachments/Images/Pasted image 20240430191043.png",
     "Statistics/ProbabilityDistributions/Probability_distributions.md",
     "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
     "Statistics/ProbabilityDistributions/Pareto_distribution.md",
@@ -470,7 +485,6 @@
     "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
     "XX-Attachments/Images/Pasted image 20240430171510.png",
     "XX-Attachments/Images/Pasted image 20240430165347.png",
-    "Statistics/Event_independence.md",
     "XX-Attachments/Images/Pasted image 20240430153157.png",
     "XX-Attachments/Images/Pasted image 20240430152951.png",
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
@@ -487,7 +501,6 @@
     "XX-Attachments/Images/Pasted image 20240429182212.png",
     "XX-Attachments/Images/Pasted image 20240429182124.png",
     "XX-Attachments/Images/Pasted image 20240429182030.png",
-    "XX-Attachments/Images/Pasted image 20240429181804.png",
     "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Gaussian_distribution.md",
     "Statistics/Monte_Carlo_method.md",
@@ -496,7 +509,6 @@
     "Statistics/Sampling_methods.md",
     "Statistics/ProbabilityDistributions",
     "Cybersecurity/RiskManagement/Security_economics.md",
-    "Cybersecurity/RiskManagement/Security_models.md",
     "Cybersecurity/EncryptionSchemes",
     "Cybersecurity/RiskManagement",
     "Languages&Compilation/Grammars",
