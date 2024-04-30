@@ -34,6 +34,19 @@
             }
           },
           {
+            "id": "a124ca86959460f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "406444e1bebf0945",
             "type": "leaf",
             "state": {
@@ -446,14 +459,15 @@
   },
   "active": "e1afc47de1288489",
   "lastOpenFiles": [
-    "XX-Attachments/Images/Pasted image 20240430171510.png",
-    "Statistics/ProbabilityDistributions/Poisson_distribution.md",
-    "Statistics/ProbabilityDistributions/Pareto_distribution.md",
-    "Statistics/ProbabilityDistributions/Probability_distributions.md",
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
     "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
+    "Statistics/ProbabilityDistributions/Pareto_distribution.md",
+    "Statistics/ProbabilityDistributions/Probability_distributions.md",
+    "Statistics/ProbabilityDistributions/Poisson_distribution.md",
     "Statistics/ProbabilityDistributions/Triangular_distribution.md",
+    "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
+    "XX-Attachments/Images/Pasted image 20240430171510.png",
     "XX-Attachments/Images/Pasted image 20240430165347.png",
     "Statistics/Event_independence.md",
     "XX-Attachments/Images/Pasted image 20240430153157.png",
@@ -482,7 +496,6 @@
     "Statistics/ProbabilityDistributions",
     "Cybersecurity/RiskManagement/Security_economics.md",
     "Cybersecurity/RiskManagement/Security_models.md",
-    "XX-Attachments/Images/Pasted image 20240429143220.png",
     "Cybersecurity/EncryptionSchemes",
     "Cybersecurity/RiskManagement",
     "Languages&Compilation/Grammars",

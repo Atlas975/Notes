@@ -23,13 +23,11 @@ ___
 
 ## Probability density function
 
-
-
-
-$$ \text{For } a \leq x \leq b: \quad  =\frac{2(x - a)}{(c - a)(b - a)} $$ $$ \text{For } b < x \leq c: \quad =\frac{2(c - x)}{(c - a)(c - b)} $$
+$$P(X=x)= \begin{cases} \frac{2(x-a)}{(c-a)(b-a)} & \text{if } a \leq x < b \\ \frac{2(c-x)}{(c-a)(c-b)} & \text{if } b \leq x \leq c \\ 0 & \text{otherwise} \end{cases}$$
 
 ## Cumulative distribution function
-$$ \text{For } x < a: \quad F(x) = 0 $$ $$ \text{For } x > c: \quad F(x) = 1 $$ $$ \text{For } a \leq x \leq b: \quad F(x) = \frac{(x - a)^2}{(c - a)(b - a)} $$ $$ \text{For } b < x \leq c: \quad F(x) = 1 - \frac{(c - x)^2}{(c - a)(c - b)} $$
+
+$$P(X\leq{x})=\begin{cases} \frac{(x-a)^2}{(c-a)(b-a)} & \text{if } a \leq x < b \\ 1 - \frac{(c-x)^2}{(c-a)(c-b)} & \text{if } b \leq x \leq c \\ 0 & \text{if } x < a \\ 1 & \text{if } x > c \end{cases}$$
 
 ## Mean
 $$\mu = \frac{a + b + c}{3}$$
