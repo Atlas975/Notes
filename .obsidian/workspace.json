@@ -112,6 +112,19 @@
             }
           },
           {
+            "id": "7f62d2e77e3b7745",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Event_independence.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "8581458322f7f0a8",
             "type": "leaf",
             "state": {
@@ -421,8 +434,9 @@
   },
   "active": "97f2172e0b6a7b1f",
   "lastOpenFiles": [
-    "Statistics/ProbabilityDistributions/Probability_distributions.md",
+    "Statistics/Event_independence.md",
     "Statistics/ProbabilityDistributions/Poisson_distribution.md",
+    "Statistics/ProbabilityDistributions/Probability_distributions.md",
     "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",

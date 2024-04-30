@@ -15,6 +15,11 @@ ___
 - For instance if event $A$ has occurred, the probability of event $B$ occurring may be raised, lowered or stay the same. If it stays the same both events are independent of each other
 
 ## Event independence formula 
-$$\mathbb{P}(A\cap B)==\mathbb{P}(A)\cdot \mathbb{P}(B)$$
+$$P(A\cap B)=={P}(A)\cdot {P}(B)$$
 - If this condition holds events A and B are independent 
-- If this is not the case it means the probability of event B has influence over event A and vice versa, this also means $\mathbb{P}(A|B)\neq \mathbb{P}(A)$ and $\mathbb{P}(B|A)\neq \mathbb{P}(B)$
+- If this is not the case it means the probability of event B has influence over event A and vice versa, this also means ${P}(A|B)\neq {P}(A)$ and ${P}(B|A)\neq {P}(B)$
+
+## Discrete random variable independence 
+
+
+## Continuous random variable independence 

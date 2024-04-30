@@ -12,7 +12,7 @@
 ___
 # Poisson distribution
 - The discrete distribution used to show how many times an event is likely to occur over a specific period, in other words it counts distribution. 
-- The $\lambda$ is the rate parameter, denotes the typical rate of occurrence, this is also the variance
+- The $\lambda$ is the rate parameter, this is also the mean and variance
 
 
 
@@ -23,8 +23,8 @@ ___
 
 
 ## Probability mass function
-$$P(X=x)=\frac{\mu^{x}e^{-\mu}}{x!}$$
+$$P(X=x)=\frac{\lambda^{x}e^{-\lambda}}{x!}$$
 
 ## Cumulative distribution function
 
-$$P(X \leq x) = \sum_{i=0}^{x} \frac{\lambda^i e^{-\lambda}}{i!}$$
+$$P(X \leq x) = e^{-\lambda}\cdot\sum_{i=0}^{x} \frac{\lambda^i }{i!}$$
