@@ -73,10 +73,10 @@ t_{1}\in R,t_{2}\in R \text{ such that:}\\
 -   A trivial dependency is a relationship between two attributes in a relation or table, where one attribute (the dependent attribute) is functionally dependent on the other attribute (the determinant attribute).
 -   A trivial dependency occurs when the determinant attribute is a primary key or a candidate key of the relation, and the dependent attribute is completely determined by the determinant attribute and no other attribute in the relation.
 
-# ER-to-relational mapping
+## ER-to-relational mapping
 - In order to obey [[Database_constraints|database constraints]] in an [[Entity_relationship_model|ER]], each relationship mapping requires keys to be managed differently depending on relation types 
 - This mapping also impacts how [[SQL_relations|deletion]] of a tuple should be handled  
-## 1:1 Relationships
+### 1:1 Relationships
 - Relation S should include the primary key of T as a foreign key (or vise versa)
 
 ![[Pasted image 20230205131826.png|450|450]]
@@ -94,7 +94,7 @@ CREATE TABLE passport_details (
     FOREIGN KEY (person_id) REFERENCES people(id)
 );
 ```
-## 1:N Relationships
+### 1:N Relationships
 - Relation S should include the primary key of T as a foreign key
 - Each entity in relation S is related to at most one relation from T (primary key constraint)
 
@@ -114,7 +114,7 @@ CREATE TABLE employees (
     FOREIGN KEY (department_id) REFERENCES departments(id)
 );
 ```
-## M:N Relationships
+### M:N Relationships
 - Keys from both relations should form a unique tuple, forming a new relation R
 - R acts as the primary key for T and S
 

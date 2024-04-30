@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Bottom-up_parsing.md",
+                "file": "MediaCoding/ImageMatching/Gaussian_pyramid.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -320,8 +320,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "3c8c11216e62f58c",
@@ -334,7 +333,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Bottom-up_parsing.md"
+                "file": "MediaCoding/ImageMatching/Gaussian_pyramid.md"
               }
             }
           }
@@ -342,8 +341,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -370,7 +368,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Bottom-up_parsing.md",
+                "file": "MediaCoding/ImageMatching/Gaussian_pyramid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -387,7 +385,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Bottom-up_parsing.md",
+                "file": "MediaCoding/ImageMatching/Gaussian_pyramid.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -461,36 +459,36 @@
   },
   "active": "eea4282e55f8cfeb",
   "lastOpenFiles": [
-    "MediaCoding/DiscreteCosineTansform/JPEG.md",
-    "MediaCoding/ImageMatching/Harris_corner_detection.md",
-    "MediaCoding/Filters/Pooling.md",
+    "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
+    "MediaCoding/ImageMatching/Image_features.md",
+    "MediaCoding/ImageMatching/Image_matching.md",
+    "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
     "MediaCoding/Convolutions/Convolution.md",
-    "MediaCoding/Convolutions/Depthwise_convolution.md",
-    "Cybersecurity/Network_security.md",
-    "Cybersecurity/RiskManagement/Security_models.md",
-    "Cybersecurity/RiskManagement/Access_controls.md",
-    "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
-    "Cybersecurity/RiskManagement/Security_economics.md",
-    "Cybersecurity/RiskManagement/Security_principles.md",
-    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
-    "Cybersecurity/Operating_system_security.md",
-    "Cybersecurity/RiskManagement/Quantitative_privacy.md",
-    "Cybersecurity/RiskManagement/Risk_management.md",
-    "Cybersecurity/Cryptography.md",
-    "Cybersecurity/Hashing.md",
-    "Cybersecurity/Keys.md",
-    "Cybersecurity/PKCS7.md",
-    "Cybersecurity/Salt.md",
-    "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
+    "OperatingSystems/Caching.md",
+    "OperatingSystems/FileSystems/Unix_file_system.md",
+    "OperatingSystems/FileSystems/File_systems.md",
+    "OperatingSystems/FileSystems/File_allocation_schemes.md",
+    "Networking/Transmission_mediums.md",
+    "Networking/Routing_protocols.md",
+    "Networking/Protocol_stack.md",
+    "Networking/Network_delay.md",
+    "Networking/Internet_protocol.md",
+    "Networking/Internet_architecture.md",
+    "Networking/TransportProtocols/Network_address_translation.md",
+    "DistributedSystems/Two_general_problem.md",
+    "DistributedSystems/Time_keeping.md",
+    "DistributedSystems/Distributed_systems.md",
+    "DistributedSystems/Byzantine_generals_problem.md",
+    "Databases/Relational_algebra.md",
+    "Databases/Query_optimisation.md",
+    "Databases/Database_relations.md",
+    "Databases/Database_keys.md",
+    "Databases/Database_design.md",
     "XX-Attachments/Images/Pasted image 20240430210154.png",
     "XX-Attachments/Images/Pasted image 20240430205811.png",
     "XX-Attachments/Images/Pasted image 20240430205553.png",
     "XX-Attachments/Images/Pasted image 20240430205356.png",
-    "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
-    "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
-    "Statistics/ProbabilityDistributions/Pareto_distribution.md",
-    "Statistics/ProbabilityDistributions/PERT_distribution.md",
-    "Statistics/ProbabilityDistributions/Poisson_distribution.md",
     "XX-Attachments/Images/Pasted image 20240430201138.png",
     "XX-Attachments/Images/Pasted image 20240430200514.png",
     "XX-Attachments/Images/Pasted image 20240430191043.png",

@@ -55,7 +55,7 @@ ___
 - Involves a modified guest OS that's virtualisation aware, prevents issues regarding instructions behaving differently depending on ring level
 - Guest OS makes a special kind of [[Operating_system_design#System calls|system call]] known as a **hypercall** to the underlying operating system for privileged instructions 
 
-![[Pasted image 20230116183857.png|550|550]]
+![[Pasted image 20230116183857.png|400|400]]
 
 - While it's safer and more efficient for a guest OS to be aware of itself being in a virtual environment, this ideally should not be visible to applications as these should behave identically regardless of mode
 

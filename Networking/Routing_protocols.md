@@ -77,15 +77,15 @@ ___
 -   OSPF (Open Shortest Path First) is a link-state routing protocol used in computer networks to determine the best path for forwarding packets of data from one network node to another.
 -   OSPF uses a hierarchical network design with areas, allowing for efficient use of network resources and easier network management.
 -   Supports multiple paths to a dst and can quickly adapt to changes in the network topology.
-### OSPF scaling 
+### OSPF scaling
 - [[Link_state_routing|Link state]] flood ads in single area / backbone 
 - Each node only knows the direction in which to reach other destinations
 
 ![[Pasted image 20230510085807.png|500|500]]
 ## BGP
 -   BGP (Border Gateway Protocol) is an interdomain routing protocol used in the internet to exchange routing information between different autonomous systems (AS). BGP provides ASs a means to: 
--   BGP uses a path vector algorithm to select the best path for forwarding packets across different AS.
--   BGP allows for policy-based routing, which gives network administrators more control over how traffic flows across different networks. Largest based on **business relationships**
+-   Uses a path vector algorithm to select the best path for forwarding packets across different AS.
+-   Allows for policy-based routing, which gives network administrators more control over how traffic flows across different networks. Largest based on **business relationships**
 
 ![[Pasted image 20230510015246.png|450|450]]
 
@@ -97,6 +97,6 @@ ___
 
 
 
-## Policy-based routing 
-- Gateway receiving route ad uses **import policy** to accept/decline path (eg never route through AS Y).
+## Policy-based routing
+- Gateway receiving route ad uses **import policy** to accept/decline (eg never route through AS Y).
 - AS policy also determines whether to advertise path to other other neighbouring ASes
