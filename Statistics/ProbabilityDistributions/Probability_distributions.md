@@ -2,6 +2,7 @@
 aliases:
   - distribution
 ---
+
 > [!important]- Metadata
 > **Tags:** #Statistics 
 > **Located:** Statistics/ProbabilityDistributions
@@ -39,9 +40,7 @@ ___
 
 $$\text{Discrete }E[X] = \sum (x \cdot P(x))$$
 $$\text{Continuous } E[X] = \int x \cdot f(x) \, dx$$
-## Joint distribution 
-- **Discrete variables**: defined by the PM
-## Variance 
+## Variance
 - Measures the spread of the data in a distribution. It is the expected value of the squared deviation of a random variable from its mean.
 - Denoted by $\sigma^2$
 ## Standard Deviation
@@ -56,4 +55,15 @@ $$\text{Continuous } E[X] = \int x \cdot f(x) \, dx$$
 - **Kurtosis:** Measures the 'tailedness' of the distribution. High kurtosis indicates a distribution with heavy tails and a sharp peak, while low kurtosis indicates a flatter distribution.
 
 ![[Pasted image 20240430153157.png|300|300]]
+
+## Joint distribution
+- **Discrete variables**: PMF $P(X=x\cap Y=y)$, gives the $P$ of  $X$ and $Y$ occurring simultaneously 
+
+![[Pasted image 20240430200514.png|350|350]]
+
+- **Continuous variables**: PDF $f_{X,Y}(x,y)$, indicating the density of $P$ at any point for $X$ and $Y$
+    - $\text{Joint }\mu=\mu_{X}+\mu_{Y}$ 
+    - $\text{Joint }\sigma=\sqrt{ \sigma_{X}^2+\sigma_{Y}^2 }$
+
+![[Pasted image 20240430201138.png|350|350]]
 

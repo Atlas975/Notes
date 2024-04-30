@@ -125,13 +125,13 @@
             }
           },
           {
-            "id": "d7ee489dc96b46d0",
+            "id": "1c4c9f9563c9eeee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Statistics/ProbabilityDistributions/Probability_distributions.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -290,7 +290,7 @@
       {
         "id": "686f58e7afd14325",
         "type": "tabs",
-        "dimension": 73.95061728395062,
+        "dimension": 63.42123056118999,
         "children": [
           {
             "id": "61b6b073dac95afd",
@@ -338,7 +338,7 @@
       {
         "id": "3c8c11216e62f58c",
         "type": "tabs",
-        "dimension": 26.049382716049386,
+        "dimension": 36.578769438810006,
         "children": [
           {
             "id": "f9ef0de97216c2fd",
@@ -471,14 +471,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d7ee489dc96b46d0",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
-    "Statistics/Event_independence.md",
+    "XX-Attachments/Images/Pasted image 20240430201138.png",
     "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
+    "Statistics/ProbabilityDistributions/Probability_distributions.md",
+    "XX-Attachments/Images/Pasted image 20240430200514.png",
+    "Statistics/Event_independence.md",
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "Statistics/Bayes_theorem.md",
     "XX-Attachments/Images/Pasted image 20240430191043.png",
-    "Statistics/ProbabilityDistributions/Probability_distributions.md",
     "Statistics/ProbabilityDistributions/Pareto_distribution.md",
     "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
     "Statistics/ProbabilityDistributions/Poisson_distribution.md",
@@ -500,7 +502,6 @@
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Debugging_ML_algorithms.md",
     "XX-Attachments/Images/Pasted image 20240429182212.png",
     "XX-Attachments/Images/Pasted image 20240429182124.png",
-    "XX-Attachments/Images/Pasted image 20240429182030.png",
     "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Gaussian_distribution.md",
     "Statistics/Monte_Carlo_method.md",
