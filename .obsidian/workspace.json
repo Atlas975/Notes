@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
+                "file": "Statistics/ProbabilityDistributions/Poisson_distribution.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -67,6 +67,32 @@
               "state": {
                 "file": "Statistics/ProbabilityDistributions/PERT_distribution.md",
                 "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eea4282e55f8cfeb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d7ee489dc96b46d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/ProbabilityDistributions/Probability_distributions.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -186,8 +212,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -255,7 +280,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md"
+                "file": "Statistics/ProbabilityDistributions/Poisson_distribution.md"
               }
             }
           }
@@ -290,7 +315,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
+                "file": "Statistics/ProbabilityDistributions/Poisson_distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +332,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
+                "file": "Statistics/ProbabilityDistributions/Poisson_distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -379,20 +404,23 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "406444e1bebf0945",
+  "active": "38b818a1c7ffbb7c",
   "lastOpenFiles": [
+    "Statistics/ProbabilityDistributions/PERT_distribution.md",
+    "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
+    "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
+    "Statistics/ProbabilityDistributions/Probability_distributions.md",
+    "XX-Attachments/Images/Pasted image 20240430153157.png",
+    "XX-Attachments/Images/Pasted image 20240430152951.png",
+    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/IntensityTransforms/Log_transform.md",
     "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
     "MediaCoding/ImageMatching/Laplacian_pyramid.md",
     "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
     "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
-    "Statistics/ProbabilityDistributions/Probability_distributions.md",
-    "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
-    "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
     "Statistics/ProbabilityDistributions/Poisson_distribution.md",
     "Statistics/ProbabilityDistributions/Triangular_distribution.md",
-    "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "XX-Attachments/Images/Pasted image 20240429203005.png",
     "Statistics/Bayes_theorem.md",
     "XX-Attachments/Images/Pasted image 20240429185419.png",
@@ -412,12 +440,8 @@
     "Cybersecurity/RiskManagement/Security_models.md",
     "Cybersecurity/Network_security.md",
     "Cybersecurity/Operating_system_security.md",
-    "Cybersecurity/Salt.md",
-    "Cybersecurity/PKCS7.md",
     "XX-Attachments/Images/Pasted image 20240429143220.png",
     "XX-Attachments/Images/Pasted image 20240429141121.png",
-    "XX-Attachments/Images/Pasted image 20240429134947.png",
-    "XX-Attachments/Images/Pasted image 20240429134945.png",
     "Cybersecurity/EncryptionSchemes",
     "Cybersecurity/RiskManagement",
     "Languages&Compilation/Grammars",
