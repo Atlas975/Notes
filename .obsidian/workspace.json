@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Probability_distributions.md",
+                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -255,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Probability_distributions.md"
+                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md"
               }
             }
           }
@@ -263,8 +263,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -291,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Probability_distributions.md",
+                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -308,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Probability_distributions.md",
+                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -382,8 +381,14 @@
   },
   "active": "406444e1bebf0945",
   "lastOpenFiles": [
-    "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
+    "MediaCoding/IntensityTransforms/Log_transform.md",
+    "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
+    "MediaCoding/ImageMatching/Laplacian_pyramid.md",
+    "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
+    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
+    "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "Statistics/ProbabilityDistributions/Probability_distributions.md",
+    "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
     "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
     "Statistics/ProbabilityDistributions/Poisson_distribution.md",
     "Statistics/ProbabilityDistributions/Triangular_distribution.md",
@@ -409,16 +414,10 @@
     "Cybersecurity/Operating_system_security.md",
     "Cybersecurity/Salt.md",
     "Cybersecurity/PKCS7.md",
-    "Cybersecurity/Hashing.md",
-    "Cybersecurity/Cryptography.md",
-    "Cybersecurity/RiskManagement/Security_principles.md",
-    "Cybersecurity/RiskManagement/Quantitative_privacy.md",
     "XX-Attachments/Images/Pasted image 20240429143220.png",
-    "ContinuousMath/Distance_metrics.md",
     "XX-Attachments/Images/Pasted image 20240429141121.png",
     "XX-Attachments/Images/Pasted image 20240429134947.png",
     "XX-Attachments/Images/Pasted image 20240429134945.png",
-    "Economics/Banking_systems.md",
     "Cybersecurity/EncryptionSchemes",
     "Cybersecurity/RiskManagement",
     "Languages&Compilation/Grammars",
