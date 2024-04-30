@@ -22,7 +22,6 @@ ___
 - **Discrete Distributions:** involves outcomes that are counted as whole numbers (eg [[Poisson_distribution|Poisson]])
 - **Continuous Distributions:** involves outcomes that can take any value in an interval (eg [[Gaussian_distribution|Normal]])
 ## Probability mass function (PMF)
-
 - **Applies to:** discrete random variables.
 - **Definition:** gives the probability that a discrete random variable is exactly equal to some value.
 - **Example:** in a fair die roll, the PMF would give a probability of $\frac{1}{6}$ for any specific face.
@@ -40,7 +39,8 @@ ___
 
 $$\text{Discrete }E[X] = \sum (x \cdot P(x))$$
 $$\text{Continuous } E[X] = \int x \cdot f(x) \, dx$$
-
+## Joint distribution 
+- **Discrete variables**: defined by the PM
 ## Variance 
 - Measures the spread of the data in a distribution. It is the expected value of the squared deviation of a random variable from its mean.
 - Denoted by $\sigma^2$

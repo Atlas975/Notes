@@ -131,7 +131,7 @@
               "type": "markdown",
               "state": {
                 "file": "Statistics/ProbabilityDistributions/Probability_distributions.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -144,7 +144,7 @@
               "type": "markdown",
               "state": {
                 "file": "Statistics/Event_independence.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -278,7 +278,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -346,7 +346,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Bayes_theorem.md"
+                "file": "Statistics/ProbabilityDistributions/Probability_distributions.md"
               }
             }
           }
@@ -382,7 +382,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Bayes_theorem.md",
+                "file": "Statistics/ProbabilityDistributions/Probability_distributions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -399,7 +399,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Bayes_theorem.md",
+                "file": "Statistics/ProbabilityDistributions/Probability_distributions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -471,15 +471,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7813e296b8dc5172",
+  "active": "d7ee489dc96b46d0",
   "lastOpenFiles": [
     "Statistics/Event_independence.md",
+    "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
+    "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "Statistics/Bayes_theorem.md",
     "XX-Attachments/Images/Pasted image 20240430191043.png",
     "Statistics/ProbabilityDistributions/Probability_distributions.md",
-    "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
     "Statistics/ProbabilityDistributions/Pareto_distribution.md",
-    "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
     "Statistics/ProbabilityDistributions/Poisson_distribution.md",
     "Statistics/ProbabilityDistributions/Triangular_distribution.md",
