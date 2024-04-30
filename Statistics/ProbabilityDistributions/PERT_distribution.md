@@ -16,9 +16,8 @@ aliases:
 
 ___
 # PERT distribution
-- A continuous [[Probability_distributions|distribution]] often used in project management and [[Risk_management|risk analysis]].
+- A continuous [[Probability_distributions|distribution]] with a rounded triangular shape 
 - Used in [[Risk_management|risk analysis]] to model task durations under uncertainty, particularly when a more refined estimate than a [[Triangular_distribution|triangular distribution]] is required
-- Stands for "Program Evaluation and Review Technique".
 - Defined by three parameters:
     - a = minimum (optimistic) value 
     - b = most likely (mode) value
@@ -26,6 +25,7 @@ ___
 - These three parameters fall in the range $a\leq{b}\leq{c}$
 
 
+![[Pasted image 20240430165347.png|300|300]]
 ## Probability density function
 $$P(X=x) = \frac{(x - a)^{\alpha - 1} \cdot (c - x)^{\beta - 1}}{B(\alpha, \beta) \cdot (c - a)^{\alpha + \beta - 1}}$$
 $$\text{where} \quad \alpha = 1 + \frac{4(b - a)}{c - a} \quad \text{and} \quad \beta = 1 + \frac{4(c - b)}{c - a}$$

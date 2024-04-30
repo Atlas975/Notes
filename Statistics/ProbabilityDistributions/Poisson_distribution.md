@@ -17,10 +17,6 @@ ___
 
 
 ![[Pasted image 20240429203005.png|450|450]]
-
-
-
-
 ## Probability mass function
 $$P(X=x)=\frac{\lambda^{x}e^{-\lambda}}{x!}$$
 
