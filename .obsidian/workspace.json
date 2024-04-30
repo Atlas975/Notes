@@ -144,7 +144,7 @@
               "type": "markdown",
               "state": {
                 "file": "Statistics/Event_independence.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -265,7 +265,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -333,7 +333,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Probability_distributions.md"
+                "file": "Statistics/Event_independence.md"
               }
             }
           }
@@ -369,7 +369,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Probability_distributions.md",
+                "file": "Statistics/Event_independence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -386,7 +386,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Probability_distributions.md",
+                "file": "Statistics/Event_independence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -458,14 +458,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d7ee489dc96b46d0",
+  "active": "7f62d2e77e3b7745",
   "lastOpenFiles": [
+    "Statistics/ProbabilityDistributions/Probability_distributions.md",
     "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
     "Statistics/ProbabilityDistributions/Pareto_distribution.md",
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
     "Statistics/ProbabilityDistributions/Poisson_distribution.md",
-    "Statistics/ProbabilityDistributions/Probability_distributions.md",
     "Statistics/ProbabilityDistributions/Triangular_distribution.md",
     "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
     "XX-Attachments/Images/Pasted image 20240430171510.png",

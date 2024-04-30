@@ -19,6 +19,11 @@ $$P(A\cap B)=={P}(A)\cdot {P}(B)$$
 - If this condition holds events A and B are independent 
 - If this is not the case it means the probability of event B has influence over event A and vice versa, this also means ${P}(A|B)\neq {P}(A)$ and ${P}(B|A)\neq {P}(B)$
 
+## Random variable independence 
+- Random variables are independent if the occurrence of variable $X$ does not impact $Y$
+
+$$P(X=x\cap Y=y)=P(X=x)\cdot P(Y=y)$$
+
 ## Discrete random variable independence 
 
 
