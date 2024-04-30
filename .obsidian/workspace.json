@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
+                "file": "Languages&Compilation/Bottom-up_parsing.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -295,7 +295,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "botto",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -320,7 +320,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "3c8c11216e62f58c",
@@ -333,7 +334,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md"
+                "file": "Languages&Compilation/Bottom-up_parsing.md"
               }
             }
           }
@@ -341,7 +342,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -368,7 +370,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
+                "file": "Languages&Compilation/Bottom-up_parsing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -385,7 +387,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
+                "file": "Languages&Compilation/Bottom-up_parsing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -459,6 +461,7 @@
   },
   "active": "eea4282e55f8cfeb",
   "lastOpenFiles": [
+    "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
     "MediaCoding/Filters/Pooling.md",
     "MediaCoding/Convolutions/Convolution.md",
@@ -488,7 +491,6 @@
     "Statistics/ProbabilityDistributions/Pareto_distribution.md",
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "Statistics/ProbabilityDistributions/Poisson_distribution.md",
-    "Statistics/ProbabilityDistributions/Triangular_distribution.md",
     "XX-Attachments/Images/Pasted image 20240430201138.png",
     "XX-Attachments/Images/Pasted image 20240430200514.png",
     "XX-Attachments/Images/Pasted image 20240430191043.png",
