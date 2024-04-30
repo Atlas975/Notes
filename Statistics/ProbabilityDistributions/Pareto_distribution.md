@@ -26,5 +26,9 @@ $$P(X\leq{x})= \begin{cases} 1 - \left(\frac{x_m}{x}\right)^\alpha & \text{if } 
 
 ![[Pasted image 20240430171510.png|450|450]]
 
+## Mean
 
-## Expectation
+$$\mu = \begin{cases} \frac{\alpha x_m}{\alpha - 1} & \text{if } \alpha > 1 \\ \infty & \text{if } \alpha \leq 1 \end{cases}$$
+
+## Variance 
+$$\text{Var}(X) = \begin{cases} \left(\frac{x_m}{\alpha - 1}\right)^2 \frac{\alpha}{\alpha - 2} & \text{if } \alpha > 2 \\ \infty & \text{if } \alpha \in (1, 2] \end{cases}$$

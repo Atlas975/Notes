@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Pareto_distribution.md",
-                "mode": "source",
+                "file": "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -333,7 +333,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Pareto_distribution.md"
+                "file": "Statistics/ProbabilityDistributions/Gaussian_distribution.md"
               }
             }
           }
@@ -368,7 +368,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Pareto_distribution.md",
+                "file": "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -385,7 +385,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Pareto_distribution.md",
+                "file": "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -459,12 +459,12 @@
   },
   "active": "e1afc47de1288489",
   "lastOpenFiles": [
-    "Statistics/ProbabilityDistributions/PERT_distribution.md",
-    "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
-    "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
     "Statistics/ProbabilityDistributions/Pareto_distribution.md",
-    "Statistics/ProbabilityDistributions/Probability_distributions.md",
+    "Statistics/ProbabilityDistributions/PERT_distribution.md",
+    "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
+    "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
     "Statistics/ProbabilityDistributions/Poisson_distribution.md",
+    "Statistics/ProbabilityDistributions/Probability_distributions.md",
     "Statistics/ProbabilityDistributions/Triangular_distribution.md",
     "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
     "XX-Attachments/Images/Pasted image 20240430171510.png",
