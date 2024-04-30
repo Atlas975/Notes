@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
+                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -333,7 +333,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md"
+                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md"
               }
             }
           }
@@ -341,8 +341,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -369,7 +368,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
+                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -386,7 +385,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
+                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -460,6 +459,7 @@
   },
   "active": "eea4282e55f8cfeb",
   "lastOpenFiles": [
+    "MediaCoding/ImageMatching/Harris_corner_detection.md",
     "MediaCoding/Filters/Pooling.md",
     "MediaCoding/Convolutions/Convolution.md",
     "MediaCoding/Convolutions/Depthwise_convolution.md",
@@ -489,7 +489,6 @@
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "Statistics/ProbabilityDistributions/Poisson_distribution.md",
     "Statistics/ProbabilityDistributions/Triangular_distribution.md",
-    "Statistics/ProbabilityDistributions/Probability_distributions.md",
     "XX-Attachments/Images/Pasted image 20240430201138.png",
     "XX-Attachments/Images/Pasted image 20240430200514.png",
     "XX-Attachments/Images/Pasted image 20240430191043.png",
