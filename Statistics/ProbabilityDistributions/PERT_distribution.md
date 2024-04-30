@@ -34,6 +34,7 @@ $$\text{where} \quad \alpha = 1 + \frac{4(b - a)}{c - a} \quad \text{and} \quad 
 $$P(X=x) = I_{\frac{x-a}{c-a}}(\alpha, \beta)$$
 $$\text{where} \quad \alpha = 1 + \frac{4(b - a)}{c - a} \quad \text{and} \quad \beta = 1 + \frac{4(c - b)}{c - a}$$
 $$\text{and \( I \) is the regularized incomplete Beta function.}$$
+
 ## Mean
 $$\mu = \frac{a + 4b + c}{6}$$
 ## Variance
