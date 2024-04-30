@@ -22,8 +22,6 @@ ___
 	2. Fit an ellipse to that set of points via scatter matrix
 	3. Analyse ellipse parameters for varying cases
 
-
-
 ![[Pasted image 20240323181714.png|350|350]]
 ## Small motion assumption
 - Assumes that pixel shifts are so slight that the image's intensity change can be estimated using only the first-order gradient information 

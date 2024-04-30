@@ -18,12 +18,12 @@ ___
 - Ensures that information flows in a controlled manner, generally preventing information from flowing from higher classified levels to lower ones
 -  Uses a set of access control rules based on security labels (classification levels) assigned to both subjects and objects
 ### Key properties
-- **No read-up**: A subject may not read data at a higher security level than it possesses
-- **No write-down**: : A subject may not write to any data at a lower security level than it's own
+- **No read-up**: A subject may not read data at a higher security level 
+- **No write-down**: : A subject may not write (but can read) to data at a lower security level
 ## Biba model 
 - Focuses on **integrity** and is ideal for environments where data corruption poses a risk
 - Ensures that data remains accurate and uncorrupted by preventing improper data modification and ensuring that higher integrity levels are not influenced by lower ones.
 
 ### Key properties 
-- **No write-up**:  subject may not write data to a higher integrity level than its own
-- **No read-down** subject may not read data from a lower integrity level than it's own
+- **No write-up**:  subject may not write (but can read) data to a higher integrity level 
+- **No read-down** subject may not read data from a lower integrity level 
