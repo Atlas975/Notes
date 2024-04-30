@@ -16,7 +16,8 @@ aliases:
 
 ___
 # PERT distribution
-- A continuous probability distribution often used in project management and [[Risk_management|risk analysis]].
+- A continuous [[Probability_distributions|distribution]] often used in project management and [[Risk_management|risk analysis]].
+- Used in [[Risk_management|risk analysis]] to model task durations under uncertainty, particularly when a more refined estimate than a [[Triangular_distribution|triangular distribution]] is required
 - Stands for "Program Evaluation and Review Technique".
 - Defined by three parameters:
     - a = minimum (optimistic) value 

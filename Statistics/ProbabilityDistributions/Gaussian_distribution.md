@@ -15,7 +15,8 @@ aliases:
 
 ___
 # Gaussian distribution
-- A continuous distribution that is symmetric about the mean, showing that data near the mean is more frequent in occurrence than data far from the mean
+- A continuous [[Probability_distributions|distribution]] that is symmetric about the mean
+- Chosen for variables that naturally form a symmetrical bell curve due to many small, random disturbances (e.g., human heights, measurement errors)
 - Defined by the following parameters:
     - **Mean ($\mu$)**: determines the centre of the distribution.
     - **Standard Deviation ($\sigma$)**: measures the dispersion of the distribution

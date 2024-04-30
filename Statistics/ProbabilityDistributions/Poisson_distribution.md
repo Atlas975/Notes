@@ -11,10 +11,9 @@
 
 ___
 # Poisson distribution
-- The discrete distribution used to show how many times an event is likely to occur over a specific period, in other words it counts distribution. 
+- The discrete [[Probability_distributions|distribution]] that assumes a constant mean rate
+- Used when modelling the number of events in a fixed interval, especially for rare or random events (e.g., number of system failures, phone calls to a help desk)
 - The $\lambda$ is the rate parameter, this is also the mean and variance
-
-
 
 
 ![[Pasted image 20240429203005.png|450|450]]

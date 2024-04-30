@@ -11,9 +11,13 @@
 
 ___
 # Triangular distribution
-- A continuous probability distribution with a shape that forms a triangle. 
+- A continuous probability [[Probability_distributions|distribution]] with a shape that forms a triangle. 
+- Applied in scenarios with limited data but known min, max, and mode, often in preliminary simulations (e.g., cost estimation under uncertainty)
 - Preferred over the [[PERT_distribution|Beta distribution]] when doing a project for the first time
-- Defined by three parameters: minimum (optimistic) value a, most likely (mode) value c, and  maximum (pessimistic) value b.
+- Defined by three parameters:
+    - a = minimum (optimistic) value 
+    - b = most likely (mode) value
+    - c = maximum (pessimistic) value 
 - These three parameters fall in the range $a\leq{b}\leq{c}$
 
 

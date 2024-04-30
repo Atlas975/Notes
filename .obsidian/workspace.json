@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Triangular_distribution.md",
+                "file": "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e1afc47de1288489",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -65,6 +78,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Statistics/ProbabilityDistributions/Triangular_distribution.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c12d859bceac6446",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Statistics/ProbabilityDistributions/PERT_distribution.md",
                 "mode": "source",
                 "backlinks": false,
@@ -93,19 +119,6 @@
               "state": {
                 "file": "Statistics/ProbabilityDistributions/Probability_distributions.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "97f2172e0b6a7b1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/ProbabilityDistributions/Poisson_distribution.md",
-                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -239,7 +252,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -307,7 +320,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Poisson_distribution.md"
+                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md"
               }
             }
           }
@@ -315,8 +328,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -343,7 +355,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Poisson_distribution.md",
+                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -360,7 +372,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Poisson_distribution.md",
+                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -432,15 +444,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "97f2172e0b6a7b1f",
+  "active": "e1afc47de1288489",
   "lastOpenFiles": [
-    "Statistics/Event_independence.md",
-    "Statistics/ProbabilityDistributions/Poisson_distribution.md",
-    "Statistics/ProbabilityDistributions/Probability_distributions.md",
     "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
-    "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
+    "Statistics/ProbabilityDistributions/Poisson_distribution.md",
     "Statistics/ProbabilityDistributions/Triangular_distribution.md",
+    "Statistics/ProbabilityDistributions/Probability_distributions.md",
+    "Statistics/ProbabilityDistributions/PERT_distribution.md",
+    "Statistics/Event_independence.md",
     "XX-Attachments/Images/Pasted image 20240430153157.png",
     "XX-Attachments/Images/Pasted image 20240430152951.png",
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",

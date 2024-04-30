@@ -11,8 +11,9 @@
 
 ___
 # Log-Normal distribution
-- A continuous distribution of a random variable whose log is [[Gaussian_distribution|normally  distributed]]
-- Helps in understanding and modelling phenomena where growth, multiplication, and positive constraints are inherently part of the process
+- A continuous [[Probability_distributions|distribution]] of a random variable whose log is [[Gaussian_distribution|normally distributed]]
+- Selected for data that is positively skewed, often where the variable is a product of many independent factors (e.g., income levels, time to failure of components)
+
 $$\mu=\text{mean of log of random variable}$$
 $$\sigma=\text{standard deviation of log of random variable}$$
 ## Probability density function
@@ -26,7 +27,7 @@ $$P(X\leq x)=\phi\left( \frac{\ln(x)-\mu}{\sigma} \right)$$
 
 
 ## Expectation
-$$E(x)=\exp(\mu+\frac{\sigma^2}{2})$$
+$$E(x)=\exp(\mu+\frac{\sigma^2}{2})e$$
 
 ## Variance
 $$\text{Var}(x)=e^{2\cdot\mu+\sigma^2}(e^{\sigma^2}-1)$$
