@@ -15,8 +15,8 @@ aliases:
 
 ___
 # Gaussian distribution
-- A continuous distribution that is symmetric about the mean, showing that data near the mean are more frequent in occurrence than data far from the mean
-- Defined by two parameters:
+- A continuous distribution that is symmetric about the mean, showing that data near the mean is more frequent in occurrence than data far from the mean
+- Defined by the following parameters:
     - **Mean ($\mu$)**: determines the centre of the distribution.
     - **Standard Deviation ($\sigma$)**: measures the dispersion of the distribution
     - **Variance ($\sigma^2$)**:  measures how spread out the numbers are in the distribution

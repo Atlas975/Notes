@@ -13,8 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Distributions/Triangular_distribution.md",
-                "mode": "source",
+                "file": "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "406444e1bebf0945",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/ProbabilityDistributions/Probability_distributions.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -26,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Distributions/Gaussian_distribution.md",
+                "file": "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -39,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Distributions/Gaussian_distribution.md",
+                "file": "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -52,8 +65,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Distributions/PERT_distribution.md",
-                "mode": "preview",
+                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -65,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Distributions/Gaussian_distribution.md",
+                "file": "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -101,7 +114,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Distributions/Gaussian_distribution.md",
+                "file": "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -114,7 +127,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Distributions/Poisson_distribution.md",
+                "file": "Statistics/ProbabilityDistributions/Poisson_distribution.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -127,7 +140,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Distributions/Log-Normal_distribution.md",
+                "file": "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -173,7 +186,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -241,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Distributions/Triangular_distribution.md"
+                "file": "Statistics/ProbabilityDistributions/Probability_distributions.md"
               }
             }
           }
@@ -277,7 +291,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Distributions/Triangular_distribution.md",
+                "file": "Statistics/ProbabilityDistributions/Probability_distributions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,7 +308,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Distributions/Triangular_distribution.md",
+                "file": "Statistics/ProbabilityDistributions/Probability_distributions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -366,13 +380,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "38b818a1c7ffbb7c",
+  "active": "406444e1bebf0945",
   "lastOpenFiles": [
-    "Statistics/Distributions/PERT_distribution.md",
-    "Statistics/Distributions/Gaussian_distribution.md",
-    "Statistics/Distributions/Triangular_distribution.md",
-    "Statistics/Distributions/Log-Normal_distribution.md",
-    "Statistics/Distributions/Poisson_distribution.md",
+    "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
+    "Statistics/ProbabilityDistributions/Probability_distributions.md",
+    "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
+    "Statistics/ProbabilityDistributions/Poisson_distribution.md",
+    "Statistics/ProbabilityDistributions/Triangular_distribution.md",
+    "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "XX-Attachments/Images/Pasted image 20240429203005.png",
     "Statistics/Bayes_theorem.md",
     "XX-Attachments/Images/Pasted image 20240429185419.png",
@@ -387,7 +402,7 @@
     "Statistics/Random_variables.md",
     "Statistics/Sample_space.md",
     "Statistics/Sampling_methods.md",
-    "Statistics/Distributions",
+    "Statistics/ProbabilityDistributions",
     "Cybersecurity/RiskManagement/Security_economics.md",
     "Cybersecurity/RiskManagement/Security_models.md",
     "Cybersecurity/Network_security.md",
