@@ -117,20 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1c4c9f9563c9eeee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/ProbabilityDistributions/Probability_distributions.md",
+                "file": "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -278,7 +265,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -346,7 +333,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Probability_distributions.md"
+                "file": "Cybersecurity/RiskManagement/Cyber_threat_analysis.md"
               }
             }
           }
@@ -354,8 +341,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -382,7 +368,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Probability_distributions.md",
+                "file": "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -399,7 +385,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Probability_distributions.md",
+                "file": "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -471,20 +457,29 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "61b6b073dac95afd",
+  "active": "eea4282e55f8cfeb",
   "lastOpenFiles": [
-    "XX-Attachments/Images/Pasted image 20240430201138.png",
+    "Cybersecurity/RiskManagement/Security_models.md",
+    "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
+    "Cybersecurity/RiskManagement/Security_principles.md",
+    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
+    "Cybersecurity/Hashing.md",
+    "Cybersecurity/Keys.md",
+    "Cybersecurity/Network_security.md",
+    "Cybersecurity/PKCS7.md",
+    "Cybersecurity/Operating_system_security.md",
     "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
-    "Statistics/ProbabilityDistributions/Probability_distributions.md",
-    "XX-Attachments/Images/Pasted image 20240430200514.png",
-    "Statistics/Event_independence.md",
-    "Statistics/ProbabilityDistributions/PERT_distribution.md",
-    "Statistics/Bayes_theorem.md",
-    "XX-Attachments/Images/Pasted image 20240430191043.png",
-    "Statistics/ProbabilityDistributions/Pareto_distribution.md",
     "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
+    "Statistics/ProbabilityDistributions/Pareto_distribution.md",
+    "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "Statistics/ProbabilityDistributions/Poisson_distribution.md",
     "Statistics/ProbabilityDistributions/Triangular_distribution.md",
+    "Statistics/ProbabilityDistributions/Probability_distributions.md",
+    "XX-Attachments/Images/Pasted image 20240430201138.png",
+    "XX-Attachments/Images/Pasted image 20240430200514.png",
+    "Statistics/Event_independence.md",
+    "Statistics/Bayes_theorem.md",
+    "XX-Attachments/Images/Pasted image 20240430191043.png",
     "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
     "XX-Attachments/Images/Pasted image 20240430171510.png",
     "XX-Attachments/Images/Pasted image 20240430165347.png",
@@ -499,17 +494,8 @@
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "XX-Attachments/Images/Pasted image 20240429203005.png",
     "XX-Attachments/Images/Pasted image 20240429185419.png",
-    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Debugging_ML_algorithms.md",
     "XX-Attachments/Images/Pasted image 20240429182212.png",
-    "XX-Attachments/Images/Pasted image 20240429182124.png",
-    "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
-    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Gaussian_distribution.md",
-    "Statistics/Monte_Carlo_method.md",
-    "Statistics/Random_variables.md",
-    "Statistics/Sample_space.md",
-    "Statistics/Sampling_methods.md",
     "Statistics/ProbabilityDistributions",
-    "Cybersecurity/RiskManagement/Security_economics.md",
     "Cybersecurity/EncryptionSchemes",
     "Cybersecurity/RiskManagement",
     "Languages&Compilation/Grammars",

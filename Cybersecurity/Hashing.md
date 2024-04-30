@@ -27,7 +27,6 @@ ___
 - **Differential cryptanalysis**: look at statistical differences in encrypted inputs
 - **Side-channel**: gather outside information (eg clock speed)
 - **Social engineering**: non-technical, carried out on people
-
 ## Collision-resistance properties
 - Confusion and diffusion are used synergistically to enhance hash algorithm security
 - This includes resistance to:
