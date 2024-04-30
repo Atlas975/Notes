@@ -15,7 +15,8 @@ ___
 - Bayes' Theorem provides a way to revise predictions or theories in light of new evidence.
 - It is rooted in conditional probability, which is the probability of an event given that another event has occurred. Note that $P(B|A)\cdot P(A)$ is the same as $P(A \cap B)$
 
-![[Pasted image 20240215143252.png|550|550]]
+
+![[Pasted image 20240430191043.png|450|450]]
 ## Bayes formula 
 $$P(A|B)=\frac{P(B|A)\cdot P(A)}{P(B)}$$
 $$P(X|Y)=\text{probability of event X occurring given that Y is true}$$
