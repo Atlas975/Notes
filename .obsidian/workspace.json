@@ -131,7 +131,7 @@
               "type": "markdown",
               "state": {
                 "file": "Statistics/ProbabilityDistributions/Probability_distributions.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -265,7 +265,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -333,7 +333,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Gaussian_distribution.md"
+                "file": "Statistics/ProbabilityDistributions/Probability_distributions.md"
               }
             }
           }
@@ -341,7 +341,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -368,7 +369,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
+                "file": "Statistics/ProbabilityDistributions/Probability_distributions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -385,7 +386,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
+                "file": "Statistics/ProbabilityDistributions/Probability_distributions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -457,12 +458,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e1afc47de1288489",
+  "active": "d7ee489dc96b46d0",
   "lastOpenFiles": [
+    "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
     "Statistics/ProbabilityDistributions/Pareto_distribution.md",
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
-    "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
     "Statistics/ProbabilityDistributions/Poisson_distribution.md",
     "Statistics/ProbabilityDistributions/Probability_distributions.md",
     "Statistics/ProbabilityDistributions/Triangular_distribution.md",
