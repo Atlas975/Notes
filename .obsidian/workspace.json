@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/ImageMatching/Gaussian_pyramid.md",
+                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -333,7 +333,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/ImageMatching/Gaussian_pyramid.md"
+                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md"
               }
             }
           }
@@ -368,7 +368,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/ImageMatching/Gaussian_pyramid.md",
+                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -385,7 +385,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/ImageMatching/Gaussian_pyramid.md",
+                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -459,6 +459,8 @@
   },
   "active": "eea4282e55f8cfeb",
   "lastOpenFiles": [
+    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
+    "MediaCoding/ImageMatching/Gaussian_pyramid.md",
     "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
     "MediaCoding/ImageMatching/Image_features.md",
     "MediaCoding/ImageMatching/Image_matching.md",
@@ -483,8 +485,6 @@
     "Databases/Relational_algebra.md",
     "Databases/Query_optimisation.md",
     "Databases/Database_relations.md",
-    "Databases/Database_keys.md",
-    "Databases/Database_design.md",
     "XX-Attachments/Images/Pasted image 20240430210154.png",
     "XX-Attachments/Images/Pasted image 20240430205811.png",
     "XX-Attachments/Images/Pasted image 20240430205553.png",
