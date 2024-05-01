@@ -144,7 +144,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/BottomUpParsing/Parsing_tables.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -484,8 +484,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ede74f0d9bf1b851",
+  "active": "f9ef0de97216c2fd",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240501172310.png",
+    "XX-Attachments/Images/Pasted image 20240501172305.png",
     "Languages&Compilation/BottomUpParsing/LR(0)_parsing.md",
     "Languages&Compilation/Pushdown_recogniser.md",
     "Languages&Compilation/BottomUpParsing/Parsing_tables.md",
@@ -512,7 +514,6 @@
     "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
     "Cybersecurity/RiskManagement/Quantitative_privacy.md",
     "Cybersecurity/RiskManagement/Security_models.md",
-    "Cybersecurity/RiskManagement/Security_principles.md",
     "XX-Attachments/Images/Pasted image 20240501144008.png",
     "XX-Attachments/Images/Pasted image 20240501143947.png",
     "XX-Attachments/Images/Pasted image 20240501143718.png",
@@ -522,7 +523,6 @@
     "XX-Attachments/Images/Pasted image 20240501122448.png",
     "XX-Attachments/Images/Pasted image 20240430210154.png",
     "XX-Attachments/Images/Pasted image 20240430205811.png",
-    "XX-Attachments/Images/Pasted image 20240430205553.png",
     "Statistics/ProbabilityDistributions",
     "Cybersecurity/EncryptionSchemes",
     "Cybersecurity/RiskManagement",
