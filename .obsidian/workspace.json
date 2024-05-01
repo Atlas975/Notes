@@ -143,7 +143,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Three_address_code.md",
+                "file": "Languages&Compilation/BottomUpParsing/Parsing_tables.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -359,7 +359,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Three_address_code.md"
+                "file": "Languages&Compilation/BottomUpParsing/Parsing_tables.md"
               }
             }
           }
@@ -367,7 +367,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -394,7 +395,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Three_address_code.md",
+                "file": "Languages&Compilation/BottomUpParsing/Parsing_tables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -411,7 +412,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Three_address_code.md",
+                "file": "Languages&Compilation/BottomUpParsing/Parsing_tables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -485,14 +486,24 @@
   },
   "active": "ede74f0d9bf1b851",
   "lastOpenFiles": [
-    "Languages&Compilation/LR(0)_parsing.md",
+    "Languages&Compilation/BottomUpParsing/LR(0)_parsing.md",
+    "Languages&Compilation/Pushdown_recogniser.md",
+    "Languages&Compilation/BottomUpParsing/Parsing_tables.md",
+    "Languages&Compilation/BottomUpParsing/Bottom-up_parsing.md",
+    "Languages&Compilation/Chomsky_hierarchy.md",
+    "Languages&Compilation/Follow_sets.md",
+    "Languages&Compilation/Interpreter.md",
+    "Languages&Compilation/Language_translator.md",
+    "Languages&Compilation/Subset_construction_algorithm.md",
+    "Languages&Compilation/Regular_expression_FSM.md",
+    "Languages&Compilation/Recursive_descent.md",
+    "Languages&Compilation/BottomUpParsing",
+    "Languages&Compilation/Three_address_code.md",
     "Languages&Compilation/Syntax_analyser.md",
     "Languages&Compilation/Left_recursion.md",
     "Languages&Compilation/Lexical_analyser.md",
     "Languages&Compilation/Finite_state_transducer.md",
     "Languages&Compilation/Compilers.md",
-    "Languages&Compilation/Bottom-up_parsing.md",
-    "Languages&Compilation/Untitled",
     "Languages&Compilation/Grammars/Unrestricted_grammars.md",
     "Languages&Compilation/Grammars/Formal_languages.md",
     "Languages&Compilation/Grammars/Context_free_grammars.md",
@@ -502,16 +513,6 @@
     "Cybersecurity/RiskManagement/Quantitative_privacy.md",
     "Cybersecurity/RiskManagement/Security_models.md",
     "Cybersecurity/RiskManagement/Security_principles.md",
-    "Cybersecurity/RiskManagement/Security_economics.md",
-    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
-    "Cybersecurity/Network_security.md",
-    "Cybersecurity/Keys.md",
-    "Cybersecurity/Hashing.md",
-    "Cybersecurity/Cryptography.md",
-    "Cybersecurity/PKCS7.md",
-    "Cybersecurity/RiskManagement/Risk_management.md",
-    "Cybersecurity/Operating_system_security.md",
-    "Statistics/Entropy.md",
     "XX-Attachments/Images/Pasted image 20240501144008.png",
     "XX-Attachments/Images/Pasted image 20240501143947.png",
     "XX-Attachments/Images/Pasted image 20240501143718.png",
