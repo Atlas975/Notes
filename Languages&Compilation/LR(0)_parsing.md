@@ -24,7 +24,7 @@ ___
 - **Accept (`acc`):** Indicate the parse acceptance of the input string.
 - An action table can be thought of a way to store an [[Finite_state_machines|FSM]] in a grid
 
-![[Pasted image 20240501122448.png|400|400]]
+![[Pasted image 20240501122448.png|300|300]]
 ## LR(0) Parsing process
 - The following example grammar will be used: 
 $$(1)\ E\to E*B$$
@@ -38,3 +38,5 @@ $$(5) \ B \to 1$$
 2. Use the current state + terminal to determine the action from the action table.
 3. Perform actions - shift, reduce, accept, or report syntax error.
 1. Repeat steps until the string is accepted or an error is found.
+
+![[Pasted image 20240501123226.png|350|350]]

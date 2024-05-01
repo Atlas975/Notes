@@ -131,7 +131,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/LR(0)_parsing.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -354,7 +354,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -472,6 +473,8 @@
   },
   "active": "1ccb4a41da52ef23",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240501123226.png",
+    "XX-Attachments/Images/Pasted image 20240501123214.png",
     "XX-Attachments/Images/Pasted image 20240501122448.png",
     "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
@@ -506,8 +509,6 @@
     "XX-Attachments/Images/Pasted image 20240430200514.png",
     "XX-Attachments/Images/Pasted image 20240430191043.png",
     "XX-Attachments/Images/Pasted image 20240430171510.png",
-    "XX-Attachments/Images/Pasted image 20240430165347.png",
-    "XX-Attachments/Images/Pasted image 20240430153157.png",
     "Statistics/ProbabilityDistributions",
     "Cybersecurity/EncryptionSchemes",
     "Cybersecurity/RiskManagement",
