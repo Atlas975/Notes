@@ -21,8 +21,10 @@ ___
 ## Action table entries
 - **Shift (`sn`):** Move to state `n`.
 - **Reduce (`rm`):** Apply grammar rule `m`, push rule to output string
-- **Accept (`acc`):** Indicate the acceptance of the input string.
+- **Accept (`acc`):** Indicate the parse acceptance of the input string.
 - An action table can be thought of a way to store an [[Finite_state_machines|FSM]] in a grid
+
+![[Pasted image 20240501122448.png|400|400]]
 ## LR(0) Parsing process
 - The following example grammar will be used: 
 $$(1)\ E\to E*B$$
