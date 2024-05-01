@@ -24,19 +24,16 @@ ___
 
 ## Item sets
 - LR(0) item groupings that represent all possible parser states based on received input
-- Note the `●` indicates the parsers position within a rule eg for `E -> E+B` the items are: 
-```
-E -> ● E + B
-E -> E ● + B
-E -> E + ● B
-E -> E + B ●
-```
-
-- The only exception are rules in the form `A->ε`, the only item would be `A -> ●`
 - This is mainly required for when multiple states exist eg `E-> E + B`, `E-> E * B`
-- When the parser is in a state of superposition (multiple valid possible states), the set of items it can become can be written in the following way `{E-> E ● + B, E-> E ● * B}`
+- Note the `●` indicates the parsers position within a rule eg the items for the following grammar: 
 
 ![[Pasted image 20240501172310.png|450|450]]
+
+- The only exception are rules in the form `A -> ε`, the only item would be `A -> ●`
+- When the parser is in a state of superposition (multiple valid possible states), the set of items it can become can be written in the following way `{E-> E ● + B, E-> E ● * B}`
+
+![[Pasted image 20240501231221.png|400|400]]
+![[Pasted image 20240501231401.png|175|175]]
 ### Item set closure 
 - If a `●` precedes a non-terminal in an item, rules for it are activated and included in the item set
 - This is because non-terminals cannot be directly read into the input stream, so all potential branch states must be considered as items. These items are known as the closure of the item set
