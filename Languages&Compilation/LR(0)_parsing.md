@@ -78,18 +78,21 @@ $$(5) \ B \to 1$$
     - **Output**: `5352`
     - **Goto action**: in state 0, apply `goto(s0, E) = 3`  and push to stack
     - **Stack**: `[0, (E, s3)]`
+9. Accept the input 
+    - **Accept action**: the `acc` action has been reached, occurs from using `action(s3, $) = acc`
+    - **Final output**: `5352`
+    - **Stack**: `[0, (E, s3)]`  indicates successful parsing, entire input accepted
 
+- The input "1+1" has been successfully parsed and the output sequence `5352` represents the sequence of applied grammar rules in reverse order. The steps include:
+    -  `5` for `B → 1`
+    -  `3` for `E → B`
+    -  `5` for `B → 1` (second occurrence)
+    -  `2` for `E → E + B`
 
-### Conclusion
+![[Pasted image 20240501143718.png|350|350]]
 
-The input "1+1" has been successfully parsed and the output sequence `5352` represents the sequence of applied grammar rules in reverse order. The steps include:
+## LR(0) Parse tree 
+- Due to being a bottom up parser, the parse tree is constructed starting from the input tokens (leaves) to the root (grammar start symbol). Each subtree represents the application of a rule
+- Note that whenever a push operation occurs, it becomes that parent of what's been popped
 
-- `5` for `B → 1`
-- `3` for `E → B`
-- `5` for `B → 1` (second occurrence)
-- `2` for `E → E + B`
-
-
-
-
-
+![[Pasted image 20240501144008.png|400|400]]
