@@ -44,6 +44,8 @@ $$(5) \ B \to 1$$
 	- Start with an empty stack, output stream and the input string `1+1`
 	- Augment input string with a termination symbol `$` at the end: `1+1$`
 	- **Stack**: `[0]` (indicates start at state 0)
+
+![[Pasted image 20240501123226.png|350|350]]
 1. Parsing input `1`
 	- **Shift action:** push  `s2` onto the stack, occurs from `action(s0, 1) = s2`
 	- **Input** move to symbol `+`
@@ -66,49 +68,28 @@ $$(5) \ B \to 1$$
     - **Shift action**: push `s2` onto the stack, occurs from `action(s6, 1) = s2`
     - **Input**: move to termination symbol `$`
     - **Stack:** `[0, (E, s3), (+, s6), (1, s2)]`
+7. Reducing `1` to `B`
+    - **Reduce action**: apply reduce `B->1`, occurs from using `action(s2, 1) = r5`
+    - **Output**: `535`
+    - **Goto action** in state 6, apply `goto(s6, B) = 8` and push to stack 
+    - **Stack:** `[0, (E, s3), (+, s6), (B, s8)]`
+8. Reducing `E+B` to `E`
+    - **Reduce action**: apply reduce `E=E+B`, occurs from `action(s8, $) = r2`
+    - **Output**: `5352`
+    - **Goto action**: in state 0, apply `goto(s0, E) = 3`  and push to stack
+    - **Stack**: `[0, (E, s3)]`
 
-#### Step 3: Reducing "1" to B
 
-- **Action Table Lookup:** In state `2`, if the reduction by the rule "B → 1" is applicable, execute it.
-- **Reduce Action:** Replace `1` with `B` and consult the Goto table to find the next state based on the current state (from the top of the stack) and non-terminal `B`.
-- **Stack:** [0, 3] (assuming the Goto table directs us to state `3` after reducing to `B`).
+### Conclusion
 
-#### Step 4: Reducing B to E
+The input "1+1" has been successfully parsed and the output sequence `5352` represents the sequence of applied grammar rules in reverse order. The steps include:
 
-- **Action:** Further reduce `B` to `E` using the rule "E → B".
-- **Stack Action:** Replace `B` with `E` and consult the Goto table to find the next state. Suppose it sends us to state `4`.
-- **Stack:** [0, 4]
+- `5` for `B → 1`
+- `3` for `E → B`
+- `5` for `B → 1` (second occurrence)
+- `2` for `E → E + B`
 
-#### Step 5: Parsing "+"
 
-- **Input:** +
-- **Action Table Lookup:** Depending on the parser's state, a shift action is typically taken for `+`.
-- **Stack Action:** Shift and push the new state onto the stack.
-- **Stack:** [0, 4, 5] (assuming state `5` is the next state for `+`).
 
-#### Step 6: Parsing "0"
 
-- **Input:** 0
-- **Action Table Lookup:** If a shift is required, move to the next state.
-- **Stack Action:** Shift and push the new state onto the stack.
-- **Stack:** [0, 4, 5, 6] (assuming state `6` is after reading `0`).
 
-#### Step 7: Reducing "0" to B
-
-- **Action:** Reduce using the rule "B → 0".
-- **Stack Action:** Replace `0` with `B` and consult the Goto table to find the next state, e.g., `7`.
-- **Stack:** [0, 4, 5, 7]
-
-#### Step 8: Reducing "E + B" to E
-
-- **Action:** Finally, apply the reduction "E → E + B".
-- **Stack Action:** Pop three times for `E`, `+`, and `B`, and then push `E` with the resulting state from the Goto table. Assume the final state is `8`.
-- **Stack:** [0, 8]
-
-#### Step 9: Accepting the Input
-
-- **Input:** $
-- **Action Table Lookup:** If the parser is in a state that corresponds to an accepting action for the end of the input, the string is accepted.
-- **Final Stack:** [0, 8] and the input is accepted as syntactically correct according to the grammar.
-
-![[Pasted image 20240501123226.png|350|350]]
