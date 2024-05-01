@@ -51,15 +51,15 @@ B -> ● 0
 ![[Pasted image 20240501223517.png|300|300]]
 
 
-## Building state transition table
+## Adding state transition actions
 - Once the item sets have been formulated, the action and goto table can be populated 
 - Needs to represent all possible shifts, reductions, and accept actions based on the grammar
 - Columns for NON-TERMINAL's copied into the goto table, columns for terminals are copied to the action table as shifts:
 
 ![[Pasted image 20240501233252.png|350|350]]
 
-### Adding reduce actions 
-- For any item set that contains a rule with `●` at the end, it's corresponding row is filled with the reduce action for that rule
+## Adding reduce actions 
+- For any item set that contains a rule with `●` at the end (eg `B -> 0 ●` ), it's corresponding row is filled with the reduce action for that rule
 - The distinguished symbol (set 0) is the only exception to this, filled out action table:
 
 ![[Pasted image 20240501234916.png|350|350]]
