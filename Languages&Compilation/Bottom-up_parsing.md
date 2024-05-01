@@ -45,6 +45,6 @@ $$(4) \ \text{ID} \to A|B|C|D$$
 
 4. The parse stops in two scenarios:  when the distinguished symbol `S` is reached or when there are no more reductions left to do after finished reading (input is invalid)
 
-### Bottom-up parsing limitations
+## Bottom-up parsing limitations
 -  While the parser should ideally be deterministic, it can be left ambiguous weather SHIFT or REDUCE are to be used (shown in step 3) in this case a lookahead is needed to recognise that there are more symbols to parse without halting by reducing to `S`
 - Dealing with the limitations of bottom up parsing may also require altering the grammar 
