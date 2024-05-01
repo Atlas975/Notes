@@ -24,6 +24,7 @@ ___
 - **Reduce (`rm`):** Apply grammar rule `m`, push rule to output string
 - **Accept (`acc`):** Indicate the parse acceptance of the input string.
 - An action table can be thought of a way to store an [[Finite_state_machines|FSM]] in a grid
+- Note that shift operates on the next symbol, reduce works on current symbols
 
 ## LR(0) Parsing process
 - The output of the parsing process is the series of rules 
@@ -31,7 +32,6 @@ ___
 	2. Use the current state + terminal to determine the action from action table.
 	3. Perform actions - shift, reduce, accept, or report syntax error.
 	4. Repeat steps until the string is accepted or an error is found.
-
 ### Parsing steps
 - The following example grammar will be used: 
 $$(1)\ E\to E*B$$
@@ -43,25 +43,29 @@ $$(5) \ B \to 1$$
 0. Initialisation 
 	- Start with an empty stack, output stream and the input string `1+1`
 	- Augment input string with a termination symbol `$` at the end: `1+1$`
-	- **Stack**: [0] (indicates start at state 0)
+	- **Stack**: `[0]` (indicates start at state 0)
 1. Parsing input `1`
-	- **Shift action:** pushstate `2` onto the stack, `action(s0, 1) = s2`
-	- **Stack:** [0, (1,  s2)]
+	- **Shift action:** push  `s2` onto the stack, occurs from `action(s0, 1) = s2`
 	- **Input** move to symbol `+`
+	- **Stack:** `[0, (1,  s2)]`
 2. Reducing `1` to `B`
 	- **Reduce action**: apply reduce `B->1` occurs from using `action(s2, 1) = r5 `
 	- **Output**: `5`
 	- **Goto action**:  in state 0, apply `goto(s0, B) = s4`  and push to stack
-	- **Stack**: [0, (B, s4)]
+	- **Stack**: `[0, (B, s4)]`
 4. Reducing `B` to `E`
-    - **Reduce action**: apply reduce `E->B` occurs from using `action(s4, B) = r3`
+    - **Reduce action**: apply reduce `E->B` , occurs from `action(s4, B) = r3`
     - **Output**: `53`
     - **Goto action**: in state 0, apply `goto(s0, E) = 3` and push to stack 
-    - **Stack**: [0, (E, s3)]
+    - **Stack**: `[0, (E, s3)]`
 5. Parsing input `+`
-    - **Shift action**: push the
-    
-
+    - **Shift action**: push `s6` onto the stack, occurs from `action(s3, +) = s6`
+    - **Input**: move to symbol `1`
+    - **Stack**: `[0, (E, s3), (+, s6)]`
+6. Parsing input `1`
+    - **Shift action**: push `s2` onto the stack, occurs from `action(s6, 1) = s2`
+    - **Input**: move to termination symbol `$`
+    - **Stack:** `[0, (E, s3), (+, s6), (1, s2)]`
 
 #### Step 3: Reducing "1" to B
 
