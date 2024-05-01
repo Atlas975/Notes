@@ -47,3 +47,4 @@ B -> ● 1 // both variants of B need to be added to the item set
 B -> ● 0
 ```
 
+![[Pasted image 20240501223517.png|300|300]]
