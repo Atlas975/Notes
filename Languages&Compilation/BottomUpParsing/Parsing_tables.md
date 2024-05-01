@@ -45,3 +45,11 @@ B -> ● 0
 ```
 
 ![[Pasted image 20240501223517.png|300|300]]
+
+
+## Building state transition table
+- Once the item sets have been formulated, the action and goto table can be populated 
+- Needs to represent all possible shifts, reductions, and accept actions based on the grammar
+- Summary of state transitions:
+
+![[Pasted image 20240501232127.png|250|250]]
