@@ -50,6 +50,8 @@ B -> ● 0
 ## Building state transition table
 - Once the item sets have been formulated, the action and goto table can be populated 
 - Needs to represent all possible shifts, reductions, and accept actions based on the grammar
-- Summary of state transitions:
+- Summary of state transitions, for non-terminals this is done with a shift operation:
 
-![[Pasted image 20240501232127.png|250|250]]
+![[Pasted image 20240501233252.png|350|350]]
+
+### Adding reduce actions 
