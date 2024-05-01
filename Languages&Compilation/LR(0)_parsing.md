@@ -16,19 +16,18 @@ ___
 	- **Input buffer**: holds string to be passed
 	- **Stack**: keeps a list of states it has been in 
 	- **Action table**: guides parser on to the next state based on current state and input symbol
-	- **Goto table**: dictates what [[Formal_languages|grammar rule]] to apply based on current state and input symbol
+	- **Goto table**: dictates what [[Formal_languages|rule]] to apply based on current state and input symbol (reduce)
 - With no lookahead, the grammar must have no ambiguity (deterministic)
 
 ## Action table entries
-- **Shift (`sn`):** Move to state `n`.
+- **Shift (`sn`):** Move to state `n` and fetch next terminal from input stream
 - **Reduce (`rm`):** Apply grammar rule `m`, push rule to output string
 - **Accept (`acc`):** Indicate the parse acceptance of the input string.
 - An action table can be thought of a way to store an [[Finite_state_machines|FSM]] in a grid
 
-![[Pasted image 20240501122448.png|300|300]]
 ## LR(0) Parsing process
 - The output of the parsing process is the series of rules 
-    1. Initialise the stack with state [0].
+    1. Initialise the stack with state [0] and augment input string with `$`
     2. Use the current state + terminal to determine the action from action table.
     3. Perform actions - shift, reduce, accept, or report syntax error.
     4. Repeat steps until the string is accepted or an error is found.
@@ -40,19 +39,25 @@ $$(2) \ E = E+B$$
 $$(3) \ E \to B$$
 $$(4) \ B \to 0$$
 $$(5) \ B \to 1$$
-1. Initialisation 
-    - 
-    - **Stack**: [0]
+![[Pasted image 20240501122448.png|300|300]]
+0. Initialisation 
+    - Start with an empty stack and the input string `1+1`
+    - Augment input string with a termination symbol `$` at the end: `1+1$`
+    - **Stack**: [0] (indicates start at state 0)
+1. Parsing `1`
+    - **Input:** `1` 
+    - **Action:** Push the state `2` onto the stack, `action(s0, 1) = s2`
+    - **Stack:** [0, 2]
+2. Reducing `1` to `B`
+
+
+
+
  - Step 1: Initialisation
-    - Start with an empty stack and the input string "1 + 0", augmented with a termination symbol `$` at the end: "1 + 0$".
     - The parser starts with the initial state `0` on the stack.
 
 #### Step 2: Parsing "1"
 
-- **Input:** 1
-- **Action Table Lookup:** Depending on the state, the action for `1` will typically be a shift (s2 for example, where 2 is the next state).
-- **Stack Action:** Push the state `2` onto the stack.
-- **Stack:** [0, 2]
 
 #### Step 3: Reducing "1" to B
 

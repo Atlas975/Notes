@@ -131,7 +131,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/LR(0)_parsing.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -473,6 +473,8 @@
   },
   "active": "1ccb4a41da52ef23",
   "lastOpenFiles": [
+    "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
+    "Languages&Compilation/LR(0)_parsing.md",
     "XX-Attachments/Images/Pasted image 20240501123226.png",
     "XX-Attachments/Images/Pasted image 20240501123214.png",
     "XX-Attachments/Images/Pasted image 20240501122448.png",
@@ -500,7 +502,6 @@
     "DistributedSystems/Two_general_problem.md",
     "DistributedSystems/Time_keeping.md",
     "DistributedSystems/Distributed_systems.md",
-    "DistributedSystems/Byzantine_generals_problem.md",
     "XX-Attachments/Images/Pasted image 20240430210154.png",
     "XX-Attachments/Images/Pasted image 20240430205811.png",
     "XX-Attachments/Images/Pasted image 20240430205553.png",
@@ -508,7 +509,6 @@
     "XX-Attachments/Images/Pasted image 20240430201138.png",
     "XX-Attachments/Images/Pasted image 20240430200514.png",
     "XX-Attachments/Images/Pasted image 20240430191043.png",
-    "XX-Attachments/Images/Pasted image 20240430171510.png",
     "Statistics/ProbabilityDistributions",
     "Cybersecurity/EncryptionSchemes",
     "Cybersecurity/RiskManagement",
