@@ -18,9 +18,13 @@ ___
 - A [[Formal_languages|grammar]] needs a definitive completion state, this reduction occurs when the input is accepted
 - This rule is always at the top of the parse tree, where `E` is the old start symbol:
 
-```
-(0) S -> E 
-```
+$$\color{#8DB600}(0)\ S\to E\color{white}$$
+$$(1)\ E\to E*B$$
+$$(2) \ E = E+B$$
+$$(3) \ E \to B$$
+$$(4) \ B \to 0$$
+$$(5) \ B \to 1$$
+
 
 ## Item sets
 - LR(0) item groupings that represent all possible parser states based on received input
@@ -50,8 +54,12 @@ B -> ● 0
 ## Building state transition table
 - Once the item sets have been formulated, the action and goto table can be populated 
 - Needs to represent all possible shifts, reductions, and accept actions based on the grammar
-- Summary of state transitions, for non-terminals this is done with a shift operation:
+- Columns for NON-TERMINAL's copied into the goto table, columns for terminals are copied to the action table as shifts:
 
 ![[Pasted image 20240501233252.png|350|350]]
 
 ### Adding reduce actions 
+- For any item set that contains a rule with `●` at the end, it's corresponding row is filled with the reduce action for that rule
+- The distinguished symbol (set 0) is the only exception to this, filled out action table:
+
+![[Pasted image 20240501234916.png|350|350]]
