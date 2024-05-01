@@ -44,17 +44,23 @@ $$(5) \ B \to 1$$
 	- Start with an empty stack, output stream and the input string `1+1`
 	- Augment input string with a termination symbol `$` at the end: `1+1$`
 	- **Stack**: [0] (indicates start at state 0)
-1. Parsing `1`
-	- **Input:** `1` 
-	- **Shift action:** push the state `2` onto the stack, `action(s0, 1) = s2`
-	- **Stack:** [0, 2]
+1. Parsing input `1`
+	- **Shift action:** pushstate `2` onto the stack, `action(s0, 1) = s2`
+	- **Stack:** [0, (1,  s2)]
+	- **Input** move to symbol `+`
 2. Reducing `1` to `B`
-	- **Reduce action**: apply reduce `B->1` occurs from using `action(s2, +) = r5 `
-	- **Goto action**:  in state 0, apply `goto(s0, B) = s4`  and push to stack
+	- **Reduce action**: apply reduce `B->1` occurs from using `action(s2, 1) = r5 `
 	- **Output**: `5`
-	- **Stack**: [0,4]
-3. Reducing ``
-
+	- **Goto action**:  in state 0, apply `goto(s0, B) = s4`  and push to stack
+	- **Stack**: [0, (B, s4)]
+4. Reducing `B` to `E`
+    - **Reduce action**: apply reduce `E->B` occurs from using `action(s4, B) = r3`
+    - **Output**: `53`
+    - **Goto action**: in state 0, apply `goto(s0, E) = 3` and push to stack 
+    - **Stack**: [0, (E, s3)]
+5. Parsing input `+`
+    - **Shift action**: push the
+    
 
 
 #### Step 3: Reducing "1" to B
