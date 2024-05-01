@@ -17,7 +17,7 @@ ___
 
 
 ## Types of Random Variables
-- **Discrete Random Variable (probability mass)**
+- **Discrete Random Variable (probability mass)p**
     - Can take a countable number of distinct values.
     - Example: Sum of two dice faces.
 - **Continuous Random Variable (culminate distribution function)**

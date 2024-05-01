@@ -12,12 +12,12 @@
 ___
 # LR(0) Parsing
 - A [[Bottom-up_parsing|bottom-up parser]] with no lookahead, foundational in compiler construction
+- With no lookahead, the grammar must have no ambiguity (deterministic)
 -  Consists of the following components: 
 	- **Input buffer**: holds string to be passed
 	- **Stack**: keeps a list of states it has been in 
 	- **Action table**: guides parser on to the next state based on current state and input symbol
 	- **Goto table**: dictates what [[Formal_languages|rule]] to apply based on current state and input symbol (reduce)
-- With no lookahead, the grammar must have no ambiguity (deterministic)
 
 ## Action table entries
 - **Shift (`sn`):** Move to state `n` and fetch next terminal from input stream

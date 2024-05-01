@@ -29,7 +29,7 @@ ___
 
 ## Stratified sampling
 - Population is divided into subgroups (strata) based on shared characteristics. A fixed number of samples are taken from each stratum 
-- This enhances sample representation of subgroups but requires detailed knowledge of the population and can be complex to implement
+- This enhances sample representation of subgroups but requires detailed knowledge of the population but can be complex to implement
 
 ![[Pasted image 20240416191031.png|250|250]]
 
