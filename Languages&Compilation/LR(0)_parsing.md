@@ -28,7 +28,7 @@ ___
 ![[Pasted image 20240501122448.png|300|300]]
 ## LR(0) Parsing process
 - The output of the parsing process is the series of rules 
-    1. Initialise the stack with state 0.
+    1. Initialise the stack with state [0].
     2. Use the current state + terminal to determine the action from action table.
     3. Perform actions - shift, reduce, accept, or report syntax error.
     4. Repeat steps until the string is accepted or an error is found.
@@ -42,6 +42,7 @@ $$(4) \ B \to 0$$
 $$(5) \ B \to 1$$
 1. Initialisation 
     - 
+    - **Stack**: [0]
  - Step 1: Initialisation
     - Start with an empty stack and the input string "1 + 0", augmented with a termination symbol `$` at the end: "1 + 0$".
     - The parser starts with the initial state `0` on the stack.
