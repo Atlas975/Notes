@@ -27,12 +27,12 @@ ___
 
 ## LR(0) Parsing process
 - The output of the parsing process is the series of rules 
-    1. Initialise the stack with state [0] and augment input string with `$`
-    2. Use the current state + terminal to determine the action from action table.
-    3. Perform actions - shift, reduce, accept, or report syntax error.
-    4. Repeat steps until the string is accepted or an error is found.
+	1. Initialise the stack with state [0] and augment input string with `$`
+	2. Use the current state + terminal to determine the action from action table.
+	3. Perform actions - shift, reduce, accept, or report syntax error.
+	4. Repeat steps until the string is accepted or an error is found.
 
-### Parsing steps 
+### Parsing steps
 - The following example grammar will be used: 
 $$(1)\ E\to E*B$$
 $$(2) \ E = E+B$$
@@ -41,22 +41,20 @@ $$(4) \ B \to 0$$
 $$(5) \ B \to 1$$
 ![[Pasted image 20240501122448.png|300|300]]
 0. Initialisation 
-    - Start with an empty stack and the input string `1+1`
-    - Augment input string with a termination symbol `$` at the end: `1+1$`
-    - **Stack**: [0] (indicates start at state 0)
+	- Start with an empty stack, output stream and the input string `1+1`
+	- Augment input string with a termination symbol `$` at the end: `1+1$`
+	- **Stack**: [0] (indicates start at state 0)
 1. Parsing `1`
-    - **Input:** `1` 
-    - **Action:** Push the state `2` onto the stack, `action(s0, 1) = s2`
-    - **Stack:** [0, 2]
+	- **Input:** `1` 
+	- **Shift action:** push the state `2` onto the stack, `action(s0, 1) = s2`
+	- **Stack:** [0, 2]
 2. Reducing `1` to `B`
+	- **Reduce action**: apply reduce `B->1` occurs from using `action(s2, +) = r5 `
+	- **Goto action**:  in state 0, apply `goto(s0, B) = s4`  and push to stack
+	- **Output**: `5`
+	- **Stack**: [0,4]
+3. Reducing ``
 
-
-
-
- - Step 1: Initialisation
-    - The parser starts with the initial state `0` on the stack.
-
-#### Step 2: Parsing "1"
 
 
 #### Step 3: Reducing "1" to B
