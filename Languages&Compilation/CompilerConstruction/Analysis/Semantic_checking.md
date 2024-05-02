@@ -36,4 +36,8 @@ let arr2: [i32; 100]; // anonymous type with no name
 ```
 
 - The use of name equivalence can act as an alias that avoids having to explicitly compare entire structures to determine equivalence
-- Structure equivalence checks also cannot handle recursive definitions (eg [[Linked_list_algorithms|linked lists]]), in these cases name equivalence is used for the pointer to a new node 
+- Structure equivalence checks cannot handle recursive definitions (eg [[Linked_list_algorithms|linked lists]]), in these cases name equivalence is used to avoid infinite recursive checks from node links
+
+## Additional checking
+- **Declaration checks** where all variables must be defined before use
+- **Flow of control checks**: statements may occur only inside certain constructions (eg break in loop)
