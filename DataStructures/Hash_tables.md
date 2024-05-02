@@ -15,7 +15,7 @@ aliases: []
 
 ___
 # Hash tables
-- A hash table is a data structure that stores key-value pairs, where keys (any data item of arbitrary size) are transformed via a hash [[Functions|function]] to an index in an array of buckets that map to the original value. 
+- A data structure that stores key-value pairs, where keys (any data item of arbitrary size) are transformed via a hash [[Functions|function]] to an index in an array of buckets that map to the original value. 
 - The number of unique keys for a hash function is fixed but the number of values for each key is dynamic in order to keep the hash function uniform 
 ## Hash table API
 - The  [[Time_complexity|time complexity]] of all function operations is O(1) in best case and O(n) in worst case

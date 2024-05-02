@@ -182,7 +182,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Semantic_checking.md",
+                "file": "Languages&Compilation/Subset_construction_algorithm.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -398,7 +398,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Semantic_checking.md"
+                "file": "Languages&Compilation/Subset_construction_algorithm.md"
               }
             }
           }
@@ -433,7 +433,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Semantic_checking.md",
+                "file": "Languages&Compilation/Subset_construction_algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -450,7 +450,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Semantic_checking.md",
+                "file": "Languages&Compilation/Subset_construction_algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -522,12 +522,28 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "32ba2f3b4150ab98",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
-    "XX-Attachments/Images/Pasted image 20240502123224.png",
-    "XX-Attachments/Images/Pasted image 20240502123201.png",
+    "Languages&Compilation/Untitled",
+    "Languages&Compilation/Computability/TuringMachines/Universal_Turing_machines.md",
+    "Languages&Compilation/Computability/TuringMachines/Turing_thesis.md",
+    "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
+    "Languages&Compilation/Computability/TuringMachines/Halting_problem.md",
+    "DataStructures/Hash_tables.md",
+    "Languages&Compilation/Computability",
+    "DataStructures/DataStorage&Retrieval.md",
+    "DataStructures/BinaryHeaps.md",
+    "DataStructures/B+_trees.md",
+    "DataStructures/B_trees.md",
+    "Databases/Relational_algebra.md",
+    "Databases/Query_optimisation.md",
+    "Databases/Database_storage.md",
+    "Databases/Join_handling.md",
+    "Cybersecurity/RiskManagement/Quantitative_privacy.md",
     "Languages&Compilation/BottomUpParsing/Parsing_tables.md",
     "Languages&Compilation/Semantic_checking.md",
+    "XX-Attachments/Images/Pasted image 20240502123224.png",
+    "XX-Attachments/Images/Pasted image 20240502123201.png",
     "Languages&Compilation/BottomUpParsing/LR(0)_parsing.md",
     "Languages&Compilation/BottomUpParsing/Bottom-up_parsing.md",
     "XX-Attachments/Images/Pasted image 20240502005519.png",
@@ -540,35 +556,19 @@
     "XX-Attachments/Images/Pasted image 20240501231221.png",
     "XX-Attachments/Images/Pasted image 20240501230827.png",
     "XX-Attachments/Images/Pasted image 20240501230802.png",
-    "XX-Attachments/Images/Pasted image 20240501230740.png",
     "Languages&Compilation/Pushdown_recogniser.md",
-    "Languages&Compilation/Chomsky_hierarchy.md",
+    "Languages&Compilation/Computability/Chomsky_hierarchy.md",
     "Languages&Compilation/Follow_sets.md",
     "Languages&Compilation/Interpreter.md",
     "Languages&Compilation/Language_translator.md",
-    "Languages&Compilation/Subset_construction_algorithm.md",
-    "Languages&Compilation/Regular_expression_FSM.md",
-    "Languages&Compilation/Recursive_descent.md",
     "Languages&Compilation/BottomUpParsing",
-    "Languages&Compilation/Three_address_code.md",
-    "Languages&Compilation/Syntax_analyser.md",
-    "Languages&Compilation/Left_recursion.md",
-    "Languages&Compilation/Lexical_analyser.md",
-    "Languages&Compilation/Finite_state_transducer.md",
-    "Languages&Compilation/Compilers.md",
-    "Languages&Compilation/Grammars/Unrestricted_grammars.md",
-    "Languages&Compilation/Grammars/Context_free_grammars.md",
-    "Cybersecurity/RiskManagement/Access_controls.md",
-    "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
-    "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
     "Statistics/ProbabilityDistributions",
     "Cybersecurity/EncryptionSchemes",
     "Cybersecurity/RiskManagement",
     "Languages&Compilation/Grammars",
-    "Languages&Compilation/TuringMachines",
+    "Languages&Compilation/Computability/TuringMachines",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN",
     "MachineLearning/NeuralNetworks/NetworkTypes",
-    "MachineLearning/NeuralNetworks/Training",
-    "MachineLearning/NeuralNetworks/GAN"
+    "MachineLearning/NeuralNetworks/Training"
   ]
 }

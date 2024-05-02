@@ -13,7 +13,6 @@ ___
 # Parsing tables
 - The creation of action and goto tables is vital for carrying out [[LR(0)_parsing|LR(0) parsing]] 
 - This process of doing this involves augmentation of the grammar, identifying item sets, performing closures, and establishing state transitions
-
 ## Grammar augmentation
 - A [[Formal_languages|grammar]] needs a definitive completion state, this reduction occurs when the input is accepted
 - This rule is always at the top of the parse tree, where `E` is the old start symbol:
