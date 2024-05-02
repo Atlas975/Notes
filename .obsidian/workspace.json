@@ -81,26 +81,13 @@
             }
           },
           {
-            "id": "cfb228ec92f93d5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/x86_assembly.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8df7565e62fd9a94",
+            "id": "74f41502babf3eab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/CompilerConstruction/Analysis/Semantic_checking.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -159,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -352,11 +339,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8df7565e62fd9a94",
+  "active": "74f41502babf3eab",
   "lastOpenFiles": [
-    "ProgramLanguages/x86_assembly.md",
-    "Languages&Compilation/CompilerConstruction/Analysis/Semantic_checking.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
+    "ProgramLanguages/x86_assembly.md",
+    "Languages&Compilation/Grammars/Formal_languages.md",
+    "Languages&Compilation/CompilerConstruction/Analysis/Semantic_checking.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "OperatingSystems/Paging.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/ArgMax&SoftMax.md",
@@ -376,7 +364,6 @@
     "XX-Attachments/Images/Pasted image 20240502143400.png",
     "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
     "Networking/RoutingAlgorithms/Distance_vector_routing.md",
-    "Languages&Compilation/Grammars/Formal_languages.md",
     "XX-Attachments/Templates/InfoNote.md",
     "XX-Attachments/Templates/AliasNote.md",
     "XX-Attachments/Templates/InfoNote_v2.md",
