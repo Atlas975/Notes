@@ -12,12 +12,10 @@
 ___
 # Subset construction algorithm
 - An algorithm for turning a non-deterministic [[Regular_grammars|FSR]] into a deterministic FSR
-- The states in machine M' correspond to the set of states in M, note both of these are equivalent
-
-
-![[Pasted image 20240131181442.png|250|250]]
+- The states in machine M' correspond to the set of states in M, note both of these are equivalent 
 
 ![[Pasted image 20240201180132.png|400|400]]
+
 
 - Note that the non-deterministic and deterministic versions of the FSR are only **weakly** equivalent as they do not give the same structure to the string 
 
