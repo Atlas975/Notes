@@ -87,7 +87,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -235,8 +235,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -354,6 +353,7 @@
   },
   "active": "0c91eccd7ced05da",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240502192218.png",
     "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Semantic_checking.md",
     "ProgramLanguages/x86_assembly.md",
@@ -384,7 +384,6 @@
     "Cybersecurity/RiskManagement/Quantitative_privacy.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Debugging_ML_algorithms.md",
     "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
-    "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
     "XX-Attachments/Images/Numpy Handbook.pdf",
     "XX-Attachments/Images/math3283-hw4-f16-sol.pdf",
     "XX-Attachments/Images/Pasted image 20240429182030.png",
