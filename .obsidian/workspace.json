@@ -74,7 +74,33 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cfb228ec92f93d5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/CompilerConstruction/Analysis/Semantic_checking.md",
                 "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4174ab1955e9b649",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -120,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -188,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md"
+                "file": "Languages&Compilation/CompilerConstruction/Analysis/Semantic_checking.md"
               }
             }
           }
@@ -224,7 +250,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
+                "file": "Languages&Compilation/CompilerConstruction/Analysis/Semantic_checking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -241,7 +267,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
+                "file": "Languages&Compilation/CompilerConstruction/Analysis/Semantic_checking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -313,10 +339,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "895fc6fdcfebdf81",
+  "active": "cfb228ec92f93d5f",
   "lastOpenFiles": [
-    "OperatingSystems/Paging.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
+    "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
+    "OperatingSystems/Paging.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/ArgMax&SoftMax.md",
     "OperatingSystems/Page_replacement.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/LinearAlgebra/PageRank.md",
@@ -345,7 +372,6 @@
     "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
     "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Semantic_checking.md",
-    "Languages&Compilation/CompilerConstruction/Analysis/Syntax_analyser.md",
     "XX-Attachments/Images/Numpy Handbook.pdf",
     "XX-Attachments/Images/math3283-hw4-f16-sol.pdf",
     "XX-Attachments/Images/Pasted image 20240429182030.png",

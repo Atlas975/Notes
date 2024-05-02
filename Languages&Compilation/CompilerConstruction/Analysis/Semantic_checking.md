@@ -12,6 +12,8 @@
 ___
 # Semantic checking
 
+## Sp
+
 ## Weakly-typed languages 
 ![[Pasted image 20240502123201.png|450|450]]
 

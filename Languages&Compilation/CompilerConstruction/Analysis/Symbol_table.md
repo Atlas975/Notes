@@ -40,7 +40,7 @@ ___
 ## Identifier storage 
 - There are 2 distinct ways of storing identifiers in the ST used by compilers 
 - Both of these offer a tradeoff in access speed / memory efficiency 
-- Note that complex identifier types exist as well such as a function needing to hold parameter info and a record needing
+- Note that complex identifier types exist as well such as a function needing to hold parameter info and a record needing to hold it's list of fields and their type
 ### Direct storage 
 - Each identifier stored directly within a field of the ST, same space for all identifiers 
 - **Fixed size allocation**: the compiler must predetermine a maximum length for an identifier
@@ -61,5 +61,6 @@ ___
 - A stack can be used to manage ST's for nested blocks. New blocks (eg functions) are pushed and exited blocks are popped. 
 	- Not suitable for multiple pass compilation as metadata is lost
 	- Complete symbol table also isn't available for runtime diagnostics
+- These data structures also typically need to be able to handle ==variable shadowing==
 
 ![[Pasted image 20240502155435.png|350|350]]
