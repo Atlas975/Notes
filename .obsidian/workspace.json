@@ -182,7 +182,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/BottomUpParsing/Parsing_tables.md",
+                "file": "Languages&Compilation/BottomUpParsing/LR(0)_parsing.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -398,7 +398,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/BottomUpParsing/Parsing_tables.md"
+                "file": "Languages&Compilation/BottomUpParsing/LR(0)_parsing.md"
               }
             }
           }
@@ -433,7 +433,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/BottomUpParsing/Parsing_tables.md",
+                "file": "Languages&Compilation/BottomUpParsing/LR(0)_parsing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -450,7 +450,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/BottomUpParsing/Parsing_tables.md",
+                "file": "Languages&Compilation/BottomUpParsing/LR(0)_parsing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -524,9 +524,11 @@
   },
   "active": "32ba2f3b4150ab98",
   "lastOpenFiles": [
+    "Languages&Compilation/BottomUpParsing/Bottom-up_parsing.md",
+    "Languages&Compilation/BottomUpParsing/Parsing_tables.md",
+    "XX-Attachments/Images/Pasted image 20240502005519.png",
     "XX-Attachments/Images/Pasted image 20240501234916.png",
     "Languages&Compilation/BottomUpParsing/LR(0)_parsing.md",
-    "Languages&Compilation/BottomUpParsing/Parsing_tables.md",
     "Languages&Compilation/Grammars/Formal_languages.md",
     "Languages&Compilation/Grammars/Regular_grammars.md",
     "XX-Attachments/Images/Pasted image 20240501233252.png",
@@ -537,10 +539,7 @@
     "XX-Attachments/Images/Pasted image 20240501230802.png",
     "XX-Attachments/Images/Pasted image 20240501230740.png",
     "XX-Attachments/Images/Pasted image 20240501230516.png",
-    "XX-Attachments/Images/Pasted image 20240501230115.png",
-    "XX-Attachments/Images/Pasted image 20240501223517.png",
     "Languages&Compilation/Pushdown_recogniser.md",
-    "Languages&Compilation/BottomUpParsing/Bottom-up_parsing.md",
     "Languages&Compilation/Chomsky_hierarchy.md",
     "Languages&Compilation/Follow_sets.md",
     "Languages&Compilation/Interpreter.md",

@@ -63,3 +63,9 @@ B -> ● 0
 - The distinguished symbol (set 0) is the only exception to this, filled out action table:
 
 ![[Pasted image 20240501234916.png|350|350]]
+
+## Adding terminating symbol 
+- An extra column for `$` (end of input) is added to the action table that contains `acc` for every item set that contains `S -> E ●` (completes a parse of distinguished symbol)
+- Some grammar's may have multiple `acc` terminators 
+
+![[Pasted image 20240502005519.png|300|300]]
