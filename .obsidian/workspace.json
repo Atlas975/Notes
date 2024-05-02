@@ -182,7 +182,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/BottomUpParsing/Parsing_tables.md",
+                "file": "Languages&Compilation/Semantic_checking.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -398,7 +398,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/BottomUpParsing/Parsing_tables.md"
+                "file": "Languages&Compilation/Semantic_checking.md"
               }
             }
           }
@@ -406,8 +406,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -434,7 +433,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/BottomUpParsing/Parsing_tables.md",
+                "file": "Languages&Compilation/Semantic_checking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -451,7 +450,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/BottomUpParsing/Parsing_tables.md",
+                "file": "Languages&Compilation/Semantic_checking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -525,9 +524,12 @@
   },
   "active": "32ba2f3b4150ab98",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240502123224.png",
+    "XX-Attachments/Images/Pasted image 20240502123201.png",
+    "Languages&Compilation/BottomUpParsing/Parsing_tables.md",
+    "Languages&Compilation/Semantic_checking.md",
     "Languages&Compilation/BottomUpParsing/LR(0)_parsing.md",
     "Languages&Compilation/BottomUpParsing/Bottom-up_parsing.md",
-    "Languages&Compilation/BottomUpParsing/Parsing_tables.md",
     "XX-Attachments/Images/Pasted image 20240502005519.png",
     "XX-Attachments/Images/Pasted image 20240501234916.png",
     "Languages&Compilation/Grammars/Formal_languages.md",
@@ -539,7 +541,6 @@
     "XX-Attachments/Images/Pasted image 20240501230827.png",
     "XX-Attachments/Images/Pasted image 20240501230802.png",
     "XX-Attachments/Images/Pasted image 20240501230740.png",
-    "XX-Attachments/Images/Pasted image 20240501230516.png",
     "Languages&Compilation/Pushdown_recogniser.md",
     "Languages&Compilation/Chomsky_hierarchy.md",
     "Languages&Compilation/Follow_sets.md",
@@ -560,7 +561,6 @@
     "Cybersecurity/RiskManagement/Access_controls.md",
     "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
     "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
-    "Cybersecurity/RiskManagement/Quantitative_privacy.md",
     "Statistics/ProbabilityDistributions",
     "Cybersecurity/EncryptionSchemes",
     "Cybersecurity/RiskManagement",
