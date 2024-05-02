@@ -37,7 +37,17 @@ p := x + y * z -> [t1 := y * z, p := x + t1]
 
 ![[Pasted image 20240502194730.png|350|350]]
 
+
+- As expressions are recognised, the code that implements them is built 
+
+
+![[Pasted image 20240502203333.png|250|250]]
 ## Assignment
 
 ![[Pasted image 20240423143128.png|450|450]]
 ![[Pasted image 20240423143319.png|450|450]]
+
+
+## Code generation process
+- **Building sequences of code**: as expressions are recognised by the [[Syntax_analyser|syntax analyser]],  the corresponding TAC instructions are generated and accumulated.
+- **Optimisation**: opportunities exist to optimise TAC, such as direct literal usage or minimising temp variable use, making the code closer to machine-level instructions.

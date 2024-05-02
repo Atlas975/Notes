@@ -113,7 +113,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -126,7 +126,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -198,7 +198,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -266,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md"
+                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md"
               }
             }
           }
@@ -274,7 +274,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -301,7 +302,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
+                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -318,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
+                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -390,10 +391,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ba70f1d11df9fa7d",
+  "active": "485f79b52602dd73",
   "lastOpenFiles": [
-    "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
+    "XX-Attachments/Images/Pasted image 20240502203333.png",
+    "XX-Attachments/Images/Pasted image 20240502203301.png",
     "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
+    "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
     "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Syntax_analyser.md",
     "XX-Attachments/Images/Pasted image 20240502194730.png",
@@ -424,7 +427,6 @@
     "XX-Attachments/Templates/AliasNote.md",
     "XX-Attachments/Templates/InfoNote_v2.md",
     "ContinuousMath/Distance_metrics.md",
-    "Cybersecurity/RiskManagement/Quantitative_privacy.md",
     "XX-Attachments/Images/Numpy Handbook.pdf",
     "XX-Attachments/Images/math3283-hw4-f16-sol.pdf",
     "XX-Attachments/Images/Pasted image 20240429182030.png",
@@ -436,7 +438,6 @@
     "Languages&Compilation/FiniteAutomata",
     "Languages&Compilation/Computability",
     "XX-Attachments/Images/Pasted image 20240502123224.png",
-    "XX-Attachments/Images/Pasted image 20240502123201.png",
     "Languages&Compilation/Parsing"
   ]
 }
