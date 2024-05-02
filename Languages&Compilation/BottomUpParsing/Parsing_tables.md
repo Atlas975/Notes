@@ -40,7 +40,7 @@ $$(5) \ B \to 1$$
 ![[Pasted image 20240501231401.png|175|175]]
 ### Item set closure 
 - If a `●` precedes a non-terminal in an item, rules for it are activated and included in the item set
-- This is because non-terminals cannot be directly read into the input stream, so all potential branch states must be considered as items. These items are known as the closure of the item set
+- This is because non-terminals cannot be directly read into the input stream, so all potential branch states must be considered as items. These items are the closure of the item set
 
 ```
 E -> E + ● B
