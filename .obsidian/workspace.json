@@ -112,7 +112,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
+                "file": "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -266,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md"
+                "file": "MachineLearning/NeuralNetworks/Training/Backpropagation.md"
               }
             }
           }
@@ -302,7 +302,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
+                "file": "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -319,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
+                "file": "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -393,15 +393,25 @@
   },
   "active": "485f79b52602dd73",
   "lastOpenFiles": [
+    "MachineLearning/LinearRegression/Linear_regression.md",
+    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+    "MachineLearning/ErrorMeasures/Cross-entropy.md",
+    "MachineLearning/ErrorMeasures/Loss_functions.md",
+    "MachineLearning/Classification/Naive_Bayes.md",
+    "MachineLearning/Classification/Semantic_segmentation.md",
+    "MachineLearning/Classification/K-nearest_neighbours.md",
+    "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
+    "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
+    "Languages&Compilation/CompilerConstruction/Analysis/Syntax_analyser.md",
+    "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Semantic_checking.md",
     "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
     "XX-Attachments/Images/Pasted image 20240502203333.png",
     "XX-Attachments/Images/Pasted image 20240502203301.png",
-    "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
     "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
-    "Languages&Compilation/CompilerConstruction/Analysis/Syntax_analyser.md",
     "XX-Attachments/Images/Pasted image 20240502194730.png",
-    "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
     "XX-Attachments/Images/Pasted image 20240502192218.png",
     "ProgramLanguages/x86_assembly.md",
     "Languages&Compilation/Grammars/Formal_languages.md",
@@ -417,16 +427,7 @@
     "XX-Attachments/Images/Pasted image 20240502155107.png",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Lexical_analyser.md",
-    "Languages&Compilation/CompilerConstruction/Compilers.md",
-    "Languages&Compilation/CompilerConstruction/Synthesis/Interpreter.md",
-    "Languages&Compilation/CompilerConstruction/Synthesis/Language_translator.md",
     "XX-Attachments/Images/Pasted image 20240502143400.png",
-    "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
-    "Networking/RoutingAlgorithms/Distance_vector_routing.md",
-    "XX-Attachments/Templates/InfoNote.md",
-    "XX-Attachments/Templates/AliasNote.md",
-    "XX-Attachments/Templates/InfoNote_v2.md",
-    "ContinuousMath/Distance_metrics.md",
     "XX-Attachments/Images/Numpy Handbook.pdf",
     "XX-Attachments/Images/math3283-hw4-f16-sol.pdf",
     "XX-Attachments/Images/Pasted image 20240429182030.png",

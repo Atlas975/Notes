@@ -66,7 +66,7 @@ def cost_deriv(y, y_pred):  # derivative of cost function
 X = np.array([[1, 1], [0, 1], [1, 0], [0, 0]])
 Y = np.array([[0], [1], [1], [0]])  # attempt to generalize a XOR gate
 learning_rate = 0.5
-max_iterations = 2_500
+max_iterations = 2_250
 cost_save = np.zeros(max_iterations) # store costs for visualization
 
 input_sz = X.shape[1]  # number of features (input neurons)
@@ -103,7 +103,7 @@ for epoch in range(max_iterations):  # perform batch gradient descent
     b2 -= learning_rate * dB2 # update biases
     b1 -= learning_rate * dB1
 
-    cost_save[epoch] = np.mean(cost(Y, a2))  # store cost for visualization
+    cost_save[epoch] = np.mean(cost(Y, a2))  # store avg cost for visualization
 
 print(f"Binary Class Predictions:\n{(a2 > 0.5).astype(int).T}")
 print(f"Accuracy: {np.mean((a2 > 0.5) == Y) * 100}%")  # accuracy of model
