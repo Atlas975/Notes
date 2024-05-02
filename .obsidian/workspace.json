@@ -112,8 +112,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
-                "mode": "source",
+                "file": "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -266,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md"
+                "file": "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md"
               }
             }
           }
@@ -302,7 +302,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
+                "file": "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -319,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
+                "file": "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -393,14 +393,14 @@
   },
   "active": "485f79b52602dd73",
   "lastOpenFiles": [
+    "Languages&Compilation/CompilerConstruction/Analysis/Semantic_checking.md",
+    "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
     "XX-Attachments/Images/Pasted image 20240502203333.png",
     "XX-Attachments/Images/Pasted image 20240502203301.png",
     "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
     "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
-    "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Syntax_analyser.md",
     "XX-Attachments/Images/Pasted image 20240502194730.png",
-    "Languages&Compilation/CompilerConstruction/Analysis/Semantic_checking.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
     "XX-Attachments/Images/Pasted image 20240502192218.png",
     "ProgramLanguages/x86_assembly.md",
@@ -437,7 +437,6 @@
     "Languages&Compilation/Parsing/BottomUpParsing",
     "Languages&Compilation/FiniteAutomata",
     "Languages&Compilation/Computability",
-    "XX-Attachments/Images/Pasted image 20240502123224.png",
     "Languages&Compilation/Parsing"
   ]
 }
