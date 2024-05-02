@@ -29,18 +29,6 @@ ___
 - **Lookup:** Identifiers are searched in the ST to verify declarations and check their types.
 - **Scope Transition:** as scopes end, identifiers may be removed  / altered in accessibility 
 
-## Identifier storage 
-
-### Direct storage 
-    
-    - Identifiers are stored directly within each entry of the symbol table.
-    - Fixed space allocation is required for each identifier, based on a pre-defined maximum length.
-    - This method offers straightforward and fast access but can lead to inefficient space usage if the maximum length is not well-matched to actual identifier lengths.
-2. **Pointer to a String Store**:
-    
-    - Identifiers are stored in a dedicated memory area for strings, and the symbol table entries contain pointers to these strings.
-    - This approach allows for dynamic storage of variable-length identifiers, making it more space-efficient.
-    - Accessing identifiers involves an extra step of dereferencing the pointer, adding a slight overhead but optimizing memory usage.
 ## Scoping blocks
 - **Monolithic Blocks:** one block for entire program, approach is less modular and not scalable.
 - **Flat Blocks:** declarations are either local to a block or global to the program (eg Fortran)
@@ -48,6 +36,23 @@ ___
 
 
 ![[Pasted image 20240502155231.png|350|350]]
+
+## Identifier storage 
+- There are 2 distinct ways of storing identifiers in the ST used by compilers 
+- Both of these offer a tradeoff in access speed / memory efficiency 
+- Note that complex identifier types exist as well such as a function needing to hold parameter info and a record needing
+### Direct storage 
+- Each identifier stored directly within a field of the ST, same space for all identifiers 
+- **Fixed size allocation**: the compiler must predetermine a maximum length for an identifier
+- **Direct access**: direct storage is quick to access, good lookup speed 
+- **Space inefficiency**: can waste space if max length is high as this is allocated for all rows
+
+### Pointer to string 
+- Each identifier stored in separate memory area dedicated to storing character strings, the ST entry holds a pointer to the start of the string in this area
+- **Dynamic string store**: identifiers stored in continuous memory blocks, allows for variable length
+- **Indirect access**: slight overhead due to pointer use,  slower than direct access
+- **Space efficiency**: more memory-efficient, especially for variable-length identifiers
+
 ## Preloading
 - Extra entries are often placed in the ST prior to compiler scanning of the source text 
 - These typically come from libraries eg `#include <studio.h>` and are handled via [[Paging#Shared memory paging|linking]]
