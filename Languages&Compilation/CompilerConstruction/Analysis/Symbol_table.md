@@ -12,17 +12,29 @@
 ___
 # Symbol table
 - Used by a [[Compilers|compiler]] to store identifiers (variable names, functions, classes, etc.) that appear in source code. Tracks identifier details such as type (int, string etc) and memory address
-- This helps the compiler understand what each identifier represents and ensures that they're used correctly throughout the program
+- This helps the compiler understand what each identifier represents and ensures that they're used in accordance with their declarations
 
 
 ![[Pasted image 20240502143400.png|350|350]]
 
 - The prior [[Lexical_analyser|lexer]] step may also recognise and pass identifiers directly to the syntax analyser. This simplifies the job of the symbol table further as now it only needs to validate context
 - The level of separation between the lexical analysis step and symbol table construction can vary based on compiler architecture 
-
-
 ## Symbol table functions
 -  **Storage**: holds metadata about the program's entities.
 -  **Scope management**: manages identifier scope by determining where it's accessible 
 -  **Type checking**: ensures that operations performed on identifiers are type-appropriate
 - **Efficiency**: searching / adding new identifiers needs to be fast to keep compilation time low
+
+### Symbol Table Operations
+- **Insertion:** new identifiers must be added to the ST
+- **Lookup:** Identifiers are searched in the ST to verify declarations and check their types.
+- **Deletion or Scope Transition:** As scopes end (e.g., exiting a block), identifiers may be removed or their accessibility altered.
+## Scoping blocks 
+- **Monolithic Blocks:** one block for entire program, approach is less modular and not scalable.
+- **Flat Blocks:** declarations are either local to a block or global to the program (eg Fortran)
+- **Nested Blocks:** blocks can be nested and scopes are defined by these blocks (eg [[C_language|C]], [[Java_language|Java]])
+
+## Preloading
+## Symbol table data structures 
+- ST's can be implemented using various data structures such as [[Hash_tables|hash tables]], [[Trees|tress]], or [[Linked_list_algorithms|linked lists]] depending on efficiency requirements for lookup / insertion 
+- A stack can be used to manage ST's for nested blocks. New blocks (eg functions) are pushed and exited blocks are popped. Not suitable for multiple pass compilation as metadata is lost
