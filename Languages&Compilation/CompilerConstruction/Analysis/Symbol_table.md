@@ -15,4 +15,4 @@ ___
 - This helps the compiler understand what each identifier represents and ensures that they're used correctly throughout the program
 
 
-It also keeps track of various details about these identifiers, such as their types (integer, string, etc.), scope, and memory addresses. This helps the compiler understand what each identifier represents and ensures that they are used correctly throughout the program.
+![[Pasted image 20240502143400.png|350|350]]

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
+                "file": "Languages&Compilation/CompilerConstruction/Compilers.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md"
+                "file": "Languages&Compilation/CompilerConstruction/Compilers.md"
               }
             }
           }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
+                "file": "Languages&Compilation/CompilerConstruction/Compilers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
+                "file": "Languages&Compilation/CompilerConstruction/Compilers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,15 +212,20 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c2c5616dce45749e",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
+    "Languages&Compilation/CompilerConstruction/Synthesis/Interpreter.md",
+    "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
+    "Languages&Compilation/CompilerConstruction/Synthesis/Language_translator.md",
+    "Languages&Compilation/CompilerConstruction/Compilers.md",
+    "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
+    "XX-Attachments/Images/Pasted image 20240502143400.png",
     "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
     "Networking/RoutingAlgorithms/Distance_vector_routing.md",
     "Languages&Compilation/Grammars/Formal_languages.md",
     "XX-Attachments/Templates/InfoNote.md",
     "XX-Attachments/Templates/AliasNote.md",
     "XX-Attachments/Templates/InfoNote_v2.md",
-    "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
     "ContinuousMath/Distance_metrics.md",
     "Cybersecurity/RiskManagement/Quantitative_privacy.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Debugging_ML_algorithms.md",
@@ -230,9 +235,6 @@
     "Languages&Compilation/CompilerConstruction/Analysis/Semantic_checking.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Syntax_analyser.md",
     "Languages&Compilation/Grammars/Regular_grammars.md",
-    "Languages&Compilation/CompilerConstruction/TranslationTools/Three_address_code.md",
-    "Languages&Compilation/CompilerConstruction/TranslationTools/Language_translator.md",
-    "Languages&Compilation/CompilerConstruction/TranslationTools/Interpreter.md",
     "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md",
     "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
     "XX-Attachments/Images/Numpy Handbook.pdf",
@@ -242,8 +244,7 @@
     "Statistics/Event_independence.md",
     "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
-    "Statistics/ProbabilityDistributions/Triangular_distribution.md",
-    "Languages&Compilation/CompilerConstruction/TranslationTools",
+    "Languages&Compilation/CompilerConstruction/Synthesis",
     "Languages&Compilation/CompilerConstruction/Analysis",
     "Languages&Compilation/CompilerConstruction",
     "Languages&Compilation/Parsing/TopDownParsing",
@@ -258,7 +259,6 @@
     "XX-Attachments/Images/Pasted image 20240501232127.png",
     "XX-Attachments/Images/Pasted image 20240501231401.png",
     "XX-Attachments/Images/Pasted image 20240501231221.png",
-    "XX-Attachments/Images/Pasted image 20240501230827.png",
     "Languages&Compilation/Parsing"
   ]
 }
