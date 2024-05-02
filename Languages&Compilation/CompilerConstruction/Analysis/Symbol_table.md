@@ -17,4 +17,12 @@ ___
 
 ![[Pasted image 20240502143400.png|350|350]]
 
-- Depending on the compiler, the [[Lexical_analyser|lexer]] may also pass identifiers it 
+- The prior [[Lexical_analyser|lexer]] step may also recognise and pass identifiers directly to the syntax analyser. This simplifies the job of the symbol table further as now it only needs to validate context
+- The level of separation between the lexical analysis step and symbol table construction can vary based on compiler architecture 
+
+
+## Symbol table functions
+-  **Storage**: holds metadata about the program's entities.
+-  **Scope management**: manages identifier scope by determining where it's accessible 
+-  **Type checking**: ensures that operations performed on identifiers are type-appropriate
+- **Efficiency**: searching / adding new identifiers needs to be fast to keep compilation time low
