@@ -87,7 +87,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -288,6 +288,10 @@
   },
   "active": "e620fc466fc62e9b",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240502155435.png",
+    "XX-Attachments/Images/Pasted image 20240502155231.png",
+    "XX-Attachments/Images/Pasted image 20240502155218.png",
+    "XX-Attachments/Images/Pasted image 20240502155107.png",
     "MachineLearning/0-Legacy/0-GeneralConcepts/ArgMax&SoftMax.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
@@ -317,7 +321,6 @@
     "XX-Attachments/Images/Numpy Handbook.pdf",
     "XX-Attachments/Images/math3283-hw4-f16-sol.pdf",
     "XX-Attachments/Images/Pasted image 20240429182030.png",
-    "Statistics/Bayes_theorem.md",
     "Languages&Compilation/CompilerConstruction/Synthesis",
     "Languages&Compilation/CompilerConstruction/Analysis",
     "Languages&Compilation/CompilerConstruction",
@@ -330,9 +333,6 @@
     "XX-Attachments/Images/Pasted image 20240502005519.png",
     "XX-Attachments/Images/Pasted image 20240501234916.png",
     "XX-Attachments/Images/Pasted image 20240501233252.png",
-    "XX-Attachments/Images/Pasted image 20240501232127.png",
-    "XX-Attachments/Images/Pasted image 20240501231401.png",
-    "XX-Attachments/Images/Pasted image 20240501231221.png",
     "Languages&Compilation/Parsing"
   ]
 }
