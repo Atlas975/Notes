@@ -16,3 +16,5 @@ ___
 
 
 ![[Pasted image 20240502143400.png|350|350]]
+
+- Depending on the compiler, the [[Lexical_analyser|lexer]] may also pass identifiers it 

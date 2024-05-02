@@ -13,14 +13,67 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Compilers.md",
+                "file": "Languages&Compilation/CompilerConstruction/Analysis/Lexical_analyser.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
+          },
+          {
+            "id": "d422782a97a8b670",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/CompilerConstruction/Compilers.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "05e12baec9408d36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/CompilerConstruction/Compilers.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e114879fbc98e2a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/CompilerConstruction/Analysis/Lexical_analyser.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b932968573ab7fed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -88,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Compilers.md"
+                "file": "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md"
               }
             }
           }
@@ -123,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Compilers.md",
+                "file": "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Compilers.md",
+                "file": "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,13 +265,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "61b6b073dac95afd",
+  "active": "b932968573ab7fed",
   "lastOpenFiles": [
+    "Languages&Compilation/CompilerConstruction/Analysis/Lexical_analyser.md",
+    "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
+    "Languages&Compilation/CompilerConstruction/Compilers.md",
     "Languages&Compilation/CompilerConstruction/Synthesis/Interpreter.md",
     "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
     "Languages&Compilation/CompilerConstruction/Synthesis/Language_translator.md",
-    "Languages&Compilation/CompilerConstruction/Compilers.md",
-    "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
     "XX-Attachments/Images/Pasted image 20240502143400.png",
     "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
     "Networking/RoutingAlgorithms/Distance_vector_routing.md",
@@ -243,7 +297,6 @@
     "Statistics/Bayes_theorem.md",
     "Statistics/Event_independence.md",
     "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
-    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "Languages&Compilation/CompilerConstruction/Synthesis",
     "Languages&Compilation/CompilerConstruction/Analysis",
     "Languages&Compilation/CompilerConstruction",

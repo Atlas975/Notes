@@ -1,3 +1,8 @@
+---
+aliases:
+  - lexer
+---
+
 > [!important]- Metadata
 > **Tags:** #Compilers #Languages 
 > **Located:** Languages&Compilation
@@ -21,15 +26,20 @@ ___
 	- **Identifiers**: variable / method / class names etc. for elements in a program
 	- **Literal constants**: fixed values (numbers, character constants, string literals etc.)
 - The LA ensuring that only valid tokens exist prevents errors from propagating to the SA
-- Example toke stream for `int count = 5;`
 
-![[Pasted image 20240229162558.png|350|350]]
+```c
+int age = 25;
 
+// `int` (keyword)
+// `age` (identifier)
+// `=` (operator)
+// `25` (numeric literal)
+// `;` (delimiter)
+```
 ## Reserved keywords
 - The set of words reserved for a languages syntax (eg if, while, function, return)
 - These words typically cannot be used as identifiers
 - A character string is recognised as reserved by looking into the table of reserved keywords
-
 ### Example processing of input stream 
 - Whitespace indicates that the current token buffer can be checked and then emptied 
 
