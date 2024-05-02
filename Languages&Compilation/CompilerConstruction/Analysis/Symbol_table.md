@@ -24,11 +24,23 @@ ___
 -  **Scope management**: manages identifier scope by determining where it's accessible 
 -  **Type checking**: ensures that operations performed on identifiers are type-appropriate
 - **Efficiency**: searching / adding new identifiers needs to be fast to keep compilation time low
-
 ### Symbol Table Operations
 - **Insertion:** new identifiers must be added to the ST
 - **Lookup:** Identifiers are searched in the ST to verify declarations and check their types.
 - **Scope Transition:** as scopes end, identifiers may be removed  / altered in accessibility 
+
+## Identifier storage 
+
+### Direct storage 
+    
+    - Identifiers are stored directly within each entry of the symbol table.
+    - Fixed space allocation is required for each identifier, based on a pre-defined maximum length.
+    - This method offers straightforward and fast access but can lead to inefficient space usage if the maximum length is not well-matched to actual identifier lengths.
+2. **Pointer to a String Store**:
+    
+    - Identifiers are stored in a dedicated memory area for strings, and the symbol table entries contain pointers to these strings.
+    - This approach allows for dynamic storage of variable-length identifiers, making it more space-efficient.
+    - Accessing identifiers involves an extra step of dereferencing the pointer, adding a slight overhead but optimizing memory usage.
 ## Scoping blocks
 - **Monolithic Blocks:** one block for entire program, approach is less modular and not scalable.
 - **Flat Blocks:** declarations are either local to a block or global to the program (eg Fortran)
@@ -37,6 +49,8 @@ ___
 
 ![[Pasted image 20240502155231.png|350|350]]
 ## Preloading
+- Extra entries are often placed in the ST prior to compiler scanning of the source text 
+- These typically come from libraries eg `#include <studio.h>` and are handled via [[Paging#Shared memory paging|linking]]
 ## Symbol table data structures
 - ST's can be implemented using various data structures such as [[Hash_tables|hash tables]], [[Trees|tress]], or [[Linked_list_algorithms|linked lists]] depending on efficiency requirements for lookup / insertion 
 - A stack can be used to manage ST's for nested blocks. New blocks (eg functions) are pushed and exited blocks are popped. 

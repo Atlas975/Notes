@@ -104,12 +104,12 @@ $$P = \mathbb{P}\text{(page fault)}$$
 ![[Pasted image 20221212221901.png|400|400]]
 
 ## Shared memory paging
-- Paging can be utilized as a way to create shared memory between processes
+- Paging can be utilised as a way to create shared memory between processes
 - Useful for shared libraries such as standard OS or math libs
 
 ![[Pasted image 20221212224501.png|400|400]]
 
-- Metadata in each process used by loader to ensure any requested libraries already exists in memory
+- Process metadata is used by loader to ensure any requested libraries already exists in memory
 - Example of shared library execution:
 
 ![[Pasted image 20221213011529.png|400|400]]
