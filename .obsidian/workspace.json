@@ -211,6 +211,32 @@
             }
           },
           {
+            "id": "1f416411fe15e7f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6c8c25182a9fb7b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7e9392c3c92a174e",
             "type": "leaf",
             "state": {
@@ -393,7 +419,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -461,7 +487,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md"
+                "file": "MediaCoding/IntensityTransforms/Bit-plane_slicing.md"
               }
             }
           }
@@ -469,8 +495,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -497,7 +522,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
+                "file": "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -514,7 +539,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
+                "file": "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -586,34 +611,34 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f739e71a8421415c",
+  "active": "6c8c25182a9fb7b5",
   "lastOpenFiles": [
-    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
-    "MediaCoding/DiscreteCosineTansform/JPEG.md",
+    "MediaCoding/IntensityTransforms/Gamma_transform.md",
+    "MediaCoding/IntensityTransforms/Histogram_matching.md",
+    "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
+    "MediaCoding/IntensityTransforms/Log_transform.md",
+    "MediaCoding/IntensityTransforms/Image_negatives.md",
+    "MediaCoding/Watermarking/Watermarking.md",
+    "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
+    "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
+    "MediaCoding/Canny_edge_detection.md",
+    "MediaCoding/Colour_models.md",
+    "MediaCoding/Edge_detection.md",
+    "MediaCoding/Media_coding.md",
+    "MediaCoding/Image_derivatives.md",
+    "MediaCoding/OpticalFlow/Optical_flow.md",
+    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
+    "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
+    "MediaCoding/ImageMatching/Image_features.md",
+    "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
+    "MediaCoding/ImageMatching/Laplacian_pyramid.md",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
+    "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
+    "MediaCoding/DiscreteCosineTansform/JPEG.md",
+    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
-    "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
-    "MediaCoding/IntensityTransforms/Gamma_transform.md",
     "Statistics/ProbabilityDistributions/Probability_distributions.md",
-    "Statistics/Mean.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
-    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
-    "Statistics/Entropy.md",
-    "MachineLearning/TreeModels/Decision_trees.md",
-    "MachineLearning/Classification/Naive_Bayes.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
-    "MachineLearning/GeneticAlgorithms/Crossover.md",
-    "MachineLearning/Clustering/K-means_clustering.md",
-    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/K-Means_algorithm(legacy).md",
-    "MachineLearning/FeatureEngineering/Normalisation.md",
-    "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
-    "MachineLearning/LinearRegression/Linear_regression.md",
-    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
-    "MachineLearning/ErrorMeasures/Cross-entropy.md",
-    "MachineLearning/ErrorMeasures/Loss_functions.md",
     "XX-Attachments/Images/Pasted image 20240502203333.png",
     "XX-Attachments/Images/Pasted image 20240502203301.png",
     "XX-Attachments/Images/Pasted image 20240502194730.png",
