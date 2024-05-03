@@ -81,6 +81,19 @@
             }
           },
           {
+            "id": "8b866c549339cb87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0c91eccd7ced05da",
             "type": "leaf",
             "state": {
@@ -484,7 +497,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -552,7 +565,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Interpreter.md"
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md"
               }
             }
           }
@@ -588,7 +601,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Interpreter.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -605,7 +618,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Interpreter.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -677,8 +690,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "895fc6fdcfebdf81",
+  "active": "8b866c549339cb87",
   "lastOpenFiles": [
+    "Languages&Compilation/CompilerConstruction/Synthesis/Interpreter.md",
     "Languages&Compilation/CompilerConstruction/Synthesis/Language_translator.md",
     "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
     "Languages&Compilation/CompilerConstruction/Compilers.md",
@@ -705,7 +719,6 @@
     "MediaCoding/IntensityTransforms/Image_negatives.md",
     "MediaCoding/Watermarking/Watermarking.md",
     "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
-    "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
     "XX-Attachments/Images/Pasted image 20240502203333.png",
     "XX-Attachments/Images/Pasted image 20240502203301.png",
     "XX-Attachments/Images/Pasted image 20240502194730.png",

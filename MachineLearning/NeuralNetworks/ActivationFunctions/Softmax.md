@@ -23,7 +23,7 @@ $$\frac{e^x}{\sum e^{x_{i}}}$$
 
 ![[Pasted image 20240418141416.png|400|400]]
 ## Temperature
-- Temperature ($T$) adjusts the probability spread; higher temperatures yield a flatter distribution, while lower temperatures produce gives more weight to larger values 
+- Temperature ($T$) adjusts the probability spread; higher temperatures yield a flatter distribution, while lower temperatures produce a distribution that gives more weight to larger values 
 - Regulates the trade-off between exploring new options (high temperature) and exploring known ones (low temperature).
 
 $$\frac{e^{x/T}}{\sum e^{x_{i}/T}}$$
