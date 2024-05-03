@@ -133,6 +133,58 @@
             }
           },
           {
+            "id": "70525af037291664",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/K-Means_algorithm(legacy).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "81095e6db5d6f94a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Clustering/K-means_clustering.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c23dc8be578dddc1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Classification/Naive_Bayes.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "de23912c95c1dc21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ba70f1d11df9fa7d",
             "type": "leaf",
             "state": {
@@ -211,7 +263,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -404,9 +456,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d881d03983b1eecb",
+  "active": "de23912c95c1dc21",
   "lastOpenFiles": [
     "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+    "MachineLearning/GeneticAlgorithms/Crossover.md",
+    "MachineLearning/Classification/Naive_Bayes.md",
+    "MachineLearning/Clustering/K-means_clustering.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/K-Means_algorithm(legacy).md",
+    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/FeatureEngineering/Normalisation.md",
     "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
     "MachineLearning/LinearRegression/Linear_regression.md",
@@ -415,7 +472,6 @@
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
     "MachineLearning/ErrorMeasures/Cross-entropy.md",
     "MachineLearning/ErrorMeasures/Loss_functions.md",
-    "MachineLearning/Classification/Naive_Bayes.md",
     "MachineLearning/Classification/Semantic_segmentation.md",
     "MachineLearning/Classification/K-nearest_neighbours.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
@@ -432,10 +488,6 @@
     "ProgramLanguages/x86_assembly.md",
     "Languages&Compilation/Grammars/Formal_languages.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
-    "OperatingSystems/Paging.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/ArgMax&SoftMax.md",
-    "OperatingSystems/Page_replacement.md",
-    "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/LinearAlgebra/PageRank.md",
     "XX-Attachments/Images/Pasted image 20240502155435.png",
     "XX-Attachments/Images/Pasted image 20240502155231.png",
     "XX-Attachments/Images/Pasted image 20240502155218.png",

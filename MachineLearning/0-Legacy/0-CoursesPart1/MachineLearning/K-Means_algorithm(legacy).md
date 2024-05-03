@@ -20,7 +20,7 @@
 
 # K-means optimization objective
 ![[Pasted image 20220209202005.png|450|450]]
-also knows as the distortion cost function
+also knows as the distortion cost function≤
 
 # Random assignment of centroids
 - This is usually done by randomly picking two points and placing the centroid right on top
