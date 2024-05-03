@@ -211,6 +211,19 @@
             }
           },
           {
+            "id": "059a0e06b3eed928",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d7633f844575d860",
             "type": "leaf",
             "state": {
@@ -471,7 +484,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -539,7 +552,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Image_derivatives.md"
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md"
               }
             }
           }
@@ -575,7 +588,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Image_derivatives.md",
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -592,7 +605,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Image_derivatives.md",
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -664,8 +677,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "26efc40977ac9057",
+  "active": "059a0e06b3eed928",
   "lastOpenFiles": [
+    "MediaCoding/DiscreteCosineTansform/JPEG.md",
+    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
+    "MediaCoding/Image_derivatives.md",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
@@ -673,7 +689,6 @@
     "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Roberts_filter.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
-    "MediaCoding/Image_derivatives.md",
     "MediaCoding/IntensityTransforms/Histogram_matching.md",
     "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
     "MediaCoding/IntensityTransforms/Gamma_transform.md",
@@ -690,8 +705,6 @@
     "MediaCoding/OpticalFlow/Optical_flow.md",
     "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
     "MediaCoding/ImageMatching/Image_features.md",
-    "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
-    "MediaCoding/ImageMatching/Laplacian_pyramid.md",
     "XX-Attachments/Images/Pasted image 20240502203333.png",
     "XX-Attachments/Images/Pasted image 20240502203301.png",
     "XX-Attachments/Images/Pasted image 20240502194730.png",
