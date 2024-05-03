@@ -24,6 +24,9 @@ ___
 -  **Scope management**: manages identifier scope by determining where it's accessible 
 -  **Type checking**: ensures that operations performed on identifiers are type-appropriate
 - **Efficiency**: searching / adding new identifiers needs to be fast to keep compilation time low
+
+
+![[Pasted image 20240503185338.png|350|350]]
 ### Symbol Table Operations
 - **Insertion:** new identifiers must be added to the ST
 - **Lookup:** Identifiers are searched in the ST to verify declarations and check their types.

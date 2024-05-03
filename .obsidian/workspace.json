@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
+                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Interpreter.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -484,7 +484,7 @@
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -552,7 +552,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md"
+                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Interpreter.md"
               }
             }
           }
@@ -588,7 +588,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
+                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Interpreter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -605,7 +605,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
+                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Interpreter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -677,11 +677,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "059a0e06b3eed928",
+  "active": "895fc6fdcfebdf81",
   "lastOpenFiles": [
+    "Languages&Compilation/CompilerConstruction/Synthesis/Language_translator.md",
+    "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
+    "Languages&Compilation/CompilerConstruction/Compilers.md",
+    "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
+    "XX-Attachments/Images/Pasted image 20240503185338.png",
+    "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
     "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
-    "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "MediaCoding/Image_derivatives.md",
@@ -701,10 +706,6 @@
     "MediaCoding/Watermarking/Watermarking.md",
     "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
     "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
-    "MediaCoding/Canny_edge_detection.md",
-    "MediaCoding/Colour_models.md",
-    "MediaCoding/Edge_detection.md",
-    "MediaCoding/Media_coding.md",
     "XX-Attachments/Images/Pasted image 20240502203333.png",
     "XX-Attachments/Images/Pasted image 20240502203301.png",
     "XX-Attachments/Images/Pasted image 20240502194730.png",
@@ -716,7 +717,6 @@
     "XX-Attachments/Images/Pasted image 20240502143400.png",
     "XX-Attachments/Images/Numpy Handbook.pdf",
     "XX-Attachments/Images/math3283-hw4-f16-sol.pdf",
-    "XX-Attachments/Images/Pasted image 20240429182030.png",
     "Languages&Compilation/CompilerConstruction/Synthesis",
     "Languages&Compilation/CompilerConstruction/Analysis",
     "Languages&Compilation/CompilerConstruction",
