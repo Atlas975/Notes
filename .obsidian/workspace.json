@@ -237,6 +237,32 @@
             }
           },
           {
+            "id": "6a0eb6d958e4a6b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/IntensityTransforms/Histogram_matching.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "92d4aad283a6ac72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Image_derivatives.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7e9392c3c92a174e",
             "type": "leaf",
             "state": {
@@ -419,7 +445,7 @@
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -487,7 +513,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Bit-plane_slicing.md"
+                "file": "MediaCoding/Image_derivatives.md"
               }
             }
           }
@@ -495,7 +521,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -522,7 +549,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
+                "file": "MediaCoding/Image_derivatives.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -539,7 +566,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
+                "file": "MediaCoding/Image_derivatives.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -611,10 +638,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6c8c25182a9fb7b5",
+  "active": "92d4aad283a6ac72",
   "lastOpenFiles": [
-    "MediaCoding/IntensityTransforms/Gamma_transform.md",
     "MediaCoding/IntensityTransforms/Histogram_matching.md",
+    "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
+    "MediaCoding/IntensityTransforms/Gamma_transform.md",
     "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
     "MediaCoding/IntensityTransforms/Log_transform.md",
     "MediaCoding/IntensityTransforms/Image_negatives.md",
@@ -638,7 +666,6 @@
     "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
-    "Statistics/ProbabilityDistributions/Probability_distributions.md",
     "XX-Attachments/Images/Pasted image 20240502203333.png",
     "XX-Attachments/Images/Pasted image 20240502203301.png",
     "XX-Attachments/Images/Pasted image 20240502194730.png",
