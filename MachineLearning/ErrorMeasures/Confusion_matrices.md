@@ -21,7 +21,7 @@ $$Accuracy=\frac{TP+TN}{TP+TN+FP+FN}$$
 - These can be generalised to multi-class classification using a larger matrix:
 
 ![[Pasted image 20240403000814.png|250|250]]
-## Sensitivity / recall
+## Recall
 - Proportion of positive outcomes if truly positive (too many missed diagnosis if low)
 
 $$\frac{TP}{TP + FN}=\frac{TP}{|\text{Positives}|}$$

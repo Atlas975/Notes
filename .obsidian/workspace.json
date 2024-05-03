@@ -177,8 +177,34 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "MachineLearning/TreeModels/Decision_trees.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "958158c8e6b9cef9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Statistics/Entropy.md",
-                "mode": "source",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e3406cf7e84b17fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -276,7 +302,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -344,7 +370,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Entropy.md"
+                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md"
               }
             }
           }
@@ -380,7 +406,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Entropy.md",
+                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -397,7 +423,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Entropy.md",
+                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -469,8 +495,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ae80e0a50d9dc8d8",
+  "active": "e3406cf7e84b17fd",
   "lastOpenFiles": [
+    "Statistics/Entropy.md",
+    "MachineLearning/TreeModels/Decision_trees.md",
     "MachineLearning/Classification/Naive_Bayes.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
@@ -499,8 +527,6 @@
     "XX-Attachments/Images/Pasted image 20240502194730.png",
     "XX-Attachments/Images/Pasted image 20240502192218.png",
     "ProgramLanguages/x86_assembly.md",
-    "Languages&Compilation/Grammars/Formal_languages.md",
-    "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "XX-Attachments/Images/Pasted image 20240502155435.png",
     "XX-Attachments/Images/Pasted image 20240502155231.png",
     "XX-Attachments/Images/Pasted image 20240502155218.png",

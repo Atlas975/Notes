@@ -1,5 +1,5 @@
 > [!important]- Metadata
-> **Tags:** #
+> **Tags:** #StatisticalLearning 
 > **Located:** MachineLearning
 > **Created:** 03/04/2024 - 17:18
 > ```dataviewjs
