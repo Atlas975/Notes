@@ -172,6 +172,19 @@
             }
           },
           {
+            "id": "ae80e0a50d9dc8d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Entropy.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "de23912c95c1dc21",
             "type": "leaf",
             "state": {
@@ -331,7 +344,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_encoding.md"
+                "file": "Statistics/Entropy.md"
               }
             }
           }
@@ -367,7 +380,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
+                "file": "Statistics/Entropy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -384,7 +397,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
+                "file": "Statistics/Entropy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -456,14 +469,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "de23912c95c1dc21",
+  "active": "ae80e0a50d9dc8d8",
   "lastOpenFiles": [
+    "MachineLearning/Classification/Naive_Bayes.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "MachineLearning/GeneticAlgorithms/Crossover.md",
-    "MachineLearning/Classification/Naive_Bayes.md",
     "MachineLearning/Clustering/K-means_clustering.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/K-Means_algorithm(legacy).md",
-    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/FeatureEngineering/Normalisation.md",
     "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
     "MachineLearning/LinearRegression/Linear_regression.md",

@@ -22,3 +22,4 @@ ___
 $$\text{Entropy}(S)=-\sum p_{i}\cdot \log_{2}(p_{i})$$
 $$S=\text{the set being investigated}$$
 $$p_{i}=\text{the proporition of elements in class }i \text{ within the set}$$
+    
