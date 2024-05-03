@@ -198,6 +198,19 @@
             }
           },
           {
+            "id": "26efc40977ac9057",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Image_derivatives.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d7633f844575d860",
             "type": "leaf",
             "state": {
@@ -458,7 +471,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -526,7 +539,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md"
+                "file": "MediaCoding/Image_derivatives.md"
               }
             }
           }
@@ -562,7 +575,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
+                "file": "MediaCoding/Image_derivatives.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -579,7 +592,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
+                "file": "MediaCoding/Image_derivatives.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -651,10 +664,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "cb4c310c9ffd63ac",
+  "active": "26efc40977ac9057",
   "lastOpenFiles": [
-    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
+    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
