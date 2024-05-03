@@ -120,6 +120,19 @@
             }
           },
           {
+            "id": "d881d03983b1eecb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ba70f1d11df9fa7d",
             "type": "leaf",
             "state": {
@@ -198,7 +211,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -266,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Training/Backpropagation.md"
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_encoding.md"
               }
             }
           }
@@ -302,7 +315,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -319,7 +332,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -391,8 +404,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "485f79b52602dd73",
+  "active": "d881d03983b1eecb",
   "lastOpenFiles": [
+    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+    "MachineLearning/FeatureEngineering/Normalisation.md",
+    "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
     "MachineLearning/LinearRegression/Linear_regression.md",
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
@@ -420,13 +436,10 @@
     "MachineLearning/0-Legacy/0-GeneralConcepts/ArgMax&SoftMax.md",
     "OperatingSystems/Page_replacement.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/LinearAlgebra/PageRank.md",
-    "ProgramLanguages/C_language.md",
     "XX-Attachments/Images/Pasted image 20240502155435.png",
     "XX-Attachments/Images/Pasted image 20240502155231.png",
     "XX-Attachments/Images/Pasted image 20240502155218.png",
     "XX-Attachments/Images/Pasted image 20240502155107.png",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
-    "Languages&Compilation/CompilerConstruction/Analysis/Lexical_analyser.md",
     "XX-Attachments/Images/Pasted image 20240502143400.png",
     "XX-Attachments/Images/Numpy Handbook.pdf",
     "XX-Attachments/Images/math3283-hw4-f16-sol.pdf",
