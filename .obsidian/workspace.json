@@ -152,7 +152,20 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
-                "mode": "source",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "23f68da1af5cd045",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/CompilerConstruction/Analysis/Literal_table.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -744,10 +757,11 @@
   },
   "active": "e1bc7d87ef1056b4",
   "lastOpenFiles": [
+    "Languages&Compilation/CompilerConstruction/Analysis/Literal_table.md",
+    "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
-    "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
     "MachineLearning/Artificial_intelligence.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
@@ -770,7 +784,6 @@
     "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
     "MediaCoding/IntensityTransforms/Gamma_transform.md",
     "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
-    "MediaCoding/IntensityTransforms/Log_transform.md",
     "XX-Attachments/Images/Pasted image 20240502203333.png",
     "XX-Attachments/Images/Pasted image 20240502203301.png",
     "XX-Attachments/Images/Pasted image 20240502194730.png",

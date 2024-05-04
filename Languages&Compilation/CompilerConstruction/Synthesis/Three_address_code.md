@@ -41,9 +41,10 @@ p := x + y * z -> [t1 := y * z, p := x + t1]
 
 ```
 expr ::= expr PLUS term
-a + 3 = A(a + (address of 3 in the literal table)
+a + 3 = A(a + (address of 3 in the literal table))
 b * c + d * 3 = [y = A(b * c), z = B(d * 3)]
 ```
+
 ![[Pasted image 20240502203333.png|250|250]]
 ## Assignment
 
