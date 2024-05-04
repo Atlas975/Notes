@@ -123,7 +123,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -241,6 +242,8 @@
   },
   "active": "dfec9aa05aaf76f2",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240504203716.png",
+    "XX-Attachments/Images/Pasted image 20240504203232.png",
     "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "XX-Attachments/Images/Pasted image 20240504203136.png",
     "Languages&Compilation/CompilerConstruction/CompilationTypes/Compilers.md",
@@ -267,7 +270,6 @@
     "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
     "MediaCoding/IntensityTransforms/Histogram_matching.md",
     "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
-    "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
     "Languages&Compilation/CompilerConstruction/CompilationTypes",
     "XX-Attachments/Images/Pasted image 20240503185338.png",
     "XX-Attachments/Images/Pasted image 20240502203333.png",
@@ -277,7 +279,6 @@
     "XX-Attachments/Images/Pasted image 20240502155435.png",
     "XX-Attachments/Images/Pasted image 20240502155231.png",
     "XX-Attachments/Images/Pasted image 20240502155218.png",
-    "XX-Attachments/Images/Pasted image 20240502155107.png",
     "XX-Attachments/Images/Numpy Handbook.pdf",
     "XX-Attachments/Images/math3283-hw4-f16-sol.pdf",
     "Languages&Compilation/CompilerConstruction/Synthesis",
