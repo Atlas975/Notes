@@ -1,12 +1,11 @@
 ---
-aliases: 
-linklist: []
-last modified: 
+aliases:
+created: "{{fileCreated}}"
 ---
 
 > [!important]- Metadata
-> **Located:** <% tp.file.path(true).split('/' + tp.file.title)[0] %>
-> **Created:** `$= dv.current().file.ctime`
+> **Located:** XX-Attachments/Templates
+> **Created:** 04/05/2024 - 17:28
 > ```dataviewjs
 > let cur = dv.current().file;
 > let paths = new Set(
@@ -17,6 +16,6 @@ last modified:
 > ```
 
 ___
-# <% tp.file.title.replace(/_/g,' ') %>
-<% tp.file.cursor(3) %>
+# Untitled
+
 

@@ -1,7 +1,7 @@
 > [!important]- Metadata
 > **Tags:** #MediaEncoding 
 > **Located:** MediaCoding
-> **Created:** 21/03/2024 - 01:43
+> **Last modified:** `$= dv.current().file.mtime`
 > ```dataviewjs
 > let f = dv.current().file;
 > let paths = new Set([...f.inlinks, ...f.outlinks].map(p => p.path).filter(p => !p.endsWith(".png")));

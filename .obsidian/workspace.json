@@ -177,8 +177,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XX-Attachments/Templates/InfoNote_v2.md",
+                "file": "XX-Attachments/Templates/AliasNote.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b67c8410f2d91883",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XX-Attachments/Templates/AliasNote.md",
                 "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3d8ef2f653c5833f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Canny_edge_detection.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -588,7 +614,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -618,7 +644,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "botto",
+                "query": "tag:tp.file.cursor(2)",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -656,7 +682,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "XX-Attachments/Templates/InfoNote_v2.md"
+                "file": "MediaCoding/Canny_edge_detection.md"
               }
             }
           }
@@ -664,7 +690,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -691,7 +718,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "XX-Attachments/Templates/InfoNote_v2.md",
+                "file": "MediaCoding/Canny_edge_detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -708,7 +735,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "XX-Attachments/Templates/InfoNote_v2.md",
+                "file": "MediaCoding/Canny_edge_detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -780,12 +807,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "70df852c68d16e97",
+  "active": "3d8ef2f653c5833f",
   "lastOpenFiles": [
-    "XX-Attachments/Templates/Untitled.md",
-    "XX-Attachments/Templates/InfoNote_v2.md",
+    "MediaCoding/Watermarking/Watermarking.md",
     "XX-Attachments/Templates/InfoNote.md",
     "XX-Attachments/Templates/AliasNote.md",
+    "XX-Attachments/Templates/Link.md",
+    "XX-Attachments/Templates/Untitled.md",
+    "XX-Attachments/Templates/InfoNote_v2.md",
     "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Literal_table.md",
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
@@ -807,8 +836,6 @@
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Roberts_filter.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
     "XX-Attachments/Images/Pasted image 20240502203333.png",
     "XX-Attachments/Images/Pasted image 20240502203301.png",
     "XX-Attachments/Images/Pasted image 20240502194730.png",
