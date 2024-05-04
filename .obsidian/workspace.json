@@ -4,201 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ae11756eb4864a6a",
+        "id": "9a68b911f431826e",
         "type": "tabs",
         "children": [
           {
-            "id": "c2c5616dce45749e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Lexical_analyser.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d422782a97a8b670",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Compilers.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "05e12baec9408d36",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Compilers.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e114879fbc98e2a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Compilers.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "81f8dd12f56866be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b932968573ab7fed",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "895fc6fdcfebdf81",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Interpreter.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8b866c549339cb87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0c91eccd7ced05da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2dfd88a94ea54973",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b21deac12e085588",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "24303278388b52c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e1bc7d87ef1056b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Compilers.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f4b514859969d0ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XX-Attachments/Templates/AliasNote.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "70df852c68d16e97",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XX-Attachments/Templates/AliasNote.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b67c8410f2d91883",
+            "id": "5b22b1c08692ef71",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -211,12 +21,12 @@
             }
           },
           {
-            "id": "3d8ef2f653c5833f",
+            "id": "dfec9aa05aaf76f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Canny_edge_detection.md",
+                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -224,402 +34,12 @@
             }
           },
           {
-            "id": "23f68da1af5cd045",
+            "id": "99d65f2cc3933237",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Literal_table.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "26fb38699927a3eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Syntax_analyser.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "485f79b52602dd73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d881d03983b1eecb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7b5194e6a0639216",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/IntensityTransforms/Gamma_transform.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7fe45d5988aa0c76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "efc4eedec4cba6c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "127245449ab31b7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cb4c310c9ffd63ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "26efc40977ac9057",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/Image_derivatives.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "059a0e06b3eed928",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d7633f844575d860",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f739e71a8421415c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1f416411fe15e7f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c8c25182a9fb7b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a0eb6d958e4a6b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/IntensityTransforms/Histogram_matching.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "92d4aad283a6ac72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7e9392c3c92a174e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/Mean.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "70525af037291664",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/K-Means_algorithm(legacy).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "81095e6db5d6f94a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Clustering/K-means_clustering.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c23dc8be578dddc1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Classification/Naive_Bayes.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ae80e0a50d9dc8d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/TreeModels/Decision_trees.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "958158c8e6b9cef9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/Entropy.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e3406cf7e84b17fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "de23912c95c1dc21",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ba70f1d11df9fa7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3307ed3f25bbae51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Semantic_analyser.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4174ab1955e9b649",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ce0201e6234f87fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/LinearAlgebra/PageRank.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b716c351651578fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/Page_replacement.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a3330d4933e5c423",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/Paging.md",
+                "file": "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -627,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -695,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Interpreter.md"
+                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md"
               }
             }
           }
@@ -703,8 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -731,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Interpreter.md",
+                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -748,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Interpreter.md",
+                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -820,36 +239,37 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "895fc6fdcfebdf81",
+  "active": "dfec9aa05aaf76f2",
   "lastOpenFiles": [
-    "Languages&Compilation/CompilerConstruction/Compilers.md",
-    "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
-    "Languages&Compilation/CompilerConstruction/Analysis/Semantic_analyser.md",
-    "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
-    "Languages&Compilation/CompilerConstruction/Analysis/Syntax_analyser.md",
-    "Languages&Compilation/CompilerConstruction/Analysis/Lexical_analyser.md",
-    "Languages&Compilation/CompilerConstruction/Synthesis/Language_translator.md",
-    "Languages&Compilation/CompilerConstruction/Synthesis/Interpreter.md",
-    "Languages&Compilation/CompilerConstruction/Synthesis/Split_stage_compilation.md",
-    "Languages&Compilation/CompilerConstruction/CompilationTypes",
-    "Languages&Compilation/CompilerConstruction/Analysis/Literal_table.md",
-    "MediaCoding/Canny_edge_detection.md",
-    "MediaCoding/Watermarking/Watermarking.md",
-    "XX-Attachments/Templates/InfoNote.md",
+    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
+    "XX-Attachments/Images/Pasted image 20240504203136.png",
+    "Languages&Compilation/CompilerConstruction/CompilationTypes/Compilers.md",
+    "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
+    "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
     "XX-Attachments/Templates/AliasNote.md",
-    "XX-Attachments/Templates/Link.md",
-    "XX-Attachments/Templates/Untitled.md",
+    "XX-Attachments/Templates/InfoNote.md",
     "XX-Attachments/Templates/InfoNote_v2.md",
-    "Statistics/ProbabilityDistributions/PERT_distribution.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
-    "MachineLearning/Artificial_intelligence.md",
+    "Languages&Compilation/CompilerConstruction/CompilationTypes/Interpreter.md",
+    "OperatingSystems/Paging.md",
+    "OperatingSystems/Page_replacement.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/LinearAlgebra/PageRank.md",
+    "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
+    "Languages&Compilation/CompilerConstruction/Analysis/Semantic_analyser.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
+    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
+    "Statistics/Entropy.md",
+    "MachineLearning/TreeModels/Decision_trees.md",
+    "MachineLearning/Classification/Naive_Bayes.md",
+    "MachineLearning/Clustering/K-means_clustering.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/K-Means_algorithm(legacy).md",
+    "Statistics/Mean.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
+    "MediaCoding/IntensityTransforms/Histogram_matching.md",
+    "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
+    "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
+    "Languages&Compilation/CompilerConstruction/CompilationTypes",
     "XX-Attachments/Images/Pasted image 20240503185338.png",
-    "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
-    "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
-    "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "XX-Attachments/Images/Pasted image 20240502203333.png",
     "XX-Attachments/Images/Pasted image 20240502203301.png",
     "XX-Attachments/Images/Pasted image 20240502194730.png",
@@ -858,7 +278,6 @@
     "XX-Attachments/Images/Pasted image 20240502155231.png",
     "XX-Attachments/Images/Pasted image 20240502155218.png",
     "XX-Attachments/Images/Pasted image 20240502155107.png",
-    "XX-Attachments/Images/Pasted image 20240502143400.png",
     "XX-Attachments/Images/Numpy Handbook.pdf",
     "XX-Attachments/Images/math3283-hw4-f16-sol.pdf",
     "Languages&Compilation/CompilerConstruction/Synthesis",

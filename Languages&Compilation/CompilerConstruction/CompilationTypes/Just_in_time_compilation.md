@@ -1,6 +1,10 @@
+---
+aliases:
+  - JIT
+---
 > [!important]- Metadata
 > **Tags:** #Compilers 
-> **Located:** Languages&Compilation/CompilerConstruction/Synthesis
+> **Located:** Languages&Compilation/CompilerConstruction/CompilationTypes
 > **Last modified:** `$= dv.current().file.mtime`
 > ```dataviewjs
 > let f = dv.current().file;
@@ -10,4 +14,4 @@
 > ```
 
 ___
-# Split stage compilation
+# Just in time compilation

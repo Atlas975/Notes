@@ -1,7 +1,6 @@
 > [!important]- Metadata
 > **Tags:** #<% tp.file.cursor(1) %>
 > **Located:** <% tp.file.path(true).split('/' + tp.file.title)[0] %>
-> **Last modified:** `$= dv.current().file.mtime`
 > ```dataviewjs
 > let f = dv.current().file;
 > let paths = new Set([...f.inlinks, ...f.outlinks].map(p => p.path).filter(p => !p.endsWith(".png")));

@@ -18,7 +18,7 @@ ___
 
 ## Modular compilers
 - A general model for designing compilers is to keep distinct compilation phases modular (although some cross-communication may still be necessary) 
-- This was done as it was seen as a good idea to keep certain sub-components seperate
+- This is done to keep individual sub-components simple and independent  
 
 ![[Pasted image 20240215124252.png|250|250]]
 
@@ -27,6 +27,8 @@ ___
     1. [[Lexical_analyser|Lexical analysis]]: converts the stream of characters in source code into a sequence of tokens representing syntactic categories
     2. [[Syntax_analyser|Syntax analysis]]: constructs a parse tree from tokens to verify the source code's conformity to the grammar of the language.
     3. **[[Semantic_analyser|Semantic analysis]]**: uses the parse tree to check for semantic consistency and populates the symbol table with identifier attributes and bindings
+
+![[Pasted image 20240504203136.png|350|350]]
 
 
 ### Synthesis section (back-end)
