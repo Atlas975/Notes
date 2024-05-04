@@ -2,7 +2,6 @@
 aliases:
   - TAC
 ---
-
 > [!important]- Metadata
 > **Tags:** #Languages 
 > **Located:** Languages&Compilation
@@ -37,7 +36,7 @@ p := x + y * z -> [t1 := y * z, p := x + t1]
 ![[Pasted image 20240502194730.png|350|350]]
 
 - As expressions are recognised, the code that implements them at runtime is built 
-- These can involve chaining multiple code blocks together
+- These can involve chaining multiple code blocks together, eg a code result block:
 
 ```
 expr ::= expr PLUS term
@@ -46,9 +45,14 @@ b * c + d * 3 = [y = A(b * c), z = B(d * 3)]
 ```
 
 ![[Pasted image 20240502203333.png|250|250]]
-## Assignment
+## Code block construction
+- Complex code blocks are created by recursively creating smaller code blocks merged together
+- Direct lookups in the [[Symbol_table|symbol table (st)]] or the [[Literal_table|literal table (lt)]] require no code section
 
-![[Pasted image 20240423143128.png|450|450]]
+![[Pasted image 20240423143128.png|400|400]]
+
+
+
 ![[Pasted image 20240423143319.png|450|450]]
 
 

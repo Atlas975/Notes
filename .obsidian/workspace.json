@@ -217,7 +217,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/CompilerConstruction/Analysis/Literal_table.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -614,7 +614,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -682,7 +682,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Canny_edge_detection.md"
+                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md"
               }
             }
           }
@@ -718,7 +718,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Canny_edge_detection.md",
+                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -735,7 +735,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Canny_edge_detection.md",
+                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -807,16 +807,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3d8ef2f653c5833f",
+  "active": "e1bc7d87ef1056b4",
   "lastOpenFiles": [
+    "Languages&Compilation/CompilerConstruction/Analysis/Literal_table.md",
+    "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
+    "MediaCoding/Canny_edge_detection.md",
     "MediaCoding/Watermarking/Watermarking.md",
     "XX-Attachments/Templates/InfoNote.md",
     "XX-Attachments/Templates/AliasNote.md",
     "XX-Attachments/Templates/Link.md",
     "XX-Attachments/Templates/Untitled.md",
     "XX-Attachments/Templates/InfoNote_v2.md",
-    "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
-    "Languages&Compilation/CompilerConstruction/Analysis/Literal_table.md",
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
@@ -835,7 +836,6 @@
     "MediaCoding/Image_derivatives.md",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
     "XX-Attachments/Images/Pasted image 20240502203333.png",
     "XX-Attachments/Images/Pasted image 20240502203301.png",
     "XX-Attachments/Images/Pasted image 20240502194730.png",
