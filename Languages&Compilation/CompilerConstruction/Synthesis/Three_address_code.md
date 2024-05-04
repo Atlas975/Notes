@@ -22,6 +22,7 @@ ___
 
 - Each TAC instruction typically performs 1 operation, such as an arithmetic op or a jump.
 - The space for a full TAC is allocated even if fewer than 2 operands are used (eg the NOP which is used to waste a cycle typically for timing purposes)
+- TAC is also much easier to optimise than [[Parsing_tables|parse tree]] representation 
 ## TAC decomposition
 - Complex expressions, like `p := x + y * z`, cannot be represented directly in a single TAC instruction. Instead they are decomposed into simpler instructions
 - This is done through the use of temporary variables, these can typically be discarded after use but complexity arrises when [[Input&Output_systems#Interrupts|interrupts]] are involved mid decomposition 
@@ -45,7 +46,7 @@ b * c + d * 3 = [y = A(b * c), z = B(d * 3)]
 ```
 
 ![[Pasted image 20240502203333.png|250|250]]
-## Code block construction
+## Code generation process
 - Complex code blocks are created by recursively creating smaller code blocks merged together
 - Direct lookups in the [[Symbol_table|symbol table (st)]] or the [[Literal_table|literal table (lt)]] require no code section
 
@@ -53,9 +54,12 @@ b * c + d * 3 = [y = A(b * c), z = B(d * 3)]
 
 
 
-![[Pasted image 20240423143319.png|450|450]]
+### Assignment 
+- An assignment operation also follows this pattern 
+- This involves retrieving the ST location and its temp variable its being assigned 
+- [[Compilers|Compiler]]  optimisations can be done to directly store without a final temp variable
+
+![[Pasted image 20240423143319.png|400|400]]
 
 
-## Code generation process
-- **Building sequences of code**: as expressions are recognised by the [[Syntax_analyser|syntax analyser]],  the corresponding TAC instructions are generated and accumulated.
-- **Optimisation**: opportunities exist to optimise TAC, such as direct literal usage or minimising temp variable use, making the code closer to machine-level instructions.
+

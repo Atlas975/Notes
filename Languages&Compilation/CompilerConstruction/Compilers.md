@@ -29,7 +29,7 @@ ___
 ![[Pasted image 20240228164729.png|400|400]]
 
 ### Synthesis section
-- Code generation phase, may include 1 or more optimisation phases 
+- Code generation phase, may include 1+ optimisation phases 
 - This may be turned off to have more control over source code, these phases may also run in parallel for additional performance  
 
 ## Programming languages
@@ -40,9 +40,9 @@ ___
 
 - Higher level languages are further away from the machine, becoming more abstract (eg objects)
 - As a result of this, the compilation also involves more steps such as [[Paging#Shared memory paging|linking]]
+- The [[Language_translator#Linker-loader|loader]] acts as the final step to creating a program executable, this may not always be present
 
 ![[Pasted image 20240228162012.png|300|300]]
-- The [[Language_translator#Linker-loader|loader]] acts as the final step to creating a program executable, this may not always exist
 ### Alternate compile situations
 - Other methods than translation to machine code exist for compilation, such as:
 - **[[Interpreter|Interpretation]]**: the process of executing a program directly from its source or intermediate code
