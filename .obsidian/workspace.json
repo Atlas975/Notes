@@ -497,7 +497,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -565,7 +565,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md"
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md"
               }
             }
           }
@@ -601,7 +601,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -618,7 +618,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -690,8 +690,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8b866c549339cb87",
+  "active": "0c91eccd7ced05da",
   "lastOpenFiles": [
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
     "Languages&Compilation/CompilerConstruction/Synthesis/Interpreter.md",
     "Languages&Compilation/CompilerConstruction/Synthesis/Language_translator.md",
     "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
@@ -718,7 +719,6 @@
     "MediaCoding/IntensityTransforms/Log_transform.md",
     "MediaCoding/IntensityTransforms/Image_negatives.md",
     "MediaCoding/Watermarking/Watermarking.md",
-    "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
     "XX-Attachments/Images/Pasted image 20240502203333.png",
     "XX-Attachments/Images/Pasted image 20240502203301.png",
     "XX-Attachments/Images/Pasted image 20240502194730.png",
