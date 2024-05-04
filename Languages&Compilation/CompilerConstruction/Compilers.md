@@ -23,8 +23,10 @@ ___
 ![[Pasted image 20240215124252.png|300|300]]
 
 ### Analysis section (front-end)
-- Generates some intermediate representation of the symbol table, may perform semantic analysis
-- This stage is what checks for syntax errors as well
+- Involves reading and understanding the source code. It includes several steps:
+    1. [[Lexical_analyser|Lexical analysis]]: breaking down the input source code into tokens
+    2. [[Syntax_analyser|Syntax analysis]]: constructing a parse tree from these tokens to check for grammatical structure according to [[Formal_languages|language rules]]
+    3. **[[Semantic_analyser|Semantic analysis]]**: ensures that the parse tree adheres to the rules of the language semantics eg type checking and variable declarations.
 
 ![[Pasted image 20240228164729.png|400|400]]
 

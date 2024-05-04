@@ -15,13 +15,9 @@ aliases:
 
 ___
 # Syntax analyser
-- A component in both a [[Compilers|compiler]] and [[Interpreter|interpreter]] tasked with created a nested set of controls that describe what a program does
- 
+- A component in both a [[Compilers|compiler]] and [[Interpreter|interpreter]] tasked with creating a nested set of controls that describe what a program does
 - Also may need to perform semantic checks. This may include generating intermediate code in a compiler or provide the code for direct execution with a interpreter 
 - If syntax is invalid, error messages need to be provided
-
-
-
 ## Parse trees 
 - Syntax analysis is done this by building a parse tree structured as the following:
 	- The root as a distinguished symbol such as `<program>`

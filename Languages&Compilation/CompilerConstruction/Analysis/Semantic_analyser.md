@@ -1,7 +1,7 @@
 > [!important]- Metadata
-> **Tags:** #Languages 
-> **Located:** Languages&Compilation
-> **Created:** 02/05/2024 - 12:26
+> **Tags:** #Languages #Compilers 
+> **Located:** Languages&Compilation/CompilerConstruction/Analysis
+> **Last modified:** `$= dv.current().file.mtime`
 > ```dataviewjs
 > let f = dv.current().file;
 > let paths = new Set([...f.inlinks, ...f.outlinks].map(p => p.path).filter(p => !p.endsWith(".png")));
@@ -10,8 +10,8 @@
 > ```
 
 ___
-# Semantic checking
-- A phase in the [[Compilers|compilation]] process where the compiler validates the [[Semantic_checking|semantic]] consistency of  source code against programming [[Formal_languages|language]] rules (ie type checking)
+# Semantic analyser
+- A phase in the [[Compilers|compilation]] process where the compiler validates the [[Semantic_analyser|semantic]] consistency of  source code against programming [[Formal_languages|language]] rules (ie type checking)
 - This also involves handling implicit type conversion (if allowed by language) by inserting the appropriate conversion code to handle this 
 ## Type checking
 - **Static type checking**: done at compile time, checks for rule adherence before runtime
