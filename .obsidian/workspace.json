@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Syntax_analyser.md",
+                "file": "Languages&Compilation/CompilerConstruction/Compilers.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -682,7 +682,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Syntax_analyser.md"
+                "file": "Languages&Compilation/CompilerConstruction/Compilers.md"
               }
             }
           }
@@ -718,7 +718,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Syntax_analyser.md",
+                "file": "Languages&Compilation/CompilerConstruction/Compilers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -735,7 +735,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Syntax_analyser.md",
+                "file": "Languages&Compilation/CompilerConstruction/Compilers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -809,15 +809,15 @@
   },
   "active": "e114879fbc98e2a3",
   "lastOpenFiles": [
+    "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
+    "Languages&Compilation/CompilerConstruction/Analysis/Syntax_analyser.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Lexical_analyser.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Semantic_analyser.md",
-    "Languages&Compilation/CompilerConstruction/Analysis/Syntax_analyser.md",
     "Languages&Compilation/CompilerConstruction/Compilers.md",
     "Languages&Compilation/CompilerConstruction/Synthesis/Language_translator.md",
     "Languages&Compilation/CompilerConstruction/Synthesis/Interpreter.md",
     "Languages&Compilation/CompilerConstruction/Synthesis/Split_stage_compilation.md",
     "Languages&Compilation/CompilerConstruction/CompilationTypes",
-    "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Literal_table.md",
     "MediaCoding/Canny_edge_detection.md",
     "MediaCoding/Watermarking/Watermarking.md",
