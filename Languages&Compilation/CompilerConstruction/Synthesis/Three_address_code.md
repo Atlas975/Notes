@@ -23,7 +23,6 @@ ___
 
 - Each TAC instruction typically performs 1 operation, such as an arithmetic op or a jump.
 - The space for a full TAC is allocated even if fewer than 2 operands are used (eg the NOP which is used to waste a cycle typically for timing purposes)
-
 ## TAC decomposition
 - Complex expressions, like `p := x + y * z`, cannot be represented directly in a single TAC instruction. Instead they are decomposed into simpler instructions
 - This is done through the use of temporary variables, these can typically be discarded after use but complexity arrises when [[Input&Output_systems#Interrupts|interrupts]] are involved mid decomposition 
@@ -40,9 +39,9 @@ p := x + y * z -> [t1 := y * z, p := x + t1]
 - As expressions are recognised, the code that implements them at runtime is built 
 - These can involve chaining multiple code blocks together
 
-
 ```
 expr ::= expr PLUS term
+a + 3 = A(a + (address of 3 in the literal table)
 b * c + d * 3 = [y = A(b * c), z = B(d * 3)]
 ```
 ![[Pasted image 20240502203333.png|250|250]]
