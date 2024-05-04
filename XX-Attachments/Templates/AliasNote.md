@@ -1,9 +1,10 @@
 ---
-aliases: [<% tp.file.cursor(1) %>]
+aliases:
+  - <% tp.file.cursor(1) %>
+tags:
 ---
 
 > [!important]- Metadata
-> **Tags:** #<% tp.file.cursor(2) %>
 > **Located:** <% tp.file.path(true).split('/' + tp.file.title)[0] %>
 > **Created:** <% tp.file.creation_date('DD/MM/YYYY - HH:mm') %>
 > ```dataviewjs
@@ -18,6 +19,4 @@ aliases: [<% tp.file.cursor(1) %>]
 ___
 # <% tp.file.title.replace(/_/g,' ') %>
 <% tp.file.cursor(3) %>
-
-
 
