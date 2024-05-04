@@ -22,3 +22,6 @@ ___
 - This happens because the parse tree and token metadata is lost upon reaching the backend
 
 ![[Pasted image 20240504203716.png|400|400]]
+
+- Delegating extensive responsibilities to the backend can lead to greater complexity and maintenance challenges, potentially resulting in longer compilation times
+- Relying heavily on the backend for optimisations / platform-specific adjustments can compromise the effectiveness of these optimisations, making it more difficult to  target multiple platforms
