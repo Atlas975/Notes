@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/CompilerConstruction/Compilers.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -54,6 +54,19 @@
               "state": {
                 "file": "Languages&Compilation/CompilerConstruction/Compilers.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "81f8dd12f56866be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -614,7 +627,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -682,7 +695,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Compilers.md"
+                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Interpreter.md"
               }
             }
           }
@@ -718,7 +731,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Compilers.md",
+                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Interpreter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -735,7 +748,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Compilers.md",
+                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Interpreter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -807,13 +820,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e114879fbc98e2a3",
+  "active": "895fc6fdcfebdf81",
   "lastOpenFiles": [
+    "Languages&Compilation/CompilerConstruction/Compilers.md",
+    "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
+    "Languages&Compilation/CompilerConstruction/Analysis/Semantic_analyser.md",
     "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Syntax_analyser.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Lexical_analyser.md",
-    "Languages&Compilation/CompilerConstruction/Analysis/Semantic_analyser.md",
-    "Languages&Compilation/CompilerConstruction/Compilers.md",
     "Languages&Compilation/CompilerConstruction/Synthesis/Language_translator.md",
     "Languages&Compilation/CompilerConstruction/Synthesis/Interpreter.md",
     "Languages&Compilation/CompilerConstruction/Synthesis/Split_stage_compilation.md",
@@ -832,7 +846,6 @@
     "MachineLearning/Artificial_intelligence.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
-    "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
     "XX-Attachments/Images/Pasted image 20240503185338.png",
     "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
