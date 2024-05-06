@@ -4,50 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "9a68b911f431826e",
+        "id": "eb689fe5b3692fee",
         "type": "tabs",
         "children": [
           {
-            "id": "5b22b1c08692ef71",
+            "id": "9088f588cac01c0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XX-Attachments/Templates/AliasNote.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dfec9aa05aaf76f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "99d65f2cc3933237",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
+                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md"
+                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md"
               }
             }
           }
@@ -150,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
+                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
+                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -239,18 +212,18 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "dfec9aa05aaf76f2",
+  "active": "9088f588cac01c0a",
   "lastOpenFiles": [
+    "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
+    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
+    "XX-Attachments/Templates/AliasNote.md",
     "XX-Attachments/Images/Pasted image 20240506120915.png",
     "XX-Attachments/Images/Pasted image 20240506114857.png",
     "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
     "XX-Attachments/Images/Pasted image 20240504203716.png",
     "XX-Attachments/Images/Pasted image 20240504203232.png",
-    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "XX-Attachments/Images/Pasted image 20240504203136.png",
     "Languages&Compilation/CompilerConstruction/CompilationTypes/Compilers.md",
-    "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
-    "XX-Attachments/Templates/AliasNote.md",
     "XX-Attachments/Templates/InfoNote.md",
     "XX-Attachments/Templates/InfoNote_v2.md",
     "Languages&Compilation/CompilerConstruction/CompilationTypes/Interpreter.md",
@@ -277,7 +250,6 @@
     "XX-Attachments/Images/Pasted image 20240502203301.png",
     "XX-Attachments/Images/Pasted image 20240502194730.png",
     "XX-Attachments/Images/Pasted image 20240502192218.png",
-    "XX-Attachments/Images/Pasted image 20240502155435.png",
     "XX-Attachments/Images/Numpy Handbook.pdf",
     "XX-Attachments/Images/math3283-hw4-f16-sol.pdf",
     "Languages&Compilation/CompilerConstruction/Synthesis",
