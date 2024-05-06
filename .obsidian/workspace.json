@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
-                "mode": "preview",
+                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md"
+                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md"
               }
             }
           }
@@ -123,8 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -151,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
+                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
+                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,12 +241,13 @@
   },
   "active": "dfec9aa05aaf76f2",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240506114857.png",
+    "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
     "XX-Attachments/Images/Pasted image 20240504203716.png",
     "XX-Attachments/Images/Pasted image 20240504203232.png",
     "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "XX-Attachments/Images/Pasted image 20240504203136.png",
     "Languages&Compilation/CompilerConstruction/CompilationTypes/Compilers.md",
-    "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
     "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
     "XX-Attachments/Templates/AliasNote.md",
     "XX-Attachments/Templates/InfoNote.md",
@@ -278,7 +278,6 @@
     "XX-Attachments/Images/Pasted image 20240502192218.png",
     "XX-Attachments/Images/Pasted image 20240502155435.png",
     "XX-Attachments/Images/Pasted image 20240502155231.png",
-    "XX-Attachments/Images/Pasted image 20240502155218.png",
     "XX-Attachments/Images/Numpy Handbook.pdf",
     "XX-Attachments/Images/math3283-hw4-f16-sol.pdf",
     "Languages&Compilation/CompilerConstruction/Synthesis",
