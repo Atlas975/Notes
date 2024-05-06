@@ -19,8 +19,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "600479a0f91971f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DistributedSystems/Two_general_problem.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4abdb569fa4f80a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DistributedSystems/Fault_tolerence.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -88,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Distributed_system_security.md"
+                "file": "DistributedSystems/Fault_tolerence.md"
               }
             }
           }
@@ -123,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Distributed_system_security.md",
+                "file": "DistributedSystems/Fault_tolerence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Distributed_system_security.md",
+                "file": "DistributedSystems/Fault_tolerence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,16 +239,21 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9088f588cac01c0a",
+  "active": "4abdb569fa4f80a1",
   "lastOpenFiles": [
+    "DistributedSystems/Two_general_problem.md",
+    "DistributedSystems/Fault_tolerence.md",
     "DistributedSystems/Time_keeping.md",
-    "DistributedSystems/Untitled.md",
-    "DistributedSystems/Byzantine_generals_problem.md",
-    "DistributedSystems/Distributed_system_security.md",
+    "DistributedSystems/Software_confinement.md",
     "DistributedSystems/Remote_invocation.md",
     "DistributedSystems/PAXOS.md",
+    "DistributedSystems/Distributed_system_security.md",
+    "DistributedSystems/Distributed_system_design.md",
     "DistributedSystems/Distributed_systems.md",
-    "DistributedSystems/Two_general_problem.md",
+    "DistributedSystems/CommunicationModels/Indirect_communication.md",
+    "DistributedSystems/CommunicationModels/Group_communication.md",
+    "DistributedSystems/CommunicationModels",
+    "DistributedSystems/Byzantine_generals_problem.md",
     "DistributedSystems/DistributedLedgers/Blockchain.md",
     "DistributedSystems/DistributedLedgers/Distributed_ledger.md",
     "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
@@ -241,10 +273,6 @@
     "OperatingSystems/Page_replacement.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/LinearAlgebra/PageRank.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
-    "Languages&Compilation/CompilerConstruction/Analysis/Semantic_analyser.md",
-    "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
-    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
     "Languages&Compilation/CompilerConstruction/CompilationTypes",
     "XX-Attachments/Images/Pasted image 20240503185338.png",
     "XX-Attachments/Images/Pasted image 20240502203333.png",
@@ -258,7 +286,6 @@
     "Languages&Compilation/CompilerConstruction",
     "Languages&Compilation/Parsing/TopDownParsing",
     "Languages&Compilation/Parsing/BottomUpParsing",
-    "Languages&Compilation/FiniteAutomata",
-    "Languages&Compilation/Computability"
+    "Languages&Compilation/FiniteAutomata"
   ]
 }
