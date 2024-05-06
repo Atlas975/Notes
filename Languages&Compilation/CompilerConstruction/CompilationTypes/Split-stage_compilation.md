@@ -16,22 +16,15 @@ ___
 
 ![[Pasted image 20240504203232.png|400|400]]
 
-## Flexibility benefit
+## Intermediate language translation
 - Allows for a source file to be mapped to any compatible compiler backend, this also allows multiple frontends to be used in conjunction for mixed source language projects
-- The compilation at each stage must be balanced as loosing the [[Semantic_analyser|semantics]] of the language (such as with loop unrolling) can lead to missed optimisations in the backend (eg [[Concurrency|parallelisation]])
-- This happens because the parse tree and token metadata is lost upon reaching the backend
+- The parse tree and token metadata is lost upon reaching the backend, this loss of language [[Semantic_analyser|semantics]] leads to missed optimisations. Compiler complexity must be balanced
 
 ![[Pasted image 20240504203716.png|400|400]]
 
-- Delegating extensive responsibilities to the backend can lead to greater complexity and maintenance challenges, potentially resulting in longer compilation times
-- Relying heavily on the backend for optimisations / platform-specific adjustments can compromise the effectiveness of these optimisations, making it more difficult to  target multiple platforms
-- eee
-
-
-### Intermediate language constraints 
-- The IL might not support all features of the source language, which can complicate or limit how the frontend translates code
-- The simplicity of IL, designed for easier backend processing, may restrict advanced optimisations at the frontend, potentially reducing performance
-
-### Backend constraints 
-- The backend must be able to generate machine code based on the capabilities of the target system, which can restrict optimisation and efficiency.
-- The platform-agnostic nature of IL can lead the backend to produce more verbose or inefficient code for specific systems than necessary
+### Intermediate language constraints
+- The IL might not support all features of the source language, which can complicate or limit how the frontend translates code. This is further complicated when using mixed language compilation
+- The simplicity of IL, designed for easier backend processing, may restrict advanced optimisations at the frontend (eg [[Concurrency|parallelisation]]), potentially reducing performance
+### Backend constraints
+- The backend must be able to generate machine code based on the capabilities of the target system, which can restrict optimisation and efficiency. 
+- The platform-agnostic nature of IL can lead the backend to produce more verbose or inefficient code for specific systems than necessary (ie [[Compilers|compiler]] is conservative in making optimisations)
