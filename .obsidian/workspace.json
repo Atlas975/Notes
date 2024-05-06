@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -241,6 +241,7 @@
   },
   "active": "dfec9aa05aaf76f2",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240506120915.png",
     "XX-Attachments/Images/Pasted image 20240506114857.png",
     "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
     "XX-Attachments/Images/Pasted image 20240504203716.png",
@@ -277,7 +278,6 @@
     "XX-Attachments/Images/Pasted image 20240502194730.png",
     "XX-Attachments/Images/Pasted image 20240502192218.png",
     "XX-Attachments/Images/Pasted image 20240502155435.png",
-    "XX-Attachments/Images/Pasted image 20240502155231.png",
     "XX-Attachments/Images/Numpy Handbook.pdf",
     "XX-Attachments/Images/math3283-hw4-f16-sol.pdf",
     "Languages&Compilation/CompilerConstruction/Synthesis",
