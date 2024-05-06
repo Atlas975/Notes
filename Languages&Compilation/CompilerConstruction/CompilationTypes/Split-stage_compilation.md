@@ -26,3 +26,12 @@ ___
 - Delegating extensive responsibilities to the backend can lead to greater complexity and maintenance challenges, potentially resulting in longer compilation times
 - Relying heavily on the backend for optimisations / platform-specific adjustments can compromise the effectiveness of these optimisations, making it more difficult to  target multiple platforms
 - eee
+
+
+### Intermediate language constraints 
+- The IL might not support all features of the source language, which can complicate or limit how the frontend translates code
+- The simplicity of IL, designed for easier backend processing, may restrict advanced optimisations at the frontend, potentially reducing performance
+
+### Backend constraints 
+- The backend must be able to generate machine code based on the capabilities of the target system, which can restrict optimisation and efficiency.
+- The platform-agnostic nature of IL can lead the backend to produce more verbose or inefficient code for specific systems than necessary
