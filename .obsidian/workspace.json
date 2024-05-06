@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
+                "file": "DistributedSystems/Byzantine_generals_problem.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md"
+                "file": "DistributedSystems/Byzantine_generals_problem.md"
               }
             }
           }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
+                "file": "DistributedSystems/Byzantine_generals_problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
+                "file": "DistributedSystems/Byzantine_generals_problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,12 +214,21 @@
   },
   "active": "9088f588cac01c0a",
   "lastOpenFiles": [
+    "DistributedSystems/Distributed_system_security.md",
+    "DistributedSystems/Time_keeping.md",
+    "DistributedSystems/Remote_invocation.md",
+    "DistributedSystems/PAXOS.md",
+    "DistributedSystems/Distributed_systems.md",
+    "DistributedSystems/Byzantine_generals_problem.md",
+    "DistributedSystems/Two_general_problem.md",
+    "DistributedSystems/DistributedLedgers/Blockchain.md",
+    "DistributedSystems/DistributedLedgers/Distributed_ledger.md",
+    "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
     "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
     "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "XX-Attachments/Templates/AliasNote.md",
     "XX-Attachments/Images/Pasted image 20240506120915.png",
     "XX-Attachments/Images/Pasted image 20240506114857.png",
-    "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
     "XX-Attachments/Images/Pasted image 20240504203716.png",
     "XX-Attachments/Images/Pasted image 20240504203232.png",
     "XX-Attachments/Images/Pasted image 20240504203136.png",
@@ -236,14 +245,6 @@
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/ErrorMeasures/Confusion_matrices.md",
     "Statistics/Entropy.md",
-    "MachineLearning/TreeModels/Decision_trees.md",
-    "MachineLearning/Classification/Naive_Bayes.md",
-    "MachineLearning/Clustering/K-means_clustering.md",
-    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/K-Means_algorithm(legacy).md",
-    "Statistics/Mean.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
-    "MediaCoding/IntensityTransforms/Histogram_matching.md",
-    "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
     "Languages&Compilation/CompilerConstruction/CompilationTypes",
     "XX-Attachments/Images/Pasted image 20240503185338.png",
     "XX-Attachments/Images/Pasted image 20240502203333.png",
