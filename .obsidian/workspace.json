@@ -45,9 +45,48 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ea2d1196817eeeab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DistributedSystems/Cloud_computing.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4e9fd96e52d6f0d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DistributedSystems/Distributed_system_security.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f0e9b127c42a1353",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DistributedSystems/PAXOS.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -115,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Fault_tolerence.md"
+                "file": "DistributedSystems/PAXOS.md"
               }
             }
           }
@@ -150,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Fault_tolerence.md",
+                "file": "DistributedSystems/PAXOS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Fault_tolerence.md",
+                "file": "DistributedSystems/PAXOS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -239,15 +278,18 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4abdb569fa4f80a1",
+  "active": "f0e9b127c42a1353",
   "lastOpenFiles": [
-    "DistributedSystems/Two_general_problem.md",
+    "DistributedSystems/Peer_to_peer_systems.md",
+    "DistributedSystems/Distributed_system_security.md",
+    "Networking/Application_architecture.md",
+    "DistributedSystems/Cloud_computing.md",
     "DistributedSystems/Fault_tolerence.md",
+    "DistributedSystems/Two_general_problem.md",
     "DistributedSystems/Time_keeping.md",
     "DistributedSystems/Software_confinement.md",
     "DistributedSystems/Remote_invocation.md",
     "DistributedSystems/PAXOS.md",
-    "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/Distributed_system_design.md",
     "DistributedSystems/Distributed_systems.md",
     "DistributedSystems/CommunicationModels/Indirect_communication.md",
@@ -270,9 +312,6 @@
     "XX-Attachments/Templates/InfoNote_v2.md",
     "Languages&Compilation/CompilerConstruction/CompilationTypes/Interpreter.md",
     "OperatingSystems/Paging.md",
-    "OperatingSystems/Page_replacement.md",
-    "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/LinearAlgebra/PageRank.md",
-    "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "Languages&Compilation/CompilerConstruction/CompilationTypes",
     "XX-Attachments/Images/Pasted image 20240503185338.png",
     "XX-Attachments/Images/Pasted image 20240502203333.png",
