@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Two_general_problem.md",
+                "file": "DistributedSystems/Consensus/Two_general_problem.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/PAXOS.md",
+                "file": "DistributedSystems/Consensus/Byzantine_fault_tolerance.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/PAXOS.md"
+                "file": "DistributedSystems/Consensus/Byzantine_fault_tolerance.md"
               }
             }
           }
@@ -189,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/PAXOS.md",
+                "file": "DistributedSystems/Consensus/Byzantine_fault_tolerance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/PAXOS.md",
+                "file": "DistributedSystems/Consensus/Byzantine_fault_tolerance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -280,24 +280,27 @@
   },
   "active": "f0e9b127c42a1353",
   "lastOpenFiles": [
-    "DistributedSystems/Peer_to_peer_systems.md",
-    "DistributedSystems/Distributed_system_security.md",
-    "Networking/Application_architecture.md",
-    "DistributedSystems/Cloud_computing.md",
-    "DistributedSystems/Fault_tolerence.md",
-    "DistributedSystems/Two_general_problem.md",
-    "DistributedSystems/Time_keeping.md",
-    "DistributedSystems/Software_confinement.md",
+    "DistributedSystems/Google_infrastructure.md",
+    "DistributedSystems/Consensus/Byzantine_fault_tolerance.md",
     "DistributedSystems/Remote_invocation.md",
-    "DistributedSystems/PAXOS.md",
-    "DistributedSystems/Distributed_system_design.md",
+    "DistributedSystems/Fault_tolerence.md",
     "DistributedSystems/Distributed_systems.md",
+    "DistributedSystems/Cloud_computing.md",
+    "DistributedSystems/Peer_to_peer_systems.md",
+    "DistributedSystems/Software_confinement.md",
+    "DistributedSystems/Distributed_system_security.md",
+    "DistributedSystems/Distributed_system_design.md",
+    "DistributedSystems/Consensus/Paxos.md",
+    "DistributedSystems/DistributedLedgers/Blockchain.md",
+    "DistributedSystems/DistributedLedgers/Distributed_ledger.md",
+    "DistributedSystems/Time_keeping.md",
+    "DistributedSystems/Consensus/Two_general_problem.md",
+    "DistributedSystems/Consensus",
+    "DistributedSystems/Consensus/Byzantine_generals_problem.md",
+    "Networking/Application_architecture.md",
     "DistributedSystems/CommunicationModels/Indirect_communication.md",
     "DistributedSystems/CommunicationModels/Group_communication.md",
     "DistributedSystems/CommunicationModels",
-    "DistributedSystems/Byzantine_generals_problem.md",
-    "DistributedSystems/DistributedLedgers/Blockchain.md",
-    "DistributedSystems/DistributedLedgers/Distributed_ledger.md",
     "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
     "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
     "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
@@ -310,8 +313,6 @@
     "Languages&Compilation/CompilerConstruction/CompilationTypes/Compilers.md",
     "XX-Attachments/Templates/InfoNote.md",
     "XX-Attachments/Templates/InfoNote_v2.md",
-    "Languages&Compilation/CompilerConstruction/CompilationTypes/Interpreter.md",
-    "OperatingSystems/Paging.md",
     "Languages&Compilation/CompilerConstruction/CompilationTypes",
     "XX-Attachments/Images/Pasted image 20240503185338.png",
     "XX-Attachments/Images/Pasted image 20240502203333.png",
@@ -324,7 +325,6 @@
     "Languages&Compilation/CompilerConstruction/Analysis",
     "Languages&Compilation/CompilerConstruction",
     "Languages&Compilation/Parsing/TopDownParsing",
-    "Languages&Compilation/Parsing/BottomUpParsing",
-    "Languages&Compilation/FiniteAutomata"
+    "Languages&Compilation/Parsing/BottomUpParsing"
   ]
 }
