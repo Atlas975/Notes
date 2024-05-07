@@ -78,8 +78,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Consensus/Byzantine_generals_problem.md",
-                "mode": "source",
+                "file": "DistributedSystems/Time_keeping.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Consensus/Byzantine_generals_problem.md"
+                "file": "DistributedSystems/Time_keeping.md"
               }
             }
           }
@@ -190,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Consensus/Byzantine_generals_problem.md",
+                "file": "DistributedSystems/Time_keeping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Consensus/Byzantine_generals_problem.md",
+                "file": "DistributedSystems/Time_keeping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -281,6 +281,7 @@
   },
   "active": "f0e9b127c42a1353",
   "lastOpenFiles": [
+    "DistributedSystems/Consensus/Byzantine_generals_problem.md",
     "XX-Attachments/Images/Pasted image 20240507122429.png",
     "XX-Attachments/Images/Pasted image 20240507121653.png",
     "DistributedSystems/Software_confinement.md",
@@ -293,7 +294,6 @@
     "DistributedSystems/SystemStructure/Blockchain.md",
     "DistributedSystems/DistributedLedgers/Distributed_ledger.md",
     "DistributedSystems/Consensus/Two_general_problem.md",
-    "DistributedSystems/Consensus/Byzantine_generals_problem.md",
     "DistributedSystems/Consensus/Paxos.md",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
     "DistributedSystems/Consensus/RAFT.md",
@@ -320,7 +320,6 @@
     "XX-Attachments/Images/Pasted image 20240503185338.png",
     "XX-Attachments/Images/Pasted image 20240502203333.png",
     "XX-Attachments/Images/Pasted image 20240502203301.png",
-    "XX-Attachments/Images/Pasted image 20240502194730.png",
     "XX-Attachments/Images/Numpy Handbook.pdf",
     "XX-Attachments/Images/math3283-hw4-f16-sol.pdf",
     "Languages&Compilation/CompilerConstruction/Synthesis",

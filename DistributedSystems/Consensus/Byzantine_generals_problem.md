@@ -11,7 +11,7 @@
 
 ___
 # Byzantine generals problem
-- A problem in distributed computing based on achieving consensus with the presence of faulty / malicious components within a system. 
+- A problem in [[Distributed_systems|distributed]] computing based on achieving consensus with the presence of faulty / malicious components within a system. 
 - This is illustrated using a scenario where several of the army divisions, each commanded by their own general, must agree on a  battle plan while some generals may be traitors.
 
 ![[Pasted image 20240507121653.png|400|400]]
@@ -23,9 +23,4 @@ ___
 ![[Pasted image 20240507122429.png|450|450]]
 
 - In addition to what's heard from a commander, lieutenants also share what they heard from each other. Performing a majority vote consensus using these shared matrices 
-- With $2f +1$ honest nods, this allows for faulty voters 
-## Algorithm for Byzantine Fault Tolerance:
-
-- **Lamport's Algorithm:** 
-- **Requirements:** For 'f' traitorous nodes, at least '3f+1' nodes are required for achieving consensus.
-- **Cryptography:** The use of cryptographic methods like digital signatures ensures that messages are not forged.
+- With a minimum of $(2f +1)$ honest nods, and $(f+1)$ rounds of communication, fault tolerance can be achieved ($f$ being the number of faulty nodes, $\geq{}3f +1$ required overall) 
