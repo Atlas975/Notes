@@ -11,30 +11,28 @@
 
 ___
 # Time keeping
-- Accurate timekeeping is crucial in [[Distributed_systems|distributed systems]] for scheduling, logging, and [[Concurrency|coordinations]] between distinct components. Multiple timing methods exist to handle this
-
+- Accurate timekeeping is crucial in [[Distributed_systems|distributed systems]] for scheduling, logging, and [[Concurrency|coordinations]] between distinct components. Multiple timing methods exist to handle this.
+- Several challenges exist with handling this such as clock drift and dealing with leap seconds
 ## Types of Clocks
-
 - **Physical Clocks:** hardware mechanisms like quartz  / atomic clocks  used to measure real time. 
 - **Logical Clocks:** measures time based on a sequence of events, rather than passage of real time.
+## Clock Synchronization
+- Maintaining the same time across different systems in a distributed network is challenging due to clock drift and network latencies. This can be dealt with in various ways 
+- Network Time Protocol (NTP) is often used to synchronise clocks over a network. This involves regular updates from a reliable time source (eg atomic clock or GPS receiver)
 
-#### Techniques
 
-- **Network Time Protocol (NTP):** Used to synchronize clocks of computers over a network.
-- **Atomic Clocks:** Provide high precision and are used in settings requiring very accurate timekeeping, such as GPS satellites.
+![[Pasted image 20240507124742.png|350|350]]
 
-### Clock Synchronization
+- Round trip time (RTT) $=(t_{4}-t_{1})-(t_{3}-t_{2})$
+- The client estimates clock skew as $(t_{3}+\left( \frac{\text{RTT}}{2} \right)-t_{4})$
+- Monotonic clocks are typically used instead of synchronization to measure elapsed time 
+## Ordering of Events
+- Determining the sequence of events in a distributed system is non-trivial due to the lack of a central, synchronised clock. This requires a appropriate protocol to mark event ordering 
+- In other words how can $C$ know how to correctly order messages 
 
-- Involves maintaining the same time across different systems in a distributed network is challenging due to clock drift and network latencies.
+![[Pasted image 20240507125748.png|350|350]]
 
-**Methods:**
-
-- **Synchronization:** Regular updates from a reliable time source to adjust the system clocks.
-- **Monotonic Clocks:** Used to measure elapsed time without needing synchronization.
-
-### Ordering of Events
-
-Determining the sequence of events in a distributed system is non-trivial due to the lack of a central, synchronized clock.
+- One sol$A$
 
 **Key Concepts:**
 

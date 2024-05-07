@@ -79,7 +79,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/Time_keeping.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -281,6 +281,8 @@
   },
   "active": "f0e9b127c42a1353",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240507125748.png",
+    "XX-Attachments/Images/Pasted image 20240507124742.png",
     "DistributedSystems/Consensus/Byzantine_generals_problem.md",
     "XX-Attachments/Images/Pasted image 20240507122429.png",
     "XX-Attachments/Images/Pasted image 20240507121653.png",
@@ -319,7 +321,6 @@
     "Languages&Compilation/CompilerConstruction/CompilationTypes",
     "XX-Attachments/Images/Pasted image 20240503185338.png",
     "XX-Attachments/Images/Pasted image 20240502203333.png",
-    "XX-Attachments/Images/Pasted image 20240502203301.png",
     "XX-Attachments/Images/Numpy Handbook.pdf",
     "XX-Attachments/Images/math3283-hw4-f16-sol.pdf",
     "Languages&Compilation/CompilerConstruction/Synthesis",
