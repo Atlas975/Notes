@@ -164,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -232,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Security_models.md"
+                "file": "Cybersecurity/RiskManagement/Access_controls.md"
               }
             }
           }
@@ -268,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Security_models.md",
+                "file": "Cybersecurity/RiskManagement/Access_controls.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,7 +285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Security_models.md",
+                "file": "Cybersecurity/RiskManagement/Access_controls.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -357,8 +357,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9d0985032fcf29c1",
+  "active": "1b6e150daa84853c",
   "lastOpenFiles": [
+    "Cybersecurity/RiskManagement/Security_models.md",
     "Cybersecurity/RiskManagement/Access_controls.md",
     "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
     "Cybersecurity/EncryptionSchemes/Advanced_encryption_standard.md",
@@ -373,7 +374,6 @@
     "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
     "Statistics/Bayes_theorem.md",
     "Cybersecurity/RiskManagement/Security_economics.md",
-    "Cybersecurity/RiskManagement/Security_models.md",
     "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
     "Cybersecurity/PKCS7.md",
     "Cybersecurity/Hashing.md",
