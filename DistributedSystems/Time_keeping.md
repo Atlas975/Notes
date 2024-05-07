@@ -41,7 +41,7 @@ ___
 ![[Pasted image 20240507141550.png|350|350]]
 
 ### Vector clocks 
-- Involves each node using a vector of timestamps (the timestamps of all other vectors)
+- Involves each node using a vector containing timestamps of all nodes
 - This allows for better synchronization of logical timestamps 
 
 ![[Pasted image 20240507142038.png|350|350]]
