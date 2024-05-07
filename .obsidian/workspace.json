@@ -79,7 +79,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/Consensus/Byzantine_generals_problem.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -162,7 +162,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -280,6 +281,8 @@
   },
   "active": "f0e9b127c42a1353",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240507122429.png",
+    "XX-Attachments/Images/Pasted image 20240507121653.png",
     "DistributedSystems/Software_confinement.md",
     "DistributedSystems/Remote_invocation.md",
     "DistributedSystems/Distributed_systems.md",
@@ -318,7 +321,6 @@
     "XX-Attachments/Images/Pasted image 20240502203333.png",
     "XX-Attachments/Images/Pasted image 20240502203301.png",
     "XX-Attachments/Images/Pasted image 20240502194730.png",
-    "XX-Attachments/Images/Pasted image 20240502192218.png",
     "XX-Attachments/Images/Numpy Handbook.pdf",
     "XX-Attachments/Images/math3283-hw4-f16-sol.pdf",
     "Languages&Compilation/CompilerConstruction/Synthesis",
