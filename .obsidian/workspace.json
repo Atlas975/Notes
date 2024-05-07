@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Software_confinement.md",
+                "file": "DistributedSystems/Consensus/Byzantine_generals_problem.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Software_confinement.md"
+                "file": "DistributedSystems/Consensus/Byzantine_generals_problem.md"
               }
             }
           }
@@ -189,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Software_confinement.md",
+                "file": "DistributedSystems/Consensus/Byzantine_generals_problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Software_confinement.md",
+                "file": "DistributedSystems/Consensus/Byzantine_generals_problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -280,6 +280,7 @@
   },
   "active": "f0e9b127c42a1353",
   "lastOpenFiles": [
+    "DistributedSystems/Software_confinement.md",
     "DistributedSystems/Remote_invocation.md",
     "DistributedSystems/Distributed_systems.md",
     "DistributedSystems/Replication.md",
@@ -296,7 +297,6 @@
     "DistributedSystems/Fault_tolerence.md",
     "DistributedSystems/SystemStructure/Cloud_computing.md",
     "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
-    "DistributedSystems/Software_confinement.md",
     "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/Time_keeping.md",
     "DistributedSystems/Consensus",
