@@ -125,6 +125,19 @@
             }
           },
           {
+            "id": "63957a9630316cea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Bayes_theorem.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "77bd4579afba0f1d",
             "type": "leaf",
             "state": {
@@ -177,7 +190,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -245,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Access_controls.md"
+                "file": "Statistics/Bayes_theorem.md"
               }
             }
           }
@@ -281,7 +294,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Access_controls.md",
+                "file": "Statistics/Bayes_theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -298,7 +311,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Access_controls.md",
+                "file": "Statistics/Bayes_theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -370,10 +383,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1b6e150daa84853c",
+  "active": "63957a9630316cea",
   "lastOpenFiles": [
-    "Cybersecurity/Network_security.md",
     "Cybersecurity/RiskManagement/Access_controls.md",
+    "Cybersecurity/Network_security.md",
     "Cybersecurity/RiskManagement/Security_models.md",
     "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
     "Cybersecurity/EncryptionSchemes/Advanced_encryption_standard.md",
