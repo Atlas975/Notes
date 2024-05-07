@@ -12,43 +12,36 @@
 ___
 # Blockchain
 - A growing list of records / blocks, with each block linked to the previous one via a cryptographic [[Hashing|hash]] function. This is an append-only ledger
-- This use of linking via hash makes the technology highly resistant to tampering 
+- This use of linking via hash makes the technology highly resistant to tampering. Record of the transaction itself can then be safely stored in each block 
 
 ![[Pasted image 20240416173625.png|450|450]]
 
 
 $$\text{Sign}(\text{Message},\text{PrivateKey})=\text{Signature}$$
 $$\text{Verify}(\text{Message},\text{Signiture},\text{PublicKey})=\text{True}/\text{False}$$
-### Key Characteristics of Blockchain
 
 - **Immutable Ledger:** Each block in the blockchain contains data, the hash of the previous block, and a timestamp, creating an unbreakable chain.
 - **Tamper Resistance:** Modifying a single block requires recalculating all subsequent blocks, providing security against data tampering.
 - **Decentralization:** Data is not stored in any single location; instead, every participant has a copy of the entire ledger, enhancing transparency and security.
 
-### Blockchain's Components
 
-- **Block:** The fundamental unit in a blockchain that records transactions.
-- **Hash:** Each block is linked to its predecessor by a cryptographic hash, ensuring the integrity of the previous block's contents.
 
-### Distributed Protocol
+## Distributed Protocol
 
-- **Peer-to-Peer Network:** Blockchain operates on a P2P network where nodes store and maintain the ledger independently.
+- **Peer-to-Peer Network:** Blockchain operates on a [[Peer_to_peer_systems|P2P]] network where nodes store and maintain the ledger independently.
 - **Data Dissemination:** Uses an unstructured network model where nodes communicate randomly with each other to spread data.
-
 ### Gossip Protocol
-
-- **Efficient Information Spread:** Information spreads through the network by nodes repeatedly sharing information with a subset of their neighbors.
+- **Efficient Information Spread:** Information spreads through the network by nodes repeatedly sharing information with a subset of their neighbours.
 - **Node Resilience:** The protocol tolerates node failures, as data redundancy ensures information preservation and accuracy.
 
-### Blockchain Operations
+## Blockchain Operations
 
 - **Creating Blocks:** Nodes gather new transactions into blocks.
 - **Validating Transactions:** Nodes must reach consensus on the transactions to be included in the blockchain to prevent issues like double-spending.
 
-### Consensus Mechanisms
-
-- **Proof of Work (PoW):** Nodes compete to solve complex mathematical problems, and the first to solve broadcasts the new block to the network.
-- **Security Against Sybil Attacks:** PoW helps prevent Sybil attacks, where a user masquerades as many identities to flood the network.
+### Proof of work (PoW)
+- Involves nodes competing to solve complex mathematical problems, and the first to solve broadcasts the new block to the network.
+- PoW helps prevent Sybil attacks, where a user masquerades as many identities to flood the network.
 
 ### Challenges in Blockchain
 

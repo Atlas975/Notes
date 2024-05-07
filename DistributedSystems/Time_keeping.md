@@ -32,13 +32,14 @@ ___
 
 ![[Pasted image 20240507125748.png|350|350]]
 
-- One sol$A$
+- One solution is for $A$ to assign timestamps based on a local clock to order events but this relies on ensuring clock skew is kept to a minimum, especially when events are microseconds apart
+### Happens-before relationship 
+- A logical determination of the order of events based on their causality and the sequence of communications.
 
 **Key Concepts:**
 
 - **Timestamps:** Assigning timestamps based on a local clock to order events.
-- **Happens-Before Relationship:** A logical determination of the order of events based on their causality and the sequence of communications.
-
+- **Happens-Before Relationship:** 
 #### Algorithms
 
 - **Lamport Clocks:** Provide a simple mechanism for ordering events using a scalar timestamp.
