@@ -84,9 +84,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "367deeeaeabef0a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DistributedSystems/Time_keeping.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f0a7d23929950956",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMath/Relations.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -154,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Blockchain.md"
+                "file": "DistributedSystems/Time_keeping.md"
               }
             }
           }
@@ -190,7 +216,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Blockchain.md",
+                "file": "DistributedSystems/Time_keeping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +233,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Blockchain.md",
+                "file": "DistributedSystems/Time_keeping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,8 +305,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f0e9b127c42a1353",
+  "active": "367deeeaeabef0a2",
   "lastOpenFiles": [
+    "DiscreteMath/Relations.md",
+    "DistributedSystems/Time_keeping.md",
+    "DistributedSystems/SystemStructure/Blockchain.md",
     "DistributedSystems/SystemStructure/Cloud_computing.md",
     "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
     "DistributedSystems/SystemStructure/Distributed_system_design.md",
@@ -289,7 +318,6 @@
     "DistributedSystems/Remote_invocation.md",
     "DistributedSystems/Replication.md",
     "DistributedSystems/Software_confinement.md",
-    "DistributedSystems/Time_keeping.md",
     "XX-Attachments/Images/Pasted image 20240507125748.png",
     "XX-Attachments/Images/Pasted image 20240507124742.png",
     "DistributedSystems/Consensus/Byzantine_generals_problem.md",
@@ -298,7 +326,6 @@
     "DistributedSystems/Distributed_systems.md",
     "DistributedSystems/SystemStructure/Google_infrastructure.md",
     "DistributedSystems/SystemStructure",
-    "DistributedSystems/SystemStructure/Blockchain.md",
     "DistributedSystems/DistributedLedgers/Distributed_ledger.md",
     "DistributedSystems/Consensus/Two_general_problem.md",
     "DistributedSystems/Consensus/Paxos.md",
