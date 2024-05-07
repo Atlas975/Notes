@@ -99,6 +99,45 @@
             }
           },
           {
+            "id": "376ec22e8db28de0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b6e150daa84853c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/RiskManagement/Access_controls.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9d0985032fcf29c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/RiskManagement/Security_models.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6e50ecd735150b1f",
             "type": "leaf",
             "state": {
@@ -125,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -193,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Advanced_encryption_standard.md"
+                "file": "Cybersecurity/RiskManagement/Security_models.md"
               }
             }
           }
@@ -229,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Advanced_encryption_standard.md",
+                "file": "Cybersecurity/RiskManagement/Security_models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -246,7 +285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Advanced_encryption_standard.md",
+                "file": "Cybersecurity/RiskManagement/Security_models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,10 +357,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "367deeeaeabef0a2",
+  "active": "9d0985032fcf29c1",
   "lastOpenFiles": [
-    "Statistics/ProbabilityDistributions/Probability_distributions.md",
+    "Cybersecurity/RiskManagement/Access_controls.md",
+    "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
     "Cybersecurity/EncryptionSchemes/Advanced_encryption_standard.md",
+    "Statistics/ProbabilityDistributions/Probability_distributions.md",
     "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
     "Cybersecurity/EncryptionSchemes/RSA.md",
     "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
@@ -334,7 +375,6 @@
     "Cybersecurity/RiskManagement/Security_economics.md",
     "Cybersecurity/RiskManagement/Security_models.md",
     "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
-    "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
     "Cybersecurity/PKCS7.md",
     "Cybersecurity/Hashing.md",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
@@ -345,7 +385,6 @@
     "DistributedSystems/CommunicationModels/Indirect_communication.md",
     "DistributedSystems/CommunicationModels/Group_communication.md",
     "DistributedSystems/Remote_invocation.md",
-    "DistributedSystems/Distributed_systems.md",
     "XX-Attachments/Images/Pasted image 20240507142038.png",
     "XX-Attachments/Images/Pasted image 20240507141550.png",
     "XX-Attachments/Images/Pasted image 20240507125748.png",
