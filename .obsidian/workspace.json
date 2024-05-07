@@ -138,6 +138,19 @@
             }
           },
           {
+            "id": "728519a1b6eb14eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LinearProgramming/Linear_programming.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "77bd4579afba0f1d",
             "type": "leaf",
             "state": {
@@ -190,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -258,7 +271,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Bayes_theorem.md"
+                "file": "LinearProgramming/Linear_programming.md"
               }
             }
           }
@@ -294,7 +307,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Bayes_theorem.md",
+                "file": "LinearProgramming/Linear_programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -311,7 +324,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Bayes_theorem.md",
+                "file": "LinearProgramming/Linear_programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -383,8 +396,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "63957a9630316cea",
+  "active": "728519a1b6eb14eb",
   "lastOpenFiles": [
+    "Statistics/Bayes_theorem.md",
     "Cybersecurity/RiskManagement/Access_controls.md",
     "Cybersecurity/Network_security.md",
     "Cybersecurity/RiskManagement/Security_models.md",
@@ -399,7 +413,6 @@
     "Statistics/Bessels_correction.md",
     "Statistics/ProbabilityDistributions/Poisson_distribution.md",
     "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
-    "Statistics/Bayes_theorem.md",
     "Cybersecurity/RiskManagement/Security_economics.md",
     "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
     "Cybersecurity/PKCS7.md",
