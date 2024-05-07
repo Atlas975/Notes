@@ -13,7 +13,7 @@ aliases:
 > ```
 
 ___
-# Byzantine fault tolerance
+# Practical Byzantine fault tolerance
 PBFT is designed to handle Byzantine faults within distributed systems, ensuring that all non-faulty nodes agree on their states even if some nodes exhibit arbitrary failures.
 
 ### Key Concepts of PBFT
