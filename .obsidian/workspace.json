@@ -91,6 +91,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Cybersecurity/EncryptionSchemes/Advanced_encryption_standard.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6e50ecd735150b1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Statistics/ProbabilityDistributions/Probability_distributions.md",
                 "mode": "preview",
                 "backlinks": false,
@@ -112,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -188,7 +201,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -304,22 +318,23 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "367deeeaeabef0a2",
+  "active": "6e50ecd735150b1f",
   "lastOpenFiles": [
+    "Cybersecurity/EncryptionSchemes/Advanced_encryption_standard.md",
+    "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
+    "Cybersecurity/EncryptionSchemes/RSA.md",
+    "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
+    "Cybersecurity/RiskManagement/Risk_management.md",
+    "Statistics/ProbabilityDistributions/Probability_distributions.md",
     "Statistics/ProbabilityDistributions/Triangular_distribution.md",
     "Statistics/Bessels_correction.md",
     "Statistics/ProbabilityDistributions/Poisson_distribution.md",
     "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
     "Statistics/Bayes_theorem.md",
-    "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
-    "Cybersecurity/RiskManagement/Risk_management.md",
     "Cybersecurity/RiskManagement/Security_economics.md",
     "Cybersecurity/RiskManagement/Security_models.md",
-    "Cybersecurity/EncryptionSchemes/RSA.md",
     "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
     "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
-    "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
-    "Cybersecurity/EncryptionSchemes/Advanced_encryption_standard.md",
     "Cybersecurity/PKCS7.md",
     "Cybersecurity/Hashing.md",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
@@ -331,7 +346,6 @@
     "DistributedSystems/CommunicationModels/Group_communication.md",
     "DistributedSystems/Remote_invocation.md",
     "DistributedSystems/Distributed_systems.md",
-    "DistributedSystems/Time_keeping.md",
     "XX-Attachments/Images/Pasted image 20240507142038.png",
     "XX-Attachments/Images/Pasted image 20240507141550.png",
     "XX-Attachments/Images/Pasted image 20240507125748.png",
