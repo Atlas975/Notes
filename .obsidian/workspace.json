@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Fault_tolerence.md",
+                "file": "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Fault_tolerence.md"
+                "file": "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md"
               }
             }
           }
@@ -188,7 +188,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -215,7 +216,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Fault_tolerence.md",
+                "file": "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +233,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Fault_tolerence.md",
+                "file": "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,6 +307,7 @@
   },
   "active": "367deeeaeabef0a2",
   "lastOpenFiles": [
+    "DistributedSystems/Fault_tolerence.md",
     "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
     "DistributedSystems/Consensus/Two_general_problem.md",
@@ -320,7 +322,6 @@
     "DistributedSystems/SystemStructure/Blockchain.md",
     "DistributedSystems/SystemStructure/Cloud_computing.md",
     "DistributedSystems/SystemStructure/Distributed_system_design.md",
-    "DistributedSystems/Fault_tolerence.md",
     "DistributedSystems/Replication.md",
     "DistributedSystems/Software_confinement.md",
     "XX-Attachments/Images/Pasted image 20240507125748.png",
