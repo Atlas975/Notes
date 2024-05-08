@@ -20,23 +20,23 @@ ___
 ### Multicast scalability 
 - The network bandwidth consumed by multicast differs from using multiple unicast
 - Multiple Unicast results in a linear increase in bandwidth consumption with each additional due to separate messages being sent to each client 
-- Multicast maintains low and relatively constant bandwidth usage regardless of the number of recipients due to sending a single message that is duplicated in the network only where necessary
 
 ![[Pasted image 20240508145803.png|450|450]]
 
-## Types of group Communication
+- With [[Network_architecture|network]] infrastructure that supports multicast, bandwidth use is relatively constant regardless of number of recipients
+- This is due to data being replicated only when necessary such as network junctions
 
-Group communication can vary based on membership and structure:
+```
+interface GroupCommunicationService { 
+// creates a new group and returns the groups ID public GroupID groupCreate(); // Adding & Removing a member to/from a group public void app group comm app group comm groupJoin (GroupID group, Participant member); public void groupLeave (GroupID group, Participant member); // multicasts a message to the named group with // the specified delivery semantics, and // optionally collects a number of replies public Messages[ ] multicast (GroupID group, OrderType order, Messages message, int nbReplies) }
+```
+### Communication model structures 
+- **Hierarchical:** Communication flows through a tiered structure.
+- **Peer-to-Peer:** Nodes interact directly without hierarchical order.
+- **Client-Server/Replicated Servers:** Central servers manage communication to multiple clients.
 
-- **Structure:**
-    - **Hierarchical:** Communication flows through a tiered structure.
-    - **Peer-to-Peer:** Nodes interact directly without hierarchical order.
-    - **Client-Server/Replicated Servers:** Central servers manage communication to multiple clients.
+![[Pasted image 20240508151624.png||100|100]]
 
-## Reliability Guarantees
-- **Best Effort:** minimal reliability, messages may be lost.
-- **Reliable Multicast:** Enhances reliability by trying to overcome message losses but does not guarantee delivery if the sender crashes.
-- **Atomic Multicast:** Ensures all members receive the message, providing the highest level of reliability.
 
 ### Implementing Reliable Multicast
 
