@@ -12,8 +12,9 @@
 ___
 # Symmetric encryption
 - Uses the same or easily computable [[Keys#Symmetric|key]] for encryption and decryption
-- Requires $\frac{N(N-1)}{2}$ keys between $N$ parties, making this costly to scale
+- Requires $\frac{N(N-1)}{2}$ keys between $N$ parties, giving this method low scalability
 - Also requires secure key exchange making key management a challenge. 
+- 
 
 
 ![[Pasted image 20240331193809.png|350|350]]
@@ -22,7 +23,8 @@ $$\color{#8DB600}e \text{ goes public}\color{white}$$
 $$\color{#8DB600}d \text{ goes public}\color{white}$$
 ## Block-based ciphers
 - Encrypts block of information sequentially (eg [[Advanced_encryption_standard|AES]])
-- Stronger than stream based but slower 
+- Stronger than stream based but slower
+- Vulnerable to replay attacks if the same plaintext block always encrypts to the same ciphertext block due to pattern analysis 
 ## Stream-based ciphers
 - Works one bit at a time, mixing plaintext with key-stream
 - Good for real-time services, this method is fast and easy to implement

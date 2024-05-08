@@ -255,7 +255,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -323,7 +323,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Distributed_system_security.md"
+                "file": "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md"
               }
             }
           }
@@ -359,7 +359,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Distributed_system_security.md",
+                "file": "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -376,7 +376,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Distributed_system_security.md",
+                "file": "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -448,13 +448,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4e9fd96e52d6f0d7",
+  "active": "733dce39a09667bc",
   "lastOpenFiles": [
-    "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
+    "Cybersecurity/EncryptionSchemes/Advanced_encryption_standard.md",
     "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
+    "DistributedSystems/Distributed_system_security.md",
+    "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
     "Cybersecurity/Hashing.md",
     "Cybersecurity/Cryptography.md",
-    "DistributedSystems/Distributed_system_security.md",
     "XX-Attachments/Images/Pasted image 20240508122231.png",
     "Cybersecurity/RiskManagement/Security_principles.md",
     "Cybersecurity/Keys.md",
@@ -474,7 +475,6 @@
     "Statistics/Bayes_theorem.md",
     "Cybersecurity/RiskManagement/Access_controls.md",
     "Cybersecurity/RiskManagement/Security_models.md",
-    "Cybersecurity/EncryptionSchemes/Advanced_encryption_standard.md",
     "Statistics/ProbabilityDistributions/Probability_distributions.md",
     "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
     "XX-Attachments/Images/Pasted image 20240507142038.png",
