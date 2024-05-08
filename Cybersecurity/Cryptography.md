@@ -41,3 +41,5 @@ $$D_{k}:C\to P,k\in K$$
 - This becomes vital in preventing repeat encryption patterns from being found
 
 ![[Pasted image 20240508122231.png|300|300]]
+
+## Di

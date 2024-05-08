@@ -38,6 +38,13 @@ ___
 ![[Pasted image 20240508125737.png|300|300]]
 
 
+### Reflection attack
+- This 5 step handshake is needed to avoid a reflection attack where an attacker tricks a legitimate user or system into unwittingly responding to its own requests
+- For example, this 3 step handshake is vulnerable to reflection attacks. This cannot be done with symmetric encryption but it can be done using [[Asymmetric_encryption|asymmetric encryption]]
+
+![[Pasted image 20240508131838.png|350|350]]
+
+
 ## Security in Layers
 
 - **Network Layer:** Could involve encryption at routers.
