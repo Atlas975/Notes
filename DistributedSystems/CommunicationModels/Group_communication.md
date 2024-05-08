@@ -10,12 +10,12 @@
 
 ___
 # Group communication
-Group communication is a vital middleware layer in distributed systems. It is used for efficient data dissemination across networks, enabling applications like service discovery, publish/subscribe systems, replication, and shared channels.
-
-## Group communication models
+-  A [[Distributed_systems#Middleware|middleware]] used for efficient data dissemination across networks, enabling applications like service discovery, publish/subscribe systems, replication, and shared channels.
+- This middleware enables multicast of messages with a single action 
+## Communication models
 - **Unicast:** 1:1, typical of web applications.
 - **Broadcast:** 1:Many, where a message is sent to all nodes in a network.
-- **Multicast:** Many:Many, allowing messages to be sent to a subset of nodes.
+- **Multicast:** Many:Many, supports group communication 
 ## Types of group Communication
 
 Group communication can vary based on membership and structure:
