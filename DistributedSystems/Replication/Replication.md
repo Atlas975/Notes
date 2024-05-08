@@ -10,7 +10,12 @@
 
 ___
 # Replication
-Replication involves creating multiple copies of the same data across different servers or locations to improve reliability and performance. This approach helps in handling failures and distributing workload efficiently.
+- Replication involves creating multiple copies of the same data across different servers or locations to improve reliability and performance.
+- This approach helps in handling failures and distributing workload efficiently.
+
+
+![[Pasted image 20240508194923.png|450|450]]
+
 
 ### Consistency Levels
 
