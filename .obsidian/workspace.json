@@ -170,7 +170,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/CommunicationModels/Group_communication.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -320,7 +320,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -388,7 +388,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Replication/Active_replication.md"
+                "file": "DistributedSystems/CommunicationModels/Group_communication.md"
               }
             }
           }
@@ -396,7 +396,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -423,7 +424,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Replication/Active_replication.md",
+                "file": "DistributedSystems/CommunicationModels/Group_communication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -440,7 +441,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Replication/Active_replication.md",
+                "file": "DistributedSystems/CommunicationModels/Group_communication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -512,10 +513,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3be13112d15a1d63",
+  "active": "0df416527d071eb8",
   "lastOpenFiles": [
-    "DistributedSystems/Replication/Passive_replication.md",
     "DistributedSystems/Replication/Active_replication.md",
+    "DistributedSystems/Replication/Passive_replication.md",
     "XX-Attachments/Images/Pasted image 20240508200553.png",
     "DistributedSystems/Replication/Replication.md",
     "XX-Attachments/Images/Pasted image 20240508195304.png",
