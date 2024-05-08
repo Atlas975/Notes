@@ -11,15 +11,13 @@
 
 ___
 # Distributed system security
-### Security Threats in Distributed Systems
-
-**Common Threats:**
-
-1. **Eavesdropping:** Unauthorized interception of private communication.
-2. **Tampering:** Modifying data in transit, such as altering transaction amounts in financial transfers.
-3. **Masquerading:** Impersonating another user or device to gain unauthorized access.
-4. **Replaying:** Re-transmitting valid data repeatedly to disrupt operations or duplicate transactions.
-5. **Non-Repudiation:** Ensuring that a party in a communication cannot deny the authenticity of their signature on a document or a message they sent.
+- 
+### Common distributed system threats
+1. **Eavesdropping:** unauthorised interception of private communication.
+2. **Tampering:** modifying data in transit
+3. **Masquerading:** impersonating another user or device to gain unauthorised access.
+4. **Replaying:** re-transmitting valid data repeatedly to disrupt operations \/ duplicate transactions.
+5. **Non-Repudiation:** users must not be able to deny the authenticity of their document signature 
 
 ### Security Mechanisms
 
