@@ -131,7 +131,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/CommunicationModels/Group_communication.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -476,6 +476,7 @@
   },
   "active": "0df416527d071eb8",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240508145803.png",
     "DistributedSystems/Distributed_systems.md",
     "XX-Attachments/Images/Pasted image 20240508132935.png",
     "Cybersecurity/Cryptography.md",

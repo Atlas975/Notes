@@ -16,6 +16,14 @@ ___
 - **Unicast:** 1:1, typical of web applications.
 - **Broadcast:** 1:Many, where a message is sent to all nodes in a network.
 - **Multicast:** Many:Many, supports group communication of either membership style:
+
+### Multicast scalability 
+- The network bandwidth consumed by multicast differs from using multiple unicast
+- Multiple Unicast results in a linear increase in bandwidth consumption with each additional due to separate messages being sent to each client 
+- Multicast maintains low and relatively constant bandwidth usage regardless of the number of recipients due to sending a single message that is duplicated in the network only where necessary
+
+![[Pasted image 20240508145803.png|450|450]]
+
 ## Types of group Communication
 
 Group communication can vary based on membership and structure:
