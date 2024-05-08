@@ -42,10 +42,12 @@ ___
 - Provides a high level programming abstraction 
 - Hides complexity of distributed system as well as underlying forms of heterogeneity 
 
-![[Pasted image 20231016184020.png|450|450]]
+![[Pasted image 20231016184020.png|400|400]]
 
 - Middleware protocols support 
     - **Resource sharing** through concurrency protocols 
     - **Transparency** by allowing a distributed system to be viewed as a single computer 
     - **Openness** by providing portability and a standard interface to work with 
 - Overall good middleware is essential for scalability, maintenance, fault tolerance and security 
+
+![[Pasted image 20240508132935.png|450|450]]

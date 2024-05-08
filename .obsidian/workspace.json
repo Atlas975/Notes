@@ -105,7 +105,33 @@
               "type": "markdown",
               "state": {
                 "file": "Cybersecurity/Cryptography.md",
-                "mode": "source",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4a16243d9c53b36b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DistributedSystems/Distributed_systems.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0df416527d071eb8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DistributedSystems/CommunicationModels/Group_communication.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -255,7 +281,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -323,7 +349,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/Cryptography.md"
+                "file": "DistributedSystems/CommunicationModels/Group_communication.md"
               }
             }
           }
@@ -359,7 +385,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/Cryptography.md",
+                "file": "DistributedSystems/CommunicationModels/Group_communication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -376,7 +402,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/Cryptography.md",
+                "file": "DistributedSystems/CommunicationModels/Group_communication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -448,8 +474,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "376ec22e8db28de0",
+  "active": "0df416527d071eb8",
   "lastOpenFiles": [
+    "DistributedSystems/Distributed_systems.md",
+    "XX-Attachments/Images/Pasted image 20240508132935.png",
+    "Cybersecurity/Cryptography.md",
+    "XX-Attachments/Images/Pasted image 20240508132517.png",
     "DistributedSystems/Distributed_system_security.md",
     "XX-Attachments/Images/Pasted image 20240508132246.png",
     "XX-Attachments/Images/Pasted image 20240508131838.png",
@@ -458,14 +488,12 @@
     "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
     "Cybersecurity/EncryptionSchemes/Advanced_encryption_standard.md",
     "Cybersecurity/Hashing.md",
-    "Cybersecurity/Cryptography.md",
     "XX-Attachments/Images/Pasted image 20240508122231.png",
     "Cybersecurity/RiskManagement/Security_principles.md",
     "Cybersecurity/Keys.md",
     "Cybersecurity/Network_security.md",
     "Cybersecurity/Operating_system_security.md",
     "DistributedSystems/Fault_tolerence.md",
-    "DistributedSystems/Distributed_systems.md",
     "DistributedSystems/SystemStructure/Google_infrastructure.md",
     "DistributedSystems/SystemStructure/Cloud_computing.md",
     "DistributedSystems/SystemStructure/Blockchain.md",
@@ -483,8 +511,6 @@
     "XX-Attachments/Images/Pasted image 20240507141550.png",
     "XX-Attachments/Images/Pasted image 20240507125748.png",
     "XX-Attachments/Images/Pasted image 20240507124742.png",
-    "XX-Attachments/Images/Pasted image 20240507122429.png",
-    "XX-Attachments/Images/Pasted image 20240507121653.png",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",
     "DistributedSystems/CommunicationModels",

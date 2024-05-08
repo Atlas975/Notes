@@ -42,4 +42,8 @@ $$D_{k}:C\to P,k\in K$$
 
 ![[Pasted image 20240508122231.png|300|300]]
 
-## Di
+## Digital signiture
+- A signature is needed to offer origin tracking, data integrity and non-repudiation
+- This is typically done using public key cryptography 
+
+![[Pasted image 20240508132517.png|450|450]]
