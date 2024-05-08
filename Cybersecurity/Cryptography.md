@@ -35,3 +35,9 @@ $$D_{k}:C\to P,k\in K$$
 - **Availability**: ensure authorised users are able to access information 
 
 ![[Pasted image 20240423170256.png|350|350]]
+
+## Cipher block chaining (CBC)
+- Ensures recurring blocks produce distinct ciphertext's
+- 
+
+![[Pasted image 20240508122231.png|300|300]]

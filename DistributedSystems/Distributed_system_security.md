@@ -11,23 +11,21 @@
 
 ___
 # Distributed system security
-- 
-### Common distributed system threats
-1. **Eavesdropping:** unauthorised interception of private communication.
-2. **Tampering:** modifying data in transit
-3. **Masquerading:** impersonating another user or device to gain unauthorised access.
-4. **Replaying:** re-transmitting valid data repeatedly to disrupt operations \/ duplicate transactions.
-5. **Non-Repudiation:** users must not be able to deny the authenticity of their document signature 
+- [[Distributed_systems|Distributed systems]] feature numerous potential avenues for exploitation, this requires the use of effective [[Security_principles|security policy]] to describe what actions are allowed within a system
+- Once a security policy has been implemented, it becomes possible to concentrate on enforcing the required [[Cryptography#Cryptography functions|security mechanisms]]
 
-### Security Mechanisms
 
-**Key Mechanisms:**
+## Common distributed system threats
+-  **Eavesdropping:** unauthorised interception of private communication.
+-  **Tampering:** modifying data in transit
+-  **Masquerading:** impersonating another user or device to gain unauthorised access.
+-  **Replaying:** re-transmitting valid data repeatedly to disrupt operations \/ duplicate transactions 
+- **Non-Repudiation:** users must not be able to deny the authenticity of their document signature 
 
-- **Encryption:** Used to maintain the confidentiality of messages.
-- **Authentication:** Verifying the identity of a person or device.
-- **Digital Signatures:** Providing a means to check the integrity and non-repudiation of a message.
-- **Authorization:** Ensuring that only authorized users can access certain resources.
-- **Auditing:** Monitoring and recording actions taken by users or automated systems.
+### Auditing 
+- Involves the analysis of security breaches, this is another useful security mechanism to have 
+- This allows security policies to be revised in the future to prevent similar attacks 
+
 
 ### Encryption Techniques
 
