@@ -22,22 +22,20 @@ ___
 -  **Replaying:** re-transmitting valid data repeatedly to disrupt operations \/ duplicate transactions 
 - **Non-Repudiation:** users must not be able to deny the authenticity of their document signature 
 
-### Auditing 
+### Auditing
 - Involves the analysis of security breaches, this is another useful security mechanism to have 
 - This allows security policies to be revised in the future to prevent similar attacks 
 
 
-### Encryption Techniques
+## Authentication using secret keys
+- Makes use of [[Symmetric_encryption|symmetric encryption]] using the following procedure:
+	1. Alice (client) sends request to setup communication 
+	2. Bob (server) sends a challenge nonce 
+	3. Alice encrypts and sends the challenge using shared secret key, proving identity
+	4. Alice sends a challenge nonce 
+	5. Bob encrypts Alice's challenge and sends, completing authentication 
 
-**Cipher Block Chaining (CBC):** A mode of operation for block ciphers. It uses what was previously encrypted as input for the encryption of the next block.
-
-### Authentication Protocols
-
-**Challenges:**
-
-- **Symmetric Key Authentication:** Vulnerable to replay attacks where a valid data transmission is maliciously or fraudulently repeated.
-- **Public Key Authentication:** Utilizes public keys for encrypting messages that can only be decrypted by a corresponding private key, ensuring that messages are sent by the rightful owner of the private key.
-
+![[Pasted image 20240508125737.png|300|300]]
 
 
 ## Security in Layers

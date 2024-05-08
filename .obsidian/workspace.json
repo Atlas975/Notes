@@ -255,7 +255,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -323,7 +323,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md"
+                "file": "DistributedSystems/Distributed_system_security.md"
               }
             }
           }
@@ -359,7 +359,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
+                "file": "DistributedSystems/Distributed_system_security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -376,7 +376,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
+                "file": "DistributedSystems/Distributed_system_security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -448,10 +448,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "733dce39a09667bc",
+  "active": "4e9fd96e52d6f0d7",
   "lastOpenFiles": [
-    "Cybersecurity/EncryptionSchemes/Advanced_encryption_standard.md",
+    "XX-Attachments/Images/Pasted image 20240508125737.png",
     "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
+    "Cybersecurity/EncryptionSchemes/Advanced_encryption_standard.md",
     "DistributedSystems/Distributed_system_security.md",
     "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
     "Cybersecurity/Hashing.md",
@@ -476,7 +477,6 @@
     "Cybersecurity/RiskManagement/Access_controls.md",
     "Cybersecurity/RiskManagement/Security_models.md",
     "Statistics/ProbabilityDistributions/Probability_distributions.md",
-    "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
     "XX-Attachments/Images/Pasted image 20240507142038.png",
     "XX-Attachments/Images/Pasted image 20240507141550.png",
     "XX-Attachments/Images/Pasted image 20240507125748.png",
