@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
+                "file": "DistributedSystems/Fault_tolerence.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -284,7 +284,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md"
+                "file": "DistributedSystems/Fault_tolerence.md"
               }
             }
           }
@@ -292,8 +292,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -320,7 +319,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
+                "file": "DistributedSystems/Fault_tolerence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -337,7 +336,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
+                "file": "DistributedSystems/Fault_tolerence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -411,6 +410,15 @@
   },
   "active": "376ec22e8db28de0",
   "lastOpenFiles": [
+    "DistributedSystems/Distributed_system_security.md",
+    "DistributedSystems/Distributed_systems.md",
+    "DistributedSystems/SystemStructure/Google_infrastructure.md",
+    "DistributedSystems/SystemStructure/Cloud_computing.md",
+    "DistributedSystems/SystemStructure/Blockchain.md",
+    "DistributedSystems/Consensus/Two_general_problem.md",
+    "DistributedSystems/Consensus/RAFT.md",
+    "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
+    "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
     "DistributedSystems/Time_keeping.md",
     "Statistics/Sampling_methods.md",
     "LinearProgramming/Linear_programming.md",
@@ -418,7 +426,6 @@
     "Cybersecurity/RiskManagement/Access_controls.md",
     "Cybersecurity/Network_security.md",
     "Cybersecurity/RiskManagement/Security_models.md",
-    "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
     "Cybersecurity/EncryptionSchemes/Advanced_encryption_standard.md",
     "Statistics/ProbabilityDistributions/Probability_distributions.md",
     "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
@@ -429,14 +436,6 @@
     "Statistics/Bessels_correction.md",
     "Statistics/ProbabilityDistributions/Poisson_distribution.md",
     "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
-    "Cybersecurity/RiskManagement/Security_economics.md",
-    "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
-    "Cybersecurity/PKCS7.md",
-    "Cybersecurity/Hashing.md",
-    "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
-    "DistributedSystems/Fault_tolerence.md",
-    "DistributedSystems/Distributed_system_security.md",
-    "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
     "XX-Attachments/Images/Pasted image 20240507142038.png",
     "XX-Attachments/Images/Pasted image 20240507141550.png",
     "XX-Attachments/Images/Pasted image 20240507125748.png",
