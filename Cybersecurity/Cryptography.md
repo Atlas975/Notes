@@ -2,6 +2,7 @@
 aliases:
   - cryptographic
 ---
+
 > [!important]- Metadata
 > **Tags:** #Cybersecurity 
 > **Located:** Cybersecurity
@@ -24,12 +25,13 @@ ___
 
 $$E_{k}:P\to C,k\in K$$
 $$D_{k}:C\to P,k\in K$$
-## Cryptosystem goals 
+## Cryptography functions
+- **Encryption:** implement confidentiality in messages
+- **Authentication**: verify claimed identities of parties
+- **Digital signatures**: prevent tampering and provide non-repudiation 
+## Cryptosystem goals
 - **Confidentiality**: ensure only authorised users have information access 
 - **Integrity**: safeguarding the accuracy and completeness of information 
 - **Availability**: ensure authorised users are able to access information 
 
 ![[Pasted image 20240423170256.png|350|350]]
-
-
-

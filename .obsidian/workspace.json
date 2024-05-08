@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Fault_tolerence.md",
+                "file": "Cybersecurity/Cryptography.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -284,7 +284,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Fault_tolerence.md"
+                "file": "Cybersecurity/Cryptography.md"
               }
             }
           }
@@ -292,7 +292,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -319,7 +320,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Fault_tolerence.md",
+                "file": "Cybersecurity/Cryptography.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -336,7 +337,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Fault_tolerence.md",
+                "file": "Cybersecurity/Cryptography.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -410,6 +411,10 @@
   },
   "active": "376ec22e8db28de0",
   "lastOpenFiles": [
+    "Cybersecurity/Keys.md",
+    "Cybersecurity/Network_security.md",
+    "Cybersecurity/Operating_system_security.md",
+    "DistributedSystems/Fault_tolerence.md",
     "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/Distributed_systems.md",
     "DistributedSystems/SystemStructure/Google_infrastructure.md",
@@ -424,7 +429,6 @@
     "LinearProgramming/Linear_programming.md",
     "Statistics/Bayes_theorem.md",
     "Cybersecurity/RiskManagement/Access_controls.md",
-    "Cybersecurity/Network_security.md",
     "Cybersecurity/RiskManagement/Security_models.md",
     "Cybersecurity/EncryptionSchemes/Advanced_encryption_standard.md",
     "Statistics/ProbabilityDistributions/Probability_distributions.md",
@@ -433,9 +437,6 @@
     "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
     "Cybersecurity/RiskManagement/Risk_management.md",
     "Statistics/ProbabilityDistributions/Triangular_distribution.md",
-    "Statistics/Bessels_correction.md",
-    "Statistics/ProbabilityDistributions/Poisson_distribution.md",
-    "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
     "XX-Attachments/Images/Pasted image 20240507142038.png",
     "XX-Attachments/Images/Pasted image 20240507141550.png",
     "XX-Attachments/Images/Pasted image 20240507125748.png",
