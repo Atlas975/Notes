@@ -19,7 +19,7 @@ ___
 - **One-way**: infeasible to find x from y: h(x) = y
 - **Weak collision resistance**: should be hard to find two inputs with same hash
 - **Strong collision resistance**: should be hard to find two identical hashes
-## Cryptographic attacks
+## Hashed output attacks
 - **Cipher-only**: obtained output from several messages using the same encryption
 - **Known-plaintext**: has input, output pair of one or more messages (==rainbow tables==)
 - **Chosen-plaintext**: has control over what inputs gets encrypted 
@@ -36,12 +36,14 @@ ___
 - This is quantified by the number of bits changed after a small input modification
 
 ![[Pasted image 20240424150500.png|350|350]]
-### Confusion / avalanche effect 
+### Confusion / avalanche effect
 - Requires that the output hash be highly sensitive to input data in a non-predictable fashion
 - This is achieved through mathematical functions that ensure the relationship between the input and output is non-linear
-
 ### Diffusion
 - Requires that the output hash values are uniformly distributed over the output space so that changes to the input data (even minor ones) spread to affect many bits in the output hash
 - This is crucial for minimising collisions using inputs similar to each other
 
 
+### Obfuscation
+- The practice of making a cryptographic algorithm or its implementation intentionally complex and difficult to understand. This makes it more difficult to decipher how an algorithm works
+- Can involve altering code structure, using confusing variable names, or implementing complex execution paths that make reverse engineering challenging for attackers

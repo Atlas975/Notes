@@ -105,7 +105,46 @@
               "type": "markdown",
               "state": {
                 "file": "Cybersecurity/Cryptography.md",
-                "mode": "source",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "349c2cf1539ebb70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/Hashing.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "733dce39a09667bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9e1399944bbe9d80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -216,7 +255,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -284,7 +323,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/Cryptography.md"
+                "file": "DistributedSystems/Distributed_system_security.md"
               }
             }
           }
@@ -320,7 +359,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/Cryptography.md",
+                "file": "DistributedSystems/Distributed_system_security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -337,7 +376,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/Cryptography.md",
+                "file": "DistributedSystems/Distributed_system_security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -409,10 +448,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "376ec22e8db28de0",
+  "active": "4e9fd96e52d6f0d7",
   "lastOpenFiles": [
-    "DistributedSystems/Distributed_system_security.md",
+    "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
+    "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
+    "Cybersecurity/Hashing.md",
     "Cybersecurity/Cryptography.md",
+    "DistributedSystems/Distributed_system_security.md",
     "XX-Attachments/Images/Pasted image 20240508122231.png",
     "Cybersecurity/RiskManagement/Security_principles.md",
     "Cybersecurity/Keys.md",
@@ -426,7 +468,6 @@
     "DistributedSystems/Consensus/Two_general_problem.md",
     "DistributedSystems/Consensus/RAFT.md",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
-    "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
     "DistributedSystems/Time_keeping.md",
     "Statistics/Sampling_methods.md",
     "LinearProgramming/Linear_programming.md",
@@ -436,7 +477,6 @@
     "Cybersecurity/EncryptionSchemes/Advanced_encryption_standard.md",
     "Statistics/ProbabilityDistributions/Probability_distributions.md",
     "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
-    "Cybersecurity/EncryptionSchemes/RSA.md",
     "XX-Attachments/Images/Pasted image 20240507142038.png",
     "XX-Attachments/Images/Pasted image 20240507141550.png",
     "XX-Attachments/Images/Pasted image 20240507125748.png",

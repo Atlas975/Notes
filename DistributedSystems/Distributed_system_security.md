@@ -38,15 +38,10 @@ ___
 - **Symmetric Key Authentication:** Vulnerable to replay attacks where a valid data transmission is maliciously or fraudulently repeated.
 - **Public Key Authentication:** Utilizes public keys for encrypting messages that can only be decrypted by a corresponding private key, ensuring that messages are sent by the rightful owner of the private key.
 
-### Public Key Infrastructure (PKI)
 
-**Components:**
 
-- **Certification Authority (CA):** Issues digital certificates to entities, verifying their identity.
-- **Registration Authority (RA):** Verifies the identity of entities requesting digital certificates before they are approved by the CA.
-
-### Security in Layers
+## Security in Layers
 
 - **Network Layer:** Could involve encryption at routers.
 - **Transport Layer:** Uses protocols like SSL/TLS to secure communication.
-- **Middleware and Application Layers:** Implement security measures tailored to specific applications and data handled.
+- **Middleware / application Layers:** security measures tailored to specific applications / data

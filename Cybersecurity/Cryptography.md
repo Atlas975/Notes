@@ -38,6 +38,6 @@ $$D_{k}:C\to P,k\in K$$
 
 ## Cipher block chaining (CBC)
 - Ensures recurring blocks produce distinct ciphertext's
-- 
+- This becomes vital in preventing repeat encryption patterns from being found
 
 ![[Pasted image 20240508122231.png|300|300]]
