@@ -281,7 +281,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -349,7 +349,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/CommunicationModels/Group_communication.md"
+                "file": "DistributedSystems/Time_keeping.md"
               }
             }
           }
@@ -385,7 +385,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/CommunicationModels/Group_communication.md",
+                "file": "DistributedSystems/Time_keeping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -402,7 +402,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/CommunicationModels/Group_communication.md",
+                "file": "DistributedSystems/Time_keeping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -474,8 +474,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0df416527d071eb8",
+  "active": "7c4f639e9c8c1eec",
   "lastOpenFiles": [
+    "DistributedSystems/CommunicationModels/Group_communication.md",
     "XX-Attachments/Images/Pasted image 20240508151624.png",
     "XX-Attachments/Images/Pasted image 20240508145803.png",
     "DistributedSystems/Distributed_systems.md",
@@ -511,7 +512,6 @@
     "Statistics/ProbabilityDistributions/Probability_distributions.md",
     "XX-Attachments/Images/Pasted image 20240507142038.png",
     "XX-Attachments/Images/Pasted image 20240507141550.png",
-    "XX-Attachments/Images/Pasted image 20240507125748.png",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",
     "DistributedSystems/CommunicationModels",
