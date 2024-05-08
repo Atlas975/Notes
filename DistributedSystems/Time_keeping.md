@@ -36,7 +36,7 @@ ___
 ### Happens-before relationship 
 - A logical determination of the order of events based on causality / sequence of communications.
 - Can be handled in a variety of ways such as using locks/semaphores or relying on the [[Relations#Transitivity|transitivity]] of events (if $T(e_{1})<T(e_{2})$ then $e_{1}\to e_{2}$), based on the use of a Lampert logical clock
-
+- Cannot handle partial ordering (eg <1,2,4> and <2,1,3>), requires a vector clock to do this
 
 ![[Pasted image 20240507141550.png|350|350]]
 
