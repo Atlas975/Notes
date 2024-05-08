@@ -11,28 +11,22 @@
 ___
 # Group communication
 -  A [[Distributed_systems#Middleware|middleware]] used for efficient data dissemination across networks, enabling applications like service discovery, publish/subscribe systems, replication, and shared channels.
-- This middleware enables multicast of messages with a single action 
+- This middleware enables multicast of messages with a single action for either open membership (subscription based system) or closed membership (invitation only system)
 ## Communication models
 - **Unicast:** 1:1, typical of web applications.
 - **Broadcast:** 1:Many, where a message is sent to all nodes in a network.
-- **Multicast:** Many:Many, supports group communication 
+- **Multicast:** Many:Many, supports group communication of either membership style:
 ## Types of group Communication
 
 Group communication can vary based on membership and structure:
 
-- **Membership Styles:**
-    - **Open:** Anyone can join.
-    - **Closed:** Membership by invitation only.
 - **Structure:**
     - **Hierarchical:** Communication flows through a tiered structure.
     - **Peer-to-Peer:** Nodes interact directly without hierarchical order.
     - **Client-Server/Replicated Servers:** Central servers manage communication to multiple clients.
 
-### Reliability Guarantees
-
-Different applications require different levels of reliability:
-
-- **Best Effort:** Minimal reliability, messages may be lost.
+## Reliability Guarantees
+- **Best Effort:** minimal reliability, messages may be lost.
 - **Reliable Multicast:** Enhances reliability by trying to overcome message losses but does not guarantee delivery if the sender crashes.
 - **Atomic Multicast:** Ensures all members receive the message, providing the highest level of reliability.
 
@@ -46,8 +40,8 @@ To implement reliable multicast:
 
 ### Advanced Techniques
 
-- **Negative ACKs (NACKs):** Used to indicate missing messages, reducing the number of acknowledgments.
-- **NACK Suppression:** Limits redundant NACKs by suppressing duplicate requests for the same message.
+- **Negative ACKs (NACKs):** Used to indicate missing messages, reducing the number of ACKs
+- **NACK Suppression:** Limits redundant NACKs by suppressing duplicate message requests 
 - **Hierarchical Feedback Control:** Uses a hierarchical structure to manage message retransmissions and acknowledgments effectively.
 
 ### Atomic Multicast and Distributed Commit
