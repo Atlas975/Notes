@@ -26,16 +26,14 @@ ___
 - With [[Network_architecture|network]] infrastructure that supports multicast, bandwidth use is relatively constant regardless of number of recipients
 - This is due to data being replicated only when necessary such as network junctions
 
-```
-interface GroupCommunicationService { 
-// creates a new group and returns the groups ID public GroupID groupCreate(); // Adding & Removing a member to/from a group public void app group comm app group comm groupJoin (GroupID group, Participant member); public void groupLeave (GroupID group, Participant member); // multicasts a message to the named group with // the specified delivery semantics, and // optionally collects a number of replies public Messages[ ] multicast (GroupID group, OrderType order, Messages message, int nbReplies) }
-```
 ### Communication model structures 
 - **Hierarchical:** Communication flows through a tiered structure.
 - **Peer-to-Peer:** Nodes interact directly without hierarchical order.
 - **Client-Server/Replicated Servers:** Central servers manage communication to multiple clients.
 
-![[Pasted image 20240508151624.png||100|100]]
+## Communication reliability 
+- **Best-effort**: no attempt at retransmission needed (eg live streaming)
+- **Atomic**: message must go through eventually (eg air traffic control)
 
 
 ### Implementing Reliable Multicast
