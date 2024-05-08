@@ -281,7 +281,7 @@
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -349,7 +349,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Time_keeping.md"
+                "file": "DistributedSystems/Distributed_system_security.md"
               }
             }
           }
@@ -385,7 +385,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Time_keeping.md",
+                "file": "DistributedSystems/Distributed_system_security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -402,7 +402,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Time_keeping.md",
+                "file": "DistributedSystems/Distributed_system_security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -474,8 +474,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7c4f639e9c8c1eec",
+  "active": "4e9fd96e52d6f0d7",
   "lastOpenFiles": [
+    "DistributedSystems/Time_keeping.md",
     "DistributedSystems/CommunicationModels/Group_communication.md",
     "XX-Attachments/Images/Pasted image 20240508151624.png",
     "XX-Attachments/Images/Pasted image 20240508145803.png",
@@ -503,7 +504,6 @@
     "DistributedSystems/Consensus/Two_general_problem.md",
     "DistributedSystems/Consensus/RAFT.md",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
-    "DistributedSystems/Time_keeping.md",
     "Statistics/Sampling_methods.md",
     "LinearProgramming/Linear_programming.md",
     "Statistics/Bayes_theorem.md",
