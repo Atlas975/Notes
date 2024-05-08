@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Replication/Passive_replication.md",
+                "file": "DistributedSystems/Replication/Active_replication.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/Replication/Active_replication.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -515,8 +515,9 @@
   "active": "3be13112d15a1d63",
   "lastOpenFiles": [
     "DistributedSystems/Replication/Passive_replication.md",
-    "DistributedSystems/Replication/Replication.md",
     "DistributedSystems/Replication/Active_replication.md",
+    "XX-Attachments/Images/Pasted image 20240508200553.png",
+    "DistributedSystems/Replication/Replication.md",
     "XX-Attachments/Images/Pasted image 20240508195304.png",
     "XX-Attachments/Images/Pasted image 20240508194923.png",
     "DistributedSystems/Replication",
@@ -536,7 +537,6 @@
     "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
     "Cybersecurity/EncryptionSchemes/Advanced_encryption_standard.md",
     "Cybersecurity/Hashing.md",
-    "XX-Attachments/Images/Pasted image 20240508122231.png",
     "Cybersecurity/RiskManagement/Security_principles.md",
     "Cybersecurity/Keys.md",
     "Cybersecurity/Network_security.md",
@@ -550,7 +550,6 @@
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
     "Statistics/Sampling_methods.md",
     "LinearProgramming/Linear_programming.md",
-    "Statistics/Bayes_theorem.md",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",
     "DistributedSystems/CommunicationModels",
