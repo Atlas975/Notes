@@ -17,7 +17,7 @@ ___
 - **Broadcast:** 1:Many, where a message is sent to all nodes in a network.
 - **Multicast:** Many:Many, supports group communication of either membership style:
 
-### Multicast scalability 
+### Multicast scalability
 - The network bandwidth consumed by multicast differs from using multiple unicast
 - Multiple Unicast results in a linear increase in bandwidth consumption with each additional due to separate messages being sent to each client 
 
@@ -26,14 +26,20 @@ ___
 - With [[Network_architecture|network]] infrastructure that supports multicast, bandwidth use is relatively constant regardless of number of recipients
 - This is due to data being replicated only when necessary such as network junctions
 
-### Communication model structures 
+### Communication model structures
 - **Hierarchical:** Communication flows through a tiered structure.
 - **Peer-to-Peer:** Nodes interact directly without hierarchical order.
 - **Client-Server/Replicated Servers:** Central servers manage communication to multiple clients.
 
-## Communication reliability 
-- **Best-effort**: no attempt at retransmission needed (eg live streaming)
-- **Atomic**: message must go through eventually (eg air traffic control)
+## Multicast reliability categories
+- **Best-effort**: unreliable multicast (eg live streaming)
+	- No delivery guarantee 
+	- Message sent to all members but may or may not arrive 
+- **Reliable multicast**: protection against faulty [[Network_architecture|network]]
+	- Effort is made to ensure delivery in case of message loss (eg retransmission)
+	- No guarantees if the sender crashes during multicast 
+- **Atomic**:  (eg air traffic control)
+	- All members receive 
 
 
 ### Implementing Reliable Multicast
