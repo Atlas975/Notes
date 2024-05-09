@@ -42,7 +42,7 @@ ___
 	- All members receive a message or none of them does 
 	- Guarantees protection against faulty nodes 
 
-## Implementing reliable multicast
+## Reliable multicast implementation
 - Messages are sent to each group member with an ACK awaited from each of them. If an ACK is not received within a set time, the message is resent.
 - Scalability issues arise due to potential "ACK explosion" where too many ACK's in a short time period can overwhelm the network.
 ### Negative acknowledgment (NACK)
@@ -66,21 +66,35 @@ ___
 ![[Pasted image 20240509151523.png|350|350]]
 
 
-## Atomic multicast
+## Atomic multicast implementation 
 - Ensures the highest level of message reliability across group communications and can be built on top of reliable multicast. This is often needed for [[Replication|replica]] consistency 
+- This allows for all other receivers to be updated even if the sender crashes mid-transmission
 
 ```
-Sender: 
+fn send(msg)
     for each node in group:
         reliable_multicast_send(msg, node)
 
+Sender: 
+    send(msg)
+
 Reciever:
-    msg = recieve()
     if msg not in seen
-        reliable_multicast_send(msg, node)
-        
-        
+        send(msg)
+        accept m
+        sequence_num += 1
+    else:
+        discard m
 ```
+
+### Distributed commit 
+- Allows for atomic commitment, if a transaction is sent either all non-faulty nodes commit it or they all must abort. This also happens if any node crashes 
+- This is typically done with a two phase commit (2PC)
+
+![[Pasted image 20240509154901.png|300|300]]
+
+- If a  `yes` response isn't heard back from all nodes a `global abort` is sent to halt commit
+
 ### Atomic Multicast and Distributed Commit
 
 Atomic multicast and distributed commit protocols ensure the highest level of message reliability across group communications:
