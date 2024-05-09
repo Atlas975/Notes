@@ -10,7 +10,7 @@
 
 ___
 # Indirect communication
-Indirect communication in distributed systems involves interactions between entities through an abstraction layer, which decouples the sender and receiver. This approach provides flexibility in system design, allowing for changes, migrations, and updates without direct dependencies between communicating parties.
+Involves interactions between entities through an abstraction layer, which decouples the sender and receiver. This approach provides flexibility in system design, allowing for changes, migrations, and updates without direct dependencies between communicating parties.
 
 **Key Abstractions:**
 
@@ -28,6 +28,11 @@ Indirect communication in distributed systems involves interactions between enti
 
 A major form of indirect communication where publishers broadcast events without knowing who the subscribers will be. Subscribers express interest in events through filters, and the system ensures that events are delivered accordingly.
 
+
+
+![[Pasted image 20240509155551.png|350|350]]
+
+
 **Subscription Models:**
 
 1. **Channel-based:** Subscribers receive all messages sent to subscribed channels.
@@ -41,9 +46,15 @@ A major form of indirect communication where publishers broadcast events without
 - **Distributed Architecture:** Utilizes multiple brokers to manage the load, enhancing scalability and reliability.
 - **Peer-to-Peer Architecture:** Eliminates central brokers; every client can act as a broker, further reducing potential bottlenecks but increasing complexity.
 
+
+![[Pasted image 20240509155619.png|350|350]]
+
 ### Message Queues
 
 Message queues are a form of indirect communication where messages are stored in a queue and processed by consumers. They support both synchronous and asynchronous communication, ensuring reliable delivery but typically facilitating point-to-point rather than multiparty communication.
+
+
+![[Pasted image 20240509155840.png|400|400]]
 
 ### Distributed Shared Memory (DSM)
 
@@ -52,6 +63,9 @@ DSM provides an abstraction of shared memory over a distributed system, allowing
 ### Tuple Spaces
 
 Tuple spaces offer a flexible and powerful form of indirect communication by allowing tuples (sets of named items) to be written to and read from a shared space. Operations on tuple spaces are associative, meaning they are based on the content of the tuples rather than explicit addresses.
+
+
+![[Pasted image 20240509155920.png|300|300]]
 
 ### Challenges and Considerations
 

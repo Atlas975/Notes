@@ -25,12 +25,10 @@ ___
 
 - With [[Network_architecture|network]] infrastructure that supports multicast, bandwidth use is relatively constant regardless of number of recipients
 - This is due to data being replicated only when necessary such as network junctions
-
 ### Communication model structures
 - **Hierarchical:** Communication flows through a tiered structure.
 - **Peer-to-Peer:** Nodes interact directly without hierarchical order.
 - **Client-Server/Replicated Servers:** Central servers manage communication to multiple clients.
-
 ## Multicast reliability categories
 - **Best-effort**: unreliable multicast (eg live streaming)
 	- No delivery guarantee 
@@ -66,7 +64,7 @@ ___
 ![[Pasted image 20240509151523.png|350|350]]
 
 
-## Atomic multicast implementation 
+## Atomic multicast implementation
 - Ensures the highest level of message reliability across group communications and can be built on top of reliable multicast. This is often needed for [[Replication|replica]] consistency 
 - This allows for all other receivers to be updated even if the sender crashes mid-transmission
 
@@ -87,38 +85,12 @@ Reciever:
         discard m
 ```
 
-### Distributed commit 
+### Distributed commit
 - Allows for atomic commitment, if a transaction is sent either all non-faulty nodes commit it or they all must abort. This also happens if any node crashes 
 - This is typically done with a two phase commit (2PC)
 
 ![[Pasted image 20240509154901.png|300|300]]
 
 - If a  `yes` response isn't heard back from all nodes a `global abort` is sent to halt commit
+- The coordinator acts as a single point of failure, this can cause issues with receivers stalling if a crash happens mid-decision. Fault tolerance can be handled by writing to persistent [[Computer_memory|memory]]
 
-### Atomic Multicast and Distributed Commit
-
-Atomic multicast and distributed commit protocols ensure the highest level of message reliability across group communications:
-
-- **Atomic Multicast:** Either all or none of the recipients receive the message, ensuring consistency across distributed systems.
-- **Distributed Commit (e.g., Two-Phase Commit):** Ensures that all actions (e.g., database transactions) are either committed or aborted across all nodes, preventing partial updates.
-
-### Challenges and Considerations
-
-Implementing group communication involves addressing several challenges:
-
-- **Reliability:** How reliable does the communication need to be?
-- **Scalability:** Can the system handle large numbers of users or nodes?
-- **Ordering:** Are messages received in the order they were sent?
-- **Coordination:** How are actions coordinated among group members?
-
-### Practical Applications
-
-Group communication is essential in many real-world applications:
-
-- **Live Video Streaming:** One-to-many communication where the video stream is distributed to multiple viewers.
-- **Air Traffic Control and Multi-player Gaming:** Many-to-many communication where multiple nodes interact in real-time.
-- **Server Replication:** Ensures data consistency across replicated servers.
-
-### Conclusion
-
-Group communication systems must balance between complexity, efficiency, and reliability. The choice of the specific communication and reliability model depends on the application requirements and network environment.
