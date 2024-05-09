@@ -10,7 +10,8 @@
 
 ___
 # Indirect communication
-Involves interactions between entities through an abstraction layer, which decouples the sender and receiver. This approach provides flexibility in system design, allowing for changes, migrations, and updates without direct dependencies between communicating parties.
+- Involves interactions through an abstraction layer, decoupling the sender and receiver. 
+- This approach provides flexibility in system design, allowing for changes, migrations, and updates without direct dependencies between communicating parties.
 
 **Key Abstractions:**
 
@@ -21,8 +22,8 @@ Involves interactions between entities through an abstraction layer, which decou
 
 ### Coupling in Indirect Communication
 
-- **Space Uncoupling:** Senders and receivers do not need to know each other's identities.
-- **Time Uncoupling:** Senders and receivers do not need to exist simultaneously, which is particularly beneficial in dynamic environments where components frequently change.
+- **Space Uncoupling:** entities do not need to know each other's identities.
+- **Time Uncoupling:** entities do not need to exist simultaneously, useful when components change
 
 ### Publish-Subscribe Systems
 
