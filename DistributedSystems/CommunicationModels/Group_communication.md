@@ -42,17 +42,17 @@ ___
 	- All members receive a message or none of them does 
 	- Guarantees protection against faulty nodes 
 
-##  Implementing Reliable Multicast
+## Implementing Reliable Multicast
 - Messages are sent to each group member with an ACK awaited from each of them. If an ACK is not received within a set time, the message is resent.
 - Scalability issues arise due to potential "ACK explosion" where too many ACK's in a short time period can overwhelm the network.
 ### Negative acknowledgment (NACK)
 - Used to indicate missing messages, potentially reducing the number of return messages 
-- This also needs to make use of NACK suppression where duplicate requests are ignored
+- This makes use of sequence numbers to determine when a message is missing, requiring the sender to [[Caching|cache]] past messages for a long enough period for potential retransmission
 
 ![[Pasted image 20240509131534.png|400|400]]
 
-- This also makes use of sequence numbers to determine when a message is missing 
 - NACK's are only sent when a node notices it's sequence number is behind
+- Requires NACK suppression where a NACK is sent to al
 
 ### Advanced Techniques
 
