@@ -60,15 +60,27 @@ ___
 ![[Pasted image 20240509150305.png|350|350]]
 
 ### Hierarchical feedback control
-- Uses a hierarchical structure to manage message retransmissions and acknowledgments effectively.  A local coordinator handles retr
+- Uses a hierarchical structure allowing only coordinator nodes to communicate with the sender.  A local coordinator both forwards messages to children and handles retransmission
+- Subgroups are typically formed based on geography, this acts as load balancing for the sender 
 
 ![[Pasted image 20240509151523.png|350|350]]
-### Advanced Techniques
 
-- **Negative ACKs (NACKs):** Used to indicate missing messages, reducing the number of ACKs
-- **NACK Suppression:** Limits redundant NACKs by suppressing duplicate message requests 
-- **Hierarchical Feedback Control:** 
 
+## Atomic multicast
+- Ensures the highest level of message reliability across group communications and can be built on top of reliable multicast. This is often needed for [[Replication|replica]] consistency 
+
+```
+Sender: 
+    for each node in group:
+        reliable_multicast_send(msg, node)
+
+Reciever:
+    msg = recieve()
+    if msg not in seen
+        reliable_multicast_send(msg, node)
+        
+        
+```
 ### Atomic Multicast and Distributed Commit
 
 Atomic multicast and distributed commit protocols ensure the highest level of message reliability across group communications:
