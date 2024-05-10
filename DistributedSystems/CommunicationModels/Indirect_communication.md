@@ -29,23 +29,17 @@ ___
 - Indirect communication where publisher can publish an event e: `publish(e)` 
 - Subscribers express interest in events through filters f: `subscribe(f)`, this allows the broker to filter message delivery based only on subscribers 
 - Events are delivered in async `notify(e)` and publisher can optionally advertise `advertise(f)`
-
-
-
-![[Pasted image 20240509155551.png|350|350]]
-
-
 ### Subscription Models
 
-- **Channel-based:** subscribers receive all messages sent to subscribed channels.
--  **Topic-based:** Messages are classified into topics; with topic baed subscriptions.
--  **Type-based:** Subscriptions are based on the type of the events.
--  **Content-based:** Subscriptions are based on specific content within the messages, using a query language to specify interests.
+- **Channel-based:** subscribers receive all messages sent to named subscribed channels.
+-  **Topic-based:** messages are classified into topics; supports topic hierarchies (eg all sports topics)
+-  **Type-based:** subscriptions are defined with direct [[OOP_principles|programming objects]], supports hierarchies
+-  **Content-based:** [[SQL_language|query]] based approach to subscription based on message content , expensive to implement but offers good flexibility in filtering
 
-### Implementing Publish-Subscribe Systems
+### Publish-Subscribe architectures
 
-- **Centralised Architecture:** single broker handles all messages, which can become a bottleneck.
-- **Distributed Architecture:** multiple brokers manage the load, enhancing scalability and reliability.
+- **Centralised architecture:** single broker handles all messages, which can become a bottleneck.
+- **Distributed architecture:** multiple brokers manage the load, enhancing scalability and reliability.
 - **Peer-to-Peer Architecture:** no central brokers; every client can act as a broker, further reducing potential bottlenecks but increasing complexity.
 
 
