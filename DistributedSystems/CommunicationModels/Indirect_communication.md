@@ -20,14 +20,14 @@ ___
 - **Distributed Shared Memory (DSM):** Memory that appears as traditional shared memory but is distributed across multiple systems.
 - **Tuple Spaces:** An associative and temporal coordination model in which tuples are written to and read from a shared virtual space.
 
-### Coupling in Indirect Communication
+## Coupling in indirect communication
+- **Space Uncoupling:** entities do not need to know each other's identities (eg pubsub)
+- **Time Uncoupling:** entities do not need to exist simultaneously, allowing [[Concurrency|async]]
 
-- **Space Uncoupling:** entities do not need to know each other's identities.
-- **Time Uncoupling:** entities do not need to exist simultaneously, useful when components change
+## Publish-subscribe systems
 
-### Publish-Subscribe Systems
-
-A major form of indirect communication where publishers broadcast events without knowing who the subscribers will be. Subscribers express interest in events through filters, and the system ensures that events are delivered accordingly.
+- Indirect communication where publisher can publish an event e: `publish(e)` 
+- Subscribers express interest in events through filters f: `subscribe(f)`, and the system acts as a broker ensuring that events are delivered accordingly.
 
 
 
@@ -43,9 +43,9 @@ A major form of indirect communication where publishers broadcast events without
 
 ### Implementing Publish-Subscribe Systems
 
-- **Centralized Architecture:** Involves a single broker handling all messages, which can become a bottleneck.
-- **Distributed Architecture:** Utilizes multiple brokers to manage the load, enhancing scalability and reliability.
-- **Peer-to-Peer Architecture:** Eliminates central brokers; every client can act as a broker, further reducing potential bottlenecks but increasing complexity.
+- **Centralised Architecture:** single broker handles all messages, which can become a bottleneck.
+- **Distributed Architecture:** multiple brokers manage the load, enhancing scalability and reliability.
+- **Peer-to-Peer Architecture:** no central brokers; every client can act as a broker, further reducing potential bottlenecks but increasing complexity.
 
 
 ![[Pasted image 20240509155619.png|350|350]]
@@ -59,21 +59,20 @@ Message queues are a form of indirect communication where messages are stored in
 
 ### Distributed Shared Memory (DSM)
 
-DSM provides an abstraction of shared memory over a distributed system, allowing programs to interact with shared data as if it were local, hiding the complexities of distribution. It is used primarily in environments requiring tight coupling, like clustered computing.
+- DSM provides an abstraction of shared memory over a distributed system, allowing programs to interact with shared data as if it were local, hiding the complexities of distribution.
+- It is used primarily in environments requiring tight coupling, like clustered computing.
 
-### Tuple Spaces
+## Tuple Spaces
 
-Tuple spaces offer a flexible and powerful form of indirect communication by allowing tuples (sets of named items) to be written to and read from a shared space. Operations on tuple spaces are associative, meaning they are based on the content of the tuples rather than explicit addresses.
+- Offers flexible and powerful form of indirect communication by allowing tuples (sets of named items) to be written to and read from a shared space. 
+- Operations on tuple spaces are associative, meaning they are based on the content of the tuples rather than explicit addresses.
 
 
 ![[Pasted image 20240509155920.png|300|300]]
 
-### Challenges and Considerations
-
-Implementing indirect communication systems involves addressing several challenges:
-
-- **Efficiency:** Optimizing the routing of messages to ensure quick and efficient delivery.
-- **Scalability:** Ensuring the system can handle large numbers of users and high volumes of messages.
+## Indirect communication considerations
+- **Efficiency:** Optimising the routing of messages to ensure quick and efficient delivery.
+- **Scalability:** Ensuring the system can handle large numbers of users / high message load.
 - **Flexibility:** Allowing for changes in the network without significant disruption.
 
 ### Conclusion
