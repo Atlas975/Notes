@@ -15,8 +15,10 @@ ___
 
 
 ## Scaling strategies
-- **Scale up (vertical scaling):** Increasing the capacity of a single server.
-- **Scale out (horizontal scaling):** adding more servers, managed by a load balancer
+- **Scale up (vertical scaling):** Increasing the capacity of a single server. Useful when services are stateful to avoid needing coordination with a lock 
+- **Scale out (horizontal scaling):** adding more servers, managed by a load balancer. Ideal when theres a large disparity between process time and load balance time
+
+![[Pasted image 20240510143820.png|400|400]]
 
 ### When to Scale Out
 
