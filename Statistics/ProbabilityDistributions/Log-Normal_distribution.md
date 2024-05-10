@@ -27,7 +27,7 @@ $$P(X\leq x)=\phi\left( \frac{\ln(x)-\mu}{\sigma} \right)$$
 
 
 ## Expectation
-$$E(x)=\exp(\mu+\frac{\sigma^2}{2})e$$
+$$E(x)=\exp(\mu+\frac{\sigma^2}{2})$$
 
 ## Variance
 $$\text{Var}(x)=e^{2\cdot\mu+\sigma^2}(e^{\sigma^2}-1)$$
