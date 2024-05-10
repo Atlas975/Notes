@@ -203,6 +203,19 @@
             }
           },
           {
+            "id": "ffbeea9d1885e986",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/ProbabilityDistributions/Poisson_distribution.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4a16243d9c53b36b",
             "type": "leaf",
             "state": {
@@ -411,7 +424,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -479,7 +492,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Pareto_distribution.md"
+                "file": "Statistics/ProbabilityDistributions/Poisson_distribution.md"
               }
             }
           }
@@ -515,7 +528,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Pareto_distribution.md",
+                "file": "Statistics/ProbabilityDistributions/Poisson_distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -532,7 +545,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Pareto_distribution.md",
+                "file": "Statistics/ProbabilityDistributions/Poisson_distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -604,8 +617,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "238571c4805d9335",
+  "active": "ffbeea9d1885e986",
   "lastOpenFiles": [
+    "Statistics/ProbabilityDistributions/Pareto_distribution.md",
     "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
     "DistributedSystems/Replication/Passive_replication.md",
@@ -642,7 +656,6 @@
     "DistributedSystems/SystemStructure/Google_infrastructure.md",
     "DistributedSystems/SystemStructure/Cloud_computing.md",
     "DistributedSystems/SystemStructure/Blockchain.md",
-    "DistributedSystems/Consensus/Two_general_problem.md",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",
     "DistributedSystems/CommunicationModels",
