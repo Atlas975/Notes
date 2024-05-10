@@ -27,19 +27,20 @@ ___
 ## Publish-subscribe systems
 
 - Indirect communication where publisher can publish an event e: `publish(e)` 
-- Subscribers express interest in events through filters f: `subscribe(f)`, and the system acts as a broker ensuring that events are delivered accordingly.
+- Subscribers express interest in events through filters f: `subscribe(f)`, this allows the broker to filter message delivery based only on subscribers 
+- Events are delivered in async `notify(e)` and publisher can optionally advertise `advertise(f)`
 
 
 
 ![[Pasted image 20240509155551.png|350|350]]
 
 
-**Subscription Models:**
+### Subscription Models
 
-1. **Channel-based:** Subscribers receive all messages sent to subscribed channels.
-2. **Topic-based:** Messages are classified into topics; subscribers receive messages based on topic subscriptions.
-3. **Type-based:** Subscriptions are based on the type of the events.
-4. **Content-based:** Subscriptions are based on specific content within the messages, using a query language to specify interests.
+- **Channel-based:** subscribers receive all messages sent to subscribed channels.
+-  **Topic-based:** Messages are classified into topics; with topic baed subscriptions.
+-  **Type-based:** Subscriptions are based on the type of the events.
+-  **Content-based:** Subscriptions are based on specific content within the messages, using a query language to specify interests.
 
 ### Implementing Publish-Subscribe Systems
 

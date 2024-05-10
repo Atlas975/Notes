@@ -183,7 +183,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/CommunicationModels/Indirect_communication.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -528,12 +528,13 @@
   },
   "active": "114049e90361c363",
   "lastOpenFiles": [
+    "DistributedSystems/CommunicationModels/Group_communication.md",
+    "DistributedSystems/CommunicationModels/Indirect_communication.md",
     "XX-Attachments/Images/Pasted image 20240509155920.png",
     "XX-Attachments/Images/Pasted image 20240509155840.png",
     "XX-Attachments/Images/Pasted image 20240509155619.png",
     "XX-Attachments/Images/Pasted image 20240509155551.png",
     "XX-Attachments/Images/Pasted image 20240509155454.png",
-    "DistributedSystems/CommunicationModels/Group_communication.md",
     "XX-Attachments/Images/Pasted image 20240509154901.png",
     "XX-Attachments/Images/Pasted image 20240509151523.png",
     "DistributedSystems/Replication/Replication.md",
@@ -542,7 +543,6 @@
     "DistributedSystems/Replication/Active_replication.md",
     "DistributedSystems/Replication/Passive_replication.md",
     "XX-Attachments/Images/Pasted image 20240508200553.png",
-    "XX-Attachments/Images/Pasted image 20240508195304.png",
     "DistributedSystems/Replication",
     "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/Time_keeping.md",
