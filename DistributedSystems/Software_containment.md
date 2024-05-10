@@ -20,30 +20,14 @@ ___
 
 ![[Pasted image 20240510143820.png|400|400]]
 
-### When to Scale Out
 
-- Scaling out is preferable when the service time on individual servers becomes a bottleneck, making it advantageous to distribute the load across multiple servers.
-- Geographic scaling involves placing services closer to users to reduce latency and improve user experience.
 
-### Challenges with Stateful Services
-
-- Coordination between servers that maintain state can negate the benefits of scaling out due to the overhead of keeping state consistent across multiple instances.
-
-### Software Containment Technologies
-
+## Software containment technologies 
+- [[Virtualisation]] is used to offer software containi
 1. **Virtualization with Hypervisors (e.g., VMware, Hyper-V):** Full machine virtualization provides complete isolation by simulating hardware environments for virtual machines (VMs).
 2. **Containers (e.g., Docker, Kubernetes):** Lightweight virtualization that allows for running multiple isolated systems on a single host machine to maximize efficiency.
 
-### Comparison: VMs vs. Containers
 
-- **VMs:**
-    - Provide full isolation with separate OS environments.
-    - Higher resource consumption.
-    - Suitable for cross-platform compatibility and secure environments.
-- **Containers:**
-    - Share the host OS kernel but maintain isolated user spaces.
-    - Lower resource consumption.
-    - Ideal for applications that require rapid deployment and scaling.
 
 ### Practical Applications
 

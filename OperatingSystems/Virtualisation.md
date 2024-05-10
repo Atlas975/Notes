@@ -30,6 +30,15 @@ ___
 - **Type 2: user-space virtualisation**: no required support from underlying system eg virtualbox
 - **Containers / emulation**: takes existing OS and replicate its internal data structures to provide the appearance of running multiple OS's at once. Eg Docker, Kubernetes
 
+### Virtual machines vs containers
+- **Virtual machines:**
+    - Provide full isolation with separate OS environments.
+    - Higher resource consumption.
+    - Suitable for cross-platform compatibility and secure environments.
+- **Containers:**
+    - Share the host OS kernel but maintain isolated user spaces.
+    - Lower resource consumption.
+    - Ideal for applications that require rapid deployment and scaling.
 ## OS expectations
 - Even in a virtual environment each process expects:
 	- A known [[Operating_system_design#Boot process|boot process]]

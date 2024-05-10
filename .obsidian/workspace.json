@@ -196,7 +196,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/Software_containment.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -359,7 +359,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -427,7 +427,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md"
+                "file": "DistributedSystems/Software_containment.md"
               }
             }
           }
@@ -463,7 +463,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "DistributedSystems/Software_containment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -480,7 +480,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "DistributedSystems/Software_containment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -552,8 +552,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "16d9125412a8aa5b",
+  "active": "7f96be614fb0e7da",
   "lastOpenFiles": [
+    "OperatingSystems/Virtualisation.md",
     "DistributedSystems/Software_containment.md",
     "XX-Attachments/Images/Pasted image 20240510143820.png",
     "DistributedSystems/CommunicationModels/Indirect_communication.md",
@@ -590,7 +591,6 @@
     "DistributedSystems/Consensus/Two_general_problem.md",
     "DistributedSystems/Consensus/RAFT.md",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
-    "Statistics/Sampling_methods.md",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",
     "DistributedSystems/CommunicationModels",
