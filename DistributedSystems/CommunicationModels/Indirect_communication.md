@@ -64,18 +64,22 @@ upon receive publish(event e) from node x
     fwdlist := match(e, routing)
     send publish(e) to fwdlist - x
 
-
 upon receive subscribe(subscription s) from node x
     if x is client then
-    add x to subscriptions
+        add x to subscriptions
     else
-    add(x, s) to routing
+        add(x, s) to routing
     send subscribe(s) to neighbours - x
 ```
 
+- Rendezvous nodes may also be used to create multiple subnets with their own broker, this is highly scalable typically making use of a distributed [[Hash_tables|hash table]]
+- This requires two new function 
+	- `SN(s)`: takes a sub s and returns nodes that can take responsibility for it 
+	- `EN(e)`: takes event e and returns nodes for matching e against subs in the system
 ### Message Queues
 
-Message queues are a form of indirect communication where messages are stored in a queue and processed by consumers. They support both synchronous and asynchronous communication, ensuring reliable delivery but typically facilitating point-to-point rather than multiparty communication.
+- An indirect communication approach where messages are stored in a queue and processed by consumers. They support both synchronous and asynchronous communication. 
+- This ensures reliable delivery but typically facilitates point-to-point rather than multiparty communication. Message delivery is reliable 
 
 
 ![[Pasted image 20240509155840.png|400|400]]
