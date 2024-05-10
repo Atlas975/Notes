@@ -151,6 +151,19 @@
             }
           },
           {
+            "id": "83e770912adfb631",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DistributedSystems/Replication/Passive_replication.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4a16243d9c53b36b",
             "type": "leaf",
             "state": {
@@ -359,7 +372,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -427,7 +440,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/Cryptography.md"
+                "file": "DistributedSystems/Replication/Passive_replication.md"
               }
             }
           }
@@ -463,7 +476,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/Cryptography.md",
+                "file": "DistributedSystems/Replication/Passive_replication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -480,7 +493,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/Cryptography.md",
+                "file": "DistributedSystems/Replication/Passive_replication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -552,8 +565,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "376ec22e8db28de0",
+  "active": "83e770912adfb631",
   "lastOpenFiles": [
+    "Cybersecurity/Cryptography.md",
     "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/Software_containment.md",
     "OperatingSystems/Virtualisation.md",
@@ -575,7 +589,6 @@
     "DistributedSystems/Replication",
     "DistributedSystems/Time_keeping.md",
     "DistributedSystems/Distributed_systems.md",
-    "Cybersecurity/Cryptography.md",
     "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
     "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
     "Cybersecurity/EncryptionSchemes/Advanced_encryption_standard.md",
