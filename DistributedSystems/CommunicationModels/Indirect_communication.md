@@ -12,6 +12,10 @@ ___
 # Indirect communication
 - Involves interactions through an abstraction layer, decoupling the sender and receiver. 
 - This approach provides flexibility in system design, allowing for changes, migrations, and updates without direct dependencies between communicating parties.
+- Two main styles of uncoupling exist in indirect communication 
+	- **Space Uncoupling:** entities do not need to know each other's identities (eg pubsub)
+	- **Time Uncoupling:** entities do not need to exist simultaneously, allowing [[Concurrency|async]]
+
 
 **Key Abstractions:**
 
@@ -20,9 +24,7 @@ ___
 - **Distributed Shared Memory (DSM):** Memory that appears as traditional shared memory but is distributed across multiple systems.
 - **Tuple Spaces:** An associative and temporal coordination model in which tuples are written to and read from a shared virtual space.
 
-## Coupling in indirect communication
-- **Space Uncoupling:** entities do not need to know each other's identities (eg pubsub)
-- **Time Uncoupling:** entities do not need to exist simultaneously, allowing [[Concurrency|async]]
+
 
 ## Publish-subscribe systems
 
@@ -34,7 +36,7 @@ ___
 - **Channel-based:** subscribers receive all messages sent to named subscribed channels.
 -  **Topic-based:** messages are classified into topics; supports topic hierarchies (eg all sports topics)
 -  **Type-based:** subscriptions are defined with direct [[OOP_principles|programming objects]], supports hierarchies
--  **Content-based:** [[SQL_language|query]] based approach to subscription based on message content , expensive to implement but offers good flexibility in filtering
+-  **Content-based:** [[SQL_language|query]] based approach to subscription based on message content , expensive to implement due to runtime lookups but offers good flexibility in filtering
 
 ### Publish-Subscribe architectures
 
@@ -44,6 +46,32 @@ ___
 
 
 ![[Pasted image 20240509155619.png|350|350]]
+
+### Message flooding
+- Describes the nodes at which messages are filtered, 
+- This can be done with every publisher flooding subscribers and having these subscribers filter based on subscriptions but this is inefficient 
+
+
+![[Pasted image 20240510131240.png|350|350]]
+
+- The more efficient option is typically to flood the publisher side and handle filtering there
+- For more efficiency this can be done in the broker network, only forwarding messages down paths where a valid subscriber exists. This requires a [[Routing_methods|routing table]]
+
+```
+upon receive publish(event e) from node x
+    matchlist := match(e, subscriptions)
+    send notify(e) to matchlist
+    fwdlist := match(e, routing)
+    send publish(e) to fwdlist - x
+
+
+upon receive subscribe(subscription s) from node x
+    if x is client then
+    add x to subscriptions
+    else
+    add(x, s) to routing
+    send subscribe(s) to neighbours - x
+```
 
 ### Message Queues
 
