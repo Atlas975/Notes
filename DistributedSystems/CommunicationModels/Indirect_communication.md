@@ -16,16 +16,7 @@ ___
 	- **Space Uncoupling:** entities do not need to know each other's identities (eg pubsub)
 	- **Time Uncoupling:** entities do not need to exist simultaneously, allowing [[Concurrency|async]]
 
-
-**Key Abstractions:**
-
-- **Event-based Systems:** Such as publish-subscribe models.
-- **Message Queues:** Where messages are stored and retrieved from a queue.
-- **Distributed Shared Memory (DSM):** Memory that appears as traditional shared memory but is distributed across multiple systems.
-- **Tuple Spaces:** An associative and temporal coordination model in which tuples are written to and read from a shared virtual space.
-
-
-
+![[Pasted image 20240510142456.png|400|400]]
 ## Publish-subscribe systems
 
 - Indirect communication where publisher can publish an event e: `publish(e)` 
@@ -76,7 +67,7 @@ upon receive subscribe(subscription s) from node x
 - This requires two new function 
 	- `SN(s)`: takes a sub s and returns nodes that can take responsibility for it 
 	- `EN(e)`: takes event e and returns nodes for matching e against subs in the system
-### Message Queues
+## Message Queues
 
 - An indirect communication approach where messages are stored in a queue and processed by consumers. They support both synchronous and asynchronous communication. 
 - This ensures reliable delivery but typically facilitates point-to-point rather than multiparty communication. Message delivery is reliable 
@@ -84,11 +75,12 @@ upon receive subscribe(subscription s) from node x
 
 ![[Pasted image 20240509155840.png|400|400]]
 
-### Distributed Shared Memory (DSM)
+## Distributed Shared Memory (DSM)
 
 - DSM provides an abstraction of shared memory over a distributed system, allowing programs to interact with shared data as if it were local, hiding the complexities of distribution.
-- It is used primarily in environments requiring tight coupling, like clustered computing.
+- It is used primarily in environments requiring tight coupling, like clustered computing. A [[Page_replacement|page fault]] like system is used if data is not available locally
 
+![[Pasted image 20240510142248.png|350|350]]
 ## Tuple Spaces
 
 - Offers flexible and powerful form of indirect communication by allowing tuples (sets of named items) to be written to and read from a shared space. 
@@ -97,11 +89,10 @@ upon receive subscribe(subscription s) from node x
 
 ![[Pasted image 20240509155920.png|300|300]]
 
+- Both read and take operations are based on pattern matching (associative access)
+- Tuples themselves are immutable and can only be consumed using a take operation
 ## Indirect communication considerations
 - **Efficiency:** Optimising the routing of messages to ensure quick and efficient delivery.
 - **Scalability:** Ensuring the system can handle large numbers of users / high message load.
 - **Flexibility:** Allowing for changes in the network without significant disruption.
 
-### Conclusion
-
-Indirect communication systems like publish-subscribe systems, message queues, and tuple spaces provide powerful paradigms for flexible and efficient communication in distributed systems. They are particularly valuable in environments where participants are loosely coupled and can dynamically change.

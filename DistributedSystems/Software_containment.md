@@ -9,19 +9,14 @@
 > ```
 
 ___
-# Software confinement
-Software containment involves encapsulating a software system and its dependencies within a single virtual unit. This technique is crucial in modern distributed systems for managing dependencies, enabling cross-platform development, and facilitating cloud scaling and co-location.
+# Software containment
+- Involves encapsulating a software system and its dependencies within a single virtual unit, helping manage the complexity of multiple software environments
+- This is crucial in modern distributed systems for managing dependencies, enabling cross-platform development, and facilitating cloud scaling and co-location.
 
-### Motivations for Software Containment
 
-1. **Scaling Services:** As demand increases, services need to scale for enhanced performance, availability, and fault tolerance.
-2. **Cloud Computing:** Utilizing third-party, often untrusted, hardware to deploy services widely, emphasizing the need for effective software containment to manage multi-tenancy and resource allocation.
-3. **Dependency Management:** Packaging software with all its dependencies into one unit simplifies deployment and reduces compatibility issues.
-
-### Scaling Strategies
-
-- **Scale Up (Vertical Scaling):** Increasing the capacity of a single server.
-- **Scale Out (Horizontal Scaling):** Adding more servers to handle increased load, often managed through a load balancer.
+## Scaling strategies
+- **Scale up (vertical scaling):** Increasing the capacity of a single server.
+- **Scale out (horizontal scaling):** adding more servers, managed by a load balancer
 
 ### When to Scale Out
 
