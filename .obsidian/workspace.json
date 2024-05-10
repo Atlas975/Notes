@@ -208,7 +208,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md",
+                "file": "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -424,7 +424,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -492,7 +492,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md"
+                "file": "Statistics/ProbabilityDistributions/Pareto_distribution.md"
               }
             }
           }
@@ -528,7 +528,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md",
+                "file": "Statistics/ProbabilityDistributions/Pareto_distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -545,7 +545,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md",
+                "file": "Statistics/ProbabilityDistributions/Pareto_distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -617,14 +617,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ffbeea9d1885e986",
+  "active": "238571c4805d9335",
   "lastOpenFiles": [
-    "Statistics/ProbabilityDistributions/Poisson_distribution.md",
-    "Statistics/ProbabilityDistributions/Probability_distributions.md",
-    "Statistics/ProbabilityDistributions/Triangular_distribution.md",
-    "Statistics/ProbabilityDistributions/PERT_distribution.md",
-    "Statistics/ProbabilityDistributions/Pareto_distribution.md",
     "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
+    "Statistics/ProbabilityDistributions/Pareto_distribution.md",
+    "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
+    "Statistics/ProbabilityDistributions/Triangular_distribution.md",
+    "Statistics/ProbabilityDistributions/Probability_distributions.md",
+    "Statistics/ProbabilityDistributions/Poisson_distribution.md",
+    "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
     "DistributedSystems/Replication/Passive_replication.md",
     "Cybersecurity/Cryptography.md",
@@ -655,7 +656,6 @@
     "Cybersecurity/RiskManagement/Security_principles.md",
     "Cybersecurity/Keys.md",
     "Cybersecurity/Network_security.md",
-    "Cybersecurity/Operating_system_security.md",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",
     "DistributedSystems/CommunicationModels",
