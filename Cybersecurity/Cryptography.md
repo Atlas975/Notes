@@ -47,3 +47,7 @@ $$D_{k}:C\to P,k\in K$$
 - This is typically done using public key cryptography 
 
 ![[Pasted image 20240508132517.png|450|450]]
+
+
+$$\text{Sign}(\text{Message},\text{PrivateKey})=\text{Signature}$$
+$$\text{Verify}(\text{Message},\text{Signiture},\text{PublicKey})=\text{True}/\text{False}$$

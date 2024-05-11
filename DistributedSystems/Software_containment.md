@@ -40,11 +40,3 @@ ___
 - The hypervisor in this case directly communicates with hardware using it's own kernel and manages the allocation of memory
 
 ![[Pasted image 20240511143312.png|400|400]]
-### Practical Applications
-
-- **Cloud Scaling:** Both VMs and containers are foundational to cloud services, enabling flexible resource management and rapid scaling.
-- **Multi-Tenancy Management:** Isolation features of VMs and containers help manage resources among multiple tenants securely and efficiently.
-
-### Conclusion
-
-Software containment is essential in distributed systems for enhancing scalability, managing dependencies, and supporting multi-tenant architectures. Technologies like VMs and containers provide the tools necessary to deploy and manage applications across diverse environments effectively.

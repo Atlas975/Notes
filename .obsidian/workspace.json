@@ -554,7 +554,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -622,7 +622,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Software_containment.md"
+                "file": "DistributedSystems/SystemStructure/Blockchain.md"
               }
             }
           }
@@ -658,7 +658,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Software_containment.md",
+                "file": "DistributedSystems/SystemStructure/Blockchain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -675,7 +675,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Software_containment.md",
+                "file": "DistributedSystems/SystemStructure/Blockchain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -747,9 +747,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0819636ca346b0ab",
+  "active": "f0e9b127c42a1353",
   "lastOpenFiles": [
+    "Cybersecurity/Cryptography.md",
     "DistributedSystems/SystemStructure/Blockchain.md",
+    "DistributedSystems/Software_containment.md",
     "XX-Attachments/Images/Pasted image 20240511184018.png",
     "DistributedSystems/Distributed_system_security.md",
     "Cybersecurity/RiskManagement/Access_controls.md",
@@ -778,7 +780,6 @@
     "SoftwareDesign/Finite_state_machines.md",
     "Languages&Compilation/FiniteAutomata/Regular_expression_FSM.md",
     "Languages&Compilation/FiniteAutomata/Finite_state_transducer.md",
-    "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md",
     "XX-Attachments/Images/Pasted image 20240511144551.png",
     "XX-Attachments/Images/Pasted image 20240511143844.png",
     "XX-Attachments/Images/Pasted image 20240511143312.png",
