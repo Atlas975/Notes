@@ -32,16 +32,20 @@ ___
 2. **Neighbour selection**: the peer selects k neighbours to share information with
 3. **Message propagation**: peer sends information to k neighbours
 4. **Iterative nature**: each peer receiving the message propagates it to it's own k neighbours, peers discard duplicate messages received. This can be optimised by asking before sending. 
+## Block consensus
+- Classic consensus protocols such as [[Practical_Byzantine_fault_tolerance|PBFT]] cannot be used for block consensus as all participants in this context are not known beforehand (open participant setting)
+- Blockchain systems are also vulnerable to ==sybil attacks== where a peer creates multiple identities 
 
+### Proof of work (PoW)
+- Involves nodes competing to solve complex mathematical problems, and the first to solve broadcasts the new block to the network.
+- Helps prevent Sybil attacks and is 
 
-## 
+## Transactions
+- Bitcoin is a common example of a transaction based blockchain, a coin in this system is a chain of digital signatures. Anyone can follow transaction history and verify transactions 
 ## Blockchain Operations
 - **Creating Blocks:** Nodes gather new transactions into blocks.
 - **Validating Transactions:** Nodes must reach consensus on the transactions to be included in the blockchain to prevent issues like double-spending.
 
-### Proof of work (PoW)
-- Involves nodes competing to solve complex mathematical problems, and the first to solve broadcasts the new block to the network.
-- PoW helps prevent Sybil attacks, where a user masquerades as many identities to flood the network.
 
 ### Challenges in Blockchain
 
