@@ -18,14 +18,16 @@ ___
 
 ![[Pasted image 20240510143820.png|400|400]]
 
-
 ## Containment choices
-- [[Virtualisation]]: full machine virtualisation using a hypervisor, provides complete isolation by simulating hardware environments for virtual machines (VMs).
+- [[Virtualisation]]: full machine virtualisation using a hypervisor, provides complete isolation by simulating hardware environments. Guest Os is not aware that it's a VM
 - [[Virtualisation#Types of virtualisation|Containers]]: lightweight virtualisation that allows for running multiple isolated systems on a single host machine to maximise efficiency.
 ## Dual-mode operation
-- Allows [[Operating_system_design|OS]] to protect itself from other system components by featuring both a user mode and kernel mode. Some instructions are priviled and only executable in kernel mode
+- Allows [[Operating_system_design|OS]] to protect itself from other system components by featuring both a user mode and kernel mode. Some instructions are prevailed and only executable in kernel mode
+- This is controlled via a mode bit provided by hardware, a [[Input&Output_systems|system call]] flips this to kernel mode and a return from said system call resets this to user mod
 
+![[Pasted image 20240511140251.png|400|400]]
 
+- The use of this allows for proper management of shared hardware resources, these resources should be fully utilised as long as there's work to do 
 
 ### Practical Applications
 
