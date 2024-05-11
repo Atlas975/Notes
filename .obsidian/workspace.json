@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Blockchain.md",
+                "file": "DistributedSystems/SystemStructure/Cloud_computing.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -261,7 +261,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/SystemStructure/Blockchain.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -554,7 +554,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -622,7 +622,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Blockchain.md"
+                "file": "DistributedSystems/Software_containment.md"
               }
             }
           }
@@ -658,7 +658,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Blockchain.md",
+                "file": "DistributedSystems/Software_containment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -675,7 +675,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Blockchain.md",
+                "file": "DistributedSystems/Software_containment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -747,10 +747,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f0e9b127c42a1353",
+  "active": "0819636ca346b0ab",
   "lastOpenFiles": [
-    "Cybersecurity/Cryptography.md",
     "DistributedSystems/SystemStructure/Blockchain.md",
+    "XX-Attachments/Images/Pasted image 20240511195630.png",
+    "DistributedSystems/SystemStructure/Cloud_computing.md",
+    "XX-Attachments/Images/Pasted image 20240511195253.png",
+    "XX-Attachments/Images/Pasted image 20240511194907.png",
+    "Cybersecurity/Cryptography.md",
     "DistributedSystems/Software_containment.md",
     "XX-Attachments/Images/Pasted image 20240511184018.png",
     "DistributedSystems/Distributed_system_security.md",
@@ -778,13 +782,8 @@
     "Languages&Compilation/Grammars/Regular_grammars.md",
     "Languages&Compilation/Grammars/Formal_languages.md",
     "SoftwareDesign/Finite_state_machines.md",
-    "Languages&Compilation/FiniteAutomata/Regular_expression_FSM.md",
-    "Languages&Compilation/FiniteAutomata/Finite_state_transducer.md",
     "XX-Attachments/Images/Pasted image 20240511144551.png",
     "XX-Attachments/Images/Pasted image 20240511143844.png",
-    "XX-Attachments/Images/Pasted image 20240511143312.png",
-    "XX-Attachments/Images/Pasted image 20240511143112.png",
-    "XX-Attachments/Images/Pasted image 20240511140251.png",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",

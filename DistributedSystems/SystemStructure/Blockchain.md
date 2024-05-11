@@ -35,16 +35,20 @@ ___
 ## Block consensus
 - Classic consensus protocols such as [[Practical_Byzantine_fault_tolerance|PBFT]] cannot be used for block consensus as all participants in this context are not known beforehand (open participant setting)
 - Blockchain systems are also vulnerable to ==sybil attacks== where a peer creates multiple identities 
-
 ### Proof of work (PoW)
-- Involves nodes competing to solve complex mathematical problems, and the first to solve broadcasts the new block to the network.
-- Helps prevent Sybil attacks and is 
+- Involves nodes competing to solve complex mathematical problems, and the first to solve broadcasts the new block to the network. This also involves validating user transactions
+- Helps prevent Sybil attacks but is computationally expensive, leading to high energy consumption and environmental concerns.
 
+![[Pasted image 20240511195630.png|400|400]]
+
+- This is done with a brute force attack but the result is easy to verify 
+- 
 ## Transactions
 - Bitcoin is a common example of a transaction based blockchain, a coin in this system is a chain of digital signatures. Anyone can follow transaction history and verify transactions 
-## Blockchain Operations
-- **Creating Blocks:** Nodes gather new transactions into blocks.
-- **Validating Transactions:** Nodes must reach consensus on the transactions to be included in the blockchain to prevent issues like double-spending.
+- Nodes must reach consensus on the transactions to be included in the blockchain to prevent issues like double-spending.
+
+
+![[Pasted image 20240511194907.png|250|250]]
 
 
 ### Challenges in Blockchain
