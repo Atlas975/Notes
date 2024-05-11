@@ -19,4 +19,4 @@ ___
 
 ## CAP compromise 
 - In a distributed system, partition is inevitable so consistency / availability must be given up for the sake of scaling. Eventual consistency is a common compromise 
-- This can be partially avoided via the [[Proxy_pattern|proxy pattern]] which is able to mask out the access protocol introducing distribution transparency 
+- This can be partially avoided via the [[Proxy_pattern|proxy pattern]] to serve task such as routing, caching, and load balancing. 

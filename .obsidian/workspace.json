@@ -118,7 +118,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/SystemStructure/Blockchain.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -260,8 +260,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
-                "mode": "preview",
+                "file": "DistributedSystems/SystemStructure/Blockchain.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -456,7 +456,7 @@
               "type": "markdown",
               "state": {
                 "file": "Cybersecurity/RiskManagement/Access_controls.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -554,7 +554,7 @@
             }
           }
         ],
-        "currentTab": 19
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -622,7 +622,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md"
+                "file": "DistributedSystems/Software_containment.md"
               }
             }
           }
@@ -630,7 +630,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -657,7 +658,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
+                "file": "DistributedSystems/Software_containment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -674,7 +675,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
+                "file": "DistributedSystems/Software_containment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -746,12 +747,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ba542f19ecd4a346",
+  "active": "0819636ca346b0ab",
   "lastOpenFiles": [
+    "DistributedSystems/SystemStructure/Blockchain.md",
+    "XX-Attachments/Images/Pasted image 20240511184018.png",
+    "DistributedSystems/Distributed_system_security.md",
+    "Cybersecurity/RiskManagement/Access_controls.md",
+    "OperatingSystems/Operating_system_design.md",
     "DistributedSystems/SystemStructure/Google_infrastructure.md",
+    "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
     "DistributedSystems/SystemStructure/Distributed_system_design.md",
     "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
-    "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
     "XX-Attachments/Images/Pasted image 20240511175803.png",
     "XX-Attachments/Images/Pasted image 20240511175614.png",
     "XX-Attachments/Images/Pasted image 20240511175420.png",
@@ -773,17 +779,11 @@
     "Languages&Compilation/FiniteAutomata/Regular_expression_FSM.md",
     "Languages&Compilation/FiniteAutomata/Finite_state_transducer.md",
     "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md",
-    "Languages&Compilation/Computability/TuringMachines/Halting_problem.md",
-    "Languages&Compilation/Computability/TuringMachines/Universal_Turing_machines.md",
-    "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
-    "Languages&Compilation/CompilerConstruction/Synthesis/Language_translator.md",
-    "Languages&Compilation/Parsing/First_sets.md",
     "XX-Attachments/Images/Pasted image 20240511144551.png",
     "XX-Attachments/Images/Pasted image 20240511143844.png",
     "XX-Attachments/Images/Pasted image 20240511143312.png",
     "XX-Attachments/Images/Pasted image 20240511143112.png",
     "XX-Attachments/Images/Pasted image 20240511140251.png",
-    "XX-Attachments/Images/Pasted image 20240510143820.png",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",
