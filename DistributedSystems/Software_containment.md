@@ -14,15 +14,16 @@ ___
 - This is crucial in modern distributed systems for managing dependencies, enabling cross-platform development, and facilitating cloud scaling and co-location.
 ## Scaling strategies
 - **Scale up (vertical scaling):** Increasing the capacity of a single server. Useful when services are stateful to avoid needing coordination with a lock 
-- **Scale out (horizontal scaling):** adding more servers, managed by a load balancer. Ideal when theres a large disparity between process time and load balance time
+- **Scale out (horizontal scaling):** adding more servers, managed by a load balancer. Ideal when there's a large disparity between process time and load balance time
 
 ![[Pasted image 20240510143820.png|400|400]]
 
 
-## Software containment technologies 
-- [[Virtualisation]] is used to offer software containi
-1. **Virtualization with Hypervisors (e.g., VMware, Hyper-V):** Full machine virtualization provides complete isolation by simulating hardware environments for virtual machines (VMs).
-2. **Containers (e.g., Docker, Kubernetes):** Lightweight virtualization that allows for running multiple isolated systems on a single host machine to maximize efficiency.
+## Containment choices
+- [[Virtualisation]]: full machine virtualisation using a hypervisor, provides complete isolation by simulating hardware environments for virtual machines (VMs).
+- [[Virtualisation#Types of virtualisation|Containers]]: lightweight virtualisation that allows for running multiple isolated systems on a single host machine to maximise efficiency.
+## Dual-mode operation
+- Allows [[Operating_system_design|OS]] to protect itself from other system components by featuring both a user mode and kernel mode. Some instructions are priviled and only executable in kernel mode
 
 
 

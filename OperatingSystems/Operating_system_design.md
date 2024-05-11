@@ -74,66 +74,8 @@ ___
 - Common variants include bash, tcsh, dash, csh,  and zsh
 - The shell is an interactive command language, scripting language and is used by the operating system to control the system via shell scripts
 
-# OS design types
 
-## Operating system classes
-- Operating systems will fall into different classes based on unique use cases 
-### Embedded / real-time
-- Emphasis on long term reliability, lightweight with only essential software and a certification process for safety critical systems 
-- Preferred on devices with limited resources 
-### Server
-- Emphasis on shared resources and reliability 
-- Preferred on powerful hardware with vast resources & users to manage
-### Desktop
-- Emphasis on interactivity and GUI / media 
-- Preferred for usability 
-
-## Monolithic
-- Traditional approach, at most two protection levels
-- Applications can directly interact with the kernel, no separation. Kernel acts as gatekeeper
-- Complete OS runs in kernel space 
-- Efficient call structure but difficult to maintain or impose security.
-
-![[Pasted image 20221124232251.png|400]]
-
-## Layered design
-- Tighter security as move away from hardware
-- Performance penalty for higher layers
-
-![[Pasted image 20221124232614.png|350]]
-
-- Kernel space lies in centre ring (ring 0), applications run in ring 3
-- Only ring 0 is allowed to configure [[Paging|page tables]] etc
-## Microkernel
-- Small kernel, most systems run as applications on the user space
-- Very secure, minimal code with system privileges 
-- Limited impact if a system fails, can simply restart without corruption
-- Extensible and minimal dependencies 
-
-![[Pasted image 20221124232822.png|350|350]]
-- Data transferred through inefficient message passing instead of memory references 
-- Also well suited for distributed systems as messages can easily be passed over a network
-## Monolithic vs Microkernel
-- The more running in user space, the less goes wrong in the event of failure 
-- Generally, moving away from monolithic means more security, moving towards microkernel means less efficiency 
-
-![[Pasted image 20221124233234.png|600|600]]
-
-## Modular
-- Kernel has set of extensible modules that can be dynamically loaded
-- Components use a strict API  and are only loaded as needed
-- Not limited to microkernal style message passing [[OOP_principles]]
-
-![[Pasted image 20221124234106.png|400]]
-
-## Library OS / Uni-Kernels
-- Applications carry most of the functionality typically part of the kernel 
-- Kernel configures security at lowest level 
-- Typically used in networking, libraries provides all other functionality.
-
-![[Pasted image 20221124234735.png|400]]
-
-# System processes
+## System processes
 - A running instance of a program invoked by exec()
 - [[Concurrency#Threads|Threads]] are a flow of execution within a process
 - Threads are more efficient as they don't have the baggage of needing hardware info, permissions, etc.
@@ -151,7 +93,7 @@ ___
 
 ![[Pasted image 20221125110337.png|350|350]]
 
-## Process hierarchy
+### Process hierarchy
 - Processes can spawn child processes 
 - Limit is imposed by system both system (for system stability) and per process (for fairness)
 
@@ -166,20 +108,20 @@ ___
 
 ![[Pasted image 20221125111147.png|450|450]]
 
-# System calls
+## System calls
 - System calls act as a standard interface and access control mechanism to OS / kernel  functions
 - User programs cannot directly communicate with most hardware, unrestricted access would allow a program to read/write anything. 
 - **fread** for example is a higher level application that calls the standard read function 
 - System calls work by loading passed in parameters in registers and then invoking an **interrupt** that acts as a trigger to call the kernel.
 - [[Input&Output_systems#Interrupts|Interrupts]] tell the kernel a system call was made
 
-# Clocks and timers
+## Clocks and timers
 - **Real time clock (RTC)**: returns encoding of current date 
 - **Programmable interrupt timer**: creates periodic events at set / configurable level, used to invoke periodic tasks within the kernel 
-## Frequency problems
+### Frequency problems
 - Low frequency can make the kernel seem unresponsive 
 - High frequency can make the OS spend too much overhead managing timers
-## Dynamic interval timers
+### Dynamic interval timers
 - Creates event queue with a timer that's configured to fire when the next task is due rather than in fixed periods that have been set
 - Governed by shortest gap between events that need to be managed  
 

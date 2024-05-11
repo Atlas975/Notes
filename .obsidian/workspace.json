@@ -216,6 +216,32 @@
             }
           },
           {
+            "id": "24c40bdabe06cae0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/Operating_system_design.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cb794e68666a3b74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/Operating_system_classes.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ffbeea9d1885e986",
             "type": "leaf",
             "state": {
@@ -437,7 +463,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -505,7 +531,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Software_containment.md"
+                "file": "OperatingSystems/Operating_system_design.md"
               }
             }
           }
@@ -541,7 +567,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Software_containment.md",
+                "file": "OperatingSystems/Operating_system_design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -558,7 +584,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Software_containment.md",
+                "file": "OperatingSystems/Operating_system_design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -630,8 +656,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0819636ca346b0ab",
+  "active": "24c40bdabe06cae0",
   "lastOpenFiles": [
+    "DistributedSystems/Software_containment.md",
+    "OperatingSystems/Operating_system_classes.md",
+    "OperatingSystems/Operating_system_design.md",
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "Statistics/ProbabilityDistributions/Triangular_distribution.md",
     "Statistics/ProbabilityDistributions/Pareto_distribution.md",
@@ -643,7 +672,6 @@
     "DistributedSystems/Replication/Passive_replication.md",
     "Cybersecurity/Cryptography.md",
     "DistributedSystems/Distributed_system_security.md",
-    "DistributedSystems/Software_containment.md",
     "OperatingSystems/Virtualisation.md",
     "XX-Attachments/Images/Pasted image 20240510143820.png",
     "DistributedSystems/CommunicationModels/Indirect_communication.md",
@@ -667,8 +695,6 @@
     "Cybersecurity/EncryptionSchemes/Advanced_encryption_standard.md",
     "Cybersecurity/Hashing.md",
     "Cybersecurity/RiskManagement/Security_principles.md",
-    "Cybersecurity/Keys.md",
-    "Cybersecurity/Network_security.md",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",
     "DistributedSystems/CommunicationModels",
