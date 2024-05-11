@@ -79,7 +79,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/Replication/Replication.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Replication/Passive_replication.md",
+                "file": "DistributedSystems/Consensus/Byzantine_generals_problem.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -580,7 +580,7 @@
             }
           }
         ],
-        "currentTab": 23
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -648,7 +648,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Fault_tolerence.md"
+                "file": "DistributedSystems/Replication/Replication.md"
               }
             }
           }
@@ -656,7 +656,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -683,7 +684,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Fault_tolerence.md",
+                "file": "DistributedSystems/Replication/Replication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -700,7 +701,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Fault_tolerence.md",
+                "file": "DistributedSystems/Replication/Replication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -772,8 +773,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8ecd2cef7abd6ddc",
+  "active": "315660b3dfbd3ae9",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240512005312.png",
+    "DistributedSystems/Replication/Active_replication.md",
+    "DistributedSystems/Consensus/Byzantine_generals_problem.md",
+    "DistributedSystems/Replication/Passive_replication.md",
+    "XX-Attachments/Images/Pasted image 20240512004713.png",
+    "XX-Attachments/Images/Pasted image 20240512004216.png",
+    "DistributedSystems/Fault_tolerence.md",
     "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
@@ -800,16 +808,9 @@
     "Cybersecurity/Cryptography.md",
     "XX-Attachments/Images/Pasted image 20240511184018.png",
     "DistributedSystems/Distributed_system_security.md",
-    "Cybersecurity/RiskManagement/Access_controls.md",
-    "OperatingSystems/Operating_system_design.md",
-    "DistributedSystems/SystemStructure/Google_infrastructure.md",
-    "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
-    "DistributedSystems/SystemStructure/Distributed_system_design.md",
     "XX-Attachments/Images/Pasted image 20240511175803.png",
     "XX-Attachments/Images/Pasted image 20240511175614.png",
     "XX-Attachments/Images/Pasted image 20240511175420.png",
-    "XX-Attachments/Images/Pasted image 20240511175013.png",
-    "XX-Attachments/Images/Pasted image 20240511144551.png",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",

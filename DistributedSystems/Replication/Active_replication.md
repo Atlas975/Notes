@@ -15,5 +15,10 @@ ___
 
 ![[Pasted image 20240508200553.png|450|450]]
 
-- Maintaining multiple active replicas can be resource-intensive as each replica needs to process all requests and participate in synchronization mechanisms
 - Ensures strong consistency across replicas but increases the complexity of  coordinating state, often requiring sophisticated consensus algorithms
+- Unlike [[Passive_replication|passive replication]] that only handles crash failures, active replication is also able to handle potential [[Byzantine_generals_problem|Byzantine failures]]
+
+## State consistency 
+- The frontend checks for agreement between replicas on response value 
+- This can be used alongside consensus algorithms to combat faulty nodes
+- 

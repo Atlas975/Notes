@@ -21,7 +21,8 @@ ___
 - **Fault:** The root cause of an error or failure in the system.
 
 ### Types of Faults
-- **Omission:** Expected response or event does not occur.
+- From easiest to hardest to detect:
+- **Omission:** Expected response or event does not occur. 
 - **Crash:** System stops responding entirely.
 - **Timing:** Response arrives outside the expected timeframe.
 - **Byzantine:** Responses are erroneous, unpredictable, or malicious.

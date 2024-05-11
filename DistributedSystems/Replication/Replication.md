@@ -14,8 +14,7 @@ ___
 - This approach helps in handling failures and distributing workload efficiently.
 
 
-![[Pasted image 20240508194923.png|450|450]]
-
+![[Pasted image 20240512005312.png|450|450]]
 
 ### Consistency Levels
 
