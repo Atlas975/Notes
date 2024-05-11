@@ -16,8 +16,7 @@ aliases:
 ___
 # Context free grammars
 - Generates context free languages, all productions are in the format: 
-$$X\to RHS \text{ (right hand side)}$$
-$$X = \text{NON-TERMINAL }$$
+$$\text{NON-TERMINAL }\to RHS $$
 $$RHS =\text{any mix of terminals and NON-TERMINALS, can be empty}$$
 
 
