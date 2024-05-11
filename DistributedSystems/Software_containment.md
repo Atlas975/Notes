@@ -12,6 +12,8 @@ ___
 # Software containment
 - Involves encapsulating a software system and its dependencies within a single virtual unit, helping manage the complexity of multiple software environments
 - This is crucial in modern distributed systems for managing dependencies, enabling cross-platform development, and facilitating cloud scaling and co-location.
+
+![[Pasted image 20240511143112.png|450|450]]
 ## Scaling strategies
 - **Scale up (vertical scaling):** Increasing the capacity of a single server. Useful when services are stateful to avoid needing coordination with a lock 
 - **Scale out (horizontal scaling):** adding more servers, managed by a load balancer. Ideal when there's a large disparity between process time and load balance time
@@ -28,7 +30,13 @@ ___
 ![[Pasted image 20240511140251.png|400|400]]
 
 - The use of this allows for proper management of shared hardware resources, these resources should be fully utilised as long as there's work to do 
+- For VMware this requires intercepting privileged instructions and rewriting them so that they target virtual representations of the instructions effect
 
+## Virtualisation at scale 
+- In a data centre, a hypervisor typically runs directly on computer hardware rather than sitting atop a host OS. This is much more efficient by removing a layer of indirection
+- The hypervisor in this case directly communicates with hardware using it's own kernel and manages the allocation of memory
+
+![[Pasted image 20240511143312.png|400|400]]
 ### Practical Applications
 
 - **Cloud Scaling:** Both VMs and containers are foundational to cloud services, enabling flexible resource management and rapid scaling.

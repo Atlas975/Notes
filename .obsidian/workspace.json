@@ -476,7 +476,7 @@
             }
           }
         ],
-        "currentTab": 24
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -544,7 +544,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md"
+                "file": "DistributedSystems/Software_containment.md"
               }
             }
           }
@@ -580,7 +580,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "DistributedSystems/Software_containment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -597,7 +597,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Virtualisation.md",
+                "file": "DistributedSystems/Software_containment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -669,8 +669,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "16d9125412a8aa5b",
+  "active": "0819636ca346b0ab",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240511143312.png",
+    "XX-Attachments/Images/Pasted image 20240511143112.png",
+    "OperatingSystems/Virtualisation.md",
     "DistributedSystems/Software_containment.md",
     "OperatingSystems/Operating_system_design.md",
     "OperatingSystems/Input&Output_systems.md",
@@ -687,7 +690,6 @@
     "DistributedSystems/Replication/Passive_replication.md",
     "Cybersecurity/Cryptography.md",
     "DistributedSystems/Distributed_system_security.md",
-    "OperatingSystems/Virtualisation.md",
     "XX-Attachments/Images/Pasted image 20240510143820.png",
     "DistributedSystems/CommunicationModels/Indirect_communication.md",
     "XX-Attachments/Images/Pasted image 20240510142456.png",
@@ -698,7 +700,6 @@
     "XX-Attachments/Images/Pasted image 20240509155920.png",
     "XX-Attachments/Images/Pasted image 20240509155840.png",
     "XX-Attachments/Images/Pasted image 20240509155619.png",
-    "XX-Attachments/Images/Pasted image 20240509155551.png",
     "DistributedSystems/Replication/Replication.md",
     "DistributedSystems/Replication/Active_replication.md",
     "DistributedSystems/Replication",
@@ -707,7 +708,6 @@
     "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
     "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
     "Cybersecurity/EncryptionSchemes/Advanced_encryption_standard.md",
-    "Cybersecurity/Hashing.md",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",
     "DistributedSystems/CommunicationModels",
