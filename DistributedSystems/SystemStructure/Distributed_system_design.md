@@ -18,22 +18,26 @@ ___
 
 ![[Pasted image 20240511144551.png|350|350]]
 
-## Thread distribution 
+## Thread distribution
+- [[Concurrency|Threads]] are a lightweight concurrency unit within a single address space, used to manage latencies in distributed systems efficiently. Creating a responsive system 
+- Creating a thread per every request is fast, but introduces significant overhead. Threads are instead typically created under the following conditions:
+	- **Per client:** creates a single thread to be used for every new client connection, can still lead to blocking if each client has lengthy connection times 
+	- **Multi-threaded server:** creates a pool of permanent threads that spread out requests
 
-- [[Concurrency|Threads]] are a lightweight concurrency unit within a single address space, used to manage latencies in distributed systems efficiently. 
-- These threads can be created in response to 
-- **Multi-threaded Client:** Uses threads to handle communication latency.
-- **Multi-threaded Server:** concurrent processing of requests
+![[Pasted image 20240511175013.png|400|400]]
 
-### Stateless vs. Stateful Servers
+## Server state
 
-- **Stateless Servers:** Do not maintain client-specific state, simplifying load balancing and recovery post-crashes.
-- **Stateful Servers:** Maintain information about their clients, complicating crash recovery and potentially limiting performance.
+- **Stateless Servers:** no client-specific state, simplifying load balancing and recovery post-crashes
+- **Stateful Servers:** Maintains information about their clients, complicating crash recovery and potentially limiting performance with load balancing complexity
 
-### Layering in Distributed Systems
 
-- **Purpose:** Simplifies complexity by partitioning services into layers where lower layers provide services to higher ones without exposing underlying implementations.
-- **Benefits:** Enhances abstraction, reusability, and loose coupling across components.
+## Layering in distributed systems
+
+-  Simplifies complexity by partitioning services into layers where lower layers provide services to higher ones without exposing underlying implementations.
+- Enhances abstraction, reusability, and loose coupling across components.
+
+![[Pasted image 20240511175420.png|300|300]]
 
 ### Tiering in Distributed Systems
 

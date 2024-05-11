@@ -222,7 +222,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/SystemStructure/Distributed_system_design.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -515,7 +515,7 @@
             }
           }
         ],
-        "currentTab": 18
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -583,7 +583,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md"
+                "file": "DistributedSystems/SystemStructure/Distributed_system_design.md"
               }
             }
           }
@@ -619,7 +619,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
+                "file": "DistributedSystems/SystemStructure/Distributed_system_design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -636,7 +636,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
+                "file": "DistributedSystems/SystemStructure/Distributed_system_design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -708,11 +708,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8ecd2cef7abd6ddc",
+  "active": "e194cb5beca70566",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240511175420.png",
+    "XX-Attachments/Images/Pasted image 20240511175013.png",
+    "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Semantic_analyser.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Literal_table.md",
-    "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
     "Languages&Compilation/CompilerConstruction/CompilationTypes/Compilers.md",
     "Languages&Compilation/CompilerConstruction/CompilationTypes/Interpreter.md",
     "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
@@ -735,7 +737,6 @@
     "Languages&Compilation/Parsing/TopDownParsing/Recursive_descent.md",
     "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
-    "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
     "XX-Attachments/Images/Pasted image 20240511144551.png",
     "XX-Attachments/Images/Pasted image 20240511143844.png",
     "XX-Attachments/Images/Pasted image 20240511143312.png",
@@ -745,7 +746,6 @@
     "XX-Attachments/Images/Pasted image 20240510142456.png",
     "XX-Attachments/Images/Pasted image 20240510142248.png",
     "XX-Attachments/Images/Pasted image 20240510131240.png",
-    "XX-Attachments/Images/Pasted image 20240510131011.png",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",
