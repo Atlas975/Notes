@@ -12,14 +12,11 @@ ___
 # Software containment
 - Involves encapsulating a software system and its dependencies within a single virtual unit, helping manage the complexity of multiple software environments
 - This is crucial in modern distributed systems for managing dependencies, enabling cross-platform development, and facilitating cloud scaling and co-location.
-
-
 ## Scaling strategies
 - **Scale up (vertical scaling):** Increasing the capacity of a single server. Useful when services are stateful to avoid needing coordination with a lock 
 - **Scale out (horizontal scaling):** adding more servers, managed by a load balancer. Ideal when theres a large disparity between process time and load balance time
 
 ![[Pasted image 20240510143820.png|400|400]]
-
 
 
 ## Software containment technologies 

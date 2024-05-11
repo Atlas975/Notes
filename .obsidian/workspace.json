@@ -203,6 +203,19 @@
             }
           },
           {
+            "id": "0819636ca346b0ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DistributedSystems/Software_containment.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ffbeea9d1885e986",
             "type": "leaf",
             "state": {
@@ -424,7 +437,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -492,7 +505,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md"
+                "file": "DistributedSystems/Software_containment.md"
               }
             }
           }
@@ -500,7 +513,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -527,7 +541,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md",
+                "file": "DistributedSystems/Software_containment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -544,7 +558,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md",
+                "file": "DistributedSystems/Software_containment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -616,15 +630,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "238571c4805d9335",
+  "active": "0819636ca346b0ab",
   "lastOpenFiles": [
+    "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "Statistics/ProbabilityDistributions/Triangular_distribution.md",
     "Statistics/ProbabilityDistributions/Pareto_distribution.md",
     "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
     "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
     "Statistics/ProbabilityDistributions/Probability_distributions.md",
     "Statistics/ProbabilityDistributions/Poisson_distribution.md",
-    "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
     "DistributedSystems/Replication/Passive_replication.md",
     "Cybersecurity/Cryptography.md",
