@@ -312,7 +312,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
+                "file": "DistributedSystems/Fault_tolerence.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -648,7 +648,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md"
+                "file": "DistributedSystems/Fault_tolerence.md"
               }
             }
           }
@@ -683,7 +683,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
+                "file": "DistributedSystems/Fault_tolerence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -700,7 +700,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
+                "file": "DistributedSystems/Fault_tolerence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -774,6 +774,7 @@
   },
   "active": "8ecd2cef7abd6ddc",
   "lastOpenFiles": [
+    "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Literal_table.md",
@@ -804,7 +805,6 @@
     "DistributedSystems/SystemStructure/Google_infrastructure.md",
     "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
     "DistributedSystems/SystemStructure/Distributed_system_design.md",
-    "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
     "XX-Attachments/Images/Pasted image 20240511175803.png",
     "XX-Attachments/Images/Pasted image 20240511175614.png",
     "XX-Attachments/Images/Pasted image 20240511175420.png",

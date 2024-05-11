@@ -10,9 +10,9 @@
 
 ___
 # Fault tolerence
-Fault tolerance in distributed systems is crucial for ensuring that the system continues to operate correctly despite failures. It involves understanding the nature of failures and implementing strategies to mitigate their impacts.
+- The process of ensuring that a system continues to operate correctly despite failures. 
+- Involves understanding the nature of failures and mitigating their impacts.
 
-Understanding and implementing fault tolerance is crucial for designing robust distributed systems that can handle failures gracefully without significant disruption to the user experience.
 
 ### Key Terminology
 
@@ -21,11 +21,10 @@ Understanding and implementing fault tolerance is crucial for designing robust d
 - **Fault:** The root cause of an error or failure in the system.
 
 ### Types of Faults
-
-- **Omission Fault:** Expected response or event does not occur.
-- **Crash Fault:** System stops responding entirely.
-- **Timing Fault:** Response arrives outside the expected timeframe.
-- **Byzantine Fault:** Responses are erroneous, unpredictable, or malicious.
+- **Omission:** Expected response or event does not occur.
+- **Crash:** System stops responding entirely.
+- **Timing:** Response arrives outside the expected timeframe.
+- **Byzantine:** Responses are erroneous, unpredictable, or malicious.
 
 ### Failure Detection
 
