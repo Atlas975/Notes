@@ -776,8 +776,8 @@
   "active": "b61a5f1915f96e1f",
   "lastOpenFiles": [
     "Languages&Compilation/FiniteAutomata/Subset_construction_algorithm.md",
-    "Languages&Compilation/FiniteAutomata/Regular_expression_FSM.md",
     "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md",
+    "Languages&Compilation/FiniteAutomata/Regular_expression_FSM.md",
     "Languages&Compilation/FiniteAutomata/Finite_state_transducer.md",
     "Languages&Compilation/Computability/Chomsky_hierarchy.md",
     "Languages&Compilation/Computability/TuringMachines/Turing_thesis.md",
