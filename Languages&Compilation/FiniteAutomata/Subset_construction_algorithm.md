@@ -19,8 +19,6 @@ ___
 
 - Note that the non-deterministic and deterministic versions of the FSR are only **weakly** equivalent as they do not give the same structure to the string 
 
-
-
 ## Subset construction process
 1. Mark the start state:
 

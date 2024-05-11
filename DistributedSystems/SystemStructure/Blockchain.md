@@ -42,7 +42,7 @@ ___
 ![[Pasted image 20240511195630.png|400|400]]
 
 - This is done with a brute force attack but the result is easy to verify 
-- 
+- Double-spending is avoided by having each miner verify the entire chain of transactions
 ## Transactions
 - Bitcoin is a common example of a transaction based blockchain, a coin in this system is a chain of digital signatures. Anyone can follow transaction history and verify transactions 
 - Nodes must reach consensus on the transactions to be included in the blockchain to prevent issues like double-spending.
@@ -51,16 +51,8 @@ ___
 ![[Pasted image 20240511194907.png|250|250]]
 
 
-### Challenges in Blockchain
+## Blockchain fork 
+- When two alternative chains satisfy the PoW, attackers may attempt to do this intentionally however without 50% of the hashrate this attack will not be successful
+- Creating a fork is exponentially hard as it requires recomputing the nonce of all previous blocks, honest miners build on the longest chain
 
-- **Scalability:** The current blockchain implementations like Bitcoin have limitations in transaction throughput and latency.
-- **Energy Consumption:** PoW is computationally intensive, leading to high energy consumption and environmental concerns.
-
-### Security Features
-
-- **Public Key Cryptography:** Ensures that transactions are secure and that coins can only be spent by their owners.
-- **Digital Signatures:** Provide integrity and non-repudiation to transactions.
-
-### Practical Implications
-
-Blockchain technology provides a robust platform for secure, transparent, and decentralized transaction recording, which is essential in scenarios that require unalterable data histories, such as in financial transactions, supply chain management, and voting systems.
+![[Pasted image 20240511201223.png|450|450]]
