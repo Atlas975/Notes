@@ -10,22 +10,20 @@
 
 ___
 # Distributed system design
-Designing distributed systems involves placing processes on independent devices to communicate effectively with each other, managing elements like data stores, messaging systems, and various functionalities (e.g., posts, ads, friendship features) in relation to each other.
+- Involves placing processes on independent devices to communicate with each other, managing elements like data stores, messaging systems, and various functionalities
+- These vary both in complexity and the level of separation they can offer
+## The client-server model
+-  A model where clients send requests to a server, which processes them and returns a response.
+- Offers centralised management and consistent data handling at the cost of a single failure point
 
-### The Client-Server Model
+![[Pasted image 20240511144551.png|350|350]]
 
-- **Definition:** A model where clients send requests to a server, which processes them and returns a response.
-- **Advantages:**
-    - Centralized management.
-    - Consistent data handling.
-- **Disadvantages:**
-    - Single point of failure affecting availability, reliability, and security.
+## Thread distribution 
 
-### Introducing Threads
-
-- Threads are lightweight units of concurrency within a single address space, used to manage latencies in distributed systems efficiently.
+- [[Concurrency|Threads]] are a lightweight concurrency unit within a single address space, used to manage latencies in distributed systems efficiently. 
+- These threads can be created in response to 
 - **Multi-threaded Client:** Uses threads to handle communication latency.
-- **Multi-threaded Server:** Utilizes threads to process multiple incoming invocations concurrently.
+- **Multi-threaded Server:** concurrent processing of requests
 
 ### Stateless vs. Stateful Servers
 
@@ -41,8 +39,8 @@ Designing distributed systems involves placing processes on independent devices 
 
 - **Tiering:** Complements layering by physically separating layers across devices.
 - **Examples:**
-    - **2-Tier Architecture:** Divides layers between client and server.
-    - **3-Tier Architecture:** Separates application logic, database management, and user interface into three distinct layers.
+	- **2-Tier Architecture:** Divides layers between client and server.
+	- **3-Tier Architecture:** Separates application logic, database management, and user interface into three distinct layers.
 
 ### Replication
 
