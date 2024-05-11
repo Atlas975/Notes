@@ -195,7 +195,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Pareto_distribution.md",
+                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -492,7 +492,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Pareto_distribution.md"
+                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md"
               }
             }
           }
@@ -500,8 +500,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -528,7 +527,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Pareto_distribution.md",
+                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -545,7 +544,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/Pareto_distribution.md",
+                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -619,10 +618,10 @@
   },
   "active": "238571c4805d9335",
   "lastOpenFiles": [
-    "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
-    "Statistics/ProbabilityDistributions/Pareto_distribution.md",
-    "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
     "Statistics/ProbabilityDistributions/Triangular_distribution.md",
+    "Statistics/ProbabilityDistributions/Pareto_distribution.md",
+    "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
+    "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
     "Statistics/ProbabilityDistributions/Probability_distributions.md",
     "Statistics/ProbabilityDistributions/Poisson_distribution.md",
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
