@@ -222,7 +222,20 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/SystemStructure/Distributed_system_design.md",
-                "mode": "preview",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f839e61638d8c4af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DistributedSystems/SystemStructure/Untitled.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -515,7 +528,7 @@
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -583,7 +596,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Distributed_system_design.md"
+                "file": "DistributedSystems/SystemStructure/Untitled.md"
               }
             }
           }
@@ -591,8 +604,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -619,7 +631,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Distributed_system_design.md",
+                "file": "DistributedSystems/SystemStructure/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -636,7 +648,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Distributed_system_design.md",
+                "file": "DistributedSystems/SystemStructure/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -708,8 +720,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e194cb5beca70566",
+  "active": "f839e61638d8c4af",
   "lastOpenFiles": [
+    "DistributedSystems/SystemStructure/Distributed_system_design.md",
+    "DistributedSystems/SystemStructure/Untitled.md",
+    "XX-Attachments/Images/Pasted image 20240511175803.png",
+    "XX-Attachments/Images/Pasted image 20240511175614.png",
     "XX-Attachments/Images/Pasted image 20240511175420.png",
     "XX-Attachments/Images/Pasted image 20240511175013.png",
     "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
@@ -736,16 +752,12 @@
     "Languages&Compilation/Parsing/First_sets.md",
     "Languages&Compilation/Parsing/TopDownParsing/Recursive_descent.md",
     "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
-    "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
     "XX-Attachments/Images/Pasted image 20240511144551.png",
     "XX-Attachments/Images/Pasted image 20240511143844.png",
     "XX-Attachments/Images/Pasted image 20240511143312.png",
     "XX-Attachments/Images/Pasted image 20240511143112.png",
     "XX-Attachments/Images/Pasted image 20240511140251.png",
     "XX-Attachments/Images/Pasted image 20240510143820.png",
-    "XX-Attachments/Images/Pasted image 20240510142456.png",
-    "XX-Attachments/Images/Pasted image 20240510142248.png",
-    "XX-Attachments/Images/Pasted image 20240510131240.png",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",

@@ -32,23 +32,20 @@ ___
 - **Stateful Servers:** Maintains information about their clients, complicating crash recovery and potentially limiting performance with load balancing complexity
 
 
-## Layering in distributed systems
+## Layering 
 
 -  Simplifies complexity by partitioning services into layers where lower layers provide services to higher ones without exposing underlying implementations.
 - Enhances abstraction, reusability, and loose coupling across components.
 
-![[Pasted image 20240511175420.png|300|300]]
+![[Pasted image 20240511175614.png|350|350]]
+## Tiering 
 
-### Tiering in Distributed Systems
+-  Complements layering by physically separating layers across devices. Eg  2-Tier architecture that typically does a client/server split. This seperation also makes [[Replication]] easier
+- Separates application logic, database management, and user interface into three distinct layers can be taught of as 3-tier Architecture and is more flexible
 
-- **Tiering:** Complements layering by physically separating layers across devices.
-- **Examples:**
-	- **2-Tier Architecture:** Divides layers between client and server.
-	- **3-Tier Architecture:** Separates application logic, database management, and user interface into three distinct layers.
 
-### Replication
+![[Pasted image 20240511175803.png|350|350]]
 
-- Replication involves duplicating services across multiple servers to enhance performance, availability, and scalability. However, it requires mechanisms to maintain consistency among replicas.
 
 ### Brewer's CAP Theorem
 
