@@ -312,7 +312,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -580,7 +580,7 @@
             }
           }
         ],
-        "currentTab": 21
+        "currentTab": 23
       }
     ],
     "direction": "vertical"
@@ -648,7 +648,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md"
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md"
               }
             }
           }
@@ -656,8 +656,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -684,7 +683,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md",
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -701,7 +700,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md",
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -773,17 +772,23 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b61a5f1915f96e1f",
+  "active": "8ecd2cef7abd6ddc",
   "lastOpenFiles": [
-    "Languages&Compilation/FiniteAutomata/Subset_construction_algorithm.md",
+    "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
+    "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
+    "Languages&Compilation/CompilerConstruction/Analysis/Literal_table.md",
+    "Languages&Compilation/CompilerConstruction/Analysis/Lexical_analyser.md",
+    "Languages&Compilation/CompilerConstruction/Synthesis/Language_translator.md",
+    "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
+    "Languages&Compilation/CompilerConstruction/Analysis/Semantic_analyser.md",
+    "Languages&Compilation/CompilerConstruction/Analysis/Syntax_analyser.md",
     "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md",
+    "Languages&Compilation/FiniteAutomata/Subset_construction_algorithm.md",
     "Languages&Compilation/FiniteAutomata/Regular_expression_FSM.md",
     "Languages&Compilation/FiniteAutomata/Finite_state_transducer.md",
     "Languages&Compilation/Computability/Chomsky_hierarchy.md",
     "Languages&Compilation/Computability/TuringMachines/Turing_thesis.md",
-    "Languages&Compilation/CompilerConstruction/Analysis/Syntax_analyser.md",
     "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
-    "Languages&Compilation/CompilerConstruction/Synthesis/Language_translator.md",
     "DistributedSystems/SystemStructure/Blockchain.md",
     "XX-Attachments/Images/Pasted image 20240511201223.png",
     "DistributedSystems/Software_containment.md",
@@ -804,12 +809,6 @@
     "XX-Attachments/Images/Pasted image 20240511175614.png",
     "XX-Attachments/Images/Pasted image 20240511175420.png",
     "XX-Attachments/Images/Pasted image 20240511175013.png",
-    "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
-    "Languages&Compilation/CompilerConstruction/Analysis/Semantic_analyser.md",
-    "Languages&Compilation/CompilerConstruction/Analysis/Literal_table.md",
-    "Languages&Compilation/CompilerConstruction/CompilationTypes/Compilers.md",
-    "Languages&Compilation/CompilerConstruction/CompilationTypes/Interpreter.md",
-    "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
     "XX-Attachments/Images/Pasted image 20240511144551.png",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
