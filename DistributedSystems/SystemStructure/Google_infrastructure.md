@@ -10,22 +10,21 @@
 
 ___
 # Google infrastructure
-Google has constructed a vast hardware and software infrastructure designed to handle immense scale, both in terms of processing capability and geographical distribution. This infrastructure supports millions of users simultaneously, driven by the extensive use of cheap, commodity hardware.
+- Exemplifies the integration of software and hardware to achieve high reliability, performance, and scalability via the effective use of [[Distributed_systems|distributed system]] principles 
+- Given the scale, faults are frequent requiring an emphasis on [[Fault_tolerence|fault tolerance]]  
 
-Google's infrastructure exemplifies the integration of software and hardware to achieve high reliability, performance, and scalability. It demonstrates the effective use of distributed systems principles to handle some of the largest data and processing loads in the industry.
-### Design Principles for Scalability
+![[Pasted image 20240512225943.png|300|300]]
+## Scalability principles 
+- **Scalable size:** able to support a massive increase in the number of users
+- **Scalable geography:** operates over global distances, must tackle latency and data consistency 
 
-Google’s infrastructure is designed to handle:
+## Hardware Platform
 
-- **Scalable size:** Able to support a massive increase in the number of users.
-- **Scalable geography:** Designed to operate over global distances, tackling challenges like latency and data consistency across continents.
+- **Commodity Hardware:** utilises standard PCs with modifications, such as a stripped-down version of [[Linux_permissions|Linux]] and significant storage capacity per unit.
+- **Server organisation:** servers are organised into racks with built-in redundancy and connected through multiple switches, forming a cluster.
+- **Storage Scale:** A cluster comprises of thousands of machines, offering petabytes of storage.
 
-### The Hardware Platform
-
-- **Commodity Hardware:** Google utilizes standard PCs with modifications, such as a stripped-down version of Linux and significant storage capacity per unit.
-- **Server Organization:** Servers are organized into racks with built-in redundancy and connected through multiple switches, forming a cluster.
-- **Storage Scale:** A cluster might comprise thousands of machines, collectively offering petabytes of storage.
-
+![[Pasted image 20240512230044.png|350|350]]
 ### Distributed Systems Platform
 
 Google's approach integrates:

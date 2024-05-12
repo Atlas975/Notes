@@ -53,7 +53,33 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/SystemStructure/Cloud_computing.md",
-                "mode": "source",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7c6b534cb712a4d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DistributedSystems/Fault_tolerence.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3963415990908717",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DistributedSystems/SystemStructure/Google_infrastructure.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -190,7 +216,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -258,7 +284,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Cloud_computing.md"
+                "file": "DistributedSystems/SystemStructure/Google_infrastructure.md"
               }
             }
           }
@@ -294,7 +320,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Cloud_computing.md",
+                "file": "DistributedSystems/SystemStructure/Google_infrastructure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -311,7 +337,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Cloud_computing.md",
+                "file": "DistributedSystems/SystemStructure/Google_infrastructure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -383,8 +409,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ea2d1196817eeeab",
+  "active": "3963415990908717",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240512230044.png",
+    "DistributedSystems/Fault_tolerence.md",
+    "DistributedSystems/SystemStructure/Google_infrastructure.md",
+    "XX-Attachments/Images/Pasted image 20240512225943.png",
+    "DistributedSystems/SystemStructure/Cloud_computing.md",
+    "XX-Attachments/Images/Pasted image 20240512224816.png",
     "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
     "XX-Attachments/Images/Pasted image 20240512224419.png",
     "XX-Attachments/Images/Pasted image 20240512223836.png",
@@ -394,7 +426,6 @@
     "Cybersecurity/Network_security.md",
     "DistributedSystems/Consensus/RAFT.md",
     "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
-    "DistributedSystems/SystemStructure/Google_infrastructure.md",
     "DistributedSystems/SystemStructure/Distributed_system_design.md",
     "DistributedSystems/CommunicationModels/Indirect_communication.md",
     "DistributedSystems/CommunicationModels/Group_communication.md",
@@ -412,14 +443,10 @@
     "DistributedSystems/SystemStructure/Untitled.md",
     "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
     "DistributedSystems/Replication/Replication.md",
-    "DistributedSystems/Replication/Active_replication.md",
-    "DistributedSystems/Consensus/Two_general_problem.md",
     "XX-Attachments/Images/Pasted image 20240512192216.png",
     "XX-Attachments/Images/Pasted image 20240512190148.png",
     "XX-Attachments/Images/Pasted image 20240512183321.png",
     "XX-Attachments/Images/Pasted image 20240512183224.png",
-    "XX-Attachments/Images/Pasted image 20240512183127.png",
-    "XX-Attachments/Images/Pasted image 20240512182756.png",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",

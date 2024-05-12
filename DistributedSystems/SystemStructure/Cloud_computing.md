@@ -11,16 +11,19 @@
 ___
 # Cloud computing
 
-- Provides on-demand leasing of computing resources, allowing users to obtain and configure [[Virtualisation|virtual]] servers and other services with minimal interaction with the service provider.
+- Provides on-demand leasing of computing resources, allowing users to obtain and configure [[Virtualisation|virtual]] servers and other services with minimal service provider interactions 
+- Highly scalable, on-demand resources can quickly provisioned and released.
 
-- Highly scalable, on-demand resources that can be quickly provisioned and released.
-- **Types of Services:**
-	- **Software as a Service (SaaS):** Offers software applications over the internet.
-	- **Platform as a Service (PaaS):** Provides a platform allowing customers to develop, run, and manage applications.
-	- **Infrastructure as a Service (IaaS):** Provides fundamental computing resources such as virtualized physical hardware.
 
-### Fog Computing
+![[Pasted image 20240512224816.png|350|350]]
 
-An extension of cloud computing that brings computation, storage, and application services closer to the edge of the network. It aims to reduce latency, increase system responsiveness, and improve operational efficiency.
+## Service types
+- **Software as a Service (SaaS):** offers software applications over the internet.
+- **Platform as a Service (PaaS):** a platform allowing users to develop, run, and manage applications.
+- **Infrastructure as a Service (IaaS):** provides computing resources eg virtualised physical hardware.
 
-- **Use Cases:** Ideal for applications requiring real-time interactions, location awareness, and low latency, such as IoT applications.
+## Fog Computing
+
+- An extension of cloud computing that brings computation, storage, and application services closer to the edge of the network. Ideal for reducing latency (eg with real time applications)
+- This increases system responsiveness and improve operational efficiency. Typically handled by having compute geographically closer to clients 
+
