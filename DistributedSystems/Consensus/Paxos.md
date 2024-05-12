@@ -14,6 +14,7 @@ ___
 - The value agreed on must be comparable with other values to allow conflicts to be broken, the result being through a series of communication rounds the largest value is agreed one
 
 ![[Pasted image 20240512192216.png|350|350]]
+- 
 ## Paxos roles
 - **Proposers:** Initiate the agreement process.
 - **Acceptors:** Participate in the agreement to choose a proposal.

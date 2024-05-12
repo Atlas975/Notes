@@ -53,7 +53,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/Consensus/Paxos.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -242,7 +242,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -310,7 +310,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md"
+                "file": "DistributedSystems/Consensus/Paxos.md"
               }
             }
           }
@@ -346,7 +346,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
+                "file": "DistributedSystems/Consensus/Paxos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -363,7 +363,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
+                "file": "DistributedSystems/Consensus/Paxos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -435,10 +435,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4abdb569fa4f80a1",
+  "active": "a27730ab09b88c18",
   "lastOpenFiles": [
-    "DistributedSystems/Consensus/Paxos.md",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
+    "DistributedSystems/Consensus/Byzantine_generals_problem.md",
+    "DistributedSystems/Consensus/Paxos.md",
     "DistributedSystems/SystemStructure/Google_infrastructure.md",
     "XX-Attachments/Images/Pasted image 20240513002937.png",
     "XX-Attachments/Images/Pasted image 20240513002441.png",
@@ -455,7 +456,6 @@
     "DistributedSystems/SystemStructure/Cloud_computing.md",
     "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
     "DistributedSystems/Distributed_system_security.md",
-    "DistributedSystems/Consensus/Byzantine_generals_problem.md",
     "Cybersecurity/Network_security.md",
     "DistributedSystems/Consensus/RAFT.md",
     "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
