@@ -86,6 +86,19 @@
             }
           },
           {
+            "id": "5b0bfad57066e94f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DistributedSystems/Remote_invocation.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4e9fd96e52d6f0d7",
             "type": "leaf",
             "state": {
@@ -411,9 +424,11 @@
   },
   "active": "3963415990908717",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240512231014.png",
+    "DistributedSystems/Remote_invocation.md",
+    "DistributedSystems/SystemStructure/Google_infrastructure.md",
     "XX-Attachments/Images/Pasted image 20240512230044.png",
     "DistributedSystems/Fault_tolerence.md",
-    "DistributedSystems/SystemStructure/Google_infrastructure.md",
     "XX-Attachments/Images/Pasted image 20240512225943.png",
     "DistributedSystems/SystemStructure/Cloud_computing.md",
     "XX-Attachments/Images/Pasted image 20240512224816.png",
@@ -442,11 +457,9 @@
     "XX-Attachments/Images/Pasted image 20240512194411.png",
     "DistributedSystems/SystemStructure/Untitled.md",
     "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
-    "DistributedSystems/Replication/Replication.md",
     "XX-Attachments/Images/Pasted image 20240512192216.png",
     "XX-Attachments/Images/Pasted image 20240512190148.png",
     "XX-Attachments/Images/Pasted image 20240512183321.png",
-    "XX-Attachments/Images/Pasted image 20240512183224.png",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",

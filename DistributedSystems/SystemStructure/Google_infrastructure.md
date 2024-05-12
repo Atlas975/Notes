@@ -14,7 +14,7 @@ ___
 - Given the scale, faults are frequent requiring an emphasis on [[Fault_tolerence|fault tolerance]]  
 
 ![[Pasted image 20240512225943.png|300|300]]
-## Scalability principles 
+## Scalability principles
 - **Scalable size:** able to support a massive increase in the number of users
 - **Scalable geography:** operates over global distances, must tackle latency and data consistency 
 
@@ -25,17 +25,37 @@ ___
 - **Storage Scale:** A cluster comprises of thousands of machines, offering petabytes of storage.
 
 ![[Pasted image 20240512230044.png|350|350]]
-### Distributed Systems Platform
 
-Google's approach integrates:
+## gRPC
+- A simple [[Distributed_systems#Middleware|middleware]] service used for almost all inter-machine communication 
+- Consists of two parts:
+	- **Serialisation format**: converts raw data into flattened binary for transport, this is not self-describing so a schema must be sent as well
+	- [[Remote_invocation|RPC implementation]]: operations support one parameter to one result
 
-- **Cheap PC Hardware and Linux:** Emphasizes cost-effective scaling.
-- **Robust Networking:** Ensures connectivity across various data centers globally.
+```
+message Person { // Example of setting up a message (language agnostic)
+  required int32 id = 1;
+  required string name = 2;
+  optional string email = 3;
+}
+message Student {
+  required Person person = 1;
+  required string college = 2;
+}
 
-### Google’s Software Stack
+message SearchRequest { // Example of setting up an RPC
+  required string query = 1;
+  optional int32 page_number = 2;
+  optional int32 result_per_page = 3;
+}
+service SearchService {
+  rpc Search (SearchRequest) returns (SearchResponse);
+}
+```
 
-- **gRPC and Protocol Buffers:** Key components for efficient inter-machine communication. Protocol Buffers allow structured data to be serialized efficiently, far surpassing XML in terms of speed and size.
-- **Google File System (GFS):** Designed to handle large data volumes across numerous nodes, GFS employs a unique architecture where metadata is handled by a master to simplify consistency and data is stored in chunks across multiple chunk servers.
+## Google file system (GFS)
+-  GFS employs a unique architecture where metadata is handled by a master to simplify consistency. This uses a reduced consistency model to improve scalability 
+- Data is stored in chunks across multiple chunk servers. Uses a model where files are typically appended rather than overwritten (useful for logging and data accumulation)
 
 ### Google File System (GFS) Details
 
