@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
+                "file": "DistributedSystems/Fault_tolerence.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -661,7 +661,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md"
+                "file": "DistributedSystems/Fault_tolerence.md"
               }
             }
           }
@@ -696,7 +696,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
+                "file": "DistributedSystems/Fault_tolerence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -713,7 +713,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
+                "file": "DistributedSystems/Fault_tolerence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -787,8 +787,10 @@
   },
   "active": "cdcf334294d38c5e",
   "lastOpenFiles": [
-    "DistributedSystems/SystemStructure/Distributed_system_design.md",
     "DistributedSystems/SystemStructure/Blockchain.md",
+    "DistributedSystems/SystemStructure/Cloud_computing.md",
+    "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
+    "DistributedSystems/SystemStructure/Distributed_system_design.md",
     "DistributedSystems/Replication/Passive_replication.md",
     "DistributedSystems/Replication/Untitled.md",
     "DistributedSystems/Replication/Replication.md",
@@ -815,9 +817,7 @@
     "Languages&Compilation/Computability/TuringMachines/Turing_thesis.md",
     "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
     "XX-Attachments/Images/Pasted image 20240511201223.png",
-    "DistributedSystems/Software_containment.md",
     "XX-Attachments/Images/Pasted image 20240511195630.png",
-    "DistributedSystems/SystemStructure/Cloud_computing.md",
     "XX-Attachments/Images/Pasted image 20240511195253.png",
     "XX-Attachments/Images/Pasted image 20240511194907.png",
     "XX-Attachments/Images/Pasted image 20240511184018.png",

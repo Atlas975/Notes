@@ -27,15 +27,17 @@ ___
 - **Timing:** Response arrives outside the expected timeframe.
 - **Byzantine:** Responses are erroneous, unpredictable, or malicious.
 
-### Failure Detection
+## Failure Detection
 
 - **Fail-stop Detection:** Systems can detect when a component has stopped functioning.
 - **Byzantine Failure Detection:** Systems need mechanisms to handle erratic or malicious behavior, which is inherently harder to detect and manage.
 
-### Server Replication Schemes
+### Impossibility of distributed consensus 
+- The only way to detect crash failures is to ping a node and wait for response, however it is impossible to determine how long a wait time is sufficient 
+- There is no way of distinguishing between a crash vs being slow, busy, network delay. Instead an upper bound of wait time needs to relied on
 
-- **Passive Replication (Cold Standby):** Involves a primary server processing requests and updating secondary servers periodically or upon changes.
-- **Active Replication (Hot Standby):** All servers process the same requests simultaneously, ensuring high availability and fault tolerance.
+
+
 
 ### Modeling Service Performance
 
