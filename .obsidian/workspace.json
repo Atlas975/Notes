@@ -598,7 +598,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
+                "file": "DistributedSystems/CommunicationModels/Indirect_communication.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -726,7 +726,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md"
+                "file": "DistributedSystems/CommunicationModels/Indirect_communication.md"
               }
             }
           }
@@ -762,7 +762,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
+                "file": "DistributedSystems/CommunicationModels/Indirect_communication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -779,7 +779,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
+                "file": "DistributedSystems/CommunicationModels/Indirect_communication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -853,8 +853,15 @@
   },
   "active": "94a8721f624e39ef",
   "lastOpenFiles": [
-    "DistributedSystems/Time_keeping.md",
+    "DistributedSystems/CommunicationModels/Group_communication.md",
+    "Statistics/Sample_space.md",
+    "Statistics/Mean.md",
+    "Statistics/Bayes_theorem.md",
+    "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
+    "DataStructures/CacheStructures/LRU.md",
+    "DataStructures/CacheStructures/LFU.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
+    "DistributedSystems/Time_keeping.md",
     "DistributedSystems/Distributed_systems.md",
     "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/SystemStructure/Google_infrastructure.md",
@@ -882,12 +889,6 @@
     "DistributedSystems/Consensus/Byzantine_generals_problem.md",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
     "DistributedSystems/SystemStructure/Distributed_system_design.md",
-    "DistributedSystems/Replication/Passive_replication.md",
-    "DistributedSystems/Replication/Untitled.md",
-    "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
-    "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
-    "Languages&Compilation/CompilerConstruction/Analysis/Literal_table.md",
-    "Languages&Compilation/CompilerConstruction/Analysis/Lexical_analyser.md",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",
