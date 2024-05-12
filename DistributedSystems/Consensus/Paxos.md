@@ -10,41 +10,32 @@
 
 ___
 # Paxos
-Paxos is a consensus protocol that ensures that multiple parties can agree on a single value even in the presence of failures. It is widely used to achieve reliability in distributed systems through replication.
-
-## Paxos assumptions
-
-- **Node behaviour:** nodes may operate at arbitrary speeds, fail, recover, and rejoin without attempting to subvert the protocol.
-- **Message handling:** Messages sent in [[Concurrency|async]] and can be delayed, lost, reordered, or duplicated.
-- **Failure indistinguishability:** failures are indistinguishable from latency, requiring the protocol to handle mistaken failure detections.
-
-### Paxos Roles
-
+- A consensus protocol that ensures that multiple parties can agree on a single value even in the presence of failures. Used to achieve reliability in [[Distributed_systems|distributed systems]] through [[Replication|replication]].
+- The value agreed on must be comparable with other values to allow conflicts to be broken, the result being through a series of communication rounds the largest value is agreed one
+## Paxos Roles
 - **Proposers:** Initiate the agreement process.
 - **Acceptors:** Participate in the agreement to choose a proposal.
-- **Learners:** Learn the outcome of the agreement.
+- **Learners:** Learn the outcome of the agreement
 
-### Paxos Process
+![[Pasted image 20240512181043.png|250|250]]
 
-#### Phase 1: Prepare & Promise
+- These roles can be merged such as with learners commonly being merged with acceptors
+- Each node must also write it's state transitions to disk, allowing for partial recovery upon a crash  
+## Paxos Process
 
-- **Proposer** sends a "prepare" request with a unique proposal number.
-- **Acceptors** respond with a "promise" not to accept any earlier proposals.
+1. Prepare & Promise
+    - **Proposer** sends a "prepare" request with a unique proposal number.
+    - **Acceptors** respond with a "promise" not to accept lower proposals.
+2. Acceptance
+    - **Proposer** sends "accept" request for proposed value if a majority of acceptors promised.
+    - **Acceptors** accept the proposal if they have not promised to a higher proposal number.
 
-#### Phase 2: Acceptance
-
-- **Proposer** sends an "accept" request for a proposed value if a majority of acceptors promised.
-- **Acceptors** accept the proposal if they have not promised to a higher proposal number.
-
-### Paxos in Operation
+### Paxos in operation
 
 - Paxos ensures that if a proposal with a particular number is chosen, then every higher-numbered proposal issued by any proposer will also choose the same value.
 - The protocol typically includes a mechanism for proposers to learn the last value that was agreed upon, to support proposals for subsequent values.
 
-### Handling Failures
-
-Paxos is designed to handle different types of failures:
-
+## Failure resistence
 - **Proposer Failures:** The system continues if there are other proposers.
 - **Acceptor Failures:** As long as a majority of acceptors are functional, the system can continue.
 
