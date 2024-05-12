@@ -13,7 +13,8 @@ ___
 - A consensus protocol that ensures that multiple parties can agree on a single value even in the presence of failures. Used to achieve reliability in [[Distributed_systems|distributed systems]] through [[Replication|replication]].
 - The value agreed on must be comparable with other values to allow conflicts to be broken, the result being through a series of communication rounds the largest value is agreed one
 
-## Paxos Roles
+![[Pasted image 20240512192216.png|350|350]]
+## Paxos roles
 - **Proposers:** Initiate the agreement process.
 - **Acceptors:** Participate in the agreement to choose a proposal.
 - **Learners:** Learn the outcome of the agreement
@@ -22,6 +23,7 @@ ___
 
 - These roles can be merged such as with learners commonly being merged with acceptors
 - Each node must also write it's state transitions to disk, allowing for partial recovery upon a crash  
+- The majority vote (quorum) is expected prior to phase 2 for the case where multiple proposers appear due to presumed failure from other proposers. 
 ## Paxos Process
 1. Prepare & Promise
 	- **Proposer** sends a "prepare" request with a unique number (to all nodes including self)
@@ -53,20 +55,18 @@ onPrepare(n)
     if (n > N)
         N=n 
         write(n) 
-        if (value != null) // used to share value if acc
+        if (value != null) // used to share value if proposer failed accept phase
             promise(N,lastN,value) 
         else 
             promise(N) 
 ```
-### Practical Usage of Paxos
+## Paxos uses
 
-- **Multi-Paxos:** Used for agreeing on a sequence of values, where Paxos is run multiple times.
+- **Multi-Paxos:** used for agreeing on a sequence of values, where Paxos is run multiple times. This struggles with dynamic membership where the quorum is not always known
 - **Configuration:** Often used in systems where a sequence of commands must be agreed upon by all nodes, such as replicated state machines.
-
 ### Safety and Liveness
-
-- **Safety:** Paxos guarantees that no two nodes make different decisions on the same proposal.
-- **Liveness:** Paxos ensures that the system will eventually make progress in the absence of excessive failures.
+- **Safety:** guarantees that no two nodes make different decisions on the same proposal.
+- **Liveness:** system will eventually make progress in the absence of excessive failures.
 
 ## Implications for distributed systems
 
