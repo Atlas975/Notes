@@ -33,7 +33,7 @@ ___
 ![[Pasted image 20240507125748.png|350|350]]
 
 - One solution is for $A$ to assign timestamps based on a local clock to order events but this relies on ensuring clock skew is kept to a minimum, especially when events are microseconds apart
-### Happens-before relationship 
+### Lamport clocks 
 - A logical determination of the order of events based on causality / sequence of communications.
 - Can be handled in a variety of ways such as using locks/semaphores or relying on the [[Relations#Transitivity|transitivity]] of events (if $T(e_{1})<T(e_{2})$ then $e_{1}\to e_{2}$), based on the use of a Lampert logical clock
 - Cannot handle partial ordering (eg <1,2,4> and <2,1,3>), requires a vector clock to do this

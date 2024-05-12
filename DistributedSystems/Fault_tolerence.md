@@ -47,16 +47,18 @@ ___
 
 This session expands on replication schemes for fault tolerance by introducing message ordering in group communications and consensus algorithms crucial for maintaining consistency across distributed systems.
 
-### Message Ordering in Group Communications
-- The 
-Message ordering is critical in distributed systems to ensure consistency and reliability, especially when using replication for fault tolerance.
+## Message ordering
+- Message ordering is critical in distributed systems to ensure consistency and reliability, especially when using replication for fault tolerance. Strict message ordering comes with high complexity
+- This refers to the order at which messages arrive at the application layer. The [[Group_communication|group communication]] middleware can optionally buffer and re-order messages 
 
-**Types of Message Ordering:**
+![[Pasted image 20240512172235.png|250|250]]
 
-- **No Ordering:** Messages are processed as they arrive, regardless of their order.
-- **FIFO (First In, First Out):** Messages from a single sender are processed in the order they were sent.
-- **Causal Ordering:** Messages are processed according to causal relationships, irrespective of their send order.
-- **Total Ordering:** All messages are processed in the same strict order by all processes.
+
+### Message ordering types
+- **No ordering:** messages are processed as they arrive, regardless of their order. With stateful systems this is challenging to reorder due to needing synced [[Time_keeping|timestamps]]
+- **FIFO:** messages from a single sender are processed in the order they were sent. This gives partial ordering and can easily be handled by logical timestamps / sequence numbers 
+- **Causal ordering:** Messages are processed according to causal (happens-before) relationships (if it exists), irrespective of their send order. Offers partial ordering
+- **Total ordering:** all messages are processed in the same strict order by all processes.
 
 ### System Model for Message Ordering
 

@@ -339,7 +339,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/Fault_tolerence.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -606,7 +606,7 @@
             }
           }
         ],
-        "currentTab": 25
+        "currentTab": 41
       }
     ],
     "direction": "vertical"
@@ -674,7 +674,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Fault_tolerence.md"
+                "file": "DistributedSystems/Time_keeping.md"
               }
             }
           }
@@ -710,7 +710,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Fault_tolerence.md",
+                "file": "DistributedSystems/Time_keeping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -727,7 +727,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Fault_tolerence.md",
+                "file": "DistributedSystems/Time_keeping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -799,12 +799,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0cfa908ad87503ed",
+  "active": "7c4f639e9c8c1eec",
   "lastOpenFiles": [
+    "DistributedSystems/Fault_tolerence.md",
+    "XX-Attachments/Images/Pasted image 20240512172235.png",
     "DistributedSystems/Consensus/Byzantine_generals_problem.md",
     "XX-Attachments/Images/Pasted image 20240512163325.png",
     "XX-Attachments/Images/Pasted image 20240512163245.png",
-    "DistributedSystems/Fault_tolerence.md",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
     "XX-Attachments/Images/Pasted image 20240512162704.png",
     "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
@@ -835,7 +836,6 @@
     "Languages&Compilation/Computability/Chomsky_hierarchy.md",
     "XX-Attachments/Images/Pasted image 20240511201223.png",
     "XX-Attachments/Images/Pasted image 20240511195630.png",
-    "XX-Attachments/Images/Pasted image 20240511195253.png",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",
