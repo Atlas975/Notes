@@ -79,7 +79,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/Replication/Replication.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -339,7 +339,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/Fault_tolerence.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -606,7 +606,7 @@
             }
           }
         ],
-        "currentTab": 41
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -674,7 +674,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Time_keeping.md"
+                "file": "DistributedSystems/Replication/Replication.md"
               }
             }
           }
@@ -710,7 +710,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Time_keeping.md",
+                "file": "DistributedSystems/Replication/Replication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -727,7 +727,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Time_keeping.md",
+                "file": "DistributedSystems/Replication/Replication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -799,9 +799,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7c4f639e9c8c1eec",
+  "active": "315660b3dfbd3ae9",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240512174845.png",
     "DistributedSystems/Fault_tolerence.md",
+    "DistributedSystems/Replication/Replication.md",
+    "XX-Attachments/Images/Pasted image 20240512173914.png",
+    "XX-Attachments/Images/Pasted image 20240512173605.png",
+    "DistributedSystems/Time_keeping.md",
     "XX-Attachments/Images/Pasted image 20240512172235.png",
     "DistributedSystems/Consensus/Byzantine_generals_problem.md",
     "XX-Attachments/Images/Pasted image 20240512163325.png",
@@ -815,7 +820,6 @@
     "DistributedSystems/SystemStructure/Distributed_system_design.md",
     "DistributedSystems/Replication/Passive_replication.md",
     "DistributedSystems/Replication/Untitled.md",
-    "DistributedSystems/Replication/Replication.md",
     "XX-Attachments/Images/Pasted image 20240512005312.png",
     "DistributedSystems/Replication/Active_replication.md",
     "XX-Attachments/Images/Pasted image 20240512004713.png",
@@ -833,9 +837,6 @@
     "Languages&Compilation/FiniteAutomata/Subset_construction_algorithm.md",
     "Languages&Compilation/FiniteAutomata/Regular_expression_FSM.md",
     "Languages&Compilation/FiniteAutomata/Finite_state_transducer.md",
-    "Languages&Compilation/Computability/Chomsky_hierarchy.md",
-    "XX-Attachments/Images/Pasted image 20240511201223.png",
-    "XX-Attachments/Images/Pasted image 20240511195630.png",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",

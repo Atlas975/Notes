@@ -40,49 +40,25 @@ ___
 - [[Replication]]: running multiple copies of a service to ensure availability + reliability.
 - **N-Version Design:** design a system in multiple different ways, reduces the likelihood that all versions will be vulnerable to the same class of error 
 - **Checkpointing / operation logs:** regularly saving the state of a system to enable recovery from recent checkpoints in case of a failure. 
-
-
-
-### Overview of Message Ordering and Consensus in Fault Tolerance
-
-This session expands on replication schemes for fault tolerance by introducing message ordering in group communications and consensus algorithms crucial for maintaining consistency across distributed systems.
-
 ## Message ordering
 - Message ordering is critical in distributed systems to ensure consistency and reliability, especially when using replication for fault tolerance. Strict message ordering comes with high complexity
 - This refers to the order at which messages arrive at the application layer. The [[Group_communication|group communication]] middleware can optionally buffer and re-order messages 
 
-![[Pasted image 20240512172235.png|250|250]]
+![[Pasted image 20240512172235.png|200|200]]
 
 
-### Message ordering types
+### Message ordering schemes 
 - **No ordering:** messages are processed as they arrive, regardless of their order. With stateful systems this is challenging to reorder due to needing synced [[Time_keeping|timestamps]]
-- **FIFO:** messages from a single sender are processed in the order they were sent. This gives partial ordering and can easily be handled by logical timestamps / sequence numbers 
+
+- **FIFO:** messages from the same sender are processed in the order they were sent. This gives partial ordering and can easily be handled by logical timestamps / sequence numbers 
+
+![[Pasted image 20240512173605.png|200|200]]
 - **Causal ordering:** Messages are processed according to causal (happens-before) relationships (if it exists), irrespective of their send order. Offers partial ordering
-- **Total ordering:** all messages are processed in the same strict order by all processes.
+- **Total ordering:** all messages are processed in the same strict order by all processes. This requires distributed consensus by all processes for a ordering scheme (needs a central leader)
 
-### System Model for Message Ordering
+![[Pasted image 20240512173914.png|350|350]]
 
-Assumes typical internet communication where messages can be reordered in transit. Group communication middleware may reorder these messages before they reach the application based on selected ordering semantics.
 
-### Challenges with Global Time Ordering
-
-Implementing global time ordering involves significant synchronization costs:
-
-- **Timestamps:** Each message is timestamped; however, synchronization across distributed systems is challenging.
-- **Wait Buffers:** Systems may need to buffer messages to process them in the correct order, introducing delays and potential inconsistencies.
-
-### FIFO and Causal Ordering
-
-- **FIFO:** Ensures messages from the same sender are processed in the order sent but does not order messages between different senders.
-- **Causal:** Extends FIFO by including the ordering of messages across different senders when there is a causal relationship.
-
-### Total Ordering
-
-Total ordering requires all nodes to process messages in the exact same sequence, often implemented through a central coordinator or leader to dictate the order. This method can introduce bottlenecks and reduce system throughput.
-
-### State Machine Replication (SMR)
-
-In SMR, each replica processes the same sequence of messages or commands, ensuring that all replicas maintain the same state. This replication strategy is fundamental in systems where consistency is critical, such as databases and critical application logs.
 
 ### Consensus Algorithms
 

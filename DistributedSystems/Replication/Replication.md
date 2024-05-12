@@ -16,6 +16,13 @@ ___
 
 ![[Pasted image 20240512005312.png|450|450]]
 
+## State Machine Replication (SMR)
+
+- In SMR, each replica processes the same sequence of messages, ensuring that all replicas maintain the same state. 
+- This replication strategy is fundamental in systems where consistency is critical, such as databases and critical application logs.
+
+
+![[Pasted image 20240512174845.png|450|450]]
 ### Consistency Levels
 
 1. **Strong Consistency:**
