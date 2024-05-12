@@ -47,20 +47,3 @@ ___
 ![[Pasted image 20240511175803.png|350|350]]
 
 
-### Brewer's CAP Theorem
-
-- **Statement:** It is impossible for a distributed system to simultaneously provide consistency, availability, and partition tolerance.
-- **Implications:** Systems must compromise on one of these aspects, often leading to designs that prioritize two out of the three guarantees.
-
-### Design Patterns for Distributed Systems
-
-- **Proxy Pattern:** Uses a local proxy to represent a remote target object, enhancing distribution transparency.
-- **Brokerage and Mediator:** Manage interactions between components to simplify communication and functionality.
-
-### Middleware in Distributed Systems
-
-- Middleware supports distributed systems by providing common services between the operating system and applications. It can be synchronous or asynchronous, language-specific or independent, and can adhere to proprietary or standard-based approaches.
-
-### Architectural Diagrams
-
-- Illustrates how components interact within the system, helping designers and developers understand and manage interactions and data flows effectively.
