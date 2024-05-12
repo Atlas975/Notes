@@ -37,13 +37,6 @@ ___
 - There is no way of distinguishing between a crash vs being slow, busy, network delay. Instead an upper bound of wait time needs to relied on
 
 
-
-
-### Modeling Service Performance
-
-- **Availability:** The readiness of a service to perform its function when requested.
-- **Reliability:** The continuity of the service operation without failures.
-
 ### Common Approaches to Fault Tolerance
 
 - **Replication:** Running multiple copies of a service to ensure availability and reliability.
