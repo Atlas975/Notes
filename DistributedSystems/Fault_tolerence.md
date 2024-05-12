@@ -12,25 +12,28 @@ ___
 # Fault tolerence
 - The process of ensuring that a system continues to operate correctly despite failures. 
 - Involves understanding the nature of failures and mitigating their impacts.
+## Fault tolerance terms
+- **Failure:** inability of a system component to perform its required function.
+- **Error:** transition of a system into an invalid state, caused by a fault.
+- **Fault:** the root cause of an error or failure in the system. Multiple types of faults exist, from easiest to hardest to detect:
+    - **Omission:** Expected response or event does not occur. 
+    - **Crash:** System stops responding entirely.
+    - **Timing:** Response arrives outside the expected timeframe.
+    - **Byzantine:** Responses are erroneous, unpredictable, or malicious.
+
+![[Pasted image 20240512161001.png|350|350]]
 
 
-### Key Terminology
+## Service performance 
+- At a high level a service can be modeled in terms of availability (readiness to offer a service) and reliability (continuity of correct service)
+- Example scenarios of this trade off:
 
-- **Failure:** The inability of a system component to perform its required function.
-- **Error:** The transition of a system into an invalid state, caused by a fault.
-- **Fault:** The root cause of an error or failure in the system.
+```
 
-### Types of Faults
-- From easiest to hardest to detect:
-- **Omission:** Expected response or event does not occur. 
-- **Crash:** System stops responding entirely.
-- **Timing:** Response arrives outside the expected timeframe.
-- **Byzantine:** Responses are erroneous, unpredictable, or malicious.
-
+```
 ## Failure Detection
-
 - **Fail-stop Detection:** Systems can detect when a component has stopped functioning.
-- **Byzantine Failure Detection:** Systems need mechanisms to handle erratic or malicious behavior, which is inherently harder to detect and manage.
+- **Byzantine Failure Detection:** Systems need mechanisms to handle erratic or malicious ba, which is inherently harder to detect and manage.
 
 ### Impossibility of distributed consensus 
 - The only way to detect crash failures is to ping a node and wait for response, however it is impossible to determine how long a wait time is sufficient 
