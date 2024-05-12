@@ -98,15 +98,17 @@ service SearchService {
 
 ![[Pasted image 20240512235708.png|300|300]]
 
-- Overall Chubby is vital in storin
+- Overall Chubby is vital in storing the metadata for controlling the large amount of data stored in the GFS. This metadata must be kept up to date which Chubby is responsible for
 ### Primary election using Chubby
+- Chubby is instrumental in primary elections within distributed systems. It involves all processes attempting to request a write lock The process that gets this lock ends up becoming the leader
+- The leader then writes its name to this locked file, releasing this lock. Afterwards the other processes can request a reader lock, learning which process has become the new leader
 
-- Chubby is instrumental in primary elections within distributed systems. It enables a process to acquire a lock to become the primary, with others acting as replicas. This is crucial for systems like GFS and BigTable.
+![[Pasted image 20240513000752.png|300|300]]
 
-### Bigtable - Google’s Distributed Storage System
+## Bigtable
 
-- **Overview:** Bigtable is a large-scale, non-relational, distributed database optimized for Google's infrastructure.
-- **Architecture:** Uses a master to manage tablet servers, which store data in structured formats optimized for performance and scalability.
+- A large-scale, non-relational, distributed database optimised for Google's infrastructure.
+- Uses a master to manage tablet servers, which store data in structured formats optimized for performance and scalability.
 
 #### Features of Bigtable
 

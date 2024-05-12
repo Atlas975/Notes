@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -424,6 +424,9 @@
   },
   "active": "3963415990908717",
   "lastOpenFiles": [
+    "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
+    "DistributedSystems/SystemStructure/Google_infrastructure.md",
+    "XX-Attachments/Images/Pasted image 20240513000752.png",
     "XX-Attachments/Images/Pasted image 20240512235708.png",
     "XX-Attachments/Images/Pasted image 20240512234847.png",
     "XX-Attachments/Images/Pasted image 20240512234505.png",
@@ -433,10 +436,7 @@
     "XX-Attachments/Images/Pasted image 20240512233632.png",
     "XX-Attachments/Images/Pasted image 20240512233620.png",
     "XX-Attachments/Images/Pasted image 20240512233215.png",
-    "XX-Attachments/Images/Pasted image 20240512232831.png",
-    "XX-Attachments/Images/Pasted image 20240512232153.png",
     "DistributedSystems/Remote_invocation.md",
-    "DistributedSystems/SystemStructure/Google_infrastructure.md",
     "DistributedSystems/Fault_tolerence.md",
     "DistributedSystems/SystemStructure/Cloud_computing.md",
     "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
