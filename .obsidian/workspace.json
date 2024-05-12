@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Fault_tolerence.md",
+                "file": "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -91,8 +91,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Fault_tolerence.md",
-                "mode": "source",
+                "file": "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -593,7 +593,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 24
       }
     ],
     "direction": "vertical"
@@ -785,22 +785,24 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "cdcf334294d38c5e",
+  "active": "8ecd2cef7abd6ddc",
   "lastOpenFiles": [
+    "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
+    "DistributedSystems/Consensus/Byzantine_generals_problem.md",
+    "DistributedSystems/Fault_tolerence.md",
+    "XX-Attachments/Images/Pasted image 20240512162704.png",
+    "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
     "XX-Attachments/Images/Pasted image 20240512161001.png",
     "DistributedSystems/SystemStructure/Blockchain.md",
     "DistributedSystems/SystemStructure/Cloud_computing.md",
-    "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
     "DistributedSystems/SystemStructure/Distributed_system_design.md",
     "DistributedSystems/Replication/Passive_replication.md",
     "DistributedSystems/Replication/Untitled.md",
     "DistributedSystems/Replication/Replication.md",
     "XX-Attachments/Images/Pasted image 20240512005312.png",
     "DistributedSystems/Replication/Active_replication.md",
-    "DistributedSystems/Consensus/Byzantine_generals_problem.md",
     "XX-Attachments/Images/Pasted image 20240512004713.png",
     "XX-Attachments/Images/Pasted image 20240512004216.png",
-    "DistributedSystems/Fault_tolerence.md",
     "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
@@ -815,14 +817,11 @@
     "Languages&Compilation/FiniteAutomata/Regular_expression_FSM.md",
     "Languages&Compilation/FiniteAutomata/Finite_state_transducer.md",
     "Languages&Compilation/Computability/Chomsky_hierarchy.md",
-    "Languages&Compilation/Computability/TuringMachines/Turing_thesis.md",
     "XX-Attachments/Images/Pasted image 20240511201223.png",
     "XX-Attachments/Images/Pasted image 20240511195630.png",
     "XX-Attachments/Images/Pasted image 20240511195253.png",
     "XX-Attachments/Images/Pasted image 20240511194907.png",
     "XX-Attachments/Images/Pasted image 20240511184018.png",
-    "XX-Attachments/Images/Pasted image 20240511175803.png",
-    "XX-Attachments/Images/Pasted image 20240511175614.png",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",

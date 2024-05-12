@@ -9,42 +9,37 @@
 > ```
 
 ___
-# Fault tolerence
+# Fault tolerance
 - The process of ensuring that a system continues to operate correctly despite failures. 
 - Involves understanding the nature of failures and mitigating their impacts.
 ## Fault tolerance terms
 - **Failure:** inability of a system component to perform its required function.
 - **Error:** transition of a system into an invalid state, caused by a fault.
 - **Fault:** the root cause of an error or failure in the system. Multiple types of faults exist, from easiest to hardest to detect:
-    - **Omission:** Expected response or event does not occur. 
-    - **Crash:** System stops responding entirely.
-    - **Timing:** Response arrives outside the expected timeframe.
-    - **Byzantine:** Responses are erroneous, unpredictable, or malicious.
+	- **Omission:** Expected response or event does not occur. 
+	- **Crash:** System stops responding entirely.
+	- **Timing:** Response arrives outside the expected timeframe.
+	- **Byzantine:** Responses are erroneous, unpredictable, or malicious.
 
 ![[Pasted image 20240512161001.png|350|350]]
 
 
-## Service performance 
+## Service performance
 - At a high level a service can be modeled in terms of availability (readiness to offer a service) and reliability (continuity of correct service)
-- Example scenarios of this trade off:
+- Improving one often has a tradeoff with another eg a system that never crashes but requires frequent maintenance hash high reliability but low availability 
+- This often relies on ==graceful degradation== where total failure is avoided by potentially reducing services (availability). Gives devs time to react
 
-```
 
-```
-## Failure Detection
-- **Fail-stop Detection:** Systems can detect when a component has stopped functioning.
-- **Byzantine Failure Detection:** Systems need mechanisms to handle erratic or malicious ba, which is inherently harder to detect and manage.
-
-### Impossibility of distributed consensus 
+## Impossibility of distributed consensus
 - The only way to detect crash failures is to ping a node and wait for response, however it is impossible to determine how long a wait time is sufficient 
 - There is no way of distinguishing between a crash vs being slow, busy, network delay. Instead an upper bound of wait time needs to relied on
+- This can lead to network partitions if a node comes back online after presumed failure, meaning a system also needs a way to deal with inconsistent states
 
-
-### Common Approaches to Fault Tolerance
-
-- **Replication:** Running multiple copies of a service to ensure availability and reliability.
-- **N-Version Design:** Implementing multiple versions of a system to reduce the likelihood of simultaneous identical failures.
-- **Checkpointing and Operation Logs:** Regularly saving the state of a system to enable recovery from recent checkpoints in case of a failure.
+![[Pasted image 20240512162704.png|300|300]]
+## Fault tolerance approaches
+- [[Replication]]: running multiple copies of a service to ensure availability + reliability.
+- **N-Version Design:** design a system in multiple different ways, reduces the likelihood that all versions will be vulnerable to the same class of error 
+- **Checkpointing / operation logs:** regularly saving the state of a system to enable recovery from recent checkpoints in case of a failure. 
 
 ### Byzantine Fault Tolerance
 
