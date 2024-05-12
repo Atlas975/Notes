@@ -50,7 +50,6 @@ service SearchService {
   rpc Search (SearchRequest) returns (SearchResponse);
 }
 ```
-
 ## Google file system (GFS)
 -  GFS employs a unique architecture where metadata is handled by a master to simplify consistency. This uses a reduced consistency model to improve scalability 
 - Data is stored in chunks across multiple chunk servers. Uses a model where files are typically appended rather than overwritten (useful for history logging and data accumulation)
@@ -60,15 +59,13 @@ service SearchService {
 
 - The fewer chunk servers the easier the job of the master node for coordination, ideally the master node needs to avoid becoming a bottleneck. 
 - These chunks act as redundancy and availability access, when looking for a chunk index the master node can redirect to one close to the client
-- The master must also handle write access, the chunk server itself is responsible for propagating changes made to files to the other replicas
-
+- The master must also handle write access, the chunk server itself is responsible for propagating changes made to files to the other replicas`
 ## MapReduce
-
 - Processes large data sets across distributed servers by dividing tasks into small segments that can be executed [[Concurrency|concurrently]]. Consists of Map, Shuffle, and Reduce phases
 - The API for this allows 3 things to be specified: 
-    1. A data source to be automatically divided up
-    2. A map program
-    3. A reduce program
+	1. A data source to be automatically divided up
+	2. A map program
+	3. A reduce program
 
 ![[Pasted image 20240512233215.png|400|400]]
 
@@ -76,7 +73,7 @@ service SearchService {
 - This is typically handled by a master node which delegates specific nodes to be responsible for performing either map or reduce 
 
 ![[Pasted image 20240512234505.png|400|400]]
-### Map reduce process 
+### Map reduce process
 1. **Map**: takes input data and uses map program to generate key:value pairs 
 
 ![[Pasted image 20240512233632.png|350|350]]
@@ -89,34 +86,20 @@ service SearchService {
 
 ![[Pasted image 20240512233925.png|300|300]]
 
+## Chubby
+- Used primarily for distributed coordination and as a file system for storing small files and locks. Focusing on reliability and availability for a moderately large set of clients.
+- Supports atomic operations like open, close, delete, and basic file reads and writes. Used for various services such as primary elections and a [[Domain_name_server|DNS]] for google services
 
 
+![[Pasted image 20240512234847.png|250|250]]
 
-## Google design goals 
-- **Simplicity:** Focus on doing one thing well, avoid feature rich designs
-- **Performance:** Every millisecond counts; back-of-the-envelope calculations are crucial.
-- **Testing:** Rigorous testing with a strong emphasis on logging and tracing to identify issues
-- **Use of Commodity Hardware:** Opt for the cheapest commodity hardware and manage 
+- Uses [[Paxos]] consensus between it's own replicas using [[Passive_replication|passive replication]], Chubby services itself are accessed through [[Remote_invocation|RPC]]. This also offers [[Caching|caching]], letting chubby notify users of file changes
+- Chubby typically stores metadata of files with it's API providing functions for file operations (eg read/write permissions) and lock management.
 
-### Chubby - Google's Lock Service
+![[Pasted image 20240512235708.png|300|300]]
 
-Chubby provides a lock service that is:
-
-- **Primary Focus:** Reliability and availability for a moderately large set of clients.
-- **Secondary Concerns:** Throughput and storage capacity.
-- **Functionality:** Used primarily for distributed coordination and as a file system for storing small files (e.g., metadata).
-
-#### Features of Chubby
-
-- **Operations:** Supports atomic operations like open, close, delete, and basic file reads and writes.
-- **Use Case:** Typically used for locks held over long periods, supporting tasks like primary elections in distributed systems.
-
-### Chubby's API and System Structure
-
-- **API:** Provides functions for file operations and lock management.
-- **System Structure:** Consists of a small number of replicated servers (usually five), using a consensus protocol to ensure consistency and availability.
-
-### Primary Election Using Chubby
+- Overall Chubby is vital in storin
+### Primary election using Chubby
 
 - Chubby is instrumental in primary elections within distributed systems. It enables a process to acquire a lock to become the primary, with others acting as replicas. This is crucial for systems like GFS and BigTable.
 
