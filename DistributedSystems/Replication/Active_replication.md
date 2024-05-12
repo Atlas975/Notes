@@ -21,4 +21,3 @@ ___
 ## State consistency 
 - The frontend checks for agreement between replicas on response value 
 - This can be used alongside consensus algorithms to combat faulty nodes
-- 

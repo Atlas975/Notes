@@ -64,11 +64,10 @@ onPrepare(n)
 
 - **Multi-Paxos:** used for agreeing on a sequence of values, where Paxos is run multiple times. This struggles with dynamic membership where the quorum is not always known
 - **Configuration:** Often used in systems where a sequence of commands must be agreed upon by all nodes, such as replicated state machines.
+- **Total order multicast**: paxos can be used for consensus and can be converted to solve total order multicast as well. These are formally equivalent problems
 ### Safety and Liveness
 - **Safety:** guarantees that no two nodes make different decisions on the same proposal.
 - **Liveness:** system will eventually make progress in the absence of excessive failures.
-
-## Implications for distributed systems
-
+### Implications for distributed systems
 - Paxos is critical for systems requiring strong consistency and availability in the face of network partitions and node failures. Requires a minimum of 3 nodes
 - Paxos does not support [[Byzantine_generals_problem|Byzantine]] fault tolerance as it assumes that no node makes attempts to subvert the protocol. The protocol only assumes failure is indistinguishable by latency

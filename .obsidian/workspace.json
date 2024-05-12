@@ -372,6 +372,19 @@
             }
           },
           {
+            "id": "6c8eee92d0fde1c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "24c40bdabe06cae0",
             "type": "leaf",
             "state": {
@@ -632,7 +645,7 @@
             }
           }
         ],
-        "currentTab": 27
+        "currentTab": 28
       }
     ],
     "direction": "vertical"
@@ -700,7 +713,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Consensus/Paxos.md"
+                "file": "DistributedSystems/SystemStructure/Peer_to_peer_systems.md"
               }
             }
           }
@@ -736,7 +749,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Consensus/Paxos.md",
+                "file": "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -753,7 +766,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Consensus/Paxos.md",
+                "file": "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -825,8 +838,22 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8485d071eccdba88",
+  "active": "6c8eee92d0fde1c8",
   "lastOpenFiles": [
+    "DistributedSystems/SystemStructure/Untitled.md",
+    "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
+    "DistributedSystems/Distributed_systems.md",
+    "DistributedSystems/SystemStructure/Google_infrastructure.md",
+    "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
+    "DistributedSystems/Replication/Replication.md",
+    "DistributedSystems/Replication/Active_replication.md",
+    "DistributedSystems/Consensus/Two_general_problem.md",
+    "DistributedSystems/Consensus/RAFT.md",
+    "DistributedSystems/Fault_tolerence.md",
+    "DistributedSystems/Distributed_system_security.md",
+    "DistributedSystems/SystemStructure/Cloud_computing.md",
+    "DistributedSystems/SystemStructure/Blockchain.md",
+    "DistributedSystems/Consensus/Paxos.md",
     "XX-Attachments/Images/Pasted image 20240512192216.png",
     "XX-Attachments/Images/Pasted image 20240512190148.png",
     "XX-Attachments/Images/Pasted image 20240512183321.png",
@@ -835,34 +862,20 @@
     "XX-Attachments/Images/Pasted image 20240512182756.png",
     "XX-Attachments/Images/Pasted image 20240512182601.png",
     "XX-Attachments/Images/Pasted image 20240512181043.png",
-    "DistributedSystems/Fault_tolerence.md",
-    "DistributedSystems/Consensus/Paxos.md",
-    "DistributedSystems/Consensus/RAFT.md",
-    "DistributedSystems/Replication/Replication.md",
     "XX-Attachments/Images/Pasted image 20240512174845.png",
     "XX-Attachments/Images/Pasted image 20240512173914.png",
-    "XX-Attachments/Images/Pasted image 20240512173605.png",
     "DistributedSystems/Time_keeping.md",
     "DistributedSystems/Consensus/Byzantine_generals_problem.md",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
-    "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
-    "DistributedSystems/SystemStructure/Blockchain.md",
-    "DistributedSystems/SystemStructure/Cloud_computing.md",
     "DistributedSystems/SystemStructure/Distributed_system_design.md",
     "DistributedSystems/Replication/Passive_replication.md",
     "DistributedSystems/Replication/Untitled.md",
-    "DistributedSystems/Replication/Active_replication.md",
     "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Literal_table.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Lexical_analyser.md",
     "Languages&Compilation/CompilerConstruction/Synthesis/Language_translator.md",
-    "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
-    "Languages&Compilation/CompilerConstruction/Analysis/Semantic_analyser.md",
-    "Languages&Compilation/CompilerConstruction/Analysis/Syntax_analyser.md",
-    "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md",
-    "Languages&Compilation/FiniteAutomata/Subset_construction_algorithm.md",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",

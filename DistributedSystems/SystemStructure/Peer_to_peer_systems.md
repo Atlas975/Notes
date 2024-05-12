@@ -2,6 +2,7 @@
 aliases:
   - P2P
 ---
+
 > [!important]- Metadata
 > **Tags:** #DistributedSystems 
 > **Located:** DistributedSystems
@@ -14,11 +15,13 @@ aliases:
 
 ___
 # Peer to peer systems
-P2P systems are decentralized networks where each node acts both as a client and a server, contributing to and consuming resources within the network.
+- Decentralised networks where each node acts both as a client and a server, contributing to and consuming resources within the network. Unlike client-server, this has a self-scalable property 
+- P2P systems must manage churn (nodes frequently joining and leaving), network divergence, and the risk of freeloading users. However, this is able to avoid the need of always on servers
 
-- **Self-scalable Property:** The network's capacity expands with the addition of each node, potentially increasing the overall system's robustness and resource availability.
-- **Challenges:** P2P systems must manage churn (nodes frequently joining and leaving), network divergence, and the risk of selfish users who consume more resources than they provide.
 
+## P2P Code
+- These systems interact with nodes identical to itself with the same code
+- This can introduce a programming challenge similar to [[Recursion|recursion]] as nodes need to be able to call other instances of itseld
 ### Distributed Hash Tables (DHT)
 
 DHTs are a type of structured P2P network that store key-value pairs across a distributed network of nodes. They support basic operations like `put(key, value)` and `get(key)`.
