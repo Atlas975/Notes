@@ -44,9 +44,7 @@ ___
 
 ![[Pasted image 20240508131838.png|350|350]]
 
-
 ## Security in Layers
-
 - **Network Layer:** Could involve encryption at routers.
 - **Transport Layer:** Uses protocols like SSL/TLS to secure communication.
 - **Middleware / application Layers:** security measures tailored to specific applications / data

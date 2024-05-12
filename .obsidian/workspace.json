@@ -364,7 +364,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Consensus/Paxos.md",
+                "file": "DistributedSystems/Distributed_systems.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -593,6 +593,19 @@
             }
           },
           {
+            "id": "94a8721f624e39ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "77bd4579afba0f1d",
             "type": "leaf",
             "state": {
@@ -645,7 +658,7 @@
             }
           }
         ],
-        "currentTab": 28
+        "currentTab": 45
       }
     ],
     "direction": "vertical"
@@ -713,7 +726,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Peer_to_peer_systems.md"
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md"
               }
             }
           }
@@ -749,7 +762,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -766,7 +779,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -838,22 +851,24 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7e360edef9520ff7",
+  "active": "94a8721f624e39ef",
   "lastOpenFiles": [
-    "DistributedSystems/SystemStructure/Blockchain.md",
-    "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
+    "DistributedSystems/Time_keeping.md",
+    "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
+    "DistributedSystems/Distributed_systems.md",
+    "DistributedSystems/Distributed_system_security.md",
+    "DistributedSystems/SystemStructure/Google_infrastructure.md",
     "DistributedSystems/Consensus/Paxos.md",
+    "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
+    "DistributedSystems/SystemStructure/Blockchain.md",
     "XX-Attachments/Images/Pasted image 20240512194411.png",
     "DistributedSystems/SystemStructure/Untitled.md",
-    "DistributedSystems/Distributed_systems.md",
-    "DistributedSystems/SystemStructure/Google_infrastructure.md",
     "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
     "DistributedSystems/Replication/Replication.md",
     "DistributedSystems/Replication/Active_replication.md",
     "DistributedSystems/Consensus/Two_general_problem.md",
     "DistributedSystems/Consensus/RAFT.md",
     "DistributedSystems/Fault_tolerence.md",
-    "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/SystemStructure/Cloud_computing.md",
     "XX-Attachments/Images/Pasted image 20240512192216.png",
     "XX-Attachments/Images/Pasted image 20240512190148.png",
@@ -864,7 +879,6 @@
     "XX-Attachments/Images/Pasted image 20240512182601.png",
     "XX-Attachments/Images/Pasted image 20240512181043.png",
     "XX-Attachments/Images/Pasted image 20240512174845.png",
-    "DistributedSystems/Time_keeping.md",
     "DistributedSystems/Consensus/Byzantine_generals_problem.md",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
     "DistributedSystems/SystemStructure/Distributed_system_design.md",
@@ -872,7 +886,6 @@
     "DistributedSystems/Replication/Untitled.md",
     "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
-    "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Literal_table.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Lexical_analyser.md",
     "DistributedSystems/Replication",
