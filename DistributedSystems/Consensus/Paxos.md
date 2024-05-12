@@ -12,7 +12,7 @@ ___
 # Paxos
 - A consensus protocol that ensures that multiple parties can agree on a single value even in the presence of failures. Used to achieve reliability in [[Distributed_systems|distributed systems]] through [[Replication|replication]].
 - The value agreed on must be comparable with other values to allow conflicts to be broken, the result being through a series of communication rounds the largest value is agreed one
-- Paxos does not support [[Byzantine_generals_problem|Byzantine]] fault tolerance as it assumes that no node makes attempts to subvert the protocol. The protocol only assumes failure is indistinguishable by latency
+
 ## Paxos Roles
 - **Proposers:** Initiate the agreement process.
 - **Acceptors:** Participate in the agreement to choose a proposal.
@@ -23,15 +23,14 @@ ___
 - These roles can be merged such as with learners commonly being merged with acceptors
 - Each node must also write it's state transitions to disk, allowing for partial recovery upon a crash  
 ## Paxos Process
-
 1. Prepare & Promise
-	- **Proposer** sends a "prepare" request with a unique proposal number.
-	- **Acceptors** respond with a "promise" not to accept lower proposals.
+	- **Proposer** sends a "prepare" request with a unique number (to all nodes including self)
+	- **Acceptors** respond with a "promise" not to accept a lower number.
 
 ![[Pasted image 20240512182601.png|450|450]]
 1. Acceptance
 	- **Proposer** sends "accept" request for proposed value if a majority of acceptors promised.
-	- **Acceptors** accept the proposal if they have not promised to a higher proposal number.
+	- **Acceptors** accept the proposal if they have not promised to a higher proposal number. This is also saved to disk alonside
 
 
 ![[Pasted image 20240512182756.png|450|450]]
@@ -42,10 +41,9 @@ ___
 
 ## Failure resistance
 - **Proposer Failures:** The system continues if there are other proposers. This can still trigger after a promise is sent via a timeout from waiting for the acceptance stage
+- **Acceptor Failures:** As long as a majority of acceptors are functional, the system can continue.
 
 ![[Pasted image 20240512183321.png|450|450]]
-
-- **Acceptor Failures:** As long as a majority of acceptors are functional, the system can continue.
 
 ### Practical Usage of Paxos
 
@@ -57,10 +55,7 @@ ___
 - **Safety:** Paxos guarantees that no two nodes make different decisions on the same proposal.
 - **Liveness:** Paxos ensures that the system will eventually make progress in the absence of excessive failures.
 
-### Implications for Distributed Systems
+## Implications for distributed systems
 
-Paxos is critical for systems requiring strong consistency and availability in the face of network partitions and node failures. It is used in many practical systems to synchronize state, such as in databases and distributed ledgers.
-
-### Summary
-
-Paxos provides a foundation for building reliable distributed systems through consensus. It balances the complexity of ensuring agreement across distributed components with the need for system performance and fault tolerance.
+- Paxos is critical for systems requiring strong consistency and availability in the face of network partitions and node failures. Requires a minimum of 3 nodes
+- Paxos does not support [[Byzantine_generals_problem|Byzantine]] fault tolerance as it assumes that no node makes attempts to subvert the protocol. The protocol only assumes failure is indistinguishable by latency

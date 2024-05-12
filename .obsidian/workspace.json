@@ -365,7 +365,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/Consensus/Paxos.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
