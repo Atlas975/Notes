@@ -17,9 +17,7 @@ ___
 ## Scalability principles
 - **Scalable size:** able to support a massive increase in the number of users
 - **Scalable geography:** operates over global distances, must tackle latency and data consistency 
-
 ## Hardware Platform
-
 - **Commodity Hardware:** utilises standard PCs with modifications, such as a stripped-down version of [[Linux_permissions|Linux]] and significant storage capacity per unit.
 - **Server organisation:** servers are organised into racks with built-in redundancy and connected through multiple switches, forming a cluster.
 - **Storage Scale:** A cluster comprises of thousands of machines, offering petabytes of storage.
@@ -55,17 +53,25 @@ service SearchService {
 
 ## Google file system (GFS)
 -  GFS employs a unique architecture where metadata is handled by a master to simplify consistency. This uses a reduced consistency model to improve scalability 
-- Data is stored in chunks across multiple chunk servers. Uses a model where files are typically appended rather than overwritten (useful for logging and data accumulation)
+- Data is stored in chunks across multiple chunk servers. Uses a model where files are typically appended rather than overwritten (useful for history logging and data accumulation)
 
-### Google File System (GFS) Details
 
-- **Architecture:** Single master with multiple chunk servers; clients interact directly with chunk servers for data operations after initial contact with the master.
-- **Data Handling:** Uses a model where files are typically appended rather than overwritten, which aligns with the common usage patterns at Google, such as logging and data accumulation.
+![[Pasted image 20240512232831.png|450|450]]
 
-### MapReduce
+- The fewer chunk servers the easier the job of the master node for coordination, ideally the master node needs to avoid becoming a bottleneck. 
+- These chunks act as redundancy and availability access, when looking for a chunk index the master node can redirect to one close to the client
+- The master must also handle write access, the chunk server itself is responsible for propagating changes made to files to the other replicas
 
-- **Purpose:** Processes large data sets across distributed servers by dividing tasks into small segments that can be executed concurrently.
-- **Operation:** Consists of Map, Shuffle, and Reduce phases; it efficiently processes tasks by mapping out data processing, shuffling the data to organize it by the key, and then reducing the data to aggregate final results.
+## MapReduce
+
+- Processes large data sets across distributed servers by dividing tasks into small segments that can be executed [[Concurrency|concurrently]]. Consists of Map, Shuffle, and Reduce phases
+- Efficiently processes tasks by mapping out data processing, shuffling the data to organize it by the key, and then reducing the data to aggregate final results.
+
+![[Pasted image 20240512233215.png|400|400]]
+- The API for this allows 3 things to be specified: 
+    1. A data source to be automatically divided up
+    2. A map program
+    3. A reduce program
 - **Use Cases:** Ideal for tasks like large-scale data analysis and batch jobs.
 
 ### Impact and Innovations
