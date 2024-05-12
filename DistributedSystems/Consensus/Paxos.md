@@ -12,6 +12,7 @@ ___
 # Paxos
 - A consensus protocol that ensures that multiple parties can agree on a single value even in the presence of failures. Used to achieve reliability in [[Distributed_systems|distributed systems]] through [[Replication|replication]].
 - The value agreed on must be comparable with other values to allow conflicts to be broken, the result being through a series of communication rounds the largest value is agreed one
+- Paxos does not support [[Byzantine_generals_problem|Byzantine]] fault tolerance as it assumes that no node makes attempts to subvert the protocol. The protocol only assumes failure is indistinguishable by latency
 ## Paxos Roles
 - **Proposers:** Initiate the agreement process.
 - **Acceptors:** Participate in the agreement to choose a proposal.
@@ -24,19 +25,26 @@ ___
 ## Paxos Process
 
 1. Prepare & Promise
-    - **Proposer** sends a "prepare" request with a unique proposal number.
-    - **Acceptors** respond with a "promise" not to accept lower proposals.
-2. Acceptance
-    - **Proposer** sends "accept" request for proposed value if a majority of acceptors promised.
-    - **Acceptors** accept the proposal if they have not promised to a higher proposal number.
+	- **Proposer** sends a "prepare" request with a unique proposal number.
+	- **Acceptors** respond with a "promise" not to accept lower proposals.
 
+![[Pasted image 20240512182601.png|450|450]]
+1. Acceptance
+	- **Proposer** sends "accept" request for proposed value if a majority of acceptors promised.
+	- **Acceptors** accept the proposal if they have not promised to a higher proposal number.
+
+
+![[Pasted image 20240512182756.png|450|450]]
 ### Paxos in operation
 
 - Paxos ensures that if a proposal with a particular number is chosen, then every higher-numbered proposal issued by any proposer will also choose the same value.
 - The protocol typically includes a mechanism for proposers to learn the last value that was agreed upon, to support proposals for subsequent values.
 
-## Failure resistence
-- **Proposer Failures:** The system continues if there are other proposers.
+## Failure resistance
+- **Proposer Failures:** The system continues if there are other proposers. This can still trigger after a promise is sent via a timeout from waiting for the acceptance stage
+
+![[Pasted image 20240512183321.png|450|450]]
+
 - **Acceptor Failures:** As long as a majority of acceptors are functional, the system can continue.
 
 ### Practical Usage of Paxos
