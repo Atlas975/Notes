@@ -658,7 +658,7 @@
             }
           }
         ],
-        "currentTab": 45
+        "currentTab": 28
       }
     ],
     "direction": "vertical"
@@ -726,7 +726,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/CommunicationModels/Indirect_communication.md"
+                "file": "DistributedSystems/SystemStructure/Peer_to_peer_systems.md"
               }
             }
           }
@@ -762,7 +762,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/CommunicationModels/Indirect_communication.md",
+                "file": "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -779,7 +779,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/CommunicationModels/Indirect_communication.md",
+                "file": "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -851,8 +851,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "94a8721f624e39ef",
+  "active": "7e360edef9520ff7",
   "lastOpenFiles": [
+    "DistributedSystems/CommunicationModels/Indirect_communication.md",
     "DistributedSystems/CommunicationModels/Group_communication.md",
     "Statistics/Sample_space.md",
     "Statistics/Mean.md",
@@ -888,7 +889,6 @@
     "XX-Attachments/Images/Pasted image 20240512174845.png",
     "DistributedSystems/Consensus/Byzantine_generals_problem.md",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
-    "DistributedSystems/SystemStructure/Distributed_system_design.md",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",

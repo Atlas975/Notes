@@ -31,5 +31,6 @@ ___
 
 - DHTs are a type of structured P2P network that store key-value pairs across a distributed network of nodes. They support basic [[Hashing|hash]] operations like `put(key, value)` and `get(key)`.
 
-- **Chord Protocol:** An example of a DHT that organizes nodes in a ring-like structure, ensuring data is stored and retrieved efficiently.
-- **Operation:** Nodes are assigned a segment of the hash table based on their hash value, and they store key-value pairs that fall within their segment.
+### Chord protocol 
+- A DHT that organises nodes in a ring-like structure, ensuring data is stored / retrieved efficiently.
+- Nodes are assigned a segment of the hash table based on their IP's hash value, and they store key-value pairs that fall within their segment.
