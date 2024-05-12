@@ -12,11 +12,11 @@ ___
 # Paxos
 Paxos is a consensus protocol that ensures that multiple parties can agree on a single value even in the presence of failures. It is widely used to achieve reliability in distributed systems through replication.
 
-### Assumptions for Paxos
+## Paxos assumptions
 
-- **Node Behavior:** Nodes may operate at arbitrary speeds, fail, recover, and rejoin without attempting to subvert the protocol.
-- **Message Handling:** Messages are sent asynchronously and can be delayed, lost, reordered, or duplicated.
-- **Failure Indistinguishability:** Failures are indistinguishable from latency, requiring the protocol to handle mistaken failure detections.
+- **Node behaviour:** nodes may operate at arbitrary speeds, fail, recover, and rejoin without attempting to subvert the protocol.
+- **Message handling:** Messages sent in [[Concurrency|async]] and can be delayed, lost, reordered, or duplicated.
+- **Failure indistinguishability:** failures are indistinguishable from latency, requiring the protocol to handle mistaken failure detections.
 
 ### Paxos Roles
 

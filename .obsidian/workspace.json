@@ -79,7 +79,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/Replication/Replication.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -338,8 +338,34 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "DistributedSystems/Consensus/RAFT.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "85ff790bc542c89e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "DistributedSystems/Fault_tolerence.md",
-                "mode": "source",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "38a8bdf243715bb6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DistributedSystems/Consensus/Paxos.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -606,7 +632,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 27
       }
     ],
     "direction": "vertical"
@@ -674,7 +700,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Replication/Replication.md"
+                "file": "DistributedSystems/Consensus/Paxos.md"
               }
             }
           }
@@ -710,7 +736,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Replication/Replication.md",
+                "file": "DistributedSystems/Consensus/Paxos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -727,7 +753,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Replication/Replication.md",
+                "file": "DistributedSystems/Consensus/Paxos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -799,11 +825,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "315660b3dfbd3ae9",
+  "active": "38a8bdf243715bb6",
   "lastOpenFiles": [
-    "XX-Attachments/Images/Pasted image 20240512174845.png",
     "DistributedSystems/Fault_tolerence.md",
+    "DistributedSystems/Consensus/RAFT.md",
     "DistributedSystems/Replication/Replication.md",
+    "XX-Attachments/Images/Pasted image 20240512174845.png",
     "XX-Attachments/Images/Pasted image 20240512173914.png",
     "XX-Attachments/Images/Pasted image 20240512173605.png",
     "DistributedSystems/Time_keeping.md",
@@ -823,7 +850,6 @@
     "XX-Attachments/Images/Pasted image 20240512005312.png",
     "DistributedSystems/Replication/Active_replication.md",
     "XX-Attachments/Images/Pasted image 20240512004713.png",
-    "XX-Attachments/Images/Pasted image 20240512004216.png",
     "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",

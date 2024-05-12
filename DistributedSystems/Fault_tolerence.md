@@ -41,36 +41,28 @@ ___
 - **N-Version Design:** design a system in multiple different ways, reduces the likelihood that all versions will be vulnerable to the same class of error 
 - **Checkpointing / operation logs:** regularly saving the state of a system to enable recovery from recent checkpoints in case of a failure. 
 ## Message ordering
-- Message ordering is critical in distributed systems to ensure consistency and reliability, especially when using replication for fault tolerance. Strict message ordering comes with high complexity
+- Message ordering is critical in distributed systems to ensure consistency and reliability, especially when using replication for fault tolerance. 
 - This refers to the order at which messages arrive at the application layer. The [[Group_communication|group communication]] middleware can optionally buffer and re-order messages 
+- Depending on the ordering scheme more or less flexibility can be given as to how replicas receive new messages, strict message ordering comes with high complexity
 
 ![[Pasted image 20240512172235.png|200|200]]
 
 
-### Message ordering schemes 
+### Message ordering schemes
 - **No ordering:** messages are processed as they arrive, regardless of their order. With stateful systems this is challenging to reorder due to needing synced [[Time_keeping|timestamps]]
-
 - **FIFO:** messages from the same sender are processed in the order they were sent. This gives partial ordering and can easily be handled by logical timestamps / sequence numbers 
 
 ![[Pasted image 20240512173605.png|200|200]]
 - **Causal ordering:** Messages are processed according to causal (happens-before) relationships (if it exists), irrespective of their send order. Offers partial ordering
-- **Total ordering:** all messages are processed in the same strict order by all processes. This requires distributed consensus by all processes for a ordering scheme (needs a central leader)
+- **Total ordering:** all messages are processed in the same strict order by all processes. This requires distributed consensus by all processes for a ordering scheme (needs a central leader). Leaders typically multicast new messages via FIFO ordering
 
 ![[Pasted image 20240512173914.png|350|350]]
 
 
 
-### Consensus Algorithms
+## Consensus Algorithms
+- Consensus is necessary when multiple nodes must agree on a single data value or a sequence of events in a distributed system. Key consensus algorithms include:
+	- [[Paxos]]: A protocol that ensures consensus even in the presence of failures.
+	- [[RAFT]]: A more understandable and easier to implement version of Paxos
+- Note that consensus isn't guaranteed if the majority of nodes fails. However, most consensus algorithms are guarantee to avoid situations where 2+ values are agreed on at the same time
 
-Consensus is necessary when multiple nodes must agree on a single data value or a sequence of events in a distributed system. Key consensus algorithms include:
-
-- **Paxos:** A protocol that ensures consensus even in the presence of failures.
-- **Raft:** Similar to Paxos but designed to be more understandable and easier to implement correctly.
-
-### Practical Implications
-
-The choice of message ordering and consensus algorithm can significantly impact the performance, reliability, and scalability of distributed systems. Systems must balance the need for strict ordering and consensus with the potential overhead introduced by these protocols.
-
-### Conclusion
-
-Understanding message ordering and consensus algorithms is essential for designing robust fault-tolerant systems. These concepts help ensure that distributed systems can continue to function correctly even in the presence of node failures or network issues.
