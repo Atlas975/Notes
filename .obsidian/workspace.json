@@ -372,13 +372,13 @@
             }
           },
           {
-            "id": "6c8eee92d0fde1c8",
+            "id": "7e360edef9520ff7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -838,10 +838,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6c8eee92d0fde1c8",
+  "active": "7e360edef9520ff7",
   "lastOpenFiles": [
-    "DistributedSystems/SystemStructure/Untitled.md",
+    "DistributedSystems/SystemStructure/Blockchain.md",
     "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
+    "DistributedSystems/Consensus/Paxos.md",
+    "XX-Attachments/Images/Pasted image 20240512194411.png",
+    "DistributedSystems/SystemStructure/Untitled.md",
     "DistributedSystems/Distributed_systems.md",
     "DistributedSystems/SystemStructure/Google_infrastructure.md",
     "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
@@ -852,8 +855,6 @@
     "DistributedSystems/Fault_tolerence.md",
     "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/SystemStructure/Cloud_computing.md",
-    "DistributedSystems/SystemStructure/Blockchain.md",
-    "DistributedSystems/Consensus/Paxos.md",
     "XX-Attachments/Images/Pasted image 20240512192216.png",
     "XX-Attachments/Images/Pasted image 20240512190148.png",
     "XX-Attachments/Images/Pasted image 20240512183321.png",
@@ -863,7 +864,6 @@
     "XX-Attachments/Images/Pasted image 20240512182601.png",
     "XX-Attachments/Images/Pasted image 20240512181043.png",
     "XX-Attachments/Images/Pasted image 20240512174845.png",
-    "XX-Attachments/Images/Pasted image 20240512173914.png",
     "DistributedSystems/Time_keeping.md",
     "DistributedSystems/Consensus/Byzantine_generals_problem.md",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
@@ -875,7 +875,6 @@
     "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Literal_table.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Lexical_analyser.md",
-    "Languages&Compilation/CompilerConstruction/Synthesis/Language_translator.md",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",

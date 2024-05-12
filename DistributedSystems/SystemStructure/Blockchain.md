@@ -41,8 +41,9 @@ ___
 
 ![[Pasted image 20240511195630.png|400|400]]
 
-- This is done with a brute force attack but the result is easy to verify 
+- This is done with a brute force attack but the result is easy to verify. 
 - Double-spending is avoided by having each miner verify the entire chain of transactions
+- Performing the PoW often includes a reward for the miner as incentive, this helps remedy the freeloader problem common in [[Peer_to_peer_systems|P2P]] systems 
 ## Transactions
 - Bitcoin is a common example of a transaction based blockchain, a coin in this system is a chain of digital signatures. Anyone can follow transaction history and verify transactions 
 - Nodes must reach consensus on the transactions to be included in the blockchain to prevent issues like double-spending.

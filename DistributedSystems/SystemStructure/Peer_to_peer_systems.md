@@ -16,15 +16,20 @@ aliases:
 ___
 # Peer to peer systems
 - Decentralised networks where each node acts both as a client and a server, contributing to and consuming resources within the network. Unlike client-server, this has a self-scalable property 
-- P2P systems must manage churn (nodes frequently joining and leaving), network divergence, and the risk of freeloading users. However, this is able to avoid the need of always on servers
-
-
-## P2P Code
+- P2P systems must manage churn (nodes frequently joining and leaving), [[Network_architecture|network]] divergence, and the risk of freeloading users. However, this is able to avoid the need of always on servers
+## P2P code
 - These systems interact with nodes identical to itself with the same code
-- This can introduce a programming challenge similar to [[Recursion|recursion]] as nodes need to be able to call other instances of itseld
-### Distributed Hash Tables (DHT)
+- This can introduce a programming challenge similar to [[Recursion|recursion]] as nodes need to be able to call other instances of itself. Making P2P code challenging to understand
 
-DHTs are a type of structured P2P network that store key-value pairs across a distributed network of nodes. They support basic operations like `put(key, value)` and `get(key)`.
+## P2P joining 
+- All P2P systems have to have well-known nodes that act as an entry point to the system to join
+- Often implemented with a fixed server or an advertised list of common [[Internet_protocol|IPs]]
+- More recent implementations of P2P entry may use [[Domain_name_server|DNS]] to obtain well known peers
+
+![[Pasted image 20240512194411.png|450|450]]
+## Distributed Hash Tables (DHT)
+
+- DHTs are a type of structured P2P network that store key-value pairs across a distributed network of nodes. They support basic [[Hashing|hash]] operations like `put(key, value)` and `get(key)`.
 
 - **Chord Protocol:** An example of a DHT that organizes nodes in a ring-like structure, ensuring data is stored and retrieved efficiently.
 - **Operation:** Nodes are assigned a segment of the hash table based on their hash value, and they store key-value pairs that fall within their segment.
