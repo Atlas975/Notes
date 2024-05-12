@@ -79,7 +79,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/SystemStructure/Google_infrastructure.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -424,6 +424,12 @@
   },
   "active": "3963415990908717",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240512234505.png",
+    "XX-Attachments/Images/Pasted image 20240512233925.png",
+    "XX-Attachments/Images/Pasted image 20240512233731.png",
+    "XX-Attachments/Images/Pasted image 20240512233723.png",
+    "XX-Attachments/Images/Pasted image 20240512233632.png",
+    "XX-Attachments/Images/Pasted image 20240512233620.png",
     "XX-Attachments/Images/Pasted image 20240512233215.png",
     "XX-Attachments/Images/Pasted image 20240512232831.png",
     "XX-Attachments/Images/Pasted image 20240512232153.png",
@@ -431,15 +437,9 @@
     "XX-Attachments/Images/Pasted image 20240512231014.png",
     "DistributedSystems/Remote_invocation.md",
     "DistributedSystems/SystemStructure/Google_infrastructure.md",
-    "XX-Attachments/Images/Pasted image 20240512230044.png",
     "DistributedSystems/Fault_tolerence.md",
-    "XX-Attachments/Images/Pasted image 20240512225943.png",
     "DistributedSystems/SystemStructure/Cloud_computing.md",
-    "XX-Attachments/Images/Pasted image 20240512224816.png",
     "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
-    "XX-Attachments/Images/Pasted image 20240512224419.png",
-    "XX-Attachments/Images/Pasted image 20240512223836.png",
-    "XX-Attachments/Images/Pasted image 20240512222659.png",
     "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/Consensus/Byzantine_generals_problem.md",
     "Cybersecurity/Network_security.md",

@@ -65,28 +65,38 @@ service SearchService {
 ## MapReduce
 
 - Processes large data sets across distributed servers by dividing tasks into small segments that can be executed [[Concurrency|concurrently]]. Consists of Map, Shuffle, and Reduce phases
-- Efficiently processes tasks by mapping out data processing, shuffling the data to organize it by the key, and then reducing the data to aggregate final results.
-
-![[Pasted image 20240512233215.png|400|400]]
 - The API for this allows 3 things to be specified: 
     1. A data source to be automatically divided up
     2. A map program
     3. A reduce program
-- **Use Cases:** Ideal for tasks like large-scale data analysis and batch jobs.
 
-### Impact and Innovations
+![[Pasted image 20240512233215.png|400|400]]
 
-Google's development practices have significantly influenced the broader field of distributed computing, inspiring technologies such as Hadoop and Apache Spark, which mimic or build upon the principles seen in Google's approaches to handling large-scale data processing.
+- This is ideal for tasks like large-scale data analysis and batch jobs.
+- This is typically handled by a master node which delegates specific nodes to be responsible for performing either map or reduce 
+
+![[Pasted image 20240512234505.png|400|400]]
+### Map reduce process 
+1. **Map**: takes input data and uses map program to generate key:value pairs 
+
+![[Pasted image 20240512233632.png|350|350]]
+
+2. **Shuffle**: groups all values that have the same key, placing them at the same worker node 
+
+![[Pasted image 20240512233731.png|300|300]]
+
+3. **Reduce**: turns a key:value-list and outputs a single key:value pair
+
+![[Pasted image 20240512233925.png|300|300]]
 
 
-### Key Design Philosophies at Google
 
-Google’s infrastructure design emphasizes:
 
-- **Simplicity:** Focus on doing one thing well.
+## Google design goals 
+- **Simplicity:** Focus on doing one thing well, avoid feature rich designs
 - **Performance:** Every millisecond counts; back-of-the-envelope calculations are crucial.
-- **Testing:** Rigorous testing with a strong emphasis on logging and tracing to identify and resolve issues.
-- **Use of Commodity Hardware:** Opt for the cheapest commodity hardware and manage risk through software resilience.
+- **Testing:** Rigorous testing with a strong emphasis on logging and tracing to identify issues
+- **Use of Commodity Hardware:** Opt for the cheapest commodity hardware and manage 
 
 ### Chubby - Google's Lock Service
 
