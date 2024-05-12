@@ -333,6 +333,19 @@
             }
           },
           {
+            "id": "0cfa908ad87503ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DistributedSystems/Fault_tolerence.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "24c40bdabe06cae0",
             "type": "leaf",
             "state": {
@@ -593,7 +606,7 @@
             }
           }
         ],
-        "currentTab": 24
+        "currentTab": 25
       }
     ],
     "direction": "vertical"
@@ -661,7 +674,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Consensus/Byzantine_generals_problem.md"
+                "file": "DistributedSystems/Fault_tolerence.md"
               }
             }
           }
@@ -697,7 +710,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Consensus/Byzantine_generals_problem.md",
+                "file": "DistributedSystems/Fault_tolerence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -714,7 +727,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Consensus/Byzantine_generals_problem.md",
+                "file": "DistributedSystems/Fault_tolerence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -786,13 +799,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8ecd2cef7abd6ddc",
+  "active": "0cfa908ad87503ed",
   "lastOpenFiles": [
+    "DistributedSystems/Consensus/Byzantine_generals_problem.md",
     "XX-Attachments/Images/Pasted image 20240512163325.png",
     "XX-Attachments/Images/Pasted image 20240512163245.png",
     "DistributedSystems/Fault_tolerence.md",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
-    "DistributedSystems/Consensus/Byzantine_generals_problem.md",
     "XX-Attachments/Images/Pasted image 20240512162704.png",
     "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
     "XX-Attachments/Images/Pasted image 20240512161001.png",
@@ -823,7 +836,6 @@
     "XX-Attachments/Images/Pasted image 20240511201223.png",
     "XX-Attachments/Images/Pasted image 20240511195630.png",
     "XX-Attachments/Images/Pasted image 20240511195253.png",
-    "XX-Attachments/Images/Pasted image 20240511194907.png",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",

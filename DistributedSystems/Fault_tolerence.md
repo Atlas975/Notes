@@ -15,7 +15,7 @@ ___
 ## Fault tolerance terms
 - **Failure:** inability of a system component to perform its required function.
 - **Error:** transition of a system into an invalid state, caused by a fault.
-- **Fault:** the root cause of an error or failure in the system. Multiple types of faults exist, from easiest to hardest to detect:
+- **Fault:** the root cause of an error or failure in the system. From easiest to hardest to detect:
 	- **Omission:** Expected response or event does not occur. 
 	- **Crash:** System stops responding entirely.
 	- **Timing:** Response arrives outside the expected timeframe.
@@ -41,21 +41,14 @@ ___
 - **N-Version Design:** design a system in multiple different ways, reduces the likelihood that all versions will be vulnerable to the same class of error 
 - **Checkpointing / operation logs:** regularly saving the state of a system to enable recovery from recent checkpoints in case of a failure. 
 
-### Byzantine Fault Tolerance
 
-- Handling Byzantine faults, characterized by arbitrary and potentially malicious faults, requires sophisticated algorithms and multiple system redundancies. The solution often involves using a formula of 3𝑓+1 servers, where 𝑓 is the maximum number of tolerable faults.
-
-### Practical Application and Challenges
-
-- **Passive vs. Active Replication:** Choosing between these depends on the specific needs for fault tolerance, response time, and system complexity.
-- **Byzantine Generals Problem:** A theoretical representation of the challenges in achieving reliable consensus in a network with faulty nodes.
 
 ### Overview of Message Ordering and Consensus in Fault Tolerance
 
 This session expands on replication schemes for fault tolerance by introducing message ordering in group communications and consensus algorithms crucial for maintaining consistency across distributed systems.
 
 ### Message Ordering in Group Communications
-
+- The 
 Message ordering is critical in distributed systems to ensure consistency and reliability, especially when using replication for fault tolerance.
 
 **Types of Message Ordering:**
