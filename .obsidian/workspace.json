@@ -47,6 +47,19 @@
             }
           },
           {
+            "id": "a27730ab09b88c18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DistributedSystems/Consensus/Paxos.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ea2d1196817eeeab",
             "type": "leaf",
             "state": {
@@ -79,7 +92,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/SystemStructure/Google_infrastructure.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -229,7 +242,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -297,7 +310,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Google_infrastructure.md"
+                "file": "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md"
               }
             }
           }
@@ -333,7 +346,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Google_infrastructure.md",
+                "file": "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -350,7 +363,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Google_infrastructure.md",
+                "file": "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -422,10 +435,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3963415990908717",
+  "active": "4abdb569fa4f80a1",
   "lastOpenFiles": [
+    "DistributedSystems/Consensus/Paxos.md",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
     "DistributedSystems/SystemStructure/Google_infrastructure.md",
+    "XX-Attachments/Images/Pasted image 20240513002937.png",
+    "XX-Attachments/Images/Pasted image 20240513002441.png",
+    "XX-Attachments/Images/Pasted image 20240513002204.png",
     "XX-Attachments/Images/Pasted image 20240513000752.png",
     "XX-Attachments/Images/Pasted image 20240512235708.png",
     "XX-Attachments/Images/Pasted image 20240512234847.png",
@@ -433,9 +450,6 @@
     "XX-Attachments/Images/Pasted image 20240512233925.png",
     "XX-Attachments/Images/Pasted image 20240512233731.png",
     "XX-Attachments/Images/Pasted image 20240512233723.png",
-    "XX-Attachments/Images/Pasted image 20240512233632.png",
-    "XX-Attachments/Images/Pasted image 20240512233620.png",
-    "XX-Attachments/Images/Pasted image 20240512233215.png",
     "DistributedSystems/Remote_invocation.md",
     "DistributedSystems/Fault_tolerence.md",
     "DistributedSystems/SystemStructure/Cloud_computing.md",
@@ -456,10 +470,8 @@
     "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
     "DistributedSystems/Time_keeping.md",
     "DistributedSystems/Distributed_systems.md",
-    "DistributedSystems/Consensus/Paxos.md",
     "DistributedSystems/SystemStructure/Blockchain.md",
     "DistributedSystems/SystemStructure/Untitled.md",
-    "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",

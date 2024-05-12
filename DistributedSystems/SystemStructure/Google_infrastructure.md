@@ -17,6 +17,8 @@ ___
 ## Scalability principles
 - **Scalable size:** able to support a massive increase in the number of users
 - **Scalable geography:** operates over global distances, must tackle latency and data consistency 
+
+![[Pasted image 20240513002937.png|400|400]]
 ## Hardware Platform
 - **Commodity Hardware:** utilises standard PCs with modifications, such as a stripped-down version of [[Linux_permissions|Linux]] and significant storage capacity per unit.
 - **Server organisation:** servers are organised into racks with built-in redundancy and connected through multiple switches, forming a cluster.
@@ -107,19 +109,13 @@ service SearchService {
 
 ## Bigtable
 
-- A large-scale, non-relational, distributed database optimised for Google's infrastructure.
-- Uses a master to manage tablet servers, which store data in structured formats optimized for performance and scalability.
+- A large-scale, non-relational (no[[SQL_language|SQL]]), distributed database optimised for Google's infrastructure. Built upon GFS and Chubby. Optimised for flat files
+- Uses a master to manage tablet servers, which store data in structured formats optimised for performance and scalability. Load balancing is based on tablet use frequency
 
-#### Features of Bigtable
 
-- **Data Model:** Handles semi-structured data across large numbers of tablets, supporting billions of rows and thousands of columns.
-- **Usage:** Integral to Google products like Search, Maps, and Analytics, due to its efficient data handling capabilities.
+![[Pasted image 20240513002441.png|350|350]]
 
-### Integration with Other Google Systems
+- Organises data in a table format which is indexed by a row key, column key, and a timestamp; each value in the table is an uninterpreted array of bytes.
+- The row keys are strings sorted in lexicographic order, which allows queries to retrieve or update data contiguously stored in a row. Integrates well with MapReduce  
 
-- **Chubby and Bigtable:** Use Chubby for lock management and configuration storage.
-- **GFS and Bigtable:** Bigtable is built on top of the Google File System (GFS) to manage the massive data storage requirements.
-
-### Design Considerations and Trade-offs
-
-- **Scalability vs. Consistency:** Google’s systems often favor scalability and performance over strict consistency, using innovative data storage and coordination services to manage these trade-offs effectively.
+![[Pasted image 20240513002204.png|350|350]]
