@@ -53,7 +53,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/SystemStructure/Cloud_computing.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -190,7 +190,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Peer_to_peer_systems.md"
+                "file": "DistributedSystems/SystemStructure/Cloud_computing.md"
               }
             }
           }
@@ -294,7 +294,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
+                "file": "DistributedSystems/SystemStructure/Cloud_computing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -311,7 +311,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
+                "file": "DistributedSystems/SystemStructure/Cloud_computing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -383,8 +383,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4a4ca8316e60b3b9",
+  "active": "ea2d1196817eeeab",
   "lastOpenFiles": [
+    "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
+    "XX-Attachments/Images/Pasted image 20240512224419.png",
+    "XX-Attachments/Images/Pasted image 20240512223836.png",
     "XX-Attachments/Images/Pasted image 20240512222659.png",
     "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/Consensus/Byzantine_generals_problem.md",
@@ -393,7 +396,6 @@
     "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
     "DistributedSystems/SystemStructure/Google_infrastructure.md",
     "DistributedSystems/SystemStructure/Distributed_system_design.md",
-    "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
     "DistributedSystems/CommunicationModels/Indirect_communication.md",
     "DistributedSystems/CommunicationModels/Group_communication.md",
     "Statistics/Sample_space.md",
@@ -418,9 +420,6 @@
     "XX-Attachments/Images/Pasted image 20240512183224.png",
     "XX-Attachments/Images/Pasted image 20240512183127.png",
     "XX-Attachments/Images/Pasted image 20240512182756.png",
-    "XX-Attachments/Images/Pasted image 20240512182601.png",
-    "XX-Attachments/Images/Pasted image 20240512181043.png",
-    "XX-Attachments/Images/Pasted image 20240512174845.png",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",

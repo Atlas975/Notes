@@ -30,11 +30,15 @@ ___
 ## Distributed Hash Tables (DHT)
 - DHTs are a type of structured P2P network that store key-value pairs across a distributed network of nodes. They support basic [[Hashing|hash]] operations like `put(key, value)` and `get(key)`.
 - These efficiently manage large volumes of data across nodes, enhancing the system's resilience and reliability by avoiding single points of failure and performance bottlenecks
-- Nodes are assigned a segment of the hash table based on their IP's hash value, and they store key-value pairs that fall within their segment.
 
 ### Chord protocol
 - A DHT that organises nodes in a ring-like structure, ensuring data is stored / retrieved efficiently.
 - Each node maintains a [[Network_architecture|network]] connection to a successor (s) and predecessor (p) node in the DHT key space. The Chord [[Network_topology|topology]]  protocol takes care of placing these nodes
 
 
-![[Pasted image 20240512222659.png|400|400]]
+![[Pasted image 20240512223836.png|450|450]]
+
+- Nodes are assigned a segment of the hash table based on their IP's hash value, and they store key-value pairs that fall within their range segment (predecessor ID : node ID)
+- This scales poorly so finger tables are used as well, with each node also containing links to an exponentially increasing jump to another node. Time complexity goes from `n -> log(n)`
+
+![[Pasted image 20240512224419.png|550|550]]

@@ -11,13 +11,13 @@
 ___
 # Cloud computing
 
-Cloud computing provides on-demand access to shared computing resources, allowing users to obtain and configure virtual servers and other services with minimal interaction with the service provider.
+- Provides on-demand leasing of computing resources, allowing users to obtain and configure [[Virtualisation|virtual]] servers and other services with minimal interaction with the service provider.
 
-- **Characteristics:** Highly scalable, on-demand resources that can be quickly provisioned and released.
+- Highly scalable, on-demand resources that can be quickly provisioned and released.
 - **Types of Services:**
-    - **Software as a Service (SaaS):** Offers software applications over the internet.
-    - **Platform as a Service (PaaS):** Provides a platform allowing customers to develop, run, and manage applications.
-    - **Infrastructure as a Service (IaaS):** Provides fundamental computing resources such as virtualized physical hardware.
+	- **Software as a Service (SaaS):** Offers software applications over the internet.
+	- **Platform as a Service (PaaS):** Provides a platform allowing customers to develop, run, and manage applications.
+	- **Infrastructure as a Service (IaaS):** Provides fundamental computing resources such as virtualized physical hardware.
 
 ### Fog Computing
 
