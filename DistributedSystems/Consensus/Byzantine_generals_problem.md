@@ -17,10 +17,12 @@ ___
 ![[Pasted image 20240507121653.png|400|400]]
 
 ## Lamport's algorithm 
-- The problem can be solved if more than two-thirds of the generals are loyal. This ensures a single traitor cannot confuse two loyal generals.
+- The problem can be solved if more than two-thirds of the generals are loyal. This ensures a single traitor cannot make two honest generals take different actions
 - Lamport's algorithm Introduces the use of more communication rounds among generals to resolve conflicts and discrepancies caused by traitors.
 
 ![[Pasted image 20240507122429.png|450|450]]
 
 - In addition to what's heard from a commander, lieutenants also share what they heard from each other. Performing a majority vote consensus using these shared matrices 
 - With a minimum of $(2f +1)$ honest nods, and $(f+1)$ rounds of communication, fault tolerance can be achieved ($f$ being the number of faulty nodes, $\geq{}3f +1$ required overall) 
+
+![[Pasted image 20240512163325.png|450|450]]
