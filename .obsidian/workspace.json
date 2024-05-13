@@ -294,7 +294,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -362,7 +362,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/CommunicationModels/Group_communication.md"
+                "file": "DistributedSystems/SystemStructure/Peer_to_peer_systems.md"
               }
             }
           }
@@ -398,7 +398,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/CommunicationModels/Group_communication.md",
+                "file": "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -415,7 +415,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/CommunicationModels/Group_communication.md",
+                "file": "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -487,10 +487,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a27730ab09b88c18",
+  "active": "4a4ca8316e60b3b9",
   "lastOpenFiles": [
-    "DistributedSystems/Time_keeping.md",
     "DistributedSystems/CommunicationModels/Group_communication.md",
+    "DistributedSystems/Time_keeping.md",
     "DistributedSystems/Consensus/RAFT.md",
     "DistributedSystems/Consensus/Paxos.md",
     "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
