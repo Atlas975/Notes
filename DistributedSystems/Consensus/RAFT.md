@@ -11,19 +11,26 @@
 ___
 # RAFT
 - A consensus protocol designed to be more understandable than [[Paxos|Multi-Paxos]]. It ensures that multiple replicas agree on the sequence and state of log entries in a [[Distributed_systems|distributed system]]
-- Crucial for maintaining a consistent replicated state machine with totally-ordered client requests
+- Crucial for maintaining a consistent replicated state machine with totally-ordered client requests. 
+## RAFT leader 
+- RAFT is a leader driven protocol, with the leader chosen through an election system. 
+- The leader is responsible for the following: 
+    - Accepting client requests and replicating them across replicas
+    - Telling other replicas when it's safe to commit log entries (using [[Remote_invocation|RPC]])
+    - Ensuring that if any log is already committed, it will eventually be present in the logs of all other replicas using the same log index (index is never rewritten)
+- Log entries also contain a term number. This indicates which leader committed these logs. This term is used as a [[Time_keeping|logical clock]]. Replicas on older term numbers can have messages ignored 
 
-### Key Features of RAFT
+![[Pasted image 20240513131349.png|250|250]]
 
-- **Leader Election:** RAFT dynamically elects a leader to manage the log replication across all other servers, ensuring that the leader's log is replicated on all followers.
-- **Log Replication:** The leader takes client requests, turns them into log entries, and works to keep the logs consistent across all follower servers.
-- **Safety:** Ensures that if any server has applied a log entry to its state machine, then that log entry is committed and will eventually be present in the logs of all other servers.
 
+### RAFT election
+- Replicas start as followers. A follower can become a candidate leader if it suspects there is no viable leader, which could happen if it stops receiving heartbeats from the leader.
+- Candidates request votes from other replicas. Becoming the leader if it gains a majority quorum
+
+![[Pasted image 20240513132109.png|350|350]]
 ### RAFT Operations
 
 - **Election Process:**
-    - Servers start as followers. A follower can become a candidate if it suspects there is no viable leader, which could happen if it stops receiving heartbeats from the leader.
-    - Candidates request votes from other servers. If a candidate gains a majority of votes, it becomes the leader.
     - Terms are used to measure time in RAFT, and each term starts with an election.
 - **Log Management:**
     - The leader accepts client commands, appends them to its log, and then replicates these entries across its followers.

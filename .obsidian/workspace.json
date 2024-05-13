@@ -66,7 +66,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/Consensus/RAFT.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -463,6 +463,10 @@
   },
   "active": "0fffea345a7d22bb",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240513132109.png",
+    "XX-Attachments/Images/Pasted image 20240513131349.png",
+    "DistributedSystems/Consensus/Paxos.md",
+    "DistributedSystems/Consensus/RAFT.md",
     "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/Distributed_systems.md",
     "DistributedSystems/Fault_tolerence.md",
@@ -474,8 +478,6 @@
     "DistributedSystems/SystemStructure/Cloud_computing.md",
     "DistributedSystems/Replication/Replication.md",
     "DistributedSystems/Consensus/Two_general_problem.md",
-    "DistributedSystems/Consensus/RAFT.md",
-    "DistributedSystems/Consensus/Paxos.md",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
     "Cybersecurity/Cryptography.md",
     "XX-Attachments/Images/Pasted image 20240513122556.png",
@@ -488,7 +490,6 @@
     "XX-Attachments/Images/Pasted image 20240513110047.png",
     "DistributedSystems/Consensus/Byzantine_generals_problem.md",
     "XX-Attachments/Images/Pasted image 20240513002937.png",
-    "XX-Attachments/Images/Pasted image 20240513002441.png",
     "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
     "Cybersecurity/Network_security.md",
     "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
@@ -498,7 +499,6 @@
     "Statistics/Mean.md",
     "Statistics/Bayes_theorem.md",
     "DataStructures/CacheStructures/LRU.md",
-    "DataStructures/CacheStructures/LFU.md",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",
