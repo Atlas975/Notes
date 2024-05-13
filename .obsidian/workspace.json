@@ -208,7 +208,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Replication/Active_replication.md",
+                "file": "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -349,7 +349,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Replication/Active_replication.md"
+                "file": "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md"
               }
             }
           }
@@ -384,7 +384,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Replication/Active_replication.md",
+                "file": "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -401,7 +401,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Replication/Active_replication.md",
+                "file": "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -475,20 +475,20 @@
   },
   "active": "5614e5e9c0e4bb04",
   "lastOpenFiles": [
+    "DistributedSystems/Replication/Replication.md",
+    "DistributedSystems/Replication/Passive_replication.md",
+    "DistributedSystems/Replication/Active_replication.md",
     "DistributedSystems/Fault_tolerence.md",
     "DistributedSystems/Distributed_systems.md",
     "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/SystemStructure/Distributed_system_design.md",
     "DistributedSystems/SystemStructure/Cloud_computing.md",
-    "DistributedSystems/Replication/Replication.md",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
     "XX-Attachments/Images/Pasted image 20240513165230.png",
     "DistributedSystems/Consensus/Paxos.md",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
     "DistributedSystems/SystemStructure/Blockchain.md",
-    "DistributedSystems/Replication/Active_replication.md",
-    "DistributedSystems/Replication/Passive_replication.md",
     "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
     "DistributedSystems/Software_containment.md",
     "DistributedSystems/SystemStructure/Google_infrastructure.md",
