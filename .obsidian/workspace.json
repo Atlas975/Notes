@@ -294,7 +294,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -362,7 +362,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Time_keeping.md"
+                "file": "DistributedSystems/CommunicationModels/Group_communication.md"
               }
             }
           }
@@ -370,7 +370,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -397,7 +398,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Time_keeping.md",
+                "file": "DistributedSystems/CommunicationModels/Group_communication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -414,7 +415,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Time_keeping.md",
+                "file": "DistributedSystems/CommunicationModels/Group_communication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -486,8 +487,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0866ac90769c4224",
+  "active": "a27730ab09b88c18",
   "lastOpenFiles": [
+    "DistributedSystems/Time_keeping.md",
     "DistributedSystems/CommunicationModels/Group_communication.md",
     "DistributedSystems/Consensus/RAFT.md",
     "DistributedSystems/Consensus/Paxos.md",
@@ -503,7 +505,6 @@
     "DistributedSystems/Fault_tolerence.md",
     "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/Remote_invocation.md",
-    "DistributedSystems/Time_keeping.md",
     "DistributedSystems/Software_containment.md",
     "DistributedSystems/Replication/Active_replication.md",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
