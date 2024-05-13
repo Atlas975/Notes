@@ -208,7 +208,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
+                "file": "DistributedSystems/Time_keeping.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -349,7 +349,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md"
+                "file": "DistributedSystems/Time_keeping.md"
               }
             }
           }
@@ -357,8 +357,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -385,7 +384,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
+                "file": "DistributedSystems/Time_keeping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -402,7 +401,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
+                "file": "DistributedSystems/Time_keeping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -476,12 +475,16 @@
   },
   "active": "5614e5e9c0e4bb04",
   "lastOpenFiles": [
+    "DistributedSystems/Remote_invocation.md",
+    "DistributedSystems/Distributed_system_security.md",
+    "DistributedSystems/Software_containment.md",
+    "DistributedSystems/Distributed_systems.md",
+    "DistributedSystems/SystemStructure/Google_infrastructure.md",
+    "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
     "DistributedSystems/Replication/Replication.md",
     "DistributedSystems/Replication/Passive_replication.md",
     "DistributedSystems/Replication/Active_replication.md",
     "DistributedSystems/Fault_tolerence.md",
-    "DistributedSystems/Distributed_systems.md",
-    "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/SystemStructure/Distributed_system_design.md",
     "DistributedSystems/SystemStructure/Cloud_computing.md",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
@@ -490,9 +493,6 @@
     "DistributedSystems/Consensus/Paxos.md",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
     "DistributedSystems/SystemStructure/Blockchain.md",
-    "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
-    "DistributedSystems/Software_containment.md",
-    "DistributedSystems/SystemStructure/Google_infrastructure.md",
     "XX-Attachments/Images/Pasted image 20240513162236.png",
     "XX-Attachments/Images/Pasted image 20240513161842.png",
     "XX-Attachments/Images/Pasted image 20240513161654.png",
@@ -501,7 +501,6 @@
     "XX-Attachments/Images/Pasted image 20240513132836.png",
     "XX-Attachments/Images/Pasted image 20240513132109.png",
     "XX-Attachments/Images/Pasted image 20240513131349.png",
-    "DistributedSystems/Remote_invocation.md",
     "DistributedSystems/Time_keeping.md",
     "DistributedSystems/Consensus/Two_general_problem.md",
     "Cybersecurity/Cryptography.md",
