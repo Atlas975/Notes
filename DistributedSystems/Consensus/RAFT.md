@@ -55,9 +55,9 @@ on nodeId suspects leader failed or election timeout do
     start election timer // begin timer for election timeout
 end
 ```
-
-- On receiving a vote request as a candidate another protocol takes place. This allows multiple votes to take place during an election
-- This must ensure the new term number proposed is higher than the nodes own. It must also make sure that the candidates log is up to date
+### RAFT candidate response
+- On receiving a vote request as a candidate another protocol takes place. This protocol allows voting for a single candidate multiple times but not multiple candidates during an election
+- This must ensure the new term number proposed is higher than the nodes own. It must also make sure that the candidates log is more up to date than it's own by looking at log.length 
 
 ```c
 on receiving (VoteRequest, cid, cTerm, cLogLength, cLogTerm) at node nodeId do
@@ -77,6 +77,31 @@ on receiving (VoteRequest, cid, cTerm, cLogLength, cLogTerm) at node nodeId do
         send (VoteResponse, nodeId, currentTerm, true) to node cld // positive vote
     else
         send (VoteResponse, nodeId, currentTerm, false) to node cld // negative vote
+    end if
+end
+```
+
+### RAFT vote collection
+- This protocol must handle 2 scenarios:
+    - If a candidate node receives enough affirmative votes (a majority), it assumes the role of the leader and initiates log replication to followers
+```c
+on receiving (VoteResponse, voterId, term, granted) at nodeId do
+    if currentRole == candidate AND term == currentTerm AND granted then
+        votesReceived.add(voterId) // add 
+        if votesReceived.length >= ceil(|nodes.length| + 1) / 2) then // quorum  
+            currentRole, currentLeader := leader, nodeId 
+            cancel election timer 
+            for each follower in nodes - {nodeId} do
+                sentLength[follower] := log.length 
+                ackedLength[follower] := 0  // Reset ACK length 
+                replicateLog(nodeId, follower) // Start log replication to the follower
+            end for
+        end if
+    else if term > currentTerm then
+        currentTerm := term // Update the current term to the higher term
+        currentRole := follower // Demote to follower
+        votedFor := null // Reset voted candidate
+        cancel election timer // Stop the election timer
     end if
 end
 ```
