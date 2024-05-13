@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Replication/Replication.md",
+                "file": "DistributedSystems/Fault_tolerence.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -209,7 +209,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/Replication/Active_replication.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -281,7 +281,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -349,7 +349,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Replication/Replication.md"
+                "file": "DistributedSystems/Replication/Active_replication.md"
               }
             }
           }
@@ -357,8 +357,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -385,7 +384,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Replication/Replication.md",
+                "file": "DistributedSystems/Replication/Active_replication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -402,7 +401,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Replication/Replication.md",
+                "file": "DistributedSystems/Replication/Active_replication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -474,21 +473,23 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e4e2a709a5778edd",
+  "active": "5614e5e9c0e4bb04",
   "lastOpenFiles": [
+    "DistributedSystems/Fault_tolerence.md",
+    "DistributedSystems/Distributed_systems.md",
+    "DistributedSystems/Distributed_system_security.md",
+    "DistributedSystems/SystemStructure/Distributed_system_design.md",
+    "DistributedSystems/SystemStructure/Cloud_computing.md",
+    "DistributedSystems/Replication/Replication.md",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
     "XX-Attachments/Images/Pasted image 20240513165230.png",
     "DistributedSystems/Consensus/Paxos.md",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
-    "DistributedSystems/SystemStructure/Cloud_computing.md",
     "DistributedSystems/SystemStructure/Blockchain.md",
-    "DistributedSystems/Fault_tolerence.md",
     "DistributedSystems/Replication/Active_replication.md",
-    "DistributedSystems/Replication/Replication.md",
     "DistributedSystems/Replication/Passive_replication.md",
     "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
-    "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/Software_containment.md",
     "DistributedSystems/SystemStructure/Google_infrastructure.md",
     "XX-Attachments/Images/Pasted image 20240513162236.png",
@@ -499,13 +500,10 @@
     "XX-Attachments/Images/Pasted image 20240513132836.png",
     "XX-Attachments/Images/Pasted image 20240513132109.png",
     "XX-Attachments/Images/Pasted image 20240513131349.png",
-    "DistributedSystems/Distributed_systems.md",
     "DistributedSystems/Remote_invocation.md",
     "DistributedSystems/Time_keeping.md",
-    "DistributedSystems/SystemStructure/Distributed_system_design.md",
     "DistributedSystems/Consensus/Two_general_problem.md",
     "Cybersecurity/Cryptography.md",
-    "XX-Attachments/Images/Pasted image 20240513122556.png",
     "DistributedSystems/Consensus/Byzantine_generals_problem.md",
     "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
     "Cybersecurity/Network_security.md",
