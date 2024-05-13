@@ -170,7 +170,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/Replication/Replication.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -463,6 +463,9 @@
   },
   "active": "315660b3dfbd3ae9",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240513162236.png",
+    "XX-Attachments/Images/Pasted image 20240513161842.png",
+    "XX-Attachments/Images/Pasted image 20240513161654.png",
     "XX-Attachments/Images/Pasted image 20240513161119.png",
     "DistributedSystems/Consensus/RAFT.md",
     "XX-Attachments/Images/Pasted image 20240513132836.png",
@@ -486,9 +489,6 @@
     "XX-Attachments/Images/Pasted image 20240513121128.png",
     "XX-Attachments/Images/Pasted image 20240513120945.png",
     "XX-Attachments/Images/Pasted image 20240513120827.png",
-    "XX-Attachments/Images/Pasted image 20240513120031.png",
-    "XX-Attachments/Images/Pasted image 20240513111411.png",
-    "XX-Attachments/Images/Pasted image 20240513110645.png",
     "DistributedSystems/Consensus/Byzantine_generals_problem.md",
     "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
     "Cybersecurity/Network_security.md",

@@ -36,8 +36,41 @@ ___
 - These exist in two types 
     - **Operation-based CRDTs:** replicas broadcast only update operations to all other replicas.
     - **State-based CRDTs:** replicas broadcast their entire state to other replicas
+
+
 ### Last writer wins
-- The most recent update (based on timestamp) overwrites earlier updates.
+- A simple approach to dealing with write-write conflictThe most recent update (based on timestamp) overwrites earlier updates.
+- This is simple to implement as the only other piece of metadata required are timestamps. This can be used after a network partition has been resolved 
+
+```python
+def set(k: key, v: value):
+    t = newTimestamp()  # globally unique
+    reliable_broadcast(t, k, v)  # send to everyone reliably
+
+def onReceiveSetRequest(t, k, v):
+    previousTime, value = getLocal(k)
+    if previousTime is None or previousTime < t:
+        setLocal(k, v, t)
+```
+
+### State-based methods
+- Typically use best-effort based broadcasting
+
+```python
+def set(k: key, v: value):
+    t = newTimestamp()  # globally unique
+    localState[k] = {"value": v, "time": t}  # update local state
+    best_effort_broadcast(localState)  # send to everyone
+
+def onReceiveSetRequest(state): # merge - local-state U remote-state
+    for time, key, val in state.pairs:
+        if key in localState.keys():
+            previousTime = localState.get(k)[time]
+            if previousTime < time:
+                setLocal(k, v, t)
+        else:
+            localState.append({time, key, val})
+```
 ### Safety and Consistency
 
 - **Term Uniqueness:** Each server’s log includes a term number for each entry, which helps servers detect inconsistencies between their logs and the leader’s.
