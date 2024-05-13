@@ -21,17 +21,42 @@ ___
 - Log entries also contain a term number. This indicates which leader committed these logs. This term is used as a [[Time_keeping|logical clock]]. Replicas on older term numbers can have messages ignored 
 
 ![[Pasted image 20240513131349.png|250|250]]
-
-
 ### RAFT election
 - Replicas start as followers. A follower can become a candidate leader if it suspects there is no viable leader, which could happen if it stops receiving heartbeats from the leader.
 - Candidates request votes from other replicas. Becoming the leader if it gains a majority quorum
 
 ![[Pasted image 20240513132109.png|350|350]]
-### RAFT Operations
 
-- **Election Process:**
-    - Terms are used to measure time in RAFT, and each term starts with an election.
+```c
+on initialisation do
+    currentTerm, votedFor := 0, null // stored on disk - preserve in case of crash
+    log, commitLength := [], 0 // stored on disk
+    currentRole, currentLeader := follower, null // in-memory storage
+    votesReceived, sentLength, ackedLength := {}, [], [] // in-memory storage
+end
+
+on recovery from crash do
+    currentRole, currentLeader := follower, null // restore role and leader as default
+    votesReceived, sentLength, ackedLength := {}, [], [] // clear in-memory states
+end
+
+on node nodeId suspects leader has failed or on election timeout do
+    currentTerm := currentTerm + 1; currentRole := candidate // increment term
+    votedFor := nodeId; votesReceived := {nodeId} // vote for self
+    lastTerm := 0 // default last term to zero
+    
+    if log.length > 0 then
+        lastTerm := log[log.length - 1].term // update last term from log if not empty
+    end if
+    
+    msg := (VoteRequest, nodeId, currentTerm, log.length, lastTerm) // create vote req
+    for each node in nodes:
+        send msg to node // send vote request to all nodes
+    start election timer // begin timer for election timeout
+end
+```
+## RAFT process
+
 - **Log Management:**
     - The leader accepts client commands, appends them to its log, and then replicates these entries across its followers.
     - Followers append entries to their logs once they are assured of their safety and correctness, as dictated by the leader.
