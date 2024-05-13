@@ -78,7 +78,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Cloud_computing.md",
+                "file": "DistributedSystems/CommunicationModels/Group_communication.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0866ac90769c4224",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DistributedSystems/Time_keeping.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -281,7 +294,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -349,7 +362,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Cloud_computing.md"
+                "file": "DistributedSystems/Time_keeping.md"
               }
             }
           }
@@ -384,7 +397,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Cloud_computing.md",
+                "file": "DistributedSystems/Time_keeping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -401,7 +414,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Cloud_computing.md",
+                "file": "DistributedSystems/Time_keeping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -473,33 +486,34 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a27730ab09b88c18",
+  "active": "0866ac90769c4224",
   "lastOpenFiles": [
-    "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
+    "DistributedSystems/CommunicationModels/Group_communication.md",
+    "DistributedSystems/Consensus/RAFT.md",
     "DistributedSystems/Consensus/Paxos.md",
-    "DistributedSystems/Distributed_system_security.md",
+    "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
+    "DistributedSystems/SystemStructure/Google_infrastructure.md",
+    "DistributedSystems/SystemStructure/Cloud_computing.md",
+    "DistributedSystems/SystemStructure/Blockchain.md",
+    "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
+    "DistributedSystems/SystemStructure/Distributed_system_design.md",
+    "DistributedSystems/Replication/Passive_replication.md",
+    "DistributedSystems/Replication/Replication.md",
     "DistributedSystems/Distributed_systems.md",
     "DistributedSystems/Fault_tolerence.md",
+    "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/Remote_invocation.md",
-    "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
     "DistributedSystems/Time_keeping.md",
     "DistributedSystems/Software_containment.md",
-    "DistributedSystems/SystemStructure/Google_infrastructure.md",
-    "DistributedSystems/Replication/Replication.md",
-    "DistributedSystems/Replication/Passive_replication.md",
     "DistributedSystems/Replication/Active_replication.md",
-    "DistributedSystems/SystemStructure/Distributed_system_design.md",
-    "DistributedSystems/SystemStructure/Cloud_computing.md",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
     "XX-Attachments/Images/Pasted image 20240513165230.png",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
-    "DistributedSystems/SystemStructure/Blockchain.md",
     "XX-Attachments/Images/Pasted image 20240513162236.png",
     "XX-Attachments/Images/Pasted image 20240513161842.png",
     "XX-Attachments/Images/Pasted image 20240513161654.png",
     "XX-Attachments/Images/Pasted image 20240513161119.png",
-    "DistributedSystems/Consensus/RAFT.md",
     "XX-Attachments/Images/Pasted image 20240513132836.png",
     "XX-Attachments/Images/Pasted image 20240513132109.png",
     "XX-Attachments/Images/Pasted image 20240513131349.png",
@@ -509,7 +523,6 @@
     "Cybersecurity/Network_security.md",
     "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
     "DistributedSystems/CommunicationModels/Indirect_communication.md",
-    "DistributedSystems/CommunicationModels/Group_communication.md",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",
