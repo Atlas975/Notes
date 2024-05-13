@@ -36,11 +36,19 @@ ___
 
 ![[Pasted image 20240513120031.png|500|500]]
 ## PBFT process
-1. **Client request handling:** Clients sends requests to primary. Multicasts if primary isn't responsive
-3. **Pre-prepare phase:** primary assigns a seq number to each request (determining order of request execution). This also contains the primary's signature to verify identity 
-4. **Prepare Phase:** Upon receiving the pre-prepare message, replicas enter the prepare phase and multicast a prepare message to other replicas.
-5. **Commit Phase:** Replicas collect prepare messages, and upon achieving a "prepare quorum" (2f+1 messages), they enter the commit phase.
-6. **Execution and Reply:** Once a commit quorum is achieved, replicas execute the request and send a reply to the client.
+1. **Client request handling:** clients sends requests to primary. Multicasts if primary isn't responsive
+2. **Pre-prepare phase:** primary assigns a seq number to each request (determining order of request execution). This also contains the primary's signature to verify identity prior to multicast
+
+![[Pasted image 20240513120827.png|200|200]]
+
+3. **Prepare phase:** upon receiving the pre-prepare message, replicas enter the prepare phase and multicast a prepare message to other replicas.
+4. **Prepare message accumulation**: replicas collect prepare messages, and upon achieving a "prepare quorum" ($2f+1$ messages), they enter the commit phase.
+
+
+![[Pasted image 20240513121128.png|400|400]]
+
+5. **Commit phase**: each replica shares what it heard in the prepare phase, multicasting proof that it has accumulated $2f$ prepare messages. Each message is signed using a priv key
+2. **Execution and reply:** once a commit quorum is achieved ($2f$ commit msgs), replicas execute the request and send a reply to the client.
 
 ### Byzantine Faults Considered
 - **Arbitrary Behavior:** Replicas can behave in any manner, including acting maliciously or erratically.
