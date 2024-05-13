@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Distributed_system_design.md",
+                "file": "DistributedSystems/Distributed_system_security.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -401,7 +401,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Distributed_system_design.md"
+                "file": "DistributedSystems/Distributed_system_security.md"
               }
             }
           }
@@ -436,7 +436,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Distributed_system_design.md",
+                "file": "DistributedSystems/Distributed_system_security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -453,7 +453,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Distributed_system_design.md",
+                "file": "DistributedSystems/Distributed_system_security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -527,28 +527,29 @@
   },
   "active": "ac1a3f7921bd0433",
   "lastOpenFiles": [
-    "DistributedSystems/SystemStructure/Cloud_computing.md",
+    "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
     "DistributedSystems/SystemStructure/Google_infrastructure.md",
-    "DistributedSystems/Distributed_system_security.md",
+    "DistributedSystems/SystemStructure/Cloud_computing.md",
+    "DistributedSystems/SystemStructure/Blockchain.md",
+    "DistributedSystems/Replication/Replication.md",
+    "DistributedSystems/Replication/Passive_replication.md",
+    "DistributedSystems/Replication/Active_replication.md",
+    "DistributedSystems/Consensus/RAFT.md",
+    "DistributedSystems/Consensus/Two_general_problem.md",
+    "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
+    "DistributedSystems/Consensus/Paxos.md",
+    "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
+    "DistributedSystems/SystemStructure/Distributed_system_design.md",
     "DistributedSystems/Fault_tolerence.md",
+    "DistributedSystems/Distributed_systems.md",
+    "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/Time_keeping.md",
     "DistributedSystems/Software_containment.md",
     "DistributedSystems/Remote_invocation.md",
-    "DistributedSystems/Distributed_systems.md",
-    "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
     "DistributedSystems/CommunicationModels/Indirect_communication.md",
     "DistributedSystems/CommunicationModels/Group_communication.md",
     "DistributedSystems/Consensus/Byzantine_generals_problem.md",
-    "DistributedSystems/Consensus/RAFT.md",
-    "DistributedSystems/SystemStructure/Blockchain.md",
-    "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
-    "DistributedSystems/Consensus/Paxos.md",
-    "DistributedSystems/Replication/Passive_replication.md",
-    "DistributedSystems/Replication/Replication.md",
-    "DistributedSystems/SystemStructure/Distributed_system_design.md",
     "OperatingSystems/Virtualisation.md",
-    "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
-    "DistributedSystems/Replication/Active_replication.md",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
     "XX-Attachments/Images/Pasted image 20240513165230.png",
@@ -559,7 +560,6 @@
     "XX-Attachments/Images/Pasted image 20240513132836.png",
     "XX-Attachments/Images/Pasted image 20240513132109.png",
     "XX-Attachments/Images/Pasted image 20240513131349.png",
-    "DistributedSystems/Consensus/Two_general_problem.md",
     "Cybersecurity/Cryptography.md",
     "Cybersecurity/Network_security.md",
     "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",

@@ -44,6 +44,7 @@ ___
 
 ![[Pasted image 20240508131838.png|350|350]]
 
+- This type of network attack has a malicious actor send requests to a legitimate service using a forged sender address, causing the service to send the response to the victim's address instead
 ## Security in Layers
 - **Network Layer:** Could involve encryption at routers.
 - **Transport Layer:** Uses protocols like SSL/TLS to secure communication.
