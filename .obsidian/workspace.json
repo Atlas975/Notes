@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Consensus/Paxos.md",
+                "file": "DistributedSystems/SystemStructure/Cloud_computing.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -349,7 +349,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Consensus/Paxos.md"
+                "file": "DistributedSystems/SystemStructure/Cloud_computing.md"
               }
             }
           }
@@ -357,8 +357,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -385,7 +384,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Consensus/Paxos.md",
+                "file": "DistributedSystems/SystemStructure/Cloud_computing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -402,7 +401,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Consensus/Paxos.md",
+                "file": "DistributedSystems/SystemStructure/Cloud_computing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -476,11 +475,12 @@
   },
   "active": "a27730ab09b88c18",
   "lastOpenFiles": [
+    "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
+    "DistributedSystems/Consensus/Paxos.md",
     "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/Distributed_systems.md",
     "DistributedSystems/Fault_tolerence.md",
     "DistributedSystems/Remote_invocation.md",
-    "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
     "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
     "DistributedSystems/Time_keeping.md",
     "DistributedSystems/Software_containment.md",
@@ -493,7 +493,6 @@
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
     "XX-Attachments/Images/Pasted image 20240513165230.png",
-    "DistributedSystems/Consensus/Paxos.md",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
     "DistributedSystems/SystemStructure/Blockchain.md",
     "XX-Attachments/Images/Pasted image 20240513162236.png",
