@@ -12,6 +12,8 @@ ___
 # RAFT
 - A consensus protocol designed to be more understandable than [[Paxos|Multi-Paxos]]. It ensures that multiple replicas agree on the sequence and state of log entries in a [[Distributed_systems|distributed system]]
 - Crucial for maintaining a consistent replicated state machine with totally-ordered client requests. 
+- **Handling Log Entries:**
+
 ## RAFT leader
 - RAFT is a leader driven protocol, with the leader chosen through an election system. 
 - The leader is responsible for the following: 
@@ -173,6 +175,9 @@ fn appendEntries(prefixLen, leaderCommit, suffix)
         deliver log[i].msg to the application
     commitLength := leaderCommit
 ```
+
+- The leader sends `AppendEntries` requests to its followers. These entries are committed once the leader has safely replicated them on a majority of servers.
+- Followers append entries to their log based on the leader’s `AppendEntries` requests.
 ## Leader processing log responses 
 - Involves updating the state of the log replication process based on responses from followers, ensuring that all nodes in the cluster eventually agree on the log content
 - If this fails the leader decrements the `sentLength[follower]` to retry sending the log entry 
@@ -197,37 +202,24 @@ on receiving (LogResponse, follower, term, ack, success) at nodeId do
 
 
 ### Leader committing log entries 
-- Any log entries that have been ACK'd by a quorum are ready to be committed 
-## RAFT process
+- Any log entries that have been ACK'd by a quorum are ready to be committed. When a log entry is committed, it's message can then be delivered to the application 
+- This approach ensures that all committed entries are replicated across a majority of nodes, thus maintaining consistency and durability in the cluster's state.
 
-- **Log Management:**
+```rust
+fn commitLogEntries
+    while commitLength < log.length do
+        acks := 0
+        for each node in nodes do
+            if ackedLength[node] > commitLength then
+                acks := acks + 1
+        if acks >= ([|nodes| + 1] / 2) then
+            deliver log[commitLength].msg to the application
+            commitLength := commitLength + 1
+        else
+            break
+```
 
-
-### Detailed Processes in RAFT
-
-- **Leader Election:**
-	- A timeout triggers the election process if a follower receives no communication from a leader.
-	- The follower transitions to a candidate and starts a new election term, voting for itself and requesting votes from others.
-	- A candidate becomes a leader if it receives votes from a majority of the servers.
-- **Handling Log Entries:**
-	- The leader sends `AppendEntries` requests to its followers. These entries are committed once the leader has safely replicated them on a majority of servers.
-	- Followers append entries to their log based on the leader’s `AppendEntries` requests.
-
-### Safety and Consistency
-
-- **Term Uniqueness:** Each server’s log includes a term number for each entry, which helps servers detect inconsistencies between their logs and the leader’s.
-- **Committing Entries:** An entry from the current term that has been replicated on a majority of the servers is considered committed and can be applied to the state machines.
-
-### Failure Handling
-
-- **Leader Crashes:** If a leader crashes, followers perceive the lack of heartbeat and start a new election.
-- **Network Partitions:** RAFT handles network partitions by ensuring that no data loss occurs as long as a majority of the servers can communicate with each other.
-
-### Advantages of RAFT
-
+## Advantages of RAFT
 - **Understandability:** Unlike Paxos, RAFT is structured around a strong leadership and simpler logical foundations, making it easier to understand and implement.
-- **Efficiency:** RAFT optimizes the process of log replication and leader election, reducing the overhead and complexity associated with these processes.
+- **Efficiency:** RAFT optimises the process of log replication and leader election, reducing the overhead and complexity associated with these processes.
 
-### Applications
-
-RAFT is widely used in distributed systems for managing replicated logs, ensuring data consistency, and handling failures gracefully. It is particularly effective in environments where system state needs to be replicated across multiple nodes reliably.

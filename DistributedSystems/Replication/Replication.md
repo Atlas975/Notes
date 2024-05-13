@@ -11,7 +11,7 @@
 ___
 # Replication
 - Replication involves creating multiple copies of the same data across different servers or locations to improve reliability and performance.
-- This approach helps in handling failures and distributing workload efficiently.
+- This approach helps in handling failures and distributing workload efficiently. The need for this becomes unavoidable as a system gets larger
 
 
 ![[Pasted image 20240512005312.png|450|450]]
@@ -23,6 +23,19 @@ ___
 
 
 ![[Pasted image 20240512174845.png|450|450]]
+
+## Consistency levels 
+1. **Strong**: updates to any replica are visible immediately to all other replicas.
+
+### Safety and Consistency
+
+- **Term Uniqueness:** Each server’s log includes a term number for each entry, which helps servers detect inconsistencies between their logs and the leader’s.
+- **Committing Entries:** An entry from the current term that has been replicated on a majority of the servers is considered committed and can be applied to the state machines.
+
+### Failure Handling
+
+- **Leader Crashes:** If a leader crashes, followers perceive the lack of heartbeat and start a new election.
+- **Network Partitions:** RAFT handles network partitions by ensuring that no data loss occurs as long as a majority of the servers can communicate with each other.
 ### Consistency Levels
 
 1. **Strong Consistency:**

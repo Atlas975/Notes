@@ -268,7 +268,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -336,7 +336,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Consensus/RAFT.md"
+                "file": "DistributedSystems/Replication/Replication.md"
               }
             }
           }
@@ -372,7 +372,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Consensus/RAFT.md",
+                "file": "DistributedSystems/Replication/Replication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -389,7 +389,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Consensus/RAFT.md",
+                "file": "DistributedSystems/Replication/Replication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -461,13 +461,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0fffea345a7d22bb",
+  "active": "315660b3dfbd3ae9",
   "lastOpenFiles": [
+    "DistributedSystems/Consensus/RAFT.md",
     "XX-Attachments/Images/Pasted image 20240513132836.png",
     "XX-Attachments/Images/Pasted image 20240513132109.png",
     "XX-Attachments/Images/Pasted image 20240513131349.png",
     "DistributedSystems/Consensus/Paxos.md",
-    "DistributedSystems/Consensus/RAFT.md",
     "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/Distributed_systems.md",
     "DistributedSystems/Fault_tolerence.md",
@@ -488,7 +488,6 @@
     "XX-Attachments/Images/Pasted image 20240513120031.png",
     "XX-Attachments/Images/Pasted image 20240513111411.png",
     "XX-Attachments/Images/Pasted image 20240513110645.png",
-    "XX-Attachments/Images/Pasted image 20240513110047.png",
     "DistributedSystems/Consensus/Byzantine_generals_problem.md",
     "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
     "Cybersecurity/Network_security.md",
