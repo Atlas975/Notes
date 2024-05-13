@@ -133,11 +133,19 @@ periodically at nodeId if currentRole == leader do
     end for
 end do
 ```
+### Replicating the log 
+- Called on the leader when there is a new message in the log and also periodically 
+- This is done by creating a suffix containing all logs not sent to the chosen follower, this may be empty but is done anyway to act as a heartbeat to indicate 
 
+```rust
+fn replicateLog(leaderId, followerId)
+    prefixLen := sentLength[followerId] 
+    suffix := log[prefixLen:]
+    prefixTerm := log[prefixLen - 1].term if prefixLen > 0 else 0
 
-
-
-## Replicating the log 
+    to followerId:
+        send (LogReq, leaderId, curTerm, prefixLen, prefixTerm, commitLength, suffix) 
+```
 ## RAFT process
 
 - **Log Management:**
