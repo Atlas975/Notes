@@ -34,10 +34,25 @@ ___
 ## Conflict-free replicated data types (CRDT)
 - A family of algorithms that perform conflict resolution. Designed to handle data replication where nodes can update data independently and [[Concurrency|concurrently]] without central coordination.
 - These exist in two types 
-	- **Operation-based CRDTs:** replicas broadcast only update operations to all other replicas. Must use reliable multicast
-	- **State-based CRDTs:** replicas broadcast their entire state to other replicas. Can use best-effort multicast
+	- **Operation-based CRDTs:** replicas broadcast only update operations to all other replicas. Must use reliable multicast as operations will not be sent later
+	- **State-based CRDTs:** replicas broadcast their entire state to other replicas. Can use best-effort multicast as the full state will eventually reach regardless of missed updates
 
+```python
+# state-based broadcast
+def set(k: key, v: value):
+    t = newTimestamp()  # globally unique
+    localState[k] = {"value": v, "time": t}  # update local state
+    best_effort_broadcast(localState)  # send to everyone
 
+def onReceiveSetRequest(state): # merge - local-state U remote-state
+    for time, key, val in state.pairs:
+        if key in localState.keys():
+            previousTime = localState.get(k)[time]
+            if previousTime < time:
+                setLocal(k, v, t)
+        else:
+            localState.append({time, key, val})
+```
 ### Last writer wins
 - A simple approach to dealing with write-write conflictThe most recent update (based on timestamp) overwrites earlier updates.
 - This is simple to implement as the only other piece of metadata required are timestamps. This can be used after a network partition has been resolved 
@@ -53,26 +68,18 @@ def onReceiveSetRequest(t, k, v):
         setLocal(k, v, t)
 ```
 
-### State-based methods
-- Good for eventual consistency as broadcast messages are large containing a large amount of information with each send 
-- This can tolerate the lost of messages making best-effort comm
-- Typically use best-effort based broadcasting as the sending of the entire state can be used to make large updates with each send 
+![[Pasted image 20240513165230.png|450|450]]
 
-```python
-def set(k: key, v: value):
-    t = newTimestamp()  # globally unique
-    localState[k] = {"value": v, "time": t}  # update local state
-    best_effort_broadcast(localState)  # send to everyone
+### Operational transformation
+- In applications such as collaborative text editors, changes on a local level are done simultaneously and must be merged once a network partition end 
+- This is done by pushing updates to a server that transforms these concurrent operations into ones suitable for merging as intended. Sending these new instructions back to users
 
-def onReceiveSetRequest(state): # merge - local-state U remote-state
-    for time, key, val in state.pairs:
-        if key in localState.keys():
-            previousTime = localState.get(k)[time]
-            if previousTime < time:
-                setLocal(k, v, t)
-        else:
-            localState.append({time, key, val})
-```
+![[Pasted image 20240513165430.png|350|350]]
+
+- In a [[Peer_to_peer_systems|P2P]] application, a central server does not exist to handle this 
+- Instead this is done by using real numbers for indices and inserting between these by summing the numbers to the left and right of insertion and dividing these by 2 for the midpoint
+
+![[Pasted image 20240513165859.png|400|400]]
 ### Safety and Consistency
 
 - **Term Uniqueness:** Each server’s log includes a term number for each entry, which helps servers detect inconsistencies between their logs and the leader’s.
