@@ -23,16 +23,24 @@ ___
 
 ![[Pasted image 20240513110047.png|450|450]]
 
-## Ordering requests 
-- Group initially runs 
+## Ordering requests
+- Group initially runs with the primary handling message ordering. The backups must ensure that the primary is behaving correctly as this too is vulnerable to Byzantine failure 
+- A view represents a specific configuration in which one of the replicas is designated as the primary. Backups must trigger view change requests if the primary is faulty
 
 
+![[Pasted image 20240513110645.png|450|450]]
+
+## PBFT quorum
+- Unlike crash failures where each node votes on one operation at a time, it's not sufficient for quorum's to just intersect. Nodes may vote for multiple operations if malicious 
+- This requires the intersection between 2 quorums to have at least $f+1$ honest nodes to guarantee  
+
+![[Pasted image 20240513111411.png|450|450]]
 ## PBFT process
-1. **Client request handling:** Clients send requests to the primary replica. If the primary is non-responsive, the request is multicast to all replicas.
-2. **Pre-Prepare Phase:** The primary assigns a sequence number to each request and multicasts a pre-prepare message to backup replicas.
-3. **Prepare Phase:** Upon receiving the pre-prepare message, replicas enter the prepare phase and multicast a prepare message to other replicas.
-4. **Commit Phase:** Replicas collect prepare messages, and upon achieving a "prepare quorum" (2f+1 messages), they enter the commit phase.
-5. **Execution and Reply:** Once a commit quorum is achieved, replicas execute the request and send a reply to the client.
+1. **Client request handling:** Clients sends requests to primary. Multicasts if primary isn't responsive
+3. **Pre-Prepare Phase:** The primary assigns a sequence number to each request and multicasts a pre-prepare message to backup replicas.
+4. **Prepare Phase:** Upon receiving the pre-prepare message, replicas enter the prepare phase and multicast a prepare message to other replicas.
+5. **Commit Phase:** Replicas collect prepare messages, and upon achieving a "prepare quorum" (2f+1 messages), they enter the commit phase.
+6. **Execution and Reply:** Once a commit quorum is achieved, replicas execute the request and send a reply to the client.
 
 ### Byzantine Faults Considered
 - **Arbitrary Behavior:** Replicas can behave in any manner, including acting maliciously or erratically.
