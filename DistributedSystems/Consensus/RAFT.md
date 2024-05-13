@@ -83,20 +83,24 @@ end
 
 ### RAFT vote collection
 - This protocol must handle 2 scenarios:
-    - If a candidate node receives enough affirmative votes (a majority), it assumes the role of the leader and initiates log replication to followers
+    - If a candidate node receives enough affirmative votes (a quorum , it assumes the role of the leader and initiates log replication to followers
+    - If it encounters a vote with a term higher than its current term, it demotes itself to a follower to respect the more up-to-date information from other nodes
 ```c
 on receiving (VoteResponse, voterId, term, granted) at nodeId do
     if currentRole == candidate AND term == currentTerm AND granted then
         votesReceived.add(voterId) // add 
-        if votesReceived.length >= ceil(|nodes.length| + 1) / 2) then // quorum  
-            currentRole, currentLeader := leader, nodeId 
-            cancel election timer 
-            for each follower in nodes - {nodeId} do
-                sentLength[follower] := log.length 
-                ackedLength[follower] := 0  // Reset ACK length 
-                replicateLog(nodeId, follower) // Start log replication to the follower
-            end for
+        if votesReceived.length < ceil(|nodes.length| + 1) / 2) then // failed quorum  
+            return
         end if
+        
+        currentRole, currentLeader := leader, nodeId 
+        cancel election timer 
+        for each follower in nodes - {nodeId} do
+            sentLength[follower] := log.length 
+            ackedLength[follower] := 0  // Reset ACK length 
+            replicateLog(nodeId, follower) // Start log replication to the follower
+        end for
+        
     else if term > currentTerm then
         currentTerm := term // Update the current term to the higher term
         currentRole := follower // Demote to follower
@@ -105,6 +109,35 @@ on receiving (VoteResponse, voterId, term, granted) at nodeId do
     end if
 end
 ```
+
+## Client request multicast 
+- Clients in RAFT need to be able to perform total order multicast to ensure all nodes commit messages in the same order. Note that client requests should go to the leader
+- `ackedLength` tracks the highest index of the log entries that have been successfully acknowledged (i.e., replicated and confirmed) by each follower node in the cluster.
+
+```c
+on request message msg from a client received at nodeId do
+    if currentRole != leader then
+        forward the request to currentLeader
+    end if
+    
+    append the (msg, currentTerm) to log
+    ackedLength[nodeId] := log.length // set self as having ACK'd to msg
+    for each follower in nodes except {nodeId} do
+        replicateLog(nodeId, follower)
+    end for
+end do
+
+periodically at nodeId if currentRole == leader do
+    for each follower in nodes - {nodeId} do
+        replicateLog(nodeId, follower)
+    end for
+end do
+```
+
+
+
+
+## Replicating the log 
 ## RAFT process
 
 - **Log Management:**
