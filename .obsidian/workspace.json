@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -53,7 +53,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/Consensus/Paxos.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -437,6 +437,9 @@
   },
   "active": "4abdb569fa4f80a1",
   "lastOpenFiles": [
+    "DistributedSystems/Consensus/Paxos.md",
+    "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
+    "XX-Attachments/Images/Pasted image 20240513122556.png",
     "XX-Attachments/Images/Pasted image 20240513121128.png",
     "XX-Attachments/Images/Pasted image 20240513120945.png",
     "XX-Attachments/Images/Pasted image 20240513120827.png",
@@ -444,14 +447,10 @@
     "XX-Attachments/Images/Pasted image 20240513111411.png",
     "XX-Attachments/Images/Pasted image 20240513110645.png",
     "XX-Attachments/Images/Pasted image 20240513110047.png",
-    "DistributedSystems/Consensus/Paxos.md",
-    "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
     "DistributedSystems/Consensus/Byzantine_generals_problem.md",
     "DistributedSystems/SystemStructure/Google_infrastructure.md",
     "XX-Attachments/Images/Pasted image 20240513002937.png",
     "XX-Attachments/Images/Pasted image 20240513002441.png",
-    "XX-Attachments/Images/Pasted image 20240513002204.png",
-    "XX-Attachments/Images/Pasted image 20240513000752.png",
     "DistributedSystems/Remote_invocation.md",
     "DistributedSystems/Fault_tolerence.md",
     "DistributedSystems/SystemStructure/Cloud_computing.md",

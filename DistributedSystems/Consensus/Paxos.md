@@ -41,7 +41,7 @@ ___
 - Paxos ensures that if a proposal with a particular number is chosen, then every higher-numbered proposal issued by any proposer will also choose the same value.
 - The protocol typically includes a mechanism for proposers to learn the last value that was agreed upon, to support proposals for subsequent values.
 
-## Failure resistance
+## Failure scenarios 
 - **Proposer failures:** The system continues if there are other proposers. This can still trigger after a promise is sent via a timeout from waiting for phase 2
 - **Acceptor failures:** As long as a majority of acceptors are functional, the system can continue.
 

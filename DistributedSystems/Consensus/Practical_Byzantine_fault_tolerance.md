@@ -39,7 +39,7 @@ ___
 1. **Client request handling:** clients sends requests to primary. Multicasts if primary isn't responsive
 2. **Pre-prepare phase:** primary assigns a seq number to each request (determining order of request execution). This also contains the primary's signature to verify identity prior to multicast
 
-![[Pasted image 20240513120827.png|200|200]]
+![[Pasted image 20240513120827.png|170|170]]
 
 3. **Prepare phase:** upon receiving the pre-prepare message, replicas enter the prepare phase and multicast a prepare message to other replicas.
 4. **Prepare message accumulation**: replicas collect prepare messages, and upon achieving a "prepare quorum" ($2f+1$ messages), they enter the commit phase.
@@ -47,8 +47,15 @@ ___
 
 ![[Pasted image 20240513121128.png|400|400]]
 
-5. **Commit phase**: each replica shares what it heard in the prepare phase, multicasting proof that it has accumulated $2f$ prepare messages. Each message is signed using a priv key
-2. **Execution and reply:** once a commit quorum is achieved ($2f$ commit msgs), replicas execute the request and send a reply to the client.
+5. **Commit phase**: each replica shares what it heard in the prepare phase, multicasting proof that it has accumulated $2f+1$ prepare messages. Each message is signed using a priv key
+2. **Execution and reply:** once a commit quorum is achieved, replicas execute the request and send a reply to the client with an agreed on sequence number
+
+![[Pasted image 20240513122556.png|400|400]]
+
+
+## Failure scenarios 
+- **Safety attack**: primary sends different messages with same seq number to different replicas, this is protected from by the $2f+1$ quorum requirement
+- **Liveness attack**: primary does not forward client requests 
 
 ### Byzantine Faults Considered
 - **Arbitrary Behavior:** Replicas can behave in any manner, including acting maliciously or erratically.
