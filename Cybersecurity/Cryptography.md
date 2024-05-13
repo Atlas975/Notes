@@ -42,7 +42,7 @@ $$D_{k}:C\to P,k\in K$$
 
 ![[Pasted image 20240508122231.png|300|300]]
 
-## Digital signiture
+## Digital signature
 - A signature is needed to offer origin tracking, data integrity and non-repudiation
 - This is typically done using public key cryptography 
 

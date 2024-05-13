@@ -17,6 +17,7 @@ ___
 # Practical Byzantine fault tolerance
 - PBFT is designed to handle [[Byzantine_generals_problem|Byzantine]] faults within distributed systems, ensuring that all non-faulty nodes agree on their states even if some nodes exhibit arbitrary failures.
 - This requires both $3f +1$ nodes and a 2-phase communication protocol (eg [[Paxos]], used to carry out any operation that hasn't been reflected in all replicas). 
+- $2f+1$ messages are always required for a quorum in this protocol 
 ## PBFT clients
 - Uses a primary-backup scheme for replicas, this means clients send requests to primary. It's only if this times out that the client broadcasts a message to all replicas.
 - If this broadcast occurs, $f+1$ identical replies are expected. Replicas must carry out the PBFT protocol to ensure the replies from honest nodes are correct 
@@ -54,27 +55,14 @@ ___
 
 
 ## Failure scenarios 
-- **Safety attack**: primary sends different messages with same seq number to different replicas, this is protected from by the $2f+1$ quorum requirement
-- **Liveness attack**: primary does not forward client requests 
+- **Safety attack**: primary sends different prepare messages with same seq number to different replicas (double voting), this is protected from by the $2f+1$ quorum requirement
+- **Liveness attack**: primary does not forward client requests, this is protected from via view change
 
-### Byzantine Faults Considered
-- **Arbitrary Behavior:** Replicas can behave in any manner, including acting maliciously or erratically.
-- **Failure Types:** Includes software errors and malicious attacks, where a node might not stop but continues to perform malicious activities.
 
-### PBFT Client Interaction
-- **Direct Interaction:** Clients can interact directly with any replica, typically sending requests to the primary.
-- **Response Validation:** Clients wait for 𝑓+1f+1 matching replies to validate the response, ensuring responses are from non-faulty replicas.
+## Security Features
+- **Message authentication:** all messages (client requests and replica messages) are [[Cryptography#Digital signature|signed]]  to prevent spoofing and replay attacks using a node's private key.
+- **View changes:** handles primary failures by enabling a new primary election through a view change process. This can be triggered via timeouts or detection that the primary is malicious
+## PBFT limitations
+- **Scalability:** the communication overhead and large message sizes can lead to high latency, particularly as the number of replicas increases. $O(n^2)$ in 2-phase multicast
+- **Performance:** can degrade significantly with an increase in the number of faulty nodes.
 
-### Quorum Requirements
-- **Intersection:** Requires that the intersection of any two quorums have at least 𝑓+1 correct replicas to ensure a valid consensus.
-- **Size of Quorum:** Each quorum must have at least 2𝑓+1 replicas to ensure that it includes a majority of correct replicas.
-
-### Security Features
-- **Message Authentication:** All messages (client requests and replica messages) are signed to prevent spoofing and replay attacks.
-- **View Changes:** Handles primary failures by enabling a new primary election through a view change process.
-### Challenges and Limitations
-- **Scalability:** The communication overhead and large message sizes can lead to high latency, particularly as the number of replicas increases.
-- **Performance:** PBFT's performance can degrade significantly with an increase in the number of faulty nodes.
-
-### Practical Applications
-PBFT is used in environments where the integrity and availability of a system are crucial, despite the presence of potential Byzantine failures.
