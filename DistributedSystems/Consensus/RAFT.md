@@ -12,16 +12,16 @@ ___
 # RAFT
 - A consensus protocol designed to be more understandable than [[Paxos|Multi-Paxos]]. It ensures that multiple replicas agree on the sequence and state of log entries in a [[Distributed_systems|distributed system]]
 - Crucial for maintaining a consistent replicated state machine with totally-ordered client requests. 
-## RAFT leader 
+## RAFT leader
 - RAFT is a leader driven protocol, with the leader chosen through an election system. 
 - The leader is responsible for the following: 
-    - Accepting client requests and replicating them across replicas
-    - Telling other replicas when it's safe to commit log entries (using [[Remote_invocation|RPC]])
-    - Ensuring that if any log is already committed, it will eventually be present in the logs of all other replicas using the same log index (index is never rewritten)
+	- Accepting client requests and replicating them across replicas
+	- Telling other replicas when it's safe to commit log entries (using [[Remote_invocation|RPC]])
+	- Ensuring that if any log is already committed, it will eventually be present in the logs of all other replicas using the same log index (index is never rewritten)
 - Log entries also contain a term number. This indicates which leader committed these logs. This term is used as a [[Time_keeping|logical clock]]. Replicas on older term numbers can have messages ignored 
 
 ![[Pasted image 20240513131349.png|250|250]]
-### RAFT election
+### RAFT leader election
 - Replicas start as followers. A follower can become a candidate leader if it suspects there is no viable leader, which could happen if it stops receiving heartbeats from the leader.
 - Candidates request votes from other replicas. Becoming the leader if it gains a majority quorum
 
@@ -40,7 +40,7 @@ on recovery from crash do
     votesReceived, sentLength, ackedLength := {}, [], [] // clear in-memory states
 end
 
-on node nodeId suspects leader has failed or on election timeout do
+on nodeId suspects leader failed or election timeout do
     currentTerm := currentTerm + 1; currentRole := candidate // increment term
     votedFor := nodeId; votesReceived := {nodeId} // vote for self
     lastTerm := 0 // default last term to zero
@@ -55,21 +55,46 @@ on node nodeId suspects leader has failed or on election timeout do
     start election timer // begin timer for election timeout
 end
 ```
+
+- On receiving a vote request as a candidate another protocol takes place. This allows multiple votes to take place during an election
+- This must ensure the new term number proposed is higher than the nodes own. It must also make sure that the candidates log is up to date
+
+```c
+on receiving (VoteRequest, cid, cTerm, cLogLength, cLogTerm) at node nodeId do
+    if cTerm > currentTerm then
+        currentTerm, currentRole := cTerm, follower // update current term and role
+        votedFor := null // reset votedFor since a higher term is seen
+    end if
+
+    lastTerm := 0 // initialize lastTerm
+    if log.length > 0 then
+        lastTerm := log[log.length-1].term // get the last term from the log
+    end if
+    logOk := (cLogTerm > lastTerm) | (cLogTerm == lastTerm AND cLogLength >= log.length)
+
+    if cTerm == currentTerm AND logOk AND votedFor in {cid, null} then
+        votedFor := cld // cast vote for candidate
+        send (VoteResponse, nodeId, currentTerm, true) to node cld // positive vote
+    else
+        send (VoteResponse, nodeId, currentTerm, false) to node cld // negative vote
+    end if
+end
+```
 ## RAFT process
 
 - **Log Management:**
-    - The leader accepts client commands, appends them to its log, and then replicates these entries across its followers.
-    - Followers append entries to their logs once they are assured of their safety and correctness, as dictated by the leader.
+	- The leader accepts client commands, appends them to its log, and then replicates these entries across its followers.
+	- Followers append entries to their logs once they are assured of their safety and correctness, as dictated by the leader.
 
 ### Detailed Processes in RAFT
 
 - **Leader Election:**
-    - A timeout triggers the election process if a follower receives no communication from a leader.
-    - The follower transitions to a candidate and starts a new election term, voting for itself and requesting votes from others.
-    - A candidate becomes a leader if it receives votes from a majority of the servers.
+	- A timeout triggers the election process if a follower receives no communication from a leader.
+	- The follower transitions to a candidate and starts a new election term, voting for itself and requesting votes from others.
+	- A candidate becomes a leader if it receives votes from a majority of the servers.
 - **Handling Log Entries:**
-    - The leader sends `AppendEntries` requests to its followers. These entries are committed once the leader has safely replicated them on a majority of servers.
-    - Followers append entries to their log based on the leader’s `AppendEntries` requests.
+	- The leader sends `AppendEntries` requests to its followers. These entries are committed once the leader has safely replicated them on a majority of servers.
+	- Followers append entries to their log based on the leader’s `AppendEntries` requests.
 
 ### Safety and Consistency
 
