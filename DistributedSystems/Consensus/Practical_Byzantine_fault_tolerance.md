@@ -17,7 +17,8 @@ ___
 # Practical Byzantine fault tolerance
 - PBFT is designed to handle [[Byzantine_generals_problem|Byzantine]] faults within distributed systems, ensuring that all non-faulty nodes agree on their states even if some nodes exhibit arbitrary failures.
 - This requires both $3f +1$ nodes and a 2-phase communication protocol (eg [[Paxos]], used to carry out any operation that hasn't been reflected in all replicas). 
-
+## PBFT clients
+- Uses 
 
 ## PBFT process
 1. **Client Request Handling:** Clients send requests to the primary replica. If the primary is non-responsive, the request is multicast to all replicas.
