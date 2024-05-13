@@ -208,7 +208,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Time_keeping.md",
+                "file": "DistributedSystems/Distributed_system_security.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -281,7 +281,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -349,7 +349,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Time_keeping.md"
+                "file": "DistributedSystems/Consensus/Paxos.md"
               }
             }
           }
@@ -357,7 +357,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -384,7 +385,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Time_keeping.md",
+                "file": "DistributedSystems/Consensus/Paxos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -401,7 +402,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Time_keeping.md",
+                "file": "DistributedSystems/Consensus/Paxos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -473,18 +474,20 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5614e5e9c0e4bb04",
+  "active": "a27730ab09b88c18",
   "lastOpenFiles": [
-    "DistributedSystems/Remote_invocation.md",
     "DistributedSystems/Distributed_system_security.md",
-    "DistributedSystems/Software_containment.md",
     "DistributedSystems/Distributed_systems.md",
-    "DistributedSystems/SystemStructure/Google_infrastructure.md",
+    "DistributedSystems/Fault_tolerence.md",
+    "DistributedSystems/Remote_invocation.md",
     "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
+    "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
+    "DistributedSystems/Time_keeping.md",
+    "DistributedSystems/Software_containment.md",
+    "DistributedSystems/SystemStructure/Google_infrastructure.md",
     "DistributedSystems/Replication/Replication.md",
     "DistributedSystems/Replication/Passive_replication.md",
     "DistributedSystems/Replication/Active_replication.md",
-    "DistributedSystems/Fault_tolerence.md",
     "DistributedSystems/SystemStructure/Distributed_system_design.md",
     "DistributedSystems/SystemStructure/Cloud_computing.md",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
@@ -501,11 +504,9 @@
     "XX-Attachments/Images/Pasted image 20240513132836.png",
     "XX-Attachments/Images/Pasted image 20240513132109.png",
     "XX-Attachments/Images/Pasted image 20240513131349.png",
-    "DistributedSystems/Time_keeping.md",
     "DistributedSystems/Consensus/Two_general_problem.md",
     "Cybersecurity/Cryptography.md",
     "DistributedSystems/Consensus/Byzantine_generals_problem.md",
-    "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
     "Cybersecurity/Network_security.md",
     "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
     "DistributedSystems/CommunicationModels/Indirect_communication.md",
