@@ -136,7 +136,7 @@ end do
 
 - The leader accepts client commands, appends them to its log, and then replicates these entries 
 - Followers append entries to their logs once they are assured of their safety and correctness, as dictated by the leader node 
-### Replicating the log 
+## Replicating the log 
 - Called on the leader when there is a new message in the log and also periodically 
 - This is done by creating a suffix containing all logs not sent to the chosen follower, this may be empty but is done anyway to act as a heartbeat to indicate 
 
@@ -152,7 +152,9 @@ fn replicateLog(leaderId, followerId)
 
 
 ### Follower log request processing 
-- Followers must accept their role upon 
+- Followers must accept their role if the node's term number is lower than the leader's  
+- Followers must also reset voting preferences, confirms the legitimacy of the leader for the current term, checks log consistency, and either appends new entries or responds with failure
+
 ```
 on receiving (LogReq, leaderId, term, prefixLen, prefixTerm, leaderCommit, entries) do
     if term > currentTerm then
@@ -169,11 +171,44 @@ on receiving (LogReq, leaderId, term, prefixLen, prefixTerm, leaderCommit, entri
         appendEntries(prefixLen, leaderCommit, suffix)
         ack := prefixLen + suffix.length
         send (LogResponse, nodeId, currentTerm, ack, true) to leaderId
-    else
+    else // used to remedy the difference in leaders ACK len for this node and reality
         send (LogResponse, nodeId, currentTerm, 0, false) to leaderId
     end if
 end
 ```
+
+
+### Updating follower logs 
+- Checks if the new entries from the leader are consistent with the existing log entries on the follower. If inconsistencies are found, the follower’s log is truncated to the point of agreement
+- After appending entries, if the leader’s commit index is greater than the follower’s, the function updates the follower's commit index and applies the newly committed entries to the application
+
+```rust
+fn appendEntries(prefixLen, leaderCommit, suffix)
+  if suffix.length > 0 && log.length > prefixLen then
+    index := min(log.length, prefixLen + suffix.length) - 1
+    if log[index].term != suffix[index - prefixLen].term then
+      log := log[:prefixLen]
+    end if
+  end if
+
+  if prefixLen + suffix.length > log.length then
+    for i := log.length - prefixLen to suffix.length - 1 do
+      append suffix[i] to log
+    end for
+  end if
+
+  if leaderCommit > commitLength then
+    for i := commitLength to leaderCommit - 1 do
+      deliver log[i].msg to the application
+    end for
+    commitLength := leaderCommit
+  end if
+```
+
+
+### Leader processing log responses 
+
+
 ## RAFT process
 
 - **Log Management:**
