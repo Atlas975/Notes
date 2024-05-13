@@ -27,7 +27,7 @@ ___
 
 ![[Pasted image 20240513132109.png|350|350]]
 
-```c
+```
 on initialisation do
     currentTerm, votedFor := 0, null // stored on disk - preserve in case of crash
     log, commitLength := [], 0 // stored on disk
@@ -59,7 +59,7 @@ end
 - On receiving a vote request as a candidate another protocol takes place. This protocol allows voting for a single candidate multiple times but not multiple candidates during an election
 - This must ensure the new term number proposed is higher than the nodes own. It must also make sure that the candidates log is more up to date than it's own by looking at log.length 
 
-```c
+```
 on receiving (VoteRequest, cid, cTerm, cLogLength, cLogTerm) at node nodeId do
     if cTerm > currentTerm then
         currentTerm, currentRole := cTerm, follower // update current term and role
@@ -85,7 +85,7 @@ end
 - This protocol must handle 2 scenarios:
     - If a candidate node receives enough affirmative votes (a quorum , it assumes the role of the leader and initiates log replication to followers
     - If it encounters a vote with a term higher than its current term, it demotes itself to a follower to respect the more up-to-date information from other nodes
-```c
+```
 on receiving (VoteResponse, voterId, term, granted) at nodeId do
     if currentRole == candidate AND term == currentTerm AND granted then
         votesReceived.add(voterId) // add 
@@ -114,7 +114,7 @@ end
 - Clients in RAFT need to be able to perform total order multicast to ensure all nodes commit messages in the same order. Note that client requests should go to the leader
 - `ackedLength` tracks the highest index of the log entries that have been successfully acknowledged (i.e., replicated and confirmed) by each follower node in the cluster.
 
-```c
+```
 on request message msg from a client received at nodeId do
     if currentRole != leader then
         forward the request to currentLeader
@@ -133,6 +133,9 @@ periodically at nodeId if currentRole == leader do
     end for
 end do
 ```
+
+- The leader accepts client commands, appends them to its log, and then replicates these entries 
+- Followers append entries to their logs once they are assured of their safety and correctness, as dictated by the leader node 
 ### Replicating the log 
 - Called on the leader when there is a new message in the log and also periodically 
 - This is done by creating a suffix containing all logs not sent to the chosen follower, this may be empty but is done anyway to act as a heartbeat to indicate 
@@ -146,11 +149,35 @@ fn replicateLog(leaderId, followerId)
     to followerId:
         send (LogReq, leaderId, curTerm, prefixLen, prefixTerm, commitLength, suffix) 
 ```
+
+
+### Follower log request processing 
+- Followers must accept their role upon 
+```
+on receiving (LogReq, leaderId, term, prefixLen, prefixTerm, leaderCommit, entries) do
+    if term > currentTerm then
+        currentTerm := term; votedFor := null
+        cancel election timer
+    end if
+
+    if term == currentTerm then
+        currentRole := follower; currentLeader := leaderId
+    end if
+    logOk := (log.len>=prefixLen) && (prefixLen==0 | log[prefixLen-1].term==prefixTerm)
+
+    if term == currentTerm && logOk then
+        appendEntries(prefixLen, leaderCommit, suffix)
+        ack := prefixLen + suffix.length
+        send (LogResponse, nodeId, currentTerm, ack, true) to leaderId
+    else
+        send (LogResponse, nodeId, currentTerm, 0, false) to leaderId
+    end if
+end
+```
 ## RAFT process
 
 - **Log Management:**
-	- The leader accepts client commands, appends them to its log, and then replicates these entries across its followers.
-	- Followers append entries to their logs once they are assured of their safety and correctness, as dictated by the leader.
+
 
 ### Detailed Processes in RAFT
 
