@@ -32,12 +32,12 @@ ___
 
 ## PBFT quorum
 - Unlike crash failures where each node votes on one operation at a time, it's not sufficient for quorum's to just intersect. Nodes may vote for multiple operations if malicious 
-- This requires the intersection between 2 quorums to have at least $f+1$ honest nodes to guarantee  
+- This requires the intersection between 2 quorums to have at least 1 honest node. Leading to a min total of $3f+1$ nodes being present overall (super majority rule)
 
-![[Pasted image 20240513111411.png|450|450]]
+![[Pasted image 20240513120031.png|500|500]]
 ## PBFT process
 1. **Client request handling:** Clients sends requests to primary. Multicasts if primary isn't responsive
-3. **Pre-Prepare Phase:** The primary assigns a sequence number to each request and multicasts a pre-prepare message to backup replicas.
+3. **Pre-prepare phase:** primary assigns a seq number to each request (determining order of request execution). This also contains the primary's signature to verify identity 
 4. **Prepare Phase:** Upon receiving the pre-prepare message, replicas enter the prepare phase and multicast a prepare message to other replicas.
 5. **Commit Phase:** Replicas collect prepare messages, and upon achieving a "prepare quorum" (2f+1 messages), they enter the commit phase.
 6. **Execution and Reply:** Once a commit quorum is achieved, replicas execute the request and send a reply to the client.
