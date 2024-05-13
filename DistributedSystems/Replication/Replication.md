@@ -23,19 +23,19 @@ ___
 
 ![[Pasted image 20240512174845.png|450|450]]
 
-## Consistency levels 
+## Consistency levels
 1. **Strong**: updates to a replica are visible immediately to all other replicas. Comes with a large overhead and is typically done with a [[Paxos|consensus protocol]] eg SMR
 2. **Eventual consistency**: updates to a replica will eventually be visible to all other replicas. Higher availability ([[Brewers_CAP_theorem|CAP]]) but updates may be seen in a different order depending on the replica
-    - This requires being able to deal with potential conflicts, eg google docs, [[Git]] collab
-    - Replicas can locally order events using [[Time_keeping#Vector clocks|Vector clocks]]
+	- This requires being able to deal with potential conflicts, eg google docs, [[Git]] collab
+	- Replicas can locally order events using [[Time_keeping#Vector clocks|Vector clocks]]
 
 ![[Pasted image 20240513161119.png|400|400]]
 
 ## Conflict-free replicated data types (CRDT)
 - A family of algorithms that perform conflict resolution. Designed to handle data replication where nodes can update data independently and [[Concurrency|concurrently]] without central coordination.
 - These exist in two types 
-    - **Operation-based CRDTs:** replicas broadcast only update operations to all other replicas.
-    - **State-based CRDTs:** replicas broadcast their entire state to other replicas
+	- **Operation-based CRDTs:** replicas broadcast only update operations to all other replicas. Must use reliable multicast
+	- **State-based CRDTs:** replicas broadcast their entire state to other replicas. Can use best-effort multicast
 
 
 ### Last writer wins
@@ -54,7 +54,9 @@ def onReceiveSetRequest(t, k, v):
 ```
 
 ### State-based methods
-- Typically use best-effort based broadcasting
+- Good for eventual consistency as broadcast messages are large containing a large amount of information with each send 
+- This can tolerate the lost of messages making best-effort comm
+- Typically use best-effort based broadcasting as the sending of the entire state can be used to make large updates with each send 
 
 ```python
 def set(k: key, v: value):
@@ -86,8 +88,8 @@ def onReceiveSetRequest(state): # merge - local-state U remote-state
 - **Scenario:** Conflicts occur when two replicas receive updates to the same data in different orders.
 - **Mechanisms:** Systems must employ mechanisms to resolve these conflicts to maintain data integrity and consistency.
 - **Example Mechanisms:**
-    - **Last Writer Wins:** 
-    - **Merge Operations:** Conflicting updates are merged based on predefined rules, which may involve user intervention or automated processes.
+	- **Last Writer Wins:** 
+	- **Merge Operations:** Conflicting updates are merged based on predefined rules, which may involve user intervention or automated processes.
 
 ### Conflict-Free Replicated Data Types (CRDTs)
 

@@ -24,7 +24,6 @@ ___
 - [[Virtualisation]]: full machine virtualisation using a hypervisor, provides complete isolation by simulating hardware environments. Guest OS is not aware that it's a VM
 - [[Virtualisation#Types of virtualisation|Containers]]: lightweight virtualisation that allows for running multiple isolated systems on a single host machine to maximise efficiency. Does not have multiples OS's to keep up to date
 
-
 ![[Pasted image 20240511143844.png|450|450]]
 ## Dual-mode operation
 - Allows [[Operating_system_design|OS]] to protect itself from other system components by featuring both a user mode and kernel mode. Some instructions are prevailed and only executable in kernel mode

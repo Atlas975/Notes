@@ -86,6 +86,19 @@
             }
           },
           {
+            "id": "e4e2a709a5778edd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DistributedSystems/Replication/Replication.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ea2d1196817eeeab",
             "type": "leaf",
             "state": {
@@ -169,8 +182,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Replication/Replication.md",
-                "mode": "preview",
+                "file": "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -268,7 +281,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -461,8 +474,20 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "315660b3dfbd3ae9",
+  "active": "e4e2a709a5778edd",
   "lastOpenFiles": [
+    "DistributedSystems/Consensus/Paxos.md",
+    "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
+    "DistributedSystems/SystemStructure/Cloud_computing.md",
+    "DistributedSystems/SystemStructure/Blockchain.md",
+    "DistributedSystems/Fault_tolerence.md",
+    "DistributedSystems/Replication/Active_replication.md",
+    "DistributedSystems/Replication/Replication.md",
+    "DistributedSystems/Replication/Passive_replication.md",
+    "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
+    "DistributedSystems/Distributed_system_security.md",
+    "DistributedSystems/Software_containment.md",
+    "DistributedSystems/SystemStructure/Google_infrastructure.md",
     "XX-Attachments/Images/Pasted image 20240513162236.png",
     "XX-Attachments/Images/Pasted image 20240513161842.png",
     "XX-Attachments/Images/Pasted image 20240513161654.png",
@@ -471,24 +496,15 @@
     "XX-Attachments/Images/Pasted image 20240513132836.png",
     "XX-Attachments/Images/Pasted image 20240513132109.png",
     "XX-Attachments/Images/Pasted image 20240513131349.png",
-    "DistributedSystems/Consensus/Paxos.md",
-    "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/Distributed_systems.md",
-    "DistributedSystems/Fault_tolerence.md",
     "DistributedSystems/Remote_invocation.md",
-    "DistributedSystems/Software_containment.md",
     "DistributedSystems/Time_keeping.md",
-    "DistributedSystems/SystemStructure/Google_infrastructure.md",
     "DistributedSystems/SystemStructure/Distributed_system_design.md",
-    "DistributedSystems/SystemStructure/Cloud_computing.md",
-    "DistributedSystems/Replication/Replication.md",
     "DistributedSystems/Consensus/Two_general_problem.md",
-    "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
     "Cybersecurity/Cryptography.md",
     "XX-Attachments/Images/Pasted image 20240513122556.png",
     "XX-Attachments/Images/Pasted image 20240513121128.png",
     "XX-Attachments/Images/Pasted image 20240513120945.png",
-    "XX-Attachments/Images/Pasted image 20240513120827.png",
     "DistributedSystems/Consensus/Byzantine_generals_problem.md",
     "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
     "Cybersecurity/Network_security.md",
@@ -496,9 +512,6 @@
     "DistributedSystems/CommunicationModels/Indirect_communication.md",
     "DistributedSystems/CommunicationModels/Group_communication.md",
     "Statistics/Sample_space.md",
-    "Statistics/Mean.md",
-    "Statistics/Bayes_theorem.md",
-    "DataStructures/CacheStructures/LRU.md",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",
