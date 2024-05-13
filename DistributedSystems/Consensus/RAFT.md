@@ -27,18 +27,16 @@ ___
 
 ![[Pasted image 20240513132109.png|350|350]]
 
-```
+```c
 on initialisation do
     currentTerm, votedFor := 0, null // stored on disk - preserve in case of crash
     log, commitLength := [], 0 // stored on disk
     currentRole, currentLeader := follower, null // in-memory storage
     votesReceived, sentLength, ackedLength := {}, [], [] // in-memory storage
-end
 
 on recovery from crash do
     currentRole, currentLeader := follower, null // restore role and leader as default
     votesReceived, sentLength, ackedLength := {}, [], [] // clear in-memory states
-end
 
 on nodeId suspects leader failed or election timeout do
     currentTerm := currentTerm + 1; currentRole := candidate // increment term
@@ -47,29 +45,25 @@ on nodeId suspects leader failed or election timeout do
     
     if log.length > 0 then
         lastTerm := log[log.length - 1].term // update last term from log if not empty
-    end if
     
     msg := (VoteRequest, nodeId, currentTerm, log.length, lastTerm) // create vote req
     for each node in nodes:
         send msg to node // send vote request to all nodes
     start election timer // begin timer for election timeout
-end
 ```
 ### RAFT candidate response
 - On receiving a vote request as a candidate another protocol takes place. This protocol allows voting for a single candidate multiple times but not multiple candidates during an election
 - This must ensure the new term number proposed is higher than the nodes own. It must also make sure that the candidates log is more up to date than it's own by looking at log.length 
 
-```
+```c
 on receiving (VoteRequest, cid, cTerm, cLogLength, cLogTerm) at node nodeId do
     if cTerm > currentTerm then
         currentTerm, currentRole := cTerm, follower // update current term and role
         votedFor := null // reset votedFor since a higher term is seen
-    end if
 
     lastTerm := 0 // initialize lastTerm
     if log.length > 0 then
         lastTerm := log[log.length-1].term // get the last term from the log
-    end if
     logOk := (cLogTerm > lastTerm) | (cLogTerm == lastTerm AND cLogLength >= log.length)
 
     if cTerm == currentTerm AND logOk AND votedFor in {cid, null} then
@@ -77,21 +71,18 @@ on receiving (VoteRequest, cid, cTerm, cLogLength, cLogTerm) at node nodeId do
         send (VoteResponse, nodeId, currentTerm, true) to node cld // positive vote
     else
         send (VoteResponse, nodeId, currentTerm, false) to node cld // negative vote
-    end if
-end
 ```
 
 ### RAFT vote collection
 - This protocol must handle 2 scenarios:
     - If a candidate node receives enough affirmative votes (a quorum , it assumes the role of the leader and initiates log replication to followers
     - If it encounters a vote with a term higher than its current term, it demotes itself to a follower to respect the more up-to-date information from other nodes
-```
+```c
 on receiving (VoteResponse, voterId, term, granted) at nodeId do
     if currentRole == candidate AND term == currentTerm AND granted then
         votesReceived.add(voterId) // add 
         if votesReceived.length < ceil(|nodes.length| + 1) / 2) then // failed quorum  
             return
-        end if
         
         currentRole, currentLeader := leader, nodeId 
         cancel election timer 
@@ -99,15 +90,12 @@ on receiving (VoteResponse, voterId, term, granted) at nodeId do
             sentLength[follower] := log.length 
             ackedLength[follower] := 0  // Reset ACK length 
             replicateLog(nodeId, follower) // Start log replication to the follower
-        end for
         
     else if term > currentTerm then
         currentTerm := term // Update the current term to the higher term
         currentRole := follower // Demote to follower
         votedFor := null // Reset voted candidate
         cancel election timer // Stop the election timer
-    end if
-end
 ```
 
 ## Client request multicast 
@@ -118,20 +106,15 @@ end
 on request message msg from a client received at nodeId do
     if currentRole != leader then
         forward the request to currentLeader
-    end if
     
     append the (msg, currentTerm) to log
     ackedLength[nodeId] := log.length // set self as having ACK'd to msg
     for each follower in nodes except {nodeId} do
         replicateLog(nodeId, follower)
-    end for
-end do
 
 periodically at nodeId if currentRole == leader do
     for each follower in nodes - {nodeId} do
         replicateLog(nodeId, follower)
-    end for
-end do
 ```
 
 - The leader accepts client commands, appends them to its log, and then replicates these entries 
@@ -149,23 +132,19 @@ fn replicateLog(leaderId, followerId)
     to followerId:
         send (LogReq, leaderId, curTerm, prefixLen, prefixTerm, commitLength, suffix) 
 ```
-
-
 ### Follower log request processing 
 - Followers must accept their role if the node's term number is lower than the leader's  
 - Followers must also reset voting preferences, confirms the legitimacy of the leader for the current term, checks log consistency, and either appends new entries or responds with failure
 
-```
+```c
 on receiving (LogReq, leaderId, term, prefixLen, prefixTerm, leaderCommit, entries) do
     if term > currentTerm then
         currentTerm := term; votedFor := null
         cancel election timer
-    end if
 
     if term == currentTerm then
         currentRole := follower; currentLeader := leaderId
-    end if
-    logOk := (log.len>=prefixLen) && (prefixLen==0 | log[prefixLen-1].term==prefixTerm)
+    logOk := (log.len>=prefixLen) && (prefixLen==0 || log[prefixLen-1].term==prefixTerm)
 
     if term == currentTerm && logOk then
         appendEntries(prefixLen, leaderCommit, suffix)
@@ -173,42 +152,52 @@ on receiving (LogReq, leaderId, term, prefixLen, prefixTerm, leaderCommit, entri
         send (LogResponse, nodeId, currentTerm, ack, true) to leaderId
     else // used to remedy the difference in leaders ACK len for this node and reality
         send (LogResponse, nodeId, currentTerm, 0, false) to leaderId
-    end if
-end
 ```
-
-
 ### Updating follower logs 
 - Checks if the new entries from the leader are consistent with the existing log entries on the follower. If inconsistencies are found, the follower’s log is truncated to the point of agreement
 - After appending entries, if the leader’s commit index is greater than the follower’s, the function updates the follower's commit index and applies the newly committed entries to the application
 
 ```rust
 fn appendEntries(prefixLen, leaderCommit, suffix)
-  if suffix.length > 0 && log.length > prefixLen then
-    index := min(log.length, prefixLen + suffix.length) - 1
-    if log[index].term != suffix[index - prefixLen].term then
-      log := log[:prefixLen]
-    end if
-  end if
+    if suffix.length > 0 && log.length > prefixLen then
+        index := min(log.length, prefixLen + suffix.length) - 1
+        if log[index].term != suffix[index - prefixLen].term then
+            log := log[:prefixLen]
 
-  if prefixLen + suffix.length > log.length then
-    for i := log.length - prefixLen to suffix.length - 1 do
-      append suffix[i] to log
-    end for
-  end if
+    if prefixLen + suffix.length > log.length then
+        for i := log.length - prefixLen to suffix.length - 1 do
+            append suffix[i] to log
 
-  if leaderCommit > commitLength then
+    if leaderCommit > commitLength then
     for i := commitLength to leaderCommit - 1 do
-      deliver log[i].msg to the application
-    end for
+        deliver log[i].msg to the application
     commitLength := leaderCommit
-  end if
+```
+## Leader processing log responses 
+- Involves updating the state of the log replication process based on responses from followers, ensuring that all nodes in the cluster eventually agree on the log content
+- If this fails the leader decrements the `sentLength[follower]` to retry sending the log entry 
+
+```c
+on receiving (LogResponse, follower, term, ack, success) at nodeId do
+    if term != currentTerm | currentRole != leader then
+        return
+    if success == true && ack > ackedLength[follower] then
+        sentLength[follower] := ack
+        ackedLength[follower] := ack
+        commitLogEntries()
+    else if sentLength[follower] > 0 then // follower has missing log entries 
+        sentLength[follower] -:= 1
+        ReplicateLog(nodeId, follower)
+    else if term > currentTerm then
+        currentTerm := term
+        currentRole := follower
+        votedFor := null
+        cancel election timer
 ```
 
 
-### Leader processing log responses 
-
-
+### Leader committing log entries 
+- Any log entries that have been ACK'd by a quorum are ready to be committed 
 ## RAFT process
 
 - **Log Management:**
