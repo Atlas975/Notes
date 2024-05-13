@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Distributed_system_security.md",
+                "file": "DistributedSystems/CommunicationModels/Group_communication.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -401,7 +401,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Distributed_system_security.md"
+                "file": "DistributedSystems/CommunicationModels/Group_communication.md"
               }
             }
           }
@@ -436,7 +436,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Distributed_system_security.md",
+                "file": "DistributedSystems/CommunicationModels/Group_communication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -453,7 +453,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Distributed_system_security.md",
+                "file": "DistributedSystems/CommunicationModels/Group_communication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -525,30 +525,30 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ac1a3f7921bd0433",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
+    "DistributedSystems/CommunicationModels/Indirect_communication.md",
+    "DistributedSystems/Consensus/Byzantine_generals_problem.md",
+    "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
+    "DistributedSystems/Consensus/RAFT.md",
+    "DistributedSystems/Consensus/Two_general_problem.md",
+    "DistributedSystems/Replication/Passive_replication.md",
+    "DistributedSystems/Replication/Replication.md",
+    "DistributedSystems/SystemStructure/Distributed_system_design.md",
+    "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
     "DistributedSystems/SystemStructure/Google_infrastructure.md",
     "DistributedSystems/SystemStructure/Cloud_computing.md",
     "DistributedSystems/SystemStructure/Blockchain.md",
-    "DistributedSystems/Replication/Replication.md",
-    "DistributedSystems/Replication/Passive_replication.md",
     "DistributedSystems/Replication/Active_replication.md",
-    "DistributedSystems/Consensus/RAFT.md",
-    "DistributedSystems/Consensus/Two_general_problem.md",
-    "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
     "DistributedSystems/Consensus/Paxos.md",
     "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
-    "DistributedSystems/SystemStructure/Distributed_system_design.md",
     "DistributedSystems/Fault_tolerence.md",
     "DistributedSystems/Distributed_systems.md",
-    "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/Time_keeping.md",
     "DistributedSystems/Software_containment.md",
     "DistributedSystems/Remote_invocation.md",
-    "DistributedSystems/CommunicationModels/Indirect_communication.md",
     "DistributedSystems/CommunicationModels/Group_communication.md",
-    "DistributedSystems/Consensus/Byzantine_generals_problem.md",
     "OperatingSystems/Virtualisation.md",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
