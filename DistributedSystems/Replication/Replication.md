@@ -13,7 +13,6 @@ ___
 - Replication involves creating multiple copies of the same data across different servers or locations to improve reliability and performance.
 - This approach helps in handling failures and distributing workload efficiently. The need for this becomes unavoidable as a system gets larger
 
-
 ![[Pasted image 20240512005312.png|450|450]]
 
 ## State Machine Replication (SMR)
@@ -25,8 +24,20 @@ ___
 ![[Pasted image 20240512174845.png|450|450]]
 
 ## Consistency levels 
-1. **Strong**: updates to any replica are visible immediately to all other replicas.
+1. **Strong**: updates to a replica are visible immediately to all other replicas. Comes with a large overhead and is typically done with a [[Paxos|consensus protocol]] eg SMR
+2. **Eventual consistency**: updates to a replica will eventually be visible to all other replicas. Higher availability ([[Brewers_CAP_theorem|CAP]]) but updates may be seen in a different order depending on the replica
+    - This requires being able to deal with potential conflicts, eg google docs, [[Git]] collab
+    - Replicas can locally order events using [[Time_keeping#Vector clocks|Vector clocks]]
 
+![[Pasted image 20240513161119.png|400|400]]
+
+## Conflict-free replicated data types (CRDT)
+- A family of algorithms that perform conflict resolution. Designed to handle data replication where nodes can update data independently and [[Concurrency|concurrently]] without central coordination.
+- These exist in two types 
+    - **Operation-based CRDTs:** replicas broadcast only update operations to all other replicas.
+    - **State-based CRDTs:** replicas broadcast their entire state to other replicas
+### Last writer wins
+- The most recent update (based on timestamp) overwrites earlier updates.
 ### Safety and Consistency
 
 - **Term Uniqueness:** Each server’s log includes a term number for each entry, which helps servers detect inconsistencies between their logs and the leader’s.
@@ -36,33 +47,20 @@ ___
 
 - **Leader Crashes:** If a leader crashes, followers perceive the lack of heartbeat and start a new election.
 - **Network Partitions:** RAFT handles network partitions by ensuring that no data loss occurs as long as a majority of the servers can communicate with each other.
-### Consistency Levels
-
-1. **Strong Consistency:**
-    
-    - **Definition:** Updates to any replica are visible immediately to all other replicas.
-    - **Implementation:** Often implemented through a consensus protocol among replicas.
-    - **Drawback:** Can lead to significant overhead and lower availability in the presence of network partitions.
-2. **Eventual Consistency:**
-    
-    - **Definition:** Updates to one replica will eventually be visible to all other replicas.
-    - **Characteristics:** Updates may be seen in a different order on different replicas, but all replicas will eventually converge to the same state.
-    - **Suitability:** Useful in applications where immediate consistency is not critical.
 
 ### Conflict Resolution
 
 - **Scenario:** Conflicts occur when two replicas receive updates to the same data in different orders.
 - **Mechanisms:** Systems must employ mechanisms to resolve these conflicts to maintain data integrity and consistency.
 - **Example Mechanisms:**
-    - **Last Writer Wins:** The most recent update (based on timestamp) overwrites earlier updates.
+    - **Last Writer Wins:** 
     - **Merge Operations:** Conflicting updates are merged based on predefined rules, which may involve user intervention or automated processes.
 
 ### Conflict-Free Replicated Data Types (CRDTs)
 
-- **Purpose:** Designed to handle data replication where nodes can update data independently and concurrently without central coordination.
+- **Purpose:** 
 - **Types:**
-    - **Operation-based CRDTs:** Replicas broadcast update operations to all other replicas.
-    - **State-based CRDTs:** Replicas broadcast their entire state to other replicas, which then merge this state with their own.
+
 
 ### Use Cases for Eventual Consistency
 
