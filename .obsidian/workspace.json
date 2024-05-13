@@ -320,7 +320,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -388,7 +388,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Remote_invocation.md"
+                "file": "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md"
               }
             }
           }
@@ -423,7 +423,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Remote_invocation.md",
+                "file": "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -440,7 +440,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Remote_invocation.md",
+                "file": "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -512,8 +512,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "89cfb6d03647193b",
+  "active": "4abdb569fa4f80a1",
   "lastOpenFiles": [
+    "DistributedSystems/Remote_invocation.md",
     "DistributedSystems/Replication/Passive_replication.md",
     "DistributedSystems/Replication/Replication.md",
     "DistributedSystems/Consensus/RAFT.md",
@@ -534,7 +535,6 @@
     "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
     "DistributedSystems/Fault_tolerence.md",
     "DistributedSystems/Distributed_system_security.md",
-    "DistributedSystems/Remote_invocation.md",
     "DistributedSystems/Replication/Active_replication.md",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
