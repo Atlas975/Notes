@@ -18,10 +18,17 @@ ___
 - PBFT is designed to handle [[Byzantine_generals_problem|Byzantine]] faults within distributed systems, ensuring that all non-faulty nodes agree on their states even if some nodes exhibit arbitrary failures.
 - This requires both $3f +1$ nodes and a 2-phase communication protocol (eg [[Paxos]], used to carry out any operation that hasn't been reflected in all replicas). 
 ## PBFT clients
-- Uses 
+- Uses a primary-backup scheme for replicas, this means clients send requests to primary. It's only if this times out that the client broadcasts a message to all replicas.
+- If this broadcast occurs, $f+1$ identical replies are expected. Replicas must carry out the PBFT protocol to ensure the replies from honest nodes are correct 
+
+![[Pasted image 20240513110047.png|450|450]]
+
+## Ordering requests 
+- Group initially runs 
+
 
 ## PBFT process
-1. **Client Request Handling:** Clients send requests to the primary replica. If the primary is non-responsive, the request is multicast to all replicas.
+1. **Client request handling:** Clients send requests to the primary replica. If the primary is non-responsive, the request is multicast to all replicas.
 2. **Pre-Prepare Phase:** The primary assigns a sequence number to each request and multicasts a pre-prepare message to backup replicas.
 3. **Prepare Phase:** Upon receiving the pre-prepare message, replicas enter the prepare phase and multicast a prepare message to other replicas.
 4. **Commit Phase:** Replicas collect prepare messages, and upon achieving a "prepare quorum" (2f+1 messages), they enter the commit phase.
