@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Replication/Active_replication.md",
+                "file": "DistributedSystems/CommunicationModels/Group_communication.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -401,7 +401,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Replication/Active_replication.md"
+                "file": "DistributedSystems/CommunicationModels/Group_communication.md"
               }
             }
           }
@@ -436,7 +436,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Replication/Active_replication.md",
+                "file": "DistributedSystems/CommunicationModels/Group_communication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -453,7 +453,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Replication/Active_replication.md",
+                "file": "DistributedSystems/CommunicationModels/Group_communication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -527,6 +527,7 @@
   },
   "active": "a27730ab09b88c18",
   "lastOpenFiles": [
+    "DistributedSystems/Replication/Active_replication.md",
     "DistributedSystems/Fault_tolerence.md",
     "DistributedSystems/Time_keeping.md",
     "DistributedSystems/Software_containment.md",
@@ -540,7 +541,6 @@
     "DistributedSystems/CommunicationModels/Group_communication.md",
     "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
     "DistributedSystems/Replication/Passive_replication.md",
-    "DistributedSystems/Replication/Active_replication.md",
     "DistributedSystems/Replication/Replication.md",
     "DistributedSystems/CommunicationModels/Indirect_communication.md",
     "DistributedSystems/Consensus/Paxos.md",
