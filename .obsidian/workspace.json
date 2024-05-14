@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Time_keeping.md",
+                "file": "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -401,7 +401,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Time_keeping.md"
+                "file": "Cybersecurity/RiskManagement/Vulnerability_analysis.md"
               }
             }
           }
@@ -436,7 +436,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Time_keeping.md",
+                "file": "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -453,7 +453,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Time_keeping.md",
+                "file": "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -527,21 +527,22 @@
   },
   "active": "0866ac90769c4224",
   "lastOpenFiles": [
+    "Cybersecurity/Cryptography.md",
     "Cybersecurity/RiskManagement/Security_principles.md",
     "Cybersecurity/RiskManagement/Security_models.md",
-    "Cybersecurity/RiskManagement/Security_economics.md",
-    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
-    "Cybersecurity/RiskManagement/Quantitative_privacy.md",
-    "Cybersecurity/Cryptography.md",
     "Cybersecurity/RiskManagement/Risk_management.md",
+    "Cybersecurity/RiskManagement/Quantitative_privacy.md",
     "Cybersecurity/RiskManagement/Access_controls.md",
-    "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
+    "Cybersecurity/RiskManagement/Security_economics.md",
     "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
+    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
+    "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
     "Cybersecurity/Hashing.md",
+    "Cybersecurity/Operating_system_security.md",
+    "DistributedSystems/Time_keeping.md",
     "Cybersecurity/Keys.md",
     "Cybersecurity/Network_security.md",
     "Cybersecurity/PKCS7.md",
-    "Cybersecurity/Operating_system_security.md",
     "Cybersecurity/Salt.md",
     "Statistics/Bessels_correction.md",
     "Statistics/Bayes_theorem.md",
@@ -551,7 +552,6 @@
     "DistributedSystems/Remote_invocation.md",
     "DistributedSystems/Distributed_systems.md",
     "DistributedSystems/Distributed_system_security.md",
-    "DistributedSystems/Time_keeping.md",
     "DistributedSystems/Software_containment.md",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
