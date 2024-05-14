@@ -12,7 +12,6 @@ ___
 # RAFT
 - A consensus protocol designed to be more understandable than [[Paxos|Multi-Paxos]]. It ensures that multiple replicas agree on the sequence and state of log entries in a [[Distributed_systems|distributed system]]
 - Crucial for maintaining a consistent replicated state machine with totally-ordered client requests. 
-- **Handling Log Entries:**
 
 ## RAFT leader
 - RAFT is a leader driven protocol, with the leader chosen through an election system. 
