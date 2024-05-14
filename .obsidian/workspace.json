@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Distributed_systems.md",
+                "file": "Cybersecurity/RiskManagement/Access_controls.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -401,7 +401,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Distributed_systems.md"
+                "file": "Cybersecurity/RiskManagement/Access_controls.md"
               }
             }
           }
@@ -436,7 +436,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Distributed_systems.md",
+                "file": "Cybersecurity/RiskManagement/Access_controls.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -453,7 +453,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Distributed_systems.md",
+                "file": "Cybersecurity/RiskManagement/Access_controls.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -527,11 +527,22 @@
   },
   "active": "a27730ab09b88c18",
   "lastOpenFiles": [
-    "DistributedSystems/Distributed_system_security.md",
+    "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
+    "Cybersecurity/RiskManagement/Quantitative_privacy.md",
+    "Cybersecurity/RiskManagement/Security_models.md",
+    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
+    "Cybersecurity/RiskManagement/Security_principles.md",
+    "Cybersecurity/RiskManagement/Access_controls.md",
+    "Statistics/Bessels_correction.md",
+    "Statistics/Bayes_theorem.md",
+    "Statistics/ProbabilityDistributions/Probability_distributions.md",
+    "Statistics/ProbabilityDistributions/PERT_distribution.md",
+    "Statistics/ProbabilityDistributions/Pareto_distribution.md",
+    "DistributedSystems/Remote_invocation.md",
     "DistributedSystems/Distributed_systems.md",
+    "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/Time_keeping.md",
     "DistributedSystems/Software_containment.md",
-    "DistributedSystems/Remote_invocation.md",
     "DistributedSystems/Fault_tolerence.md",
     "DistributedSystems/Replication/Active_replication.md",
     "DistributedSystems/Replication/Passive_replication.md",
@@ -542,14 +553,6 @@
     "DistributedSystems/SystemStructure/Blockchain.md",
     "DistributedSystems/Consensus/Two_general_problem.md",
     "DistributedSystems/CommunicationModels/Indirect_communication.md",
-    "DistributedSystems/CommunicationModels/Group_communication.md",
-    "DistributedSystems/SystemStructure/Google_infrastructure.md",
-    "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
-    "DistributedSystems/SystemStructure/Cloud_computing.md",
-    "DistributedSystems/Replication/Replication.md",
-    "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
-    "DistributedSystems/Consensus/Byzantine_generals_problem.md",
-    "OperatingSystems/Virtualisation.md",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
     "XX-Attachments/Images/Pasted image 20240513165230.png",
@@ -560,9 +563,6 @@
     "XX-Attachments/Images/Pasted image 20240513132836.png",
     "XX-Attachments/Images/Pasted image 20240513132109.png",
     "XX-Attachments/Images/Pasted image 20240513131349.png",
-    "Cybersecurity/Cryptography.md",
-    "Cybersecurity/Network_security.md",
-    "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",
