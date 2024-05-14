@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Consensus/Paxos.md",
+                "file": "DistributedSystems/Consensus/RAFT.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -401,7 +401,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Consensus/Paxos.md"
+                "file": "DistributedSystems/Consensus/RAFT.md"
               }
             }
           }
@@ -436,7 +436,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Consensus/Paxos.md",
+                "file": "DistributedSystems/Consensus/RAFT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -453,7 +453,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Consensus/Paxos.md",
+                "file": "DistributedSystems/Consensus/RAFT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -527,6 +527,7 @@
   },
   "active": "a27730ab09b88c18",
   "lastOpenFiles": [
+    "DistributedSystems/Consensus/Paxos.md",
     "DistributedSystems/Consensus/RAFT.md",
     "DistributedSystems/SystemStructure/Distributed_system_design.md",
     "DistributedSystems/SystemStructure/Cloud_computing.md",
@@ -538,7 +539,6 @@
     "DistributedSystems/SystemStructure/Blockchain.md",
     "DistributedSystems/CommunicationModels/Indirect_communication.md",
     "DistributedSystems/Consensus/Two_general_problem.md",
-    "DistributedSystems/Consensus/Paxos.md",
     "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/Distributed_systems.md",
     "DistributedSystems/Software_containment.md",
