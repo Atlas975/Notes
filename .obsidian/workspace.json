@@ -351,7 +351,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Security_models.md",
+                "file": "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -440,7 +440,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Security_models.md"
+                "file": "Cybersecurity/RiskManagement/Cyber_threat_analysis.md"
               }
             }
           }
@@ -475,7 +475,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Security_models.md",
+                "file": "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -492,7 +492,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Security_models.md",
+                "file": "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -566,9 +566,10 @@
   },
   "active": "376ec22e8db28de0",
   "lastOpenFiles": [
+    "Cybersecurity/RiskManagement/Security_models.md",
+    "Cybersecurity/RiskManagement/Security_economics.md",
     "Cybersecurity/RiskManagement/Security_principles.md",
     "Cybersecurity/RiskManagement/Access_controls.md",
-    "Cybersecurity/RiskManagement/Security_models.md",
     "Cybersecurity/Hashing.md",
     "Cybersecurity/Cryptography.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
@@ -579,7 +580,6 @@
     "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
     "Cybersecurity/RiskManagement/Quantitative_privacy.md",
     "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
-    "Cybersecurity/RiskManagement/Security_economics.md",
     "Cybersecurity/Network_security.md",
     "Cybersecurity/Operating_system_security.md",
     "DistributedSystems/Time_keeping.md",
