@@ -27,9 +27,9 @@ ___
 ![[Pasted image 20240427213531.png|450|450]]
 ### Sources of risk uncertainty
 - Who the attacker is 
-- What the attacker's goal is 
+- What's the attacker's goal 
 - What's the likelihood their attack succeeds
-- What is the impact if they succeed
+- What's the impact if they succeed
 
 ### CISP risk analysis 
 

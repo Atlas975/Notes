@@ -17,7 +17,7 @@ ___
 $$\mu=\text{mean of log of random variable}$$
 $$\sigma=\text{standard deviation of log of random variable}$$
 ## Probability density function
-$$P(X=x)=\frac{1}{x\cdot\sigma\cdot \sqrt{ 2\pi }}\cdot \exp({-\frac{(\ln(x)-\mu)^2}{2\sigma^2}})$$
+$$P(X=x)=\frac{1}{x\sigma\cdot \sqrt{ 2\pi }}\cdot \exp({-\frac{(\ln(x)-\mu)^2}{2\sigma^2}})$$
 
 ## Cumulative distribution function
 $$P(X\leq x)=\phi\left( \frac{\ln(x)-\mu}{\sigma} \right)$$
@@ -30,4 +30,4 @@ $$P(X\leq x)=\phi\left( \frac{\ln(x)-\mu}{\sigma} \right)$$
 $$E(x)=\exp(\mu+\frac{\sigma^2}{2})$$
 
 ## Variance
-$$\text{Var}(x)=e^{2\cdot\mu+\sigma^2}(e^{\sigma^2}-1)$$
+$$\text{Var}(x)=\exp(2\mu+\sigma^2)\cdot(e^{\sigma^2}-1)$$
