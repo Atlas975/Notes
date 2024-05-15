@@ -54,8 +54,7 @@ ___
 - Involves taking steps to reduce the likelihood and/or impact of the risk. This is done through proactive measures and controls.
 - Involves taking steps to reduce the likelihood and/or impact of the risk. This is done through proactive measures and controls.
 
+### Risk acceptance
+- Involves choosing to accept the risk without taking any immediate action to mitigate it.
+- This strategy is appropriate for low-probability or low-impact risks where the cost of mitigation would exceed the potential loss.
 
-- **Risk avoidance**: eliminating activities or actions that introduce risk.
-- **Risk transfer**: shifting the risk to another party (e.g., through insurance or outsourcing).
-- **Risk mitigation**: reducing the likelihood or impact of the risk through proactive measures.
-- **Risk acceptance**: accepting the risk without taking immediate action when it is deemed acceptable or when mitigation costs are higher than the risk itself.
