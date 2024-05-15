@@ -60,6 +60,7 @@ ___
 - **Least Privilege & Separation of Duties**: enforces both of these principles 
 
 
+![[Pasted image 20240515151258.png|350|350]]
 ![[Pasted image 20240426160116.png|300|300]]
 ### Attribute-Based Access Control (ABAC)
 - **Attribute-Based Rules**: evaluates attributes (user, resource, context) to determine access
