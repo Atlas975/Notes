@@ -385,6 +385,45 @@
             }
           },
           {
+            "id": "b927c3dd54045c91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "571f12e505617bdb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/RiskManagement/Security_models.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4567d1ceeb1eaed6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Sampling_methods.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "83e770912adfb631",
             "type": "leaf",
             "state": {
@@ -398,7 +437,7 @@
             }
           }
         ],
-        "currentTab": 28
+        "currentTab": 31
       }
     ],
     "direction": "vertical"
@@ -466,7 +505,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Cyber_threat_analysis.md"
+                "file": "Statistics/Sampling_methods.md"
               }
             }
           }
@@ -501,7 +540,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
+                "file": "Statistics/Sampling_methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -518,7 +557,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
+                "file": "Statistics/Sampling_methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -590,13 +629,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "aef429ad2d19eb87",
+  "active": "4567d1ceeb1eaed6",
   "lastOpenFiles": [
+    "Cybersecurity/RiskManagement/Security_models.md",
+    "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
+    "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
     "Cybersecurity/RiskManagement/Access_controls.md",
     "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
     "Cybersecurity/RiskManagement/Quantitative_privacy.md",
     "Cybersecurity/RiskManagement/Risk_management.md",
-    "Cybersecurity/RiskManagement/Security_models.md",
     "Cybersecurity/RiskManagement/Security_principles.md",
     "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
     "Cybersecurity/Network_security.md",
@@ -604,7 +645,6 @@
     "Cybersecurity/Hashing.md",
     "Cybersecurity/RiskManagement/Security_economics.md",
     "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
-    "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
     "Economics/Markets.md",
     "Cybersecurity/Cryptography.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
@@ -618,7 +658,6 @@
     "Statistics/ProbabilityDistributions/Probability_distributions.md",
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "Statistics/ProbabilityDistributions/Pareto_distribution.md",
-    "DistributedSystems/Remote_invocation.md",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
     "XX-Attachments/Images/Pasted image 20240513165230.png",
