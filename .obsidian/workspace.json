@@ -364,7 +364,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
+                "file": "Cybersecurity/Hashing.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aef429ad2d19eb87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/Keys.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -385,7 +398,7 @@
             }
           }
         ],
-        "currentTab": 27
+        "currentTab": 28
       }
     ],
     "direction": "vertical"
@@ -453,7 +466,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md"
+                "file": "Cybersecurity/Keys.md"
               }
             }
           }
@@ -488,7 +501,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
+                "file": "Cybersecurity/Keys.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -505,7 +518,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
+                "file": "Cybersecurity/Keys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -577,21 +590,22 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "aff7e5af8be58e61",
+  "active": "aef429ad2d19eb87",
   "lastOpenFiles": [
-    "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
-    "Economics/Markets.md",
+    "Cybersecurity/Hashing.md",
+    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
     "Cybersecurity/RiskManagement/Security_models.md",
     "Cybersecurity/RiskManagement/Security_economics.md",
+    "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
+    "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
+    "Economics/Markets.md",
     "Cybersecurity/RiskManagement/Security_principles.md",
     "Cybersecurity/RiskManagement/Access_controls.md",
-    "Cybersecurity/Hashing.md",
     "Cybersecurity/Cryptography.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "Statistics/Event_independence.md",
     "Statistics/Bayes_theorem.md",
     "Cybersecurity/RiskManagement/Risk_management.md",
-    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
     "Cybersecurity/RiskManagement/Quantitative_privacy.md",
     "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
     "Cybersecurity/Network_security.md",
@@ -605,7 +619,6 @@
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "Statistics/ProbabilityDistributions/Pareto_distribution.md",
     "DistributedSystems/Remote_invocation.md",
-    "DistributedSystems/Distributed_systems.md",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
     "XX-Attachments/Images/Pasted image 20240513165230.png",
