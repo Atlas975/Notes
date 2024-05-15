@@ -31,10 +31,31 @@ ___
 - What's the likelihood their attack succeeds
 - What's the impact if they succeed
 
-### CISP risk analysis 
+### CISP risk analysis
 
 ![[Pasted image 20240427213632.png|350|350]]
 
 ## Risk assessment types
 - **Qualitative Assessment**: the ranking of threat seriousness based on judgement / experience
 - **Quantitative Assessment**: assigns numerical values or percentages to components like safeguard costs, asset value, and threat frequency
+
+## Risk handling strategies
+- Approaches that organisations and individuals use to manage and mitigate risks
+- Each strategy has its own approach / application depending on the nature / impact of the risk.
+
+### Risk avoidance 
+- Involves eliminating the risk by not engaging in the activity that introduces the risk.
+- This strategy is used when the risk has a high probability of occurrence and a high impact, making the cost of the risk too great to accept or mitigate.
+### Risk transfer
+- Involves shifting the risk to a third party. This often involves using insurance, outsourcing, or contracts to transfer the risk.
+- This strategy is appropriate when the risk can be better managed or borne by another party who has the expertise or capacity to handle it.
+
+### Risk mitigation
+- Involves taking steps to reduce the likelihood and/or impact of the risk. This is done through proactive measures and controls.
+- Involves taking steps to reduce the likelihood and/or impact of the risk. This is done through proactive measures and controls.
+
+
+- **Risk avoidance**: eliminating activities or actions that introduce risk.
+- **Risk transfer**: shifting the risk to another party (e.g., through insurance or outsourcing).
+- **Risk mitigation**: reducing the likelihood or impact of the risk through proactive measures.
+- **Risk acceptance**: accepting the risk without taking immediate action when it is deemed acceptable or when mitigation costs are higher than the risk itself.
