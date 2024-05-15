@@ -455,7 +455,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
+                "file": "Cybersecurity/RiskManagement/Security_models.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -557,7 +557,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md"
+                "file": "Cybersecurity/RiskManagement/Security_models.md"
               }
             }
           }
@@ -565,8 +565,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -593,7 +592,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
+                "file": "Cybersecurity/RiskManagement/Security_models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -610,7 +609,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
+                "file": "Cybersecurity/RiskManagement/Security_models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -684,32 +683,32 @@
   },
   "active": "571d0ba72aa5665f",
   "lastOpenFiles": [
-    "Cybersecurity/EncryptionSchemes/RSA.md",
-    "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
-    "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
-    "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
-    "Cybersecurity/RiskManagement/Quantitative_privacy.md",
-    "Cybersecurity/RiskManagement/Security_models.md",
-    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
     "Cybersecurity/RiskManagement/Security_economics.md",
+    "Cybersecurity/RiskManagement/Quantitative_privacy.md",
+    "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
     "Cybersecurity/RiskManagement/Access_controls.md",
+    "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
+    "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
+    "Cybersecurity/EncryptionSchemes/Advanced_encryption_standard.md",
+    "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
+    "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
+    "Cybersecurity/RiskManagement/Risk_management.md",
+    "Cybersecurity/Cryptography.md",
+    "Cybersecurity/RiskManagement/Security_principles.md",
+    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
+    "Cybersecurity/RiskManagement/Security_models.md",
+    "Cybersecurity/EncryptionSchemes/RSA.md",
     "Cybersecurity/Salt.md",
     "Cybersecurity/Operating_system_security.md",
     "Cybersecurity/PKCS7.md",
     "Cybersecurity/Network_security.md",
     "Cybersecurity/Hashing.md",
-    "Cybersecurity/RiskManagement/Security_principles.md",
-    "Cybersecurity/RiskManagement/Risk_management.md",
-    "Cybersecurity/Cryptography.md",
     "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
     "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
     "Statistics/Bessels_correction.md",
     "Cybersecurity/Keys.md",
-    "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
-    "Cybersecurity/EncryptionSchemes/Advanced_encryption_standard.md",
     "Statistics/Sampling_methods.md",
     "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
-    "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
