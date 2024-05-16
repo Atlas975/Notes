@@ -481,7 +481,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Sampling_methods.md",
+                "file": "Cybersecurity/Cryptography.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -583,7 +583,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Sampling_methods.md"
+                "file": "Cybersecurity/Cryptography.md"
               }
             }
           }
@@ -618,7 +618,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Sampling_methods.md",
+                "file": "Cybersecurity/Cryptography.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -635,7 +635,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Sampling_methods.md",
+                "file": "Cybersecurity/Cryptography.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -709,8 +709,13 @@
   },
   "active": "a53631f15cdf2329",
   "lastOpenFiles": [
-    "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
+    "Cybersecurity/RiskManagement/Security_models.md",
+    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
+    "Cybersecurity/RiskManagement/Security_economics.md",
     "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
+    "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
+    "Cybersecurity/EncryptionSchemes/HMAC.md",
+    "Statistics/Sampling_methods.md",
     "Cybersecurity/RiskManagement/Risk_management.md",
     "Cybersecurity/Salt.md",
     "Cybersecurity/PKCS7.md",
@@ -719,10 +724,7 @@
     "Cybersecurity/Keys.md",
     "Cybersecurity/Hashing.md",
     "Cybersecurity/Cryptography.md",
-    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
     "Cybersecurity/RiskManagement/Security_principles.md",
-    "Cybersecurity/RiskManagement/Security_models.md",
-    "Cybersecurity/RiskManagement/Security_economics.md",
     "Cybersecurity/RiskManagement/Quantitative_privacy.md",
     "Cybersecurity/RiskManagement/Access_controls.md",
     "Cybersecurity/EncryptionSchemes/RSA.md",
@@ -730,11 +732,9 @@
     "Cybersecurity/EncryptionSchemes/Advanced_encryption_standard.md",
     "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
     "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
-    "Cybersecurity/EncryptionSchemes/HMAC.md",
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
     "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
-    "Statistics/Bessels_correction.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
