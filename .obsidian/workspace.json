@@ -442,7 +442,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
+                "file": "Languages&Compilation/Parsing/TopDownParsing/Left_recursion.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -609,7 +609,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md"
+                "file": "Languages&Compilation/Parsing/TopDownParsing/Left_recursion.md"
               }
             }
           }
@@ -644,7 +644,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
+                "file": "Languages&Compilation/Parsing/TopDownParsing/Left_recursion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -661,7 +661,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
+                "file": "Languages&Compilation/Parsing/TopDownParsing/Left_recursion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -735,6 +735,8 @@
   },
   "active": "e373d6e480e35eeb",
   "lastOpenFiles": [
+    "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
+    "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
     "Languages&Compilation/Grammars/Regular_grammars.md",
     "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
@@ -752,8 +754,6 @@
     "Languages&Compilation/Parsing/TopDownParsing/Left_recursion.md",
     "Languages&Compilation/Grammars/Unrestricted_grammars.md",
     "Languages&Compilation/Grammars/Formal_languages.md",
-    "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
-    "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
     "Languages&Compilation/Grammars/Context_free_grammars.md",
     "Languages&Compilation/Computability/TuringMachines/Halting_problem.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
