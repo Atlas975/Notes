@@ -463,6 +463,19 @@
             }
           },
           {
+            "id": "6fc4b42437a1668a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/RiskManagement/Security_models.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ab77e7f20ac73a2a",
             "type": "leaf",
             "state": {
@@ -489,7 +502,7 @@
             }
           }
         ],
-        "currentTab": 34
+        "currentTab": 35
       }
     ],
     "direction": "vertical"
@@ -557,7 +570,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md"
+                "file": "Cybersecurity/RiskManagement/Security_models.md"
               }
             }
           }
@@ -565,7 +578,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -592,7 +606,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md",
+                "file": "Cybersecurity/RiskManagement/Security_models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -609,7 +623,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md",
+                "file": "Cybersecurity/RiskManagement/Security_models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -681,18 +695,19 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "571d0ba72aa5665f",
+  "active": "6fc4b42437a1668a",
   "lastOpenFiles": [
+    "Cybersecurity/RiskManagement/Access_controls.md",
+    "Cybersecurity/Network_security.md",
+    "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "Cybersecurity/Operating_system_security.md",
     "Cybersecurity/EncryptionSchemes/Advanced_encryption_standard.md",
     "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
     "Cybersecurity/PKCS7.md",
-    "Cybersecurity/Network_security.md",
     "Cybersecurity/Hashing.md",
     "Cybersecurity/RiskManagement/Risk_management.md",
     "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
     "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
-    "Cybersecurity/RiskManagement/Access_controls.md",
     "Cybersecurity/EncryptionSchemes/RSA.md",
     "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
     "Cybersecurity/RiskManagement/Security_models.md",
@@ -708,7 +723,6 @@
     "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
     "Statistics/Bessels_correction.md",
     "Statistics/Sampling_methods.md",
-    "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",

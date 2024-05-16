@@ -33,7 +33,6 @@ ___
 ## Internet protocol security (IPSec)
 - A suite of protocols designed to secure IP communications by encrypting and authenticating each IP packet in a communication session. Provides end-to-end security
 - IPSec support is compulsory with [[Internet_protocol#IPV6 encoding|IPv6]],  increasing the baseline security standard from IPv4
-
 ### Authentication header (AH)
 - Provides data integrity, origin authentication, and protection against replay attacks
 - These traits ensure data has not been tampered with in transit (using [[Checksum]])
