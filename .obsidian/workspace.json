@@ -442,7 +442,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Computability/TuringMachines/Turing_thesis.md",
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -609,7 +609,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Computability/TuringMachines/Turing_thesis.md"
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md"
               }
             }
           }
@@ -644,7 +644,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Computability/TuringMachines/Turing_thesis.md",
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -661,7 +661,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Computability/TuringMachines/Turing_thesis.md",
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -735,6 +735,10 @@
   },
   "active": "e373d6e480e35eeb",
   "lastOpenFiles": [
+    "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
+    "Languages&Compilation/Grammars/Regular_grammars.md",
+    "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
+    "Languages&Compilation/Computability/TuringMachines/Turing_thesis.md",
     "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
     "Languages&Compilation/Computability/TuringMachines/Universal_Turing_machines.md",
     "Languages&Compilation/Computability/Chomsky_hierarchy.md",
@@ -742,8 +746,6 @@
     "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md",
     "Languages&Compilation/FiniteAutomata/Regular_expression_FSM.md",
     "Languages&Compilation/FiniteAutomata/Subset_construction_algorithm.md",
-    "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
-    "Languages&Compilation/Grammars/Regular_grammars.md",
     "Languages&Compilation/Parsing/First_sets.md",
     "Languages&Compilation/Parsing/Follow_sets.md",
     "Languages&Compilation/Parsing/TopDownParsing/Recursive_descent.md",
@@ -752,10 +754,8 @@
     "Languages&Compilation/Grammars/Formal_languages.md",
     "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
-    "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
     "Languages&Compilation/Grammars/Context_free_grammars.md",
     "Languages&Compilation/Computability/TuringMachines/Halting_problem.md",
-    "Languages&Compilation/Computability/TuringMachines/Turing_thesis.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Syntax_analyser.md",
     "Cybersecurity/Keys.md",
