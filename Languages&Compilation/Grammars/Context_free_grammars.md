@@ -17,7 +17,7 @@ ___
 # Context free grammars
 - Generates context free languages, all productions are in the format: 
 $$\text{NON-TERMINAL }\to RHS $$
-$$RHS =\text{any mix of terminals and NON-TERMINALS, can be empty}$$
+$$\text{RHS is any mix of terminals and NON-TERMINALS, can be empty}$$
 
 
 ![[Pasted image 20240202163902.png|400|400]]

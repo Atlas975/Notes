@@ -16,8 +16,8 @@ ___
 
 $$LHS \to RHS$$
 $$LHS\leq{RHS}$$
-$$LHS=\text{any mix of terminals and/or NON-TERMINALS, min 1 symbol}$$ 
-$$RHS =\text{any mix of terminals and NON-TERMINALS, this must NOT be empty}$$
+$$LHS=\text{any mix of NON-TERMINALS}$$ 
+$$RHS =\text{any mix of terminals and/or NON-TERMINALS, this must NOT be empty}$$
 
 ![[Pasted image 20240224185021.png|350|350]]
 

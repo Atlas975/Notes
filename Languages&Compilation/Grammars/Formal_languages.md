@@ -144,3 +144,20 @@ The dalek hates the doctor
 ## Language ambiguity
 - Languages always have meaning **(Semantics)** and structure **(Syntax)** but they can still be highly ambiguous (have 1+ meanings) eg "fruit flies like a banana"
 - A common example of this are arithmetic expressions where operator precedence matters
+
+## Grammar types 
+- [[Regular_grammars|Regular]]:
+
+$$A\to a$$
+$$A\to aB$$
+- [[Context_free_grammars|Context-free]]:
+
+$$A\to \text{RHS}$$
+$$A\to\epsilon$$
+$$\text{RHS is any mix of terminals/non-terminals}$$
+- [[Context_sensitive_grammars|Context-sensitive]]:
+
+
+
+
+
