@@ -450,6 +450,19 @@
             }
           },
           {
+            "id": "f261128544dc861c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4143e2a499635a46",
             "type": "leaf",
             "state": {
@@ -541,7 +554,7 @@
             }
           }
         ],
-        "currentTab": 33
+        "currentTab": 34
       }
     ],
     "direction": "vertical"
@@ -609,7 +622,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Computability/TuringMachines/Universal_Turing_machines.md"
+                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md"
               }
             }
           }
@@ -644,7 +657,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Computability/TuringMachines/Universal_Turing_machines.md",
+                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -661,7 +674,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Computability/TuringMachines/Universal_Turing_machines.md",
+                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -733,18 +746,19 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e373d6e480e35eeb",
+  "active": "f261128544dc861c",
   "lastOpenFiles": [
+    "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
+    "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
+    "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
+    "Languages&Compilation/Computability/TuringMachines/Universal_Turing_machines.md",
     "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
     "Languages&Compilation/Parsing/Follow_sets.md",
     "Languages&Compilation/Parsing/First_sets.md",
     "Languages&Compilation/Parsing/TopDownParsing/Recursive_descent.md",
     "Languages&Compilation/Parsing/TopDownParsing/Left_recursion.md",
-    "Languages&Compilation/Computability/TuringMachines/Universal_Turing_machines.md",
     "Languages&Compilation/Computability/Chomsky_hierarchy.md",
     "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md",
-    "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
-    "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
     "Languages&Compilation/Grammars/Regular_grammars.md",
     "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
@@ -760,7 +774,6 @@
     "Languages&Compilation/CompilerConstruction/Analysis/Syntax_analyser.md",
     "Cybersecurity/Keys.md",
     "Cybersecurity/Network_security.md",
-    "Cybersecurity/Salt.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
