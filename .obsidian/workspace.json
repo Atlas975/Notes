@@ -442,7 +442,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -609,7 +609,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md"
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md"
               }
             }
           }
@@ -644,7 +644,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -661,7 +661,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -735,8 +735,8 @@
   },
   "active": "e373d6e480e35eeb",
   "lastOpenFiles": [
-    "Languages&Compilation/Parsing/TopDownParsing/Left_recursion.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
+    "Languages&Compilation/Parsing/TopDownParsing/Left_recursion.md",
     "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
     "Languages&Compilation/Grammars/Regular_grammars.md",
