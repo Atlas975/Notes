@@ -494,8 +494,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Grammars/Formal_languages.md",
-                "mode": "preview",
+                "file": "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -661,7 +661,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Grammars/Formal_languages.md"
+                "file": "Languages&Compilation/Grammars/Context_sensitive_grammars.md"
               }
             }
           }
@@ -696,7 +696,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Grammars/Formal_languages.md",
+                "file": "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -713,7 +713,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Grammars/Formal_languages.md",
+                "file": "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -787,11 +787,11 @@
   },
   "active": "6ad53a5b3aaf7450",
   "lastOpenFiles": [
-    "Languages&Compilation/Grammars/Context_free_grammars.md",
-    "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
     "Languages&Compilation/Grammars/Formal_languages.md",
     "Languages&Compilation/Grammars/Regular_grammars.md",
     "Languages&Compilation/Grammars/Unrestricted_grammars.md",
+    "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
+    "Languages&Compilation/Grammars/Context_free_grammars.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Semantic_analyser.md",
     "Languages&Compilation/CompilerConstruction/Synthesis/Language_translator.md",

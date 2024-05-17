@@ -14,15 +14,16 @@ ___
 
 - More powerful than [[Context_sensitive_grammars|context sensitive grammars]], generates unrestricted languages 
 - Most languages are context sensitive, languages that don't fall under this are rare
-- All productions are in the format:
 $$\text{LHS} \to \text{RHS}$$
 $$\text{LHS}\to \epsilon$$
+$$|RHS| \geq{0} \text{ (no legnth restriction)}$$
 
 $$\text{LHS is a string of NON-TERMINALS and optional terminals}$$
 $$\text{RHS is a string of terminals and/or NON-TERMINALS}$$
-$$|RHS| \geq{0} \text{ (no legnth restriction)}$$
 
-- Unlike CS grammars an unrestricted grammar can have RHS be empty and of any length
+
+## Unrestricted grammar representation
+- Unlike CS grammars, an unrestricted grammar can have RHS be empty and of any length
 - $\{ a^{i}b^{i}c^{i*j}\text{ : }i, j\geq{1} \}$ can be represented as the following unrestricted grammar:  
 
 

@@ -18,9 +18,8 @@ $$\text{LHS} \to \text{RHS}$$
 $$\text{LHS}\leq{\text{RHS}}$$
 
 
-$$LHS=\text{any mix of NON-TERMINALS}$$ $$RHS =\text{any mix of terminals and/or NON-TERMINALS, this must NOT be empty}$$
+$$LHS $$RHS =\text{any mix of terminals and/or NON-TERMINALS, this must NOT be empty}$$
 
-![[Pasted image 20240224185021.png|350|350]]
 
 ## Alternate context sensitive definition
 - All productions are in the format:
@@ -28,3 +27,5 @@ $$LHS=\text{any mix of NON-TERMINALS}$$ $$RHS =\text{any mix of terminals and/or
 $$\alpha_{1}X\alpha_{2}=\alpha_{1}\beta\alpha_{2}$$
 - Non terminal $X$ is written as the non-empty string $\beta$, but only in the context of $\alpha_{1}$ on the left and $\alpha_{2}$ on the right, either of the $\alpha$ can be empty (becomes context free in this case)
 - This is equivalent to rewriting a non-terminal but only if it's within context ($\alpha$)
+
+![[Pasted image 20240224185021.png|350|350]]
