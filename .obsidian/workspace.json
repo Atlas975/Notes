@@ -520,7 +520,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Grammars/Formal_languages.md",
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -687,7 +687,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Grammars/Formal_languages.md"
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md"
               }
             }
           }
@@ -722,7 +722,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Grammars/Formal_languages.md",
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -739,7 +739,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Grammars/Formal_languages.md",
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -813,9 +813,10 @@
   },
   "active": "31fa06dce40d534a",
   "lastOpenFiles": [
+    "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
+    "Languages&Compilation/Grammars/Formal_languages.md",
     "Languages&Compilation/Grammars/Unrestricted_grammars.md",
     "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
-    "Languages&Compilation/Grammars/Formal_languages.md",
     "Languages&Compilation/Grammars/Regular_grammars.md",
     "Languages&Compilation/Grammars/Context_free_grammars.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
@@ -838,7 +839,6 @@
     "Languages&Compilation/FiniteAutomata/Finite_state_transducer.md",
     "Languages&Compilation/FiniteAutomata/Regular_expression_FSM.md",
     "Languages&Compilation/FiniteAutomata/Subset_construction_algorithm.md",
-    "Languages&Compilation/Computability/TuringMachines/Halting_problem.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
