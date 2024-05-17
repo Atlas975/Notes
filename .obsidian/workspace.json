@@ -598,8 +598,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
-                "mode": "source",
+                "file": "MediaCoding/Media_coding.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -765,7 +765,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md"
+                "file": "MediaCoding/Media_coding.md"
               }
             }
           }
@@ -800,7 +800,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
+                "file": "MediaCoding/Media_coding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -817,7 +817,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
+                "file": "MediaCoding/Media_coding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -891,6 +891,13 @@
   },
   "active": "fcd6e21f3e762b2a",
   "lastOpenFiles": [
+    "MediaCoding/Colour_models.md",
+    "MediaCoding/Edge_detection.md",
+    "MediaCoding/Image_derivatives.md",
+    "MediaCoding/Media_coding.md",
+    "MediaCoding/OpticalFlow/Optical_flow.md",
+    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
+    "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
     "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
     "MediaCoding/IntensityTransforms/Gamma_transform.md",
@@ -910,13 +917,6 @@
     "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
     "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
     "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
-    "Languages&Compilation/Computability/TuringMachines/Universal_Turing_machines.md",
-    "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
-    "Languages&Compilation/Parsing/Follow_sets.md",
-    "Languages&Compilation/Parsing/First_sets.md",
-    "Languages&Compilation/Parsing/TopDownParsing/Recursive_descent.md",
-    "Languages&Compilation/Parsing/TopDownParsing/Left_recursion.md",
-    "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
