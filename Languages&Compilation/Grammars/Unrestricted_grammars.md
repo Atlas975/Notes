@@ -14,6 +14,7 @@ ___
 
 - More powerful than [[Context_sensitive_grammars|context sensitive grammars]], generates unrestricted languages 
 - Most languages are context sensitive, languages that don't fall under this are rare
+
 $$\text{LHS} \to \text{RHS}$$
 $$\text{LHS}\to \epsilon$$
 $$|RHS| \geq{0} \text{ (no legnth restriction)}$$

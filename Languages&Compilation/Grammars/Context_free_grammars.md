@@ -18,17 +18,17 @@ ___
 - Generates context free languages, all productions are in the format: 
 $$\text{NON-TERMINAL }\to \text{RHS} $$
 $$\text{NON-TERMINAL}\to\epsilon$$
-$$\text{RHS is a  of terminals and NON-TERMINALS, can be empty}$$
 
+$$\text{RHS is a string of terminals and/or NON-TERMINALS}$$
 
 
 ## Grammar context 
 -  Note how unlike [[Regular_grammars|regular grammars]] a context-free grammar must have both a terminal and non-terminal if it is not empty. Having only one of these will not suffice  
-- Note how this also allows counting to take place 
+- This also allows counting to take place 
 
 ![[Pasted image 20240202163902.png|400|400]]
 
-![[Pasted image 20240202164541.png|450|450]]
+![[Pasted image 20240202164541.png|400|400]]
 
 ## Context free derivation tree 
 - Derivation trees for long context free grammars require repeating a NON TERMINAL (X here):

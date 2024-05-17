@@ -160,3 +160,11 @@ $$A\to\epsilon$$
 
 
 
+$$\text{LHS} \to \text{RHS}$$
+$$|\text{LHS}|\leq |{\text{RHS}}|$$
+
+- [[Unrestricted_grammars|Unrestricted]]:
+
+$$\text{LHS} \to \text{RHS}$$
+$$\text{LHS}\to \epsilon$$
+$$|RHS| \geq{0} \text{ (no legnth restriction)}$$

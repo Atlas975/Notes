@@ -15,11 +15,10 @@ ___
 - All productions are in the format:
 
 $$\text{LHS} \to \text{RHS}$$
-$$\text{LHS}\leq{\text{RHS}}$$
+$$|\text{LHS}|\leq |{\text{RHS}}|$$
 
-
-$$LHS $$RHS =\text{any mix of terminals and/or NON-TERMINALS, this must NOT be empty}$$
-
+$$\text{LHS is a string of NON-TERMINALS and optional terminals}$$
+$$\text{RHS is a string of terminals and/or NON-TERMINALS}$$
 
 ## Alternate context sensitive definition
 - All productions are in the format:
