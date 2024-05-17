@@ -520,7 +520,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
+                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -687,7 +687,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md"
+                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md"
               }
             }
           }
@@ -722,7 +722,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
+                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -739,7 +739,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
+                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -813,6 +813,7 @@
   },
   "active": "31fa06dce40d534a",
   "lastOpenFiles": [
+    "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
     "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
     "Languages&Compilation/Grammars/Formal_languages.md",
     "Languages&Compilation/Grammars/Unrestricted_grammars.md",
@@ -824,7 +825,6 @@
     "Languages&Compilation/CompilerConstruction/Synthesis/Language_translator.md",
     "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
     "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
-    "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
     "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
     "Languages&Compilation/Computability/TuringMachines/Universal_Turing_machines.md",
     "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
