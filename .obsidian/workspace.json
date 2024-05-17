@@ -580,6 +580,19 @@
             }
           },
           {
+            "id": "bb89cd6b4e353cae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/FeatureEngineering/Normalisation.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "9f839ec67b8a0c63",
             "type": "leaf",
             "state": {
@@ -891,6 +904,8 @@
   },
   "active": "7b8ef67c450b4176",
   "lastOpenFiles": [
+    "MachineLearning/FeatureEngineering/Normalisation.md",
+    "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
@@ -904,7 +919,6 @@
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
-    "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
     "MediaCoding/IntensityTransforms/Gamma_transform.md",
     "MediaCoding/IntensityTransforms/Log_transform.md",
     "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md",
@@ -916,7 +930,6 @@
     "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
     "Languages&Compilation/Grammars/Regular_grammars.md",
     "Languages&Compilation/Grammars/Context_free_grammars.md",
-    "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
