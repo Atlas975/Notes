@@ -697,7 +697,7 @@
             }
           }
         ],
-        "currentTab": 45
+        "currentTab": 43
       }
     ],
     "direction": "vertical"
@@ -765,7 +765,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md"
+                "file": "MediaCoding/IntensityTransforms/Histogram_equalisation.md"
               }
             }
           }
@@ -800,7 +800,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
+                "file": "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -817,7 +817,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
+                "file": "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -889,13 +889,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fcd6e21f3e762b2a",
+  "active": "7b8ef67c450b4176",
   "lastOpenFiles": [
+    "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Roberts_filter.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
     "MediaCoding/Media_coding.md",
     "MediaCoding/Colour_models.md",
     "MediaCoding/Edge_detection.md",
