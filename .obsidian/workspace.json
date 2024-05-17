@@ -520,7 +520,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
+                "file": "Languages&Compilation/Grammars/Formal_languages.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -687,7 +687,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md"
+                "file": "Languages&Compilation/Grammars/Formal_languages.md"
               }
             }
           }
@@ -722,7 +722,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
+                "file": "Languages&Compilation/Grammars/Formal_languages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -739,7 +739,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
+                "file": "Languages&Compilation/Grammars/Formal_languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -813,11 +813,11 @@
   },
   "active": "31fa06dce40d534a",
   "lastOpenFiles": [
-    "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
+    "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
     "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
+    "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
     "Languages&Compilation/Grammars/Formal_languages.md",
     "Languages&Compilation/Grammars/Unrestricted_grammars.md",
-    "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
     "Languages&Compilation/Grammars/Regular_grammars.md",
     "Languages&Compilation/Grammars/Context_free_grammars.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
