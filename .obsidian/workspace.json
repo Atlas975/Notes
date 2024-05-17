@@ -598,7 +598,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Media_coding.md",
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -765,7 +765,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Media_coding.md"
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md"
               }
             }
           }
@@ -800,7 +800,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Media_coding.md",
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -817,7 +817,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Media_coding.md",
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -891,10 +891,10 @@
   },
   "active": "fcd6e21f3e762b2a",
   "lastOpenFiles": [
+    "MediaCoding/Media_coding.md",
     "MediaCoding/Colour_models.md",
     "MediaCoding/Edge_detection.md",
     "MediaCoding/Image_derivatives.md",
-    "MediaCoding/Media_coding.md",
     "MediaCoding/OpticalFlow/Optical_flow.md",
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
