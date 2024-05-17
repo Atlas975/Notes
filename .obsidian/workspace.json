@@ -598,7 +598,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Roberts_filter.md",
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -765,7 +765,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Roberts_filter.md"
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md"
               }
             }
           }
@@ -800,7 +800,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Roberts_filter.md",
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -817,7 +817,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Roberts_filter.md",
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -891,9 +891,9 @@
   },
   "active": "fcd6e21f3e762b2a",
   "lastOpenFiles": [
+    "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Roberts_filter.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
     "MediaCoding/Media_coding.md",
