@@ -154,7 +154,6 @@ $$A\to aB$$
 
 $$A\to \text{RHS}$$
 $$A\to\epsilon$$
-$$\text{RHS is any mix of terminals/non-terminals}$$
 - [[Context_sensitive_grammars|Context-sensitive]]:
 
 

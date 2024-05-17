@@ -14,10 +14,11 @@ ___
 - More powerful than [[Context_free_grammars|context free grammars ]], generates context sensitive languages 
 - All productions are in the format:
 
-$$LHS \to RHS$$
-$$LHS\leq{RHS}$$
-$$LHS=\text{any mix of NON-TERMINALS}$$ 
-$$RHS =\text{any mix of terminals and/or NON-TERMINALS, this must NOT be empty}$$
+$$\text{LHS} \to \text{RHS}$$
+$$\text{LHS}\leq{\text{RHS}}$$
+
+
+$$LHS=\text{any mix of NON-TERMINALS}$$ $$RHS =\text{any mix of terminals and/or NON-TERMINALS, this must NOT be empty}$$
 
 ![[Pasted image 20240224185021.png|350|350]]
 

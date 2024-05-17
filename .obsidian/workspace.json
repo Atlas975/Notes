@@ -494,7 +494,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Grammars/Regular_grammars.md",
+                "file": "Languages&Compilation/Grammars/Formal_languages.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -661,7 +661,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Grammars/Regular_grammars.md"
+                "file": "Languages&Compilation/Grammars/Formal_languages.md"
               }
             }
           }
@@ -696,7 +696,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Grammars/Regular_grammars.md",
+                "file": "Languages&Compilation/Grammars/Formal_languages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -713,7 +713,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Grammars/Regular_grammars.md",
+                "file": "Languages&Compilation/Grammars/Formal_languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -791,6 +791,7 @@
     "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
     "Languages&Compilation/Grammars/Formal_languages.md",
     "Languages&Compilation/Grammars/Regular_grammars.md",
+    "Languages&Compilation/Grammars/Unrestricted_grammars.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Semantic_analyser.md",
     "Languages&Compilation/CompilerConstruction/Synthesis/Language_translator.md",
@@ -811,7 +812,6 @@
     "Languages&Compilation/FiniteAutomata/Finite_state_transducer.md",
     "Languages&Compilation/FiniteAutomata/Regular_expression_FSM.md",
     "Languages&Compilation/FiniteAutomata/Subset_construction_algorithm.md",
-    "Languages&Compilation/Grammars/Unrestricted_grammars.md",
     "Languages&Compilation/Computability/TuringMachines/Halting_problem.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
