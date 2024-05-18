@@ -775,7 +775,7 @@
             }
           }
         ],
-        "currentTab": 48
+        "currentTab": 39
       }
     ],
     "direction": "vertical"
@@ -843,7 +843,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Watermarking/Watermarking.md"
+                "file": "Languages&Compilation/Grammars/Formal_languages.md"
               }
             }
           }
@@ -879,7 +879,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Watermarking/Watermarking.md",
+                "file": "Languages&Compilation/Grammars/Formal_languages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -896,7 +896,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Watermarking/Watermarking.md",
+                "file": "Languages&Compilation/Grammars/Formal_languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -968,8 +968,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6b930918e24ddfa3",
+  "active": "31fa06dce40d534a",
   "lastOpenFiles": [
+    "MediaCoding/Watermarking/Watermarking.md",
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "MediaCoding/Image_derivatives.md",
     "MediaCoding/Edge_detection.md",
@@ -986,7 +987,6 @@
     "Languages&Compilation/Grammars/Regular_grammars.md",
     "Languages&Compilation/Grammars/Formal_languages.md",
     "Languages&Compilation/Parsing/Follow_sets.md",
-    "MediaCoding/Watermarking/Watermarking.md",
     "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
     "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
     "MediaCoding/Canny_edge_detection.md",
