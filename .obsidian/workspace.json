@@ -814,7 +814,7 @@
             }
           }
         ],
-        "currentTab": 34
+        "currentTab": 41
       }
     ],
     "direction": "vertical"
@@ -882,7 +882,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Computability/Chomsky_hierarchy.md"
+                "file": "Languages&Compilation/Computability/TuringMachines/Turing_machine.md"
               }
             }
           }
@@ -918,7 +918,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Computability/Chomsky_hierarchy.md",
+                "file": "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -935,7 +935,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Computability/Chomsky_hierarchy.md",
+                "file": "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1007,15 +1007,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "acf8021776ca886c",
+  "active": "b3ede390dd480ae1",
   "lastOpenFiles": [
+    "Languages&Compilation/Computability/Chomsky_hierarchy.md",
     "Languages&Compilation/Computability/TuringMachines/Universal_Turing_machines.md",
     "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
     "Languages&Compilation/Grammars/Unrestricted_grammars.md",
     "Languages&Compilation/Grammars/Formal_languages.md",
     "Languages&Compilation/Computability/TuringMachines/Halting_problem.md",
     "Languages&Compilation/Computability/TuringMachines/Turing_thesis.md",
-    "Languages&Compilation/Computability/Chomsky_hierarchy.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
     "MediaCoding/Watermarking/Watermarking.md",
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
