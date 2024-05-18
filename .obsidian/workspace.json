@@ -533,7 +533,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
+                "file": "Languages&Compilation/Computability/TuringMachines/Halting_problem.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -856,7 +856,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md"
+                "file": "Languages&Compilation/Computability/TuringMachines/Halting_problem.md"
               }
             }
           }
@@ -892,7 +892,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
+                "file": "Languages&Compilation/Computability/TuringMachines/Halting_problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -909,7 +909,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
+                "file": "Languages&Compilation/Computability/TuringMachines/Halting_problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -983,6 +983,9 @@
   },
   "active": "639fc0516c022cdf",
   "lastOpenFiles": [
+    "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
+    "Languages&Compilation/Computability/TuringMachines/Universal_Turing_machines.md",
+    "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
     "Languages&Compilation/Grammars/Formal_languages.md",
     "MediaCoding/Watermarking/Watermarking.md",
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
@@ -992,11 +995,8 @@
     "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
     "Languages&Compilation/CompilerConstruction/Synthesis/Language_translator.md",
     "MediaCoding/IntensityTransforms/Histogram_matching.md",
-    "Languages&Compilation/Computability/TuringMachines/Universal_Turing_machines.md",
-    "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
     "Languages&Compilation/Computability/Chomsky_hierarchy.md",
     "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
-    "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
     "Languages&Compilation/Grammars/Regular_grammars.md",
     "Languages&Compilation/Parsing/Follow_sets.md",
