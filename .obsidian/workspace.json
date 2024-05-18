@@ -572,7 +572,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/ImageMatching/Laplacian_pyramid.md",
+                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -778,7 +778,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/ImageMatching/Laplacian_pyramid.md"
+                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md"
               }
             }
           }
@@ -813,7 +813,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/ImageMatching/Laplacian_pyramid.md",
+                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -830,7 +830,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/ImageMatching/Laplacian_pyramid.md",
+                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -904,6 +904,9 @@
   },
   "active": "7b8ef67c450b4176",
   "lastOpenFiles": [
+    "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
+    "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
+    "MediaCoding/ImageMatching/Laplacian_pyramid.md",
     "MediaCoding/ImageMatching/Image_matching.md",
     "MediaCoding/IntensityTransforms/Log_transform.md",
     "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
@@ -913,7 +916,6 @@
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
     "MediaCoding/IntensityTransforms/Gamma_transform.md",
-    "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
     "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
     "MachineLearning/FeatureEngineering/Normalisation.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
@@ -928,8 +930,6 @@
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
     "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md",
-    "Languages&Compilation/Computability/Chomsky_hierarchy.md",
-    "Languages&Compilation/Grammars/Formal_languages.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
