@@ -20,7 +20,7 @@ ___
 ## Image residual 
 - The residual of an image is calculated using the following formula:
 
-$$\text{Image}-\text{GaussianBlur}(\text{Image})=Residual$$
+$$\text{Image}-\text{GaussianBlur}(\text{Image})=\text{Residual}$$
 
 ![[Pasted image 20240323211830.png|400|400]]
 

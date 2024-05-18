@@ -572,7 +572,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
+                "file": "MediaCoding/ImageMatching/Laplacian_pyramid.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -778,7 +778,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Histogram_equalisation.md"
+                "file": "MediaCoding/ImageMatching/Laplacian_pyramid.md"
               }
             }
           }
@@ -813,7 +813,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
+                "file": "MediaCoding/ImageMatching/Laplacian_pyramid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -830,7 +830,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
+                "file": "MediaCoding/ImageMatching/Laplacian_pyramid.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -904,8 +904,18 @@
   },
   "active": "7b8ef67c450b4176",
   "lastOpenFiles": [
-    "MachineLearning/FeatureEngineering/Normalisation.md",
+    "MediaCoding/ImageMatching/Image_matching.md",
+    "MediaCoding/IntensityTransforms/Log_transform.md",
+    "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
+    "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
+    "MediaCoding/Watermarking/Watermarking.md",
+    "MediaCoding/OpticalFlow/Optical_flow.md",
+    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
+    "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
+    "MediaCoding/IntensityTransforms/Gamma_transform.md",
+    "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
     "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
+    "MachineLearning/FeatureEngineering/Normalisation.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
@@ -915,21 +925,11 @@
     "MediaCoding/Colour_models.md",
     "MediaCoding/Edge_detection.md",
     "MediaCoding/Image_derivatives.md",
-    "MediaCoding/OpticalFlow/Optical_flow.md",
-    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
-    "MediaCoding/IntensityTransforms/Gamma_transform.md",
-    "MediaCoding/IntensityTransforms/Log_transform.md",
     "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md",
     "Languages&Compilation/Computability/Chomsky_hierarchy.md",
     "Languages&Compilation/Grammars/Formal_languages.md",
-    "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
-    "Languages&Compilation/Grammars/Unrestricted_grammars.md",
-    "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
-    "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
-    "Languages&Compilation/Grammars/Regular_grammars.md",
-    "Languages&Compilation/Grammars/Context_free_grammars.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
