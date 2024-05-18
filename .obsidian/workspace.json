@@ -723,7 +723,7 @@
             }
           }
         ],
-        "currentTab": 47
+        "currentTab": 44
       }
     ],
     "direction": "vertical"
@@ -791,7 +791,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md"
+                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md"
               }
             }
           }
@@ -799,7 +799,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -826,7 +827,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
+                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -843,7 +844,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
+                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -915,8 +916,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fcd6e21f3e762b2a",
+  "active": "7b8ef67c450b4176",
   "lastOpenFiles": [
+    "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
     "Languages&Compilation/CompilerConstruction/Synthesis/Language_translator.md",
     "MediaCoding/IntensityTransforms/Histogram_matching.md",
     "Languages&Compilation/Computability/TuringMachines/Universal_Turing_machines.md",
@@ -942,7 +944,6 @@
     "MediaCoding/ImageMatching/Image_matching.md",
     "MediaCoding/ImageMatching/Laplacian_pyramid.md",
     "MediaCoding/ImageMatching/Image_features.md",
-    "Languages&Compilation/Grammars/Unrestricted_grammars.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
