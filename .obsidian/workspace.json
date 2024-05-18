@@ -450,6 +450,19 @@
             }
           },
           {
+            "id": "acf8021776ca886c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Computability/Chomsky_hierarchy.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f261128544dc861c",
             "type": "leaf",
             "state": {
@@ -801,7 +814,7 @@
             }
           }
         ],
-        "currentTab": 40
+        "currentTab": 34
       }
     ],
     "direction": "vertical"
@@ -869,7 +882,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Computability/TuringMachines/Turing_machine.md"
+                "file": "Languages&Compilation/Computability/Chomsky_hierarchy.md"
               }
             }
           }
@@ -905,7 +918,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
+                "file": "Languages&Compilation/Computability/Chomsky_hierarchy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -922,7 +935,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
+                "file": "Languages&Compilation/Computability/Chomsky_hierarchy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -994,13 +1007,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b3ede390dd480ae1",
+  "active": "acf8021776ca886c",
   "lastOpenFiles": [
-    "Languages&Compilation/Grammars/Unrestricted_grammars.md",
+    "Languages&Compilation/Computability/TuringMachines/Universal_Turing_machines.md",
     "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
+    "Languages&Compilation/Grammars/Unrestricted_grammars.md",
     "Languages&Compilation/Grammars/Formal_languages.md",
     "Languages&Compilation/Computability/TuringMachines/Halting_problem.md",
-    "Languages&Compilation/Computability/TuringMachines/Universal_Turing_machines.md",
     "Languages&Compilation/Computability/TuringMachines/Turing_thesis.md",
     "Languages&Compilation/Computability/Chomsky_hierarchy.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
