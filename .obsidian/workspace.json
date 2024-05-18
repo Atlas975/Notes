@@ -788,7 +788,7 @@
             }
           }
         ],
-        "currentTab": 40
+        "currentTab": 39
       }
     ],
     "direction": "vertical"
@@ -856,7 +856,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Computability/TuringMachines/Halting_problem.md"
+                "file": "Languages&Compilation/Grammars/Formal_languages.md"
               }
             }
           }
@@ -892,7 +892,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Computability/TuringMachines/Halting_problem.md",
+                "file": "Languages&Compilation/Grammars/Formal_languages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -909,7 +909,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Computability/TuringMachines/Halting_problem.md",
+                "file": "Languages&Compilation/Grammars/Formal_languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -981,11 +981,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "639fc0516c022cdf",
+  "active": "31fa06dce40d534a",
   "lastOpenFiles": [
+    "Languages&Compilation/Computability/TuringMachines/Halting_problem.md",
     "Languages&Compilation/Computability/TuringMachines/Universal_Turing_machines.md",
     "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
-    "Languages&Compilation/Computability/TuringMachines/Halting_problem.md",
     "Languages&Compilation/Computability/TuringMachines/Turing_thesis.md",
     "Languages&Compilation/Computability/Chomsky_hierarchy.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
