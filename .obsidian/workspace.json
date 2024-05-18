@@ -528,6 +528,19 @@
             }
           },
           {
+            "id": "b3ede390dd480ae1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "639fc0516c022cdf",
             "type": "leaf",
             "state": {
@@ -788,7 +801,7 @@
             }
           }
         ],
-        "currentTab": 39
+        "currentTab": 40
       }
     ],
     "direction": "vertical"
@@ -856,7 +869,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Grammars/Formal_languages.md"
+                "file": "Languages&Compilation/Computability/TuringMachines/Turing_machine.md"
               }
             }
           }
@@ -892,7 +905,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Grammars/Formal_languages.md",
+                "file": "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -909,7 +922,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Grammars/Formal_languages.md",
+                "file": "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -981,15 +994,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "31fa06dce40d534a",
+  "active": "b3ede390dd480ae1",
   "lastOpenFiles": [
+    "Languages&Compilation/Grammars/Unrestricted_grammars.md",
+    "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
+    "Languages&Compilation/Grammars/Formal_languages.md",
     "Languages&Compilation/Computability/TuringMachines/Halting_problem.md",
     "Languages&Compilation/Computability/TuringMachines/Universal_Turing_machines.md",
-    "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
     "Languages&Compilation/Computability/TuringMachines/Turing_thesis.md",
     "Languages&Compilation/Computability/Chomsky_hierarchy.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
-    "Languages&Compilation/Grammars/Formal_languages.md",
     "MediaCoding/Watermarking/Watermarking.md",
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "MediaCoding/Image_derivatives.md",
@@ -1008,7 +1022,6 @@
     "MediaCoding/Media_coding.md",
     "MediaCoding/Colour_models.md",
     "MediaCoding/OpticalFlow/Optical_flow.md",
-    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
