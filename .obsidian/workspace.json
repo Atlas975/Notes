@@ -710,7 +710,7 @@
             }
           }
         ],
-        "currentTab": 43
+        "currentTab": 38
       }
     ],
     "direction": "vertical"
@@ -778,7 +778,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md"
+                "file": "Languages&Compilation/Grammars/Unrestricted_grammars.md"
               }
             }
           }
@@ -813,7 +813,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
+                "file": "Languages&Compilation/Grammars/Unrestricted_grammars.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -830,7 +830,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
+                "file": "Languages&Compilation/Grammars/Unrestricted_grammars.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -902,8 +902,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7b8ef67c450b4176",
+  "active": "d504ce004b7a55af",
   "lastOpenFiles": [
+    "Languages&Compilation/Grammars/Formal_languages.md",
+    "MediaCoding/ImageMatching/Harris_corner_detection.md",
     "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
     "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
     "MediaCoding/ImageMatching/Laplacian_pyramid.md",
@@ -928,8 +930,6 @@
     "MediaCoding/Edge_detection.md",
     "MediaCoding/Image_derivatives.md",
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
-    "MediaCoding/ImageMatching/Harris_corner_detection.md",
-    "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
