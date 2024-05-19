@@ -619,6 +619,19 @@
             }
           },
           {
+            "id": "78387b42540b02a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Parsing/Follow_sets.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "165704cb2a9ab644",
             "type": "leaf",
             "state": {
@@ -892,7 +905,7 @@
             }
           }
         ],
-        "currentTab": 46
+        "currentTab": 47
       }
     ],
     "direction": "vertical"
@@ -960,7 +973,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md"
+                "file": "Languages&Compilation/Parsing/Follow_sets.md"
               }
             }
           }
@@ -996,7 +1009,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
+                "file": "Languages&Compilation/Parsing/Follow_sets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1013,7 +1026,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
+                "file": "Languages&Compilation/Parsing/Follow_sets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1085,8 +1098,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "54fa3e09021b93ce",
+  "active": "78387b42540b02a9",
   "lastOpenFiles": [
+    "Languages&Compilation/Parsing/First_sets.md",
+    "Languages&Compilation/Parsing/Follow_sets.md",
+    "Languages&Compilation/Parsing/TopDownParsing/Left_recursion.md",
+    "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
     "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
     "Languages&Compilation/CompilerConstruction/CompilationTypes/Interpreter.md",
     "Languages&Compilation/CompilerConstruction/CompilationTypes/Compilers.md",
@@ -1094,14 +1111,10 @@
     "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
     "Languages&Compilation/Parsing/TopDownParsing/Recursive_descent.md",
-    "Languages&Compilation/Parsing/TopDownParsing/Left_recursion.md",
-    "Languages&Compilation/Parsing/Follow_sets.md",
-    "Languages&Compilation/Parsing/First_sets.md",
     "Languages&Compilation/Grammars/Unrestricted_grammars.md",
     "Languages&Compilation/Grammars/Regular_grammars.md",
     "Languages&Compilation/Grammars/Context_free_grammars.md",
     "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
-    "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Syntax_analyser.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Lexical_analyser.md",
