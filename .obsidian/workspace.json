@@ -611,7 +611,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
+                "file": "Languages&Compilation/CompilerConstruction/Analysis/Semantic_analyser.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -960,7 +960,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md"
+                "file": "Languages&Compilation/CompilerConstruction/Analysis/Semantic_analyser.md"
               }
             }
           }
@@ -996,7 +996,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
+                "file": "Languages&Compilation/CompilerConstruction/Analysis/Semantic_analyser.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1013,7 +1013,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
+                "file": "Languages&Compilation/CompilerConstruction/Analysis/Semantic_analyser.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1087,6 +1087,13 @@
   },
   "active": "54fa3e09021b93ce",
   "lastOpenFiles": [
+    "Languages&Compilation/CompilerConstruction/Analysis/Literal_table.md",
+    "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
+    "Languages&Compilation/CompilerConstruction/Synthesis/Language_translator.md",
+    "Languages&Compilation/CompilerConstruction/CompilationTypes/Compilers.md",
+    "Languages&Compilation/CompilerConstruction/CompilationTypes/Interpreter.md",
+    "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
+    "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
     "Languages&Compilation/Computability/TuringMachines/Halting_problem.md",
     "OperatingSystems/Paging.md",
@@ -1106,13 +1113,6 @@
     "MediaCoding/Edge_detection.md",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
-    "Languages&Compilation/CompilerConstruction/Synthesis/Language_translator.md",
-    "MediaCoding/IntensityTransforms/Histogram_matching.md",
-    "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
-    "Languages&Compilation/Grammars/Regular_grammars.md",
-    "Languages&Compilation/Parsing/Follow_sets.md",
-    "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
-    "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
