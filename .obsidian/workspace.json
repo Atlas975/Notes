@@ -567,6 +567,19 @@
             }
           },
           {
+            "id": "abf27a20ba6ab6e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/FiniteAutomata/Subset_construction_algorithm.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "639fc0516c022cdf",
             "type": "leaf",
             "state": {
@@ -827,7 +840,7 @@
             }
           }
         ],
-        "currentTab": 42
+        "currentTab": 43
       }
     ],
     "direction": "vertical"
@@ -895,7 +908,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Computability/TuringMachines/Turing_machine.md"
+                "file": "Languages&Compilation/FiniteAutomata/Subset_construction_algorithm.md"
               }
             }
           }
@@ -903,7 +916,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -930,7 +944,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
+                "file": "Languages&Compilation/FiniteAutomata/Subset_construction_algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -947,7 +961,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
+                "file": "Languages&Compilation/FiniteAutomata/Subset_construction_algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1019,11 +1033,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "66d060d556c3fdd9",
+  "active": "abf27a20ba6ab6e5",
   "lastOpenFiles": [
+    "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md",
+    "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
     "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
     "Languages&Compilation/Computability/TuringMachines/Universal_Turing_machines.md",
-    "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
     "Languages&Compilation/Computability/Chomsky_hierarchy.md",
     "Languages&Compilation/Grammars/Unrestricted_grammars.md",
     "Languages&Compilation/Grammars/Formal_languages.md",
@@ -1046,7 +1061,6 @@
     "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
     "MediaCoding/Canny_edge_detection.md",
     "MediaCoding/Media_coding.md",
-    "MediaCoding/Colour_models.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
