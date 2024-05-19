@@ -22,6 +22,11 @@ ___
 - Pushing $\epsilon$ does nothing, PUSH(abc) is the the same as PUSH(c), PUSH(b), PUSH(a)
 - The following format can be used to check what is pushed on the arc of the recogniser:
 
+
+$$a/b/cd$$
+$$a \color{#8DB600}/b/cd\color{white}=\text{symbol read in the input string}$$
+$$a \color{#8DB600}/b/cd\color{white}=\text{symbol read in the input string}$$
+
 ![[Pasted image 20240212154110.png|350|350]]
 
 - The $\epsilon$ symbol can be used to ignore the read operation / not move pointer eg $\epsilon$/b/c

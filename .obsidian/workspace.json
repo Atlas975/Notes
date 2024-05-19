@@ -611,8 +611,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Lexical_analyser.md",
-                "mode": "preview",
+                "file": "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -986,7 +986,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Lexical_analyser.md"
+                "file": "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md"
               }
             }
           }
@@ -994,7 +994,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -1021,7 +1022,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Lexical_analyser.md",
+                "file": "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1038,7 +1039,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Lexical_analyser.md",
+                "file": "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1112,32 +1113,32 @@
   },
   "active": "90a66afa08020045",
   "lastOpenFiles": [
-    "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
+    "Languages&Compilation/FiniteAutomata/Finite_state_transducer.md",
+    "Languages&Compilation/FiniteAutomata/Subset_construction_algorithm.md",
+    "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
+    "Languages&Compilation/Grammars/Context_free_grammars.md",
+    "Languages&Compilation/Grammars/Formal_languages.md",
+    "Languages&Compilation/Grammars/Unrestricted_grammars.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
-    "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
     "Languages&Compilation/Parsing/Follow_sets.md",
     "Languages&Compilation/Parsing/First_sets.md",
-    "Languages&Compilation/Parsing/TopDownParsing/Left_recursion.md",
-    "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
-    "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
-    "Languages&Compilation/CompilerConstruction/CompilationTypes/Interpreter.md",
-    "Languages&Compilation/CompilerConstruction/CompilationTypes/Compilers.md",
-    "Languages&Compilation/CompilerConstruction/Analysis/Semantic_analyser.md",
+    "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
     "Languages&Compilation/Parsing/TopDownParsing/Recursive_descent.md",
-    "Languages&Compilation/Grammars/Unrestricted_grammars.md",
-    "Languages&Compilation/Grammars/Regular_grammars.md",
-    "Languages&Compilation/Grammars/Context_free_grammars.md",
-    "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
+    "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
+    "Languages&Compilation/FiniteAutomata/Regular_expression_FSM.md",
+    "Languages&Compilation/Computability/Chomsky_hierarchy.md",
+    "Languages&Compilation/Computability/TuringMachines/Universal_Turing_machines.md",
+    "Languages&Compilation/Computability/TuringMachines/Turing_thesis.md",
+    "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
+    "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
+    "Languages&Compilation/CompilerConstruction/CompilationTypes/Compilers.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Syntax_analyser.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Lexical_analyser.md",
-    "Languages&Compilation/CompilerConstruction/Analysis/Literal_table.md",
-    "Languages&Compilation/CompilerConstruction/Synthesis/Language_translator.md",
-    "Languages&Compilation/Computability/TuringMachines/Halting_problem.md",
-    "OperatingSystems/Paging.md",
-    "Languages&Compilation/Computability/TuringMachines/Turing_thesis.md",
-    "Languages&Compilation/FiniteAutomata/Subset_construction_algorithm.md",
-    "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md",
+    "Languages&Compilation/Parsing/TopDownParsing/Left_recursion.md",
+    "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
+    "Languages&Compilation/CompilerConstruction/CompilationTypes/Interpreter.md",
+    "Languages&Compilation/CompilerConstruction/Analysis/Semantic_analyser.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
