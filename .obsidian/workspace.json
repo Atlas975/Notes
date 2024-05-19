@@ -554,6 +554,19 @@
             }
           },
           {
+            "id": "66d060d556c3fdd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "639fc0516c022cdf",
             "type": "leaf",
             "state": {
@@ -814,7 +827,7 @@
             }
           }
         ],
-        "currentTab": 41
+        "currentTab": 42
       }
     ],
     "direction": "vertical"
@@ -882,7 +895,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Grammars/Context_sensitive_grammars.md"
+                "file": "Languages&Compilation/Computability/TuringMachines/Turing_machine.md"
               }
             }
           }
@@ -917,7 +930,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
+                "file": "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -934,7 +947,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
+                "file": "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1006,8 +1019,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b3ede390dd480ae1",
+  "active": "66d060d556c3fdd9",
   "lastOpenFiles": [
+    "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
     "Languages&Compilation/Computability/TuringMachines/Universal_Turing_machines.md",
     "Languages&Compilation/Computability/TuringMachines/Turing_machine.md",
     "Languages&Compilation/Computability/Chomsky_hierarchy.md",
@@ -1033,7 +1047,6 @@
     "MediaCoding/Canny_edge_detection.md",
     "MediaCoding/Media_coding.md",
     "MediaCoding/Colour_models.md",
-    "MediaCoding/OpticalFlow/Optical_flow.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
