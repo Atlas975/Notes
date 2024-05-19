@@ -23,11 +23,11 @@ ___
 - The following format can be used to check what is pushed on the arc of the recogniser:
 
 
-$$a/b/cd$$
-$$a \color{#8DB600}/b/cd\color{white}=\text{symbol read in the input string}$$
-$$a \color{#8DB600}/b/cd\color{white}=\text{symbol read in the input string}$$
+$$a/b/c$$
+$$a =\text{symbol read in the input string}$$
+$$b =\text{symbol popped off the stack}$$
+$$c =\text{symbol(s) pushed onto the stack}$$
 
-![[Pasted image 20240212154110.png|350|350]]
 
 - The $\epsilon$ symbol can be used to ignore the read operation / not move pointer eg $\epsilon$/b/c
 - Example of transition with this format, note how its at symbol a, pops the top symbol from the stack and pushes c at the end:
