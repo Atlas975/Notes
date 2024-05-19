@@ -593,6 +593,32 @@
             }
           },
           {
+            "id": "6d319684c2b2b319",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "165704cb2a9ab644",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/Paging.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "639fc0516c022cdf",
             "type": "leaf",
             "state": {
@@ -853,7 +879,7 @@
             }
           }
         ],
-        "currentTab": 44
+        "currentTab": 45
       }
     ],
     "direction": "vertical"
@@ -921,7 +947,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Computability/TuringMachines/Halting_problem.md"
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md"
               }
             }
           }
@@ -957,7 +983,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Computability/TuringMachines/Halting_problem.md",
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -974,7 +1000,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Computability/TuringMachines/Halting_problem.md",
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1046,8 +1072,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0f783f5cb763d3c1",
+  "active": "6d319684c2b2b319",
   "lastOpenFiles": [
+    "Languages&Compilation/Computability/TuringMachines/Halting_problem.md",
+    "OperatingSystems/Paging.md",
     "Languages&Compilation/Computability/TuringMachines/Turing_thesis.md",
     "Languages&Compilation/FiniteAutomata/Subset_construction_algorithm.md",
     "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md",
@@ -1057,7 +1085,6 @@
     "Languages&Compilation/Computability/Chomsky_hierarchy.md",
     "Languages&Compilation/Grammars/Unrestricted_grammars.md",
     "Languages&Compilation/Grammars/Formal_languages.md",
-    "Languages&Compilation/Computability/TuringMachines/Halting_problem.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
     "MediaCoding/Watermarking/Watermarking.md",
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
@@ -1073,7 +1100,6 @@
     "Languages&Compilation/Parsing/Follow_sets.md",
     "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
     "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
-    "MediaCoding/Canny_edge_detection.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
