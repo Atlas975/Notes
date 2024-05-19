@@ -51,5 +51,5 @@ ___
 ### Alternate compile situations
 - Other methods than translation to machine code exist for compilation, such as:
 - **[[Interpreter|Interpretation]]**: the process of executing a program directly from its source or intermediate code
-- **Just in time (JIT)**: source code is compiled into intermediate code, which is then compiled into machine code at runtime 
-- **Transpiler**: translates source code written in one programming language into equivalent code in another language
+- [[Just_in_time_compilation|Just in time (JIT)]]: source code is compiled into intermediate code, which is then compiled into machine code at runtime 
+- [[Three_address_code|Transpiler]]: translates source code written in one programming language into equivalent code in another language

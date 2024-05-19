@@ -611,7 +611,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Semantic_analyser.md",
+                "file": "Languages&Compilation/Parsing/Follow_sets.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -960,7 +960,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Semantic_analyser.md"
+                "file": "Languages&Compilation/Parsing/Follow_sets.md"
               }
             }
           }
@@ -968,8 +968,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -996,7 +995,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Semantic_analyser.md",
+                "file": "Languages&Compilation/Parsing/Follow_sets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1013,7 +1012,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/Analysis/Semantic_analyser.md",
+                "file": "Languages&Compilation/Parsing/Follow_sets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1087,13 +1086,21 @@
   },
   "active": "54fa3e09021b93ce",
   "lastOpenFiles": [
-    "Languages&Compilation/CompilerConstruction/Analysis/Literal_table.md",
+    "Languages&Compilation/Parsing/First_sets.md",
+    "Languages&Compilation/Grammars/Unrestricted_grammars.md",
+    "Languages&Compilation/Grammars/Regular_grammars.md",
+    "Languages&Compilation/Grammars/Context_free_grammars.md",
     "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
-    "Languages&Compilation/CompilerConstruction/Synthesis/Language_translator.md",
-    "Languages&Compilation/CompilerConstruction/CompilationTypes/Compilers.md",
-    "Languages&Compilation/CompilerConstruction/CompilationTypes/Interpreter.md",
-    "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
     "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
+    "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
+    "Languages&Compilation/CompilerConstruction/CompilationTypes/Interpreter.md",
+    "Languages&Compilation/CompilerConstruction/CompilationTypes/Compilers.md",
+    "Languages&Compilation/CompilerConstruction/Analysis/Syntax_analyser.md",
+    "Languages&Compilation/CompilerConstruction/Analysis/Semantic_analyser.md",
+    "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
+    "Languages&Compilation/CompilerConstruction/Analysis/Lexical_analyser.md",
+    "Languages&Compilation/CompilerConstruction/Analysis/Literal_table.md",
+    "Languages&Compilation/CompilerConstruction/Synthesis/Language_translator.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
     "Languages&Compilation/Computability/TuringMachines/Halting_problem.md",
     "OperatingSystems/Paging.md",
@@ -1104,15 +1111,7 @@
     "Languages&Compilation/Grammars/Context_sensitive_grammars.md",
     "Languages&Compilation/Computability/TuringMachines/Universal_Turing_machines.md",
     "Languages&Compilation/Computability/Chomsky_hierarchy.md",
-    "Languages&Compilation/Grammars/Unrestricted_grammars.md",
     "Languages&Compilation/Grammars/Formal_languages.md",
-    "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
-    "MediaCoding/Watermarking/Watermarking.md",
-    "MediaCoding/DiscreteCosineTansform/JPEG.md",
-    "MediaCoding/Image_derivatives.md",
-    "MediaCoding/Edge_detection.md",
-    "MediaCoding/ImageMatching/Harris_corner_detection.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
