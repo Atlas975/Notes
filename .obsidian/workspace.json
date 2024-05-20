@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "36b59ac5e52158a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Convolutions/Convolution.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b61285be8178e2b0",
             "type": "leaf",
             "state": {
@@ -202,7 +215,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -270,7 +284,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md"
+                "file": "MediaCoding/Convolutions/Convolution.md"
               }
             }
           }
@@ -305,7 +319,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
+                "file": "MediaCoding/Convolutions/Convolution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -322,7 +336,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
+                "file": "MediaCoding/Convolutions/Convolution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -394,8 +408,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7b8ef67c450b4176",
+  "active": "36b59ac5e52158a2",
   "lastOpenFiles": [
+    "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
     "MediaCoding/IntensityTransforms/Gamma_transform.md",
     "MediaCoding/IntensityTransforms/Log_transform.md",
@@ -421,7 +436,6 @@
     "DistributedSystems/SystemStructure/Cloud_computing.md",
     "DistributedSystems/SystemStructure/Google_infrastructure.md",
     "DistributedSystems/Time_keeping.md",
-    "DistributedSystems/Distributed_system_security.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
