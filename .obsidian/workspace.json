@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Convolutions/Convolution.md",
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -284,7 +284,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Convolutions/Convolution.md"
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md"
               }
             }
           }
@@ -319,7 +319,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Convolutions/Convolution.md",
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -336,7 +336,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Convolutions/Convolution.md",
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -410,6 +410,13 @@
   },
   "active": "36b59ac5e52158a2",
   "lastOpenFiles": [
+    "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
+    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
+    "MediaCoding/Convolutions/Depthwise_separable_convolution.md",
+    "MediaCoding/Convolutions/Depthwise_convolution.md",
+    "MediaCoding/Convolutions/Pointwise_convolution.md",
+    "MediaCoding/Convolutions/Convolution.md",
     "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
     "MediaCoding/IntensityTransforms/Gamma_transform.md",
@@ -429,13 +436,6 @@
     "DistributedSystems/Consensus/Paxos.md",
     "DistributedSystems/Consensus/Byzantine_generals_problem.md",
     "DistributedSystems/Consensus/RAFT.md",
-    "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
-    "Statistics/Event_independence.md",
-    "Statistics/Bayes_theorem.md",
-    "DistributedSystems/Fault_tolerence.md",
-    "DistributedSystems/SystemStructure/Cloud_computing.md",
-    "DistributedSystems/SystemStructure/Google_infrastructure.md",
-    "DistributedSystems/Time_keeping.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
