@@ -8,45 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7b8ef67c450b4176",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "36b59ac5e52158a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b61285be8178e2b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/Edge_detection.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a273e6cd230ffe87",
             "type": "leaf",
             "state": {
@@ -216,7 +177,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -284,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md"
+                "file": "MediaCoding/Watermarking/Watermarking.md"
               }
             }
           }
@@ -319,7 +280,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
+                "file": "MediaCoding/Watermarking/Watermarking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -336,7 +297,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
+                "file": "MediaCoding/Watermarking/Watermarking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -408,34 +369,34 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "36b59ac5e52158a2",
+  "active": "6b930918e24ddfa3",
   "lastOpenFiles": [
-    "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
-    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
-    "MediaCoding/Convolutions/Depthwise_separable_convolution.md",
-    "MediaCoding/Convolutions/Depthwise_convolution.md",
-    "MediaCoding/Convolutions/Pointwise_convolution.md",
-    "MediaCoding/Convolutions/Convolution.md",
     "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
-    "MediaCoding/ImageMatching/Harris_corner_detection.md",
-    "MediaCoding/IntensityTransforms/Gamma_transform.md",
-    "MediaCoding/IntensityTransforms/Log_transform.md",
-    "Languages&Compilation/CompilerConstruction/Synthesis/Language_translator.md",
-    "Languages&Compilation/Computability/TuringMachines/Universal_Turing_machines.md",
-    "Languages&Compilation/Computability/TuringMachines/Halting_problem.md",
-    "OperatingSystems/Paging.md",
-    "Languages&Compilation/CompilerConstruction/CompilationTypes/Compilers.md",
-    "Languages&Compilation/CompilerConstruction/Synthesis/Three_address_code.md",
-    "Languages&Compilation/CompilerConstruction/Analysis/Semantic_analyser.md",
-    "Languages&Compilation/CompilerConstruction/Analysis/Symbol_table.md",
-    "Languages&Compilation/Parsing/TopDownParsing/Recursive_descent.md",
-    "Cybersecurity/RiskManagement/Security_principles.md",
-    "DistributedSystems/Consensus/Two_general_problem.md",
-    "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
-    "DistributedSystems/Consensus/Paxos.md",
-    "DistributedSystems/Consensus/Byzantine_generals_problem.md",
-    "DistributedSystems/Consensus/RAFT.md",
+    "MediaCoding/Filters/Unpooling.md",
+    "MediaCoding/Edge_detection.md",
+    "MachineLearning/FeatureEngineering/Normalisation.md",
+    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
+    "MachineLearning/Clustering/K-means_clustering.md",
+    "MachineLearning/Clustering/Hierarchal_clustering.md",
+    "MachineLearning/Clustering/Clustering.md",
+    "MachineLearning/GeneticAlgorithms/Crossover.md",
+    "MachineLearning/GeneticAlgorithms/Selection.md",
+    "MachineLearning/GeneticAlgorithms/Mutation.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+    "MachineLearning/Ensemble_learning.md",
+    "MachineLearning/TreeModels/Random_forest.md",
+    "MachineLearning/TreeModels/Decision_trees.md",
+    "MachineLearning/Categorical_data_handeling.md",
+    "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
+    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
