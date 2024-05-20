@@ -611,7 +611,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/Parsing/Follow_sets.md",
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -986,7 +986,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Parsing/Follow_sets.md"
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md"
               }
             }
           }
@@ -1021,7 +1021,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Parsing/Follow_sets.md",
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1038,7 +1038,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Parsing/Follow_sets.md",
+                "file": "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1112,9 +1112,9 @@
   },
   "active": "90a66afa08020045",
   "lastOpenFiles": [
+    "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
     "Languages&Compilation/Parsing/First_sets.md",
     "Languages&Compilation/Parsing/Follow_sets.md",
-    "Languages&Compilation/Parsing/BottomUpParsing/Parsing_tables.md",
     "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
     "Languages&Compilation/Grammars/Unrestricted_grammars.md",
     "Languages&Compilation/Grammars/Regular_grammars.md",
