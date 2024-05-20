@@ -645,6 +645,19 @@
             }
           },
           {
+            "id": "32ade615be57437e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages&Compilation/Parsing/TopDownParsing/Recursive_descent.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "165704cb2a9ab644",
             "type": "leaf",
             "state": {
@@ -918,7 +931,7 @@
             }
           }
         ],
-        "currentTab": 48
+        "currentTab": 49
       }
     ],
     "direction": "vertical"
@@ -986,7 +999,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Parsing/Follow_sets.md"
+                "file": "Languages&Compilation/Parsing/TopDownParsing/Recursive_descent.md"
               }
             }
           }
@@ -1021,7 +1034,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages&Compilation/Parsing/Follow_sets.md",
+                "file": "Languages&Compilation/Parsing/TopDownParsing/Recursive_descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1038,7 +1051,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages&Compilation/Parsing/Follow_sets.md",
+                "file": "Languages&Compilation/Parsing/TopDownParsing/Recursive_descent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1110,8 +1123,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "78387b42540b02a9",
+  "active": "32ade615be57437e",
   "lastOpenFiles": [
+    "Languages&Compilation/Parsing/Follow_sets.md",
     "Languages&Compilation/CompilerConstruction/CompilationTypes/Split-stage_compilation.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Lexical_analyser.md",
     "Languages&Compilation/CompilerConstruction/Analysis/Semantic_analyser.md",
@@ -1137,7 +1151,6 @@
     "Languages&Compilation/Grammars/Formal_languages.md",
     "Languages&Compilation/Grammars/Context_free_grammars.md",
     "Languages&Compilation/Computability/TuringMachines/Halting_problem.md",
-    "Languages&Compilation/FiniteAutomata/Regular_expression_FSM.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
