@@ -65,8 +65,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Log_transform.md",
-                "mode": "preview",
+                "file": "MediaCoding/IntensityTransforms/Image_noise.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -271,7 +271,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Log_transform.md"
+                "file": "MediaCoding/IntensityTransforms/Image_noise.md"
               }
             }
           }
@@ -306,7 +306,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Log_transform.md",
+                "file": "MediaCoding/IntensityTransforms/Image_noise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -323,7 +323,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Log_transform.md",
+                "file": "MediaCoding/IntensityTransforms/Image_noise.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -397,8 +397,9 @@
   },
   "active": "657a618be7419122",
   "lastOpenFiles": [
-    "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
     "MediaCoding/IntensityTransforms/Log_transform.md",
+    "MediaCoding/IntensityTransforms/Image_noise.md",
+    "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
     "MediaCoding/IntensityTransforms/Image_negatives.md",
     "MediaCoding/IntensityTransforms/Histogram_matching.md",
     "MediaCoding/IntensityTransforms/Gamma_transform.md",
@@ -422,7 +423,6 @@
     "MachineLearning/GeneticAlgorithms/Mutation.md",
     "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "MachineLearning/Ensemble_learning.md",
-    "MachineLearning/TreeModels/Random_forest.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
