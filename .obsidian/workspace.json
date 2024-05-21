@@ -73,6 +73,32 @@
             }
           },
           {
+            "id": "a83f757381fe9dc4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7c4e335396bc10c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/IntensityTransforms/Image_noise.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "657a618be7419122",
             "type": "leaf",
             "state": {
@@ -242,7 +268,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -310,7 +336,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Canny_edge_detection.md"
+                "file": "MediaCoding/IntensityTransforms/Image_noise.md"
               }
             }
           }
@@ -345,7 +371,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Canny_edge_detection.md",
+                "file": "MediaCoding/IntensityTransforms/Image_noise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -362,7 +388,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Canny_edge_detection.md",
+                "file": "MediaCoding/IntensityTransforms/Image_noise.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -434,12 +460,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "44df94a26ba749d8",
+  "active": "7c4e335396bc10c5",
   "lastOpenFiles": [
+    "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
+    "MediaCoding/Canny_edge_detection.md",
+    "MediaCoding/Watermarking/Watermarking.md",
     "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
-    "MediaCoding/Watermarking/Watermarking.md",
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/OpticalFlow/Optical_flow.md",
     "XX-Attachments/Images/Pasted image 20240521181651.png",
@@ -448,13 +476,11 @@
     "MediaCoding/ImageMatching/Gaussian_pyramid.md",
     "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
     "MediaCoding/ImageMatching/Laplacian_pyramid.md",
-    "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
     "MediaCoding/IntensityTransforms/Gamma_transform.md",
     "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
     "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
     "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
     "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
-    "MediaCoding/Canny_edge_detection.md",
     "MediaCoding/Edge_detection.md",
     "MediaCoding/Image_derivatives.md",
     "MediaCoding/Media_coding.md",
