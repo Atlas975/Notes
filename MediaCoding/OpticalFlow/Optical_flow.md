@@ -35,3 +35,4 @@ $$I_{t}=\text{temporal gradient}$$
 
 ## Aperture problem 
 - Flow velocities are unknown when viewed through a limited FOV, making the direction of motion uncertain. Mainly caused by a lack of context about the object's environment.
+- This requires a sufficient window size to 
