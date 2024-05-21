@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
+                "file": "MediaCoding/OpticalFlow/Optical_flow.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -297,7 +297,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md"
+                "file": "MediaCoding/OpticalFlow/Optical_flow.md"
               }
             }
           }
@@ -332,7 +332,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
+                "file": "MediaCoding/OpticalFlow/Optical_flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -349,7 +349,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
+                "file": "MediaCoding/OpticalFlow/Optical_flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -423,11 +423,11 @@
   },
   "active": "3b0e7cb556d25f2c",
   "lastOpenFiles": [
+    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/OpticalFlow/Optical_flow.md",
     "MediaCoding/Edge_detection.md",
     "MediaCoding/Image_derivatives.md",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
-    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
     "MediaCoding/IntensityTransforms/Image_noise.md",
     "MediaCoding/IntensityTransforms/Gamma_transform.md",
