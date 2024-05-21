@@ -12,10 +12,10 @@
 ___
 # Image matching
 - The process of finding matching pairs of features between images that correspond to the same point in the scene, despite differences in viewpoint, illumination, or scale.
+- Vital for processes such as image recognition, object tracking and 3D reconstruction. Image matching fall in one of two categories:
 
 ![[Pasted image 20240321203137.png|450|450]]
 
-- Vital for processes such as image recognition, object tracking and 3D reconstruction. Image matching fall in one of two categories:
 ## Holistic image matching
 - Uses the entire image to [[Sum_of_squared_differences|calculate similarity]], often facing issues like limited tolerance to shifts and illumination changes.
 - Widely used for tasks like face recognition or scene matching, where the global arrangement and relationship of features are crucial for identifying similarities or differences between images

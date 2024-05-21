@@ -117,8 +117,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/OpticalFlow/Optical_flow.md",
-                "mode": "source",
+                "file": "MediaCoding/ImageMatching/Image_features.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -297,7 +297,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/OpticalFlow/Optical_flow.md"
+                "file": "MediaCoding/ImageMatching/Image_features.md"
               }
             }
           }
@@ -332,7 +332,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/OpticalFlow/Optical_flow.md",
+                "file": "MediaCoding/ImageMatching/Image_features.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -349,7 +349,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/OpticalFlow/Optical_flow.md",
+                "file": "MediaCoding/ImageMatching/Image_features.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -423,36 +423,36 @@
   },
   "active": "3b0e7cb556d25f2c",
   "lastOpenFiles": [
-    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
-    "MediaCoding/OpticalFlow/Optical_flow.md",
-    "MediaCoding/Edge_detection.md",
-    "MediaCoding/Image_derivatives.md",
+    "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
+    "MediaCoding/ImageMatching/Gaussian_pyramid.md",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
-    "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
+    "MediaCoding/Colour_models.md",
+    "MediaCoding/Media_coding.md",
+    "MediaCoding/Image_derivatives.md",
+    "MediaCoding/Canny_edge_detection.md",
+    "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
+    "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
+    "MediaCoding/OpticalFlow/Optical_flow.md",
+    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
+    "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
+    "MediaCoding/IntensityTransforms/Log_transform.md",
     "MediaCoding/IntensityTransforms/Image_noise.md",
-    "MediaCoding/IntensityTransforms/Gamma_transform.md",
+    "MediaCoding/IntensityTransforms/Image_negatives.md",
     "MediaCoding/IntensityTransforms/Histogram_matching.md",
+    "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
+    "MediaCoding/IntensityTransforms/Gamma_transform.md",
+    "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
+    "MediaCoding/ImageMatching/Image_matching.md",
+    "MediaCoding/Edge_detection.md",
     "XX-Attachments/Images/Pasted image 20240521030003.png",
     "XX-Attachments/Images/Pasted image 20240521025946.png",
     "XX-Attachments/Images/Pasted image 20240521025930.png",
     "XX-Attachments/Images/Pasted image 20240521025913.png",
-    "MediaCoding/IntensityTransforms/Log_transform.md",
-    "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
-    "MediaCoding/IntensityTransforms/Image_negatives.md",
     "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
     "MediaCoding/ImageMatching/Laplacian_pyramid.md",
     "MediaCoding/ImageMatching/Image_features.md",
-    "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
-    "MediaCoding/Canny_edge_detection.md",
-    "MediaCoding/Colour_models.md",
     "MediaCoding/Watermarking/Watermarking.md",
-    "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
     "MediaCoding/Filters/Unpooling.md",
-    "MachineLearning/FeatureEngineering/Normalisation.md",
-    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
-    "MachineLearning/Clustering/K-means_clustering.md",
-    "MachineLearning/Clustering/Hierarchal_clustering.md",
-    "MachineLearning/Clustering/Clustering.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
