@@ -15,7 +15,6 @@ ___
 - Due to its nature of measuring the second derivative, the filter is highly sensitive to noise. It often requires preprocessing, like applying a Gaussian blur to mitigate this sensitivity
 
 ![[Pasted image 20240321180926.png|450|450]]
-
 ## Laplacian of Gaussian (LoG)
 - The Laplacian of Gaussian (LoG) filter applies a [[Gaussian_filter|Gaussian]] blur to smooth an image before performing Laplacian edge detection.
 - This combination helps reduce the noise sensitivity of the Laplacian operator, as the Gaussian blur suppresses noise in the image's intensity before the edges are enhanced by the Laplacian.
