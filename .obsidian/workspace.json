@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Image_noise.md",
+                "file": "MediaCoding/IntensityTransforms/Histogram_matching.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -271,7 +271,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Image_noise.md"
+                "file": "MediaCoding/IntensityTransforms/Histogram_matching.md"
               }
             }
           }
@@ -306,7 +306,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Image_noise.md",
+                "file": "MediaCoding/IntensityTransforms/Histogram_matching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -323,7 +323,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Image_noise.md",
+                "file": "MediaCoding/IntensityTransforms/Histogram_matching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -397,12 +397,12 @@
   },
   "active": "657a618be7419122",
   "lastOpenFiles": [
+    "MediaCoding/IntensityTransforms/Image_noise.md",
     "XX-Attachments/Images/Pasted image 20240521030003.png",
     "XX-Attachments/Images/Pasted image 20240521025946.png",
     "XX-Attachments/Images/Pasted image 20240521025930.png",
     "XX-Attachments/Images/Pasted image 20240521025913.png",
     "MediaCoding/IntensityTransforms/Log_transform.md",
-    "MediaCoding/IntensityTransforms/Image_noise.md",
     "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
     "MediaCoding/IntensityTransforms/Image_negatives.md",
     "MediaCoding/IntensityTransforms/Histogram_matching.md",
@@ -432,7 +432,6 @@
     "XX-Attachments/Images/Pasted image 20240513165230.png",
     "XX-Attachments/Images/Pasted image 20240513162236.png",
     "XX-Attachments/Images/Pasted image 20240513161842.png",
-    "XX-Attachments/Images/Pasted image 20240513161654.png",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",
