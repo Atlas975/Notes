@@ -169,7 +169,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -336,7 +336,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md"
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md"
               }
             }
           }
@@ -371,7 +371,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -388,7 +388,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
+                "file": "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -462,9 +462,11 @@
   },
   "active": "fcd6e21f3e762b2a",
   "lastOpenFiles": [
+    "MediaCoding/Filters/EdgeDetectionFilters/Roberts_filter.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Prewitt_filter.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
     "XX-Attachments/Images/Pasted image 20240521234528.png",
     "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
     "MediaCoding/OpticalFlow/Optical_flow.md",
     "MediaCoding/Media_coding.md",
     "MediaCoding/Image_derivatives.md",
@@ -487,7 +489,6 @@
     "MediaCoding/ImageMatching/Image_matching.md",
     "MediaCoding/ImageMatching/Image_features.md",
     "MediaCoding/IntensityTransforms/Log_transform.md",
-    "MediaCoding/Colour_models.md",
     "XX-Attachments/Images/Pasted image 20240521181651.png",
     "XX-Attachments/Images/Pasted image 20240521030003.png",
     "XX-Attachments/Images/Pasted image 20240521025946.png",
@@ -497,7 +498,6 @@
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
     "XX-Attachments/Images/Pasted image 20240513165230.png",
-    "XX-Attachments/Images/Pasted image 20240513162236.png",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",
