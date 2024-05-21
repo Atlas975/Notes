@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/OpticalFlow/Optical_flow.md",
+                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -104,7 +104,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
+                "file": "MediaCoding/Edge_detection.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3b0e7cb556d25f2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -216,7 +229,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -284,7 +297,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/OpticalFlow/Optical_flow.md"
+                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md"
               }
             }
           }
@@ -319,7 +332,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/OpticalFlow/Optical_flow.md",
+                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -336,7 +349,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/OpticalFlow/Optical_flow.md",
+                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -408,10 +421,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d63b90308867f118",
+  "active": "3b0e7cb556d25f2c",
   "lastOpenFiles": [
-    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/OpticalFlow/Optical_flow.md",
+    "MediaCoding/Edge_detection.md",
+    "MediaCoding/Image_derivatives.md",
+    "MediaCoding/ImageMatching/Harris_corner_detection.md",
+    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
     "MediaCoding/IntensityTransforms/Image_noise.md",
     "MediaCoding/IntensityTransforms/Gamma_transform.md",
@@ -432,14 +448,11 @@
     "MediaCoding/Watermarking/Watermarking.md",
     "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
     "MediaCoding/Filters/Unpooling.md",
-    "MediaCoding/Edge_detection.md",
     "MachineLearning/FeatureEngineering/Normalisation.md",
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
     "MachineLearning/Clustering/K-means_clustering.md",
     "MachineLearning/Clustering/Hierarchal_clustering.md",
     "MachineLearning/Clustering/Clustering.md",
-    "MachineLearning/GeneticAlgorithms/Crossover.md",
-    "MachineLearning/GeneticAlgorithms/Selection.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",

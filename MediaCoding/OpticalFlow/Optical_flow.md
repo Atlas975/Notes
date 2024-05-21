@@ -12,6 +12,7 @@
 ___
 # Optical flow
 - Motion is the main form of extracting information from videos. Optical flow techniques involve finding the displacement vector of all pixels in an image sequence. 
+- This assumes that the background in constant, with the only difference from frame to frame being an object that moves across it 
 
 
 ![[Pasted image 20240323214320.png|350|350]]
