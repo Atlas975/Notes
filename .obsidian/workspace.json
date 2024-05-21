@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/ImageMatching/Image_features.md",
+                "file": "MediaCoding/IntensityTransforms/Log_transform.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -271,7 +271,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/ImageMatching/Image_features.md"
+                "file": "MediaCoding/IntensityTransforms/Log_transform.md"
               }
             }
           }
@@ -306,7 +306,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/ImageMatching/Image_features.md",
+                "file": "MediaCoding/IntensityTransforms/Log_transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -323,7 +323,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/ImageMatching/Image_features.md",
+                "file": "MediaCoding/IntensityTransforms/Log_transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -397,8 +397,13 @@
   },
   "active": "657a618be7419122",
   "lastOpenFiles": [
-    "MediaCoding/ImageMatching/Laplacian_pyramid.md",
+    "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
+    "MediaCoding/IntensityTransforms/Log_transform.md",
+    "MediaCoding/IntensityTransforms/Image_negatives.md",
+    "MediaCoding/IntensityTransforms/Histogram_matching.md",
+    "MediaCoding/IntensityTransforms/Gamma_transform.md",
     "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
+    "MediaCoding/ImageMatching/Laplacian_pyramid.md",
     "MediaCoding/ImageMatching/Image_features.md",
     "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
     "MediaCoding/Canny_edge_detection.md",
@@ -418,11 +423,6 @@
     "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "MachineLearning/Ensemble_learning.md",
     "MachineLearning/TreeModels/Random_forest.md",
-    "MachineLearning/TreeModels/Decision_trees.md",
-    "MachineLearning/Categorical_data_handeling.md",
-    "MachineLearning/Artificial_intelligence.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
