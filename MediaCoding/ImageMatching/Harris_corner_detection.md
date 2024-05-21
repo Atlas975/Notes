@@ -26,6 +26,8 @@ ___
 ## Small motion assumption
 - Assumes that pixel shifts are so slight that the image's intensity change can be estimated using only the first-order gradient information 
 - This avoids complex calculations for every possible small displacement.
+
+![[Pasted image 20240323182713.png|350|350]]
 - Streamlines the algorithm by enabling the use of a linear approximation (Taylor expansion) for intensity changes, which significantly speeds up the corner detection process
 
 $$\begin{equation}
@@ -37,10 +39,11 @@ E(u,v) &= \sum_{(x,y)\in W} [ I(x + u, y + v) - I(x, y) ]^2 \\
 &&\text{shorthand: } I_x = \frac{\partial I}{\partial x} \\
 \end{split}
 \end{equation}$$
+![[Pasted image 20240323182608.png|350|350]]
+
 - This formula can be produced using a **second moment matrix** 
 - This equation then becomes the ellipses formula, allowing for the use of the major semi ($\lambda_{1}$) and minor semi ($\lambda_{2}$) axis in a corner response metric 
 
-![[Pasted image 20240323182608.png|350|350]]![[Pasted image 20240323182713.png|350|350]]
 ## Corner response metric
 - Both axis can be used to calculate a corner response metric using the following formula:
 $$\begin{equation}
