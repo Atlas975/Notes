@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
+                "file": "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -242,7 +242,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -310,7 +310,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md"
+                "file": "MediaCoding/Canny_edge_detection.md"
               }
             }
           }
@@ -345,7 +345,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
+                "file": "MediaCoding/Canny_edge_detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -362,7 +362,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
+                "file": "MediaCoding/Canny_edge_detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -434,12 +434,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8d6e14cf72486508",
+  "active": "44df94a26ba749d8",
   "lastOpenFiles": [
-    "MediaCoding/ImageMatching/Harris_corner_detection.md",
-    "MediaCoding/DiscreteCosineTansform/JPEG.md",
-    "MediaCoding/Watermarking/Watermarking.md",
     "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
+    "MediaCoding/DiscreteCosineTansform/JPEG.md",
+    "MediaCoding/ImageMatching/Harris_corner_detection.md",
+    "MediaCoding/Watermarking/Watermarking.md",
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/OpticalFlow/Optical_flow.md",
     "XX-Attachments/Images/Pasted image 20240521181651.png",
