@@ -21,7 +21,6 @@ ___
 	- **Colour consistency**: pixels mostly remain the same colour between frames
 	- **Small motion**: pixels do not move far between frames, allowing for a small search region
 	- **Neighbours move together**: neighbouring pixel patches have the same motion vector ($u,v$), allowing for correspondence to be found at the patch level 
-- Under these assumptions 
 ## Colour consistency equation
 - Used to calculate motion between two frames under the optical flow assumptions 
 - The flow velocities represent the movement from one frame to the next. Note the small motion allows for the first order Taylor series approximation to be used
@@ -34,5 +33,7 @@ $$I_{t}=\text{temporal gradient}$$
 ![[Pasted image 20240323220001.png|350|350]]
 
 ## Aperture problem 
-- Flow velocities are unknown when viewed through a limited FOV, making the direction of motion uncertain. Mainly caused by a lack of context about the object's environment.
-- This requires a sufficient window size to 
+- When a motion is viewed through a small aperture, such as a small window or the receptive field of a neuron, it becomes difficult to determine the true direction of motion
+-  This is because the motion of a single edge or contour provides ambiguous information about the movement of the object. Corners avoid this issue. better than flat regions 
+
+![[Pasted image 20240521181651.png|350|350]]

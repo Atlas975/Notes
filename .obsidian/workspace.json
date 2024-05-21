@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
+                "file": "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -229,7 +229,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -297,7 +297,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md"
+                "file": "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md"
               }
             }
           }
@@ -332,7 +332,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
+                "file": "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -349,7 +349,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
+                "file": "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -421,10 +421,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3b0e7cb556d25f2c",
+  "active": "64d12af0cf61695b",
   "lastOpenFiles": [
-    "MediaCoding/OpticalFlow/Optical_flow.md",
+    "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
+    "MediaCoding/OpticalFlow/Optical_flow.md",
+    "XX-Attachments/Images/Pasted image 20240521181651.png",
     "MediaCoding/ImageMatching/Image_features.md",
     "MediaCoding/ImageMatching/Image_matching.md",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
@@ -452,13 +454,11 @@
     "XX-Attachments/Images/Pasted image 20240521025946.png",
     "XX-Attachments/Images/Pasted image 20240521025930.png",
     "XX-Attachments/Images/Pasted image 20240521025913.png",
-    "MediaCoding/Watermarking/Watermarking.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
     "XX-Attachments/Images/Pasted image 20240513165230.png",
     "XX-Attachments/Images/Pasted image 20240513162236.png",
-    "XX-Attachments/Images/Pasted image 20240513161842.png",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",

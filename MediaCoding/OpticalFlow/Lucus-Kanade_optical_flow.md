@@ -11,7 +11,8 @@
 
 ___
 # Lucus-Kanade optical flow
-- Assumes that the surrounding patch has [[Optical_flow#Optical flow assumptions|constant flow / neighbours move together]] 
+- A method of estimating the motion of objects in an image sequence. This assumes that the surrounding patch has [[Optical_flow#Optical flow assumptions|constant flow / neighbours move together]] 
+- Involves computing image gradients, setting up a system of linear equations for small image patches, and solving these equations to find the motion vectors
 - Eg. using a 5x5 image patch gives 25 equations:  
 
 ![[Pasted image 20240325215100.png|350|350]]
@@ -38,7 +39,7 @@ $$\left[ \begin{array}{cc} \sum I_x I_x & \sum I_x I_y \\ \sum I_x I_y & \sum I_
 $$d=(A^{T}\cdot A)^{-1}\cdot A^T\cdot b$$
 
 ## Smooth region limitation
-- This method does not perform well on smooth regions
-- This is because flow cannot reliably be computed, this method works best with corners using similar logic to [[Harris_corner_detection|HCD]]
+- This method does not perform well on smooth regions as flow cannot reliably be computed 
+- This method works best with corners using similar logic to [[Harris_corner_detection|HCD]]
 
 ![[Pasted image 20240325223114.png|450|450]]
