@@ -11,7 +11,7 @@
 
 ___
 # Laplacian edge detector
-- An edge detection operator that computes the second-order derivative of an image, summing up the second derivatives in all directions
+- An edge detection operator that computes the second-order derivative of an image, summing up the second derivatives in all directions. Making this better at detecting thin edges
 - Due to its nature of measuring the second derivative, the filter is highly sensitive to noise. It often requires preprocessing, like applying a Gaussian blur to mitigate this sensitivity
 
 ![[Pasted image 20240321180926.png|450|450]]

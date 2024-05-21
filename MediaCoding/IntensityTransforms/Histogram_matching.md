@@ -23,8 +23,6 @@ ___
 ## Histogram matching algorithm
 ```python
 def histogram_matching(src_channel, ref_hist):
-    src_hist = accumarray(src_channel) # this must be the same size as ref_hist
-    n_s, n_r = numel(src_hist), numel(ref_hist)
     src_cdf = cumsum(src_hist) / n_s # n_s is the # of pixels in src
     ref_cdf = cumsum(ref_hist) / n_r # n_r is the # of pixels in ref
 
