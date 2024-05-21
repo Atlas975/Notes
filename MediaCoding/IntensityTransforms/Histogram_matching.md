@@ -11,15 +11,19 @@
 
 ___
 # Histogram matching
-- involves adjusting the intensity distribution of an image to match the histogram of a target image, enhancing the image's contrast and brightness characteristics in a specified way.
-- This technique aligns the cumulative distribution function (CDF) of the source image's intensities with the CDF of the target histogram. 
+- Involves adjusting the intensity distribution of an image to match the histogram of a target image, enhancing the image's contrast and brightness characteristics in a specified way.
+- This aligns the histogram of the source image's intensities with the histogram of the target 
+
+
+![[Pasted image 20240318203908.png|450|450]]
+
 - The goal of histogram matching can be summarised as the following:
     1. Given an image $f$ with a histogram $h_{f}$
     2. Given a specified image g with histogram $h_{g}$ 
     3. Find transformation $T$ such that $T(h_{f})$ matches distribution $h_{g}$
 
 
-![[Pasted image 20240318203908.png|450|450]]
+![[Pasted image 20240522004739.png|450|450]]
 ## Histogram matching algorithm
 ```python
 def histogram_matching(src_channel, ref_hist):

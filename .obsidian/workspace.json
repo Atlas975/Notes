@@ -195,7 +195,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
+                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -362,7 +362,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Histogram_equalisation.md"
+                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md"
               }
             }
           }
@@ -397,7 +397,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
+                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -414,7 +414,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
+                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -488,7 +488,9 @@
   },
   "active": "1ad095a088429b9e",
   "lastOpenFiles": [
+    "MediaCoding/IntensityTransforms/Image_noise.md",
     "MediaCoding/IntensityTransforms/Histogram_matching.md",
+    "XX-Attachments/Images/Pasted image 20240522004739.png",
     "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
     "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
     "MediaCoding/Filters/Unpooling.md",
@@ -509,12 +511,10 @@
     "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
-    "MediaCoding/IntensityTransforms/Image_noise.md",
     "MediaCoding/IntensityTransforms/Gamma_transform.md",
     "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
     "MediaCoding/ImageMatching/Laplacian_pyramid.md",
     "MediaCoding/ImageMatching/Gaussian_pyramid.md",
-    "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "XX-Attachments/Images/Pasted image 20240521181651.png",
     "XX-Attachments/Images/Pasted image 20240521030003.png",
     "XX-Attachments/Images/Pasted image 20240521025946.png",
@@ -523,7 +523,6 @@
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
-    "XX-Attachments/Images/Pasted image 20240513165230.png",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",
