@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
+                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -297,7 +297,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md"
+                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md"
               }
             }
           }
@@ -332,7 +332,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
+                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -349,7 +349,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
+                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -423,6 +423,7 @@
   },
   "active": "64d12af0cf61695b",
   "lastOpenFiles": [
+    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/OpticalFlow/Optical_flow.md",
@@ -449,7 +450,6 @@
     "MediaCoding/IntensityTransforms/Log_transform.md",
     "MediaCoding/IntensityTransforms/Image_noise.md",
     "MediaCoding/IntensityTransforms/Image_negatives.md",
-    "MediaCoding/IntensityTransforms/Histogram_matching.md",
     "XX-Attachments/Images/Pasted image 20240521030003.png",
     "XX-Attachments/Images/Pasted image 20240521025946.png",
     "XX-Attachments/Images/Pasted image 20240521025930.png",
