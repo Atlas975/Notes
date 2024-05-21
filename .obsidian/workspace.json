@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
+                "file": "MediaCoding/ImageMatching/Image_features.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -271,7 +271,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md"
+                "file": "MediaCoding/ImageMatching/Image_features.md"
               }
             }
           }
@@ -306,7 +306,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
+                "file": "MediaCoding/ImageMatching/Image_features.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -323,7 +323,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
+                "file": "MediaCoding/ImageMatching/Image_features.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -397,11 +397,14 @@
   },
   "active": "657a618be7419122",
   "lastOpenFiles": [
+    "MediaCoding/ImageMatching/Laplacian_pyramid.md",
+    "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
+    "MediaCoding/ImageMatching/Image_features.md",
+    "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
     "MediaCoding/Canny_edge_detection.md",
     "MediaCoding/Colour_models.md",
     "MediaCoding/Watermarking/Watermarking.md",
     "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
-    "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
     "MediaCoding/Filters/Unpooling.md",
     "MediaCoding/Edge_detection.md",
     "MachineLearning/FeatureEngineering/Normalisation.md",
@@ -420,9 +423,6 @@
     "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
