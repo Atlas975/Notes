@@ -66,7 +66,7 @@
               "type": "markdown",
               "state": {
                 "file": "MediaCoding/IntensityTransforms/Image_noise.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -397,6 +397,10 @@
   },
   "active": "657a618be7419122",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240521030003.png",
+    "XX-Attachments/Images/Pasted image 20240521025946.png",
+    "XX-Attachments/Images/Pasted image 20240521025930.png",
+    "XX-Attachments/Images/Pasted image 20240521025913.png",
     "MediaCoding/IntensityTransforms/Log_transform.md",
     "MediaCoding/IntensityTransforms/Image_noise.md",
     "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
@@ -422,7 +426,6 @@
     "MachineLearning/GeneticAlgorithms/Selection.md",
     "MachineLearning/GeneticAlgorithms/Mutation.md",
     "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
-    "MachineLearning/Ensemble_learning.md",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
     "XX-Attachments/Images/Pasted image 20240513165430.png",
@@ -430,9 +433,6 @@
     "XX-Attachments/Images/Pasted image 20240513162236.png",
     "XX-Attachments/Images/Pasted image 20240513161842.png",
     "XX-Attachments/Images/Pasted image 20240513161654.png",
-    "XX-Attachments/Images/Pasted image 20240513161119.png",
-    "XX-Attachments/Images/Pasted image 20240513132836.png",
-    "XX-Attachments/Images/Pasted image 20240513132109.png",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",
