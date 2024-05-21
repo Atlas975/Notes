@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Image_noise.md",
+                "file": "MediaCoding/ImageMatching/Laplacian_pyramid.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -336,7 +336,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Image_noise.md"
+                "file": "MediaCoding/ImageMatching/Laplacian_pyramid.md"
               }
             }
           }
@@ -371,7 +371,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Image_noise.md",
+                "file": "MediaCoding/ImageMatching/Laplacian_pyramid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -388,7 +388,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Image_noise.md",
+                "file": "MediaCoding/ImageMatching/Laplacian_pyramid.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -462,33 +462,33 @@
   },
   "active": "7c4e335396bc10c5",
   "lastOpenFiles": [
+    "MediaCoding/IntensityTransforms/Gamma_transform.md",
+    "MediaCoding/IntensityTransforms/Image_negatives.md",
+    "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
+    "MediaCoding/IntensityTransforms/Log_transform.md",
+    "MediaCoding/IntensityTransforms/Histogram_matching.md",
+    "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
+    "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
+    "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
+    "MediaCoding/ImageMatching/Laplacian_pyramid.md",
     "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
+    "MediaCoding/ImageMatching/Gaussian_pyramid.md",
+    "MediaCoding/ImageMatching/Image_matching.md",
+    "MediaCoding/IntensityTransforms/Image_noise.md",
+    "MediaCoding/ImageMatching/Harris_corner_detection.md",
+    "MediaCoding/ImageMatching/Image_features.md",
+    "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
+    "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
+    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/Canny_edge_detection.md",
     "MediaCoding/Watermarking/Watermarking.md",
     "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
-    "MediaCoding/ImageMatching/Harris_corner_detection.md",
-    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/OpticalFlow/Optical_flow.md",
     "XX-Attachments/Images/Pasted image 20240521181651.png",
-    "MediaCoding/ImageMatching/Image_features.md",
-    "MediaCoding/ImageMatching/Image_matching.md",
-    "MediaCoding/ImageMatching/Gaussian_pyramid.md",
-    "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
-    "MediaCoding/ImageMatching/Laplacian_pyramid.md",
-    "MediaCoding/IntensityTransforms/Gamma_transform.md",
-    "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
-    "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
-    "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
-    "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
     "MediaCoding/Edge_detection.md",
     "MediaCoding/Image_derivatives.md",
     "MediaCoding/Media_coding.md",
-    "MediaCoding/Colour_models.md",
-    "MediaCoding/Convolutions/Convolution.md",
-    "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
-    "MediaCoding/IntensityTransforms/Log_transform.md",
-    "MediaCoding/IntensityTransforms/Image_noise.md",
     "XX-Attachments/Images/Pasted image 20240521030003.png",
     "XX-Attachments/Images/Pasted image 20240521025946.png",
     "XX-Attachments/Images/Pasted image 20240521025930.png",
