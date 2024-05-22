@@ -49,7 +49,7 @@ E(u,v) &= \sum_{(x,y)\in W} [ I(x + u, y + v) - I(x, y) ]^2 \\
 - Both axis can be used to calculate a corner response metric using the following formula:
 $$\begin{equation}
 \begin{split}
-R &= (A\cdot C-B^2)-k(A+C)^{2}\\
+R &= (A\cdot C-B^2)-k\cdot(A+C)^{2}\\
 &= \text{det}(H) - k \cdot \text{tr}(H)^2
 \end{split}
 \end{equation}$$

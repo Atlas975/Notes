@@ -182,7 +182,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
+                "file": "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -414,7 +414,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md"
+                "file": "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md"
               }
             }
           }
@@ -449,7 +449,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
+                "file": "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -466,7 +466,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
+                "file": "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -540,10 +540,10 @@
   },
   "active": "f9a1f2e7eb180576",
   "lastOpenFiles": [
+    "MediaCoding/ImageMatching/Harris_corner_detection.md",
     "MediaCoding/ImageMatching/Gaussian_pyramid.md",
     "MediaCoding/ImageMatching/Laplacian_pyramid.md",
     "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
-    "MediaCoding/ImageMatching/Harris_corner_detection.md",
     "MediaCoding/Filters/SmoothingFilters/Median_filter.md",
     "MediaCoding/IntensityTransforms/Image_noise.md",
     "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
