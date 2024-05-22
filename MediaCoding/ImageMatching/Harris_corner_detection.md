@@ -57,6 +57,9 @@ $$k=\text{is an empirically determined constant eg. }k=0.04 \text{ to }0.06$$
 
 ![[Pasted image 20240323203148.png|250|250]]
 
+$$\text{If }R \text{ is large}=\text{Corner}$$
+$$\text{If }R \text{ is negative}=\text{Edge}$$
+$$\text{If }|R| \text{ is small}=\text{Flat}$$
 ## Non-maxima suppression
 - Refers to the method used to classify if a pixel is a corner or not using the following steps:
 1.  Using a threshold to determine if a pixel is a corner is not ideal as this will vary between images. Instead the following based on the maximum R value in the image is used:

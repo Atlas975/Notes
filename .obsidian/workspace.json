@@ -177,6 +177,19 @@
             }
           },
           {
+            "id": "f9a1f2e7eb180576",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b57527627bf69626",
             "type": "leaf",
             "state": {
@@ -333,7 +346,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -401,7 +414,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/ImageMatching/Gaussian_pyramid.md"
+                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md"
               }
             }
           }
@@ -436,7 +449,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/ImageMatching/Gaussian_pyramid.md",
+                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -453,7 +466,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/ImageMatching/Gaussian_pyramid.md",
+                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -525,8 +538,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fcd6e21f3e762b2a",
+  "active": "f9a1f2e7eb180576",
   "lastOpenFiles": [
+    "MediaCoding/ImageMatching/Gaussian_pyramid.md",
     "MediaCoding/ImageMatching/Laplacian_pyramid.md",
     "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
@@ -555,7 +569,6 @@
     "MediaCoding/Media_coding.md",
     "MediaCoding/Image_derivatives.md",
     "MediaCoding/Edge_detection.md",
-    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "XX-Attachments/Images/Pasted image 20240521181651.png",
     "XX-Attachments/Images/Pasted image 20240521030003.png",
     "XX-Attachments/Images/Pasted image 20240521025946.png",
