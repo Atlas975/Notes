@@ -169,7 +169,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/ImageMatching/Gaussian_pyramid.md",
+                "file": "MediaCoding/ImageMatching/Laplacian_pyramid.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -453,7 +453,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/ImageMatching/Gaussian_pyramid.md"
+                "file": "MediaCoding/ImageMatching/Laplacian_pyramid.md"
               }
             }
           }
@@ -488,7 +488,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/ImageMatching/Gaussian_pyramid.md",
+                "file": "MediaCoding/ImageMatching/Laplacian_pyramid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -505,7 +505,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/ImageMatching/Gaussian_pyramid.md",
+                "file": "MediaCoding/ImageMatching/Laplacian_pyramid.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -579,6 +579,7 @@
   },
   "active": "fcd6e21f3e762b2a",
   "lastOpenFiles": [
+    "MediaCoding/ImageMatching/Gaussian_pyramid.md",
     "MediaCoding/IntensityTransforms/Histogram_matching.md",
     "MediaCoding/IntensityTransforms/Image_noise.md",
     "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
@@ -591,7 +592,6 @@
     "MediaCoding/Canny_edge_detection.md",
     "MediaCoding/IntensityTransforms/Image_negatives.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
-    "MediaCoding/ImageMatching/Gaussian_pyramid.md",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
     "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
     "MediaCoding/ImageMatching/Image_matching.md",

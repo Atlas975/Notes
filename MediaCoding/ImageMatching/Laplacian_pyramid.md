@@ -12,10 +12,12 @@
 ___
 # Laplacian pyramid
 - Allows for the reconstruction of an image from using a [[Gaussian_pyramid|Gaussian pyramid]]
-- Has the benefit of being more memory efficient than storing the entire image at each step, instead using a binary image containing the image residual
+- Has the benefit of being more memory efficient than storing the entire image at each step, instead saving a binary image containing the image residual
 
 
 ![[Pasted image 20240323212402.png|350|350]]
+
+$$l_{i}=g_{i}-F_{i}(g_{i+1})$$
 
 ## Image residual 
 - The residual of an image is calculated using the following formula:
