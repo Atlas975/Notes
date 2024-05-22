@@ -29,11 +29,10 @@ ___
 
 ![[Pasted image 20240330181206.png|450|450]]
 
+
 - The modification done to get two coefficients to satisfy the rule $P$ involves first making both of them equal by adding $\frac{\text{diff}}{2}$ to the smaller coefficient and subtracting it from the larger one
-- A threshold value is then added to the desired larger coefficient and subtracted from the desired smaller coefficient, this is predetermined and it's size is calculated using experimentation
+- A threshold value is then added to the desired larger coefficient and subtracted from the desired smaller coefficient, this is predetermined and used to make the change robust to noise 
 - This method allows for [[Watermarking#Watermark extraction types|blind]] watermark extraction, only needing the RNG seed
-
-
 ## AC-DC embedding
 - More robust then using two random coefficients, always uses an AC coefficient in rule $P$
 - The other location is picked randomly in the mid frequency band, the use of both a low and mid frequency coefficient makes the watermark embedding more robust

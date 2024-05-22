@@ -208,7 +208,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
+                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -375,7 +375,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md"
+                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md"
               }
             }
           }
@@ -410,7 +410,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
+                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -427,7 +427,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
+                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -501,6 +501,7 @@
   },
   "active": "33aa2bf526c52f84",
   "lastOpenFiles": [
+    "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "XX-Attachments/Images/Pasted image 20240522010150.png",
     "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
     "MediaCoding/IntensityTransforms/Image_noise.md",
@@ -536,7 +537,6 @@
     "XX-Attachments/Images/Pasted image 20240521025913.png",
     "XX-Attachments/Images/Pasted image 20240515151258.png",
     "XX-Attachments/Images/Pasted image 20240513165859.png",
-    "XX-Attachments/Images/Pasted image 20240513165430.png",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",
