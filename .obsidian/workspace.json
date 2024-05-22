@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
+                "file": "MachineLearning/Bias_variance_tradeoff.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -492,7 +492,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md"
+                "file": "MachineLearning/Bias_variance_tradeoff.md"
               }
             }
           }
@@ -527,7 +527,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
+                "file": "MachineLearning/Bias_variance_tradeoff.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -544,7 +544,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
+                "file": "MachineLearning/Bias_variance_tradeoff.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -618,6 +618,25 @@
   },
   "active": "6bff6a51b5c427bf",
   "lastOpenFiles": [
+    "MachineLearning/Categorical_data_handeling.md",
+    "MachineLearning/Bias_variance_tradeoff.md",
+    "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/TreeModels/Random_forest.md",
+    "MachineLearning/TreeModels/Decision_trees.md",
+    "MachineLearning/LinearRegression/Synergy_effect.md",
+    "MachineLearning/LinearRegression/Leverage_statistic.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
+    "MachineLearning/GeneticAlgorithms/Crossover.md",
+    "MachineLearning/LinearRegression/Linear_regression.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
+    "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
     "MediaCoding/Filters/Unpooling.md",
     "MediaCoding/Filters/SmoothingFilters/Smoothing_spatial_filtering.md",
@@ -625,25 +644,6 @@
     "MediaCoding/Filters/EdgeDetectionFilters/Roberts_filter.md",
     "MediaCoding/Watermarking/Watermarking.md",
     "MediaCoding/Image_derivatives.md",
-    "MediaCoding/Edge_detection.md",
-    "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
-    "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
-    "MediaCoding/Canny_edge_detection.md",
-    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
-    "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
-    "MediaCoding/ImageMatching/Laplacian_pyramid.md",
-    "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
-    "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
-    "MediaCoding/ImageMatching/Gaussian_pyramid.md",
-    "MediaCoding/ImageMatching/Image_matching.md",
-    "MediaCoding/DiscreteCosineTansform/JPEG.md",
-    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
-    "MediaCoding/ImageMatching/Image_features.md",
-    "MediaCoding/Filters/SmoothingFilters/Median_filter.md",
-    "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
-    "MediaCoding/Filters/Pooling.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
     "XX-Attachments/Images/Pasted image 20240522010150.png",
     "XX-Attachments/Images/Pasted image 20240522004739.png",
     "XX-Attachments/Images/Pasted image 20240521234528.png",
