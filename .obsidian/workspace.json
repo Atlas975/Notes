@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -518,7 +518,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md"
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md"
               }
             }
           }
@@ -553,7 +553,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -570,7 +570,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -644,6 +644,8 @@
   },
   "active": "5bcf54815f19abe4",
   "lastOpenFiles": [
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
     "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
@@ -668,8 +670,6 @@
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
     "MediaCoding/Filters/Unpooling.md",
-    "MediaCoding/Filters/SmoothingFilters/Smoothing_spatial_filtering.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
     "XX-Attachments/Images/Pasted image 20240522010150.png",
     "XX-Attachments/Images/Pasted image 20240522004739.png",
     "XX-Attachments/Images/Pasted image 20240521234528.png",
