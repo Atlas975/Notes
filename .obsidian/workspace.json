@@ -190,6 +190,32 @@
             }
           },
           {
+            "id": "101e7f86d3e910a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "16e4ef03deb4bca6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b57527627bf69626",
             "type": "leaf",
             "state": {
@@ -346,7 +372,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -414,7 +440,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md"
+                "file": "MediaCoding/ImageMatching/Gaussian_pyramid.md"
               }
             }
           }
@@ -449,7 +475,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
+                "file": "MediaCoding/ImageMatching/Gaussian_pyramid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -466,7 +492,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
+                "file": "MediaCoding/ImageMatching/Gaussian_pyramid.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -538,12 +564,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f9a1f2e7eb180576",
+  "active": "fcd6e21f3e762b2a",
   "lastOpenFiles": [
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
     "MediaCoding/ImageMatching/Gaussian_pyramid.md",
-    "MediaCoding/ImageMatching/Laplacian_pyramid.md",
+    "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
+    "MediaCoding/ImageMatching/Image_matching.md",
     "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
+    "MediaCoding/ImageMatching/Laplacian_pyramid.md",
     "MediaCoding/Filters/SmoothingFilters/Median_filter.md",
     "MediaCoding/IntensityTransforms/Image_noise.md",
     "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
@@ -567,8 +595,6 @@
     "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
     "MediaCoding/OpticalFlow/Optical_flow.md",
     "MediaCoding/Media_coding.md",
-    "MediaCoding/Image_derivatives.md",
-    "MediaCoding/Edge_detection.md",
     "XX-Attachments/Images/Pasted image 20240521181651.png",
     "XX-Attachments/Images/Pasted image 20240521030003.png",
     "XX-Attachments/Images/Pasted image 20240521025946.png",
