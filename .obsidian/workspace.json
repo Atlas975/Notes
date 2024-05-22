@@ -229,6 +229,19 @@
             }
           },
           {
+            "id": "16e29089a0538fcf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Filters/SmoothingFilters/Median_filter.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4143e2a499635a46",
             "type": "leaf",
             "state": {
@@ -320,7 +333,7 @@
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -388,7 +401,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md"
+                "file": "MediaCoding/Filters/SmoothingFilters/Median_filter.md"
               }
             }
           }
@@ -423,7 +436,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
+                "file": "MediaCoding/Filters/SmoothingFilters/Median_filter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -440,7 +453,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
+                "file": "MediaCoding/Filters/SmoothingFilters/Median_filter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -512,14 +525,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9d0a1c324b1df368",
+  "active": "16e29089a0538fcf",
   "lastOpenFiles": [
+    "MediaCoding/IntensityTransforms/Image_noise.md",
+    "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
+    "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
     "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
     "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
     "MediaCoding/Watermarking/Watermarking.md",
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "XX-Attachments/Images/Pasted image 20240522010150.png",
-    "MediaCoding/IntensityTransforms/Image_noise.md",
     "MediaCoding/IntensityTransforms/Histogram_matching.md",
     "XX-Attachments/Images/Pasted image 20240522004739.png",
     "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
@@ -539,10 +554,8 @@
     "MediaCoding/Image_derivatives.md",
     "MediaCoding/Edge_detection.md",
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
-    "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
     "MediaCoding/IntensityTransforms/Gamma_transform.md",
     "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
-    "MediaCoding/ImageMatching/Laplacian_pyramid.md",
     "XX-Attachments/Images/Pasted image 20240521181651.png",
     "XX-Attachments/Images/Pasted image 20240521030003.png",
     "XX-Attachments/Images/Pasted image 20240521025946.png",

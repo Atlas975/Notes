@@ -16,13 +16,13 @@ ___
 
 
 ## Gaussian noise 
-- Follows a [[Gaussian_distribution|Normal  distribution]].  It is additive, meaning it affects each pixel independently by adding a value drawn from the Gaussian distribution
+- Follows a [[Gaussian_distribution|Normal distribution]].  It is additive, meaning it affects each pixel independently by adding a value drawn from the Gaussian distribution
 - Appears as a smooth, grainy texture over the image, with the intensity of the noise determined by the standard deviation (eg )
 
 ![[Pasted image 20240521025930.png|250|250]]
 ## Salt and pepper noise 
 - Also known as impulse noise, consists of random occurrences of white (salt) and black (pepper) pixels. Pixels are replaced with extremes (max or min values)
-- Appears as scattered white and black pixels across the image, creating a noisy, speckled effect.
+- Appears as scattered white and black pixels across the image, creating a noisy, speckled effect. Filters using [[Median_filter|median]] tackle this effectively
 
 ![[Pasted image 20240521030003.png|250|250]]
 ## Speckle Noise
