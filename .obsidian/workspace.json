@@ -203,6 +203,19 @@
             }
           },
           {
+            "id": "33aa2bf526c52f84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4143e2a499635a46",
             "type": "leaf",
             "state": {
@@ -294,7 +307,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -362,7 +375,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md"
+                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md"
               }
             }
           }
@@ -397,7 +410,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
+                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -414,7 +427,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
+                "file": "MediaCoding/DiscreteCosineTansform/JPEG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -486,8 +499,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1ad095a088429b9e",
+  "active": "33aa2bf526c52f84",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240522010150.png",
+    "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
     "MediaCoding/IntensityTransforms/Image_noise.md",
     "MediaCoding/IntensityTransforms/Histogram_matching.md",
     "XX-Attachments/Images/Pasted image 20240522004739.png",
@@ -508,7 +523,6 @@
     "MediaCoding/Image_derivatives.md",
     "MediaCoding/Edge_detection.md",
     "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
-    "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
     "MediaCoding/IntensityTransforms/Gamma_transform.md",
