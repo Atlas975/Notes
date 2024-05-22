@@ -169,7 +169,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/ImageMatching/Laplacian_pyramid.md",
+                "file": "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bb44ebae1dfea393",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Watermarking/Watermarking.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -385,7 +398,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -453,7 +466,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/ImageMatching/Laplacian_pyramid.md"
+                "file": "MediaCoding/Watermarking/Watermarking.md"
               }
             }
           }
@@ -488,7 +501,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/ImageMatching/Laplacian_pyramid.md",
+                "file": "MediaCoding/Watermarking/Watermarking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -505,7 +518,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/ImageMatching/Laplacian_pyramid.md",
+                "file": "MediaCoding/Watermarking/Watermarking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -577,36 +590,36 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fcd6e21f3e762b2a",
+  "active": "bb44ebae1dfea393",
   "lastOpenFiles": [
-    "MediaCoding/ImageMatching/Gaussian_pyramid.md",
-    "MediaCoding/IntensityTransforms/Histogram_matching.md",
-    "MediaCoding/IntensityTransforms/Image_noise.md",
     "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
-    "MediaCoding/Media_coding.md",
-    "MediaCoding/Image_derivatives.md",
-    "MediaCoding/Edge_detection.md",
-    "MediaCoding/Watermarking/Watermarking.md",
     "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
-    "MediaCoding/Colour_models.md",
+    "MediaCoding/IntensityTransforms/Histogram_matching.md",
+    "MediaCoding/IntensityTransforms/Gamma_transform.md",
+    "MediaCoding/OpticalFlow/Optical_flow.md",
+    "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
+    "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
+    "MediaCoding/IntensityTransforms/Image_noise.md",
+    "MediaCoding/IntensityTransforms/Log_transform.md",
+    "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
+    "MediaCoding/Image_derivatives.md",
+    "MediaCoding/Media_coding.md",
+    "MediaCoding/Edge_detection.md",
     "MediaCoding/Canny_edge_detection.md",
     "MediaCoding/IntensityTransforms/Image_negatives.md",
+    "MediaCoding/ImageMatching/Laplacian_pyramid.md",
+    "MediaCoding/ImageMatching/Gaussian_pyramid.md",
+    "MediaCoding/Watermarking/Watermarking.md",
+    "MediaCoding/Colour_models.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
     "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
     "MediaCoding/ImageMatching/Image_matching.md",
     "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
-    "MediaCoding/ImageMatching/Laplacian_pyramid.md",
     "MediaCoding/Filters/SmoothingFilters/Median_filter.md",
     "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
-    "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
-    "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "XX-Attachments/Images/Pasted image 20240522010150.png",
     "XX-Attachments/Images/Pasted image 20240522004739.png",
-    "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
-    "MediaCoding/Filters/Unpooling.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Sobel_filter.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Roberts_filter.md",
     "XX-Attachments/Images/Pasted image 20240521234528.png",
     "XX-Attachments/Images/Pasted image 20240521181651.png",
     "XX-Attachments/Images/Pasted image 20240521030003.png",
