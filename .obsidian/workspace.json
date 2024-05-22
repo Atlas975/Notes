@@ -385,7 +385,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -453,7 +453,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Histogram_matching.md"
+                "file": "MediaCoding/ImageMatching/Gaussian_pyramid.md"
               }
             }
           }
@@ -488,7 +488,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Histogram_matching.md",
+                "file": "MediaCoding/ImageMatching/Gaussian_pyramid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -505,7 +505,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/IntensityTransforms/Histogram_matching.md",
+                "file": "MediaCoding/ImageMatching/Gaussian_pyramid.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -577,8 +577,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f7f8e1450a2b8751",
+  "active": "fcd6e21f3e762b2a",
   "lastOpenFiles": [
+    "MediaCoding/IntensityTransforms/Histogram_matching.md",
     "MediaCoding/IntensityTransforms/Image_noise.md",
     "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
     "MediaCoding/Media_coding.md",
@@ -601,7 +602,6 @@
     "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "XX-Attachments/Images/Pasted image 20240522010150.png",
-    "MediaCoding/IntensityTransforms/Histogram_matching.md",
     "XX-Attachments/Images/Pasted image 20240522004739.png",
     "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
     "MediaCoding/Filters/Unpooling.md",
