@@ -182,7 +182,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Watermarking/Watermarking.md",
+                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -453,7 +453,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Watermarking/Watermarking.md"
+                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md"
               }
             }
           }
@@ -488,7 +488,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Watermarking/Watermarking.md",
+                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -505,7 +505,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Watermarking/Watermarking.md",
+                "file": "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -579,14 +579,14 @@
   },
   "active": "f7f8e1450a2b8751",
   "lastOpenFiles": [
+    "MediaCoding/Image_derivatives.md",
+    "MediaCoding/Colour_models.md",
+    "MediaCoding/Watermarking/Watermarking.md",
     "MediaCoding/Canny_edge_detection.md",
     "MediaCoding/Watermarking/Least_significant_bit_modulation.md",
     "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
     "MediaCoding/Media_coding.md",
     "MediaCoding/Edge_detection.md",
-    "MediaCoding/Colour_models.md",
-    "MediaCoding/Watermarking/Watermarking.md",
-    "MediaCoding/Image_derivatives.md",
     "MediaCoding/IntensityTransforms/Image_noise.md",
     "MediaCoding/IntensityTransforms/Image_negatives.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
