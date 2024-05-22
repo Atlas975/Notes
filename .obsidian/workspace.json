@@ -91,7 +91,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Bias_variance_tradeoff.md",
+                "file": "MachineLearning/Categorical_data_handeling.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c74e1576b5f112ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Backtracking.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5bcf54815f19abe4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -424,7 +450,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -492,7 +518,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Bias_variance_tradeoff.md"
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md"
               }
             }
           }
@@ -527,7 +553,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Bias_variance_tradeoff.md",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -544,7 +570,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Bias_variance_tradeoff.md",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -616,11 +642,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6bff6a51b5c427bf",
+  "active": "5bcf54815f19abe4",
   "lastOpenFiles": [
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
+    "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
+    "Algorithms/ProgrammingPatterns/Backtracking.md",
     "MachineLearning/Categorical_data_handeling.md",
-    "MachineLearning/Bias_variance_tradeoff.md",
     "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/Bias_variance_tradeoff.md",
     "MachineLearning/TreeModels/Random_forest.md",
     "MachineLearning/TreeModels/Decision_trees.md",
     "MachineLearning/LinearRegression/Synergy_effect.md",
@@ -641,9 +670,6 @@
     "MediaCoding/Filters/Unpooling.md",
     "MediaCoding/Filters/SmoothingFilters/Smoothing_spatial_filtering.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Sharpening_filter.md",
-    "MediaCoding/Filters/EdgeDetectionFilters/Roberts_filter.md",
-    "MediaCoding/Watermarking/Watermarking.md",
-    "MediaCoding/Image_derivatives.md",
     "XX-Attachments/Images/Pasted image 20240522010150.png",
     "XX-Attachments/Images/Pasted image 20240522004739.png",
     "XX-Attachments/Images/Pasted image 20240521234528.png",
