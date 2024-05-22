@@ -12,6 +12,6 @@
 ___
 # Piecewise linear transform
 - Applies different linear functions to specific ranges of pixel intensity values, allowing for customised enhancement of various brightness levels within an image.
-- Useful for **enhancing contrast** in specific intensity ranges by manipulating each segment with a separate linear function. Enables selective enhancement of details in  shadows and highlights.
+- Useful for **contrast stretching** in specific intensity ranges by manipulating each segment with a separate linear function. Enables selective enhancement of details in  shadows and highlights.
 
 ![[Pasted image 20240317230137.png|300|300]]
