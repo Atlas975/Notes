@@ -22,12 +22,12 @@ ___
 	2. Fit an ellipse to that set of points via scatter matrix
 	3. Analyse ellipse parameters for varying cases
 
-![[Pasted image 20240323181714.png|350|350]]
+![[Pasted image 20240323181714.png|300|300]]
 ## Small motion assumption
 - Assumes that pixel shifts are so slight that the image's intensity change can be estimated using only the first-order gradient information 
 - This avoids complex calculations for every possible small displacement.
 
-![[Pasted image 20240323182713.png|350|350]]
+![[Pasted image 20240323182713.png|300|300]]
 - Streamlines the algorithm by enabling the use of a linear approximation (Taylor expansion) for intensity changes, which significantly speeds up the corner detection process
 
 $$\begin{equation}
@@ -45,15 +45,15 @@ E(u,v) &= \sum_{(x,y)\in W} [ I(x + u, y + v) - I(x, y) ]^2 \\
 - This equation then becomes the ellipses formula, allowing for the use of the major semi ($\lambda_{1}$) and minor semi ($\lambda_{2}$) axis in a corner response metric 
 
 ## Corner response metric
+- A higher $R$ value indicates a larger ellipses and a higher probability of a pixel being a corner
 - Both axis can be used to calculate a corner response metric using the following formula:
 $$\begin{equation}
 \begin{split}
-R = \lambda_1 \lambda_2 - k(\lambda_1 + \lambda_2)^2\\
-= \text{det}(H) - k \cdot \text{tr}(H)^2
+R &= (A\cdot C-B^2)-k(A+C)^{2}\\
+&= \text{det}(H) - k \cdot \text{tr}(H)^2
 \end{split}
 \end{equation}$$
 $$k=\text{is an empirically determined constant eg. }k=0.04 \text{ to }0.06$$
-- A higher $R$ value indicates a larger ellipses and a higher probability of a pixel being a corner
 
 ![[Pasted image 20240323203148.png|250|250]]
 
