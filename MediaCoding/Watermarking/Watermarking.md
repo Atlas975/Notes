@@ -69,8 +69,8 @@ ___
 - **Dual**: combination of both, with an invisible watermark used as a backup to the the visible one
 
 ## Watermark robustness
-- **Fragile**: easily destructible upon any tampering, suitable for ==image authentication==
 - **Robust**: designed to survive various changes such as geometric attacks (rotation, scaling etc) and general noise such as that caused from compression,  suitable for ==ownership protection==
+- **Fragile**: easily destructible upon any tampering, suitable for ==image authentication==
 - **Semi-fragile**: survives general noise and compression but will be sensitive to geometric attacks, suitable for ==content authentication==
 
 ## Watermark insertion strategy

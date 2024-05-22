@@ -22,6 +22,7 @@ ___
 ![[Pasted image 20240321182355.png|250|250]]
 
 - The scale of the Gaussian blur determines the size of edges that the LoG filter will detect; a larger std ($\sigma$) blurs over a wider area, allowing the filter to detect larger-scale edges
+- This filter highlights regions of very rapid intensity change 
 ## Laplacian formula
 - The Laplacian $L(x,y)$ of an image with pixel intensity values $f(x,y)$ is given by:
 

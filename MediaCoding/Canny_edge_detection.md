@@ -36,11 +36,18 @@ ___
 
 - Edges have their gradient magnitudes compared with that of neighbouring pixels that point in the same (rounded) gradient direction 
 - If the magnitude of a pixel is less than the magnitudes at one or both neighbours along the gradient direction, the pixels magnitude is set to 0
+
+### Principle directions 
+- For non-maxima suppression, the precise gradient direction is rounded to one of the four principal directions (0°, 45°, 90°, and 135°):
+    - 0°: Horizontal
+    - 45°: Diagonal from bottom-left to top-right
+	- 90°: Vertical
+	- 135°: Diagonal from top-left to bottom-right
 ## Double thresholding
 - Gradient magnitude are classified in three categories strong, weak, and non-edge pixels:
-	- Pixels with magnitudes ==less than the low threshold== are discarded, i.e value set to 0 
 	- Pixels with magnitudes ==higher than the high threshold== are chosen to be **strong edges** and they appear in the final result
 	- If  a pixel magnitude falls ==in between the two thresholds==, it is considered to be a **weak edge**
+	- Pixels with magnitudes ==less than the low threshold== are discarded, i.e value set to 0 
 
 ![[Pasted image 20240321021254.png|450|450]]
 
