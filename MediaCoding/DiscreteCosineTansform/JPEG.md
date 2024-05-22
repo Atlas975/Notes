@@ -47,13 +47,14 @@ ___
 
 ## Entropy encoding
 - A DCT block can be separated into DC (lowest frequency block) and AC (all other blocks). This is used in entropy encoding to further compress data after the quantisation step
-- This is result of this is the finished compression scheme
+- The result of this is the finished compression scheme
 
 ![[Pasted image 20240328180855.png|350|350]]
 
 ### DC encoding (DPCM)
 - For DC values, this works on the assumption that adjacent blocks carry similar intensity values
 - This allows for the use of **DPCM** (differential pulse code modulation) which involves storing the difference between each DCT number and it's predecessor
+- These numbers tend to be much small than their original DCM counterpart. Allowing for data to be represented using fewer bits
 
 
 ![[Pasted image 20240328213440.png|350|350]]
@@ -61,7 +62,6 @@ ___
 
 ![[Pasted image 20240328183457.png|350|350]]
 
-- These numbers tend to be much small than their original DCM counterpart. This allows for data to be represented using fewer bits
 ### AC encoding (RLE)
 - After the quantisation step, long strings of 0's will likely be present. AC encoding is designed to handle this effectively by compressing this
 - This is done by having each non-zero value also encode the number of zeros prior to it. This follows the zig-zag pattern that describes the frequency order
