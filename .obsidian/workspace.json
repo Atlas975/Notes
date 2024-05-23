@@ -138,6 +138,71 @@
             }
           },
           {
+            "id": "df0a7a08b9868ce7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e0d61ece13ada3ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8d78bcad713ced1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f7ac45f4f6665307",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c15786fed9502786",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a83f757381fe9dc4",
             "type": "leaf",
             "state": {
@@ -463,7 +528,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -531,7 +596,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md"
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md"
               }
             }
           }
@@ -566,7 +631,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -583,7 +648,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -655,8 +720,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "938998c460b19d2f",
+  "active": "f7ac45f4f6665307",
   "lastOpenFiles": [
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
+    "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
@@ -664,7 +736,6 @@
     "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
     "MachineLearning/Categorical_data_handeling.md",
-    "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/Bias_variance_tradeoff.md",
     "MachineLearning/TreeModels/Random_forest.md",
     "MachineLearning/TreeModels/Decision_trees.md",
@@ -675,12 +746,6 @@
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
     "MachineLearning/GeneticAlgorithms/Crossover.md",
     "MachineLearning/LinearRegression/Linear_regression.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
     "MediaCoding/DiscreteCosineTansform/JPEG.md",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
     "XX-Attachments/Images/Pasted image 20240522010150.png",
