@@ -567,7 +567,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -635,7 +635,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Selection.md"
+                "file": "MachineLearning/Artificial_intelligence.md"
               }
             }
           }
@@ -670,7 +670,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Selection.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -687,7 +687,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Selection.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -759,8 +759,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8855008ac0156a0b",
+  "active": "938998c460b19d2f",
   "lastOpenFiles": [
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Support_vector_machines.md",
+    "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/GeneticAlgorithms/Selection.md",
     "MachineLearning/ErrorMeasures/Cross-entropy.md",
     "Statistics/Entropy.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
@@ -769,7 +772,6 @@
     "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
-    "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
@@ -785,8 +787,6 @@
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
-    "MachineLearning/GeneticAlgorithms/Crossover.md",
-    "MachineLearning/LinearRegression/Linear_regression.md",
     "XX-Attachments/Images/Pasted image 20240522010150.png",
     "XX-Attachments/Images/Pasted image 20240522004739.png",
     "XX-Attachments/Images/Pasted image 20240521234528.png",
