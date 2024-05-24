@@ -619,7 +619,7 @@
             }
           }
         ],
-        "currentTab": 18
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -687,7 +687,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Categorical_data_handeling.md"
+                "file": "MachineLearning/Artificial_intelligence.md"
               }
             }
           }
@@ -722,7 +722,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Categorical_data_handeling.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -739,7 +739,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Categorical_data_handeling.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -811,13 +811,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3027dc3d60080b46",
+  "active": "a7f37f98ec65d013",
   "lastOpenFiles": [
+    "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
     "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/TreeModels/Random_forest.md",
     "MachineLearning/Bias_variance_tradeoff.md",
-    "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/Ensemble_learning.md",
     "MachineLearning/Logistic_regression.md",
     "MachineLearning/Statistical_modeling.md",
