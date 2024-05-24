@@ -234,7 +234,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Bias_variance_tradeoff.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3027dc3d60080b46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Categorical_data_handeling.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -606,7 +619,7 @@
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 18
       }
     ],
     "direction": "vertical"
@@ -674,7 +687,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Bias_variance_tradeoff.md"
+                "file": "MachineLearning/Categorical_data_handeling.md"
               }
             }
           }
@@ -709,7 +722,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Bias_variance_tradeoff.md",
+                "file": "MachineLearning/Categorical_data_handeling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -726,7 +739,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Bias_variance_tradeoff.md",
+                "file": "MachineLearning/Categorical_data_handeling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -798,15 +811,18 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a7f37f98ec65d013",
+  "active": "3027dc3d60080b46",
   "lastOpenFiles": [
+    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
+    "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/TreeModels/Random_forest.md",
+    "MachineLearning/Bias_variance_tradeoff.md",
     "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/Ensemble_learning.md",
     "MachineLearning/Logistic_regression.md",
     "MachineLearning/Statistical_modeling.md",
     "MachineLearning/LinearRegression/Linear_regression.md",
     "MachineLearning/LinearRegression/Synergy_effect.md",
-    "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
     "MachineLearning/FeatureEngineering/Normalisation.md",
@@ -819,13 +835,10 @@
     "MachineLearning/Clustering/Hierarchal_clustering.md",
     "MachineLearning/Classification/K-nearest_neighbours.md",
     "MachineLearning/Classification/Semantic_segmentation.md",
-    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
     "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
-    "MachineLearning/Bias_variance_tradeoff.md",
     "MachineLearning/TreeModels/Decision_trees.md",
-    "MachineLearning/TreeModels/Random_forest.md",
     "XX-Attachments/Images/Pasted image 20240522010150.png",
     "XX-Attachments/Images/Pasted image 20240522004739.png",
     "XX-Attachments/Images/Pasted image 20240521234528.png",
