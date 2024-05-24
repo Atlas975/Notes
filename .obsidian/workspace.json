@@ -281,6 +281,19 @@
             }
           },
           {
+            "id": "6120a8ef3216037c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/TreeModels/Decision_trees.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c15786fed9502786",
             "type": "leaf",
             "state": {
@@ -619,7 +632,7 @@
             }
           }
         ],
-        "currentTab": 20
+        "currentTab": 21
       }
     ],
     "direction": "vertical"
@@ -687,7 +700,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Entropy.md"
+                "file": "MachineLearning/TreeModels/Decision_trees.md"
               }
             }
           }
@@ -722,7 +735,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Entropy.md",
+                "file": "MachineLearning/TreeModels/Decision_trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -739,7 +752,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Entropy.md",
+                "file": "MachineLearning/TreeModels/Decision_trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -811,8 +824,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5c073655199c8b5c",
+  "active": "6120a8ef3216037c",
   "lastOpenFiles": [
+    "Statistics/Entropy.md",
+    "MachineLearning/TreeModels/Decision_trees.md",
     "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
@@ -837,8 +852,6 @@
     "MachineLearning/Classification/Semantic_segmentation.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
-    "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
-    "MachineLearning/TreeModels/Decision_trees.md",
     "XX-Attachments/Images/Pasted image 20240522010150.png",
     "XX-Attachments/Images/Pasted image 20240522004739.png",
     "XX-Attachments/Images/Pasted image 20240521234528.png",
