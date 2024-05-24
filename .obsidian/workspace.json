@@ -619,7 +619,7 @@
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 20
       }
     ],
     "direction": "vertical"
@@ -687,7 +687,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md"
+                "file": "Statistics/Entropy.md"
               }
             }
           }
@@ -722,7 +722,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "Statistics/Entropy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -739,7 +739,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "Statistics/Entropy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -811,11 +811,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a7f37f98ec65d013",
+  "active": "5c073655199c8b5c",
   "lastOpenFiles": [
+    "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
-    "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/TreeModels/Random_forest.md",
     "MachineLearning/Bias_variance_tradeoff.md",
     "MachineLearning/Ensemble_learning.md",
