@@ -30,11 +30,13 @@ ___
 	3. Learn from experience 
 	4. Make appropriate choices given it's limitations (perceptual / computational )
 - An agent is **rational** achieves the best outcome when uncertainty is involved. AI focuses on building the general principles for rational agent and how to construct them.
-- A **Computational** agent makes decisions that can be explained and implemented through computation eg [[Markov_chains|markov chains]]. These decisions should be able to be broken down
+- A **Computational** agent can make explainable decisions and is implemented through computation eg [[Markov_chains|markov chains]]. These decisions should be able to be broken down
+- An alternate AI definitions in terms of agents is:
 
+> AI is the field that studies the synthesis and analysis of computational agents that act rationally
 ## AI goals
 - **Scientific goal**: understand the principles of intelligent behaviour often by analysis of other intelligent agents and experimentation. Focused on building only empirical systems  
-- **Engineering goal**: concerned with constructing intelligent agents that can be used in real-world applications.
+- **Engineering goal**: constructing intelligent agents that can be used in real-world applications.
 
 ## Business benefits of AI
 - Workflow automation (eliminate repetitive tasks)

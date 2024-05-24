@@ -229,6 +229,19 @@
             }
           },
           {
+            "id": "a7f37f98ec65d013",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Bias_variance_tradeoff.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "8855008ac0156a0b",
             "type": "leaf",
             "state": {
@@ -593,7 +606,7 @@
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -661,7 +674,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md"
+                "file": "MachineLearning/Bias_variance_tradeoff.md"
               }
             }
           }
@@ -696,7 +709,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+                "file": "MachineLearning/Bias_variance_tradeoff.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -713,7 +726,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+                "file": "MachineLearning/Bias_variance_tradeoff.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -785,10 +798,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fc747f10fd4587e4",
+  "active": "a7f37f98ec65d013",
   "lastOpenFiles": [
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
+    "MachineLearning/Categorical_data_handeling.md",
+    "MachineLearning/Ensemble_learning.md",
+    "MachineLearning/Logistic_regression.md",
+    "MachineLearning/Statistical_modeling.md",
+    "MachineLearning/LinearRegression/Linear_regression.md",
+    "MachineLearning/LinearRegression/Synergy_effect.md",
+    "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
     "MachineLearning/FeatureEngineering/Normalisation.md",
     "MachineLearning/ErrorMeasures/Loss_functions.md",
     "MachineLearning/ErrorMeasures/Confusion_matrices.md",
@@ -801,16 +821,9 @@
     "MachineLearning/Classification/Semantic_segmentation.md",
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
-    "MachineLearning/LinearRegression/Linear_regression.md",
-    "MachineLearning/LinearRegression/Synergy_effect.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
     "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
-    "MachineLearning/Logistic_regression.md",
-    "MachineLearning/Statistical_modeling.md",
-    "MachineLearning/Ensemble_learning.md",
-    "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/Bias_variance_tradeoff.md",
-    "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/TreeModels/Decision_trees.md",
     "MachineLearning/TreeModels/Random_forest.md",
     "XX-Attachments/Images/Pasted image 20240522010150.png",
