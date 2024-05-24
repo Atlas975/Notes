@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Classification/Naive_Bayes.md",
+                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -648,7 +648,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Classification/Naive_Bayes.md"
+                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md"
               }
             }
           }
@@ -683,7 +683,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Classification/Naive_Bayes.md",
+                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -700,7 +700,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Classification/Naive_Bayes.md",
+                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -774,11 +774,11 @@
   },
   "active": "938998c460b19d2f",
   "lastOpenFiles": [
+    "MachineLearning/Classification/Naive_Bayes.md",
     "MachineLearning/Clustering/Clustering.md",
     "MachineLearning/Clustering/K-means_clustering.md",
     "MachineLearning/Clustering/Hierarchal_clustering.md",
     "MachineLearning/Classification/K-nearest_neighbours.md",
-    "MachineLearning/Classification/Naive_Bayes.md",
     "MachineLearning/Classification/Semantic_segmentation.md",
     "MachineLearning/ErrorMeasures/Confusion_matrices.md",
     "MachineLearning/ErrorMeasures/Loss_functions.md",
