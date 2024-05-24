@@ -19,7 +19,10 @@ ___
 - A variant of [[Rectified_linear_unit|ReLU]] that addresses the dying neuron problem
 - This is done by multiplying the negative inputs by a constant rather than setting them to 0
 
-
+$$\sigma(x)=\begin{cases}
+x & x\geq{0}  \\
+@b
+\end{cases}$$
 $$\sigma(x\geq{0})=x$$
 $$\sigma(x<0)=\alpha\cdot x$$
 $$\alpha=\text{leak coefficient, a small positive constant}$$
