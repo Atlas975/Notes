@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
+                "file": "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -648,7 +648,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md"
+                "file": "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md"
               }
             }
           }
@@ -683,7 +683,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
+                "file": "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -700,7 +700,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
+                "file": "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -774,6 +774,21 @@
   },
   "active": "938998c460b19d2f",
   "lastOpenFiles": [
+    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
+    "MachineLearning/LinearRegression/Linear_regression.md",
+    "MachineLearning/LinearRegression/Synergy_effect.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
+    "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
+    "MachineLearning/Logistic_regression.md",
+    "MachineLearning/Statistical_modeling.md",
+    "MachineLearning/Ensemble_learning.md",
+    "MachineLearning/Categorical_data_handeling.md",
+    "MachineLearning/Bias_variance_tradeoff.md",
+    "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/TreeModels/Decision_trees.md",
+    "MachineLearning/TreeModels/Random_forest.md",
+    "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
@@ -783,23 +798,8 @@
     "Statistics/ProbabilityDistributions/Triangular_distribution.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
-    "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
-    "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
-    "MachineLearning/TreeModels/Random_forest.md",
-    "MachineLearning/TreeModels/Decision_trees.md",
-    "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Support_vector_machines.md",
     "MachineLearning/GeneticAlgorithms/Selection.md",
-    "MachineLearning/ErrorMeasures/Cross-entropy.md",
-    "Statistics/Entropy.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
-    "Algorithms/ProgrammingPatterns/Backtracking.md",
-    "MachineLearning/Categorical_data_handeling.md",
-    "MachineLearning/Bias_variance_tradeoff.md",
-    "MachineLearning/LinearRegression/Synergy_effect.md",
-    "MachineLearning/LinearRegression/Leverage_statistic.md",
     "XX-Attachments/Images/Pasted image 20240522010150.png",
     "XX-Attachments/Images/Pasted image 20240522004739.png",
     "XX-Attachments/Images/Pasted image 20240521234528.png",
