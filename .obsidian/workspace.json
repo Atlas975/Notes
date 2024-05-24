@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -635,7 +635,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md"
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md"
               }
             }
           }
@@ -670,7 +670,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -687,7 +687,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -761,8 +761,13 @@
   },
   "active": "938998c460b19d2f",
   "lastOpenFiles": [
-    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Support_vector_machines.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
+    "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
+    "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
+    "MachineLearning/TreeModels/Random_forest.md",
+    "MachineLearning/TreeModels/Decision_trees.md",
     "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Support_vector_machines.md",
     "MachineLearning/GeneticAlgorithms/Selection.md",
     "MachineLearning/ErrorMeasures/Cross-entropy.md",
     "Statistics/Entropy.md",
@@ -772,21 +777,16 @@
     "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
-    "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
     "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/Bias_variance_tradeoff.md",
-    "MachineLearning/TreeModels/Random_forest.md",
-    "MachineLearning/TreeModels/Decision_trees.md",
     "MachineLearning/LinearRegression/Synergy_effect.md",
     "MachineLearning/LinearRegression/Leverage_statistic.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
     "XX-Attachments/Images/Pasted image 20240522010150.png",
     "XX-Attachments/Images/Pasted image 20240522004739.png",
     "XX-Attachments/Images/Pasted image 20240521234528.png",
