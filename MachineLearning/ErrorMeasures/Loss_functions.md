@@ -19,7 +19,7 @@ $$\text{MSE}=\frac{1}{m}\sum(y-\hat{y})^2$$
 
 
 ## Root mean square error (RMSE)
-- More sensitive to outliers in predictions
+- Better interoperability than MSE
 
 $$\text{RMSE}=\sqrt{ \frac{1}{m}\sum(y-\hat{y})^2}$$
 
