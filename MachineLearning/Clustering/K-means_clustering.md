@@ -44,14 +44,14 @@ Repeat until convergence:
 - **Non deterministic**: initial centroids chosen randomly 
 - **Cluster choice**: the number of clusters may not be known beforehand, picking the wrong $k$ value can result in unpredictable behaviour 
 ## Elbow method 
-- Helps pick the $k$ value, involves trying different values and looking for abrupt result changes (the result being the sum of the Euclidean distances from each point to its assigned centroid)
+- Helps pick the $k$ value, involves trying different values and looking for abrupt result changes (the result being the sum of the distances from each point to its assigned centroid)
 - The value of k where the improvement is seen is the best choice, any more points past plateau creates unnecessary classes
 
 ![[Pasted image 20240402224313.png|300|300]]
 
 
 ## Mitigating centroid dependency 
-- Points may all get stuck in the same location this can be mitigated in multiple ways such as using preset RNG seed. This requires prior knowledge of the dataset
-- A more robust solution involves defining a minimum distance that the centroid must initially be from each other. This avoids the centroids getting stuck together
+- Points may all get stuck in the same location this can be mitigated in multiple ways such as using preset RNG seeds. This requires prior knowledge of the dataset
+- A more robust solution involves defining a minimum distance that the centroids must initially be from each other. This avoids the centroids getting stuck together
 
 ![[Pasted image 20240402224744.png|350|350]]
