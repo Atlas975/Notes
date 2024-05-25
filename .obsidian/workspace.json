@@ -307,6 +307,32 @@
             }
           },
           {
+            "id": "08a9a4b2492b7c0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Classification/Naive_Bayes.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0c1cbd764478b60f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c15786fed9502786",
             "type": "leaf",
             "state": {
@@ -645,7 +671,7 @@
             }
           }
         ],
-        "currentTab": 22
+        "currentTab": 24
       }
     ],
     "direction": "vertical"
@@ -713,7 +739,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/TreeModels/Decision_trees.md"
+                "file": "MachineLearning/NeuralNetworks/Training/Backpropagation.md"
               }
             }
           }
@@ -748,7 +774,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/TreeModels/Decision_trees.md",
+                "file": "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -765,7 +791,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/TreeModels/Decision_trees.md",
+                "file": "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -837,13 +863,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "711e6bd54ac6f22a",
+  "active": "0c1cbd764478b60f",
   "lastOpenFiles": [
+    "MachineLearning/Classification/Naive_Bayes.md",
+    "MachineLearning/TreeModels/Decision_trees.md",
     "MachineLearning/TreeModels/Random_forest.md",
     "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/Bias_variance_tradeoff.md",
     "MachineLearning/Categorical_data_handeling.md",
-    "MachineLearning/TreeModels/Decision_trees.md",
     "MachineLearning/Clustering/Hierarchal_clustering.md",
     "MachineLearning/Clustering/K-means_clustering.md",
     "Statistics/Entropy.md",
@@ -859,7 +886,6 @@
     "MachineLearning/ErrorMeasures/Loss_functions.md",
     "MachineLearning/ErrorMeasures/Confusion_matrices.md",
     "MachineLearning/ErrorMeasures/Cross-entropy.md",
-    "MachineLearning/Classification/Naive_Bayes.md",
     "MachineLearning/Clustering/Clustering.md",
     "MachineLearning/Classification/K-nearest_neighbours.md",
     "MachineLearning/Classification/Semantic_segmentation.md",
