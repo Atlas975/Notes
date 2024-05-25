@@ -18,7 +18,7 @@ aliases: [CNN]
 
 ___
 # Convolutional networks
-- A  specialised [[Neural_networks|neural network]] designed for processing data that has a grid-like topology, these allow a network to have a fixed, controllable number of parameters despite input size
+- A  specialised [[Neural_networks|neural network]] designed for processing data that has a grid-like topology, these allow a network to have a fixed, controllable number of parameters regardless of input size
 - The motivation behind this is creating a network that can automatically learn [[Image_features|features]] without having to be familiar with the original data and it's content
 
 ![[Pasted image 20240420015209.png|400|400]]
