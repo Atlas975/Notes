@@ -27,8 +27,8 @@ ___
 
 
 ## Tradeoff
-- **High Bias, Low Variance Models:** These are typically simple models that do not model the complex patterns in data well but perform consistently across different datasets. Examples include linear regression on non-linear problems.
-- **Low Bias, High Variance Models:** These are typically complex models that can model complex patterns very well but can overfit to noisy or unrepresentative training data. Examples include deep neural networks without regularisation or with a very large number of parameters.
+- **High Bias, Low Variance:** simple models that can't model complex patterns in data well but perform consistently across different datasets. Eg linear regression on non-linear problems.
+- **Low Bias, High Variance Models:** complex models that can model complex patterns well but can overfit to noisy or unrepresentative training data. Eg deep neural networks without regularisation 
 
 
 

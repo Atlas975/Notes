@@ -299,7 +299,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Clustering/Hierarchal_clustering.md",
+                "file": "MachineLearning/TreeModels/Decision_trees.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -713,7 +713,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Clustering/Hierarchal_clustering.md"
+                "file": "MachineLearning/TreeModels/Decision_trees.md"
               }
             }
           }
@@ -748,7 +748,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Clustering/Hierarchal_clustering.md",
+                "file": "MachineLearning/TreeModels/Decision_trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -765,7 +765,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Clustering/Hierarchal_clustering.md",
+                "file": "MachineLearning/TreeModels/Decision_trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -839,14 +839,15 @@
   },
   "active": "711e6bd54ac6f22a",
   "lastOpenFiles": [
-    "MachineLearning/Clustering/K-means_clustering.md",
-    "MachineLearning/TreeModels/Decision_trees.md",
     "MachineLearning/TreeModels/Random_forest.md",
-    "Statistics/Entropy.md",
     "MachineLearning/Artificial_intelligence.md",
-    "MachineLearning/Categorical_data_handeling.md",
-    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
     "MachineLearning/Bias_variance_tradeoff.md",
+    "MachineLearning/Categorical_data_handeling.md",
+    "MachineLearning/TreeModels/Decision_trees.md",
+    "MachineLearning/Clustering/Hierarchal_clustering.md",
+    "MachineLearning/Clustering/K-means_clustering.md",
+    "Statistics/Entropy.md",
+    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
     "MachineLearning/Ensemble_learning.md",
     "MachineLearning/Logistic_regression.md",
     "MachineLearning/Statistical_modeling.md",
@@ -860,7 +861,6 @@
     "MachineLearning/ErrorMeasures/Cross-entropy.md",
     "MachineLearning/Classification/Naive_Bayes.md",
     "MachineLearning/Clustering/Clustering.md",
-    "MachineLearning/Clustering/Hierarchal_clustering.md",
     "MachineLearning/Classification/K-nearest_neighbours.md",
     "MachineLearning/Classification/Semantic_segmentation.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
