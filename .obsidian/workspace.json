@@ -235,7 +235,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/Artificial_intelligence.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -684,7 +684,7 @@
             }
           }
         ],
-        "currentTab": 25
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -752,7 +752,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md"
+                "file": "MachineLearning/Artificial_intelligence.md"
               }
             }
           }
@@ -788,7 +788,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -805,7 +805,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -877,8 +877,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "2f84e0ee78b4b16c",
+  "active": "a7f37f98ec65d013",
   "lastOpenFiles": [
+    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
     "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
     "MachineLearning/Classification/Naive_Bayes.md",
     "MachineLearning/TreeModels/Decision_trees.md",
@@ -904,7 +905,6 @@
     "MachineLearning/Clustering/Clustering.md",
     "MachineLearning/Classification/K-nearest_neighbours.md",
     "MachineLearning/Classification/Semantic_segmentation.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "XX-Attachments/Images/Pasted image 20240522010150.png",
     "XX-Attachments/Images/Pasted image 20240522004739.png",
     "XX-Attachments/Images/Pasted image 20240521234528.png",
