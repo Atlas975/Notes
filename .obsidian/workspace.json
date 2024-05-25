@@ -242,6 +242,32 @@
             }
           },
           {
+            "id": "576364449d011dd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Feature_scaling.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "40c27235744abfa1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/FeatureEngineering/Machine_learning_features.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3027dc3d60080b46",
             "type": "leaf",
             "state": {
@@ -684,7 +710,7 @@
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -752,7 +778,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md"
+                "file": "MachineLearning/FeatureEngineering/Machine_learning_features.md"
               }
             }
           }
@@ -788,7 +814,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "MachineLearning/FeatureEngineering/Machine_learning_features.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -805,7 +831,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "MachineLearning/FeatureEngineering/Machine_learning_features.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -877,14 +903,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a7f37f98ec65d013",
+  "active": "40c27235744abfa1",
   "lastOpenFiles": [
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Feature_scaling.md",
+    "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
     "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
     "MachineLearning/Classification/Naive_Bayes.md",
     "MachineLearning/TreeModels/Decision_trees.md",
     "MachineLearning/TreeModels/Random_forest.md",
-    "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/Bias_variance_tradeoff.md",
     "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/Clustering/Hierarchal_clustering.md",
@@ -904,7 +931,6 @@
     "MachineLearning/ErrorMeasures/Cross-entropy.md",
     "MachineLearning/Clustering/Clustering.md",
     "MachineLearning/Classification/K-nearest_neighbours.md",
-    "MachineLearning/Classification/Semantic_segmentation.md",
     "XX-Attachments/Images/Pasted image 20240522010150.png",
     "XX-Attachments/Images/Pasted image 20240522004739.png",
     "XX-Attachments/Images/Pasted image 20240521234528.png",
