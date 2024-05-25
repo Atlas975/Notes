@@ -710,7 +710,7 @@
             }
           }
         ],
-        "currentTab": 19
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -778,7 +778,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/Machine_learning_features.md"
+                "file": "MachineLearning/Categorical_data_handeling.md"
               }
             }
           }
@@ -814,7 +814,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/Machine_learning_features.md",
+                "file": "MachineLearning/Categorical_data_handeling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -831,7 +831,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/Machine_learning_features.md",
+                "file": "MachineLearning/Categorical_data_handeling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -903,8 +903,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "40c27235744abfa1",
+  "active": "6bff6a51b5c427bf",
   "lastOpenFiles": [
+    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Feature_scaling.md",
     "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
@@ -917,7 +918,6 @@
     "MachineLearning/Clustering/Hierarchal_clustering.md",
     "MachineLearning/Clustering/K-means_clustering.md",
     "Statistics/Entropy.md",
-    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
     "MachineLearning/Ensemble_learning.md",
     "MachineLearning/Logistic_regression.md",
     "MachineLearning/Statistical_modeling.md",
