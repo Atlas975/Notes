@@ -31,9 +31,7 @@ ___
 	4. Make appropriate choices given it's limitations (perceptual / computational )
 - An agent is **rational** achieves the best outcome when uncertainty is involved. AI focuses on building the general principles for rational agent and how to construct them.
 - A **Computational** agent can make explainable decisions and is implemented through computation eg [[Markov_chains|markov chains]]. These decisions should be able to be broken down
-- An alternate AI definitions in terms of agents is:
 
-> AI is the field that studies the synthesis and analysis of computational agents that act rationally
 ## AI goals
 - **Scientific goal**: understand the principles of intelligent behaviour often by analysis of other intelligent agents and experimentation. Focused on building only empirical systems  
 - **Engineering goal**: constructing intelligent agents that can be used in real-world applications.
@@ -68,14 +66,10 @@ ___
 - Only input data is fed with no corresponding label to the correct output. 
 - Data is presented with the algorithm itself modelling the underlying structure with the data
 - Two main categories include **clustering** (group data by similarities) and **association** (find rules that describe large portions of data ) 
-
 ## Semi-supervised learning 
 - Mix of labeled and unlabelled data, relies on a flexible algorithm that can incorporate both 
 - Frequently used as total labelling can often be expensive 
-
-
 ## Flexibility vs interpretability tradeoff
-
 - Flexibility describes how complex a model can be eg a quadratic function is more flexible than a linear one. Useful for pure prediction eg stock prices
 - Interpretability describes how easy the model is to understand, making it easier to interpret how an individual predictor effects a response. Useful for inference eg sales factors
 
