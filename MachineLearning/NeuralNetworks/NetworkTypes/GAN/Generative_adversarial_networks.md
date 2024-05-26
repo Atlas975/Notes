@@ -19,8 +19,7 @@ ___
 - A specialised [[Neural_networks|neural net]] designed for generating data that resembles it's training data, this is done in an adversarial setting where synthetic data must compete with real data
 - GAN's make use of two models, a generator that creates new data and the discriminator that competes with it until it can be tricked by synthetic data. This is repeated iteratively
 
-![[Pasted image 20240420203909.png|450|450]]
-
+![[Pasted image 20240526193814.png|550|550]]
 ## Generator
 - Tries to produce data that will be classified as real by the discriminator. The generator’s weights are adjusted based on how well it tricks the discriminator
 - At the end of the training process the generator must be able to reliably fool the discriminator by taking a vector of randomly initialised variables and mapping it to convincing synthetic data

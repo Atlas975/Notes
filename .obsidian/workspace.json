@@ -281,6 +281,19 @@
             }
           },
           {
+            "id": "7ee08394e059e882",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "576364449d011dd9",
             "type": "leaf",
             "state": {
@@ -749,7 +762,7 @@
             }
           }
         ],
-        "currentTab": 20
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -817,7 +830,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md"
+                "file": "MachineLearning/Artificial_intelligence.md"
               }
             }
           }
@@ -852,7 +865,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -869,7 +882,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -941,10 +954,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "112ddefd07feb9a8",
+  "active": "20eec9de6f783574",
   "lastOpenFiles": [
-    "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
+    "XX-Attachments/Images/Pasted image 20240526193814.png",
+    "XX-Attachments/Images/Pasted image 20240526193752.png",
+    "XX-Attachments/Images/Pasted image 20240526193739.png",
+    "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/Markov_chains.md",
     "MachineLearning/ErrorMeasures/Cross-entropy.md",
     "MachineLearning/ErrorMeasures/Loss_functions.md",
@@ -968,7 +985,6 @@
     "MachineLearning/TreeModels/Random_forest.md",
     "MachineLearning/Bias_variance_tradeoff.md",
     "Statistics/Entropy.md",
-    "MachineLearning/Ensemble_learning.md",
     "XX-Attachments/Images/Pasted image 20240522010150.png",
     "XX-Attachments/Images/Pasted image 20240522004739.png",
     "XX-Attachments/Images/Pasted image 20240521234528.png",
@@ -976,9 +992,6 @@
     "XX-Attachments/Images/Pasted image 20240521030003.png",
     "XX-Attachments/Images/Pasted image 20240521025946.png",
     "XX-Attachments/Images/Pasted image 20240521025930.png",
-    "XX-Attachments/Images/Pasted image 20240521025913.png",
-    "XX-Attachments/Images/Pasted image 20240515151258.png",
-    "XX-Attachments/Images/Pasted image 20240513165859.png",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",

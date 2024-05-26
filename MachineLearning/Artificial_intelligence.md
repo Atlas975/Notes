@@ -41,14 +41,11 @@ ___
 ## AI goals
 - Two primary types of goals exists in AI, scientific and engineering. Each of these goals aims to achieve distinct objectives within the broader field of AI.
 - Both of these goals also feed into each other, creating new tasks for the other to solve
-
-
 ### Scientific goals 
 - Focused on understanding the principles underlying intelligence and cognitive processes
 - This involves simulating models to explain and validate the mechanisms behind intelligence 
-
 ### Engineering goals 
-- Focuses on building intelligent applications that autonomously perform tasks 
+- Focuses on building practical intelligent applications that autonomously perform tasks 
 - This involves seeking to improve productivity in solving practical problems 
 ## Business benefits of AI
 - Workflow automation (eliminate repetitive tasks)
