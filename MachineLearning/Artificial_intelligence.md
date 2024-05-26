@@ -40,7 +40,7 @@ ___
 
 ## AI goals
 - Two primary types of goals exists in AI, scientific and engineering. Each of these goals aims to achieve distinct objectives within the broader field of AI.
-- Both of these goals also feed into each other, creating new goals 
+- Both of these goals also feed into each other, creating new tasks for the other to solve
 
 
 ### Scientific goals 

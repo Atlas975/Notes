@@ -261,7 +261,20 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/Artificial_intelligence.md",
-                "mode": "source",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "112ddefd07feb9a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -736,7 +749,7 @@
             }
           }
         ],
-        "currentTab": 19
+        "currentTab": 20
       }
     ],
     "direction": "vertical"
@@ -804,7 +817,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md"
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md"
               }
             }
           }
@@ -839,7 +852,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -856,7 +869,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -928,10 +941,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "20eec9de6f783574",
+  "active": "112ddefd07feb9a8",
   "lastOpenFiles": [
-    "MachineLearning/0-Legacy/0-GeneralConcepts/Markov_chains.md",
     "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/Markov_chains.md",
     "MachineLearning/ErrorMeasures/Cross-entropy.md",
     "MachineLearning/ErrorMeasures/Loss_functions.md",
     "MachineLearning/FeatureEngineering/Normalisation.md",
@@ -955,7 +969,6 @@
     "MachineLearning/Bias_variance_tradeoff.md",
     "Statistics/Entropy.md",
     "MachineLearning/Ensemble_learning.md",
-    "MachineLearning/Logistic_regression.md",
     "XX-Attachments/Images/Pasted image 20240522010150.png",
     "XX-Attachments/Images/Pasted image 20240522004739.png",
     "XX-Attachments/Images/Pasted image 20240521234528.png",
