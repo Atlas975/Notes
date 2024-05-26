@@ -261,7 +261,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/Artificial_intelligence.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -970,6 +970,7 @@
   "active": "59ef0827d3f8e151",
   "lastOpenFiles": [
     "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/Classification/Naive_Bayes.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
     "XX-Attachments/Images/Pasted image 20240526193814.png",
@@ -982,7 +983,6 @@
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
     "MachineLearning/Classification/K-nearest_neighbours.md",
-    "MachineLearning/Classification/Naive_Bayes.md",
     "MachineLearning/Classification/Semantic_segmentation.md",
     "MachineLearning/Clustering/Clustering.md",
     "MachineLearning/ErrorMeasures/Confusion_matrices.md",
