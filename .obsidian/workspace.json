@@ -351,7 +351,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Loss_functions.md",
+                "file": "MachineLearning/ErrorMeasures/Cross-entropy.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -791,7 +791,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Loss_functions.md"
+                "file": "MachineLearning/ErrorMeasures/Cross-entropy.md"
               }
             }
           }
@@ -826,7 +826,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Loss_functions.md",
+                "file": "MachineLearning/ErrorMeasures/Cross-entropy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -843,7 +843,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Loss_functions.md",
+                "file": "MachineLearning/ErrorMeasures/Cross-entropy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -917,6 +917,7 @@
   },
   "active": "08a9a4b2492b7c0a",
   "lastOpenFiles": [
+    "MachineLearning/ErrorMeasures/Loss_functions.md",
     "MachineLearning/FeatureEngineering/Normalisation.md",
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
@@ -942,7 +943,6 @@
     "MachineLearning/Logistic_regression.md",
     "MachineLearning/Statistical_modeling.md",
     "MachineLearning/LinearRegression/Linear_regression.md",
-    "MachineLearning/LinearRegression/Synergy_effect.md",
     "XX-Attachments/Images/Pasted image 20240522010150.png",
     "XX-Attachments/Images/Pasted image 20240522004739.png",
     "XX-Attachments/Images/Pasted image 20240521234528.png",
