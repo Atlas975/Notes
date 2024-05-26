@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Categorical_data_handeling.md",
+                "file": "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -234,8 +234,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "Languages&Compilation/Computability/TuringMachines/Turing_thesis.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aa7ed6b3d10f043f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Artificial_intelligence.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -710,7 +723,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 18
       }
     ],
     "direction": "vertical"
@@ -778,7 +791,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Categorical_data_handeling.md"
+                "file": "MachineLearning/Artificial_intelligence.md"
               }
             }
           }
@@ -814,7 +827,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Categorical_data_handeling.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -831,7 +844,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Categorical_data_handeling.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -903,18 +916,20 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6bff6a51b5c427bf",
+  "active": "aa7ed6b3d10f043f",
   "lastOpenFiles": [
+    "Languages&Compilation/Computability/TuringMachines/Turing_thesis.md",
+    "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
+    "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Feature_scaling.md",
-    "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
     "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
     "MachineLearning/Classification/Naive_Bayes.md",
     "MachineLearning/TreeModels/Decision_trees.md",
     "MachineLearning/TreeModels/Random_forest.md",
     "MachineLearning/Bias_variance_tradeoff.md",
-    "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/Clustering/Hierarchal_clustering.md",
     "MachineLearning/Clustering/K-means_clustering.md",
     "Statistics/Entropy.md",
@@ -924,13 +939,11 @@
     "MachineLearning/LinearRegression/Linear_regression.md",
     "MachineLearning/LinearRegression/Synergy_effect.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
     "MachineLearning/FeatureEngineering/Normalisation.md",
     "MachineLearning/ErrorMeasures/Loss_functions.md",
     "MachineLearning/ErrorMeasures/Confusion_matrices.md",
     "MachineLearning/ErrorMeasures/Cross-entropy.md",
     "MachineLearning/Clustering/Clustering.md",
-    "MachineLearning/Classification/K-nearest_neighbours.md",
     "XX-Attachments/Images/Pasted image 20240522010150.png",
     "XX-Attachments/Images/Pasted image 20240522004739.png",
     "XX-Attachments/Images/Pasted image 20240521234528.png",

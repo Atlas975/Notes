@@ -13,8 +13,6 @@ ___
 # Turing thesis
 - There is no machine more powerful than a Turing machine, the limitations of a Turing machine are the minimum limitations of any computer
 - This doesn't compare the number of steps needed or how much storage is required. The Thesis only describes power in terms of weather or not something can be computed 
-
-
 ## Turing completeness
 - Means a system can solve any problem given enough time and memory, thus simulating a Turing machine which implies the following capabilities:
 	1. **Conditional Logic**: It must support operations like 'if-then-else'. This allows the system to make decisions based on conditions.
