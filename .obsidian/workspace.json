@@ -247,8 +247,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "MachineLearning/0-Legacy/0-GeneralConcepts/Markov_chains.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "20eec9de6f783574",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Artificial_intelligence.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -723,7 +736,7 @@
             }
           }
         ],
-        "currentTab": 26
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -791,7 +804,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Cross-entropy.md"
+                "file": "MachineLearning/Artificial_intelligence.md"
               }
             }
           }
@@ -826,7 +839,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Cross-entropy.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -843,7 +856,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Cross-entropy.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -915,8 +928,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "08a9a4b2492b7c0a",
+  "active": "20eec9de6f783574",
   "lastOpenFiles": [
+    "MachineLearning/0-Legacy/0-GeneralConcepts/Markov_chains.md",
+    "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/ErrorMeasures/Cross-entropy.md",
     "MachineLearning/ErrorMeasures/Loss_functions.md",
     "MachineLearning/FeatureEngineering/Normalisation.md",
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
@@ -930,7 +946,6 @@
     "MachineLearning/Clustering/Hierarchal_clustering.md",
     "MachineLearning/Classification/Untitled.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Feature_scaling.md",
-    "MachineLearning/Artificial_intelligence.md",
     "Languages&Compilation/Computability/TuringMachines/Turing_thesis.md",
     "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
@@ -941,8 +956,6 @@
     "Statistics/Entropy.md",
     "MachineLearning/Ensemble_learning.md",
     "MachineLearning/Logistic_regression.md",
-    "MachineLearning/Statistical_modeling.md",
-    "MachineLearning/LinearRegression/Linear_regression.md",
     "XX-Attachments/Images/Pasted image 20240522010150.png",
     "XX-Attachments/Images/Pasted image 20240522004739.png",
     "XX-Attachments/Images/Pasted image 20240521234528.png",

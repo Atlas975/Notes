@@ -36,13 +36,20 @@ ___
 	3. Learn from experience 
 	4. Make appropriate choices given it's limitations (perceptual / computational )
 - An agent is **rational** achieves the best outcome when uncertainty is involved. AI focuses on building the general principles for rational agent and how to construct them.
-- A **Computational** agent can make explainable decisions and is implemented through computation eg [[Markov_chains|markov chains]]. These decisions should be able to be broken down
+- A **Computational** agent can make explainable decisions and is implemented through computation eg [[Markov_chains|Markov chains]]. These decisions should be able to be broken down
 
 ## AI goals
+- Two primary types of goals exists in AI, scientific and engineering. Each of these goals aims to achieve distinct objectives within the broader field of AI.
+- Both of these goals also feed into each other, creating new goals 
 
-- **Scientific goal**: understand the principles of intelligent behaviour often by analysis of other intelligent agents and experimentation. Focused on building only empirical systems  
-- **Engineering goal**: constructing intelligent agents that can be used in real-world applications.
 
+### Scientific goals 
+- Focused on understanding the principles underlying intelligence and cognitive processes
+- This involves simulating models to explain and validate the mechanisms behind intelligence 
+
+### Engineering goals 
+- Focuses on building intelligent applications that autonomously perform tasks 
+- This involves seeking to improve productivity in solving practical problems 
 ## Business benefits of AI
 - Workflow automation (eliminate repetitive tasks)
 - Enhance creative tasks (allow more creative exploration)
