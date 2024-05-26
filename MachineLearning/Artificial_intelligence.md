@@ -20,13 +20,14 @@ ___
 - The field that studies the synthesis and analysis of computational agents that act intelligently
 - Numerous alternate definitions exist for AI to encompass all of it's capabilities and subfields, most of which involve it's relation to agents 
 
-![[Pasted image 20231015121627.png|550|550]]
 
 ## AI approaches 
 - **Thinking humanely**: focused on emulating the way humans think, mimicking mental processes such as learning (eg [[Neural_networks|neural nets]])
-- **Acting humanely**: focused on making performing tasks indistinguishable from those performed by humans, exhibiting human like behaviour (eg [[Turing_thesis|Turing test benchmark]])
 - **Think rationally**: focused on using logical reasoning to achieve outcomes, rooted in the use of rational and explainable principles (eg [[Finite_state_machines|FSM's]])
-- **Act rationally**: focused on designing 
+- **Acting humanely**: focused on making performing tasks indistinguishable from those performed by humans, exhibiting human like behaviour (eg [[Turing_thesis|Turing test benchmark]])
+- **Act rationally**: focused on taking actions that lead to the best possible outcomes given the information and resources available (eg [[Decision_trees|decision trees]])
+
+![[Pasted image 20231015121627.png|550|550]]
 ## Agents
 - An agent acts (does something) in its environment 
 - An agent is **Intelligent** if it's able to adapt to it's environment. An Intelligent agent should:
