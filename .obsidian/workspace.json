@@ -351,7 +351,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Classification/Naive_Bayes.md",
+                "file": "MachineLearning/ErrorMeasures/Loss_functions.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -791,7 +791,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Classification/Naive_Bayes.md"
+                "file": "MachineLearning/ErrorMeasures/Loss_functions.md"
               }
             }
           }
@@ -799,8 +799,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -827,7 +826,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Classification/Naive_Bayes.md",
+                "file": "MachineLearning/ErrorMeasures/Loss_functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -844,7 +843,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Classification/Naive_Bayes.md",
+                "file": "MachineLearning/ErrorMeasures/Loss_functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -918,32 +917,32 @@
   },
   "active": "08a9a4b2492b7c0a",
   "lastOpenFiles": [
+    "MachineLearning/FeatureEngineering/Normalisation.md",
+    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
+    "MachineLearning/Classification/K-nearest_neighbours.md",
+    "MachineLearning/Classification/Naive_Bayes.md",
+    "MachineLearning/Classification/Semantic_segmentation.md",
+    "MachineLearning/Clustering/Clustering.md",
+    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
+    "MachineLearning/Clustering/K-means_clustering.md",
+    "MachineLearning/Clustering/Hierarchal_clustering.md",
+    "MachineLearning/Classification/Untitled.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Feature_scaling.md",
     "MachineLearning/Artificial_intelligence.md",
     "Languages&Compilation/Computability/TuringMachines/Turing_thesis.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
     "MachineLearning/Categorical_data_handeling.md",
-    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
     "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
-    "MachineLearning/Classification/Naive_Bayes.md",
     "MachineLearning/TreeModels/Decision_trees.md",
     "MachineLearning/TreeModels/Random_forest.md",
     "MachineLearning/Bias_variance_tradeoff.md",
-    "MachineLearning/Clustering/Hierarchal_clustering.md",
-    "MachineLearning/Clustering/K-means_clustering.md",
     "Statistics/Entropy.md",
     "MachineLearning/Ensemble_learning.md",
     "MachineLearning/Logistic_regression.md",
     "MachineLearning/Statistical_modeling.md",
     "MachineLearning/LinearRegression/Linear_regression.md",
     "MachineLearning/LinearRegression/Synergy_effect.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
-    "MachineLearning/FeatureEngineering/Normalisation.md",
-    "MachineLearning/ErrorMeasures/Loss_functions.md",
-    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
-    "MachineLearning/ErrorMeasures/Cross-entropy.md",
-    "MachineLearning/Clustering/Clustering.md",
     "XX-Attachments/Images/Pasted image 20240522010150.png",
     "XX-Attachments/Images/Pasted image 20240522004739.png",
     "XX-Attachments/Images/Pasted image 20240521234528.png",
