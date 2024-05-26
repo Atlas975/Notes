@@ -775,7 +775,7 @@
             }
           }
         ],
-        "currentTab": 20
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -843,7 +843,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Classification/Naive_Bayes.md"
+                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md"
               }
             }
           }
@@ -878,7 +878,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Classification/Naive_Bayes.md",
+                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -895,7 +895,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Classification/Naive_Bayes.md",
+                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -967,10 +967,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "59ef0827d3f8e151",
+  "active": "938998c460b19d2f",
   "lastOpenFiles": [
-    "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/Classification/Naive_Bayes.md",
+    "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
     "XX-Attachments/Images/Pasted image 20240526193814.png",
