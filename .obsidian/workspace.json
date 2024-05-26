@@ -723,7 +723,7 @@
             }
           }
         ],
-        "currentTab": 18
+        "currentTab": 26
       }
     ],
     "direction": "vertical"
@@ -791,7 +791,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md"
+                "file": "MachineLearning/Classification/Naive_Bayes.md"
               }
             }
           }
@@ -827,7 +827,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "MachineLearning/Classification/Naive_Bayes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -844,7 +844,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "MachineLearning/Classification/Naive_Bayes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -916,14 +916,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "aa7ed6b3d10f043f",
+  "active": "08a9a4b2492b7c0a",
   "lastOpenFiles": [
-    "Languages&Compilation/Computability/TuringMachines/Turing_thesis.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Feature_scaling.md",
     "MachineLearning/Artificial_intelligence.md",
+    "Languages&Compilation/Computability/TuringMachines/Turing_thesis.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
     "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
-    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Feature_scaling.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
     "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
     "MachineLearning/Classification/Naive_Bayes.md",

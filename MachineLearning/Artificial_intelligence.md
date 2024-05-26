@@ -39,6 +39,7 @@ ___
 - A **Computational** agent can make explainable decisions and is implemented through computation eg [[Markov_chains|markov chains]]. These decisions should be able to be broken down
 
 ## AI goals
+
 - **Scientific goal**: understand the principles of intelligent behaviour often by analysis of other intelligent agents and experimentation. Focused on building only empirical systems  
 - **Engineering goal**: constructing intelligent agents that can be used in real-world applications.
 
