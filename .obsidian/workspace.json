@@ -125,6 +125,32 @@
             }
           },
           {
+            "id": "aeda9a10feb7db21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ProgramLanguages/Bash.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "158911e7da5bf56d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "938998c460b19d2f",
             "type": "leaf",
             "state": {
@@ -801,7 +827,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 35
       }
     ],
     "direction": "vertical"
@@ -869,7 +895,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md"
+                "file": "Statistics/Likelihood.md"
               }
             }
           }
@@ -904,7 +930,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
+                "file": "Statistics/Likelihood.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -921,7 +947,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
+                "file": "Statistics/Likelihood.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -993,10 +1019,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5bcf54815f19abe4",
+  "active": "9a1cecb3da4e445a",
   "lastOpenFiles": [
-    "Statistics/Likelihood.md",
+    "XX-Attachments/Images/Pasted image 20240527181129.png",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
     "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
+    "ProgramLanguages/Bash.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
+    "Statistics/Likelihood.md",
     "MachineLearning/Regression/Linear_regression.md",
     "MachineLearning/Regression/Logistic_regression.md",
     "MachineLearning/Regression/Synergy_effect.md",
@@ -1009,7 +1039,6 @@
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
     "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
     "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "MachineLearning/GeneticAlgorithms/Crossover.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
@@ -1018,12 +1047,9 @@
     "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/ErrorMeasures/Confusion_matrices.md",
     "MachineLearning/Classification/Naive_Bayes.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
     "XX-Attachments/Images/Pasted image 20240526193814.png",
     "XX-Attachments/Images/Pasted image 20240526193752.png",
     "XX-Attachments/Images/Pasted image 20240526193739.png",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/Markov_chains.md",
-    "MachineLearning/ErrorMeasures/Cross-entropy.md",
     "XX-Attachments/Images/Pasted image 20240522010150.png",
     "XX-Attachments/Images/Pasted image 20240522004739.png",
     "XX-Attachments/Images/Pasted image 20240521234528.png",

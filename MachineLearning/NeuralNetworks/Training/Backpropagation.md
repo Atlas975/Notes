@@ -13,7 +13,7 @@ ___
 # Backpropagation
 - An algorithm used to train [[Neural_networks|neural networks]] by optimising the weights ($w$) and biases ($b$) to minimise the cost function typically by using [[Gradient_descent|gradient descent]]
 - The gradients calculation helps the model adjust parameters proportional to how much influence they have on changing the cost function. 
-- This continues iteratively until the network’s performance stops noticeably improving on a hold-out validation set, or a maximum number of epochs is reached.
+- This continues iteratively until the network’s performance stops noticeably improving on a hold-out validation set / max epochs is reached.
 
 
 

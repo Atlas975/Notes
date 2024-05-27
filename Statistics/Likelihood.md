@@ -20,3 +20,6 @@ $$L(\theta; X)=P(X|\theta)$$
 - These values are called the maximum likelihood estimates. Mathematically, we seek:
 
 $$\hat{\theta}=\text{argmax}_{\theta}(L(\theta;X))$$
+
+
+![[Pasted image 20240527181129.png|450|450]]
