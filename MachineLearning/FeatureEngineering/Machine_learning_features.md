@@ -11,14 +11,14 @@
 
 ___
 # Machine learning features
-- **Labels** are the named tags assigned to a feature set, these commonly relate to what the model is trying to learn from
-- A feature is a measurable property from the data being observed. In [[Artificial_intelligence|ML]] these are the input variables that you feed into your model to make predictions.
+- A feature is a measurable property from the data being observed. In [[Artificial_intelligence|ML]] these are the input variables that are fed into a model to make predictions.
 - 
 
 ![[Pasted image 20231018120325.png|425|425]]
 
 - A feature vector is a structured feature collection representing a data instance, ideally compact
 - The feature set represents the possible information that can be extracted from given data
+- Labels are the named tags assigned to a feature set, these commonly relate to what the model is trying to learn from. These are used in the training process of [[Artificial_intelligence#Supervised learning|supervised learning]]
 ## Feature quality
 - **Repeatability**: should be reliably detectable in different instances eg angle / luminance in images 
 - **Saliency**: should be usefully descriptive and distinctive, contributing towards decision making 
@@ -29,7 +29,6 @@ ___
 
 ![[Pasted image 20231018122819.png|550|550]]
 
-- Feature detection is the process of identifying where to extract features from as not all parts of a piece of data may have relevant information
 
 ### Manual Feature extraction
 - Allows for domain expertise to guide the selection of features, potentially leading to more meaningful and relevant features for the specific problem.
@@ -37,3 +36,6 @@ ___
 ### Automatic feature extraction 
 - Ideal for large datasets and can discover features that may not be obvious to human experts, leveraging algorithms to find patterns and relationships in the data.
 - This may result in less interpretable features and can be computationally intensive, requiring significant resources to process the data (eg [[Convolutional_networks|CNNs]])
+## Feature detection 
+- The process of identifying where to extract features from, this is necessary as not all parts of a piece of data may have relevant information 
+- By focusing on detected features and extracting them appropriately, data complexity is reduced, making it more manageable for machine learning algorithms to process
