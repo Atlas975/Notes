@@ -24,16 +24,16 @@ $$\epsilon=\text{error term}$$
 1. Initialisation (all model coefficients $\beta$ set to 0)
 2. Calculate hypothesis for each data point:
 
-$$\hat{y}_{1}=h_{1}(x_{i})=\beta_{0}+\beta_{1}x_{1}$$
-$$\hat{y}_{2}=\beta_{0}+\beta_{1}x_{1}$$
+$$\hat{y}_{1}=h_{1}(x_{1})=\beta_{0}+\beta_{1}x_{1}$$
+$$\hat{y}_{2}=\beta_{0}+\beta_{1}x_{2}$$
 $$\dots$$
 
 3. Calculate the cost function (eg [[Loss_functions#Mean squared error (MSE)|MSE]]):
-$$E(\beta_{0},\beta_{1})=\frac{1}{n}\sum_{i=1}^{n}(y_{i}-\hat{y}_{i})^2$$
+$$E(\beta_{0},\beta_{1})=\frac{1}{n}\sum(y_{i}-\hat{y}_{i})^2$$
 
 4. Calculate cost function's partial derivatives for each parameter:
-$$I_{\beta_{0}}=\frac{\partial}{\partial \beta_0}  = \frac{1}{n} \sum (h_i(x) - y_i)$$
-$$I_{\beta_{1}}=\frac{\partial}{\partial \beta_1}  = \frac{1}{n} \sum (h_i(x) - y_i) \cdot x_i$$
+$$I_{\beta_{0}}=\frac{\partial C}{\partial \beta_0}  = \frac{1}{n} \sum (h_i(x) - y_i)$$
+$$I_{\beta_{1}}=\frac{\partial C}{\partial \beta_1}  = \frac{1}{n} \sum (h_i(x) - y_i) \cdot x_i$$
 5. Update the parameters using the learning rate and partial derivatives:
 
 $$\beta_0 := \beta_0 - \alpha \cdot I_{\beta_{0}}$$
