@@ -313,7 +313,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/Artificial_intelligence.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -853,7 +853,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 23
       }
     ],
     "direction": "vertical"
@@ -921,7 +921,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Regression/Logistic_regression.md"
+                "file": "MachineLearning/Artificial_intelligence.md"
               }
             }
           }
@@ -956,7 +956,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Regression/Logistic_regression.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -973,7 +973,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Regression/Logistic_regression.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1045,10 +1045,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "dfec00570a455310",
+  "active": "20eec9de6f783574",
   "lastOpenFiles": [
-    "MachineLearning/Regression/Linear_regression.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
     "MachineLearning/Regression/Logistic_regression.md",
+    "MachineLearning/Regression/Linear_regression.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/LogisticReg_vs_SVM.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Logistic_regression_legacy.md",
     "MachineLearning/Logistic_regression.md",
@@ -1073,7 +1074,6 @@
     "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "MachineLearning/GeneticAlgorithms/Crossover.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
-    "MachineLearning/Regression/Leverage_statistic.md",
     "XX-Attachments/Images/Pasted image 20240526193814.png",
     "XX-Attachments/Images/Pasted image 20240526193752.png",
     "XX-Attachments/Images/Pasted image 20240526193739.png",

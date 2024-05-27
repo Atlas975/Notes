@@ -67,18 +67,19 @@ ___
 - Machine learning relies on **imperative knowledge** (generalisations) which is the process of deducing new facts from old facts but is limited by the accuracy of the deduction process
 - This can often work better than **declarative knowledge** (memorisation) as this is limited by both the time to observe and memory to store information 
 ## Supervised learning
-- Algorithms that learn to map input to a correct output 
+- Involves learning to map inputs to a correct output using labeled data 
 - Data is presented with correctly labeled output in order to train a model 
 - Two main categories include:
-    - **regression**:  and **classification** (discrete)
+    - **Regression**: used for continuous data
+    - **Classification**: used for discrete data
 
 ![[Pasted image 20231015131521.png|500|500]]
 ## Unsupervised learning 
-- Involves training a model on a dataset without labeled responses.
+- Involves training a model on a dataset using un-labeled data
 - The goal is to find hidden patterns or intrinsic structures in the input data.
 - Two main categories include:
-    - **clustering**: group data by similarities 
-    - **association** (find rules that describe large portions of data ) 
+    - **Clustering**: group data by similarities 
+    - **Association** find rules that describe large portions of data
 ## Semi-supervised learning 
 - Mix of labeled and unlabelled data, relies on a flexible algorithm that can incorporate both 
 - Frequently used as total labelling can often be expensive 
