@@ -170,7 +170,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/ErrorMeasures/Loss_functions.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -827,7 +827,7 @@
             }
           }
         ],
-        "currentTab": 35
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -895,7 +895,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Likelihood.md"
+                "file": "MachineLearning/ErrorMeasures/Loss_functions.md"
               }
             }
           }
@@ -930,7 +930,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Likelihood.md",
+                "file": "MachineLearning/ErrorMeasures/Loss_functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -947,7 +947,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Likelihood.md",
+                "file": "MachineLearning/ErrorMeasures/Loss_functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1019,14 +1019,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9a1cecb3da4e445a",
+  "active": "0222f5faadd28bfe",
   "lastOpenFiles": [
+    "Statistics/Likelihood.md",
+    "MachineLearning/ErrorMeasures/Cross-entropy.md",
     "XX-Attachments/Images/Pasted image 20240527181129.png",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
     "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
     "ProgramLanguages/Bash.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
-    "Statistics/Likelihood.md",
     "MachineLearning/Regression/Linear_regression.md",
     "MachineLearning/Regression/Logistic_regression.md",
     "MachineLearning/Regression/Synergy_effect.md",
@@ -1056,7 +1057,6 @@
     "XX-Attachments/Images/Pasted image 20240521181651.png",
     "XX-Attachments/Images/Pasted image 20240521030003.png",
     "XX-Attachments/Images/Pasted image 20240521025946.png",
-    "XX-Attachments/Images/Pasted image 20240521025930.png",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",

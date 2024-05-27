@@ -21,5 +21,7 @@ $$L(\theta; X)=P(X|\theta)$$
 
 $$\hat{\theta}=\text{argmax}_{\theta}(L(\theta;X))$$
 
-
 ![[Pasted image 20240527181129.png|450|450]]
+
+- The issue with max likelihood is that it is difficult to maximise products when attempting to train an [[Artificial_intelligence|ML]] model, with summations being preferred
+- This is why [[Cross-entropy]] is typically used instead to measure loss in classification problems, this comes from $\log(A \times B)$ being the same as $\log(A)+\log(B)$
