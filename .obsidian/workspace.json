@@ -320,6 +320,19 @@
             }
           },
           {
+            "id": "e71d3bc71a65fdba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/ImageMatching/Image_features.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "59ef0827d3f8e151",
             "type": "leaf",
             "state": {
@@ -378,7 +391,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/FeatureEngineering/Machine_learning_features.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -853,7 +866,7 @@
             }
           }
         ],
-        "currentTab": 23
+        "currentTab": 29
       }
     ],
     "direction": "vertical"
@@ -921,7 +934,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md"
+                "file": "MachineLearning/FeatureEngineering/Machine_learning_features.md"
               }
             }
           }
@@ -956,7 +969,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "MachineLearning/FeatureEngineering/Machine_learning_features.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -973,7 +986,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "MachineLearning/FeatureEngineering/Machine_learning_features.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1045,8 +1058,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "20eec9de6f783574",
+  "active": "40c27235744abfa1",
   "lastOpenFiles": [
+    "MediaCoding/ImageMatching/Image_features.md",
+    "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
     "MachineLearning/Regression/Logistic_regression.md",
     "MachineLearning/Regression/Linear_regression.md",
@@ -1072,8 +1087,6 @@
     "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
     "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
     "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
-    "MachineLearning/GeneticAlgorithms/Crossover.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "XX-Attachments/Images/Pasted image 20240526193814.png",
     "XX-Attachments/Images/Pasted image 20240526193752.png",
     "XX-Attachments/Images/Pasted image 20240526193739.png",

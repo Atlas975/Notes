@@ -11,8 +11,8 @@
 
 ___
 # Machine learning features
-- A feature is a measurable property from the phenomena being observed 
-- The feature set represents the information that can be extracted from given data
+- A feature is a measurable property from the phenomena being observed. The feature set represents the information that can be extracted from given data
+- By extracting relevant features, the model can focus on the most important aspects of the data, leading to better accuracy and generalisation on unseen data
 - **Labels** are the named tags assigned to a feature set, these commonly relate to what the model is trying to learn from 
 
 ![[Pasted image 20231018120325.png|425|425]]
@@ -21,7 +21,8 @@ ___
 - A good compact feature vector is essential as input for classification algorithms 
 
 ## Feature extraction
-- Raw data needs to be transformed into encodable numerical information whilst still preserving information. Feature extraction describes the process of mapping these raw input features to these new output features
+- Raw data needs to be transformed into encodable numerical information whilst still preserving information. 
+- Feature extraction is the process of mapping raw input features into new output features
 - These features are then fit to be used as input to a learning algorithm. This is necessary as real-world data is often generated in non-numeric formats
 
 ![[Pasted image 20231018122819.png|550|550]]
@@ -29,7 +30,8 @@ ___
 - Feature detection is the process of identifying where to extract features from as not all parts of a piece of data may have relevant information
 
 ## Feature quality
-- A high quality feature needs to have three main characteristics 
-- **Repeatability**: should be reliably detectable in different instances eg different angles / luminance when it comes to images 
-- **Saliency**: should be usefully descriptive and distinctive eg an image feature should contribute towards accurate analysis and decision making 
-- **Compactness**: impacts matching speed, limited / smaller features can be beneficial in terms of memory use and how quickly a feature is matched. Especially crucial in real-time applications 
+- **Repeatability**: should be reliably detectable in different instances eg angle / luminance in images 
+- **Saliency**: should be usefully descriptive and distinctive, contribute towards decision making 
+- **Compactness**: should obey memory constraints, also impacts feature matching speed in applications 
+- 
+- impacts matching speed, limited / smaller features can be beneficial in terms of memory use and how quickly a feature is matched. Crucial in real-time applications 
