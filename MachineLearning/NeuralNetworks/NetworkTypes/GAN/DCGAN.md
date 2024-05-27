@@ -16,8 +16,8 @@ ___
 
 ![[Pasted image 20240422162804.png|300|300]]
 ## Generator
-- Unlike traditional GANs that might use fully connected layers, the generator in a DCGAN uses deconv layers to produce an image from a seed of random noise
-- Typically includes batch [[Normalisation]] for the generator and the discriminator. This normalises the input to each activation layer avoiding the exploding gradient problem 
+- Unlike traditional GANs that use fully connected layers, the generator in a DCGAN uses deconv layers to produce an image from a seed of random noise
+- Typically includes batch [[Normalisation|normalisation]] for the generator and the discriminator. This normalises the input at each activation layer, avoiding the exploding gradient problem 
 
 ## Discriminator 
 - Uses [[Convolution|convolutional]] layers to classify images as real or fake, taking real data as input and downsampling through several layers like a standard CNN to make classifications
