@@ -15,16 +15,15 @@ ___
 - This technique is fundamental for applying various [[Media_coding#Spatial domain|spatial]] transformations, like [[Smoothing_spatial_filtering|smoothing]], [[Sharpening_filter|sharpening]], or [[Edge_detection|edge detection]].
 ## Image padding
 - Involves adding extra pixels around the edge of an image. This is done to change the image size, maintaining spatial dimensions after applying filters or kernels
-- Prevents information from edges from being lost, vital in creating a deep [[Convolutional_networks| CNN]]
+- Padding can be implemented in various ways, such as replicating border pixels, adding constant value pixels (like zeroes), or reflecting the image content near edges.
 
 ![[Pasted image 20220621141454.png|400|400]]
 
-- Padding can be implemented in various ways, such as replicating border pixels, adding constant value pixels (like zeroes), or reflecting the image content near edges.
 ### Same convolutions 
-- The padding required to have the output size equal to the input size, this can be found using:
+- The padding amount required to have the output size equal to the input size after a filter 
+- This is necessary to avoid information at the borders being lost too quickly when performing several consecutive operations such as in a deep [[Convolutional_networks|CNN]]
 
 $$P=\frac{F-1}{2}$$
-- This is necessary to avoid information at the borders being lost too quickly when performing several operations such as in a [[Convolutional_networks|CNN]]
 ### Valid convolutions 
 - Convolutions performed when an image is given no padding 
 - This results in an output image smaller than the input image 
@@ -63,4 +62,4 @@ $$S=\text{stride size}$$
 - Alternates between filters while performing convolutions 
 - This allows more flexibility when filtering on the spatial domain 
 
-![[Pasted image 20240420020729.png|400|400]]
+![[Pasted image 20240420020729.png|350|350]]

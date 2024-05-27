@@ -27,11 +27,11 @@ ___
 ![[Pasted image 20240422165321.png|450|450]]
 ## Advantages and uses
 - **Controlled data generation:** cGANs are very useful for generating data with specific attributes 
-- **Domain translation**: many problems in image processing involve translating an input image into a corresponding output image
+- **Domain translation**: can translate images from one domain to another (eg summer to winter)
 
 ![[Pasted image 20240422165615.png|450|450]]
 
-
+- **Data enhancement**: can generate high resolution images from low resolution input
 - **Data augmentation:** can generate additional  samples for underrepresented classes in a dataset
 - [[Semantic_segmentation|Semantic image synthesis]]: generating images based on semantic information understanding.
 

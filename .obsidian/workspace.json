@@ -364,7 +364,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f3e2e157f43aeae3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Convolutions/Convolution.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -934,7 +947,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md"
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md"
               }
             }
           }
@@ -969,7 +982,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -986,7 +999,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1060,6 +1073,10 @@
   },
   "active": "7ee08394e059e882",
   "lastOpenFiles": [
+    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
+    "MediaCoding/Convolutions/Convolution.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
     "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Photo_OCR.md",
@@ -1083,10 +1100,6 @@
     "XX-Attachments/Images/Pasted image 20240527211450.png",
     "MediaCoding/ImageMatching/Image_features.md",
     "MachineLearning/Regression/Logistic_regression.md",
-    "MachineLearning/Regression/Linear_regression.md",
-    "MachineLearning/Logistic_regression.md",
-    "MachineLearning/ErrorMeasures/Loss_functions.md",
-    "Statistics/Likelihood.md",
     "XX-Attachments/Images/Pasted image 20240527181129.png",
     "XX-Attachments/Images/Pasted image 20240526193814.png",
     "XX-Attachments/Images/Pasted image 20240526193752.png",
