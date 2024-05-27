@@ -313,7 +313,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/Artificial_intelligence.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -866,7 +866,7 @@
             }
           }
         ],
-        "currentTab": 23
+        "currentTab": 26
       }
     ],
     "direction": "vertical"
@@ -934,7 +934,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md"
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md"
               }
             }
           }
@@ -969,7 +969,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -986,7 +986,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1058,13 +1058,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "20eec9de6f783574",
+  "active": "112ddefd07feb9a8",
   "lastOpenFiles": [
+    "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Photo_OCR.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Weights_optimization.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Regularization_fitting.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Recommender_systems.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Principal_component_analysis.md",
-    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Photo_OCR.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Performance_measures.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/OnlineAdapting_ML.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Overfitting.md",
@@ -1080,7 +1081,6 @@
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Gradient_descent_legacy.md",
     "XX-Attachments/Images/Pasted image 20240527211450.png",
     "MediaCoding/ImageMatching/Image_features.md",
-    "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
     "MachineLearning/Regression/Logistic_regression.md",
     "MachineLearning/Regression/Linear_regression.md",

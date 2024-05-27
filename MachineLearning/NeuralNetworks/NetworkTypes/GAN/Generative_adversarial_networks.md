@@ -34,11 +34,11 @@ ___
 ## GAN loss function 
 - The discriminator and generator have competing goals, making this setup adversarial
 - Discriminator loss involves calculating the probability that the discriminator correctly classifies both real and fake data. This is typically calculated using binary [[Cross-entropy]]
-- Generator loss is typically based on how often the discriminator incorrectly classifies the fake data as real, so ideally this increases as discriminator loss increases 
 
 $$D(x)=\text{disciminator prediction for}\color{#8DB600}\text{ real}\color{white}\text{ data }x$$
 $$G(z)=\text{generator output from noise input }z$$
 $$D(G(z))=\text{discriminator prediction for }\color{#FF033E}\text{fake data}\color{white}\text{ produced by generator}$$
+- Generator loss is typically based on how often the discriminator incorrectly classifies the fake data as real, so ideally this increases as discriminator loss increases 
 ### Discriminator loss 
 
 $$L_{D}=-\ln(D(x))-\ln(1-D(G(z)))$$

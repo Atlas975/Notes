@@ -19,8 +19,6 @@ ___
 # Artificial intelligence
 - The field that studies the synthesis and analysis of computational agents that act intelligently
 - Numerous alternate definitions exist for AI to encompass all of it's capabilities and subfields, most of which involve it's relation to agents 
-
-
 ## AI approaches 
 - **Thinking humanely**: focused on emulating the way humans think, mimicking mental processes such as learning (eg [[Neural_networks|neural nets]])
 - **Think rationally**: focused on using logical reasoning to achieve outcomes, rooted in the use of rational and explainable principles (eg [[Finite_state_machines|FSM's]])
@@ -67,16 +65,16 @@ ___
 - Machine learning relies on **imperative knowledge** (generalisations) which is the process of deducing new facts from old facts but is limited by the accuracy of the deduction process
 - This can often work better than **declarative knowledge** (memorisation) as this is limited by both the time to observe and memory to store information 
 ## Supervised learning
-- Involves learning to map input data to the correct output using labeled training data 
-- Data is presented with correctly labeled output in order to train a model 
+- Involves learning to map input data to the correct output using labelled training data 
+- Evaluates based on the discrepancy between the model’s predictions and the actual labels
 - Two main categories include:
     - **Regression**: used for continuous data
     - **Classification**: used for discrete data
 
 ![[Pasted image 20231015131521.png|500|500]]
 ## Unsupervised learning 
-- Involves finding hidden patterns or intrinsic structures of un-labeled training data
-- 
+- Involves finding hidden patterns / intrinsic structures in unlabelled training data
+- This is useful for exploratory data analysis to understand the data distribution
 - Two main categories include:
     - **Clustering**: group data by similarities 
     - **Association** find rules that describe large portions of data
