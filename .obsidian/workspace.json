@@ -866,7 +866,7 @@
             }
           }
         ],
-        "currentTab": 26
+        "currentTab": 27
       }
     ],
     "direction": "vertical"
@@ -934,7 +934,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md"
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md"
               }
             }
           }
@@ -969,7 +969,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -986,7 +986,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1058,8 +1058,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "112ddefd07feb9a8",
+  "active": "7ee08394e059e882",
   "lastOpenFiles": [
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
     "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Photo_OCR.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Weights_optimization.md",
@@ -1081,7 +1082,6 @@
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Gradient_descent_legacy.md",
     "XX-Attachments/Images/Pasted image 20240527211450.png",
     "MediaCoding/ImageMatching/Image_features.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
     "MachineLearning/Regression/Logistic_regression.md",
     "MachineLearning/Regression/Linear_regression.md",
     "MachineLearning/Logistic_regression.md",

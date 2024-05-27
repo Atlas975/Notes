@@ -33,7 +33,7 @@ ___
 
 ## GAN loss function 
 - The discriminator and generator have competing goals, making this setup adversarial
-- Discriminator loss involves calculating the probability that the discriminator correctly classifies both real and fake data. This is typically calculated using binary [[Cross-entropy]]
+- Discriminator loss involves calculating the probability that the discriminator correctly classifies both real and fake data, typically calculated via binary [[Cross-entropy]]
 
 $$D(x)=\text{disciminator prediction for}\color{#8DB600}\text{ real}\color{white}\text{ data }x$$
 $$G(z)=\text{generator output from noise input }z$$
@@ -42,15 +42,15 @@ $$D(G(z))=\text{discriminator prediction for }\color{#FF033E}\text{fake data}\co
 ### Discriminator loss 
 
 $$L_{D}=-\ln(D(x))-\ln(1-D(G(z)))$$
-- This can be broken down into two components, the true positive rate: 
+- This can be broken down into 2 components, the true positive rate and true negative rate: 
 
 $$\color{#8DB600}\text{Real input error (want 1)}=-\ln(\hat{y})\color{white}$$
-- And the true negative rate: 
 $$\color{#FF033E}\text{Synthetic input error (want 0)}=-\ln(1-\hat{y})\color{white}$$
 
 ### Generator loss 
-$$L_{G}=-\ln(D(G(z)))$$
+
+$$L_{G}=-\ln(D(G(z)) )$$
 
 - The generator's goal is to maximise the probability that $D$ predicts its output as real, which is equivalent to minimising the negative log probability
-- When the generator is failing, $D(G(z))$ is close to 0 (can tell data is fake), resulting in a large positive  $L_{G}$ (loss is increasing). The inverse happens when $D(G(z))$ is close to 1
 $$L_{G}\downarrow \implies L_{D}\uparrow $$
+- When the generator is failing, $D(G(z))$ is close to 0 (can tell data is fake), resulting in a large positive  $L_{G}$ (loss is increasing). The inverse happens when $D(G(z))$ is close to 1
