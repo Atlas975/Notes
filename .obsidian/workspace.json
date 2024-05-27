@@ -416,7 +416,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/LinearRegression/Linear_regression.md",
+                "file": "MachineLearning/Regression/Linear_regression.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -843,7 +843,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/LinearRegression/Linear_regression.md"
+                "file": "MachineLearning/Regression/Linear_regression.md"
               }
             }
           }
@@ -878,7 +878,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/LinearRegression/Linear_regression.md",
+                "file": "MachineLearning/Regression/Linear_regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -895,7 +895,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/LinearRegression/Linear_regression.md",
+                "file": "MachineLearning/Regression/Linear_regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -969,6 +969,8 @@
   },
   "active": "0c1cbd764478b60f",
   "lastOpenFiles": [
+    "MachineLearning/Regression/Synergy_effect.md",
+    "MachineLearning/Regression/Linear_regression.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
@@ -983,9 +985,7 @@
     "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "MachineLearning/GeneticAlgorithms/Crossover.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
-    "MachineLearning/LinearRegression/Leverage_statistic.md",
-    "MachineLearning/LinearRegression/Linear_regression.md",
-    "MachineLearning/LinearRegression/Synergy_effect.md",
+    "MachineLearning/Regression/Leverage_statistic.md",
     "MachineLearning/TreeModels/Random_forest.md",
     "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/ErrorMeasures/Confusion_matrices.md",

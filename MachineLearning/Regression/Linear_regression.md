@@ -18,10 +18,7 @@ $$y = \beta_0 + \beta_1x + \epsilon$$
 $$\beta=\text{model coefficients}$$
 $$\epsilon=\text{error term}$$
 
-
 ![[Pasted image 20240412180359.png|350|350]]
-## Linear regression error term
-- represents the difference between the observed values and the values predicted by the model
 
 ## Linear regression steps
 1. Initialisation (all model coefficients $\beta$ set to 0)
@@ -31,12 +28,12 @@ $$\hat{y}_{1}=h_{1}(x_{i})=\beta_{0}+\beta_{1}x_{1}$$
 $$\hat{y}_{2}=\beta_{0}+\beta_{1}x_{1}$$
 $$\dots$$
 
-3. Calculate the cost function (eg modified [[Loss_functions#Mean squared error (MSE)|MSE]]):
-$$E(\beta_{0},\beta_{1})=\frac{1}{2n}\sum_{i=1}^{n}(y_{i}-\hat{y}_{i})^2$$
+3. Calculate the cost function (eg [[Loss_functions#Mean squared error (MSE)|MSE]]):
+$$E(\beta_{0},\beta_{1})=\frac{1}{n}\sum_{i=1}^{n}(y_{i}-\hat{y}_{i})^2$$
 
 4. Calculate cost function's partial derivatives for each parameter:
-$$I_{\beta_{0}}=\frac{\partial}{\partial \beta_0}  = \frac{1}{m} \sum_{i=1}^{m} (h_i(x) - y_i)$$
-$$I_{\beta_{1}}=\frac{\partial}{\partial \beta_1}  = \frac{1}{m} \sum_{i=1}^{m} (h_i(x) - y_i) \cdot x_i$$
+$$I_{\beta_{0}}=\frac{\partial}{\partial \beta_0}  = \frac{1}{n} \sum (h_i(x) - y_i)$$
+$$I_{\beta_{1}}=\frac{\partial}{\partial \beta_1}  = \frac{1}{n} \sum (h_i(x) - y_i) \cdot x_i$$
 5. Update the parameters using the learning rate and partial derivatives:
 
 $$\beta_0 := \beta_0 - \alpha \cdot I_{\beta_{0}}$$
