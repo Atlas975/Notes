@@ -313,7 +313,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/Artificial_intelligence.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -390,8 +390,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/Machine_learning_features.md",
-                "mode": "preview",
+                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Weights_optimization.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -866,7 +866,7 @@
             }
           }
         ],
-        "currentTab": 29
+        "currentTab": 23
       }
     ],
     "direction": "vertical"
@@ -934,7 +934,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/Machine_learning_features.md"
+                "file": "MachineLearning/Artificial_intelligence.md"
               }
             }
           }
@@ -969,7 +969,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/Machine_learning_features.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -986,7 +986,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/Machine_learning_features.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1058,35 +1058,36 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "40c27235744abfa1",
+  "active": "20eec9de6f783574",
   "lastOpenFiles": [
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Weights_optimization.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Regularization_fitting.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Recommender_systems.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Principal_component_analysis.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Photo_OCR.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Performance_measures.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/OnlineAdapting_ML.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Overfitting.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Normal_equation.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Neural_networks(depreciated).md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Multivariable_regression.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Multiclass_classificiation.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/ML_error_analysis.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/ML_core_theory.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/LogisticReg_vs_SVM.md",
+    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Logistic_regression_legacy.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Gradient_descent_legacy.md",
+    "XX-Attachments/Images/Pasted image 20240527211450.png",
     "MediaCoding/ImageMatching/Image_features.md",
     "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
     "MachineLearning/Regression/Logistic_regression.md",
     "MachineLearning/Regression/Linear_regression.md",
-    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/LogisticReg_vs_SVM.md",
-    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Logistic_regression_legacy.md",
     "MachineLearning/Logistic_regression.md",
     "MachineLearning/ErrorMeasures/Loss_functions.md",
     "Statistics/Likelihood.md",
-    "MachineLearning/ErrorMeasures/Cross-entropy.md",
     "XX-Attachments/Images/Pasted image 20240527181129.png",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
-    "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
-    "ProgramLanguages/Bash.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
-    "MachineLearning/Regression/Synergy_effect.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
-    "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "XX-Attachments/Images/Pasted image 20240526193814.png",
     "XX-Attachments/Images/Pasted image 20240526193752.png",
     "XX-Attachments/Images/Pasted image 20240526193739.png",
@@ -1095,7 +1096,6 @@
     "XX-Attachments/Images/Pasted image 20240521234528.png",
     "XX-Attachments/Images/Pasted image 20240521181651.png",
     "XX-Attachments/Images/Pasted image 20240521030003.png",
-    "XX-Attachments/Images/Pasted image 20240521025946.png",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",

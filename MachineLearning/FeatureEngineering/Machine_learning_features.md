@@ -11,8 +11,8 @@
 
 ___
 # Machine learning features
-- A feature is a measurable property from the data being observed. In [[Artificial_intelligence|ML]] these are the input variables that are fed into a model to make predictions.
-- 
+- A feature is an individual measurable property / characteristic in the data being analysed. In [[Artificial_intelligence|ML]] these are the input variables that are fed into a model to make predictions.
+- The choice, engineering, and transformation of features play a crucial role in the performance of ML applications in terms of both speed and accuracy
 
 ![[Pasted image 20231018120325.png|425|425]]
 
@@ -29,7 +29,6 @@ ___
 
 ![[Pasted image 20231018122819.png|550|550]]
 
-
 ### Manual Feature extraction
 - Allows for domain expertise to guide the selection of features, potentially leading to more meaningful and relevant features for the specific problem.
 - This can be time-consuming, requiring expertise in the domain and knowledge of the data.
@@ -39,3 +38,5 @@ ___
 ## Feature detection 
 - The process of identifying where to extract features from, this is necessary as not all parts of a piece of data may have relevant information 
 - By focusing on detected features and extracting them appropriately, data complexity is reduced, making it more manageable for machine learning algorithms to process
+
+![[Pasted image 20240527211450.png|500|500]]
