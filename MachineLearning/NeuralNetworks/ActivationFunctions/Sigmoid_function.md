@@ -12,9 +12,8 @@
 ___
 # Sigmoid function
 
-- Maps any real-valued number into a value between 0 and 1. It's an [[MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions|activation]] function commonly used in logistic regression and neural networks, particularly in layers that predict probabilities.
-- **Output range**: (0, 1)
-
+- An [[MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions|activation]] function commonly used in logistic regression and neural networks, particularly in layers that predict probabilities. Maps any real-valued number into a value between 0-1
+- This has the advantage of a smooth gradient that prevents jumps in output
   $$ \sigma(x) = \frac{1}{1 + e^{-x}} $$
 
 
@@ -29,9 +28,6 @@ ___
 
 
 
-## Advantages
-- Smooth gradient, preventing "jumps" in output values.
-- Output interpretation is straightforward as a probability for binary classification
 ## Disadvantages
 
 - **Vanishing Gradient Problem**: the function saturates for very high or very low values of \( x \), making the gradient near zero. This can slow down /  stop the training process for [[Neural_networks|NN]] due to very small weight updates during [[Backpropagation]].
