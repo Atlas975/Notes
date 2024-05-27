@@ -53,13 +53,13 @@ $$k=\text{example}$$
 ### Adding more layers (depth)
 - Deeper networks can learn complex and abstract features, building a layered understanding of input data eg edges -> object -> scenes in image processing
 - This allows the network to build up a more detailed understanding of the input data, layer by layer. Crucial for tasks requiring detailed semantic interpretation
-- However, this is reliant on having enough data to learn these patterns without overfitting, deeper networks are also more prone to the [[Activation_functions#Vanishing gradient problem|vanishing gradient problem]] than wider ones
 
 $$\text{Feature complexity}\propto \text{Network depth}$$
+- This is reliant on having enough data to learn these patterns without overfitting, deeper networks are also more prone to the [[Activation_functions#Vanishing gradient problem|vanishing gradient problem]] than wider ones
 ### Adding more neurons to a layer (width)
 
 - Adding more neurons in a layer allows for a richer representation of data at that level of abstraction, this means more capacity to capture varied aspects of the data at once
 - This improves the network's ability to capture diverse features and nuances by giving the model more flexibility in how it represents data 
-- This increases the number of parameters at a layer, while this can help avoid deeper networks this also has the potential of increasing computational cost and still overfitting
 
 $$\text{Rich representation}\propto \text{Network width}$$
+- This increases the number of parameters at a layer, while this can help avoid deeper networks this also has the potential of increasing computational cost and still overfitting
