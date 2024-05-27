@@ -177,6 +177,32 @@
             }
           },
           {
+            "id": "dfec00570a455310",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Regression/Logistic_regression.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7fdfff34a9449ba2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/LogisticReg_vs_SVM.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "de0382afcb4431cd",
             "type": "leaf",
             "state": {
@@ -827,7 +853,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -895,7 +921,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Loss_functions.md"
+                "file": "MachineLearning/Regression/Logistic_regression.md"
               }
             }
           }
@@ -930,7 +956,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Loss_functions.md",
+                "file": "MachineLearning/Regression/Logistic_regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -947,7 +973,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Loss_functions.md",
+                "file": "MachineLearning/Regression/Logistic_regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1019,8 +1045,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0222f5faadd28bfe",
+  "active": "dfec00570a455310",
   "lastOpenFiles": [
+    "MachineLearning/Regression/Linear_regression.md",
+    "MachineLearning/Regression/Logistic_regression.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/LogisticReg_vs_SVM.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Logistic_regression_legacy.md",
+    "MachineLearning/Logistic_regression.md",
+    "MachineLearning/ErrorMeasures/Loss_functions.md",
     "Statistics/Likelihood.md",
     "MachineLearning/ErrorMeasures/Cross-entropy.md",
     "XX-Attachments/Images/Pasted image 20240527181129.png",
@@ -1028,8 +1060,6 @@
     "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
     "ProgramLanguages/Bash.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
-    "MachineLearning/Regression/Linear_regression.md",
-    "MachineLearning/Regression/Logistic_regression.md",
     "MachineLearning/Regression/Synergy_effect.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
@@ -1044,10 +1074,6 @@
     "MachineLearning/GeneticAlgorithms/Crossover.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/Regression/Leverage_statistic.md",
-    "MachineLearning/TreeModels/Random_forest.md",
-    "MachineLearning/Artificial_intelligence.md",
-    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
-    "MachineLearning/Classification/Naive_Bayes.md",
     "XX-Attachments/Images/Pasted image 20240526193814.png",
     "XX-Attachments/Images/Pasted image 20240526193752.png",
     "XX-Attachments/Images/Pasted image 20240526193739.png",
