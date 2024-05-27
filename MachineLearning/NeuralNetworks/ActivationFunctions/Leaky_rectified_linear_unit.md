@@ -1,6 +1,5 @@
 ---
-aliases:
-  - Leaky ReLU
+aliases: []
 ---
 
 > [!important]- Metadata
@@ -21,12 +20,9 @@ ___
 
 $$\sigma(x)=\begin{cases}
 x & x\geq{0}  \\
-@b
+\alpha\cdot x & x<0
 \end{cases}$$
-$$\sigma(x\geq{0})=x$$
-$$\sigma(x<0)=\alpha\cdot x$$
 $$\alpha=\text{leak coefficient, a small positive constant}$$
-
 
 ![[Pasted image 20240420022511.png|450|450]]
 

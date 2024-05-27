@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -843,7 +843,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md"
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md"
               }
             }
           }
@@ -878,7 +878,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -895,7 +895,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -969,8 +969,20 @@
   },
   "active": "938998c460b19d2f",
   "lastOpenFiles": [
-    "MachineLearning/Classification/Naive_Bayes.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+    "MachineLearning/GeneticAlgorithms/Crossover.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
+    "MachineLearning/LinearRegression/Leverage_statistic.md",
+    "MachineLearning/LinearRegression/Linear_regression.md",
+    "MachineLearning/LinearRegression/Synergy_effect.md",
+    "MachineLearning/TreeModels/Random_forest.md",
     "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
+    "MachineLearning/Classification/Naive_Bayes.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
     "XX-Attachments/Images/Pasted image 20240526193814.png",
@@ -985,19 +997,7 @@
     "MachineLearning/Classification/K-nearest_neighbours.md",
     "MachineLearning/Classification/Semantic_segmentation.md",
     "MachineLearning/Clustering/Clustering.md",
-    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
     "MachineLearning/Clustering/K-means_clustering.md",
-    "MachineLearning/Clustering/Hierarchal_clustering.md",
-    "MachineLearning/Classification/Untitled.md",
-    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Feature_scaling.md",
-    "Languages&Compilation/Computability/TuringMachines/Turing_thesis.md",
-    "MachineLearning/Categorical_data_handeling.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
-    "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
-    "MachineLearning/TreeModels/Decision_trees.md",
-    "MachineLearning/TreeModels/Random_forest.md",
-    "MachineLearning/Bias_variance_tradeoff.md",
-    "Statistics/Entropy.md",
     "XX-Attachments/Images/Pasted image 20240522010150.png",
     "XX-Attachments/Images/Pasted image 20240522004739.png",
     "XX-Attachments/Images/Pasted image 20240521234528.png",
