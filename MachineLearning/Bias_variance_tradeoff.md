@@ -11,7 +11,7 @@
 
 ___
 # Bias variance tradeoff
-- Describes the dilemma faced when trying to minimise two sources of error that models from generalising beyond their training data
+- Describes the dilemma faced when trying to minimise two sources of error that models face from generalising beyond their training data
 - Understanding this tradeoff is crucial for effectively training models, particularly in choosing the right model complexity and in tuning hyperparameters.
 
 ![[Pasted image 20240528212337.png|500|500]]
@@ -37,7 +37,7 @@ ___
 ## Balancing bias and variance
 - **Model complexity:** adjusting the complexity of the model is a direct way to influence bias and variance. Increasing the complexity of the model decreases bias but increases variance
 - **Training data size:** Increasing the amount of training data can help reduce variance without increasing bias. More data provides a better approximation of the true population
-- **Regularisation:** techniques like L1 and L2 regularization add a penalty for larger weights in the model, effectively reducing variance by preventing the model from becoming overly complex.
-- **Cross-Validation:** Using cross-validation techniques helps in assessing how the model’s predictions would generalize to an independent dataset. It's a useful technique for finding a good balance between bias and variance.
+- **Regularisation:** techniques like L1 and L2 regularisation add a penalty for larger weights in the model, reducing variance by preventing the model from becoming overly complex.
+- **Cross-Validation:** helps in assessing how the model’s predictions would generalise to an independent dataset, useful for finding a good balance between bias and variance.
 
 ![[Pasted image 20240528212520.png|350|350]]
