@@ -1073,10 +1073,10 @@
   },
   "active": "7ee08394e059e882",
   "lastOpenFiles": [
-    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
-    "MediaCoding/Convolutions/Convolution.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
+    "MediaCoding/Convolutions/Convolution.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
     "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Photo_OCR.md",
