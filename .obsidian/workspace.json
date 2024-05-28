@@ -248,7 +248,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -892,7 +892,7 @@
             }
           }
         ],
-        "currentTab": 28
+        "currentTab": 18
       }
     ],
     "direction": "vertical"
@@ -960,7 +960,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md"
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md"
               }
             }
           }
@@ -995,7 +995,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1012,7 +1012,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1084,8 +1084,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9bb47fdee7fb0e82",
+  "active": "8d78bcad713ced1d",
   "lastOpenFiles": [
+    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
@@ -1112,7 +1113,6 @@
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/Gradient_descent_legacy.md",
     "XX-Attachments/Images/Pasted image 20240527211450.png",
     "MediaCoding/ImageMatching/Image_features.md",
-    "MachineLearning/Regression/Logistic_regression.md",
     "XX-Attachments/Images/Pasted image 20240527181129.png",
     "XX-Attachments/Images/Pasted image 20240526193814.png",
     "XX-Attachments/Images/Pasted image 20240526193752.png",
