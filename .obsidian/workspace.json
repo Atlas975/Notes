@@ -416,7 +416,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
+                "file": "MachineLearning/Bias_variance_tradeoff.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -1025,7 +1025,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md"
+                "file": "MachineLearning/Bias_variance_tradeoff.md"
               }
             }
           }
@@ -1033,7 +1033,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -1060,7 +1061,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
+                "file": "MachineLearning/Bias_variance_tradeoff.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1077,7 +1078,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
+                "file": "MachineLearning/Bias_variance_tradeoff.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1151,6 +1152,10 @@
   },
   "active": "05714c1c9f77872e",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240528212520.png",
+    "XX-Attachments/Images/Pasted image 20240528212337.png",
+    "MachineLearning/Categorical_data_handeling.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
@@ -1163,20 +1168,17 @@
     "MachineLearning/Clustering/Hierarchal_clustering.md",
     "MachineLearning/Ensemble_learning.md",
     "MachineLearning/Bias_variance_tradeoff.md",
-    "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/Regression/Synergy_effect.md",
     "MachineLearning/Regression/Logistic_regression.md",
     "MachineLearning/Regression/Linear_regression.md",
     "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
     "MachineLearning/Clustering/K-means_clustering.md",
     "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
     "MediaCoding/Filters/Unpooling.md",
     "MediaCoding/Convolutions/Transposed_convolution.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
     "XX-Attachments/Images/Pasted image 20240527211450.png",
     "XX-Attachments/Images/Pasted image 20240527181129.png",
     "XX-Attachments/Images/Pasted image 20240526193814.png",
@@ -1186,7 +1188,6 @@
     "XX-Attachments/Images/Pasted image 20240522004739.png",
     "XX-Attachments/Images/Pasted image 20240521234528.png",
     "XX-Attachments/Images/Pasted image 20240521181651.png",
-    "XX-Attachments/Images/Pasted image 20240521030003.png",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",

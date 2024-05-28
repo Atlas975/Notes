@@ -14,8 +14,9 @@ ___
 - Describes the dilemma faced when trying to minimise two sources of error that models from generalising beyond their training data
 - Understanding this tradeoff is crucial for effectively training models, particularly in choosing the right model complexity and in tuning hyperparameters.
 
+![[Pasted image 20240528212337.png|500|500]]
 
-![[Pasted image 20220225163602.png|450|450|400|400]]
+
 
 ## Bias
 - Measures the error due to overly simplistic assumptions in the learning algorithm. A high bias model is likely to underfit the training data
@@ -34,7 +35,9 @@ ___
 
 ![[Pasted image 20240422201428.png|250|250]]
 ## Balancing bias and variance
-- **Model Complexity:** Adjusting the complexity of the model is a direct way to influence bias and variance. Increasing the complexity of the model (e.g., adding more parameters) typically decreases bias but increases variance, and vice versa.
-- **Training Data Size:** Increasing the amount of training data can help reduce variance without increasing bias. More data provides a better approximation of the true population, allowing complex models to learn patterns without fitting to noise.
-- **Regularization:** Techniques like L1 and L2 regularization add a penalty for larger weights in the model, effectively reducing variance by preventing the model from becoming overly complex.
+- **Model complexity:** adjusting the complexity of the model is a direct way to influence bias and variance. Increasing the complexity of the model decreases bias but increases variance
+- **Training data size:** Increasing the amount of training data can help reduce variance without increasing bias. More data provides a better approximation of the true population
+- **Regularisation:** techniques like L1 and L2 regularization add a penalty for larger weights in the model, effectively reducing variance by preventing the model from becoming overly complex.
 - **Cross-Validation:** Using cross-validation techniques helps in assessing how the model’s predictions would generalize to an independent dataset. It's a useful technique for finding a good balance between bias and variance.
+
+![[Pasted image 20240528212520.png|350|350]]
