@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Clustering/K-means_clustering.md",
+                "file": "MachineLearning/Clustering/Hierarchal_clustering.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -1116,7 +1116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Clustering/K-means_clustering.md"
+                "file": "MachineLearning/Clustering/Hierarchal_clustering.md"
               }
             }
           }
@@ -1151,7 +1151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Clustering/K-means_clustering.md",
+                "file": "MachineLearning/Clustering/Hierarchal_clustering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1168,7 +1168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Clustering/K-means_clustering.md",
+                "file": "MachineLearning/Clustering/Hierarchal_clustering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1242,12 +1242,12 @@
   },
   "active": "6bff6a51b5c427bf",
   "lastOpenFiles": [
+    "MachineLearning/Clustering/K-means_clustering.md",
     "MachineLearning/Clustering/Hierarchal_clustering.md",
     "MachineLearning/Clustering/Clustering.md",
     "MachineLearning/Classification/Naive_Bayes.md",
     "MachineLearning/Classification/Semantic_segmentation.md",
     "MachineLearning/Classification/K-nearest_neighbours.md",
-    "MachineLearning/Clustering/K-means_clustering.md",
     "MachineLearning/ErrorMeasures/Cross-entropy.md",
     "MachineLearning/ErrorMeasures/Confusion_matrices.md",
     "MachineLearning/ErrorMeasures/Loss_functions.md",
