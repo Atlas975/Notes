@@ -554,19 +554,6 @@
             }
           },
           {
-            "id": "62a475066f014441",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Bias_variance_tradeoff.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6120a8ef3216037c",
             "type": "leaf",
             "state": {
@@ -1035,7 +1022,7 @@
             }
           }
         ],
-        "currentTab": 42
+        "currentTab": 41
       }
     ],
     "direction": "vertical"
@@ -1103,7 +1090,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Bias_variance_tradeoff.md"
+                "file": "Statistics/Entropy.md"
               }
             }
           }
@@ -1138,7 +1125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Bias_variance_tradeoff.md",
+                "file": "Statistics/Entropy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1155,7 +1142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Bias_variance_tradeoff.md",
+                "file": "Statistics/Entropy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1227,13 +1214,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "62a475066f014441",
+  "active": "5c073655199c8b5c",
   "lastOpenFiles": [
-    "MachineLearning/Statistical_modeling.md",
-    "MachineLearning/Categorical_data_handeling.md",
+    "MachineLearning/TreeModels/Random_forest.md",
     "MachineLearning/Regression/Logistic_regression.md",
-    "MachineLearning/Regression/Synergy_effect.md",
+    "MachineLearning/Regression/Leverage_statistic.md",
     "MachineLearning/Regression/Linear_regression.md",
+    "MachineLearning/Regression/Synergy_effect.md",
+    "MachineLearning/Categorical_data_handeling.md",
+    "MachineLearning/Ensemble_learning.md",
+    "MachineLearning/Statistical_modeling.md",
+    "MachineLearning/Bias_variance_tradeoff.md",
     "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
     "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
@@ -1241,7 +1232,6 @@
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
     "Statistics/Entropy.md",
     "MachineLearning/ErrorMeasures/Cross-entropy.md",
-    "MachineLearning/Regression/Leverage_statistic.md",
     "MediaCoding/Convolutions/Depthwise_convolution.md",
     "MediaCoding/Convolutions/Convolution.md",
     "MediaCoding/Convolutions/Depthwise_separable_convolution.md",
@@ -1249,12 +1239,9 @@
     "MediaCoding/Convolutions/Transposed_convolution.md",
     "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
     "MachineLearning/GeneticAlgorithms/Mutation.md",
-    "MachineLearning/Ensemble_learning.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
     "MachineLearning/Clustering/K-means_clustering.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
-    "MachineLearning/GeneticAlgorithms/Selection.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
     "XX-Attachments/Images/Pasted image 20240528212520.png",
     "XX-Attachments/Images/Pasted image 20240528212337.png",
     "XX-Attachments/Images/Pasted image 20240527211450.png",
