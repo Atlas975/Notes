@@ -442,7 +442,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Classification/Naive_Bayes.md",
+                "file": "MachineLearning/FeatureEngineering/Machine_learning_features.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -1100,7 +1100,7 @@
             }
           }
         ],
-        "currentTab": 33
+        "currentTab": 52
       }
     ],
     "direction": "vertical"
@@ -1168,7 +1168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Classification/Naive_Bayes.md"
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md"
               }
             }
           }
@@ -1203,7 +1203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Classification/Naive_Bayes.md",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1220,7 +1220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Classification/Naive_Bayes.md",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1292,21 +1292,22 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4676adc201ffe8b1",
+  "active": "2f84e0ee78b4b16c",
   "lastOpenFiles": [
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
-    "MachineLearning/FeatureEngineering/Normalisation.md",
-    "MachineLearning/GeneticAlgorithms/Mutation.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
+    "MachineLearning/GeneticAlgorithms/Mutation.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
+    "MachineLearning/Classification/Naive_Bayes.md",
+    "MachineLearning/FeatureEngineering/Normalisation.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/GeneticAlgorithms/Crossover.md",
     "MachineLearning/GeneticAlgorithms/Selection.md",
     "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
     "MachineLearning/ErrorMeasures/Confusion_matrices.md",
     "MachineLearning/ErrorMeasures/Loss_functions.md",
@@ -1318,7 +1319,6 @@
     "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/Clustering/Hierarchal_clustering.md",
-    "MachineLearning/Classification/Naive_Bayes.md",
     "MachineLearning/Classification/Semantic_segmentation.md",
     "XX-Attachments/Images/Pasted image 20240528212520.png",
     "XX-Attachments/Images/Pasted image 20240528212337.png",
