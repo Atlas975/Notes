@@ -35,7 +35,6 @@ ___
 - $b=\text{bias, optional parameter that can shift a function left or right}$
 - $z=\text{net input to neurons }(wx+b) \text{ prior to activation}$
 - $a=\text{activation output, }(\sigma(z)) \text{ introduces non-linearity to learn complex patterns}$
-- $C=\text{cost, a measure of how well the model is performing}$
 
 ### Parameter notation
 

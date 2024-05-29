@@ -416,7 +416,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataStructures/B_trees.md",
+                "file": "MachineLearning/TreeModels/Random_forest.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -1090,7 +1090,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/B_trees.md"
+                "file": "MachineLearning/TreeModels/Random_forest.md"
               }
             }
           }
@@ -1125,7 +1125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataStructures/B_trees.md",
+                "file": "MachineLearning/TreeModels/Random_forest.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1142,7 +1142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataStructures/B_trees.md",
+                "file": "MachineLearning/TreeModels/Random_forest.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1216,6 +1216,24 @@
   },
   "active": "9f29d6b91a0247e7",
   "lastOpenFiles": [
+    "MachineLearning/TreeModels/Decision_trees.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
+    "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
+    "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
+    "Statistics/Monte_Carlo_method.md",
+    "Databases/Database_concurrency.md",
+    "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
+    "SoftwareEngineering/Functional_programming.md",
+    "Statistics/ProbabilityDistributions/Probability_distributions.md",
+    "Languages&Compilation/FiniteAutomata/Finite_state_transducer.md",
+    "DiscreteMath/Functions.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/GradientDescent/Gradient_descent_momentum.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/Cross_entropy_legacy.md",
+    "DataStructures/B_trees.md",
     "SoftwarePatterns/Structural/Proxy_pattern.md",
     "MediaCoding/Convolutions/Convolution.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/TreeModels/Regression_trees.md",
@@ -1224,24 +1242,6 @@
     "ProgramLanguages/Git.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/AnomalyDetect_vs_SLearning.md",
     "ProgramLanguages/Rust/Rust_language.md",
-    "Databases/Join_handling.md",
-    "MachineLearning/Regression/Logistic_regression.md",
-    "MediaCoding/Media_coding.md",
-    "OperatingSystems/Linux_permissions.md",
-    "EmbeddedSystems/Transistors.md",
-    "Algorithms/SearchAlgorithms/Search_algorithms.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/DataProcessing/Data_leakage.md",
-    "MachineLearning/Regression/Linear_regression.md",
-    "MachineLearning/Regression/Synergy_effect.md",
-    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
-    "MediaCoding/ImageMatching/Image_features.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
-    "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
-    "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
-    "MachineLearning/Regression/Leverage_statistic.md",
-    "MachineLearning/Bias_variance_tradeoff.md",
     "XX-Attachments/Images/Pasted image 20240528212520.png",
     "XX-Attachments/Images/Pasted image 20240528212337.png",
     "XX-Attachments/Images/Pasted image 20240527211450.png",
