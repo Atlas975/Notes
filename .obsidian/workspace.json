@@ -424,6 +424,19 @@
             }
           },
           {
+            "id": "c4a8e6bab022d96a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Regression/Linear_regression.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4676adc201ffe8b1",
             "type": "leaf",
             "state": {
@@ -1035,7 +1048,7 @@
             }
           }
         ],
-        "currentTab": 31
+        "currentTab": 32
       }
     ],
     "direction": "vertical"
@@ -1103,7 +1116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Training/Gradient_descent.md"
+                "file": "MachineLearning/Regression/Linear_regression.md"
               }
             }
           }
@@ -1138,7 +1151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
+                "file": "MachineLearning/Regression/Linear_regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1155,7 +1168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
+                "file": "MachineLearning/Regression/Linear_regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1227,20 +1240,24 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9f29d6b91a0247e7",
+  "active": "c4a8e6bab022d96a",
   "lastOpenFiles": [
+    "MachineLearning/Regression/Synergy_effect.md",
+    "MachineLearning/Regression/Logistic_regression.md",
+    "MachineLearning/TreeModels/Decision_trees.md",
+    "MachineLearning/TreeModels/Random_forest.md",
+    "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/Bias_variance_tradeoff.md",
+    "MachineLearning/Statistical_modeling.md",
+    "MachineLearning/Ensemble_learning.md",
+    "MachineLearning/Categorical_data_handeling.md",
+    "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
     "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
-    "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
-    "MachineLearning/Ensemble_learning.md",
-    "MachineLearning/Bias_variance_tradeoff.md",
-    "MachineLearning/Artificial_intelligence.md",
-    "MachineLearning/TreeModels/Random_forest.md",
     "MachineLearning/Classification/Naive_Bayes.md",
-    "MachineLearning/TreeModels/Decision_trees.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
     "Statistics/Monte_Carlo_method.md",
     "Databases/Database_concurrency.md",
@@ -1251,10 +1268,6 @@
     "DiscreteMath/Functions.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/GradientDescent/Gradient_descent_momentum.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/Cross_entropy_legacy.md",
-    "DataStructures/B_trees.md",
-    "SoftwarePatterns/Structural/Proxy_pattern.md",
-    "MediaCoding/Convolutions/Convolution.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/TreeModels/Regression_trees.md",
     "XX-Attachments/Images/Pasted image 20240528212520.png",
     "XX-Attachments/Images/Pasted image 20240528212337.png",
     "XX-Attachments/Images/Pasted image 20240527211450.png",
