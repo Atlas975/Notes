@@ -390,7 +390,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
+                "file": "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -1022,7 +1022,7 @@
             }
           }
         ],
-        "currentTab": 29
+        "currentTab": 41
       }
     ],
     "direction": "vertical"
@@ -1090,7 +1090,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md"
+                "file": "Statistics/Entropy.md"
               }
             }
           }
@@ -1125,7 +1125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
+                "file": "Statistics/Entropy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1142,7 +1142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
+                "file": "Statistics/Entropy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1214,14 +1214,23 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "2f89b979c6d0911b",
+  "active": "5c073655199c8b5c",
   "lastOpenFiles": [
+    "MachineLearning/ErrorMeasures/Cross-entropy.md",
+    "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
+    "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
+    "MachineLearning/Regression/Leverage_statistic.md",
+    "MachineLearning/Regression/Linear_regression.md",
+    "MachineLearning/Regression/Logistic_regression.md",
+    "MediaCoding/Convolutions/Depthwise_convolution.md",
+    "MediaCoding/Convolutions/Convolution.md",
+    "MediaCoding/Convolutions/Depthwise_separable_convolution.md",
+    "MediaCoding/Convolutions/Pointwise_convolution.md",
+    "MediaCoding/Convolutions/Transposed_convolution.md",
+    "MediaCoding/Filters/EdgeDetectionFilters/Laplacian_edge_detector.md",
     "MachineLearning/GeneticAlgorithms/Mutation.md",
     "MachineLearning/Ensemble_learning.md",
-    "MediaCoding/Convolutions/Transposed_convolution.md",
     "Statistics/Entropy.md",
-    "MachineLearning/ErrorMeasures/Cross-entropy.md",
-    "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
     "MachineLearning/Clustering/K-means_clustering.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
@@ -1233,17 +1242,8 @@
     "Statistics/Likelihood.md",
     "MachineLearning/Classification/Naive_Bayes.md",
     "MachineLearning/Bias_variance_tradeoff.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
-    "MachineLearning/Categorical_data_handeling.md",
     "XX-Attachments/Images/Pasted image 20240528212520.png",
     "XX-Attachments/Images/Pasted image 20240528212337.png",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
-    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
-    "MachineLearning/ErrorMeasures/Loss_functions.md",
-    "MachineLearning/0-Legacy/Weakly_supervised_learning.md",
-    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
-    "MachineLearning/Clustering/Hierarchal_clustering.md",
     "XX-Attachments/Images/Pasted image 20240527211450.png",
     "XX-Attachments/Images/Pasted image 20240527181129.png",
     "XX-Attachments/Images/Pasted image 20240526193814.png",
