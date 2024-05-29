@@ -1022,7 +1022,7 @@
             }
           }
         ],
-        "currentTab": 41
+        "currentTab": 33
       }
     ],
     "direction": "vertical"
@@ -1090,7 +1090,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Entropy.md"
+                "file": "MachineLearning/Bias_variance_tradeoff.md"
               }
             }
           }
@@ -1125,7 +1125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Entropy.md",
+                "file": "MachineLearning/Bias_variance_tradeoff.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1142,7 +1142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Entropy.md",
+                "file": "MachineLearning/Bias_variance_tradeoff.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1214,8 +1214,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5c073655199c8b5c",
+  "active": "bda6f6e83c0fdc44",
   "lastOpenFiles": [
+    "Statistics/Entropy.md",
     "MachineLearning/TreeModels/Random_forest.md",
     "MachineLearning/Regression/Logistic_regression.md",
     "MachineLearning/Regression/Leverage_statistic.md",
@@ -1230,7 +1231,6 @@
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
-    "Statistics/Entropy.md",
     "MachineLearning/ErrorMeasures/Cross-entropy.md",
     "MediaCoding/Convolutions/Depthwise_convolution.md",
     "MediaCoding/Convolutions/Convolution.md",
