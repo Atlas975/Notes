@@ -416,7 +416,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/TreeModels/Random_forest.md",
+                "file": "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -1103,7 +1103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/TreeModels/Random_forest.md"
+                "file": "MachineLearning/NeuralNetworks/Training/Gradient_descent.md"
               }
             }
           }
@@ -1138,7 +1138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/TreeModels/Random_forest.md",
+                "file": "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1155,7 +1155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/TreeModels/Random_forest.md",
+                "file": "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1229,16 +1229,19 @@
   },
   "active": "9f29d6b91a0247e7",
   "lastOpenFiles": [
-    "MachineLearning/Classification/Naive_Bayes.md",
-    "MachineLearning/TreeModels/Random_forest.md",
-    "MachineLearning/TreeModels/Decision_trees.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
-    "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
     "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
+    "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
+    "MachineLearning/Ensemble_learning.md",
+    "MachineLearning/Bias_variance_tradeoff.md",
+    "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/TreeModels/Random_forest.md",
+    "MachineLearning/Classification/Naive_Bayes.md",
+    "MachineLearning/TreeModels/Decision_trees.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
     "Statistics/Monte_Carlo_method.md",
     "Databases/Database_concurrency.md",
     "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
@@ -1252,9 +1255,6 @@
     "SoftwarePatterns/Structural/Proxy_pattern.md",
     "MediaCoding/Convolutions/Convolution.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/TreeModels/Regression_trees.md",
-    "XX-Attachments/Templates/Untitled.md",
-    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/LogisticReg_vs_SVM.md",
-    "ProgramLanguages/Git.md",
     "XX-Attachments/Images/Pasted image 20240528212520.png",
     "XX-Attachments/Images/Pasted image 20240528212337.png",
     "XX-Attachments/Images/Pasted image 20240527211450.png",
