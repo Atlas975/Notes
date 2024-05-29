@@ -429,7 +429,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Regression/Linear_regression.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -1116,7 +1116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Regression/Linear_regression.md"
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md"
               }
             }
           }
@@ -1151,7 +1151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Regression/Linear_regression.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1168,7 +1168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Regression/Linear_regression.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1242,32 +1242,32 @@
   },
   "active": "c4a8e6bab022d96a",
   "lastOpenFiles": [
-    "MachineLearning/Regression/Synergy_effect.md",
     "MachineLearning/Regression/Logistic_regression.md",
-    "MachineLearning/TreeModels/Decision_trees.md",
-    "MachineLearning/TreeModels/Random_forest.md",
-    "MachineLearning/Artificial_intelligence.md",
-    "MachineLearning/Bias_variance_tradeoff.md",
+    "MachineLearning/Regression/Leverage_statistic.md",
+    "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
+    "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
     "MachineLearning/Statistical_modeling.md",
     "MachineLearning/Ensemble_learning.md",
     "MachineLearning/Categorical_data_handeling.md",
-    "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
-    "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
+    "MachineLearning/Bias_variance_tradeoff.md",
+    "MachineLearning/TreeModels/Random_forest.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
-    "MachineLearning/Classification/Naive_Bayes.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
+    "MachineLearning/Regression/Linear_regression.md",
+    "MachineLearning/Regression/Synergy_effect.md",
+    "MachineLearning/TreeModels/Decision_trees.md",
+    "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/Classification/Naive_Bayes.md",
     "Statistics/Monte_Carlo_method.md",
-    "Databases/Database_concurrency.md",
-    "MediaCoding/IntensityTransforms/Histogram_equalisation.md",
-    "SoftwareEngineering/Functional_programming.md",
-    "Statistics/ProbabilityDistributions/Probability_distributions.md",
-    "Languages&Compilation/FiniteAutomata/Finite_state_transducer.md",
-    "DiscreteMath/Functions.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/GradientDescent/Gradient_descent_momentum.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/Cross_entropy_legacy.md",
     "XX-Attachments/Images/Pasted image 20240528212520.png",
     "XX-Attachments/Images/Pasted image 20240528212337.png",
     "XX-Attachments/Images/Pasted image 20240527211450.png",
