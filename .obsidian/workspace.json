@@ -312,7 +312,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -416,7 +416,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/Machine_learning_features.md",
+                "file": "DataStructures/B_trees.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -1022,7 +1022,7 @@
             }
           }
         ],
-        "currentTab": 23
+        "currentTab": 31
       }
     ],
     "direction": "vertical"
@@ -1090,7 +1090,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Training/Gradient_descent.md"
+                "file": "DataStructures/B_trees.md"
               }
             }
           }
@@ -1125,7 +1125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
+                "file": "DataStructures/B_trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1142,7 +1142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
+                "file": "DataStructures/B_trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1214,34 +1214,34 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "20eec9de6f783574",
+  "active": "9f29d6b91a0247e7",
   "lastOpenFiles": [
-    "MachineLearning/Regression/Leverage_statistic.md",
-    "MachineLearning/Regression/Linear_regression.md",
-    "MachineLearning/Regression/Logistic_regression.md",
-    "MachineLearning/Bias_variance_tradeoff.md",
-    "MachineLearning/Ensemble_learning.md",
-    "MachineLearning/Artificial_intelligence.md",
-    "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
-    "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
-    "MachineLearning/Classification/Naive_Bayes.md",
-    "MachineLearning/TreeModels/Decision_trees.md",
-    "MachineLearning/TreeModels/Random_forest.md",
-    "MachineLearning/Categorical_data_handeling.md",
-    "Statistics/Entropy.md",
-    "MachineLearning/Regression/Synergy_effect.md",
-    "MachineLearning/Statistical_modeling.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
-    "MachineLearning/ErrorMeasures/Cross-entropy.md",
-    "MediaCoding/Convolutions/Depthwise_convolution.md",
+    "SoftwarePatterns/Structural/Proxy_pattern.md",
     "MediaCoding/Convolutions/Convolution.md",
-    "MediaCoding/Convolutions/Depthwise_separable_convolution.md",
-    "MediaCoding/Convolutions/Pointwise_convolution.md",
-    "MediaCoding/Convolutions/Transposed_convolution.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/TreeModels/Regression_trees.md",
+    "XX-Attachments/Templates/Untitled.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/LogisticReg_vs_SVM.md",
+    "ProgramLanguages/Git.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/AnomalyDetect_vs_SLearning.md",
+    "ProgramLanguages/Rust/Rust_language.md",
+    "Databases/Join_handling.md",
+    "MachineLearning/Regression/Logistic_regression.md",
+    "MediaCoding/Media_coding.md",
+    "OperatingSystems/Linux_permissions.md",
+    "EmbeddedSystems/Transistors.md",
+    "Algorithms/SearchAlgorithms/Search_algorithms.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/DataProcessing/Data_leakage.md",
+    "MachineLearning/Regression/Linear_regression.md",
+    "MachineLearning/Regression/Synergy_effect.md",
+    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
+    "MediaCoding/ImageMatching/Image_features.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
+    "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
+    "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
+    "MachineLearning/Regression/Leverage_statistic.md",
+    "MachineLearning/Bias_variance_tradeoff.md",
     "XX-Attachments/Images/Pasted image 20240528212520.png",
     "XX-Attachments/Images/Pasted image 20240528212337.png",
     "XX-Attachments/Images/Pasted image 20240527211450.png",

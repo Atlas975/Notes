@@ -17,7 +17,7 @@ ___
 ![[Pasted image 20230428110030.png|500|500]]
 
 - B-trees themselves can be stored on disk, algorithms exists for insertion and deletion while maintaining tree constrains such as its balance
-- Constant splitting adds overhead for insertions and deletions, but maintains predictable search times
+- Constant splitting adds overhead for insertions/deletions, but maintains predictable search times
 
 ![[Pasted image 20230428110204.png|550|550]]
 
