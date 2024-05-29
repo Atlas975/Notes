@@ -23,10 +23,10 @@ ___
 ## One-hot encoding
 - No assumed ordering of categories (nominal values)
 - Does not perform well when a large amount of possible categories are present.
-- The boolean nature of this encoding scheme also gives it a high memory requirement, when analysing multiple sentences for example, vector dimensions will likely be too high
 
 ![[Pasted image 20231022154301.png|550|550]]
 
+- The boolean nature of this encoding scheme also gives it a high memory requirement, when analysing multiple sentences for example, vector dimensions will likely be too high
 ## Bag of words 
 - Each element / document is a unordered collection of words, in this scenario a counter object is used to get the frequency of each words occurrence. 
 - This typically used hashing possibly making the encoding process lengthy, however this does not suffer from the dimensionality growth rate that one-hot encoding does

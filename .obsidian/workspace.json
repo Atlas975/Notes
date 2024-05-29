@@ -559,7 +559,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
+                "file": "MachineLearning/Bias_variance_tradeoff.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -1103,7 +1103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Training/Backpropagation.md"
+                "file": "MachineLearning/Bias_variance_tradeoff.md"
               }
             }
           }
@@ -1138,7 +1138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
+                "file": "MachineLearning/Bias_variance_tradeoff.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1155,7 +1155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
+                "file": "MachineLearning/Bias_variance_tradeoff.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1229,16 +1229,19 @@
   },
   "active": "62a475066f014441",
   "lastOpenFiles": [
+    "MachineLearning/Statistical_modeling.md",
+    "MachineLearning/Categorical_data_handeling.md",
+    "MachineLearning/Regression/Logistic_regression.md",
+    "MachineLearning/Regression/Synergy_effect.md",
+    "MachineLearning/Regression/Linear_regression.md",
+    "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
+    "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
     "Statistics/Entropy.md",
     "MachineLearning/ErrorMeasures/Cross-entropy.md",
-    "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
-    "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
     "MachineLearning/Regression/Leverage_statistic.md",
-    "MachineLearning/Regression/Linear_regression.md",
-    "MachineLearning/Regression/Logistic_regression.md",
     "MediaCoding/Convolutions/Depthwise_convolution.md",
     "MediaCoding/Convolutions/Convolution.md",
     "MediaCoding/Convolutions/Depthwise_separable_convolution.md",
@@ -1252,9 +1255,6 @@
     "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
     "MachineLearning/GeneticAlgorithms/Selection.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
-    "ContinuousMath/Distance_metrics.md",
-    "MachineLearning/Classification/K-nearest_neighbours.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
     "XX-Attachments/Images/Pasted image 20240528212520.png",
     "XX-Attachments/Images/Pasted image 20240528212337.png",
     "XX-Attachments/Images/Pasted image 20240527211450.png",
