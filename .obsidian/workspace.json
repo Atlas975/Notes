@@ -710,6 +710,19 @@
             }
           },
           {
+            "id": "3cdbfa764574647f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Artificial_intelligence.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5ec545ef2f3c1d92",
             "type": "leaf",
             "state": {
@@ -1048,7 +1061,7 @@
             }
           }
         ],
-        "currentTab": 53
+        "currentTab": 54
       }
     ],
     "direction": "vertical"
@@ -1116,7 +1129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md"
+                "file": "MachineLearning/Artificial_intelligence.md"
               }
             }
           }
@@ -1151,7 +1164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1168,7 +1181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1240,8 +1253,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c15786fed9502786",
+  "active": "3cdbfa764574647f",
   "lastOpenFiles": [
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
     "MachineLearning/Clustering/Hierarchal_clustering.md",
     "MachineLearning/Clustering/K-means_clustering.md",
     "MachineLearning/Clustering/Clustering.md",
@@ -1263,7 +1277,6 @@
     "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
     "MachineLearning/Statistical_modeling.md",
     "MachineLearning/Ensemble_learning.md",
