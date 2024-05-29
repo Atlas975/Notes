@@ -572,7 +572,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
+                "file": "MachineLearning/FeatureEngineering/Machine_learning_features.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -1100,7 +1100,7 @@
             }
           }
         ],
-        "currentTab": 43
+        "currentTab": 33
       }
     ],
     "direction": "vertical"
@@ -1168,7 +1168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md"
+                "file": "MachineLearning/Classification/Naive_Bayes.md"
               }
             }
           }
@@ -1203,7 +1203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
+                "file": "MachineLearning/Classification/Naive_Bayes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1220,7 +1220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
+                "file": "MachineLearning/Classification/Naive_Bayes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1292,23 +1292,26 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "97429168da58826a",
+  "active": "4676adc201ffe8b1",
   "lastOpenFiles": [
+    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
+    "MachineLearning/FeatureEngineering/Normalisation.md",
+    "MachineLearning/GeneticAlgorithms/Mutation.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
+    "MachineLearning/GeneticAlgorithms/Crossover.md",
+    "MachineLearning/GeneticAlgorithms/Selection.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
     "MachineLearning/ErrorMeasures/Confusion_matrices.md",
     "MachineLearning/ErrorMeasures/Loss_functions.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
-    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
-    "MachineLearning/GeneticAlgorithms/Selection.md",
-    "MachineLearning/GeneticAlgorithms/Mutation.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
-    "MachineLearning/GeneticAlgorithms/Crossover.md",
     "MachineLearning/ErrorMeasures/Cross-entropy.md",
     "MachineLearning/Clustering/K-means_clustering.md",
     "MachineLearning/Clustering/Clustering.md",
@@ -1317,9 +1320,6 @@
     "MachineLearning/Clustering/Hierarchal_clustering.md",
     "MachineLearning/Classification/Naive_Bayes.md",
     "MachineLearning/Classification/Semantic_segmentation.md",
-    "MachineLearning/Classification/K-nearest_neighbours.md",
-    "MachineLearning/Regression/Logistic_regression.md",
-    "MachineLearning/Regression/Leverage_statistic.md",
     "XX-Attachments/Images/Pasted image 20240528212520.png",
     "XX-Attachments/Images/Pasted image 20240528212337.png",
     "XX-Attachments/Images/Pasted image 20240527211450.png",
