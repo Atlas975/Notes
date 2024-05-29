@@ -546,7 +546,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Categorical_data_handeling.md",
+                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -715,7 +715,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "24c959da3d270183",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -1061,7 +1074,7 @@
             }
           }
         ],
-        "currentTab": 54
+        "currentTab": 41
       }
     ],
     "direction": "vertical"
@@ -1129,7 +1142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md"
+                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md"
               }
             }
           }
@@ -1164,7 +1177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1181,7 +1194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1253,20 +1266,22 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3cdbfa764574647f",
+  "active": "3027dc3d60080b46",
   "lastOpenFiles": [
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
-    "MachineLearning/Clustering/Hierarchal_clustering.md",
     "MachineLearning/Clustering/K-means_clustering.md",
     "MachineLearning/Clustering/Clustering.md",
+    "MachineLearning/Categorical_data_handeling.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
+    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
+    "MachineLearning/ErrorMeasures/Loss_functions.md",
+    "MachineLearning/ErrorMeasures/Cross-entropy.md",
+    "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+    "MachineLearning/Clustering/Hierarchal_clustering.md",
     "MachineLearning/Classification/Naive_Bayes.md",
     "MachineLearning/Classification/Semantic_segmentation.md",
     "MachineLearning/Classification/K-nearest_neighbours.md",
-    "MachineLearning/ErrorMeasures/Cross-entropy.md",
-    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
-    "MachineLearning/ErrorMeasures/Loss_functions.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
     "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "MachineLearning/Regression/Logistic_regression.md",
@@ -1279,8 +1294,6 @@
     "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
     "MachineLearning/Statistical_modeling.md",
-    "MachineLearning/Ensemble_learning.md",
-    "MachineLearning/Categorical_data_handeling.md",
     "XX-Attachments/Images/Pasted image 20240528212520.png",
     "XX-Attachments/Images/Pasted image 20240528212337.png",
     "XX-Attachments/Images/Pasted image 20240527211450.png",
