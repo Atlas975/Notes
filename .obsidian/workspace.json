@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
+                "file": "MachineLearning/Clustering/Hierarchal_clustering.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -1048,7 +1048,7 @@
             }
           }
         ],
-        "currentTab": 32
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -1116,7 +1116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md"
+                "file": "MachineLearning/Clustering/Hierarchal_clustering.md"
               }
             }
           }
@@ -1151,7 +1151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+                "file": "MachineLearning/Clustering/Hierarchal_clustering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1168,7 +1168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+                "file": "MachineLearning/Clustering/Hierarchal_clustering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1240,8 +1240,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c4a8e6bab022d96a",
+  "active": "6bff6a51b5c427bf",
   "lastOpenFiles": [
+    "MachineLearning/ErrorMeasures/Cross-entropy.md",
+    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
+    "MachineLearning/ErrorMeasures/Loss_functions.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
+    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "MachineLearning/Regression/Logistic_regression.md",
     "MachineLearning/Regression/Leverage_statistic.md",
     "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
@@ -1261,13 +1268,6 @@
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
-    "MachineLearning/Regression/Linear_regression.md",
-    "MachineLearning/Regression/Synergy_effect.md",
-    "MachineLearning/TreeModels/Decision_trees.md",
-    "MachineLearning/Artificial_intelligence.md",
-    "MachineLearning/Classification/Naive_Bayes.md",
-    "Statistics/Monte_Carlo_method.md",
     "XX-Attachments/Images/Pasted image 20240528212520.png",
     "XX-Attachments/Images/Pasted image 20240528212337.png",
     "XX-Attachments/Images/Pasted image 20240527211450.png",

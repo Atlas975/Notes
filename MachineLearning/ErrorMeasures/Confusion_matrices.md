@@ -39,7 +39,7 @@ $$\frac{TN}{TN+FP}=\frac{TN}{|\text{Negatives}|}$$
 ## Negative predicted value
 - Proportion of truly negative outcomes to predicted negative (too many missed cases if low)
 
-$$\frac{TN}{TN+FN}=\frac{TN}{|\text{Positives}|}$$
+$$\frac{TN}{TN+FN}=\frac{TN}{|\text{Predicted negatives}|}$$
 
 ## F-score
 - A single metric that balances both **precision** and **recall**, this is useful as trying to increase either of the metrics often has a tradeoff with the other.  This uses a [[Mean#Harmonic mean|harmonic mean]] of the two 
