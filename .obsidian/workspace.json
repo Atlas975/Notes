@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Clustering/Hierarchal_clustering.md",
+                "file": "MachineLearning/Clustering/K-means_clustering.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -1116,7 +1116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Clustering/Hierarchal_clustering.md"
+                "file": "MachineLearning/Clustering/K-means_clustering.md"
               }
             }
           }
@@ -1151,7 +1151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Clustering/Hierarchal_clustering.md",
+                "file": "MachineLearning/Clustering/K-means_clustering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1168,7 +1168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Clustering/Hierarchal_clustering.md",
+                "file": "MachineLearning/Clustering/K-means_clustering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1242,6 +1242,12 @@
   },
   "active": "6bff6a51b5c427bf",
   "lastOpenFiles": [
+    "MachineLearning/Clustering/Hierarchal_clustering.md",
+    "MachineLearning/Clustering/Clustering.md",
+    "MachineLearning/Classification/Naive_Bayes.md",
+    "MachineLearning/Classification/Semantic_segmentation.md",
+    "MachineLearning/Classification/K-nearest_neighbours.md",
+    "MachineLearning/Clustering/K-means_clustering.md",
     "MachineLearning/ErrorMeasures/Cross-entropy.md",
     "MachineLearning/ErrorMeasures/Confusion_matrices.md",
     "MachineLearning/ErrorMeasures/Loss_functions.md",
@@ -1262,12 +1268,6 @@
     "MachineLearning/Statistical_modeling.md",
     "MachineLearning/Ensemble_learning.md",
     "MachineLearning/Categorical_data_handeling.md",
-    "MachineLearning/Bias_variance_tradeoff.md",
-    "MachineLearning/TreeModels/Random_forest.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
     "XX-Attachments/Images/Pasted image 20240528212520.png",
     "XX-Attachments/Images/Pasted image 20240528212337.png",
     "XX-Attachments/Images/Pasted image 20240527211450.png",
