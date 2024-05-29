@@ -416,7 +416,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Bias_variance_tradeoff.md",
+                "file": "MachineLearning/Ensemble_learning.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -1025,7 +1025,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Bias_variance_tradeoff.md"
+                "file": "MachineLearning/Ensemble_learning.md"
               }
             }
           }
@@ -1033,8 +1033,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -1061,7 +1060,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Bias_variance_tradeoff.md",
+                "file": "MachineLearning/Ensemble_learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1078,7 +1077,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Bias_variance_tradeoff.md",
+                "file": "MachineLearning/Ensemble_learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1152,9 +1151,10 @@
   },
   "active": "05714c1c9f77872e",
   "lastOpenFiles": [
+    "MachineLearning/Categorical_data_handeling.md",
+    "MachineLearning/Bias_variance_tradeoff.md",
     "XX-Attachments/Images/Pasted image 20240528212520.png",
     "XX-Attachments/Images/Pasted image 20240528212337.png",
-    "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
@@ -1167,7 +1167,6 @@
     "ContinuousMath/Distance_metrics.md",
     "MachineLearning/Clustering/Hierarchal_clustering.md",
     "MachineLearning/Ensemble_learning.md",
-    "MachineLearning/Bias_variance_tradeoff.md",
     "MachineLearning/Regression/Synergy_effect.md",
     "MachineLearning/Regression/Logistic_regression.md",
     "MachineLearning/Regression/Linear_regression.md",
@@ -1187,7 +1186,6 @@
     "XX-Attachments/Images/Pasted image 20240522010150.png",
     "XX-Attachments/Images/Pasted image 20240522004739.png",
     "XX-Attachments/Images/Pasted image 20240521234528.png",
-    "XX-Attachments/Images/Pasted image 20240521181651.png",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",
