@@ -663,7 +663,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Bayes_theorem.md",
+                "file": "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d26081cd55a7f583",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MediaCoding/Filters/Pooling.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -1191,7 +1204,7 @@
             }
           }
         ],
-        "currentTab": 50
+        "currentTab": 51
       }
     ],
     "direction": "vertical"
@@ -1259,7 +1272,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Bayes_theorem.md"
+                "file": "MediaCoding/Filters/Pooling.md"
               }
             }
           }
@@ -1294,7 +1307,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Bayes_theorem.md",
+                "file": "MediaCoding/Filters/Pooling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1311,7 +1324,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Bayes_theorem.md",
+                "file": "MediaCoding/Filters/Pooling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1383,16 +1396,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "26dcfc47c145ecd8",
+  "active": "d26081cd55a7f583",
   "lastOpenFiles": [
+    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
+    "Statistics/Bayes_theorem.md",
     "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/Bias_variance_tradeoff.md",
     "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/TreeModels/Decision_trees.md",
     "MachineLearning/Regression/Logistic_regression.md",
     "MachineLearning/Regression/Linear_regression.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
@@ -1410,7 +1424,6 @@
     "MachineLearning/TreeModels/Random_forest.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
     "MachineLearning/ErrorMeasures/Cross-entropy.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
     "XX-Attachments/Images/Pasted image 20240528212520.png",
     "XX-Attachments/Images/Pasted image 20240528212337.png",
     "XX-Attachments/Images/Pasted image 20240527211450.png",
