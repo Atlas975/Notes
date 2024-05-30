@@ -689,8 +689,47 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+                "file": "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "31a48c289f583ce1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/TreeModels/Random_forest.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e2c206b9891e7b06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Artificial_intelligence.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b5c90306e25c4ee6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Artificial_intelligence.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -1100,7 +1139,7 @@
             }
           }
         ],
-        "currentTab": 52
+        "currentTab": 54
       }
     ],
     "direction": "vertical"
@@ -1168,7 +1207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md"
+                "file": "MachineLearning/Artificial_intelligence.md"
               }
             }
           }
@@ -1203,7 +1242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1220,7 +1259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1292,34 +1331,34 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "2f84e0ee78b4b16c",
+  "active": "e2c206b9891e7b06",
   "lastOpenFiles": [
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
-    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
-    "MachineLearning/GeneticAlgorithms/Selection.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
+    "MachineLearning/cross[.md",
+    "MachineLearning/TreeModels/Random_forest.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Generative_adversarial_networks.md",
+    "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
+    "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
+    "MachineLearning/Classification/Naive_Bayes.md",
+    "MachineLearning/ErrorMeasures/Cross-entropy.md",
+    "MachineLearning/Artificial_intelligence.md",
+    "MachineLearning/Regression/Linear_regression.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/Conditional_GAN.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
+    "MachineLearning/Classification/Semantic_segmentation.md",
+    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
+    "MachineLearning/GeneticAlgorithms/Selection.md",
     "MediaCoding/Filters/Unpooling.md",
     "MachineLearning/Bias_variance_tradeoff.md",
     "MachineLearning/ErrorMeasures/Confusion_matrices.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
-    "MachineLearning/GeneticAlgorithms/Mutation.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
-    "MachineLearning/Classification/Naive_Bayes.md",
-    "MachineLearning/FeatureEngineering/Normalisation.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
-    "MachineLearning/GeneticAlgorithms/Crossover.md",
-    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
-    "MachineLearning/ErrorMeasures/Loss_functions.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
-    "MachineLearning/ErrorMeasures/Cross-entropy.md",
-    "MachineLearning/Clustering/K-means_clustering.md",
     "XX-Attachments/Images/Pasted image 20240528212520.png",
     "XX-Attachments/Images/Pasted image 20240528212337.png",
     "XX-Attachments/Images/Pasted image 20240527211450.png",
