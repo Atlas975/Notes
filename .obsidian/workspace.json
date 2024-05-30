@@ -658,6 +658,19 @@
             }
           },
           {
+            "id": "26dcfc47c145ecd8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Bayes_theorem.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0c1cbd764478b60f",
             "type": "leaf",
             "state": {
@@ -1178,7 +1191,7 @@
             }
           }
         ],
-        "currentTab": 49
+        "currentTab": 50
       }
     ],
     "direction": "vertical"
@@ -1246,7 +1259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Categorical_data_handeling.md"
+                "file": "Statistics/Bayes_theorem.md"
               }
             }
           }
@@ -1281,7 +1294,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Categorical_data_handeling.md",
+                "file": "Statistics/Bayes_theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1298,7 +1311,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Categorical_data_handeling.md",
+                "file": "Statistics/Bayes_theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1370,8 +1383,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "08a9a4b2492b7c0a",
+  "active": "26dcfc47c145ecd8",
   "lastOpenFiles": [
+    "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/Bias_variance_tradeoff.md",
     "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/TreeModels/Decision_trees.md",
@@ -1397,7 +1411,6 @@
     "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
     "MachineLearning/ErrorMeasures/Cross-entropy.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
     "XX-Attachments/Images/Pasted image 20240528212520.png",
     "XX-Attachments/Images/Pasted image 20240528212337.png",
     "XX-Attachments/Images/Pasted image 20240527211450.png",
