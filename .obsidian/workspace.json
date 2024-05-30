@@ -754,7 +754,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Artificial_intelligence.md",
+                "file": "MachineLearning/Categorical_data_handeling.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -1204,7 +1204,7 @@
             }
           }
         ],
-        "currentTab": 51
+        "currentTab": 60
       }
     ],
     "direction": "vertical"
@@ -1272,7 +1272,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MediaCoding/Filters/Pooling.md"
+                "file": "MachineLearning/Artificial_intelligence.md"
               }
             }
           }
@@ -1307,7 +1307,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MediaCoding/Filters/Pooling.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1324,7 +1324,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MediaCoding/Filters/Pooling.md",
+                "file": "MachineLearning/Artificial_intelligence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1396,15 +1396,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d26081cd55a7f583",
+  "active": "b5c90306e25c4ee6",
   "lastOpenFiles": [
+    "MachineLearning/Categorical_data_handeling.md",
+    "MachineLearning/TreeModels/Random_forest.md",
+    "MachineLearning/TreeModels/Decision_trees.md",
+    "MachineLearning/Artificial_intelligence.md",
+    "MediaCoding/Filters/Pooling.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
     "Statistics/Bayes_theorem.md",
-    "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/Bias_variance_tradeoff.md",
-    "MachineLearning/Artificial_intelligence.md",
-    "MachineLearning/TreeModels/Decision_trees.md",
     "MachineLearning/Regression/Logistic_regression.md",
     "MachineLearning/Regression/Linear_regression.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
@@ -1421,9 +1423,7 @@
     "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
     "MachineLearning/Statistical_modeling.md",
     "MachineLearning/Ensemble_learning.md",
-    "MachineLearning/TreeModels/Random_forest.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
-    "MachineLearning/ErrorMeasures/Cross-entropy.md",
     "XX-Attachments/Images/Pasted image 20240528212520.png",
     "XX-Attachments/Images/Pasted image 20240528212337.png",
     "XX-Attachments/Images/Pasted image 20240527211450.png",
