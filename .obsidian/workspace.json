@@ -791,12 +791,13 @@
             "id": "b5c90306e25c4ee6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "MachineLearning/TreeModels/Random_forest.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
+                "file": "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",
+                "page": 1,
+                "left": -8,
+                "top": 489,
+                "zoom": 1.9510416666666666
               }
             }
           },
@@ -1272,7 +1273,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/TreeModels/Random_forest.md"
+                "file": "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf"
               }
             }
           }
@@ -1307,7 +1308,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/TreeModels/Random_forest.md",
+                "file": "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1324,7 +1325,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/TreeModels/Random_forest.md",
+                "file": "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1393,18 +1394,24 @@
       "oz-clear-unused-images:Clear Unused Images": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
-      "omnisearch:Omnisearch": false
+      "obsidian-kanban:Create new board": false,
+      "omnisearch:Omnisearch": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
   "active": "b5c90306e25c4ee6",
   "lastOpenFiles": [
+    "XX-Attachments/Images/PoPGwxvuEein8Q5msPYVqg_3edb0e701bee11e8a3bbdda3bd061ec3_maths4ml-linearalgebra-formula.pdf",
+    "XX-Attachments/Images/Numpy Handbook.pdf",
+    "MachineLearning/TreeModels/Random_forest.md",
     "MachineLearning/Regression/Linear_regression.md",
     "MachineLearning/Regression/Leverage_statistic.md",
     "MachineLearning/Regression/Synergy_effect.md",
     "MachineLearning/Regression/Logistic_regression.md",
     "MachineLearning/Artificial_intelligence.md",
     "MachineLearning/Categorical_data_handeling.md",
-    "MachineLearning/TreeModels/Random_forest.md",
     "MachineLearning/TreeModels/Decision_trees.md",
     "MediaCoding/Filters/Pooling.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
@@ -1423,7 +1430,6 @@
     "MachineLearning/GeneticAlgorithms/Mutation.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
     "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
-    "MachineLearning/Statistical_modeling.md",
     "XX-Attachments/Images/Pasted image 20240528212520.png",
     "XX-Attachments/Images/Pasted image 20240528212337.png",
     "XX-Attachments/Images/Pasted image 20240527211450.png",
@@ -1439,7 +1445,6 @@
     "DistributedSystems/Consensus",
     "DistributedSystems/CommunicationModels",
     "Languages&Compilation/CompilerConstruction/CompilationTypes",
-    "XX-Attachments/Images/Numpy Handbook.pdf",
     "XX-Attachments/Images/math3283-hw4-f16-sol.pdf",
     "Languages&Compilation/CompilerConstruction/Synthesis",
     "Languages&Compilation/CompilerConstruction/Analysis",
