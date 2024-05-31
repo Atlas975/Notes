@@ -619,6 +619,19 @@
             }
           },
           {
+            "id": "794685113671e39f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "870416250a5c1e21",
             "type": "leaf",
             "state": {
@@ -1022,7 +1035,7 @@
             }
           }
         ],
-        "currentTab": 46
+        "currentTab": 47
       }
     ],
     "direction": "vertical"
@@ -1090,7 +1103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Entropy.md"
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md"
               }
             }
           }
@@ -1125,7 +1138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Entropy.md",
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1142,7 +1155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Entropy.md",
+                "file": "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1218,8 +1231,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "5c073655199c8b5c",
+  "active": "794685113671e39f",
   "lastOpenFiles": [
+    "Statistics/Entropy.md",
     "MachineLearning/TreeModels/Decision_trees.md",
     "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
@@ -1248,7 +1262,6 @@
     "MachineLearning/GeneticAlgorithms/Crossover.md",
     "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
-    "MachineLearning/GeneticAlgorithms/Mutation.md",
     "XX-Attachments/Images/Pasted image 20240528212520.png",
     "XX-Attachments/Images/Pasted image 20240528212337.png",
     "XX-Attachments/Images/Pasted image 20240527211450.png",
