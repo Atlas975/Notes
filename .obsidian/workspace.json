@@ -619,189 +619,6 @@
             }
           },
           {
-            "id": "6120a8ef3216037c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/TreeModels/Decision_trees.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "711e6bd54ac6f22a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/TreeModels/Decision_trees.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "08a9a4b2492b7c0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Categorical_data_handeling.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "26dcfc47c145ecd8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d26081cd55a7f583",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/Filters/Pooling.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0c1cbd764478b60f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Regression/Linear_regression.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "106091dc66ae6019",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Regression/Linear_regression.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9a1cecb3da4e445a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/Likelihood.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2f84e0ee78b4b16c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "31a48c289f583ce1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/TreeModels/Random_forest.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e2c206b9891e7b06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Categorical_data_handeling.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "da25d065db4f80f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e5851754a3fc5dfb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b5c90306e25c4ee6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",
-                "page": 1,
-                "left": -8,
-                "top": 489,
-                "zoom": 1.9510416666666666
-              }
-            }
-          },
-          {
             "id": "870416250a5c1e21",
             "type": "leaf",
             "state": {
@@ -1205,7 +1022,7 @@
             }
           }
         ],
-        "currentTab": 60
+        "currentTab": 46
       }
     ],
     "direction": "vertical"
@@ -1273,7 +1090,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf"
+                "file": "Statistics/Entropy.md"
               }
             }
           }
@@ -1308,7 +1125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",
+                "file": "Statistics/Entropy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1325,7 +1142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",
+                "file": "Statistics/Entropy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1401,20 +1218,24 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b5c90306e25c4ee6",
+  "active": "5c073655199c8b5c",
   "lastOpenFiles": [
+    "MachineLearning/TreeModels/Decision_trees.md",
+    "MachineLearning/Categorical_data_handeling.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
+    "MediaCoding/Filters/Pooling.md",
+    "MachineLearning/Regression/Linear_regression.md",
+    "Statistics/Likelihood.md",
+    "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
+    "MachineLearning/TreeModels/Random_forest.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+    "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",
     "XX-Attachments/Images/PoPGwxvuEein8Q5msPYVqg_3edb0e701bee11e8a3bbdda3bd061ec3_maths4ml-linearalgebra-formula.pdf",
     "XX-Attachments/Images/Numpy Handbook.pdf",
-    "MachineLearning/TreeModels/Random_forest.md",
-    "MachineLearning/Regression/Linear_regression.md",
     "MachineLearning/Regression/Leverage_statistic.md",
     "MachineLearning/Regression/Synergy_effect.md",
     "MachineLearning/Regression/Logistic_regression.md",
     "MachineLearning/Artificial_intelligence.md",
-    "MachineLearning/Categorical_data_handeling.md",
-    "MachineLearning/TreeModels/Decision_trees.md",
-    "MediaCoding/Filters/Pooling.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
     "Statistics/Bayes_theorem.md",
     "MachineLearning/Bias_variance_tradeoff.md",
@@ -1428,8 +1249,6 @@
     "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/GeneticAlgorithms/Mutation.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
-    "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
     "XX-Attachments/Images/Pasted image 20240528212520.png",
     "XX-Attachments/Images/Pasted image 20240528212337.png",
     "XX-Attachments/Images/Pasted image 20240527211450.png",
@@ -1446,8 +1265,6 @@
     "DistributedSystems/CommunicationModels",
     "Languages&Compilation/CompilerConstruction/CompilationTypes",
     "XX-Attachments/Images/math3283-hw4-f16-sol.pdf",
-    "Languages&Compilation/CompilerConstruction/Synthesis",
-    "Languages&Compilation/CompilerConstruction/Analysis",
-    "Languages&Compilation/CompilerConstruction"
+    "Languages&Compilation/CompilerConstruction/Synthesis"
   ]
 }
