@@ -11,7 +11,8 @@
 
 ___
 # Bisect algorithm
-- A technique which utilises [[Binary_search|binary search]] on a sorted sequence to find the index an element should be inserted at. A left bisect places this to the left of equal elements a right bisect does this to the right 
+- A technique which utilises [[Binary_search|binary search]] on a sorted sequence to find the index an element should be inserted at. 
+- A left bisect places this to the left of equal elements a right bisect does this to the right 
 - The bisect functionality is useful in sorted sequences to maintain the sorted property 
 
 

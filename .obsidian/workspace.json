@@ -632,6 +632,19 @@
             }
           },
           {
+            "id": "cf909f3748d62bac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/Bisect_algorithm.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "870416250a5c1e21",
             "type": "leaf",
             "state": {
@@ -1035,7 +1048,7 @@
             }
           }
         ],
-        "currentTab": 47
+        "currentTab": 48
       }
     ],
     "direction": "vertical"
@@ -1103,7 +1116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md"
+                "file": "Algorithms/Bisect_algorithm.md"
               }
             }
           }
@@ -1138,7 +1151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+                "file": "Algorithms/Bisect_algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1155,7 +1168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
+                "file": "Algorithms/Bisect_algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1231,8 +1244,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "794685113671e39f",
+  "active": "cf909f3748d62bac",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
     "Algorithms/ProgrammingPatterns/Binary_search.md",
@@ -1261,7 +1275,6 @@
     "Statistics/Bayes_theorem.md",
     "MachineLearning/Bias_variance_tradeoff.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
     "XX-Attachments/Images/Pasted image 20240528212520.png",
     "XX-Attachments/Images/Pasted image 20240528212337.png",
     "XX-Attachments/Images/Pasted image 20240527211450.png",
