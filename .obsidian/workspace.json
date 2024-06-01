@@ -697,6 +697,19 @@
             }
           },
           {
+            "id": "f03489eec2a147a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/Trees/Tree_traversal.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "870416250a5c1e21",
             "type": "leaf",
             "state": {
@@ -1100,7 +1113,7 @@
             }
           }
         ],
-        "currentTab": 52
+        "currentTab": 53
       }
     ],
     "direction": "vertical"
@@ -1168,7 +1181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Trees/Binary_index_tree.md"
+                "file": "Algorithms/Trees/Tree_traversal.md"
               }
             }
           }
@@ -1203,7 +1216,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Trees/Binary_index_tree.md",
+                "file": "Algorithms/Trees/Tree_traversal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1220,7 +1233,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Trees/Binary_index_tree.md",
+                "file": "Algorithms/Trees/Tree_traversal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1296,8 +1309,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "90d3b6fdb11682bf",
+  "active": "f03489eec2a147a3",
   "lastOpenFiles": [
+    "Algorithms/Trees/Binary_index_tree.md",
     "Algorithms/Trees/Tree_traversal.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "DataStructures/Trees.md",
@@ -1326,7 +1340,6 @@
     "MachineLearning/Regression/Leverage_statistic.md",
     "MachineLearning/Regression/Synergy_effect.md",
     "MachineLearning/Regression/Logistic_regression.md",
-    "MachineLearning/Artificial_intelligence.md",
     "XX-Attachments/Images/Pasted image 20240528212520.png",
     "XX-Attachments/Images/Pasted image 20240528212337.png",
     "XX-Attachments/Images/Pasted image 20240527211450.png",
