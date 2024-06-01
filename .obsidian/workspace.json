@@ -645,6 +645,19 @@
             }
           },
           {
+            "id": "65b09bd5876f8e0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Two_pointers.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "870416250a5c1e21",
             "type": "leaf",
             "state": {
@@ -1048,7 +1061,7 @@
             }
           }
         ],
-        "currentTab": 48
+        "currentTab": 49
       }
     ],
     "direction": "vertical"
@@ -1116,7 +1129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Bisect_algorithm.md"
+                "file": "Algorithms/ProgrammingPatterns/Two_pointers.md"
               }
             }
           }
@@ -1151,7 +1164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Bisect_algorithm.md",
+                "file": "Algorithms/ProgrammingPatterns/Two_pointers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1168,7 +1181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Bisect_algorithm.md",
+                "file": "Algorithms/ProgrammingPatterns/Two_pointers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1244,8 +1257,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "cf909f3748d62bac",
+  "active": "65b09bd5876f8e0f",
   "lastOpenFiles": [
+    "Algorithms/Bisect_algorithm.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
@@ -1274,7 +1288,6 @@
     "MachineLearning/NeuralNetworks/NetworkTypes/GAN/DCGAN.md",
     "Statistics/Bayes_theorem.md",
     "MachineLearning/Bias_variance_tradeoff.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
     "XX-Attachments/Images/Pasted image 20240528212520.png",
     "XX-Attachments/Images/Pasted image 20240528212337.png",
     "XX-Attachments/Images/Pasted image 20240527211450.png",
