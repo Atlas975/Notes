@@ -1,7 +1,4 @@
 
----
-aliases: BIT
----
 
 > [!important]- Metadata
 > **Tags:** #ADTs 
