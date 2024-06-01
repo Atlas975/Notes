@@ -1113,7 +1113,7 @@
             }
           }
         ],
-        "currentTab": 53
+        "currentTab": 51
       }
     ],
     "direction": "vertical"
@@ -1181,7 +1181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Trees/Tree_traversal.md"
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md"
               }
             }
           }
@@ -1216,7 +1216,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Trees/Tree_traversal.md",
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1233,7 +1233,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Trees/Tree_traversal.md",
+                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1309,10 +1309,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f03489eec2a147a3",
+  "active": "57ca31a307bcb8da",
   "lastOpenFiles": [
-    "Algorithms/Trees/Binary_index_tree.md",
     "Algorithms/Trees/Tree_traversal.md",
+    "Algorithms/Trees/Binary_index_tree.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "DataStructures/Trees.md",
     "Algorithms/ProgrammingPatterns/Two_pointers.md",
