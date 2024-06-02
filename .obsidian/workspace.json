@@ -676,7 +676,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Two_pointers.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -1181,7 +1181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md"
+                "file": "Algorithms/ProgrammingPatterns/Two_pointers.md"
               }
             }
           }
@@ -1216,7 +1216,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Two_pointers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1233,7 +1233,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
+                "file": "Algorithms/ProgrammingPatterns/Two_pointers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1311,9 +1311,9 @@
   },
   "active": "57ca31a307bcb8da",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "Algorithms/Trees/Tree_traversal.md",
     "Algorithms/Trees/Binary_index_tree.md",
-    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "DataStructures/Trees.md",
     "Algorithms/ProgrammingPatterns/Two_pointers.md",
     "Algorithms/Bisect_algorithm.md",
