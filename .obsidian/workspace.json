@@ -507,7 +507,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
+                "file": "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -572,7 +572,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
+                "file": "MachineLearning/ErrorMeasures/Loss_functions.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -1126,7 +1126,7 @@
             }
           }
         ],
-        "currentTab": 38
+        "currentTab": 43
       }
     ],
     "direction": "vertical"
@@ -1194,7 +1194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md"
+                "file": "MachineLearning/ErrorMeasures/Loss_functions.md"
               }
             }
           }
@@ -1229,7 +1229,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
+                "file": "MachineLearning/ErrorMeasures/Loss_functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1246,7 +1246,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
+                "file": "MachineLearning/ErrorMeasures/Loss_functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1322,8 +1322,17 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "9bb47fdee7fb0e82",
+  "active": "575ff11c12b91dfe",
   "lastOpenFiles": [
+    "MachineLearning/ErrorMeasures/Cross-entropy.md",
+    "MachineLearning/Clustering/Clustering.md",
+    "MachineLearning/Clustering/Hierarchal_clustering.md",
+    "MachineLearning/Clustering/K-means_clustering.md",
+    "MachineLearning/Classification/K-nearest_neighbours.md",
+    "MachineLearning/Classification/Semantic_segmentation.md",
+    "MachineLearning/Classification/Naive_Bayes.md",
+    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
+    "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
     "Algorithms/ProgrammingPatterns/Two_pointers.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
@@ -1335,24 +1344,15 @@
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
     "Algorithms/ProgrammingPatterns/Binary_search.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
-    "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Statistics/Entropy.md",
     "MachineLearning/TreeModels/Decision_trees.md",
     "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
-    "MediaCoding/Filters/Pooling.md",
-    "MachineLearning/Regression/Linear_regression.md",
-    "Statistics/Likelihood.md",
-    "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
-    "MachineLearning/TreeModels/Random_forest.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
     "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",
     "XX-Attachments/Images/PoPGwxvuEein8Q5msPYVqg_3edb0e701bee11e8a3bbdda3bd061ec3_maths4ml-linearalgebra-formula.pdf",
     "XX-Attachments/Images/Numpy Handbook.pdf",
-    "MachineLearning/Regression/Leverage_statistic.md",
-    "MachineLearning/Regression/Synergy_effect.md",
     "XX-Attachments/Images/Pasted image 20240528212520.png",
     "XX-Attachments/Images/Pasted image 20240528212337.png",
     "XX-Attachments/Images/Pasted image 20240527211450.png",
