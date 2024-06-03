@@ -1126,7 +1126,7 @@
             }
           }
         ],
-        "currentTab": 52
+        "currentTab": 38
       }
     ],
     "direction": "vertical"
@@ -1194,7 +1194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Heap_algorithms.md"
+                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md"
               }
             }
           }
@@ -1229,7 +1229,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
+                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1246,7 +1246,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
+                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1322,8 +1322,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "ff06fd2b5a183804",
+  "active": "9bb47fdee7fb0e82",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
     "Algorithms/ProgrammingPatterns/Two_pointers.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
     "Algorithms/Trees/Tree_traversal.md",
@@ -1352,7 +1353,6 @@
     "XX-Attachments/Images/Numpy Handbook.pdf",
     "MachineLearning/Regression/Leverage_statistic.md",
     "MachineLearning/Regression/Synergy_effect.md",
-    "MachineLearning/Regression/Logistic_regression.md",
     "XX-Attachments/Images/Pasted image 20240528212520.png",
     "XX-Attachments/Images/Pasted image 20240528212337.png",
     "XX-Attachments/Images/Pasted image 20240527211450.png",

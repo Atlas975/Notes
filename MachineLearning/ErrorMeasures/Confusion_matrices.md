@@ -37,7 +37,7 @@ $$\frac{TP}{TP+FP}=\frac{TP}{|\text{Predicted positives|}}$$
 $$\frac{TN}{TN+FP}=\frac{TN}{|\text{Negatives}|}$$
 
 ## Negative predicted value
-- Proportion of truly negative outcomes to predicted negative (too many missed cases if low)
+- Proportion of truly negative outcomes to predicted negative (too many missed diagnosis if low)
 
 $$\frac{TN}{TN+FN}=\frac{TN}{|\text{Predicted negatives}|}$$
 
