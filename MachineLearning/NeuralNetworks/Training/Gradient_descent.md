@@ -39,7 +39,7 @@ $$I_{\beta}=\text{cost function gradient with respect to each parameter}$$
 - Processes entire training set every iteration, computationally expensive for large datasets.
 - Offers stable convergence to the global minimum for convex error surfaces and a local minimum for non-convex surfaces, with consistent error gradient calculation
 
-### Stochastic gradient descent
+### Stochastic gradient descent 
 - Updates the parameters after each training example, leading to faster iterations but more noise in the convergence path.
 - Provides the advantage of potentially escaping local minima due to the noisy steps, making it suitable for non-convex error functions
 ### Mini-batch gradient descent
