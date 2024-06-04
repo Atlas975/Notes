@@ -580,6 +580,19 @@
             }
           },
           {
+            "id": "dafabaea1e061585",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/ErrorMeasures/Cross-entropy.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "97429168da58826a",
             "type": "leaf",
             "state": {
@@ -1126,7 +1139,7 @@
             }
           }
         ],
-        "currentTab": 43
+        "currentTab": 44
       }
     ],
     "direction": "vertical"
@@ -1194,7 +1207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Loss_functions.md"
+                "file": "MachineLearning/ErrorMeasures/Cross-entropy.md"
               }
             }
           }
@@ -1229,7 +1242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Loss_functions.md",
+                "file": "MachineLearning/ErrorMeasures/Cross-entropy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1246,7 +1259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/ErrorMeasures/Loss_functions.md",
+                "file": "MachineLearning/ErrorMeasures/Cross-entropy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1322,8 +1335,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "575ff11c12b91dfe",
+  "active": "dafabaea1e061585",
   "lastOpenFiles": [
+    "MachineLearning/ErrorMeasures/Loss_functions.md",
     "MachineLearning/ErrorMeasures/Cross-entropy.md",
     "MachineLearning/Clustering/Clustering.md",
     "MachineLearning/Clustering/Hierarchal_clustering.md",
@@ -1349,7 +1363,6 @@
     "Statistics/Entropy.md",
     "MachineLearning/TreeModels/Decision_trees.md",
     "MachineLearning/Categorical_data_handeling.md",
-    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
     "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",
     "XX-Attachments/Images/PoPGwxvuEein8Q5msPYVqg_3edb0e701bee11e8a3bbdda3bd061ec3_maths4ml-linearalgebra-formula.pdf",
     "XX-Attachments/Images/Numpy Handbook.pdf",
