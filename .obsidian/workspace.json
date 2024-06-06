@@ -338,7 +338,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
+                "file": "MachineLearning/Transformers/Self-attention.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -1169,7 +1169,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:tp.file.cursor(2)",
+                "query": "tag:#StatisticalLearning",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -1207,7 +1207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Training/Gradient_descent.md"
+                "file": "MachineLearning/Transformers/Self-attention.md"
               }
             }
           }
@@ -1215,8 +1215,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -1243,7 +1242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
+                "file": "MachineLearning/Transformers/Self-attention.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1260,7 +1259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
+                "file": "MachineLearning/Transformers/Self-attention.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1338,6 +1337,10 @@
   },
   "active": "59ef0827d3f8e151",
   "lastOpenFiles": [
+    "MachineLearning/Transformers/Transformers.md",
+    "MachineLearning/Transformers/Self-attention.md",
+    "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
+    "MachineLearning/Transformers",
     "MachineLearning/ErrorMeasures/Cross-entropy.md",
     "MachineLearning/ErrorMeasures/Loss_functions.md",
     "MachineLearning/Clustering/Clustering.md",
@@ -1361,9 +1364,6 @@
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
-    "Statistics/Entropy.md",
-    "MachineLearning/TreeModels/Decision_trees.md",
-    "MachineLearning/Categorical_data_handeling.md",
     "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",
     "XX-Attachments/Images/PoPGwxvuEein8Q5msPYVqg_3edb0e701bee11e8a3bbdda3bd061ec3_maths4ml-linearalgebra-formula.pdf",
     "XX-Attachments/Images/Numpy Handbook.pdf",
@@ -1382,7 +1382,6 @@
     "DistributedSystems/Consensus",
     "DistributedSystems/CommunicationModels",
     "Languages&Compilation/CompilerConstruction/CompilationTypes",
-    "XX-Attachments/Images/math3283-hw4-f16-sol.pdf",
-    "Languages&Compilation/CompilerConstruction/Synthesis"
+    "XX-Attachments/Images/math3283-hw4-f16-sol.pdf"
   ]
 }
