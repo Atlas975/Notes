@@ -10,5 +10,28 @@
 
 ___
 # Self-attention
-- A mechanism in [[Neural_networks|neural networks]] primarily used in [[Transformers|transformer]] models, allows the model to weigh the importance of different tokens in a sequence relative to each other
-- This helps the model understand the context of each word by considering its relationship with other words in the sequence
+- A mechanism in [[Neural_networks|neural networks]] primarily used for [[Transformers|transformer]] models. This is crucial for tasks like translation, where the meaning of a word can depend on the words around it
+- Self-attention helps the model understand the context of each word by considering its relationship with other words in the sequence
+
+![[Pasted image 20240606213618.png|400|350]]
+
+
+## Input embedding 
+- Each word in the input sequence is converted into a dense vector representation.
+- For a sentence “The cat sat on the mat,” the input embeddings may look like:
+
+```
+X = [x_1, x_2, x_3, x_4, x_5, x_6]
+```
+
+## Query, Key, Value vectors 
+
+
+## Score calculation 
+
+
+## Scaling 
+
+## Softmax function
+
+## Weighted sum
