@@ -794,7 +794,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -1364,10 +1364,11 @@
   },
   "active": "8939276dc6d66bef",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240607164255.png",
+    "MachineLearning/Transformers/Self-attention.md",
+    "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
     "XX-Attachments/Images/Pasted image 20240607160736.png",
     "MachineLearning/NaturalLanguageProcessing/Natural_language_processing.md",
-    "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
-    "MachineLearning/Transformers/Self-attention.md",
     "MachineLearning/NaturalLanguageProcessing",
     "MachineLearning/Transformers/Transformers.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
@@ -1404,7 +1405,6 @@
     "XX-Attachments/Images/Pasted image 20240526193752.png",
     "XX-Attachments/Images/Pasted image 20240526193739.png",
     "XX-Attachments/Images/Pasted image 20240522010150.png",
-    "XX-Attachments/Images/Pasted image 20240522004739.png",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",

@@ -17,4 +17,9 @@ ___
 ![[Pasted image 20240607160736.png|350|350]]
 
 - A higher dimensional embedding can capture fine-grained relationships between words and offer better word seperation, but takes more data to learn. 
-- A well-trained embedding shoud
+- A well-trained embedding should give words that appear in similar contexts a similar embeddings and capture complex relationships eg
+$$E(\text{king})-E(\text{man})\approx E(\text{queen})-E(\text{women})$$
+- This may require giving words multiple embeddings eg literal vs sarcastic use variants of a word
+- The floating point numbers used to form these embeddings are found via a [[Neural_networks|neural net]]
+
+![[Pasted image 20240607164255.png|400|400]]
