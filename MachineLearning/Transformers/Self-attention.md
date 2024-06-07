@@ -11,7 +11,7 @@
 ___
 # Self-attention
 - A mechanism in [[Neural_networks|neural networks]] primarily used for [[Transformers|transformer]] models. This is crucial for tasks like translation, where the meaning of a word can depend on the words around it
-- This mechanism enables the model to weigh the importance of tokens in a sequence relative to each other. This is also done in [[Concurrency|parallel]] rather than sequentially, taking advanatge of [[Multi-Process_systems]]
+- This mechanism enables the model to weigh the importance of tokens in a sequence relative to each other. This is also done in [[Concurrency|parallel]] rather than sequentially
 
 ![[Pasted image 20240606213618.png|400|350]]
 
@@ -22,9 +22,9 @@ ___
 
 $$\text{Input}=[x_{\text{The}},x_{\text{cat}},x_{\text{sat}},x_{\text{on}},x_{\text{the}},x_{\text{mat}}]$$
 ## Query, Key, Value vectors 
-- **Query (Q)**: Represents what the word is looking for in other words.
-- **Key (K)**: Represents what the word contains that other words might be interested in.
-- **Value (V)**: The actual content that we are interested in.
+- **Query ($Q$)**: represents what the word is looking for in other words.
+- **Key ($K$)**: represents what the word contains that other words might be interested in.
+- **Value ($V$)**: The actual content that we are interested in.
 
 
 ## Score calculation 
@@ -33,5 +33,7 @@ $$\text{Input}=[x_{\text{The}},x_{\text{cat}},x_{\text{sat}},x_{\text{on}},x_{\t
 ## Scaling 
 
 ## Softmax function
+
+![[Pasted image 20240607171834.png|300|300]]
 
 ## Weighted sum

@@ -1007,7 +1007,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -1129,6 +1130,9 @@
   },
   "active": "ada52979f927b3b8",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240607172600.png",
+    "XX-Attachments/Images/Pasted image 20240607172426.png",
+    "XX-Attachments/Images/Pasted image 20240607171834.png",
     "MachineLearning/Clustering/Untitled.md",
     "MachineLearning/Clustering/Hierarchal_clustering.md",
     "Algorithms/ProgrammingPatterns/Backtracking.md",
@@ -1159,7 +1163,6 @@
     "MachineLearning/Transformers/Transformers.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
     "XX-Attachments/Images/Pasted image 20240606213618.png",
-    "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
     "MachineLearning/Transformers",
     "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",
     "XX-Attachments/Images/PoPGwxvuEein8Q5msPYVqg_3edb0e701bee11e8a3bbdda3bd061ec3_maths4ml-linearalgebra-formula.pdf",
@@ -1168,8 +1171,6 @@
     "XX-Attachments/Images/Pasted image 20240528212337.png",
     "XX-Attachments/Images/Pasted image 20240527211450.png",
     "XX-Attachments/Images/Pasted image 20240527181129.png",
-    "XX-Attachments/Images/Pasted image 20240526193814.png",
-    "XX-Attachments/Images/Pasted image 20240526193752.png",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",
