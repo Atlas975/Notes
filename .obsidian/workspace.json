@@ -99,241 +99,7 @@
             }
           },
           {
-            "id": "c74e1576b5f112ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Backtracking.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5bcf54815f19abe4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aeda9a10feb7db21",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/Bash.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "158911e7da5bf56d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "938998c460b19d2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0222f5faadd28bfe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/ErrorMeasures/Loss_functions.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dfec00570a455310",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Regression/Logistic_regression.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7fdfff34a9449ba2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/LogisticReg_vs_SVM.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "de0382afcb4431cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/ProbabilityDistributions/Triangular_distribution.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "df0a7a08b9868ce7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e0d61ece13ada3ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8d78bcad713ced1d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f7ac45f4f6665307",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fc747f10fd4587e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a7f37f98ec65d013",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Languages&Compilation/Computability/TuringMachines/Turing_thesis.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aa7ed6b3d10f043f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-Legacy/0-GeneralConcepts/Markov_chains.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "20eec9de6f783574",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e71d3bc71a65fdba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/ImageMatching/Image_features.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "59ef0827d3f8e151",
+            "id": "ada52979f927b3b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -1165,7 +931,7 @@
             }
           }
         ],
-        "currentTab": 60
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -1233,7 +999,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md"
+                "file": "MachineLearning/Transformers/Self-attention.md"
               }
             }
           }
@@ -1241,8 +1007,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -1269,7 +1034,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
+                "file": "MachineLearning/Transformers/Self-attention.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1286,7 +1051,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
+                "file": "MachineLearning/Transformers/Self-attention.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1362,12 +1127,32 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "8939276dc6d66bef",
+  "active": "ada52979f927b3b8",
   "lastOpenFiles": [
-    "XX-Attachments/Images/Pasted image 20240607165227.png",
-    "XX-Attachments/Images/Pasted image 20240607164255.png",
+    "MachineLearning/Clustering/Untitled.md",
+    "MachineLearning/Clustering/Hierarchal_clustering.md",
+    "Algorithms/ProgrammingPatterns/Backtracking.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/Neural_networks.md",
+    "ProgramLanguages/Bash.md",
+    "MachineLearning/NeuralNetworks/Training/Backpropagation.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
+    "MachineLearning/ErrorMeasures/Loss_functions.md",
+    "MachineLearning/Regression/Logistic_regression.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MachineLearning/LogisticReg_vs_SVM.md",
+    "Statistics/ProbabilityDistributions/Triangular_distribution.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+    "Languages&Compilation/Computability/TuringMachines/Turing_thesis.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/Markov_chains.md",
+    "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
+    "MediaCoding/ImageMatching/Image_features.md",
+    "OperatingSystems/Multi-Process_systems.md",
     "MachineLearning/Transformers/Self-attention.md",
     "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
+    "XX-Attachments/Images/Pasted image 20240607165227.png",
+    "XX-Attachments/Images/Pasted image 20240607164255.png",
     "XX-Attachments/Images/Pasted image 20240607160736.png",
     "MachineLearning/NaturalLanguageProcessing/Natural_language_processing.md",
     "MachineLearning/NaturalLanguageProcessing",
@@ -1376,25 +1161,6 @@
     "XX-Attachments/Images/Pasted image 20240606213618.png",
     "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
     "MachineLearning/Transformers",
-    "MachineLearning/ErrorMeasures/Cross-entropy.md",
-    "MachineLearning/ErrorMeasures/Loss_functions.md",
-    "MachineLearning/Clustering/Clustering.md",
-    "MachineLearning/Clustering/Hierarchal_clustering.md",
-    "MachineLearning/Clustering/K-means_clustering.md",
-    "MachineLearning/Classification/K-nearest_neighbours.md",
-    "MachineLearning/Classification/Semantic_segmentation.md",
-    "MachineLearning/Classification/Naive_Bayes.md",
-    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
-    "Algorithms/ProgrammingPatterns/Linked_list_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Two_pointers.md",
-    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
-    "Algorithms/Trees/Tree_traversal.md",
-    "Algorithms/Trees/Binary_index_tree.md",
-    "DataStructures/Trees.md",
-    "Algorithms/Bisect_algorithm.md",
-    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
     "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",
     "XX-Attachments/Images/PoPGwxvuEein8Q5msPYVqg_3edb0e701bee11e8a3bbdda3bd061ec3_maths4ml-linearalgebra-formula.pdf",
     "XX-Attachments/Images/Numpy Handbook.pdf",
@@ -1404,7 +1170,6 @@
     "XX-Attachments/Images/Pasted image 20240527181129.png",
     "XX-Attachments/Images/Pasted image 20240526193814.png",
     "XX-Attachments/Images/Pasted image 20240526193752.png",
-    "XX-Attachments/Images/Pasted image 20240526193739.png",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",
