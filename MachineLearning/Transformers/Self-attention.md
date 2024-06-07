@@ -20,7 +20,7 @@ ___
 - Each word in the input sequence is converted into a dense vector representation.
 - For a sentence “The cat sat on the mat,” the input [[Word_embedding|embedding]] may look like:
 
-$$\text{Input}=[x_{\text{The}},x_{\text{cat}},x_{\text{sat}},x_{\text{on}},x_{\text{the}},x_{\text{mat}}]$$
+$$X=[x_{\text{The}},x_{\text{cat}},x_{\text{sat}},x_{\text{on}},x_{\text{the}},x_{\text{mat}}]$$
 ## Query, Key, Value vectors 
 - **Query ($Q$)**: represents what the word is looking for in other words.
 - **Key ($K$)**: represents what the word contains that other words might be interested in.
