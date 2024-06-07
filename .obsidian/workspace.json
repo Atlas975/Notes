@@ -775,6 +775,19 @@
             }
           },
           {
+            "id": "4c2d448ecbab4b0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Transformers/Self-attention.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3cdbfa764574647f",
             "type": "leaf",
             "state": {
@@ -1139,7 +1152,7 @@
             }
           }
         ],
-        "currentTab": 58
+        "currentTab": 59
       }
     ],
     "direction": "vertical"
@@ -1207,7 +1220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md"
+                "file": "MachineLearning/Transformers/Self-attention.md"
               }
             }
           }
@@ -1242,7 +1255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+                "file": "MachineLearning/Transformers/Self-attention.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1259,7 +1272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+                "file": "MachineLearning/Transformers/Self-attention.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1335,10 +1348,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "c15786fed9502786",
+  "active": "4c2d448ecbab4b0c",
   "lastOpenFiles": [
-    "MachineLearning/Transformers/Self-attention.md",
     "MachineLearning/Transformers/Transformers.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+    "MachineLearning/Transformers/Self-attention.md",
     "XX-Attachments/Images/Pasted image 20240606213618.png",
     "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
     "MachineLearning/Transformers",
