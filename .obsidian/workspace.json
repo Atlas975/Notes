@@ -788,6 +788,19 @@
             }
           },
           {
+            "id": "8939276dc6d66bef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3cdbfa764574647f",
             "type": "leaf",
             "state": {
@@ -1152,7 +1165,7 @@
             }
           }
         ],
-        "currentTab": 59
+        "currentTab": 60
       }
     ],
     "direction": "vertical"
@@ -1220,7 +1233,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Natural_language_processing.md"
+                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md"
               }
             }
           }
@@ -1228,7 +1241,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -1255,7 +1269,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Natural_language_processing.md",
+                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1272,7 +1286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Natural_language_processing.md",
+                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1348,10 +1362,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "4c2d448ecbab4b0c",
+  "active": "8939276dc6d66bef",
   "lastOpenFiles": [
-    "MachineLearning/Transformers/Self-attention.md",
+    "XX-Attachments/Images/Pasted image 20240607160736.png",
     "MachineLearning/NaturalLanguageProcessing/Natural_language_processing.md",
+    "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
+    "MachineLearning/Transformers/Self-attention.md",
     "MachineLearning/NaturalLanguageProcessing",
     "MachineLearning/Transformers/Transformers.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
@@ -1377,8 +1393,6 @@
     "Algorithms/Bisect_algorithm.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Binary_search.md",
-    "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",
     "XX-Attachments/Images/PoPGwxvuEein8Q5msPYVqg_3edb0e701bee11e8a3bbdda3bd061ec3_maths4ml-linearalgebra-formula.pdf",
     "XX-Attachments/Images/Numpy Handbook.pdf",

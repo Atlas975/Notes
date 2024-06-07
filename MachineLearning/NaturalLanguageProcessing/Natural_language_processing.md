@@ -14,5 +14,5 @@ aliases:
 
 ___
 # Natural language processing
-- The study of the interaction between between computers and natural (human), 
+- The study of the interaction between between computers and humans through natural language 
 - The goal of NLP is to enable computers to understand, interpret, and generate human language in a way that is both meaningful and useful
