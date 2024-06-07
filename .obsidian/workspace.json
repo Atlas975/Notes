@@ -780,8 +780,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Transformers/Self-attention.md",
-                "mode": "preview",
+                "file": "MachineLearning/NaturalLanguageProcessing/Natural_language_processing.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -1220,7 +1220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Transformers/Self-attention.md"
+                "file": "MachineLearning/NaturalLanguageProcessing/Natural_language_processing.md"
               }
             }
           }
@@ -1255,7 +1255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Transformers/Self-attention.md",
+                "file": "MachineLearning/NaturalLanguageProcessing/Natural_language_processing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1272,7 +1272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Transformers/Self-attention.md",
+                "file": "MachineLearning/NaturalLanguageProcessing/Natural_language_processing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1350,9 +1350,11 @@
   },
   "active": "4c2d448ecbab4b0c",
   "lastOpenFiles": [
+    "MachineLearning/Transformers/Self-attention.md",
+    "MachineLearning/NaturalLanguageProcessing/Natural_language_processing.md",
+    "MachineLearning/NaturalLanguageProcessing",
     "MachineLearning/Transformers/Transformers.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
-    "MachineLearning/Transformers/Self-attention.md",
     "XX-Attachments/Images/Pasted image 20240606213618.png",
     "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
     "MachineLearning/Transformers",
@@ -1377,7 +1379,6 @@
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
     "Algorithms/ProgrammingPatterns/Binary_search.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
-    "Algorithms/ProgrammingPatterns/Greedy_algorithms.md",
     "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",
     "XX-Attachments/Images/PoPGwxvuEein8Q5msPYVqg_3edb0e701bee11e8a3bbdda3bd061ec3_maths4ml-linearalgebra-formula.pdf",
     "XX-Attachments/Images/Numpy Handbook.pdf",
@@ -1394,7 +1395,6 @@
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",
     "DistributedSystems/CommunicationModels",
-    "Languages&Compilation/CompilerConstruction/CompilationTypes",
-    "XX-Attachments/Images/math3283-hw4-f16-sol.pdf"
+    "Languages&Compilation/CompilerConstruction/CompilationTypes"
   ]
 }
