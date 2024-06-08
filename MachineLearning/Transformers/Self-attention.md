@@ -22,9 +22,9 @@ ___
 
 $$X=[x_{\text{The}},x_{\text{cat}},x_{\text{sat}},x_{\text{on}},x_{\text{the}},x_{\text{mat}}]$$
 ## Query, Key, Value vectors 
-- **Query ($Q$)**: represents what the word is looking for in other words.
-- **Key ($K$)**: represents what the word contains that other words might be interested in.
-- **Value ($V$)**: the actual content of interest 
+- **Query ($Q$)**: represents what the word is looking for in other words
+- **Key ($K$)**: represents what the word contains that other words might be interested in
+- **Value ($V$)**: the actual content of interest (meaning )
 
 $$Q_{i}=W_{q}\cdot x_{i}$$
 $$K_{i}=W_{k}\cdot x_{i}$$
