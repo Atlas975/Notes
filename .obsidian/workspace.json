@@ -931,7 +931,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 42
       }
     ],
     "direction": "vertical"
@@ -999,7 +999,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Transformers/Self-attention.md"
+                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md"
               }
             }
           }
@@ -1035,7 +1035,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Transformers/Self-attention.md",
+                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1052,7 +1052,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Transformers/Self-attention.md",
+                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1128,8 +1128,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "ada52979f927b3b8",
+  "active": "8939276dc6d66bef",
   "lastOpenFiles": [
+    "MachineLearning/Transformers/Self-attention.md",
     "XX-Attachments/Images/Pasted image 20240607172600.png",
     "XX-Attachments/Images/Pasted image 20240607172426.png",
     "XX-Attachments/Images/Pasted image 20240607171834.png",
@@ -1153,7 +1154,6 @@
     "MachineLearning/NeuralNetworks/NetworkTypes/Convolutional_networks.md",
     "MediaCoding/ImageMatching/Image_features.md",
     "OperatingSystems/Multi-Process_systems.md",
-    "MachineLearning/Transformers/Self-attention.md",
     "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
     "XX-Attachments/Images/Pasted image 20240607165227.png",
     "XX-Attachments/Images/Pasted image 20240607164255.png",
@@ -1170,7 +1170,6 @@
     "XX-Attachments/Images/Pasted image 20240528212520.png",
     "XX-Attachments/Images/Pasted image 20240528212337.png",
     "XX-Attachments/Images/Pasted image 20240527211450.png",
-    "XX-Attachments/Images/Pasted image 20240527181129.png",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",
