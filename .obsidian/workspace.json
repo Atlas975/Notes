@@ -560,7 +560,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -1130,6 +1130,8 @@
   },
   "active": "8939276dc6d66bef",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240609161945.png",
+    "XX-Attachments/Images/Pasted image 20240609161909.png",
     "MachineLearning/Transformers/Self-attention.md",
     "XX-Attachments/Images/Pasted image 20240607172600.png",
     "XX-Attachments/Images/Pasted image 20240607172426.png",
@@ -1169,7 +1171,6 @@
     "XX-Attachments/Images/Numpy Handbook.pdf",
     "XX-Attachments/Images/Pasted image 20240528212520.png",
     "XX-Attachments/Images/Pasted image 20240528212337.png",
-    "XX-Attachments/Images/Pasted image 20240527211450.png",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",
