@@ -25,10 +25,11 @@ $$E(\text{king})-E(\text{man})\approx E(\text{queen})-E(\text{women})$$
 
 ## Word embedding hyperparameters
 - **Dimensionality**: defines the number of dimensions in the vector space into which words will be embedded. This varies based on the complexity of the vocabulary 
-    - A higher dimensional embedding can capture fine-grained relationships between words and offer better word separation, but takes more data to learn.
+	- A higher dimensional embedding can capture fine-grained relationships between words and offer better word separation, but takes more data to learn.
 - **Window size**: defines the context in which a word is considered. eg in a window size of 2, the model looks at two words before and after the current word to predict its embedding
-    - A larger window size captures more context but needs to remain small enough to not capture noise. Smaller windows are beneficial for focusing on immediate context 
-- **Min count**: defines the numeber of times a
+	- A larger window size captures more context but needs to remain small enough to not capture noise. Smaller windows are beneficial for focusing on immediate context 
+- **Min count**: defines the number of times a word must appear in the text corpus to be part of the vocabulary. Helps tackle overfitting by eliminating potential [[Term_frequency-inverse_document_frequency|stop words]] 
+	- A higher min count helps focus on words that are statistically significant but risks losing information from less frequent yet significant words
 ## Continuous bag of words
 - A word embedding model, involves making word predictions using the surrounding context words in a text (a few words that appear before and after it in a sentence, defined by window size)
 - Weights all inputs equally, not ideal if certain words are more informative than others
