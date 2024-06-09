@@ -69,7 +69,7 @@ $$\begin{align*}
 
 ## Bray-curtis distance
 - Highlights the common elements between two sets
-- $\text{Score} \propto \text{Overlap}^{-1}$
+- $\text{Distance} \propto \text{Overlap}^{-1}$
 
 
 $$1-\frac{2\cdot \sum_{i}\text{min}(a_{i},b_{i})}{|A|,|B|}$$

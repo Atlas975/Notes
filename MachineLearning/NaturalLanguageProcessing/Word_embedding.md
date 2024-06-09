@@ -24,12 +24,20 @@ $$E(\text{king})-E(\text{man})\approx E(\text{queen})-E(\text{women})$$
 
 ![[Pasted image 20240607164255.png|400|400]]
 
+
+## Word embedding hyperparameters
+- Small windows may also miss important context while large windows may be noisy
 ## Continuous bag of words
-- A word embedding creation technique, this involves making word predictions using the surrounding context words in a text
-- The context of a word consists of a few words that appear before and after it in a sentence. This is defined via the window size parameter 
+- A word embedding model, involves making word predictions using the surrounding context words in a text (a few words that appear before and after it in a sentence, defined by window size)
+- Weights all inputs equally, not ideal if certain words are more informative than others
 
 
 ![[Pasted image 20240609161945.png|300|300]]
-- This averaging of context word vectors reduces computational complexity. CBOW performs particularly well on small datasets
-- However, this method weights all context words equally, not ideal if certain words are more informative than others in a text corpus
-- Balancing window size is also a challenge, A small window may miss important context, while a large window may include too much noise.
+
+
+
+## Skip-gram
+
+- Computationally more expensive
+
+![[Pasted image 20240609163013.png|300|300]]
