@@ -31,19 +31,18 @@ $$E(\text{king})-E(\text{man})\approx E(\text{queen})-E(\text{women})$$
 	- A higher min count helps focus on words that are statistically significant but risks losing information from less frequent yet significant words
 ## Continuous bag of words
 - A word embedding model, involves making word predictions using the surrounding context words  (a few words that appear before and after in a sentence, defined by window size)
-- The goal of CBOW is to predict a target word based on it's surrounding words, making it particularly efficient at handling frequent words. Words are input as [[Categorical_data_handeling|one-hot vectors]]
+- The goal of CBOW is to predict a target word based on it's surrounding words, making it particularly efficient at handling frequent words. 
 
 ![[Pasted image 20240609161945.png|300|300]]
 
 $$\text{Prediction}=\text{Softmax}(z)$$
 $$z=W_{2}\cdot h$$
-$$h=W_{1}\cdot \text{average}(x)$$
+$$h=W_{1}\cdot \text{average}(X)$$
 
+- $X$ is a matrix of [[Categorical_data_handeling#One-hot encoding|one-hot encoded]] representations of context words of size $1\times V$
+- $W_{1}$ is a $V \times N$ matrix where $V$ is vocabulary size and $N$ is dimensionality
+-  $W_{2}$ is a $N \times V$ matrix where $V$ is vocabulary size and $N$ is dimensionality
 
-
-- Projection involves getting a weighted average of the input vectors. This is then multiplied by matrix of $V\times N$ where $V$ is vocab size and $N$ is dimensionality.
-- After projection, data is now in a dense vector representation representing the combined semantic features 
-- This is then put through [[Softmax]] to represent the likelihood of each word occurring
 ## Skip-gram
 - A word embedding model, works in the opposite way to CBOW by using the target word to predict the surrounding context words. The architecture is also a mirror image of that of CBOW
 - The goal of Skip-gram is to predict the context words based on a given target word, making it particularly efficient at handling infrequent words but is more computationally expensive
@@ -54,9 +53,8 @@ $$\text{Prediction}=\text{Softmax}(z )$$
 $$z=W_{2}\cdot h$$
 $$h=W_{1}\cdot x$$
 
-- $x$ is a one-hot representation of the target word
-- $W_{1}$ is 
-$$\text{where}\quad x \text{ is a one-hot representation of the target word}$$
-$$\quad W_{1} \text{ is a }V\times N \text{ matrix}$$
-- Projection involves multiplying the input by a weight matrix of size $V\times N$. This creates a dense word embedding vector to be passed to the next phase
+- $x$ is a one-hot encoded representation of the target word of size $1\times V$
+- $h$ is the hidden layer output (embedding vector representation) of size $N$
+- $W_{1}$ is a $V \times N$ matrix where $V$ is vocabulary size and $N$ is dimensionality
+-  $W_{2}$ is a $N \times V$ matrix where $V$ is vocabulary size and $N$ is dimensionality
 - This is then multiplied by a matrix of size $N \times V$, creating a new vector of size $V$, this can then be put through any variant of softmax to get the likelihood of a context word occurring 

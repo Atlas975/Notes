@@ -99,7 +99,20 @@
             }
           },
           {
-            "id": "3ec00e6bdbb3b367",
+            "id": "dd5dbc2d92fce6a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cbf946b69b5f4c27",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -151,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -348,15 +361,16 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "3ec00e6bdbb3b367",
+  "active": "cbf946b69b5f4c27",
   "lastOpenFiles": [
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+    "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
+    "MachineLearning/Clustering/Hierarchal_clustering.md",
     "Statistics/ProbabilityDistributions/Probability_distributions.md",
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "Statistics/ProbabilityDistributions/Triangular_distribution.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
-    "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
     "MachineLearning/NaturalLanguageProcessing/Untitled.md",
-    "MachineLearning/Clustering/Hierarchal_clustering.md",
     "MachineLearning/Transformers/Self-attention.md",
     "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
@@ -375,7 +389,6 @@
     "MediaCoding/IntensityTransforms/Histogram_matching.md",
     "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
     "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
-    "MediaCoding/ImageMatching/Harris_corner_detection.md",
     "XX-Attachments/Images/Pasted image 20240609163013.png",
     "XX-Attachments/Images/Pasted image 20240609161945.png",
     "XX-Attachments/Images/Pasted image 20240609161909.png",
