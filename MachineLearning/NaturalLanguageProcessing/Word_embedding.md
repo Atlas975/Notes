@@ -32,6 +32,7 @@ $$E(\text{king})-E(\text{man})\approx E(\text{queen})-E(\text{women})$$
 	- A higher min count helps focus on words that are statistically significant but risks losing information from less frequent yet significant words
 ## Continuous bag of words
 - A word embedding model, involves making word predictions using the surrounding context words  (a few words that appear before and after it in a sentence, defined by window size)
+- In the projection step, each word is 
 - Weights all inputs equally, not ideal if certain words are more informative than others
 
 
@@ -40,7 +41,7 @@ $$E(\text{king})-E(\text{man})\approx E(\text{queen})-E(\text{women})$$
 
 
 ## Skip-gram
-
+- A word embedding model, works in the opposite way to CBOW by using the target word to predict the surrounding context words
 - Computationally more expensive
 
 ![[Pasted image 20240609163013.png|300|300]]
