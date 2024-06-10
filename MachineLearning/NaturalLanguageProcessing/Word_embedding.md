@@ -22,7 +22,6 @@ ___
 $$E(\text{king})-E(\text{man})\approx E(\text{queen})-E(\text{women})$$
 ![[Pasted image 20240607164255.png|400|400]]
 
-
 ## Word embedding hyperparameters
 - **Dimensionality**: defines the number of dimensions in the vector space into which words will be embedded. This varies based on the complexity of the vocabulary 
 	- A higher dimensional embedding can capture fine-grained relationships between words and offer better word separation, but takes more data to learn.
@@ -32,7 +31,7 @@ $$E(\text{king})-E(\text{man})\approx E(\text{queen})-E(\text{women})$$
 	- A higher min count helps focus on words that are statistically significant but risks losing information from less frequent yet significant words
 ## Continuous bag of words
 - A word embedding model, involves making word predictions using the surrounding context words  (a few words that appear before and after it in a sentence, defined by window size)
-- In the projection step, each word is 
+- The goal of CBOW is to m
 - Weights all inputs equally, not ideal if certain words are more informative than others
 
 
