@@ -36,11 +36,11 @@ $$E(\text{king})-E(\text{man})\approx E(\text{queen})-E(\text{women})$$
 ![[Pasted image 20240609161945.png|300|300]]
 
 $$\text{Prediction}=\text{Softmax}(z)$$
-$$z=W_{2}\cdot h$$
-$$h=W_{1}\cdot \text{average}(X)$$
+$$z=h\cdot W_{2}$$
+$$h=\text{average}(X)\cdot W_{1}$$
 
 - $X$ is a matrix of [[Categorical_data_handeling#One-hot encoding|one-hot encoded]] representations of context words of size $1\times V$
-- $W_{1}$ is a $V \times N$ matrix where $V$ is vocabulary size and $N$ is dimensionality
+- $W_{1}$ is a $V \times N$ matrix used as
 -  $W_{2}$ is a $N \times V$ matrix where $V$ is vocabulary size and $N$ is dimensionality
 
 ## Skip-gram
@@ -49,12 +49,11 @@ $$h=W_{1}\cdot \text{average}(X)$$
 
 ![[Pasted image 20240609163013.png|300|300]]
 
-$$\text{Prediction}=\text{Softmax}(z )$$
-$$z=W_{2}\cdot h$$
-$$h=W_{1}\cdot x$$
+$$\text{Prediction}=\text{Softmax}(Z )$$
+$$Z=h\cdot W_{2}$$
+$$h= x\cdot W_{1}$$
 
 - $x$ is a one-hot encoded representation of the target word of size $1\times V$
 - $h$ is the hidden layer output (embedding vector representation) of size $N$
 - $W_{1}$ is a $V \times N$ matrix where $V$ is vocabulary size and $N$ is dimensionality
 -  $W_{2}$ is a $N \times V$ matrix where $V$ is vocabulary size and $N$ is dimensionality
-- This is then multiplied by a matrix of size $N \times V$, creating a new vector of size $V$, this can then be put through any variant of softmax to get the likelihood of a context word occurring 
