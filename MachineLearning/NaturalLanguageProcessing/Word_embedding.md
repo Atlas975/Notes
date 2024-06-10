@@ -36,8 +36,8 @@ $$E(\text{king})-E(\text{man})\approx E(\text{queen})-E(\text{women})$$
 ![[Pasted image 20240609161945.png|300|300]]
 
 
-- Projection involves getting a weighted average of the input vectors. 
-- 
+- Projection involves getting a weighted average of the input vectors. This is then multiplied by matrix of $V\times N$ where $V$ is vocab size and $N$ is dimensionality.
+- After projection, data is now in a dense vector representation representing the combined semantic features 
 - This is then put through [[Softmax]] to represent the likelihood of each word occurring
 ## Skip-gram
 - A word embedding model, works in the opposite way to CBOW by using the target word to predict the surrounding context words. The architecture is also a mirror image of that of CBOW
@@ -45,5 +45,5 @@ $$E(\text{king})-E(\text{man})\approx E(\text{queen})-E(\text{women})$$
 
 ![[Pasted image 20240609163013.png|300|300]]
 
-- Projection involves multiplying the input by a weight matrix of size $V\times N$ where $V$ is vocab size and $N$ is dimensionality. This creates a dense word embedding vector 
-- This is then multiplied by a matrix of size $N \times V$, creating a new vector of vocab size, this can then be put through any variant of softmax to get the likelihood of a context word occurring 
+- Projection involves multiplying the input by a weight matrix of size $V\times N$. This creates a dense word embedding vector to be passed to the next phase
+- This is then multiplied by a matrix of size $N \times V$, creating a new vector of size $V$, this can then be put through any variant of softmax to get the likelihood of a context word occurring 
