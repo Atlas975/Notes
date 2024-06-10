@@ -31,7 +31,7 @@ $$E(\text{king})-E(\text{man})\approx E(\text{queen})-E(\text{women})$$
 - **Min count**: defines the number of times a word must appear in the text corpus to be part of the vocabulary. Helps tackle overfitting by eliminating potential [[Term_frequency-inverse_document_frequency|stop words]] 
 	- A higher min count helps focus on words that are statistically significant but risks losing information from less frequent yet significant words
 ## Continuous bag of words
-- A word embedding model, involves making word predictions using the surrounding context words in a text (a few words that appear before and after it in a sentence, defined by window size)
+- A word embedding model, involves making word predictions using the surrounding context words  (a few words that appear before and after it in a sentence, defined by window size)
 - Weights all inputs equally, not ideal if certain words are more informative than others
 
 
