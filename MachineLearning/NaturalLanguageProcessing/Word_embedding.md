@@ -35,9 +35,12 @@ $$E(\text{king})-E(\text{man})\approx E(\text{queen})-E(\text{women})$$
 
 ![[Pasted image 20240609161945.png|300|300]]
 
+$$\text{Prediction}=\text{Softmax}(z)$$
+$$z=W_{2}\cdot h$$
+$$h=W_{1}\cdot \text{average}(x)$$
 
 
-$$I=\text{weight matrix}$$
+
 - Projection involves getting a weighted average of the input vectors. This is then multiplied by matrix of $V\times N$ where $V$ is vocab size and $N$ is dimensionality.
 - After projection, data is now in a dense vector representation representing the combined semantic features 
 - This is then put through [[Softmax]] to represent the likelihood of each word occurring
@@ -47,7 +50,13 @@ $$I=\text{weight matrix}$$
 
 ![[Pasted image 20240609163013.png|300|300]]
 
-$$\text{Prediction}=\text{Softmax}((x\cdot I)\cdot O )$$
-$$x=\text{matrix of one-hot encoded input vectors}$$
+$$\text{Prediction}=\text{Softmax}(z )$$
+$$z=W_{2}\cdot h$$
+$$h=W_{1}\cdot x$$
+
+- $x$ is a one-hot representation of the target word
+- $W_{1}$ is 
+$$\text{where}\quad x \text{ is a one-hot representation of the target word}$$
+$$\quad W_{1} \text{ is a }V\times N \text{ matrix}$$
 - Projection involves multiplying the input by a weight matrix of size $V\times N$. This creates a dense word embedding vector to be passed to the next phase
 - This is then multiplied by a matrix of size $N \times V$, creating a new vector of size $V$, this can then be put through any variant of softmax to get the likelihood of a context word occurring 

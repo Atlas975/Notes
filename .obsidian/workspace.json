@@ -110,6 +110,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d1df0efa96f40fce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "187e63d0833b1764",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a167b2d831948e4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/ProbabilityDistributions/Probability_distributions.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 7
@@ -311,8 +350,12 @@
   },
   "active": "3ec00e6bdbb3b367",
   "lastOpenFiles": [
-    "MachineLearning/NaturalLanguageProcessing/Untitled.md",
+    "Statistics/ProbabilityDistributions/Probability_distributions.md",
+    "Statistics/ProbabilityDistributions/PERT_distribution.md",
+    "Statistics/ProbabilityDistributions/Triangular_distribution.md",
+    "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
+    "MachineLearning/NaturalLanguageProcessing/Untitled.md",
     "MachineLearning/Clustering/Hierarchal_clustering.md",
     "MachineLearning/Transformers/Self-attention.md",
     "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
@@ -333,10 +376,6 @@
     "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
     "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
-    "MediaCoding/IntensityTransforms/Piecewise_linear_transform.md",
-    "MediaCoding/Filters/SmoothingFilters/Median_filter.md",
-    "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
-    "Cybersecurity/RiskManagement/Risk_management.md",
     "XX-Attachments/Images/Pasted image 20240609163013.png",
     "XX-Attachments/Images/Pasted image 20240609161945.png",
     "XX-Attachments/Images/Pasted image 20240609161909.png",
