@@ -20,8 +20,9 @@ ___
 - This creates an $n \times d$ vector $n$ represents sentence length and $d$ is the dimensionality of the [[Word_embedding|embedding]]. Initially, this does not account for positional encoding 
 $$X=[x_{\text{The}},x_{\text{cat}},x_{\text{sat}},x_{\text{on}},x_{\text{the}},x_{\text{mat}}]$$
 ## Positional encoding 
-- Before proceeding  
-
+- Before proceeding to the self-attention mechanism, a unique [[Positional_encoding|positional encoding]] vector needs to be added to the input embedding to incorporate word order informations
+- The periodic nature of this encoding scheme allows a model to infer relative positions as the difference between $PE$'s will be similar for words that are a fixed distance apart.
+$$X'=[E_{w_{0}}+PE_{0}, \ E_{w_{1}}+PE_{1},\ E_{w_{2}}+PE_{2},\dots]$$
 ## Query, Key, Value vectors 
 - **Query ($Q$)**: represents what the word is looking for in other words
 - **Key ($K$)**: represents what the word contains that other words might be interested in
