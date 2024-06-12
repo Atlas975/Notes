@@ -10,7 +10,7 @@
 
 ___
 # Self-attention
-- A mechanism in [[Neural_networks|neural networks]] primarily used for [[Transformers|transformer]] models. This is crucial for tasks like translation, where word meaning can depend on a large context window of words around it
+- A mechanism in [[Neural_networks|neural networks]] primarily used for [[Transformer|transformer]] models. This is crucial for tasks like translation, where word meaning can depend on a large context window of words around it
 - This mechanism enables the model to weigh the importance of tokens in a sequence relative to each other. This is also done in [[Concurrency|parallel]] rather than sequentially
 
 ![[Pasted image 20240606213618.png|400|350]]

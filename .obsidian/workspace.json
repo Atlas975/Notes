@@ -125,6 +125,71 @@
             }
           },
           {
+            "id": "1402a0207759db16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b5259a9e7c2616e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1be2e6f84eba955b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9ac03f991b209826",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2a293e4ac1b73c22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EmbeddedSystems/Transistors.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "61f240c7577a84e8",
             "type": "leaf",
             "state": {
@@ -169,7 +234,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Transformers/Transformers.md",
+                "file": "MachineLearning/Transformers/Transformer.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -216,7 +281,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -284,7 +349,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Transformers/Self-attention.md"
+                "file": "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md"
               }
             }
           }
@@ -292,8 +357,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -320,7 +384,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Transformers/Self-attention.md",
+                "file": "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -337,7 +401,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Transformers/Self-attention.md",
+                "file": "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -413,13 +477,18 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "8e1ee3607e4bf541",
+  "active": "9ac03f991b209826",
   "lastOpenFiles": [
+    "MachineLearning/Transformers/Transformer.md",
+    "EmbeddedSystems/Transistors.md",
+    "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
     "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
+    "MachineLearning/NaturalLanguageProcessing/Skip-gram.md",
+    "MachineLearning/NaturalLanguageProcessing/Continuous_bag_of_words.md",
+    "MachineLearning/NaturalLanguageProcessing/Natural_language_processing.md",
     "MachineLearning/Transformers/Self-attention.md",
     "ContinuousMath/Distance_metrics.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/LinearAlgebra/Vectors.md",
-    "MachineLearning/Transformers/Transformers.md",
     "XX-Attachments/Images/Pasted image 20240612163637.png",
     "XX-Attachments/Images/Pasted image 20240612163513.png",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
@@ -428,7 +497,6 @@
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "Statistics/ProbabilityDistributions/Triangular_distribution.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
-    "MachineLearning/NaturalLanguageProcessing/Untitled.md",
     "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
     "MediaCoding/Convolutions/Transposed_convolution.md",
@@ -439,10 +507,6 @@
     "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
     "MediaCoding/IntensityTransforms/Gamma_transform.md",
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
-    "MachineLearning/FeatureEngineering/Normalisation.md",
-    "MediaCoding/Edge_detection.md",
-    "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
-    "MediaCoding/Canny_edge_detection.md",
     "XX-Attachments/Images/Pasted image 20240609163013.png",
     "XX-Attachments/Images/Pasted image 20240609161945.png",
     "XX-Attachments/Images/Pasted image 20240609161909.png",
