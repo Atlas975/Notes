@@ -125,6 +125,45 @@
             }
           },
           {
+            "id": "61f240c7577a84e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/LinearAlgebra/Vectors.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bad50c1e68ecdbda",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ContinuousMath/Distance_metrics.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "baadbea4d916363d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Transformers/Transformers.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d1df0efa96f40fce",
             "type": "leaf",
             "state": {
@@ -164,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -232,7 +271,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md"
+                "file": "ContinuousMath/Distance_metrics.md"
               }
             }
           }
@@ -268,7 +307,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
+                "file": "ContinuousMath/Distance_metrics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,7 +324,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
+                "file": "ContinuousMath/Distance_metrics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -361,10 +400,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "cbf946b69b5f4c27",
+  "active": "bad50c1e68ecdbda",
   "lastOpenFiles": [
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/LinearAlgebra/Vectors.md",
     "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
+    "MachineLearning/Transformers/Transformers.md",
+    "XX-Attachments/Images/Pasted image 20240612163637.png",
+    "XX-Attachments/Images/Pasted image 20240612163513.png",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
     "MachineLearning/Clustering/Hierarchal_clustering.md",
     "Statistics/ProbabilityDistributions/Probability_distributions.md",
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
@@ -387,8 +430,6 @@
     "MediaCoding/IntensityTransforms/Bit-plane_slicing.md",
     "MediaCoding/Canny_edge_detection.md",
     "MediaCoding/IntensityTransforms/Histogram_matching.md",
-    "MediaCoding/ImageMatching/Histogram_of_oriented_gradients.md",
-    "MediaCoding/ImageMatching/Sum_of_squared_differences.md",
     "XX-Attachments/Images/Pasted image 20240609163013.png",
     "XX-Attachments/Images/Pasted image 20240609161945.png",
     "XX-Attachments/Images/Pasted image 20240609161909.png",
@@ -397,9 +438,7 @@
     "XX-Attachments/Images/Pasted image 20240607171834.png",
     "XX-Attachments/Images/Pasted image 20240607165227.png",
     "XX-Attachments/Images/Pasted image 20240607164255.png",
-    "XX-Attachments/Images/Pasted image 20240607160736.png",
     "MachineLearning/NaturalLanguageProcessing",
-    "XX-Attachments/Images/Pasted image 20240606213618.png",
     "MachineLearning/Transformers",
     "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",
     "XX-Attachments/Images/PoPGwxvuEein8Q5msPYVqg_3edb0e701bee11e8a3bbdda3bd061ec3_maths4ml-linearalgebra-formula.pdf",
