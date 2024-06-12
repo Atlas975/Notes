@@ -10,17 +10,19 @@
 
 ___
 # Self-attention
-- A mechanism in [[Neural_networks|neural networks]] primarily used for [[Transformers|transformer]] models. This is crucial for tasks like translation, where the meaning of a word can depend on the words around it
+- A mechanism in [[Neural_networks|neural networks]] primarily used for [[Transformers|transformer]] models. This is crucial for tasks like translation, where word meaning can depend on a large context window of words around it
 - This mechanism enables the model to weigh the importance of tokens in a sequence relative to each other. This is also done in [[Concurrency|parallel]] rather than sequentially
 
 ![[Pasted image 20240606213618.png|400|350]]
 
-
 ## Input embedding 
-- Each word in the input sequence is converted into a dense vector representation.
-- For a sentence “The cat sat on the mat,” the input [[Word_embedding|embedding]] may look like:
+- Each word in the input sequence is converted into a dense vector representation, this vector captures the words meaning in a numerical format
+- This creates an $n \times d$ vector $n$ represents sentence length and $d$ is the dimensionality of the [[Word_embedding|embedding]]. Initially, this does not account for positional encoding 
 
 $$X=[x_{\text{The}},x_{\text{cat}},x_{\text{sat}},x_{\text{on}},x_{\text{the}},x_{\text{mat}}]$$
+## Positional encoding 
+- Before proce
+
 ## Query, Key, Value vectors 
 - **Query ($Q$)**: represents what the word is looking for in other words
 - **Key ($K$)**: represents what the word contains that other words might be interested in
