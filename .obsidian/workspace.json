@@ -157,7 +157,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/Transformers/Self-attention.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -415,9 +415,10 @@
   },
   "active": "8e1ee3607e4bf541",
   "lastOpenFiles": [
+    "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
+    "MachineLearning/Transformers/Self-attention.md",
     "ContinuousMath/Distance_metrics.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/LinearAlgebra/Vectors.md",
-    "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
     "MachineLearning/Transformers/Transformers.md",
     "XX-Attachments/Images/Pasted image 20240612163637.png",
     "XX-Attachments/Images/Pasted image 20240612163513.png",
@@ -428,7 +429,6 @@
     "Statistics/ProbabilityDistributions/Triangular_distribution.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "MachineLearning/NaturalLanguageProcessing/Untitled.md",
-    "MachineLearning/Transformers/Self-attention.md",
     "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
     "MediaCoding/Convolutions/Transposed_convolution.md",
