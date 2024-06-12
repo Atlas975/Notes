@@ -164,19 +164,6 @@
             }
           },
           {
-            "id": "9ac03f991b209826",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2a293e4ac1b73c22",
             "type": "leaf",
             "state": {
@@ -281,7 +268,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -349,7 +336,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md"
+                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md"
               }
             }
           }
@@ -384,7 +371,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
+                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -401,7 +388,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
+                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -477,11 +464,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "9ac03f991b209826",
+  "active": "1be2e6f84eba955b",
   "lastOpenFiles": [
+    "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
     "MachineLearning/Transformers/Transformer.md",
     "EmbeddedSystems/Transistors.md",
-    "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
     "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
     "MachineLearning/NaturalLanguageProcessing/Skip-gram.md",
     "MachineLearning/NaturalLanguageProcessing/Continuous_bag_of_words.md",
