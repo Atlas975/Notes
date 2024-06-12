@@ -18,7 +18,6 @@ ___
 ## Input embedding 
 - Each word in the input sequence is converted into a dense vector representation, this vector captures the words meaning in a numerical format
 - This creates an $n \times d$ vector $n$ represents sentence length and $d$ is the dimensionality of the [[Word_embedding|embedding]]. Initially, this does not account for positional encoding 
-
 $$X=[x_{\text{The}},x_{\text{cat}},x_{\text{sat}},x_{\text{on}},x_{\text{the}},x_{\text{mat}}]$$
 ## Positional encoding 
 - Before proceeding  
