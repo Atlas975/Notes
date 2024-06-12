@@ -40,8 +40,9 @@ $$z=h\cdot W_{2}$$
 $$h=\text{average}(X)\cdot W_{1}$$
 
 - $X$ is a matrix of [[Categorical_data_handeling#One-hot encoding|one-hot encoded]] representations of context words of size $1\times V$
-- $W_{1}$ is a $V \times N$ matrix used as
--  $W_{2}$ is a $N \times V$ matrix where $V$ is vocabulary size and $N$ is dimensionality
+- $h$ is the hidden layer output (embedding vector representation) of size $N$
+- $W_{1}$ is a $V \times N$ matrix used as the input weights 
+-  $W_{2}$ is a $N \times V$ matrix used as the output weights
 
 ## Skip-gram
 - A word embedding model, works in the opposite way to CBOW by using the target word to predict the surrounding context words. The architecture is also a mirror image of that of CBOW
@@ -55,5 +56,5 @@ $$h= x\cdot W_{1}$$
 
 - $x$ is a one-hot encoded representation of the target word of size $1\times V$
 - $h$ is the hidden layer output (embedding vector representation) of size $N$
-- $W_{1}$ is a $V \times N$ matrix where $V$ is vocabulary size and $N$ is dimensionality
--  $W_{2}$ is a $N \times V$ matrix where $V$ is vocabulary size and $N$ is dimensionality
+- $W_{1}$ is a $V \times N$ matrix used as the input weights 
+-  $W_{2}$ is a $N \times V$ matrix used as the output weights
