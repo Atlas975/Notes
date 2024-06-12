@@ -34,17 +34,20 @@ $$K_{i}=W_{k}\cdot x_{i}$$
 $$V_{i}=W_{v}\cdot x_{i}$$
 
 ## Attention score 
-$$S=Q\cdot K^T$$
+$$\text{Score}=Q\cdot K^T$$
 
-$$\text{Scaled\_S}=\frac{S}{\sqrt{ d_{k} }}$$
+- The [[Gaussian_distribution|variance]] 
+$$\text{ScaledScore}=\frac{\text{Score}}{\sqrt{ d_{k} }}$$
 
-$$\text{AttentionWeights}=\text{Softmax}(\text{Scaled\_S})$$
+- [[Softmax]] is used to convert these scores into probabilities and add numerical stability
+- The scaling done prior also acts as a natural increase to the temperature of softmax output
+$$\text{AttentionWeights}=\text{Softmax}(\text{ScaledScore})$$
 
 
+![[Pasted image 20240612224629.png|400|400]]
 ## Scaling 
 
 ## Softmax function
 
-![[Pasted image 20240607171834.png|300|300]]
 
 ## Weighted sum

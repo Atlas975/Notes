@@ -281,7 +281,7 @@
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -349,7 +349,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Transformers/Self-attention.md"
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md"
               }
             }
           }
@@ -385,7 +385,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Transformers/Self-attention.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -402,7 +402,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Transformers/Self-attention.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -478,10 +478,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "8e1ee3607e4bf541",
+  "active": "dd5dbc2d92fce6a6",
   "lastOpenFiles": [
-    "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
     "MachineLearning/Transformers/Self-attention.md",
+    "XX-Attachments/Images/Pasted image 20240612224629.png",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+    "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
     "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
     "MachineLearning/Transformers/Transformer.md",
     "EmbeddedSystems/Transistors.md",
@@ -492,7 +494,6 @@
     "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/LinearAlgebra/Vectors.md",
     "XX-Attachments/Images/Pasted image 20240612163637.png",
     "XX-Attachments/Images/Pasted image 20240612163513.png",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
     "MachineLearning/Clustering/Hierarchal_clustering.md",
     "Statistics/ProbabilityDistributions/Probability_distributions.md",
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
@@ -507,7 +508,6 @@
     "MediaCoding/ImageMatching/Gaussian_pyramid.md",
     "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
     "MediaCoding/IntensityTransforms/Gamma_transform.md",
-    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "XX-Attachments/Images/Pasted image 20240609163013.png",
     "XX-Attachments/Images/Pasted image 20240609161945.png",
     "XX-Attachments/Images/Pasted image 20240609161909.png",
@@ -515,7 +515,6 @@
     "XX-Attachments/Images/Pasted image 20240607172426.png",
     "XX-Attachments/Images/Pasted image 20240607171834.png",
     "XX-Attachments/Images/Pasted image 20240607165227.png",
-    "XX-Attachments/Images/Pasted image 20240607164255.png",
     "MachineLearning/NaturalLanguageProcessing",
     "MachineLearning/Transformers",
     "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",
