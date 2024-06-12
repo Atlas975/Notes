@@ -170,7 +170,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -222,7 +222,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/Transformers/Self-attention.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -281,7 +281,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -349,7 +349,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md"
+                "file": "MachineLearning/Transformers/Self-attention.md"
               }
             }
           }
@@ -385,7 +385,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
+                "file": "MachineLearning/Transformers/Self-attention.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -402,7 +402,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
+                "file": "MachineLearning/Transformers/Self-attention.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -478,10 +478,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "9737b5c9fce88b44",
+  "active": "8e1ee3607e4bf541",
   "lastOpenFiles": [
-    "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
     "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
+    "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
     "MachineLearning/Transformers/Transformer.md",
     "EmbeddedSystems/Transistors.md",
     "MachineLearning/NaturalLanguageProcessing/Skip-gram.md",

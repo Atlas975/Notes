@@ -21,7 +21,7 @@ ___
 
 $$X=[x_{\text{The}},x_{\text{cat}},x_{\text{sat}},x_{\text{on}},x_{\text{the}},x_{\text{mat}}]$$
 ## Positional encoding 
-- Before proce
+- Before proceeding  
 
 ## Query, Key, Value vectors 
 - **Query ($Q$)**: represents what the word is looking for in other words
