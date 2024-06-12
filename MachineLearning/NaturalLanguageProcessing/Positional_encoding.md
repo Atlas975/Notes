@@ -11,4 +11,5 @@
 ___
 # Positional encoding
 - [[Word_embedding|Word embedding]] alone does not capture the order of words in a sentence. A [[Transformer]] needs to be able to process words in [[Concurrency|parallel]] 
-- Positional encoding achieves this by adding a unique position-based vector to each word embedding. 
+- Positional encoding achieves this by adding a unique position-based vector to each word embedding. This is used by the model to improve sequence understanding
+

@@ -164,6 +164,19 @@
             }
           },
           {
+            "id": "9737b5c9fce88b44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "2a293e4ac1b73c22",
             "type": "leaf",
             "state": {
@@ -268,7 +281,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -336,7 +349,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md"
+                "file": "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md"
               }
             }
           }
@@ -344,7 +357,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -371,7 +385,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
+                "file": "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -388,7 +402,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
+                "file": "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -464,12 +478,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "1be2e6f84eba955b",
+  "active": "9737b5c9fce88b44",
   "lastOpenFiles": [
+    "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
     "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
     "MachineLearning/Transformers/Transformer.md",
     "EmbeddedSystems/Transistors.md",
-    "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
     "MachineLearning/NaturalLanguageProcessing/Skip-gram.md",
     "MachineLearning/NaturalLanguageProcessing/Continuous_bag_of_words.md",
     "MachineLearning/NaturalLanguageProcessing/Natural_language_processing.md",
