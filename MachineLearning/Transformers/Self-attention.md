@@ -19,6 +19,7 @@ ___
 - Each word in the input sequence is converted into a dense vector representation, this vector captures the words meaning in a numerical format
 - This creates an $n \times d$ vector $n$ represents sentence length and $d$ is the dimensionality of the [[Word_embedding|embedding]]. Initially, this does not account for positional encoding 
 $$X=[x_{\text{The}},x_{\text{cat}},x_{\text{sat}},x_{\text{on}},x_{\text{the}},x_{\text{mat}}]$$
+
 ## Positional encoding 
 - Before proceeding to the self-attention mechanism, a unique [[Positional_encoding|positional encoding]] vector needs to be added to the input embedding to incorporate word order informations
 - The periodic nature of this encoding scheme allows a model to infer relative positions as the difference between $PE$'s will be similar for words that are a fixed distance apart.
@@ -32,7 +33,12 @@ $$Q_{i}=W_{q}\cdot x_{i}$$
 $$K_{i}=W_{k}\cdot x_{i}$$
 $$V_{i}=W_{v}\cdot x_{i}$$
 
-## Score calculation 
+## Attention score 
+$$S=Q\cdot K^T$$
+
+$$\text{Scaled\_S}=\frac{S}{\sqrt{ d_{k} }}$$
+
+$$\text{AttentionWeights}=\text{Softmax}(\text{Scaled\_S})$$
 
 
 ## Scaling 
