@@ -13,6 +13,7 @@ ___
 - [[Word_embedding|Word embedding]] alone does not capture the order of words in a sentence. A [[Transformer]] needs to be able to process words in [[Concurrency|parallel]] 
 - Positional encoding achieves this by adding a unique position-based vector to each word embedding. This is used by the model to improve sequence understanding
 
+![[Pasted image 20240613190142.png|400|400]]
 ## Positional encoding calculation 
 - Positional encodings are calculated using sine and cosine functions of different frequencies. This ensures that each position has a unique encoding to capture relative positions of words 
 - For even indices ($2i$):
