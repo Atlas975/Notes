@@ -45,9 +45,3 @@ $$\text{AttentionWeights}=\text{Softmax}(\text{ScaledScore})$$
 
 
 ![[Pasted image 20240612224629.png|400|400]]
-## Scaling 
-
-## Softmax function
-
-
-## Weighted sum

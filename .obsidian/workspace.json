@@ -8,253 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a273e6cd230ffe87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/Image_derivatives.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "64d12af0cf61695b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8d6e14cf72486508",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aa00204dd086cc4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6b930918e24ddfa3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/Watermarking/Watermarking.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "44df94a26ba749d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MediaCoding/ImageMatching/Harris_corner_detection.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6bff6a51b5c427bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Clustering/Hierarchal_clustering.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dd5dbc2d92fce6a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cbf946b69b5f4c27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1402a0207759db16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b5259a9e7c2616e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1be2e6f84eba955b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9737b5c9fce88b44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2a293e4ac1b73c22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EmbeddedSystems/Transistors.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "61f240c7577a84e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/LinearAlgebra/Vectors.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bad50c1e68ecdbda",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ContinuousMath/Distance_metrics.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8e1ee3607e4bf541",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Transformers/Self-attention.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "baadbea4d916363d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/Transformers/Transformer.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d1df0efa96f40fce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "187e63d0833b1764",
             "type": "leaf",
             "state": {
@@ -262,6 +15,19 @@
               "state": {
                 "file": "Statistics/ProbabilityDistributions/PERT_distribution.md",
                 "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a44016423210e30a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Transformers/Self-attention.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -281,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -349,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md"
+                "file": "MachineLearning/Transformers/Self-attention.md"
               }
             }
           }
@@ -385,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+                "file": "MachineLearning/Transformers/Self-attention.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -402,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+                "file": "MachineLearning/Transformers/Self-attention.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -478,36 +244,37 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "dd5dbc2d92fce6a6",
+  "active": "a44016423210e30a",
   "lastOpenFiles": [
+    "Statistics/ProbabilityDistributions/PERT_distribution.md",
+    "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
+    "MachineLearning/Transformers/Transformer.md",
     "MachineLearning/Transformers/Self-attention.md",
-    "XX-Attachments/Images/Pasted image 20240612224629.png",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+    "ContinuousMath/Distance_metrics.md",
+    "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/LinearAlgebra/Vectors.md",
+    "EmbeddedSystems/Transistors.md",
     "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
     "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
-    "MachineLearning/Transformers/Transformer.md",
-    "EmbeddedSystems/Transistors.md",
+    "MediaCoding/Image_derivatives.md",
+    "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
+    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
+    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
+    "MediaCoding/Watermarking/Watermarking.md",
+    "MediaCoding/ImageMatching/Harris_corner_detection.md",
+    "MachineLearning/Clustering/Hierarchal_clustering.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+    "XX-Attachments/Images/Pasted image 20240612224629.png",
     "MachineLearning/NaturalLanguageProcessing/Skip-gram.md",
     "MachineLearning/NaturalLanguageProcessing/Continuous_bag_of_words.md",
     "MachineLearning/NaturalLanguageProcessing/Natural_language_processing.md",
-    "ContinuousMath/Distance_metrics.md",
-    "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/LinearAlgebra/Vectors.md",
     "XX-Attachments/Images/Pasted image 20240612163637.png",
     "XX-Attachments/Images/Pasted image 20240612163513.png",
-    "MachineLearning/Clustering/Hierarchal_clustering.md",
     "Statistics/ProbabilityDistributions/Probability_distributions.md",
-    "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "Statistics/ProbabilityDistributions/Triangular_distribution.md",
-    "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
     "MediaCoding/Convolutions/Transposed_convolution.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/Hyperparameters.md",
-    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
-    "MachineLearning/Clustering/K-means_clustering.md",
-    "MediaCoding/ImageMatching/Gaussian_pyramid.md",
-    "MediaCoding/Watermarking/Frequency_domain_watermarking.md",
-    "MediaCoding/IntensityTransforms/Gamma_transform.md",
     "XX-Attachments/Images/Pasted image 20240609163013.png",
     "XX-Attachments/Images/Pasted image 20240609161945.png",
     "XX-Attachments/Images/Pasted image 20240609161909.png",
