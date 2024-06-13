@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Transformers/Self-attention.md",
+                "file": "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Transformers/Self-attention.md"
+                "file": "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md"
               }
             }
           }
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Transformers/Self-attention.md",
+                "file": "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Transformers/Self-attention.md",
+                "file": "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,10 +246,10 @@
   },
   "active": "a44016423210e30a",
   "lastOpenFiles": [
+    "MachineLearning/Transformers/Self-attention.md",
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "MachineLearning/Transformers/Transformer.md",
-    "MachineLearning/Transformers/Self-attention.md",
     "ContinuousMath/Distance_metrics.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/LinearAlgebra/Vectors.md",
     "EmbeddedSystems/Transistors.md",
