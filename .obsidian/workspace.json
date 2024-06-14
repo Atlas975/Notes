@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/Transformers/Self-attention.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -272,6 +272,8 @@
   },
   "active": "c7c2c2a6b22c6b82",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240614215227.png",
+    "XX-Attachments/Images/Pasted image 20240614214033.png",
     "XX-Attachments/Images/Pasted image 20240614210001.png",
     "MachineLearning/NaturalLanguageProcessing/QKV_mechanism.md",
     "MachineLearning/Transformers/Self-attention.md",
@@ -306,8 +308,6 @@
     "XX-Attachments/Images/Pasted image 20240609163013.png",
     "XX-Attachments/Images/Pasted image 20240609161945.png",
     "XX-Attachments/Images/Pasted image 20240609161909.png",
-    "XX-Attachments/Images/Pasted image 20240607172600.png",
-    "XX-Attachments/Images/Pasted image 20240607172426.png",
     "MachineLearning/NaturalLanguageProcessing",
     "MachineLearning/Transformers",
     "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",

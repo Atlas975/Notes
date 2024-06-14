@@ -16,6 +16,8 @@ ___
 ![[Pasted image 20240614210001.png|200|200]]
 - The result of this mechanism is a matrix of attention scores between a word and all other words in a sentence, quantifying how relevant these words are to each other
 - This greatly aids the model in focusing on relevant parts of the input when making predictions or generating synthetic output
+
+![[Pasted image 20240614214033.png|480|480]]
 ## Input embedding
 - Each word in the input sequence is converted into a dense vector representation, this vector captures the words meaning in a numerical format
 - This creates an $n \times d_{\text{model}}$ vector $n$ represents sentence length and $d_{\text{model}}$ is the dimensionality of the [[Word_embedding|embedding]]. Initially, this does not account for positional encoding 
@@ -31,9 +33,11 @@ $$X=[x_{\text{The}}+PE_{0}, \ x_{\text{cat}}+PE_{1},\ x_{\text{sat}}+PE_{2},\dot
 - **Key ($K$)**: encapsulates the information about other tokens in the sequence, which the query token uses to assess relevance or compatibility
 - **Value ($V$)**: the actual content of interest (meaning )
 
-![[Pasted image 20240614182728.png|300|250]]
+
+$$Q=X\cdot W_{Q}$$
+$$K=X\cdot W_{K}$$
+$$V=X\cdot W_{V}$$
 ## Attention score
-- 
 $$\text{Score}=Q\cdot K^T$$
 - When computing scores using the above operation, the score magnitudes can vary significantly
 - This [[Gaussian_distribution|variance]] grows with $d$, scaling is done to normalise this and improve gradient flow
@@ -43,3 +47,9 @@ $$\text{ScaledScore}=\frac{\text{Score}}{\sqrt{ d_{k} }}$$
 $$\text{AttentionWeights}=\text{Softmax}(\text{ScaledScore})$$
 
 ![[Pasted image 20240612224629.png|400|400]]
+
+
+## Masking 
+
+
+![[Pasted image 20240614215227.png|500|500]]
