@@ -13,8 +13,7 @@ ___
 - A mechanism in [[Neural_networks|neural networks]] primarily used for [[Transformer|transformer]] models. This is crucial for tasks like translation, where word meaning can depend on a large context window of words around it
 - This mechanism enables the model to weigh the importance of tokens in a sequence relative to each other. This is also done in [[Concurrency|parallel]] rather than sequentially
 
-![[Pasted image 20240606213618.png|400|350]]
-
+![[Pasted image 20240614210001.png|200|200]]
 ## Input embedding 
 - Each word in the input sequence is converted into a dense vector representation, this vector captures the words meaning in a numerical format
 - This creates an $n \times d_{\text{model}}$ vector $n$ represents sentence length and $d_{\text{model}}$ is the dimensionality of the [[Word_embedding|embedding]]. Initially, this does not account for positional encoding 
@@ -32,12 +31,11 @@ $$X=[x_{\text{The}}+PE_{0}, \ x_{\text{cat}}+PE_{1},\ x_{\text{sat}}+PE_{2},\dot
 ## Attention score 
 $$\text{Score}=Q\cdot K^T$$
 
-- The [[Gaussian_distribution|variance]] 
+- The [[Gaussian_distribution|variance]] of the 
 $$\text{ScaledScore}=\frac{\text{Score}}{\sqrt{ d_{k} }}$$
 
 - [[Softmax]] is used to convert these scores into probabilities and add numerical stability
 - The scaling done prior also acts as a natural increase to the temperature of softmax output
 $$\text{AttentionWeights}=\text{Softmax}(\text{ScaledScore})$$
-
 
 ![[Pasted image 20240612224629.png|400|400]]

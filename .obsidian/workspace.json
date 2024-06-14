@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/Transformers/Self-attention.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/QKV_mechanism.md"
+                "file": "MachineLearning/Transformers/Self-attention.md"
               }
             }
           }
@@ -177,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/QKV_mechanism.md",
+                "file": "MachineLearning/Transformers/Self-attention.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/QKV_mechanism.md",
+                "file": "MachineLearning/Transformers/Self-attention.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,10 +270,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "473ea5eced5f1fb4",
+  "active": "c7c2c2a6b22c6b82",
   "lastOpenFiles": [
-    "MachineLearning/Transformers/Self-attention.md",
+    "XX-Attachments/Images/Pasted image 20240614210001.png",
     "MachineLearning/NaturalLanguageProcessing/QKV_mechanism.md",
+    "MachineLearning/Transformers/Self-attention.md",
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
     "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
@@ -302,7 +303,6 @@
     "Statistics/ProbabilityDistributions/Probability_distributions.md",
     "Statistics/ProbabilityDistributions/Triangular_distribution.md",
     "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
     "XX-Attachments/Images/Pasted image 20240609163013.png",
     "XX-Attachments/Images/Pasted image 20240609161945.png",
     "XX-Attachments/Images/Pasted image 20240609161909.png",
