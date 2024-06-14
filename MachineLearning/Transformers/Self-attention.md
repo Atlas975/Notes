@@ -17,13 +17,13 @@ ___
 
 ## Input embedding 
 - Each word in the input sequence is converted into a dense vector representation, this vector captures the words meaning in a numerical format
-- This creates an $n \times d$ vector $n$ represents sentence length and $d$ is the dimensionality of the [[Word_embedding|embedding]]. Initially, this does not account for positional encoding 
+- This creates an $n \times d_{\text{model}}$ vector $n$ represents sentence length and $d_{\text{model}}$ is the dimensionality of the [[Word_embedding|embedding]]. Initially, this does not account for positional encoding 
 $$X=[x_{\text{The}},x_{\text{cat}},x_{\text{sat}},x_{\text{on}},x_{\text{the}},x_{\text{mat}}]$$
 ## Positional encoding 
 - Before proceeding to the self-attention mechanism, a unique [[Positional_encoding|positional encoding]] vector needs to be added to the input embedding to incorporate word order informations
 - The periodic nature of this encoding scheme allows a model to infer relative positions as the difference between $PE$'s will be similar for words that are a fixed distance apart.
 $$X=[x_{\text{The}}+PE_{0}, \ x_{\text{cat}}+PE_{1},\ x_{\text{sat}}+PE_{2},\dots]$$
-## Query, Key, Value vectors 
+## Query, Key and Value mechanism
 - **Query ($Q$)**: represents the current token’s information, which is used to seek relevance or compatibility with other tokens in the sequence.
 - **Key ($K$)**: encapsulates the information about other tokens in the sequence, which the query token uses to assess relevance or compatibility
 - **Value ($V$)**: the actual content of interest (meaning )

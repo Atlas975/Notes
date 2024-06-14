@@ -26,6 +26,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "MachineLearning/NaturalLanguageProcessing/QKV_mechanism.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c7c2c2a6b22c6b82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "MachineLearning/Transformers/Self-attention.md",
                 "mode": "preview",
                 "backlinks": false,
@@ -59,7 +72,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -127,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md"
+                "file": "MachineLearning/NaturalLanguageProcessing/QKV_mechanism.md"
               }
             }
           }
@@ -163,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md",
+                "file": "MachineLearning/NaturalLanguageProcessing/QKV_mechanism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md",
+                "file": "MachineLearning/NaturalLanguageProcessing/QKV_mechanism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -256,15 +270,16 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "187e63d0833b1764",
+  "active": "473ea5eced5f1fb4",
   "lastOpenFiles": [
-    "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
     "MachineLearning/Transformers/Self-attention.md",
+    "MachineLearning/NaturalLanguageProcessing/QKV_mechanism.md",
+    "Statistics/ProbabilityDistributions/PERT_distribution.md",
+    "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
     "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
     "XX-Attachments/Images/Pasted image 20240614182728.png",
     "MachineLearning/Transformers/Multi-headed_attention.md",
     "XX-Attachments/Images/Pasted image 20240613190142.png",
-    "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "MachineLearning/Transformers/Transformer.md",
     "ContinuousMath/Distance_metrics.md",
