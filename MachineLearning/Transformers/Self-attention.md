@@ -33,6 +33,8 @@ $$Q_{i}=W_{q}\cdot x_{i}$$
 $$K_{i}=W_{k}\cdot x_{i}$$
 $$V_{i}=W_{v}\cdot x_{i}$$
 
+
+![[Pasted image 20240614182728.png|300|250]]
 ## Attention score 
 $$\text{Score}=Q\cdot K^T$$
 

@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md"
+                "file": "MachineLearning/Transformers/Self-attention.md"
               }
             }
           }
@@ -177,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
+                "file": "MachineLearning/Transformers/Self-attention.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
+                "file": "MachineLearning/Transformers/Self-attention.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,11 +270,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a44016423210e30a",
+  "active": "473ea5eced5f1fb4",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240614182728.png",
+    "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
     "MachineLearning/Transformers/Self-attention.md",
     "MachineLearning/Transformers/Multi-headed_attention.md",
-    "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
     "XX-Attachments/Images/Pasted image 20240613190142.png",
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
@@ -301,7 +302,6 @@
     "Statistics/ProbabilityDistributions/Triangular_distribution.md",
     "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
-    "MediaCoding/Convolutions/Transposed_convolution.md",
     "XX-Attachments/Images/Pasted image 20240609163013.png",
     "XX-Attachments/Images/Pasted image 20240609161945.png",
     "XX-Attachments/Images/Pasted image 20240609161909.png",
