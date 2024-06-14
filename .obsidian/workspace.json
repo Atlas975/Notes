@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
+                "file": "MachineLearning/Transformers/Self-attention.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -270,11 +270,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "473ea5eced5f1fb4",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
-    "XX-Attachments/Images/Pasted image 20240614182728.png",
+    "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
     "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
     "MachineLearning/Transformers/Self-attention.md",
+    "XX-Attachments/Images/Pasted image 20240614182728.png",
     "MachineLearning/Transformers/Multi-headed_attention.md",
     "XX-Attachments/Images/Pasted image 20240613190142.png",
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
@@ -283,7 +284,6 @@
     "ContinuousMath/Distance_metrics.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/LinearAlgebra/Vectors.md",
     "EmbeddedSystems/Transistors.md",
-    "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
     "MediaCoding/Image_derivatives.md",
     "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
     "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
@@ -307,7 +307,6 @@
     "XX-Attachments/Images/Pasted image 20240609161909.png",
     "XX-Attachments/Images/Pasted image 20240607172600.png",
     "XX-Attachments/Images/Pasted image 20240607172426.png",
-    "XX-Attachments/Images/Pasted image 20240607171834.png",
     "MachineLearning/NaturalLanguageProcessing",
     "MachineLearning/Transformers",
     "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",
