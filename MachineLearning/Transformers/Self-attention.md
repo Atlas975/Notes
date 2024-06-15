@@ -15,7 +15,7 @@ ___
 
 ![[Pasted image 20240614210001.png|200|200]]
 - The result of this mechanism is a matrix of attention scores between a word and all other words in a sentence, quantifying how relevant these words are to each other
-- This greatly aids the model in focusing on relevant parts of the input when making predictions or generating synthetic output
+- This aids the model in focusing on relevant  input when making predictions / generating
 
 ![[Pasted image 20240614214033.png|480|480]]
 ## Input embedding
@@ -49,7 +49,9 @@ $$\text{AttentionWeights}=\text{Softmax}(\text{ScaledScore})$$
 ![[Pasted image 20240612224629.png|400|400]]
 
 
-## Masking 
+## Look-ahead masking
+- An optional step in the self-attention mechanism used to prevent future information leakage, preventing information from future tokens from being used to make predictions 
+- This ensures that each token in a sequence will only attend to the current and previous positions. This is done by setting future positions to $-\infty$ prior to softmax
 
 
 ![[Pasted image 20240614215227.png|500|500]]
