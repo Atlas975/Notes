@@ -30,16 +30,19 @@ $$X=[x_{\text{The}}+PE_{0}, \ x_{\text{cat}}+PE_{1},\ x_{\text{sat}}+PE_{2},\dot
 
 ## Query, Key and Value mechanism
 - Three different linear transformations are applied to the input embeddings to produce the queries ($Q$), keys ($K$), and values ($V$) matrices
-- These transformations are parameterised by learned weight matrices $(W_{Q}, W_{K},W_{V})$
-- **Query ($Q$)**: represents the current token’s information, which is used to seek relevance or compatibility with other tokens in the sequence.
-- **Key ($K$)**: encapsulates the information about other tokens in the sequence, which the query token uses to assess relevance or compatibility
-- **Value ($V$)**: the actual content of interest (meaning )
+- These transformations are parameterised by learned weight matrices $(W_{Q}, W_{K},W_{V})$. Typically $(d_{Q}=d_{K} =d_{v}=d_{\text{model}}$) but this is not always the case
 
 
 $$Q=X\cdot W_{Q}$$
 $$K=X\cdot W_{K}$$
 $$V=X\cdot W_{V}$$
+
+- **Query ($Q$)**: determines which elements in the sequence to focus on
+- **Key ($K$)**: represents the elements that are being compared against the queries
+- **Value ($V$)**: contain the information thats multiplied by the attention weights to produce outputs
 ## Attention score
+- The attention score is calculated by taking the product of the query and key matrices
+- This produces the score for each pair of positions in the input sequence 
 $$\text{Score}=Q\cdot K^T$$
 - When computing scores using the above operation, the score magnitudes can vary significantly
 - This [[Gaussian_distribution|variance]] grows with $d$, scaling is done to normalise this and improve gradient flow
