@@ -29,6 +29,8 @@ $$X=[x_{\text{The}},x_{\text{cat}},x_{\text{sat}},x_{\text{on}},x_{\text{the}},x
 $$X=[x_{\text{The}}+PE_{0}, \ x_{\text{cat}}+PE_{1},\ x_{\text{sat}}+PE_{2},\dots]$$
 
 ## Query, Key and Value mechanism
+- Three different linear transformations are applied to the input embeddings to produce the queries ($Q$), keys ($K$), and values ($V$) matrices
+- These transformations are parameterised by learned weight matrices $(W_{Q}, W_{K},W_{V})$
 - **Query ($Q$)**: represents the current token’s information, which is used to seek relevance or compatibility with other tokens in the sequence.
 - **Key ($K$)**: encapsulates the information about other tokens in the sequence, which the query token uses to assess relevance or compatibility
 - **Value ($V$)**: the actual content of interest (meaning )
@@ -47,7 +49,6 @@ $$\text{ScaledScore}=\frac{\text{Score}}{\sqrt{ d_{k} }}$$
 $$\text{AttentionWeights}=\text{Softmax}(\text{ScaledScore})$$
 
 ![[Pasted image 20240612224629.png|400|400]]
-
 
 ## Look-ahead masking
 - An optional step in the self-attention mechanism used to prevent future information leakage, preventing information from future tokens from being used to make predictions 
