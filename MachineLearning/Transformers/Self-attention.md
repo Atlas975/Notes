@@ -49,7 +49,7 @@ $$\text{Score}=Q\cdot K^T$$
 $$\text{ScaledScore}=\frac{\text{Score}}{\sqrt{ d_{k} }}$$
 - [[Softmax]] is used to convert these scores into probabilities and add numerical stability
 - The scaling done prior also acts as a natural increase to the temperature of softmax output
-$$\text{AttentionWeights}=\text{Softmax}(\text{ScaledScore})$$
+$$\text{AttentionWeights}=\text{Softmax}(\text{ScaledScore})\cdot V$$
 
 ![[Pasted image 20240612224629.png|400|400]]
 
