@@ -39,7 +39,7 @@ $$V=X\cdot W_{V}$$
 
 - **Query ($Q$)**: represents what a token is searching for (eg a noun looking for an adjective)
 - **Key ($K$)**: represents what information a token has (eg an adjective having descriptive qualities)
-- **Value ($V$)**: contain the information that's multiplied by the attention weights to produce outputs
+- **Value ($V$)**: represents what information a token caries (eg descriptive details of an adjective)
 ## Attention score
 - The attention score is calculated by taking the product of the query and key matrices
 - This produces the score for each pair of positions in the input sequence 
@@ -47,7 +47,7 @@ $$\text{Score}=Q\cdot K^T$$
 - When computing scores using the above operation, the score magnitudes can vary significantly
 - This [[Gaussian_distribution|variance]] grows with $d$, scaling is done to normalise this and improve gradient flow
 $$\text{ScaledScore}=\frac{\text{Score}}{\sqrt{ d_{k} }}$$
-- [[Softmax]] is used to convert these scores into probabilities and add numerical stability
+- [[Softmax]] is used to convert each pattern vector into probabilities and add numerical stability
 - The scaling done prior also acts as a natural increase to the temperature of softmax output
 $$\text{AttentionWeights}=\text{Softmax}(\text{ScaledScore})\cdot V$$
 
