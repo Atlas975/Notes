@@ -29,7 +29,7 @@ $$X=[x_{\text{The}},x_{\text{cat}},x_{\text{sat}},x_{\text{on}},x_{\text{the}},x
 $$X=[x_{\text{The}}+PE_{0}, \ x_{\text{cat}}+PE_{1},\ x_{\text{sat}}+PE_{2},\dots]$$
 
 ## Query, Key and Value mechanism
-- Three different linear transformations are applied to the input embeddings to produce the queries ($Q$), keys ($K$), and values ($V$) matrices
+- Three different linear transformations are applied to the input embeddings to produce the queries ($Q$), keys ($K$), and values ($V$) vectors
 - These transformations are parameterised by learned weight matrices $(W_{Q}, W_{K},W_{V})$. Typically $(d_{Q}=d_{K} =d_{v}=d_{\text{model}}$) but this is not always the case
 
 
@@ -37,9 +37,9 @@ $$Q=X\cdot W_{Q}$$
 $$K=X\cdot W_{K}$$
 $$V=X\cdot W_{V}$$
 
-- **Query ($Q$)**: determines which elements in the sequence to focus on
-- **Key ($K$)**: represents the elements that are being compared against the queries
-- **Value ($V$)**: contain the information thats multiplied by the attention weights to produce outputs
+- **Query ($Q$)**: represents what a token is searching for (eg a noun looking for an adjective)
+- **Key ($K$)**: represents what information a token has (eg an adjective having descriptive qualities)
+- **Value ($V$)**: contain the information that's multiplied by the attention weights to produce outputs
 ## Attention score
 - The attention score is calculated by taking the product of the query and key matrices
 - This produces the score for each pair of positions in the input sequence 
