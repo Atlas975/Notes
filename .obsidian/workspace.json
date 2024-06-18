@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Transformers/Self-attention.md"
+                "file": "MachineLearning/Transformers/Multi-headed_attention.md"
               }
             }
           }
@@ -177,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Transformers/Self-attention.md",
+                "file": "MachineLearning/Transformers/Multi-headed_attention.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Transformers/Self-attention.md",
+                "file": "MachineLearning/Transformers/Multi-headed_attention.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,10 +270,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "473ea5eced5f1fb4",
+  "active": "ee49ced69e0c53fc",
   "lastOpenFiles": [
-    "MachineLearning/NaturalLanguageProcessing/QKV_mechanism.md",
     "MachineLearning/Transformers/Self-attention.md",
+    "MachineLearning/Transformers/Multi-headed_attention.md",
+    "MachineLearning/NaturalLanguageProcessing/QKV_mechanism.md",
     "XX-Attachments/Images/Pasted image 20240614215227.png",
     "XX-Attachments/Images/Pasted image 20240614214033.png",
     "XX-Attachments/Images/Pasted image 20240614210001.png",
@@ -281,7 +282,6 @@
     "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
     "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
     "XX-Attachments/Images/Pasted image 20240614182728.png",
-    "MachineLearning/Transformers/Multi-headed_attention.md",
     "XX-Attachments/Images/Pasted image 20240613190142.png",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "MachineLearning/Transformers/Transformer.md",
