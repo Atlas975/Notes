@@ -47,7 +47,7 @@ $$\text{Score}=Q\cdot K^T$$
 - When computing scores using the above operation, the score magnitudes can vary significantly
 - This [[Gaussian_distribution|variance]] grows with $d$, scaling is done to normalise this and improve gradient flow
 $$\text{ScaledScore}=\frac{\text{Score}}{\sqrt{ d_{k} }}$$
-- [[Softmax]] is used to convert each pattern vector into probabilities and add numerical stability
+- [[Softmax]] is used to convert each attention vector into probabilities and add numerical stability
 - The scaling done prior also acts as a natural increase to the temperature of softmax output
 $$\text{AttentionWeights}=\text{Softmax}(\text{ScaledScore})\cdot V$$
 
