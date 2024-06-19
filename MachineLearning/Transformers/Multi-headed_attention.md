@@ -10,9 +10,11 @@
 
 ___
 # Multi-headed attention
+- A mechanism used in [[Transformer]] models, where multiple [[Self-attention|attention heads]] operate in [[Concurrency|parallel]]. Heads are trained to focus on distinct aspects of the data, creating different linear projections
+- This process allows a model to capture various relationships in the input data, leading to richer representation of data when each head's output is concatenated
+- The output of each head is concatenated and linearly transformed 
 
-
-## Multi-head benefits 
+## Multi-head benefits
 
 $$\color{#8DB600}\text{Which do}\color{white}\ \text{you like better, coffee or tea} \color{#8DB600}?\color{white} \to \text{sentence type focus}$$
 $$\text{Which do }\color{#FF8C00}\text{you}\ \color{white}\text{like better,}\ \color{#FF8C00}\text{coffee}\color{white}\ \text{or} \ \color{#FF8C00}\text{tea} \color{white} \text{?}\to \text{object focus}$$
@@ -20,7 +22,7 @@ $$\text{Which do you} \ \color{#8D4E85}\text{like}\color{white} \ \text{better, 
 $$\text{Which do you}\ \color{#007FFF}\text{like better}\color{white} \text{, coffee or tea?}\ \to \text{sentiment focus}$$
 
 
-## Multi-headed self-attention algorithm 
+## Multi-headed self-attention algorithm
 ```python
 import torch
 import torch.nn as nn

@@ -1,5 +1,7 @@
 ---
-aliases: async
+aliases:
+  - async
+  - parallel
 ---
 
 > [!important|inIL]- Metadata
