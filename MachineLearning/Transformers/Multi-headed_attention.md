@@ -14,19 +14,21 @@ ___
 - This process allows a model to capture various relationships in the input data, leading to richer representation of data when each head's output is concatenated
 
 ![[Pasted image 20240619200820.png|220|220]]
-- The output of each head is concatenated and linearly transformed 
 
+- After each head completes its independent processing of the input sequence, outputs are concatenated along the feature dimension.
+- The concatenated output is then put through a final linear layer, this includes a bias. This transformation helps combine information from all heads into a single output
 
+$$\text{MultiHead}(Q,K,V)=\text{Concat}(\text{head}_{1},\text{head}_{2},\dots)\cdot W_{O}$$
 ## Multi-head benefits
 - **Capture diverse features**: enables the model to focus on different parts of the input sequence simultaneously, capturing more complex patterns.
 - **Reduced risk of overfitting**: distributes the model’s capacity across different aspects of the data, acting as a form of regularisation and improving generalisation.
-- **Enhanced parallelisation**: allows for parallel processing of attention mechanisms, leading to more efficient training and inference.
-- **Improved contextual understanding**: better understands context and relationships within the data by attending to different parts of the sequence in parallel.
 
 $$\color{#8DB600}\text{Which do}\color{white}\ \text{you like better, coffee or tea} \color{#8DB600}?\color{white} \to \text{sentence type focus}$$
 $$\text{Which do }\color{#FF8C00}\text{you}\ \color{white}\text{like better,}\ \color{#FF8C00}\text{coffee}\color{white}\ \text{or} \ \color{#FF8C00}\text{tea} \color{white} \text{?}\to \text{object focus}$$
 $$\text{Which do you} \ \color{#8D4E85}\text{like}\color{white} \ \text{better, }\color{#8D4E85}\text{coffee or tea}\color{white} \text{?} \to \text{relation focus}$$
 $$\text{Which do you}\ \color{#007FFF}\text{like better}\color{white} \text{, coffee or tea?}\ \to \text{sentiment focus}$$
+- **Enhanced parallelisation**: allows for parallel processing of attention mechanisms, leading to more efficient training and inference.
+- **Improved contextual understanding**: better understands context and relationships within the data by attending to different parts of the sequence in parallel.
 
 
 ## Multi-headed self-attention algorithm

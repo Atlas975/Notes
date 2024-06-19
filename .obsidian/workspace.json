@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Transformers/Multi-headed_attention.md",
+                "file": "MachineLearning/Transformers/Transformer.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Transformers/Multi-headed_attention.md"
+                "file": "MachineLearning/Transformers/Transformer.md"
               }
             }
           }
@@ -162,8 +162,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -190,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Transformers/Multi-headed_attention.md",
+                "file": "MachineLearning/Transformers/Transformer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Transformers/Multi-headed_attention.md",
+                "file": "MachineLearning/Transformers/Transformer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -285,8 +284,8 @@
   },
   "active": "9a621ef6aef3891a",
   "lastOpenFiles": [
-    "MachineLearning/Transformers/Self-attention.md",
     "MachineLearning/Transformers/Multi-headed_attention.md",
+    "MachineLearning/Transformers/Self-attention.md",
     "XX-Attachments/Images/Pasted image 20240619200820.png",
     "SoftwareEngineering/Concurrency.md",
     "MachineLearning/NaturalLanguageProcessing/QKV_mechanism.md",
