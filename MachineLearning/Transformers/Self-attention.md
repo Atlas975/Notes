@@ -65,27 +65,21 @@ $$\text{AttentionWeights}=\text{Softmax}(\text{ScaledScore})\cdot V$$
 
 ## Self-attention algorithm
 ```python
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
-
 class SingleHeadAttention(nn.Module):
-    def __init__(self, embedding_dim: int, attention_dim: int):
+    def __init__(self, embedding_dim: int, attention_dim: int): 
         super().__init__() # initialise the linear layers W_k, W_q, W_v
         self.k_layer = nn.Linear(embedding_dim, attention_dim, bias=False)
         self.q_layer = nn.Linear(embedding_dim, attention_dim, bias=False)
         self.v_layer = nn.Linear(embedding_dim, attention_dim, bias=False)
 
+        self.mask = torch.tril(torch.ones(embedding_dim, embedding_dim)) == 0
+        self.dk_sqrt = attention_dim ** 0.5 # initialse constants 
+
     def forward(self, embedded: torch.Tensor) -> torch.Tensor:
         k, q, v = self.k_layer(embedded), self.q_layer(embedded), self.v_layer(embedded)
-        B, T, A = k.shape  # batch size, context length, attention dim
+        scaled_scores = (q @ k.transpose(-2, -1)) / self.dk_sqrt 
+        masked_scores = scaled_scores.masked_fill(self.mask, float("-inf"))
 
-        k_t = torch.transpose(k, -2, -1)  # transpose k
-        scores = (q @ k_t) / (A**0.5)  # q * k / sqrt(d_k)
-
-        mask = torch.tril(torch.ones(T, T)) == 0
-        scores = scores.masked_fill(mask, float("-inf"))  # apply masking
-
-        scores = F.softmax(scores, dim=-1)  # softmax along the last dimension
-        return torch.round(scores @ v, decimals=4)  # attention * v
+        attention = F.softmax(masked_scores, dim=-1) @ v 
+        return torch.round(attention, decimals = 4)
 ```
