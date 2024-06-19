@@ -66,7 +66,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/Transformers/Multi-headed_attention.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -285,9 +285,10 @@
   },
   "active": "9a621ef6aef3891a",
   "lastOpenFiles": [
-    "SoftwareEngineering/Concurrency.md",
-    "MachineLearning/Transformers/Multi-headed_attention.md",
     "MachineLearning/Transformers/Self-attention.md",
+    "MachineLearning/Transformers/Multi-headed_attention.md",
+    "XX-Attachments/Images/Pasted image 20240619200820.png",
+    "SoftwareEngineering/Concurrency.md",
     "MachineLearning/NaturalLanguageProcessing/QKV_mechanism.md",
     "XX-Attachments/Images/Pasted image 20240614215227.png",
     "XX-Attachments/Images/Pasted image 20240614214033.png",
@@ -318,9 +319,7 @@
     "XX-Attachments/Images/Pasted image 20240612163513.png",
     "Statistics/ProbabilityDistributions/Probability_distributions.md",
     "Statistics/ProbabilityDistributions/Triangular_distribution.md",
-    "MachineLearning/NeuralNetworks/Training/Gradient_descent.md",
     "XX-Attachments/Images/Pasted image 20240609163013.png",
-    "XX-Attachments/Images/Pasted image 20240609161945.png",
     "MachineLearning/NaturalLanguageProcessing",
     "MachineLearning/Transformers",
     "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",

@@ -12,7 +12,10 @@ ___
 # Multi-headed attention
 - A mechanism used in [[Transformer]] models, where multiple [[Self-attention|attention heads]] operate in [[Concurrency|parallel]]. Heads are trained to focus on distinct aspects of the data, creating different linear projections
 - This process allows a model to capture various relationships in the input data, leading to richer representation of data when each head's output is concatenated
+
+![[Pasted image 20240619200820.png|220|220]]
 - The output of each head is concatenated and linearly transformed 
+
 
 ## Multi-head benefits
 
@@ -36,8 +39,11 @@ class MultiHeadedSelfAttention(nn.Module):
             SingleHeadAttention(embedding_dim, sub_attention_dim)
             for _ in range(num_heads)
         )
+        self.output_layer = nn.Linear(attention_dim, embedding_dim)
 
     def forward(self, embedded: torch.Tensor) -> torch.Tensor:
         ouputs = [head(embedded) for head in self.attention_heads]
-        return torch.cat(ouputs, dim=-1)  # concatenate the scores from all heads
+        concat = torch.cat(ouputs, dim=-1) # concatenate the scores from all heads
+        result = self.output_layer(concat)
+        return result
 ```

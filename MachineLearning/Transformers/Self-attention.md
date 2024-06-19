@@ -65,21 +65,25 @@ $$\text{AttentionWeights}=\text{Softmax}(\text{ScaledScore})\cdot V$$
 
 ## Self-attention algorithm
 ```python
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+
 class SingleHeadAttention(nn.Module):
-    def __init__(self, embedding_dim: int, attention_dim: int): 
-        super().__init__() # initialise the linear layers W_k, W_q, W_v
+    def __init__(self, embedding_dim: int, attention_dim: int):
+        super().__init__()  # initialise the linear layers W_k, W_q, W_v
         self.k_layer = nn.Linear(embedding_dim, attention_dim, bias=False)
         self.q_layer = nn.Linear(embedding_dim, attention_dim, bias=False)
         self.v_layer = nn.Linear(embedding_dim, attention_dim, bias=False)
 
         self.mask = torch.tril(torch.ones(embedding_dim, embedding_dim)) == 0
-        self.dk_sqrt = attention_dim ** 0.5 # initialse constants 
+        self.dk_sqrt = attention_dim**0.5  # initialse constants
 
     def forward(self, embedded: torch.Tensor) -> torch.Tensor:
         k, q, v = self.k_layer(embedded), self.q_layer(embedded), self.v_layer(embedded)
-        scaled_scores = (q @ k.transpose(-2, -1)) / self.dk_sqrt 
+        scaled_scores = (q @ k.transpose(-2, -1)) / self.dk_sqrt
         masked_scores = scaled_scores.masked_fill(self.mask, float("-inf"))
 
-        attention = F.softmax(masked_scores, dim=-1) @ v 
-        return torch.round(attention, decimals = 4)
+        attention = F.softmax(masked_scores, dim=-1) @ v
+        return attention
 ```
