@@ -30,6 +30,7 @@ $$\text{Which do you}\ \color{#007FFF}\text{like better}\color{white} \text{, co
 - **Enhanced parallelisation**: allows for parallel processing of attention mechanisms, leading to more efficient training and inference.
 - **Improved contextual understanding**: better understands context and relationships within the data by attending to different parts of the sequence in parallel.
 
+![[Pasted image 20240621170422.png|450|450]]
 
 ## Multi-headed self-attention algorithm
 ```python
