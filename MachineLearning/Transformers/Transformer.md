@@ -16,10 +16,11 @@ ___
 ![[Pasted image 20240623203428.png|300|300]]
 
 ## Encoder 
-- Takes an input sequence like a sentence and converts it into a high-dimensional vector, this representation captures the essential information and context of the input
+- Takes an input sequence and converts it into a high-dimensional vector, this representation captures the essential information and context of the input
 - Each layer in the encoder refines the representation of the input sequence, making the final output of the encoder a set of vectors that encapsulate the input’s meaning.
 
 
 ![[Pasted image 20240623204008.png|450|450]]
 ## Decoder 
+- Takes an input sequence and predicts the next word, the inputs to the decoder is the output of the encoder and the previous outputs of decoder block itself 
 - 
