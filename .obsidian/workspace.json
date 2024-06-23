@@ -175,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -297,9 +298,9 @@
   },
   "active": "4d8f58726353abff",
   "lastOpenFiles": [
-    "XX-Attachments/Images/Pasted image 20240621170422.png",
     "MachineLearning/Transformers/Transformer.md",
     "MachineLearning/Transformers/Multi-headed_attention.md",
+    "XX-Attachments/Images/Pasted image 20240621170422.png",
     "MachineLearning/Transformers/Self-attention.md",
     "XX-Attachments/Images/Pasted image 20240619200820.png",
     "SoftwareEngineering/Concurrency.md",
@@ -332,7 +333,6 @@
     "XX-Attachments/Images/Pasted image 20240612163513.png",
     "Statistics/ProbabilityDistributions/Probability_distributions.md",
     "Statistics/ProbabilityDistributions/Triangular_distribution.md",
-    "XX-Attachments/Images/Pasted image 20240609163013.png",
     "MachineLearning/NaturalLanguageProcessing",
     "MachineLearning/Transformers",
     "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",
