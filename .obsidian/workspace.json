@@ -39,34 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Transformers/Self-attention.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ee49ced69e0c53fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SoftwareEngineering/Concurrency.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9a621ef6aef3891a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "MachineLearning/Transformers/Transformer.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -99,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -175,8 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -296,18 +269,18 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "9a621ef6aef3891a",
+  "active": "c7c2c2a6b22c6b82",
   "lastOpenFiles": [
+    "MachineLearning/Transformers/Multi-headed_attention.md",
+    "MachineLearning/Transformers/Transformer.md",
+    "MachineLearning/Transformers/Self-attention.md",
+    "SoftwareEngineering/Concurrency.md",
     "XX-Attachments/Images/Pasted image 20240623204008.png",
     "XX-Attachments/Images/Pasted image 20240623203929.png",
     "XX-Attachments/Images/Pasted image 20240623203428.png",
     "XX-Attachments/Images/Pasted image 20240623203359.png",
-    "MachineLearning/Transformers/Self-attention.md",
-    "MachineLearning/Transformers/Transformer.md",
-    "MachineLearning/Transformers/Multi-headed_attention.md",
     "XX-Attachments/Images/Pasted image 20240621170422.png",
     "XX-Attachments/Images/Pasted image 20240619200820.png",
-    "SoftwareEngineering/Concurrency.md",
     "MachineLearning/NaturalLanguageProcessing/QKV_mechanism.md",
     "XX-Attachments/Images/Pasted image 20240614215227.png",
     "XX-Attachments/Images/Pasted image 20240614214033.png",
@@ -316,7 +289,6 @@
     "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
     "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
     "XX-Attachments/Images/Pasted image 20240614182728.png",
-    "XX-Attachments/Images/Pasted image 20240613190142.png",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "ContinuousMath/Distance_metrics.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/LinearAlgebra/Vectors.md",
