@@ -10,8 +10,16 @@
 
 ___
 # Transformers
-- A [[Neural_networks|deep learning]] model specialised in handling sequential data through the use of the [[Self-attention|self-attention mechanism]], this has the benefit of being highly [[Concurrency|parallelisable ]] 
+- A [[Neural_networks|deep learning]] model specialised in handling sequential data through the use of the [[Self-attention|self-attention mechanism]], this has the benefit of being highly [[Concurrency|parallelisable ]] and scalable
+- These involve processing the entire sequence at once via the use of encoders and decoders each with 2 components in their layers, an [[Multi-headed_attention|MHA]] mechanism and a feed-forward neural net
+
+![[Pasted image 20240623203428.png|300|300]]
+
+## Encoder 
+- Takes an input sequence like a sentence and converts it into a high-dimensional vector, this representation captures the essential information and context of the input
+- Each layer in the encoder refines the representation of the input sequence, making the final output of the encoder a set of vectors that encapsulate the input’s meaning.
+
+
+![[Pasted image 20240623204008.png|450|450]]
+## Decoder 
 - 
-
-
-![[Pasted image 20240612163637.png|400|400]]
