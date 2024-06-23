@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Transformers/Multi-headed_attention.md",
+                "file": "MachineLearning/Transformers/Self-attention.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -99,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Transformers/Multi-headed_attention.md"
+                "file": "MachineLearning/Transformers/Transformer.md"
               }
             }
           }
@@ -203,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Transformers/Multi-headed_attention.md",
+                "file": "MachineLearning/Transformers/Transformer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Transformers/Multi-headed_attention.md",
+                "file": "MachineLearning/Transformers/Transformer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -296,12 +296,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "4d8f58726353abff",
+  "active": "9a621ef6aef3891a",
   "lastOpenFiles": [
+    "MachineLearning/Transformers/Self-attention.md",
     "MachineLearning/Transformers/Transformer.md",
     "MachineLearning/Transformers/Multi-headed_attention.md",
     "XX-Attachments/Images/Pasted image 20240621170422.png",
-    "MachineLearning/Transformers/Self-attention.md",
     "XX-Attachments/Images/Pasted image 20240619200820.png",
     "SoftwareEngineering/Concurrency.md",
     "MachineLearning/NaturalLanguageProcessing/QKV_mechanism.md",

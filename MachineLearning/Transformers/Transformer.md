@@ -10,6 +10,8 @@
 
 ___
 # Transformers
+- A [[Neural_networks|deep learning]] model specialised in handling sequential data through the use of the [[Self-attention|self-attention mechanism]], this has the benefit of being highly [[Concurrency|parallelisable ]] 
+- 
 
 
 ![[Pasted image 20240612163637.png|400|400]]
