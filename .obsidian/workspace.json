@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Transformers/Transformer.md"
+                "file": "MachineLearning/Transformers/Self-attention.md"
               }
             }
           }
@@ -177,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Transformers/Transformer.md",
+                "file": "MachineLearning/Transformers/Self-attention.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Transformers/Transformer.md",
+                "file": "MachineLearning/Transformers/Self-attention.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,10 +270,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "c7c2c2a6b22c6b82",
+  "active": "473ea5eced5f1fb4",
   "lastOpenFiles": [
-    "MachineLearning/Transformers/Multi-headed_attention.md",
     "MachineLearning/Transformers/Transformer.md",
+    "MachineLearning/Transformers/Multi-headed_attention.md",
     "MachineLearning/Transformers/Self-attention.md",
     "SoftwareEngineering/Concurrency.md",
     "XX-Attachments/Images/Pasted image 20240623204008.png",

@@ -72,18 +72,20 @@ import torch.nn.functional as F
 class SingleHeadAttention(nn.Module):
     def __init__(self, embedding_dim: int, attention_dim: int):
         super().__init__()  # initialise the linear layers W_k, W_q, W_v
+        torch.manual_seed(0)
         self.k_layer = nn.Linear(embedding_dim, attention_dim, bias=False)
         self.q_layer = nn.Linear(embedding_dim, attention_dim, bias=False)
         self.v_layer = nn.Linear(embedding_dim, attention_dim, bias=False)
 
-        self.mask = torch.tril(torch.ones(embedding_dim, embedding_dim)) == 0
-        self.dk_sqrt = attention_dim**0.5  # initialse constants
+        self.dk_sqrt = attention_dim**0.5  # initialse constant
+        self.softmax = nn.Softmax(dim=-1) # softmax along the last dimension
 
     def forward(self, embedded: torch.Tensor) -> torch.Tensor:
         k, q, v = self.k_layer(embedded), self.q_layer(embedded), self.v_layer(embedded)
-        scaled_scores = (q @ k.transpose(-2, -1)) / self.dk_sqrt
-        masked_scores = scaled_scores.masked_fill(self.mask, float("-inf"))
+        scaled_scores = (q @ k.transpose(-2, -1)) / self.dk_sqrt # scaled dot product
+        mask = torch.tril(torch.ones_like(scaled_scores)) == 0 # mask lower triangle
+        masked_scores = scaled_scores.masked_fill(mask, float("-inf"))
 
-        attention = F.softmax(masked_scores, dim=-1) @ v
-        return attention
+        attention = self.softmax(masked_scores) @ v # attention scores
+        return torch.round(attention, decimals=4)
 ```
