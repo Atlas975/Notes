@@ -162,7 +162,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -284,6 +285,10 @@
   },
   "active": "c7c2c2a6b22c6b82",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240624153509.png",
+    "XX-Attachments/Images/Pasted image 20240624153507.png",
+    "XX-Attachments/Images/Pasted image 20240624153316.png",
+    "XX-Attachments/Images/Pasted image 20240624153144.png",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
     "MachineLearning/NeuralNetworks/Residual_connections.md",
     "MachineLearning/Transformers/Self-attention.md",
@@ -298,9 +303,6 @@
     "XX-Attachments/Images/Pasted image 20240621170422.png",
     "XX-Attachments/Images/Pasted image 20240619200820.png",
     "MachineLearning/NaturalLanguageProcessing/QKV_mechanism.md",
-    "XX-Attachments/Images/Pasted image 20240614215227.png",
-    "XX-Attachments/Images/Pasted image 20240614214033.png",
-    "XX-Attachments/Images/Pasted image 20240614210001.png",
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
     "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
@@ -319,7 +321,6 @@
     "MachineLearning/NaturalLanguageProcessing/Skip-gram.md",
     "MachineLearning/NaturalLanguageProcessing/Continuous_bag_of_words.md",
     "MachineLearning/NaturalLanguageProcessing/Natural_language_processing.md",
-    "Statistics/ProbabilityDistributions/Probability_distributions.md",
     "MachineLearning/NaturalLanguageProcessing",
     "MachineLearning/Transformers",
     "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",
