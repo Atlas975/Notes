@@ -37,7 +37,7 @@ class TransformerBlock(nn.Module):
     def forward(self, embedded: torch.Tensor) -> torch.Tensor:
         embedded += self.mhsa(self.norm1(embedded)) # temp = x + MHSA_NORM(x)
         embedded += self.ff(self.norm2(embedded)) # f = temp + FFN_NORM(temp)
-        return torch.round(embedded, decimals=4) 
+        return embedded
 
 class FeedForwardNetwork(nn.Module):
     def __init__(self, in_dim: int, scale_up: int = 4, drop_rate: float = 0.2):
