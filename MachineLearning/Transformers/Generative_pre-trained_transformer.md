@@ -21,8 +21,6 @@ ___
 - GPTs are initially trained on a large corpus of text data, learning to predict the next word in a sentence. Effectively learning grammar, facts, and some reasoning abilities.
 
 ![[Pasted image 20240624200139.png|300|300]]
-
-
 ## GPT Transformer block
 - GPT's focus on the generative aspect of text processing, which involves generating contextually appropriate text based on a given input using only the decoder part of a Transformer  
 - Transformer blocks are chained together, each refining the model's understanding and predictions. Blocks make use of [[Multi-headed_attention|MHSA]] + feed forward layers using [[Residual_connections|skip connections]]
@@ -65,3 +63,8 @@ class FeedForwardNetwork(nn.Module):
 	- `num_heads` - number of self attention instances
 	- `context` - previous tokens used to make the prediction
 - The GPT outputs a matrix of size `context_legnth X vocab_size`  where `output[i][j]` is the [[Likelihood|likelihood]] of the `jth` token occurring given the context of the first `(i+1)` tokens
+
+```python
+class GPT(nn.Module):
+    def __init__(self, vocab_size: int, context_length: int, model_dim: int, num_blocks: int, num_heads: int):
+```
