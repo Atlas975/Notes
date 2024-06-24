@@ -55,16 +55,32 @@ class FeedForwardNetwork(nn.Module):
 
 
 ## GPT algorithm
-- Parameters:
-	- `vocab_size` - the number of different tokens the model recognises
-	- `context_length` - how many previous tokens the model can read
-	- `model_dim` - feature dimensionality for embeddings and attention
-	- `num_blocks` - number of repetitions of TransformerBlock
-	- `num_heads` - number of self attention instances
-	- `context` - previous tokens used to make the prediction
 - The GPT outputs a matrix of size `context_legnth X vocab_size`  where `output[i][j]` is the [[Likelihood|likelihood]] of the `jth` token occurring given the context of the first `(i+1)` tokens
 
 ```python
 class GPT(nn.Module):
-    def __init__(self, vocab_size: int, context_length: int, model_dim: int, num_blocks: int, num_heads: int):
+    def __init__(
+        self,  # model takes in context, the prev tokens used for prediction
+        vocab_size: int,  # number of unique tokens the model recognises
+        context_length: int,  # how many prev tokens the model can read
+        model_dim: int,  # feature dimensionality for embeddings and attention
+        num_blocks: int,  # number of repeated transformer blocks
+        num_heads: int,  # number of self-attention instances in each block
+    ):
+        super().__init__()
+        self.token_embedding = nn.Embedding(vocab_size, model_dim)
+        self.position_embedding = nn.Embedding(context_length, model_dim)
+        self.transformer_layers = nn.Sequential(
+            *(TransformerBlock(model_dim, num_heads) for _ in range(num_blocks))
+        )
+        self.norm = nn.LayerNorm(model_dim)  # adds stability to the training
+        self.linear = nn.Linear(model_dim, vocab_size)
+        self.softmax = nn.Softmax(dim=-1)
+
+    def forward(self, context: torch.Tensor) -> torch.Tensor:
+        pe = self.position_embedding(torch.arange(context.size(1)))
+        embedded = self.token_embedding(context) + pe
+        transformed_norm = self.norm(self.transformer_layers(embedded))
+        class_probs = self.softmax(self.linear(transformed_norm))
+        return class_probs
 ```
