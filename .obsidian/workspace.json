@@ -53,7 +53,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/Transformers/Generative_pre-trained_Transformer.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -298,6 +298,8 @@
   },
   "active": "f1088ffcd5e08644",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240624200139.png",
+    "XX-Attachments/Images/Pasted image 20240624200024.png",
     "MachineLearning/Transformers/Transformer.md",
     "MachineLearning/Transformers/Generative_pre-trained_Transformer.md",
     "MachineLearning/Transformers/Multi-headed_attention.md",
@@ -315,7 +317,6 @@
     "XX-Attachments/Images/Pasted image 20240623203929.png",
     "XX-Attachments/Images/Pasted image 20240623203428.png",
     "XX-Attachments/Images/Pasted image 20240623203359.png",
-    "XX-Attachments/Images/Pasted image 20240621170422.png",
     "MachineLearning/NaturalLanguageProcessing/QKV_mechanism.md",
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
@@ -333,7 +334,6 @@
     "MachineLearning/Clustering/Hierarchal_clustering.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
     "MachineLearning/NaturalLanguageProcessing/Skip-gram.md",
-    "MachineLearning/NaturalLanguageProcessing/Continuous_bag_of_words.md",
     "MachineLearning/NaturalLanguageProcessing",
     "MachineLearning/Transformers",
     "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",
