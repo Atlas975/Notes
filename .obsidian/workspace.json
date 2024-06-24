@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Transformers/Generative_pre-trained_transformer.md",
+                "file": "MachineLearning/Transformers/Generative_pre-trained_Transformer.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Transformers/Generative_pre-trained_transformer.md"
+                "file": "MachineLearning/Transformers/Generative_pre-trained_Transformer.md"
               }
             }
           }
@@ -175,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -202,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Transformers/Generative_pre-trained_transformer.md",
+                "file": "MachineLearning/Transformers/Generative_pre-trained_Transformer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Transformers/Generative_pre-trained_transformer.md",
+                "file": "MachineLearning/Transformers/Generative_pre-trained_Transformer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -298,7 +299,7 @@
   "active": "f1088ffcd5e08644",
   "lastOpenFiles": [
     "MachineLearning/Transformers/Transformer.md",
-    "MachineLearning/Transformers/Generative_pre-trained_transformer.md",
+    "MachineLearning/Transformers/Generative_pre-trained_Transformer.md",
     "MachineLearning/Transformers/Multi-headed_attention.md",
     "MachineLearning/Transformers/Self-attention.md",
     "MachineLearning/NeuralNetworks/Residual_connections.md",
