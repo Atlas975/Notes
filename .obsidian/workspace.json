@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Transformers/Generative_pre-trained_Transformer.md",
+                "file": "MachineLearning/Transformers/Multi-headed_attention.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -73,12 +73,12 @@
             }
           },
           {
-            "id": "4d8f58726353abff",
+            "id": "66e4793f74f02764",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Transformers/Self-attention.md",
+                "file": "MachineLearning/Transformers/Generative_pre-trained_Transformer.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -99,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -296,27 +296,26 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f1088ffcd5e08644",
+  "active": "66e4793f74f02764",
   "lastOpenFiles": [
+    "MachineLearning/Transformers/Multi-headed_attention.md",
+    "MachineLearning/Transformers/Generative_pre-trained_Transformer.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
+    "MachineLearning/Transformers/Self-attention.md",
     "XX-Attachments/Images/Pasted image 20240624200139.png",
     "XX-Attachments/Images/Pasted image 20240624200024.png",
     "MachineLearning/Transformers/Transformer.md",
-    "MachineLearning/Transformers/Generative_pre-trained_Transformer.md",
-    "MachineLearning/Transformers/Multi-headed_attention.md",
-    "MachineLearning/Transformers/Self-attention.md",
     "MachineLearning/NeuralNetworks/Residual_connections.md",
     "00-Main/ChatGPT.md",
     "XX-Attachments/Images/Pasted image 20240624153509.png",
     "XX-Attachments/Images/Pasted image 20240624153507.png",
     "XX-Attachments/Images/Pasted image 20240624153316.png",
     "XX-Attachments/Images/Pasted image 20240624153144.png",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
     "XX-Attachments/Images/Pasted image 20240624021531.png",
     "SoftwareEngineering/Concurrency.md",
     "XX-Attachments/Images/Pasted image 20240623204008.png",
     "XX-Attachments/Images/Pasted image 20240623203929.png",
     "XX-Attachments/Images/Pasted image 20240623203428.png",
-    "XX-Attachments/Images/Pasted image 20240623203359.png",
     "MachineLearning/NaturalLanguageProcessing/QKV_mechanism.md",
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",

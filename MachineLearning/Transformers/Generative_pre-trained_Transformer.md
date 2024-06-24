@@ -23,6 +23,45 @@ ___
 ![[Pasted image 20240624200139.png|300|300]]
 
 
-## GPT Transformer block 
-- GPT's focus on the generative aspect of text processing, which involves generating contextually appropriate tex based on a given input using only the decoder part of a Transformer  
-- Transformer blocks are chained together, each refining the model's understanding and predictions. Each block making use of an [[Multi-headed_attention|MHSA layer]] and a feed forward layer
+## GPT Transformer block
+- GPT's focus on the generative aspect of text processing, which involves generating contextually appropriate text based on a given input using only the decoder part of a Transformer  
+- Transformer blocks are chained together, each refining the model's understanding and predictions. Blocks make use of [[Multi-headed_attention|MHSA]] + feed forward layers using [[Residual_connections|skip connections]]
+
+```python
+class TransformerBlock(nn.Module):
+    def __init__(self, model_dim: int, num_heads: int):
+        super().__init__()  # use same size for embedding and attention
+        self.mhsa = MultiHeadedSelfAttention(model_dim, model_dim, num_heads)
+        self.norm1 = nn.LayerNorm(model_dim)
+        self.ff = FeedForwardNetwork(model_dim)
+        self.norm2 = nn.LayerNorm(model_dim)
+
+    def forward(self, embedded: torch.Tensor) -> torch.Tensor:
+        embedded += self.mhsa(self.norm1(embedded)) # temp = x + MHSA_NORM(x)
+        embedded += self.ff(self.norm2(embedded)) # f = temp + FFN_NORM(temp)
+        return torch.round(embedded, decimals=4) 
+
+class FeedForwardNetwork(nn.Module):
+    def __init__(self, in_dim: int, scale_up: int = 4, drop_rate: float = 0.2):
+        super().__init__()
+        hidden_dim = scale_up * in_dim
+        self.up_project = nn.Linear(in_dim, hidden_dim)
+        self.relu = nn.ReLU()
+        self.down_project = nn.Linear(hidden_dim, in_dim)
+        self.dropout = nn.Dropout(drop_rate)
+
+    def forward(self, embedded: torch.Tensor) -> torch.Tensor:
+        x = self.relu(self.up_project(embedded))
+        return self.dropout(self.down_project(x))
+```
+
+
+## GPT algorithm
+- Parameters:
+	- `vocab_size` - the number of different tokens the model recognises
+	- `context_length` - how many previous tokens the model can read
+	- `model_dim` - feature dimensionality for embeddings and attention
+	- `num_blocks` - number of repetitions of TransformerBlock
+	- `num_heads` - number of self attention instances
+	- `context` - previous tokens used to make the prediction
+- The GPT outputs a matrix of size `context_legnth X vocab_size`  where `output[i][j]` is the [[Likelihood|likelihood]] of the `jth` token occurring given the context of the first `(i+1)` tokens
