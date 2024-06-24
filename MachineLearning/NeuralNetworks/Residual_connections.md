@@ -25,7 +25,7 @@ $$y=f(x)+x$$
 ![[Pasted image 20240624153316.png|350|350]]
 
 - These connections directly address a struggle in [[Backpropagation]] where the chain of gradients can become very small due to the repeated multiplication of small derivatives
-- This is because the 
+- This is because $\frac{ \partial y }{ \partial x }$ is always $1+f'(x)$, the presence of 1 ensures the grad has a direct path from output to input, preventing it from vanishing completely
 ## Residual connection benefits
 - **Improved training of deep networks**: Residual connections allow for the training of very deep networks by ensuring gradients do not vanish
 
