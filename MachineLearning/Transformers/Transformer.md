@@ -24,3 +24,5 @@ ___
 ## Decoder
 - Takes an input sequence and predicts the next word, the inputs to the decoder is the output of the encoder and the previous outputs of decoder block itself 
 - This results in an output size of $B\times T\times V$ where $B$ is batch size, $T$ is sequence length and $V$ is vocab size (a vector of probabilities of each word occurring calculated vis [[Softmax]])
+
+![[Pasted image 20240624021531.png]]
