@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Transformers/Transformer.md",
+                "file": "MachineLearning/Transformers/Self-attention.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Transformers/Transformer.md"
+                "file": "MachineLearning/Transformers/Self-attention.md"
               }
             }
           }
@@ -177,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Transformers/Transformer.md",
+                "file": "MachineLearning/Transformers/Self-attention.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Transformers/Transformer.md",
+                "file": "MachineLearning/Transformers/Self-attention.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -272,10 +272,10 @@
   },
   "active": "c7c2c2a6b22c6b82",
   "lastOpenFiles": [
+    "MachineLearning/Transformers/Multi-headed_attention.md",
+    "MachineLearning/Transformers/Transformer.md",
     "XX-Attachments/Images/Pasted image 20240624021531.png",
     "MachineLearning/Transformers/Self-attention.md",
-    "MachineLearning/Transformers/Transformer.md",
-    "MachineLearning/Transformers/Multi-headed_attention.md",
     "SoftwareEngineering/Concurrency.md",
     "XX-Attachments/Images/Pasted image 20240623204008.png",
     "XX-Attachments/Images/Pasted image 20240623203929.png",
@@ -290,7 +290,6 @@
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
     "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
-    "XX-Attachments/Images/Pasted image 20240614182728.png",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "ContinuousMath/Distance_metrics.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/LinearAlgebra/Vectors.md",

@@ -72,7 +72,6 @@ import torch.nn.functional as F
 class SingleHeadAttention(nn.Module):
     def __init__(self, embedding_dim: int, attention_dim: int):
         super().__init__()  # initialise the linear layers W_k, W_q, W_v
-        torch.manual_seed(0)
         self.k_layer = nn.Linear(embedding_dim, attention_dim, bias=False)
         self.q_layer = nn.Linear(embedding_dim, attention_dim, bias=False)
         self.v_layer = nn.Linear(embedding_dim, attention_dim, bias=False)

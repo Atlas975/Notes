@@ -16,9 +16,9 @@ ___
 ![[Pasted image 20240619200820.png|220|220]]
 
 - After each head completes its independent processing of the input sequence, outputs are concatenated along the feature dimension.
-- The concatenated output is then put through a final linear layer, this includes a bias. This transformation helps combine information from all heads into a single output
+- The concatenated output is then put through a feed-forward network. This transformation helps combine information from all heads into a single output
 
-$$\text{MultiHead}(Q,K,V)=\text{Concat}(\text{head}_{1},\text{head}_{2},\dots)\cdot W_{O}$$
+$$\text{MultiHead}(Q,K,V)=\text{Concat}(\text{head}_{1},\text{head}_{2},\dots)$$
 ## Multi-head benefits
 - **Capture diverse features**: enables the model to focus on different parts of the input sequence simultaneously, capturing more complex patterns.
 - **Reduced risk of overfitting**: distributes the model’s capacity across different aspects of the data, acting as a form of regularisation and improving generalisation.
@@ -46,11 +46,9 @@ class MultiHeadedSelfAttention(nn.Module):
             SingleHeadAttention(embedding_dim, sub_attention_dim)
             for _ in range(num_heads)
         )
-        self.output_layer = nn.Linear(attention_dim, embedding_dim)
 
     def forward(self, embedded: torch.Tensor) -> torch.Tensor:
         ouputs = [head(embedded) for head in self.attention_heads]
         concat = torch.cat(ouputs, dim=-1) # concatenate the scores from all heads
-        result = self.output_layer(concat)
         return result
 ```

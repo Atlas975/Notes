@@ -26,3 +26,32 @@ ___
 - This results in an output size of $B\times T\times V$ where $B$ is batch size, $T$ is sequence length and $V$ is vocab size (a vector of probabilities of each word occurring calculated vis [[Softmax]])
 
 ![[Pasted image 20240624021531.png]]
+
+
+```python
+class TransformerBlock(nn.Module):
+    def __init__(self, model_dim: int, num_heads: int):
+        super().__init__()  # use same size for embedding and attention
+        self.mhsa = MultiHeadedSelfAttention(model_dim, model_dim, num_heads)
+        self.norm1 = nn.LayerNorm(model_dim)
+        self.ff = FeedForwardNetwork(model_dim)
+        self.norm2 = nn.LayerNorm(model_dim)
+
+    def forward(self, embedded: torch.Tensor) -> torch.Tensor: 
+        embedded += self.mhsa(self.norm1(embedded)) # skip connection 1
+        embedded += self.ff(self.norm2(embedded)) # skip connection 2
+        return torch.round(embedded, decimals=4)
+
+class FeedForwardNetwork(nn.Module):
+    def __init__(self, in_dim: int, scale_up: int = 4, drop_rate: float = 0.2):
+        super().__init__()
+        hidden_dim = scale_up * in_dim
+        self.up_project = nn.Linear(in_dim, hidden_dim)
+        self.relu = nn.ReLU()
+        self.down_project = nn.Linear(hidden_dim, in_dim)
+        self.dropout = nn.Dropout(drop_rate)
+
+    def forward(self, embedded: torch.Tensor) -> torch.Tensor:
+        x = self.relu(self.up_project(embedded))
+        return self.dropout(self.down_project(x))
+```
