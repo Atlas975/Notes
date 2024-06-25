@@ -60,6 +60,19 @@
             }
           },
           {
+            "id": "0a5ce5f8f704e29d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d8af6666009342a9",
             "type": "leaf",
             "state": {
@@ -151,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -219,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Transformers/Multi-headed_attention.md"
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md"
               }
             }
           }
@@ -255,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Transformers/Multi-headed_attention.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Transformers/Multi-headed_attention.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -348,15 +361,16 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f1088ffcd5e08644",
+  "active": "0a5ce5f8f704e29d",
   "lastOpenFiles": [
+    "MachineLearning/Regression/Logistic_regression.md",
+    "MachineLearning/Transformers/Multi-headed_attention.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Gaussian_error_linear_unit.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
     "XX-Attachments/Images/Pasted image 20240625181732.png",
     "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
     "MachineLearning/Transformers/Generative_pre-trained_Transformer.md",
-    "MachineLearning/Transformers/Multi-headed_attention.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
     "MachineLearning/Transformers/Self-attention.md",
     "XX-Attachments/Images/Pasted image 20240624200139.png",
