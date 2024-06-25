@@ -92,7 +92,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -105,7 +105,7 @@
               "type": "markdown",
               "state": {
                 "file": "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -131,7 +131,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Gaussian_error_linear_unit.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -363,11 +363,12 @@
   },
   "active": "ba8ddad65ae2781e",
   "lastOpenFiles": [
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Gaussian_error_linear_unit.md",
-    "MachineLearning/Transformers/Generative_pre-trained_Transformer.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Gaussian_error_linear_unit.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
+    "XX-Attachments/Images/Pasted image 20240625181732.png",
     "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
+    "MachineLearning/Transformers/Generative_pre-trained_Transformer.md",
     "MachineLearning/Transformers/Multi-headed_attention.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
     "MachineLearning/Transformers/Self-attention.md",
@@ -384,7 +385,6 @@
     "SoftwareEngineering/Concurrency.md",
     "XX-Attachments/Images/Pasted image 20240623204008.png",
     "XX-Attachments/Images/Pasted image 20240623203929.png",
-    "XX-Attachments/Images/Pasted image 20240623203428.png",
     "MachineLearning/NaturalLanguageProcessing/QKV_mechanism.md",
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
@@ -398,7 +398,6 @@
     "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/Watermarking/Watermarking.md",
-    "MediaCoding/ImageMatching/Harris_corner_detection.md",
     "MachineLearning/NaturalLanguageProcessing",
     "MachineLearning/Transformers",
     "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",
