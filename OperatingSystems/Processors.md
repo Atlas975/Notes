@@ -1,5 +1,7 @@
 ---
-alias: processor
+aliases:
+  - processor
+  - GPU
 ---
 
 > [!important]- Metadata

@@ -65,7 +65,59 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Pytorch/Autograd.md",
+                "file": "OperatingSystems/Processors.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "de7f6160e4fdde5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/Multi-Process_systems.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4ede059a2f57f40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/0-Legacy/0-GeneralConcepts/Computation_graph.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "695d05d315acc9c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/PyTorch/PyTorch.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9b24272b243dfa65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/PyTorch/Autograd.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -164,7 +216,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -232,7 +284,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Pytorch/Autograd.md"
+                "file": "MachineLearning/PyTorch/PyTorch.md"
               }
             }
           }
@@ -240,7 +292,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -267,7 +320,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Pytorch/Autograd.md",
+                "file": "MachineLearning/PyTorch/PyTorch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,7 +337,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Pytorch/Autograd.md",
+                "file": "MachineLearning/PyTorch/PyTorch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -360,12 +413,16 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "0a5ce5f8f704e29d",
+  "active": "695d05d315acc9c1",
   "lastOpenFiles": [
+    "MachineLearning/PyTorch/Autograd.md",
+    "MachineLearning/PyTorch/PyTorch.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/Computation_graph.md",
+    "OperatingSystems/Multi-Process_systems.md",
+    "OperatingSystems/Processors.md",
     "XX-Attachments/Images/Pasted image 20240625205228.png",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
-    "MachineLearning/Pytorch/Autograd.md",
-    "MachineLearning/Pytorch",
+    "MachineLearning/PyTorch",
     "MachineLearning/Regression/Logistic_regression.md",
     "MachineLearning/Transformers/Multi-headed_attention.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
@@ -388,7 +445,6 @@
     "XX-Attachments/Images/Pasted image 20240624021531.png",
     "SoftwareEngineering/Concurrency.md",
     "XX-Attachments/Images/Pasted image 20240623204008.png",
-    "XX-Attachments/Images/Pasted image 20240623203929.png",
     "MachineLearning/NaturalLanguageProcessing/QKV_mechanism.md",
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
@@ -396,9 +452,6 @@
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
     "ContinuousMath/Distance_metrics.md",
     "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/LinearAlgebra/Vectors.md",
-    "EmbeddedSystems/Transistors.md",
-    "MediaCoding/Image_derivatives.md",
-    "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
     "MachineLearning/NaturalLanguageProcessing",
     "MachineLearning/Transformers",
     "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",
