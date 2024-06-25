@@ -99,6 +99,58 @@
             }
           },
           {
+            "id": "15b0df10968bc0da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "832ea0cc8b542210",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ba8ddad65ae2781e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Gaussian_error_linear_unit.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "de9c196f5c3d60b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a167b2d831948e4a",
             "type": "leaf",
             "state": {
@@ -112,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -180,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md"
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Gaussian_error_linear_unit.md"
               }
             }
           }
@@ -216,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Gaussian_error_linear_unit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -233,7 +285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Gaussian_error_linear_unit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -309,10 +361,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e88e06ddf5a19ef7",
+  "active": "ba8ddad65ae2781e",
   "lastOpenFiles": [
     "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Gaussian_error_linear_unit.md",
     "MachineLearning/Transformers/Generative_pre-trained_Transformer.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
+    "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
     "MachineLearning/Transformers/Multi-headed_attention.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
     "MachineLearning/Transformers/Self-attention.md",
@@ -344,9 +399,6 @@
     "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
     "MediaCoding/Watermarking/Watermarking.md",
     "MediaCoding/ImageMatching/Harris_corner_detection.md",
-    "MachineLearning/Clustering/Hierarchal_clustering.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
-    "MachineLearning/NaturalLanguageProcessing/Skip-gram.md",
     "MachineLearning/NaturalLanguageProcessing",
     "MachineLearning/Transformers",
     "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",

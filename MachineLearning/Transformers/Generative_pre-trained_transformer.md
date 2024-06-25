@@ -44,12 +44,12 @@ class FeedForwardNetwork(nn.Module):
         super().__init__()
         hidden_dim = scale_up * in_dim
         self.up_project = nn.Linear(in_dim, hidden_dim)
-        self.relu = nn.ReLU()
+        self.geLU = nn.GELU()
         self.down_project = nn.Linear(hidden_dim, in_dim)
         self.dropout = nn.Dropout(drop_rate)
 
     def forward(self, embedded: torch.Tensor) -> torch.Tensor:
-        x = self.relu(self.up_project(embedded))
+        x = self.geLU(self.up_project(embedded))
         return self.dropout(self.down_project(x))
 ```
 

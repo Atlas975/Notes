@@ -23,8 +23,8 @@ x & x\geq{0}  \\
 \alpha\cdot x & x<0
 \end{cases}$$
 $$\alpha=\text{leak coefficient, a small positive constant}$$
+- By allowing a small, non-zero gradient for negative inputs, Leaky ReLU helps prevent neurons from becoming "dead" during training (consistently remaining zero for all inputs)
+- This non-zero slope helps negative inputs contribute to training by making them differentiable
 
 ![[Pasted image 20240420022511.png|450|450]]
 
-- By allowing a small, non-zero gradient for negative inputs, Leaky ReLU helps prevent neurons from becoming "dead" during training (consistently remaining zero for all inputs)
-- This non-zero slope helps negative inputs contribute to training by making them differentiable
