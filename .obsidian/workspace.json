@@ -151,7 +151,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md"
+                "file": "MachineLearning/Transformers/Multi-headed_attention.md"
               }
             }
           }
@@ -255,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
+                "file": "MachineLearning/Transformers/Multi-headed_attention.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
+                "file": "MachineLearning/Transformers/Multi-headed_attention.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -348,10 +348,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "832ea0cc8b542210",
+  "active": "f1088ffcd5e08644",
   "lastOpenFiles": [
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Gaussian_error_linear_unit.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Gaussian_error_linear_unit.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
     "XX-Attachments/Images/Pasted image 20240625181732.png",
     "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
