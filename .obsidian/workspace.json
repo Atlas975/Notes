@@ -65,8 +65,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
-                "mode": "preview",
+                "file": "MachineLearning/Pytorch/Autograd.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -232,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md"
+                "file": "MachineLearning/Pytorch/Autograd.md"
               }
             }
           }
@@ -240,8 +240,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -268,7 +267,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
+                "file": "MachineLearning/Pytorch/Autograd.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,7 +284,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
+                "file": "MachineLearning/Pytorch/Autograd.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -363,6 +362,10 @@
   },
   "active": "0a5ce5f8f704e29d",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240625205228.png",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
+    "MachineLearning/Pytorch/Autograd.md",
+    "MachineLearning/Pytorch",
     "MachineLearning/Regression/Logistic_regression.md",
     "MachineLearning/Transformers/Multi-headed_attention.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
@@ -396,9 +399,6 @@
     "EmbeddedSystems/Transistors.md",
     "MediaCoding/Image_derivatives.md",
     "MediaCoding/Filters/SmoothingFilters/Gaussian_filter.md",
-    "MediaCoding/DiscreteCosineTansform/Discrete_cosine_transform.md",
-    "MediaCoding/OpticalFlow/Lucus-Kanade_optical_flow.md",
-    "MediaCoding/Watermarking/Watermarking.md",
     "MachineLearning/NaturalLanguageProcessing",
     "MachineLearning/Transformers",
     "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",
@@ -407,7 +407,6 @@
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
     "DistributedSystems/Consensus",
-    "DistributedSystems/CommunicationModels",
-    "Languages&Compilation/CompilerConstruction/CompilationTypes"
+    "DistributedSystems/CommunicationModels"
   ]
 }
