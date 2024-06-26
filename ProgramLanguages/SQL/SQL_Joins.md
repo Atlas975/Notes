@@ -21,6 +21,7 @@ ___
 
 ## EXISTS operator
 - Checks if a subquery returns any rows. Returns rows only where the subquery returns True
+
 ```sql
 SELECT * FROM employees WHERE EXISTS (
     SELECT * FROM salaries WHERE salaries.employee_id = employees.id
@@ -28,17 +29,20 @@ SELECT * FROM employees WHERE EXISTS (
 ```
 ## ALL operator
 - Used to specify a condition that must be true for all rows returned by a subquery.
+
 ```sql
 SELECT * FROM employees WHERE salary > ALL (SELECT salary FROM contractors);
 ```
 ## ANY operator
 - Used to specify a condition that must be true for at least one row returned by a subquery.
+
 ```sql
 SELECT * FROM employees WHERE salary > ANY (SELECT salary FROM contractors);
 ```
 
 ## UNIQUE operator
 - Used to specify that rows should only be returned if the subquery has no duplicates 
+
 ```sql
 SELECT S.name FROM Sailer S WHERE UNIQUE(
     SELECT R.bid FROM Reserves R WHERE S.sid=R.sid

@@ -42,9 +42,9 @@ CREATE TABLE people (
 CREATE TABLE passport_details (
     id INT PRIMARY KEY AUTO_INCREMENT,
     passport_number VARCHAR(255) NOT NULL,
-    person_id INT NOT NULL,
-    UNIQUE (person_id),
-    FOREIGN KEY (person_id) REFERENCES people(id) ON DELETE CASCADE
+    pid INT NOT NULL,
+    UNIQUE (pid),
+    FOREIGN KEY (pid) REFERENCES people(id) ON DELETE CASCADE
 );
 ```
 
@@ -138,7 +138,7 @@ CREATE TABLE Policy (
 - This deletion is used when it is acceptable for the foreign key columns to contain null values.
 
 ## SET DEFAULT
-- This deletion type specifies that when a record is deleted, the values in the foreign key columns in the related table should be set to their default values.
+- Specifies that when a record is deleted, the values in the foreign key columns in the related table should be set to their default values.
 - Used when it is acceptable for the foreign key columns to hold placeholder values
 
 ## CASCADE

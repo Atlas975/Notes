@@ -42,7 +42,7 @@ ___
 ### Presentation tier
 - Data display / input
 - Verification (HTML/Javascript input form verification)
-- Must not directly interact with a [[Database_design|DBMS]]
+- Must not directly interact with a [[Database_sharding|DBMS]]
 ### Logic tier
 - Processes data received by clients.
 - Does not update data, only makes request

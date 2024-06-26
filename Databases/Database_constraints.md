@@ -1,6 +1,7 @@
 ---
 aliases: database constraints
 ---
+
 > [!important]- Metadata
 > **Tags:** #Databases 
 > **Located:** Databases
@@ -36,7 +37,7 @@ ___
 - Enforces that no key value can be null
 ### Check constraint
 - Restricts values that can be inserted based on logical expression eg avoid divide by zero
-# Key integrity 
+## Key integrity
 - A key attribute can distinguish a tuple row 
 - A **candidate key** is any set of attributes present in a table that can uniquely identify a row 
 - A **composite key** is a set of attributes that distinguish a row
@@ -44,11 +45,9 @@ ___
 	1. Have no identical tuples with the same values in all fields 
 	2. This is not true for the key's subset
 
-## Foreign key integrity 
+![[Pasted image 20230204202107.png|550|550]]
+### Foreign key integrity
 - Set of fields in one relation that refer to a row in another relation, acts as a logical pointer, this foreign data must refer to the primary key in another entity 
-
-![[Pasted image 20230204193830.png|550|550]]
-
 - **Referential integrity** is achieved if all foreign key constraints are enforced eg no dangling references to missing data 
 
-![[Pasted image 20230204202107.png|550|550]]
+![[Pasted image 20230204193830.png|550|550]]

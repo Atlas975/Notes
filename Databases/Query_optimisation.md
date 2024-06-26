@@ -32,7 +32,7 @@ ___
 - Intermediate files created during the query also add a storage cost along with communication costs with any inter-database communication. Different goals for varying database structures:
 - Large databases 
     - Minimise access cost to secondary storage
-     - Minimise \# of block transfers between disk and main memory : reduce volume of data moved
+     - Minimise \# of block transfers between disk -> main memory : reduce volume of data moved
 - Smaller databases 
     - Minimise computation cost 
     - Most of data involved in query can be stored completely in main memory 
@@ -51,14 +51,13 @@ SELECT * FROM MyTable WHERE NonNullField IS NULL /* won't run at all */
 - Simplifies execution path, the outputs of each relation can propagate upwards until the root node is executed. Starts with leaf nodes then gradually replaces internal nodes with their output
 - Eg: this select statement can take the cartesian product  of two tables and then perform the appropriate projection to join it with ship upwards in the canonical tree
 
-![[Pasted image 20230503014710.png|500|500]]
-![[Pasted image 20230503014529.png|500|500]]
+![[Pasted image 20230503014529.png|450|450]]
 
 ## Heuristic based optimisation 
 - A common query heuristic is to apply selections and projections prior to any joins
 - This is because these reduce the size of relations, thus minimising the amount of data that has to be processed by the rest of the query. Optimised query tree: 
 
-![[Pasted image 20230503020659.png|500|500]]
+![[Pasted image 20230503020659.png|450|450]]
 
 
 - Further optimisation can be done by moving branches around to ensure that the smallest cartesian products possible are produced upon joins that must happen

@@ -12,8 +12,7 @@
 ___
 # Database transactions
 - A transaction is the smallest logical unit of [[Database_systems|database]] processing that includes one or more access operations. Important to consider in [[Concurrency|concurrency]]
-- Can also have their scope specified manually through `BEGIN transaction` and `END transaction  `
-- Transaction states: 
+- Can also have their scope specified manually through `BEGIN transaction` and `END transaction`, transactions can exist in the following states:
 
 ![[Pasted image 20230503111554.png|500|500]]
 

@@ -117,8 +117,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_language.md",
+                "file": "Databases/Database_concurrency.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b2068cf560c14991",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Join_handling.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -284,7 +297,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_language.md"
+                "file": "Databases/Database_concurrency.md"
               }
             }
           }
@@ -292,7 +305,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -319,7 +333,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_language.md",
+                "file": "Databases/Database_concurrency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -336,7 +350,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_language.md",
+                "file": "Databases/Database_concurrency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -414,6 +428,17 @@
   },
   "active": "766487c26d31a404",
   "lastOpenFiles": [
+    "Databases/Query_optimisation.md",
+    "Databases/Join_handling.md",
+    "Databases/Database_transactions.md",
+    "Databases/Relational_algebra.md",
+    "Databases/Database_sharding.md",
+    "Databases/Database_indexing.md",
+    "Databases/Database_constraints.md",
+    "ProgramLanguages/SQL/SQL_relations.md",
+    "ProgramLanguages/SQL/SQLversions/SQLite.md",
+    "ProgramLanguages/SQL/SQL_Joins.md",
+    "ProgramLanguages/SQL/SQL_language.md",
     "MachineLearning/PyTorch/PyTorch.md",
     "MachineLearning/PyTorch/Autograd.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/Computation_graph.md",
@@ -434,23 +459,12 @@
     "MachineLearning/Transformers/Self-attention.md",
     "XX-Attachments/Images/Pasted image 20240624200139.png",
     "XX-Attachments/Images/Pasted image 20240624200024.png",
-    "MachineLearning/Transformers/Transformer.md",
-    "MachineLearning/NeuralNetworks/Residual_connections.md",
-    "00-Main/ChatGPT.md",
     "XX-Attachments/Images/Pasted image 20240624153509.png",
     "XX-Attachments/Images/Pasted image 20240624153507.png",
     "XX-Attachments/Images/Pasted image 20240624153316.png",
     "XX-Attachments/Images/Pasted image 20240624153144.png",
     "XX-Attachments/Images/Pasted image 20240624021531.png",
-    "SoftwareEngineering/Concurrency.md",
     "XX-Attachments/Images/Pasted image 20240623204008.png",
-    "MachineLearning/NaturalLanguageProcessing/QKV_mechanism.md",
-    "Statistics/ProbabilityDistributions/PERT_distribution.md",
-    "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
-    "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
-    "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
-    "ContinuousMath/Distance_metrics.md",
-    "MachineLearning/0-Legacy/0-CoursesPart1/MathForML_course/LinearAlgebra/Vectors.md",
     "MachineLearning/NaturalLanguageProcessing",
     "MachineLearning/Transformers",
     "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",

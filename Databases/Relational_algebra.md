@@ -55,7 +55,7 @@ ___
 
 ## Cartesian product
 
-![[Pasted image 20230206125012.png|500|500]]![[Pasted image 20230206125522.png|500|500]]
+![[Pasted image 20230206125522.png|500|500]]
 
 ## Join
 
@@ -65,12 +65,12 @@ ___
 
 ![[Pasted image 20230210190214.png|400|400]]
 
-### Theta join 
+### Theta join
 -   Allows for joining tables based on a condition that is not based on equality alone.
 -   Can be used to join tables based on complex conditions like ranges, inequalities, or pattern matching etc
 ### Natural join
 -  Combines data from two tables based on columns that have the same name and data type.
--   It simplifies the join process by automatically matching columns with the same name and data type, and returning only one copy of each matching colum
+-   It simplifies the join process by automatically matching columns with the same name and data type, and returning only one copy of each matching column
 
 ## Division
 
