@@ -44,9 +44,7 @@ SELECT * FROM employees WHERE salary > ANY (SELECT salary FROM contractors);
 - Used to specify that rows should only be returned if the subquery has no duplicates 
 
 ```sql
-SELECT S.name FROM Sailer S WHERE UNIQUE(
-    SELECT R.bid FROM Reserves R WHERE S.sid=R.sid
-)
+SELECT S.name FROM Sailer S WHERE UNIQUE(SELECT R.bid FROM Reserves R WHERE S.sid=R.sid)
 ```
 
 
@@ -54,4 +52,12 @@ SELECT S.name FROM Sailer S WHERE UNIQUE(
 ![[Pasted image 20230304144310.png|650|650]]
 
 ## INTERSECT join 
-![[Pasted image 20230304144545.png|350|350]]
+- Returns the common rows from two queries
+
+```sql
+SELECT employee_id, name
+FROM employees
+INTERSECT
+SELECT employee_id, name
+FROM managers;
+```

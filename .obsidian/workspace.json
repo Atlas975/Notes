@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_concurrency.md",
+                "file": "ProgramLanguages/SQL/SQL_Joins.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -297,7 +297,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_concurrency.md"
+                "file": "ProgramLanguages/SQL/SQL_Joins.md"
               }
             }
           }
@@ -333,7 +333,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_concurrency.md",
+                "file": "ProgramLanguages/SQL/SQL_Joins.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -350,7 +350,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_concurrency.md",
+                "file": "ProgramLanguages/SQL/SQL_Joins.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -428,6 +428,8 @@
   },
   "active": "766487c26d31a404",
   "lastOpenFiles": [
+    "ProgramLanguages/SQL/SQL_access_control.md",
+    "Databases/Database_concurrency.md",
     "Databases/Query_optimisation.md",
     "Databases/Join_handling.md",
     "Databases/Database_transactions.md",
@@ -455,8 +457,6 @@
     "XX-Attachments/Images/Pasted image 20240625181732.png",
     "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
     "MachineLearning/Transformers/Generative_pre-trained_Transformer.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
-    "MachineLearning/Transformers/Self-attention.md",
     "XX-Attachments/Images/Pasted image 20240624200139.png",
     "XX-Attachments/Images/Pasted image 20240624200024.png",
     "XX-Attachments/Images/Pasted image 20240624153509.png",
