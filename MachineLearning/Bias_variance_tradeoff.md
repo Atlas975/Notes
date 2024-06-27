@@ -37,6 +37,6 @@ ___
 - **Training data size:** Increasing the amount of training data can help reduce variance without increasing bias. More data provides a better approximation of the true population
 - **Regularisation:** techniques like L1 and L2 regularisation add a penalty for larger weights in the model, reducing variance by preventing the model from becoming overly complex.
 - **Cross-Validation:** helps in assessing how the model’s predictions would generalise to an independent dataset, useful for finding a good balance between bias and variance.
-- **Early stopping**: once a rise in validation loss is starting to rise again, we can reset the weights back to where the minimum occured. This ensures that the model won't continue to learn noise and overfit the data.
+- **Early stopping**: once test / validation loss starts to rise, weights can be reset to where the minimum occurred, ensures that the model won't continue to learn noise and overfit the data.
 
 ![[Pasted image 20240528212520.png|350|350]]
