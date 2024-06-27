@@ -156,7 +156,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Gaussian_error_linear_unit.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -242,7 +242,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -310,7 +310,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_language.md"
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Gaussian_error_linear_unit.md"
               }
             }
           }
@@ -346,7 +346,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_language.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Gaussian_error_linear_unit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -363,7 +363,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_language.md",
+                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Gaussian_error_linear_unit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -439,8 +439,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "541ca6b58c43b0c6",
+  "active": "d8af6666009342a9",
   "lastOpenFiles": [
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Gaussian_error_linear_unit.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
+    "ProgramLanguages/SQL/SQL_language.md",
     "ProgramLanguages/SQL/SQL_Joins.md",
     "ProgramLanguages/SQL/SQL_access_control.md",
     "Databases/Database_concurrency.md",
@@ -453,7 +457,6 @@
     "Databases/Database_constraints.md",
     "ProgramLanguages/SQL/SQL_relations.md",
     "ProgramLanguages/SQL/SQLversions/SQLite.md",
-    "ProgramLanguages/SQL/SQL_language.md",
     "MachineLearning/PyTorch/PyTorch.md",
     "MachineLearning/PyTorch/Autograd.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/Computation_graph.md",
@@ -464,12 +467,9 @@
     "MachineLearning/PyTorch",
     "MachineLearning/Regression/Logistic_regression.md",
     "MachineLearning/Transformers/Multi-headed_attention.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Leaky_rectified_linear_unit.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Gaussian_error_linear_unit.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
     "XX-Attachments/Images/Pasted image 20240625181732.png",
     "Statistics/ProbabilityDistributions/Gaussian_distribution.md",
-    "MachineLearning/Transformers/Generative_pre-trained_Transformer.md",
     "XX-Attachments/Images/Pasted image 20240624200139.png",
     "XX-Attachments/Images/Pasted image 20240624200024.png",
     "XX-Attachments/Images/Pasted image 20240624153509.png",
