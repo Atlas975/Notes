@@ -31,13 +31,12 @@ ___
 - **High Bias, Low Variance:** simple models that can't model complex patterns in data well but perform consistently across different datasets. Eg linear regression on non-linear problems.
 - **Low Bias, High Variance Models:** complex models that can model complex patterns well but can overfit to noisy or unrepresentative training data. Eg deep neural networks without regularisation 
 
-
-
 ![[Pasted image 20240422201428.png|250|250]]
 ## Balancing bias and variance
 - **Model complexity:** adjusting the complexity of the model is a direct way to influence bias and variance. Increasing the complexity of the model decreases bias but increases variance
 - **Training data size:** Increasing the amount of training data can help reduce variance without increasing bias. More data provides a better approximation of the true population
 - **Regularisation:** techniques like L1 and L2 regularisation add a penalty for larger weights in the model, reducing variance by preventing the model from becoming overly complex.
 - **Cross-Validation:** helps in assessing how the model’s predictions would generalise to an independent dataset, useful for finding a good balance between bias and variance.
+- **Early stopping**: once a rise in validation loss is starting to rise again, we can reset the weights back to where the minimum occured. This ensures that the model won't continue to learn noise and overfit the data.
 
 ![[Pasted image 20240528212520.png|350|350]]
