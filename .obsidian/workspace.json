@@ -247,7 +247,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Statistical_modeling.md",
+                "file": "MachineLearning/Categorical_data_handeling.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -414,7 +414,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Statistical_modeling.md"
+                "file": "MachineLearning/Categorical_data_handeling.md"
               }
             }
           }
@@ -422,7 +422,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -449,7 +450,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Statistical_modeling.md",
+                "file": "MachineLearning/Categorical_data_handeling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -466,7 +467,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Statistical_modeling.md",
+                "file": "MachineLearning/Categorical_data_handeling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -544,6 +545,8 @@
   },
   "active": "2e19832509601098",
   "lastOpenFiles": [
+    "MachineLearning/Bias_variance_tradeoff.md",
+    "MachineLearning/Statistical_modeling.md",
     "MachineLearning/EnsembleLearning/Ensemble_learning.md",
     "MachineLearning/EnsembleLearning/XGBoost.md",
     "XX-Attachments/Images/Pasted image 20240629211242.png",
@@ -560,7 +563,6 @@
     "XX-Attachments/Images/Pasted image 20240629183342.png",
     "XX-Attachments/Images/Pasted image 20240629182641.png",
     "MachineLearning/Regularisation/Regularisation.md",
-    "MachineLearning/Bias_variance_tradeoff.md",
     "MachineLearning/Regularisation",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Gaussian_error_linear_unit.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
