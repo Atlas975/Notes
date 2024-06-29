@@ -196,6 +196,19 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/Regularisation/Dropout_regularisation.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "adbb1660b59a5d54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/FeatureEngineering/Batch_normalisation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -294,7 +307,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -362,7 +375,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Regularisation/Dropout_regularisation.md"
+                "file": "MachineLearning/FeatureEngineering/Batch_normalisation.md"
               }
             }
           }
@@ -370,8 +383,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -398,7 +410,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Regularisation/Dropout_regularisation.md",
+                "file": "MachineLearning/FeatureEngineering/Batch_normalisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -415,7 +427,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Regularisation/Dropout_regularisation.md",
+                "file": "MachineLearning/FeatureEngineering/Batch_normalisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -491,11 +503,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f3a53024e9247eeb",
+  "active": "adbb1660b59a5d54",
   "lastOpenFiles": [
-    "XX-Attachments/Images/Pasted image 20240629182641.png",
+    "MachineLearning/FeatureEngineering/Normalisation.md",
+    "MachineLearning/FeatureEngineering/Batch_normalisation.md",
     "MachineLearning/Regularisation/Untitled.md",
     "MachineLearning/Regularisation/Dropout_regularisation.md",
+    "XX-Attachments/Images/Pasted image 20240629183342.png",
+    "XX-Attachments/Images/Pasted image 20240629182641.png",
     "MachineLearning/Regularisation/Regularisation.md",
     "MachineLearning/Bias_variance_tradeoff.md",
     "MachineLearning/Regularisation",
@@ -519,7 +534,6 @@
     "Databases/Database_indexing.md",
     "Databases/Database_constraints.md",
     "ProgramLanguages/SQL/SQL_relations.md",
-    "ProgramLanguages/SQL/SQLversions/SQLite.md",
     "XX-Attachments/Images/Pasted image 20240625205228.png",
     "MachineLearning/PyTorch",
     "XX-Attachments/Images/Pasted image 20240625181732.png",
@@ -529,8 +543,6 @@
     "XX-Attachments/Images/Pasted image 20240624153507.png",
     "XX-Attachments/Images/Pasted image 20240624153316.png",
     "XX-Attachments/Images/Pasted image 20240624153144.png",
-    "XX-Attachments/Images/Pasted image 20240624021531.png",
-    "XX-Attachments/Images/Pasted image 20240623204008.png",
     "MachineLearning/NaturalLanguageProcessing",
     "MachineLearning/Transformers",
     "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",

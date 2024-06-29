@@ -15,4 +15,7 @@ ___
 
 ![[Pasted image 20240629182641.png|450|450]]
 
-- Dropout can be taught of as an implicit [[Ensemble_learning|ensemble]] model, training a large number of su
+- Dropout can be taught of as an implicit [[Ensemble_learning|ensemble]] model, training a large number of subnetworks designed for different combinations of neurons
+- During inference, using the full network is like averaging the predictions of these subnetworks. When a layer that used dropout is making a prediction, neuron output is scaled:
+
+$$\hat{y}_{\text{final}}=\hat{y}\cdot(1-\text{dropout\_rate})$$
