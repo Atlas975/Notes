@@ -182,8 +182,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Bias_variance_tradeoff.md",
-                "mode": "preview",
+                "file": "MachineLearning/Regularisation/Regularisation.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -349,7 +349,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Bias_variance_tradeoff.md"
+                "file": "MachineLearning/Regularisation/Regularisation.md"
               }
             }
           }
@@ -357,8 +357,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -385,7 +384,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Bias_variance_tradeoff.md",
+                "file": "MachineLearning/Regularisation/Regularisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -402,7 +401,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Bias_variance_tradeoff.md",
+                "file": "MachineLearning/Regularisation/Regularisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -480,6 +479,9 @@
   },
   "active": "0da71e11c1746a60",
   "lastOpenFiles": [
+    "MachineLearning/Bias_variance_tradeoff.md",
+    "MachineLearning/Regularisation/Regularisation.md",
+    "MachineLearning/Regularisation",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Gaussian_error_linear_unit.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Argmax.md",
@@ -487,7 +489,6 @@
     "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Rectified_linear_unit.md",
-    "MachineLearning/Bias_variance_tradeoff.md",
     "MachineLearning/0-Legacy/0-CoursesPart2/DeepLearningCourse/Early_stopping.md",
     "ProgramLanguages/SQL/SQL_language.md",
     "ProgramLanguages/SQL/SQL_Joins.md",
@@ -505,7 +506,6 @@
     "MachineLearning/PyTorch/PyTorch.md",
     "MachineLearning/PyTorch/Autograd.md",
     "MachineLearning/0-Legacy/0-GeneralConcepts/Computation_graph.md",
-    "OperatingSystems/Multi-Process_systems.md",
     "XX-Attachments/Images/Pasted image 20240625205228.png",
     "MachineLearning/PyTorch",
     "XX-Attachments/Images/Pasted image 20240625181732.png",
@@ -524,7 +524,6 @@
     "XX-Attachments/Images/Numpy Handbook.pdf",
     "DistributedSystems/Replication",
     "DistributedSystems/SystemStructure",
-    "DistributedSystems/Consensus",
-    "DistributedSystems/CommunicationModels"
+    "DistributedSystems/Consensus"
   ]
 }
