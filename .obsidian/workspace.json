@@ -247,7 +247,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/EnsembleLearning/XGBoost.md",
+                "file": "MachineLearning/Statistical_modeling.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -414,7 +414,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/EnsembleLearning/XGBoost.md"
+                "file": "MachineLearning/Statistical_modeling.md"
               }
             }
           }
@@ -449,7 +449,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/EnsembleLearning/XGBoost.md",
+                "file": "MachineLearning/Statistical_modeling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -466,7 +466,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/EnsembleLearning/XGBoost.md",
+                "file": "MachineLearning/Statistical_modeling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -544,9 +544,9 @@
   },
   "active": "2e19832509601098",
   "lastOpenFiles": [
-    "XX-Attachments/Images/Pasted image 20240629211242.png",
     "MachineLearning/EnsembleLearning/Ensemble_learning.md",
     "MachineLearning/EnsembleLearning/XGBoost.md",
+    "XX-Attachments/Images/Pasted image 20240629211242.png",
     "MachineLearning/EnsembleLearning",
     "XX-Attachments/Images/Pasted image 20240629210708.png",
     "MachineLearning/FeatureEngineering/Batch_normalisation.md",
@@ -582,7 +582,6 @@
     "XX-Attachments/Images/Pasted image 20240624200139.png",
     "XX-Attachments/Images/Pasted image 20240624200024.png",
     "XX-Attachments/Images/Pasted image 20240624153509.png",
-    "XX-Attachments/Images/Pasted image 20240624153507.png",
     "MachineLearning/NaturalLanguageProcessing",
     "MachineLearning/Transformers",
     "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",
