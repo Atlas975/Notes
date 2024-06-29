@@ -190,6 +190,19 @@
             }
           },
           {
+            "id": "f3a53024e9247eeb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Regularisation/Dropout_regularisation.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "77eb7ef374083215",
             "type": "leaf",
             "state": {
@@ -281,7 +294,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -349,7 +362,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Regularisation/Regularisation.md"
+                "file": "MachineLearning/Regularisation/Dropout_regularisation.md"
               }
             }
           }
@@ -385,7 +398,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Regularisation/Regularisation.md",
+                "file": "MachineLearning/Regularisation/Dropout_regularisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -402,7 +415,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Regularisation/Regularisation.md",
+                "file": "MachineLearning/Regularisation/Dropout_regularisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -478,10 +491,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "0da71e11c1746a60",
+  "active": "f3a53024e9247eeb",
   "lastOpenFiles": [
-    "MachineLearning/Bias_variance_tradeoff.md",
+    "XX-Attachments/Images/Pasted image 20240629182641.png",
+    "MachineLearning/Regularisation/Untitled.md",
+    "MachineLearning/Regularisation/Dropout_regularisation.md",
     "MachineLearning/Regularisation/Regularisation.md",
+    "MachineLearning/Bias_variance_tradeoff.md",
     "MachineLearning/Regularisation",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Gaussian_error_linear_unit.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Activation_functions.md",
@@ -504,9 +520,6 @@
     "Databases/Database_constraints.md",
     "ProgramLanguages/SQL/SQL_relations.md",
     "ProgramLanguages/SQL/SQLversions/SQLite.md",
-    "MachineLearning/PyTorch/PyTorch.md",
-    "MachineLearning/PyTorch/Autograd.md",
-    "MachineLearning/0-Legacy/0-GeneralConcepts/Computation_graph.md",
     "XX-Attachments/Images/Pasted image 20240625205228.png",
     "MachineLearning/PyTorch",
     "XX-Attachments/Images/Pasted image 20240625181732.png",

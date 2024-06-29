@@ -11,7 +11,7 @@
 ___
 # Regularisation
 - A technique used to prevent [[Bias_variance_tradeoff|overfitting]] in statistical models by adding a controlled penalty to the models complexity, discouraging it from fitting to noise.
-- This can be done by modifying the cost function, these are shrinkage methods and are controlled by a regularisation parameter $(\lambda)$
+- This can be done by modifying the cost function, these are shrinkage methods and are controlled by a regularisation parameter $(\lambda)$ which can increase model simplicity by being increased
 
 ## Lasso (L1) regularisation 
 - Lasso (Least Absolute Shrinkage and Selection Operator) adds a penalty equal to the absolute value of the magnitude of the coefficients
@@ -28,3 +28,11 @@ $$J(\theta)=\text{Loss}+\lambda \sum |\theta|$$
 $$J(\theta)=\text{Loss}+\lambda \sum\theta^2$$
 - The penalty term adds a quadratic cost to the magnitude of each coefficient. This cost increases rapidly as the coefficient value increases, which discourages large coefficients
 - This results in less complete elimination of features by encouraging the model to not overly invest in a small number of features, instead only shrinking them 
+
+## Elastic net regularisation
+- A regularisation technique that combines both Lasso and Ridge penalties
+- The cost function for Elastic Net can use two separate regularisation parameters:
+
+$$J(\theta)=\text{Loss}+\lambda_{1} \sum |\theta|+\lambda_{2} \sum\theta^2$$
+
+- This approach can be useful to combine the benefits of both Lasso and Ridge regularisation, providing both feature shrinkage and feature selection
