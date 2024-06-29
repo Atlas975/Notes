@@ -235,7 +235,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/FeatureEngineering/Batch_normalisation.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -409,7 +409,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -531,10 +532,12 @@
   },
   "active": "444e21b81c8a2f43",
   "lastOpenFiles": [
+    "MachineLearning/Transformers/Transformer.md",
+    "MachineLearning/Transformers/Generative_pre-trained_Transformer.md",
+    "MachineLearning/FeatureEngineering/Batch_normalisation.md",
     "XX-Attachments/Images/Pasted image 20240629190156.png",
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
     "MachineLearning/FeatureEngineering/Normalisation.md",
-    "MachineLearning/FeatureEngineering/Batch_normalisation.md",
     "MachineLearning/Regularisation/Untitled.md",
     "MachineLearning/Regularisation/Dropout_regularisation.md",
     "XX-Attachments/Images/Pasted image 20240629183342.png",
@@ -559,7 +562,6 @@
     "Databases/Database_transactions.md",
     "Databases/Relational_algebra.md",
     "Databases/Database_sharding.md",
-    "Databases/Database_indexing.md",
     "XX-Attachments/Images/Pasted image 20240625205228.png",
     "MachineLearning/PyTorch",
     "XX-Attachments/Images/Pasted image 20240625181732.png",
@@ -568,7 +570,6 @@
     "XX-Attachments/Images/Pasted image 20240624153509.png",
     "XX-Attachments/Images/Pasted image 20240624153507.png",
     "XX-Attachments/Images/Pasted image 20240624153316.png",
-    "XX-Attachments/Images/Pasted image 20240624153144.png",
     "MachineLearning/NaturalLanguageProcessing",
     "MachineLearning/Transformers",
     "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",

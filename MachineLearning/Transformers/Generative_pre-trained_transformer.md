@@ -23,7 +23,7 @@ ___
 ![[Pasted image 20240624200139.png|300|300]]
 ## GPT Transformer block
 - GPT's focus on the generative aspect of text processing, which involves generating contextually appropriate text based on a given input using only the decoder part of a Transformer  
-- Transformer blocks are chained together, each refining the model's understanding and predictions. Blocks make use of [[Multi-headed_attention|MHSA]] + feed forward layers using [[Residual_connections|skip connections]]
+- Transformer blocks are chained together, each refining the model's understanding and predictions. Blocks make use of [[Multi-headed_attention|MHSA]] + feed forward layers using [[Residual_connections|skip connections]] + [[Batch_normalisation|norming]]
 
 ```python
 class TransformerBlock(nn.Module):
