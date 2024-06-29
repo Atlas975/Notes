@@ -30,7 +30,6 @@ $$\mathcal{x'}=\frac{x-\overline{x}}{\sigma}$$
 ![[Pasted image 20220406164052.png|450|450]]
 
 $$\mathcal{x'}=\frac{x-x_{min}}{x_{max}-x_{min}}$$
-
 ## Manhattan (L1) normalisation 
 - Useful for promoting sparsity in the coefficients of a model, as it tends to push the solutions towards vectors with fewer non-zero components
 $$x'=\frac{x}{\sum x_{i}}$$
