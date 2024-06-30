@@ -20,5 +20,12 @@ ___
 ![[Pasted image 20240630205015.png|300|300]]
 
 
+
+## Time-step features 
+- Refers to the interval between consecutive observations in a dataset. This interval can vary depending on the nature of the data and the frequency of observation
+- The concept of time-step is crucial for understanding the temporal structure of the data and for performing various time series operations such as forecasting and modeling
 ## Lag features 
-- Lag refers to the amount of time by which a time series observation is shifted relative to another observation. Lags are used to create lagged variables, which are past values of the series that can be used as predictors in time series models. The concept of lag is integral to autoregressive models, where future values are predicted based on past values.
+- The amount of time by which a time series observation is shifted relative to another observation. Vital with autoregressive models, where future values are predicted based on past values.
+- Lags are used to create lagged variables, which are past values of the series that can be used as predictors in time series models. 
+
+![[Pasted image 20240630210011.png|250|250]]

@@ -235,7 +235,7 @@
               "type": "markdown",
               "state": {
                 "file": "MachineLearning/TimeSeriesAnalysis/Time_series_analysis.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -545,6 +545,7 @@
   },
   "active": "444e21b81c8a2f43",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/FeatureEngineering/Batch_normalisation.md",
     "MachineLearning/TimeSeriesAnalysis/Time_series_analysis.md",
@@ -584,7 +585,6 @@
     "XX-Attachments/Images/Pasted image 20240625181732.png",
     "XX-Attachments/Images/Pasted image 20240624200139.png",
     "XX-Attachments/Images/Pasted image 20240624200024.png",
-    "XX-Attachments/Images/Pasted image 20240624153509.png",
     "MachineLearning/NaturalLanguageProcessing",
     "MachineLearning/Transformers",
     "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",
