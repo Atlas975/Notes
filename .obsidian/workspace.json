@@ -422,7 +422,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -544,6 +545,7 @@
   },
   "active": "444e21b81c8a2f43",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/FeatureEngineering/Batch_normalisation.md",
     "MachineLearning/TimeSeriesAnalysis/Time_series_analysis.md",
     "MachineLearning/TimeSeriesAnalysis",
@@ -577,7 +579,6 @@
     "ProgramLanguages/SQL/SQL_language.md",
     "ProgramLanguages/SQL/SQL_Joins.md",
     "ProgramLanguages/SQL/SQL_access_control.md",
-    "Databases/Database_concurrency.md",
     "XX-Attachments/Images/Pasted image 20240625205228.png",
     "MachineLearning/PyTorch",
     "XX-Attachments/Images/Pasted image 20240625181732.png",
