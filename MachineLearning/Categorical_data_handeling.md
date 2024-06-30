@@ -12,8 +12,10 @@
 
 ___
 # Categorical data handling
-- The techniques and methods used to manage and analyse data that consists of categories or groups rather than numerical values.
-- Dropping categorical data also works, but this information may be useful for model training
+-  Categorical data refers to variables that contain label values rather than numerical values. 
+- These labels can represent names, categories, or qualities and are often divided into two types: 
+    -  **Nominal Data**: categories with no inherent order (e.g., gender, colour, city etc)
+    - **Ordinal Data**: categories with a meaningful order but no fixed interval between them (e.g., ranking, education level etc.)
 ## Ordinal encoding
 - Assumes ordering of categories
 - Useful for giving different values distinct weights
