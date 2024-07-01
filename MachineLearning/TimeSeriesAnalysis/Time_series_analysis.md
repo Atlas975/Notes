@@ -12,7 +12,7 @@ ___
 # Time series analysis
 - The collection, analysis, and interpretation of data points collected or recorded at specific time intervals. This is used to understand patterns, forecast future values, and identify trends
 - A time series consists of various components: 
-    - **Trend (T)**: the long-term movement or direction in the data. Represents the general pattern or tendency over a significant period, such as upward or downward movement.
+    - **Trend (T)**: the long-term movement of the mean of the data series. Represents the general pattern or tendency over a significant period. This is the slowest moving part of a series 
     - **Seasonality (S)**: regular and repeating patterns or cycles in data, often observed within a year. For example, retail sales often increase during holiday seasons.
     -  **Cyclic Patterns (C)**: Fluctuations in data over periods longer than a year, usually due to economic cycles. Unlike seasonality, cycles do not have a fixed period.
     -  **Irregular (I) or Random Components**: Unpredictable, random variations in the data which cannot be attributed to trend, seasonality, or cyclic patterns.
