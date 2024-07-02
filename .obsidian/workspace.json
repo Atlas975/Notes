@@ -242,7 +242,7 @@
             }
           },
           {
-            "id": "05832d98f0c991cd",
+            "id": "e998dd70e3998a87",
             "type": "leaf",
             "state": {
               "type": "release-notes",
@@ -423,9 +423,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "MachineLearning/TimeSeriesAnalysis/Time_series_analysis.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -460,7 +458,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/TimeSeriesAnalysis/Time_series_analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -477,7 +474,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/TimeSeriesAnalysis/Time_series_analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -553,12 +549,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "05832d98f0c991cd",
+  "active": "e998dd70e3998a87",
   "lastOpenFiles": [
+    "MachineLearning/TimeSeriesAnalysis/Time_series_analysis.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/FeatureEngineering/Batch_normalisation.md",
-    "MachineLearning/TimeSeriesAnalysis/Time_series_analysis.md",
     "MachineLearning/TimeSeriesAnalysis",
     "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/EnsembleLearning/Ensemble_learning.md",
@@ -594,7 +590,6 @@
     "MachineLearning/PyTorch",
     "XX-Attachments/Images/Pasted image 20240625181732.png",
     "XX-Attachments/Images/Pasted image 20240624200139.png",
-    "XX-Attachments/Images/Pasted image 20240624200024.png",
     "MachineLearning/NaturalLanguageProcessing",
     "MachineLearning/Transformers",
     "XX-Attachments/Images/SCC 120 Workshop 2 Relations Worked Solutions.pdf",
