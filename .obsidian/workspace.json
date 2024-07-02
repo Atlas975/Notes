@@ -242,6 +242,16 @@
             }
           },
           {
+            "id": "05832d98f0c991cd",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
+          },
+          {
             "id": "db4e8a25f6d01a5d",
             "type": "leaf",
             "state": {
@@ -346,7 +356,7 @@
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 18
       }
     ],
     "direction": "vertical"
@@ -543,7 +553,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "444e21b81c8a2f43",
+  "active": "05832d98f0c991cd",
   "lastOpenFiles": [
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
