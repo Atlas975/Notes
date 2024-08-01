@@ -19,3 +19,4 @@ ___
 - This way, after normalisation, the network can scale and shift the normalised values as needed
 
 $$y=\gamma\cdot \text{norm}(x)+\beta$$
+Sudo dnf inst
