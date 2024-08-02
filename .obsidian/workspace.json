@@ -268,6 +268,19 @@
             }
           },
           {
+            "id": "6c513649b3946dd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DataStructures/B_trees.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "db4e8a25f6d01a5d",
             "type": "leaf",
             "state": {
@@ -372,7 +385,7 @@
             }
           }
         ],
-        "currentTab": 19
+        "currentTab": 20
       }
     ],
     "direction": "vertical"
@@ -440,7 +453,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Categorical_data_handeling.md"
+                "file": "DataStructures/B_trees.md"
               }
             }
           }
@@ -476,7 +489,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Categorical_data_handeling.md",
+                "file": "DataStructures/B_trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -493,7 +506,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Categorical_data_handeling.md",
+                "file": "DataStructures/B_trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -569,14 +582,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "d0cf2d4524a146f9",
+  "active": "6c513649b3946dd9",
   "lastOpenFiles": [
+    "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/FeatureEngineering/Batch_normalisation.md",
     "MachineLearning/TimeSeriesAnalysis/Time_series_analysis.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
-    "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/EnsembleLearning/Ensemble_learning.md",
     "MachineLearning/Bias_variance_tradeoff.md",
     "MachineLearning/Statistical_modeling.md",
