@@ -299,7 +299,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Fault_tolerence.md",
+                "file": "DistributedSystems/Consensus/Paxos.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -479,7 +479,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Fault_tolerence.md"
+                "file": "DistributedSystems/Consensus/Paxos.md"
               }
             }
           }
@@ -514,7 +514,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Fault_tolerence.md",
+                "file": "DistributedSystems/Consensus/Paxos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -531,7 +531,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Fault_tolerence.md",
+                "file": "DistributedSystems/Consensus/Paxos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -609,6 +609,7 @@
   },
   "active": "7796636d7e6b3312",
   "lastOpenFiles": [
+    "DistributedSystems/Fault_tolerence.md",
     "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/Consensus/RAFT.md",
     "DistributedSystems/Consensus/Two_general_problem.md",
@@ -641,7 +642,6 @@
     "MachineLearning/Transformers/Transformer.md",
     "MachineLearning/Transformers/Generative_pre-trained_Transformer.md",
     "XX-Attachments/Images/Pasted image 20240629190156.png",
-    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
     "XX-Attachments/Images/Pasted image 20240629183342.png",
     "XX-Attachments/Images/Pasted image 20240629182641.png",
     "MachineLearning/Regularisation",
