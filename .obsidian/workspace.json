@@ -299,7 +299,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Consensus/RAFT.md",
+                "file": "DistributedSystems/SystemStructure/Blockchain.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -479,7 +479,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Consensus/RAFT.md"
+                "file": "DistributedSystems/SystemStructure/Blockchain.md"
               }
             }
           }
@@ -514,7 +514,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Consensus/RAFT.md",
+                "file": "DistributedSystems/SystemStructure/Blockchain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -531,7 +531,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Consensus/RAFT.md",
+                "file": "DistributedSystems/SystemStructure/Blockchain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -609,11 +609,13 @@
   },
   "active": "7796636d7e6b3312",
   "lastOpenFiles": [
+    "DistributedSystems/Replication/Replication.md",
+    "DistributedSystems/Replication/Active_replication.md",
+    "DistributedSystems/Consensus/RAFT.md",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
     "DistributedSystems/Consensus/Paxos.md",
     "DistributedSystems/Fault_tolerence.md",
     "DistributedSystems/Distributed_system_security.md",
-    "DistributedSystems/Consensus/RAFT.md",
     "DistributedSystems/Consensus/Two_general_problem.md",
     "DistributedSystems/CommunicationModels/Group_communication.md",
     "DistributedSystems/Consensus/Byzantine_generals_problem.md",
@@ -636,11 +638,9 @@
     "MachineLearning/EnsembleLearning/Ensemble_learning.md",
     "MachineLearning/Bias_variance_tradeoff.md",
     "MachineLearning/Statistical_modeling.md",
-    "MachineLearning/EnsembleLearning/XGBoost.md",
     "XX-Attachments/Images/Pasted image 20240629211242.png",
     "MachineLearning/EnsembleLearning",
     "XX-Attachments/Images/Pasted image 20240629210708.png",
-    "MachineLearning/Transformers/Transformer.md",
     "XX-Attachments/Images/Pasted image 20240629190156.png",
     "XX-Attachments/Images/Pasted image 20240629183342.png",
     "XX-Attachments/Images/Pasted image 20240629182641.png",
