@@ -299,7 +299,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
+                "file": "DistributedSystems/Consensus/RAFT.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -479,7 +479,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md"
+                "file": "DistributedSystems/Consensus/RAFT.md"
               }
             }
           }
@@ -514,7 +514,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
+                "file": "DistributedSystems/Consensus/RAFT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -531,7 +531,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
+                "file": "DistributedSystems/Consensus/RAFT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -609,6 +609,7 @@
   },
   "active": "7796636d7e6b3312",
   "lastOpenFiles": [
+    "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
     "DistributedSystems/Consensus/Paxos.md",
     "DistributedSystems/Fault_tolerence.md",
     "DistributedSystems/Distributed_system_security.md",
@@ -640,7 +641,6 @@
     "MachineLearning/EnsembleLearning",
     "XX-Attachments/Images/Pasted image 20240629210708.png",
     "MachineLearning/Transformers/Transformer.md",
-    "MachineLearning/Transformers/Generative_pre-trained_Transformer.md",
     "XX-Attachments/Images/Pasted image 20240629190156.png",
     "XX-Attachments/Images/Pasted image 20240629183342.png",
     "XX-Attachments/Images/Pasted image 20240629182641.png",
