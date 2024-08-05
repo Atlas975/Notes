@@ -299,7 +299,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Consensus/Two_general_problem.md",
+                "file": "DistributedSystems/SystemStructure/Google_infrastructure.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -479,7 +479,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Consensus/Two_general_problem.md"
+                "file": "DistributedSystems/SystemStructure/Google_infrastructure.md"
               }
             }
           }
@@ -514,7 +514,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Consensus/Two_general_problem.md",
+                "file": "DistributedSystems/SystemStructure/Google_infrastructure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -531,7 +531,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Consensus/Two_general_problem.md",
+                "file": "DistributedSystems/SystemStructure/Google_infrastructure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -609,6 +609,7 @@
   },
   "active": "7796636d7e6b3312",
   "lastOpenFiles": [
+    "DistributedSystems/Consensus/Two_general_problem.md",
     "DistributedSystems/Replication/Replication.md",
     "DistributedSystems/SystemStructure/Cloud_computing.md",
     "DistributedSystems/SystemStructure/Distributed_system_design.md",
@@ -626,7 +627,6 @@
     "DistributedSystems/Consensus/RAFT.md",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
     "DistributedSystems/Consensus/Paxos.md",
-    "DistributedSystems/Consensus/Two_general_problem.md",
     "DistributedSystems/CommunicationModels/Group_communication.md",
     "DistributedSystems/Consensus/Byzantine_generals_problem.md",
     "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md",
