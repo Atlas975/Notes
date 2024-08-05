@@ -299,7 +299,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
+                "file": "DistributedSystems/Consensus/Two_general_problem.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -479,7 +479,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Peer_to_peer_systems.md"
+                "file": "DistributedSystems/Consensus/Two_general_problem.md"
               }
             }
           }
@@ -514,7 +514,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
+                "file": "DistributedSystems/Consensus/Two_general_problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -531,7 +531,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
+                "file": "DistributedSystems/Consensus/Two_general_problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -609,6 +609,10 @@
   },
   "active": "7796636d7e6b3312",
   "lastOpenFiles": [
+    "DistributedSystems/Replication/Replication.md",
+    "DistributedSystems/SystemStructure/Cloud_computing.md",
+    "DistributedSystems/SystemStructure/Distributed_system_design.md",
+    "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
     "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/Distributed_systems.md",
     "DistributedSystems/Fault_tolerence.md",
@@ -616,11 +620,8 @@
     "DistributedSystems/Software_containment.md",
     "DistributedSystems/Time_keeping.md",
     "DistributedSystems/SystemStructure/Google_infrastructure.md",
-    "DistributedSystems/SystemStructure/Cloud_computing.md",
     "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
-    "DistributedSystems/SystemStructure/Distributed_system_design.md",
     "DistributedSystems/SystemStructure/Blockchain.md",
-    "DistributedSystems/Replication/Replication.md",
     "DistributedSystems/Replication/Active_replication.md",
     "DistributedSystems/Consensus/RAFT.md",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
@@ -634,7 +635,6 @@
     "Languages&Compilation/Parsing/First_sets.md",
     "Languages&Compilation/Parsing/TopDownParsing/Recursive_descent.md",
     "Languages&Compilation/Parsing/BottomUpParsing/LR(0)_parsing.md",
-    "Languages&Compilation/Parsing/BottomUpParsing/Bottom-up_parsing.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
