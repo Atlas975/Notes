@@ -307,6 +307,16 @@
             }
           },
           {
+            "id": "ab81476fa9ce3fb7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
+          },
+          {
             "id": "db4e8a25f6d01a5d",
             "type": "leaf",
             "state": {
@@ -411,7 +421,7 @@
             }
           }
         ],
-        "currentTab": 22
+        "currentTab": 23
       }
     ],
     "direction": "vertical"
@@ -607,7 +617,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7796636d7e6b3312",
+  "active": "ab81476fa9ce3fb7",
   "lastOpenFiles": [
     "DistributedSystems/Consensus/Two_general_problem.md",
     "DistributedSystems/Replication/Replication.md",
