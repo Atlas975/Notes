@@ -322,7 +322,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Fault_tolerence.md",
+                "file": "MachineLearning/Classification/Naive_Bayes.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -502,7 +502,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Fault_tolerence.md"
+                "file": "MachineLearning/Classification/Naive_Bayes.md"
               }
             }
           }
@@ -537,7 +537,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DistributedSystems/Fault_tolerence.md",
+                "file": "MachineLearning/Classification/Naive_Bayes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -554,7 +554,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DistributedSystems/Fault_tolerence.md",
+                "file": "MachineLearning/Classification/Naive_Bayes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -632,32 +632,32 @@
   },
   "active": "0ca3e9d25cd30b14",
   "lastOpenFiles": [
-    "DistributedSystems/Distributed_systems.md",
-    "DistributedSystems/SystemStructure/Google_infrastructure.md",
-    "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
-    "DistributedSystems/SystemStructure/Cloud_computing.md",
-    "DistributedSystems/Replication/Passive_replication.md",
-    "DistributedSystems/CommunicationModels/Indirect_communication.md",
-    "DistributedSystems/CommunicationModels/Group_communication.md",
-    "Databases/Relational_algebra.md",
-    "Databases/Join_handling.md",
-    "Databases/Database_storage.md",
-    "Databases/Database_relations.md",
-    "Algorithms/TimeComplexity/Omega&Theta_Notation.md",
-    "Algorithms/TimeComplexity/Big-O_notation.md",
-    "DistributedSystems/Consensus/Two_general_problem.md",
-    "DistributedSystems/Replication/Replication.md",
-    "DistributedSystems/SystemStructure/Distributed_system_design.md",
-    "DistributedSystems/SystemStructure/Peer_to_peer_systems.md",
-    "DistributedSystems/Distributed_system_security.md",
-    "DistributedSystems/Fault_tolerence.md",
-    "DistributedSystems/Remote_invocation.md",
+    "MachineLearning/Clustering/Hierarchal_clustering.md",
+    "MachineLearning/Clustering/K-means_clustering.md",
+    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
+    "MachineLearning/ErrorMeasures/Cross-entropy.md",
+    "MachineLearning/EnsembleLearning/XGBoost.md",
+    "MachineLearning/EnsembleLearning/Ensemble_learning.md",
+    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
+    "MachineLearning/FeatureEngineering/Normalisation.md",
+    "MachineLearning/FeatureEngineering/Batch_normalisation.md",
+    "MachineLearning/Transformers/Generative_pre-trained_Transformer.md",
+    "MachineLearning/Transformers/Multi-headed_attention.md",
+    "MachineLearning/Transformers/Transformer.md",
+    "MachineLearning/Transformers/Self-attention.md",
+    "MachineLearning/Bias_variance_tradeoff.md",
+    "MachineLearning/Categorical_data_handeling.md",
+    "MachineLearning/Statistical_modeling.md",
+    "MachineLearning/TreeModels/Decision_trees.md",
+    "MachineLearning/TreeModels/Random_forest.md",
+    "MachineLearning/TimeSeriesAnalysis/Time_series_analysis.md",
+    "MachineLearning/Regularisation/Regularisation.md",
+    "MachineLearning/Regularisation/Dropout_regularisation.md",
     "DistributedSystems/Software_containment.md",
     "DistributedSystems/Time_keeping.md",
-    "DistributedSystems/SystemStructure/Blockchain.md",
-    "DistributedSystems/Replication/Active_replication.md",
-    "DistributedSystems/Consensus/RAFT.md",
-    "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
+    "DistributedSystems/Remote_invocation.md",
+    "DistributedSystems/Fault_tolerence.md",
+    "DistributedSystems/Distributed_systems.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",

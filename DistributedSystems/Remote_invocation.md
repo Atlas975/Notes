@@ -27,11 +27,11 @@ ___
 - **RR**: request-reply protocol, if reply lost a request may be repeated by client
 - **RRA**: second reply from client to acknowledge a resource has been received 
 
-| Style | Client  | Server | Client |
-| ----- | ------- | ------ | ------ |
-| R     | Request | -      | -      |
-| RR    | Request | Reply  | -      |
-| RRA      |Request         |Reply        |Acknowledgement        |
+| Style | Client  | Server | Client          |
+| ----- | ------- | ------ | --------------- |
+| R     | Request | -      | -               |
+| RR    | Request | Reply  | -               |
+| RRA   | Request | Reply  | Acknowledgement |
 
 ## Remote procedure calls
 - RPC's allow for functions to be called on other computers as if they were called locally, simplest form of communication middleware providing a high level request-response mechanism
