@@ -322,7 +322,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Classification/Naive_Bayes.md",
+                "file": "MachineLearning/Clustering/K-means_clustering.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -502,7 +502,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Classification/Naive_Bayes.md"
+                "file": "MachineLearning/Clustering/K-means_clustering.md"
               }
             }
           }
@@ -537,7 +537,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Classification/Naive_Bayes.md",
+                "file": "MachineLearning/Clustering/K-means_clustering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -554,7 +554,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Classification/Naive_Bayes.md",
+                "file": "MachineLearning/Clustering/K-means_clustering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -632,6 +632,9 @@
   },
   "active": "0ca3e9d25cd30b14",
   "lastOpenFiles": [
+    "MachineLearning/Classification/K-nearest_neighbours.md",
+    "MachineLearning/Classification/Semantic_segmentation.md",
+    "MachineLearning/Classification/Naive_Bayes.md",
     "MachineLearning/Clustering/Hierarchal_clustering.md",
     "MachineLearning/Clustering/K-means_clustering.md",
     "MachineLearning/ErrorMeasures/Confusion_matrices.md",
@@ -655,9 +658,6 @@
     "MachineLearning/Regularisation/Dropout_regularisation.md",
     "DistributedSystems/Software_containment.md",
     "DistributedSystems/Time_keeping.md",
-    "DistributedSystems/Remote_invocation.md",
-    "DistributedSystems/Fault_tolerence.md",
-    "DistributedSystems/Distributed_systems.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
