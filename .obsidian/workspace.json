@@ -322,7 +322,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Clustering/K-means_clustering.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -502,7 +502,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Clustering/K-means_clustering.md"
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md"
               }
             }
           }
@@ -537,7 +537,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Clustering/K-means_clustering.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -554,7 +554,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Clustering/K-means_clustering.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -632,18 +632,20 @@
   },
   "active": "0ca3e9d25cd30b14",
   "lastOpenFiles": [
+    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
+    "MachineLearning/FeatureEngineering/Batch_normalisation.md",
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
+    "MachineLearning/ErrorMeasures/Loss_functions.md",
+    "MachineLearning/ErrorMeasures/Cross-entropy.md",
+    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
+    "MachineLearning/EnsembleLearning/XGBoost.md",
+    "MachineLearning/EnsembleLearning/Ensemble_learning.md",
+    "MachineLearning/Clustering/K-means_clustering.md",
     "MachineLearning/Classification/K-nearest_neighbours.md",
     "MachineLearning/Classification/Semantic_segmentation.md",
     "MachineLearning/Classification/Naive_Bayes.md",
     "MachineLearning/Clustering/Hierarchal_clustering.md",
-    "MachineLearning/Clustering/K-means_clustering.md",
-    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
-    "MachineLearning/ErrorMeasures/Cross-entropy.md",
-    "MachineLearning/EnsembleLearning/XGBoost.md",
-    "MachineLearning/EnsembleLearning/Ensemble_learning.md",
-    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
     "MachineLearning/FeatureEngineering/Normalisation.md",
-    "MachineLearning/FeatureEngineering/Batch_normalisation.md",
     "MachineLearning/Transformers/Generative_pre-trained_Transformer.md",
     "MachineLearning/Transformers/Multi-headed_attention.md",
     "MachineLearning/Transformers/Transformer.md",
@@ -656,8 +658,6 @@
     "MachineLearning/TimeSeriesAnalysis/Time_series_analysis.md",
     "MachineLearning/Regularisation/Regularisation.md",
     "MachineLearning/Regularisation/Dropout_regularisation.md",
-    "DistributedSystems/Software_containment.md",
-    "DistributedSystems/Time_keeping.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
