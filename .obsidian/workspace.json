@@ -322,7 +322,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/Batch_normalisation.md",
+                "file": "MachineLearning/FeatureEngineering/Machine_learning_features.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -502,7 +502,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/Batch_normalisation.md"
+                "file": "MachineLearning/FeatureEngineering/Machine_learning_features.md"
               }
             }
           }
@@ -537,7 +537,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/Batch_normalisation.md",
+                "file": "MachineLearning/FeatureEngineering/Machine_learning_features.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -554,7 +554,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/Batch_normalisation.md",
+                "file": "MachineLearning/FeatureEngineering/Machine_learning_features.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -632,9 +632,9 @@
   },
   "active": "0ca3e9d25cd30b14",
   "lastOpenFiles": [
+    "MachineLearning/FeatureEngineering/Batch_normalisation.md",
     "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
-    "MachineLearning/FeatureEngineering/Batch_normalisation.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
     "MachineLearning/ErrorMeasures/Loss_functions.md",
     "MachineLearning/ErrorMeasures/Cross-entropy.md",
