@@ -322,7 +322,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -502,7 +502,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md"
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md"
               }
             }
           }
@@ -537,7 +537,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -554,7 +554,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
+                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -632,6 +632,7 @@
   },
   "active": "0ca3e9d25cd30b14",
   "lastOpenFiles": [
+    "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
     "MachineLearning/NaturalLanguageProcessing/Natural_language_processing.md",
     "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "MachineLearning/GeneticAlgorithms/Mutation.md",
@@ -657,7 +658,6 @@
     "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/Statistical_modeling.md",
     "MachineLearning/TreeModels/Decision_trees.md",
-    "MachineLearning/TreeModels/Random_forest.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
