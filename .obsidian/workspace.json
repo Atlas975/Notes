@@ -322,7 +322,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Regression/Synergy_effect.md",
+                "file": "MachineLearning/Regression/Linear_regression.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -502,7 +502,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Regression/Synergy_effect.md"
+                "file": "MachineLearning/Regression/Linear_regression.md"
               }
             }
           }
@@ -537,7 +537,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Regression/Synergy_effect.md",
+                "file": "MachineLearning/Regression/Linear_regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -554,7 +554,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Regression/Synergy_effect.md",
+                "file": "MachineLearning/Regression/Linear_regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -632,6 +632,7 @@
   },
   "active": "0ca3e9d25cd30b14",
   "lastOpenFiles": [
+    "MachineLearning/Regression/Synergy_effect.md",
     "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
     "MachineLearning/NaturalLanguageProcessing/Skip-gram.md",
     "MachineLearning/GeneticAlgorithms/Selection.md",
@@ -657,7 +658,6 @@
     "MachineLearning/Transformers/Generative_pre-trained_Transformer.md",
     "MachineLearning/Transformers/Multi-headed_attention.md",
     "MachineLearning/Transformers/Transformer.md",
-    "MachineLearning/Transformers/Self-attention.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
