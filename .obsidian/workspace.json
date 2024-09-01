@@ -322,7 +322,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
+                "file": "Databases/Database_systems.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -502,7 +502,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md"
+                "file": "Databases/Database_systems.md"
               }
             }
           }
@@ -537,7 +537,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
+                "file": "Databases/Database_systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -554,7 +554,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
+                "file": "Databases/Database_systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -632,6 +632,7 @@
   },
   "active": "0ca3e9d25cd30b14",
   "lastOpenFiles": [
+    "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
     "MachineLearning/NaturalLanguageProcessing/Skip-gram.md",
     "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
     "MachineLearning/NaturalLanguageProcessing/Natural_language_processing.md",
@@ -639,7 +640,6 @@
     "MachineLearning/Regression/Linear_regression.md",
     "MachineLearning/Regression/Logistic_regression.md",
     "MachineLearning/Regression/Synergy_effect.md",
-    "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
     "MachineLearning/GeneticAlgorithms/Selection.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
