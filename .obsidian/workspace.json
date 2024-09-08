@@ -322,7 +322,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Join_handling.md",
+                "file": "Databases/Access_routines.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -502,7 +502,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Join_handling.md"
+                "file": "Databases/Access_routines.md"
               }
             }
           }
@@ -537,7 +537,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Join_handling.md",
+                "file": "Databases/Access_routines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -554,7 +554,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Join_handling.md",
+                "file": "Databases/Access_routines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -633,6 +633,7 @@
   "active": "0ca3e9d25cd30b14",
   "lastOpenFiles": [
     "Databases/Database_systems.md",
+    "Databases/Join_handling.md",
     "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
     "MachineLearning/NaturalLanguageProcessing/Skip-gram.md",
     "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
@@ -657,7 +658,6 @@
     "MachineLearning/Clustering/K-means_clustering.md",
     "MachineLearning/Classification/K-nearest_neighbours.md",
     "MachineLearning/Classification/Semantic_segmentation.md",
-    "MachineLearning/Classification/Naive_Bayes.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
