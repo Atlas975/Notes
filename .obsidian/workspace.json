@@ -322,7 +322,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Access_routines.md",
+                "file": "Databases/Database_normalisation.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -502,7 +502,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Access_routines.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           }
@@ -537,7 +537,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Access_routines.md",
+                "file": "Databases/Database_normalisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -554,7 +554,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Access_routines.md",
+                "file": "Databases/Database_normalisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -632,6 +632,8 @@
   },
   "active": "0ca3e9d25cd30b14",
   "lastOpenFiles": [
+    "Databases/Database_keys.md",
+    "Databases/Access_routines.md",
     "Databases/Database_systems.md",
     "Databases/Join_handling.md",
     "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
@@ -656,8 +658,6 @@
     "MachineLearning/EnsembleLearning/XGBoost.md",
     "MachineLearning/EnsembleLearning/Ensemble_learning.md",
     "MachineLearning/Clustering/K-means_clustering.md",
-    "MachineLearning/Classification/K-nearest_neighbours.md",
-    "MachineLearning/Classification/Semantic_segmentation.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
