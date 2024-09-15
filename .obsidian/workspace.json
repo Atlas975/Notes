@@ -322,7 +322,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataStructures/CacheStructures/LFU.md",
+                "file": "Databases/Query_optimisation.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -502,7 +502,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/CacheStructures/LFU.md"
+                "file": "Databases/Query_optimisation.md"
               }
             }
           }
@@ -537,7 +537,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataStructures/CacheStructures/LFU.md",
+                "file": "Databases/Query_optimisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -554,7 +554,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataStructures/CacheStructures/LFU.md",
+                "file": "Databases/Query_optimisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -632,12 +632,14 @@
   },
   "active": "0ca3e9d25cd30b14",
   "lastOpenFiles": [
-    "DataStructures/CacheStructures/LRU.md",
-    "DataStructures/Abstract_data_types.md",
-    "DataStructures/CacheStructures/LFU.md",
     "Databases/Relational_algebra.md",
+    "Databases/Query_optimisation.md",
     "Databases/Join_handling.md",
     "Databases/Database_sharding.md",
+    "Databases/Database_transactions.md",
+    "DataStructures/CacheStructures/LFU.md",
+    "DataStructures/CacheStructures/LRU.md",
+    "DataStructures/Abstract_data_types.md",
     "Databases/Database_normalisation.md",
     "Databases/Database_keys.md",
     "Databases/Access_routines.md",
@@ -656,8 +658,6 @@
     "MachineLearning/GeneticAlgorithms/Mutation.md",
     "MachineLearning/FeatureEngineering/Normalisation.md",
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
-    "MachineLearning/FeatureEngineering/Batch_normalisation.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
