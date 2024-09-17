@@ -322,7 +322,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Query_optimisation.md",
+                "file": "Databases/Database_normalisation.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -502,7 +502,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Query_optimisation.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           }
@@ -537,7 +537,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Query_optimisation.md",
+                "file": "Databases/Database_normalisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -554,7 +554,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Query_optimisation.md",
+                "file": "Databases/Database_normalisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -632,8 +632,8 @@
   },
   "active": "0ca3e9d25cd30b14",
   "lastOpenFiles": [
-    "Databases/Relational_algebra.md",
     "Databases/Query_optimisation.md",
+    "Databases/Relational_algebra.md",
     "Databases/Join_handling.md",
     "Databases/Database_sharding.md",
     "Databases/Database_transactions.md",
