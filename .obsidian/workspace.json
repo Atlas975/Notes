@@ -322,7 +322,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Databases/Database_storage.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -502,7 +502,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "Databases/Database_storage.md"
               }
             }
           }
@@ -537,7 +537,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Databases/Database_storage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -554,7 +554,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Databases/Database_storage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -632,6 +632,7 @@
   },
   "active": "0ca3e9d25cd30b14",
   "lastOpenFiles": [
+    "Databases/Database_normalisation.md",
     "Databases/Query_optimisation.md",
     "Databases/Relational_algebra.md",
     "Databases/Join_handling.md",
@@ -640,7 +641,6 @@
     "DataStructures/CacheStructures/LFU.md",
     "DataStructures/CacheStructures/LRU.md",
     "DataStructures/Abstract_data_types.md",
-    "Databases/Database_normalisation.md",
     "Databases/Database_keys.md",
     "Databases/Access_routines.md",
     "Databases/Database_systems.md",
