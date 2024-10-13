@@ -322,7 +322,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Relational_algebra.md",
+                "file": "DataStructures/Abstract_data_types.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -502,7 +502,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Relational_algebra.md"
+                "file": "DataStructures/Abstract_data_types.md"
               }
             }
           }
@@ -537,7 +537,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Relational_algebra.md",
+                "file": "DataStructures/Abstract_data_types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -554,7 +554,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Relational_algebra.md",
+                "file": "DataStructures/Abstract_data_types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -632,12 +632,12 @@
   },
   "active": "0ca3e9d25cd30b14",
   "lastOpenFiles": [
+    "Databases/Relational_algebra.md",
     "Databases/Query_optimisation.md",
     "Databases/Database_transactions.md",
     "Databases/Database_relations.md",
     "Databases/Database_storage.md",
     "Databases/Database_normalisation.md",
-    "Databases/Relational_algebra.md",
     "Databases/Join_handling.md",
     "Databases/Database_sharding.md",
     "DataStructures/CacheStructures/LFU.md",
