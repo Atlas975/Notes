@@ -322,7 +322,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Databases/Database_transactions.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -502,7 +502,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "Databases/Database_transactions.md"
               }
             }
           }
@@ -537,7 +537,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Databases/Database_transactions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -554,7 +554,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Databases/Database_transactions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -632,6 +632,7 @@
   },
   "active": "0ca3e9d25cd30b14",
   "lastOpenFiles": [
+    "Databases/Database_normalisation.md",
     "Databases/Database_systems.md",
     "DataStructures/CacheStructures/LFU.md",
     "DataStructures/CacheStructures/LRU.md",
@@ -641,7 +642,6 @@
     "Databases/Database_transactions.md",
     "Databases/Database_relations.md",
     "Databases/Database_storage.md",
-    "Databases/Database_normalisation.md",
     "Databases/Join_handling.md",
     "Databases/Database_sharding.md",
     "Databases/Database_keys.md",
