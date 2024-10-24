@@ -322,7 +322,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
+                "file": "Cybersecurity/Operating_system_security.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -502,7 +502,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md"
+                "file": "Cybersecurity/Operating_system_security.md"
               }
             }
           }
@@ -537,7 +537,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
+                "file": "Cybersecurity/Operating_system_security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -554,7 +554,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
+                "file": "Cybersecurity/Operating_system_security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -632,13 +632,14 @@
   },
   "active": "0ca3e9d25cd30b14",
   "lastOpenFiles": [
+    "Cybersecurity/Keys.md",
+    "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
     "Cybersecurity/EncryptionSchemes/RSA.md",
     "Cybersecurity/PKCS7.md",
     "Cybersecurity/Salt.md",
     "Cybersecurity/Operating_system_security.md",
     "Cybersecurity/Network_security.md",
     "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
-    "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
     "Databases/Join_handling.md",
     "Databases/Database_relations.md",
     "Databases/Database_systems.md",
@@ -657,7 +658,6 @@
     "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
     "MachineLearning/NaturalLanguageProcessing/Skip-gram.md",
     "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
-    "MachineLearning/NaturalLanguageProcessing/Natural_language_processing.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
