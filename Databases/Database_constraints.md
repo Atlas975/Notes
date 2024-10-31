@@ -49,5 +49,6 @@ ___
 ### Foreign key integrity
 - Set of fields in one relation that refer to a row in another relation, acts as a logical pointer, this foreign data must refer to the primary key in another entity 
 - **Referential integrity** is achieved if all foreign key constraints are enforced eg no dangling references to missing data 
+- Foreign keys are able to remove 
 
 ![[Pasted image 20230204193830.png|550|550]]
