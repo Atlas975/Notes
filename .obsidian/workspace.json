@@ -322,7 +322,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_constraints.md",
+                "file": "Databases/Database_normalisation.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -502,7 +502,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_constraints.md"
+                "file": "Databases/Database_normalisation.md"
               }
             }
           }
@@ -537,7 +537,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_constraints.md",
+                "file": "Databases/Database_normalisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -554,7 +554,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_constraints.md",
+                "file": "Databases/Database_normalisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -632,6 +632,9 @@
   },
   "active": "0ca3e9d25cd30b14",
   "lastOpenFiles": [
+    "Databases/Database_keys.md",
+    "Databases/Database_indexing.md",
+    "Databases/Database_constraints.md",
     "Cybersecurity/Network_security.md",
     "Cybersecurity/Hashing.md",
     "Cybersecurity/Operating_system_security.md",
@@ -645,7 +648,6 @@
     "Databases/Database_relations.md",
     "Databases/Database_systems.md",
     "Databases/Relational_algebra.md",
-    "Databases/Database_constraints.md",
     "Databases/Database_transactions.md",
     "Databases/Database_normalisation.md",
     "DataStructures/CacheStructures/LFU.md",
@@ -654,10 +656,8 @@
     "Databases/Query_optimisation.md",
     "Databases/Database_storage.md",
     "Databases/Database_sharding.md",
-    "Databases/Database_keys.md",
     "Databases/Access_routines.md",
     "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
-    "MachineLearning/NaturalLanguageProcessing/Skip-gram.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
