@@ -632,6 +632,8 @@
   },
   "active": "0ca3e9d25cd30b14",
   "lastOpenFiles": [
+    "Databases/Access_routines.md",
+    "Databases/Database_concurrency.md",
     "Databases/Database_normalisation.md",
     "Databases/Database_keys.md",
     "Databases/Database_indexing.md",
@@ -656,8 +658,6 @@
     "Databases/Query_optimisation.md",
     "Databases/Database_storage.md",
     "Databases/Database_sharding.md",
-    "Databases/Access_routines.md",
-    "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
