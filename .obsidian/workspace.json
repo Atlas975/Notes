@@ -322,8 +322,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_normalisation.md",
-                "mode": "preview",
+                "file": "Databases/Database_concurrency.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -502,7 +502,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "Databases/Database_concurrency.md"
               }
             }
           }
@@ -537,7 +537,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Databases/Database_concurrency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -554,7 +554,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "Databases/Database_concurrency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -632,6 +632,7 @@
   },
   "active": "0ca3e9d25cd30b14",
   "lastOpenFiles": [
+    "Databases/Database_normalisation.md",
     "Databases/Database_keys.md",
     "Databases/Database_indexing.md",
     "Databases/Database_constraints.md",
@@ -649,7 +650,6 @@
     "Databases/Database_systems.md",
     "Databases/Relational_algebra.md",
     "Databases/Database_transactions.md",
-    "Databases/Database_normalisation.md",
     "DataStructures/CacheStructures/LFU.md",
     "DataStructures/CacheStructures/LRU.md",
     "DataStructures/Abstract_data_types.md",
