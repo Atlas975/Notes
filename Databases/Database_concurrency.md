@@ -57,7 +57,6 @@ If (Lock(X) == Unlocked)
 ```
 
 ## Unlock
-
 ```
 Switch (Lock(X)) 
     case Writelocked:
