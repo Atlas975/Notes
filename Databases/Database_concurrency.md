@@ -91,3 +91,4 @@ Sell()
 
 ![[Pasted image 20230503123401.png|500|500]]
 - Database may include timeouts on transactions, a transaction with a broken lock cannot be committed due to not having a consistent view of its data
+- Sudo dnf install my camp
