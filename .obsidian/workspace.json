@@ -17,7 +17,9 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "PERT_distribution"
             }
           },
           {
@@ -30,7 +32,9 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Self-attention"
             }
           },
           {
@@ -43,7 +47,9 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Transformer"
             }
           },
           {
@@ -56,7 +62,9 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Multi-headed_attention"
             }
           },
           {
@@ -69,7 +77,9 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Processors"
             }
           },
           {
@@ -82,7 +92,9 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Multi-Process_systems"
             }
           },
           {
@@ -95,7 +107,9 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Computation_graph"
             }
           },
           {
@@ -108,7 +122,9 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "PyTorch"
             }
           },
           {
@@ -121,7 +137,9 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "SQL_Joins"
             }
           },
           {
@@ -134,7 +152,9 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "SQL_language"
             }
           },
           {
@@ -147,7 +167,9 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Join_handling"
             }
           },
           {
@@ -160,7 +182,9 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Gaussian_error_linear_unit"
             }
           },
           {
@@ -173,7 +197,9 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Early_stopping"
             }
           },
           {
@@ -186,7 +212,9 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Regularisation"
             }
           },
           {
@@ -199,7 +227,9 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Dropout_regularisation"
             }
           },
           {
@@ -212,7 +242,9 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Normalisation"
             }
           },
           {
@@ -225,7 +257,9 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Machine_learning_features"
             }
           },
           {
@@ -238,7 +272,9 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Time_series_analysis"
             }
           },
           {
@@ -251,7 +287,9 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Batch_normalisation"
             }
           },
           {
@@ -264,7 +302,9 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Categorical_data_handeling"
             }
           },
           {
@@ -277,7 +317,9 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "B_trees"
             }
           },
           {
@@ -290,7 +332,9 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Pushdown_recogniser"
             }
           },
           {
@@ -303,7 +347,9 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Google_infrastructure"
             }
           },
           {
@@ -313,7 +359,9 @@
               "type": "release-notes",
               "state": {
                 "currentVersion": "1.6.7"
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.6.7"
             }
           },
           {
@@ -326,7 +374,21 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Database_concurrency"
+            }
+          },
+          {
+            "id": "606e3d5150bc3683",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.6"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.6"
             }
           },
           {
@@ -339,7 +401,9 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Ensemble_learning"
             }
           },
           {
@@ -352,7 +416,9 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Gaussian_error_linear_unit"
             }
           },
           {
@@ -365,7 +431,9 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Generative_pre-trained_Transformer"
             }
           },
           {
@@ -378,7 +446,9 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Leaky_rectified_linear_unit"
             }
           },
           {
@@ -391,7 +461,9 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Gaussian_distribution"
             }
           },
           {
@@ -404,7 +476,9 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Leaky_rectified_linear_unit"
             }
           },
           {
@@ -417,7 +491,9 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Rectified_linear_unit"
             }
           },
           {
@@ -430,11 +506,13 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Probability_distributions"
             }
           }
         ],
-        "currentTab": 24
+        "currentTab": 25
       }
     ],
     "direction": "vertical"
@@ -455,7 +533,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -470,7 +550,9 @@
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -478,7 +560,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           },
           {
@@ -486,7 +570,9 @@
             "type": "leaf",
             "state": {
               "type": "tagfolder-view",
-              "state": {}
+              "state": {},
+              "icon": "stacked-levels",
+              "title": "Tag Folder"
             }
           }
         ]
@@ -502,8 +588,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_concurrency.md"
-              }
+                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of PERT_distribution"
             }
           }
         ]
@@ -528,7 +616,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": false
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -537,7 +627,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_concurrency.md",
+                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -545,7 +635,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for PERT_distribution"
             }
           },
           {
@@ -554,10 +646,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_concurrency.md",
+                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from PERT_distribution"
             }
           },
           {
@@ -565,7 +659,9 @@
             "type": "leaf",
             "state": {
               "type": "Saved Queries View",
-              "state": {}
+              "state": {},
+              "icon": "feather-mouse-pointer",
+              "title": "Saved Queries"
             }
           },
           {
@@ -573,7 +669,9 @@
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
-              "state": {}
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
             }
           },
           {
@@ -585,7 +683,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
@@ -593,7 +693,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -601,7 +703,9 @@
             "type": "leaf",
             "state": {
               "type": "markpilot-chat-view",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -630,7 +734,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "0ca3e9d25cd30b14",
+  "active": "606e3d5150bc3683",
   "lastOpenFiles": [
     "Databases/Access_routines.md",
     "Databases/Database_concurrency.md",
