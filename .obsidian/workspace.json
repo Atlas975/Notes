@@ -383,12 +383,15 @@
             "id": "606e3d5150bc3683",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.7.6"
+                "file": "Cybersecurity/PKCS7.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Release Notes 1.7.6"
+              "title": "PKCS7"
             }
           },
           {
@@ -588,10 +591,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md"
+                "file": "Cybersecurity/PKCS7.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of PERT_distribution"
+              "title": "Outline of PKCS7"
             }
           }
         ]
@@ -627,7 +630,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md",
+                "file": "Cybersecurity/PKCS7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -637,7 +640,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for PERT_distribution"
+              "title": "Backlinks for PKCS7"
             }
           },
           {
@@ -646,12 +649,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/ProbabilityDistributions/PERT_distribution.md",
+                "file": "Cybersecurity/PKCS7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from PERT_distribution"
+              "title": "Outgoing links from PKCS7"
             }
           },
           {
