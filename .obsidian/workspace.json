@@ -385,13 +385,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_indexing.md",
-                "mode": "source",
+                "file": "Databases/Database_normalisation.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Database_indexing"
+              "title": "Database_normalisation"
             }
           },
           {
@@ -591,10 +591,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_indexing.md"
+                "file": "Databases/Database_normalisation.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Database_indexing"
+              "title": "Outline of Database_normalisation"
             }
           }
         ]
@@ -630,7 +630,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database_indexing.md",
+                "file": "Databases/Database_normalisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -640,7 +640,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Database_indexing"
+              "title": "Backlinks for Database_normalisation"
             }
           },
           {
@@ -649,12 +649,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database_indexing.md",
+                "file": "Databases/Database_normalisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Database_indexing"
+              "title": "Outgoing links from Database_normalisation"
             }
           },
           {
@@ -739,13 +739,13 @@
   },
   "active": "606e3d5150bc3683",
   "lastOpenFiles": [
+    "Databases/Database_keys.md",
+    "Databases/Database_indexing.md",
     "Cybersecurity/Operating_system_security.md",
     "Cybersecurity/PKCS7.md",
     "Databases/Access_routines.md",
     "Databases/Database_concurrency.md",
     "Databases/Database_normalisation.md",
-    "Databases/Database_keys.md",
-    "Databases/Database_indexing.md",
     "Databases/Database_constraints.md",
     "Cybersecurity/Network_security.md",
     "Cybersecurity/Hashing.md",
