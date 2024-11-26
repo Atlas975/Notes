@@ -395,6 +395,21 @@
             }
           },
           {
+            "id": "b726146a53737c26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ProgramLanguages/SQL/SQL_patterns.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SQL_patterns"
+            }
+          },
+          {
             "id": "db4e8a25f6d01a5d",
             "type": "leaf",
             "state": {
@@ -515,7 +530,7 @@
             }
           }
         ],
-        "currentTab": 25
+        "currentTab": 26
       }
     ],
     "direction": "vertical"
@@ -591,10 +606,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md"
+                "file": "ProgramLanguages/SQL/SQL_patterns.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Database_normalisation"
+              "title": "Outline of SQL_patterns"
             }
           }
         ]
@@ -661,20 +676,20 @@
             "id": "85244c468e1bf2b5",
             "type": "leaf",
             "state": {
-              "type": "Saved Queries View",
+              "type": "empty",
               "state": {},
-              "icon": "feather-mouse-pointer",
-              "title": "Saved Queries"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
             "id": "608fb9c28a7b204a",
             "type": "leaf",
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -710,9 +725,19 @@
               "icon": "lucide-file",
               "title": "Plugin no longer active"
             }
+          },
+          {
+            "id": "c7177f27f6744348",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -737,15 +762,20 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "606e3d5150bc3683",
+  "active": "b726146a53737c26",
   "lastOpenFiles": [
+    "ProgramLanguages/SQL/SQL_views.md",
+    "ProgramLanguages/SQL/SQL_schemas.md",
+    "ProgramLanguages/SQL/SQL_access_control.md",
+    "ProgramLanguages/SQL/SQLversions/SQLite.md",
+    "ProgramLanguages/SQL/SQL_language.md",
+    "Databases/Database_normalisation.md",
     "Databases/Database_keys.md",
     "Databases/Database_indexing.md",
     "Cybersecurity/Operating_system_security.md",
     "Cybersecurity/PKCS7.md",
     "Databases/Access_routines.md",
     "Databases/Database_concurrency.md",
-    "Databases/Database_normalisation.md",
     "Databases/Database_constraints.md",
     "Cybersecurity/Network_security.md",
     "Cybersecurity/Hashing.md",
@@ -760,11 +790,6 @@
     "Databases/Relational_algebra.md",
     "Databases/Database_transactions.md",
     "DataStructures/CacheStructures/LFU.md",
-    "DataStructures/CacheStructures/LRU.md",
-    "DataStructures/Abstract_data_types.md",
-    "Databases/Query_optimisation.md",
-    "Databases/Database_storage.md",
-    "Databases/Database_sharding.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
