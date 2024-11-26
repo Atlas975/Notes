@@ -24,7 +24,7 @@ ___
 
 ```sql
 SELECT *
-from patients
+FROM patients
 WHERE
   first_name LIKE '__r%'
   AND gender = 'F'
