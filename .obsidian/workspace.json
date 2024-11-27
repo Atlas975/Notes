@@ -431,7 +431,7 @@
               "type": "markdown",
               "state": {
                 "file": "ProgramLanguages/SQL/SQL_patterns.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
@@ -446,7 +446,7 @@
               "type": "markdown",
               "state": {
                 "file": "ProgramLanguages/SQL/SQL_language.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
@@ -809,13 +809,13 @@
   },
   "active": "2c8c5c7ef17e58ca",
   "lastOpenFiles": [
-    "ProgramLanguages/SQL/SQL_views.md",
     "ProgramLanguages/SQL/SQL_language.md",
+    "ProgramLanguages/SQL/SQL_patterns.md",
+    "ProgramLanguages/SQL/SQL_views.md",
     "ProgramLanguages/SQL/SQL_relations.md",
     "ProgramLanguages/SQL/SQL_access_control.md",
     "ProgramLanguages/SQL/SQLversions/SQLite.md",
     "ProgramLanguages/SQL/SQL_Joins.md",
-    "ProgramLanguages/SQL/SQL_patterns.md",
     "ProgramLanguages/SQL/SQL_schemas.md",
     "Databases/Database_normalisation.md",
     "Databases/Database_keys.md",
