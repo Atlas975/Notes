@@ -92,7 +92,7 @@ HAVING
 SELECT province_name
 FROM province_names
 ORDER BY
-  province_name = 'Ontario' DESC,
+  province_name = 'Ontario' DESC, // Ontario is always ontop
   province_name ASC
 ```
 
