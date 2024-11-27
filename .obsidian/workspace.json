@@ -575,7 +575,7 @@
             }
           }
         ],
-        "currentTab": 28
+        "currentTab": 26
       }
     ],
     "direction": "vertical"
@@ -651,10 +651,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/SQL/SQL_patterns.md"
+                "file": "ProgramLanguages/SQL/SQL_Joins.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of SQL_patterns"
+              "title": "Outline of SQL_Joins"
             }
           }
         ]
@@ -807,10 +807,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "2c8c5c7ef17e58ca",
+  "active": "b726146a53737c26",
   "lastOpenFiles": [
-    "ProgramLanguages/SQL/SQL_language.md",
     "ProgramLanguages/SQL/SQL_patterns.md",
+    "ProgramLanguages/SQL/SQL_language.md",
     "ProgramLanguages/SQL/SQL_views.md",
     "ProgramLanguages/SQL/SQL_relations.md",
     "ProgramLanguages/SQL/SQL_access_control.md",
