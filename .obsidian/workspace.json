@@ -400,13 +400,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgramLanguages/Java_language.md",
+                "file": "ProgramLanguages/SQL/SQL_relations.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Java_language"
+              "title": "SQL_relations"
             }
           },
           {
@@ -651,10 +651,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgramLanguages/Java_language.md"
+                "file": "ProgramLanguages/SQL/SQL_relations.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Java_language"
+              "title": "Outline of SQL_relations"
             }
           }
         ]
@@ -809,6 +809,7 @@
   },
   "active": "b726146a53737c26",
   "lastOpenFiles": [
+    "ProgramLanguages/Java_language.md",
     "ProgramLanguages/Git.md",
     "ProgramLanguages/SQL/SQL_access_control.md",
     "ProgramLanguages/SQL/SQL_Joins.md",
@@ -834,7 +835,6 @@
     "Cybersecurity/Salt.md",
     "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
     "Databases/Join_handling.md",
-    "Databases/Database_relations.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
