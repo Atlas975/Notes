@@ -400,13 +400,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwareEngineering/Concurrency.md",
+                "file": "ProgramLanguages/Regex.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Concurrency"
+              "title": "Regex"
             }
           },
           {
@@ -651,18 +651,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareEngineering/Concurrency.md"
+                "file": "ProgramLanguages/Regex.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Concurrency"
+              "title": "Outline of Regex"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -810,6 +809,10 @@
   },
   "active": "b726146a53737c26",
   "lastOpenFiles": [
+    "ProgramLanguages/x86_assembly.md",
+    "SoftwareDesign/HCI/HCI_formulas.md",
+    "SoftwareDesign/HCI/Evaluation.md",
+    "SoftwareEngineering/Concurrency.md",
     "SoftwareDesign/BSPL.md",
     "ProgramLanguages/SQL/SQL_relations.md",
     "ProgramLanguages/Java_language.md",
@@ -832,10 +835,6 @@
     "Cybersecurity/Network_security.md",
     "Cybersecurity/Hashing.md",
     "Cybersecurity/Keys.md",
-    "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
-    "Cybersecurity/EncryptionSchemes/RSA.md",
-    "Cybersecurity/Salt.md",
-    "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
