@@ -775,6 +775,26 @@
             "id": "c7177f27f6744348",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "432db6a172d3a3e8",
+            "type": "leaf",
+            "state": {
+              "type": "Saved Queries View",
+              "state": {},
+              "icon": "feather-mouse-pointer",
+              "title": "Saved Queries"
+            }
+          },
+          {
+            "id": "a450d9ffaf7ab646",
+            "type": "leaf",
+            "state": {
               "type": "graph-analysis",
               "state": {},
               "icon": "GA-ICON",
@@ -782,7 +802,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 10
       }
     ],
     "direction": "horizontal",
@@ -807,7 +827,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b726146a53737c26",
+  "active": "a450d9ffaf7ab646",
   "lastOpenFiles": [
     "ProgramLanguages/x86_assembly.md",
     "SoftwareDesign/HCI/HCI_formulas.md",
