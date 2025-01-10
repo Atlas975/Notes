@@ -400,13 +400,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Economics/Producer_theory.md",
+                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Producer_theory"
+              "title": "Just_in_time_compilation"
             }
           },
           {
@@ -651,10 +651,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Economics/Producer_theory.md"
+                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Producer_theory"
+              "title": "Outline of Just_in_time_compilation"
             }
           }
         ]
@@ -829,6 +829,8 @@
   },
   "active": "b726146a53737c26",
   "lastOpenFiles": [
+    "DataStructures/CacheStructures/LFU.md",
+    "Economics/Producer_theory.md",
     "Economics/Growth_models.md",
     "Economics/Econ_fundementals.md",
     "Economics/Banking_systems.md",
@@ -853,8 +855,6 @@
     "Databases/Database_indexing.md",
     "Cybersecurity/Operating_system_security.md",
     "Cybersecurity/PKCS7.md",
-    "Databases/Access_routines.md",
-    "Databases/Database_concurrency.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
