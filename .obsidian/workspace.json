@@ -785,6 +785,26 @@
             "id": "432db6a172d3a3e8",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "a450d9ffaf7ab646",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "2c895a84535d4ee0",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -792,7 +812,7 @@
             }
           },
           {
-            "id": "a450d9ffaf7ab646",
+            "id": "0f09f13997fb8570",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -802,7 +822,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -827,7 +847,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b726146a53737c26",
+  "active": "b279bdfd2daa54f5",
   "lastOpenFiles": [
     "DataStructures/CacheStructures/LFU.md",
     "Economics/Producer_theory.md",
