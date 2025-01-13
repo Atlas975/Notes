@@ -400,13 +400,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
+                "file": "Databases/Database_indexing.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Just_in_time_compilation"
+              "title": "Database_indexing"
             }
           },
           {
@@ -651,10 +651,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md"
+                "file": "Databases/Database_indexing.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Just_in_time_compilation"
+              "title": "Outline of Database_indexing"
             }
           }
         ]
@@ -847,8 +847,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b279bdfd2daa54f5",
+  "active": "b726146a53737c26",
   "lastOpenFiles": [
+    "Languages&Compilation/CompilerConstruction/CompilationTypes/Just_in_time_compilation.md",
     "DataStructures/CacheStructures/LFU.md",
     "Economics/Producer_theory.md",
     "Economics/Growth_models.md",
@@ -874,7 +875,6 @@
     "Databases/Database_keys.md",
     "Databases/Database_indexing.md",
     "Cybersecurity/Operating_system_security.md",
-    "Cybersecurity/PKCS7.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
