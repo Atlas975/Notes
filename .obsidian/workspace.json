@@ -805,10 +805,10 @@
             "id": "2c895a84535d4ee0",
             "type": "leaf",
             "state": {
-              "type": "Saved Queries View",
+              "type": "empty",
               "state": {},
-              "icon": "feather-mouse-pointer",
-              "title": "Saved Queries"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -820,9 +820,19 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "d6219221f120bf83",
+            "type": "leaf",
+            "state": {
+              "type": "Saved Queries View",
+              "state": {},
+              "icon": "feather-mouse-pointer",
+              "title": "Saved Queries"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 13
       }
     ],
     "direction": "horizontal",
@@ -847,7 +857,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b726146a53737c26",
+  "active": "d6219221f120bf83",
   "lastOpenFiles": [
     "DataStructures/B+_trees.md",
     "DataStructures/B_trees.md",
