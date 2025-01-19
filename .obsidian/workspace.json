@@ -400,13 +400,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataStructures/BinaryHeaps.md",
+                "file": "Databases/Database_storage.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BinaryHeaps"
+              "title": "Database_storage"
             }
           },
           {
@@ -651,10 +651,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/BinaryHeaps.md"
+                "file": "Databases/Database_storage.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of BinaryHeaps"
+              "title": "Outline of Database_storage"
             }
           }
         ]
@@ -867,8 +867,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "73062f3136c81e82",
+  "active": "b726146a53737c26",
   "lastOpenFiles": [
+    "Databases/Query_optimisation.md",
+    "DataStructures/BinaryHeaps.md",
     "DataStructures/B+_trees.md",
     "DataStructures/B_trees.md",
     "DataStructures/CacheStructures/LFU.md",
@@ -893,8 +895,6 @@
     "SoftwareDesign/HCI/Evaluation.md",
     "SoftwareEngineering/Concurrency.md",
     "SoftwareDesign/BSPL.md",
-    "ProgramLanguages/SQL/SQL_relations.md",
-    "ProgramLanguages/Java_language.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
