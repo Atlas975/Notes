@@ -400,13 +400,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/FileSystems/File_allocation_schemes.md",
+                "file": "Databases/Database_systems.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "File_allocation_schemes"
+              "title": "Database_systems"
             }
           },
           {
@@ -651,10 +651,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/FileSystems/File_allocation_schemes.md"
+                "file": "Databases/Database_systems.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of File_allocation_schemes"
+              "title": "Outline of Database_systems"
             }
           }
         ]
@@ -869,6 +869,7 @@
   },
   "active": "b726146a53737c26",
   "lastOpenFiles": [
+    "OperatingSystems/FileSystems/File_allocation_schemes.md",
     "Databases/Database_storage.md",
     "Databases/Query_optimisation.md",
     "DataStructures/BinaryHeaps.md",
@@ -894,7 +895,6 @@
     "ProgramLanguages/x86_assembly.md",
     "SoftwareDesign/HCI/HCI_formulas.md",
     "SoftwareDesign/HCI/Evaluation.md",
-    "SoftwareEngineering/Concurrency.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
