@@ -846,6 +846,26 @@
             "id": "2fa1be1b6aba561c",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "8fd8f747c1431b2a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "a80deca2bc3aac82",
+            "type": "leaf",
+            "state": {
               "type": "graph-analysis",
               "state": {},
               "icon": "GA-ICON",
@@ -853,7 +873,7 @@
             }
           },
           {
-            "id": "8fd8f747c1431b2a",
+            "id": "02eefd604728d067",
             "type": "leaf",
             "state": {
               "type": "Saved Queries View",
@@ -863,7 +883,7 @@
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 18
       }
     ],
     "direction": "horizontal",
@@ -888,8 +908,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "8fd8f747c1431b2a",
+  "active": "02eefd604728d067",
   "lastOpenFiles": [
+    "Databases/Database_systems.md",
     "OperatingSystems/FileSystems/File_allocation_schemes.md",
     "Databases/Database_storage.md",
     "Databases/Query_optimisation.md",
@@ -901,7 +922,6 @@
     "DataStructures/CacheStructures/LRU.md",
     "Databases/Relational_algebra.md",
     "Databases/Join_handling.md",
-    "Databases/Database_systems.md",
     "Databases/Database_keys.md",
     "Databases/Database_transactions.md",
     "Databases/Database_sharding.md",
