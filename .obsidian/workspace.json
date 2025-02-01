@@ -315,11 +315,23 @@
               "state": {
                 "file": "Languages&Compilation/Parsing/TopDownParsing/Recursive_descent.md",
                 "mode": "preview",
-                "backlinks": false,
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "Recursive_descent"
+            }
+          },
+          {
+            "id": "f33f108d7747b035",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
             }
           },
           {
@@ -488,7 +500,7 @@
             }
           }
         ],
-        "currentTab": 20
+        "currentTab": 21
       }
     ],
     "direction": "vertical"
@@ -508,7 +520,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -564,7 +577,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Parsing/TopDownParsing/Recursive_descent.md"
+                "file": "Languages&Compilation/Parsing/TopDownParsing/Recursive_descent.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
               "title": "Outline of Recursive_descent"
@@ -798,14 +814,24 @@
             "id": "965bc0fb7d2e3377",
             "type": "leaf",
             "state": {
-              "type": "Saved Queries View",
+              "type": "empty",
               "state": {},
-              "icon": "feather-mouse-pointer",
-              "title": "Saved Queries"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
             "id": "e097f1fadb9c4533",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "fb648285afec131a",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -813,9 +839,19 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "e79676ab45a815bc",
+            "type": "leaf",
+            "state": {
+              "type": "Saved Queries View",
+              "state": {},
+              "icon": "feather-mouse-pointer",
+              "title": "Saved Queries"
+            }
           }
         ],
-        "currentTab": 20
+        "currentTab": 22
       }
     ],
     "direction": "horizontal",
@@ -840,7 +876,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "6c513649b3946dd9",
+  "active": "e79676ab45a815bc",
   "lastOpenFiles": [
     "DataStructures/B_trees.md",
     "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md",
