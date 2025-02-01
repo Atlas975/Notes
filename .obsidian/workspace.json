@@ -326,12 +326,15 @@
             "id": "f33f108d7747b035",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.4"
+                "file": "Databases/Database_keys.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.4"
+              "icon": "lucide-file",
+              "title": "Database_keys"
             }
           },
           {
@@ -577,13 +580,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages&Compilation/Parsing/TopDownParsing/Recursive_descent.md",
+                "file": "Databases/Database_keys.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Recursive_descent"
+              "title": "Outline of Database_keys"
             }
           }
         ]
@@ -876,7 +879,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e79676ab45a815bc",
+  "active": "f33f108d7747b035",
   "lastOpenFiles": [
     "DataStructures/B_trees.md",
     "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md",
