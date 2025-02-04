@@ -857,14 +857,24 @@
             "id": "0d4a77a1c61d823d",
             "type": "leaf",
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
             "id": "d95dfc66cf636db3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "a07b8f5eb8714606",
             "type": "leaf",
             "state": {
               "type": "Saved Queries View",
@@ -872,9 +882,19 @@
               "icon": "feather-mouse-pointer",
               "title": "Saved Queries"
             }
+          },
+          {
+            "id": "4fb699c49cfa7196",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 24
+        "currentTab": 26
       }
     ],
     "direction": "horizontal",
@@ -899,7 +919,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f33f108d7747b035",
+  "active": "4fb699c49cfa7196",
   "lastOpenFiles": [
     "Databases/Database_keys.md",
     "DataStructures/B_trees.md",
