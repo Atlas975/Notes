@@ -38,8 +38,9 @@ ___
 >  123       | John Doe      | `john.doe@domain.com`, `jdoe@ajob.org`     |
 >  456       | Emily Doe      | `jane@domain.com` `jane@anemployer.net` |
 >  789       | Robert Tables | `littlebobbytables@domain.com`                          |
-> Staff email is non-atomic, instead containing multiple comma-delimited entries, cannot easily select distinct employee emails
-> 
+
+- Staff email is non-atomic, instead containing multiple comma-delimited entries, cannot easily select distinct employee emails
+
 > **Solution:**
 > 
 > | ==staff_num== | staff_name    |
