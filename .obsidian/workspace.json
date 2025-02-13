@@ -892,6 +892,26 @@
             "id": "a07b8f5eb8714606",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "4fb699c49cfa7196",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "5ada3af69726e3b6",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -899,7 +919,7 @@
             }
           },
           {
-            "id": "4fb699c49cfa7196",
+            "id": "9dfd3b221dc5f930",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -909,7 +929,7 @@
             }
           }
         ],
-        "currentTab": 26
+        "currentTab": 28
       }
     ],
     "direction": "horizontal",
@@ -934,7 +954,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "c7c2c2a6b22c6b82",
+  "active": "9dfd3b221dc5f930",
   "lastOpenFiles": [
     "Databases/Join_handling.md",
     "MachineLearning/Transformers/Transformer.md",
