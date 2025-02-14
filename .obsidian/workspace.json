@@ -44,7 +44,7 @@
               "type": "markdown",
               "state": {
                 "file": "Databases/Query_optimisation.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -954,7 +954,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "9dfd3b221dc5f930",
+  "active": "c7c2c2a6b22c6b82",
   "lastOpenFiles": [
     "Databases/Join_handling.md",
     "MachineLearning/Transformers/Transformer.md",
