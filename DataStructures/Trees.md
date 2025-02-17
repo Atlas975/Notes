@@ -38,6 +38,9 @@ void move_node(n, m)
 item[] get_children(n)
 
 
+- 
+
+
 ## Self balancing trees
 - Key property is that **reaching any node leaf takes same number of moves**
 - Particularly useful for index based lookup systems
@@ -46,7 +49,6 @@ item[] get_children(n)
 ![[Pasted image 20220318124317.png|450|450]]
 - However distributions of users can still vary creating uneven sizes
 - This can be solves using a self-balancing tree eg a B-tree
-
 
 ## Unbalanced trees
 - Unbalanced trees have a max depth that is not minimised for a given set of keys, this results in the tree  becoming skewed overtime with leaf nodes that are not on the same level
