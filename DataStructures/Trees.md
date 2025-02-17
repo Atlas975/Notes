@@ -36,11 +36,6 @@ assumes a directed graph from parent to children
 void rem_node(n)  
 void move_node(n, m)  
 item[] get_children(n)
-
-
-- 
-
-
 ## Self balancing trees
 - Key property is that **reaching any node leaf takes same number of moves**
 - Particularly useful for index based lookup systems
