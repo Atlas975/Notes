@@ -39,6 +39,7 @@ item[] get_children(n)
 
 
 sudo dnf install omega one that does not revolve around the main culpibale 
+this 
 ## Self balancing trees
 - Key property is that **reaching any node leaf takes same number of moves**
 - Particularly useful for index based lookup systems
