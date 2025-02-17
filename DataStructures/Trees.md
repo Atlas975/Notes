@@ -42,7 +42,7 @@ item[] get_children(n)
 - Key property is that **reaching any node leaf takes same number of moves**
 - Particularly useful for index based lookup systems
 - Example lookup system using first letter of username
- 
+  
 ![[Pasted image 20220318124317.png|450|450]]
 - However distributions of users can still vary creating uneven sizes
 - This can be solves using a self-balancing tree eg a B-tree
