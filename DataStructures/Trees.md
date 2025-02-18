@@ -28,23 +28,24 @@ ___
 - A balanced tree has O(log n) complexity
 
 ## Adjacency matrix representation
-![[Pasted image 20220314123040.png|450|450]]
+![[Pasted image 20220314123040.png|450|450]]  
 assumes a directed graph from parent to children
- 
+
 ## Tree API
 >void add_node(n, m)  
 void rem_node(n)  
 void move_node(n, m)  
 item[] get_children(n)
 
+
 ## Self balancing trees
 - Key property is that **reaching any node leaf takes same number of moves**
 - Particularly useful for index based lookup systems
 - Example lookup system using first letter of username
-  
 ![[Pasted image 20220318124317.png|450|450]]
-- However distributions of users can still vary creating uneven sizes  
+- However distributions of users can still vary creating uneven sizes
 - This can be solves using a self-balancing tree eg a B-tree
+
 
 ## Unbalanced trees
 - Unbalanced trees have a max depth that is not minimised for a given set of keys, this results in the tree  becoming skewed overtime with leaf nodes that are not on the same level
