@@ -43,7 +43,7 @@ item[] get_children(n)
 - Example lookup system using first letter of username
   
 ![[Pasted image 20220318124317.png|450|450]]
-- However distributions of users can still vary creating uneven sizes
+- However distributions of users can still vary creating uneven sizes  
 - This can be solves using a self-balancing tree eg a B-tree
 
 ## Unbalanced trees
