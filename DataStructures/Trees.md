@@ -30,7 +30,7 @@ ___
 ## Adjacency matrix representation
 ![[Pasted image 20220314123040.png|450|450]]
 assumes a directed graph from parent to children
-
+ 
 ## Tree API
 >void add_node(n, m)  
 void rem_node(n)  
