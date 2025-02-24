@@ -71,6 +71,7 @@ ___
 	- **\#records < M * N** : left with large wasted space
 	- **\#records > M * N** : long overflow lists that approach O(n) lookup 
  - Static hashing does not cope well with dynamic files as M may need to be changed, changing hash function incurs large overhead as mapping need to be changed as well
+- 
 ## Dynamic (extendible) hashing 
 - Built to work with dynamic files, allowing for growth or shrinking of co-domain as needed
 - Takes advantage of the hashing trait of always producing an unsigned integer, example of an extensible hashing algorithm:
