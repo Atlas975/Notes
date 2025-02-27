@@ -33,7 +33,7 @@ ___
 ## Hash table size
 - A dataset with a large number of objects requires a long array to minimise collisions, a good hash function needs a wide range of values and an even distribution
 - The size of a hash table can be manipulated by the following:
-
+  
 ![[Pasted image 20220512141645.png|450|450]]
 - Collisions can be dealt with through [[Linked_list_algorithms|linked list]] chains and are typically few in number bringing the function close to its ideal complexity of O(1)
 
