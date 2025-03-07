@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMath/Boolean_algebra.md",
+                "file": "DiscreteMath/De_Morgans_law.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Boolean_algebra"
+              "title": "De_Morgans_law"
             }
           },
           {
@@ -595,13 +595,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMath/Boolean_algebra.md",
+                "file": "DiscreteMath/De_Morgans_law.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Boolean_algebra"
+              "title": "Outline of De_Morgans_law"
             }
           }
         ]
@@ -956,6 +956,8 @@
   },
   "active": "c7c2c2a6b22c6b82",
   "lastOpenFiles": [
+    "DiscreteMath/Functions.md",
+    "DiscreteMath/Boolean_algebra.md",
     "DataStructures/Sets.md",
     "DataStructures/Hash_tables.md",
     "DataStructures/Trees.md",
@@ -980,8 +982,6 @@
     "DataStructures/CacheStructures/LFU.md",
     "DataStructures/Abstract_data_types.md",
     "DataStructures/CacheStructures/LRU.md",
-    "Databases/Relational_algebra.md",
-    "Databases/Database_sharding.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
