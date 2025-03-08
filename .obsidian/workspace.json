@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMath/De_Morgans_law.md",
+                "file": "DataStructures/Trees.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "De_Morgans_law"
+              "title": "Trees"
             }
           },
           {
@@ -610,13 +610,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMath/De_Morgans_law.md",
+                "file": "DataStructures/Trees.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of De_Morgans_law"
+              "title": "Outline of Trees"
             }
           }
         ]
@@ -991,6 +991,7 @@
   },
   "active": "32e92a51c1b1bac7",
   "lastOpenFiles": [
+    "DiscreteMath/De_Morgans_law.md",
     "DataStructures/Segment_trees.md",
     "DataStructures/BinaryHeaps.md",
     "DiscreteMath/Functions.md",
@@ -1016,7 +1017,6 @@
     "DataStructures/B+_trees.md",
     "DataStructures/CacheStructures/LFU.md",
     "DataStructures/Abstract_data_types.md",
-    "DataStructures/CacheStructures/LRU.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
