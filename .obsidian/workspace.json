@@ -53,6 +53,18 @@
             }
           },
           {
+            "id": "32e92a51c1b1bac7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
+          },
+          {
             "id": "f1088ffcd5e08644",
             "type": "leaf",
             "state": {
@@ -518,7 +530,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -595,13 +607,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMath/De_Morgans_law.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of De_Morgans_law"
+              "title": "Outline"
             }
           }
         ]
@@ -912,6 +923,26 @@
             "id": "5ada3af69726e3b6",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "9dfd3b221dc5f930",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "880053e99c5a5e19",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -919,7 +950,7 @@
             }
           },
           {
-            "id": "9dfd3b221dc5f930",
+            "id": "41f21076adcdd2d1",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -929,7 +960,7 @@
             }
           }
         ],
-        "currentTab": 28
+        "currentTab": 30
       }
     ],
     "direction": "horizontal",
@@ -954,7 +985,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "c7c2c2a6b22c6b82",
+  "active": "41f21076adcdd2d1",
   "lastOpenFiles": [
     "DiscreteMath/Functions.md",
     "DiscreteMath/Boolean_algebra.md",
