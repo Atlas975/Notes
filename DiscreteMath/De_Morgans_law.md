@@ -31,6 +31,7 @@ $$\text{The complement of a product is equal to the sum of complement }$$
 ![[Pasted image 20211103113707.png|450|450]]
 
 ## De Morgan's quantifier law
+- This leaves a general
 - Law can be applied in predicate logic to find complement expression
 
 ![[Pasted image 20220425201453.png|450|450]]

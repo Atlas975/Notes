@@ -56,12 +56,15 @@
             "id": "32e92a51c1b1bac7",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.9"
+                "file": "DiscreteMath/De_Morgans_law.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "icon": "lucide-file",
+              "title": "De_Morgans_law"
             }
           },
           {
@@ -607,12 +610,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DiscreteMath/De_Morgans_law.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of De_Morgans_law"
             }
           }
         ]
@@ -985,14 +989,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "41f21076adcdd2d1",
+  "active": "32e92a51c1b1bac7",
   "lastOpenFiles": [
+    "DataStructures/Segment_trees.md",
+    "DataStructures/BinaryHeaps.md",
     "DiscreteMath/Functions.md",
     "DiscreteMath/Boolean_algebra.md",
     "DataStructures/Sets.md",
     "DataStructures/Hash_tables.md",
     "DataStructures/Trees.md",
-    "DataStructures/Segment_trees.md",
     "Databases/Query_optimisation.md",
     "Databases/Join_handling.md",
     "MachineLearning/Transformers/Transformer.md",
@@ -1008,7 +1013,6 @@
     "DistributedSystems/SystemStructure/Google_infrastructure.md",
     "Databases/Database_concurrency.md",
     "OperatingSystems/FileSystems/File_allocation_schemes.md",
-    "DataStructures/BinaryHeaps.md",
     "DataStructures/B+_trees.md",
     "DataStructures/CacheStructures/LFU.md",
     "DataStructures/Abstract_data_types.md",
