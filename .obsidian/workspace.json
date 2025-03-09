@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataStructures/Trees.md",
+                "file": "Databases/Database_relations.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Trees"
+              "title": "Database_relations"
             }
           },
           {
@@ -610,13 +610,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/Trees.md",
+                "file": "Databases/Database_relations.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Trees"
+              "title": "Outline of Database_relations"
             }
           }
         ]
@@ -991,6 +991,8 @@
   },
   "active": "32e92a51c1b1bac7",
   "lastOpenFiles": [
+    "DiscreteMath/Predicate_logic.md",
+    "DataStructures/Trees.md",
     "DiscreteMath/De_Morgans_law.md",
     "DataStructures/Segment_trees.md",
     "DataStructures/BinaryHeaps.md",
@@ -998,7 +1000,6 @@
     "DiscreteMath/Boolean_algebra.md",
     "DataStructures/Sets.md",
     "DataStructures/Hash_tables.md",
-    "DataStructures/Trees.md",
     "Databases/Query_optimisation.md",
     "Databases/Join_handling.md",
     "MachineLearning/Transformers/Transformer.md",
@@ -1016,7 +1017,6 @@
     "OperatingSystems/FileSystems/File_allocation_schemes.md",
     "DataStructures/B+_trees.md",
     "DataStructures/CacheStructures/LFU.md",
-    "DataStructures/Abstract_data_types.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
