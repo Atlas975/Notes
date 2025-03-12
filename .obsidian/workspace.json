@@ -947,6 +947,26 @@
             "id": "880053e99c5a5e19",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "41f21076adcdd2d1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "e5411d7885f91a86",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -954,7 +974,7 @@
             }
           },
           {
-            "id": "41f21076adcdd2d1",
+            "id": "a2b69d699eb8b94d",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -964,7 +984,7 @@
             }
           }
         ],
-        "currentTab": 30
+        "currentTab": 32
       }
     ],
     "direction": "horizontal",
@@ -989,7 +1009,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "32e92a51c1b1bac7",
+  "active": "a2b69d699eb8b94d",
   "lastOpenFiles": [
     "DiscreteMath/Predicate_logic.md",
     "DataStructures/Trees.md",
