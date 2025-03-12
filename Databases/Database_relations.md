@@ -95,7 +95,7 @@ CREATE TABLE passport_details (
 );
 ```
 ### 1:N Relationships
-- Relation S should include the primary key of T as a foreign key
+ - Relation S should include the primary key of T as a foreign key
 - Each entity in relation S is related to at most one relation from T (primary key constraint)
 
 
