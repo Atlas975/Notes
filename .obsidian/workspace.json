@@ -610,13 +610,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_relations.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Database_relations"
+              "title": "Outline"
             }
           }
         ]
@@ -967,6 +966,26 @@
             "id": "e5411d7885f91a86",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "a2b69d699eb8b94d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "fe980d659e7eff47",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -974,7 +993,7 @@
             }
           },
           {
-            "id": "a2b69d699eb8b94d",
+            "id": "b72f1bec3ccf3463",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -984,7 +1003,7 @@
             }
           }
         ],
-        "currentTab": 32
+        "currentTab": 34
       }
     ],
     "direction": "horizontal",
@@ -1009,8 +1028,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a2b69d699eb8b94d",
+  "active": "b72f1bec3ccf3463",
   "lastOpenFiles": [
+    "Databases/Database_relations.md",
     "DiscreteMath/Predicate_logic.md",
     "DataStructures/Trees.md",
     "DiscreteMath/De_Morgans_law.md",
@@ -1036,7 +1056,6 @@
     "Databases/Database_concurrency.md",
     "OperatingSystems/FileSystems/File_allocation_schemes.md",
     "DataStructures/B+_trees.md",
-    "DataStructures/CacheStructures/LFU.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
