@@ -130,3 +130,4 @@ void <statement>()
 ```
 
 - This should be encoded by the grammar rather than the parser, but this assumes that any dangling else belongs to the innermost if
+- Utilising graph theory allows for more refined movement along the
