@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_relations.md",
+                "file": "Languages&Compilation/Parsing/TopDownParsing/Recursive_descent.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Database_relations"
+              "title": "Recursive_descent"
             }
           },
           {
@@ -610,12 +610,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Languages&Compilation/Parsing/TopDownParsing/Recursive_descent.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Recursive_descent"
             }
           }
         ]
@@ -1028,7 +1029,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b72f1bec3ccf3463",
+  "active": "32e92a51c1b1bac7",
   "lastOpenFiles": [
     "Databases/Database_relations.md",
     "DiscreteMath/Predicate_logic.md",
