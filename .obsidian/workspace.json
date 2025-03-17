@@ -988,14 +988,24 @@
             "id": "fe980d659e7eff47",
             "type": "leaf",
             "state": {
-              "type": "Saved Queries View",
+              "type": "empty",
               "state": {},
-              "icon": "feather-mouse-pointer",
-              "title": "Saved Queries"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
             "id": "b72f1bec3ccf3463",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "5953e2893b98df6c",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -1003,9 +1013,19 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "aa19d694fe9cfb54",
+            "type": "leaf",
+            "state": {
+              "type": "Saved Queries View",
+              "state": {},
+              "icon": "feather-mouse-pointer",
+              "title": "Saved Queries"
+            }
           }
         ],
-        "currentTab": 34
+        "currentTab": 36
       }
     ],
     "direction": "horizontal",
@@ -1030,7 +1050,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "32e92a51c1b1bac7",
+  "active": "aa19d694fe9cfb54",
   "lastOpenFiles": [
     "Databases/Database_relations.md",
     "DiscreteMath/Predicate_logic.md",
