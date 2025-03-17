@@ -67,7 +67,7 @@ void acceptTerminal(t):
 
 ### Recursive descent main method
 - The main method used to get parsing started typically takes the following form:
-
+- LL(1
 ```
 get first token from lexical analyser into nextSymbol
 <program>() # or whatever the distinguished symbol is 
