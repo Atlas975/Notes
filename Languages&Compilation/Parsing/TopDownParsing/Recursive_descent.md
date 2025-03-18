@@ -74,7 +74,6 @@ acceptTerminal (eofSymbol) # used to ensure there are no unprocessed tokens
 report success
 ```
 
-
 ## Left factoring
 - When dealing with grammar rules with multiple alternatives, LL(1) lookahead is used to determine what to do next. 
 - This means the **FIRST** set of all alternatives (a | b | c) must be disjoint to avoid ambiguity
