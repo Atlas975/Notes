@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_storage.md",
-                "mode": "preview",
+                "file": "DataStructures/B_trees.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Database_storage"
+              "title": "B_trees"
             }
           },
           {
@@ -610,13 +610,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_storage.md",
+                "file": "DataStructures/B_trees.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Database_storage"
+              "title": "Outline of B_trees"
             }
           }
         ]
@@ -1051,6 +1051,8 @@
   },
   "active": "32e92a51c1b1bac7",
   "lastOpenFiles": [
+    "DataStructures/CacheStructures/LRU.md",
+    "Databases/Database_storage.md",
     "Databases/Query_optimisation.md",
     "Languages&Compilation/Parsing/TopDownParsing/Recursive_descent.md",
     "Databases/Database_relations.md",
@@ -1068,7 +1070,6 @@
     "Databases/Database_normalisation.md",
     "MachineLearning/FeatureEngineering/Normalisation.md",
     "Databases/Database_transactions.md",
-    "Databases/Database_storage.md",
     "Databases/Database_indexing.md",
     "Databases/Database_systems.md",
     "Databases/Database_keys.md",
@@ -1076,7 +1077,6 @@
     "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md",
     "DistributedSystems/SystemStructure/Google_infrastructure.md",
     "Databases/Database_concurrency.md",
-    "OperatingSystems/FileSystems/File_allocation_schemes.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
