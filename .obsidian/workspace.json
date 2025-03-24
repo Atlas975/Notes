@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataStructures/B_trees.md",
+                "file": "DataStructures/Graphs.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "B_trees"
+              "title": "Graphs"
             }
           },
           {
@@ -610,13 +610,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/B_trees.md",
+                "file": "DataStructures/Graphs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of B_trees"
+              "title": "Outline of Graphs"
             }
           }
         ]
@@ -1051,6 +1051,7 @@
   },
   "active": "32e92a51c1b1bac7",
   "lastOpenFiles": [
+    "DataStructures/B_trees.md",
     "DataStructures/CacheStructures/LRU.md",
     "Databases/Database_storage.md",
     "Databases/Query_optimisation.md",
@@ -1073,7 +1074,6 @@
     "Databases/Database_indexing.md",
     "Databases/Database_systems.md",
     "Databases/Database_keys.md",
-    "DataStructures/B_trees.md",
     "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md",
     "DistributedSystems/SystemStructure/Google_infrastructure.md",
     "Databases/Database_concurrency.md",
