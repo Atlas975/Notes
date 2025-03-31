@@ -610,13 +610,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/Graphs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Graphs"
+              "title": "Outline"
             }
           }
         ]
@@ -1037,10 +1036,10 @@
             "id": "b7cdf09f5fea2c66",
             "type": "leaf",
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -1052,9 +1051,19 @@
               "icon": "feather-mouse-pointer",
               "title": "Saved Queries"
             }
+          },
+          {
+            "id": "856b6cdb71de2b90",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 39
+        "currentTab": 40
       }
     ],
     "direction": "horizontal",
@@ -1079,8 +1088,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7cd1c4e2f511e20b",
+  "active": "856b6cdb71de2b90",
   "lastOpenFiles": [
+    "DataStructures/Graphs.md",
     "DataStructures/B_trees.md",
     "DataStructures/CacheStructures/LRU.md",
     "Databases/Database_storage.md",
@@ -1106,7 +1116,6 @@
     "Databases/Database_keys.md",
     "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md",
     "DistributedSystems/SystemStructure/Google_infrastructure.md",
-    "Databases/Database_concurrency.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
