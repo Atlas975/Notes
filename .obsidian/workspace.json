@@ -1046,6 +1046,26 @@
             "id": "7cd1c4e2f511e20b",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "856b6cdb71de2b90",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "2d08dd7caef5bfc8",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -1053,7 +1073,7 @@
             }
           },
           {
-            "id": "856b6cdb71de2b90",
+            "id": "3e63fc1e11589b82",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -1063,7 +1083,7 @@
             }
           }
         ],
-        "currentTab": 40
+        "currentTab": 42
       }
     ],
     "direction": "horizontal",
@@ -1088,7 +1108,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "856b6cdb71de2b90",
+  "active": "3e63fc1e11589b82",
   "lastOpenFiles": [
     "DataStructures/Graphs.md",
     "DataStructures/B_trees.md",
