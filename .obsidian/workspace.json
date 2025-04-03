@@ -59,7 +59,7 @@
               "type": "markdown",
               "state": {
                 "file": "DataStructures/Graphs.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -610,12 +610,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DataStructures/Graphs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Graphs"
             }
           }
         ]
@@ -1108,7 +1109,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "3e63fc1e11589b82",
+  "active": "32e92a51c1b1bac7",
   "lastOpenFiles": [
     "DataStructures/Graphs.md",
     "DataStructures/B_trees.md",
