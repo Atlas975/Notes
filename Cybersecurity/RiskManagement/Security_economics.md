@@ -22,7 +22,7 @@ ___
 - This makes [[Network_security|network security]] a shared interest akin to avoiding air pollution. On a smaller scale internet providers may be responsible but on a larger scale this may fall under national security
 
 ## Marginal cost incentive
-- Information has a high fixed cost and a marginal cost of 0, this is what result's in so much free information being readily available. This leaves no opportunity to undercut competitors 
+- Information has a high fixed cost and a marginal cost of 0, this is what result's in so much free information being re adily available. This leaves no opportunity to undercut competitors 
 - With software, technical lock in becomes a valuable incentive, where the cost of switching to free software is higher than the cost of a paid software licence  
 
 ## Information asymmetry
