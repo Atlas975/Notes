@@ -25,8 +25,7 @@ ___
 - Information has a high fixed cost and a marginal cost of 0, this is what result's in so much free information being re adily available. This leaves no opportunity to undercut competitors 
 - With software, technical lock in becomes a valuable incentive, where the cost of switching to free software is higher than the cost of a paid software licence  
  
-## Information asymmetry
-- The phenomena where low quality products drive out high quality ones due to buyers not being able to tell the difference. This leads to cheap low-quality products dominating the market 
+## Information asymmetry - The phenomena where low quality products drive out high quality ones due to buyers not being able to tell the difference. This leads to cheap low-quality products dominating the market 
 - This often applies to security with poor security products racing to the bottom in price 
 ## System reliability
 - System reliability can stem from any of the 3 following categories:
