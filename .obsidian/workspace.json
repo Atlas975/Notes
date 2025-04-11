@@ -1107,6 +1107,26 @@
             "id": "c96b98c4468a3a48",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "fed476564622623d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "b57926ab3df3dd1e",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -1114,7 +1134,7 @@
             }
           },
           {
-            "id": "fed476564622623d",
+            "id": "0c4349da8472c3eb",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -1124,7 +1144,7 @@
             }
           }
         ],
-        "currentTab": 46
+        "currentTab": 48
       }
     ],
     "direction": "horizontal",
@@ -1149,7 +1169,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "32e92a51c1b1bac7",
+  "active": "0c4349da8472c3eb",
   "lastOpenFiles": [
     "Cybersecurity/RiskManagement/Access_controls.md",
     "Cybersecurity/PKCS7.md",
