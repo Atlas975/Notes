@@ -94,3 +94,4 @@ Reciever:
 - If a  `yes` response isn't heard back from all nodes a `global abort` is sent to halt commit
 - The coordinator acts as a single point of failure, this can cause issues with receivers stalling if a crash happens mid-decision. Fault tolerance can be handled by writing to persistent [[Computer_memory|memory]]
 
+- this is a complete 
