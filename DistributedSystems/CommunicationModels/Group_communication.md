@@ -72,7 +72,7 @@ ___
 fn send(msg)
     for each node in group:
         reliable_multicast_send(msg, node)
-
+ 
 Sender: 
     send(msg)
 
