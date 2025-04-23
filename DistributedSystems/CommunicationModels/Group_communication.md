@@ -53,7 +53,7 @@ ___
 
 ### NACK suppression
 - Helps avoid "NACK explosions". Message retransmission is done to all receivers in this setup
-- When a receiver notices it's sequence number is behind, a NACK is also sent to all other receivers, allowing them to suppress any duplicate requests to the sender
+- When a receiver notices it's sequence number is behind, a NACK is also sent to all other receivers, allowing them to sup press any duplicate requests to the sender
 
 ![[Pasted image 20240509150305.png|350|350]]
 
