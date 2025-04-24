@@ -1,4 +1,4 @@
-# Mini batch gradient descent 
+  # Mini batch gradient descent 
 - Allows for faster gradient descent to occur by creating smaller batches, removing the need to go through the whole dataset to perform a single step
 ![[Pasted image 20220408134430.png|450|450]]
 >t indicates batch numbers
