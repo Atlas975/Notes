@@ -113,6 +113,18 @@
             }
           },
           {
+            "id": "9e6bb9ee4ae05952",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
+          },
+          {
             "id": "f1088ffcd5e08644",
             "type": "leaf",
             "state": {
@@ -578,7 +590,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -655,13 +667,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/0-Legacy/0-GeneralConcepts/GradientDescent/Mini_batch_descent.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Mini_batch_descent"
+              "title": "Outline"
             }
           }
         ]
@@ -1192,6 +1203,26 @@
             "id": "966036b530b9038d",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "5103224479faf3a0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "25be7f5fcd5eec8f",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -1199,7 +1230,7 @@
             }
           },
           {
-            "id": "5103224479faf3a0",
+            "id": "3bc9c2889824b70e",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -1209,7 +1240,7 @@
             }
           }
         ],
-        "currentTab": 50
+        "currentTab": 52
       }
     ],
     "direction": "horizontal",
@@ -1234,7 +1265,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "31820ed7113c753a",
+  "active": "3bc9c2889824b70e",
   "lastOpenFiles": [
     "MachineLearning/0-Legacy/0-GeneralConcepts/ArgMax&SoftMax.md",
     "MachineLearning/0-Legacy/0-CoursesPart2/DeepLearningCourse/Normalizing_features.md",
