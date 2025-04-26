@@ -1106,6 +1106,26 @@
             "id": "25be7f5fcd5eec8f",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "3bc9c2889824b70e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "266df4ba0dcec09c",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -1113,7 +1133,7 @@
             }
           },
           {
-            "id": "3bc9c2889824b70e",
+            "id": "c67caa4374a64605",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -1123,7 +1143,7 @@
             }
           }
         ],
-        "currentTab": 52
+        "currentTab": 54
       }
     ],
     "direction": "horizontal",
@@ -1148,7 +1168,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f1088ffcd5e08644",
+  "active": "c67caa4374a64605",
   "lastOpenFiles": [
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
     "MachineLearning/Transformers/Self-attention.md",
