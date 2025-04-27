@@ -1136,10 +1136,10 @@
             "id": "c67caa4374a64605",
             "type": "leaf",
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -1151,9 +1151,19 @@
               "icon": "feather-mouse-pointer",
               "title": "Saved Queries"
             }
+          },
+          {
+            "id": "34c42ba8761148f3",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 55
+        "currentTab": 56
       }
     ],
     "direction": "horizontal",
@@ -1178,7 +1188,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7bea7372f2745117",
+  "active": "34c42ba8761148f3",
   "lastOpenFiles": [
     "MachineLearning/Transformers/Generative_pre-trained_Transformer.md",
     "MachineLearning/Regression/Linear_regression.md",
