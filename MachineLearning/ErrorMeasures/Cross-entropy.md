@@ -16,7 +16,7 @@ ___
 
 $$-\sum y_{i}\cdot \ln(\hat{y_{i}})$$
 
-$$y=\text{true label (0/1), will only be 1 for the correct class }i $$
+$$y=\text{t rue label (0/1), will only be 1 for the correct class }i $$
 $$\hat{y}=\text{predicted probability that observation }i \text{ is that class}$$
 
 ![[Pasted image 20240418154821.png|500|500]]
