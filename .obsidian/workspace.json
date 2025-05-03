@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Regression/Logistic_regression.md",
-                "mode": "preview",
+                "file": "MachineLearning/Regression/Linear_regression.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Logistic_regression"
+              "title": "Linear_regression"
             }
           },
           {
@@ -549,13 +549,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Regression/Logistic_regression.md",
+                "file": "MachineLearning/Regression/Linear_regression.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Logistic_regression"
+              "title": "Outline of Linear_regression"
             }
           }
         ]
@@ -1190,6 +1190,7 @@
   },
   "active": "f1088ffcd5e08644",
   "lastOpenFiles": [
+    "MachineLearning/Regression/Logistic_regression.md",
     "MachineLearning/Regression/Synergy_effect.md",
     "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
     "MachineLearning/NaturalLanguageProcessing/Natural_language_processing.md",
@@ -1215,7 +1216,6 @@
     "MachineLearning/Transformers/Multi-headed_attention.md",
     "MachineLearning/Transformers/Self-attention.md",
     "Statistics/ProbabilityDistributions/PERT_distribution.md",
-    "DiscreteMath/De_Morgans_law.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
