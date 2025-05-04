@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Regression/Linear_regression.md",
+                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Linear_regression"
+              "title": "Word_embedding"
             }
           },
           {
@@ -549,13 +549,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Regression/Linear_regression.md",
+                "file": "MachineLearning/NaturalLanguageProcessing/Word_embedding.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Linear_regression"
+              "title": "Outline of Word_embedding"
             }
           }
         ]
@@ -1190,9 +1190,10 @@
   },
   "active": "f1088ffcd5e08644",
   "lastOpenFiles": [
+    "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
+    "MachineLearning/Regression/Linear_regression.md",
     "MachineLearning/Regression/Logistic_regression.md",
     "MachineLearning/Regression/Synergy_effect.md",
-    "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
     "MachineLearning/NaturalLanguageProcessing/Natural_language_processing.md",
     "MachineLearning/GeneticAlgorithms/Genetic_encoding.md",
     "MachineLearning/GeneticAlgorithms/Crossover.md",
@@ -1210,7 +1211,6 @@
     "Cybersecurity/RiskManagement/Quantitative_privacy.md",
     "MachineLearning/TreeModels/Decision_trees.md",
     "MachineLearning/Transformers/Generative_pre-trained_Transformer.md",
-    "MachineLearning/Regression/Linear_regression.md",
     "MachineLearning/Regression/Leverage_statistic.md",
     "MachineLearning/Transformers/Transformer.md",
     "MachineLearning/Transformers/Multi-headed_attention.md",
