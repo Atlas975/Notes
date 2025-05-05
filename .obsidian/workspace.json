@@ -1146,6 +1146,26 @@
             "id": "7bea7372f2745117",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "34c42ba8761148f3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "aa3a690ece72495c",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -1153,7 +1173,7 @@
             }
           },
           {
-            "id": "34c42ba8761148f3",
+            "id": "9e2122eb73b1fdaf",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -1163,7 +1183,7 @@
             }
           }
         ],
-        "currentTab": 56
+        "currentTab": 58
       }
     ],
     "direction": "horizontal",
@@ -1188,7 +1208,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f1088ffcd5e08644",
+  "active": "9e2122eb73b1fdaf",
   "lastOpenFiles": [
     "MachineLearning/NaturalLanguageProcessing/Positional_encoding.md",
     "MachineLearning/Regression/Linear_regression.md",
