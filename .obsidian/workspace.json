@@ -1166,14 +1166,24 @@
             "id": "aa3a690ece72495c",
             "type": "leaf",
             "state": {
-              "type": "Saved Queries View",
+              "type": "empty",
               "state": {},
-              "icon": "feather-mouse-pointer",
-              "title": "Saved Queries"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
             "id": "9e2122eb73b1fdaf",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "c63b061ff67ab671",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -1181,9 +1191,19 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "d4b6f5b7437f3c56",
+            "type": "leaf",
+            "state": {
+              "type": "Saved Queries View",
+              "state": {},
+              "icon": "feather-mouse-pointer",
+              "title": "Saved Queries"
+            }
           }
         ],
-        "currentTab": 58
+        "currentTab": 60
       }
     ],
     "direction": "horizontal",
@@ -1208,7 +1228,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f1088ffcd5e08644",
+  "active": "d4b6f5b7437f3c56",
   "lastOpenFiles": [
     "Databases/Relational_algebra.md",
     "Databases/Database_systems.md",
