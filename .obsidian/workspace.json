@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataStructures/CacheStructures/LRU.md",
+                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Language_translator.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "LRU"
+              "title": "Language_translator"
             }
           },
           {
@@ -549,13 +549,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructures/CacheStructures/LRU.md",
+                "file": "Languages&Compilation/CompilerConstruction/Synthesis/Language_translator.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of LRU"
+              "title": "Outline of Language_translator"
             }
           }
         ]
@@ -1230,6 +1230,9 @@
   },
   "active": "f1088ffcd5e08644",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
+    "DataStructures/Radix_trees.md",
+    "DataStructures/CacheStructures/LRU.md",
     "Databases/Query_optimisation.md",
     "Databases/Database_systems.md",
     "Databases/Database_normalisation.md",
@@ -1253,9 +1256,6 @@
     "MachineLearning/Clustering/Hierarchal_clustering.md",
     "Cybersecurity/RiskManagement/Risk_management.md",
     "Cybersecurity/RiskManagement/Access_controls.md",
-    "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
-    "Cybersecurity/RiskManagement/Security_models.md",
-    "Cybersecurity/RiskManagement/Quantitative_privacy.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
