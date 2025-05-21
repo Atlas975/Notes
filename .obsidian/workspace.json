@@ -1216,10 +1216,10 @@
             "id": "207a734b4adb7551",
             "type": "leaf",
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -1231,9 +1231,19 @@
               "icon": "feather-mouse-pointer",
               "title": "Saved Queries"
             }
+          },
+          {
+            "id": "42f604b49370e94c",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 63
+        "currentTab": 64
       }
     ],
     "direction": "horizontal",
@@ -1258,7 +1268,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "fe212a28278b4acd",
+  "active": "42f604b49370e94c",
   "lastOpenFiles": [
     "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/SystemStructure/Google_infrastructure.md",
