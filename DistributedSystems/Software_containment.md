@@ -33,7 +33,7 @@ ___
 
 - The use of this allows for proper management of shared hardware resources, these resources should be fully utilised as long as there's work to do 
 - For VMware this requires intercepting privileged instructions and rewriting them so that they target virtual representations of the instructions effect
-
+- The overtime contrigency allows for more than what makes 
 ## Virtualisation at scale 
 - In a data centre, a hypervisor typically runs directly on computer hardware rather than sitting atop a host OS. This is much more efficient by removing a layer of indirection
 - The hypervisor in this case directly communicates with hardware using it's own kernel and manages the allocation of memory

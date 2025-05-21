@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/Software_containment.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -562,7 +562,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -1268,7 +1269,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "42f604b49370e94c",
+  "active": "f1088ffcd5e08644",
   "lastOpenFiles": [
     "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/SystemStructure/Google_infrastructure.md",
