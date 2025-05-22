@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Software_containment.md",
-                "mode": "preview",
+                "file": "Cybersecurity/RiskManagement/Security_principles.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Software_containment"
+              "title": "Security_principles"
             }
           },
           {
@@ -549,21 +549,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Software_containment.md",
+                "file": "Cybersecurity/RiskManagement/Security_principles.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Software_containment"
+              "title": "Outline of Security_principles"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -1289,8 +1288,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "6c0b16b18121fc40",
+  "active": "f1088ffcd5e08644",
   "lastOpenFiles": [
+    "DistributedSystems/Software_containment.md",
     "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/SystemStructure/Google_infrastructure.md",
     "Cybersecurity/Keys.md",
@@ -1316,7 +1316,6 @@
     "MachineLearning/Regression/Linear_regression.md",
     "MachineLearning/Regression/Logistic_regression.md",
     "MachineLearning/Regression/Synergy_effect.md",
-    "MachineLearning/NaturalLanguageProcessing/Natural_language_processing.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",

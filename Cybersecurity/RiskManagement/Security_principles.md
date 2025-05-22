@@ -41,7 +41,6 @@ ___
 ## Usability 
 - Security mechanisms should be easy to use for both users and developers
 - Mechanisms should always be designed with these end users in mind
-
 ## Attacks and controls 
 - An attack on a system involves the exploitation of a vulnerability 
-- Controls are protective measures designed to contain a vulnerability 
+- Controls are protective measures designed to contain a vulnerability
