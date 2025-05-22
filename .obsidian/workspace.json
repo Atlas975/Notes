@@ -1227,6 +1227,26 @@
             "id": "fe212a28278b4acd",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "42f604b49370e94c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "9fda4ab2c3bfaacf",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -1234,7 +1254,7 @@
             }
           },
           {
-            "id": "42f604b49370e94c",
+            "id": "6c0b16b18121fc40",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -1244,7 +1264,7 @@
             }
           }
         ],
-        "currentTab": 64
+        "currentTab": 66
       }
     ],
     "direction": "horizontal",
@@ -1269,7 +1289,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f1088ffcd5e08644",
+  "active": "6c0b16b18121fc40",
   "lastOpenFiles": [
     "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/SystemStructure/Google_infrastructure.md",
