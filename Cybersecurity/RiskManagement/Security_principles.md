@@ -34,7 +34,6 @@ ___
 ## Complete mediation
 - Every object access must be checked for authority 
 - This requires object access be monitored with control mechanisms being unbypassable 
-
 ## No single point of failure 
 - Build redundant security mechanism, security should not rely on a single mechanism 
 - Prevents single points of failure AKA defence in depth
