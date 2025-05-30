@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Security_models.md",
+                "file": "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Security_models"
+              "title": "Annualised_loss_expectancy"
             }
           },
           {
@@ -549,21 +549,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Security_models.md",
+                "file": "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Security_models"
+              "title": "Outline of Annualised_loss_expectancy"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -1311,6 +1310,7 @@
   },
   "active": "f1088ffcd5e08644",
   "lastOpenFiles": [
+    "Cybersecurity/RiskManagement/Security_models.md",
     "Cybersecurity/RiskManagement/Risk_management.md",
     "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
     "Cybersecurity/RiskManagement/Quantitative_privacy.md",
@@ -1320,7 +1320,6 @@
     "DistributedSystems/Software_containment.md",
     "DistributedSystems/Distributed_system_security.md",
     "DistributedSystems/SystemStructure/Google_infrastructure.md",
-    "Cybersecurity/RiskManagement/Security_models.md",
     "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md",
     "Languages&Compilation/FiniteAutomata/Subset_construction_algorithm.md",
     "Languages&Compilation/Computability/Chomsky_hierarchy.md",
