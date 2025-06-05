@@ -1266,6 +1266,26 @@
             "id": "1fc284b964bfa6aa",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "b1fd6f2d1151e817",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "7d56e0ad9a45fd57",
+            "type": "leaf",
+            "state": {
               "type": "graph-analysis",
               "state": {},
               "icon": "GA-ICON",
@@ -1273,7 +1293,7 @@
             }
           },
           {
-            "id": "b1fd6f2d1151e817",
+            "id": "241fe73c07d0a76e",
             "type": "leaf",
             "state": {
               "type": "Saved Queries View",
@@ -1283,7 +1303,7 @@
             }
           }
         ],
-        "currentTab": 68
+        "currentTab": 70
       }
     ],
     "direction": "horizontal",
@@ -1308,7 +1328,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f1088ffcd5e08644",
+  "active": "241fe73c07d0a76e",
   "lastOpenFiles": [
     "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
     "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
