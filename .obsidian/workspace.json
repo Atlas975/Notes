@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
+                "file": "Cybersecurity/RiskManagement/Security_models.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Vulnerability_analysis"
+              "title": "Security_models"
             }
           },
           {
@@ -549,13 +549,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
+                "file": "Cybersecurity/RiskManagement/Security_models.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Vulnerability_analysis"
+              "title": "Outline of Security_models"
             }
           }
         ]
@@ -1330,6 +1330,7 @@
   },
   "active": "f1088ffcd5e08644",
   "lastOpenFiles": [
+    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
     "Cybersecurity/RiskManagement/Access_controls.md",
     "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
     "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
@@ -1337,7 +1338,6 @@
     "Cybersecurity/RiskManagement/Security_principles.md",
     "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
     "Cybersecurity/RiskManagement/Security_models.md",
-    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
     "Cybersecurity/RiskManagement/Quantitative_privacy.md",
     "Cybersecurity/Keys.md",
     "Cybersecurity/RiskManagement/Security_economics.md",
