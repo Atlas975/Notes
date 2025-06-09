@@ -15,7 +15,7 @@ ___
 - Multiple algorithms exist in order to perform these faster when working on: 
 $$R\Join_{A=B}S$$
 $$A \text{ and } B =\text{join attributes}$$
-## J1: Nested loop join
+## J1: Nested loop join 
 - Default brute force algorithm that iterates over all records 
 -  Used when no [[Access_routines|access path]] is available on either file 
 ```python

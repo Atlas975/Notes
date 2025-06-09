@@ -1181,6 +1181,26 @@
             "id": "7d56e0ad9a45fd57",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "241fe73c07d0a76e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "812f902cd5c09dcc",
+            "type": "leaf",
+            "state": {
               "type": "graph-analysis",
               "state": {},
               "icon": "GA-ICON",
@@ -1188,7 +1208,7 @@
             }
           },
           {
-            "id": "241fe73c07d0a76e",
+            "id": "4c30b2b400260c9e",
             "type": "leaf",
             "state": {
               "type": "Saved Queries View",
@@ -1198,7 +1218,7 @@
             }
           }
         ],
-        "currentTab": 70
+        "currentTab": 72
       }
     ],
     "direction": "horizontal",
@@ -1223,7 +1243,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b2068cf560c14991",
+  "active": "4c30b2b400260c9e",
   "lastOpenFiles": [
     "ProgramLanguages/SQL/SQL_language.md",
     "ProgramLanguages/SQL/SQL_Joins.md",
