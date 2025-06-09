@@ -8,111 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f1088ffcd5e08644",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cybersecurity/RiskManagement/Security_models.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Security_models"
-            }
-          },
-          {
-            "id": "0a5ce5f8f704e29d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/Processors.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Processors"
-            }
-          },
-          {
-            "id": "de7f6160e4fdde5d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/Multi-Process_systems.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Multi-Process_systems"
-            }
-          },
-          {
-            "id": "b4ede059a2f57f40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/0-Legacy/0-GeneralConcepts/Computation_graph.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Computation_graph"
-            }
-          },
-          {
-            "id": "695d05d315acc9c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/PyTorch/PyTorch.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PyTorch"
-            }
-          },
-          {
-            "id": "766487c26d31a404",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/SQL/SQL_Joins.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SQL_Joins"
-            }
-          },
-          {
-            "id": "541ca6b58c43b0c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ProgramLanguages/SQL/SQL_language.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SQL_language"
-            }
-          },
-          {
             "id": "b2068cf560c14991",
             "type": "leaf",
             "state": {
@@ -120,8 +15,8 @@
               "state": {
                 "file": "Databases/Join_handling.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "Join_handling"
@@ -549,13 +444,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Security_models.md",
+                "file": "Databases/Join_handling.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Security_models"
+              "title": "Outline of Join_handling"
             }
           }
         ]
@@ -1328,8 +1223,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f1088ffcd5e08644",
+  "active": "b2068cf560c14991",
   "lastOpenFiles": [
+    "ProgramLanguages/SQL/SQL_language.md",
+    "ProgramLanguages/SQL/SQL_Joins.md",
+    "MachineLearning/PyTorch/PyTorch.md",
+    "MachineLearning/0-Legacy/0-GeneralConcepts/Computation_graph.md",
+    "OperatingSystems/Multi-Process_systems.md",
+    "OperatingSystems/Processors.md",
+    "Cybersecurity/RiskManagement/Security_models.md",
     "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
     "Cybersecurity/RiskManagement/Access_controls.md",
     "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
@@ -1337,7 +1239,6 @@
     "Cybersecurity/RiskManagement/Risk_management.md",
     "Cybersecurity/RiskManagement/Security_principles.md",
     "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
-    "Cybersecurity/RiskManagement/Security_models.md",
     "Cybersecurity/RiskManagement/Quantitative_privacy.md",
     "Cybersecurity/Keys.md",
     "Cybersecurity/RiskManagement/Security_economics.md",
@@ -1350,12 +1251,6 @@
     "Languages&Compilation/FiniteAutomata/Regular_expression_FSM.md",
     "Languages&Compilation/CompilerConstruction/Synthesis/Language_translator.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
-    "DataStructures/Radix_trees.md",
-    "DataStructures/CacheStructures/LRU.md",
-    "Databases/Query_optimisation.md",
-    "Databases/Database_systems.md",
-    "Databases/Database_normalisation.md",
-    "Databases/Relational_algebra.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
