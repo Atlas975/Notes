@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+                "file": "Cybersecurity/RiskManagement/Risk_management.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Softmax"
+              "title": "Risk_management"
             }
           },
           {
@@ -444,13 +444,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
+                "file": "Cybersecurity/RiskManagement/Risk_management.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Softmax"
+              "title": "Outline of Risk_management"
             }
           }
         ]
@@ -1245,6 +1245,7 @@
   },
   "active": "b2068cf560c14991",
   "lastOpenFiles": [
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
     "Databases/Join_handling.md",
     "ProgramLanguages/SQL/SQL_language.md",
     "ProgramLanguages/SQL/SQL_Joins.md",
@@ -1270,7 +1271,6 @@
     "Languages&Compilation/FiniteAutomata/Subset_construction_algorithm.md",
     "Languages&Compilation/Computability/Chomsky_hierarchy.md",
     "Languages&Compilation/FiniteAutomata/Regular_expression_FSM.md",
-    "Languages&Compilation/CompilerConstruction/Synthesis/Language_translator.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
