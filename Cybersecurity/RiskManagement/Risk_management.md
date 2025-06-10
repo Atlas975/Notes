@@ -42,7 +42,7 @@ ___
 ## Risk handling strategies
 - Approaches that organisations and individuals use to manage and mitigate risks
 - Each strategy has its own approach / application depending on the nature / impact of the risk.
-
+ 
 ### Risk avoidance 
 - Involves eliminating the risk by not engaging in the activity that introduces the risk.
 - This strategy is used when the risk has a high probability of occurrence and a high impact, making the cost of the risk too great to accept or mitigate.
