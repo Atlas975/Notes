@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Risk_management.md",
+                "file": "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Risk_management"
+              "title": "Cyber_threat_analysis"
             }
           },
           {
@@ -444,13 +444,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Risk_management.md",
+                "file": "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Risk_management"
+              "title": "Outline of Cyber_threat_analysis"
             }
           }
         ]
@@ -1245,6 +1245,8 @@
   },
   "active": "b2068cf560c14991",
   "lastOpenFiles": [
+    "Cybersecurity/RiskManagement/Risk_management.md",
+    "Cybersecurity/Cryptography.md",
     "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
     "Databases/Join_handling.md",
     "ProgramLanguages/SQL/SQL_language.md",
@@ -1258,7 +1260,6 @@
     "Cybersecurity/RiskManagement/Access_controls.md",
     "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
     "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
-    "Cybersecurity/RiskManagement/Risk_management.md",
     "Cybersecurity/RiskManagement/Security_principles.md",
     "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
     "Cybersecurity/RiskManagement/Quantitative_privacy.md",
@@ -1270,7 +1271,6 @@
     "Languages&Compilation/FiniteAutomata/Pushdown_recogniser.md",
     "Languages&Compilation/FiniteAutomata/Subset_construction_algorithm.md",
     "Languages&Compilation/Computability/Chomsky_hierarchy.md",
-    "Languages&Compilation/FiniteAutomata/Regular_expression_FSM.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
