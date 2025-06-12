@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -1201,6 +1201,26 @@
             "id": "812f902cd5c09dcc",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "4c30b2b400260c9e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "05b540b3d5dccad1",
+            "type": "leaf",
+            "state": {
               "type": "graph-analysis",
               "state": {},
               "icon": "GA-ICON",
@@ -1208,7 +1228,7 @@
             }
           },
           {
-            "id": "4c30b2b400260c9e",
+            "id": "1ad29c0474eebce3",
             "type": "leaf",
             "state": {
               "type": "Saved Queries View",
@@ -1218,7 +1238,7 @@
             }
           }
         ],
-        "currentTab": 72
+        "currentTab": 74
       }
     ],
     "direction": "horizontal",

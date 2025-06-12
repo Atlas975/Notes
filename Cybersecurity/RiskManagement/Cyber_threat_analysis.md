@@ -35,8 +35,6 @@ ___
 - This better reflects the dynamic nature of intelligence processing and policy-making and is also able to handle potential counter-intelligence efforts.
 
 ![[Pasted image 20240430205553.png|300|300]]
-
-
 ## Data sources
 - Data sources are required for intelligence that's fed into threat analysis
 - These vary in both structure (ease of processing) and trustworthiness 
