@@ -230,6 +230,7 @@ int main()
 ## Mmap
 - For whole pages allocated in separate memory regions mmap is used
 - More efficient for large memory allocation
+- This leaves a major shift in the number of prior  workings in the lead pages this also allows for more th
 # Fixed and variable memory allocation
 - Fixed memory allocation only allocates the amount of memory requested, doing this requires searching for a free area that meets the needs of that memory allocation request and returning unused memory to the free list.
 
