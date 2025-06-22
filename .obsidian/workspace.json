@@ -1231,6 +1231,16 @@
             "id": "1ad29c0474eebce3",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "579eb3bb21080568",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -1238,7 +1248,7 @@
             }
           }
         ],
-        "currentTab": 74
+        "currentTab": 75
       }
     ],
     "direction": "horizontal",
@@ -1263,7 +1273,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b2068cf560c14991",
+  "active": "579eb3bb21080568",
   "lastOpenFiles": [
     "Databases/Database_indexing.md",
     "OperatingSystems/Computer_memory.md",
