@@ -1,4 +1,4 @@
-> [!important]- Metadata
+>[!important]- Metadata
 > **Tags:** #Statistics
 > **Located:** Statistics
 > **Created:** 14/02/2024 - 15:13
@@ -20,7 +20,6 @@ ___
 $$\sigma^2=\frac{\sum_{i=1}^{n}(x_{i}-\overline{x})^2}{n-1}$$
 ## Bessel corrected standard deviation
 $$\sigma=\sqrt{\frac{\sum_{i=1}^{n}(x_{i}-\overline{x})^2}{n-1}}$$
-
 
 
 
