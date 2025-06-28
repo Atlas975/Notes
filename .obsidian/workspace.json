@@ -1312,14 +1312,24 @@
             "id": "ae67f435cfc202c5",
             "type": "leaf",
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
             "id": "c451950e94a4b03f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "74c1a451f00f588e",
             "type": "leaf",
             "state": {
               "type": "Saved Queries View",
@@ -1327,9 +1337,19 @@
               "icon": "feather-mouse-pointer",
               "title": "Saved Queries"
             }
+          },
+          {
+            "id": "ca2f967b788a960e",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 80
+        "currentTab": 82
       }
     ],
     "direction": "horizontal",
@@ -1354,7 +1374,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b0227e1aa4492feb",
+  "active": "ca2f967b788a960e",
   "lastOpenFiles": [
     "Statistics/Bessels_correction.md",
     "Statistics/Mean.md",
