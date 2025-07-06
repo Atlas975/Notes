@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DistributedSystems/Software_containment.md",
+                "file": "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Software_containment"
+              "title": "Practical_Byzantine_fault_tolerance"
             }
           },
           {
@@ -475,13 +475,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DistributedSystems/Software_containment.md",
+                "file": "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Software_containment"
+              "title": "Outline of Practical_Byzantine_fault_tolerance"
             }
           }
         ]
@@ -1376,6 +1376,7 @@
   },
   "active": "b0227e1aa4492feb",
   "lastOpenFiles": [
+    "DistributedSystems/Software_containment.md",
     "Statistics/Bessels_correction.md",
     "Statistics/Mean.md",
     "Statistics/Entropy.md",
@@ -1401,7 +1402,6 @@
     "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
     "Databases/Join_handling.md",
     "ProgramLanguages/SQL/SQL_language.md",
-    "ProgramLanguages/SQL/SQL_Joins.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
