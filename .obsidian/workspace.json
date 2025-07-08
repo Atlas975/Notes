@@ -1332,6 +1332,26 @@
             "id": "74c1a451f00f588e",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "ca2f967b788a960e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "b4f3e49593873485",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -1339,7 +1359,7 @@
             }
           },
           {
-            "id": "ca2f967b788a960e",
+            "id": "cfd5cf2656af8e2a",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -1349,7 +1369,7 @@
             }
           }
         ],
-        "currentTab": 82
+        "currentTab": 84
       }
     ],
     "direction": "horizontal",
@@ -1374,7 +1394,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b0227e1aa4492feb",
+  "active": "cfd5cf2656af8e2a",
   "lastOpenFiles": [
     "DistributedSystems/Software_containment.md",
     "Statistics/Bessels_correction.md",
