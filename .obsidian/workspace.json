@@ -44,7 +44,7 @@
               "type": "markdown",
               "state": {
                 "file": "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -1394,7 +1394,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "cfd5cf2656af8e2a",
+  "active": "b0227e1aa4492feb",
   "lastOpenFiles": [
     "DistributedSystems/Software_containment.md",
     "Statistics/Bessels_correction.md",
