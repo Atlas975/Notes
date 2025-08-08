@@ -475,13 +475,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Classification/K-nearest_neighbours.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of K-nearest_neighbours"
+              "title": "Outline"
             }
           }
         ]
@@ -1352,14 +1351,44 @@
             "id": "b4f3e49593873485",
             "type": "leaf",
             "state": {
-              "type": "Saved Queries View",
+              "type": "empty",
               "state": {},
-              "icon": "feather-mouse-pointer",
-              "title": "Saved Queries"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
             "id": "cfd5cf2656af8e2a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "96ec25ea0c93ceb8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "9e8896886fbcfdc4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "18759c907671ccc1",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -1367,9 +1396,19 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "3fd9547eb329c71b",
+            "type": "leaf",
+            "state": {
+              "type": "Saved Queries View",
+              "state": {},
+              "icon": "feather-mouse-pointer",
+              "title": "Saved Queries"
+            }
           }
         ],
-        "currentTab": 84
+        "currentTab": 88
       }
     ],
     "direction": "horizontal",
@@ -1394,8 +1433,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b0227e1aa4492feb",
+  "active": "3fd9547eb329c71b",
   "lastOpenFiles": [
+    "MachineLearning/Classification/K-nearest_neighbours.md",
     "DistributedSystems/Fault_tolerence.md",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
     "DistributedSystems/Software_containment.md",
@@ -1421,7 +1461,6 @@
     "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
     "Cybersecurity/RiskManagement/Risk_management.md",
     "Cybersecurity/Cryptography.md",
-    "MachineLearning/NeuralNetworks/ActivationFunctions/Softmax.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
