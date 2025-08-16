@@ -1392,14 +1392,24 @@
             "id": "18759c907671ccc1",
             "type": "leaf",
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
             "id": "3fd9547eb329c71b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "192f8ccc55c3e016",
             "type": "leaf",
             "state": {
               "type": "Saved Queries View",
@@ -1407,9 +1417,19 @@
               "icon": "feather-mouse-pointer",
               "title": "Saved Queries"
             }
+          },
+          {
+            "id": "02e95b75124c8c38",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 88
+        "currentTab": 90
       }
     ],
     "direction": "horizontal",
@@ -1434,7 +1454,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b0227e1aa4492feb",
+  "active": "02e95b75124c8c38",
   "lastOpenFiles": [
     "MachineLearning/Classification/K-nearest_neighbours.md",
     "DistributedSystems/Fault_tolerence.md",
