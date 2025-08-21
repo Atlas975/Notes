@@ -53,6 +53,18 @@
             }
           },
           {
+            "id": "222d0fe1bd190a6d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.10"
+            }
+          },
+          {
             "id": "d8af6666009342a9",
             "type": "leaf",
             "state": {
@@ -398,7 +410,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -595,8 +607,8 @@
             "state": {
               "type": "markpilot-chat-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "markpilot-chat-view"
             }
           },
           {
@@ -1413,6 +1425,26 @@
             "id": "192f8ccc55c3e016",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "02e95b75124c8c38",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "dbf6f1cd5d77bc35",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -1420,7 +1452,7 @@
             }
           },
           {
-            "id": "02e95b75124c8c38",
+            "id": "4eb0746b5a9ca680",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -1430,7 +1462,7 @@
             }
           }
         ],
-        "currentTab": 90
+        "currentTab": 92
       }
     ],
     "direction": "horizontal",
@@ -1439,6 +1471,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -1455,7 +1488,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b0227e1aa4492feb",
+  "active": "4eb0746b5a9ca680",
   "lastOpenFiles": [
     "00-Main/2-Litnote.md",
     "00-Main/1-Litnote.md",
