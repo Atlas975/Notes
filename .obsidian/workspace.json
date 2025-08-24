@@ -1036,14 +1036,24 @@
             "id": "ea573d87291265dd",
             "type": "leaf",
             "state": {
-              "type": "Saved Queries View",
+              "type": "empty",
               "state": {},
-              "icon": "feather-mouse-pointer",
-              "title": "Saved Queries"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
             "id": "621b642ad3fd1b9b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "3b603172efe5c6a7",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -1051,9 +1061,19 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "66efefe795b5e869",
+            "type": "leaf",
+            "state": {
+              "type": "Saved Queries View",
+              "state": {},
+              "icon": "feather-mouse-pointer",
+              "title": "Saved Queries"
+            }
           }
         ],
-        "currentTab": 90
+        "currentTab": 92
       }
     ],
     "direction": "horizontal",
@@ -1079,7 +1099,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "ddc36d0d7f1a9e2a",
+  "active": "66efefe795b5e869",
   "lastOpenFiles": [
     "MachineLearning/Clustering/Clustering.md",
     "MachineLearning/EnsembleLearning/Ensemble_learning.md",
