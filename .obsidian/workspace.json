@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Clustering/Clustering.md",
+                "file": "MachineLearning/Classification/Naive_Bayes.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Clustering"
+              "title": "Naive_Bayes"
             }
           }
         ]
@@ -99,13 +99,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Clustering/Clustering.md",
+                "file": "MachineLearning/Classification/Naive_Bayes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Clustering"
+              "title": "Outline of Naive_Bayes"
             }
           }
         ]
@@ -1081,6 +1081,7 @@
   },
   "active": "ddc36d0d7f1a9e2a",
   "lastOpenFiles": [
+    "MachineLearning/Clustering/Clustering.md",
     "MachineLearning/EnsembleLearning/Ensemble_learning.md",
     "MachineLearning/Classification/Naive_Bayes.md",
     "MachineLearning/Classification/Semantic_segmentation.md",
@@ -1106,7 +1107,6 @@
     "MachineLearning/Regularisation/Regularisation.md",
     "MachineLearning/0-Legacy/0-CoursesPart2/DeepLearningCourse/Early_stopping.md",
     "Cybersecurity/Operating_system_security.md",
-    "MediaCoding/Convolutions/Pointwise_convolution.md",
     "XX-Attachments/Images/Pasted image 20240630210011.png",
     "XX-Attachments/Images/Pasted image 20240630205015.png",
     "MachineLearning/TimeSeriesAnalysis",
