@@ -1031,9 +1031,29 @@
               "icon": "lucide-file",
               "title": "New tab"
             }
+          },
+          {
+            "id": "ea573d87291265dd",
+            "type": "leaf",
+            "state": {
+              "type": "Saved Queries View",
+              "state": {},
+              "icon": "feather-mouse-pointer",
+              "title": "Saved Queries"
+            }
+          },
+          {
+            "id": "621b642ad3fd1b9b",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 88
+        "currentTab": 90
       }
     ],
     "direction": "horizontal",
@@ -1059,7 +1079,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "ddc36d0d7f1a9e2a",
+  "active": "621b642ad3fd1b9b",
   "lastOpenFiles": [
     "MachineLearning/Classification/Naive_Bayes.md",
     "MachineLearning/Classification/Semantic_segmentation.md",
