@@ -1,6 +1,17 @@
-> ![[Pasted image 20231020134046.png]]
+![[Pasted image 20250829120253.png]]
 
 
-docker exec -it dad736e2017c /bin/bash
+![[Pasted image 20250829120308.png]]
 
-apt-get update; apt-get install python3 -y; apt-get install cmake -y; apt-get install g++ -y;
+![[Pasted image 20250829120314.png]]
+
+![[Pasted image 20250829120320.png]]
+
+![[Pasted image 20250829120326.png]]
+
+![[Pasted image 20250829120331.png]]
+
+![[Pasted image 20250829120337.png]]
+
+![[Pasted image 20250829120346.png]]
+
