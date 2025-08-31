@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "37166af51bcbcd59",
+        "id": "e0c216bed2186771",
         "type": "tabs",
         "children": [
           {
-            "id": "ddc36d0d7f1a9e2a",
+            "id": "3b4c05a1c7127f32",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-Main/1-Litnote.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "1-Litnote"
+              "title": "New tab"
             }
           }
         ]
@@ -99,13 +94,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Main/1-Litnote.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1-Litnote"
+              "title": "Outline"
             }
           }
         ]
@@ -1099,8 +1093,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "ddc36d0d7f1a9e2a",
+  "active": "3b4c05a1c7127f32",
   "lastOpenFiles": [
+    "00-Main/1-Litnote.md",
     "XX-Attachments/Images/Pasted image 20250829124919.png",
     "XX-Attachments/Images/Pasted image 20250829124710.png",
     "XX-Attachments/Images/Pasted image 20250829122811.png",
@@ -1111,7 +1106,6 @@
     "XX-Attachments/Images/Pasted image 20250829122719.png",
     "XX-Attachments/Images/Pasted image 20250829122717.png",
     "XX-Attachments/Images/Pasted image 20250829122658.png",
-    "XX-Attachments/Images/Pasted image 20250829120346.png",
     "MachineLearning/Classification/Naive_Bayes.md",
     "MachineLearning/Clustering/Clustering.md",
     "MachineLearning/EnsembleLearning/Ensemble_learning.md",
