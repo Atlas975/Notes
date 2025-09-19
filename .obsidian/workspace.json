@@ -26,12 +26,15 @@
             "id": "0379a548fb4d1e31",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.12"
+                "file": "Databases/Query_optimisation.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.12"
+              "icon": "lucide-file",
+              "title": "Query_optimisation"
             }
           }
         ],
@@ -112,12 +115,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Databases/Query_optimisation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Query_optimisation"
             }
           }
         ]
@@ -1131,8 +1135,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "51b756e1195e2d81",
+  "active": "0379a548fb4d1e31",
   "lastOpenFiles": [
+    "Databases/Database_systems.md",
+    "Databases/Database_normalisation.md",
     "MachineLearning/FeatureEngineering/Batch_normalisation.md",
     "MachineLearning/Classification/Naive_Bayes.md",
     "LinearProgramming/Linear_programming.md",
@@ -1162,13 +1168,11 @@
     "ProgramLanguages/SQL/SQL_language.md",
     "ProgramLanguages/SQL/SQL_patterns.md",
     "ProgramLanguages/SQL/SQL_views.md",
-    "Databases/Database_normalisation.md",
     "Databases/Database_transactions.md",
     "Languages&Compilation/Parsing/TopDownParsing/Recursive_descent.md",
     "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/TimeSeriesAnalysis/Time_series_analysis.md",
     "MachineLearning/FeatureEngineering/Machine_learning_features.md",
-    "MachineLearning/FeatureEngineering/Normalisation.md",
     "MachineLearning/TimeSeriesAnalysis",
     "MachineLearning/EnsembleLearning",
     "MachineLearning/Regularisation",
