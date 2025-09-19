@@ -1092,14 +1092,24 @@
             "id": "5af418dfad2153c4",
             "type": "leaf",
             "state": {
-              "type": "Saved Queries View",
+              "type": "empty",
               "state": {},
-              "icon": "feather-mouse-pointer",
-              "title": "Saved Queries"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
             "id": "51b756e1195e2d81",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "d6b3ff336f919701",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -1107,9 +1117,19 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "6d1baef6562f8213",
+            "type": "leaf",
+            "state": {
+              "type": "Saved Queries View",
+              "state": {},
+              "icon": "feather-mouse-pointer",
+              "title": "Saved Queries"
+            }
           }
         ],
-        "currentTab": 94
+        "currentTab": 96
       }
     ],
     "direction": "horizontal",
@@ -1135,7 +1155,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "0379a548fb4d1e31",
+  "active": "6d1baef6562f8213",
   "lastOpenFiles": [
     "Databases/Database_systems.md",
     "Databases/Database_normalisation.md",
