@@ -1155,8 +1155,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "0379a548fb4d1e31",
+  "active": "61b6b073dac95afd",
   "lastOpenFiles": [
+    "Cybersecurity/RiskManagement/SecurityManagement",
     "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
     "DistributedSystems/CommunicationModels/Group_communication.md",
     "DistributedSystems/Distributed_system_security.md",
@@ -1192,7 +1193,6 @@
     "XX-Attachments/Images/Pasted image 20250829122658.png",
     "MachineLearning/Clustering/Clustering.md",
     "MachineLearning/EnsembleLearning/Ensemble_learning.md",
-    "MachineLearning/Classification/Semantic_segmentation.md",
     "MachineLearning/TimeSeriesAnalysis",
     "MachineLearning/EnsembleLearning",
     "MachineLearning/Regularisation",
