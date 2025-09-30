@@ -430,13 +430,6 @@
   "darlal-switcher-plus:switcher-plus:open": [
     {
       "modifiers": [
-        "Ctrl",
-        "Shift"
-      ],
-      "key": "Tab"
-    },
-    {
-      "modifiers": [
         "Mod"
       ],
       "key": "P"
