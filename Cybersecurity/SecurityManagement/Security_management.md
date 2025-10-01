@@ -20,7 +20,8 @@ ___
 
 
 ## Safety vs security
-- **Security** concerns the protection of an entity against intentional  / malicious attacks
+- **Security** typically concerns the protection of an entity against intentional  / malicious attacks
+- Passwords are an example of a function that may be insecure but unintentionally so 
 - **Safety** concerns protection of an entity caused by accidental events
 - A system can be safe but not secure eg:
 	- A website that only displays information is safe, but not secure if it uses [[Hypertext_transfer_protocol|HTTP]] instead of [[Hypertext_transfer_protocol#HTTPS|HTTPS]] meaning a users connection isn't encrypted 
