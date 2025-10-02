@@ -10,9 +10,14 @@
 
 ___
 # Security management
-- The discipline focused on protecting an organisation's assets (ie people, facilities, technology, and data—through risk assessment, policy development, and implementation of security controls
+- The discipline focused on protecting an organisation's assets (ie: people, facilities, technology, and data) through risk assessment, policy development, and implementation of security controls
+- This also requires monitoring and evaluating the effectiveness of implemented control and procedures 
 - The coordinated activities used to implement the suitable controls and treat information security risks are known as the elements of ==information security management==
+## NIST Cyber security framework
+- A structured set of guidelines designed to help organisations manage and reduce cybersecurity risks
+- This framework is meant to provide the best practices to help an organisation build resilient cybersecurity programs by addressing threats from identification to recovery
 
+![[Pasted image 20251002205922.png|450|450]]
 
 ## Information security
 - Involves the protection of confidentiality, integrity and availability of information assets weather through storage, processing or transmission
@@ -24,5 +29,3 @@ ___
 - A system can be safe but not secure eg:
 	- A website that only displays information is safe, but not secure if it uses [[Hypertext_transfer_protocol|HTTP]] instead of [[Hypertext_transfer_protocol#HTTPS|HTTPS]] meaning a users connection isn't encrypted 
 	- An unlocked house is safe from the dangers of fire or collapse, but it's not secure because it lacks protection from intruders
-
-![[Pasted image 20251001232220.png||s]]
