@@ -19,9 +19,16 @@ ___
 
 ![[Pasted image 20251002205922.png|450|450]]
 
+
+
+## National cyber security centre framework 
+
+![[Pasted image 20251002210908.png|500|500]]
 ## Information security
 - Involves the protection of confidentiality, integrity and availability of information assets weather through storage, processing or transmission
 - This security is carried out through the application of policy, SETA (security education, training and awareness) and technology
+
+![[Pasted image 20251002212833.png|250|250]]
 ## Safety vs security
 - **Security** typically concerns the protection of an entity against intentional  / malicious attacks
 - Passwords are an example of a function that may be insecure but unintentionally so 
