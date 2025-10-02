@@ -27,5 +27,5 @@ ___
 	- A website that only displays information is safe, but not secure if it uses [[Hypertext_transfer_protocol|HTTP]] instead of [[Hypertext_transfer_protocol#HTTPS|HTTPS]] meaning a users connection isn't encrypted 
 	- An unlocked house is safe from the dangers of fire or collapse, but it's not secure because it lacks protection from intruders
 
-
+this is a major repeat of the
 ![[Pasted image 20251001232220.png]]
