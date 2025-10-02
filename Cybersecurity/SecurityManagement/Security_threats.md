@@ -22,4 +22,4 @@ ___
 
 
 ## Threat trees
-- A single threat can also lead to sub-threats.
+- A single threat can also lead to sub-threats such as a comprised password 
