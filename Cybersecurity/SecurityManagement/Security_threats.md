@@ -22,4 +22,8 @@ ___
 
 
 ## Threat trees
-- A single threat can also lead to sub-threats such as a comprised password 
+- A single threat can also lead to sub-threats, this an be represented as an attack tree 
+- An example of this is a compromised password leading to other key resources in an organisation being exposed to attacks as well
+
+
+![[Pasted image 20251005113346.png|450|450]]

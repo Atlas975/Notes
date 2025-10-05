@@ -4,71 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "e0c216bed2186771",
+        "id": "c1fdcf2e3f798e94",
         "type": "tabs",
         "children": [
           {
-            "id": "3b4c05a1c7127f32",
+            "id": "3369a078179c59d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/Machine_learning_features.md",
+                "file": "Cybersecurity/SecurityManagement/Security_threats.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Machine_learning_features"
-            }
-          },
-          {
-            "id": "e2c19dfb52830c33",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DistributedSystems/Distributed_system_security.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Distributed_system_security"
-            }
-          },
-          {
-            "id": "d9aad5712794f7c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Database_relations.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Database_relations"
-            }
-          },
-          {
-            "id": "839e4180b01d421c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DataStructures/CacheStructures/LRU.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "LRU"
+              "title": "Security_threats"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -145,20 +99,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_relations.md",
+                "file": "Cybersecurity/SecurityManagement/Security_threats.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Database_relations"
+              "title": "Outline of Security_threats"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -1205,8 +1160,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "d9aad5712794f7c2",
+  "active": "3369a078179c59d6",
   "lastOpenFiles": [
+    "XX-Attachments/Images/Pasted image 20251005113346.png",
+    "XX-Attachments/Images/Pasted image 20251005113249.png",
+    "Cybersecurity/SecurityManagement/Security_management.md",
+    "DataStructures/CacheStructures/LRU.md",
+    "MachineLearning/FeatureEngineering/Machine_learning_features.md",
+    "DistributedSystems/Distributed_system_security.md",
+    "Databases/Database_relations.md",
     "Databases/Database_storage.md",
     "Databases/Database_transactions.md",
     "Databases/Database_concurrency.md",
@@ -1214,12 +1176,10 @@
     "Cybersecurity/Operating_system_security.md",
     "Cybersecurity/Cryptography.md",
     "Cybersecurity/SecurityManagement/Security_threats.md",
-    "Cybersecurity/SecurityManagement/Security_management.md",
     "XX-Attachments/Images/Pasted image 20251002214728.png",
     "XX-Attachments/Images/Pasted image 20251002214343.png",
     "SoftwareDesign/BSPL.md",
     "SoftwareDesign/InformationSystems/Malware.md",
-    "DistributedSystems/Distributed_system_security.md",
     "XX-Attachments/Images/Pasted image 20251002212833.png",
     "OperatingSystems/Page_replacement.md",
     "OperatingSystems/Paging.md",
@@ -1232,10 +1192,6 @@
     "Cybersecurity/EncryptionSchemes/RSA.md",
     "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
     "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
-    "Cybersecurity/RiskManagement/Security_principles.md",
-    "Cybersecurity/RiskManagement/Security_models.md",
-    "Cybersecurity/RiskManagement/Security_economics.md",
-    "Cybersecurity/RiskManagement/Quantitative_privacy.md",
     "XX-Attachments/Images/Pasted image 20251002210908.png",
     "XX-Attachments/Images/Pasted image 20251002205922.png",
     "XX-Attachments/Images/Pasted image 20251001232220.png",
@@ -1243,7 +1199,6 @@
     "XX-Attachments/Images/Pasted image 20250829124919.png",
     "XX-Attachments/Images/Pasted image 20250829124710.png",
     "XX-Attachments/Images/Pasted image 20250829122811.png",
-    "XX-Attachments/Images/Pasted image 20250829122800.png",
     "MachineLearning/TimeSeriesAnalysis",
     "MachineLearning/EnsembleLearning",
     "MachineLearning/Regularisation",
