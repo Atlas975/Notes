@@ -22,7 +22,7 @@ ___
 ![[Pasted image 20240427165716.png|350|350]]
 
 ## Cryptographic protection
-> - Data confidentiality can be handled via [[Cryptography|cryptographic]] methods such as [[Symmetric_encryption|symmetric]] \/ [[Asymmetric_encryption|asymmetric]]  cryptography and [[Hashing|hash functions]] 
+ - Data confidentiality can be handled via [[Cryptography|cryptographic]] methods such as [[Symmetric_encryption|symmetric]] \/ [[Asymmetric_encryption|asymmetric]]  cryptography and [[Hashing|hash functions]] 
 - The main risk regarding this is the potential for keys to be compromised (secrets hard to protect)
 
 ![[Pasted image 20240427171524.png|400|400]]
