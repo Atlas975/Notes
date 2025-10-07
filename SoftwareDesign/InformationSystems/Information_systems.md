@@ -13,7 +13,6 @@
 ## Process view
 - Emphasizes activities, how work flow can be best optimized by technology support. 
 # 5 component framework
-## airline example
 ![[Pasted image 20211029225006.png|450|450]]
 - Multiple frameworks exist but this is common to all information systems in some way. 
 
