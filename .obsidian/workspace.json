@@ -36,9 +36,24 @@
               "icon": "lucide-file",
               "title": "Security_threats"
             }
+          },
+          {
+            "id": "60fa2ff8032ca3c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoftwareDesign/Software_architecture.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Software_architecture"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -115,13 +130,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/SecurityManagement/Security_threats.md",
+                "file": "SoftwareDesign/Software_architecture.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Security_threats"
+              "title": "Outline of Software_architecture"
             }
           }
         ]
@@ -1175,12 +1190,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b2f66cd9fab9473b",
+  "active": "60fa2ff8032ca3c0",
   "lastOpenFiles": [
+    "SoftwareDesign/Finite_state_machines.md",
+    "SoftwareDesign/Entity_relationship_model.md",
+    "SoftwareDesign/Software_planning.md",
+    "Cybersecurity/SecurityManagement/Security_threats.md",
     "Cybersecurity/SecurityManagement/Security_management.md",
     "Cybersecurity/Operating_system_security.md",
     "Cybersecurity/Keys.md",
-    "Cybersecurity/SecurityManagement/Security_threats.md",
     "XX-Attachments/Images/Pasted image 20251005113346.png",
     "XX-Attachments/Images/Pasted image 20251005113249.png",
     "DataStructures/CacheStructures/LRU.md",
@@ -1205,8 +1223,6 @@
     "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
     "Cybersecurity/EncryptionSchemes/HMAC.md",
     "Cybersecurity/EncryptionSchemes/RSA.md",
-    "Cybersecurity/EncryptionSchemes/Symmetric_encryption.md",
-    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
     "XX-Attachments/Images/Pasted image 20251002210908.png",
     "XX-Attachments/Images/Pasted image 20251002205922.png",
     "XX-Attachments/Images/Pasted image 20251001232220.png",
