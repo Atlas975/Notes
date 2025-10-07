@@ -43,4 +43,19 @@ ___
 ## Vulnerability types
 - [[Vulnerability_analysis|Vulnerabilities]] describe the weaknesses or flaws within software / systems / processes or even human behaviours that can be exploited to disrupt operations
 - Multiple vulnerability types exist:
-	- **Personal**: inadequate recruitment, insuffecient   
+	- **Personal**: inadequate recruitment, insufficient training etc  
+	- **Site**: inadequate physical control (ie security), unstable power etc
+	- **Organisation**: audits not conducted on a regular basis, event monitoring not implemented etc
+
+
+![[Pasted image 20251007203837.png|550|550]]
+
+
+- Multiple threats can also exploit the same vulnerability, these lead to the same impacts but highlight how important it is to consider every possible threat avenue 
+- The opposite can also be true with a single threat exploiting multiple vulnerabilities:
+
+![[Pasted image 20251007204354.png|450|450]]
+
+
+## Chain of consequences 
+- Used to visualise 
