@@ -64,5 +64,8 @@ ___
 ![[Pasted image 20251007215617.png|450|450]]
 
 ## Risk assessment 
->$$\text{Impact}\cdot \text{Likelihood}=\text{Risk}$$
->$$\text{Likelihood}}$$
+- 
+
+
+
+>$$\text{Threat}\cdot \text{Vulnerability}=\text{Impact}$$$$\text{Impact}\cdot \text{Likelihood}=\text{Risk}$$
