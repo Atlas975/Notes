@@ -57,14 +57,14 @@ ___
 ![[Pasted image 20251007204354.png|450|450]]
 
 
-## Chain of consequences 
+ Chain of consequences 
 - Used to visualise the possible impacts a single threat may lead to based on the actions taken by the attack after exploiting the initial vulnerability
 - Creating effective security policies requires accounting for these possible sub-threats
 
 ![[Pasted image 20251007215617.png|450|450]]
 
 ## Risk assessment 
-- 
+
 
 
 
