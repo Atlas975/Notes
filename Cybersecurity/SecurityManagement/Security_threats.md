@@ -64,8 +64,14 @@ ___
 ![[Pasted image 20251007215617.png|450|450]]
 
 ## Risk assessment 
-
-
+- Risk describes the potential impact of a threat considering the likelihood and consequence. This can also be visualised in a risk matrix
+- The purpose of assessing threats is to improve the assessment of how likely a given risk is to be realised
 
 
 >$$\text{Threat}\cdot \text{Vulnerability}=\text{Impact}$$$$\text{Impact}\cdot \text{Likelihood}=\text{Risk}$$
+
+
+![[Pasted image 20251008203447.png|450|450]]
+
+
+![[Pasted image 20251008204337.png|350|350]]
