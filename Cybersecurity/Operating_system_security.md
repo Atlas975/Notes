@@ -29,11 +29,9 @@ ___
 ### Trusted platform module
 - A hardware implemented cryptoprocessor, this can perform cryptographic operations in main memory and use secondary memory for key storage 
 - Due to being hardware implemented, this is both fast and secure
-
 ## OS access control
 - Permissions in an OS are controlled via an [[Linux_permissions|access matrix]]
 - [[Security_models|Multilevel security]] models are also useful for handling this 
-
 ## Persistent security concerns
 - **Confinement problem**: prevents processes from transmitting data outside its intended scope
 - **Covert Channels**: unintended paths of communication that may be exploited
