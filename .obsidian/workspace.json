@@ -83,7 +83,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -160,13 +160,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_sharding.md",
+                "file": "SoftwareDesign/InformationSystems/Information_systems.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Database_sharding"
+              "title": "Outline of Information_systems"
             }
           }
         ]
@@ -1220,8 +1220,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f7020c607d5d9bfc",
+  "active": "60fa2ff8032ca3c0",
   "lastOpenFiles": [
+    "Databases/Database_sharding.md",
     "Databases/Database_constraints.md",
     "Cybersecurity/Salt.md",
     "Cybersecurity/PKCS7.md",
@@ -1257,7 +1258,6 @@
     "DistributedSystems/Distributed_system_security.md",
     "Databases/Database_relations.md",
     "Databases/Database_storage.md",
-    "Databases/Database_transactions.md",
     "Cybersecurity/SecurityManagement",
     "MachineLearning/TimeSeriesAnalysis",
     "MachineLearning/EnsembleLearning",
