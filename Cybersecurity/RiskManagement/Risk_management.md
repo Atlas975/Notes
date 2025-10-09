@@ -30,7 +30,6 @@ ___
 - What's the attacker's goal 
 - What's the likelihood their attack succeeds
 - What's the impact if they succeed
- 
 ### CISP risk analysis
 
 ![[Pasted image 20240427213632.png|350|350]]
