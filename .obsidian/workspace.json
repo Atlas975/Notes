@@ -96,9 +96,21 @@
               "icon": "lucide-file",
               "title": "Security_economics"
             }
+          },
+          {
+            "id": "a9edb8d09869ec36",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -175,13 +187,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Security_economics.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Security_economics"
+              "title": "Outline"
             }
           }
         ]
@@ -1192,6 +1203,26 @@
             "id": "37d1f8f5dcb88264",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "1915070c36f17546",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "9ee75f125250a557",
+            "type": "leaf",
+            "state": {
               "type": "graph-analysis",
               "state": {},
               "icon": "GA-ICON",
@@ -1199,7 +1230,7 @@
             }
           },
           {
-            "id": "1915070c36f17546",
+            "id": "66e9e35b51f88337",
             "type": "leaf",
             "state": {
               "type": "Saved Queries View",
@@ -1209,7 +1240,7 @@
             }
           }
         ],
-        "currentTab": 98
+        "currentTab": 100
       }
     ],
     "direction": "horizontal",
@@ -1235,7 +1266,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "8f6d641cf2f36b9a",
+  "active": "66e9e35b51f88337",
   "lastOpenFiles": [
     "Cybersecurity/RiskManagement/Risk_management.md",
     "Cybersecurity/SecurityManagement/Security_management.md",
