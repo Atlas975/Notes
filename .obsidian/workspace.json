@@ -96,21 +96,9 @@
               "icon": "lucide-file",
               "title": "Security_economics"
             }
-          },
-          {
-            "id": "a9edb8d09869ec36",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.14"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.14"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -187,12 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Cybersecurity/RiskManagement/Security_economics.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Security_economics"
             }
           }
         ]
@@ -1266,7 +1255,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "66e9e35b51f88337",
+  "active": "8f6d641cf2f36b9a",
   "lastOpenFiles": [
     "Cybersecurity/RiskManagement/Risk_management.md",
     "Cybersecurity/SecurityManagement/Security_management.md",
