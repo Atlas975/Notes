@@ -16,6 +16,7 @@ ___
 - Focused on maintaining confidentiality, integrity, availability and non-repudiation
 
 ![[Pasted image 20240427213318.png|350|350]]
+- This helps organisations make informed security decisions and aligns cybersecurity efforts with business objectives. Identifying vulnerabilities early also prevents costly incidents 
 ## Risk management components
 - **Risk treatment**: methods used to manage risks (reduction, transfer, avoidance, or acceptance)
 - **Risk Assessment**: Process of identification, analysis, and evaluation of risks.
@@ -48,11 +49,9 @@ ___
 ### Risk transfer
 - Involves shifting the risk to a third party. This often involves using insurance, outsourcing, or contracts to transfer the risk.
 - This strategy is appropriate when the risk can be better managed or borne by another party who has the expertise or capacity to handle it.
-
 ### Risk mitigation
 - Involves taking steps to reduce the likelihood and/or impact of the risk. This is done through proactive measures and controls.
 - Involves taking steps to reduce the likelihood and/or impact of the risk. This is done through proactive measures and controls.
-
 ### Risk acceptance
 - Involves choosing to accept the risk without taking any immediate action to mitigate it.
 - This strategy is appropriate for low-probability or low-impact risks where the cost of mitigation would exceed the potential loss.
