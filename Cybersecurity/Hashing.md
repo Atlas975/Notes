@@ -42,8 +42,6 @@ ___
 ### Diffusion
 - Requires that the output hash values are uniformly distributed over the output space so that changes to the input data (even minor ones) spread to affect many bits in the output hash
 - This is crucial for minimising collisions using inputs similar to each other
-
-
 ### Obfuscation
 - The practice of making a cryptographic algorithm or its implementation intentionally complex and difficult to understand. This makes it more difficult to decipher how an algorithm works
 - Can involve altering code structure, using confusing variable names, or implementing complex execution paths that make reverse engineering challenging for attackers
