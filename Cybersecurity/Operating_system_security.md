@@ -35,7 +35,6 @@ ___
 ## Persistent security concerns
 - **Confinement problem**: prevents processes from transmitting data outside its intended scope
 - **Covert Channels**: unintended paths of communication that may be exploited
-
 ## Technical attacks
 - **Memory leaks**: when memory allocated to a process is not freed,  processes that do this can be exploited leading to a DDOS attack via memory starvation
 - **String formatting attacks**:  occurs when valid string formatting is not used with c function such as `printf()`, attackers can pass a list of parameters to be executed as a command 
