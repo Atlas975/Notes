@@ -16,6 +16,7 @@ ___
 - Focused on maintaining confidentiality, integrity, availability and non-repudiation
 
 ![[Pasted image 20240427213318.png|350|350]]
+
 - This helps organisations make informed security decisions and aligns cybersecurity efforts with business objectives. Identifying vulnerabilities early also prevents costly incidents 
 ## Risk management components
 - **Risk treatment**: methods used to manage risks (reduction, transfer, avoidance, or acceptance)
@@ -56,3 +57,5 @@ ___
 - Involves choosing to accept the risk without taking any immediate action to mitigate it.
 - This strategy is appropriate for low-probability or low-impact risks where the cost of mitigation would exceed the potential loss.
 
+## Risk management steps 
+- **Identify**: involves identifying and describing risks

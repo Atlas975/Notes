@@ -118,13 +118,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Access_routines.md",
+                "file": "Cybersecurity/RiskManagement/Risk_management.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Access_routines"
+              "title": "Risk_management"
             }
           }
         ],
@@ -205,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Access_routines.md",
+                "file": "Cybersecurity/RiskManagement/Risk_management.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Access_routines"
+              "title": "Outline of Risk_management"
             }
           }
         ]
@@ -1287,6 +1287,7 @@
   },
   "active": "b424ed07ba3658fd",
   "lastOpenFiles": [
+    "Databases/Access_routines.md",
     "Cybersecurity/Salt.md",
     "Cybersecurity/PKCS7.md",
     "Cybersecurity/Operating_system_security.md",
@@ -1312,7 +1313,6 @@
     "Cybersecurity/RiskManagement/Access_controls.md",
     "MediaCoding/ImageMatching/Laplacian_pyramid.md",
     "SoftwareDesign/InformationSystems/Information_systems.md",
-    "Databases/Database_sharding.md",
     "XX-Attachments/Images/Pasted image 20251008204431.png",
     "XX-Attachments/Images/Pasted image 20251008204337.png",
     "XX-Attachments/Images/Pasted image 20251008203447.png",
