@@ -20,7 +20,6 @@ ___
 
 ![[Pasted image 20251002214728.png|500|500]]
 
-
 ## Threat trees
 - A single threat can also lead to sub-threats (insider threats), this an be represented as an attack tree 
 - An example of this is a compromised password leading to other key resources in an organisation being exposed to attacks as well
