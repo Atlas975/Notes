@@ -118,13 +118,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/Operating_system_security.md",
+                "file": "Cybersecurity/SecurityManagement/Security_threats.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Operating_system_security"
+              "title": "Security_threats"
             }
           }
         ],
@@ -205,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/Operating_system_security.md",
+                "file": "Cybersecurity/SecurityManagement/Security_threats.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Operating_system_security"
+              "title": "Outline of Security_threats"
             }
           }
         ]
@@ -1287,8 +1287,9 @@
   },
   "active": "b424ed07ba3658fd",
   "lastOpenFiles": [
-    "Cybersecurity/Network_security.md",
     "Cybersecurity/Keys.md",
+    "Cybersecurity/Operating_system_security.md",
+    "Cybersecurity/Network_security.md",
     "Cybersecurity/Hashing.md",
     "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
     "Cybersecurity/RiskManagement/Security_models.md",
@@ -1305,7 +1306,6 @@
     "Cybersecurity/RiskManagement/Risk_management.md",
     "Cybersecurity/SecurityManagement/Security_management.md",
     "Cybersecurity/SecurityManagement/Security_threats.md",
-    "Cybersecurity/Operating_system_security.md",
     "Cybersecurity/RiskManagement/Access_controls.md",
     "MediaCoding/ImageMatching/Laplacian_pyramid.md",
     "SoftwareDesign/InformationSystems/Information_systems.md",
