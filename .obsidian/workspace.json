@@ -118,13 +118,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/SecurityManagement/Security_threats.md",
+                "file": "Databases/Access_routines.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Security_threats"
+              "title": "Access_routines"
             }
           }
         ],
@@ -205,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/SecurityManagement/Security_threats.md",
+                "file": "Databases/Access_routines.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Security_threats"
+              "title": "Outline of Access_routines"
             }
           }
         ]
@@ -1287,8 +1287,12 @@
   },
   "active": "b424ed07ba3658fd",
   "lastOpenFiles": [
-    "Cybersecurity/Keys.md",
+    "Cybersecurity/Salt.md",
+    "Cybersecurity/PKCS7.md",
     "Cybersecurity/Operating_system_security.md",
+    "Cybersecurity/Cryptography.md",
+    "Cybersecurity/SecurityManagement/Security_threats.md",
+    "Cybersecurity/Keys.md",
     "Cybersecurity/Network_security.md",
     "Cybersecurity/Hashing.md",
     "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
@@ -1305,14 +1309,10 @@
     "Cybersecurity/RiskManagement/Security_principles.md",
     "Cybersecurity/RiskManagement/Risk_management.md",
     "Cybersecurity/SecurityManagement/Security_management.md",
-    "Cybersecurity/SecurityManagement/Security_threats.md",
     "Cybersecurity/RiskManagement/Access_controls.md",
     "MediaCoding/ImageMatching/Laplacian_pyramid.md",
     "SoftwareDesign/InformationSystems/Information_systems.md",
     "Databases/Database_sharding.md",
-    "Databases/Database_constraints.md",
-    "Cybersecurity/Salt.md",
-    "Cybersecurity/PKCS7.md",
     "XX-Attachments/Images/Pasted image 20251008204431.png",
     "XX-Attachments/Images/Pasted image 20251008204337.png",
     "XX-Attachments/Images/Pasted image 20251008203447.png",
