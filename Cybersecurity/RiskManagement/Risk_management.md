@@ -57,5 +57,9 @@ ___
 - Involves choosing to accept the risk without taking any immediate action to mitigate it.
 - This strategy is appropriate for low-probability or low-impact risks where the cost of mitigation would exceed the potential loss.
 
+
+
+## Risk identification
+- 
 ## Risk management steps 
 - **Identify**: involves identifying and describing risks
