@@ -79,4 +79,4 @@ ___
     - The value of the asset to the attacker 
     - The history of previously successful attacks, successful or not
     - The complexity needed for a successful attack 
-    - The cost of an attack (eg how well known )
+    - The cost of an attack (eg how well known)
