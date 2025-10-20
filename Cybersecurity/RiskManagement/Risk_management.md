@@ -59,6 +59,10 @@ ___
 
 
 
+## Liklihood assessment
+- This is based on the value of an asset to an attacker
+- The t
+
 ## Risk identification 
 
 ## Risk management steps 
