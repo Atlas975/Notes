@@ -13,15 +13,18 @@ ___
 # Risk management
 - The process of identifying, analysing, and either accepting or mitigating risks.
 - A risk is the potential for loss, damage, or any other negative occurrence that is caused by a vulnerability. Risk management aims to avoid this through preemptive action
-- Focused on maintaining confidentiality, integrity, availability and non-repudiation
 
 ![[Pasted image 20240427213318.png|350|350]]
 
+- Focused on maintaining confidentiality, integrity, availability and non-repudiation
 - This helps organisations make informed security decisions and aligns cybersecurity efforts with business objectives. Identifying vulnerabilities early also prevents costly incidents 
+
+![[Pasted image 20251020235406.png|350|350]]
 ## Risk management components
-- **Risk treatment**: methods used to manage risks (reduction, transfer, avoidance, or acceptance)
 - **Risk Assessment**: Process of identification, analysis, and evaluation of risks.
+    - **Risk Identification**: Finding risk sources, events and potential consequences
 	- **Risk Analysis**: Understanding the nature and impact of risks.
+- **Risk treatment**: Methods used to manage risks (reduction, transfer, avoidance, or acceptance)
 - **Residual Risk**: The risk that remains after all efforts to identify and eliminate risk.
 - **Security Controls**: Measures implemented to mitigate risks.
 - **Incident Management**: Processes for responding to security incidents.
@@ -36,14 +39,15 @@ ___
 
 ![[Pasted image 20240427213632.png|350|350]]
 
+
 ## Risk assessment types
 - **Qualitative Assessment**: the ranking of threat seriousness based on judgement / experience
 - **Quantitative Assessment**: assigns numerical values or percentages to components like safeguard costs, asset value, and threat frequency
 
+
 ## Risk handling strategies
 - Approaches that organisations and individuals use to manage and mitigate risks
 - Each strategy has its own approach / application depending on the nature / impact of the risk.
- 
 ### Risk avoidance 
 - Involves eliminating the risk by not engaging in the activity that introduces the risk.
 - This strategy is used when the risk has a high probability of occurrence and a high impact, making the cost of the risk too great to accept or mitigate.
@@ -59,11 +63,3 @@ ___
 
 
 
-## Liklihood assessment
-- This is based on the value of an asset to an attacker
-- The thsuu 
-
-## Risk identification 
-
-## Risk management steps 
-- **Identify**: involves identifying and describing risks

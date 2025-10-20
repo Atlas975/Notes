@@ -29,6 +29,11 @@ ___
 - This security is carried out through the application of policy, SETA (security education, training and awareness) and technology
 
 ![[Pasted image 20251002212833.png|250|250]]
+
+- Some example of what different attacks effect:
+    - DDOS attacks impact the availability of data 
+    - Insider attacks impact confidentiality of data 
+    - System errors may impact the integrity of data 
 ## Safety vs security
 - **Security** typically concerns the protection of an entity against intentional  / malicious attacks
 - Passwords are an example of a function that may be insecure but unintentionally so 
