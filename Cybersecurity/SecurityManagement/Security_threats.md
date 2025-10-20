@@ -70,10 +70,11 @@ ___
 
 ![[Pasted image 20251008203447.png|450|450]]
 
-
 ![[Pasted image 20251008204337.png|350|350]]
 
-### Liklihood assessment
+
+## Liklihood assessment
+- The likelihood in this context is an estimate of the chance of a certain attack occuring
 - The likelihood of an attack is assessed based on 4 key factors: 
     - The value of the asset to the attacker 
     - The history of previously successful attacks, successful or not

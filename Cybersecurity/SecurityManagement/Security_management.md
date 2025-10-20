@@ -34,6 +34,8 @@ ___
     - DDOS attacks impact the availability of data 
     - Insider attacks impact confidentiality of data 
     - System errors may impact the integrity of data 
+
+![[Pasted image 20251021000325.png|450|450]]
 ## Safety vs security
 - **Security** typically concerns the protection of an entity against intentional  / malicious attacks
 - Passwords are an example of a function that may be insecure but unintentionally so 
@@ -41,3 +43,10 @@ ___
 - A system can be safe but not secure eg:
 	- A website that only displays information is safe, but not secure if it uses [[Hypertext_transfer_protocol|HTTP]] instead of [[Hypertext_transfer_protocol#HTTPS|HTTPS]] meaning a users connection isn't encrypted 
 	- An unlocked house is safe from the dangers of fire or collapse, but it's not secure because it lacks protection from intruders
+
+## Impact categories 
+- Impacts affect the organisation in different ways depending on origin 
+    - **Primary / Immediate impacts**: result of an event itself (eg data comprise)
+    - **Secondary / future impacts**: result of responding / recovering from an event
+- Secondary impacts may also include outside effects like legal consequences to a response
+- Impacts may also fall into 4 types: ==Operational, Financial, Legal / Regulatory or Reputational==

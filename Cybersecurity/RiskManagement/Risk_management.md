@@ -23,7 +23,8 @@ ___
 ## Risk management components
 - **Risk Assessment**: Process of identification, analysis, and evaluation of risks.
     - **Risk Identification**: Finding risk sources, events and potential consequences
-	- **Risk Analysis**: Understanding the nature and impact of risks.
+	- **Risk Analysis**: Understanding the nature and impact of risks
+	- **Risk Evaluation**: Determines if a risk requires treatment and it's priority + treatment option
 - **Risk treatment**: Methods used to manage risks (reduction, transfer, avoidance, or acceptance)
 - **Residual Risk**: The risk that remains after all efforts to identify and eliminate risk.
 - **Security Controls**: Measures implemented to mitigate risks.
