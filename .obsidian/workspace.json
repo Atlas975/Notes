@@ -149,7 +149,7 @@
               "type": "markdown",
               "state": {
                 "file": "Cybersecurity/RiskManagement/Risk_management.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -248,8 +248,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -1318,13 +1317,13 @@
   },
   "active": "6e55edf0310e4333",
   "lastOpenFiles": [
-    "Cybersecurity/SecurityManagement/Security_management.md",
     "Cybersecurity/SecurityManagement/Security_threats.md",
-    "XX-Attachments/Images/Pasted image 20251021000325.png",
-    "Cybersecurity/RiskManagement/Security_principles.md",
+    "Cybersecurity/SecurityManagement/Security_management.md",
     "Cybersecurity/RiskManagement/Risk_management.md",
-    "XX-Attachments/Images/Pasted image 20251020235406.png",
     "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
+    "Cybersecurity/RiskManagement/Security_principles.md",
+    "XX-Attachments/Images/Pasted image 20251021000325.png",
+    "XX-Attachments/Images/Pasted image 20251020235406.png",
     "Cybersecurity/RiskManagement/Access_controls.md",
     "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
     "Cybersecurity/RiskManagement/Quantitative_privacy.md",
