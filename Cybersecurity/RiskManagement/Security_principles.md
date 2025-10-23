@@ -43,3 +43,6 @@ ___
 ## Attacks and controls 
 - An attack on a system involves the exploitation of a vulnerability 
 - Controls are protective measures designed to contain a vulnerability
+
+
+## T
