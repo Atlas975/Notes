@@ -74,7 +74,10 @@ ___
 ![[Pasted image 20251026002716.png|450|450]]
 
 ## Legal risk compliance
-- Describes the obligatory standards / policies that must be met legally. 
+- Describes the obligatory standards / policies that must be met legally. These aim to protect sensitive information on the users part. 
 - Non-compliance can come at the cost of business interruption and external fees. Non-financial consequences such as reputation loss are also a cost to consider
 
 ![[Pasted image 20251026003746.png|450|450]]
+
+- These vary across borders, data is subject to the laws of the country where its stored
+- Organisations operating globally need to navigate conflicting legal expectations
