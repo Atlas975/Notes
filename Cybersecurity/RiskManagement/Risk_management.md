@@ -46,9 +46,13 @@ ___
 - **Quantitative Assessment**: assigns numerical values or percentages to components like safeguard costs, asset value, and threat frequency
 
 
-## Risk handling strategies
+## Risk handling methods
 - Approaches that organisations and individuals use to manage and mitigate risks
-- Each strategy has its own approach / application depending on the nature / impact of the risk.
+- Selecting a risk method requires accounting for multiple factors such as:
+    1. Cost of using the method (eg tool costs, licensing, expertise)
+    2. Scope of the project (is the method proportionate to whats being assessed)
+    3. Are the required resources sustainable in the long term
+    4. Can key partners work with this method
 ### Risk avoidance 
 - Involves eliminating the risk by not engaging in the activity that introduces the risk.
 - This strategy is used when the risk has a high probability of occurrence and a high impact, making the cost of the risk too great to accept or mitigate.
@@ -62,10 +66,3 @@ ___
 - Involves choosing to accept the risk without taking any immediate action to mitigate it.
 - This strategy is appropriate for low-probability or low-impact risks where the cost of mitigation would exceed the potential loss.
 
-
-## Selecting a risk method / framework
-- Selecting a risk method requires accounting for multiple factors such as:
-    1. Cost of using the method (eg tool costs, licensing, expertise)
-    2. Scope of the project (is the method proportionate to whats being assessed)
-    3. Are the required resources sustainable in the long term
-    4. Can key partners work with this method
