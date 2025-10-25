@@ -63,4 +63,9 @@ ___
 - This strategy is appropriate for low-probability or low-impact risks where the cost of mitigation would exceed the potential loss.
 
 
-## Risk management frameworks
+## Selecting a risk method / framework
+- Selecting a risk method requires accounting for multiple factors such as:
+    1. Cost of using the method (eg tool costs, licensing, expertise)
+    2. Scope of the project (is the method proportionate to whats being assessed)
+    3. Are the required resources sustainable in the long term
+    4. Can key partners work with this method
