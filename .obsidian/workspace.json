@@ -148,13 +148,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
+                "file": "Cybersecurity/RiskManagement/Security_models.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Vulnerability_analysis"
+              "title": "Security_models"
             }
           }
         ],
@@ -235,13 +235,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
+                "file": "Cybersecurity/RiskManagement/Security_models.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Vulnerability_analysis"
+              "title": "Outline of Security_models"
             }
           }
         ]
@@ -1318,12 +1318,12 @@
   "active": "6e55edf0310e4333",
   "lastOpenFiles": [
     "Cybersecurity/RiskManagement/Security_economics.md",
+    "Cybersecurity/RiskManagement/Security_models.md",
+    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
     "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
     "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
     "Cybersecurity/SecurityManagement/Security_management.md",
     "Cybersecurity/RiskManagement/Security_principles.md",
-    "Cybersecurity/RiskManagement/Security_models.md",
-    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
     "Cybersecurity/RiskManagement/Risk_management.md",
     "Cybersecurity/SecurityManagement/Security_threats.md",
     "XX-Attachments/Images/Pasted image 20251021000325.png",
