@@ -22,7 +22,7 @@ ___
 ![[Pasted image 20251020235406.png|350|350]]
 ## Risk management components
 - **Risk Assessment**: Process of identification, analysis, and evaluation of risks.
-    - **Risk Identification**: Finding risk sources, events and potential consequences
+	- **Risk Identification**: Finding risk sources, events and potential consequences
 	- **Risk Analysis**: Understanding the nature and impact of risks
 	- **Risk Evaluation**: Determines if a risk requires treatment and it's priority + treatment option
 - **Risk treatment**: Methods used to manage risks (reduction, transfer, avoidance, or acceptance)
@@ -42,18 +42,23 @@ ___
 
 
 ## Risk assessment types
-- **Qualitative Assessment**: the ranking of threat seriousness based on judgement / experience
-- **Quantitative Assessment**: assigns numerical values or percentages to components like safeguard costs, asset value, and threat frequency
+- Risk assessments can be performed in two ways:
+	- **Qualitative Assessment**: the ranking of threat seriousness based on judgement / experience
+	- **Quantitative Assessment**: assigns numerical values or percentages to components like safeguard costs, asset value, and threat frequency
+- A good way of documenting risks for further evaluation is through a threat table:
 
+![[Pasted image 20251026003108.png|550|550]]
 
-## Risk handling methods
+## Risk handling / control methods
 - Approaches that organisations and individuals use to manage and mitigate risks
 - Selecting a risk method requires accounting for multiple factors such as:
-    1. Cost of using the method (eg tool costs, licensing, expertise)
-    2. Scope of the project (is the method proportionate to whats being assessed)
-    3. Are the required resources sustainable in the long term
-    4. Can key partners work with this method
-### Risk avoidance 
+	1. Cost of using the method (eg tool costs, licensing, expertise)
+	2. Scope of the project (is the method proportionate to whats being assessed)
+	3. Are the required resources sustainable in the long term
+	4. Can key partners work with this method
+
+![[Pasted image 20251026002423.png|450|450]]
+### Risk avoidance
 - Involves eliminating the risk by not engaging in the activity that introduces the risk.
 - This strategy is used when the risk has a high probability of occurrence and a high impact, making the cost of the risk too great to accept or mitigate.
 ### Risk transfer
@@ -66,3 +71,10 @@ ___
 - Involves choosing to accept the risk without taking any immediate action to mitigate it.
 - This strategy is appropriate for low-probability or low-impact risks where the cost of mitigation would exceed the potential loss.
 
+![[Pasted image 20251026002716.png|450|450]]
+
+## Legal risk compliance
+- Describes the obligatory standards / policies that must be met legally. 
+- Non-compliance can come at the cost of business interruption and external fees. Non-financial consequences such as reputation loss are also a cost to consider
+
+![[Pasted image 20251026003746.png|450|450]]
