@@ -43,3 +43,5 @@ ___
 - The noise that's added is typically sampled from a Laplace distribution 
 
 ![[Pasted image 20240429143220.png|400|400]]
+
+
