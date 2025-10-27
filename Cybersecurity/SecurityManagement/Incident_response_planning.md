@@ -1,5 +1,5 @@
 ---
-alias: IAM
+alias: IRP
 ---
 > [!important]- Metadata
 > **Tags:** #Cybersecurity 
@@ -12,5 +12,5 @@ alias: IAM
 > ```
 
 ___
-# Identity & access management
-- Strong IAM polices are meant to prevent unwanted access to a system, also helping with regulatory compliance
+# Incident response planning
+- 
