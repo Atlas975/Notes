@@ -1,6 +1,7 @@
 ---
 alias: IRP
 ---
+
 > [!important]- Metadata
 > **Tags:** #Cybersecurity 
 > **Located:** Cybersecurity/SecurityManagement
@@ -13,4 +14,4 @@ alias: IRP
 
 ___
 # Incident response planning
-- 
+- Strong IRP polices are meant to prepare for what happens when a system is comprised, this can be taught of as a reactive security system while [[Identity&access_management|IAM]] acts as a proactive system
