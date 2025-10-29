@@ -33,7 +33,7 @@ ___
 ### Authentication
 - Authentication is done based on private information, this comes in 3 forms:
 	- **Authentication by knowledge**: something a person knows 
-	- **Authentication by ownership**: something a person has 
+	- **Authentication by ownership / token**: something a person has 
 	- **Authentication by characteristic**: something a person is
 - Strong authentication uses multiple of these (eg two-factor authentication
 - Single sign-on (SSO) systems make this more convenient by having one authentication platform that acts as security for multiple systems 
