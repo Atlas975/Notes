@@ -20,9 +20,13 @@ ___
 ### Key properties
 - **No read-up**: A subject may not read data at a higher security level 
 - **No write-down**: : A subject may not write (but can read) to data at a lower security level
+
+![[Pasted image 20251029214032.png|300|300]]
 ## Biba model 
 - Focuses on **integrity** and is ideal for environments where data corruption poses a risk
 - Ensures that data remains accurate and uncorrupted by preventing improper data modification and ensuring that higher integrity levels are not influenced by lower ones.
 ### Key properties 
 - **No write-up**:  subject may not write (but can read) data to a higher integrity level 
 - **No read-down** subject may not read data from a lower integrity level 
+
+![[Pasted image 20251029214150.png|300|300 ]]
