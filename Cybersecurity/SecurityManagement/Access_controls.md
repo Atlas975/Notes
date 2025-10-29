@@ -46,11 +46,12 @@ ___
 - Various policies exist offering tradeoffs in security/practicality, often make use of [[Security_models|security models]]
 ### Mandatory Access Control (MAC)
 - **Predefined Access Control**: access is decided by strict, fixed rules set only by the sysadmin
-- **Security Labels**: every file has a label stating the clearance level required for access 
+- **Security Labels**: every file has a label stating the clearance level required for access
+
+![[Pasted image 20251029212908.png|250|250]]
 ### Discretionary Access Control (DAC)
 - **User-Set Permissions**: the subject who creates a file can control permissions that are stored. 
-- **Varient storage**: permissions can be stored via
-- **Access Control tuple**: access rules are defined as [[Linux_permissions|tuples]] (object, source, access)
+- **Variant storage**: permissions can be stored via the subject (capability list) or the object (AC list)
 
 ![[Pasted image 20240426155632.png|400|400]]
 ### Role-Based Access Control (RBAC)

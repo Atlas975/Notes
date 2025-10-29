@@ -16,7 +16,7 @@ ___
 ## Bell-LaPadula model
 - Focuses on **confidentiality** and is suitable for environments where the primary concern is the unauthorised disclosure of information
 - Ensures that information flows in a controlled manner, generally preventing information from flowing from higher classified levels to lower ones
--  Uses a set of access control rules based on security labels (classification levels) assigned to both subjects and objects
+-  Uses a set of AC rules based on security labels (classification levels) assigned to subjects and objects
 ### Key properties
 - **No read-up**: A subject may not read data at a higher security level 
 - **No write-down**: : A subject may not write (but can read) to data at a lower security level

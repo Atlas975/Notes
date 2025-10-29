@@ -148,8 +148,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Access_controls.md",
-                "mode": "source",
+                "file": "Cybersecurity/SecurityManagement/Access_controls.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -163,7 +163,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Access_controls.md",
+                "file": "Cybersecurity/SecurityManagement/Access_controls.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -238,7 +238,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Security_principles.md",
+                "file": "Cybersecurity/SecurityManagement/Security_principles.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -253,8 +253,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Security_models.md",
-                "mode": "source",
+                "file": "Cybersecurity/SecurityManagement/Security_models.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -340,7 +340,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Access_controls.md",
+                "file": "Cybersecurity/SecurityManagement/Access_controls.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -1422,15 +1422,21 @@
   },
   "active": "34530083790da39a",
   "lastOpenFiles": [
-    "Databases/Access_routines.md",
+    "Cybersecurity/SecurityManagement/Security_principles.md",
+    "Cybersecurity/SecurityManagement/Security_models.md",
     "Cybersecurity/SecurityManagement/Identity&access_management.md",
-    "Cybersecurity/RiskManagement/Access_controls.md",
-    "Cybersecurity/RiskManagement/Security_principles.md",
-    "Cybersecurity/RiskManagement/Risk_management.md",
     "Cybersecurity/SecurityManagement/Incident_response_planning.md",
+    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
+    "Cybersecurity/RiskManagement/Security_economics.md",
+    "Cybersecurity/RiskManagement/Quantitative_privacy.md",
+    "Cybersecurity/SecurityManagement/Security_management.md",
+    "Cybersecurity/SecurityManagement/Security_threats.md",
+    "Cybersecurity/SecurityManagement/Access_controls.md",
+    "XX-Attachments/Images/Pasted image 20251029212908.png",
+    "Databases/Access_routines.md",
+    "Cybersecurity/RiskManagement/Risk_management.md",
     "XX-Attachments/Images/Pasted image 20251028215600.png",
     "Cybersecurity/Cryptography.md",
-    "Cybersecurity/SecurityManagement/Security_management.md",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
     "DataStructures/CacheStructures/LRU.md",
     "Algorithms/ProgrammingPatterns/Arrays&Hashing_algorithms.md",
@@ -1438,15 +1444,10 @@
     "SoftwarePatterns/Behavioral/Command_pattern.md",
     "SoftwareEngineering/Recursion.md",
     "SoftwareDesign/InformationSystems/Liability&Intellectual_property.md",
-    "Cybersecurity/RiskManagement/Quantitative_privacy.md",
-    "Cybersecurity/RiskManagement/Security_economics.md",
     "XX-Attachments/Images/Pasted image 20251026003746.png",
-    "Cybersecurity/RiskManagement/Security_models.md",
     "XX-Attachments/Images/Pasted image 20251026003108.png",
     "XX-Attachments/Images/Pasted image 20251026002716.png",
     "XX-Attachments/Images/Pasted image 20251026002423.png",
-    "Cybersecurity/SecurityManagement/Security_threats.md",
-    "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
     "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
     "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
     "XX-Attachments/Images/Pasted image 20251021000325.png",
@@ -1456,7 +1457,6 @@
     "Cybersecurity/Salt.md",
     "XX-Attachments/Images/Pasted image 20251008204431.png",
     "XX-Attachments/Images/Pasted image 20251008204337.png",
-    "XX-Attachments/Images/Pasted image 20251008203447.png",
     "Cybersecurity/SecurityManagement",
     "MachineLearning/TimeSeriesAnalysis",
     "MachineLearning/EnsembleLearning",
