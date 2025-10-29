@@ -11,18 +11,15 @@
 
 ___
 # Access controls
-- Set of security features that control how users and systems interact
-- Helps enforce [[Security_principles|security principles]] by prevent unauthorised access
-- Level of authorisation is determined after successful authentication
-- AC policies are enforced by AC mechanisms, AC models are mathematical models designed to enforce these on a target system
+- Set of security features that control how users and systems interact. These help enforce [[Security_principles|security principles]] by preventing unauthorised access
+- Level of authorisation is determined after successful authentication. AC policies are enforced by AC mechanisms, AC models are mathematical models designed to enforce these on a target system
 
 ![[Pasted image 20240425160551.png|250|250]]
 
 ## Access control components
-- **Access**: flow of information between subject and an object 
+- **Access right**: flow of information between subject and an object 
 - **Subjects**: active entities that requests access to an object or it's data 
 - **Objects**:  passive entities that contain information
-
 ## Steps for subject to access an object
 ![[Pasted image 20240425151529.png|275|275]]
 
@@ -35,7 +32,7 @@ ___
 	- **Authentication by knowledge**: something a person knows 
 	- **Authentication by ownership / token**: something a person has 
 	- **Authentication by characteristic**: something a person is
-- Strong authentication uses multiple of these (eg two-factor authentication
+- Strong authentication uses multiple of these (eg two-factor authentication)
 - Single sign-on (SSO) systems make this more convenient by having one authentication platform that acts as security for multiple systems 
 ### Authorisation
 - The access given to the subject based on trust and subject's need-to-know.
@@ -51,7 +48,8 @@ ___
 - **Predefined Access Control**: access is decided by strict, fixed rules set only by the sysadmin
 - **Security Labels**: every file has a label stating the clearance level required for access 
 ### Discretionary Access Control (DAC)
-- **User-Set Permissions**: the person who makes a file can control permissions regarding it 
+- **User-Set Permissions**: the subject who creates a file can control permissions that are stored. 
+- **Varient storage**: permissions can be stored via
 - **Access Control tuple**: access rules are defined as [[Linux_permissions|tuples]] (object, source, access)
 
 ![[Pasted image 20240426155632.png|400|400]]
