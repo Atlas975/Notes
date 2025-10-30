@@ -71,3 +71,7 @@ ___
 ### Risk-Adaptive Access Control (RAdAC)
 - **Risk Evaluation**: access rights can change based on real-time risks 
 - **Context-Sensitive Adaptation**: increased security responsiveness to potential threats
+
+## Single sign on (SSO)
+- An authentication method that allows user to sign in with only 1  set of credentials to multiple independent software systems. 
+- Centralised authentication with SSO helps reduce the risk of password related breaches, this also reduces administrative overhead for IT teams allowing for easier system scaling 
