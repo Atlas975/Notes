@@ -15,7 +15,7 @@ alias: IAM
 ___
 # Identity & access management
 - Strong IAM polices are meant to prevent unwanted access to a system, also helping with regulatory compliance and the reduction of human error on a system 
-- The core goal of this is to strike a balance between the usability and [[Access_controls|security of a system]]. This is especially important to consider with lengthier multi-factor authentication  
+- The core goal of this is to strike a balance between the usability and security of a system. This is especially important to consider with lengthier multi-factor authentication  
 
 
 ![[Pasted image 20251028215600.png|350|350]]
