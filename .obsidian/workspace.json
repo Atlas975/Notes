@@ -148,13 +148,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/SecurityManagement/Access_controls.md",
-                "mode": "preview",
+                "file": "Cybersecurity/SecurityManagement/Incident_response_planning.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Access_controls"
+              "title": "Incident_response_planning"
             }
           },
           {
@@ -340,21 +340,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/SecurityManagement/Access_controls.md",
+                "file": "Cybersecurity/SecurityManagement/Incident_response_planning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Access_controls"
+              "title": "Outline of Incident_response_planning"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -1423,9 +1422,11 @@
   },
   "active": "34530083790da39a",
   "lastOpenFiles": [
-    "Cybersecurity/SecurityManagement/Identity&access_management.md",
-    "Cybersecurity/SecurityManagement/Access_controls.md",
+    "XX-Attachments/Images/Pasted image 20251031153840.png",
+    "Cybersecurity/SecurityManagement/Untitled.md",
     "Cybersecurity/SecurityManagement/Incident_response_planning.md",
+    "Cybersecurity/SecurityManagement/Access_controls.md",
+    "Cybersecurity/SecurityManagement/Identity&access_management.md",
     "Cybersecurity/SecurityManagement/Security_management.md",
     "Cybersecurity/SecurityManagement/Security_models.md",
     "XX-Attachments/Images/Pasted image 20251029214150.png",
@@ -1457,7 +1458,6 @@
     "XX-Attachments/Images/Pasted image 20251021000325.png",
     "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
     "Cybersecurity/Hashing.md",
-    "Cybersecurity/Salt.md",
     "Cybersecurity/SecurityManagement",
     "MachineLearning/TimeSeriesAnalysis",
     "MachineLearning/EnsembleLearning",
