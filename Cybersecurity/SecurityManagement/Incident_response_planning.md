@@ -19,3 +19,13 @@ ___
 
 ![[Pasted image 20251031153840.png|450|450]]
 
+## Plan and prepare 
+
+## Detect and report 
+
+## Assess & decide 
+
+## Response 
+
+
+## Lesson learnt
