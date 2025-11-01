@@ -148,13 +148,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/SecurityManagement/Incident_response_planning.md",
+                "file": "Cybersecurity/RiskManagement/Risk_management.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Incident_response_planning"
+              "title": "Risk_management"
             }
           },
           {
@@ -340,13 +340,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/SecurityManagement/Incident_response_planning.md",
+                "file": "Cybersecurity/RiskManagement/Risk_management.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Incident_response_planning"
+              "title": "Outline of Risk_management"
             }
           }
         ]
@@ -1422,9 +1422,9 @@
   },
   "active": "34530083790da39a",
   "lastOpenFiles": [
+    "Cybersecurity/SecurityManagement/Incident_response_planning.md",
     "XX-Attachments/Images/Pasted image 20251031153840.png",
     "Cybersecurity/SecurityManagement/Untitled.md",
-    "Cybersecurity/SecurityManagement/Incident_response_planning.md",
     "Cybersecurity/SecurityManagement/Access_controls.md",
     "Cybersecurity/SecurityManagement/Identity&access_management.md",
     "Cybersecurity/SecurityManagement/Security_management.md",
@@ -1455,7 +1455,6 @@
     "XX-Attachments/Images/Pasted image 20251026002423.png",
     "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
     "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
-    "XX-Attachments/Images/Pasted image 20251021000325.png",
     "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
     "Cybersecurity/Hashing.md",
     "Cybersecurity/SecurityManagement",
