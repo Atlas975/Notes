@@ -29,4 +29,5 @@ ___
 - **No write-up**:  subject may not write (but can read) data to a higher integrity level 
 - **No read-down** subject may not read data from a lower integrity level 
 
+
 ![[Pasted image 20251029214150.png|300|300 ]]

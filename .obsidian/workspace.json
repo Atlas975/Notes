@@ -148,13 +148,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Risk_management.md",
+                "file": "Cybersecurity/SecurityManagement/Security_management.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Risk_management"
+              "title": "Security_management"
             }
           },
           {
@@ -340,13 +340,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/RiskManagement/Risk_management.md",
+                "file": "Cybersecurity/SecurityManagement/Security_management.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Risk_management"
+              "title": "Outline of Security_management"
             }
           }
         ]
@@ -1422,13 +1422,14 @@
   },
   "active": "34530083790da39a",
   "lastOpenFiles": [
+    "Cybersecurity/SecurityManagement/Security_models.md",
     "Cybersecurity/SecurityManagement/Incident_response_planning.md",
+    "Cybersecurity/SecurityManagement/Identity&access_management.md",
+    "Cybersecurity/RiskManagement/Risk_management.md",
     "XX-Attachments/Images/Pasted image 20251031153840.png",
     "Cybersecurity/SecurityManagement/Untitled.md",
     "Cybersecurity/SecurityManagement/Access_controls.md",
-    "Cybersecurity/SecurityManagement/Identity&access_management.md",
     "Cybersecurity/SecurityManagement/Security_management.md",
-    "Cybersecurity/SecurityManagement/Security_models.md",
     "XX-Attachments/Images/Pasted image 20251029214150.png",
     "XX-Attachments/Images/Pasted image 20251029214133.png",
     "XX-Attachments/Images/Pasted image 20251029214032.png",
@@ -1439,7 +1440,6 @@
     "Cybersecurity/SecurityManagement/Security_threats.md",
     "XX-Attachments/Images/Pasted image 20251029212908.png",
     "Databases/Access_routines.md",
-    "Cybersecurity/RiskManagement/Risk_management.md",
     "XX-Attachments/Images/Pasted image 20251028215600.png",
     "Cybersecurity/Cryptography.md",
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
