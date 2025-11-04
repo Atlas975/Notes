@@ -16,7 +16,9 @@ ___
 
 ![[Pasted image 20240425160551.png|250|250]]
 
-## Access control components
+- Strong ==identity and access management (IAM)== polices are meant to prevent unwanted access to a system, also helping with regulatory compliance and the reduction of human error on a system 
+- The core goal of this is to strike a balance between the usability and security of a system. This is especially important to consider with lengthier multi-factor authentication
+## Access control elements
 - **Access right**: flow of information between subject and an object 
 - **Subjects**: active entities that requests access to an object or it's data 
 - **Objects**:  passive entities that contain information
@@ -73,5 +75,7 @@ ___
 - **Context-Sensitive Adaptation**: increased security responsiveness to potential threats
 
 ## Single sign on (SSO)
-- An authentication method that allows user to sign in with only 1  set of credentials to multiple independent software systems. 
+- An authentication method that allows user to sign in with only 1  set of credentials to multiple independent software systems. Useful in an IAM
 - Centralised authentication with SSO helps reduce the risk of password related breaches, this also reduces administrative overhead for IT teams allowing for easier system scaling 
+
+## IAM in modern workplaces 

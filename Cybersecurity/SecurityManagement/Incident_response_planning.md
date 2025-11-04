@@ -14,7 +14,7 @@ alias: IRP
 
 ___
 # Incident response planning
-- Strong IRP polices are meant to prepare for what happens when a system is comprised, this can be taught of as a reactive security system while [[Identity&access_management|IAM]] acts as a proactive system
+- Strong IRP polices are meant to prepare for what happens when a system is comprised, this can be taught of as a reactive security system while [[Access_controls|IAM]] acts as a proactive system
 - Developing these predefined responses enables an organisation to react quickly to a detected incident. This may also require an incident response team (IRT)
 
 ![[Pasted image 20251031153840.png|450|450]]
