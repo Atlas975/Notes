@@ -78,4 +78,10 @@ ___
 - An authentication method that allows user to sign in with only 1  set of credentials to multiple independent software systems. Useful in an IAM
 - Centralised authentication with SSO helps reduce the risk of password related breaches, this also reduces administrative overhead for IT teams allowing for easier system scaling 
 
-## IAM in modern workplaces 
+## IAM in modern workplaces
+- IAM is a critical control of any digital business, and its policy is often defined by the permissions and workflows needed for businesses
+- Numerous risks and challenges come with this
+	- Shadow IT (staff using unauthorised tools, common in remote work)
+	- App sprawl (company accumulates too many software applications, complicating workflows)
+	- Password reuse and shared logins (no accountability if a breach occurs)
+- Many of these challenges can be solved with alerts for unusual access behaviour, enforced MFA, a centralised IAM platform, automated onboarding / off-boarding and regular access reviews

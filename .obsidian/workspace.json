@@ -163,13 +163,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/SecurityManagement/Access_controls.md",
+                "file": "Cybersecurity/SecurityManagement/Incident_response_planning.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Access_controls"
+              "title": "Incident_response_planning"
             }
           },
           {
@@ -355,13 +355,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/SecurityManagement/Access_controls.md",
+                "file": "Cybersecurity/SecurityManagement/Incident_response_planning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Access_controls"
+              "title": "Outline of Incident_response_planning"
             }
           }
         ]
@@ -1457,8 +1457,10 @@
   },
   "active": "e386460ff5712e0e",
   "lastOpenFiles": [
-    "Cybersecurity/SecurityManagement/Incident_response_planning.md",
+    "XX-Attachments/Images/Pasted image 20251104174140.png",
+    "XX-Attachments/Images/Pasted image 20251104174005.png",
     "Cybersecurity/SecurityManagement/Access_controls.md",
+    "Cybersecurity/SecurityManagement/Incident_response_planning.md",
     "Cybersecurity/SecurityManagement/Identity&access_management.md",
     "Cybersecurity/SecurityManagement/Security_management.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
@@ -1490,9 +1492,7 @@
     "XX-Attachments/Images/Pasted image 20251026003746.png",
     "XX-Attachments/Images/Pasted image 20251026003108.png",
     "XX-Attachments/Images/Pasted image 20251026002716.png",
-    "XX-Attachments/Images/Pasted image 20251026002423.png",
     "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
-    "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
     "Cybersecurity/SecurityManagement",
     "MachineLearning/TimeSeriesAnalysis",
     "MachineLearning/EnsembleLearning",
