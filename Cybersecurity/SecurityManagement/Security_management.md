@@ -50,3 +50,5 @@ ___
     - **Secondary / future impacts**: result of responding / recovering from an event
 - Secondary impacts may also include outside effects like legal consequences to a response
 - Impacts may also fall into 4 types: ==Operational, Financial, Legal / Regulatory or Reputational==
+
+## 
