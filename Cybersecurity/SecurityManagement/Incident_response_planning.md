@@ -23,10 +23,16 @@ ___
 
 ## Contingency planning
 - A [[Risk_management|risk management]] process meant to deal with a disaster after it has occurred, consists of:
-- **Incident response planning (IRP)**: focuses on immediate response 
+- **Incident response planning (IRP)**: focuses on immediate response
 - **Disaster recovery planning (DRP)**: focuses on restoring a system after a disaster has occurred 
 - **Business continuity planning (BCP)**: done concurrently with DRP if major / long-term damage occurs
 ## IRP phases
+- Acts as a documented strategy that outlines how an organisation will respond to various security incidents. This helps in mitigating the impact of a breach
+- Attacks are classified as incidents if:
+    - Are directed against information assets 
+    - Have a realistic chance of success 
+    - Could threaten the [[Security_management#Information security|CIA]] aspects of an information resource 
+
 ![[Pasted image 20251031153840.png|450|450]]
 
 ### Plan and prepare
