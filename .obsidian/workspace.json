@@ -163,13 +163,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/SecurityManagement/Incident_response_planning.md",
+                "file": "Databases/Database_indexing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Incident_response_planning"
+              "title": "Database_indexing"
             }
           },
           {
@@ -355,13 +355,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/SecurityManagement/Incident_response_planning.md",
+                "file": "Databases/Database_indexing.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Incident_response_planning"
+              "title": "Outline of Database_indexing"
             }
           }
         ]
@@ -1457,10 +1457,10 @@
   },
   "active": "e386460ff5712e0e",
   "lastOpenFiles": [
+    "Cybersecurity/SecurityManagement/Incident_response_planning.md",
     "XX-Attachments/Images/Pasted image 20251104174140.png",
     "XX-Attachments/Images/Pasted image 20251104174005.png",
     "Cybersecurity/SecurityManagement/Access_controls.md",
-    "Cybersecurity/SecurityManagement/Incident_response_planning.md",
     "Cybersecurity/SecurityManagement/Identity&access_management.md",
     "Cybersecurity/SecurityManagement/Security_management.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
@@ -1491,7 +1491,6 @@
     "SoftwareDesign/InformationSystems/Liability&Intellectual_property.md",
     "XX-Attachments/Images/Pasted image 20251026003746.png",
     "XX-Attachments/Images/Pasted image 20251026003108.png",
-    "XX-Attachments/Images/Pasted image 20251026002716.png",
     "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
     "Cybersecurity/SecurityManagement",
     "MachineLearning/TimeSeriesAnalysis",
