@@ -21,9 +21,11 @@ ___
 ![[Pasted image 20251104174005.png|450|450]]
 
 
-
-- **Disaster recovery planning (DRP)**
-- **Business continuity planning (BCP)**: occurs concurrently with the DRP when the damage is major or long term
+## Contingency planning
+- A [[Risk_management|risk management]] process meant to deal with a disaster after it has occurred, consists of:
+- **Incident response planning (IRP)**: focuses on immediate response 
+- **Disaster recovery planning (DRP)**: focuses on restoring a system after a disaster has occurred 
+- **Business continuity planning (BCP)**: done concurrently with DRP if major / long-term damage occurs
 ## IRP phases
 ![[Pasted image 20251031153840.png|450|450]]
 
