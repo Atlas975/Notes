@@ -1457,10 +1457,10 @@
             "id": "a17d27e66a90126f",
             "type": "leaf",
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -1482,9 +1482,19 @@
               "icon": "feather-mouse-pointer",
               "title": "Saved Queries"
             }
+          },
+          {
+            "id": "084474c0cb3bf977",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 103
+        "currentTab": 104
       }
     ],
     "direction": "horizontal",
@@ -1510,7 +1520,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "921f587ffeff444a",
+  "active": "084474c0cb3bf977",
   "lastOpenFiles": [
     "Cybersecurity/SecurityManagement/Security_management.md",
     "Cybersecurity/SecurityManagement/Incident_response_planning.md",
