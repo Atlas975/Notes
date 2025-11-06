@@ -194,7 +194,7 @@
               "type": "markdown",
               "state": {
                 "file": "Cybersecurity/SecurityManagement/Incident_response_planning.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -1520,7 +1520,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "084474c0cb3bf977",
+  "active": "6f805fb86068d6c3",
   "lastOpenFiles": [
     "Cybersecurity/SecurityManagement/Security_management.md",
     "Cybersecurity/SecurityManagement/Incident_response_planning.md",
