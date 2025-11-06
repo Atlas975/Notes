@@ -1467,6 +1467,16 @@
             "id": "30d4e5a658d40b51",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "921f587ffeff444a",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -1474,7 +1484,7 @@
             }
           }
         ],
-        "currentTab": 102
+        "currentTab": 103
       }
     ],
     "direction": "horizontal",
@@ -1500,7 +1510,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "6f805fb86068d6c3",
+  "active": "921f587ffeff444a",
   "lastOpenFiles": [
     "Cybersecurity/SecurityManagement/Security_management.md",
     "Cybersecurity/SecurityManagement/Incident_response_planning.md",
