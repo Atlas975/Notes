@@ -36,7 +36,7 @@ ___
 ![[Pasted image 20251031153840.png|450|450]]
 
 ### Plan and prepare
-
+- Involves establishing an incident response team (IRT) and defining 
 ### Detect and report
 
 ### Assess & decide
