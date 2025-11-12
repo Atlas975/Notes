@@ -36,8 +36,10 @@ ___
 ![[Pasted image 20251031153840.png|450|450]]
 
 ### Plan and prepare
-- Involves establishing an incident response team (IRT) and defining
+- Involves establishing an incident response team (IRT) and updating / testing security policies
+- This also involves forming a relationship with internal / external organisations involved in an event
 ### Detect and report
+- Th
 
 ### Assess & decide
 
