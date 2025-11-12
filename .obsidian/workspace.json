@@ -208,13 +208,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+                "file": "Algorithms/SearchAlgorithms/Prims_algorithm.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Math&Geometry_algorithms"
+              "title": "Prims_algorithm"
             }
           },
           {
@@ -415,13 +415,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+                "file": "Algorithms/SearchAlgorithms/Prims_algorithm.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Math&Geometry_algorithms"
+              "title": "Outline of Prims_algorithm"
             }
           }
         ]
@@ -1557,11 +1557,12 @@
   },
   "active": "e23f9e35ebaf8ca2",
   "lastOpenFiles": [
+    "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
+    "Algorithms/ProgrammingPatterns/Stack_algorithms.md",
+    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
     "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Cybersecurity/SecurityManagement/Incident_response_planning.md",
-    "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
     "Algorithms/ProgrammingPatterns/Trie_algorithms.md",
-    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
     "Algorithms/ProgrammingPatterns/Interval_algorithms.md",
     "Cybersecurity/SecurityManagement/Security_management.md",
     "Cybersecurity/SecurityManagement/Security_principles.md",
@@ -1589,7 +1590,6 @@
     "XX-Attachments/Images/Pasted image 20251029214133.png",
     "XX-Attachments/Images/Pasted image 20251029214032.png",
     "XX-Attachments/Images/Pasted image 20251029212908.png",
-    "Databases/Access_routines.md",
     "XX-Attachments/Images/Pasted image 20251028215600.png",
     "XX-Attachments/Images/Pasted image 20251026003746.png",
     "XX-Attachments/Images/Pasted image 20251026003108.png",
