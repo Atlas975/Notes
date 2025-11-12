@@ -39,7 +39,8 @@ ___
 - Involves establishing an incident response team (IRT) and updating / testing security policies
 - This also involves forming a relationship with internal / external organisations involved in an event
 ### Detect and report
-- Th
+- Involves detecting events, collecting info and reporting on them via manual or automatic means
+- This comprises of the logging protocols needed to troubleshoot an issue
 
 ### Assess & decide
 
