@@ -368,7 +368,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -445,13 +445,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareEngineering/Functional_programming.md",
+                "file": "Cybersecurity/SecurityManagement/Incident_response_planning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Functional_programming"
+              "title": "Outline of Incident_response_planning"
             }
           }
         ]
@@ -1585,10 +1585,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "30614cfbeca38f2f",
+  "active": "8ee5f034a10fc9a2",
   "lastOpenFiles": [
-    "SoftwareEngineering/Programming_paradigms.md",
     "SoftwareEngineering/Functional_programming.md",
+    "SoftwareEngineering/Programming_paradigms.md",
     "Cybersecurity/SecurityManagement/Incident_response_planning.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
     "Algorithms/SearchAlgorithms/Prims_algorithm.md",
