@@ -49,4 +49,4 @@ ___
 - Also involves potential escalation after a review by the IRT team to see if things are under control
 ### Lesson learnt
 - Involves the reviewing, identifying and improvements made to a system in response to the incident
-- These are aided 
+- These are aided by metrics that are fed into a strategy on where to invest in information security controls
