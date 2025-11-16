@@ -14,7 +14,7 @@
 
 ___
 # Command pattern
-- Encapsulates a request / behaviour into a stand alone object containing everything regarding that request. This [[Design_patterns|design pattern]] allows this action to easily be reused, giving the user more flexibility with component usage
+- Encapsulates a request / behaviour into a stand alone object containing everything regarding a request. This [[Design_patterns|design pattern]] allows this action to easily be reused, giving more flexibility with component usage
 - By passing commands as parameters, linked commands can be swapped out at runtime
 
 ![[Pasted image 20230131121726.png|550|550]]
