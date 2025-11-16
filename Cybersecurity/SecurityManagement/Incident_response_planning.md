@@ -29,9 +29,9 @@ ___
 ## IRP phases
 - Acts as a documented strategy that outlines how an organisation will respond to various security incidents. This helps in mitigating the impact of a breach
 - Attacks are classified as incidents if:
-    - Are directed against information assets 
-    - Have a realistic chance of success 
-    - Could threaten the [[Security_management#Information security|CIA]] aspects of an information resource 
+	- Are directed against information assets 
+	- Have a realistic chance of success 
+	- Could threaten the [[Security_management#Information security|CIA]] aspects of an information resource 
 
 ![[Pasted image 20251031153840.png|450|450]]
 
@@ -40,10 +40,13 @@ ___
 - This also involves forming a relationship with internal / external organisations involved in an event
 ### Detect and report
 - Involves detecting events, collecting info and reporting on them via manual or automatic means
-- This comprises of the logging protocols needed to troubleshoot an issue, essential ycbyyeyy ye
+- This comprises of the logging protocols needed to troubleshoot an issue from internal / external sources
 ### Assess & decide
-
+- Involves event info assessment (eg verifying its true) and the decision on if to classify it as an incident
+- This also requires providing the formal procedures for each notified person to follow
 ### Response
-
-
+- The immediate actions taken including the distribution of responsibility depending on incident severity
+- Also involves potential escalation after a review by the IRT team to see if things are under control
 ### Lesson learnt
+- Involves the reviewing, identifying and improvements made to a system in response to the incident
+- These are aided 
