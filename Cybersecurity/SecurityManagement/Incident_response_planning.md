@@ -26,6 +26,7 @@ ___
 - **Incident response planning (IRP)**: focuses on immediate response
 - **Disaster recovery planning (DRP)**: focuses on restoring a system after a disaster has occurred 
 - **Business continuity planning (BCP)**: done concurrently with DRP if major / long-term damage occurs
+
 ## IRP phases
 - Acts as a documented strategy that outlines how an organisation will respond to various security incidents. This helps in mitigating the impact of a breach
 - Attacks are classified as incidents if:
@@ -50,3 +51,8 @@ ___
 ### Lesson learnt
 - Involves the reviewing, identifying and improvements made to a system in response to the incident
 - These are aided by metrics that are fed into a strategy on where to invest in information security controls
+
+
+## NIST incident response 
+- The NIST provides 6 model functions which organisations are advised to implement 
+- Response time is important for damage prevention; hence why it is best to formulate certain incident response plan steps.
