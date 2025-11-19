@@ -23,6 +23,18 @@
             }
           },
           {
+            "id": "811bb9fae915b5b3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
+          },
+          {
             "id": "d4c4da6408d8ca42",
             "type": "leaf",
             "state": {
@@ -112,7 +124,8 @@
               "title": "Security_models"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -189,13 +202,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/SecurityManagement/Incident_response_planning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Incident_response_planning"
+              "title": "Outline"
             }
           }
         ]
@@ -1286,14 +1298,24 @@
             "id": "d1927b27ec66353d",
             "type": "leaf",
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
             "id": "1cfd876717e0c529",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "8d715f99b22edff9",
             "type": "leaf",
             "state": {
               "type": "Saved Queries View",
@@ -1301,9 +1323,19 @@
               "icon": "feather-mouse-pointer",
               "title": "Saved Queries"
             }
+          },
+          {
+            "id": "50a534e54c7a092b",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 106
+        "currentTab": 108
       }
     ],
     "direction": "horizontal",
@@ -1329,7 +1361,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e95a3c69e4b5cff0",
+  "active": "50a534e54c7a092b",
   "lastOpenFiles": [
     "XX-Attachments/Images/Pasted image 20251117221132.png",
     "Cybersecurity/SecurityManagement/Security_threats.md",
