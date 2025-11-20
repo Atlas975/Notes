@@ -84,4 +84,4 @@ ___
 	- Shadow IT (staff using unauthorised tools, common in remote work)
 	- App sprawl (company accumulates too many software applications, complicating workflows)
 	- Password reuse and shared logins (no accountability if a breach occurs)
-- Many of these challenges can be solved with alerts for unusual access behaviour, enforced MFA, a centralised IAM platform, automated onboarding / off-boarding and regular access reviews
+- Many of these challenges can be solved with alerts for unusual access behaviour, enforced MFA, a centralised IAM platform, automated onboarding / off-boarding and regular access reviewsf
