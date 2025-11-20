@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/SecurityManagement/Access_controls.md",
+                "file": "Cybersecurity/RiskManagement/Quantitative_privacy.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Access_controls"
+              "title": "Quantitative_privacy"
             }
           }
         ]
@@ -99,13 +99,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/SecurityManagement/Access_controls.md",
+                "file": "Cybersecurity/RiskManagement/Quantitative_privacy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Access_controls"
+              "title": "Outline of Quantitative_privacy"
             }
           }
         ]
@@ -1261,6 +1261,7 @@
   },
   "active": "e95a3c69e4b5cff0",
   "lastOpenFiles": [
+    "Cybersecurity/SecurityManagement/Access_controls.md",
     "Cybersecurity/SecurityManagement/Incident_response_planning.md",
     "Cybersecurity/SecurityManagement/Security_models.md",
     "Cybersecurity/SecurityManagement/Security_principles.md",
@@ -1269,7 +1270,6 @@
     "Databases/Access_routines.md",
     "XX-Attachments/Images/Pasted image 20251117221132.png",
     "Cybersecurity/SecurityManagement/Security_threats.md",
-    "Cybersecurity/SecurityManagement/Access_controls.md",
     "SoftwareEngineering/Functional_programming.md",
     "Cybersecurity/Operating_system_security.md",
     "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
