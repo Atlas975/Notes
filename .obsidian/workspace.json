@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/SecurityManagement/Security_threats.md",
+                "file": "Cybersecurity/SecurityManagement/Contingency_planning.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Security_threats"
+              "title": "Contingency_planning"
             }
           }
         ],
@@ -130,13 +130,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/SecurityManagement/Security_threats.md",
+                "file": "Cybersecurity/SecurityManagement/Contingency_planning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Security_threats"
+              "title": "Outline of Contingency_planning"
             }
           }
         ]
@@ -1292,6 +1292,7 @@
   },
   "active": "a73dea6e8db5e001",
   "lastOpenFiles": [
+    "Cybersecurity/SecurityManagement/Security_threats.md",
     "Cybersecurity/SecurityManagement/Security_models.md",
     "Cybersecurity/SecurityManagement/Contingency_planning.md",
     "Cybersecurity/SecurityManagement/Incident_response_planning.md",
@@ -1309,7 +1310,6 @@
     "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
     "Databases/Access_routines.md",
     "XX-Attachments/Images/Pasted image 20251117221132.png",
-    "Cybersecurity/SecurityManagement/Security_threats.md",
     "SoftwareEngineering/Functional_programming.md",
     "Cybersecurity/Operating_system_security.md",
     "Cybersecurity/RiskManagement/Vulnerability_analysis.md",
