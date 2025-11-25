@@ -27,23 +27,17 @@ ___
     - **Base (g)**: A small prime number.
     - **Modulus (p)**: A large prime number. 
 - These numbers can be known by anyone and can be reused in multiple sessions.
-
-
 ### Generate Private Keys
 
 - Each party secretly selects a private number.
     - **Alice** chooses a private key **a**.
     - **Bob** chooses a private key **b**. 
 - These numbers are kept secret and never shared
-
-
 ### Compute Public Values
 - Each party computes a public value to share with the other party.
     - **Alice** calculates public value **A** using $A=g^{a}\mod {p}$ 
     - **Bob** calculates his public value **B** using $B=g^{b}\mod {p}$
 - These computed values are sent over the insecure channel.
-
-
 ### Compute the Shared Secret
 - Each computes shared secret using the received public value and their own private key.
     - **Alice** receives **B**, and computes the secret $S=B^{a}\mod {p}$
