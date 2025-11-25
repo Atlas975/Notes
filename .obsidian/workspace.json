@@ -21,8 +21,24 @@
               "icon": "lucide-file",
               "title": "Diffie-Hellman_key_exchange"
             }
+          },
+          {
+            "id": "82bb7d73cfbdefe2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/SortAlgorithms/Sorting_algorithms.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Sorting_algorithms"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,13 +115,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
+                "file": "Algorithms/SortAlgorithms/Sorting_algorithms.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Diffie-Hellman_key_exchange"
+              "title": "Outline of Sorting_algorithms"
             }
           }
         ]
@@ -1259,8 +1275,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e95a3c69e4b5cff0",
+  "active": "82bb7d73cfbdefe2",
   "lastOpenFiles": [
+    "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
     "ContinuousMath/imaginary_numbers.md",
     "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
     "Cybersecurity/EncryptionSchemes/RSA.md",
@@ -1287,7 +1304,6 @@
     "Cybersecurity/Network_security.md",
     "Cybersecurity/SecurityManagement/Security_management.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
-    "Databases/Database_indexing.md",
     "XX-Attachments/Images/Pasted image 20251104174140.png",
     "XX-Attachments/Images/Pasted image 20251104174005.png",
     "XX-Attachments/Images/Pasted image 20251031153840.png",
