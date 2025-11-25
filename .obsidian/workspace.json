@@ -52,8 +52,7 @@
               "title": "Contingency_planning"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,13 +129,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/SecurityManagement/Contingency_planning.md",
+                "file": "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Contingency_planning"
+              "title": "Outline of Diffie-Hellman_key_exchange"
             }
           }
         ]
@@ -1290,11 +1289,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a73dea6e8db5e001",
+  "active": "e95a3c69e4b5cff0",
   "lastOpenFiles": [
+    "Cybersecurity/SecurityManagement/Contingency_planning.md",
     "Cybersecurity/SecurityManagement/Security_threats.md",
     "Cybersecurity/SecurityManagement/Security_models.md",
-    "Cybersecurity/SecurityManagement/Contingency_planning.md",
     "Cybersecurity/SecurityManagement/Incident_response_planning.md",
     "Algorithms/SortAlgorithms/Sorting_algorithms.md",
     "Cybersecurity/EncryptionSchemes/Diffie-Hellman_key_exchange.md",
