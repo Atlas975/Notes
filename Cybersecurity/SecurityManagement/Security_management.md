@@ -52,4 +52,3 @@ ___
 - Impacts may also fall into 4 types: ==Operational, Financial, Legal / Regulatory or Reputational==
 
 
-- The main cause of this is the organisational structure of 
