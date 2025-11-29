@@ -10,4 +10,4 @@
 
 ___
 # Contingency planning
-- If [[Risk_management|risk management]] is about identifying risk and [[Incident_response_planning|incident response planning]] is about reacting to system comprimises, than contingency planning is about making sure an organisation survives and thrives
+- If [[Risk_management|risk management]] is about identifying risk and [[Incident_response_planning|incident response planning]] is about reacting to system attacks, than contingency planning is about making sure an organisation survives after the attack
