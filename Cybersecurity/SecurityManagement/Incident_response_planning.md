@@ -52,5 +52,8 @@ ___
 - Involves the reviewing, identifying and improvements made to a system in response to the incident
 - These are aided by metrics that are fed into a strategy on where to invest in information security controls
 ## NIST incident response 
-- The NIST provides 6 model functions which organisations are advised to implement 
+- The NIST provides 6 model functions which organisations are advised to implement:
+    - **Govern**: 
+    - **Identify**: security risks are understood
+    -  
 - Response time is important for damage prevention; hence why it is best to formulate certain incident response plan steps.
