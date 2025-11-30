@@ -10,7 +10,6 @@
 
 ___
 # Cloud computing
-
 - Provides on-demand leasing of computing resources, allowing users to obtain and configure [[Virtualisation|virtual]] servers and other services with minimal service provider interactions 
 - Highly scalable, on-demand resources can quickly provisioned and released.
 
