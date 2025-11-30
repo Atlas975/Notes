@@ -53,7 +53,10 @@ ___
 - These are aided by metrics that are fed into a strategy on where to invest in information security controls
 ## NIST incident response 
 - The NIST provides 6 model functions which organisations are advised to implement:
-    - **Govern**: 
+    - **Govern**: strategy, expectations and policy established
     - **Identify**: security risks are understood
-    -  
+    -  **Protect**: safeguards are put in place 
+    - **Detect**: vulnerabilities are found and analysed 
+    - **Respond**: actions regarding a potential incident are taken 
+    - **Recover**: assets affected by an incident are restored 
 - Response time is important for damage prevention; hence why it is best to formulate certain incident response plan steps.
