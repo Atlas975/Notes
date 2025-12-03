@@ -118,13 +118,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/FileSystems/File_allocation_schemes.md",
-                "mode": "preview",
+                "file": "Cybersecurity/Network_security.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "File_allocation_schemes"
+              "title": "Network_security"
             }
           }
         ],
@@ -205,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/FileSystems/File_allocation_schemes.md",
+                "file": "Cybersecurity/Network_security.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of File_allocation_schemes"
+              "title": "Outline of Network_security"
             }
           }
         ]
@@ -1367,6 +1367,7 @@
   },
   "active": "fe94eb3c6f736ea1",
   "lastOpenFiles": [
+    "OperatingSystems/FileSystems/File_allocation_schemes.md",
     "Databases/Database_storage.md",
     "Databases/Database_sharding.md",
     "Databases/Database_normalisation.md",
@@ -1392,7 +1393,6 @@
     "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
     "Cybersecurity/RiskManagement/Security_economics.md",
     "Cybersecurity/RiskManagement/Quantitative_privacy.md",
-    "Cybersecurity/SecurityManagement/Access_controls.md",
     "XX-Attachments/Images/Pasted image 20251117221132.png",
     "XX-Attachments/Images/Pasted image 20251104174140.png",
     "XX-Attachments/Images/Pasted image 20251104174005.png",

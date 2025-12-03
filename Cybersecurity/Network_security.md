@@ -22,11 +22,9 @@ ___
 ### Stateful inspection
 -  Operates at the transport and network layer, more advanced than packet filtering as 
 - Can track the state of active connections and filter based on packets that go through an already established connection that's more likely to be safe
-
 ### Proxy firewalls
 - Act as an intermediary for requests from clients seeking resources from other servers, inspecting incoming traffic at the application level
 - This can significantly degrade traffic performance 
-
 ### Dynamic packet filtering
 - An extension of stateful firewalls that can modify rules dynamically based on traffic behaviour 
 - This involves communication with the application layer to determine the ports needed
@@ -50,12 +48,10 @@ ___
 
 
 - **Security Associations (SA)**: Defines the protocols and algorithms for securing data, established through the Internet Key Exchange (IKE) protocol.
-
 ### Modes of Operation
 - Both AH and ESP can operate in two distinct modes:
 	- **Transport Mode**: Encrypts/authenticates data payload; used for end-to-end communication.
 	- **Tunnel Mode**: Encrypts/encapsulates entire packet, used in VPNs to link two networks.
-
 ## Anonymous network
 - Involves using a overlaying network over an existing network (eg Tor)
 - This improves anonymity over the internet using [[Transmission_control_protocol|TCP]] over TLS. This often makes use of the onion routing protocol where only the next router knows the key of the previous router 
