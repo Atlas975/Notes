@@ -118,13 +118,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "OperatingSystems/FileSystems/File_allocation_schemes.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Database_normalisation"
+              "title": "File_allocation_schemes"
             }
           }
         ],
@@ -205,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database_normalisation.md",
+                "file": "OperatingSystems/FileSystems/File_allocation_schemes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Database_normalisation"
+              "title": "Outline of File_allocation_schemes"
             }
           }
         ]
@@ -1367,6 +1367,9 @@
   },
   "active": "fe94eb3c6f736ea1",
   "lastOpenFiles": [
+    "Databases/Database_storage.md",
+    "Databases/Database_sharding.md",
+    "Databases/Database_normalisation.md",
     "Cybersecurity/SecurityManagement/Security_management.md",
     "Cybersecurity/Hashing.md",
     "Cybersecurity/SecurityManagement/Contingency_planning.md",
@@ -1390,9 +1393,6 @@
     "Cybersecurity/RiskManagement/Security_economics.md",
     "Cybersecurity/RiskManagement/Quantitative_privacy.md",
     "Cybersecurity/SecurityManagement/Access_controls.md",
-    "Cybersecurity/SecurityManagement/Security_principles.md",
-    "Cybersecurity/RiskManagement/Risk_management.md",
-    "DistributedSystems/Consensus/Practical_Byzantine_fault_tolerance.md",
     "XX-Attachments/Images/Pasted image 20251117221132.png",
     "XX-Attachments/Images/Pasted image 20251104174140.png",
     "XX-Attachments/Images/Pasted image 20251104174005.png",
