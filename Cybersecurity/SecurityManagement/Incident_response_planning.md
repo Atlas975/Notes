@@ -59,4 +59,7 @@ ___
     - **Detect**: vulnerabilities are found and analysed 
     - **Respond**: actions regarding a potential incident are taken 
     - **Recover**: assets affected by an incident are restored 
-- Response time is important for damage prevention; hence why it is best to formulate certain incident response plan steps.
+- Response time is important for damage prevention; hence why it is best to formulate certain incident response plan steps. 
+- Modern incident response plans like NIST also has the benefit of being non-linear, important for modern [[Distributed_systems|decentralised ]] systems like [[Cloud_computing|cloud computing]]. Multiple internal and external departments 
+
+![[Pasted image 20251204004147.png|450|450]]
