@@ -15,6 +15,6 @@ ___
 
 ## DRP process
 - Regular testing is needed to ensure the DRP works, this can be done in various ways:
-    - **Testing plan**:
-    - **Live exercises**:
+    - **Testing plan**: 
+    - **Live exercises**: scenarios where the organisation's IT systems are put under stress to see how they respond to a simulated disaster. 
     - **Tabletop exercises**: cheap simulation, participants expected to know the plan

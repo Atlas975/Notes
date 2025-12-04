@@ -80,4 +80,3 @@ ___
 	- The history of previously successful attacks, successful or not
 	- The complexity needed for a successful attack 
 	- The cost of an attack (eg how well known)
-- This is also necessary when trying to maintain an appropriate level of security. This understanding of the likelihood is essential for maintaining an appropriate level of security and for making informed decisions on resource allocation.

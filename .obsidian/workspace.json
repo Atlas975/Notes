@@ -88,13 +88,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/SecurityManagement/Security_threats.md",
+                "file": "Cybersecurity/SecurityManagement/Disaster_recovery_planning.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Security_threats"
+              "title": "Disaster_recovery_planning"
             }
           }
         ],
@@ -175,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/SecurityManagement/Security_threats.md",
+                "file": "Cybersecurity/SecurityManagement/Disaster_recovery_planning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Security_threats"
+              "title": "Outline of Disaster_recovery_planning"
             }
           }
         ]
@@ -1368,8 +1368,8 @@
   },
   "active": "f3315aa04b102ab3",
   "lastOpenFiles": [
-    "Cybersecurity/SecurityManagement/Untitled.md",
     "Cybersecurity/SecurityManagement/Security_threats.md",
+    "Cybersecurity/SecurityManagement/Untitled.md",
     "Cybersecurity/Hashing.md",
     "Databases/Access_routines.md",
     "Databases/Database_indexing.md",
