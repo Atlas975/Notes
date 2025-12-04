@@ -89,7 +89,7 @@
               "type": "markdown",
               "state": {
                 "file": "Cybersecurity/SecurityManagement/Security_threats.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -1362,10 +1362,11 @@
       "omnisearch:Omnisearch": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "companion:Toggle completion": false
     }
   },
-  "active": "5d76b5906e4f96f5",
+  "active": "f3315aa04b102ab3",
   "lastOpenFiles": [
     "Cybersecurity/Hashing.md",
     "Databases/Access_routines.md",

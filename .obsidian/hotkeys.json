@@ -658,5 +658,13 @@
       "key": ","
     }
   ],
-  "quick-latex:addInlineMath": []
+  "quick-latex:addInlineMath": [],
+  "companion:accept": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "Tab"
+    }
+  ]
 }
