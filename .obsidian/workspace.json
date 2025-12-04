@@ -88,13 +88,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/SecurityManagement/Disaster_recovery_planning.md",
+                "file": "Databases/Access_routines.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Disaster_recovery_planning"
+              "title": "Access_routines"
             }
           }
         ],
@@ -175,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/SecurityManagement/Disaster_recovery_planning.md",
+                "file": "Databases/Access_routines.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Disaster_recovery_planning"
+              "title": "Outline of Access_routines"
             }
           }
         ]
@@ -1337,16 +1337,17 @@
   },
   "active": "f3315aa04b102ab3",
   "lastOpenFiles": [
+    "Cybersecurity/Salt.md",
+    "Cybersecurity/Hashing.md",
     "Cybersecurity/SecurityManagement/Security_management.md",
-    "Cybersecurity/SecurityManagement/Incident_response_planning.md",
     "Cybersecurity/SecurityManagement/Disaster_recovery_planning.md",
+    "Cybersecurity/SecurityManagement/Incident_response_planning.md",
     "XX-Attachments/Images/Pasted image 20251204004147.png",
     "Cybersecurity/Network_security.md",
     "OperatingSystems/FileSystems/File_allocation_schemes.md",
     "Databases/Database_storage.md",
     "Databases/Database_sharding.md",
     "Databases/Database_normalisation.md",
-    "Cybersecurity/Hashing.md",
     "Cybersecurity/SecurityManagement/Contingency_planning.md",
     "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
     "DistributedSystems/SystemStructure/Distributed_system_design.md",
@@ -1363,7 +1364,6 @@
     "ContinuousMath/imaginary_numbers.md",
     "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
     "Cybersecurity/EncryptionSchemes/RSA.md",
-    "Cybersecurity/RiskManagement/Cyber_threat_analysis.md",
     "XX-Attachments/Images/Pasted image 20251117221132.png",
     "XX-Attachments/Images/Pasted image 20251104174140.png",
     "XX-Attachments/Images/Pasted image 20251104174005.png",
