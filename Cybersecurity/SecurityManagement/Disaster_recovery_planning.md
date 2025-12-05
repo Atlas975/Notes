@@ -18,3 +18,4 @@ ___
     - **Testing plan**: 
     - **Live exercises**: scenarios where the organisation's IT systems are put under stress to see how they respond to a simulated disaster. 
     - **Tabletop exercises**: cheap simulation, participants expected to know the plan
+
