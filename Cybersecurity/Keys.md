@@ -38,7 +38,6 @@ ___
 - **Data Encryption**: Protecting data at rest (eg on hard drives) and in transit 
 - **Digital Signatures**: Ensuring the authenticity and integrity of messages and documents.
 - **Secure Communications**: Enabling confidential / authentic communication channels (eg HTTP)
-
 ## One-time Pad
 - Uses XOR operation between message stream and key-stream
 - Considered unbreakable if used correctly (one time use, secure distribution, random)
