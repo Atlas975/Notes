@@ -41,6 +41,5 @@ ___
 - **Integer overflow**: when an arithmetic operation creates an out of bounds value, can be exploited to cause buffer overflows or put the program in an insecure state 
 - **Code Injection**: makes a program execute unintended commands, result of poor input validation
 - **Buffer overflow**: occurs when data exceeds memory bounds, when this causes a segmentation fault the opportunity arises to insert a malicious payload to be executed
-- 
 
 ![[Pasted image 20240427200252.png|350|350]]
