@@ -23,5 +23,14 @@ ___
 
 
 ## Recovery time objective 
-- Describes how long a system can afford to be offline before costs become overwhelming 
-- 
+- A metric that defines the time to recover an organisation’s IT infrastructure and services following a disaster to ensure business continuity
+- Calculating of this needs to account for cost per hour of the outage, priority of the system and budget
+
+
+![[Pasted image 20251209234221.png|350|350]]
+
+## Recovery point objective 
+- A measure of the max tolerable amount of data that the business can afford to lose during a disaster
+- Useful for determining backup frequency, data will always be lost in an outage but a fixed interval must account for the cost of this thats acceptable 
+
+![[Pasted image 20251209234644.png|350|350]]
