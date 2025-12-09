@@ -96,9 +96,39 @@
               "icon": "lucide-file",
               "title": "Network_security"
             }
+          },
+          {
+            "id": "a3a2c4dfd5ba2c6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/SecurityManagement/Disaster_recovery_planning.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Disaster_recovery_planning"
+            }
+          },
+          {
+            "id": "ed37205247a45fc4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/SecurityManagement/Business_continuity_planning.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Business_continuity_planning"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -175,20 +205,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/Network_security.md",
+                "file": "Cybersecurity/SecurityManagement/Business_continuity_planning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Network_security"
+              "title": "Outline of Business_continuity_planning"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004
+    "width": 398.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "441e4249d5592193",
@@ -1366,22 +1397,23 @@
       "companion:Toggle completion": false
     }
   },
-  "active": "f3315aa04b102ab3",
+  "active": "ed37205247a45fc4",
   "lastOpenFiles": [
+    "Cybersecurity/SecurityManagement/Disaster_recovery_planning.md",
+    "Cybersecurity/SecurityManagement/Business_continuity_planning.md",
+    "XX-Attachments/Images/Pasted image 20251209232028.png",
+    "Cybersecurity/Network_security.md",
     "Cybersecurity/Operating_system_security.md",
     "Cybersecurity/Salt.md",
     "Cybersecurity/Hashing.md",
     "Cybersecurity/Keys.md",
     "Cybersecurity/SecurityManagement/Security_management.md",
-    "Cybersecurity/SecurityManagement/Disaster_recovery_planning.md",
     "Cybersecurity/SecurityManagement/Security_threats.md",
-    "Cybersecurity/SecurityManagement/Untitled.md",
     "Databases/Access_routines.md",
     "Databases/Database_indexing.md",
     "Databases/Database_constraints.md",
     "Cybersecurity/SecurityManagement/Incident_response_planning.md",
     "XX-Attachments/Images/Pasted image 20251204004147.png",
-    "Cybersecurity/Network_security.md",
     "OperatingSystems/FileSystems/File_allocation_schemes.md",
     "Databases/Database_storage.md",
     "Databases/Database_sharding.md",
@@ -1394,7 +1426,6 @@
     "DistributedSystems/Replication/Passive_replication.md",
     "DistributedSystems/Replication/Active_replication.md",
     "DistributedSystems/SystemStructure/Google_infrastructure.md",
-    "DistributedSystems/Distributed_systems.md",
     "XX-Attachments/Images/Pasted image 20251117221132.png",
     "XX-Attachments/Images/Pasted image 20251104174140.png",
     "XX-Attachments/Images/Pasted image 20251104174005.png",
@@ -1403,7 +1434,6 @@
     "XX-Attachments/Images/Pasted image 20251029214133.png",
     "XX-Attachments/Images/Pasted image 20251029214032.png",
     "XX-Attachments/Images/Pasted image 20251029212908.png",
-    "XX-Attachments/Images/Pasted image 20251028215600.png",
     "Cybersecurity/SecurityManagement",
     "MachineLearning/TimeSeriesAnalysis",
     "MachineLearning/EnsembleLearning",
