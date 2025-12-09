@@ -34,7 +34,7 @@ ___
 ### Authentication header (AH)
 - Provides data integrity, origin authentication, and protection against replay attacks
 - These traits ensure data has not been tampered with in transit (using [[Checksum]])
-- Does ot encrypt the data payload so no guarantee of data confidentiality 
+- Does not encrypt the data payload so no guarantee of data confidentiality 
 
 ![[Pasted image 20240427144120.png|400|400]]
 
