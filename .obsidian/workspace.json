@@ -133,13 +133,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/SecurityManagement/Incident_response_planning.md",
+                "file": "Cybersecurity/SecurityManagement/Security_threats.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Incident_response_planning"
+              "title": "Security_threats"
             }
           }
         ],
@@ -220,21 +220,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/SecurityManagement/Incident_response_planning.md",
+                "file": "Cybersecurity/SecurityManagement/Security_threats.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Incident_response_planning"
+              "title": "Outline of Security_threats"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 398.5041847229004,
-    "collapsed": true
+    "width": 398.5041847229004
   },
   "right": {
     "id": "441e4249d5592193",
@@ -1415,6 +1414,8 @@
   "active": "c462c02c8b3da6f1",
   "lastOpenFiles": [
     "Cybersecurity/SecurityManagement/Business_continuity_planning.md",
+    "Cybersecurity/SecurityManagement/Access_controls.md",
+    "Cybersecurity/SecurityManagement/Incident_response_planning.md",
     "XX-Attachments/Images/Pasted image 20251209234644.png",
     "XX-Attachments/Images/Pasted image 20251209234221.png",
     "XX-Attachments/Images/Pasted image 20251209234159.png",
@@ -1431,7 +1432,6 @@
     "Databases/Access_routines.md",
     "Databases/Database_indexing.md",
     "Databases/Database_constraints.md",
-    "Cybersecurity/SecurityManagement/Incident_response_planning.md",
     "XX-Attachments/Images/Pasted image 20251204004147.png",
     "OperatingSystems/FileSystems/File_allocation_schemes.md",
     "Databases/Database_storage.md",
