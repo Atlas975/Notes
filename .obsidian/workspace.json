@@ -1382,6 +1382,26 @@
             "id": "edd06679246de6ec",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "5d76b5906e4f96f5",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "8a44937bcda22d7c",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -1389,7 +1409,7 @@
             }
           },
           {
-            "id": "5d76b5906e4f96f5",
+            "id": "2de0f23e76246cd3",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -1399,7 +1419,7 @@
             }
           }
         ],
-        "currentTab": 111
+        "currentTab": 113
       }
     ],
     "direction": "horizontal",
@@ -1422,11 +1442,10 @@
       "omnisearch:Omnisearch": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "companion:Toggle completion": false
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "6472f93f5032c574",
+  "active": "2de0f23e76246cd3",
   "lastOpenFiles": [
     "Cybersecurity/SecurityManagement/Contingency_planning.md",
     "Cybersecurity/SecurityManagement/Disaster_recovery_planning.md",
