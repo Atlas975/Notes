@@ -148,13 +148,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity/SecurityManagement/Business_continuity_planning.md",
+                "file": "ContinuousMath/Distance_metrics.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Business_continuity_planning"
+              "title": "Distance_metrics"
             }
           }
         ],
@@ -235,13 +235,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/SecurityManagement/Business_continuity_planning.md",
+                "file": "ContinuousMath/Distance_metrics.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Business_continuity_planning"
+              "title": "Outline of Distance_metrics"
             }
           }
         ]
@@ -1445,15 +1445,25 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "2de0f23e76246cd3",
+  "active": "6472f93f5032c574",
   "lastOpenFiles": [
+    "ContinuousMath/Catalan_numbers.md",
+    "Algorithms/Union_find.md",
+    "Algorithms/Lazy_propagation.md",
+    "Algorithms/Trees/Tree_traversal.md",
+    "Algorithms/TimeComplexity/Omega&Theta_Notation.md",
+    "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
+    "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
+    "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
+    "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
+    "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
+    "Cybersecurity/SecurityManagement/Business_continuity_planning.md",
     "Cybersecurity/SecurityManagement/Contingency_planning.md",
     "Cybersecurity/SecurityManagement/Disaster_recovery_planning.md",
     "Cybersecurity/SecurityManagement/Incident_response_planning.md",
     "Cybersecurity/SecurityManagement/Security_management.md",
     "DistributedSystems/SystemStructure/Cloud_computing.md",
     "Cybersecurity/SecurityManagement/Security_threats.md",
-    "Cybersecurity/SecurityManagement/Business_continuity_planning.md",
     "Cybersecurity/SecurityManagement/Access_controls.md",
     "XX-Attachments/Images/Pasted image 20251209234644.png",
     "XX-Attachments/Images/Pasted image 20251209234221.png",
@@ -1469,16 +1479,6 @@
     "Databases/Database_indexing.md",
     "Databases/Database_constraints.md",
     "XX-Attachments/Images/Pasted image 20251204004147.png",
-    "OperatingSystems/FileSystems/File_allocation_schemes.md",
-    "Databases/Database_storage.md",
-    "Databases/Database_sharding.md",
-    "Databases/Database_normalisation.md",
-    "DistributedSystems/SystemStructure/Brewers_CAP_theorem.md",
-    "DistributedSystems/SystemStructure/Distributed_system_design.md",
-    "DistributedSystems/SystemStructure/Blockchain.md",
-    "DistributedSystems/Replication/Passive_replication.md",
-    "DistributedSystems/Replication/Active_replication.md",
-    "DistributedSystems/SystemStructure/Google_infrastructure.md",
     "XX-Attachments/Images/Pasted image 20251117221132.png",
     "XX-Attachments/Images/Pasted image 20251104174140.png",
     "XX-Attachments/Images/Pasted image 20251104174005.png",
