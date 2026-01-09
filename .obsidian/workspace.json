@@ -1402,14 +1402,24 @@
             "id": "8a44937bcda22d7c",
             "type": "leaf",
             "state": {
-              "type": "Saved Queries View",
+              "type": "empty",
               "state": {},
-              "icon": "feather-mouse-pointer",
-              "title": "Saved Queries"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
             "id": "2de0f23e76246cd3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "9d9c3f42bc304545",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -1417,9 +1427,19 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "52530840178cdafa",
+            "type": "leaf",
+            "state": {
+              "type": "Saved Queries View",
+              "state": {},
+              "icon": "feather-mouse-pointer",
+              "title": "Saved Queries"
+            }
           }
         ],
-        "currentTab": 113
+        "currentTab": 115
       }
     ],
     "direction": "horizontal",
@@ -1445,7 +1465,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "6472f93f5032c574",
+  "active": "52530840178cdafa",
   "lastOpenFiles": [
     "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "Cybersecurity/EncryptionSchemes/RSA.md",
