@@ -163,13 +163,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwareDesign/SOLID_principles.md",
-                "mode": "preview",
+                "file": "SoftwareEngineering/Multiagent_systems.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "SOLID_principles"
+              "title": "Multiagent_systems"
             }
           }
         ],
@@ -250,13 +250,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftwareDesign/SOLID_principles.md",
+                "file": "SoftwareEngineering/Multiagent_systems.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SOLID_principles"
+              "title": "Outline of Multiagent_systems"
             }
           }
         ]
@@ -1482,6 +1482,8 @@
   },
   "active": "2bb2790a3b810433",
   "lastOpenFiles": [
+    "SoftwareEngineering/Functional_programming.md",
+    "SoftwareDesign/SOLID_principles.md",
     "OperatingSystems/Paging.md",
     "Algorithms/SearchAlgorithms/Prims_algorithm.md",
     "Algorithms/SearchAlgorithms/Search_algorithms.md",
@@ -1506,8 +1508,6 @@
     "Cybersecurity/SecurityManagement/Contingency_planning.md",
     "Cybersecurity/SecurityManagement/Disaster_recovery_planning.md",
     "Cybersecurity/SecurityManagement/Incident_response_planning.md",
-    "Cybersecurity/SecurityManagement/Security_management.md",
-    "DistributedSystems/SystemStructure/Cloud_computing.md",
     "XX-Attachments/Images/Pasted image 20251209234644.png",
     "XX-Attachments/Images/Pasted image 20251209234221.png",
     "XX-Attachments/Images/Pasted image 20251209234159.png",
