@@ -25,7 +25,7 @@ def primsMST(graph, start) -> int:
     pq = [(0, start)]  
     mst_cost = 0 # use a stack to backtrack
     while need:
-        while pq[0][1] not in need:
+        while pq[0][1] not in need
             heapq.heappop(pq)
         udist, u = heapq.heappop(pq)
         need.remove(u)
