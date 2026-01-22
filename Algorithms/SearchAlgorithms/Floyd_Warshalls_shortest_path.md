@@ -13,7 +13,6 @@ ___
 # Floyd Warshall's shortest path
 - Finds the shortest path between all pairs of vertices in a [[Graphs|graph]], works with negative edges but is not able to work with negative cycles 
 - The goal of the algorithm is to eventually consider going through all possible intermediate nodes on paths of differing lengths
-
 ## Floyd Warshall's algorithm
 
 ```python

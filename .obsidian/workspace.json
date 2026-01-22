@@ -148,13 +148,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Prims_algorithm.md",
+                "file": "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Prims_algorithm"
+              "title": "Floyd_Warshalls_shortest_path"
             }
           }
         ],
@@ -235,13 +235,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Prims_algorithm.md",
+                "file": "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Prims_algorithm"
+              "title": "Outline of Floyd_Warshalls_shortest_path"
             }
           }
         ]
@@ -1487,6 +1487,7 @@
   },
   "active": "6472f93f5032c574",
   "lastOpenFiles": [
+    "Algorithms/SearchAlgorithms/Prims_algorithm.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
@@ -1494,7 +1495,6 @@
     "SoftwareEngineering/Functional_programming.md",
     "SoftwareDesign/SOLID_principles.md",
     "OperatingSystems/Paging.md",
-    "Algorithms/SearchAlgorithms/Prims_algorithm.md",
     "Algorithms/SearchAlgorithms/Search_algorithms.md",
     "Algorithms/SearchAlgorithms/Dijkstras_shortest_path.md",
     "Cybersecurity/EncryptionSchemes/RSA.md",
