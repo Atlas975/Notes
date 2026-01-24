@@ -156,9 +156,21 @@
               "icon": "lucide-file",
               "title": "Floyd_Warshalls_shortest_path"
             }
+          },
+          {
+            "id": "5bc0a78af79b0454",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -235,13 +247,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Floyd_Warshalls_shortest_path"
+              "title": "Outline"
             }
           }
         ]
@@ -1442,14 +1453,24 @@
             "id": "8ee55daa82087d74",
             "type": "leaf",
             "state": {
-              "type": "Saved Queries View",
+              "type": "empty",
               "state": {},
-              "icon": "feather-mouse-pointer",
-              "title": "Saved Queries"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
             "id": "8bc4f9640adfd947",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "84cccf70c7118fee",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -1457,9 +1478,19 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "052e9035027e125b",
+            "type": "leaf",
+            "state": {
+              "type": "Saved Queries View",
+              "state": {},
+              "icon": "feather-mouse-pointer",
+              "title": "Saved Queries"
+            }
           }
         ],
-        "currentTab": 117
+        "currentTab": 119
       }
     ],
     "direction": "horizontal",
@@ -1485,7 +1516,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "6472f93f5032c574",
+  "active": "052e9035027e125b",
   "lastOpenFiles": [
     "Algorithms/SearchAlgorithms/Prims_algorithm.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
