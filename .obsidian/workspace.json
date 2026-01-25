@@ -161,12 +161,15 @@
             "id": "5bc0a78af79b0454",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.5"
+                "file": "Cybersecurity/Keys.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.5"
+              "icon": "lucide-file",
+              "title": "Keys"
             }
           }
         ],
@@ -247,12 +250,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Cybersecurity/Keys.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Keys"
             }
           }
         ]
@@ -1516,8 +1520,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "052e9035027e125b",
+  "active": "5bc0a78af79b0454",
   "lastOpenFiles": [
+    "Cybersecurity/SecurityManagement/Contingency_planning.md",
     "Algorithms/SearchAlgorithms/Prims_algorithm.md",
     "Algorithms/ProgrammingPatterns/Dynamic_programming.md",
     "Algorithms/ProgrammingPatterns/Heap_algorithms.md",
@@ -1543,7 +1548,6 @@
     "Algorithms/SearchAlgorithms/Bellman_Fords_shortest_path.md",
     "Algorithms/SearchAlgorithms/Floyd_Warshalls_shortest_path.md",
     "Algorithms/ProgrammingPatterns/Tree_algorithms.md",
-    "Cybersecurity/SecurityManagement/Business_continuity_planning.md",
     "XX-Attachments/Images/Pasted image 20251209234644.png",
     "XX-Attachments/Images/Pasted image 20251209234221.png",
     "XX-Attachments/Images/Pasted image 20251209234159.png",
