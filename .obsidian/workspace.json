@@ -201,9 +201,21 @@
               "icon": "lucide-file",
               "title": "Term_frequency-inverse_document_frequency"
             }
+          },
+          {
+            "id": "34e5b2e2fb57b373",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
+            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -280,13 +292,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Term_frequency-inverse_document_frequency"
+              "title": "Outline"
             }
           }
         ]
@@ -1547,14 +1558,24 @@
             "id": "2d3b1e1f5756f738",
             "type": "leaf",
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
             "id": "33612eea7295408e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "7c8ab3dc49b7a663",
             "type": "leaf",
             "state": {
               "type": "Saved Queries View",
@@ -1562,9 +1583,19 @@
               "icon": "feather-mouse-pointer",
               "title": "Saved Queries"
             }
+          },
+          {
+            "id": "54eaaf4be49e0e43",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 123
+        "currentTab": 125
       }
     ],
     "direction": "horizontal",
@@ -1590,7 +1621,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "6fc948dc42dcde3f",
+  "active": "54eaaf4be49e0e43",
   "lastOpenFiles": [
     "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/Regression/Synergy_effect.md",
