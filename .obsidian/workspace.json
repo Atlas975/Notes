@@ -206,12 +206,15 @@
             "id": "34e5b2e2fb57b373",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.7"
+                "file": "MachineLearning/PyTorch/PyTorch.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.7"
+              "icon": "lucide-file",
+              "title": "PyTorch"
             }
           }
         ],
@@ -292,12 +295,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "MachineLearning/PyTorch/PyTorch.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of PyTorch"
             }
           }
         ]
@@ -1621,8 +1625,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "54eaaf4be49e0e43",
+  "active": "34e5b2e2fb57b373",
   "lastOpenFiles": [
+    "Databases/Database_sharding.md",
     "MachineLearning/Categorical_data_handeling.md",
     "MachineLearning/Regression/Synergy_effect.md",
     "MachineLearning/Regression/Leverage_statistic.md",
@@ -1648,7 +1653,6 @@
     "Algorithms/Lazy_propagation.md",
     "Algorithms/Squareroot_decomposition.md",
     "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
-    "Algorithms/Union_find.md",
     "XX-Attachments/Images/Pasted image 20251209234644.png",
     "XX-Attachments/Images/Pasted image 20251209234221.png",
     "XX-Attachments/Images/Pasted image 20251209234159.png",
