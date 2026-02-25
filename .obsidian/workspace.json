@@ -1582,14 +1582,24 @@
             "id": "7c8ab3dc49b7a663",
             "type": "leaf",
             "state": {
-              "type": "Saved Queries View",
+              "type": "empty",
               "state": {},
-              "icon": "feather-mouse-pointer",
-              "title": "Saved Queries"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
             "id": "54eaaf4be49e0e43",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "92f12a708860929a",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -1597,9 +1607,19 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "f0eb864628dbc8ab",
+            "type": "leaf",
+            "state": {
+              "type": "Saved Queries View",
+              "state": {},
+              "icon": "feather-mouse-pointer",
+              "title": "Saved Queries"
+            }
           }
         ],
-        "currentTab": 125
+        "currentTab": 127
       }
     ],
     "direction": "horizontal",
@@ -1625,7 +1645,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "34e5b2e2fb57b373",
+  "active": "f0eb864628dbc8ab",
   "lastOpenFiles": [
     "Databases/Database_sharding.md",
     "MachineLearning/Categorical_data_handeling.md",
