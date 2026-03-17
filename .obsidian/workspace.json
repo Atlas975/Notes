@@ -216,9 +216,21 @@
               "icon": "lucide-file",
               "title": "Machine_learning_features"
             }
+          },
+          {
+            "id": "d4cdd79f27df6633",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.4"
+            }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -295,13 +307,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/Machine_learning_features.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Machine_learning_features"
+              "title": "Outline"
             }
           }
         ]
@@ -1602,14 +1613,24 @@
             "id": "92f12a708860929a",
             "type": "leaf",
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
             "id": "f0eb864628dbc8ab",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "aa27376dc36bcf97",
             "type": "leaf",
             "state": {
               "type": "Saved Queries View",
@@ -1617,9 +1638,19 @@
               "icon": "feather-mouse-pointer",
               "title": "Saved Queries"
             }
+          },
+          {
+            "id": "4fbdc9859d9d17cf",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 127
+        "currentTab": 129
       }
     ],
     "direction": "horizontal",
@@ -1645,7 +1676,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "34e5b2e2fb57b373",
+  "active": "4fbdc9859d9d17cf",
   "lastOpenFiles": [
     "MachineLearning/FeatureEngineering/Batch_normalisation.md",
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
