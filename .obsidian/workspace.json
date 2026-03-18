@@ -223,13 +223,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+                "file": "Cybersecurity/SecurityManagement/Access_controls.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Genetic_algorithms"
+              "title": "Access_controls"
             }
           }
         ],
@@ -310,13 +310,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
+                "file": "Cybersecurity/SecurityManagement/Access_controls.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Genetic_algorithms"
+              "title": "Outline of Access_controls"
             }
           }
         ]
@@ -1682,13 +1682,23 @@
   },
   "active": "d4cdd79f27df6633",
   "lastOpenFiles": [
+    "Cybersecurity/RiskManagement/Risk_management.md",
+    "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
+    "Cybersecurity/SecurityManagement/Business_continuity_planning.md",
+    "Cybersecurity/RiskManagement/Quantitative_privacy.md",
+    "Cybersecurity/EncryptionSchemes/HMAC.md",
+    "SoftwarePatterns/Structural/Bridge_pattern.md",
+    "SoftwareDesign/UML_diagrams.md",
+    "SoftwareEngineering/OOP_principles.md",
+    "SoftwarePatterns/Behavioral/Iterator_pattern.md",
+    "SoftwareDesign/Finite_state_machines.md",
+    "SoftwareDesign/InformationSystems/Liability&Intellectual_property.md",
+    "MachineLearning/NaturalLanguageProcessing/Natural_language_processing.md",
+    "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
     "MachineLearning/FeatureEngineering/Batch_normalisation.md",
     "Cybersecurity/SecurityManagement/Disaster_recovery_planning.md",
-    "Cybersecurity/RiskManagement/Quantitative_privacy.md",
     "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
     "Cybersecurity/EncryptionSchemes/RSA.md",
-    "Cybersecurity/EncryptionSchemes/HMAC.md",
-    "Cybersecurity/EncryptionSchemes/Asymmetric_encryption.md",
     "MachineLearning/Regression/Logistic_regression.md",
     "MachineLearning/Regression/Synergy_effect.md",
     "MachineLearning/FeatureEngineering/Normalisation.md",
@@ -1698,16 +1708,6 @@
     "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
     "MachineLearning/PyTorch/PyTorch.md",
     "Databases/Database_sharding.md",
-    "MachineLearning/Categorical_data_handeling.md",
-    "MachineLearning/Regression/Leverage_statistic.md",
-    "SoftwarePatterns/Behavioral/Iterator_pattern.md",
-    "SoftwarePatterns/Behavioral/Command_pattern.md",
-    "MachineLearning/TreeModels/Random_forest.md",
-    "MachineLearning/TreeModels/Decision_trees.md",
-    "OperatingSystems/Paging.md",
-    "Cybersecurity/Keys.md",
-    "Cybersecurity/SecurityManagement/Contingency_planning.md",
-    "Algorithms/SearchAlgorithms/Prims_algorithm.md",
     "XX-Attachments/Images/Pasted image 20251209234644.png",
     "XX-Attachments/Images/Pasted image 20251209234221.png",
     "XX-Attachments/Images/Pasted image 20251209234159.png",
