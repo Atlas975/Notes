@@ -293,7 +293,7 @@
             }
           }
         ],
-        "currentTab": 18
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -370,13 +370,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Regularisation/Regularisation.md",
+                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Regularisation"
+              "title": "Outline of Confusion_matrices"
             }
           }
         ]
@@ -1760,8 +1760,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7f2b0b4945635592",
+  "active": "b81cabd8a8dced89",
   "lastOpenFiles": [
+    "MachineLearning/Regularisation/Regularisation.md",
     "MachineLearning/ErrorMeasures/Confusion_matrices.md",
     "Statistics/Mean.md",
     "MachineLearning/Regression/F_score.md",
@@ -1787,7 +1788,6 @@
     "SoftwareDesign/InformationSystems/Liability&Intellectual_property.md",
     "MachineLearning/NaturalLanguageProcessing/Natural_language_processing.md",
     "MachineLearning/GeneticAlgorithms/Genetic_algorithms.md",
-    "MachineLearning/FeatureEngineering/Batch_normalisation.md",
     "XX-Attachments/Images/Pasted image 20251209234644.png",
     "XX-Attachments/Images/Pasted image 20251209234221.png",
     "XX-Attachments/Images/Pasted image 20251209234159.png",
