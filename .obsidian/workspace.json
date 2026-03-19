@@ -231,9 +231,24 @@
               "icon": "lucide-file",
               "title": "Pointwise_mutual_information"
             }
+          },
+          {
+            "id": "84feb5ae5579a4f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Regression/Logistic_regression.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Logistic_regression"
+            }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -310,13 +325,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+                "file": "MachineLearning/Regression/Logistic_regression.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pointwise_mutual_information"
+              "title": "Outline of Logistic_regression"
             }
           }
         ]
@@ -1700,8 +1715,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "d4cdd79f27df6633",
+  "active": "84feb5ae5579a4f4",
   "lastOpenFiles": [
+    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Pointwise_mutual_information.md",
+    "MachineLearning/NeuralNetworks/ActivationFunctions/Sigmoid_function.md",
+    "MachineLearning/Regression/Logistic_regression.md",
+    "MachineLearning/Regression/Linear_regression.md",
     "MachineLearning/Classification/K-nearest_neighbours.md",
     "Cybersecurity/RiskManagement/Quantitative_privacy.md",
     "Cybersecurity/SecurityManagement/Security_threats.md",
@@ -1723,11 +1742,7 @@
     "Cybersecurity/SecurityManagement/Disaster_recovery_planning.md",
     "Cybersecurity/RiskManagement/Annualised_loss_expectancy.md",
     "Cybersecurity/EncryptionSchemes/RSA.md",
-    "MachineLearning/Regression/Logistic_regression.md",
     "MachineLearning/Regression/Synergy_effect.md",
-    "MachineLearning/FeatureEngineering/Normalisation.md",
-    "MachineLearning/FeatureEngineering/FeatureSelectionMetrics/Term_frequency-inverse_document_frequency.md",
-    "MachineLearning/Classification/Semantic_segmentation.md",
     "XX-Attachments/Images/Pasted image 20251209234644.png",
     "XX-Attachments/Images/Pasted image 20251209234221.png",
     "XX-Attachments/Images/Pasted image 20251209234159.png",
