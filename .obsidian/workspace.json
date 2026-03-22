@@ -1717,6 +1717,26 @@
             "id": "6471582d1e38deff",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "d6d230cca2c4f0df",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "a83209d8a7b3a7f3",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -1724,7 +1744,7 @@
             }
           },
           {
-            "id": "d6d230cca2c4f0df",
+            "id": "da64a676d747a6d6",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -1734,7 +1754,7 @@
             }
           }
         ],
-        "currentTab": 131
+        "currentTab": 133
       }
     ],
     "direction": "horizontal",
@@ -1760,7 +1780,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b81cabd8a8dced89",
+  "active": "da64a676d747a6d6",
   "lastOpenFiles": [
     "MachineLearning/ErrorMeasures/Confusion_matrices.md",
     "MachineLearning/ErrorMeasures/AUC.md",
