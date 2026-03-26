@@ -323,7 +323,7 @@
             }
           }
         ],
-        "currentTab": 18
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -400,13 +400,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Regularisation/Regularisation.md",
+                "file": "MachineLearning/ErrorMeasures/Confusion_matrices.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Regularisation"
+              "title": "Outline of Confusion_matrices"
             }
           }
         ]
@@ -1810,10 +1810,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a7d4507a2fc09d52",
+  "active": "279c34c629fe7eea",
   "lastOpenFiles": [
-    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
     "MachineLearning/Regularisation/Regularisation.md",
+    "MachineLearning/ErrorMeasures/Confusion_matrices.md",
     "MachineLearning/Regression/Synergy_effect.md",
     "MachineLearning/Regression/Leverage_statistic.md",
     "MachineLearning/Regression/Logistic_regression.md",
