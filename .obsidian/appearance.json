@@ -1,18 +1,18 @@
 {
   "baseFontSize": 17,
-  "cssTheme": "Minimal",
+  "cssTheme": "PLN",
   "textFontFamily": "Source Sans Pro,Roboto,Calibri,Arial",
   "monospaceFontFamily": "JetBrains Mono",
   "theme": "obsidian",
   "interfaceFontFamily": "Source Sans Pro,JetBrains Mono,Roboto",
   "baseFontSizeAction": false,
-  "translucency": true,
+  "translucency": false,
   "accentColor": "#8fbcbb",
   "showViewHeader": false,
   "nativeMenus": false,
   "enabledCssSnippets": [
-    "nord_col",
-    "center_items"
+    "center_items",
+    "nord_col"
   ],
   "showRibbon": true
 }

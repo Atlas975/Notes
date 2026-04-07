@@ -10,6 +10,8 @@ img {
   display: block !important;
   margin-left: auto !important;
   margin-right: auto !important;
+  margin-top: 20px !important;      /* small space above */
+  margin-bottom: 20px !important;   /* small space below */
 }
 
 /* ========== MATH FONT SIZE ========== */
@@ -35,23 +37,20 @@ mjx-math {
   line-height: 1.5em !important;
 }
 
+/* ========================================
+   Typography & layout settings (with !important)
+   ======================================== */
 
 body {
-  /* Text font size - main text */
-  --font-text-size: 16px;   /* default 16 */
-
-  /* Small font size - sidebars & tabs */
-  --font-ui-small: 13px;    /* default 13 */
+  /* Text sizes */
+  --font-text-size: 17px !important;   /* was textNormal: 16 */
+  --font-ui-small: 14px !important;    /* was textSmall: 13 */
 
   /* Line height */
-  --line-height: 1.5;       /* default 1.5 */
+  --line-height: 1.3 !important;       /* was lineHeight: 1.5 */
 
-  /* Normal line width - characters per line */
-  --line-width: 40rem;      /* default 40 */
-
-  /* Wide line width - for wide elements */
-  --line-width-wide: 50rem; /* default 50 */
-
-  /* Maximum line width % - max % of pane width */
-  --max-width: 88%;         /* default 88 */
+  /* Widths (requires readable line length ON) */
+  --line-width: 45rem !important;      /* was lineWidth: 40 */
+  --line-width-wide: 50rem !important; /* was lineWidthWide: 50 */
+  --max-width: 88% !important;         /* was maxWidth: 88 */
 }

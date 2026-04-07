@@ -19,8 +19,6 @@ ___
 
 ![[Pasted image 20251002205922.png|450|450]]
 
-
-
 ## National cyber security centre framework 
 
 ![[Pasted image 20251002210908.png|500|500]]
