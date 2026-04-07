@@ -33,10 +33,10 @@
   "cycle-through-panes",
   "link-headers-directly",
   "obsidian-style-settings",
-  "obsidian-minimal-settings",
   "no-dupe-leaves",
   "quick-latex",
   "pdf-plus",
   "inscribe",
-  "obsidian-image-toolkit"
+  "obsidian-image-toolkit",
+  "obsidian-minimal-settings"
 ]

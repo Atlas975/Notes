@@ -30,7 +30,28 @@ mjx-math {
 }
 
 /* ========== EDITOR LINE HEIGHT (HEADINGS & LISTS) ========== */
-/* .cm-s-obsidian div.HyperMD-header,
+.cm-s-obsidian div.HyperMD-header,
 .cm-s-obsidian pre.HyperMD-list-line {
   line-height: 1.5em !important;
-} */
+}
+
+
+body {
+  /* Text font size - main text */
+  --font-text-size: 16px;   /* default 16 */
+
+  /* Small font size - sidebars & tabs */
+  --font-ui-small: 13px;    /* default 13 */
+
+  /* Line height */
+  --line-height: 1.5;       /* default 1.5 */
+
+  /* Normal line width - characters per line */
+  --line-width: 40rem;      /* default 40 */
+
+  /* Wide line width - for wide elements */
+  --line-width-wide: 50rem; /* default 50 */
+
+  /* Maximum line width % - max % of pane width */
+  --max-width: 88%;         /* default 88 */
+}

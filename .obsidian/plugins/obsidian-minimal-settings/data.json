@@ -30,7 +30,7 @@
   "folding": true,
   "lineNumbers": false,
   "readableLineLength": true,
-  "devBlockWidth": false,
+  "devBlockWidth": true,
   "theme": "moonstone",
   "useSystemTheme": false
 }
