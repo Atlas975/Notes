@@ -1,13 +1,15 @@
 {
-  "hideRibbon": false,
   "hideStatus": false,
-  "hideTabs": false,
+  "hideTabs": true,
   "hideScroll": false,
   "hideSidebarButtons": true,
   "hideTooltips": false,
+  "hideFileNavButtons": false,
   "hideSearchSuggestions": false,
   "hideSearchCounts": false,
   "hideInstructions": false,
-  "hideMeta": true,
-  "hideVault": true
+  "hidePropertiesReading": false,
+  "hideVault": true,
+  "hideRibbon": false,
+  "hideMeta": true
 }

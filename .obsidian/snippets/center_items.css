@@ -1,16 +1,20 @@
 
-img, .image-embed  {
-  display: block;
+
+
+img,
+.markdown-source-view.mod-cm6 .cm-content > *,
+.markdown-preview-view img {
+  display: block !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
 
 mjx-math {
-  font-size: 19px !important;
+  font-size: 20px !important;
 }
 
 .markdown-reading-view .markdown-preview-view :is(h1, h2, h3, h4, h5, h6) {
-  line-height: 0em !important;
+  line-height: 0.5em !important;
   /* padding: 10px 0px px 0px !important; */
   margin: 30px 0px 30px 0px !important;
 }
@@ -24,12 +28,9 @@ mjx-math {
   margin-block-start: 2.5em;
 } */
 
-.cm-s-obsidian div.HyperMD-header {
-  line-height: 1.5em !important;
-}
-  
-  
+.cm-s-obsidian div.HyperMD-header,
 .cm-s-obsidian pre.HyperMD-list-line {
   line-height: 1.5em !important;
 }
+
 
