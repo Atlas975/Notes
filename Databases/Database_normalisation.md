@@ -28,35 +28,35 @@ ___
 	- **Deletion anomalies**: when deleting data results in the loss of essential information that should have been stored elsewhere, this is prevalent with redundant data dependency 
 	- **Modification anomalies**: when modifying data leads to data inconsistencies, eg updating a name with the change not propagating elsewhere
 ## 1NF: Atomic values
-- No multi-valued attributes,  attributes should be a single value that can't be decomposed further
+- No multi-valued attributes,  attributes should be a single value that can't be decomposed into further attributes
 - The values in each column should also obey [[Database_constraints#Domain constraints|domain constraints]]
 
 > **Problem:**
 > 
-> | staff_num | staff_name    | ==staff_email==                          |
-> | --------- | ------------- | ---------------------------------------- |
-> | 123       | John Doe      | `john.doe@domain.com`, `jdoe@ajob.org`   |
-> | 456       | Emily Doe     | `jane@domain.com`, `jane@anemployer.net` |
-> | 789       | Robert Tables | `littlebobbytables@domain.com`           |
+| staff_num | staff_name    | ==staff_email==                                        |
+| --------- | ------------- | -------------------------------------------------- |
+| 123       | John Doe      | `john.doe@domain.com`, `jdoe@ajob.org`            |
+| 456       | Emily Doe     | `jane@domain.com`, `jane@anemployer.net`          |
+| 789       | Robert Tables | `littlebobbytables@domain.com`                    |
 
 
 - Staff email is non-atomic, instead containing multiple comma-delimited entries, cannot easily select distinct employee emails
 
 > **Solution:**
 > 
-> | ==staff_num== | staff_name    |
->  | --------- | ------------- |
->  | 123       | John Doe      |
->  | 456       | Emily Doe      |
->  | 789       | Robert Tables |
+| ==staff_num== | staff_name    |
+| --------- | ------------- |
+| 123       | John Doe      |
+| 456       | Emily Doe     |
+| 789       | Robert Tables |
 >  
->  | staff_num | ==staff_email==                                         |
->  | --------- | --------------------------------------------------- |
->  | 123       | `john.doe@domain.com`   |
->  | 123       | `jdoe@anemployer.org`   |
->  | 456       | `jane@domain.com`           |
->  | 456       | `jane@anemployer.net` |
->  | 789          |`littlebobbytables@domain.com`   |                                                  
+| staff_num | ==staff_email==                     |
+| --------- | ------------------------------- |
+| 123       | `john.doe@domain.com`           |
+| 123       | `jdoe@anemployer.org`           |
+| 456       | `jane@domain.com`               |
+| 456       | `jane@anemployer.net`           |
+| 789       | `littlebobbytables@domain.com`  |                                          
 
 ## 2NF: Prime attribute dependence
 - No partial aspect of a key should determine [[Database_keys#Non-prime attributes|non-prime attributes]],  attributes should be  fully [[Database_relations#Functional dependency|functionally dependent]] only on the entire key alone
@@ -90,12 +90,12 @@ ___
 - The table should also be in [[#2NF: Non-prime attribute dependence|2NF]]
 
 > **Problem:**
->  
->  | staff_num | staff_name | ==manager_num== | ==manager_name== |
->  | --------- | ---------- | ----------- | ------------ |
-> | 123 | John Doe | 987 | Sara Manageer |  
-> | 456 | Emily Doe | 654 | Jay Deboss |  
-> | 789 | Robert Tables | 321 | Elle Hefe |  
+> 
+> | staff_num | staff_name    | ==manager_num== | ==manager_name==  |
+> | --------- | ------------- | ----------- | ------------- |
+> | 123       | John Doe      | 987         | Sara Manageer |
+> | 456       | Emily Doe     | 654         | Jay Deboss    |
+> | 789       | Robert Tables | 321         | Elle Hefe     |
 >  manager_name is dependent on manager_num which is not a prime attribute
 > 
 > **Solution**
@@ -106,11 +106,11 @@ ___
 > | 456       | Emily Doe      | 654         |
 > | 789       | Robert Tables | 321         |
 >  
->  | manager_num | ==manager_name==  |
-> | ----------- | ------------- |
-> | 987         | Sara Manageer |
-> | 654         | Jay Deboss    |
-> | 321         | Elle Hefe     |
+| manager_num | ==manager_name==  |
+| ----------- | ------------- |
+| 987         | Sara Manageer |
+| 654         | Jay Deboss    |
+| 321         | Elle Hefe     |
 
 ## 3.5NF: Boyce-Codd normal form
 - In BCNF, every non-key attribute is exclusively dependent on the candidate key of the table 
@@ -175,9 +175,8 @@ ___
 | 12345       | 456       | Data Science       |
 | 46578       | 789       | API Development    |
 | 78901       | 123       | Data Visualization |
-
-- This implies a relationship between project need and staff_num which can take on multiple different values and is a redundant dependency to project_need
-
+>  This implies a relationship between project need and staff_num which can take on multiple different values and is a redundant dependency to project_need
+>  
 > **Solution:**
 > 
 > | project_num | staff_num |
@@ -206,9 +205,7 @@ ___
 | 45678 | 789 | API Development |  
 | 78901 | 123 | Data Visualization |  
 > 
-
-All three attributes combine to form a candidate key, adding new entries is difficult as scenarios such as  adding a new project_asset to a project_num might temporarily need a missing staff_num. It's not possible to create an unassigned project 
-
+> All three attributes combine to form a candidate key, adding new entries is difficult as scenarios such as  adding a new project_asset to a project_num might temporarily need a missing staff_num. It's not possible to create an unassigned project 
 > 
 > **Solution:**
 > 
