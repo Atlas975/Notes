@@ -31,12 +31,12 @@
   "quickadd",
   "darlal-switcher-plus",
   "cycle-through-panes",
-  "obsidian-image-toolkit",
   "link-headers-directly",
   "obsidian-style-settings",
   "obsidian-minimal-settings",
   "no-dupe-leaves",
   "quick-latex",
   "pdf-plus",
-  "inscribe"
+  "inscribe",
+  "obsidian-image-toolkit"
 ]
