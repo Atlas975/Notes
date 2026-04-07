@@ -19,38 +19,9 @@ mjx-math {
   font-size: 20px !important;
 }
 
-/* ========== HEADINGS IN READING VIEW ========== */
-.markdown-reading-view .markdown-preview-view :is(h1, h2, h3, h4, h5, h6) {
-  line-height: 0.5em;      /* Tight line height – adjust if text overlaps */
-  margin: 30px 0;          /* Vertical spacing above and below */
-}
-
 /* ========== CENTER TABLES (READING VIEW) ========== */
 .markdown-preview-view table {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* ========== EDITOR LINE HEIGHT (HEADINGS & LISTS) ========== */
-.cm-s-obsidian div.HyperMD-header,
-.cm-s-obsidian pre.HyperMD-list-line {
-  line-height: 1.5em !important;
-}
-
-/* ========================================
-   Typography & layout settings (with !important)
-   ======================================== */
-
-body {
-  /* Text sizes */
-  --font-text-size: 17px !important;   /* was textNormal: 16 */
-  --font-ui-small: 14px !important;    /* was textSmall: 13 */
-
-  /* Line height */
-  --line-height: 1.3 !important;       /* was lineHeight: 1.5 */
-
-  /* Widths (requires readable line length ON) */
-  --line-width: 45rem !important;      /* was lineWidth: 40 */
-  --line-width-wide: 50rem !important; /* was lineWidthWide: 50 */
-  --max-width: 88% !important;         /* was maxWidth: 88 */
-}

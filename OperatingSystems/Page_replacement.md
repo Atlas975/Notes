@@ -43,7 +43,6 @@ a_{i}=\frac{s_{i}}{S\times m}\text{ frames}
 ![[Pasted image 20230118114738.png|300|300]]
 
 - This can be limited via local page replacement, this avoids a memory hungry process from creating page fault for other processes. This limits thrashing to a single process 
-
 ## Replacement speed up methods
 1. The dirty bit can be used to indicate when a page held in primary memory does not match it's counterpart on disk
 2. When a [[Processors|processor]] is idle, it can attempt to free up pages in reserve to be used, this allows for a process to immediately be restarted after it's page request

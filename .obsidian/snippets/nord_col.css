@@ -31,7 +31,7 @@
   --text-a: var(--frost3);
   --text-a-hover: var(--frost2);
 
-  --font-monospace: "Jetbrains Mono", monospace;
+  /* --font-monospace: "Jetbrains Mono", monospace; */
 }
 
 .markdown-source-view.mod-cm6 .cm-content > * {

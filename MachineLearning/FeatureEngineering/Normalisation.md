@@ -26,7 +26,6 @@ $$\mathcal{x'}=\frac{x-\overline{x}}{\sigma}$$
 ## Min-max normalisation 
 - Rescales the feature to a fixed range, usually 0 to 1, or -1 to 1.
 
-
 ![[Pasted image 20220406164052.png|450|450]]
 
 $$\mathcal{x'}=\frac{x-x_{min}}{x_{max}-x_{min}}$$

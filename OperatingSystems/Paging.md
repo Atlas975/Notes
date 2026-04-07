@@ -103,7 +103,7 @@ $$P = \mathbb{P}\text{(page fault)}$$
 
 ![[Pasted image 20221212221901.png|400|400]]
 
-## Shared memory paging
+\begin{bmatrix}\begin{bmatrix}\end{bmatrix}\end{bmatrix}## Shared memory paging
 - Paging can be utilised as a way to create shared memory between processes
 - Useful for shared libraries such as standard OS or math libs
 
