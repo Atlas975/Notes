@@ -11,8 +11,7 @@
 ___
 # Business continuity planning
 - Outlines how a business can re-establish critical operations during a disaster that impacts operations at it's primary site. This is simpler than an [[Incident_response_planning|IRP]] or [[Disaster_recovery_planning|DRP]] 
-- Consists of selecting a continuity strategy and integrating off-site data storage and recovery into it. In
-
+- Consists of selecting a continuity strategy and integrating off-site data storage and recovery into it. 
 
 ![[Pasted image 20251209232757.png|550|550]]
 
