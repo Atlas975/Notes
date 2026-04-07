@@ -12,7 +12,6 @@ ___
 # Regularisation
 - A technique used to prevent [[Bias_variance_tradeoff|overfitting]] in statistical models by adding a controlled penalty to the models complexity, discouraging it from fitting to noise.
 - This can be done by modifying the cost function, these are shrinkage methods and are controlled by a regularisation parameter $(\lambda)$ which can increase model simplicity by being increased
-
 ## Lasso (L1) regularisation 
 - Lasso (Least Absolute Shrinkage and Selection Operator) adds a penalty equal to the absolute value of the magnitude of the coefficients
 - The cost function for Lasso regression is:

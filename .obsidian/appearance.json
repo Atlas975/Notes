@@ -1,6 +1,6 @@
 {
   "baseFontSize": 17,
-  "cssTheme": "Minimal",
+  "cssTheme": "PLN",
   "textFontFamily": "Source Sans Pro,Roboto,Calibri,Arial",
   "monospaceFontFamily": "JetBrains Mono",
   "theme": "obsidian",
@@ -11,7 +11,8 @@
   "showViewHeader": false,
   "nativeMenus": false,
   "enabledCssSnippets": [
-    "center_items"
+    "center_items",
+    "nord_col"
   ],
   "showRibbon": true
 }

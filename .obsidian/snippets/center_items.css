@@ -1,36 +1,36 @@
-
-
-
-img,
+/* ========== CENTER IMAGES (ALL VIEWS) ========== */
+/* Reading View images */
+.markdown-preview-view img,
+/* Image embed containers (both views) */
+.image-embed,
+/* Live Preview: direct block children (wrappers) */
 .markdown-source-view.mod-cm6 .cm-content > *,
-.markdown-preview-view img {
+/* Plain img tags anywhere */
+img {
   display: block !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
 
+/* ========== MATH FONT SIZE ========== */
 mjx-math {
   font-size: 20px !important;
 }
 
+/* ========== HEADINGS IN READING VIEW ========== */
 .markdown-reading-view .markdown-preview-view :is(h1, h2, h3, h4, h5, h6) {
-  line-height: 0.5em !important;
-  /* padding: 10px 0px px 0px !important; */
-  margin: 30px 0px 30px 0px !important;
+  line-height: 0.5em;      /* Tight line height – adjust if text overlaps */
+  margin: 30px 0;          /* Vertical spacing above and below */
 }
 
-
+/* ========== CENTER TABLES (READING VIEW) ========== */
 .markdown-preview-view table {
   margin-left: auto;
   margin-right: auto;
 }
-/* .markdown-preview-view h1 {
-  margin-block-start: 2.5em;
-} */
 
-.cm-s-obsidian div.HyperMD-header,
+/* ========== EDITOR LINE HEIGHT (HEADINGS & LISTS) ========== */
+/* .cm-s-obsidian div.HyperMD-header,
 .cm-s-obsidian pre.HyperMD-list-line {
   line-height: 1.5em !important;
-}
-
-
+} */
