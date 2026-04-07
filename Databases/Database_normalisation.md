@@ -33,11 +33,12 @@ ___
 
 > **Problem:**
 > 
-> | staff_num | staff_name    | ==staff_email== |
->  --------- | ------------- | ----- |
->  123       | John Doe      | `john.doe@domain.com`, `jdoe@ajob.org`     |
->  456       | Emily Doe      | `jane@domain.com` `jane@anemployer.net` |
->  789       | Robert Tables | `littlebobbytables@domain.com`                          |
+> | staff_num | staff_name    | ==staff_email==                          |
+> | --------- | ------------- | ---------------------------------------- |
+> | 123       | John Doe      | `john.doe@domain.com`, `jdoe@ajob.org`   |
+> | 456       | Emily Doe     | `jane@domain.com`, `jane@anemployer.net` |
+> | 789       | Robert Tables | `littlebobbytables@domain.com`           |
+
 
 - Staff email is non-atomic, instead containing multiple comma-delimited entries, cannot easily select distinct employee emails
 
@@ -55,7 +56,7 @@ ___
 >  | 123       | `jdoe@anemployer.org`   |
 >  | 456       | `jane@domain.com`           |
 >  | 456       | `jane@anemployer.net` |
->  | 789          |`littlebobbytables@domain.com`                                                     |
+>  | 789          |`littlebobbytables@domain.com`   |                                                  
 
 ## 2NF: Prime attribute dependence
 - No partial aspect of a key should determine [[Database_keys#Non-prime attributes|non-prime attributes]],  attributes should be  fully [[Database_relations#Functional dependency|functionally dependent]] only on the entire key alone
