@@ -1668,14 +1668,24 @@
             "id": "567dd61216a6c903",
             "type": "leaf",
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
             "id": "0da782c6cd86f5e9",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "512d1562d40f5e91",
             "type": "leaf",
             "state": {
               "type": "Saved Queries View",
@@ -1683,9 +1693,19 @@
               "icon": "feather-mouse-pointer",
               "title": "Saved Queries"
             }
+          },
+          {
+            "id": "2e2370b0ed1e3704",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 135
+        "currentTab": 137
       }
     ],
     "direction": "horizontal",
@@ -1712,7 +1732,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "09e5bd6750609fb5",
+  "active": "2e2370b0ed1e3704",
   "lastOpenFiles": [
     "OperatingSystems/Page_replacement.md",
     "Databases/Database_normalisation.md",
