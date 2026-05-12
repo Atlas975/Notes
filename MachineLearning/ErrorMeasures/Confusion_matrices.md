@@ -46,3 +46,4 @@ $$\frac{TN}{TN+FN}=\frac{TN}{|\text{Predicted negatives}|}$$
 
 $$  2 \cdot\frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}$$
 - This may be more informative than accuracy in cases such as dataset imbalance eg. making only one prediction may result in high accuracy, but a F-score will give a more realistic measurement of a models effectiveness
+
