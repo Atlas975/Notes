@@ -1722,10 +1722,10 @@
             "id": "fb3e20dfacbabcac",
             "type": "leaf",
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -1747,9 +1747,19 @@
               "icon": "feather-mouse-pointer",
               "title": "Saved Queries"
             }
+          },
+          {
+            "id": "46783d891bf5930b",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 140
+        "currentTab": 141
       }
     ],
     "direction": "horizontal",
@@ -1776,7 +1786,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8daa99e2c6e8c00b",
+  "active": "46783d891bf5930b",
   "lastOpenFiles": [
     "Databases/Join_handling.md",
     "Databases/Query_optimisation.md",
