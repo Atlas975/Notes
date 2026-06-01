@@ -518,6 +518,6 @@ def shortestPath(self, grid: List[List[int]], k: int) -> int:
             state = (nr, nc, nk)
             if nk >= 0 and (state not in seen):
                 seen.add(state)
-                heappush(pq, ((mdist(nr, nc) + steps + 1), state, steps + 1))
+                heappush(pq, ((mdist(nr, nc)+steps+1), state, steps+1))
     return -1
 ```
