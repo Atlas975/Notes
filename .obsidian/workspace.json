@@ -1742,14 +1742,24 @@
             "id": "8daa99e2c6e8c00b",
             "type": "leaf",
             "state": {
-              "type": "Saved Queries View",
+              "type": "empty",
               "state": {},
-              "icon": "feather-mouse-pointer",
-              "title": "Saved Queries"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
             "id": "46783d891bf5930b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "de6d62903d8ee014",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -1757,9 +1767,19 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "a025422a431ab8cd",
+            "type": "leaf",
+            "state": {
+              "type": "Saved Queries View",
+              "state": {},
+              "icon": "feather-mouse-pointer",
+              "title": "Saved Queries"
+            }
           }
         ],
-        "currentTab": 141
+        "currentTab": 143
       }
     ],
     "direction": "horizontal",
@@ -1786,7 +1806,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d0ec41ff2daeacb4",
+  "active": "a025422a431ab8cd",
   "lastOpenFiles": [
     "Algorithms/ProgrammingPatterns/Binary_search.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
