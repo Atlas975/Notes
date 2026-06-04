@@ -295,13 +295,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Graph_algorithms"
+              "title": "Outline"
             }
           }
         ]
@@ -1762,14 +1761,24 @@
             "id": "de6d62903d8ee014",
             "type": "leaf",
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
             "id": "a025422a431ab8cd",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "6a8ea277d972ddcc",
             "type": "leaf",
             "state": {
               "type": "Saved Queries View",
@@ -1777,9 +1786,19 @@
               "icon": "feather-mouse-pointer",
               "title": "Saved Queries"
             }
+          },
+          {
+            "id": "46f01f18905f0cd4",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 143
+        "currentTab": 145
       }
     ],
     "direction": "horizontal",
@@ -1806,8 +1825,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a025422a431ab8cd",
+  "active": "46f01f18905f0cd4",
   "lastOpenFiles": [
+    "Algorithms/ProgrammingPatterns/Graph_algorithms.md",
     "Algorithms/ProgrammingPatterns/Binary_search.md",
     "Algorithms/ProgrammingPatterns/Sliding_window.md",
     "Algorithms/ProgrammingPatterns/Math&Geometry_algorithms.md",
@@ -1833,7 +1853,6 @@
     "OperatingSystems/Page_replacement.md",
     "Databases/Database_keys.md",
     "Statistics/Bayes_theorem.md",
-    "Statistics/ProbabilityDistributions/Log-Normal_distribution.md",
     "XX-Attachments/Images/Pasted image 20251209234644.png",
     "XX-Attachments/Images/Pasted image 20251209234221.png",
     "XX-Attachments/Images/Pasted image 20251209234159.png",
